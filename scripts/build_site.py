@@ -44,6 +44,7 @@ def split(s): return [x.strip() for x in (s or "").split(";") if x.strip()]
 def country(c): return COUNTRIES.get(c, c)
 
 boards, ats = load("job_boards.csv"), load("ats_systems.csv")
+for _c in load("countries.csv"): COUNTRIES.setdefault(_c["code"], _c["name"])
 SOURCES = collections.defaultdict(list)
 for _s in load("sources.csv"): SOURCES[_s["board_id"]].append(_s)
 FIELD_LABEL = {"existence":"Existence and description","api_status":"API access","partner_program":"Partner program","ingest_methods":"How jobs get in",
@@ -171,7 +172,7 @@ for b in boards:
     sources_html = ""
     if srcs:
         sources_html = ("<h2>Sources</h2><ol class=\"sources\">" + "".join(
-            f'<li><span class="chip">{e(FIELD_LABEL.get(x["field"], x["field"]))}</span> <a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">{e(x["title"])}</a> <span class="muted small">checked {e(x["accessed"])}</span></li>' for x in srcs) + "</ol>")
+            f'<li><span class="chip">{e(FIELD_LABEL.get(x["field"], x["field"]))}</span> <a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">{e(x["title"])}</a> <span class="muted small">checked {e(x["accessed"])}</span>{('<div class="quote">' + e(x.get("quote","")) + '</div>') if x.get("quote") else ""}</li>' for x in srcs) + "</ol>")
     checked_on = max((x["accessed"] for x in srcs), default="")
     body = f"""<nav class="crumbs"><a href="{r}">Directory</a> / <a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a> / {e(b["name"])}</nav>
 <div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is {article(tdesc(b))} {e(tdesc(b))}{" based in " + e(country(b["hq_country"])) if b["hq_country"] else ""}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
