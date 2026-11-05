@@ -2,16 +2,23 @@
 """Check that each cited quote really appears on its cited page, and annotate the findings file in place.
 Usage: python3 scripts/check_quotes.py FINDINGS.json [...]
 Each source gets "check": "ok" (quote found), "mismatch" (page read, quote not found) or "unreachable" (page not readable here)."""
-import html, json, re, subprocess, sys, unicodedata, concurrent.futures as cf
+import html, json, re, subprocess, sys, time, threading, unicodedata, concurrent.futures as cf
+WIKI_LOCK = threading.Lock()  # one Wikipedia request at a time, with a pause between them
 
 def norm(t):
     t = html.unescape(t); t = unicodedata.normalize("NFKD", t).lower()
     t = t.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     return re.sub(r"[^a-z0-9]+", " ", t).strip()
 def page_text(url):
+    wiki = "wikipedia.org/" in url
+    ua = "JobBoardAtlasResearch/1.0 (open directory of job boards)" if wiki else "Mozilla/5.0 (compatible; directory-check)"
     try:
-        r = subprocess.run(["curl", "-sSL", "-m", "20", "--max-filesize", "3000000", "-A", "Mozilla/5.0 (compatible; directory-check)", "-w", "\n%{http_code}", url],
-                           capture_output=True, text=True, timeout=30)
+        if wiki:
+            with WIKI_LOCK:
+                time.sleep(3)
+                r = subprocess.run(["curl", "-sSL", "-m", "20", "-A", ua, "-w", "\n%{http_code}", url], capture_output=True, text=True, timeout=30)
+        else:
+            r = subprocess.run(["curl", "-sSL", "-m", "20", "--max-filesize", "3000000", "-A", ua, "-w", "\n%{http_code}", url], capture_output=True, text=True, timeout=30)
     except Exception: return None
     body, _, code = r.stdout.rpartition("\n")
     if code.strip() != "200" or len(body) < 200: return None

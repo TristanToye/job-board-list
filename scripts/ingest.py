@@ -159,7 +159,7 @@ def main(argv):
                     if not v.startswith("http"): continue
                 else: v = clean(v, 200)
                 setf(field, v)
-            if b.get("notes"): setf("notes", clean(b["notes"], 400)) if not row["notes"] else (row.__setitem__("notes", (row["notes"] + " " + clean(b["notes"], 300))[:800]) if clean(b["notes"],300) not in row["notes"] else None)
+            if b.get("notes") and strong_ok: setf("notes", clean(b["notes"], 400)) if not row["notes"] else (row.__setitem__("notes", (row["notes"] + " " + clean(b["notes"], 300))[:800]) if clean(b["notes"],300) not in row["notes"] else None)
             if row["primary_language"] and row["primary_language"] not in row["languages_supported"].split(";"):
                 row["languages_supported"] = ";".join([row["primary_language"]] + [x for x in row["languages_supported"].split(";") if x])
             if mode == "discover" and cc not in row["countries_served"].split(";") and row.get("hq_country") != cc:
