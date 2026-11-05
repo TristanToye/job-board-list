@@ -12,6 +12,16 @@ To understand where jobs originate and how they flow: employer, ATS, programmati
 - `data/ats_systems.csv`: applicant tracking systems and whether they expose public job feeds or APIs.
 - `scripts/validate.py`: checks the data and prints a coverage summary. Run `python3 scripts/validate.py`.
 
+## Website
+
+A static site is generated from the CSVs into `docs/` and served by GitHub Pages.
+
+- Build: `python3 scripts/build_site.py` (standard library only).
+- Source: `site_src/` (CSS and JS), settings in `site.json` (name, tagline, `base_url`).
+- Output: a searchable directory, one page per board and ATS, region, country and API-status pages, `sitemap.xml`, `robots.txt`, structured data, and CSV and JSON downloads.
+- Publish: in the repo settings under Pages, choose branch `main` and folder `/docs`.
+- Custom domain: set `base_url` in `site.json`, add a `CNAME` file at the repo root containing the domain, rebuild, and set the domain in Pages settings.
+
 ## Key fields
 
 - `type`: board, aggregator, government, niche-board, social-network, programmatic-distribution, multiposting, feed-aggregator.
