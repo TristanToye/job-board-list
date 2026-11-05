@@ -124,6 +124,7 @@ def main(argv):
                 nonlocal changed
                 cur = row.get(field, "")
                 if value == cur or value == "": return
+                if value == "unknown" and cur not in ("", "unknown"): return  # never replace a known value with "unknown"
                 if field in LISTS:
                     merged = list(dict.fromkeys([x for x in cur.split(";") if x] + [x for x in value.split(";") if x])); value = ";".join(merged)
                     if value == cur: return

@@ -1,0 +1,105 @@
+{
+ "mode": "verify",
+ "country": "UK",
+ "boards": [
+  {
+   "name": "Reed",
+   "url": "https://www.reed.co.uk",
+   "api_status": "unknown",
+   "api_docs_url": "https://www.reed.co.uk/developers",
+   "notes": "Developer page lists a Jobs API for posting jobs and a Jobseeker API for search. Whether a key is needed, how access is requested, and whether it is free are not stated on the page. Employer pricing shown as From only 89 pounds for new customers in the recruiter section, model not stated. Footer lists related brand Reed Group Services; parent not stated. No language options found.",
+   "sources": [
+    {
+     "field": "ingest_methods",
+     "url": "https://www.reed.co.uk/developers",
+     "title": "Developer page",
+     "quote": "Post jobs to reed.co.uk, receive applications and share disposition data",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.reed.co.uk/developers",
+     "title": "Developer page",
+     "quote": "Create your own job search with reed.co.uk's job search & details APIs.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CV-Library",
+   "url": "https://www.cv-library.co.uk",
+   "notes": "Homepage names CV-Library Ltd in its copyright line; headquarters country not stated. No language switcher, employer pricing, or API mention found on the homepage. The /api page returned HTTP 403 on one attempt and was not retried.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.cv-library.co.uk",
+     "title": "Homepage copyright line",
+     "quote": "© Copyright 2000 - 2026 CV-Library Ltd. All rights reserved",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "LinkedIn Jobs",
+   "url": "https://www.linkedin.com/jobs/",
+   "primary_language": "en",
+   "api_status": "unknown",
+   "api_docs_url": "https://developer.linkedin.com/",
+   "notes": "Footer language list shows English (English) as the selected option; no other languages seen on pages read. Developer site has app creation and an Apply now step for one API; access rules not stated on pages read. Only two public pages read (homepage and developer site) to limit automated access.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.linkedin.com/jobs/",
+     "title": "Homepage footer language list",
+     "quote": "English (English)",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://developer.linkedin.com/",
+     "title": "Developer site",
+     "quote": "Create app",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "notes": "Part of Jisc; registered office in Bristol, England. Homepage shows prices from 370 pounds under employer advertising, model not stated. Employers page returned 404. No API or integration mention found on pages read.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.prospects.ac.uk",
+     "title": "Homepage footer",
+     "quote": "Prospects is part of Jisc",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.prospects.ac.uk",
+     "title": "Company information",
+     "quote": "4 Portwall Lane, Bristol, BS1 6NB.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Niche Jobs",
+   "url": "https://www.nichejobs.co.uk",
+   "notes": "Footer reads Niche Jobs - Healthcare + Social Care Job Boards. Operator company, parent, headquarters, employer pricing, language options, and API not stated on pages read. Employers and advertise pages returned 404."
+  },
+  {
+   "name": "CharityJob",
+   "url": "https://www.charityjob.co.uk",
+   "notes": "Homepage describes the site as the only job board specifically created for charity, not for profit, third sector and voluntary jobs in the UK. Operator, parent, country, employer pricing, language options, and API not stated on pages read. Employers and advertise pages returned 404."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "CV-Library",
+   "url": "https://www.cv-library.co.uk/api",
+   "reason": "HTTP 403 on API page; one attempt, not retried. Board homepage read normally."
+  }
+ ]
+}

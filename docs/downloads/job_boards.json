@@ -38,11 +38,11 @@
   "parent": "Microsoft",
   "business_model": "subscription+PPC",
   "api_status": "partner-only",
-  "api_docs_url": "https://developer.linkedin.com",
+  "api_docs_url": "https://developer.linkedin.com/",
   "partner_program": "yes",
   "partner_url": "https://developer.linkedin.com/product-catalog/talent",
   "ingest_methods": "Job Posting (ATS or job distribution tool);Apply Connect;Apply with LinkedIn;Recruiter System Connect",
-  "notes": "Developer catalog lists Job Posting, Apply Connect, Apply with LinkedIn and Recruiter System Connect. The catalog page does not state approval requirements. Job Posting API has its own terms of use.",
+  "notes": "Developer catalog lists Job Posting, Apply Connect, Apply with LinkedIn and Recruiter System Connect. The catalog page does not state approval requirements. Job Posting API has its own terms of use. Footer language list shows English (English) as the selected option; no other languages seen on pages read. Developer site has app creation and an Apply now step for one API; access rules not stated on pages read. Only two public pages read (homepage and developer site) to limit automated access.",
   "confidence": "partially-verified"
  },
  {
@@ -197,13 +197,13 @@
   "region": "North America",
   "niche": "tech",
   "parent": "DHI Group",
-  "business_model": "subscription",
+  "business_model": "per post, subscription",
   "api_status": "partner-only",
   "api_docs_url": "",
   "partner_program": "yes",
   "partner_url": "",
   "ingest_methods": "XML feed;partner API",
-  "notes": "",
+  "notes": "Operated as a DHI service (parent DHI; country not stated). Pricing page lists a Single Job Slot at $399 with the job slot active for 30 days, Starter at $549 to $649 per month, and Standard at $749 to $899 per month, with monthly or annual billing. Pricing is valid for new customers only. Developer page returned no content on fetch. No language options or API mention found on pages read.",
   "confidence": "partially-verified"
  },
  {
@@ -222,11 +222,11 @@
   "parent": "US OPM",
   "business_model": "free",
   "api_status": "public-key",
-  "api_docs_url": "https://developer.usajobs.gov",
+  "api_docs_url": "https://developer.usajobs.gov/",
   "partner_program": "n/a",
   "partner_url": "https://developer.usajobs.gov",
   "ingest_methods": "REST API (key)",
-  "notes": "Free API key; authoritative source for US federal jobs",
+  "notes": "Free API key; authoritative source for US federal jobs Operated by the US Office of Personnel Management. API key requirement not confirmed: the authentication guide and Job Search API page could not be read on fetch (one returned an error page). No language options or employer pricing found on pages read.",
   "confidence": "partially-verified"
  },
  {
@@ -387,7 +387,7 @@
   "partner_program": "yes",
   "partner_url": "https://www.reed.co.uk/developers",
   "ingest_methods": "REST API (key)",
-  "notes": "Job search + posting APIs",
+  "notes": "Job search + posting APIs Developer page lists a Jobs API for posting jobs and a Jobseeker API for search. Whether a key is needed, how access is requested, and whether it is free are not stated on the page. Employer pricing shown as From only 89 pounds for new customers in the recruiter section, model not stated. Footer lis",
   "confidence": "partially-verified"
  },
  {
@@ -433,7 +433,7 @@
   "partner_program": "yes",
   "partner_url": "",
   "ingest_methods": "API;XML feed",
-  "notes": "",
+  "notes": "Homepage names CV-Library Ltd in its copyright line; headquarters country not stated. No language switcher, employer pricing, or API mention found on the homepage. The /api page returned HTTP 403 on one attempt and was not retried.",
   "confidence": "partially-verified"
  },
  {
@@ -1416,13 +1416,13 @@
   "region": "North America",
   "niche": "startup",
   "parent": "",
-  "business_model": "subscription/free",
+  "business_model": "free",
   "api_status": "none-known",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "Formerly AngelList Talent",
+  "notes": "Formerly AngelList Talent Wellfound says it was spun out as AL Talent, Inc. and rebranded; it states that Wellfound and AngelList are separate companies. Headquarters not stated. Developer page has no API or partner program text. Pricing page returned 404. No language options found.",
   "confidence": "partially-verified"
  },
  {
@@ -2641,7 +2641,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Part of Jisc; registered office in Bristol, England. Homepage shows prices from 370 pounds under employer advertising, model not stated. Employers page returned 404. No API or integration mention found on pages read.",
   "confidence": "partially-verified"
  },
  {
