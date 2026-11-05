@@ -19,7 +19,7 @@
   "partner_url": "https://docs.indeed.com",
   "ingest_methods": "XML feed;Indeed Apply;ATS partner integration;crawl",
   "notes": "Legacy Publisher API retired; integrations now via partner program. Official pages returned HTTP 403 to automated fetch on 2026-11-05, so developer and partner details are unverified.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "linkedin",
@@ -63,7 +63,7 @@
   "partner_url": "",
   "ingest_methods": "JobPosting schema.org markup;Indexing API",
   "notes": "No board; indexes structured data from employers/ATS/boards. Major distribution channel",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "ziprecruiter",
@@ -85,7 +85,7 @@
   "partner_url": "",
   "ingest_methods": "XML feed;partner API;ATS integration",
   "notes": "Official pages returned HTTP 403 to automated fetch on 2026-11-05, so developer and partner details are unverified.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "glassdoor",
@@ -129,7 +129,7 @@
   "partner_url": "",
   "ingest_methods": "XML feed;partner API",
   "notes": "Merged with CareerBuilder 2021; check current status",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "careerbuilder",
@@ -151,7 +151,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Post-bankruptcy 2020 and merger; verify if still operating as distinct network",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "simplyhired",
@@ -195,7 +195,7 @@
   "partner_url": "",
   "ingest_methods": "XML feed;partner API",
   "notes": "",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "usajobs",
@@ -1889,7 +1889,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed as a Job Bank feed partner. Homepage returned HTTP 403 to automated fetch on 2026-11-05. Reported as Quebec-focused and bilingual by third-party roundups, which disagree on its main region.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "careerbeacon",
@@ -1933,7 +1933,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Homepage returned HTTP 503 on 2026-11-05. Job Junction describes it as a search engine that finds new job announcements from employers across Canada.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "workopolis",
@@ -1955,7 +1955,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Homepage returned HTTP 403 on 2026-11-05. May no longer operate as an independent job board. Status unconfirmed. Job Junction still lists it as a job search site, which conflicts with the acquisition lead in the research queue.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "talentegg",
@@ -1977,7 +1977,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed as a Job Bank feed partner. Site not yet fetched. Niche from general knowledge.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "agcareers",
@@ -1999,7 +1999,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed as a Job Bank feed partner. Site not yet fetched. Niche from general knowledge.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "careersinfood",
@@ -2021,7 +2021,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed as a Job Bank feed partner. Site not yet fetched. Niche from general knowledge.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "civicjobs",
@@ -2043,7 +2043,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed as a Job Bank feed partner. Site not yet fetched. Niche from general knowledge.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "applytoeducation",
@@ -2065,7 +2065,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed as a Job Bank feed partner. Site not yet fetched. Niche from general knowledge.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "jobsmedia",
@@ -2087,7 +2087,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed as a Job Bank feed partner. Website and focus not yet identified.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "magnet",
@@ -2109,7 +2109,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed as a Job Bank feed partner. The Job Bank About and Network pages give different Magnet addresses. Not yet verified.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "alis-alberta",
@@ -2131,7 +2131,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Described by the directory as a provincial gateway provided by ALIS. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "best-jobs-canada",
@@ -2153,7 +2153,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "gaulin-media",
@@ -2175,7 +2175,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "media-job-search-canada",
@@ -2197,7 +2197,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "tesl-canada",
@@ -2219,7 +2219,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "wow-jobs",
@@ -2241,7 +2241,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Calls itself Canada's largest job search engine (the site's own claim as relayed by the directory). Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "indigenous-careers",
@@ -2263,7 +2263,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Described by the directory as Canada's national Aboriginal job site. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "allstarjobs",
@@ -2285,7 +2285,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Described by the directory as a career resource linking to about 5,000 career websites. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "canada-jobs",
@@ -2307,7 +2307,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Canada wide, searchable by province per the directory. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "sirc-canadian-sport",
@@ -2329,7 +2329,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Employment section of the Sport Information Resource Centre, a not-for-profit, per the directory. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "education-canada",
@@ -2351,7 +2351,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "esl-cafe",
@@ -2373,7 +2373,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "International ESL and EFL teacher community with a job center. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "goodwork-canada",
@@ -2395,7 +2395,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Describes itself as Canada's green job site since 2001, per the directory. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "iitjobs",
@@ -2417,7 +2417,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Directory says it serves job seekers around the world. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  },
  {
   "id": "jobshark",
@@ -2439,6 +2439,6 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Describes itself as Canada's oldest online job board, per the directory. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "partially-verified"
+  "confidence": "listed-only"
  }
 ]

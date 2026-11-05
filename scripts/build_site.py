@@ -102,6 +102,7 @@ def write(rel, content, lastmod=True):
 
 def conf_badge(c):
     if c == "seed-unverified": return '<span class="badge warn" title="No facts on this page have been checked against a primary source yet">Unverified</span>'
+    if c == "listed-only": return '<span class="badge" title="Only confirmed as listed by another directory. Nothing else has been checked">Listed only</span>'
     return '<span class="badge ok" title="Some facts are checked. See the sources list on this page">Partly verified</span>'
 def api_badge(s): return f'<span class="badge api-{e(s)}">{e(API_LABEL.get(s,s))}</span>'
 def chips(vals): return "".join(f'<span class="chip">{e(v)}</span>' for v in vals) or '<span class="muted">Not recorded</span>'
@@ -125,14 +126,14 @@ def opts(key):
     return "".join(f'<option value="{e(v)}">{e(API_LABEL.get(v, v))}</option>' for v in vals)
 lang_counts = collections.Counter(c for b in boards for c in langs_of(b))
 lang_opts = "".join(f'<option value="{e(c)}">{e(lang(c))}</option>' for c in sorted(lang_counts, key=lang))
-checked = sum(1 for b in boards if SOURCES.get(b["id"]))
+checked = sum(1 for b in boards if b["confidence"] == "partially-verified")
 apicount = collections.Counter(b["api_status"] for b in boards)
 home_body = f"""
 <section class="hero"><h1>Every job board, aggregator and ATS, and how to integrate with them</h1>
 <p class="lede">{e(CFG["tagline"])}. Search {len(boards)} boards and {len(ats)} applicant tracking systems across regions and countries. Find who has an API, a partner program or a developer portal.</p>
-<div class="stats"><div><b>{len(boards)}</b><span>boards and aggregators</span></div><div><b>{checked}</b><span>with cited sources</span></div><div><b>{len(ats)}</b><span>ATS systems</span></div>
+<div class="stats"><div><b>{len(boards)}</b><span>boards and aggregators</span></div><div><b>{checked}</b><span>checked against sources</span></div><div><b>{len(ats)}</b><span>ATS systems</span></div>
 <div><b>{apicount["public-open"] + apicount["public-key"]}</b><span>with a public API</span></div><div><b>{apicount["partner-only"]}</b><span>partner-only</span></div></div>
-<p class="notice"><strong>Early data.</strong> {checked} of {len(boards)} entries have facts checked against cited sources, starting with Canada. The rest were compiled from general knowledge and are marked Unverified. Treat them as leads.</p></section>
+<p class="notice"><strong>Early data.</strong> {checked} of {len(boards)} entries have facts checked against cited sources, starting with Canada. Others are only confirmed as listed by another directory, and the rest were compiled from general knowledge. Treat anything not marked Partly verified as a lead.</p></section>
 <section aria-label="Search the directory"><div class="filters">
 <label class="grow">Search<input id="q" type="search" placeholder="Name, country, language, niche, parent company..." autocomplete="off"></label>
 <label>Region<select id="f-region"><option value="">All</option>{opts("region")}</select></label>
@@ -186,7 +187,7 @@ for b in boards:
 {f'<h2>Notes</h2><p>{e(b["notes"])}</p>' if b["notes"] else ""}
 <p class="muted small">{e(b["name"])} and its logo are trademarks of their respective owners. Icons are shown for identification only and do not imply affiliation or endorsement.</p>
 {sources_html}
-<p class="notice">Only facts listed under Sources have been checked. Everything else on this page is unverified. <a href="{r}about/">How we research</a>.</p>
+<p class="notice">Only facts listed under Sources have been checked, and a listing by another directory only shows a board exists. Everything else on this page is unverified. <a href="{r}about/">How we research</a>.</p>
 {"<h2>Other boards in " + e(b["region"]) + "</h2><ul>" + "".join(f'<li><a href="{r}boards/{x["id"]}/">{e(x["name"])}</a></li>' for x in siblings) + "</ul>" if siblings else ""}"""
     ld = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
       {"@type":"ListItem","position":1,"name":"Directory","item":BASE+"/"},
@@ -225,9 +226,9 @@ write("countries/index.html", layout(1, f"Job boards by country | {NAME}", "Brow
 for k, v in by_country.items():
     hq = [b for b in v if country(b["hq_country"]) == k]
     sv = len(v) - len(hq)
-    nchk = sum(1 for b in v if SOURCES.get(b["id"]))
+    nchk = sum(1 for b in v if b["confidence"] == "partially-verified")
     body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">By country</a> / {e(k)}</nav><h1>Job boards in {e(k)}</h1>'
-            f'<p class="lede">{len(v)} job boards and aggregators based in or serving {e(k)}: {len(hq)} headquartered there and {sv} based elsewhere that serve it. {nchk} have facts checked against cited sources.</p>'
+            f'<p class="lede">{len(v)} job boards and aggregators based in or serving {e(k)}: {len(hq)} headquartered there and {sv} based elsewhere that serve it. {nchk} have facts checked against their own pages or official sources.</p>'
             + table(sorted(v, key=lambda b: b["name"].lower()), "../../"))
     write(f"countries/{slug(k)}/index.html", layout(2, f"Job boards in {k}: APIs, partner programs and sources | {NAME}",
         f"{len(v)} job boards and aggregators based in or serving {k}, with API access, partner programs and cited sources.", body, f"/countries/{slug(k)}/"))
@@ -269,7 +270,7 @@ for a in ats:
 # ---------- about ----------
 about = f"""<h1>About and methodology</h1><div class="prose">
 <p>{e(NAME)} is an open, free directory maintained by {e(CFG["author"])}. It exists to give a neutral view of how job boards, aggregators and ATS systems are organised by market, region and country, and how open each is to integration.</p>
-<h2>How the data is compiled</h2><p>The initial list was compiled from general industry knowledge. Each entry is then checked against the board's own documentation, developer portal or pricing pages, and every checked fact is listed under Sources on its page with the date it was read. Entries with no cited sources carry an Unverified label. Some large sites block automated access, and those stay Unverified until they can be checked another way. Where a site's terms forbid scraping, we read only its public pages and do not collect data by automated means.</p>
+<h2>How the data is compiled</h2><p>The initial list was compiled from general industry knowledge. Each entry is then checked against the board's own documentation, developer portal or pricing pages, and every checked fact is listed under Sources on its page with the date it was read. Entries with no cited sources carry an Unverified label. Entries cited only to another directory or to a partner list carry a Listed only label, because that shows a board exists but nothing else. Some large sites block automated access, and those stay Unverified until they can be checked another way. Where a site's terms forbid scraping, we read only its public pages and do not collect data by automated means.</p>
 <h2>Definitions</h2><ul><li><strong>Open API:</strong> usable without approval.</li><li><strong>Self-serve API key:</strong> documented API with a signup or key request.</li>
 <li><strong>Partner-only:</strong> access requires an approved partner or commercial agreement.</li><li><strong>No known API:</strong> nothing publicly documented was found.</li><li><strong>Unknown:</strong> not yet researched.</li></ul>
 <h2>Trademarks and logos</h2><p>Names and icons shown in this directory belong to their respective owners and are used only to identify the services described. Their use does not imply any affiliation with or endorsement by those owners. Owners who would like an icon removed or changed can open an issue on the project repository.</p>

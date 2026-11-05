@@ -33,7 +33,7 @@ A static site is generated from the CSVs into `docs/` and served by GitHub Pages
 - `partner_program` / `partner_url`: whether an ATS or employer integration program exists.
 - `ingest_methods`: how jobs get in (XML feed, API, apply integration, crawl, schema.org markup).
 - `countries_served`: ISO 3166 codes (semicolon separated) of countries the board is known to serve besides its HQ country. Filled in as countries are researched.
-- `confidence`: `seed-unverified` means no fact in the row has a citation. `partially-verified` means at least one fact is cited in `sources.csv`. Only cited facts are checked.
+- `confidence`: `seed-unverified` means no fact in the row has a citation. `listed-only` means the only citations are third-party listings or partner lists (fields `listed_by` and `relationship`), which show a board exists and nothing more. `partially-verified` means at least one fact is cited to the board's own pages or an official source. Only cited facts are checked.
 
 ## Status
 

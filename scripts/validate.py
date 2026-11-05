@@ -27,9 +27,11 @@ for x in src:
     if x["board_id"] not in ids: print(f"source: unknown board {x['board_id']}"); bad += 1
     if not x["url"].startswith("https://"): print(f"source {x['board_id']}: bad url {x['url']!r}"); bad += 1
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", x["accessed"]): print(f"source {x['board_id']}: bad date {x['accessed']!r}"); bad += 1
-sourced = {x["board_id"] for x in src}
+WEAK = {"listed_by", "relationship"}
+sourced = {x["board_id"] for x in src}; strong = {x["board_id"] for x in src if x["field"] not in WEAK}
 for r in boards:
-    if (r["id"] in sourced) != (r["confidence"] != "seed-unverified"): print(f"board {r['id']}: confidence does not match sources"); bad += 1
+    want = "partially-verified" if r["id"] in strong else "listed-only" if r["id"] in sourced else "seed-unverified"
+    if r["confidence"] != want: print(f"board {r['id']}: confidence {r['confidence']!r} should be {want!r}"); bad += 1
     for cd in r["countries_served"].split(";"):
         if cd and not re.fullmatch(r"[A-Z]{2}", cd): print(f"board {r['id']}: bad country code {cd!r}"); bad += 1
 c = collections.Counter
@@ -37,5 +39,5 @@ print(f"{len(boards)} boards, {len(ats)} ATS")
 print("api_status:", dict(c(r["api_status"] for r in boards)))
 print("region:", dict(c(r["region"] for r in boards)))
 print("primary_language:", dict(c(r["primary_language"] for r in boards)))
-print("with cited sources:", len(sourced), "/", len(boards), "|", len(src), "citations")
+print("checked (strong sources):", len(strong), "| listed only:", len(sourced - strong), "| unverified:", len(boards) - len(sourced), "| citations:", len(src))
 sys.exit(1 if bad else 0)
