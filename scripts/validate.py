@@ -29,7 +29,9 @@ for x in src:
 WEAK = {"listed_by", "relationship"}
 sourced = {x["board_id"] for x in src}; strong = {x["board_id"] for x in src if x["field"] not in WEAK}
 for r in boards:
-    want = "partially-verified" if r["id"] in strong else "listed-only" if r["id"] in sourced else "seed-unverified"
+    own = {x["board_id"] for x in src if x["field"] not in WEAK and "wikipedia.org" not in x["url"]}
+    want = "partially-verified" if r["id"] in own else "secondary-sourced" if r["id"] in strong else "listed-only" if r["id"] in sourced else "seed-unverified"
+    if r["founded"] and not re.fullmatch(r"(19|20)\d\d", r["founded"]): print(f"board {r['id']}: bad founded {r['founded']!r}"); bad += 1
     if r["confidence"] != want: print(f"board {r['id']}: confidence {r['confidence']!r} should be {want!r}"); bad += 1
     for cd in r["countries_served"].split(";"):
         if cd and not re.fullmatch(r"[A-Z]{2}", cd): print(f"board {r['id']}: bad country code {cd!r}"); bad += 1
@@ -38,5 +40,6 @@ print(f"{len(boards)} boards, {len(ats)} ATS")
 print("api_status:", dict(c(r["api_status"] for r in boards)))
 print("region:", dict(c(r["region"] for r in boards)))
 print("primary_language:", dict(c(r["primary_language"] for r in boards)))
-print("checked (strong sources):", len(strong), "| listed only:", len(sourced - strong), "| unverified:", len(boards) - len(sourced), "| citations:", len(src))
+own_ids = {x["board_id"] for x in src if x["field"] not in WEAK and "wikipedia.org" not in x["url"]}
+print("checked (strong sources):", len(strong), "| secondary only:", len(strong - own_ids), "| listed only:", len(sourced - strong), "| unverified:", len(boards) - len(sourced), "| citations:", len(src))
 sys.exit(1 if bad else 0)

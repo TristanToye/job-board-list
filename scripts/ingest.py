@@ -17,7 +17,9 @@ TYPES = {"board","aggregator","niche-board","government","social-network+board",
 API = {"public-open","public-key","on-request","partner-only","deprecated","none-known","unknown"}
 WEAK = {"listed_by","relationship"}
 SRC_FIELDS = WEAK | {"existence","parent","languages","business_model","api_status","partner_program","ingest_methods","terms"}
-NEEDS = {"hq_country":"existence","parent":"parent","primary_language":"languages","languages_supported":"languages","business_model":"business_model",
+REFERENCE = {"wikipedia.org"}  # secondary sources: allowed for existence, parent and founded only
+REF_FIELDS = {"existence", "parent"}
+NEEDS = {"hq_country":"existence","founded":"existence","parent":"parent","primary_language":"languages","languages_supported":"languages","business_model":"business_model",
          "api_status":"api_status","api_docs_url":"api_status","partner_program":"partner_program","partner_url":"partner_program","ingest_methods":"ingest_methods"}
 BASIC = {"name","url","type","niche","countries_served","markets"}
 LISTS = {"countries_served","languages_supported","ingest_methods"}
@@ -82,9 +84,9 @@ def main(argv):
     conflicts, queue_add, stats = [], [], collections.Counter()
     for fn in files:
         d = json.load(open(fn, encoding="utf-8")); cc = str(d.get("country", "")).upper().replace("GB", "UK")
-        if cc not in countries: print(f"{fn}: unknown country {cc!r}, skipped"); continue
+        if mode != "reference" and cc not in countries: print(f"{fn}: unknown country {cc!r}, skipped"); continue
         mode = d.get("mode")
-        if mode not in ("discover", "verify"): print(f"{fn}: bad mode"); continue
+        if mode not in ("discover", "verify", "reference"): print(f"{fn}: bad mode"); continue
         for q in d.get("blocked", []) + d.get("queue", []):
             if q.get("name") and not bad_text(json.dumps(q)): queue_add.append([clean(q["name"],80), clean(q.get("url",""),200), cc, "verification", clean(q.get("reason",""),200), TODAY])
         for b in d.get("boards", []):
@@ -98,7 +100,7 @@ def main(argv):
                 typ = clean(b.get("type"), 40).lower()
                 if typ not in TYPES: reject("board", name, f"bad type {typ!r}"); stats["rejected"] += 1; continue
                 rid = slug(name); rid = rid if rid not in by else f"{rid}-{cc.lower()}"
-                row = {c: "" for c in cols}; row.update(id=rid, name=name, url=url, type=typ, region=countries[cc]["region"], confidence="seed-unverified",
+                row = {c: "" for c in cols}; row.update(id=rid, name=name, url=url, type=typ, region=(countries.get(cc) or countries.get((norm_codes(b.get("countries_served")) or [""])[0]) or {"region": "Global"})["region"], confidence="seed-unverified",
                     api_status="unknown", partner_program="unknown", primary_language="")
             # accepted sources
             good = {}
@@ -107,7 +109,7 @@ def main(argv):
                 if f not in SRC_FIELDS or not su.startswith("https://") and not su.startswith("http://"): reject("source", name, f"bad field or url {f!r}"); continue
                 if f in WEAK:
                     good.setdefault(f, []).append(s | {"url": su, "quote": q}); continue
-                same = regdom(host(su)) in {site, regdom(host(row.get("api_docs_url",""))), regdom(host(row.get("partner_url","")))}
+                same = regdom(host(su)) in {site, regdom(host(row.get("api_docs_url",""))), regdom(host(row.get("partner_url","")))} or (regdom(host(su)) in REFERENCE and f in REF_FIELDS)
                 if not same: reject("source", name, f"strong source off the board's domain: {host(su)}"); continue
                 if not q or len(q.split()) > 30: reject("source", name, f"{f}: missing or long quote"); continue
                 if s.get("check") == "mismatch": reject("source", name, f"{f}: quote not found on page"); continue
@@ -137,6 +139,8 @@ def main(argv):
                 if field not in b or need not in strong_ok: continue
                 v = b[field]
                 if field == "hq_country": v = (norm_codes(v) or [""])[0]
+                elif field == "founded":
+                    v = str(v).strip(); v = v if re.fullmatch(r"(19|20)\d\d", v) else ""
                 elif field == "languages_supported": v = ";".join(norm_langs(v))
                 elif field == "primary_language": v = (norm_langs(v) or [""])[0]
                 elif field == "ingest_methods": v = ";".join(clean(x, 80) for x in (v if isinstance(v, list) else str(v).split(";")) if x)
@@ -154,7 +158,7 @@ def main(argv):
             if b.get("notes"): setf("notes", clean(b["notes"], 400)) if not row["notes"] else (row.__setitem__("notes", (row["notes"] + " " + clean(b["notes"], 300))[:800]) if clean(b["notes"],300) not in row["notes"] else None)
             if row["primary_language"] and row["primary_language"] not in row["languages_supported"].split(";"):
                 row["languages_supported"] = ";".join([row["primary_language"]] + [x for x in row["languages_supported"].split(";") if x])
-            if cc not in row["countries_served"].split(";") and row.get("hq_country") != cc and mode == "discover":
+            if mode == "discover" and cc not in row["countries_served"].split(";") and row.get("hq_country") != cc:
                 row["countries_served"] = ";".join([x for x in row["countries_served"].split(";") if x] + [cc])
             for f, lst in good.items():
                 for s in lst:
@@ -166,7 +170,8 @@ def main(argv):
             else: stats["merged"] += 1
     for r in boards:
         ids = {s["field"] for s in srcs if s["board_id"] == r["id"]}
-        r["confidence"] = "partially-verified" if ids - WEAK else "listed-only" if ids else "seed-unverified"
+        own = {s["field"] for s in srcs if s["board_id"] == r["id"] and s["field"] not in WEAK and regdom(host(s["url"])) not in REFERENCE}
+        r["confidence"] = "partially-verified" if own else "secondary-sourced" if ids - WEAK else "listed-only" if ids else "seed-unverified"
     print(dict(stats), "conflicts:", len(conflicts), "queued:", len(queue_add), "rejections:", len(log_lines))
     for k, n, w in log_lines[:40]: print("  reject", k, n, "|", w)
     if dry: print("dry run, nothing written"); return

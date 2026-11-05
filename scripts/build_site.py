@@ -103,6 +103,7 @@ def write(rel, content, lastmod=True):
 
 def conf_badge(c):
     if c == "seed-unverified": return '<span class="badge warn" title="No facts on this page have been checked against a primary source yet">Unverified</span>'
+    if c == "secondary-sourced": return '<span class="badge" title="Facts come from a secondary source such as Wikipedia, not the board itself">Secondary source</span>'
     if c == "listed-only": return '<span class="badge" title="Only confirmed as listed by another directory. Nothing else has been checked">Listed only</span>'
     return '<span class="badge ok" title="Some facts are checked. See the sources list on this page">Partly verified</span>'
 def api_badge(s): return f'<span class="badge api-{e(s)}">{e(API_LABEL.get(s,s))}</span>'
@@ -172,12 +173,12 @@ for b in boards:
     sources_html = ""
     if srcs:
         sources_html = ("<h2>Sources</h2><ol class=\"sources\">" + "".join(
-            f'<li><span class="chip">{e(FIELD_LABEL.get(x["field"], x["field"]))}</span> <a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">{e(x["title"])}</a> <span class="muted small">checked {e(x["accessed"])}</span>{('<div class="quote">' + e(x.get("quote","")) + '</div>') if x.get("quote") else ""}</li>' for x in srcs) + "</ol>")
+            f'<li><span class="chip">{e(FIELD_LABEL.get(x["field"], x["field"]))}</span> <a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">{e(x["title"])}</a>{" (secondary source)" if "wikipedia.org" in x["url"] else ""} <span class="muted small">checked {e(x["accessed"])}</span>{('<div class="quote">' + e(x.get("quote","")) + '</div>') if x.get("quote") else ""}</li>' for x in srcs) + "</ol>")
     checked_on = max((x["accessed"] for x in srcs), default="")
     body = f"""<nav class="crumbs"><a href="{r}">Directory</a> / <a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a> / {e(b["name"])}</nav>
 <div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is {article(tdesc(b))} {e(tdesc(b))}{" based in " + e(country(b["hq_country"])) if b["hq_country"] else ""}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
 <p>{api_badge(b["api_status"])} {conf_badge(b["confidence"])}</p>
-<dl class="facts">{fact("Website", link(b["url"]))}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Type", e(b["type"]))}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>' if b["hq_country"] else '<span class="muted">Not recorded</span>')}
+<dl class="facts">{fact("Website", link(b["url"]))}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Type", e(b["type"]))}{fact("Founded", e(b["founded"])) if b["founded"] else ""}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>' if b["hq_country"] else '<span class="muted">Not recorded</span>')}
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
 {fact("Primary language", f'<a href="{r}languages/{slug(lang(b["primary_language"]))}/">{e(lang(b["primary_language"]))}</a>' if b["primary_language"] else '<span class="muted">Not recorded</span>')}{fact("Languages supported", "".join(f'<a class="chip" href="{r}languages/{slug(lang(c))}/">{e(lang(c))}</a>' for c in langs_of(b)) or '<span class="muted">Not recorded</span>')}
 {fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Parent organisation", e(b["parent"]) or '<span class="muted">None recorded</span>')}
