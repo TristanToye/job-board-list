@@ -1,0 +1,290 @@
+{
+ "mode": "discover",
+ "country": "ES",
+ "boards": [
+  {
+   "name": "SEPE (Servicio Público de Empleo Estatal)",
+   "url": "https://www.sepe.es/",
+   "type": "government",
+   "niche": "public-employment",
+   "countries_served": [
+    "ES"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.sepe.es/",
+     "title": "Servicio Publico de Empleo Estatal SEPE",
+     "quote": "Únete a Garantía Juvenil Plus para estar más cerca de tu próximo empleo.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Trabajos.com",
+   "url": "https://www.trabajos.com/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "ES"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.trabajos.com/",
+     "title": "Trabajos.com - Ofertas de trabajo, Bolsa de empleo",
+     "quote": "Cuéntanos el puesto de trabajo que te interesa para conectar con las mejores oportunidades en trabajos.com",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Talent.com",
+   "url": "https://es.talent.com/",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "ES"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://es.talent.com/",
+     "title": "Talent.com: Búsqueda de empleo | Encuentra ofertas cerca de ti",
+     "quote": "Navega entre más de 40 millones de ofertas de trabajo, guarda las que te gusten y aplica en segundos.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jooble",
+   "url": "https://es.jooble.org/",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "ES"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://es.jooble.org/",
+     "title": "Trabajo en España - 160.000+ Ofertas de Empleo Disponibles - Jooble",
+     "quote": "Más de 160000 ofertas de empleo actuales de 1160 sitios web están disponibles para ti.",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "Tecnoempleo",
+   "url": "https://www.tecnoempleo.com/",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "ES"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.tecnoempleo.com/",
+     "title": "tecnoempleo - Portal de Empleo en Informática y Telecomunicaciones",
+     "quote": "Portal de empleo especializado en informática y telecomunicaciones",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ticjob",
+   "url": "https://www.ticjob.es/",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "ES"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.ticjob.es/",
+     "title": "Busca trabajo en informatica y telecomunicaciones - ticjob",
+     "quote": "Avanza hacia tu empleo digital ideal.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Experteer",
+   "url": "https://www.experteer.es/",
+   "type": "niche-board",
+   "niche": "executive",
+   "countries_served": [
+    "ES"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.experteer.es/",
+     "title": "Ofertas de empleo para profesionales de alto nivel - Acceso a headhunters en Experteer.es",
+     "quote": "Empleos de alto nivel y ofertas exclusivas de headhunters.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "StudentJob ES",
+   "url": "https://www.studentjob.es/",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "ES"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.studentjob.es/",
+     "title": "Portal de empleo para jóvenes - Buscar trabajo | StudentJob ES",
+     "quote": "Nuestro foco principal es conectar estudiantes con su negocio de manera rápida y efectiva.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Lanbide",
+   "url": "https://www.lanbide.euskadi.eus/",
+   "type": "government",
+   "niche": "regional-public-employment",
+   "countries_served": [
+    "ES"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.lanbide.euskadi.eus/",
+     "title": "Lanbide",
+     "quote": "Lanbiden zugan espezializatutako zerbitzuak ditugu.",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "type": "government",
+   "niche": "regional-public-employment",
+   "countries_served": [
+    "ES"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.comunidad.madrid/servicios/empleo",
+     "title": "Empleo | Comunidad de Madrid",
+     "quote": "Iniciativa de la Comunidad de Madrid para conectar el talento madrileño con las empresas de la región.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Indeed Spain",
+   "url": "https://es.indeed.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Monster Spain",
+   "url": "https://www.monster.com/es/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Empléate (SEPE employment portal)",
+   "url": "https://www.empleate.gob.es/empleate/",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "FlexJobs",
+   "url": "https://www.flexjobs.com/",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Adzuna Spain",
+   "url": "https://www.adzuna.es/",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Turijobs",
+   "url": "https://www.turijobs.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Glassdoor Spain",
+   "url": "https://www.glassdoor.es/",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Careerjet Spain",
+   "url": "https://www.careerjet.es/",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Labora (Generalitat Valenciana employment service)",
+   "url": "https://www.labora.gva.es/",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Iberempleo",
+   "url": "https://www.iberempleo.es/",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  },
+  {
+   "name": "Feina (Generalitat de Catalunya)",
+   "url": "https://www.feina.gencat.cat/",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  },
+  {
+   "name": "SAE Andalucía",
+   "url": "https://www.sae.juntadeandalucia.es/",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  },
+  {
+   "name": "Emprego Xunta de Galicia",
+   "url": "https://www.emprego.xunta.gal/",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  }
+ ],
+ "queue": [
+  {
+   "name": "InfoJobs",
+   "url": "https://www.infojobs.net/",
+   "reason": "Homepage returned HTTP 456 on two attempts, body not read; named as the largest Spanish board in a roundup"
+  },
+  {
+   "name": "Infoempleo",
+   "url": "https://www.infoempleo.com/",
+   "reason": "Fetch failed with a tool error, page not read; named as second largest Spanish job finding web in a government startup directory"
+  },
+  {
+   "name": "Infotrabajo",
+   "url": "https://www.infotrabajo.es/",
+   "reason": "Homepage read but showed articles and templates, job listings not confirmed on the page"
+  },
+  {
+   "name": "Job&Talent",
+   "url": "https://www.jobandtalent.com/",
+   "reason": "Homepage read but does not state Spain coverage"
+  },
+  {
+   "name": "EURES",
+   "url": "https://eures.europa.eu/index_en",
+   "reason": "Homepage read but does not state Spain coverage; named as covering Spain in a roundup"
+  },
+  {
+   "name": "LinkedIn Jobs",
+   "url": "https://www.linkedin.com/jobs/",
+   "reason": "Page read was the generic US-facing jobs page; Spain-specific page not read"
+  },
+  {
+   "name": "Universia Spain",
+   "url": "https://www.universia.es/",
+   "reason": "HTTP 404 on homepage, not read"
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "mode": "discover",
+ "country": "JP",
+ "boards": [
+  {
+   "name": "Hello Work Internet Service",
+   "url": "https://www.hellowork.mhlw.go.jp/",
+   "type": "government",
+   "niche": "government",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hellowork.mhlw.go.jp/",
+     "title": "Hello Work Internet Service homepage",
+     "quote": "全国のハローワークで受け付けた求人情報を検索できます。",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "doda",
+   "url": "https://www.doda.jp/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.doda.jp/",
+     "title": "doda homepage",
+     "quote": "dodaの転職サービスは、求人数、バリエーションともに豊富に揃え、あなたの転職を成功に導きます。",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "Mynavi Tenshoku",
+   "url": "https://tenshoku.mynavi.jp/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://tenshoku.mynavi.jp/",
+     "title": "Mynavi Tenshoku homepage",
+     "quote": "マイナビ転職は正社員の求人を中心に全国各地の豊富な転職情報をご紹介する転職サイトです。",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "type",
+   "url": "https://type.jp/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://type.jp/",
+     "title": "type homepage",
+     "quote": "検索しやすさと求人情報の中身の濃さにこだわったスキルマッチ転職サイトです。",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Wantedly",
+   "url": "https://www.wantedly.com/",
+   "type": "social-network+board",
+   "niche": "general",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.wantedly.com/",
+     "title": "Wantedly homepage",
+     "quote": "Wantedlyは、450万人のユーザーと40,000社が利用するビジネスSNS。",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "BizReach",
+   "url": "https://www.bizreach.jp/",
+   "type": "board",
+   "niche": "executive",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.bizreach.jp/",
+     "title": "BizReach homepage",
+     "quote": "ビズリーチは、即戦力のあなたにスカウトが届くハイクラス転職サイトです。",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Rikunabi",
+   "url": "https://job.rikunabi.com/",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://job.rikunabi.com/",
+     "title": "Rikunabi homepage (redirected from rikunabi.com)",
+     "quote": "インターンシップ・新卒採用の就職活動情報サイト",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Mynavi (new graduates)",
+   "url": "https://job.mynavi.jp/",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://job.mynavi.jp/",
+     "title": "Mynavi new graduate homepage",
+     "quote": "新卒や既卒学生のみなさんの就職活動をトータルサポートします。",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Green",
+   "url": "https://www.green-japan.com/",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.green-japan.com/",
+     "title": "Green homepage",
+     "quote": "Greenは、IT業界やIT関連の求人規模が国内最大級の転職サービスです。",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Japan Dev",
+   "url": "https://japan-dev.com/",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://japan-dev.com/",
+     "title": "Japan Dev homepage",
+     "quote": "No Japanese required. Apply from overseas. Top companies only.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "GaijinPot Jobs",
+   "url": "https://www.gaijinpot.com/jobs/",
+   "type": "board",
+   "niche": "english-speaking",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.gaijinpot.com/jobs/",
+     "title": "GaijinPot Jobs section",
+     "quote": "There's a position that's perfect for you on Japan's No.1 English job board.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Daijob.com",
+   "url": "https://www.daijob.com/",
+   "type": "board",
+   "niche": "bilingual",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.daijob.com/",
+     "title": "Daijob.com homepage",
+     "quote": "日本初の\"バイリンガル専門転職サイト\"として1998年に設立された「Daijob.com」。",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Hatalike (はたらいく)",
+   "url": "https://www.hatalike.jp/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hatalike.jp/",
+     "title": "Hatalike homepage",
+     "quote": "求人・転職情報サイト【はたらいく】＜自分らしく働く＞",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Kaigo Worker",
+   "url": "https://www.kaigoworker.jp/",
+   "type": "niche-board",
+   "niche": "healthcare",
+   "countries_served": [
+    "JP"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kaigoworker.jp/",
+     "title": "Kaigo Worker homepage",
+     "quote": "介護ワーカーは医療・福祉業界の求人紹介サービスに特化しています。",
+     "check": "mismatch"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Indeed Japan",
+   "url": "https://jp.indeed.com/",
+   "reason": "HTTP 403 (two attempts)"
+  },
+  {
+   "name": "en-japan",
+   "url": "https://www.en-japan.com/",
+   "reason": "HTTP 503 (two attempts)"
+  },
+  {
+   "name": "CareerCross",
+   "url": "https://www.careercross.com/",
+   "reason": "HTTP 403 (two attempts)"
+  },
+  {
+   "name": "Jobs in Japan",
+   "url": "https://www.jobsinjapan.com/",
+   "reason": "HTTP 403 (two attempts)"
+  },
+  {
+   "name": "TokyoDev",
+   "url": "https://www.tokyodev.com/",
+   "reason": "HTTP 403 (two attempts)"
+  },
+  {
+   "name": "Baitoru",
+   "url": "https://www.baitoru.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Kango Roo",
+   "url": "https://www.kango-roo.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "mapjob",
+   "url": "https://www.mapjob.jp/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Shigoto-in",
+   "url": "https://www.shigoto-in.com/",
+   "reason": "DNS lookup failed (ENOTFOUND)"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Crowdworks",
+   "url": "https://crowdworks.jp/",
+   "reason": "Homepage returned an unsupported-browser error page; existence not confirmed"
+  },
+  {
+   "name": "Lancers",
+   "url": "https://www.lancers.jp/",
+   "reason": "HTTP 405 on read; existence not confirmed"
+  },
+  {
+   "name": "Townwork",
+   "url": "https://www.townwork.net/",
+   "reason": "Homepage returned empty content on two reads; existence not confirmed"
+  }
+ ]
+}

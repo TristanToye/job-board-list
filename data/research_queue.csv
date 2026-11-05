@@ -180,3 +180,35 @@ TotalJobs,,,verification,"Named in Axel Springer article, no official URL stated
 OCC,,,verification,"Named in SEEK article, no official URL stated (Mexico; sold to Red Arbor in 2024)",2026-11-05
 Catho,,,verification,"Named in SEEK article, no official URL stated (Brazil; sold to Red Arbor in 2024)",2026-11-05
 CV-Library,https://www.cv-library.co.uk/api,UK,verification,"HTTP 403 on API page; one attempt, not retried. Board homepage read normally.",2026-11-05
+Indeed Spain,https://es.indeed.com/,ES,verification,HTTP 403,2026-11-05
+Monster Spain,https://www.monster.com/es/,ES,verification,HTTP 403,2026-11-05
+Empléate (SEPE employment portal),https://www.empleate.gob.es/empleate/,ES,verification,HTTP 503,2026-11-05
+FlexJobs,https://www.flexjobs.com/,ES,verification,HTTP 503,2026-11-05
+Adzuna Spain,https://www.adzuna.es/,ES,verification,HTTP 503,2026-11-05
+Turijobs,https://www.turijobs.com/,ES,verification,HTTP 403,2026-11-05
+Glassdoor Spain,https://www.glassdoor.es/,ES,verification,HTTP 503,2026-11-05
+Careerjet Spain,https://www.careerjet.es/,ES,verification,HTTP 503,2026-11-05
+Labora (Generalitat Valenciana employment service),https://www.labora.gva.es/,ES,verification,HTTP 503,2026-11-05
+Iberempleo,https://www.iberempleo.es/,ES,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-05
+Feina (Generalitat de Catalunya),https://www.feina.gencat.cat/,ES,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-05
+SAE Andalucía,https://www.sae.juntadeandalucia.es/,ES,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-05
+Emprego Xunta de Galicia,https://www.emprego.xunta.gal/,ES,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-05
+InfoJobs,https://www.infojobs.net/,ES,verification,"Homepage returned HTTP 456 on two attempts, body not read; named as the largest Spanish board in a roundup",2026-11-05
+Infoempleo,https://www.infoempleo.com/,ES,verification,"Fetch failed with a tool error, page not read; named as second largest Spanish job finding web in a government startup directory",2026-11-05
+Infotrabajo,https://www.infotrabajo.es/,ES,verification,"Homepage read but showed articles and templates, job listings not confirmed on the page",2026-11-05
+Job&Talent,https://www.jobandtalent.com/,ES,verification,Homepage read but does not state Spain coverage,2026-11-05
+EURES,https://eures.europa.eu/index_en,ES,verification,Homepage read but does not state Spain coverage; named as covering Spain in a roundup,2026-11-05
+LinkedIn Jobs,https://www.linkedin.com/jobs/,ES,verification,Page read was the generic US-facing jobs page; Spain-specific page not read,2026-11-05
+Universia Spain,https://www.universia.es/,ES,verification,"HTTP 404 on homepage, not read",2026-11-05
+Indeed Japan,https://jp.indeed.com/,JP,verification,HTTP 403 (two attempts),2026-11-05
+en-japan,https://www.en-japan.com/,JP,verification,HTTP 503 (two attempts),2026-11-05
+CareerCross,https://www.careercross.com/,JP,verification,HTTP 403 (two attempts),2026-11-05
+Jobs in Japan,https://www.jobsinjapan.com/,JP,verification,HTTP 403 (two attempts),2026-11-05
+TokyoDev,https://www.tokyodev.com/,JP,verification,HTTP 403 (two attempts),2026-11-05
+Baitoru,https://www.baitoru.com/,JP,verification,HTTP 403,2026-11-05
+Kango Roo,https://www.kango-roo.com/,JP,verification,HTTP 403,2026-11-05
+mapjob,https://www.mapjob.jp/,JP,verification,HTTP 403,2026-11-05
+Shigoto-in,https://www.shigoto-in.com/,JP,verification,DNS lookup failed (ENOTFOUND),2026-11-05
+Crowdworks,https://crowdworks.jp/,JP,verification,Homepage returned an unsupported-browser error page; existence not confirmed,2026-11-05
+Lancers,https://www.lancers.jp/,JP,verification,HTTP 405 on read; existence not confirmed,2026-11-05
+Townwork,https://www.townwork.net/,JP,verification,Homepage returned empty content on two reads; existence not confirmed,2026-11-05

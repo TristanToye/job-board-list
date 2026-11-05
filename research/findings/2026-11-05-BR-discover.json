@@ -1,0 +1,131 @@
+{
+  "mode": "discover",
+  "country": "BR",
+  "boards": [
+    {
+      "name": "LinkedIn Jobs Brasil",
+      "url": "https://br.linkedin.com/jobs",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://br.linkedin.com/jobs", "title": "LinkedIn Jobs Brasil", "quote": "Encontre milhões de vagas e empresas que estão contratando"}
+      ]
+    },
+    {
+      "name": "Vagas.com.br",
+      "url": "https://www.vagas.com.br",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.vagas.com.br/", "title": "Vagas.com.br homepage", "quote": "A plataforma de recrutamento mais rápida do mercado"}
+      ]
+    },
+    {
+      "name": "InfoJobs",
+      "url": "https://www.infojobs.com.br",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.infojobs.com.br/", "title": "InfoJobs homepage", "quote": "O Infojobs é uma plataforma de recrutamento e seleção gratuita"}
+      ]
+    },
+    {
+      "name": "Empregos.com.br",
+      "url": "https://www.empregos.com.br",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.empregos.com.br/", "title": "Empregos.com.br homepage", "quote": "Mais de 270 mil vagas! Candidate-se gratuitamente! Simples, rápida e sem limites."}
+      ]
+    },
+    {
+      "name": "Sistema Nacional de Emprego (SINE)",
+      "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine", "title": "Buscar emprego no Sistema Nacional de Emprego (SINE)", "quote": "O Sistema Nacional de Emprego auxilia os trabalhadores e empregadores no processo de intermediação de mão de obra."}
+      ]
+    },
+    {
+      "name": "Jooble Brasil",
+      "url": "https://br.jooble.org",
+      "type": "aggregator",
+      "niche": "general",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://br.jooble.org/", "title": "Jooble Brasil homepage", "quote": "Mais 299000 vagas atuais em 1170 sites disponíveis para você."}
+      ]
+    },
+    {
+      "name": "Trampos",
+      "url": "https://www.trampos.co",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.trampos.co/", "title": "Trampos homepage", "quote": "A plataforma completa de recrutamento que reúne os profissionais do futuro e as carreiras do amanhã."}
+      ]
+    },
+    {
+      "name": "Cia de Talentos",
+      "url": "https://www.ciadetalentos.com.br",
+      "type": "niche-board",
+      "niche": "graduates",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.ciadetalentos.com.br/", "title": "Cia de Talentos homepage", "quote": "Conectamos pessoas incríveis às empresas que vão transformar suas carreiras."}
+      ]
+    },
+    {
+      "name": "CIEE",
+      "url": "https://portal.ciee.org.br",
+      "type": "niche-board",
+      "niche": "graduates",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://portal.ciee.org.br/", "title": "CIEE portal homepage", "quote": "Encontre os estagiários e aprendizes certos para a sua necessidade"}
+      ]
+    },
+    {
+      "name": "PcD.com.br",
+      "url": "https://www.pcd.com.br",
+      "type": "niche-board",
+      "niche": "disability",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.pcd.com.br/", "title": "PcD.com.br homepage", "quote": "Site de vagas e empregos para PcD no Brasil, com apoio à contratação inclusiva e à Lei de Cotas."}
+      ]
+    },
+    {
+      "name": "ProgramaThor",
+      "url": "https://www.programathor.com.br",
+      "type": "niche-board",
+      "niche": "tech",
+      "countries_served": ["BR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.programathor.com.br/", "title": "ProgramaThor homepage", "quote": "Publique suas vagas e alcance milhares de programadores qualificados na maior plataforma especializada em desenvolvedores"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Catho", "url": "https://www.catho.com.br", "reason": "HTTP 403 (two attempts)"},
+    {"name": "Indeed Brasil", "url": "https://br.indeed.com", "reason": "HTTP 403 (two attempts)"},
+    {"name": "Glassdoor Brasil", "url": "https://www.glassdoor.com.br", "reason": "HTTP 403"},
+    {"name": "Trabalha Brasil", "url": "https://www.trabalhabrasil.gov.br", "reason": "DNS error (getaddrinfo ENOTFOUND); host not resolvable from this session"},
+    {"name": "Emprega Brasil", "url": "https://servicos.mte.gov.br", "reason": "HTTP 503"},
+    {"name": "Workana", "url": "https://www.workana.com", "reason": "HTTP 403"},
+    {"name": "Adzuna Brasil", "url": "https://www.adzuna.com.br", "reason": "HTTP 403"},
+    {"name": "Jobrapido Brasil", "url": "https://br.jobrapido.com", "reason": "HTTP 403"},
+    {"name": "Trovit Brasil", "url": "https://br.trovit.com", "reason": "DNS error (getaddrinfo ENOTFOUND); host not resolvable from this session"},
+    {"name": "Kenoby", "url": "https://www.kenoby.com", "reason": "DNS error (getaddrinfo ENOTFOUND); host not resolvable from this session"}
+  ],
+  "queue": [
+    {"name": "Sólides", "url": "", "reason": "Named in a roundup (Guia da Carreira) but homepage not read"}
+  ]
+}

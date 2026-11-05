@@ -1,0 +1,158 @@
+{
+  "mode": "discover",
+  "country": "IT",
+  "boards": [
+    {
+      "name": "LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/",
+      "type": "social-network+board",
+      "niche": "general",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.linkedin.com/jobs/", "title": "LinkedIn Jobs page", "quote": "Find the right job or internship for you"}
+      ]
+    },
+    {
+      "name": "Trovolavoro",
+      "url": "https://trovolavoro.com/",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://trovolavoro.com/", "title": "Trovolavoro homepage", "quote": "Trovolavoro: la piattaforma di job matching potenziata dall’AI e dall’assistente virtuale Jobbit"}
+      ]
+    },
+    {
+      "name": "Jooble Italia",
+      "url": "https://it.jooble.org/",
+      "type": "aggregator",
+      "niche": "general",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://it.jooble.org/", "title": "Jooble Italian homepage", "quote": "Oltre 109700 nuove opportunità su 1200 siti ti aspettano."}
+      ]
+    },
+    {
+      "name": "Talent.com Italia",
+      "url": "https://it.talent.com/",
+      "type": "aggregator",
+      "niche": "general",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://it.talent.com/", "title": "Talent.com Italian homepage", "quote": "Puoi cercare tra oltre 40 milioni di offerte, salvare quelle che ti interessano e candidarti in pochi secondi."}
+      ]
+    },
+    {
+      "name": "Jobtoday",
+      "url": "https://www.jobtoday.com/it",
+      "type": "aggregator",
+      "niche": "general",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobtoday.com/it", "title": "Jobtoday Italia homepage", "quote": "Trova lavoro in Italia oggi stesso."}
+      ]
+    },
+    {
+      "name": "Cerco&Trovo",
+      "url": "https://www.cercoetrovo.it/",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.cercoetrovo.it/", "title": "Cerco&Trovo homepage", "quote": "Cerco&Trovo - portale di annunci gratuiti"}
+      ]
+    },
+    {
+      "name": "lavoro.gov.it (Ministry of Labour)",
+      "url": "https://www.lavoro.gov.it/",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.lavoro.gov.it/", "title": "Ministry of Labour website", "quote": "Il Ministero del Lavoro e delle Politiche Sociali"}
+      ]
+    },
+    {
+      "name": "AlmaLaurea",
+      "url": "https://www.almalaurea.it/",
+      "type": "niche-board",
+      "niche": "graduates",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.almalaurea.it/", "title": "AlmaLaurea homepage", "quote": "Crea il tuo CV, accedi al database delle offerte di lavoro e partecipa agli eventi di recruiting."}
+      ]
+    },
+    {
+      "name": "Unijobs",
+      "url": "https://www.unijobs.it/",
+      "type": "niche-board",
+      "niche": "education",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.unijobs.it/", "title": "Unijobs homepage", "quote": "Trovare un lavoro nell'accademia italiana può essere difficile."}
+      ]
+    },
+    {
+      "name": "Concorsando",
+      "url": "https://www.concorsando.it/",
+      "type": "niche-board",
+      "niche": "public-sector",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.concorsando.it/", "title": "Concorsando homepage", "quote": "Il Tuo Alleato nei Concorsi Pubblici"}
+      ]
+    },
+    {
+      "name": "iProgrammatori",
+      "url": "https://www.iprogrammatori.it/",
+      "type": "niche-board",
+      "niche": "tech",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.iprogrammatori.it/", "title": "iProgrammatori homepage", "quote": "è un punto d'incontro tra sviluppatori e aziende alla ricerca di talenti IT"}
+      ]
+    },
+    {
+      "name": "Ninacare",
+      "url": "https://www.ninacare.it/",
+      "type": "niche-board",
+      "niche": "healthcare",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.ninacare.it/", "title": "Ninacare homepage", "quote": "Ninacare mette in contatto strutture sanitarie e professionisti, con meno passaggi e più chiarezza."}
+      ]
+    },
+    {
+      "name": "Lavoro Turismo",
+      "url": "https://www.lavoroturismo.it/",
+      "type": "niche-board",
+      "niche": "tourism-hospitality",
+      "countries_served": ["IT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.lavoroturismo.it/", "title": "Lavoro Turismo homepage", "quote": "Cerca tra centinaia di offerte di lavoro e trova quella giusta!"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Indeed Italia", "url": "https://it.indeed.com/", "reason": "HTTP 403 (retried once)"},
+    {"name": "Subito Lavoro","url": "https://www.subito.it/", "reason": "HTTP 403 (retried once)"},
+    {"name": "Bakeca", "url": "https://www.bakeca.it/", "reason": "HTTP 403"},
+    {"name": "Helplavoro", "url": "https://www.helplavoro.it/", "reason": "HTTP 503"},
+    {"name": "StepStone Italia", "url": "https://www.stepstone.it/", "reason": "HTTP 403"},
+    {"name": "Jobrapido Italia", "url": "https://it.jobrapido.com/", "reason": "HTTP 403"},
+    {"name": "Glassdoor Italia", "url": "https://www.glassdoor.it/", "reason": "HTTP 403"},
+    {"name": "Adzuna Italia", "url": "https://www.adzuna.it/", "reason": "HTTP 403"},
+    {"name": "JobLeads Italia", "url": "https://www.jobleads.com/it", "reason": "HTTP 403"},
+    {"name": "Xing Jobs", "url": "https://www.xing.com/jobs", "reason": "Fetch refused by tool"},
+    {"name": "ANPAL (anpal.gov.it)", "url": "https://www.anpal.gov.it/", "reason": "DNS error (EAI_AGAIN, retried once)"},
+    {"name": "Monster Italia", "url": "https://it.monster.com/", "reason": "DNS error (ENOTFOUND)"},
+    {"name": "Hotelcareer Italia", "url": "https://www.hotelcareer.it/", "reason": "DNS error (EAI_AGAIN)"},
+    {"name": "Lavoro Sociale", "url": "https://www.lavorosociale.it/", "reason": "DNS error (EAI_AGAIN)"}
+  ],
+  "queue": [
+    {"name": "InfoJobs", "url": "https://www.infojobs.it/", "reason": "Named in roundups; homepage loads but shows an official closure notice, so not listed as a live board"},
+    {"name": "Jobbydoo", "url": "https://www.jobbydoo.it/", "reason": "Homepage loaded with no readable content"},
+    {"name": "Careerjet Italia", "url": "https://www.careerjet.it/", "reason": "Returned a traffic verification page instead of the homepage"},
+    {"name": "Jobsinitaly", "url": "https://www.jobsinitaly.com/", "reason": "Domain redirects to a domain listing page, not the board"}
+  ]
+}
