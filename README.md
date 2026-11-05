@@ -26,6 +26,7 @@ A static site is generated from the CSVs into `docs/` and served by GitHub Pages
 
 - `type`: board, aggregator, government, niche-board, social-network, programmatic-distribution, multiposting, feed-aggregator.
 - `api_status`: `public-open` (no key), `public-key` (self-serve key), `partner-only` (approval needed), `deprecated`, `none-known`, `unknown`.
+- `primary_language` / `languages_supported`: ISO 639-1 codes. `languages_supported` is semicolon separated and includes the primary language. Blank means not yet recorded.
 - `partner_program` / `partner_url`: whether an ATS or employer integration program exists.
 - `ingest_methods`: how jobs get in (XML feed, API, apply integration, crawl, schema.org markup).
 - `confidence`: `seed-unverified` means the row came from prior knowledge and has not been checked against a live source.

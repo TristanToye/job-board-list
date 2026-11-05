@@ -1,77 +1,77 @@
-id,name,url,type,hq_country,markets,region,niche,parent,business_model,api_status,api_docs_url,partner_program,partner_url,ingest_methods,notes,confidence
-indeed,Indeed,https://www.indeed.com,aggregator+board,US,60+ countries,Global,general,Recruit Holdings,PPC/sponsored,partner-only,https://docs.indeed.com,yes,https://docs.indeed.com,XML feed;Indeed Apply;ATS partner integration;crawl,Legacy Publisher API retired; integrations now via partner program,seed-unverified
-linkedin,LinkedIn,https://www.linkedin.com/jobs,social-network+board,US,Global,Global,general/professional,Microsoft,subscription+PPC,partner-only,https://developer.linkedin.com,yes,https://developer.linkedin.com,Job Posting API (partner);Apply Connect;XML feed,Talent Solutions APIs gated to approved partners,seed-unverified
-google-jobs,Google for Jobs,https://developers.google.com/search/docs/appearance/structured-data/job-posting,search-aggregator,US,Global,Global,general,Alphabet,free,public-open,https://developers.google.com/search/docs/appearance/structured-data/job-posting,n/a,,JobPosting schema.org markup;Indexing API,No board; indexes structured data from employers/ATS/boards. Major distribution channel,seed-unverified
-ziprecruiter,ZipRecruiter,https://www.ziprecruiter.com,board+aggregator,US,US;CA;UK;DE,North America,general,,subscription+PPC,partner-only,,yes,,XML feed;partner API;ATS integration,,seed-unverified
-glassdoor,Glassdoor,https://www.glassdoor.com,board+reviews,US,Global,Global,general,Recruit Holdings,PPC,partner-only,,yes,,Via Indeed feeds/partners,Employer-branding + jobs; ingestion largely shared with Indeed,seed-unverified
-monster,Monster,https://www.monster.com,board,US,US;CA;several EU,North America,general,Randstad,subscription,partner-only,,yes,,XML feed;partner API,Merged with CareerBuilder 2021; check current status,seed-unverified
-careerbuilder,CareerBuilder,https://www.careerbuilder.com,board,US,US;CA,North America,general,Monster (merged),subscription,unknown,,unknown,,,Post-bankruptcy 2020 and merger; verify if still operating as distinct network,seed-unverified
-simplyhired,SimplyHired,https://www.simplyhired.com,aggregator,US,US;CA;UK,North America,general,Recruit Holdings,PPC,unknown,,unknown,,,Verify whether folded into Indeed,seed-unverified
-dice,Dice,https://www.dice.com,niche-board,US,US,North America,tech,DHI Group,subscription,partner-only,,yes,,XML feed;partner API,,seed-unverified
-usajobs,USAJOBS,https://www.usajobs.gov,government,US,US,North America,public sector,US OPM,free,public-key,https://developer.usajobs.gov,n/a,https://developer.usajobs.gov,REST API (key),Free API key; authoritative source for US federal jobs,seed-unverified
-jobbank-ca,Job Bank,https://www.jobbank.gc.ca,government,CA,CA,North America,general,Government of Canada,free,public-open,https://open.canada.ca,n/a,,Open data download,Open Government data sets for postings,seed-unverified
-talent-com,Talent.com,https://www.talent.com,aggregator,CA,30+ countries,Global,general,,PPC,unknown,,yes,,XML feed;crawl,Formerly Neuvoo,seed-unverified
-adzuna,Adzuna,https://www.adzuna.com,aggregator,UK,UK;US;CA;AU;DE;FR;IN;NL;PL;ZA;BR;IT;AT;NZ;SG;MX,Global,general,,PPC,public-key,https://developer.adzuna.com,yes,https://developer.adzuna.com,REST API (key);XML feed;crawl,Self-serve API; strong for labour-market data,seed-unverified
-jooble,Jooble,https://jooble.org,aggregator,UA,70 countries,Global,general,,PPC,public-key,https://jooble.org/api/about,yes,https://jooble.org/api/about,REST API (key);XML feed;crawl,,seed-unverified
-careerjet,Careerjet,https://www.careerjet.com,aggregator,FR,60+ countries,Global,general,,PPC,public-key,https://www.careerjet.com/partners/api,yes,https://www.careerjet.com/partners,REST API (key);XML feed;crawl,,seed-unverified
-jobrapido,Jobrapido,https://www.jobrapido.com,aggregator,IT,Multi-country,Europe,general,Recruit Holdings,PPC,unknown,,yes,,XML feed;crawl,,seed-unverified
-reed,Reed,https://www.reed.co.uk,board,UK,UK,Europe,general,,subscription,public-key,https://www.reed.co.uk/developers,yes,https://www.reed.co.uk/developers,REST API (key),Job search + posting APIs,seed-unverified
-totaljobs,Totaljobs,https://www.totaljobs.com,board,UK,UK,Europe,general,StepStone Group,subscription,partner-only,,yes,,XML feed;partner API,Group includes CWJobs;Caterer.com,seed-unverified
-cv-library,CV-Library,https://www.cv-library.co.uk,board,UK,UK,Europe,general,,subscription,partner-only,https://www.cv-library.co.uk/developers,yes,,API;XML feed,,seed-unverified
-jobg8,JobG8,https://www.jobg8.com,feed-aggregator,UK,Global,Global,general,,PPC/feed,partner-only,,yes,,XML feed distribution,Job feed exchange between ATS and boards,seed-unverified
-stepstone,StepStone,https://www.stepstone.de,board,DE,DE;BE;NL;AT;FR,Europe,general,StepStone Group (Axel Springer/KKR),subscription,partner-only,,yes,,XML feed;partner API,,seed-unverified
-xing,XING Jobs,https://www.xing.com/jobs,social-network+board,DE,DACH,Europe,professional,New Work SE,subscription,partner-only,,yes,,partner API,,seed-unverified
-jobsuche-ba,Jobsuche (Bundesagentur fur Arbeit),https://www.arbeitsagentur.de,government,DE,DE,Europe,general,Federal Employment Agency,free,public-key,https://jobsuche.api.bund.dev,n/a,,REST API (public key),Community-documented; verify terms,seed-unverified
-arbeitnow,Arbeitnow,https://www.arbeitnow.com,niche-board,DE,DE;EU,Europe,tech/visa-sponsorship,,free,public-open,https://www.arbeitnow.com/api/job-board-api,n/a,,JSON API (no key),,seed-unverified
-francetravail,France Travail,https://www.francetravail.fr,government,FR,FR,Europe,general,French state,free,public-key,https://francetravail.io,n/a,https://francetravail.io,REST API (OAuth),Formerly Pole emploi; Offres d'emploi API,seed-unverified
-welcome-to-the-jungle,Welcome to the Jungle,https://www.welcometothejungle.com,board+employer-brand,FR,FR;EU;global,Europe,tech/startup,,subscription,partner-only,,unknown,,,Acquired Otta,seed-unverified
-infojobs,InfoJobs,https://www.infojobs.net,board,ES,ES;IT,Europe,general,Adevinta,subscription,partner-only,https://developer.infojobs.net,yes,https://developer.infojobs.net,REST API (OAuth),Has developer portal,seed-unverified
-arbetsformedlingen,JobTech (Arbetsformedlingen),https://jobtechdev.se,government,SE,SE,Europe,general,Swedish PES,free,public-open,https://jobtechdev.se,n/a,https://jobtechdev.se,JobStream;JobSearch open APIs,Open APIs and open data for all Swedish postings,seed-unverified
-nav-arbeidsplassen,Arbeidsplassen (NAV),https://arbeidsplassen.nav.no,government,NO,NO,Europe,general,NAV,free,public-key,https://navikt.github.io/pam-stilling-feed,n/a,,Public feed API,,seed-unverified
-finn-no,FINN.no Jobs,https://www.finn.no/job,classifieds+board,NO,NO,Europe,general,Schibsted,subscription,partner-only,,unknown,,,,seed-unverified
-jobindex,Jobindex,https://www.jobindex.dk,board,DK,DK,Europe,general,,subscription,partner-only,,yes,,XML feed,,seed-unverified
-pracuj,Pracuj.pl,https://www.pracuj.pl,board,PL,PL,Europe,general,Grupa Pracuj,subscription,partner-only,,yes,,partner API,,seed-unverified
-jobs-ch,jobs.ch,https://www.jobs.ch,board,CH,CH,Europe,general,SMG Swiss Marketplace Group,subscription,partner-only,,yes,,,,seed-unverified
-hh-ru,HeadHunter (hh.ru),https://hh.ru,board,RU,RU;KZ;BY;UZ,Eastern Europe/CIS,general,HeadHunter Group,subscription,public-key,https://api.hh.ru,yes,https://dev.hh.ru,REST API (OAuth),Well-documented public API; sanctions/availability should be checked,seed-unverified
-seek,SEEK,https://www.seek.com.au,board,AU,AU;NZ;SEA (JobStreet/Jobsdb);Brazil (Jobstreet); more,APAC,general,SEEK,subscription,partner-only,https://developer.seek.com,yes,https://developer.seek.com,Posting API (GraphQL);Apply;ATS partners,Open developer portal with ATS partner program,seed-unverified
-jobstreet,JobStreet,https://www.jobstreet.com,board,MY,MY;SG;ID;PH;TH,APAC,general,SEEK,subscription,partner-only,,yes,,Via SEEK partner program,,seed-unverified
-jobsdb,Jobsdb,https://www.jobsdb.com,board,HK,HK;TH,APAC,general,SEEK,subscription,partner-only,,yes,,Via SEEK partner program,,seed-unverified
-naukri,Naukri,https://www.naukri.com,board,IN,IN,South Asia,general,Info Edge,subscription,partner-only,,unknown,,,Dominant in India,seed-unverified
-foundit,foundit,https://www.foundit.in,board,IN,IN;SEA;ME,South Asia,general,Quess,subscription,unknown,,unknown,,,Formerly Monster India,seed-unverified
-apna,apna,https://apna.co,board,IN,IN,South Asia,blue-collar/gig,,PPC/freemium,unknown,,unknown,,,,seed-unverified
-zhaopin,Zhaopin,https://www.zhaopin.com,board,CN,CN,East Asia,general,,subscription,none-known,,unknown,,,,seed-unverified
-51job,51job,https://www.51job.com,board,CN,CN,East Asia,general,Recruit Holdings,subscription,none-known,,unknown,,,,seed-unverified
-boss-zhipin,BOSS Zhipin,https://www.zhipin.com,board+chat,CN,CN,East Asia,general,Kanzhun,subscription,none-known,,unknown,,,Direct chat model,seed-unverified
-rikunabi,Rikunabi,https://www.rikunabi.com,board,JP,JP,East Asia,graduate,Recruit Holdings,subscription,none-known,,unknown,,,,seed-unverified
-mynavi,Mynavi,https://www.mynavi.jp,board,JP,JP,East Asia,graduate/general,,subscription,none-known,,unknown,,,,seed-unverified
-saramin,Saramin,https://www.saramin.co.kr,board,KR,KR,East Asia,general,HR Corp,subscription,public-key,https://oapi.saramin.co.kr,unknown,,Open API,,seed-unverified
-jobkorea,JobKorea,https://www.jobkorea.co.kr,board,KR,KR,East Asia,general,,subscription,unknown,,unknown,,,,seed-unverified
-wanted,Wanted,https://www.wanted.co.kr,board,KR,KR;JP;SG,East Asia,tech,,subscription,unknown,,unknown,,,,seed-unverified
-kalibrr,Kalibrr,https://www.kalibrr.com,board,PH,PH;ID,SEA,general,,subscription,unknown,,unknown,,,,seed-unverified
-bayt,Bayt,https://www.bayt.com,board,AE,MENA,Middle East,general,,subscription,unknown,,unknown,,,,seed-unverified
-gulftalent,GulfTalent,https://www.gulftalent.com,board,AE,GCC,Middle East,general,,subscription,unknown,,unknown,,,,seed-unverified
-naukrigulf,NaukriGulf,https://www.naukrigulf.com,board,AE,GCC,Middle East,general,Info Edge,subscription,unknown,,unknown,,,,seed-unverified
-jobberman,Jobberman,https://www.jobberman.com,board,NG,NG;GH,Africa,general,Ringier One Africa Media,subscription,unknown,,unknown,,,,seed-unverified
-brightermonday,BrighterMonday,https://www.brightermonday.co.ke,board,KE,KE;UG;TZ,Africa,general,,subscription,unknown,,unknown,,,,seed-unverified
-careers24,Careers24,https://www.careers24.com,board,ZA,ZA,Africa,general,,subscription,unknown,,unknown,,,,seed-unverified
-pnet,PNet,https://www.pnet.co.za,board,ZA,ZA,Africa,general,StepStone Group,subscription,unknown,,unknown,,,,seed-unverified
-computrabajo,Computrabajo,https://www.computrabajo.com,board,CO,LatAm,Latin America,general,,subscription/freemium,unknown,,unknown,,,Large LatAm footprint,seed-unverified
-occ-mundial,OCC Mundial,https://www.occ.com.mx,board,MX,MX,Latin America,general,,subscription,unknown,,unknown,,,,seed-unverified
-bumeran,Bumeran,https://www.bumeran.com,board,AR,AR;MX;PE;CL;others,Latin America,general,Navent,subscription,unknown,,unknown,,,,seed-unverified
-catho,Catho,https://www.catho.com.br,board,BR,BR,Latin America,general,,subscription,unknown,,unknown,,,,seed-unverified
-vagas-com,Vagas.com,https://www.vagas.com.br,board,BR,BR,Latin America,general,,subscription,unknown,,unknown,,,,seed-unverified
-wellfound,Wellfound,https://wellfound.com,niche-board,US,US;global remote,North America,startup,,subscription/free,none-known,,unknown,,,Formerly AngelList Talent,seed-unverified
-remoteok,Remote OK,https://remoteok.com,niche-board,US,Global,Global,remote,,paid listings,public-open,https://remoteok.com/api,n/a,,JSON API (attribution required),,seed-unverified
-remotive,Remotive,https://remotive.com,niche-board,Global,Global,Global,remote,,paid listings,public-open,https://github.com/remotive-com/remote-jobs-api,n/a,,JSON API,,seed-unverified
-weworkremotely,We Work Remotely,https://weworkremotely.com,niche-board,US,Global,Global,remote,,paid listings,public-open,https://weworkremotely.com/remote-job-rss-feed,n/a,,RSS feeds,,seed-unverified
-himalayas,Himalayas,https://himalayas.app,niche-board,Global,Global,Global,remote,,paid listings,public-open,https://himalayas.app/docs,n/a,,JSON API,,seed-unverified
-themuse,The Muse,https://www.themuse.com,board+employer-brand,US,US,North America,early-career,,subscription,public-key,https://www.themuse.com/developers/api/v2,unknown,,REST API,,seed-unverified
-handshake,Handshake,https://joinhandshake.com,niche-board,US,US;UK;global,North America,students/early-career,,subscription,partner-only,,yes,,partner API,,seed-unverified
-idealist,Idealist,https://www.idealist.org,niche-board,US,Global,Global,nonprofit,,paid listings,unknown,,unknown,,,,seed-unverified
-higheredjobs,HigherEdJobs,https://www.higheredjobs.com,niche-board,US,US,North America,higher-ed,,paid listings,unknown,,unknown,,,,seed-unverified
-hn-whoishiring,Hacker News Who is hiring,https://news.ycombinator.com,community,US,Global,Global,tech,Y Combinator,free,public-open,https://github.com/HackerNews/API,n/a,,Firebase API,Monthly threads,seed-unverified
-yc-waas,Work at a Startup,https://www.workatastartup.com,niche-board,US,Global,Global,startup,Y Combinator,free,none-known,,unknown,,,,seed-unverified
-appcast,Appcast,https://www.appcast.io,programmatic-distribution,US,Global,Global,general,,PPC/PPA,partner-only,,yes,,XML feed;programmatic,Programmatic advertising; sits between ATS and boards,seed-unverified
-joveo,Joveo,https://www.joveo.com,programmatic-distribution,US,Global,Global,general,,PPC/PPA,partner-only,,yes,,XML feed;programmatic,,seed-unverified
-broadbean,Broadbean,https://www.broadbean.com,multiposting,UK,Global,Global,general,Veritone,subscription,partner-only,,yes,,API;job distribution,,seed-unverified
-recruitics,Recruitics,https://www.recruitics.com,programmatic-distribution,US,Global,Global,general,,PPC,partner-only,,yes,,programmatic,,seed-unverified
+id,name,url,type,hq_country,markets,primary_language,languages_supported,region,niche,parent,business_model,api_status,api_docs_url,partner_program,partner_url,ingest_methods,notes,confidence
+indeed,Indeed,https://www.indeed.com,aggregator+board,US,60+ countries,en,en;es;fr;de;it;pt;nl;pl;sv;da;no;fi;ja;ko;zh;ar;tr,Global,general,Recruit Holdings,PPC/sponsored,partner-only,https://docs.indeed.com,yes,https://docs.indeed.com,XML feed;Indeed Apply;ATS partner integration;crawl,Legacy Publisher API retired; integrations now via partner program,seed-unverified
+linkedin,LinkedIn,https://www.linkedin.com/jobs,social-network+board,US,Global,en,en;es;fr;de;it;pt;nl;pl;sv;da;no;fi;ja;ko;zh;ar;tr;ru;id;ms;th;ro;cs,Global,general/professional,Microsoft,subscription+PPC,partner-only,https://developer.linkedin.com,yes,https://developer.linkedin.com,Job Posting API (partner);Apply Connect;XML feed,Talent Solutions APIs gated to approved partners,seed-unverified
+google-jobs,Google for Jobs,https://developers.google.com/search/docs/appearance/structured-data/job-posting,search-aggregator,US,Global,en,,Global,general,Alphabet,free,public-open,https://developers.google.com/search/docs/appearance/structured-data/job-posting,n/a,,JobPosting schema.org markup;Indexing API,No board; indexes structured data from employers/ATS/boards. Major distribution channel,seed-unverified
+ziprecruiter,ZipRecruiter,https://www.ziprecruiter.com,board+aggregator,US,US;CA;UK;DE,en,en;fr;de,North America,general,,subscription+PPC,partner-only,,yes,,XML feed;partner API;ATS integration,,seed-unverified
+glassdoor,Glassdoor,https://www.glassdoor.com,board+reviews,US,Global,en,en;fr;de;es;it;pt;nl;ja,Global,general,Recruit Holdings,PPC,partner-only,,yes,,Via Indeed feeds/partners,Employer-branding + jobs; ingestion largely shared with Indeed,seed-unverified
+monster,Monster,https://www.monster.com,board,US,US;CA;several EU,en,en;fr;de;nl;it,North America,general,Randstad,subscription,partner-only,,yes,,XML feed;partner API,Merged with CareerBuilder 2021; check current status,seed-unverified
+careerbuilder,CareerBuilder,https://www.careerbuilder.com,board,US,US;CA,en,en,North America,general,Monster (merged),subscription,unknown,,unknown,,,Post-bankruptcy 2020 and merger; verify if still operating as distinct network,seed-unverified
+simplyhired,SimplyHired,https://www.simplyhired.com,aggregator,US,US;CA;UK,en,en,North America,general,Recruit Holdings,PPC,unknown,,unknown,,,Verify whether folded into Indeed,seed-unverified
+dice,Dice,https://www.dice.com,niche-board,US,US,en,en,North America,tech,DHI Group,subscription,partner-only,,yes,,XML feed;partner API,,seed-unverified
+usajobs,USAJOBS,https://www.usajobs.gov,government,US,US,en,en,North America,public sector,US OPM,free,public-key,https://developer.usajobs.gov,n/a,https://developer.usajobs.gov,REST API (key),Free API key; authoritative source for US federal jobs,seed-unverified
+jobbank-ca,Job Bank,https://www.jobbank.gc.ca,government,CA,CA,en,en;fr,North America,general,Government of Canada,free,public-open,https://open.canada.ca,n/a,,Open data download,Open Government data sets for postings,seed-unverified
+talent-com,Talent.com,https://www.talent.com,aggregator,CA,30+ countries,en,en;fr;es;de;it;pt;nl;pl,Global,general,,PPC,unknown,,yes,,XML feed;crawl,Formerly Neuvoo,seed-unverified
+adzuna,Adzuna,https://www.adzuna.com,aggregator,UK,UK;US;CA;AU;DE;FR;IN;NL;PL;ZA;BR;IT;AT;NZ;SG;MX,en,en;de;fr;nl;pl;pt;es;it,Global,general,,PPC,public-key,https://developer.adzuna.com,yes,https://developer.adzuna.com,REST API (key);XML feed;crawl,Self-serve API; strong for labour-market data,seed-unverified
+jooble,Jooble,https://jooble.org,aggregator,UA,70 countries,en,en;uk;pl;de;fr;es;pt;it;tr,Global,general,,PPC,public-key,https://jooble.org/api/about,yes,https://jooble.org/api/about,REST API (key);XML feed;crawl,,seed-unverified
+careerjet,Careerjet,https://www.careerjet.com,aggregator,FR,60+ countries,en,en;fr;de;es;it;pt;nl;pl,Global,general,,PPC,public-key,https://www.careerjet.com/partners/api,yes,https://www.careerjet.com/partners,REST API (key);XML feed;crawl,,seed-unverified
+jobrapido,Jobrapido,https://www.jobrapido.com,aggregator,IT,Multi-country,it,it;en;es;fr;de;pt;nl;pl,Europe,general,Recruit Holdings,PPC,unknown,,yes,,XML feed;crawl,,seed-unverified
+reed,Reed,https://www.reed.co.uk,board,UK,UK,en,en,Europe,general,,subscription,public-key,https://www.reed.co.uk/developers,yes,https://www.reed.co.uk/developers,REST API (key),Job search + posting APIs,seed-unverified
+totaljobs,Totaljobs,https://www.totaljobs.com,board,UK,UK,en,en,Europe,general,StepStone Group,subscription,partner-only,,yes,,XML feed;partner API,Group includes CWJobs;Caterer.com,seed-unverified
+cv-library,CV-Library,https://www.cv-library.co.uk,board,UK,UK,en,en,Europe,general,,subscription,partner-only,https://www.cv-library.co.uk/developers,yes,,API;XML feed,,seed-unverified
+jobg8,JobG8,https://www.jobg8.com,feed-aggregator,UK,Global,en,,Global,general,,PPC/feed,partner-only,,yes,,XML feed distribution,Job feed exchange between ATS and boards,seed-unverified
+stepstone,StepStone,https://www.stepstone.de,board,DE,DE;BE;NL;AT;FR,de,de;en;fr;nl,Europe,general,StepStone Group (Axel Springer/KKR),subscription,partner-only,,yes,,XML feed;partner API,,seed-unverified
+xing,XING Jobs,https://www.xing.com/jobs,social-network+board,DE,DACH,de,de;en,Europe,professional,New Work SE,subscription,partner-only,,yes,,partner API,,seed-unverified
+jobsuche-ba,Jobsuche (Bundesagentur fur Arbeit),https://www.arbeitsagentur.de,government,DE,DE,de,de;en,Europe,general,Federal Employment Agency,free,public-key,https://jobsuche.api.bund.dev,n/a,,REST API (public key),Community-documented; verify terms,seed-unverified
+arbeitnow,Arbeitnow,https://www.arbeitnow.com,niche-board,DE,DE;EU,en,en;de,Europe,tech/visa-sponsorship,,free,public-open,https://www.arbeitnow.com/api/job-board-api,n/a,,JSON API (no key),,seed-unverified
+francetravail,France Travail,https://www.francetravail.fr,government,FR,FR,fr,fr,Europe,general,French state,free,public-key,https://francetravail.io,n/a,https://francetravail.io,REST API (OAuth),Formerly Pole emploi; Offres d'emploi API,seed-unverified
+welcome-to-the-jungle,Welcome to the Jungle,https://www.welcometothejungle.com,board+employer-brand,FR,FR;EU;global,fr,fr;en;es;cs;sk,Europe,tech/startup,,subscription,partner-only,,unknown,,,Acquired Otta,seed-unverified
+infojobs,InfoJobs,https://www.infojobs.net,board,ES,ES;IT,es,es;ca;it,Europe,general,Adevinta,subscription,partner-only,https://developer.infojobs.net,yes,https://developer.infojobs.net,REST API (OAuth),Has developer portal,seed-unverified
+arbetsformedlingen,JobTech (Arbetsformedlingen),https://jobtechdev.se,government,SE,SE,sv,sv;en,Europe,general,Swedish PES,free,public-open,https://jobtechdev.se,n/a,https://jobtechdev.se,JobStream;JobSearch open APIs,Open APIs and open data for all Swedish postings,seed-unverified
+nav-arbeidsplassen,Arbeidsplassen (NAV),https://arbeidsplassen.nav.no,government,NO,NO,no,no;en,Europe,general,NAV,free,public-key,https://navikt.github.io/pam-stilling-feed,n/a,,Public feed API,,seed-unverified
+finn-no,FINN.no Jobs,https://www.finn.no/job,classifieds+board,NO,NO,no,no,Europe,general,Schibsted,subscription,partner-only,,unknown,,,,seed-unverified
+jobindex,Jobindex,https://www.jobindex.dk,board,DK,DK,da,da;en,Europe,general,,subscription,partner-only,,yes,,XML feed,,seed-unverified
+pracuj,Pracuj.pl,https://www.pracuj.pl,board,PL,PL,pl,pl;en,Europe,general,Grupa Pracuj,subscription,partner-only,,yes,,partner API,,seed-unverified
+jobs-ch,jobs.ch,https://www.jobs.ch,board,CH,CH,de,de;fr;it;en,Europe,general,SMG Swiss Marketplace Group,subscription,partner-only,,yes,,,,seed-unverified
+hh-ru,HeadHunter (hh.ru),https://hh.ru,board,RU,RU;KZ;BY;UZ,ru,ru;en;kk,Eastern Europe/CIS,general,HeadHunter Group,subscription,public-key,https://api.hh.ru,yes,https://dev.hh.ru,REST API (OAuth),Well-documented public API; sanctions/availability should be checked,seed-unverified
+seek,SEEK,https://www.seek.com.au,board,AU,AU;NZ;SEA (JobStreet/Jobsdb);Brazil (Jobstreet); more,en,en,APAC,general,SEEK,subscription,partner-only,https://developer.seek.com,yes,https://developer.seek.com,Posting API (GraphQL);Apply;ATS partners,Open developer portal with ATS partner program,seed-unverified
+jobstreet,JobStreet,https://www.jobstreet.com,board,MY,MY;SG;ID;PH;TH,en,en;id;ms,APAC,general,SEEK,subscription,partner-only,,yes,,Via SEEK partner program,,seed-unverified
+jobsdb,Jobsdb,https://www.jobsdb.com,board,HK,HK;TH,en,en;zh;th,APAC,general,SEEK,subscription,partner-only,,yes,,Via SEEK partner program,,seed-unverified
+naukri,Naukri,https://www.naukri.com,board,IN,IN,en,en,South Asia,general,Info Edge,subscription,partner-only,,unknown,,,Dominant in India,seed-unverified
+foundit,foundit,https://www.foundit.in,board,IN,IN;SEA;ME,en,en,South Asia,general,Quess,subscription,unknown,,unknown,,,Formerly Monster India,seed-unverified
+apna,apna,https://apna.co,board,IN,IN,en,en;hi,South Asia,blue-collar/gig,,PPC/freemium,unknown,,unknown,,,,seed-unverified
+zhaopin,Zhaopin,https://www.zhaopin.com,board,CN,CN,zh,zh,East Asia,general,,subscription,none-known,,unknown,,,,seed-unverified
+51job,51job,https://www.51job.com,board,CN,CN,zh,zh,East Asia,general,Recruit Holdings,subscription,none-known,,unknown,,,,seed-unverified
+boss-zhipin,BOSS Zhipin,https://www.zhipin.com,board+chat,CN,CN,zh,zh,East Asia,general,Kanzhun,subscription,none-known,,unknown,,,Direct chat model,seed-unverified
+rikunabi,Rikunabi,https://www.rikunabi.com,board,JP,JP,ja,ja,East Asia,graduate,Recruit Holdings,subscription,none-known,,unknown,,,,seed-unverified
+mynavi,Mynavi,https://www.mynavi.jp,board,JP,JP,ja,ja,East Asia,graduate/general,,subscription,none-known,,unknown,,,,seed-unverified
+saramin,Saramin,https://www.saramin.co.kr,board,KR,KR,ko,ko,East Asia,general,HR Corp,subscription,public-key,https://oapi.saramin.co.kr,unknown,,Open API,,seed-unverified
+jobkorea,JobKorea,https://www.jobkorea.co.kr,board,KR,KR,ko,ko,East Asia,general,,subscription,unknown,,unknown,,,,seed-unverified
+wanted,Wanted,https://www.wanted.co.kr,board,KR,KR;JP;SG,ko,ko;ja;en,East Asia,tech,,subscription,unknown,,unknown,,,,seed-unverified
+kalibrr,Kalibrr,https://www.kalibrr.com,board,PH,PH;ID,en,en,SEA,general,,subscription,unknown,,unknown,,,,seed-unverified
+bayt,Bayt,https://www.bayt.com,board,AE,MENA,en,en;ar,Middle East,general,,subscription,unknown,,unknown,,,,seed-unverified
+gulftalent,GulfTalent,https://www.gulftalent.com,board,AE,GCC,en,en,Middle East,general,,subscription,unknown,,unknown,,,,seed-unverified
+naukrigulf,NaukriGulf,https://www.naukrigulf.com,board,AE,GCC,en,en;ar,Middle East,general,Info Edge,subscription,unknown,,unknown,,,,seed-unverified
+jobberman,Jobberman,https://www.jobberman.com,board,NG,NG;GH,en,en,Africa,general,Ringier One Africa Media,subscription,unknown,,unknown,,,,seed-unverified
+brightermonday,BrighterMonday,https://www.brightermonday.co.ke,board,KE,KE;UG;TZ,en,en,Africa,general,,subscription,unknown,,unknown,,,,seed-unverified
+careers24,Careers24,https://www.careers24.com,board,ZA,ZA,en,en,Africa,general,,subscription,unknown,,unknown,,,,seed-unverified
+pnet,PNet,https://www.pnet.co.za,board,ZA,ZA,en,en,Africa,general,StepStone Group,subscription,unknown,,unknown,,,,seed-unverified
+computrabajo,Computrabajo,https://www.computrabajo.com,board,CO,LatAm,es,es;pt,Latin America,general,,subscription/freemium,unknown,,unknown,,,Large LatAm footprint,seed-unverified
+occ-mundial,OCC Mundial,https://www.occ.com.mx,board,MX,MX,es,es,Latin America,general,,subscription,unknown,,unknown,,,,seed-unverified
+bumeran,Bumeran,https://www.bumeran.com,board,AR,AR;MX;PE;CL;others,es,es,Latin America,general,Navent,subscription,unknown,,unknown,,,,seed-unverified
+catho,Catho,https://www.catho.com.br,board,BR,BR,pt,pt,Latin America,general,,subscription,unknown,,unknown,,,,seed-unverified
+vagas-com,Vagas.com,https://www.vagas.com.br,board,BR,BR,pt,pt,Latin America,general,,subscription,unknown,,unknown,,,,seed-unverified
+wellfound,Wellfound,https://wellfound.com,niche-board,US,US;global remote,en,en,North America,startup,,subscription/free,none-known,,unknown,,,Formerly AngelList Talent,seed-unverified
+remoteok,Remote OK,https://remoteok.com,niche-board,US,Global,en,en,Global,remote,,paid listings,public-open,https://remoteok.com/api,n/a,,JSON API (attribution required),,seed-unverified
+remotive,Remotive,https://remotive.com,niche-board,Global,Global,en,en,Global,remote,,paid listings,public-open,https://github.com/remotive-com/remote-jobs-api,n/a,,JSON API,,seed-unverified
+weworkremotely,We Work Remotely,https://weworkremotely.com,niche-board,US,Global,en,en,Global,remote,,paid listings,public-open,https://weworkremotely.com/remote-job-rss-feed,n/a,,RSS feeds,,seed-unverified
+himalayas,Himalayas,https://himalayas.app,niche-board,Global,Global,en,en,Global,remote,,paid listings,public-open,https://himalayas.app/docs,n/a,,JSON API,,seed-unverified
+themuse,The Muse,https://www.themuse.com,board+employer-brand,US,US,en,en,North America,early-career,,subscription,public-key,https://www.themuse.com/developers/api/v2,unknown,,REST API,,seed-unverified
+handshake,Handshake,https://joinhandshake.com,niche-board,US,US;UK;global,en,en,North America,students/early-career,,subscription,partner-only,,yes,,partner API,,seed-unverified
+idealist,Idealist,https://www.idealist.org,niche-board,US,Global,en,en;es,Global,nonprofit,,paid listings,unknown,,unknown,,,,seed-unverified
+higheredjobs,HigherEdJobs,https://www.higheredjobs.com,niche-board,US,US,en,en,North America,higher-ed,,paid listings,unknown,,unknown,,,,seed-unverified
+hn-whoishiring,Hacker News Who is hiring,https://news.ycombinator.com,community,US,Global,en,en,Global,tech,Y Combinator,free,public-open,https://github.com/HackerNews/API,n/a,,Firebase API,Monthly threads,seed-unverified
+yc-waas,Work at a Startup,https://www.workatastartup.com,niche-board,US,Global,en,en,Global,startup,Y Combinator,free,none-known,,unknown,,,,seed-unverified
+appcast,Appcast,https://www.appcast.io,programmatic-distribution,US,Global,en,en,Global,general,,PPC/PPA,partner-only,,yes,,XML feed;programmatic,Programmatic advertising; sits between ATS and boards,seed-unverified
+joveo,Joveo,https://www.joveo.com,programmatic-distribution,US,Global,en,en,Global,general,,PPC/PPA,partner-only,,yes,,XML feed;programmatic,,seed-unverified
+broadbean,Broadbean,https://www.broadbean.com,multiposting,UK,Global,en,en,Global,general,Veritone,subscription,partner-only,,yes,,API;job distribution,,seed-unverified
+recruitics,Recruitics,https://www.recruitics.com,programmatic-distribution,US,Global,en,en,Global,general,,PPC,partner-only,,yes,,programmatic,,seed-unverified

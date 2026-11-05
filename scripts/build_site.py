@@ -14,6 +14,15 @@ COUNTRIES = {"US":"United States","CA":"Canada","UK":"United Kingdom","DE":"Germ
  "RU":"Russia","AU":"Australia","MY":"Malaysia","HK":"Hong Kong","IN":"India","CN":"China","JP":"Japan","KR":"South Korea",
  "PH":"Philippines","AE":"United Arab Emirates","NG":"Nigeria","KE":"Kenya","ZA":"South Africa","CO":"Colombia","MX":"Mexico",
  "AR":"Argentina","BR":"Brazil","Global":"Global (no single HQ)"}
+LANGS = {"en":"English","es":"Spanish","fr":"French","de":"German","it":"Italian","pt":"Portuguese","nl":"Dutch","pl":"Polish",
+ "sv":"Swedish","da":"Danish","no":"Norwegian","fi":"Finnish","ja":"Japanese","ko":"Korean","zh":"Chinese","ar":"Arabic","tr":"Turkish",
+ "ru":"Russian","uk":"Ukrainian","ca":"Catalan","cs":"Czech","sk":"Slovak","id":"Indonesian","ms":"Malay","th":"Thai","hi":"Hindi","kk":"Kazakh","ro":"Romanian"}
+def lang(c): return LANGS.get(c, c)
+def langs_of(b):
+    out = []
+    for c in [b["primary_language"]] + split(b["languages_supported"]):
+        if c and c not in out: out.append(c)
+    return out
 API_LABEL = {"public-open":"Open API (no key)","public-key":"Self-serve API key","partner-only":"Partner-only API",
  "deprecated":"Deprecated API","none-known":"No known API","unknown":"API status unknown"}
 API_BLURB = {
@@ -38,7 +47,7 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="")
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     nav = (f'<a href="{r}">Directory</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
-           f'<a href="{r}api/">APIs</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
+           f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -71,20 +80,22 @@ def link(u, t=None): return f'<a href="{e(u)}" rel="noopener nofollow" target="_
 
 def board_url(b, r): return f'{r}boards/{b["id"]}/'
 def row(b, r):
-    search = " ".join([b["name"], b["type"], b["hq_country"], country(b["hq_country"]), b["markets"], b["region"], b["niche"], b["parent"], b["ingest_methods"]]).lower()
-    return (f'<tr data-search="{e(search)}" data-region="{e(b["region"])}" data-type="{e(b["type"])}" data-api="{e(b["api_status"])}" data-partner="{e(b["partner_program"])}" data-name="{e(b["name"].lower())}">'
+    search = " ".join([b["name"], b["type"], b["hq_country"], country(b["hq_country"]), b["markets"], b["region"], b["niche"], " ".join(lang(c) for c in langs_of(b)), b["parent"], b["ingest_methods"]]).lower()
+    return (f'<tr data-search="{e(search)}" data-region="{e(b["region"])}" data-type="{e(b["type"])}" data-api="{e(b["api_status"])}" data-partner="{e(b["partner_program"])}" data-lang="{e(" ".join(langs_of(b)))}" data-name="{e(b["name"].lower())}">'
             f'<td><a href="{board_url(b,r)}"><strong>{e(b["name"])}</strong></a><div class="muted small">{e(b["niche"])}</div></td>'
-            f'<td>{e(b["type"])}</td><td>{e(country(b["hq_country"]))}</td><td>{e(b["region"])}</td>'
+            f'<td>{e(b["type"])}</td><td>{e(country(b["hq_country"]))}</td><td>{e(lang(b["primary_language"]))}</td>'
             f'<td>{api_badge(b["api_status"])}</td><td>{e(b["partner_program"] or "unknown")}</td></tr>')
 
 def table(rows, r, filters=False):
-    return ('<div class="tablewrap"><table id="boards"><thead><tr><th>Board</th><th>Type</th><th>HQ</th><th>Region</th><th>API</th><th>Partner program</th></tr></thead><tbody>'
+    return ('<div class="tablewrap"><table id="boards"><thead><tr><th>Board</th><th>Type</th><th>HQ</th><th>Language</th><th>API</th><th>Partner program</th></tr></thead><tbody>'
             + "".join(row(b, r) for b in rows) + "</tbody></table></div>")
 
 # ---------- home ----------
 def opts(key):
     vals = sorted({b[key] for b in boards})
     return "".join(f'<option value="{e(v)}">{e(API_LABEL.get(v, v))}</option>' for v in vals)
+lang_counts = collections.Counter(c for b in boards for c in langs_of(b))
+lang_opts = "".join(f'<option value="{e(c)}">{e(lang(c))}</option>' for c in sorted(lang_counts, key=lang))
 apicount = collections.Counter(b["api_status"] for b in boards)
 home_body = f"""
 <section class="hero"><h1>Every job board, aggregator and ATS, and how to integrate with them</h1>
@@ -93,9 +104,10 @@ home_body = f"""
 <div><b>{apicount["public-open"] + apicount["public-key"]}</b><span>with a public API</span></div><div><b>{apicount["partner-only"]}</b><span>partner-only</span></div></div>
 <p class="notice"><strong>Early data.</strong> Rows were compiled from general knowledge and are being verified against official documentation. Entries marked Unverified should be treated as leads.</p></section>
 <section aria-label="Search the directory"><div class="filters">
-<label class="grow">Search<input id="q" type="search" placeholder="Name, country, niche, parent company..." autocomplete="off"></label>
+<label class="grow">Search<input id="q" type="search" placeholder="Name, country, language, niche, parent company..." autocomplete="off"></label>
 <label>Region<select id="f-region"><option value="">All</option>{opts("region")}</select></label>
 <label>Type<select id="f-type"><option value="">All</option>{opts("type")}</select></label>
+<label>Language<select id="f-lang"><option value="">All</option>{lang_opts}</select></label>
 <label>API<select id="f-api"><option value="">All</option>{opts("api_status")}</select></label>
 <label>Partner program<select id="f-partner"><option value="">All</option><option value="yes">Yes</option><option value="n/a">Not applicable</option><option value="unknown">Unknown</option></select></label>
 </div><p id="count" class="muted" aria-live="polite"></p>
@@ -103,7 +115,7 @@ home_body = f"""
 <p id="empty" class="muted" hidden>No boards match those filters.</p></section>
 <section class="prose"><h2>What this directory covers</h2>
 <p>Job distribution has several layers: the employer, the applicant tracking system, programmatic and multiposting platforms, and the boards and aggregators candidates use. This directory maps all of them, with a focus on integration: which platforms publish open feeds or APIs, which require a partnership, and where the developer portals are.</p>
-<ul><li><a href="api/public-open/">Job boards with an open API</a></li><li><a href="api/public-key/">Job boards with a self-serve API key</a></li><li><a href="api/partner-only/">Partner-only job board APIs</a></li><li><a href="ats/">ATS systems with public job feeds</a></li></ul></section>
+<ul><li><a href="languages/">Job boards by language</a></li><li><a href="api/public-open/">Job boards with an open API</a></li><li><a href="api/public-key/">Job boards with a self-serve API key</a></li><li><a href="api/partner-only/">Partner-only job board APIs</a></li><li><a href="ats/">ATS systems with public job feeds</a></li></ul></section>
 <script src="assets/app.js" defer></script>"""
 dataset = {"@context":"https://schema.org","@type":"Dataset","name":f"{NAME}: job boards, aggregators and ATS systems",
  "description":CFG["tagline"],"url":BASE+"/","creator":{"@type":"Person","name":CFG["author"]},"isAccessibleForFree":True,
@@ -129,6 +141,7 @@ for b in boards:
 <p>{api_badge(b["api_status"])} {conf_badge(b["confidence"])}</p>
 <dl class="facts">{fact("Website", link(b["url"]))}{fact("Type", e(b["type"]))}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>')}
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
+{fact("Primary language", f'<a href="{r}languages/{slug(lang(b["primary_language"]))}/">{e(lang(b["primary_language"]))}</a>')}{fact("Languages supported", "".join(f'<a class="chip" href="{r}languages/{slug(lang(c))}/">{e(lang(c))}</a>' for c in langs_of(b)) or '<span class="muted">Not recorded</span>')}
 {fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Parent organisation", e(b["parent"]) or '<span class="muted">None recorded</span>')}
 {fact("Business model", e(b["business_model"]) or '<span class="muted">Not recorded</span>')}
 {fact("API status", f'<a href="{r}api/{e(b["api_status"])}/">{e(API_LABEL[b["api_status"]])}</a>')}{fact("API or developer docs", link(b["api_docs_url"]))}
@@ -142,7 +155,7 @@ for b in boards:
       {"@type":"ListItem","position":2,"name":b["region"],"item":f'{BASE}/regions/{slug(b["region"])}/'},
       {"@type":"ListItem","position":3,"name":b["name"]}]}
     write(f'boards/{b["id"]}/index.html', layout(2, f'{b["name"]}: API, partner program and integration details | {NAME}',
-      f'{b["name"]} ({b["type"]}, {country(b["hq_country"])}): API status, partner program, developer docs and how jobs are ingested.', body, f'/boards/{b["id"]}/', ld))
+      f'{b["name"]} ({b["type"]}, {country(b["hq_country"])}, {lang(b["primary_language"])}): API status, partner program, developer docs and how jobs are ingested.', body, f'/boards/{b["id"]}/', ld))
 
 # ---------- group pages (regions, countries, api status) ----------
 def group_pages(kind, label_plural, keyfn, labelfn, blurbfn, titlefn, h1fn):
@@ -169,6 +182,21 @@ group_pages("api", "API status", lambda b: b["api_status"], lambda k: API_LABEL[
              "deprecated":"Job boards with deprecated APIs","none-known":"Job boards with no known API","unknown":"Job boards with unresearched API status"}[k],
   lambda k: {"public-open":"Job boards with an open API","public-key":"Job board APIs with self-serve keys","partner-only":"Partner-only job board APIs and feeds",
              "deprecated":"Job boards with deprecated APIs","none-known":"Job boards with no known API","unknown":"Job boards with unresearched API status"}[k])
+
+# ---------- languages ----------
+by_lang = collections.defaultdict(list)
+for b in boards:
+    for c in langs_of(b): by_lang[c].append(b)
+write("languages/index.html", layout(1, f"Job boards by language | {NAME}", "Browse job boards and aggregators by primary language and supported languages.",
+    '<h1>Job boards by language</h1><p class="lede">Boards are listed under their primary language and every other language they support.</p><ul class="biglist">'
+    + "".join(f'<li><a href="{slug(lang(c))}/">{e(lang(c))}</a> <span class="muted">({len(v)})</span></li>' for c, v in sorted(by_lang.items(), key=lambda kv: lang(kv[0]))) + "</ul>", "/languages/"))
+for c, v in by_lang.items():
+    prim = sum(1 for b in v if b["primary_language"] == c)
+    body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">By language</a> / {e(lang(c))}</nav><h1>{e(lang(c))} job boards</h1>'
+            f'<p class="lede">{len(v)} job boards and aggregators that support {e(lang(c))}, of which {prim} use it as their primary language.</p>'
+            + table(sorted(v, key=lambda b: b["name"].lower()), "../../"))
+    write(f"languages/{slug(lang(c))}/index.html", layout(2, f"{lang(c)} job boards and aggregators | {NAME}",
+        f"{len(v)} job boards and aggregators supporting {lang(c)}, with API access and partner program details.", body, f"/languages/{slug(lang(c))}/"))
 
 # ---------- ATS ----------
 def ats_row(a, r): return (f'<tr><td><a href="{r}ats/{a["id"]}/"><strong>{e(a["name"])}</strong></a><div class="muted small">{e(a["vendor"])}</div></td>'
