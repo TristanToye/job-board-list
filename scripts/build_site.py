@@ -47,7 +47,7 @@ boards, ats = load("job_boards.csv"), load("ats_systems.csv")
 SOURCES = collections.defaultdict(list)
 for _s in load("sources.csv"): SOURCES[_s["board_id"]].append(_s)
 FIELD_LABEL = {"existence":"Existence and description","api_status":"API access","partner_program":"Partner program","ingest_methods":"How jobs get in",
- "business_model":"Business model and pricing","parent":"Ownership","languages":"Languages","terms":"Terms of use","relationship":"Relationships"}
+ "business_model":"Business model and pricing","parent":"Ownership","languages":"Languages","terms":"Terms of use","relationship":"Relationships","listed_by":"Listed by a third-party directory"}
 LOGO_MANIFEST = json.loads((ROOT / "data" / "logos.json").read_text()) if (ROOT / "data" / "logos.json").exists() else {}
 def logo_info(b):
     m = LOGO_MANIFEST.get(b["id"]) or {}
@@ -112,7 +112,7 @@ def row(b, r):
     search = " ".join([b["name"], b["type"], b["hq_country"], country(b["hq_country"]), b["markets"], b["region"], b["niche"], " ".join(lang(c) for c in langs_of(b)), b["parent"], b["ingest_methods"]]).lower()
     return (f'<tr data-search="{e(search)}" data-region="{e(b["region"])}" data-type="{e(b["type"])}" data-api="{e(b["api_status"])}" data-partner="{e(b["partner_program"])}" data-lang="{e(" ".join(langs_of(b)))}" data-name="{e(b["name"].lower())}">'
             f'<td><div class="namecell">{icon(b, r)}<div><a href="{board_url(b,r)}"><strong>{e(b["name"])}</strong></a><div class="muted small">{e(b["niche"])}</div></div></div></td>'
-            f'<td>{e(b["type"])}</td><td>{e(country(b["hq_country"]))}</td><td>{e(lang(b["primary_language"]))}</td>'
+            f'<td>{e(b["type"])}</td><td>{e(country(b["hq_country"]) or "Not recorded")}</td><td>{e(lang(b["primary_language"]))}</td>'
             f'<td>{api_badge(b["api_status"])}</td><td>{e(b["partner_program"] or "unknown")}</td></tr>')
 
 def table(rows, r, filters=False):
@@ -173,9 +173,9 @@ for b in boards:
             f'<li><span class="chip">{e(FIELD_LABEL.get(x["field"], x["field"]))}</span> <a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">{e(x["title"])}</a> <span class="muted small">checked {e(x["accessed"])}</span></li>' for x in srcs) + "</ol>")
     checked_on = max((x["accessed"] for x in srcs), default="")
     body = f"""<nav class="crumbs"><a href="{r}">Directory</a> / <a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a> / {e(b["name"])}</nav>
-<div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is {article(tdesc(b))} {e(tdesc(b))} based in {e(country(b["hq_country"]))}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
+<div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is {article(tdesc(b))} {e(tdesc(b))}{" based in " + e(country(b["hq_country"])) if b["hq_country"] else ""}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
 <p>{api_badge(b["api_status"])} {conf_badge(b["confidence"])}</p>
-<dl class="facts">{fact("Website", link(b["url"]))}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Type", e(b["type"]))}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>')}
+<dl class="facts">{fact("Website", link(b["url"]))}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Type", e(b["type"]))}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>' if b["hq_country"] else '<span class="muted">Not recorded</span>')}
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
 {fact("Primary language", f'<a href="{r}languages/{slug(lang(b["primary_language"]))}/">{e(lang(b["primary_language"]))}</a>')}{fact("Languages supported", "".join(f'<a class="chip" href="{r}languages/{slug(lang(c))}/">{e(lang(c))}</a>' for c in langs_of(b)) or '<span class="muted">Not recorded</span>')}
 {fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Parent organisation", e(b["parent"]) or '<span class="muted">None recorded</span>')}
@@ -196,7 +196,7 @@ for b in boards:
     if logo_info(b): org["logo"] = f'{BASE}/assets/logos/{logo_info(b)["file"]}'
     ld = [ld, org]
     write(f'boards/{b["id"]}/index.html', layout(2, f'{b["name"]}: API, partner program and integration details | {NAME}',
-      f'{b["name"]} ({b["type"]}, {country(b["hq_country"])}, {lang(b["primary_language"])}): API status, partner program, developer docs and how jobs are ingested.', body, f'/boards/{b["id"]}/', ld))
+      f'{b["name"]} ({b["type"]}{", " + country(b["hq_country"]) if b["hq_country"] else ""}, {lang(b["primary_language"])}): API status, partner program, developer docs and how jobs are ingested.', body, f'/boards/{b["id"]}/', ld))
 
 # ---------- group pages (regions, countries, api status) ----------
 def group_pages(kind, label_plural, keyfn, labelfn, blurbfn, titlefn, h1fn):

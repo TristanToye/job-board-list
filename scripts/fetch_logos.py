@@ -18,8 +18,11 @@ def fetch(host):
     with urllib.request.urlopen(req, timeout=20) as r: return r.read()
 
 for b in boards:
-    if b["id"] in manifest and not force and (LOGOS / manifest[b["id"]]["file"]).exists(): continue
+    m = manifest.get(b["id"])
+    if m and m.get("file") and not force and (LOGOS / m["file"]).exists(): continue
     host = urllib.parse.urlparse(b["url"]).netloc.removeprefix("www.")
+    if not host:
+        manifest[b["id"]] = {"file": None, "host": "", "error": "no url"}; print("skip", b["id"], "no url"); continue
     try:
         img = Image.open(io.BytesIO(fetch(host))); img.load()
         w, h = img.size
