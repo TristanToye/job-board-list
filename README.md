@@ -19,6 +19,7 @@ A static site is generated from the CSVs into `docs/` and served by GitHub Pages
 - Build: `python3 scripts/build_site.py` (standard library only).
 - Source: `site_src/` (CSS and JS), settings in `site.json` (name, tagline, `base_url`).
 - Output: a searchable directory, one page per board and ATS, region, country and API-status pages, `sitemap.xml`, `robots.txt`, structured data, and CSV and JSON downloads.
+- Icons: `python3 scripts/fetch_logos.py` downloads each board's site icon into `site_src/logos/` and records results in `data/logos.json`. Icons are self-hosted. Boards with no usable icon get a letter tile.
 - Publish: in the repo settings under Pages, choose branch `main` and folder `/docs`.
 - Custom domain: set `base_url` in `site.json`, add a `CNAME` file at the repo root containing the domain, rebuild, and set the domain in Pages settings.
 

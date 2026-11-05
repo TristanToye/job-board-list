@@ -41,6 +41,18 @@ def split(s): return [x.strip() for x in (s or "").split(";") if x.strip()]
 def country(c): return COUNTRIES.get(c, c)
 
 boards, ats = load("job_boards.csv"), load("ats_systems.csv")
+LOGO_MANIFEST = json.loads((ROOT / "data" / "logos.json").read_text()) if (ROOT / "data" / "logos.json").exists() else {}
+def logo_info(b):
+    m = LOGO_MANIFEST.get(b["id"]) or {}
+    return m if m.get("file") else None
+def icon(b, r, px=24):
+    """Self-hosted site icon, or a letter tile when none was found."""
+    m = logo_info(b)
+    if m:
+        px = min(px, m["size"])
+        return f'<img class="ico" src="{r}assets/logos/{e(m["file"])}" width="{px}" height="{px}" alt="" loading="lazy" decoding="async">'
+    hue = sum(map(ord, b["id"])) * 37 % 360
+    return f'<span class="ico tile" style="--h:{hue}" aria-hidden="true">{e(b["name"][:1].upper())}</span>'
 pages = []  # (path, lastmod)
 
 def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head=""):
@@ -82,7 +94,7 @@ def board_url(b, r): return f'{r}boards/{b["id"]}/'
 def row(b, r):
     search = " ".join([b["name"], b["type"], b["hq_country"], country(b["hq_country"]), b["markets"], b["region"], b["niche"], " ".join(lang(c) for c in langs_of(b)), b["parent"], b["ingest_methods"]]).lower()
     return (f'<tr data-search="{e(search)}" data-region="{e(b["region"])}" data-type="{e(b["type"])}" data-api="{e(b["api_status"])}" data-partner="{e(b["partner_program"])}" data-lang="{e(" ".join(langs_of(b)))}" data-name="{e(b["name"].lower())}">'
-            f'<td><a href="{board_url(b,r)}"><strong>{e(b["name"])}</strong></a><div class="muted small">{e(b["niche"])}</div></td>'
+            f'<td><div class="namecell">{icon(b, r)}<div><a href="{board_url(b,r)}"><strong>{e(b["name"])}</strong></a><div class="muted small">{e(b["niche"])}</div></div></div></td>'
             f'<td>{e(b["type"])}</td><td>{e(country(b["hq_country"]))}</td><td>{e(lang(b["primary_language"]))}</td>'
             f'<td>{api_badge(b["api_status"])}</td><td>{e(b["partner_program"] or "unknown")}</td></tr>')
 
@@ -137,7 +149,7 @@ for b in boards:
       "none-known":"has no publicly documented API that we could find","unknown":"has not yet been researched for API availability"}[b["api_status"]]
     partner = {"yes":"A partner or integration program exists.","n/a":"Not applicable (public body or open source of data).","unknown":"Partner program status is not yet known."}.get(b["partner_program"], "Partner program status is not yet known.")
     body = f"""<nav class="crumbs"><a href="{r}">Directory</a> / <a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a> / {e(b["name"])}</nav>
-<h1>{e(b["name"])}</h1><p class="lede">{e(b["name"])} is a {e(b["type"])} based in {e(country(b["hq_country"]))}{f", focused on {e(b['niche'])}" if b["niche"] else ""}. It {api_text}. {e(partner)}</p>
+<div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is a {e(b["type"])} based in {e(country(b["hq_country"]))}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
 <p>{api_badge(b["api_status"])} {conf_badge(b["confidence"])}</p>
 <dl class="facts">{fact("Website", link(b["url"]))}{fact("Type", e(b["type"]))}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>')}
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
@@ -148,12 +160,16 @@ for b in boards:
 {fact("Partner program", e(b["partner_program"] or "unknown"))}{fact("Partner program link", link(b["partner_url"]))}
 {fact("How jobs get in", chips(split(b["ingest_methods"])))}</dl>
 {f'<h2>Notes</h2><p>{e(b["notes"])}</p>' if b["notes"] else ""}
+<p class="muted small">{e(b["name"])} and its logo are trademarks of their respective owners. Icons are shown for identification only and do not imply affiliation or endorsement.</p>
 <p class="notice">Information on this page has not been verified against primary sources unless marked otherwise. <a href="{r}about/">How we research</a>.</p>
 {"<h2>Other boards in " + e(b["region"]) + "</h2><ul>" + "".join(f'<li><a href="{r}boards/{x["id"]}/">{e(x["name"])}</a></li>' for x in siblings) + "</ul>" if siblings else ""}"""
     ld = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
       {"@type":"ListItem","position":1,"name":"Directory","item":BASE+"/"},
       {"@type":"ListItem","position":2,"name":b["region"],"item":f'{BASE}/regions/{slug(b["region"])}/'},
       {"@type":"ListItem","position":3,"name":b["name"]}]}
+    org = {"@context":"https://schema.org","@type":"Organization","name":b["name"],"url":b["url"]}
+    if logo_info(b): org["logo"] = f'{BASE}/assets/logos/{logo_info(b)["file"]}'
+    ld = [ld, org]
     write(f'boards/{b["id"]}/index.html', layout(2, f'{b["name"]}: API, partner program and integration details | {NAME}',
       f'{b["name"]} ({b["type"]}, {country(b["hq_country"])}, {lang(b["primary_language"])}): API status, partner program, developer docs and how jobs are ingested.', body, f'/boards/{b["id"]}/', ld))
 
@@ -219,12 +235,14 @@ about = f"""<h1>About and methodology</h1><div class="prose">
 <h2>How the data is compiled</h2><p>The initial list was compiled from general industry knowledge. Each entry is then checked against the board's own documentation, developer portal or press pages. Rows that have not been checked carry an Unverified label. Once a row is checked it records a source and date.</p>
 <h2>Definitions</h2><ul><li><strong>Open API:</strong> usable without approval.</li><li><strong>Self-serve API key:</strong> documented API with a signup or key request.</li>
 <li><strong>Partner-only:</strong> access requires an approved partner or commercial agreement.</li><li><strong>No known API:</strong> nothing publicly documented was found.</li><li><strong>Unknown:</strong> not yet researched.</li></ul>
+<h2>Trademarks and logos</h2><p>Names and icons shown in this directory belong to their respective owners and are used only to identify the services described. Their use does not imply any affiliation with or endorsement by those owners. Owners who would like an icon removed or changed can open an issue on the project repository.</p>
 <h2>Corrections and downloads</h2><p>Spotted something wrong or missing? Open an issue or pull request on the project repository. The full dataset is available as <a href="../downloads/job_boards.csv">CSV</a> and <a href="../downloads/job_boards.json">JSON</a>.</p></div>"""
 write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}", "How the job board directory is compiled, what each API status means, and how to report corrections.", about, "/about/"))
 
 # ---------- assets, downloads, robots, sitemap, 404 ----------
 (OUT / "assets").mkdir(parents=True, exist_ok=True)
 shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js")
+if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", OUT/"assets"/"logos", dirs_exist_ok=True)
 (OUT/"downloads").mkdir(exist_ok=True)
 for n in ("job_boards.csv","ats_systems.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
