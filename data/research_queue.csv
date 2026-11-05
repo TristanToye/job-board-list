@@ -212,3 +212,32 @@ Shigoto-in,https://www.shigoto-in.com/,JP,verification,DNS lookup failed (ENOTFO
 Crowdworks,https://crowdworks.jp/,JP,verification,Homepage returned an unsupported-browser error page; existence not confirmed,2026-11-05
 Lancers,https://www.lancers.jp/,JP,verification,HTTP 405 on read; existence not confirmed,2026-11-05
 Townwork,https://www.townwork.net/,JP,verification,Homepage returned empty content on two reads; existence not confirmed,2026-11-05
+Catho,https://www.catho.com.br,BR,verification,HTTP 403 (two attempts),2026-11-05
+Indeed Brasil,https://br.indeed.com,BR,verification,HTTP 403 (two attempts),2026-11-05
+Glassdoor Brasil,https://www.glassdoor.com.br,BR,verification,HTTP 403,2026-11-05
+Trabalha Brasil,https://www.trabalhabrasil.gov.br,BR,verification,DNS error (getaddrinfo ENOTFOUND); host not resolvable from this session,2026-11-05
+Emprega Brasil,https://servicos.mte.gov.br,BR,verification,HTTP 503,2026-11-05
+Workana,https://www.workana.com,BR,verification,HTTP 403,2026-11-05
+Adzuna Brasil,https://www.adzuna.com.br,BR,verification,HTTP 403,2026-11-05
+Jobrapido Brasil,https://br.jobrapido.com,BR,verification,HTTP 403,2026-11-05
+Trovit Brasil,https://br.trovit.com,BR,verification,DNS error (getaddrinfo ENOTFOUND); host not resolvable from this session,2026-11-05
+Kenoby,https://www.kenoby.com,BR,verification,DNS error (getaddrinfo ENOTFOUND); host not resolvable from this session,2026-11-05
+Sólides,,BR,verification,Named in a roundup (Guia da Carreira) but homepage not read,2026-11-05
+Indeed Italia,https://it.indeed.com/,IT,verification,HTTP 403 (retried once),2026-11-05
+Subito Lavoro,https://www.subito.it/,IT,verification,HTTP 403 (retried once),2026-11-05
+Bakeca,https://www.bakeca.it/,IT,verification,HTTP 403,2026-11-05
+Helplavoro,https://www.helplavoro.it/,IT,verification,HTTP 503,2026-11-05
+StepStone Italia,https://www.stepstone.it/,IT,verification,HTTP 403,2026-11-05
+Jobrapido Italia,https://it.jobrapido.com/,IT,verification,HTTP 403,2026-11-05
+Glassdoor Italia,https://www.glassdoor.it/,IT,verification,HTTP 403,2026-11-05
+Adzuna Italia,https://www.adzuna.it/,IT,verification,HTTP 403,2026-11-05
+JobLeads Italia,https://www.jobleads.com/it,IT,verification,HTTP 403,2026-11-05
+Xing Jobs,https://www.xing.com/jobs,IT,verification,Fetch refused by tool,2026-11-05
+ANPAL (anpal.gov.it),https://www.anpal.gov.it/,IT,verification,"DNS error (EAI_AGAIN, retried once)",2026-11-05
+Monster Italia,https://it.monster.com/,IT,verification,DNS error (ENOTFOUND),2026-11-05
+Hotelcareer Italia,https://www.hotelcareer.it/,IT,verification,DNS error (EAI_AGAIN),2026-11-05
+Lavoro Sociale,https://www.lavorosociale.it/,IT,verification,DNS error (EAI_AGAIN),2026-11-05
+InfoJobs,https://www.infojobs.it/,IT,verification,"Named in roundups; homepage loads but shows an official closure notice, so not listed as a live board",2026-11-05
+Jobbydoo,https://www.jobbydoo.it/,IT,verification,Homepage loaded with no readable content,2026-11-05
+Careerjet Italia,https://www.careerjet.it/,IT,verification,Returned a traffic verification page instead of the homepage,2026-11-05
+Jobsinitaly,https://www.jobsinitaly.com/,IT,verification,"Domain redirects to a domain listing page, not the board",2026-11-05
