@@ -23,16 +23,19 @@ def langs_of(b):
     for c in [b["primary_language"]] + split(b["languages_supported"]):
         if c and c not in out: out.append(c)
     return out
-API_LABEL = {"public-open":"Open API (no key)","public-key":"Self-serve API key","partner-only":"Partner-only API",
+API_LABEL = {"on-request":"API key on request","public-open":"Open API (no key)","public-key":"Self-serve API key","partner-only":"Partner-only API",
  "deprecated":"Deprecated API","none-known":"No known API","unknown":"API status unknown"}
 API_BLURB = {
  "public-open":"Boards that publish jobs through an open API, feed or open data set that needs no approval.",
  "public-key":"Boards with a documented API you can use after a self-serve signup or key request.",
+ "on-request":"Boards where an API key or XML feed is issued after a request form or review, without a full partner agreement.",
  "partner-only":"Boards where programmatic access, posting or feeds require an approved partner or commercial agreement.",
  "deprecated":"Boards whose earlier public API has been retired.",
  "none-known":"Boards with no publicly documented API that we could identify. Access is typically by crawling or by employer feed.",
  "unknown":"Boards where API availability has not yet been researched."}
 
+def tdesc(b): return {"government":"government job site"}.get(b["type"], b["type"])
+def article(w): return "an" if w[:1].lower() in "aeiou" else "a"
 def e(s): return html.escape(str(s), quote=True)
 def slug(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")
 def load(n):
@@ -41,6 +44,10 @@ def split(s): return [x.strip() for x in (s or "").split(";") if x.strip()]
 def country(c): return COUNTRIES.get(c, c)
 
 boards, ats = load("job_boards.csv"), load("ats_systems.csv")
+SOURCES = collections.defaultdict(list)
+for _s in load("sources.csv"): SOURCES[_s["board_id"]].append(_s)
+FIELD_LABEL = {"existence":"Existence and description","api_status":"API access","partner_program":"Partner program","ingest_methods":"How jobs get in",
+ "business_model":"Business model and pricing","parent":"Ownership","languages":"Languages","terms":"Terms of use","relationship":"Relationships"}
 LOGO_MANIFEST = json.loads((ROOT / "data" / "logos.json").read_text()) if (ROOT / "data" / "logos.json").exists() else {}
 def logo_info(b):
     m = LOGO_MANIFEST.get(b["id"]) or {}
@@ -62,6 +69,15 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="")
            f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0GLWE1JFP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E0GLWE1JFP');
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
@@ -85,7 +101,8 @@ def write(rel, content, lastmod=True):
         pages.append("/" + rel[:-len("index.html")])
 
 def conf_badge(c):
-    return '<span class="badge warn" title="Not yet checked against a primary source">Unverified</span>' if c == "seed-unverified" else f'<span class="badge ok">{e(c)}</span>'
+    if c == "seed-unverified": return '<span class="badge warn" title="No facts on this page have been checked against a primary source yet">Unverified</span>'
+    return '<span class="badge ok" title="Some facts are checked. See the sources list on this page">Partly verified</span>'
 def api_badge(s): return f'<span class="badge api-{e(s)}">{e(API_LABEL.get(s,s))}</span>'
 def chips(vals): return "".join(f'<span class="chip">{e(v)}</span>' for v in vals) or '<span class="muted">Not recorded</span>'
 def link(u, t=None): return f'<a href="{e(u)}" rel="noopener nofollow" target="_blank">{e(t or u)}</a>' if u else '<span class="muted">Not recorded</span>'
@@ -108,13 +125,14 @@ def opts(key):
     return "".join(f'<option value="{e(v)}">{e(API_LABEL.get(v, v))}</option>' for v in vals)
 lang_counts = collections.Counter(c for b in boards for c in langs_of(b))
 lang_opts = "".join(f'<option value="{e(c)}">{e(lang(c))}</option>' for c in sorted(lang_counts, key=lang))
+checked = sum(1 for b in boards if SOURCES.get(b["id"]))
 apicount = collections.Counter(b["api_status"] for b in boards)
 home_body = f"""
 <section class="hero"><h1>Every job board, aggregator and ATS, and how to integrate with them</h1>
 <p class="lede">{e(CFG["tagline"])}. Search {len(boards)} boards and {len(ats)} applicant tracking systems across regions and countries. Find who has an API, a partner program or a developer portal.</p>
-<div class="stats"><div><b>{len(boards)}</b><span>boards and aggregators</span></div><div><b>{len(ats)}</b><span>ATS systems</span></div>
+<div class="stats"><div><b>{len(boards)}</b><span>boards and aggregators</span></div><div><b>{checked}</b><span>with cited sources</span></div><div><b>{len(ats)}</b><span>ATS systems</span></div>
 <div><b>{apicount["public-open"] + apicount["public-key"]}</b><span>with a public API</span></div><div><b>{apicount["partner-only"]}</b><span>partner-only</span></div></div>
-<p class="notice"><strong>Early data.</strong> Rows were compiled from general knowledge and are being verified against official documentation. Entries marked Unverified should be treated as leads.</p></section>
+<p class="notice"><strong>Early data.</strong> {checked} of {len(boards)} entries have facts checked against cited sources, starting with Canada. The rest were compiled from general knowledge and are marked Unverified. Treat them as leads.</p></section>
 <section aria-label="Search the directory"><div class="filters">
 <label class="grow">Search<input id="q" type="search" placeholder="Name, country, language, niche, parent company..." autocomplete="off"></label>
 <label>Region<select id="f-region"><option value="">All</option>{opts("region")}</select></label>
@@ -127,7 +145,7 @@ home_body = f"""
 <p id="empty" class="muted" hidden>No boards match those filters.</p></section>
 <section class="prose"><h2>What this directory covers</h2>
 <p>Job distribution has several layers: the employer, the applicant tracking system, programmatic and multiposting platforms, and the boards and aggregators candidates use. This directory maps all of them, with a focus on integration: which platforms publish open feeds or APIs, which require a partnership, and where the developer portals are.</p>
-<ul><li><a href="languages/">Job boards by language</a></li><li><a href="api/public-open/">Job boards with an open API</a></li><li><a href="api/public-key/">Job boards with a self-serve API key</a></li><li><a href="api/partner-only/">Partner-only job board APIs</a></li><li><a href="ats/">ATS systems with public job feeds</a></li></ul></section>
+<ul><li><a href="languages/">Job boards by language</a></li><li><a href="countries/canada/">Job boards in Canada</a></li><li><a href="api/public-open/">Job boards with an open API</a></li><li><a href="api/public-key/">Job boards with a self-serve API key</a></li><li><a href="api/partner-only/">Partner-only job board APIs</a></li><li><a href="ats/">ATS systems with public job feeds</a></li></ul></section>
 <script src="assets/app.js" defer></script>"""
 dataset = {"@context":"https://schema.org","@type":"Dataset","name":f"{NAME}: job boards, aggregators and ATS systems",
  "description":CFG["tagline"],"url":BASE+"/","creator":{"@type":"Person","name":CFG["author"]},"isAccessibleForFree":True,
@@ -146,12 +164,18 @@ for b in boards:
     siblings = [x for x in boards if x["region"] == b["region"] and x["id"] != b["id"]][:6]
     api_text = {"public-open":"has an open API or feed that does not require approval","public-key":"offers an API you can use with a self-serve key",
       "partner-only":"restricts programmatic access to approved partners","deprecated":"has retired its earlier public API",
-      "none-known":"has no publicly documented API that we could find","unknown":"has not yet been researched for API availability"}[b["api_status"]]
+      "on-request":"issues API keys or feeds on request","none-known":"has no publicly documented API that we could find","unknown":"has not yet been researched for API availability"}[b["api_status"]]
     partner = {"yes":"A partner or integration program exists.","n/a":"Not applicable (public body or open source of data).","unknown":"Partner program status is not yet known."}.get(b["partner_program"], "Partner program status is not yet known.")
+    srcs = SOURCES.get(b["id"], [])
+    sources_html = ""
+    if srcs:
+        sources_html = ("<h2>Sources</h2><ol class=\"sources\">" + "".join(
+            f'<li><span class="chip">{e(FIELD_LABEL.get(x["field"], x["field"]))}</span> <a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">{e(x["title"])}</a> <span class="muted small">checked {e(x["accessed"])}</span></li>' for x in srcs) + "</ol>")
+    checked_on = max((x["accessed"] for x in srcs), default="")
     body = f"""<nav class="crumbs"><a href="{r}">Directory</a> / <a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a> / {e(b["name"])}</nav>
-<div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is a {e(b["type"])} based in {e(country(b["hq_country"]))}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
+<div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is {article(tdesc(b))} {e(tdesc(b))} based in {e(country(b["hq_country"]))}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
 <p>{api_badge(b["api_status"])} {conf_badge(b["confidence"])}</p>
-<dl class="facts">{fact("Website", link(b["url"]))}{fact("Type", e(b["type"]))}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>')}
+<dl class="facts">{fact("Website", link(b["url"]))}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Type", e(b["type"]))}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>')}
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
 {fact("Primary language", f'<a href="{r}languages/{slug(lang(b["primary_language"]))}/">{e(lang(b["primary_language"]))}</a>')}{fact("Languages supported", "".join(f'<a class="chip" href="{r}languages/{slug(lang(c))}/">{e(lang(c))}</a>' for c in langs_of(b)) or '<span class="muted">Not recorded</span>')}
 {fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Parent organisation", e(b["parent"]) or '<span class="muted">None recorded</span>')}
@@ -161,7 +185,8 @@ for b in boards:
 {fact("How jobs get in", chips(split(b["ingest_methods"])))}</dl>
 {f'<h2>Notes</h2><p>{e(b["notes"])}</p>' if b["notes"] else ""}
 <p class="muted small">{e(b["name"])} and its logo are trademarks of their respective owners. Icons are shown for identification only and do not imply affiliation or endorsement.</p>
-<p class="notice">Information on this page has not been verified against primary sources unless marked otherwise. <a href="{r}about/">How we research</a>.</p>
+{sources_html}
+<p class="notice">Only facts listed under Sources have been checked. Everything else on this page is unverified. <a href="{r}about/">How we research</a>.</p>
 {"<h2>Other boards in " + e(b["region"]) + "</h2><ul>" + "".join(f'<li><a href="{r}boards/{x["id"]}/">{e(x["name"])}</a></li>' for x in siblings) + "</ul>" if siblings else ""}"""
     ld = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
       {"@type":"ListItem","position":1,"name":"Directory","item":BASE+"/"},
@@ -189,15 +214,27 @@ def group_pages(kind, label_plural, keyfn, labelfn, blurbfn, titlefn, h1fn):
 group_pages("regions", "region", lambda b: b["region"], lambda k: k,
   lambda k, n: f"{n} job boards, aggregators and platforms serving {k}, with API status and partner program details.",
   lambda k: f"Job boards in {k}", lambda k: f"Job boards in {k}")
-group_pages("countries", "country", lambda b: country(b["hq_country"]), lambda k: k,
-  lambda k, n: f"{n} job boards and aggregators headquartered in {k}, with API access and partner programs.",
-  lambda k: f"Job boards headquartered in {k}", lambda k: f"Job boards headquartered in {k}")
+# countries: boards headquartered in or serving each country
+by_country = collections.defaultdict(list)
+for b in boards:
+    for c in dict.fromkeys([b["hq_country"]] + split(b["countries_served"])):
+        if c: by_country[country(c)].append(b)
+write("countries/index.html", layout(1, f"Job boards by country | {NAME}", "Browse job boards and aggregators by the country they are based in or serve.",
+    '<h1>Job boards by country</h1><p class="lede">Boards are listed under the country where they are headquartered and any country they are known to serve.</p><ul class="biglist">'
+    + "".join(f'<li><a href="{slug(k)}/">{e(k)}</a> <span class="muted">({len(v)})</span></li>' for k, v in sorted(by_country.items())) + "</ul>", "/countries/"))
+for k, v in by_country.items():
+    hq = [b for b in v if country(b["hq_country"]) == k]
+    sv = len(v) - len(hq)
+    nchk = sum(1 for b in v if SOURCES.get(b["id"]))
+    body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">By country</a> / {e(k)}</nav><h1>Job boards in {e(k)}</h1>'
+            f'<p class="lede">{len(v)} job boards and aggregators based in or serving {e(k)}: {len(hq)} headquartered there and {sv} based elsewhere that serve it. {nchk} have facts checked against cited sources.</p>'
+            + table(sorted(v, key=lambda b: b["name"].lower()), "../../"))
+    write(f"countries/{slug(k)}/index.html", layout(2, f"Job boards in {k}: APIs, partner programs and sources | {NAME}",
+        f"{len(v)} job boards and aggregators based in or serving {k}, with API access, partner programs and cited sources.", body, f"/countries/{slug(k)}/"))
+API_TITLE = {"on-request":"Job board APIs and feeds available on request","public-open":"Job boards with an open API","public-key":"Job board APIs with self-serve keys",
+  "partner-only":"Partner-only job board APIs and feeds","deprecated":"Job boards with deprecated APIs","none-known":"Job boards with no known API","unknown":"Job boards with unresearched API status"}
 group_pages("api", "API status", lambda b: b["api_status"], lambda k: API_LABEL[k],
-  lambda k, n: f"{API_BLURB[k]} {n} listed.",
-  lambda k: {"public-open":"Job boards with an open API","public-key":"Job board APIs with self-serve keys","partner-only":"Partner-only job board APIs and feeds",
-             "deprecated":"Job boards with deprecated APIs","none-known":"Job boards with no known API","unknown":"Job boards with unresearched API status"}[k],
-  lambda k: {"public-open":"Job boards with an open API","public-key":"Job board APIs with self-serve keys","partner-only":"Partner-only job board APIs and feeds",
-             "deprecated":"Job boards with deprecated APIs","none-known":"Job boards with no known API","unknown":"Job boards with unresearched API status"}[k])
+  lambda k, n: f"{API_BLURB[k]} {n} listed.", lambda k: API_TITLE[k], lambda k: API_TITLE[k])
 
 # ---------- languages ----------
 by_lang = collections.defaultdict(list)
@@ -232,11 +269,11 @@ for a in ats:
 # ---------- about ----------
 about = f"""<h1>About and methodology</h1><div class="prose">
 <p>{e(NAME)} is an open, free directory maintained by {e(CFG["author"])}. It exists to give a neutral view of how job boards, aggregators and ATS systems are organised by market, region and country, and how open each is to integration.</p>
-<h2>How the data is compiled</h2><p>The initial list was compiled from general industry knowledge. Each entry is then checked against the board's own documentation, developer portal or press pages. Rows that have not been checked carry an Unverified label. Once a row is checked it records a source and date.</p>
+<h2>How the data is compiled</h2><p>The initial list was compiled from general industry knowledge. Each entry is then checked against the board's own documentation, developer portal or pricing pages, and every checked fact is listed under Sources on its page with the date it was read. Entries with no cited sources carry an Unverified label. Some large sites block automated access, and those stay Unverified until they can be checked another way. Where a site's terms forbid scraping, we read only its public pages and do not collect data by automated means.</p>
 <h2>Definitions</h2><ul><li><strong>Open API:</strong> usable without approval.</li><li><strong>Self-serve API key:</strong> documented API with a signup or key request.</li>
 <li><strong>Partner-only:</strong> access requires an approved partner or commercial agreement.</li><li><strong>No known API:</strong> nothing publicly documented was found.</li><li><strong>Unknown:</strong> not yet researched.</li></ul>
 <h2>Trademarks and logos</h2><p>Names and icons shown in this directory belong to their respective owners and are used only to identify the services described. Their use does not imply any affiliation with or endorsement by those owners. Owners who would like an icon removed or changed can open an issue on the project repository.</p>
-<h2>Corrections and downloads</h2><p>Spotted something wrong or missing? Open an issue or pull request on the project repository. The full dataset is available as <a href="../downloads/job_boards.csv">CSV</a> and <a href="../downloads/job_boards.json">JSON</a>.</p></div>"""
+<h2>Privacy</h2><p>This site uses Google Analytics to measure traffic. It may set cookies in your browser.</p>\n<h2>Corrections and downloads</h2><p>Spotted something wrong or missing? Open an issue or pull request on the project repository. The full dataset is available as <a href="../downloads/job_boards.csv">CSV</a>, <a href="../downloads/job_boards.json">JSON</a> and the <a href="../downloads/sources.csv">sources table</a>.</p></div>"""
 write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}", "How the job board directory is compiled, what each API status means, and how to report corrections.", about, "/about/"))
 
 # ---------- assets, downloads, robots, sitemap, 404 ----------
@@ -244,7 +281,7 @@ write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}"
 shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js")
 if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", OUT/"assets"/"logos", dirs_exist_ok=True)
 (OUT/"downloads").mkdir(exist_ok=True)
-for n in ("job_boards.csv","ats_systems.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
+for n in ("job_boards.csv","ats_systems.csv","sources.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/".nojekyll").write_text("")
 (OUT/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
