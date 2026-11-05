@@ -1,0 +1,40 @@
+{
+ "id": "jobboom",
+ "name": "Jobboom",
+ "url": "https://www.jobboom.com",
+ "type": "board",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "fr",
+ "languages_supported": [
+  "fr",
+  "en"
+ ],
+ "region": "North America",
+ "niche": "general",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Listed as a Job Bank feed partner. Homepage returned HTTP 403 to automated fetch on 2026-11-05. Reported as Quebec-focused and bilingual by third-party roundups, which disagree on its main region.",
+ "confidence": "listed-only",
+ "page": "https://jobboardlist.com/boards/jobboom/",
+ "indexable": false,
+ "sources": [
+  {
+   "field": "relationship",
+   "url": "https://www.jobbank.gc.ca/network",
+   "title": "Job Bank network: boards that send jobs to Job Bank",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}

@@ -1,238 +1,660 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Indeed",
+   "url": "https://www.indeed.com",
+   "hq_country": "US",
+   "founded": "2004",
+   "parent": "Recruit Co. Ltd.",
+   "sources": [
     {
-      "name": "Indeed",
-      "url": "https://www.indeed.com",
-      "hq_country": "US",
-      "founded": "2004",
-      "parent": "Recruit Co. Ltd.",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Indeed", "title": "Wikipedia: Indeed", "quote": "Indeed, Inc. is an American multinational employment website for job listings launched in November 2004."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Indeed", "title": "Wikipedia: Indeed", "quote": "It is headquartered in Austin, Texas, and Stamford, Connecticut, with additional offices around the world."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Indeed", "title": "Wikipedia: Indeed", "quote": "Indeed was cofounded by Paul Forster and Rony Kahan in 2004 in both Austin, Texas, and Stamford, Connecticut."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/Indeed", "title": "Wikipedia: Indeed", "quote": "On October 1, 2012, Indeed was acquired by Japan-based Recruit Co. Ltd., becoming an independent operating unit."}
-      ],
-      "notes": []
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Indeed",
+     "title": "Wikipedia: Indeed",
+     "quote": "Indeed, Inc. is an American multinational employment website for job listings launched in November 2004.",
+     "check": "ok"
     },
     {
-      "name": "LinkedIn",
-      "url": "https://www.linkedin.com/jobs",
-      "hq_country": "US",
-      "founded": "2002",
-      "parent": "Microsoft",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/LinkedIn", "title": "Wikipedia: LinkedIn", "quote": "LinkedIn is an American business and employment-oriented social networking service used globally."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/LinkedIn", "title": "Wikipedia: LinkedIn", "quote": "Founded and headquartered in Mountain View, California, LinkedIn has 36 global offices as of February 11, 2024."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/LinkedIn", "title": "Wikipedia: LinkedIn", "quote": "The company was founded in December 2002"},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/LinkedIn", "title": "Wikipedia: LinkedIn", "quote": "In December 2016, Microsoft purchased LinkedIn for $26.2 billion, being its largest acquisition at the time."}
-      ],
-      "notes": [
-        {"text": "Microsoft ended LinkedIn operations in China in October 2021.", "url": "https://en.wikipedia.org/wiki/LinkedIn", "title": "Wikipedia: LinkedIn", "quote": "Microsoft ended LinkedIn operations in China in October 2021."}
-      ]
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Indeed",
+     "title": "Wikipedia: Indeed",
+     "quote": "It is headquartered in Austin, Texas, and Stamford, Connecticut, with additional offices around the world.",
+     "check": "ok"
     },
     {
-      "name": "Glassdoor",
-      "url": "https://www.glassdoor.com",
-      "hq_country": "US",
-      "founded": "2007",
-      "parent": "Recruit Holdings",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Glassdoor", "title": "Wikipedia: Glassdoor", "quote": "Glassdoor is an American website and mobile app owned by Indeed"},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Glassdoor", "title": "Wikipedia: Glassdoor", "quote": "Indeed Tower 200 West 6th Street Floor 36 Austin, TX 78701."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Glassdoor", "title": "Wikipedia: Glassdoor", "quote": "The company was co-founded in 2007 by Tim Besse, Robert Hohman"},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/Glassdoor", "title": "Wikipedia: Glassdoor", "quote": "In 2018, the company was acquired by the Japanese company Recruit Holdings."}
-      ],
-      "notes": [
-        {"text": "Glassdoor legally merged into Indeed, Inc. on July 1, 2026 and ceased operating as an independent subsidiary.", "url": "https://en.wikipedia.org/wiki/Glassdoor", "title": "Wikipedia: Glassdoor", "quote": "Glassdoor legally merged into Indeed, Inc. on July 1, 2026 and ceased operating as an independent subsidiary."}
-      ]
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Indeed",
+     "title": "Wikipedia: Indeed",
+     "quote": "Indeed was cofounded by Paul Forster and Rony Kahan in 2004 in both Austin, Texas, and Stamford, Connecticut.",
+     "check": "ok"
     },
     {
-      "name": "ZipRecruiter",
-      "url": "https://www.ziprecruiter.com",
-      "hq_country": "US",
-      "founded": "2010",
-      "parent": null,
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/ZipRecruiter", "title": "Wikipedia: ZipRecruiter", "quote": "ZipRecruiter, Inc. is an American employment marketplace for job seekers and employers."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/ZipRecruiter", "title": "Wikipedia: ZipRecruiter", "quote": "The company is headquartered in Santa Monica, California"},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/ZipRecruiter", "title": "Wikipedia: ZipRecruiter", "quote": "ZipRecruiter was founded on March 14, 2010 by Ian Siegel, Joe Edmonds, Ward Poulos and Will Redd."}
-      ],
-      "notes": []
-    },
-    {
-      "name": "Monster",
-      "url": "https://www.monster.com",
-      "hq_country": "PR",
-      "founded": "1999",
-      "parent": "BOLD Holdings",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Monster.com", "title": "Wikipedia: Monster.com", "quote": "Monster.com is a global employment website and job search engine headquartered in Guaynabo, Puerto Rico."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Monster.com", "title": "Wikipedia: Monster.com", "quote": "Monster.com is a global employment website and job search engine headquartered in Guaynabo, Puerto Rico."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Monster.com", "title": "Wikipedia: Monster.com", "quote": "January 1999"},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/Monster.com", "title": "Wikipedia: Monster.com", "quote": "it is owned by BOLD Holdings."}
-      ],
-      "notes": [
-        {"text": "Monster merged with CareerBuilder in September 2024; CareerBuilder and Monster later filed for Chapter 11, and BOLD won the final bid in 2025.", "url": "https://en.wikipedia.org/wiki/Monster.com", "title": "Wikipedia: Monster.com", "quote": "In September 2024, Monster merged with CareerBuilder"}
-      ]
-    },
-    {
-      "name": "CareerBuilder",
-      "url": "https://www.careerbuilder.com",
-      "hq_country": "PR",
-      "founded": "1995",
-      "parent": "BOLD Holdings",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/CareerBuilder", "title": "Wikipedia: CareerBuilder", "quote": "CareerBuilder is an American employment website founded in 1995 that operates in the United States, Europe, and Asia."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/CareerBuilder", "title": "Wikipedia: CareerBuilder", "quote": "Guaynabo, Puerto Rico"},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/CareerBuilder", "title": "Wikipedia: CareerBuilder", "quote": "CareerBuilder was founded by Robert J. McGovern in 1995 under the name NetStart Inc."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/CareerBuilder", "title": "Wikipedia: CareerBuilder", "quote": "The company is owned by BOLD Holdings."}
-      ],
-      "notes": [
-        {"text": "CareerBuilder merged with Monster in September 2024; BOLD won the final bid in July/August 2025.", "url": "https://en.wikipedia.org/wiki/CareerBuilder", "title": "Wikipedia: CareerBuilder", "quote": "In September 2024, Monster.com merged with CareerBuilder"}
-      ]
-    },
-    {
-      "name": "SimplyHired",
-      "url": "https://www.simplyhired.com",
-      "hq_country": "US",
-      "founded": "2003",
-      "parent": "Recruit Holdings",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/SimplyHired", "title": "Wikipedia: SimplyHired", "quote": "Simply Hired is an employment website for an online recruitment advertising network based in Sunnyvale, California."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/SimplyHired", "title": "Wikipedia: SimplyHired", "quote": "Simply Hired is an employment website for an online recruitment advertising network based in Sunnyvale, California."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/SimplyHired", "title": "Wikipedia: SimplyHired", "quote": "The company was launched in 2003."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/SimplyHired", "title": "Wikipedia: SimplyHired", "quote": "In 2016, Recruit Holdings Co., Ltd. purchased Simply Hired."}
-      ],
-      "notes": []
-    },
-    {
-      "name": "Dice",
-      "url": "https://www.dice.com",
-      "hq_country": "US",
-      "founded": "1990",
-      "parent": "DHI Group, Inc.",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Dice.com", "title": "Wikipedia: Dice.com", "quote": "Dice.com is a career website based in New York City with primary sales and development operations in Urbandale, Iowa"},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Dice.com", "title": "Wikipedia: Dice.com", "quote": "Dice.com is a career website based in New York City with primary sales and development operations in Urbandale, Iowa"},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Dice.com", "title": "Wikipedia: Dice.com", "quote": "Founded in 1990 by Lloyd Linn and Diane Rickert, two former contractors"},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/Dice.com", "title": "Wikipedia: Dice.com", "quote": "Dice.com is owned by DHI Group, Inc."}
-      ],
-      "notes": [
-        {"text": "The article says Dice Inc. was acquired by Dice Holdings, Inc. in 2005; no year is given for the later owner's stake.", "url": "https://en.wikipedia.org/wiki/Dice.com", "title": "Wikipedia: Dice.com", "quote": "In 2005, Dice Inc. was acquired by Dice Holdings, Inc."}
-      ]
-    },
-    {
-      "name": "Reed",
-      "url": "https://www.reed.co.uk",
-      "hq_country": "GB",
-      "founded": "1960",
-      "parent": "Reed family",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Reed_(company)", "title": "Wikipedia: Reed (company)", "quote": "Reed is an employment agency based in the United Kingdom."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Reed_(company)", "title": "Wikipedia: Reed (company)", "quote": "Its headquarters and the majority of its operations are in the UK"},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Reed_(company)", "title": "Wikipedia: Reed (company)", "quote": "The company was founded in 1960 by Sir Alec Reed CBE."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/Reed_(company)", "title": "Wikipedia: Reed (company)", "quote": "In 2005 James Reed took the company back into family ownership."}
-      ],
-      "notes": []
-    },
-    {
-      "name": "CV-Library",
-      "url": "https://www.cv-library.co.uk",
-      "hq_country": "GB",
-      "founded": "2000",
-      "parent": "Lee Biggins",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/CV-Library", "title": "Wikipedia: CV-Library", "quote": "CV-Library is a UK job board that was launched in October 2000 as one of the country's first employment websites."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/CV-Library", "title": "Wikipedia: CV-Library", "quote": "CV-Library is based in Fleet, Hampshire."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/CV-Library", "title": "Wikipedia: CV-Library", "quote": "Biggins co-founded CV-Library Ltd in 2000 with Brian Wakem, using a £9,000 bank loan."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/CV-Library", "title": "Wikipedia: CV-Library", "quote": "Biggins is now the sole owner of the business, after completing a seven-figure internal buyout in 2013."}
-      ],
-      "notes": []
-    },
-    {
-      "name": "XING Jobs",
-      "url": "https://www.xing.com/jobs",
-      "hq_country": "DE",
-      "founded": "2003",
-      "parent": "Hubert Burda Media",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/XING", "title": "Wikipedia: XING", "quote": "XING is a German career-oriented recruiting, job-search and social networking site"},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/XING", "title": "Wikipedia: XING", "quote": "Based in Hamburg, the site is primarily focused on the German-speaking market"},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/XING", "title": "Wikipedia: XING", "quote": "OPEN Business Club AG was founded in August 2003 in Hamburg, Germany, by Lars Hinrichs."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/XING", "title": "Wikipedia: XING", "quote": "In November 2009, Hubert Burda Media acquired 25.1% of XING, becoming its main shareholder."}
-      ],
-      "notes": []
-    },
-    {
-      "name": "SEEK",
-      "url": "https://www.seek.com.au",
-      "hq_country": "AU",
-      "founded": "1997",
-      "parent": null,
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Seek_(company)", "title": "Wikipedia: Seek (company)", "quote": "SEEK Limited is an Australian employment website for job listings, headquartered in Melbourne, Victoria."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Seek_(company)", "title": "Wikipedia: Seek (company)", "quote": "SEEK Limited is an Australian employment website for job listings, headquartered in Melbourne, Victoria."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Seek_(company)", "title": "Wikipedia: Seek (company)", "quote": "SEEK was founded in November 1997"}
-      ],
-      "notes": []
-    },
-    {
-      "name": "JobStreet",
-      "url": "https://www.jobstreet.com",
-      "hq_country": "MY",
-      "founded": "1997",
-      "parent": "SEEK Limited",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/JobStreet", "title": "Wikipedia: JobStreet", "quote": "Jobstreet is a Southeast Asian online employment website, operated by the Australian Stock Exchange-listed SEEK Limited."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/JobStreet", "title": "Wikipedia: JobStreet", "quote": "Kuala Lumpur, Malaysia"},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/JobStreet", "title": "Wikipedia: JobStreet", "quote": "Founded in Malaysia in 1997."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/JobStreet", "title": "Wikipedia: JobStreet", "quote": "made a complete takeover in 2014 for RM 1.73 billion together with co-investors."}
-      ],
-      "notes": [
-        {"text": "SEEK merged its APAC employment marketplaces (SEEK, Jobstreet and Jobsdb) into a single platform in 2024.", "url": "https://en.wikipedia.org/wiki/JobStreet", "title": "Wikipedia: JobStreet", "quote": "SEEK merged its APAC employment marketplaces - SEEK, Jobstreet and Jobsdb - into a single platform."}
-      ]
-    },
-    {
-      "name": "Naukri",
-      "url": "https://www.naukri.com",
-      "hq_country": "IN",
-      "founded": "1997",
-      "parent": "Info Edge",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Naukri.com", "title": "Wikipedia: Naukri.com", "quote": "Naukri.com is an Indian employment website which operates in India and the Middle East."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Naukri.com", "title": "Wikipedia: Naukri.com", "quote": "Noida, India."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Naukri.com", "title": "Wikipedia: Naukri.com", "quote": "It was founded in March 1997 by Sanjeev Bikhchandani as a division of Info Edge."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/Naukri.com", "title": "Wikipedia: Naukri.com", "quote": "It was founded in March 1997 by Sanjeev Bikhchandani as a division of Info Edge."}
-      ],
-      "notes": []
-    },
-    {
-      "name": "BOSS Zhipin",
-      "url": "https://www.zhipin.com",
-      "hq_country": "CN",
-      "founded": "2014",
-      "parent": null,
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin", "title": "Wikipedia: BOSS Zhipin", "quote": "is a publicly listed Chinese human resources company that focuses on providing online recruitment services through its mobile app"},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin", "title": "Wikipedia: BOSS Zhipin", "quote": "Beijing, China."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin", "title": "Wikipedia: BOSS Zhipin", "quote": "16 January 2014"}
-      ],
-      "notes": []
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/Indeed",
+     "title": "Wikipedia: Indeed",
+     "quote": "On October 1, 2012, Indeed was acquired by Japan-based Recruit Co. Ltd., becoming an independent operating unit.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Totaljobs", "url": "https://www.totaljobs.com", "reason": "No article found at Totaljobs or Totaljobs_Group (HTTP 404)."},
-    {"name": "StepStone", "url": "https://www.stepstone.de", "reason": "No article found at StepStone (HTTP 404). StepStone_Group is a private markets firm, a different entity; skipped."},
-    {"name": "Jobsdb", "url": "https://www.jobsdb.com", "reason": "No article found at Jobsdb (HTTP 404). Mentioned only in the JobStreet article."},
-    {"name": "foundit", "url": "https://www.foundit.in", "reason": "No article found at Foundit (HTTP 404). The Monster Worldwide article does not mention foundit."},
-    {"name": "Zhaopin", "url": "https://www.zhaopin.com", "reason": "No article found at Zhaopin or Zhaopin.com (HTTP 404)."},
-    {"name": "51job", "url": "https://www.51job.com", "reason": "No article found at 51job (HTTP 404)."},
-    {"name": "Rikunabi", "url": "https://www.rikunabi.com", "reason": "No article found at Rikunabi (HTTP 404). Recruit Holdings article lists an unnamed online matching platform for new graduates; not attributed to Rikunabi, so skipped."},
-    {"name": "Mynavi", "url": "https://www.mynavi.jp", "reason": "Mynavi is a disambiguation page. Mynavi_Corporation article states no headquarters, founding year or parent."},
-    {"name": "Saramin", "url": "https://www.saramin.co.kr", "reason": "No article found at Saramin (HTTP 404)."},
-    {"name": "JobKorea", "url": "https://www.jobkorea.co.kr", "reason": "No article found at JobKorea (HTTP 404)."},
-    {"name": "Wanted", "url": "https://www.wanted.co.kr", "reason": "No article found at Wanted_Lab (HTTP 404)."}
-  ]
+   ],
+   "notes": []
+  },
+  {
+   "name": "LinkedIn",
+   "url": "https://www.linkedin.com/jobs",
+   "hq_country": "US",
+   "founded": "2002",
+   "parent": "Microsoft",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/LinkedIn",
+     "title": "Wikipedia: LinkedIn",
+     "quote": "LinkedIn is an American business and employment-oriented social networking service used globally.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/LinkedIn",
+     "title": "Wikipedia: LinkedIn",
+     "quote": "Founded and headquartered in Mountain View, California, LinkedIn has 36 global offices as of February 11, 2024.",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/LinkedIn",
+     "title": "Wikipedia: LinkedIn",
+     "quote": "The company was founded in December 2002",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/LinkedIn",
+     "title": "Wikipedia: LinkedIn",
+     "quote": "In December 2016, Microsoft purchased LinkedIn for $26.2 billion, being its largest acquisition at the time.",
+     "check": "ok"
+    }
+   ],
+   "notes": [
+    {
+     "text": "Microsoft ended LinkedIn operations in China in October 2021.",
+     "url": "https://en.wikipedia.org/wiki/LinkedIn",
+     "title": "Wikipedia: LinkedIn",
+     "quote": "Microsoft ended LinkedIn operations in China in October 2021.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Glassdoor",
+   "url": "https://www.glassdoor.com",
+   "hq_country": "US",
+   "founded": "2007",
+   "parent": "Recruit Holdings",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Glassdoor",
+     "title": "Wikipedia: Glassdoor",
+     "quote": "Glassdoor is an American website and mobile app owned by Indeed",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Glassdoor",
+     "title": "Wikipedia: Glassdoor",
+     "quote": "Indeed Tower 200 West 6th Street Floor 36 Austin, TX 78701.",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Glassdoor",
+     "title": "Wikipedia: Glassdoor",
+     "quote": "The company was co-founded in 2007 by Tim Besse, Robert Hohman",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/Glassdoor",
+     "title": "Wikipedia: Glassdoor",
+     "quote": "In 2018, the company was acquired by the Japanese company Recruit Holdings.",
+     "check": "ok"
+    }
+   ],
+   "notes": [
+    {
+     "text": "Glassdoor legally merged into Indeed, Inc. on July 1, 2026 and ceased operating as an independent subsidiary.",
+     "url": "https://en.wikipedia.org/wiki/Glassdoor",
+     "title": "Wikipedia: Glassdoor",
+     "quote": "Glassdoor legally merged into Indeed, Inc. on July 1, 2026 and ceased operating as an independent subsidiary.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "ZipRecruiter",
+   "url": "https://www.ziprecruiter.com",
+   "hq_country": "US",
+   "founded": "2010",
+   "parent": null,
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/ZipRecruiter",
+     "title": "Wikipedia: ZipRecruiter",
+     "quote": "ZipRecruiter, Inc. is an American employment marketplace for job seekers and employers.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/ZipRecruiter",
+     "title": "Wikipedia: ZipRecruiter",
+     "quote": "The company is headquartered in Santa Monica, California",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/ZipRecruiter",
+     "title": "Wikipedia: ZipRecruiter",
+     "quote": "ZipRecruiter was founded on March 14, 2010 by Ian Siegel, Joe Edmonds, Ward Poulos and Will Redd.",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "name": "Monster",
+   "url": "https://www.monster.com",
+   "hq_country": "PR",
+   "founded": "1999",
+   "parent": "BOLD Holdings",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Monster.com",
+     "title": "Wikipedia: Monster.com",
+     "quote": "Monster.com is a global employment website and job search engine headquartered in Guaynabo, Puerto Rico.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Monster.com",
+     "title": "Wikipedia: Monster.com",
+     "quote": "Monster.com is a global employment website and job search engine headquartered in Guaynabo, Puerto Rico.",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Monster.com",
+     "title": "Wikipedia: Monster.com",
+     "quote": "January 1999",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/Monster.com",
+     "title": "Wikipedia: Monster.com",
+     "quote": "it is owned by BOLD Holdings.",
+     "check": "ok"
+    }
+   ],
+   "notes": [
+    {
+     "text": "Monster merged with CareerBuilder in September 2024; CareerBuilder and Monster later filed for Chapter 11, and BOLD won the final bid in 2025.",
+     "url": "https://en.wikipedia.org/wiki/Monster.com",
+     "title": "Wikipedia: Monster.com",
+     "quote": "In September 2024, Monster merged with CareerBuilder",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CareerBuilder",
+   "url": "https://www.careerbuilder.com",
+   "hq_country": "PR",
+   "founded": "1995",
+   "parent": "BOLD Holdings",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/CareerBuilder",
+     "title": "Wikipedia: CareerBuilder",
+     "quote": "CareerBuilder is an American employment website founded in 1995 that operates in the United States, Europe, and Asia.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/CareerBuilder",
+     "title": "Wikipedia: CareerBuilder",
+     "quote": "Guaynabo, Puerto Rico",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/CareerBuilder",
+     "title": "Wikipedia: CareerBuilder",
+     "quote": "CareerBuilder was founded by Robert J. McGovern in 1995 under the name NetStart Inc.",
+     "check": "mismatch"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/CareerBuilder",
+     "title": "Wikipedia: CareerBuilder",
+     "quote": "The company is owned by BOLD Holdings.",
+     "check": "ok"
+    }
+   ],
+   "notes": [
+    {
+     "text": "CareerBuilder merged with Monster in September 2024; BOLD won the final bid in July/August 2025.",
+     "url": "https://en.wikipedia.org/wiki/CareerBuilder",
+     "title": "Wikipedia: CareerBuilder",
+     "quote": "In September 2024, Monster.com merged with CareerBuilder",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "SimplyHired",
+   "url": "https://www.simplyhired.com",
+   "hq_country": "US",
+   "founded": "2003",
+   "parent": "Recruit Holdings",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/SimplyHired",
+     "title": "Wikipedia: SimplyHired",
+     "quote": "Simply Hired is an employment website for an online recruitment advertising network based in Sunnyvale, California.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/SimplyHired",
+     "title": "Wikipedia: SimplyHired",
+     "quote": "Simply Hired is an employment website for an online recruitment advertising network based in Sunnyvale, California.",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/SimplyHired",
+     "title": "Wikipedia: SimplyHired",
+     "quote": "The company was launched in 2003.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/SimplyHired",
+     "title": "Wikipedia: SimplyHired",
+     "quote": "In 2016, Recruit Holdings Co., Ltd. purchased Simply Hired.",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "name": "Dice",
+   "url": "https://www.dice.com",
+   "hq_country": "US",
+   "founded": "1990",
+   "parent": "DHI Group, Inc.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Dice.com",
+     "title": "Wikipedia: Dice.com",
+     "quote": "Dice.com is a career website based in New York City with primary sales and development operations in Urbandale, Iowa",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Dice.com",
+     "title": "Wikipedia: Dice.com",
+     "quote": "Dice.com is a career website based in New York City with primary sales and development operations in Urbandale, Iowa",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Dice.com",
+     "title": "Wikipedia: Dice.com",
+     "quote": "Founded in 1990 by Lloyd Linn and Diane Rickert, two former contractors",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/Dice.com",
+     "title": "Wikipedia: Dice.com",
+     "quote": "Dice.com is owned by DHI Group, Inc.",
+     "check": "ok"
+    }
+   ],
+   "notes": [
+    {
+     "text": "The article says Dice Inc. was acquired by Dice Holdings, Inc. in 2005; no year is given for the later owner's stake.",
+     "url": "https://en.wikipedia.org/wiki/Dice.com",
+     "title": "Wikipedia: Dice.com",
+     "quote": "In 2005, Dice Inc. was acquired by Dice Holdings, Inc.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Reed",
+   "url": "https://www.reed.co.uk",
+   "hq_country": "GB",
+   "founded": "1960",
+   "parent": "Reed family",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Reed_(company)",
+     "title": "Wikipedia: Reed (company)",
+     "quote": "Reed is an employment agency based in the United Kingdom.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Reed_(company)",
+     "title": "Wikipedia: Reed (company)",
+     "quote": "Its headquarters and the majority of its operations are in the UK",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Reed_(company)",
+     "title": "Wikipedia: Reed (company)",
+     "quote": "The company was founded in 1960 by Sir Alec Reed CBE.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/Reed_(company)",
+     "title": "Wikipedia: Reed (company)",
+     "quote": "In 2005 James Reed took the company back into family ownership.",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "name": "CV-Library",
+   "url": "https://www.cv-library.co.uk",
+   "hq_country": "GB",
+   "founded": "2000",
+   "parent": "Lee Biggins",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/CV-Library",
+     "title": "Wikipedia: CV-Library",
+     "quote": "CV-Library is a UK job board that was launched in October 2000 as one of the country's first employment websites.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/CV-Library",
+     "title": "Wikipedia: CV-Library",
+     "quote": "CV-Library is based in Fleet, Hampshire.",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/CV-Library",
+     "title": "Wikipedia: CV-Library",
+     "quote": "Biggins co-founded CV-Library Ltd in 2000 with Brian Wakem, using a £9,000 bank loan.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/CV-Library",
+     "title": "Wikipedia: CV-Library",
+     "quote": "Biggins is now the sole owner of the business, after completing a seven-figure internal buyout in 2013.",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "name": "XING Jobs",
+   "url": "https://www.xing.com/jobs",
+   "hq_country": "DE",
+   "founded": "2003",
+   "parent": "Hubert Burda Media",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/XING",
+     "title": "Wikipedia: XING",
+     "quote": "XING is a German career-oriented recruiting, job-search and social networking site",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/XING",
+     "title": "Wikipedia: XING",
+     "quote": "Based in Hamburg, the site is primarily focused on the German-speaking market",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/XING",
+     "title": "Wikipedia: XING",
+     "quote": "OPEN Business Club AG was founded in August 2003 in Hamburg, Germany, by Lars Hinrichs.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/XING",
+     "title": "Wikipedia: XING",
+     "quote": "In November 2009, Hubert Burda Media acquired 25.1% of XING, becoming its main shareholder.",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "name": "SEEK",
+   "url": "https://www.seek.com.au",
+   "hq_country": "AU",
+   "founded": "1997",
+   "parent": null,
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Seek_(company)",
+     "title": "Wikipedia: Seek (company)",
+     "quote": "SEEK Limited is an Australian employment website for job listings, headquartered in Melbourne, Victoria.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Seek_(company)",
+     "title": "Wikipedia: Seek (company)",
+     "quote": "SEEK Limited is an Australian employment website for job listings, headquartered in Melbourne, Victoria.",
+     "check": "unreachable"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Seek_(company)",
+     "title": "Wikipedia: Seek (company)",
+     "quote": "SEEK was founded in November 1997",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "name": "JobStreet",
+   "url": "https://www.jobstreet.com",
+   "hq_country": "MY",
+   "founded": "1997",
+   "parent": "SEEK Limited",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/JobStreet",
+     "title": "Wikipedia: JobStreet",
+     "quote": "Jobstreet is a Southeast Asian online employment website, operated by the Australian Stock Exchange-listed SEEK Limited.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/JobStreet",
+     "title": "Wikipedia: JobStreet",
+     "quote": "Kuala Lumpur, Malaysia",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/JobStreet",
+     "title": "Wikipedia: JobStreet",
+     "quote": "Founded in Malaysia in 1997.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/JobStreet",
+     "title": "Wikipedia: JobStreet",
+     "quote": "made a complete takeover in 2014 for RM 1.73 billion together with co-investors.",
+     "check": "mismatch"
+    }
+   ],
+   "notes": [
+    {
+     "text": "SEEK merged its APAC employment marketplaces (SEEK, Jobstreet and Jobsdb) into a single platform in 2024.",
+     "url": "https://en.wikipedia.org/wiki/JobStreet",
+     "title": "Wikipedia: JobStreet",
+     "quote": "SEEK merged its APAC employment marketplaces - SEEK, Jobstreet and Jobsdb - into a single platform.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Naukri",
+   "url": "https://www.naukri.com",
+   "hq_country": "IN",
+   "founded": "1997",
+   "parent": "Info Edge",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Naukri.com",
+     "title": "Wikipedia: Naukri.com",
+     "quote": "Naukri.com is an Indian employment website which operates in India and the Middle East.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Naukri.com",
+     "title": "Wikipedia: Naukri.com",
+     "quote": "Noida, India.",
+     "check": "unreachable"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Naukri.com",
+     "title": "Wikipedia: Naukri.com",
+     "quote": "It was founded in March 1997 by Sanjeev Bikhchandani as a division of Info Edge.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/Naukri.com",
+     "title": "Wikipedia: Naukri.com",
+     "quote": "It was founded in March 1997 by Sanjeev Bikhchandani as a division of Info Edge.",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "name": "BOSS Zhipin",
+   "url": "https://www.zhipin.com",
+   "hq_country": "CN",
+   "founded": "2014",
+   "parent": null,
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+     "title": "Wikipedia: BOSS Zhipin",
+     "quote": "is a publicly listed Chinese human resources company that focuses on providing online recruitment services through its mobile app",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+     "title": "Wikipedia: BOSS Zhipin",
+     "quote": "Beijing, China.",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+     "title": "Wikipedia: BOSS Zhipin",
+     "quote": "16 January 2014",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Totaljobs",
+   "url": "https://www.totaljobs.com",
+   "reason": "No article found at Totaljobs or Totaljobs_Group (HTTP 404)."
+  },
+  {
+   "name": "StepStone",
+   "url": "https://www.stepstone.de",
+   "reason": "No article found at StepStone (HTTP 404). StepStone_Group is a private markets firm, a different entity; skipped."
+  },
+  {
+   "name": "Jobsdb",
+   "url": "https://www.jobsdb.com",
+   "reason": "No article found at Jobsdb (HTTP 404). Mentioned only in the JobStreet article."
+  },
+  {
+   "name": "foundit",
+   "url": "https://www.foundit.in",
+   "reason": "No article found at Foundit (HTTP 404). The Monster Worldwide article does not mention foundit."
+  },
+  {
+   "name": "Zhaopin",
+   "url": "https://www.zhaopin.com",
+   "reason": "No article found at Zhaopin or Zhaopin.com (HTTP 404)."
+  },
+  {
+   "name": "51job",
+   "url": "https://www.51job.com",
+   "reason": "No article found at 51job (HTTP 404)."
+  },
+  {
+   "name": "Rikunabi",
+   "url": "https://www.rikunabi.com",
+   "reason": "No article found at Rikunabi (HTTP 404). Recruit Holdings article lists an unnamed online matching platform for new graduates; not attributed to Rikunabi, so skipped."
+  },
+  {
+   "name": "Mynavi",
+   "url": "https://www.mynavi.jp",
+   "reason": "Mynavi is a disambiguation page. Mynavi_Corporation article states no headquarters, founding year or parent."
+  },
+  {
+   "name": "Saramin",
+   "url": "https://www.saramin.co.kr",
+   "reason": "No article found at Saramin (HTTP 404)."
+  },
+  {
+   "name": "JobKorea",
+   "url": "https://www.jobkorea.co.kr",
+   "reason": "No article found at JobKorea (HTTP 404)."
+  },
+  {
+   "name": "Wanted",
+   "url": "https://www.wanted.co.kr",
+   "reason": "No article found at Wanted_Lab (HTTP 404)."
+  }
+ ]
 }

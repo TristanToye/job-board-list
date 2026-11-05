@@ -1,0 +1,45 @@
+{
+ "id": "itjob-au",
+ "name": "ITJob.au",
+ "url": "https://www.itjob.au/",
+ "type": "niche-board",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "AU"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "APAC",
+ "niche": "tech",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Employer pricing page lists plans but shows no prices on the page read. No language switcher, operator, API, or partner info found. Pages /about and /employers returned HTTP 404.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/itjob-au/",
+ "indexable": false,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.itjob.au/",
+   "title": "IT Jobs in Australia",
+   "accessed": "2026-11-05",
+   "quote": "The IT job site made for IT professionals in Australia",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.itjob.au/pricing",
+   "title": "Employer pricing",
+   "accessed": "2026-11-05",
+   "quote": "Choose a plan to post jobs and access employer features.",
+   "quote_check": "ok"
+  }
+ ]
+}

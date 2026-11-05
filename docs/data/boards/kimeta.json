@@ -1,0 +1,45 @@
+{
+ "id": "kimeta",
+ "name": "kimeta",
+ "url": "https://www.kimeta.de/",
+ "type": "aggregator",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "DE"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Europe",
+ "niche": "general",
+ "parent": "",
+ "business_model": "per post, monthly flatrate",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Employer page lists prices excluding VAT, with flatrate terms of 1 or 3 months and up to 20 percent term discount. No API, XML feed, ATS integration or partner program mentioned on the employer page. Parent and headquarters not stated on the pages read; Impressum and Über uns were not read.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/kimeta/",
+ "indexable": false,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.kimeta.de/",
+   "title": "Jobbörse von kimeta Stellenangebote - kimeta",
+   "accessed": "2026-11-05",
+   "quote": "Der Online Stellenmarkt kimeta.de bietet für jede Karriere die passende Arbeit",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://sam.kimeta.de",
+   "title": "Employer product prices",
+   "accessed": "2026-11-05",
+   "quote": "Alle Preise zzgl. Mehrwertsteuer.",
+   "quote_check": "ok"
+  }
+ ]
+}

@@ -29,7 +29,7 @@ for x in src:
 WEAK = {"listed_by", "relationship"}
 sourced = {x["board_id"] for x in src}; strong = {x["board_id"] for x in src if x["field"] not in WEAK}
 for r in boards:
-    own = {x["board_id"] for x in src if x["field"] not in WEAK and "wikipedia.org" not in x["url"]}
+    own = {x["board_id"] for x in src if x["field"] not in WEAK and not any(d in x["url"] for d in ("wikipedia.org", "wikidata.org"))}
     want = "partially-verified" if r["id"] in own else "secondary-sourced" if r["id"] in strong else "listed-only" if r["id"] in sourced else "seed-unverified"
     if r["founded"] and not re.fullmatch(r"(19|20)\d\d", r["founded"]): print(f"board {r['id']}: bad founded {r['founded']!r}"); bad += 1
     if r["confidence"] != want: print(f"board {r['id']}: confidence {r['confidence']!r} should be {want!r}"); bad += 1
@@ -40,6 +40,6 @@ print(f"{len(boards)} boards, {len(ats)} ATS")
 print("api_status:", dict(c(r["api_status"] for r in boards)))
 print("region:", dict(c(r["region"] for r in boards)))
 print("primary_language:", dict(c(r["primary_language"] for r in boards)))
-own_ids = {x["board_id"] for x in src if x["field"] not in WEAK and "wikipedia.org" not in x["url"]}
-print("checked (strong sources):", len(strong), "| secondary only:", len(strong - own_ids), "| listed only:", len(sourced - strong), "| unverified:", len(boards) - len(sourced), "| citations:", len(src))
+own_ids = {x["board_id"] for x in src if x["field"] not in WEAK and not any(d in x["url"] for d in ("wikipedia.org", "wikidata.org"))}
+print("checked against own pages:", len(own_ids), "| secondary only:", len(strong - own_ids), "| listed only:", len(sourced - strong), "| unverified:", len(boards) - len(sourced), "| citations:", len(src))
 sys.exit(1 if bad else 0)

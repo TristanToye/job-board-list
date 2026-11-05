@@ -1,0 +1,56 @@
+{
+ "id": "berlin-startup-jobs",
+ "name": "Berlin Startup Jobs",
+ "url": "https://www.berlinstartupjobs.com/",
+ "type": "niche-board",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "DE"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "de"
+ ],
+ "region": "Europe",
+ "niche": "tech",
+ "parent": "",
+ "business_model": "per post",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Parent not stated. A sister site for London is linked, and the relationship is not described. Developer, API and partner links on the homepage are skill-tag pages only. The basic package includes an email job alert listing and social posts.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/berlin-startup-jobs/",
+ "indexable": false,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.berlinstartupjobs.com/",
+   "title": "Berlin Startup Jobs | IT Jobs, Marketing, Internships, Sales, HR, Freelance",
+   "accessed": "2026-11-05",
+   "quote": "BerlinStartupJobs is the leading platform for inspiring jobs in Europe's new startup capital.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.berlinstartupjobs.com/",
+   "title": "Homepage language switcher",
+   "accessed": "2026-11-05",
+   "quote": "Select Language",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://berlinstartupjobs.com/submit-a-job/",
+   "title": "Job post prices",
+   "accessed": "2026-11-05",
+   "quote": "STANDARD JOB POST: 120 € / 90 DAYS",
+   "quote_check": "ok"
+  }
+ ]
+}

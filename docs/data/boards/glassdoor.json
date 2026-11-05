@@ -1,0 +1,73 @@
+{
+ "id": "glassdoor",
+ "name": "Glassdoor",
+ "url": "https://www.glassdoor.com",
+ "type": "board+reviews",
+ "hq_country": "US",
+ "founded": "2007",
+ "markets": "Global",
+ "countries_served": [
+  "CA",
+  "US"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr",
+  "de",
+  "es",
+  "it",
+  "pt",
+  "nl",
+  "ja"
+ ],
+ "region": "Global",
+ "niche": "general",
+ "parent": "Recruit Holdings",
+ "business_model": "PPC",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "Via Indeed feeds/partners"
+ ],
+ "notes": "Employer-branding + jobs; ingestion largely shared with Indeed Wikipedia: \"Glassdoor legally merged into Indeed, Inc. on July 1, 2026 and ceased operating as an independent subsidiary.\"",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/glassdoor/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/Glassdoor",
+   "title": "Wikipedia: Glassdoor",
+   "accessed": "2026-11-05",
+   "quote": "Glassdoor is an American website and mobile app owned by Indeed",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://en.wikipedia.org/wiki/Glassdoor",
+   "title": "Wikipedia: Glassdoor",
+   "accessed": "2026-11-05",
+   "quote": "In 2018, the company was acquired by the Japanese company Recruit Holdings.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://en.wikipedia.org/wiki/Glassdoor",
+   "title": "Wikipedia: Glassdoor",
+   "accessed": "2026-11-05",
+   "quote": "Glassdoor legally merged into Indeed, Inc. on July 1, 2026 and ceased operating as an independent subsidiary.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q15954148",
+   "title": "Wikidata: Glassdoor",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

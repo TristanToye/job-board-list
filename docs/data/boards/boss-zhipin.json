@@ -1,0 +1,37 @@
+{
+ "id": "boss-zhipin",
+ "name": "BOSS Zhipin",
+ "url": "https://www.zhipin.com",
+ "type": "board+chat",
+ "hq_country": "CN",
+ "founded": "2014",
+ "markets": "CN",
+ "countries_served": [],
+ "primary_language": "zh",
+ "languages_supported": [
+  "zh"
+ ],
+ "region": "East Asia",
+ "niche": "general",
+ "parent": "Kanzhun",
+ "business_model": "subscription",
+ "api_status": "none-known",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Direct chat model",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/boss-zhipin/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+   "title": "Wikipedia: BOSS Zhipin",
+   "accessed": "2026-11-05",
+   "quote": "is a publicly listed Chinese human resources company that focuses on providing online recruitment services through its mobile app",
+   "quote_check": "ok"
+  }
+ ]
+}

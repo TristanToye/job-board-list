@@ -1,0 +1,71 @@
+{
+ "id": "jobijoba",
+ "name": "Jobijoba",
+ "url": "https://www.jobijoba.com",
+ "type": "aggregator",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "FR"
+ ],
+ "primary_language": "fr",
+ "languages_supported": [
+  "fr"
+ ],
+ "region": "Europe",
+ "niche": "general",
+ "parent": "",
+ "business_model": "",
+ "api_status": "on-request",
+ "api_docs_url": "https://www.jobijoba.com/fr/affiliation-offres-emploi",
+ "partner_program": "yes",
+ "partner_url": "https://www.jobijoba.com/fr/affiliation-offres-emploi",
+ "ingest_methods": [],
+ "notes": "The affiliation page offers jobs for partner sites as feed, API or widget and asks interested parties to use a contact form. Access terms and pricing for publishing employer job offers are not stated. Headquarters not stated.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/jobijoba/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.jobijoba.com/",
+   "title": "Jobijoba homepage",
+   "accessed": "2026-11-05",
+   "quote": "Consultez toutes nos offres d'emploi en France",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.jobijoba.com",
+   "title": "Homepage",
+   "accessed": "2026-11-05",
+   "quote": "Publiez vos offres sur Jobijoba",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.jobijoba.com",
+   "title": "Homepage",
+   "accessed": "2026-11-05",
+   "quote": "Programme d'affiliation",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.jobijoba.com/fr/affiliation-offres-emploi",
+   "title": "Affiliation page",
+   "accessed": "2026-11-05",
+   "quote": "AJOUTEZ NOS OFFRES D'EMPLOI SUR VOS SITES OU VOS APPLICATIONS",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.jobijoba.com/fr/affiliation-offres-emploi",
+   "title": "Affiliation page",
+   "accessed": "2026-11-05",
+   "quote": "Intégrez facilement et rapidement nos offres comme vous les souhaitez ( Flux, API, Widget)",
+   "quote_check": "ok"
+  }
+ ]
+}

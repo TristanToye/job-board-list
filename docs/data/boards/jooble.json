@@ -1,0 +1,121 @@
+{
+ "id": "jooble",
+ "name": "Jooble",
+ "url": "https://jooble.org",
+ "type": "aggregator",
+ "hq_country": "UA",
+ "founded": "2006",
+ "markets": "70 countries",
+ "countries_served": [
+  "CA",
+  "IN",
+  "ES",
+  "BR",
+  "IT",
+  "UA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "uk",
+  "pl",
+  "de",
+  "fr",
+  "es",
+  "pt",
+  "it",
+  "tr"
+ ],
+ "region": "Global",
+ "niche": "general",
+ "parent": "",
+ "business_model": "PPC",
+ "api_status": "on-request",
+ "api_docs_url": "https://jooble.org/api/about",
+ "partner_program": "yes",
+ "partner_url": "https://jooble.org/api/about",
+ "ingest_methods": [
+  "REST API (key)",
+  "XML feed",
+  "crawl",
+  "ATS integration"
+ ],
+ "notes": "API key is obtained by submitting a request form (name, position, email, website, phone). Country coverage not yet verified. Jobs can be indexed from an XML feed after a request; the XML feed specifications are linked from the ATS page, but that link was not followed. Country selector in the footer shows India. No language switcher, employer pricing, or partner program found. Pages read: homepage, /ats, /info/about.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/jooble/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "api_status",
+   "url": "https://jooble.org/api/about",
+   "title": "Jooble API",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://in.jooble.org/",
+   "title": "Jobs in India - 37.000+ current vacancies - Jooble",
+   "accessed": "2026-11-05",
+   "quote": "More than 163000 vacancies across 1650 websites are available to you. Find your new job today.",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "listed_by",
+   "url": "https://en.wikipedia.org/wiki/JOOBLE",
+   "title": "JOOBLE",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "api_status",
+   "url": "https://in.jooble.org/ats",
+   "title": "ATS page",
+   "accessed": "2026-11-05",
+   "quote": "Send us a request to index your XML",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://in.jooble.org/ats",
+   "title": "ATS page",
+   "accessed": "2026-11-05",
+   "quote": "ATS connected to Jooble",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://es.jooble.org/",
+   "title": "Trabajo en España - 160.000+ Ofertas de Empleo Disponibles - Jooble",
+   "accessed": "2026-11-05",
+   "quote": "Más de 160000 ofertas de empleo actuales de 1160 sitios web están disponibles para ti.",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://br.jooble.org/",
+   "title": "Jooble Brasil homepage",
+   "accessed": "2026-11-05",
+   "quote": "Mais 299000 vagas atuais em 1170 sites disponíveis para você.",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://it.jooble.org/",
+   "title": "Jooble Italian homepage",
+   "accessed": "2026-11-05",
+   "quote": "Oltre 109700 nuove opportunità su 1200 siti ti aspettano.",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q20182025",
+   "title": "Wikidata: Jooble",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

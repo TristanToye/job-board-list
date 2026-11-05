@@ -1,0 +1,73 @@
+{
+ "id": "careerbuilder",
+ "name": "CareerBuilder",
+ "url": "https://www.careerbuilder.com",
+ "type": "board",
+ "hq_country": "PR",
+ "founded": "1995",
+ "markets": "US;CA",
+ "countries_served": [
+  "CA",
+  "DE",
+  "US"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "North America",
+ "niche": "general",
+ "parent": "BOLD Holdings",
+ "business_model": "subscription",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Post-bankruptcy 2020 and merger; verify if still operating as distinct network Wikipedia: \"In September 2024, Monster.com merged with CareerBuilder\"",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/careerbuilder/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "listed_by",
+   "url": "https://jobjunction.ca/national-job-boards/",
+   "title": "Job Junction: national job boards (third-party directory)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/CareerBuilder",
+   "title": "Wikipedia: CareerBuilder",
+   "accessed": "2026-11-05",
+   "quote": "CareerBuilder is an American employment website founded in 1995 that operates in the United States, Europe, and Asia.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://en.wikipedia.org/wiki/CareerBuilder",
+   "title": "Wikipedia: CareerBuilder",
+   "accessed": "2026-11-05",
+   "quote": "The company is owned by BOLD Holdings.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://en.wikipedia.org/wiki/CareerBuilder",
+   "title": "Wikipedia: CareerBuilder",
+   "accessed": "2026-11-05",
+   "quote": "In September 2024, Monster.com merged with CareerBuilder",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q1035868",
+   "title": "Wikidata: CareerBuilder",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "xing",
+ "name": "XING Jobs",
+ "url": "https://www.xing.com/jobs",
+ "type": "social-network+board",
+ "hq_country": "DE",
+ "founded": "2003",
+ "markets": "DACH",
+ "countries_served": [
+  "DE"
+ ],
+ "primary_language": "de",
+ "languages_supported": [
+  "de",
+  "en"
+ ],
+ "region": "Europe",
+ "niche": "professional",
+ "parent": "Hubert Burda Media",
+ "business_model": "subscription",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "partner API"
+ ],
+ "notes": "",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/xing/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/XING",
+   "title": "Wikipedia: XING",
+   "accessed": "2026-11-05",
+   "quote": "XING is a German career-oriented recruiting, job-search and social networking site",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://en.wikipedia.org/wiki/XING",
+   "title": "Wikipedia: XING",
+   "accessed": "2026-11-05",
+   "quote": "In November 2009, Hubert Burda Media acquired 25.1% of XING, becoming its main shareholder.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q681849",
+   "title": "Wikidata: XING",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

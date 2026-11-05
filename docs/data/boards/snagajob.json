@@ -1,0 +1,45 @@
+{
+ "id": "snagajob",
+ "name": "Snagajob",
+ "url": "https://www.snagajob.com/",
+ "type": "board",
+ "hq_country": "",
+ "founded": "1999",
+ "markets": "",
+ "countries_served": [
+  "US"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "North America",
+ "niche": "general",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/snagajob/",
+ "indexable": false,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.snagajob.com/",
+   "title": "Snagajob homepage",
+   "accessed": "2026-11-05",
+   "quote": "Find work you'll love, fast.",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q7546910",
+   "title": "Wikidata: SnagAJob.com",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": "talent-com",
+ "name": "Talent.com",
+ "url": "https://www.talent.com",
+ "type": "aggregator",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "30+ countries",
+ "countries_served": [
+  "CA",
+  "ES",
+  "IT"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr",
+  "es",
+  "de",
+  "it",
+  "pt",
+  "nl",
+  "pl"
+ ],
+ "region": "Global",
+ "niche": "general",
+ "parent": "",
+ "business_model": "PPC",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.talent.com/ats",
+ "ingest_methods": [
+  "ATS integration (partner)",
+  "XML feed",
+  "crawl"
+ ],
+ "notes": "ATS partner page lists 150+ integrated ATS partners and routes new partners through a contact form. No public API documentation found. Enterprise page cites 35 million jobs in 78 countries (another stat block on the same page says 77). Homepage cites over 40 million jobs. Publisher program page requires a login.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/talent-com/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "partner_program",
+   "url": "https://www.talent.com/ats",
+   "title": "Talent.com ATS partners",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://www.talent.com/enterprise",
+   "title": "Talent.com for employers",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "relationship",
+   "url": "https://www.jobbank.gc.ca/network",
+   "title": "Job Bank network: boards that send jobs to Job Bank",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://es.talent.com/",
+   "title": "Talent.com: Búsqueda de empleo | Encuentra ofertas cerca de ti",
+   "accessed": "2026-11-05",
+   "quote": "Navega entre más de 40 millones de ofertas de trabajo, guarda las que te gusten y aplica en segundos.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://it.talent.com/",
+   "title": "Talent.com Italian homepage",
+   "accessed": "2026-11-05",
+   "quote": "Puoi cercare tra oltre 40 milioni di offerte, salvare quelle che ti interessano e candidarti in pochi secondi.",
+   "quote_check": "ok"
+  }
+ ]
+}

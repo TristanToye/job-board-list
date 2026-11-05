@@ -1,127 +1,369 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Adzuna",
+   "url": "https://www.adzuna.com",
+   "hq_country": "GB",
+   "founded": "2011",
+   "parent": null,
+   "sources": [
     {
-      "name": "Adzuna",
-      "url": "https://www.adzuna.com",
-      "hq_country": "GB",
-      "founded": "2011",
-      "parent": null,
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Adzuna", "title": "Wikipedia: Adzuna", "quote": "Adzuna is a search engine for job advertisements."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Adzuna", "title": "Wikipedia: Adzuna", "quote": "London, United Kingdom"},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Adzuna", "title": "Wikipedia: Adzuna", "quote": "Adzuna was founded in 2011 by Andrew Hunter"}
-      ],
-      "notes": []
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Adzuna",
+     "title": "Wikipedia: Adzuna",
+     "quote": "Adzuna is a search engine for job advertisements.",
+     "check": "ok"
     },
     {
-      "name": "Jobindex",
-      "url": "https://www.jobindex.dk",
-      "hq_country": "DK",
-      "founded": "1996",
-      "parent": null,
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Jobindex", "title": "Wikipedia: Jobindex", "quote": "Jobindex is a job portal, founded in 1996 by Kaare Danielsen."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Jobindex", "title": "Wikipedia: Jobindex", "quote": "Frederiksberg, Denmark."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Jobindex", "title": "Wikipedia: Jobindex", "quote": "Jobindex is a job portal, founded in 1996 by Kaare Danielsen."}
-      ],
-      "notes": []
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Adzuna",
+     "title": "Wikipedia: Adzuna",
+     "quote": "London, United Kingdom",
+     "check": "ok"
     },
     {
-      "name": "InfoJobs",
-      "url": "https://www.infojobs.net",
-      "hq_country": "ES",
-      "founded": "1998",
-      "parent": "Adevinta Group",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/InfoJobs", "title": "Wikipedia: InfoJobs", "quote": "InfoJobs is a private online job board."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/InfoJobs", "title": "Wikipedia: InfoJobs", "quote": "The company was founded in 1998 within Grupo Intercom and is based in Barcelona."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/InfoJobs", "title": "Wikipedia: InfoJobs", "quote": "The company was founded in 1998 within Grupo Intercom and is based in Barcelona."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/InfoJobs", "title": "Wikipedia: InfoJobs", "quote": "It is owned by the Adevinta Group (Schibsted Media Group) through its subsidiary in Spain."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/InfoJobs", "title": "Wikipedia: InfoJobs", "quote": "In 2009, the Scandinavian media group Schibsted Media Group took control of the company."}
-      ],
-      "notes": [
-        {"text": "The article reports that the Italian branch of InfoJobs announced its shut down (October 2025).", "url": "https://en.wikipedia.org/wiki/InfoJobs", "title": "Wikipedia: InfoJobs", "quote": "Infojobs italian branch announces its shut down."}
-      ]
-    },
-    {
-      "name": "Jobberman",
-      "url": "https://www.jobberman.com",
-      "hq_country": "NG",
-      "founded": "2009",
-      "parent": "Ringier One Africa Media (ROAM Africa)",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Jobberman", "title": "Wikipedia: Jobberman", "quote": "Jobberman is a career development and recruitment solutions company headquartered in Lagos, Nigeria."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Jobberman", "title": "Wikipedia: Jobberman", "quote": "Jobberman is a career development and recruitment solutions company headquartered in Lagos, Nigeria."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Jobberman", "title": "Wikipedia: Jobberman", "quote": "Jobberman was founded in August 2009 by Olalekan Olude, Ayodeji Adewunmi and Opeyemi Awoyemi."},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/Jobberman", "title": "Wikipedia: Jobberman", "quote": "In 2015, One Africa Media acquired Jobberman."}
-      ],
-      "notes": []
-    },
-    {
-      "name": "Handshake",
-      "url": "https://joinhandshake.com",
-      "hq_country": "US",
-      "founded": "2014",
-      "parent": null,
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Handshake_(company)", "title": "Wikipedia: Handshake (company)", "quote": "Handshake is an American employment website for job listings, primarily for college students, launched in 2014."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Handshake_(company)", "title": "Wikipedia: Handshake (company)", "quote": "its headquarters is in San Francisco, California."},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Handshake_(company)", "title": "Wikipedia: Handshake (company)", "quote": "Handshake was launched in 2014 by three computer science students from Michigan Tech."}
-      ],
-      "notes": []
-    },
-    {
-      "name": "Workopolis",
-      "url": "https://www.workopolis.com",
-      "hq_country": "CA",
-      "founded": "1999",
-      "parent": "Recruit Holdings",
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/Workopolis", "title": "Wikipedia: Workopolis", "quote": "Workopolis was a Canadian website specializing in online job searching."},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/Workopolis", "title": "Wikipedia: Workopolis", "quote": "Headquartered in Toronto, Workopolis had offices in eight Canadian cities"},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/Workopolis", "title": "Wikipedia: Workopolis", "quote": "1999"},
-        {"field": "parent", "url": "https://en.wikipedia.org/wiki/Workopolis", "title": "Wikipedia: Workopolis", "quote": "Recruit Holdings, owners of Indeed purchased Workopolis in April 2018."}
-      ],
-      "notes": [
-        {"text": "The article says Workopolis was subsequently shut down as an independent job board. The lead gives June 2018 for the acquisition and the history section gives April 2018.", "url": "https://en.wikipedia.org/wiki/Workopolis", "title": "Wikipedia: Workopolis", "quote": "subsequently shut down as an independent job board."}
-      ]
-    },
-    {
-      "name": "The Muse",
-      "url": "https://www.themuse.com",
-      "hq_country": "US",
-      "founded": "2011",
-      "parent": null,
-      "sources": [
-        {"field": "existence", "url": "https://en.wikipedia.org/wiki/The_Muse_(website)", "title": "Wikipedia: The Muse (website)", "quote": "The Muse (formerly known as The Daily Muse) is a New York City-based online career platform founded in 2011"},
-        {"field": "hq_country", "url": "https://en.wikipedia.org/wiki/The_Muse_(website)", "title": "Wikipedia: The Muse (website)", "quote": "The Muse (formerly known as The Daily Muse) is a New York City-based online career platform founded in 2011"},
-        {"field": "founded", "url": "https://en.wikipedia.org/wiki/The_Muse_(website)", "title": "Wikipedia: The Muse (website)", "quote": "The Muse (formerly known as The Daily Muse) is a New York City-based online career platform founded in 2011"}
-      ],
-      "notes": []
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Adzuna",
+     "title": "Wikipedia: Adzuna",
+     "quote": "Adzuna was founded in 2011 by Andrew Hunter",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Job Bank", "url": "https://www.jobbank.gc.ca", "reason": "No article found at Job Bank (redirects to Mississippi Public Broadcasting, a different entity) or Job_Bank_(Canada) (HTTP 404)."},
-    {"name": "Talent.com", "url": "https://www.talent.com", "reason": "No article found at Talent.com (HTTP 404)."},
-    {"name": "Jooble", "url": "https://jooble.org", "reason": "No article found at Jooble (HTTP 404)."},
-    {"name": "Careerjet", "url": "https://www.careerjet.com", "reason": "No article found at Careerjet (HTTP 404)."},
-    {"name": "Jobrapido", "url": "https://www.jobrapido.com", "reason": "No article found at Jobrapido (HTTP 404)."},
-    {"name": "HeadHunter (hh.ru)", "url": "https://hh.ru", "reason": "No article found at HeadHunter_(company) or HeadHunter (HTTP 404)."},
-    {"name": "Pracuj.pl", "url": "https://www.pracuj.pl", "reason": "No article found at Pracuj.pl (HTTP 404)."},
-    {"name": "jobs.ch", "url": "https://www.jobs.ch", "reason": "No article found at Jobs.ch (HTTP 404)."},
-    {"name": "FINN.no Jobs", "url": "https://www.finn.no/job", "reason": "No article found at FINN.no or Finn.no (HTTP 404)."},
-    {"name": "Welcome to the Jungle", "url": "https://www.welcometothejungle.com", "reason": "Welcome_to_the_Jungle is an article about a song; Welcome_to_the_Jungle_(website) returned HTTP 404. Skipped as a different entity."},
-    {"name": "Bayt", "url": "https://www.bayt.com", "reason": "No article found at Bayt.com (HTTP 404). Bayt is a disambiguation page with no company facts."},
-    {"name": "Computrabajo", "url": "https://www.computrabajo.com", "reason": "No article found at Computrabajo (HTTP 404)."},
-    {"name": "Catho", "url": "https://www.catho.com.br", "reason": "No article found at Catho (HTTP 404)."},
-    {"name": "Wellfound", "url": "https://wellfound.com", "reason": "No article found at Wellfound (HTTP 404). AngelList article says AngelList Talent was spun out and rebranded as Wellfound in November 2022; it states no parent or shutdown for Wellfound, so not recorded."},
-    {"name": "Jobboom", "url": "https://www.jobboom.com", "reason": "No article found at Jobboom (HTTP 404)."},
-    {"name": "CareerBeacon", "url": "https://www.careerbeacon.com", "reason": "No article found at CareerBeacon (HTTP 404)."},
-    {"name": "Eluta", "url": "https://www.eluta.ca", "reason": "No article found at Eluta (HTTP 404)."},
-    {"name": "Himalayas", "url": "https://himalayas.app", "reason": "Himalayas article is about a mountain range; no job board article found."},
-    {"name": "Jobillico", "url": "https://www.jobillico.com", "reason": "No article found at Jobillico (HTTP 404)."},
-    {"name": "Jobs.ca", "url": "https://www.jobs.ca", "reason": "No article found at Jobs.ca (HTTP 404)."}
-  ]
+   ],
+   "notes": []
+  },
+  {
+   "name": "Jobindex",
+   "url": "https://www.jobindex.dk",
+   "hq_country": "DK",
+   "founded": "1996",
+   "parent": null,
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Jobindex",
+     "title": "Wikipedia: Jobindex",
+     "quote": "Jobindex is a job portal, founded in 1996 by Kaare Danielsen.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Jobindex",
+     "title": "Wikipedia: Jobindex",
+     "quote": "Frederiksberg, Denmark.",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Jobindex",
+     "title": "Wikipedia: Jobindex",
+     "quote": "Jobindex is a job portal, founded in 1996 by Kaare Danielsen.",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "name": "InfoJobs",
+   "url": "https://www.infojobs.net",
+   "hq_country": "ES",
+   "founded": "1998",
+   "parent": "Adevinta Group",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/InfoJobs",
+     "title": "Wikipedia: InfoJobs",
+     "quote": "InfoJobs is a private online job board.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/InfoJobs",
+     "title": "Wikipedia: InfoJobs",
+     "quote": "The company was founded in 1998 within Grupo Intercom and is based in Barcelona.",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/InfoJobs",
+     "title": "Wikipedia: InfoJobs",
+     "quote": "The company was founded in 1998 within Grupo Intercom and is based in Barcelona.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/InfoJobs",
+     "title": "Wikipedia: InfoJobs",
+     "quote": "It is owned by the Adevinta Group (Schibsted Media Group) through its subsidiary in Spain.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/InfoJobs",
+     "title": "Wikipedia: InfoJobs",
+     "quote": "In 2009, the Scandinavian media group Schibsted Media Group took control of the company.",
+     "check": "ok"
+    }
+   ],
+   "notes": [
+    {
+     "text": "The article reports that the Italian branch of InfoJobs announced its shut down (October 2025).",
+     "url": "https://en.wikipedia.org/wiki/InfoJobs",
+     "title": "Wikipedia: InfoJobs",
+     "quote": "Infojobs italian branch announces its shut down.",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "Jobberman",
+   "url": "https://www.jobberman.com",
+   "hq_country": "NG",
+   "founded": "2009",
+   "parent": "Ringier One Africa Media (ROAM Africa)",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Jobberman",
+     "title": "Wikipedia: Jobberman",
+     "quote": "Jobberman is a career development and recruitment solutions company headquartered in Lagos, Nigeria.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Jobberman",
+     "title": "Wikipedia: Jobberman",
+     "quote": "Jobberman is a career development and recruitment solutions company headquartered in Lagos, Nigeria.",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Jobberman",
+     "title": "Wikipedia: Jobberman",
+     "quote": "Jobberman was founded in August 2009 by Olalekan Olude, Ayodeji Adewunmi and Opeyemi Awoyemi.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/Jobberman",
+     "title": "Wikipedia: Jobberman",
+     "quote": "In 2015, One Africa Media acquired Jobberman.",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "name": "Handshake",
+   "url": "https://joinhandshake.com",
+   "hq_country": "US",
+   "founded": "2014",
+   "parent": null,
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Handshake_(company)",
+     "title": "Wikipedia: Handshake (company)",
+     "quote": "Handshake is an American employment website for job listings, primarily for college students, launched in 2014.",
+     "check": "unreachable"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Handshake_(company)",
+     "title": "Wikipedia: Handshake (company)",
+     "quote": "its headquarters is in San Francisco, California.",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Handshake_(company)",
+     "title": "Wikipedia: Handshake (company)",
+     "quote": "Handshake was launched in 2014 by three computer science students from Michigan Tech.",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "name": "Workopolis",
+   "url": "https://www.workopolis.com",
+   "hq_country": "CA",
+   "founded": "1999",
+   "parent": "Recruit Holdings",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/Workopolis",
+     "title": "Wikipedia: Workopolis",
+     "quote": "Workopolis was a Canadian website specializing in online job searching.",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/Workopolis",
+     "title": "Wikipedia: Workopolis",
+     "quote": "Headquartered in Toronto, Workopolis had offices in eight Canadian cities",
+     "check": "unreachable"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/Workopolis",
+     "title": "Wikipedia: Workopolis",
+     "quote": "1999",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://en.wikipedia.org/wiki/Workopolis",
+     "title": "Wikipedia: Workopolis",
+     "quote": "Recruit Holdings, owners of Indeed purchased Workopolis in April 2018.",
+     "check": "ok"
+    }
+   ],
+   "notes": [
+    {
+     "text": "The article says Workopolis was subsequently shut down as an independent job board. The lead gives June 2018 for the acquisition and the history section gives April 2018.",
+     "url": "https://en.wikipedia.org/wiki/Workopolis",
+     "title": "Wikipedia: Workopolis",
+     "quote": "subsequently shut down as an independent job board.",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "The Muse",
+   "url": "https://www.themuse.com",
+   "hq_country": "US",
+   "founded": "2011",
+   "parent": null,
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://en.wikipedia.org/wiki/The_Muse_(website)",
+     "title": "Wikipedia: The Muse (website)",
+     "quote": "The Muse (formerly known as The Daily Muse) is a New York City-based online career platform founded in 2011",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://en.wikipedia.org/wiki/The_Muse_(website)",
+     "title": "Wikipedia: The Muse (website)",
+     "quote": "The Muse (formerly known as The Daily Muse) is a New York City-based online career platform founded in 2011",
+     "check": "unreachable"
+    },
+    {
+     "field": "founded",
+     "url": "https://en.wikipedia.org/wiki/The_Muse_(website)",
+     "title": "Wikipedia: The Muse (website)",
+     "quote": "The Muse (formerly known as The Daily Muse) is a New York City-based online career platform founded in 2011",
+     "check": "ok"
+    }
+   ],
+   "notes": []
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Job Bank",
+   "url": "https://www.jobbank.gc.ca",
+   "reason": "No article found at Job Bank (redirects to Mississippi Public Broadcasting, a different entity) or Job_Bank_(Canada) (HTTP 404)."
+  },
+  {
+   "name": "Talent.com",
+   "url": "https://www.talent.com",
+   "reason": "No article found at Talent.com (HTTP 404)."
+  },
+  {
+   "name": "Jooble",
+   "url": "https://jooble.org",
+   "reason": "No article found at Jooble (HTTP 404)."
+  },
+  {
+   "name": "Careerjet",
+   "url": "https://www.careerjet.com",
+   "reason": "No article found at Careerjet (HTTP 404)."
+  },
+  {
+   "name": "Jobrapido",
+   "url": "https://www.jobrapido.com",
+   "reason": "No article found at Jobrapido (HTTP 404)."
+  },
+  {
+   "name": "HeadHunter (hh.ru)",
+   "url": "https://hh.ru",
+   "reason": "No article found at HeadHunter_(company) or HeadHunter (HTTP 404)."
+  },
+  {
+   "name": "Pracuj.pl",
+   "url": "https://www.pracuj.pl",
+   "reason": "No article found at Pracuj.pl (HTTP 404)."
+  },
+  {
+   "name": "jobs.ch",
+   "url": "https://www.jobs.ch",
+   "reason": "No article found at Jobs.ch (HTTP 404)."
+  },
+  {
+   "name": "FINN.no Jobs",
+   "url": "https://www.finn.no/job",
+   "reason": "No article found at FINN.no or Finn.no (HTTP 404)."
+  },
+  {
+   "name": "Welcome to the Jungle",
+   "url": "https://www.welcometothejungle.com",
+   "reason": "Welcome_to_the_Jungle is an article about a song; Welcome_to_the_Jungle_(website) returned HTTP 404. Skipped as a different entity."
+  },
+  {
+   "name": "Bayt",
+   "url": "https://www.bayt.com",
+   "reason": "No article found at Bayt.com (HTTP 404). Bayt is a disambiguation page with no company facts."
+  },
+  {
+   "name": "Computrabajo",
+   "url": "https://www.computrabajo.com",
+   "reason": "No article found at Computrabajo (HTTP 404)."
+  },
+  {
+   "name": "Catho",
+   "url": "https://www.catho.com.br",
+   "reason": "No article found at Catho (HTTP 404)."
+  },
+  {
+   "name": "Wellfound",
+   "url": "https://wellfound.com",
+   "reason": "No article found at Wellfound (HTTP 404). AngelList article says AngelList Talent was spun out and rebranded as Wellfound in November 2022; it states no parent or shutdown for Wellfound, so not recorded."
+  },
+  {
+   "name": "Jobboom",
+   "url": "https://www.jobboom.com",
+   "reason": "No article found at Jobboom (HTTP 404)."
+  },
+  {
+   "name": "CareerBeacon",
+   "url": "https://www.careerbeacon.com",
+   "reason": "No article found at CareerBeacon (HTTP 404)."
+  },
+  {
+   "name": "Eluta",
+   "url": "https://www.eluta.ca",
+   "reason": "No article found at Eluta (HTTP 404)."
+  },
+  {
+   "name": "Himalayas",
+   "url": "https://himalayas.app",
+   "reason": "Himalayas article is about a mountain range; no job board article found."
+  },
+  {
+   "name": "Jobillico",
+   "url": "https://www.jobillico.com",
+   "reason": "No article found at Jobillico (HTTP 404)."
+  },
+  {
+   "name": "Jobs.ca",
+   "url": "https://www.jobs.ca",
+   "reason": "No article found at Jobs.ca (HTTP 404)."
+  }
+ ]
 }

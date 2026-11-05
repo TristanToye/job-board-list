@@ -1,0 +1,77 @@
+{
+ "id": "jobs-ca",
+ "name": "Jobs.ca",
+ "url": "https://www.jobs.ca",
+ "type": "board",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr"
+ ],
+ "region": "North America",
+ "niche": "general (network of sector and regional sites)",
+ "parent": "",
+ "business_model": "subscription and per-post credits",
+ "api_status": "none-known",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "Careers-page sync",
+  "XML feed",
+  "RSS feed",
+  "manual posting"
+ ],
+ "notes": "Describes itself as Canada's largest job network with 23 sites including ITjobs.ca, HRjob.ca and Healthcarejobs.ca. French sites run on emplois.ca. Job Sync subscriptions run from CAD 199 to 649 per month by company size. Manual postings cost CAD 325 per post. No API documentation found. Owner not stated. Job Junction describes it as a leader with 17 niche boards, while Jobs.ca's own homepage lists 23 sites.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/jobs-ca/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.jobs.ca/",
+   "title": "Jobs.ca homepage",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "parent",
+   "url": "https://www.jobs.ca/about",
+   "title": "Jobs.ca about",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobs.ca/hire/job-sync",
+   "title": "Jobs.ca Job Sync",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.jobs.ca/hire/pricing",
+   "title": "Jobs.ca employer pricing",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "listed_by",
+   "url": "https://jobjunction.ca/national-job-boards/",
+   "title": "Job Junction: national job boards (third-party directory)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}

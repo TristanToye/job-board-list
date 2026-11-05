@@ -1,0 +1,39 @@
+{
+ "id": "magnet",
+ "name": "Magnet",
+ "url": "https://magnet.today",
+ "type": "board",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "North America",
+ "niche": "unknown",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Listed as a Job Bank feed partner. The Job Bank About and Network pages give different Magnet addresses. Not yet verified.",
+ "confidence": "listed-only",
+ "page": "https://jobboardlist.com/boards/magnet/",
+ "indexable": false,
+ "sources": [
+  {
+   "field": "relationship",
+   "url": "https://www.jobbank.gc.ca/network",
+   "title": "Job Bank network: boards that send jobs to Job Bank",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "jobindex",
+ "name": "Jobindex",
+ "url": "https://www.jobindex.dk",
+ "type": "board",
+ "hq_country": "DK",
+ "founded": "1996",
+ "markets": "DK",
+ "countries_served": [
+  "DK"
+ ],
+ "primary_language": "da",
+ "languages_supported": [
+  "da",
+  "en"
+ ],
+ "region": "Europe",
+ "niche": "general",
+ "parent": "",
+ "business_model": "subscription",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "XML feed"
+ ],
+ "notes": "",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/jobindex/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "listed_by",
+   "url": "https://en.wikipedia.org/wiki/Jobindex",
+   "title": "Jobindex",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/Jobindex",
+   "title": "Wikipedia: Jobindex",
+   "accessed": "2026-11-05",
+   "quote": "Jobindex is a job portal, founded in 1996 by Kaare Danielsen.",
+   "quote_check": "ok"
+  }
+ ]
+}

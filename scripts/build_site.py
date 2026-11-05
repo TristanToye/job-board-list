@@ -63,7 +63,7 @@ def icon(b, r, px=24):
     return f'<span class="ico tile" style="--h:{hue}" aria-hidden="true">{e(b["name"][:1].upper())}</span>'
 pages = []  # (path, lastmod)
 
-def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head=""):
+def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False):
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     nav = (f'<a href="{r}">Directory</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
@@ -86,21 +86,33 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="")
 <meta property="og:type" content="website"><meta property="og:site_name" content="{e(NAME)}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{e(BASE + canonical)}">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="{e(BASE)}/assets/og.png">
+<link rel="alternate" type="application/atom+xml" title="{e(NAME)} research log" href="{r}feed.xml">{'<meta name="robots" content="noindex,follow">' if noindex else ""}
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Cpath d='M8 22V10h4a4 4 0 0 1 0 8H8' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="{r}assets/style.css">{extra_head}{ld}</head>
 <body><header class="top"><div class="wrap bar"><a class="brand" href="{r}">{e(NAME)}</a><nav>{nav}</nav></div></header>
 <main class="wrap">{body}</main>
 <footer class="wrap foot"><p>{e(NAME)} is an open dataset. Download: <a href="{r}downloads/job_boards.csv">boards CSV</a>,
-<a href="{r}downloads/job_boards.json">boards JSON</a>, <a href="{r}downloads/ats_systems.csv">ATS CSV</a>.
+<a href="{r}downloads/job_boards.json">boards JSON</a>, <a href="{r}downloads/ats_systems.csv">ATS CSV</a>, <a href="{r}data/boards.json">JSON data API</a>, <a href="{r}changelog/">changelog</a> and <a href="{r}feed.xml">feed</a>.
 Data is a work in progress and may be wrong: see <a href="{r}about/">methodology</a>. Last built {TODAY}.</p></footer>
 </body></html>"""
 
-def write(rel, content, lastmod=True):
+def write(rel, content, lastmod=True, indexed=True):
     p = OUT / rel; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content, encoding="utf-8")
-    if lastmod and rel.endswith("index.html"):
+    if lastmod and indexed and rel.endswith("index.html"):
         pages.append("/" + rel[:-len("index.html")])
 
+INFO_FIELDS = ["hq_country", "founded", "parent", "business_model", "api_docs_url", "partner_url", "ingest_methods", "primary_language"]
+def facts(b):
+    return sum(1 for k in INFO_FIELDS if b.get(k)) + (b["api_status"] not in ("", "unknown")) + (b["partner_program"] in ("yes", "n/a"))
+def indexable(b):
+    """Only boards with cited, substantive facts get an indexable page. Thin pages stay out of the sitemap and are marked noindex."""
+    return b["confidence"] in ("partially-verified", "secondary-sourced") and facts(b) >= 3
+def itemlist(v, depth):
+    r = "../" * depth
+    return {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [
+        {"@type": "ListItem", "position": i, "name": b["name"], "url": f'{BASE}/boards/{b["id"]}/'} for i, b in enumerate(sorted(v, key=lambda b: -facts(b))[:50], 1)]}
 def conf_badge(c):
     if c == "seed-unverified": return '<span class="badge warn" title="No facts on this page have been checked against a primary source yet">Unverified</span>'
     if c == "secondary-sourced": return '<span class="badge" title="Facts come from a secondary source such as Wikipedia, not the board itself">Secondary source</span>'
@@ -173,7 +185,7 @@ for b in boards:
     sources_html = ""
     if srcs:
         sources_html = ("<h2>Sources</h2><ol class=\"sources\">" + "".join(
-            f'<li><span class="chip">{e(FIELD_LABEL.get(x["field"], x["field"]))}</span> <a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">{e(x["title"])}</a>{" (secondary source)" if "wikipedia.org" in x["url"] else ""} <span class="muted small">checked {e(x["accessed"])}</span>{('<div class="quote">' + e(x.get("quote","")) + '</div>') if x.get("quote") else ""}</li>' for x in srcs) + "</ol>")
+            f'<li><span class="chip">{e(FIELD_LABEL.get(x["field"], x["field"]))}</span> <a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">{e(x["title"])}</a>{" (secondary source)" if "wikipedia.org" in x["url"] or "wikidata.org" in x["url"] else ""} <span class="muted small">checked {e(x["accessed"])}</span>{('<div class="quote">' + e(x.get("quote","")) + '</div>') if x.get("quote") else ""}</li>' for x in srcs) + "</ol>")
     checked_on = max((x["accessed"] for x in srcs), default="")
     body = f"""<nav class="crumbs"><a href="{r}">Directory</a> / <a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a> / {e(b["name"])}</nav>
 <div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is {article(tdesc(b))} {e(tdesc(b))}{" based in " + e(country(b["hq_country"])) if b["hq_country"] else ""}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
@@ -199,7 +211,7 @@ for b in boards:
     if logo_info(b): org["logo"] = f'{BASE}/assets/logos/{logo_info(b)["file"]}'
     ld = [ld, org]
     write(f'boards/{b["id"]}/index.html', layout(2, f'{b["name"]}: API, partner program and integration details | {NAME}',
-      f'{b["name"]} ({b["type"]}{", " + country(b["hq_country"]) if b["hq_country"] else ""}{", " + lang(b["primary_language"]) if b["primary_language"] else ""}): API status, partner program, developer docs and how jobs are ingested.', body, f'/boards/{b["id"]}/', ld))
+      f'{b["name"]} ({b["type"]}{", " + country(b["hq_country"]) if b["hq_country"] else ""}{", " + lang(b["primary_language"]) if b["primary_language"] else ""}): API status, partner program, developer docs and how jobs are ingested.', body, f'/boards/{b["id"]}/', ld, noindex=not indexable(b)), indexed=indexable(b))
 
 # ---------- group pages (regions, countries, api status) ----------
 def group_pages(kind, label_plural, keyfn, labelfn, blurbfn, titlefn, h1fn):
@@ -212,7 +224,7 @@ def group_pages(kind, label_plural, keyfn, labelfn, blurbfn, titlefn, h1fn):
     for k, v in groups.items():
         s = slug(k) if kind != "api" else k
         body = f'<nav class="crumbs"><a href="{r2}">Directory</a> / <a href="{r1}">By {label_plural}</a> / {e(labelfn(k))}</nav><h1>{e(h1fn(k))}</h1><p class="lede">{e(blurbfn(k, len(v)))}</p>' + table(sorted(v, key=lambda b: b["name"].lower()), r2)
-        write(f"{kind}/{s}/index.html", layout(2, f"{titlefn(k)} | {NAME}", blurbfn(k, len(v)), body, f"/{kind}/{s}/"))
+        write(f"{kind}/{s}/index.html", layout(2, f"{titlefn(k)} | {NAME}", blurbfn(k, len(v)), body, f"/{kind}/{s}/", itemlist(v, 2), noindex=len(v) < 3), indexed=len(v) >= 3)
 
 group_pages("regions", "region", lambda b: b["region"], lambda k: k,
   lambda k, n: f"{n} job boards, aggregators and platforms serving {k}, with API status and partner program details.",
@@ -233,7 +245,7 @@ for k, v in by_country.items():
             f'<p class="lede">{len(v)} job boards and aggregators based in or serving {e(k)}: {len(hq)} headquartered there and {sv} based elsewhere that serve it. {nchk} have facts checked against their own pages or official sources.</p>'
             + table(sorted(v, key=lambda b: b["name"].lower()), "../../"))
     write(f"countries/{slug(k)}/index.html", layout(2, f"Job boards in {k}: APIs, partner programs and sources | {NAME}",
-        f"{len(v)} job boards and aggregators based in or serving {k}, with API access, partner programs and cited sources.", body, f"/countries/{slug(k)}/"))
+        f"{len(v)} job boards and aggregators based in or serving {k}, with API access, partner programs and cited sources.", body, f"/countries/{slug(k)}/", itemlist(v, 2), noindex=len(v) < 3), indexed=len(v) >= 3)
 API_TITLE = {"on-request":"Job board APIs and feeds available on request","public-open":"Job boards with an open API","public-key":"Job board APIs with self-serve keys",
   "partner-only":"Partner-only job board APIs and feeds","deprecated":"Job boards with deprecated APIs","none-known":"Job boards with no known API","unknown":"Job boards with unresearched API status"}
 group_pages("api", "API status", lambda b: b["api_status"], lambda k: API_LABEL[k],
@@ -252,7 +264,7 @@ for c, v in by_lang.items():
             f'<p class="lede">{len(v)} job boards and aggregators that support {e(lang(c))}, of which {prim} use it as their primary language.</p>'
             + table(sorted(v, key=lambda b: b["name"].lower()), "../../"))
     write(f"languages/{slug(lang(c))}/index.html", layout(2, f"{lang(c)} job boards and aggregators | {NAME}",
-        f"{len(v)} job boards and aggregators supporting {lang(c)}, with API access and partner program details.", body, f"/languages/{slug(lang(c))}/"))
+        f"{len(v)} job boards and aggregators supporting {lang(c)}, with API access and partner program details.", body, f"/languages/{slug(lang(c))}/", itemlist(v, 2), noindex=len(v) < 3), indexed=len(v) >= 3)
 
 # ---------- ATS ----------
 def ats_row(a, r): return (f'<tr><td><a href="{r}ats/{a["id"]}/"><strong>{e(a["name"])}</strong></a><div class="muted small">{e(a["vendor"])}</div></td>'
@@ -287,6 +299,24 @@ if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", 
 for n in ("job_boards.csv","ats_systems.csv","sources.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/".nojekyll").write_text("")
+# ---------- JSON data API, changelog and feed ----------
+(OUT/"data"/"boards").mkdir(parents=True, exist_ok=True)
+def board_json(b):
+    d = {k: v for k, v in b.items()}
+    for k in ("countries_served", "languages_supported", "ingest_methods"): d[k] = split(b[k])
+    d["page"] = f'{BASE}/boards/{b["id"]}/'; d["indexable"] = indexable(b)
+    d["sources"] = [{k: x.get(k, "") for k in ("field", "url", "title", "accessed", "quote", "quote_check")} for x in SOURCES.get(b["id"], [])]
+    return d
+allj = [board_json(b) for b in boards]
+(OUT/"data"/"boards.json").write_text(json.dumps({"generated": TODAY, "count": len(allj), "boards": allj}, indent=1, ensure_ascii=False), encoding="utf-8")
+for d in allj: (OUT/"data"/"boards"/f'{d["id"]}.json').write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
+log = load("ingest_log.csv") if (ROOT/"data"/"ingest_log.csv").exists() else []
+rows_html = "".join(f'<tr><td>{e(x["date"])}</td><td>{e(x["files"])}</td><td>{e(x["added"])}</td><td>{e(x["merged"])}</td><td>{e(x["rejected"])}</td><td>{e(x["conflicts"])}</td></tr>' for x in reversed(log))
+write("changelog/index.html", layout(1, f"Research log and changelog | {NAME}", "What was added, merged or rejected in each research run of the job board directory.",
+  f'<h1>Research log</h1><p class="lede">Every research run is logged here: boards added, boards merged into existing entries, and items rejected because they lacked a confirmed source. The directory currently holds {len(boards)} boards.</p><div class="tablewrap"><table><thead><tr><th>Date</th><th>Findings files</th><th>Added</th><th>Merged</th><th>Rejected</th><th>Conflicts</th></tr></thead><tbody>{rows_html}</tbody></table></div>', "/changelog/"))
+entries = "".join(f'<entry><id>tag:{BASE.split("//")[-1].split("/")[0]},{x["date"]}:run{i}</id><title>Research run {e(x["date"])}: {e(x["added"])} boards added, {e(x["merged"])} merged</title><updated>{e(x["date"])}T00:00:00Z</updated><link href="{e(BASE)}/changelog/"/><summary>{e(x["rejected"])} items rejected, {e(x["conflicts"])} conflicts logged.</summary></entry>' for i, x in enumerate(reversed(log)))
+(OUT/"feed.xml").write_text(f'<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><id>{e(BASE)}/</id><title>{e(NAME)} research log</title><updated>{TODAY}T00:00:00Z</updated><link href="{e(BASE)}/feed.xml" rel="self"/><link href="{e(BASE)}/changelog/"/>{entries}</feed>', encoding="utf-8")
+if (ROOT/"site_src"/"og.png").exists(): shutil.copy(ROOT/"site_src"/"og.png", OUT/"assets"/"og.png")
 (OUT/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 sm = "".join(f"<url><loc>{e(BASE + p)}</loc><lastmod>{TODAY}</lastmod></url>" for p in sorted(pages))
 (OUT/"sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')

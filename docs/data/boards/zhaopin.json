@@ -1,0 +1,39 @@
+{
+ "id": "zhaopin",
+ "name": "Zhaopin",
+ "url": "https://www.zhaopin.com",
+ "type": "board",
+ "hq_country": "CN",
+ "founded": "",
+ "markets": "CN",
+ "countries_served": [
+  "CN"
+ ],
+ "primary_language": "zh",
+ "languages_supported": [
+  "zh"
+ ],
+ "region": "East Asia",
+ "niche": "general",
+ "parent": "",
+ "business_model": "subscription",
+ "api_status": "none-known",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/zhaopin/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q85880646",
+   "title": "Wikidata: Zhaopin.com",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

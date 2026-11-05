@@ -1,0 +1,65 @@
+{
+ "id": "usajobs",
+ "name": "USAJOBS",
+ "url": "https://www.usajobs.gov",
+ "type": "government",
+ "hq_country": "US",
+ "founded": "1996",
+ "markets": "US",
+ "countries_served": [
+  "US"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "North America",
+ "niche": "public sector",
+ "parent": "US OPM",
+ "business_model": "free",
+ "api_status": "public-key",
+ "api_docs_url": "https://developer.usajobs.gov/",
+ "partner_program": "n/a",
+ "partner_url": "https://developer.usajobs.gov",
+ "ingest_methods": [
+  "REST API (key)"
+ ],
+ "notes": "Free API key; authoritative source for US federal jobs Operated by the US Office of Personnel Management. API key requirement not confirmed: the authentication guide and Job Search API page could not be read on fetch (one returned an error page). No language options or employer pricing found on pages read.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/usajobs/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.usajobs.gov/Help/about/",
+   "title": "About USAJOBS",
+   "accessed": "2026-11-05",
+   "quote": "United States Office of Personnel Management website.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.usajobs.gov/",
+   "title": "Homepage header",
+   "accessed": "2026-11-05",
+   "quote": "An official website of the United States government.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://developer.usajobs.gov/",
+   "title": "Developer docs",
+   "accessed": "2026-11-05",
+   "quote": "Here you will find documentation on all facets of integrating or using services provided by USAJOBS.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q7865747",
+   "title": "Wikidata: USAJobs",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

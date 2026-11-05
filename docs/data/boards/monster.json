@@ -1,0 +1,79 @@
+{
+ "id": "monster",
+ "name": "Monster",
+ "url": "https://www.monster.com",
+ "type": "board",
+ "hq_country": "PR",
+ "founded": "1999",
+ "markets": "US;CA;several EU",
+ "countries_served": [
+  "CA",
+  "US"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr",
+  "de",
+  "nl",
+  "it"
+ ],
+ "region": "North America",
+ "niche": "general",
+ "parent": "BOLD Holdings",
+ "business_model": "subscription",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "XML feed",
+  "partner API"
+ ],
+ "notes": "Merged with CareerBuilder 2021; check current status Wikipedia: \"In September 2024, Monster merged with CareerBuilder\"",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/monster/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "listed_by",
+   "url": "https://jobjunction.ca/national-job-boards/",
+   "title": "Job Junction: national job boards (third-party directory)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/Monster.com",
+   "title": "Wikipedia: Monster.com",
+   "accessed": "2026-11-05",
+   "quote": "Monster.com is a global employment website and job search engine headquartered in Guaynabo, Puerto Rico.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://en.wikipedia.org/wiki/Monster.com",
+   "title": "Wikipedia: Monster.com",
+   "accessed": "2026-11-05",
+   "quote": "it is owned by BOLD Holdings.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://en.wikipedia.org/wiki/Monster.com",
+   "title": "Wikipedia: Monster.com",
+   "accessed": "2026-11-05",
+   "quote": "In September 2024, Monster merged with CareerBuilder",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q692041",
+   "title": "Wikidata: monster.com",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

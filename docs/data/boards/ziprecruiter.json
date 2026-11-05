@@ -1,0 +1,62 @@
+{
+ "id": "ziprecruiter",
+ "name": "ZipRecruiter",
+ "url": "https://www.ziprecruiter.com",
+ "type": "board+aggregator",
+ "hq_country": "US",
+ "founded": "2010",
+ "markets": "US;CA;UK;DE",
+ "countries_served": [
+  "CA",
+  "US"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr",
+  "de"
+ ],
+ "region": "North America",
+ "niche": "general",
+ "parent": "",
+ "business_model": "subscription+PPC",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "XML feed",
+  "partner API",
+  "ATS integration"
+ ],
+ "notes": "Official pages returned HTTP 403 to automated fetch on 2026-11-05, so developer and partner details are unverified.",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/ziprecruiter/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "relationship",
+   "url": "https://www.jobbank.gc.ca/network",
+   "title": "Job Bank network: boards that send jobs to Job Bank",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/ZipRecruiter",
+   "title": "Wikipedia: ZipRecruiter",
+   "accessed": "2026-11-05",
+   "quote": "ZipRecruiter, Inc. is an American employment marketplace for job seekers and employers.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q8072594",
+   "title": "Wikidata: ZipRecruiter",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

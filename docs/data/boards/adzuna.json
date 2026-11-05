@@ -1,0 +1,92 @@
+{
+ "id": "adzuna",
+ "name": "Adzuna",
+ "url": "https://www.adzuna.com",
+ "type": "aggregator",
+ "hq_country": "UK",
+ "founded": "2011",
+ "markets": "UK;US;CA;AU;DE;FR;IN;NL;PL;ZA;BR;IT;AT;NZ;SG;MX",
+ "countries_served": [
+  "CA",
+  "AU",
+  "AT",
+  "BE",
+  "BR",
+  "FR",
+  "DE",
+  "IN",
+  "IT",
+  "MX",
+  "NL",
+  "NZ",
+  "PL",
+  "SG",
+  "ZA",
+  "ES",
+  "CH",
+  "UK",
+  "US"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "de",
+  "fr",
+  "nl",
+  "pl",
+  "pt",
+  "es",
+  "it"
+ ],
+ "region": "Global",
+ "niche": "general",
+ "parent": "",
+ "business_model": "PPC",
+ "api_status": "public-key",
+ "api_docs_url": "https://developer.adzuna.com",
+ "partner_program": "yes",
+ "partner_url": "https://developer.adzuna.com",
+ "ingest_methods": [
+  "REST API (key)",
+  "XML feed",
+  "crawl"
+ ],
+ "notes": "Free API key issued on registration. Terms say commercial analysis and resale of data need a written licence agreement, with a 14 day trial. Listings must carry Adzuna attribution. Country list not yet verified.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/adzuna/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "api_status",
+   "url": "https://developer.adzuna.com/docs/terms_of_service",
+   "title": "Adzuna API terms of service",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "api_status",
+   "url": "https://developer.adzuna.com/overview",
+   "title": "Adzuna API overview",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "listed_by",
+   "url": "https://en.wikipedia.org/wiki/Adzuna",
+   "title": "Adzuna",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/Adzuna",
+   "title": "Wikipedia: Adzuna",
+   "accessed": "2026-11-05",
+   "quote": "Adzuna is a search engine for job advertisements.",
+   "quote_check": "ok"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "careerbeacon",
+ "name": "CareerBeacon",
+ "url": "https://www.careerbeacon.com",
+ "type": "board",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "North America",
+ "niche": "general (Atlantic Canada)",
+ "parent": "Brunswick News",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Listed as a Job Bank feed partner. Homepage returned HTTP 403 to automated fetch on 2026-11-05. Atlantic focus comes from third-party roundups. Job Junction describes it as a division of Brunswick News serving Atlantic Canada.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/careerbeacon/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "relationship",
+   "url": "https://www.jobbank.gc.ca/network",
+   "title": "Job Bank network: boards that send jobs to Job Bank",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "parent",
+   "url": "https://jobjunction.ca/national-job-boards/",
+   "title": "Job Junction: national job boards (third-party directory)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "listed_by",
+   "url": "https://jobjunction.ca/national-job-boards/",
+   "title": "Job Junction: national job boards (third-party directory)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}

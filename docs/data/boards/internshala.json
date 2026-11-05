@@ -1,0 +1,53 @@
+{
+ "id": "internshala",
+ "name": "Internshala",
+ "url": "https://internshala.com",
+ "type": "niche-board",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "IN"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "South Asia",
+ "niche": "graduates",
+ "parent": "",
+ "business_model": "free",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Employer banner states posting is free. The employer page links to 'Plans and Pricing', but the plans page returned HTTP 404 and no fee details were read. No language switcher, API, or partner program found. The homepage phrase 'Proud partner of leading government bodies' is a section heading, not a partner program.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/internshala/",
+ "indexable": false,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://internshala.com/",
+   "title": "Search Internships, Jobs, & Courses | Hire Candidates | Internshala",
+   "accessed": "2026-11-05",
+   "quote": "For fresher jobs, internships and courses",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://internshala.com",
+   "title": "Homepage employer banner",
+   "accessed": "2026-11-05",
+   "quote": "Post now for free",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://internshala.com/employer/",
+   "title": "Employer page",
+   "accessed": "2026-11-05",
+   "quote": "Post your internships and fresher jobs for free and attract qualified candidates",
+   "quote_check": "ok"
+  }
+ ]
+}

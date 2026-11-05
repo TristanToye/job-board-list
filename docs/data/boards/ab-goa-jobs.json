@@ -1,0 +1,41 @@
+{
+ "id": "ab-goa-jobs",
+ "name": "Government of Alberta jobs board",
+ "url": "https://jobpostings.alberta.ca",
+ "type": "government",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "North America",
+ "niche": "Alberta public service",
+ "parent": "Government of Alberta",
+ "business_model": "public sector",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "Direct employer posting"
+ ],
+ "notes": "Linked from the alberta.ca Find a job page as the Government of Alberta jobs board. The jobpostings.alberta.ca site itself was not fetched.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/ab-goa-jobs/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.alberta.ca/find-a-job",
+   "title": "Alberta: Find a job",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}

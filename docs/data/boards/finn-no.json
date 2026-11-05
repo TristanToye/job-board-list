@@ -1,0 +1,39 @@
+{
+ "id": "finn-no",
+ "name": "FINN.no Jobs",
+ "url": "https://www.finn.no/job",
+ "type": "classifieds+board",
+ "hq_country": "NO",
+ "founded": "2000",
+ "markets": "NO",
+ "countries_served": [
+  "NO"
+ ],
+ "primary_language": "no",
+ "languages_supported": [
+  "no"
+ ],
+ "region": "Europe",
+ "niche": "general",
+ "parent": "Schibsted",
+ "business_model": "subscription",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/finn-no/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q620275",
+   "title": "Wikidata: FINN.no",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "naukri",
+ "name": "Naukri",
+ "url": "https://www.naukri.com",
+ "type": "board",
+ "hq_country": "IN",
+ "founded": "1997",
+ "markets": "IN",
+ "countries_served": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "South Asia",
+ "niche": "general",
+ "parent": "Info Edge",
+ "business_model": "subscription",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Dominant in India",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/naukri/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/Naukri.com",
+   "title": "Wikipedia: Naukri.com",
+   "accessed": "2026-11-05",
+   "quote": "Naukri.com is an Indian employment website which operates in India and the Middle East.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://en.wikipedia.org/wiki/Naukri.com",
+   "title": "Wikipedia: Naukri.com",
+   "accessed": "2026-11-05",
+   "quote": "It was founded in March 1997 by Sanjeev Bikhchandani as a division of Info Edge.",
+   "quote_check": "ok"
+  }
+ ]
+}

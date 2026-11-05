@@ -1,0 +1,67 @@
+{
+ "id": "welcome-to-the-jungle",
+ "name": "Welcome to the Jungle",
+ "url": "https://www.welcometothejungle.com",
+ "type": "board+employer-brand",
+ "hq_country": "FR",
+ "founded": "",
+ "markets": "FR;EU;global",
+ "countries_served": [
+  "FR"
+ ],
+ "primary_language": "fr",
+ "languages_supported": [
+  "fr",
+  "en",
+  "es",
+  "cs",
+  "sk"
+ ],
+ "region": "Europe",
+ "niche": "tech/startup",
+ "parent": "",
+ "business_model": "subscription, packages",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Acquired Otta Prices are not published; the offer page says prices depend on recruitment volume. The Welcome ATS can be integrated with an existing ATS. The footer link Agences partenaires is not a job board partner program. Parent and headquarters not stated. Developer and API pages were not read. The fetched ho",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/welcome-to-the-jungle/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.welcometothejungle.com/fr",
+   "title": "Welcome to the Jungle (FR) homepage",
+   "accessed": "2026-11-05",
+   "quote": "Découvrez l’histoire, les équipes, la culture de plus de 6000 entreprises : et choisissez celle qui vous correspond vraiment.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://solutions.welcometothejungle.com/notre-offre",
+   "title": "Offer page",
+   "accessed": "2026-11-05",
+   "quote": "vous ne payez que ce que vous utilisez vraiment",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://solutions.welcometothejungle.com/notre-offre",
+   "title": "Offer page",
+   "accessed": "2026-11-05",
+   "quote": "Payez en fonction de vos recrutements.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://solutions.welcometothejungle.com/notre-offre",
+   "title": "Offer page",
+   "accessed": "2026-11-05",
+   "quote": "ou intégrez-le facilement à votre ATS existant.",
+   "quote_check": "ok"
+  }
+ ]
+}

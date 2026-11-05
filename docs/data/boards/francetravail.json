@@ -1,0 +1,49 @@
+{
+ "id": "francetravail",
+ "name": "France Travail",
+ "url": "https://www.francetravail.fr",
+ "type": "government",
+ "hq_country": "FR",
+ "founded": "",
+ "markets": "FR",
+ "countries_served": [
+  "FR"
+ ],
+ "primary_language": "fr",
+ "languages_supported": [
+  "fr"
+ ],
+ "region": "Europe",
+ "niche": "general",
+ "parent": "French state",
+ "business_model": "free",
+ "api_status": "public-key",
+ "api_docs_url": "https://francetravail.io",
+ "partner_program": "n/a",
+ "partner_url": "https://francetravail.io",
+ "ingest_methods": [
+  "REST API (OAuth)"
+ ],
+ "notes": "Formerly Pole emploi; Offres d'emploi API The homepage fetch returned only the page title, so header and footer were not read in full. Employer page: no language selector, no API or partner program named; the footer links to Nos partenaires. Operator is named only as the copyright holder. Employer posting cost not stated. Parent not stated.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/francetravail/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "listed_by",
+   "url": "https://join.com/en/blog/best-job-sites-in-france",
+   "title": "JOIN: Best job sites in France",
+   "accessed": "2026-11-05",
+   "quote": "The public employment service (formerly Pôle Emploi).",
+   "quote_check": ""
+  },
+  {
+   "field": "languages",
+   "url": "https://www.francetravail.fr",
+   "title": "Homepage title",
+   "accessed": "2026-11-05",
+   "quote": "Accueil | France Travail",
+   "quote_check": "ok"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "infojobs",
+ "name": "InfoJobs",
+ "url": "https://www.infojobs.net",
+ "type": "board",
+ "hq_country": "ES",
+ "founded": "1998",
+ "markets": "ES;IT",
+ "countries_served": [],
+ "primary_language": "es",
+ "languages_supported": [
+  "es",
+  "ca",
+  "it"
+ ],
+ "region": "Europe",
+ "niche": "general",
+ "parent": "Adevinta Group",
+ "business_model": "subscription",
+ "api_status": "partner-only",
+ "api_docs_url": "https://developer.infojobs.net",
+ "partner_program": "yes",
+ "partner_url": "https://developer.infojobs.net",
+ "ingest_methods": [
+  "REST API (OAuth)"
+ ],
+ "notes": "Has developer portal",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/infojobs/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/InfoJobs",
+   "title": "Wikipedia: InfoJobs",
+   "accessed": "2026-11-05",
+   "quote": "InfoJobs is a private online job board.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://en.wikipedia.org/wiki/InfoJobs",
+   "title": "Wikipedia: InfoJobs",
+   "accessed": "2026-11-05",
+   "quote": "It is owned by the Adevinta Group (Schibsted Media Group) through its subsidiary in Spain.",
+   "quote_check": "ok"
+  }
+ ]
+}

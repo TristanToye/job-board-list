@@ -1,0 +1,55 @@
+{
+ "id": "workopolis",
+ "name": "Workopolis",
+ "url": "https://www.workopolis.com",
+ "type": "board",
+ "hq_country": "CA",
+ "founded": "1999",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "North America",
+ "niche": "general",
+ "parent": "Recruit Holdings",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Homepage returned HTTP 403 on 2026-11-05. May no longer operate as an independent job board. Status unconfirmed. Job Junction still lists it as a job search site, which conflicts with the acquisition lead in the research queue.",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/workopolis/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "listed_by",
+   "url": "https://jobjunction.ca/national-job-boards/",
+   "title": "Job Junction: national job boards (third-party directory)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/Workopolis",
+   "title": "Wikipedia: Workopolis",
+   "accessed": "2026-11-05",
+   "quote": "Workopolis was a Canadian website specializing in online job searching.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://en.wikipedia.org/wiki/Workopolis",
+   "title": "Wikipedia: Workopolis",
+   "accessed": "2026-11-05",
+   "quote": "Recruit Holdings, owners of Indeed purchased Workopolis in April 2018.",
+   "quote_check": "ok"
+  }
+ ]
+}

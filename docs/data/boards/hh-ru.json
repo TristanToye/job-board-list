@@ -1,0 +1,32 @@
+{
+ "id": "hh-ru",
+ "name": "HeadHunter (hh.ru)",
+ "url": "https://hh.ru",
+ "type": "board",
+ "hq_country": "RU",
+ "founded": "",
+ "markets": "RU;KZ;BY;UZ",
+ "countries_served": [],
+ "primary_language": "ru",
+ "languages_supported": [
+  "ru",
+  "en",
+  "kk"
+ ],
+ "region": "Eastern Europe/CIS",
+ "niche": "general",
+ "parent": "HeadHunter Group",
+ "business_model": "subscription",
+ "api_status": "public-key",
+ "api_docs_url": "https://api.hh.ru",
+ "partner_program": "yes",
+ "partner_url": "https://dev.hh.ru",
+ "ingest_methods": [
+  "REST API (OAuth)"
+ ],
+ "notes": "Well-documented public API; sanctions/availability should be checked",
+ "confidence": "seed-unverified",
+ "page": "https://jobboardlist.com/boards/hh-ru/",
+ "indexable": false,
+ "sources": []
+}

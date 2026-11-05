@@ -1,0 +1,53 @@
+{
+ "id": "yakka",
+ "name": "Yakka",
+ "url": "https://www.yakkalabour.com.au/",
+ "type": "niche-board",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "AU"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "APAC",
+ "niche": "trades",
+ "parent": "",
+ "business_model": "per post",
+ "api_status": "none-known",
+ "api_docs_url": "https://www.yakkalabour.com.au/developers/mcp/",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Quick Posts are free. A full Post is $25 AUD and the first full Post is free. Offers a public MCP server with no authentication, but it covers worker search, skills, hiring guides and staffing requests, not job listings, so no job data API was found.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/yakka/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.yakkalabour.com.au/",
+   "title": "Labour Hire Sydney & Australia | Hire Workers Fast | Yakka",
+   "accessed": "2026-11-05",
+   "quote": "Best-ranked app connecting workers with verified companies.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.yakkalabour.com.au/pricing/",
+   "title": "Employer pricing",
+   "accessed": "2026-11-05",
+   "quote": "Quick Posts are always free.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.yakkalabour.com.au/developers/mcp/",
+   "title": "MCP server docs",
+   "accessed": "2026-11-05",
+   "quote": "None for the current tools",
+   "quote_check": "ok"
+  }
+ ]
+}

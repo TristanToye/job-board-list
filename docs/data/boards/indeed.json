@@ -1,0 +1,93 @@
+{
+ "id": "indeed",
+ "name": "Indeed",
+ "url": "https://www.indeed.com",
+ "type": "aggregator+board",
+ "hq_country": "US",
+ "founded": "2004",
+ "markets": "60+ countries",
+ "countries_served": [
+  "CA",
+  "US"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "es",
+  "fr",
+  "de",
+  "it",
+  "pt",
+  "nl",
+  "pl",
+  "sv",
+  "da",
+  "no",
+  "fi",
+  "ja",
+  "ko",
+  "zh",
+  "ar",
+  "tr"
+ ],
+ "region": "Global",
+ "niche": "general",
+ "parent": "Recruit Co. Ltd.",
+ "business_model": "PPC/sponsored",
+ "api_status": "partner-only",
+ "api_docs_url": "https://docs.indeed.com",
+ "partner_program": "yes",
+ "partner_url": "https://docs.indeed.com",
+ "ingest_methods": [
+  "XML feed",
+  "Indeed Apply",
+  "ATS partner integration",
+  "crawl"
+ ],
+ "notes": "Legacy Publisher API retired; integrations now via partner program. Official pages returned HTTP 403 to automated fetch on 2026-11-05, so developer and partner details are unverified.",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/indeed/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "relationship",
+   "url": "https://www.jobbank.gc.ca/network",
+   "title": "Job Bank network: boards that send jobs to Job Bank",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "listed_by",
+   "url": "https://jobjunction.ca/national-job-boards/",
+   "title": "Job Junction: national job boards (third-party directory)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/Indeed",
+   "title": "Wikipedia: Indeed",
+   "accessed": "2026-11-05",
+   "quote": "Indeed, Inc. is an American multinational employment website for job listings launched in November 2004.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://en.wikipedia.org/wiki/Indeed",
+   "title": "Wikipedia: Indeed",
+   "accessed": "2026-11-05",
+   "quote": "On October 1, 2012, Indeed was acquired by Japan-based Recruit Co. Ltd., becoming an independent operating unit.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q1045367",
+   "title": "Wikidata: Indeed",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

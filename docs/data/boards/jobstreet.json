@@ -1,0 +1,62 @@
+{
+ "id": "jobstreet",
+ "name": "JobStreet",
+ "url": "https://www.jobstreet.com",
+ "type": "board",
+ "hq_country": "MY",
+ "founded": "1997",
+ "markets": "MY;SG;ID;PH;TH",
+ "countries_served": [
+  "MY",
+  "ID",
+  "PH",
+  "SG"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "id",
+  "ms"
+ ],
+ "region": "APAC",
+ "niche": "general",
+ "parent": "SEEK",
+ "business_model": "subscription",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "Via SEEK partner program"
+ ],
+ "notes": "Wikipedia: \"SEEK merged its APAC employment marketplaces - SEEK, Jobstreet and Jobsdb - into a single platform.\"",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/jobstreet/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "listed_by",
+   "url": "https://en.wikipedia.org/wiki/Jobstreet",
+   "title": "Jobstreet",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/JobStreet",
+   "title": "Wikipedia: JobStreet",
+   "accessed": "2026-11-05",
+   "quote": "Jobstreet is a Southeast Asian online employment website, operated by the Australian Stock Exchange-listed SEEK Limited.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://en.wikipedia.org/wiki/JobStreet",
+   "title": "Wikipedia: JobStreet",
+   "accessed": "2026-11-05",
+   "quote": "SEEK merged its APAC employment marketplaces - SEEK, Jobstreet and Jobsdb - into a single platform.",
+   "quote_check": "ok"
+  }
+ ]
+}

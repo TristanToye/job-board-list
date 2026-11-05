@@ -1,0 +1,55 @@
+{
+ "id": "bayt",
+ "name": "Bayt",
+ "url": "https://www.bayt.com",
+ "type": "board",
+ "hq_country": "AE",
+ "founded": "2000",
+ "markets": "MENA",
+ "countries_served": [
+  "AE",
+  "KW",
+  "JO",
+  "LB",
+  "EG",
+  "QA",
+  "SA",
+  "PK"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "ar"
+ ],
+ "region": "Middle East",
+ "niche": "general",
+ "parent": "",
+ "business_model": "subscription",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/bayt/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "listed_by",
+   "url": "https://en.wikipedia.org/wiki/BAYT.com",
+   "title": "BAYT.com",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q2892346",
+   "title": "Wikidata: bayt.com",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

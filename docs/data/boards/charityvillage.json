@@ -1,0 +1,58 @@
+{
+ "id": "charityvillage",
+ "name": "CharityVillage",
+ "url": "https://charityvillage.com",
+ "type": "niche-board",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "North America",
+ "niche": "nonprofit and charitable sector",
+ "parent": "",
+ "business_model": "pay per post and subscriptions",
+ "api_status": "none-known",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "Manual posting",
+  "Orbis cross-posting"
+ ],
+ "notes": "Postings cost CAD 298 for nonprofits and CAD 398 for for-profits. Volunteer postings are free. Job packs and 6 and 12 month unlimited subscriptions are offered. No API or feed page found. Operator not stated on pages read.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/charityvillage/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://charityvillage.com/",
+   "title": "CharityVillage homepage",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.charityvillage.com/products",
+   "title": "CharityVillage products and pricing",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.charityvillage.com/reach-next-generation-nonprofit-talent",
+   "title": "CharityVillage cross-posting",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}

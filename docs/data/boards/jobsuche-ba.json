@@ -1,0 +1,42 @@
+{
+ "id": "jobsuche-ba",
+ "name": "Jobsuche (Bundesagentur fur Arbeit)",
+ "url": "https://www.arbeitsagentur.de",
+ "type": "government",
+ "hq_country": "DE",
+ "founded": "",
+ "markets": "DE",
+ "countries_served": [
+  "DE"
+ ],
+ "primary_language": "de",
+ "languages_supported": [
+  "de",
+  "en"
+ ],
+ "region": "Europe",
+ "niche": "general",
+ "parent": "Federal Employment Agency",
+ "business_model": "free",
+ "api_status": "public-key",
+ "api_docs_url": "https://jobsuche.api.bund.dev",
+ "partner_program": "n/a",
+ "partner_url": "",
+ "ingest_methods": [
+  "REST API (public key)"
+ ],
+ "notes": "Community-documented; verify terms",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/jobsuche-ba/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.arbeitsagentur.de/jobsuche/",
+   "title": "Jobsuche der BA - Startseite",
+   "accessed": "2026-11-05",
+   "quote": "Berufsfeld auswählen und passende Angebote entdecken",
+   "quote_check": "ok"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "seek",
+ "name": "SEEK",
+ "url": "https://www.seek.com.au",
+ "type": "board",
+ "hq_country": "AU",
+ "founded": "1997",
+ "markets": "AU;NZ;SEA (JobStreet/Jobsdb);Brazil (Jobstreet); more",
+ "countries_served": [
+  "AU",
+  "NZ",
+  "CN",
+  "HK",
+  "ID",
+  "MY",
+  "PH",
+  "SG",
+  "TH",
+  "BD",
+  "VN"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "APAC",
+ "niche": "general",
+ "parent": "SEEK",
+ "business_model": "subscription",
+ "api_status": "partner-only",
+ "api_docs_url": "https://developer.seek.com",
+ "partner_program": "yes",
+ "partner_url": "https://developer.seek.com",
+ "ingest_methods": [
+  "Posting API (GraphQL)",
+  "Apply",
+  "ATS partners"
+ ],
+ "notes": "Open developer portal with ATS partner program",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/seek/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "listed_by",
+   "url": "https://en.wikipedia.org/wiki/Seek_Limited",
+   "title": "SEEK Limited",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/Seek_(company)",
+   "title": "Wikipedia: Seek (company)",
+   "accessed": "2026-11-05",
+   "quote": "SEEK Limited is an Australian employment website for job listings, headquartered in Melbourne, Victoria.",
+   "quote_check": "ok"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "connect-jobs",
+ "name": "Connect Nonprofit Jobs",
+ "url": "https://connectjobs.ca",
+ "type": "niche-board",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "North America",
+ "niche": "nonprofit sector (Ontario)",
+ "parent": "Ontario Nonprofit Network",
+ "business_model": "free for ONN members",
+ "api_status": "none-known",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "Manual posting"
+ ],
+ "notes": "Run by the Ontario Nonprofit Network. ONN members post for free, postings must disclose pay scales. Site address taken from a link on the ONN page and not fetched directly.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/connect-jobs/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://theonn.ca/connect-nonprofit-jobs/",
+   "title": "Connect Nonprofit Jobs (ONN)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "parent",
+   "url": "https://theonn.ca/about/",
+   "title": "Ontario Nonprofit Network about",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}

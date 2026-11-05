@@ -1,0 +1,75 @@
+{
+ "id": "jobillico",
+ "name": "Jobillico",
+ "url": "https://www.jobillico.com",
+ "type": "board",
+ "hq_country": "CA",
+ "founded": "2007",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "fr",
+ "languages_supported": [
+  "fr",
+  "en"
+ ],
+ "region": "North America",
+ "niche": "general",
+ "parent": "",
+ "business_model": "plan-based posting limits",
+ "api_status": "partner-only",
+ "api_docs_url": "https://www.jobillico.com/api/help/jobillico-api",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "XML push API",
+  "XML pull API"
+ ],
+ "notes": "API lets employer accounts automate job posting submissions and pull account data. Production access is granted by Jobillico on request. No partner or ATS program page found. Headquarters and parent company not stated on pages read. Primary language assumed from its Quebec base.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/jobillico/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "api_status",
+   "url": "https://www.jobillico.com/api/help/jobillico-api",
+   "title": "Jobillico API overview",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobillico.com/api/help/infos",
+   "title": "Jobillico API: info requests",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.jobillico.com/api/help/errors",
+   "title": "Jobillico API: error codes",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "relationship",
+   "url": "https://www.jobbank.gc.ca/network",
+   "title": "Job Bank network: boards that send jobs to Job Bank",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q25803795",
+   "title": "Wikidata: Jobillico",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

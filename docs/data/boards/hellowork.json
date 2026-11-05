@@ -1,0 +1,79 @@
+{
+ "id": "hellowork",
+ "name": "Hellowork",
+ "url": "https://www.hellowork.com",
+ "type": "board",
+ "hq_country": "",
+ "founded": "2022",
+ "markets": "",
+ "countries_served": [
+  "FR"
+ ],
+ "primary_language": "fr",
+ "languages_supported": [
+  "fr"
+ ],
+ "region": "Europe",
+ "niche": "general",
+ "parent": "Advenn",
+ "business_model": "free tier, subscription",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Footer reads Les sites du groupe Advenn; the Corporate section also lists Hellowork Group. Headquarters not stated. No language switcher on the homepage. The recruiter site advertises ATS-connected solutions and integrations; no API or XML feed named. Developer pages were not read.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/hellowork/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.hellowork.com/",
+   "title": "Hellowork homepage",
+   "accessed": "2026-11-05",
+   "quote": "Notre job, vous aider à choisir le vôtre parmi 798 224 offres",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.hellowork.com",
+   "title": "Homepage footer",
+   "accessed": "2026-11-05",
+   "quote": "Les sites du groupe Advenn",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://recruteur.hellowork.com/fr/",
+   "title": "Recruiter page",
+   "accessed": "2026-11-05",
+   "quote": "Diffusez jusqu'à 2 offres d'emploi gratuitement et recevez vos candidatures dans votre boîte mail.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://recruteur.hellowork.com/fr/",
+   "title": "Recruiter page",
+   "accessed": "2026-11-05",
+   "quote": "Diffusez jusqu'à 2 offres d'emploi gratuitement et recevez vos candidatures dans votre boîte mail.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://recruteur.hellowork.com/fr/",
+   "title": "Recruiter page",
+   "accessed": "2026-11-05",
+   "quote": "Des solutions connectées à votre ATS.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q131898727",
+   "title": "Wikidata: Hellowork",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

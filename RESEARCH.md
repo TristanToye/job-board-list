@@ -13,6 +13,11 @@ How the directory grows, country by country. The work queue is `data/countries.c
 
 Discovery and verification agents for many countries can run in parallel on a lower cost model. Ingest runs once per batch.
 
+## Other sources
+
+- **Wikidata** (CC0): `python3 scripts/fetch_wikidata.py` pulls employment websites with owner, founding year and country, then `python3 scripts/ingest.py` merges them. Its statements are machine generated, so they need no quote check and are labelled as a secondary source.
+- **Wikipedia** article pages: follow `research/briefs/wikipedia.md`. Run `python3 scripts/check_quotes.py` on the output (it fetches Wikipedia one page at a time) before ingest.
+
 ## What ingest enforces
 
 - A value is accepted only with a source. Strong claims (HQ, ownership, languages, pricing, API, partner program, ingest methods) need a source on the board's own domain with a quote of 30 words or fewer.
@@ -20,6 +25,10 @@ Discovery and verification agents for many countries can run in parallel on a lo
 - Verified fields are never overwritten. Disagreements go to `data/conflicts.csv` for review.
 - Rejected items are printed and boards or sites that could not be read go to `data/research_queue.csv`.
 - Text containing instructions to a model, brand names of AI tools, or em dashes is dropped or cleaned.
+
+## Indexing rule
+
+Only boards with a cited source and at least three substantive facts get an indexable page. The rest are marked noindex and left out of the sitemap, so thin pages do not dilute the site. List pages with fewer than three boards follow the same rule.
 
 ## Review
 

@@ -1,0 +1,40 @@
+{
+ "id": "google-jobs",
+ "name": "Google for Jobs",
+ "url": "https://developers.google.com/search/docs/appearance/structured-data/job-posting",
+ "type": "search-aggregator",
+ "hq_country": "US",
+ "founded": "",
+ "markets": "Global",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "general",
+ "parent": "Alphabet",
+ "business_model": "free",
+ "api_status": "public-open",
+ "api_docs_url": "https://developers.google.com/search/docs/appearance/structured-data/job-posting",
+ "partner_program": "n/a",
+ "partner_url": "",
+ "ingest_methods": [
+  "JobPosting schema.org markup",
+  "Indexing API"
+ ],
+ "notes": "No board; indexes structured data from employers/ATS/boards. Major distribution channel",
+ "confidence": "listed-only",
+ "page": "https://jobboardlist.com/boards/google-jobs/",
+ "indexable": false,
+ "sources": [
+  {
+   "field": "relationship",
+   "url": "https://www.jobbank.gc.ca/network",
+   "title": "Job Bank network: boards that send jobs to Job Bank",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}

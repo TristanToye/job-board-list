@@ -1,0 +1,61 @@
+{
+ "id": "stepstone",
+ "name": "StepStone",
+ "url": "https://www.stepstone.de",
+ "type": "board",
+ "hq_country": "DE",
+ "founded": "",
+ "markets": "DE;BE;NL;AT;FR",
+ "countries_served": [
+  "DE"
+ ],
+ "primary_language": "de",
+ "languages_supported": [
+  "de",
+  "en",
+  "fr",
+  "nl"
+ ],
+ "region": "Europe",
+ "niche": "general",
+ "parent": "The Stepstone Group",
+ "business_model": "per post, subscription",
+ "api_status": "partner-only",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "XML feed",
+  "partner API"
+ ],
+ "notes": "Footer reads The Stepstone Group GmbH. Employer prices are on a separate pricing page that was not read. Developer and partner pages were not read; the homepage links to Partner*in werden.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/stepstone/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.stepstone.de/",
+   "title": "StepStone homepage",
+   "accessed": "2026-11-05",
+   "quote": "Jobs sind unser Job: Die Jobbörse mit 150.000+ Jobs",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.stepstone.de/ueber-uns/",
+   "title": "About Stepstone",
+   "accessed": "2026-11-05",
+   "quote": "Stepstone, Teil von The Stepstone Group, ist eine führende Karriereplattform für Jobsuche und Online-Recruiting",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.stepstone.de/ueber-uns/",
+   "title": "About Stepstone",
+   "accessed": "2026-11-05",
+   "quote": "Stellenanzeigen (Pro, Pro Plus, Pro Ultimate, Pro Campus) und das Abo-Modell All Jobs",
+   "quote_check": "ok"
+  }
+ ]
+}

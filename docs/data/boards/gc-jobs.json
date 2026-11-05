@@ -1,0 +1,58 @@
+{
+ "id": "gc-jobs",
+ "name": "GC Jobs",
+ "url": "https://emploisfp-psjobs.cfp-psc.gc.ca",
+ "type": "government",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr"
+ ],
+ "region": "North America",
+ "niche": "federal public service",
+ "parent": "Public Service Commission of Canada",
+ "business_model": "public sector",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "Direct employer posting"
+ ],
+ "notes": "Federal public service job portal. Bilingual. No open data, API or partner program mentioned on the pages read.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/gc-jobs/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.canada.ca/en/services/jobs/opportunities/government.html",
+   "title": "Government of Canada jobs (Canada.ca)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "languages",
+   "url": "https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1710",
+   "title": "GC Jobs applicant page",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q5030226",
+   "title": "Wikidata: Job Bank",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

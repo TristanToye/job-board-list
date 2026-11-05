@@ -1,0 +1,47 @@
+{
+ "id": "simplyhired",
+ "name": "SimplyHired",
+ "url": "https://www.simplyhired.com",
+ "type": "aggregator",
+ "hq_country": "US",
+ "founded": "2003",
+ "markets": "US;CA;UK",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "North America",
+ "niche": "general",
+ "parent": "Recruit Holdings",
+ "business_model": "PPC",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Verify whether folded into Indeed",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/simplyhired/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/SimplyHired",
+   "title": "Wikipedia: SimplyHired",
+   "accessed": "2026-11-05",
+   "quote": "Simply Hired is an employment website for an online recruitment advertising network based in Sunnyvale, California.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://en.wikipedia.org/wiki/SimplyHired",
+   "title": "Wikipedia: SimplyHired",
+   "accessed": "2026-11-05",
+   "quote": "In 2016, Recruit Holdings Co., Ltd. purchased Simply Hired.",
+   "quote_check": "ok"
+  }
+ ]
+}

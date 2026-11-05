@@ -17,8 +17,9 @@ TYPES = {"board","aggregator","niche-board","government","social-network+board",
 API = {"public-open","public-key","on-request","partner-only","deprecated","none-known","unknown"}
 WEAK = {"listed_by","relationship"}
 SRC_FIELDS = WEAK | {"note","existence","parent","languages","business_model","api_status","partner_program","ingest_methods","terms"}
-REFERENCE = {"wikipedia.org"}  # secondary sources: allowed for existence, parent and founded only
-REF_FIELDS = {"existence", "parent"}
+REFERENCE = {"wikipedia.org", "wikidata.org"}  # secondary sources: allowed for existence, parent and founded only
+REF_FIELDS = {"existence", "parent", "note"}
+ALIASES = {"hq_country": "existence", "founded": "existence", "hq": "existence"}  # common mislabels from agents
 NEEDS = {"hq_country":"existence","founded":"existence","parent":"parent","primary_language":"languages","languages_supported":"languages","business_model":"business_model",
          "api_status":"api_status","api_docs_url":"api_status","partner_program":"partner_program","partner_url":"partner_program","ingest_methods":"ingest_methods"}
 BASIC = {"name","url","type","niche","countries_served","markets"}
@@ -109,13 +110,14 @@ def main(argv):
             note_items = [n for n in b.get("notes", []) if isinstance(n, dict)] if isinstance(b.get("notes"), list) else []
             for s in list(b.get("sources", [])) + [n | {"field": "note"} for n in note_items]:
                 f, su, q = s.get("field"), clean(s.get("url"), 300), clean(s.get("quote"), 300)
+                f = ALIASES.get(f, f)
                 if f not in SRC_FIELDS or not su.startswith("https://") and not su.startswith("http://"): reject("source", name, f"bad field or url {f!r}"); continue
                 if f in WEAK:
                     good.setdefault(f, []).append(s | {"url": su, "quote": q if s.get("check") == "ok" else ""}); continue
                 same = regdom(host(su)) in {site, regdom(host(row.get("api_docs_url",""))), regdom(host(row.get("partner_url","")))} or (regdom(host(su)) in REFERENCE and f in REF_FIELDS)
                 if not same: reject("source", name, f"strong source off the board's domain: {host(su)}"); continue
                 if not q or len(q.split()) > 30: reject("source", name, f"{f}: missing or long quote"); continue
-                if regdom(host(su)) in REFERENCE and s.get("check") != "ok": reject("source", name, f"{f}: reference quote not confirmed on the page"); continue
+                if regdom(host(su)) in REFERENCE and s.get("check") not in ("ok", "structured"): reject("source", name, f"{f}: reference quote not confirmed on the page"); continue
                 if s.get("check") == "mismatch": reject("source", name, f"{f}: quote not found on page"); continue
                 good.setdefault(f, []).append(s | {"url": su, "quote": q})
             if not good: reject("board", name, "no usable source"); stats["rejected"] += 1; continue

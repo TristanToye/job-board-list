@@ -1,0 +1,63 @@
+{
+ "id": "jobberman",
+ "name": "Jobberman",
+ "url": "https://www.jobberman.com",
+ "type": "board",
+ "hq_country": "NG",
+ "founded": "2009",
+ "markets": "NG;GH",
+ "countries_served": [
+  "NG"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "Africa",
+ "niche": "general",
+ "parent": "Ringier One Africa Media (ROAM Africa)",
+ "business_model": "subscription",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "secondary-sourced",
+ "page": "https://jobboardlist.com/boards/jobberman/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "listed_by",
+   "url": "https://en.wikipedia.org/wiki/Jobberman",
+   "title": "Jobberman",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://en.wikipedia.org/wiki/Jobberman",
+   "title": "Wikipedia: Jobberman",
+   "accessed": "2026-11-05",
+   "quote": "Jobberman is a career development and recruitment solutions company headquartered in Lagos, Nigeria.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://en.wikipedia.org/wiki/Jobberman",
+   "title": "Wikipedia: Jobberman",
+   "accessed": "2026-11-05",
+   "quote": "In 2015, One Africa Media acquired Jobberman.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.wikidata.org/wiki/Q65040683",
+   "title": "Wikidata: Jobberman",
+   "accessed": "2026-11-05",
+   "quote": "Wikidata: instance of employment website",
+   "quote_check": "structured"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "prospects",
+ "name": "Prospects",
+ "url": "https://www.prospects.ac.uk",
+ "type": "niche-board",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "UK"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Europe",
+ "niche": "graduates",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Part of Jisc; registered office in Bristol, England. Homepage shows prices from 370 pounds under employer advertising, model not stated. Employers page returned 404. No API or integration mention found on pages read.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/prospects/",
+ "indexable": false,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.prospects.ac.uk",
+   "title": "Prospects homepage",
+   "accessed": "2026-11-05",
+   "quote": "We guide millions of students to make the right choice.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.prospects.ac.uk",
+   "title": "Homepage footer",
+   "accessed": "2026-11-05",
+   "quote": "Prospects is part of Jisc",
+   "quote_check": "ok"
+  }
+ ]
+}

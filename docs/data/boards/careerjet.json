@@ -1,0 +1,58 @@
+{
+ "id": "careerjet",
+ "name": "Careerjet",
+ "url": "https://www.careerjet.com",
+ "type": "aggregator",
+ "hq_country": "FR",
+ "founded": "",
+ "markets": "60+ countries",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr",
+  "de",
+  "es",
+  "it",
+  "pt",
+  "nl",
+  "pl"
+ ],
+ "region": "Global",
+ "niche": "general",
+ "parent": "",
+ "business_model": "PPC",
+ "api_status": "public-key",
+ "api_docs_url": "https://www.careerjet.com/partners/api",
+ "partner_program": "yes",
+ "partner_url": "https://www.careerjet.com/partners",
+ "ingest_methods": [
+  "REST API (key)",
+  "XML feed",
+  "crawl"
+ ],
+ "notes": "Each publisher site needs its own API key, obtained from a Publisher account. Requests must include user_ip and user_agent. Approval requirements and rate limits are not stated on the API page.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/careerjet/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "api_status",
+   "url": "https://www.careerjet.com/partners/api",
+   "title": "Careerjet partner API",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "listed_by",
+   "url": "https://jobjunction.ca/national-job-boards/",
+   "title": "Job Junction: national job boards (third-party directory)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}

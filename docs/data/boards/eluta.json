@@ -1,0 +1,39 @@
+{
+ "id": "eluta",
+ "name": "Eluta",
+ "url": "https://www.eluta.ca",
+ "type": "aggregator",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
+ "region": "North America",
+ "niche": "general",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Homepage returned HTTP 503 on 2026-11-05. Job Junction describes it as a search engine that finds new job announcements from employers across Canada.",
+ "confidence": "listed-only",
+ "page": "https://jobboardlist.com/boards/eluta/",
+ "indexable": false,
+ "sources": [
+  {
+   "field": "listed_by",
+   "url": "https://jobjunction.ca/national-job-boards/",
+   "title": "Job Junction: national job boards (third-party directory)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}

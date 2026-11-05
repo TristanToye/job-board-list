@@ -1,0 +1,77 @@
+{
+ "id": "jobbank-ca",
+ "name": "Job Bank",
+ "url": "https://www.jobbank.gc.ca",
+ "type": "government",
+ "hq_country": "CA",
+ "founded": "",
+ "markets": "CA",
+ "countries_served": [
+  "CA"
+ ],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr"
+ ],
+ "region": "North America",
+ "niche": "general",
+ "parent": "Government of Canada",
+ "business_model": "free for employers and job seekers",
+ "api_status": "on-request",
+ "api_docs_url": "https://www.jobbank.gc.ca/network",
+ "partner_program": "yes",
+ "partner_url": "https://www.jobbank.gc.ca/network",
+ "ingest_methods": [
+  "Direct employer posting",
+  "XML feed (inbound from boards, on request)",
+  "XML feed (outbound to other sites, on request)",
+  "embeddable widgets"
+ ],
+ "notes": "Delivered by Employment and Social Development Canada. About page cites 55,000 jobs advertised per month and 371,000 registered employers. Terms of use prohibit scripts, robots and scrapers. Postings run 21 days. No public posting API is described. XML feed access is by request with eligibility criteria. The open data dataset on open.canada.ca has not been verified yet.",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/jobbank-ca/",
+ "indexable": true,
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.jobbank.gc.ca/aboutus",
+   "title": "Job Bank about us",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.jobbank.gc.ca/network",
+   "title": "Job Bank network: feeds and partners",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "terms",
+   "url": "https://www.jobbank.gc.ca/termsofuseemployer",
+   "title": "Job Bank terms of use for employers",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "terms",
+   "url": "https://www.jobbank.gc.ca/termsofuseseeker",
+   "title": "Job Bank terms of use for job seekers",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  },
+  {
+   "field": "listed_by",
+   "url": "https://jobjunction.ca/national-job-boards/",
+   "title": "Job Junction: national job boards (third-party directory)",
+   "accessed": "2026-11-05",
+   "quote": "",
+   "quote_check": ""
+  }
+ ]
+}
