@@ -1,0 +1,106 @@
+{
+ "mode": "verify",
+ "country": "AU",
+ "boards": [
+  {
+   "name": "Workforce Australia",
+   "url": "https://www.workforceaustralia.gov.au/",
+   "notes": "Pages read: homepage, /about (HTTP 404), /employers, /individuals. No language options, employer posting fees, API, or partner program found. Operating body and head office are not stated on the pages read.",
+   "sources": []
+  },
+  {
+   "name": "GradConnection (SEEK Grad)",
+   "url": "https://www.gradconnection.com/",
+   "notes": "No language switcher found on the homepage. Pages /employers/, /about-us/ and /pricing/ returned HTTP 404. No employer pricing, API, or partner info found on the pages read.",
+   "sources": []
+  },
+  {
+   "name": "ITJob.au",
+   "url": "https://www.itjob.au/",
+   "notes": "Employer pricing page lists plans but shows no prices on the page read. No language switcher, operator, API, or partner info found. Pages /about and /employers returned HTTP 404.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.itjob.au/pricing",
+     "title": "Employer pricing",
+     "quote": "Choose a plan to post jobs and access employer features.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.itjob.au/pricing",
+     "title": "Employer pricing",
+     "quote": "Job listings expire in 30 days",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Yakka",
+   "url": "https://www.yakkalabour.com.au/",
+   "business_model": "per post",
+   "api_status": "public-open",
+   "api_docs_url": "https://www.yakkalabour.com.au/developers/mcp/",
+   "notes": "Quick Posts are free. A full Post is $25 AUD and the first full Post is free. The MCP server covers worker search, skills, hiring guides and staffing requests, not job listings. Pages read: homepage, /developers/mcp/, /pricing/, footer links.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.yakkalabour.com.au/pricing/",
+     "title": "Employer pricing",
+     "quote": "Quick Posts are always free.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.yakkalabour.com.au/pricing/",
+     "title": "Employer pricing",
+     "quote": "A full Post is $25 and your first one is free.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.yakkalabour.com.au/pricing/",
+     "title": "Employer pricing",
+     "quote": "No subscriptions, no fee when you hire.",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.yakkalabour.com.au/developers/mcp/",
+     "title": "MCP server docs",
+     "quote": "None for the current tools",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.yakkalabour.com.au/developers/mcp/",
+     "title": "MCP server docs",
+     "quote": "only returns profile information that is already public on yakkalabour.com.au",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Pro Bono Australia Jobs",
+   "url": "https://www.probonoaustralia.com.au/",
+   "notes": "Homepage says the site offers job posts, bundles and banner ads, with posting details on a separate page that was not read. No prices, language options, API, or ATS partner program found. The partner page describes advertising partnerships through a media kit. The Shopify footer credit names the website platform, not the operator. /pages/pricing returned HTTP 404.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.probonoaustralia.com.au/",
+     "title": "Homepage",
+     "quote": "Reach passionate professionals who care about making a difference with job posts, bundles, and banner ads.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.probonoaustralia.com.au/pages/partner-with-us",
+     "title": "Partner with us",
+     "quote": "Download our comprehensive media kit to learn more about partnership opportunities.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": []
+}

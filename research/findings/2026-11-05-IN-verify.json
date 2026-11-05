@@ -1,0 +1,127 @@
+{
+ "mode": "verify",
+ "country": "IN",
+ "boards": [
+  {
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "hq_country": "IN",
+   "parent": "Ministry of Labour & Employment, Government of India",
+   "notes": "Jobseeker-side statement: no fee is charged at any stage of registration, job application or interview processing. Employer posting model is not stated. No language switcher found. No API or data feed for job listings described; a downloadable 'NCS Meta Data' file is linked. Head office is given as Shram Shakti Bhawan, New Delhi.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.ncs.gov.in",
+     "title": "Homepage",
+     "quote": "Website contents are managed by Ministry of Labour & Employment, Government of India.",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.ncs.gov.in",
+     "title": "Homepage",
+     "quote": "Shram Shakti Bhawan Rafi Marg, New Delhi-110001, India",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Apna",
+   "url": "https://www.apna.co",
+   "notes": "Copyright line names Apna. No language switcher, employer pricing, API, or partner program found on the homepage. Pages /employers and /pricing returned HTTP 404.",
+   "sources": []
+  },
+  {
+   "name": "Internshala",
+   "url": "https://internshala.com",
+   "business_model": "free",
+   "notes": "Employer banner states posting is free. The employer page links to 'Plans and Pricing', but the plans page returned HTTP 404 and no fee details were read. No language switcher, API, or partner program found. The homepage phrase 'Proud partner of leading government bodies' is a section heading, not a partner program.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://internshala.com",
+     "title": "Homepage employer banner",
+     "quote": "Post now for free",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://internshala.com/employer/",
+     "title": "Employer page",
+     "quote": "Post your internships and fresher jobs for free and attract qualified candidates",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jooble India",
+   "url": "https://in.jooble.org",
+   "ingest_methods": [
+    "XML feed",
+    "ATS integration"
+   ],
+   "api_status": "on-request",
+   "notes": "Jobs can be indexed from an XML feed after a request; the XML feed specifications are linked from the ATS page, but that link was not followed. Country selector in the footer shows India. No language switcher, employer pricing, or partner program found. Pages read: homepage, /ats, /info/about.",
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "https://in.jooble.org/ats",
+     "title": "ATS page",
+     "quote": "Send us a request to index your XML",
+     "check": "unreachable"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://in.jooble.org/ats",
+     "title": "ATS page",
+     "quote": "ATS connected to Jooble",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "iimjobs",
+   "url": "https://www.iimjobs.com",
+   "notes": "Copyright line names iimjobs.com. No language switcher, employer pricing, API, or partner program found on the homepage. Pages /employers and /pricing returned HTTP 404.",
+   "sources": []
+  },
+  {
+   "name": "Cutshort",
+   "url": "https://cutshort.io",
+   "business_model": "subscription",
+   "api_status": "public-key",
+   "notes": "Pricing page lists a Freedom plan priced by company size, with unlimited job postings included. An Assisted model charges 8.33% of CTC on a successful hire. API keys can be generated self-serve after account approval. Footer link 'Find engineering talent via API/MCP' points to a page; /api returned HTTP 404 so no API documentation URL was recorded. No language switcher or partner program found.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://cutshort.io/pricing",
+     "title": "Pricing",
+     "quote": "Just pay one fixed price depending on your company size.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://cutshort.io/pricing",
+     "title": "Pricing",
+     "quote": "Monthly₹30,000/mo",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://cutshort.io/pricing",
+     "title": "Pricing",
+     "quote": "In the Assisted model only, we charge 8.33% of the candidate's CTC upon a successful hire.",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://cutshort.io/pricing",
+     "title": "Pricing FAQ",
+     "quote": "You can generate eval API keys for free yourself after your account is approved.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": []
+}

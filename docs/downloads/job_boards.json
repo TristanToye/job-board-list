@@ -317,8 +317,8 @@
   "api_docs_url": "https://jooble.org/api/about",
   "partner_program": "yes",
   "partner_url": "https://jooble.org/api/about",
-  "ingest_methods": "REST API (key);XML feed;crawl",
-  "notes": "API key is obtained by submitting a request form (name, position, email, website, phone). Country coverage not yet verified.",
+  "ingest_methods": "REST API (key);XML feed;crawl;ATS integration",
+  "notes": "API key is obtained by submitting a request form (name, position, email, website, phone). Country coverage not yet verified. Jobs can be indexed from an XML feed after a request; the XML feed specifications are linked from the ATS page, but that link was not followed. Country selector in the footer shows India. No language switcher, employer pricing, or partner program found. Pages read: homepage, /ats, /info/about.",
   "confidence": "partially-verified"
  },
  {
@@ -2779,7 +2779,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Employer pricing page lists plans but shows no prices on the page read. No language switcher, operator, API, or partner info found. Pages /about and /employers returned HTTP 404.",
   "confidence": "partially-verified"
  },
  {
@@ -2796,13 +2796,13 @@
   "region": "APAC",
   "niche": "trades",
   "parent": "",
-  "business_model": "",
-  "api_status": "unknown",
-  "api_docs_url": "",
+  "business_model": "per post",
+  "api_status": "none-known",
+  "api_docs_url": "https://www.yakkalabour.com.au/developers/mcp/",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Quick Posts are free. A full Post is $25 AUD and the first full Post is free. Offers a public MCP server with no authentication, but it covers worker search, skills, hiring guides and staffing requests, not job listings, so no job data API was found.",
   "confidence": "partially-verified"
  },
  {
@@ -2825,7 +2825,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Homepage says the site offers job posts, bundles and banner ads, with posting details on a separate page that was not read. No prices, language options, API, or ATS partner program found. The partner page describes advertising partnerships through a media kit. The Shopify footer credit names the website platform, not the operator. /pages/pricing returned HTTP 404.",
   "confidence": "partially-verified"
  },
  {
@@ -2833,7 +2833,7 @@
   "name": "National Career Service",
   "url": "https://www.ncs.gov.in",
   "type": "government",
-  "hq_country": "",
+  "hq_country": "IN",
   "founded": "",
   "markets": "",
   "countries_served": "IN",
@@ -2841,14 +2841,14 @@
   "languages_supported": "",
   "region": "South Asia",
   "niche": "general",
-  "parent": "",
+  "parent": "Ministry of Labour & Employment, Government of India",
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Jobseeker-side statement: no fee is charged at any stage of registration, job application or interview processing. Employer posting model is not stated. No language switcher found. No API or data feed for job listings described; a downloadable 'NCS Meta Data' file is linked. Head office is given as Shram Shakti Bhawan, New Delhi.",
   "confidence": "partially-verified"
  },
  {
@@ -2865,13 +2865,13 @@
   "region": "South Asia",
   "niche": "graduates",
   "parent": "",
-  "business_model": "",
+  "business_model": "free",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Employer banner states posting is free. The employer page links to 'Plans and Pricing', but the plans page returned HTTP 404 and no fee details were read. No language switcher, API, or partner program found. The homepage phrase 'Proud partner of leading government bodies' is a section heading, not a partner program.",
   "confidence": "partially-verified"
  },
  {
@@ -2911,13 +2911,13 @@
   "region": "South Asia",
   "niche": "tech",
   "parent": "",
-  "business_model": "",
-  "api_status": "unknown",
+  "business_model": "subscription",
+  "api_status": "on-request",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Pricing page lists a Freedom plan priced by company size, with unlimited job postings included. An Assisted model charges 8.33% of CTC on a successful hire. Free evaluation API keys can be generated after the account is approved. Footer link 'Find engineering talent via API/MCP' points to a page; /api returned HTTP 404 so no API documentation URL was recorded. No language switcher or partner program found.",
   "confidence": "partially-verified"
  },
  {
