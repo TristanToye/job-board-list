@@ -35,10 +35,9 @@
       "name": "Dice",
       "url": "https://www.dice.com/",
       "business_model": "per post, subscription",
-      "parent": "DHI",
-      "notes": "Pricing page lists a Single Job Slot at $399 with the job slot active for 30 days, Starter at $549 to $649 per month, and Standard at $749 to $899 per month, with monthly or annual billing. Pricing is valid for new customers only. Developer page returned no content on fetch. No language options or API mention found on pages read.",
+      "notes": "Operated as a DHI service (parent DHI; country not stated). Pricing page lists a Single Job Slot at $399 with the job slot active for 30 days, Starter at $549 to $649 per month, and Standard at $749 to $899 per month, with monthly or annual billing. Pricing is valid for new customers only. Developer page returned no content on fetch. No language options or API mention found on pages read.",
       "sources": [
-        {"field": "parent", "url": "https://www.dice.com/about-us", "title": "Operating company statement", "quote": "Dice is a DHI service."},
+        {"field": "parent", "url": "https://www.dice.com/hiring/pricing", "title": "Employer pricing page", "quote": "Dice is a DHI service."},
         {"field": "business_model", "url": "https://www.dice.com/hiring/pricing", "title": "Employer pricing", "quote": "Job slot active for 30 days"},
         {"field": "business_model", "url": "https://www.dice.com/hiring/pricing", "title": "Employer pricing", "quote": "Billed month-to-month (no annual contract)"}
       ]
@@ -52,7 +51,7 @@
       "name": "Wellfound",
       "url": "https://wellfound.com/",
       "business_model": "free",
-      "notes": "Wellfound says it was spun out as AL Talent, Inc. and rebranded; it states that Wellfound and AngelList are separate companies. Headquarters not stated. Developer page has no API or partner program text. Pricing page and about page did not give language or API details; pricing page returned 404.",
+      "notes": "Wellfound says it was spun out as AL Talent, Inc. and rebranded; it states that Wellfound and AngelList are separate companies. Headquarters not stated. Developer page has no API or partner program text. Pricing page returned 404. No language options found.",
       "sources": [
         {"field": "business_model", "url": "https://wellfound.com/", "title": "Homepage pricing statement", "quote": "Unlimited jobs, unlimited applicants, and a built-in ATS are $0 forever."},
         {"field": "parent", "url": "https://wellfound.com/about", "title": "About page", "quote": "Wellfound and AngelList are separate companies."},
