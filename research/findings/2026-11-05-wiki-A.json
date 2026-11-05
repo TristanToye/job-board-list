@@ -1,0 +1,33 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [],
+  "blocked": [
+    {"name": "Indeed", "url": "https://www.indeed.com", "reason": "en.wikipedia.org API returned HTTP 429 on first request; retried once after 60 seconds, still HTTP 429. Run stopped per brief; no article fetched."},
+    {"name": "LinkedIn", "url": "https://www.linkedin.com/jobs", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Glassdoor", "url": "https://www.glassdoor.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "ZipRecruiter", "url": "https://www.ziprecruiter.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Monster", "url": "https://www.monster.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "CareerBuilder", "url": "https://www.careerbuilder.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "SimplyHired", "url": "https://www.simplyhired.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Dice", "url": "https://www.dice.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Reed", "url": "https://www.reed.co.uk", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Totaljobs", "url": "https://www.totaljobs.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "CV-Library", "url": "https://www.cv-library.co.uk", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "StepStone", "url": "https://www.stepstone.de", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "XING Jobs", "url": "https://www.xing.com/jobs", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "SEEK", "url": "https://www.seek.com.au", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "JobStreet", "url": "https://www.jobstreet.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Jobsdb", "url": "https://www.jobsdb.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Naukri", "url": "https://www.naukri.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "foundit", "url": "https://www.foundit.in", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Zhaopin", "url": "https://www.zhaopin.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "51job", "url": "https://www.51job.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "BOSS Zhipin", "url": "https://www.zhipin.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Rikunabi", "url": "https://www.rikunabi.com", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Mynavi", "url": "https://www.mynavi.jp", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Saramin", "url": "https://www.saramin.co.kr", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "JobKorea", "url": "https://www.jobkorea.co.kr", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."},
+    {"name": "Wanted", "url": "https://www.wanted.co.kr", "reason": "Not attempted: run stopped after rate limiting (HTTP 429 twice)."}
+  ]
+}
