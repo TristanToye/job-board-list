@@ -16,7 +16,7 @@ TODAY = datetime.date.today().isoformat()
 TYPES = {"board","aggregator","niche-board","government","social-network+board","programmatic-distribution","multiposting","feed-aggregator","directory","community","board+aggregator"}
 API = {"public-open","public-key","on-request","partner-only","deprecated","none-known","unknown"}
 WEAK = {"listed_by","relationship"}
-SRC_FIELDS = WEAK | {"existence","parent","languages","business_model","api_status","partner_program","ingest_methods","terms"}
+SRC_FIELDS = WEAK | {"note","existence","parent","languages","business_model","api_status","partner_program","ingest_methods","terms"}
 REFERENCE = {"wikipedia.org"}  # secondary sources: allowed for existence, parent and founded only
 REF_FIELDS = {"existence", "parent"}
 NEEDS = {"hq_country":"existence","founded":"existence","parent":"parent","primary_language":"languages","languages_supported":"languages","business_model":"business_model",
@@ -85,7 +85,7 @@ def main(argv):
     for fn in files:
         d = json.load(open(fn, encoding="utf-8")); cc = str(d.get("country", "")).upper().replace("GB", "UK")
         mode = d.get("mode")
-        if mode != "reference" and cc not in countries: print(f"{fn}: unknown country {cc!r}, skipped"); continue
+        if mode != "reference" and cc != "ZZ" and cc not in countries: print(f"{fn}: unknown country {cc!r}, skipped"); continue
         mode = d.get("mode")
         if mode not in ("discover", "verify", "reference"): print(f"{fn}: bad mode"); continue
         for q in d.get("blocked", []) + d.get("queue", []):
@@ -106,7 +106,8 @@ def main(argv):
                     api_status="unknown", partner_program="unknown", primary_language="")
             # accepted sources
             good = {}
-            for s in b.get("sources", []):
+            note_items = [n for n in b.get("notes", []) if isinstance(n, dict)] if isinstance(b.get("notes"), list) else []
+            for s in list(b.get("sources", [])) + [n | {"field": "note"} for n in note_items]:
                 f, su, q = s.get("field"), clean(s.get("url"), 300), clean(s.get("quote"), 300)
                 if f not in SRC_FIELDS or not su.startswith("https://") and not su.startswith("http://"): reject("source", name, f"bad field or url {f!r}"); continue
                 if f in WEAK:
@@ -159,7 +160,10 @@ def main(argv):
                     if not v.startswith("http"): continue
                 else: v = clean(v, 200)
                 setf(field, v)
-            if b.get("notes") and strong_ok: setf("notes", clean(b["notes"], 400)) if not row["notes"] else (row.__setitem__("notes", (row["notes"] + " " + clean(b["notes"], 300))[:800]) if clean(b["notes"],300) not in row["notes"] else None)
+            for ns in good.get("note", []):
+                txt = ('Wikipedia: "' if regdom(host(ns["url"])) in REFERENCE else 'Site says: "') + ns["quote"] + '"'
+                if txt not in row["notes"]: row["notes"] = (row["notes"] + " " + txt).strip()[:800]; changed += 1
+            if isinstance(b.get("notes"), str) and b.get("notes") and strong_ok: setf("notes", clean(b["notes"], 400)) if not row["notes"] else (row.__setitem__("notes", (row["notes"] + " " + clean(b["notes"], 300))[:800]) if clean(b["notes"],300) not in row["notes"] else None)
             if row["primary_language"] and row["primary_language"] not in row["languages_supported"].split(";"):
                 row["languages_supported"] = ";".join([row["primary_language"]] + [x for x in row["languages_supported"].split(";") if x])
             if mode == "discover" and cc not in row["countries_served"].split(";") and row.get("hq_country") != cc:

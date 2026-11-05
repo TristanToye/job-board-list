@@ -43,6 +43,8 @@ def main(files):
         for b in d.get("boards", []):
             for s in b.get("sources", []):
                 if s.get("field") not in ("listed_by", "relationship") and s.get("url"): jobs.append(s)
+            if isinstance(b.get("notes"), list):
+                jobs.extend(n for n in b["notes"] if isinstance(n, dict) and n.get("url") and n.get("quote"))
         with cf.ThreadPoolExecutor(6) as ex: res = list(ex.map(lambda s: check(s["url"], s.get("quote", ""), cache), jobs))
         for s, r in zip(jobs, res): s["check"] = r
         json.dump(d, open(fn, "w", encoding="utf-8"), indent=1, ensure_ascii=False)

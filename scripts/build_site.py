@@ -48,7 +48,7 @@ for _c in load("countries.csv"): COUNTRIES.setdefault(_c["code"], _c["name"])
 SOURCES = collections.defaultdict(list)
 for _s in load("sources.csv"): SOURCES[_s["board_id"]].append(_s)
 FIELD_LABEL = {"existence":"Existence and description","api_status":"API access","partner_program":"Partner program","ingest_methods":"How jobs get in",
- "business_model":"Business model and pricing","parent":"Ownership","languages":"Languages","terms":"Terms of use","relationship":"Relationships","listed_by":"Listed by a third-party directory"}
+ "business_model":"Business model and pricing","parent":"Ownership","languages":"Languages","terms":"Terms of use","relationship":"Relationships","listed_by":"Listed by a third-party directory","note":"Note"}
 LOGO_MANIFEST = json.loads((ROOT / "data" / "logos.json").read_text()) if (ROOT / "data" / "logos.json").exists() else {}
 def logo_info(b):
     m = LOGO_MANIFEST.get(b["id"]) or {}
