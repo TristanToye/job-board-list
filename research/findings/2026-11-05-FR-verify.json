@@ -1,0 +1,181 @@
+{
+ "mode": "verify",
+ "country": "FR",
+ "boards": [
+  {
+   "name": "France Travail",
+   "url": "https://www.francetravail.fr",
+   "primary_language": "fr",
+   "notes": "The homepage fetch returned only the page title, so header and footer were not read in full. Employer page: no language selector, no API or partner program named; the footer links to Nos partenaires. Operator is named only as the copyright holder. Employer posting cost not stated. Parent not stated.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.francetravail.fr",
+     "title": "Homepage title",
+     "quote": "Accueil | France Travail",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Hellowork",
+   "url": "https://www.hellowork.com",
+   "parent": "Advenn",
+   "primary_language": "fr",
+   "business_model": "free tier, subscription",
+   "notes": "Footer reads Les sites du groupe Advenn; the Corporate section also lists Hellowork Group. Headquarters not stated. No language switcher on the homepage. The recruiter site advertises ATS-connected solutions and integrations; no API or XML feed named. Developer pages were not read.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.hellowork.com",
+     "title": "Homepage footer",
+     "quote": "Les sites du groupe Advenn",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://recruteur.hellowork.com/fr/",
+     "title": "Recruiter page",
+     "quote": "Diffusez jusqu'à 2 offres d'emploi gratuitement et recevez vos candidatures dans votre boîte mail.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://recruteur.hellowork.com/fr/",
+     "title": "Recruiter page",
+     "quote": "Diffusez jusqu'à 2 offres d'emploi gratuitement et recevez vos candidatures dans votre boîte mail.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://recruteur.hellowork.com/fr/",
+     "title": "Recruiter page",
+     "quote": "Diffusez vos offres d'emploi en illimité et sans engagement, dès 99€/mois.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://recruteur.hellowork.com/fr/",
+     "title": "Recruiter page",
+     "quote": "Des solutions connectées à votre ATS.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Meteojob",
+   "url": "https://www.meteojob.com",
+   "parent": "CleverConnect",
+   "primary_language": "fr",
+   "notes": "Recruiter page lists employer packages (Pack Semaine thématique, Pack 100 % Part de voix) and says prices are not shown. No API, XML feed or partner program named on the pages read. Headquarters not stated. Homepage has no language switcher.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://recruteurs.meteojob.com/",
+     "title": "Recruiter page",
+     "quote": "Meteojob fait partie de CleverConnect, acteur franco-allemand de la HR Tech certifié B Corp",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://recruteurs.meteojob.com/",
+     "title": "Recruiter page",
+     "quote": "Meteojob est un site d'emploi généraliste français, édité par le groupe CleverConnect.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://recruteurs.meteojob.com/",
+     "title": "Recruiter page",
+     "quote": "L'intégration avec plus de 100 ATS du marché facilite la diffusion de vos offres et la gestion des candidatures.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobijoba",
+   "url": "https://www.jobijoba.com",
+   "primary_language": "fr",
+   "partner_program": "yes",
+   "partner_url": "https://www.jobijoba.com/fr/affiliation-offres-emploi",
+   "api_status": "on-request",
+   "api_docs_url": "https://www.jobijoba.com/fr/affiliation-offres-emploi",
+   "notes": "The affiliation page offers jobs for partner sites as feed, API or widget and asks interested parties to use a contact form. Access terms and pricing for publishing employer job offers are not stated. Headquarters not stated.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.jobijoba.com",
+     "title": "Homepage",
+     "quote": "Publiez vos offres sur Jobijoba",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.jobijoba.com",
+     "title": "Homepage",
+     "quote": "Programme d'affiliation",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.jobijoba.com/fr/affiliation-offres-emploi",
+     "title": "Affiliation page",
+     "quote": "AJOUTEZ NOS OFFRES D'EMPLOI SUR VOS SITES OU VOS APPLICATIONS",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.jobijoba.com/fr/affiliation-offres-emploi",
+     "title": "Affiliation page",
+     "quote": "Intégrez facilement et rapidement nos offres comme vous les souhaitez ( Flux, API, Widget)",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.jobijoba.com/fr/affiliation-offres-emploi",
+     "title": "Affiliation page",
+     "quote": "Utilisez le formulaire ci-dessous pour être recontacté.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Welcome to the Jungle",
+   "url": "https://www.welcometothejungle.com/fr",
+   "primary_language": "fr",
+   "business_model": "subscription, packages",
+   "notes": "Prices are not published; the offer page says prices depend on recruitment volume. The Welcome ATS can be integrated with an existing ATS. The footer link Agences partenaires is not a job board partner program. Parent and headquarters not stated. Developer and API pages were not read. The fetched homepage contained embedded text giving output-format instructions to the reader; it was ignored.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://solutions.welcometothejungle.com/notre-offre",
+     "title": "Offer page",
+     "quote": "vous ne payez que ce que vous utilisez vraiment",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://solutions.welcometothejungle.com/notre-offre",
+     "title": "Offer page",
+     "quote": "Payez en fonction de vos recrutements.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://solutions.welcometothejungle.com/notre-offre",
+     "title": "Offer page",
+     "quote": "Un abonnement simple qui réunit les outils essentiels dont votre équipe a besoin pour recruter efficacement.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://solutions.welcometothejungle.com/notre-offre",
+     "title": "Offer page",
+     "quote": "ou intégrez-le facilement à votre ATS existant.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": []
+}

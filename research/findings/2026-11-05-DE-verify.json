@@ -1,0 +1,164 @@
+{
+ "mode": "verify",
+ "country": "DE",
+ "boards": [
+  {
+   "name": "StepStone",
+   "url": "https://www.stepstone.de/",
+   "parent": "The Stepstone Group",
+   "business_model": "per post, subscription",
+   "notes": "Footer reads The Stepstone Group GmbH. Employer prices are on a separate pricing page that was not read. Developer and partner pages were not read; the homepage links to Partner*in werden.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.stepstone.de/ueber-uns/",
+     "title": "About Stepstone",
+     "quote": "Stepstone, Teil von The Stepstone Group, ist eine führende Karriereplattform für Jobsuche und Online-Recruiting",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.stepstone.de/ueber-uns/",
+     "title": "About Stepstone",
+     "quote": "Stellenanzeigen (Pro, Pro Plus, Pro Ultimate, Pro Campus) und das Abo-Modell All Jobs",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Bundesagentur für Arbeit Jobbörse",
+   "url": "https://www.arbeitsagentur.de/jobsuche/",
+   "notes": "The logo link reads zur Startseite der Bundesagentur für Arbeit, so the site is operated by the Bundesagentur für Arbeit. No language switcher was found on the fetched page. The /datenangebot page returned HTTP 404, so no API information was captured.",
+   "sources": []
+  },
+  {
+   "name": "LinkedIn Jobs",
+   "url": "https://www.linkedin.com/jobs/",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "ar",
+    "bn",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "es",
+    "fa",
+    "fi",
+    "fr",
+    "hi",
+    "hu",
+    "id",
+    "it",
+    "he",
+    "ja",
+    "ko",
+    "mr",
+    "ms",
+    "nl",
+    "no",
+    "pa",
+    "pl",
+    "pt",
+    "ro",
+    "ru",
+    "sv",
+    "te",
+    "th",
+    "tl",
+    "tr",
+    "uk",
+    "vi",
+    "zh"
+   ],
+   "notes": "The language switcher lists 36 entries; the two Chinese variants are mapped to zh, giving 35 codes. Footer shows LinkedIn © 2026 and an About link; parent not stated on the page. developer.linkedin.com lists APIs with Create app and Apply now buttons, but does not say whether a key is required. Its only job-related text is a link labelled Job Posting API Terms Of Use. No employer pricing shown.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.linkedin.com/jobs/",
+     "title": "Language switcher",
+     "quote": "English (English)",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "notes": "Footer names Jobware GmbH; no parent or headquarters stated on the pages read. No language switcher and no employer prices found. The employer page describes job ad products without prices and mentions a partner network of up to 532 partner platforms, a distribution network rather than a partner program for job boards. No API, XML feed or ATS integration mentioned on the pages read; developer pages were not read.",
+   "sources": []
+  },
+  {
+   "name": "kimeta",
+   "url": "https://www.kimeta.de/",
+   "business_model": "per post, monthly flatrate",
+   "notes": "Employer page lists prices excluding VAT, with flatrate terms of 1 or 3 months and up to 20 percent term discount. No API, XML feed, ATS integration or partner program mentioned on the employer page. Parent and headquarters not stated on the pages read; Impressum and Über uns were not read.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://sam.kimeta.de",
+     "title": "Employer product prices",
+     "quote": "Alle Preise zzgl. Mehrwertsteuer.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://sam.kimeta.de",
+     "title": "Employer product prices",
+     "quote": "Flatrate: ab 16,25 € monatlich pro Anzeige",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://sam.kimeta.de",
+     "title": "Employer product prices",
+     "quote": "Premium: ab 699 €",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Berlin Startup Jobs",
+   "url": "https://www.berlinstartupjobs.com/",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "de"
+   ],
+   "business_model": "per post",
+   "notes": "Parent not stated. A sister site for London is linked, and the relationship is not described. Developer, API and partner links on the homepage are skill-tag pages only. The basic package includes an email job alert listing and social posts.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.berlinstartupjobs.com/",
+     "title": "Homepage language switcher",
+     "quote": "Select Language",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://berlinstartupjobs.com/submit-a-job/",
+     "title": "Job post prices",
+     "quote": "STANDARD JOB POST: 120 € / 90 DAYS",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://berlinstartupjobs.com/submit-a-job/",
+     "title": "Job post prices",
+     "quote": "Prices excl. German VAT.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://berlinstartupjobs.com/submit-a-job/",
+     "title": "Job post prices",
+     "quote": "Receive up to 30% off when purchasing discounted job post packages in advance.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": []
+}
