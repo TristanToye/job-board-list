@@ -1,0 +1,193 @@
+{
+ "mode": "discover",
+ "country": "DE",
+ "boards": [
+  {
+   "name": "StepStone",
+   "url": "https://www.stepstone.de/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "DE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.stepstone.de/",
+     "title": "StepStone homepage",
+     "quote": "Jobs sind unser Job: Die Jobbörse mit 150.000+ Jobs",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Bundesagentur für Arbeit Jobbörse",
+   "url": "https://www.arbeitsagentur.de/jobsuche/",
+   "type": "government",
+   "niche": "government",
+   "countries_served": [
+    "DE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.arbeitsagentur.de/jobsuche/",
+     "title": "Jobsuche der BA - Startseite",
+     "quote": "Berufsfeld auswählen und passende Angebote entdecken",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "LinkedIn Jobs",
+   "url": "https://www.linkedin.com/jobs/",
+   "type": "social-network+board",
+   "niche": "general",
+   "countries_served": [
+    "DE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.linkedin.com/jobs/",
+     "title": "LinkedIn Job Search",
+     "quote": "Find the right job or internship for you",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "DE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobware.de/",
+     "title": "Jobs & Stellenangebote - Jobware",
+     "quote": "Finde passende Stellenangebote nach Beruf, Standort oder spezifischer Rolle.",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "kimeta",
+   "url": "https://www.kimeta.de/",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "DE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kimeta.de/",
+     "title": "Jobbörse von kimeta Stellenangebote - kimeta",
+     "quote": "Der Online Stellenmarkt kimeta.de bietet für jede Karriere die passende Arbeit",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Berlin Startup Jobs",
+   "url": "https://www.berlinstartupjobs.com/",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "DE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.berlinstartupjobs.com/",
+     "title": "Berlin Startup Jobs | IT Jobs, Marketing, Internships, Sales, HR, Freelance",
+     "quote": "BerlinStartupJobs is the leading platform for inspiring jobs in Europe's new startup capital.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Indeed Germany",
+   "url": "https://de.indeed.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Monster Germany",
+   "url": "https://www.monster.com/de/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Honeypot",
+   "url": "https://www.honeypot.io/",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "XING Jobs",
+   "url": "https://www.xing.com/jobs",
+   "reason": "Fetch failed: the tool could not retrieve the page (no HTTP status returned)"
+  },
+  {
+   "name": "Make it in Germany",
+   "url": "https://www.make-it-in-germany.com/",
+   "reason": "Returned a browser verification page instead of content"
+  },
+  {
+   "name": "absolventa",
+   "url": "https://www.absolventa.de/",
+   "reason": "Fetch refused by the tool (no HTTP status returned)"
+  },
+  {
+   "name": "stellenanzeigen.de",
+   "url": "https://www.stellenanzeigen.de/",
+   "reason": "Fetch refused by the tool (no HTTP status returned)"
+  }
+ ],
+ "queue": [
+  {
+   "name": "meinestadt.de jobs",
+   "url": "https://jobs.meinestadt.de/",
+   "reason": "Named in a roundup context but homepage not read: domain safety check rate-limited"
+  },
+  {
+   "name": "Jobbörse.de",
+   "url": "https://xn--jobbrse-d1a.de/",
+   "reason": "Named in a search result but homepage not read: domain safety check rate-limited"
+  },
+  {
+   "name": "stellenmarkt.de",
+   "url": "https://www.stellenmarkt.de/",
+   "reason": "Named in a search result but homepage not read: domain safety check rate-limited"
+  },
+  {
+   "name": "jobs.de",
+   "url": "https://www.jobs.de/",
+   "reason": "Named in a search result but homepage not read: domain safety check rate-limited"
+  },
+  {
+   "name": "Glassdoor Germany",
+   "url": "https://www.glassdoor.de/Job/index.htm",
+   "reason": "Named in a search result but homepage not read: domain safety check rate-limited"
+  },
+  {
+   "name": "academics.de",
+   "url": "https://www.academics.de/",
+   "reason": "Named in a search result but homepage not read: domain safety check rate-limited"
+  },
+  {
+   "name": "HeyJobs",
+   "url": "https://www.heyjobs.co/de-de",
+   "reason": "Named in a search result but homepage not read: domain safety check rate-limited"
+  },
+  {
+   "name": "heise jobs",
+   "url": "https://www.heise.de/jobs/",
+   "reason": "Named in a search result but homepage not read: domain safety check rate-limited"
+  }
+ ]
+}

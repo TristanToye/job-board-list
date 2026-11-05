@@ -1,0 +1,211 @@
+{
+ "mode": "discover",
+ "country": "IN",
+ "boards": [
+  {
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "IN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.ncs.gov.in/",
+     "title": "National Career Service homepage",
+     "quote": "Empowering India's workforce with careers, skills, mentorship, and training on one platform.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Apna",
+   "url": "https://www.apna.co",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "IN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.apna.co/",
+     "title": "Search Jobs Online | Hire Candidates | Post a Job | apna.co",
+     "quote": "INDIA'S #1 JOB PLATFORM",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Internshala",
+   "url": "https://internshala.com",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "IN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://internshala.com/",
+     "title": "Search Internships, Jobs, & Courses | Hire Candidates | Internshala",
+     "quote": "For fresher jobs, internships and courses",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jooble India",
+   "url": "https://in.jooble.org",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "IN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://in.jooble.org/",
+     "title": "Jobs in India - 37.000+ current vacancies - Jooble",
+     "quote": "More than 163000 vacancies across 1650 websites are available to you. Find your new job today.",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "iimjobs",
+   "url": "https://www.iimjobs.com",
+   "type": "niche-board",
+   "niche": "management",
+   "countries_served": [
+    "IN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.iimjobs.com/",
+     "title": "Management Job Vacancies | MBA Manager Jobs | iimjobs.com",
+     "quote": "Find premium job opportunities for you",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Cutshort",
+   "url": "https://cutshort.io",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "IN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://cutshort.io/",
+     "title": "Cutshort: Making Top Professionals More Successful.",
+     "quote": "Get discovered by right companies with the power of AI.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Hirist",
+   "url": "https://www.hirist.tech",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "IN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hirist.tech/",
+     "title": "Find Your Dream Tech Job at hirist.tech - India's #1 IT Job Portal",
+     "quote": "Find Your Dream Tech Job at hirist.tech - India's #1 IT Job Portal",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Naukri",
+   "url": "https://www.naukri.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Indeed India",
+   "url": "https://in.indeed.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Foundit",
+   "url": "https://www.foundit.in",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Instahyre",
+   "url": "https://www.instahyre.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Freshersworld",
+   "url": "https://www.freshersworld.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Glassdoor India",
+   "url": "https://www.glassdoor.co.in",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Adzuna India",
+   "url": "https://www.adzuna.in",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Careerjet India",
+   "url": "https://www.careerjet.co.in",
+   "reason": "Bot verification page returned instead of homepage"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Shine.com",
+   "url": "https://www.shine.com",
+   "reason": "Named in roundups; fetch failed on first attempt and safety check was rate-limited on retry"
+  },
+  {
+   "name": "TimesJobs",
+   "url": "https://www.timesjobs.com",
+   "reason": "Named in roundups; fetch failed on first attempt and safety check was rate-limited on retry"
+  },
+  {
+   "name": "JobsForHer",
+   "url": "https://www.jobsforher.com",
+   "reason": "HTTP 403 on first attempt; loaded page showed a site-down notice, homepage content not confirmed"
+  },
+  {
+   "name": "Sarkari Naukri",
+   "url": "https://www.sarkarinaukri.com",
+   "reason": "Named in roundups; homepage not read because safety check was rate-limited"
+  },
+  {
+   "name": "WorkIndia",
+   "url": "https://www.workindia.in",
+   "reason": "Named in roundups; homepage not read because safety check was rate-limited"
+  },
+  {
+   "name": "LinkedIn Jobs",
+   "url": "https://www.linkedin.com/jobs/",
+   "reason": "Homepage read but page title and content are US-focused; India coverage not confirmed on a page read"
+  },
+  {
+   "name": "Wellfound",
+   "url": "https://wellfound.com/jobs",
+   "reason": "Homepage read, startup and remote focus, but no India-specific statement on the page"
+  }
+ ]
+}

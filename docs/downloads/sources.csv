@@ -1,75 +1,116 @@
-board_id,field,url,title,accessed
-jobillico,api_status,https://www.jobillico.com/api/help/jobillico-api,Jobillico API overview,2026-11-05
-jobillico,ingest_methods,https://www.jobillico.com/api/help/infos,Jobillico API: info requests,2026-11-05
-jobillico,business_model,https://www.jobillico.com/api/help/errors,Jobillico API: error codes,2026-11-05
-jobs-ca,existence,https://www.jobs.ca/,Jobs.ca homepage,2026-11-05
-jobs-ca,parent,https://www.jobs.ca/about,Jobs.ca about,2026-11-05
-jobs-ca,ingest_methods,https://www.jobs.ca/hire/job-sync,Jobs.ca Job Sync,2026-11-05
-jobs-ca,business_model,https://www.jobs.ca/hire/pricing,Jobs.ca employer pricing,2026-11-05
-itjobs-ca,existence,https://www.itjobs.ca/,ITjobs.ca homepage,2026-11-05
-itjobs-ca,parent,https://www.itjobs.ca/about,ITjobs.ca about,2026-11-05
-itjobs-ca,business_model,https://www.itjobs.ca/hire/pricing,ITjobs.ca employer pricing,2026-11-05
-charityvillage,existence,https://charityvillage.com/,CharityVillage homepage,2026-11-05
-charityvillage,business_model,https://www.charityvillage.com/products,CharityVillage products and pricing,2026-11-05
-charityvillage,ingest_methods,https://www.charityvillage.com/reach-next-generation-nonprofit-talent,CharityVillage cross-posting,2026-11-05
-careers-indigenous-link,existence,https://careers.indigenous.link/,Careers.Indigenous.Link homepage,2026-11-05
-careers-indigenous-link,parent,https://careers.indigenous.link/about-us,Careers.Indigenous.Link about,2026-11-05
-careers-indigenous-link,business_model,https://careers.indigenous.link/products,Careers.Indigenous.Link products,2026-11-05
-connect-jobs,existence,https://theonn.ca/connect-nonprofit-jobs/,Connect Nonprofit Jobs (ONN),2026-11-05
-connect-jobs,parent,https://theonn.ca/about/,Ontario Nonprofit Network about,2026-11-05
-gc-jobs,existence,https://www.canada.ca/en/services/jobs/opportunities/government.html,Government of Canada jobs (Canada.ca),2026-11-05
-gc-jobs,languages,https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1710,GC Jobs applicant page,2026-11-05
-on-gojobs,existence,https://www.gojobs.gov.on.ca/,Ontario Public Service Careers,2026-11-05
-ab-goa-jobs,existence,https://www.alberta.ca/find-a-job,Alberta: Find a job,2026-11-05
-jobbank-ca,existence,https://www.jobbank.gc.ca/aboutus,Job Bank about us,2026-11-05
-jobbank-ca,partner_program,https://www.jobbank.gc.ca/network,Job Bank network: feeds and partners,2026-11-05
-jobbank-ca,terms,https://www.jobbank.gc.ca/termsofuseemployer,Job Bank terms of use for employers,2026-11-05
-jobbank-ca,terms,https://www.jobbank.gc.ca/termsofuseseeker,Job Bank terms of use for job seekers,2026-11-05
-talent-com,partner_program,https://www.talent.com/ats,Talent.com ATS partners,2026-11-05
-talent-com,existence,https://www.talent.com/enterprise,Talent.com for employers,2026-11-05
-adzuna,api_status,https://developer.adzuna.com/docs/terms_of_service,Adzuna API terms of service,2026-11-05
-adzuna,api_status,https://developer.adzuna.com/overview,Adzuna API overview,2026-11-05
-jooble,api_status,https://jooble.org/api/about,Jooble API,2026-11-05
-careerjet,api_status,https://www.careerjet.com/partners/api,Careerjet partner API,2026-11-05
-linkedin,partner_program,https://developer.linkedin.com/product-catalog/talent,LinkedIn API: Talent,2026-11-05
-indeed,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-linkedin,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-google-jobs,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-ziprecruiter,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-talent-com,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-jobillico,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-jobboom,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-careerbeacon,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-talentegg,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-agcareers,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-careersinfood,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-civicjobs,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-applytoeducation,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-jobsmedia,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-magnet,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05
-alis-alberta,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-best-jobs-canada,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-gaulin-media,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-media-job-search-canada,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-tesl-canada,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-wow-jobs,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-indigenous-careers,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-allstarjobs,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-canada-jobs,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-sirc-canadian-sport,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-education-canada,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-esl-cafe,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-goodwork-canada,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-iitjobs,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-jobshark,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-eluta,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-careerbuilder,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-dice,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-indeed,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-jobs-ca,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-careerjet,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-monster,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-workopolis,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-jobbank-ca,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-careerbeacon,parent,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
-careerbeacon,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05
+board_id,field,url,title,accessed,quote,quote_check
+jobillico,api_status,https://www.jobillico.com/api/help/jobillico-api,Jobillico API overview,2026-11-05,,
+jobillico,ingest_methods,https://www.jobillico.com/api/help/infos,Jobillico API: info requests,2026-11-05,,
+jobillico,business_model,https://www.jobillico.com/api/help/errors,Jobillico API: error codes,2026-11-05,,
+jobs-ca,existence,https://www.jobs.ca/,Jobs.ca homepage,2026-11-05,,
+jobs-ca,parent,https://www.jobs.ca/about,Jobs.ca about,2026-11-05,,
+jobs-ca,ingest_methods,https://www.jobs.ca/hire/job-sync,Jobs.ca Job Sync,2026-11-05,,
+jobs-ca,business_model,https://www.jobs.ca/hire/pricing,Jobs.ca employer pricing,2026-11-05,,
+itjobs-ca,existence,https://www.itjobs.ca/,ITjobs.ca homepage,2026-11-05,,
+itjobs-ca,parent,https://www.itjobs.ca/about,ITjobs.ca about,2026-11-05,,
+itjobs-ca,business_model,https://www.itjobs.ca/hire/pricing,ITjobs.ca employer pricing,2026-11-05,,
+charityvillage,existence,https://charityvillage.com/,CharityVillage homepage,2026-11-05,,
+charityvillage,business_model,https://www.charityvillage.com/products,CharityVillage products and pricing,2026-11-05,,
+charityvillage,ingest_methods,https://www.charityvillage.com/reach-next-generation-nonprofit-talent,CharityVillage cross-posting,2026-11-05,,
+careers-indigenous-link,existence,https://careers.indigenous.link/,Careers.Indigenous.Link homepage,2026-11-05,,
+careers-indigenous-link,parent,https://careers.indigenous.link/about-us,Careers.Indigenous.Link about,2026-11-05,,
+careers-indigenous-link,business_model,https://careers.indigenous.link/products,Careers.Indigenous.Link products,2026-11-05,,
+connect-jobs,existence,https://theonn.ca/connect-nonprofit-jobs/,Connect Nonprofit Jobs (ONN),2026-11-05,,
+connect-jobs,parent,https://theonn.ca/about/,Ontario Nonprofit Network about,2026-11-05,,
+gc-jobs,existence,https://www.canada.ca/en/services/jobs/opportunities/government.html,Government of Canada jobs (Canada.ca),2026-11-05,,
+gc-jobs,languages,https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1710,GC Jobs applicant page,2026-11-05,,
+on-gojobs,existence,https://www.gojobs.gov.on.ca/,Ontario Public Service Careers,2026-11-05,,
+ab-goa-jobs,existence,https://www.alberta.ca/find-a-job,Alberta: Find a job,2026-11-05,,
+jobbank-ca,existence,https://www.jobbank.gc.ca/aboutus,Job Bank about us,2026-11-05,,
+jobbank-ca,partner_program,https://www.jobbank.gc.ca/network,Job Bank network: feeds and partners,2026-11-05,,
+jobbank-ca,terms,https://www.jobbank.gc.ca/termsofuseemployer,Job Bank terms of use for employers,2026-11-05,,
+jobbank-ca,terms,https://www.jobbank.gc.ca/termsofuseseeker,Job Bank terms of use for job seekers,2026-11-05,,
+talent-com,partner_program,https://www.talent.com/ats,Talent.com ATS partners,2026-11-05,,
+talent-com,existence,https://www.talent.com/enterprise,Talent.com for employers,2026-11-05,,
+adzuna,api_status,https://developer.adzuna.com/docs/terms_of_service,Adzuna API terms of service,2026-11-05,,
+adzuna,api_status,https://developer.adzuna.com/overview,Adzuna API overview,2026-11-05,,
+jooble,api_status,https://jooble.org/api/about,Jooble API,2026-11-05,,
+careerjet,api_status,https://www.careerjet.com/partners/api,Careerjet partner API,2026-11-05,,
+linkedin,partner_program,https://developer.linkedin.com/product-catalog/talent,LinkedIn API: Talent,2026-11-05,,
+indeed,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+linkedin,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+google-jobs,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+ziprecruiter,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+talent-com,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+jobillico,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+jobboom,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+careerbeacon,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+talentegg,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+agcareers,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+careersinfood,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+civicjobs,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+applytoeducation,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+jobsmedia,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+magnet,relationship,https://www.jobbank.gc.ca/network,Job Bank network: boards that send jobs to Job Bank,2026-11-05,,
+alis-alberta,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+best-jobs-canada,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+gaulin-media,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+media-job-search-canada,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+tesl-canada,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+wow-jobs,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+indigenous-careers,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+allstarjobs,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+canada-jobs,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+sirc-canadian-sport,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+education-canada,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+esl-cafe,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+goodwork-canada,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+iitjobs,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+jobshark,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+eluta,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+careerbuilder,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+dice,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+indeed,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+jobs-ca,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+careerjet,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+monster,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+workopolis,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+jobbank-ca,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+careerbeacon,parent,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+careerbeacon,listed_by,https://jobjunction.ca/national-job-boards/,Job Junction: national job boards (third-party directory),2026-11-05,,
+linkedin,existence,https://www.linkedin.com/jobs/,LinkedIn Jobs homepage,2026-11-05,Millions of jobs and people hiring,ok
+usajobs,existence,https://www.usajobs.gov/Help/about/,About USAJOBS,2026-11-05,United States Office of Personnel Management website.,ok
+governmentjobs-com,existence,https://www.governmentjobs.com/,GovernmentJobs.com homepage,2026-11-05,Search thousands of government jobs and apply in minutes,ok
+dice,existence,https://www.dice.com/,Dice homepage,2026-11-05,"Dice gives you tools to instantly find and filter through jobs that match your skills, experience and career goals",ok
+built-in,existence,https://builtin.com/,Built In homepage,2026-11-05,"Built In provides the trusted signals that help companies and candidates be visible, trusted, and chosen.",ok
+wellfound,existence,https://wellfound.com/,Wellfound homepage,2026-11-05,Wellfound is the AI recruiting platform and talent marketplace for startups.,ok
+handshake,existence,https://joinhandshake.com/,Handshake homepage,2026-11-05,The career network for the AI economy,ok
+idealist,existence,https://www.idealist.org/,Idealist homepage,2026-11-05,"Connecting more than 200,000 organizations with millions of people looking for social-impact jobs and volunteer opportunities",ok
+snagajob,existence,https://www.snagajob.com/,Snagajob homepage,2026-11-05,"Find work you'll love, fast.",unreachable
+reed,existence,https://www.reed.co.uk,Reed.co.uk homepage,2026-11-05,"Jobs, careers, employment and recruitment at Reed.co.uk",ok
+cv-library,existence,https://www.cv-library.co.uk,CV-Library homepage,2026-11-05,CV-Library is one of the UK's favourite job boards,ok
+prospects,existence,https://www.prospects.ac.uk,Prospects homepage,2026-11-05,We guide millions of students to make the right choice.,ok
+niche-jobs,existence,https://www.nichejobs.co.uk,Niche Jobs homepage,2026-11-05,"Since 2008 we’ve designed, developed and hosted our own proprietary job board platform for our four healthcare and social",ok
+charityjob,existence,https://www.charityjob.co.uk,CharityJob homepage,2026-11-05,CharityJob helps you find opportunities.,ok
+find-an-apprenticeship,existence,https://www.findapprenticeship.service.gov.uk,Find an apprenticeship homepage,2026-11-05,Search apprenticeships,ok
+workforce-australia,existence,https://www.workforceaustralia.gov.au/,Workforce Australia for individuals,2026-11-05,Workforce Australia for individuals,ok
+gradconnection-seek-grad,existence,https://www.gradconnection.com/,Connect with SEEK Grad (formerly GradConnection),2026-11-05,Helping students and grads discover relevant employment opportunities and get ahead in their applications.,ok
+itjob-au,existence,https://www.itjob.au/,IT Jobs in Australia,2026-11-05,The IT job site made for IT professionals in Australia,ok
+yakka,existence,https://www.yakkalabour.com.au/,Labour Hire Sydney & Australia | Hire Workers Fast | Yakka,2026-11-05,Best-ranked app connecting workers with verified companies.,ok
+pro-bono-australia-jobs,existence,https://www.probonoaustralia.com.au/,"Pro Bono Australia: Find Ethical, Not-for-profit, Charity Jobs",2026-11-05,"Pro Bono Australia Jobs is the go-to jobs board for NFPs, social enterprises, and for-purpose organisations.",ok
+national-career-service,existence,https://www.ncs.gov.in/,National Career Service homepage,2026-11-05,"Empowering India's workforce with careers, skills, mentorship, and training on one platform.",ok
+apna,existence,https://www.apna.co/,Search Jobs Online | Hire Candidates | Post a Job | apna.co,2026-11-05,INDIA'S #1 JOB PLATFORM,ok
+internshala,existence,https://internshala.com/,"Search Internships, Jobs, & Courses | Hire Candidates | Internshala",2026-11-05,"For fresher jobs, internships and courses",ok
+jooble,existence,https://in.jooble.org/,Jobs in India - 37.000+ current vacancies - Jooble,2026-11-05,More than 163000 vacancies across 1650 websites are available to you. Find your new job today.,unreachable
+iimjobs,existence,https://www.iimjobs.com/,Management Job Vacancies | MBA Manager Jobs | iimjobs.com,2026-11-05,Find premium job opportunities for you,ok
+cutshort,existence,https://cutshort.io/,Cutshort: Making Top Professionals More Successful.,2026-11-05,Get discovered by right companies with the power of AI.,ok
+hirist,existence,https://www.hirist.tech/,Find Your Dream Tech Job at hirist.tech - India's #1 IT Job Portal,2026-11-05,Find Your Dream Tech Job at hirist.tech - India's #1 IT Job Portal,ok
+stepstone,existence,https://www.stepstone.de/,StepStone homepage,2026-11-05,Jobs sind unser Job: Die Jobbörse mit 150.000+ Jobs,ok
+jobsuche-ba,existence,https://www.arbeitsagentur.de/jobsuche/,Jobsuche der BA - Startseite,2026-11-05,Berufsfeld auswählen und passende Angebote entdecken,ok
+jobware,existence,https://www.jobware.de/,Jobs & Stellenangebote - Jobware,2026-11-05,"Finde passende Stellenangebote nach Beruf, Standort oder spezifischer Rolle.",unreachable
+kimeta,existence,https://www.kimeta.de/,Jobbörse von kimeta Stellenangebote - kimeta,2026-11-05,Der Online Stellenmarkt kimeta.de bietet für jede Karriere die passende Arbeit,ok
+berlin-startup-jobs,existence,https://www.berlinstartupjobs.com/,"Berlin Startup Jobs | IT Jobs, Marketing, Internships, Sales, HR, Freelance",2026-11-05,BerlinStartupJobs is the leading platform for inspiring jobs in Europe's new startup capital.,ok
+francetravail,listed_by,https://join.com/en/blog/best-job-sites-in-france,JOIN: Best job sites in France,2026-11-05,The public employment service (formerly Pôle Emploi).,
+hellowork,existence,https://www.hellowork.com/,Hellowork homepage,2026-11-05,"Notre job, vous aider à choisir le vôtre parmi 798 224 offres",ok
+jobijoba,existence,https://www.jobijoba.com/,Jobijoba homepage,2026-11-05,Consultez toutes nos offres d'emploi en France,ok
+welcome-to-the-jungle,existence,https://www.welcometothejungle.com/fr,Welcome to the Jungle (FR) homepage,2026-11-05,"Découvrez l’histoire, les équipes, la culture de plus de 6000 entreprises : et choisissez celle qui vous correspond vraiment.",ok
+staffsant,existence,https://www.staffsante.fr/,Staffsanté homepage,2026-11-05,Des décennies d'expérience à connecter les professionnels de santé avec les meilleurs employeurs.,ok
+jobteaser,existence,https://www.jobteaser.com/fr,JobTeaser (FR) homepage,2026-11-05,"JobTeaser, c'est l'espace carrière de plus de 800 écoles et universités européennes",ok
+studentjob-fr,existence,https://www.studentjob.fr/,StudentJob FR homepage,2026-11-05,Nous avons un grand choix d'offres d'emploi correspondantes à votre profil.,ok
+welovedevs,existence,https://welovedevs.com/,WeLoveDevs homepage,2026-11-05,WeLoveDevs.com is a job site for tech professionals seeking happiness at work.,ok
+experteer,existence,https://www.experteer.fr/,Experteer homepage,2026-11-05,Opportunités de carrière pour Managers et Dirigeants en France et en Europe.,ok

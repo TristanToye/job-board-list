@@ -1,0 +1,175 @@
+{
+ "mode": "discover",
+ "country": "AU",
+ "boards": [
+  {
+   "name": "Workforce Australia",
+   "url": "https://www.workforceaustralia.gov.au/",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "AU"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.workforceaustralia.gov.au/",
+     "title": "Workforce Australia for individuals",
+     "quote": "Workforce Australia for individuals",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "GradConnection (SEEK Grad)",
+   "url": "https://www.gradconnection.com/",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "AU"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.gradconnection.com/",
+     "title": "Connect with SEEK Grad (formerly GradConnection)",
+     "quote": "Helping students and grads discover relevant employment opportunities and get ahead in their applications.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "ITJob.au",
+   "url": "https://www.itjob.au/",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "AU"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.itjob.au/",
+     "title": "IT Jobs in Australia",
+     "quote": "The IT job site made for IT professionals in Australia",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Yakka",
+   "url": "https://www.yakkalabour.com.au/",
+   "type": "niche-board",
+   "niche": "trades",
+   "countries_served": [
+    "AU"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.yakkalabour.com.au/",
+     "title": "Labour Hire Sydney & Australia | Hire Workers Fast | Yakka",
+     "quote": "Best-ranked app connecting workers with verified companies.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Pro Bono Australia Jobs",
+   "url": "https://www.probonoaustralia.com.au/",
+   "type": "niche-board",
+   "niche": "nonprofit",
+   "countries_served": [
+    "AU"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.probonoaustralia.com.au/",
+     "title": "Pro Bono Australia: Find Ethical, Not-for-profit, Charity Jobs",
+     "quote": "Pro Bono Australia Jobs is the go-to jobs board for NFPs, social enterprises, and for-purpose organisations.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "SEEK",
+   "url": "https://www.seek.com.au/",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Jora (Australia)",
+   "url": "https://au.jora.com/",
+   "reason": "HTTP 403 after 301 redirect from jora.com"
+  },
+  {
+   "name": "Indeed Australia",
+   "url": "https://au.indeed.com/",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "CareerOne",
+   "url": "https://www.careerone.com.au/",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "MedicalJobsAustralia",
+   "url": "https://www.medicaljobsaustralia.com/",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Adzuna Australia",
+   "url": "https://www.adzuna.com.au/",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Careerjet Australia",
+   "url": "https://www.careerjet.com.au/",
+   "reason": "Returned a verification challenge page ('unusual traffic') instead of the board homepage"
+  },
+  {
+   "name": "Services Australia job hunting page",
+   "url": "https://www.servicesaustralia.gov.au/looking-for-work-and-job-hunting",
+   "reason": "HTTP 503 on two attempts"
+  }
+ ],
+ "queue": [
+  {
+   "name": "LinkedIn Jobs",
+   "url": "https://www.linkedin.com/jobs/",
+   "reason": "Homepage fetched but returned US-oriented content (title references US jobs); Australian presence not confirmed"
+  },
+  {
+   "name": "APS Jobs (Australian Public Service)",
+   "url": "https://www.apsjobs.gov.au/",
+   "reason": "Homepage loaded but no readable description text was available to quote"
+  },
+  {
+   "name": "Glassdoor Australia",
+   "url": "https://au.glassdoor.com/Job/index.htm",
+   "reason": "Named in search results; redirects to glassdoor.com.au, which was rate-limited before it could be read"
+  },
+  {
+   "name": "HealthTimes",
+   "url": "https://www.healthtimes.com.au/",
+   "reason": "Named in search results; homepage not read because the safety check was rate-limited"
+  },
+  {
+   "name": "AusDoc.JOBS",
+   "url": "https://www.ausdoc.jobs/",
+   "reason": "Named in search results; homepage not read because the safety check was rate-limited"
+  },
+  {
+   "name": "YourCareer (Australian Government youth careers)",
+   "url": "https://www.yourcareer.gov.au/",
+   "reason": "Named in search results; homepage not read because the safety check was rate-limited"
+  },
+  {
+   "name": "Jobs Victoria",
+   "url": "https://www.jobs.vic.gov.au/",
+   "reason": "Named in search results; homepage not read because the safety check was rate-limited"
+  }
+ ]
+}

@@ -22,3 +22,100 @@ Jobooh,,CA,board,BetaKit reports a startup job board expanding to Canada. Verify
 Workopolis ownership,https://en.wikipedia.org/wiki/Workopolis,CA,verification,Wikipedia search snippet says Indeed acquired it in June 2018. Read the page and the primary announcement before updating the Workopolis row.,2026-11-05
 Reddit thread on Canadian-owned boards,https://www.reddit.com/r/torontoJobs/comments/1jroae0/fully_canadianowned_job_boards_with_hq_founding/,CA,verification,"Reddit blocks automated fetch. Read it in a browser, then check every claimed owner, HQ and founding year on each board's own site.",2026-11-05
 Boards added from Job Junction,https://jobjunction.ca/national-job-boards/,CA,verification,"15 boards were added from a third-party directory. Check each on its own site for owner, HQ, languages, pricing and any API or feed.",2026-11-05
+Indeed,https://www.indeed.com/,US,verification,HTTP 403,2026-11-05
+CareerOneStop,https://www.careeronestop.org/,US,verification,HTTP 403,2026-11-05
+ZipRecruiter,https://www.ziprecruiter.com/,US,verification,HTTP 403,2026-11-05
+Monster,https://www.monster.com/,US,verification,HTTP 403,2026-11-05
+SimplyHired,https://www.simplyhired.com/,US,verification,HTTP 403,2026-11-05
+Glassdoor,https://www.glassdoor.com/,US,verification,HTTP 403,2026-11-05
+CareerBuilder,https://www.careerbuilder.com/,US,verification,HTTP 403,2026-11-05
+FlexJobs,https://www.flexjobs.com/,US,verification,HTTP 503,2026-11-05
+Adzuna,https://www.adzuna.com/,US,verification,Homepage not read: safety check rate-limited,2026-11-05
+Remotive,https://www.remotive.com/,US,verification,Homepage not read: safety check rate-limited,2026-11-05
+SchoolSpring,https://www.schoolspring.com/,US,verification,Homepage not read: safety check rate-limited,2026-11-05
+The Muse,https://www.themuse.com/,US,verification,Homepage not read: safety check rate-limited,2026-11-05
+K12JobSpot,https://www.k12jobspot.com/,US,verification,Homepage not read: safety check rate-limited,2026-11-05
+Craigslist jobs,https://www.craigslist.org/about/sites,US,verification,Homepage not read: safety check rate-limited,2026-11-05
+HigherEdJobs,https://www.higheredjobs.com/,US,verification,"Page returned empty content, no quote obtained",2026-11-05
+HealthECareers,https://www.healthecareers.com/,US,verification,"Fetch failed, page not read",2026-11-05
+Find a Job (DWP),https://findajob.dwp.gov.uk,UK,verification,HTTP 503,2026-11-05
+Adzuna UK,https://www.adzuna.co.uk,UK,verification,HTTP 403,2026-11-05
+Indeed UK,https://uk.indeed.com,UK,verification,HTTP 403,2026-11-05
+Totaljobs,https://www.totaljobs.com,UK,verification,HTTP 503,2026-11-05
+Jobsite,https://www.jobsite.co.uk,UK,verification,HTTP 503,2026-11-05
+CWJobs,https://www.cwjobs.co.uk,UK,verification,HTTP 503,2026-11-05
+Gradcracker,https://www.gradcracker.com,UK,verification,HTTP 403,2026-11-05
+Milkround,https://www.milkround.com,UK,verification,HTTP 503,2026-11-05
+NHS Jobs,https://www.jobs.nhs.uk,UK,verification,HTTP 403,2026-11-05
+Civil Service Jobs,https://www.civilservicejobs.service.gov.uk,UK,verification,Homepage returned a human-verification challenge page instead of content; not read,2026-11-05
+Jobs.ac.uk,https://www.jobs.ac.uk,UK,verification,Homepage returned empty content; not read,2026-11-05
+The Guardian Jobs,https://www.theguardian.com/jobs,UK,verification,Fetch tool error for this domain; homepage not read,2026-11-05
+Jora,https://www.jora.com,UK,verification,Redirects to au.jora.com (Australia); UK homepage not confirmed,2026-11-05
+Monster UK,https://www.monster.co.uk,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+Glassdoor UK,https://www.glassdoor.co.uk,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+Hays,https://www.hays.co.uk,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+Jobserve,https://www.jobserve.com,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+ZipRecruiter UK,https://www.ziprecruiter.co.uk,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+Technojobs,https://www.technojobs.co.uk,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+Escape the City,https://www.escapethecity.org,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+Careerjet UK,https://www.careerjet.co.uk,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+Talent.com UK,https://uk.talent.com,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+StepStone UK,https://www.stepstone.co.uk,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+Jooble UK,https://uk.jooble.org,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+SimplyHired UK,https://www.simplyhired.co.uk,UK,verification,Safety check rate-limited; homepage not read,2026-11-05
+JobLeads,,UK,verification,Named in a roundup but homepage not read,2026-11-05
+SEEK,https://www.seek.com.au/,AU,verification,HTTP 403 on two attempts,2026-11-05
+Jora (Australia),https://au.jora.com/,AU,verification,HTTP 403 after 301 redirect from jora.com,2026-11-05
+Indeed Australia,https://au.indeed.com/,AU,verification,HTTP 403 on two attempts,2026-11-05
+CareerOne,https://www.careerone.com.au/,AU,verification,HTTP 403 on two attempts,2026-11-05
+MedicalJobsAustralia,https://www.medicaljobsaustralia.com/,AU,verification,HTTP 403 on two attempts,2026-11-05
+Adzuna Australia,https://www.adzuna.com.au/,AU,verification,HTTP 403 on two attempts,2026-11-05
+Careerjet Australia,https://www.careerjet.com.au/,AU,verification,Returned a verification challenge page ('unusual traffic') instead of the board homepage,2026-11-05
+Services Australia job hunting page,https://www.servicesaustralia.gov.au/looking-for-work-and-job-hunting,AU,verification,HTTP 503 on two attempts,2026-11-05
+LinkedIn Jobs,https://www.linkedin.com/jobs/,AU,verification,Homepage fetched but returned US-oriented content (title references US jobs); Australian presence not confirmed,2026-11-05
+APS Jobs (Australian Public Service),https://www.apsjobs.gov.au/,AU,verification,Homepage loaded but no readable description text was available to quote,2026-11-05
+Glassdoor Australia,https://au.glassdoor.com/Job/index.htm,AU,verification,"Named in search results; redirects to glassdoor.com.au, which was rate-limited before it could be read",2026-11-05
+HealthTimes,https://www.healthtimes.com.au/,AU,verification,Named in search results; homepage not read because the safety check was rate-limited,2026-11-05
+AusDoc.JOBS,https://www.ausdoc.jobs/,AU,verification,Named in search results; homepage not read because the safety check was rate-limited,2026-11-05
+YourCareer (Australian Government youth careers),https://www.yourcareer.gov.au/,AU,verification,Named in search results; homepage not read because the safety check was rate-limited,2026-11-05
+Jobs Victoria,https://www.jobs.vic.gov.au/,AU,verification,Named in search results; homepage not read because the safety check was rate-limited,2026-11-05
+Naukri,https://www.naukri.com,IN,verification,HTTP 403,2026-11-05
+Indeed India,https://in.indeed.com,IN,verification,HTTP 403,2026-11-05
+Foundit,https://www.foundit.in,IN,verification,HTTP 403,2026-11-05
+Instahyre,https://www.instahyre.com,IN,verification,HTTP 403,2026-11-05
+Freshersworld,https://www.freshersworld.com,IN,verification,HTTP 403,2026-11-05
+Glassdoor India,https://www.glassdoor.co.in,IN,verification,HTTP 403,2026-11-05
+Adzuna India,https://www.adzuna.in,IN,verification,HTTP 403,2026-11-05
+Careerjet India,https://www.careerjet.co.in,IN,verification,Bot verification page returned instead of homepage,2026-11-05
+Shine.com,https://www.shine.com,IN,verification,Named in roundups; fetch failed on first attempt and safety check was rate-limited on retry,2026-11-05
+TimesJobs,https://www.timesjobs.com,IN,verification,Named in roundups; fetch failed on first attempt and safety check was rate-limited on retry,2026-11-05
+JobsForHer,https://www.jobsforher.com,IN,verification,"HTTP 403 on first attempt; loaded page showed a site-down notice, homepage content not confirmed",2026-11-05
+Sarkari Naukri,https://www.sarkarinaukri.com,IN,verification,Named in roundups; homepage not read because safety check was rate-limited,2026-11-05
+WorkIndia,https://www.workindia.in,IN,verification,Named in roundups; homepage not read because safety check was rate-limited,2026-11-05
+LinkedIn Jobs,https://www.linkedin.com/jobs/,IN,verification,Homepage read but page title and content are US-focused; India coverage not confirmed on a page read,2026-11-05
+Wellfound,https://wellfound.com/jobs,IN,verification,"Homepage read, startup and remote focus, but no India-specific statement on the page",2026-11-05
+Indeed Germany,https://de.indeed.com/,DE,verification,HTTP 403,2026-11-05
+Monster Germany,https://www.monster.com/de/,DE,verification,HTTP 403,2026-11-05
+Honeypot,https://www.honeypot.io/,DE,verification,HTTP 503,2026-11-05
+XING Jobs,https://www.xing.com/jobs,DE,verification,Fetch failed: the tool could not retrieve the page (no HTTP status returned),2026-11-05
+Make it in Germany,https://www.make-it-in-germany.com/,DE,verification,Returned a browser verification page instead of content,2026-11-05
+absolventa,https://www.absolventa.de/,DE,verification,Fetch refused by the tool (no HTTP status returned),2026-11-05
+stellenanzeigen.de,https://www.stellenanzeigen.de/,DE,verification,Fetch refused by the tool (no HTTP status returned),2026-11-05
+meinestadt.de jobs,https://jobs.meinestadt.de/,DE,verification,Named in a roundup context but homepage not read: domain safety check rate-limited,2026-11-05
+Jobbörse.de,https://xn--jobbrse-d1a.de/,DE,verification,Named in a search result but homepage not read: domain safety check rate-limited,2026-11-05
+stellenmarkt.de,https://www.stellenmarkt.de/,DE,verification,Named in a search result but homepage not read: domain safety check rate-limited,2026-11-05
+jobs.de,https://www.jobs.de/,DE,verification,Named in a search result but homepage not read: domain safety check rate-limited,2026-11-05
+Glassdoor Germany,https://www.glassdoor.de/Job/index.htm,DE,verification,Named in a search result but homepage not read: domain safety check rate-limited,2026-11-05
+academics.de,https://www.academics.de/,DE,verification,Named in a search result but homepage not read: domain safety check rate-limited,2026-11-05
+HeyJobs,https://www.heyjobs.co/de-de,DE,verification,Named in a search result but homepage not read: domain safety check rate-limited,2026-11-05
+heise jobs,https://www.heise.de/jobs/,DE,verification,Named in a search result but homepage not read: domain safety check rate-limited,2026-11-05
+Indeed France,https://fr.indeed.com,FR,verification,HTTP 403,2026-11-05
+APEC,https://www.apec.fr,FR,verification,HTTP 403,2026-11-05
+Monster France,https://www.monster.fr,FR,verification,"HTTP 403 (redirects to monster.com/fr, which also returned HTTP 403)",2026-11-05
+Malt,https://www.malt.fr,FR,verification,HTTP 403,2026-11-05
+Cadremploi,https://www.cadremploi.fr,FR,verification,Named in a JOIN roundup; homepage fetch hit a rate-limited safety check and was not read,2026-11-05
+LesJeudis,https://www.lesjeudis.com,FR,verification,Named in a JOIN roundup; homepage fetch hit a rate-limited safety check and was not read,2026-11-05
+Glassdoor France,https://www.glassdoor.fr,FR,verification,Named in a JOIN roundup; homepage fetch hit a rate-limited safety check and was not read,2026-11-05
+Le Figaro Emploi,https://emploi.lefigaro.fr,FR,verification,Named in a JOIN roundup; homepage fetch hit a rate-limited safety check and was not read,2026-11-05
+eFinancialCareers France,https://www.efinancialcareers.fr,FR,verification,Named in a roundup; homepage fetch hit a rate-limited safety check and was not read,2026-11-05
+Xpat Jobs,https://www.xpatjobs.com,FR,verification,Named in a JOIN roundup; homepage not read,2026-11-05

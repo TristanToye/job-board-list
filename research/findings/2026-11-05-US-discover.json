@@ -1,0 +1,252 @@
+{
+ "mode": "discover",
+ "country": "US",
+ "boards": [
+  {
+   "name": "LinkedIn Jobs",
+   "url": "https://www.linkedin.com/jobs/",
+   "type": "social-network+board",
+   "niche": "general",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.linkedin.com/jobs/",
+     "title": "LinkedIn Jobs homepage",
+     "quote": "Millions of jobs and people hiring",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "USAJOBS",
+   "url": "https://www.usajobs.gov/",
+   "type": "government",
+   "niche": "government",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.usajobs.gov/Help/about/",
+     "title": "About USAJOBS",
+     "quote": "United States Office of Personnel Management website.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "GovernmentJobs.com",
+   "url": "https://www.governmentjobs.com/",
+   "type": "government",
+   "niche": "government",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.governmentjobs.com/",
+     "title": "GovernmentJobs.com homepage",
+     "quote": "Search thousands of government jobs and apply in minutes",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Dice",
+   "url": "https://www.dice.com/",
+   "type": "board",
+   "niche": "tech",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.dice.com/",
+     "title": "Dice homepage",
+     "quote": "Dice gives you tools to instantly find and filter through jobs that match your skills, experience and career goals",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Built In",
+   "url": "https://builtin.com/",
+   "type": "board",
+   "niche": "tech",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://builtin.com/",
+     "title": "Built In homepage",
+     "quote": "Built In provides the trusted signals that help companies and candidates be visible, trusted, and chosen.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Wellfound",
+   "url": "https://wellfound.com/",
+   "type": "board",
+   "niche": "tech",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://wellfound.com/",
+     "title": "Wellfound homepage",
+     "quote": "Wellfound is the AI recruiting platform and talent marketplace for startups.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Handshake",
+   "url": "https://joinhandshake.com/",
+   "type": "board",
+   "niche": "graduates",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://joinhandshake.com/",
+     "title": "Handshake homepage",
+     "quote": "The career network for the AI economy",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Idealist",
+   "url": "https://www.idealist.org/",
+   "type": "board",
+   "niche": "nonprofit",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.idealist.org/",
+     "title": "Idealist homepage",
+     "quote": "Connecting more than 200,000 organizations with millions of people looking for social-impact jobs and volunteer opportunities",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Snagajob",
+   "url": "https://www.snagajob.com/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.snagajob.com/",
+     "title": "Snagajob homepage",
+     "quote": "Find work you'll love, fast.",
+     "check": "unreachable"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Indeed",
+   "url": "https://www.indeed.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "CareerOneStop",
+   "url": "https://www.careeronestop.org/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "ZipRecruiter",
+   "url": "https://www.ziprecruiter.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Monster",
+   "url": "https://www.monster.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "SimplyHired",
+   "url": "https://www.simplyhired.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Glassdoor",
+   "url": "https://www.glassdoor.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "CareerBuilder",
+   "url": "https://www.careerbuilder.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "FlexJobs",
+   "url": "https://www.flexjobs.com/",
+   "reason": "HTTP 503"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Adzuna",
+   "url": "https://www.adzuna.com/",
+   "reason": "Homepage not read: safety check rate-limited"
+  },
+  {
+   "name": "Remotive",
+   "url": "https://www.remotive.com/",
+   "reason": "Homepage not read: safety check rate-limited"
+  },
+  {
+   "name": "SchoolSpring",
+   "url": "https://www.schoolspring.com/",
+   "reason": "Homepage not read: safety check rate-limited"
+  },
+  {
+   "name": "The Muse",
+   "url": "https://www.themuse.com/",
+   "reason": "Homepage not read: safety check rate-limited"
+  },
+  {
+   "name": "K12JobSpot",
+   "url": "https://www.k12jobspot.com/",
+   "reason": "Homepage not read: safety check rate-limited"
+  },
+  {
+   "name": "Craigslist jobs",
+   "url": "https://www.craigslist.org/about/sites",
+   "reason": "Homepage not read: safety check rate-limited"
+  },
+  {
+   "name": "HigherEdJobs",
+   "url": "https://www.higheredjobs.com/",
+   "reason": "Page returned empty content, no quote obtained"
+  },
+  {
+   "name": "HealthECareers",
+   "url": "https://www.healthecareers.com/",
+   "reason": "Fetch failed, page not read"
+  }
+ ]
+}

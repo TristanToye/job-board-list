@@ -16,11 +16,10 @@ for r in boards:
     if r["api_status"] not in API: print(f"board {r['id']}: bad api_status {r['api_status']!r}"); bad += 1
 import re
 for r in boards:
-    codes = [r["primary_language"]] + [x for x in r["languages_supported"].split(";") if x]
-    if not r["primary_language"]: print(f"board {r['id']}: missing primary_language"); bad += 1
+    codes = [x for x in [r["primary_language"]] + r["languages_supported"].split(";") if x]
     for cd in codes:
         if not re.fullmatch(r"[a-z]{2,3}", cd): print(f"board {r['id']}: bad language code {cd!r}"); bad += 1
-    if r["languages_supported"] and r["primary_language"] not in r["languages_supported"].split(";"):
+    if r["languages_supported"] and r["primary_language"] and r["primary_language"] not in r["languages_supported"].split(";"):
         print(f"board {r['id']}: primary language not in languages_supported"); bad += 1
 src = load("sources.csv"); ids = {r["id"] for r in boards}
 for x in src:

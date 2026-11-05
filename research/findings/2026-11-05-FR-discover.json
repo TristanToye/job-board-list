@@ -1,0 +1,257 @@
+{
+ "mode": "discover",
+ "country": "FR",
+ "boards": [
+  {
+   "name": "France Travail",
+   "url": "https://www.francetravail.fr",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "listed_by",
+     "url": "https://join.com/en/blog/best-job-sites-in-france",
+     "title": "JOIN: Best job sites in France",
+     "quote": "The public employment service (formerly Pôle Emploi)."
+    }
+   ]
+  },
+  {
+   "name": "Hellowork",
+   "url": "https://www.hellowork.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hellowork.com/",
+     "title": "Hellowork homepage",
+     "quote": "Notre job, vous aider à choisir le vôtre parmi 798 224 offres",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Meteojob",
+   "url": "https://www.meteojob.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.meteojob.com/",
+     "title": "Meteojob homepage",
+     "quote": "Emploi et recrutement en ligne - Meteojob: offres d'emploi et dépôt de CV",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "LinkedIn Jobs",
+   "url": "https://www.linkedin.com/jobs/",
+   "type": "social-network+board",
+   "niche": "general",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.linkedin.com/jobs/",
+     "title": "LinkedIn Jobs page",
+     "quote": "Millions of jobs and people hiring",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobijoba",
+   "url": "https://www.jobijoba.com",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobijoba.com/",
+     "title": "Jobijoba homepage",
+     "quote": "Consultez toutes nos offres d'emploi en France",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Welcome to the Jungle",
+   "url": "https://www.welcometothejungle.com/fr",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.welcometothejungle.com/fr",
+     "title": "Welcome to the Jungle (FR) homepage",
+     "quote": "Découvrez l’histoire, les équipes, la culture de plus de 6000 entreprises : et choisissez celle qui vous correspond vraiment.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Staffsanté",
+   "url": "https://www.staffsante.fr",
+   "type": "niche-board",
+   "niche": "healthcare",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.staffsante.fr/",
+     "title": "Staffsanté homepage",
+     "quote": "Des décennies d'expérience à connecter les professionnels de santé avec les meilleurs employeurs.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "JobTeaser",
+   "url": "https://www.jobteaser.com/fr",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobteaser.com/fr",
+     "title": "JobTeaser (FR) homepage",
+     "quote": "JobTeaser, c'est l'espace carrière de plus de 800 écoles et universités européennes",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "StudentJob FR",
+   "url": "https://www.studentjob.fr",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.studentjob.fr/",
+     "title": "StudentJob FR homepage",
+     "quote": "Nous avons un grand choix d'offres d'emploi correspondantes à votre profil.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "WeLoveDevs",
+   "url": "https://welovedevs.com",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://welovedevs.com/",
+     "title": "WeLoveDevs homepage",
+     "quote": "WeLoveDevs.com is a job site for tech professionals seeking happiness at work.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Experteer",
+   "url": "https://www.experteer.fr",
+   "type": "niche-board",
+   "niche": "executive",
+   "countries_served": [
+    "FR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.experteer.fr/",
+     "title": "Experteer homepage",
+     "quote": "Opportunités de carrière pour Managers et Dirigeants en France et en Europe.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Indeed France",
+   "url": "https://fr.indeed.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "APEC",
+   "url": "https://www.apec.fr",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Monster France",
+   "url": "https://www.monster.fr",
+   "reason": "HTTP 403 (redirects to monster.com/fr, which also returned HTTP 403)"
+  },
+  {
+   "name": "Malt",
+   "url": "https://www.malt.fr",
+   "reason": "HTTP 403"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Cadremploi",
+   "url": "https://www.cadremploi.fr",
+   "reason": "Named in a JOIN roundup; homepage fetch hit a rate-limited safety check and was not read"
+  },
+  {
+   "name": "LesJeudis",
+   "url": "https://www.lesjeudis.com",
+   "reason": "Named in a JOIN roundup; homepage fetch hit a rate-limited safety check and was not read"
+  },
+  {
+   "name": "Glassdoor France",
+   "url": "https://www.glassdoor.fr",
+   "reason": "Named in a JOIN roundup; homepage fetch hit a rate-limited safety check and was not read"
+  },
+  {
+   "name": "Le Figaro Emploi",
+   "url": "https://emploi.lefigaro.fr",
+   "reason": "Named in a JOIN roundup; homepage fetch hit a rate-limited safety check and was not read"
+  },
+  {
+   "name": "eFinancialCareers France",
+   "url": "https://www.efinancialcareers.fr",
+   "reason": "Named in a roundup; homepage fetch hit a rate-limited safety check and was not read"
+  },
+  {
+   "name": "Xpat Jobs",
+   "url": "https://www.xpatjobs.com",
+   "reason": "Named in a JOIN roundup; homepage not read"
+  }
+ ]
+}

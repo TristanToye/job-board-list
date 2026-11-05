@@ -38,7 +38,7 @@ def regdom(h):
     if len(p) >= 3 and p[-1] and len(p[-1]) == 2 and p[-2] in {"co","com","gov","org","ne","ac","edu"}: return ".".join(p[-3:])
     return ".".join(p[-2:])
 def clean(s, n=400):
-    s = str(s or "").replace("—", ", ").replace("–", "-").replace("\n", " ").strip()
+    s = str(s or "").replace(chr(0x2014), ", ").replace(chr(0x2013), "-").replace("\n", " ").strip()
     return s[:n]
 BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]  # brand names of AI tools must never enter the data
 def bad_text(s): return bool(re.search("|".join(BLOCKED_WORDS), s or "", re.I))
@@ -72,8 +72,8 @@ def main(argv):
     files = [a for a in args if a.endswith(".json")]
     boards = load("job_boards.csv"); cols = list(boards[0].keys()); by = {r["id"]: r for r in boards}
     byhost = {regdom(host(r["url"])): r for r in boards if r["url"]}
-    srcs = load("sources.csv"); scols = ["board_id","field","url","title","accessed","quote"]
-    for s in srcs: s.setdefault("quote", "")
+    srcs = load("sources.csv"); scols = ["board_id","field","url","title","accessed","quote","quote_check"]
+    for s in srcs: s.setdefault("quote", ""); s.setdefault("quote_check", "")
     seen_src = {(s["board_id"], s["field"], s["url"]) for s in srcs}
     strongfields = collections.defaultdict(set)
     for s in srcs:
@@ -110,6 +110,7 @@ def main(argv):
                 same = regdom(host(su)) in {site, regdom(host(row.get("api_docs_url",""))), regdom(host(row.get("partner_url","")))}
                 if not same: reject("source", name, f"strong source off the board's domain: {host(su)}"); continue
                 if not q or len(q.split()) > 30: reject("source", name, f"{f}: missing or long quote"); continue
+                if s.get("check") == "mismatch": reject("source", name, f"{f}: quote not found on page"); continue
                 good.setdefault(f, []).append(s | {"url": su, "quote": q})
             if not good: reject("board", name, "no usable source"); stats["rejected"] += 1; continue
             strong_ok = {f for f in good if f not in WEAK}
@@ -159,7 +160,7 @@ def main(argv):
                 for s in lst:
                     key = (row["id"], f, s["url"])
                     if key in seen_src: continue
-                    seen_src.add(key); srcs.append({"board_id": row["id"], "field": f, "url": s["url"], "title": clean(s.get("title"), 120), "accessed": TODAY, "quote": s["quote"]})
+                    seen_src.add(key); srcs.append({"board_id": row["id"], "field": f, "url": s["url"], "title": clean(s.get("title"), 120), "accessed": TODAY, "quote": s["quote"], "quote_check": s.get("check", "")})
                     if f not in WEAK: strongfields[row["id"]].add(f)
             if new: boards.append(row); by[row["id"]] = row; byhost[site] = row; stats["added"] += 1
             else: stats["merged"] += 1

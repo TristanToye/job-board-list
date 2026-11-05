@@ -1,0 +1,266 @@
+{
+ "mode": "discover",
+ "country": "UK",
+ "boards": [
+  {
+   "name": "Reed",
+   "url": "https://www.reed.co.uk",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "UK"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.reed.co.uk",
+     "title": "Reed.co.uk homepage",
+     "quote": "Jobs, careers, employment and recruitment at Reed.co.uk",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CV-Library",
+   "url": "https://www.cv-library.co.uk",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "UK"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.cv-library.co.uk",
+     "title": "CV-Library homepage",
+     "quote": "CV-Library is one of the UK's favourite job boards",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "LinkedIn Jobs",
+   "url": "https://www.linkedin.com/jobs/",
+   "type": "social-network+board",
+   "niche": "general",
+   "countries_served": [
+    "UK"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.linkedin.com/jobs/",
+     "title": "LinkedIn Jobs page",
+     "quote": "Anyone looking to navigate their professional life.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "UK"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.prospects.ac.uk",
+     "title": "Prospects homepage",
+     "quote": "We guide millions of students to make the right choice.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Niche Jobs",
+   "url": "https://www.nichejobs.co.uk",
+   "type": "niche-board",
+   "niche": "healthcare",
+   "countries_served": [
+    "UK"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.nichejobs.co.uk",
+     "title": "Niche Jobs homepage",
+     "quote": "Since 2008 we’ve designed, developed and hosted our own proprietary job board platform for our four healthcare and social",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CharityJob",
+   "url": "https://www.charityjob.co.uk",
+   "type": "niche-board",
+   "niche": "nonprofit",
+   "countries_served": [
+    "UK"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.charityjob.co.uk",
+     "title": "CharityJob homepage",
+     "quote": "CharityJob helps you find opportunities.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Find an Apprenticeship",
+   "url": "https://www.findapprenticeship.service.gov.uk",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "UK"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.findapprenticeship.service.gov.uk",
+     "title": "Find an apprenticeship homepage",
+     "quote": "Search apprenticeships",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Find a Job (DWP)",
+   "url": "https://findajob.dwp.gov.uk",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Adzuna UK",
+   "url": "https://www.adzuna.co.uk",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Indeed UK",
+   "url": "https://uk.indeed.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Totaljobs",
+   "url": "https://www.totaljobs.com",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Jobsite",
+   "url": "https://www.jobsite.co.uk",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "CWJobs",
+   "url": "https://www.cwjobs.co.uk",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Gradcracker",
+   "url": "https://www.gradcracker.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Milkround",
+   "url": "https://www.milkround.com",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "NHS Jobs",
+   "url": "https://www.jobs.nhs.uk",
+   "reason": "HTTP 403"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Civil Service Jobs",
+   "url": "https://www.civilservicejobs.service.gov.uk",
+   "reason": "Homepage returned a human-verification challenge page instead of content; not read"
+  },
+  {
+   "name": "Jobs.ac.uk",
+   "url": "https://www.jobs.ac.uk",
+   "reason": "Homepage returned empty content; not read"
+  },
+  {
+   "name": "The Guardian Jobs",
+   "url": "https://www.theguardian.com/jobs",
+   "reason": "Fetch tool error for this domain; homepage not read"
+  },
+  {
+   "name": "Jora",
+   "url": "https://www.jora.com",
+   "reason": "Redirects to au.jora.com (Australia); UK homepage not confirmed"
+  },
+  {
+   "name": "Monster UK",
+   "url": "https://www.monster.co.uk",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "Glassdoor UK",
+   "url": "https://www.glassdoor.co.uk",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "Hays",
+   "url": "https://www.hays.co.uk",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "Jobserve",
+   "url": "https://www.jobserve.com",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "ZipRecruiter UK",
+   "url": "https://www.ziprecruiter.co.uk",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "Technojobs",
+   "url": "https://www.technojobs.co.uk",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "Escape the City",
+   "url": "https://www.escapethecity.org",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "Careerjet UK",
+   "url": "https://www.careerjet.co.uk",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "Talent.com UK",
+   "url": "https://uk.talent.com",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "StepStone UK",
+   "url": "https://www.stepstone.co.uk",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "Jooble UK",
+   "url": "https://uk.jooble.org",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "SimplyHired UK",
+   "url": "https://www.simplyhired.co.uk",
+   "reason": "Safety check rate-limited; homepage not read"
+  },
+  {
+   "name": "JobLeads",
+   "url": "",
+   "reason": "Named in a roundup but homepage not read"
+  }
+ ]
+}
