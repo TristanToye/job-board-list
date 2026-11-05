@@ -1,0 +1,180 @@
+{
+  "mode": "reference",
+  "boards": [
+    {
+      "name": "Adzuna",
+      "url": "http://www.adzuna.co.uk",
+      "type": "aggregator",
+      "niche": "general",
+      "countries_served": ["AU", "AT", "BE", "BR", "CA", "FR", "DE", "IN", "IT", "MX", "NL", "NZ", "PL", "SG", "ZA", "ES", "CH", "GB", "US"],
+      "parent": null,
+      "sources": [
+        {"field": "listed_by", "url": "https://en.wikipedia.org/wiki/Adzuna", "title": "Adzuna", "quote": "Adzuna is a search engine for job advertisements."}
+      ]
+    },
+    {
+      "name": "BAYT.com",
+      "url": "https://www.bayt.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["AE", "KW", "JO", "LB", "EG", "QA", "SA", "PK"],
+      "parent": null,
+      "sources": [
+        {"field": "listed_by", "url": "https://en.wikipedia.org/wiki/BAYT.com", "title": "BAYT.com", "quote": "job search and recruitment platform in the Middle East and North Africa"}
+      ]
+    },
+    {
+      "name": "Jobstreet",
+      "url": "https://www.jobstreet.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["MY", "ID", "PH", "SG"],
+      "parent": "SEEK Limited",
+      "sources": [
+        {"field": "listed_by", "url": "https://en.wikipedia.org/wiki/Jobstreet", "title": "Jobstreet", "quote": "Jobstreet is a Southeast Asian online employment website, operated by the Australian Stock Exchange-listed SEEK Limited."},
+        {"field": "parent", "url": "https://en.wikipedia.org/wiki/Jobstreet", "title": "Jobstreet", "quote": "operated by the Australian Stock Exchange-listed SEEK Limited"}
+      ]
+    },
+    {
+      "name": "Jobberman",
+      "url": "http://jobberman.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["NG"],
+      "parent": "Ringier One Africa Media",
+      "sources": [
+        {"field": "listed_by", "url": "https://en.wikipedia.org/wiki/Jobberman", "title": "Jobberman", "quote": "It is an online job marketplace and provides recruitment, talent advisory and training services"}
+      ]
+    },
+    {
+      "name": "JOOBLE",
+      "url": "https://jooble.org/",
+      "type": "aggregator",
+      "niche": "general",
+      "countries_served": [],
+      "parent": null,
+      "sources": [
+        {"field": "listed_by", "url": "https://en.wikipedia.org/wiki/JOOBLE", "title": "JOOBLE", "quote": "Jooble, stylized as JOOBLE is an international job aggregator and job posting search engine founded in 2006."}
+      ]
+    },
+    {
+      "name": "CV-Library",
+      "url": "https://www.cv-library.co.uk",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["GB", "US"],
+      "parent": null,
+      "sources": [
+        {"field": "listed_by", "url": "https://en.wikipedia.org/wiki/CV-Library", "title": "CV-Library", "quote": "CV-Library is a UK job board that was launched in October 2000 as one of the country's first employment websites."}
+      ]
+    },
+    {
+      "name": "Jobindex",
+      "url": "https://www.jobindex.dk",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["DK"],
+      "parent": null,
+      "sources": [
+        {"field": "listed_by", "url": "https://en.wikipedia.org/wiki/Jobindex", "title": "Jobindex", "quote": "Jobindex is a job portal, founded in 1996 by Kaare Danielsen."}
+      ]
+    },
+    {
+      "name": "JobServe",
+      "url": "http://www.jobserve.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["GB", "AU", "US"],
+      "parent": null,
+      "sources": [
+        {"field": "listed_by", "url": "https://en.wikipedia.org/wiki/JobServe", "title": "JobServe", "quote": "JobServe Ltd is a private company headquartered in Tiptree, Essex, United Kingdom, which runs an employment website"}
+      ]
+    },
+    {
+      "name": "Rozee.pk",
+      "url": "http://www.rozee.pk/",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["PK"],
+      "parent": null,
+      "sources": [
+        {"field": "listed_by", "url": "https://en.wikipedia.org/wiki/Rozee.pk", "title": "Rozee.pk", "quote": "Pakistani employment website"}
+      ]
+    },
+    {
+      "name": "SEEK",
+      "url": "https://au.seek.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["AU", "NZ", "CN", "HK", "ID", "MY", "PH", "SG", "TH", "BD", "VN"],
+      "parent": null,
+      "sources": [
+        {"field": "listed_by", "url": "https://en.wikipedia.org/wiki/Seek_Limited", "title": "SEEK Limited", "quote": "Australian employment website for job listings"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Adevinta (article and job sites it owns)", "url": "https://en.wikipedia.org/wiki/Adevinta", "reason": "HTTP 404 for both https://en.wikipedia.org/wiki/Adevinta and https://en.wikipedia.org/wiki/Adevinta_ASA; article not read"}
+  ],
+  "queue": [
+    {"name": "AfterCollege", "url": "", "reason": "Named in list, no official URL stated (U.S., college graduates)"},
+    {"name": "AlJazeera Jobs", "url": "", "reason": "Named in list, no official URL stated (Bahrain-based, Middle East)"},
+    {"name": "AngelList", "url": "", "reason": "Named in list, no official URL stated (U.S., startups)"},
+    {"name": "Canadian Job Bank", "url": "", "reason": "Named in list, no official URL stated (government, Canada)"},
+    {"name": "CareerArc Social Recruiting", "url": "", "reason": "Named in list, no official URL stated (U.S., general)"},
+    {"name": "CareerBuilder and Monster.com", "url": "", "reason": "Named in list, no official URL stated (U.S. and international, merged 2024)"},
+    {"name": "CareerStructure.com", "url": "", "reason": "Named in list, no official URL stated (U.K. and international, construction)"},
+    {"name": "Craigslist", "url": "", "reason": "Named in list, no official URL stated (U.S. and international, general classifieds)"},
+    {"name": "Dice.com", "url": "", "reason": "Named in list, no official URL stated (U.S., engineering and IT)"},
+    {"name": "Freelancer.com", "url": "", "reason": "Named in list, no official URL stated (Australia based, freelance)"},
+    {"name": "Glassdoor", "url": "", "reason": "Named in list and in Recruit Holdings article, no official URL stated (owner Recruit Holdings)"},
+    {"name": "Gumtree", "url": "", "reason": "Named in list, no official URL stated (U.K., Australia, general classifieds)"},
+    {"name": "Guru.com", "url": "", "reason": "Named in list, no official URL stated (U.S., freelance)"},
+    {"name": "HackerRank", "url": "", "reason": "Named in list, no official URL stated (India and international, general)"},
+    {"name": "IAESTE", "url": "", "reason": "Named in list, no official URL stated (international, non-profit, Luxembourg based)"},
+    {"name": "Indeed.com", "url": "", "reason": "Named in list and in Recruit Holdings article, no official URL stated in either (owner Recruit Holdings)"},
+    {"name": "Insidetrak", "url": "", "reason": "Named in list, no official URL stated (Australia, part of Glassdoor)"},
+    {"name": "Internshala", "url": "", "reason": "Named in list, no official URL stated (India, students and internships)"},
+    {"name": "JobTiger", "url": "", "reason": "Named in list, no official URL stated (Bulgaria, general)"},
+    {"name": "Kalibrr", "url": "", "reason": "Named in list, no official URL stated (Philippines and Indonesia)"},
+    {"name": "Kijiji", "url": "", "reason": "Named in list, no official URL stated (Canada and international, owned by eBay)"},
+    {"name": "LinkedIn", "url": "", "reason": "Named in list, no official URL stated (owner Microsoft)"},
+    {"name": "Naukri.com", "url": "", "reason": "Named in list and in Info Edge article, no official URL stated (India; owner Info Edge)"},
+    {"name": "NaukriGulf.com", "url": "", "reason": "Named in Info Edge article, no official URL stated (Gulf countries; owner Info Edge)"},
+    {"name": "FirstNaukri.com", "url": "", "reason": "Named in Info Edge article, no official URL stated (campus recruitment; owner Info Edge)"},
+    {"name": "iimjobs.com", "url": "", "reason": "Named in Info Edge article, no official URL stated (job portal acquired 2019; owner Info Edge)"},
+    {"name": "hirist.tech", "url": "", "reason": "Named in Info Edge article, no official URL stated (job portal acquired 2019; owner Info Edge)"},
+    {"name": "BigShyft", "url": "", "reason": "Named in Info Edge article, no official URL stated (recruitment, acquired 2019; owner Info Edge)"},
+    {"name": "Oodle, Inc.", "url": "", "reason": "Named in list, no official URL stated (U.S., general classifieds)"},
+    {"name": "PageGroup", "url": "", "reason": "Named in list, no official URL stated (U.K.)"},
+    {"name": "PeoplePerHour", "url": "", "reason": "Named in list, no official URL stated (U.K., freelance)"},
+    {"name": "Proven", "url": "", "reason": "Named in list, no official URL stated (U.S., hiring tools for employers)"},
+    {"name": "Reed.co.uk", "url": "", "reason": "Named in list, no official URL stated (U.K.)"},
+    {"name": "Snagajob", "url": "", "reason": "Named in list, no official URL stated (U.S., hourly jobs)"},
+    {"name": "Swissnex", "url": "", "reason": "Named in list, no official URL stated (Switzerland, government affiliated)"},
+    {"name": "TheLadders.com", "url": "", "reason": "Named in list, no official URL stated (U.S., high-salary)"},
+    {"name": "The Muse", "url": "", "reason": "Named in list, no official URL stated (U.S., general)"},
+    {"name": "TimesJobs", "url": "", "reason": "Named in list, no official URL stated (India and the Middle East)"},
+    {"name": "Trovit", "url": "", "reason": "Named in list, no official URL stated (Europe and Latin America, based in Spain)"},
+    {"name": "Universal Jobmatch", "url": "", "reason": "Named in list, no official URL stated (U.K., government affiliated)"},
+    {"name": "Upwork", "url": "", "reason": "Named in list, no official URL stated (international, freelance)"},
+    {"name": "USAJobs", "url": "", "reason": "Named in list, no official URL stated (U.S., government)"},
+    {"name": "WayUp", "url": "", "reason": "Named in list, no official URL stated (U.S., general)"},
+    {"name": "Working in Canada", "url": "", "reason": "Named in list, no official URL stated (Canada, government)"},
+    {"name": "Workopolis", "url": "", "reason": "Named in list, no official URL stated (Canada; owner Recruit Holdings)"},
+    {"name": "XING", "url": "", "reason": "Named in list, no official URL stated (Germany, social network with job board)"},
+    {"name": "Y Combinator", "url": "", "reason": "Named in list, no official URL stated (U.S., startups)"},
+    {"name": "ZipRecruiter", "url": "", "reason": "Named in list, no official URL stated (U.S., general)"},
+    {"name": "Recruit Holdings: Rikunabi", "url": "", "reason": "Named in Recruit Holdings article, no official URL stated (Japan, new graduates; owner Recruit group)"},
+    {"name": "Recruit Holdings: Rikunabi NEXT", "url": "", "reason": "Named in Recruit Holdings article, no official URL stated (Japan, mid-career; owner Recruit group)"},
+    {"name": "Recruit Holdings: TOWNWORK", "url": "", "reason": "Named in Recruit Holdings article, no official URL stated (Japan, part-time and full-time; owner Recruit group)"},
+    {"name": "Recruit Holdings: RECRUIT AGENT", "url": "", "reason": "Named in Recruit Holdings article, no official URL stated (placement service; owner Recruit group)"},
+    {"name": "Recruit Holdings: RECRUIT DIRECT SCOUT", "url": "", "reason": "Named in Recruit Holdings article, no official URL stated (talent sourcing; owner Recruit group)"},
+    {"name": "Monster.com", "url": "", "reason": "Named in Randstad article, no official URL stated (U.S.; Randstad acquired 2016, later majority owned by Apollo-managed funds)"},
+    {"name": "StepStone", "url": "", "reason": "Named in Axel Springer article, no official URL stated (digital classifieds; owner Axel Springer at time of article)"},
+    {"name": "No Fluff Jobs", "url": "", "reason": "Named in Axel Springer article, no official URL stated (joint venture of Ringier and Axel Springer)"},
+    {"name": "TotalJobs", "url": "", "reason": "Named in Axel Springer article, no official URL stated (U.K.; acquired from Reed Elsevier in 2012)"},
+    {"name": "OCC", "url": "", "reason": "Named in SEEK article, no official URL stated (Mexico; sold to Red Arbor in 2024)"},
+    {"name": "Catho", "url": "", "reason": "Named in SEEK article, no official URL stated (Brazil; sold to Red Arbor in 2024)"}
+  ]
+}

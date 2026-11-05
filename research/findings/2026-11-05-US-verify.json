@@ -1,0 +1,64 @@
+{
+  "mode": "verify",
+  "country": "US",
+  "boards": [
+    {
+      "name": "LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/",
+      "primary_language": "en",
+      "api_status": "unknown",
+      "api_docs_url": "https://developer.linkedin.com/",
+      "notes": "Footer language list shows English (English) as the selected option; no other languages seen on pages read. Developer site has app creation and an Apply now step for one API; access rules not stated on pages read. Only two public pages read (homepage and developer site) to limit automated access.",
+      "sources": [
+        {"field": "languages", "url": "https://www.linkedin.com/jobs/", "title": "Homepage footer language list", "quote": "English (English)"},
+        {"field": "api_status", "url": "https://developer.linkedin.com/", "title": "Developer site", "quote": "Create app"}
+      ]
+    },
+    {
+      "name": "USAJOBS",
+      "url": "https://www.usajobs.gov/",
+      "api_status": "unknown",
+      "api_docs_url": "https://developer.usajobs.gov/",
+      "notes": "Operated by the US Office of Personnel Management. API key requirement not confirmed: the authentication guide and Job Search API page could not be read on fetch (one returned an error page). No language options or employer pricing found on pages read.",
+      "sources": [
+        {"field": "existence", "url": "https://www.usajobs.gov/", "title": "Homepage header", "quote": "An official website of the United States government."},
+        {"field": "parent", "url": "https://www.usajobs.gov/", "title": "Homepage operator statement", "quote": "USAJOBS is a United States Office of Personnel Management website."},
+        {"field": "api_status", "url": "https://developer.usajobs.gov/", "title": "Developer docs", "quote": "Here you will find documentation on all facets of integrating or using services provided by USAJOBS."}
+      ]
+    },
+    {
+      "name": "GovernmentJobs.com",
+      "url": "https://www.governmentjobs.com/",
+      "notes": "Homepage image alt text reads Powered by NEOGOV; ownership not stated on pages read, so no parent recorded. No language options, employer pricing, or API mention found. The about and employers pages returned 404. Developer and partner pages not checked."
+    },
+    {
+      "name": "Dice",
+      "url": "https://www.dice.com/",
+      "business_model": "per post, subscription",
+      "parent": "DHI",
+      "notes": "Pricing page lists a Single Job Slot at $399 with the job slot active for 30 days, Starter at $549 to $649 per month, and Standard at $749 to $899 per month, with monthly or annual billing. Pricing is valid for new customers only. Developer page returned no content on fetch. No language options or API mention found on pages read.",
+      "sources": [
+        {"field": "parent", "url": "https://www.dice.com/about-us", "title": "Operating company statement", "quote": "Dice is a DHI service."},
+        {"field": "business_model", "url": "https://www.dice.com/hiring/pricing", "title": "Employer pricing", "quote": "Job slot active for 30 days"},
+        {"field": "business_model", "url": "https://www.dice.com/hiring/pricing", "title": "Employer pricing", "quote": "Billed month-to-month (no annual contract)"}
+      ]
+    },
+    {
+      "name": "Built In",
+      "url": "https://builtin.com/",
+      "notes": "No parent company, country, language options, employer prices, or API mention found on pages read. Hiring pricing page and developer page returned 404. Employers page had recruiting text but no prices. Homepage footer reads Built In 2026."
+    },
+    {
+      "name": "Wellfound",
+      "url": "https://wellfound.com/",
+      "business_model": "free",
+      "notes": "Wellfound says it was spun out as AL Talent, Inc. and rebranded; it states that Wellfound and AngelList are separate companies. Headquarters not stated. Developer page has no API or partner program text. Pricing page and about page did not give language or API details; pricing page returned 404.",
+      "sources": [
+        {"field": "business_model", "url": "https://wellfound.com/", "title": "Homepage pricing statement", "quote": "Unlimited jobs, unlimited applicants, and a built-in ATS are $0 forever."},
+        {"field": "parent", "url": "https://wellfound.com/about", "title": "About page", "quote": "Wellfound and AngelList are separate companies."},
+        {"field": "existence", "url": "https://wellfound.com/about", "title": "About page", "quote": "spun out as an independent company, AL Talent, Inc., and rebranded as Wellfound."}
+      ]
+    }
+  ],
+  "blocked": []
+}

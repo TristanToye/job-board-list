@@ -283,7 +283,7 @@
   "hq_country": "UK",
   "founded": "",
   "markets": "UK;US;CA;AU;DE;FR;IN;NL;PL;ZA;BR;IT;AT;NZ;SG;MX",
-  "countries_served": "CA",
+  "countries_served": "CA;AU;AT;BE;BR;FR;DE;IN;IT;MX;NL;NZ;PL;SG;ZA;ES;CH;UK;US",
   "primary_language": "en",
   "languages_supported": "en;de;fr;nl;pl;pt;es;it",
   "region": "Global",
@@ -421,7 +421,7 @@
   "hq_country": "UK",
   "founded": "",
   "markets": "UK",
-  "countries_served": "UK",
+  "countries_served": "UK;US",
   "primary_language": "en",
   "languages_supported": "en",
   "region": "Europe",
@@ -697,7 +697,7 @@
   "hq_country": "DK",
   "founded": "",
   "markets": "DK",
-  "countries_served": "",
+  "countries_served": "DK",
   "primary_language": "da",
   "languages_supported": "da;en",
   "region": "Europe",
@@ -710,7 +710,7 @@
   "partner_url": "",
   "ingest_methods": "XML feed",
   "notes": "",
-  "confidence": "seed-unverified"
+  "confidence": "listed-only"
  },
  {
   "id": "pracuj",
@@ -789,7 +789,7 @@
   "hq_country": "AU",
   "founded": "",
   "markets": "AU;NZ;SEA (JobStreet/Jobsdb);Brazil (Jobstreet); more",
-  "countries_served": "",
+  "countries_served": "AU;NZ;CN;HK;ID;MY;PH;SG;TH;BD;VN",
   "primary_language": "en",
   "languages_supported": "en",
   "region": "APAC",
@@ -802,7 +802,7 @@
   "partner_url": "https://developer.seek.com",
   "ingest_methods": "Posting API (GraphQL);Apply;ATS partners",
   "notes": "Open developer portal with ATS partner program",
-  "confidence": "seed-unverified"
+  "confidence": "listed-only"
  },
  {
   "id": "jobstreet",
@@ -812,7 +812,7 @@
   "hq_country": "MY",
   "founded": "",
   "markets": "MY;SG;ID;PH;TH",
-  "countries_served": "",
+  "countries_served": "MY;ID;PH;SG",
   "primary_language": "en",
   "languages_supported": "en;id;ms",
   "region": "APAC",
@@ -825,7 +825,7 @@
   "partner_url": "",
   "ingest_methods": "Via SEEK partner program",
   "notes": "",
-  "confidence": "seed-unverified"
+  "confidence": "listed-only"
  },
  {
   "id": "jobsdb",
@@ -1134,7 +1134,7 @@
   "hq_country": "AE",
   "founded": "",
   "markets": "MENA",
-  "countries_served": "",
+  "countries_served": "AE;KW;JO;LB;EG;QA;SA;PK",
   "primary_language": "en",
   "languages_supported": "en;ar",
   "region": "Middle East",
@@ -1147,7 +1147,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "",
-  "confidence": "seed-unverified"
+  "confidence": "listed-only"
  },
  {
   "id": "gulftalent",
@@ -1203,7 +1203,7 @@
   "hq_country": "NG",
   "founded": "",
   "markets": "NG;GH",
-  "countries_served": "",
+  "countries_served": "NG",
   "primary_language": "en",
   "languages_supported": "en",
   "region": "Africa",
@@ -1216,7 +1216,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "",
-  "confidence": "seed-unverified"
+  "confidence": "listed-only"
  },
  {
   "id": "brightermonday",
@@ -3172,5 +3172,51 @@
   "ingest_methods": "",
   "notes": "",
   "confidence": "partially-verified"
+ },
+ {
+  "id": "jobserve",
+  "name": "JobServe",
+  "url": "http://www.jobserve.com",
+  "type": "board",
+  "hq_country": "",
+  "founded": "",
+  "markets": "",
+  "countries_served": "UK;AU;US",
+  "primary_language": "",
+  "languages_supported": "",
+  "region": "Europe",
+  "niche": "general",
+  "parent": "",
+  "business_model": "",
+  "api_status": "unknown",
+  "api_docs_url": "",
+  "partner_program": "unknown",
+  "partner_url": "",
+  "ingest_methods": "",
+  "notes": "",
+  "confidence": "listed-only"
+ },
+ {
+  "id": "rozee-pk",
+  "name": "Rozee.pk",
+  "url": "http://www.rozee.pk/",
+  "type": "board",
+  "hq_country": "",
+  "founded": "",
+  "markets": "",
+  "countries_served": "PK",
+  "primary_language": "",
+  "languages_supported": "",
+  "region": "Global",
+  "niche": "general",
+  "parent": "",
+  "business_model": "",
+  "api_status": "unknown",
+  "api_docs_url": "",
+  "partner_program": "unknown",
+  "partner_url": "",
+  "ingest_methods": "",
+  "notes": "",
+  "confidence": "listed-only"
  }
 ]

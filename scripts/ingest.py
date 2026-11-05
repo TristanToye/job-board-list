@@ -84,6 +84,7 @@ def main(argv):
     conflicts, queue_add, stats = [], [], collections.Counter()
     for fn in files:
         d = json.load(open(fn, encoding="utf-8")); cc = str(d.get("country", "")).upper().replace("GB", "UK")
+        mode = d.get("mode")
         if mode != "reference" and cc not in countries: print(f"{fn}: unknown country {cc!r}, skipped"); continue
         mode = d.get("mode")
         if mode not in ("discover", "verify", "reference"): print(f"{fn}: bad mode"); continue
@@ -93,7 +94,8 @@ def main(argv):
             name = clean(b.get("name"), 80); url = clean(b.get("url"), 200)
             if not name or not re.match(r"https?://", url) or not host(url): reject("board", name or "?", "missing name or bad url"); stats["rejected"] += 1; continue
             if bad_text(json.dumps(b)): reject("board", name, "contains disallowed text"); stats["rejected"] += 1; continue
-            site = regdom(host(url)); row = byhost.get(site)
+            site = regdom(host(url)); row = byhost.get(site) or by.get(slug(name))  # same site, or same name (regional domains)
+            if row is not None: site = regdom(host(row["url"])) or site
             if mode == "verify" and row is None: reject("board", name, "verify finding for unknown board"); stats["rejected"] += 1; continue
             new = row is None
             if new:
@@ -108,10 +110,11 @@ def main(argv):
                 f, su, q = s.get("field"), clean(s.get("url"), 300), clean(s.get("quote"), 300)
                 if f not in SRC_FIELDS or not su.startswith("https://") and not su.startswith("http://"): reject("source", name, f"bad field or url {f!r}"); continue
                 if f in WEAK:
-                    good.setdefault(f, []).append(s | {"url": su, "quote": q}); continue
+                    good.setdefault(f, []).append(s | {"url": su, "quote": q if s.get("check") == "ok" else ""}); continue
                 same = regdom(host(su)) in {site, regdom(host(row.get("api_docs_url",""))), regdom(host(row.get("partner_url","")))} or (regdom(host(su)) in REFERENCE and f in REF_FIELDS)
                 if not same: reject("source", name, f"strong source off the board's domain: {host(su)}"); continue
                 if not q or len(q.split()) > 30: reject("source", name, f"{f}: missing or long quote"); continue
+                if regdom(host(su)) in REFERENCE and s.get("check") != "ok": reject("source", name, f"{f}: reference quote not confirmed on the page"); continue
                 if s.get("check") == "mismatch": reject("source", name, f"{f}: quote not found on page"); continue
                 good.setdefault(f, []).append(s | {"url": su, "quote": q})
             if not good: reject("board", name, "no usable source"); stats["rejected"] += 1; continue
