@@ -1,0 +1,131 @@
+{
+ "round": 3,
+ "orders": [
+  {
+   "id": "criteria",
+   "name": "Criteria",
+   "url": "https://criteriacorp.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "parent": "medium",
+    "business_model": "high",
+    "api_status": "medium",
+    "partner_program": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://criteriacorp.com/about-us",
+    "https://criteriacorp.com/plans-and-pricing",
+    "https://criteriacorp.com/integrations-and-partners",
+    "https://criteriacorp.com/science/research-development-partners"
+   ],
+   "reason": "The Company menu links About Us, Pricing and Integrations and Partners, all seen on the homepage. No Developers or API link is shown, so the integrations page is the best guess for API and ingest deta"
+  },
+  {
+   "id": "codility",
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "parent": "medium",
+    "partner_program": "medium"
+   },
+   "try_pages": [
+    "https://www.codility.com/about/",
+    "https://www.codility.com/partners/",
+    "https://www.codility.com/pricing/"
+   ],
+   "reason": "The homepage links About, Partners, Pricing and Press. The About page should state headquarters and founding, and the Partners page may cover the partner program."
+  },
+  {
+   "id": "welcome-to-the-jungle",
+   "name": "Welcome to the Jungle",
+   "url": "https://www.welcometothejungle.com",
+   "fields": [
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://about.welcometothejungle.com/newsroom#explore-section",
+    "https://about.welcometothejungle.com/",
+    "https://solutions.welcometothejungle.com/en/pricing"
+   ],
+   "reason": "About and Press links seen; founding and publisher were already found on these pages. No Partners or Developers link. Employer pricing page seen."
+  },
+  {
+   "id": "impact-group",
+   "name": "IMPACT Group",
+   "url": "https://www.impactgrouphr.com",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://impactgrouphr.com/about/history/",
+    "https://impactgrouphr.com/about/",
+    "https://impactgrouphr.com/contact/"
+   ],
+   "reason": "Company History link seen, which should give the founding. About and Contact links seen for location. No pricing, Partners or Developers link."
+  },
+  {
+   "id": "zarplata-ru",
+   "name": "Zarplata.ru",
+   "url": "https://zarplata.ru/",
+   "fields": [
+    "founded",
+    "partner_program"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "partner_program": "medium"
+   },
+   "try_pages": [
+    "https://pr.zarplata.ru/?utm_source=zarplata.ru&utm_medium=referral&utm_campaign=from_footer_new",
+    "https://zarplata.ru/zp_rules?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=main"
+   ],
+   "reason": "Footer links to a media and partners site and to the terms page, which names the operating company. No Tariffs, Pricing or API link. No language selector."
+  },
+  {
+   "id": "randstad",
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.randstad.com/about-randstad/company-profile/",
+    "https://www.randstad.com/randstad-at-a-glance/",
+    "https://www.randstad.com/find-randstad-in-your-country/"
+   ],
+   "reason": "Company profile and About links seen; founding may appear there. Footer gives the registered office in Diemen. No API, Pricing or Partners link."
+  }
+ ]
+}

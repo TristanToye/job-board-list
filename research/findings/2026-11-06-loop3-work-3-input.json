@@ -1,0 +1,117 @@
+{
+ "round": 3,
+ "orders": [
+  {
+   "id": "checkr",
+   "name": "Checkr",
+   "url": "https://checkr.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "parent": "medium",
+    "business_model": "high",
+    "api_status": "high"
+   },
+   "try_pages": [
+    "https://checkr.com/company",
+    "https://checkr.com/pricing",
+    "https://docs.checkr.com"
+   ],
+   "reason": "The homepage links About us, Pricing and developer documentation. The company page should state headquarters and founding, and the pricing page should state the business model."
+  },
+  {
+   "id": "kimeta",
+   "name": "kimeta",
+   "url": "https://www.kimeta.de/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "parent": "medium",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://www.kimeta.de/StaticPage/kimeta",
+    "https://www.kimeta.de/StaticPage/Presse"
+   ],
+   "reason": "The Uber uns (About) page and the Presse page are linked from the homepage. These are likely to state headquarters, founding and how job listings are gathered."
+  },
+  {
+   "id": "challenger-gray-christmas",
+   "name": "Challenger, Gray & Christmas",
+   "url": "https://www.challengergray.com",
+   "fields": [
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.challengergray.com/about-us/",
+    "https://www.challengergray.com/our-team/"
+   ],
+   "reason": "The About menu links About Us and Our Team, which the review did not read. The founding year and any parent statement are likely there."
+  },
+  {
+   "id": "o-net",
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://www.onetcenter.org/overview.html",
+    "https://www.onetonline.org/help/online/"
+   ],
+   "reason": "Site text says sponsored by the U.S. Department of Labor and links dol.gov and doleta.gov. About this Site footer link seen. Web Services is a data access route, not a partner program. Free public res"
+  },
+  {
+   "id": "nomis",
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "fields": [
+    "hq_country"
+   ],
+   "likelihood": {
+    "hq_country": "medium"
+   },
+   "try_pages": [
+    "https://www.nomisweb.co.uk/api"
+   ],
+   "reason": "The footer API link goes to the page the review already read, which gave no key requirement. No About, Partners or Pricing link is on the homepage."
+  },
+  {
+   "id": "national-career-service",
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.ncs.gov.in/about-us",
+    "https://www.ncs.gov.in/about-ncsc-da"
+   ],
+   "reason": "About us link seen in the footer, which may give the launch year. Services are free, so an employer business model does not apply. No API, Partners or language link."
+  }
+ ]
+}

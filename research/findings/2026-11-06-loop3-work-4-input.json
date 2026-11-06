@@ -1,0 +1,102 @@
+{
+ "round": 3,
+ "orders": [
+  {
+   "id": "right-management",
+   "name": "Right Management",
+   "url": "https://www.right.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "high",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.manpowergroup.com/"
+   ],
+   "reason": "The homepage links Learn More About ManpowerGroup, and a Global (English) selector is visible. No About, Developers, API or Pricing page is linked, so the other fields are unlikely to be easy to find."
+  },
+  {
+   "id": "intoo",
+   "name": "INTOO",
+   "url": "https://www.intoo.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.intoo.com/us/about/",
+    "https://www.intoo.com/us/solutions/outplacement/outplacement-pricing/",
+    "https://www.gigroupholding.com/"
+   ],
+   "reason": "About link and footer Company section seen. Outplacement Pricing link seen. Footer logo links to Gi Group Holding."
+  },
+  {
+   "id": "toptal",
+   "name": "Toptal",
+   "url": "https://www.toptal.com",
+   "fields": [
+    "hq_country",
+    "parent",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "parent": "medium",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://www.toptal.com/about",
+    "https://www.toptal.com/clients",
+    "https://www.toptal.com/press-center",
+    "https://www.toptal.com/why"
+   ],
+   "reason": "About Us and Clients links seen; an About page usually states headquarters and ownership. Clients page may describe engagement terms. No API, Partners or Pricing link in nav or footer."
+  },
+  {
+   "id": "robert-half",
+   "name": "Robert Half",
+   "url": "https://www.roberthalf.com",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.roberthalf.com/us/en/hire-talent/partner",
+    "https://www.roberthalf.com/us/en/locations"
+   ],
+   "reason": "Country and language switcher seen in the footer with many language versions. No pricing, Developers or API link. Hire-talent page may describe how clients engage."
+  },
+  {
+   "id": "clearancejobs",
+   "name": "ClearanceJobs",
+   "url": "https://www.clearancejobs.com",
+   "fields": [
+    "hq_country"
+   ],
+   "likelihood": {
+    "hq_country": "medium"
+   },
+   "try_pages": [
+    "https://about.clearancejobs.com"
+   ],
+   "reason": "The About us link goes to a company page that may state headquarters. The homepage already gives the founding year, so no further search is needed for founded."
+  }
+ ]
+}

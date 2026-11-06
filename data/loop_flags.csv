@@ -24,3 +24,25 @@ round,board_id,flag
 2,codeable,"Review note says the menu lists a Partner program, yet partner_program is still listed as missing. It may need recording rather than searching."
 2,kelly-services,"The earlier review says the about page returned 404, but the site links /about-kelly/ and its sub-pages, so the earlier check may have used a wrong path."
 2,eightfold-ai,"Recorded partner_url is https://eightfold.ai/partners, but the site links to https://eightfold.ai/company/partners/."
+3,u-s-bureau-of-labor-statistics,"founded: still listed as missing, but the review note says 1884 was found on https://www.bls.gov/about-bls/home.htm; the record may need updating"
+3,workable,founded and business_model are still listed as missing although the review found 2012 and the pricing page
+3,workable,"hq_country is recorded as GR, but the homepage JSON-LD lists Norwood, Massachusetts first, then Marousi, Greece and London"
+3,korn-ferry,"type is recruiting-services, a search firm rather than a hiring platform; check that it fits the directory"
+3,the-adecco-group,"entry URL is adecco.com, but the group pages the review read are on adeccogroup.com; the record should note which domain is the primary source"
+3,right-management,"parent is empty, but the homepage links to ManpowerGroup; check whether ManpowerGroup should be recorded as parent"
+3,nijobs,site returned HTTP 503 again on this check; the entry may be stale or the site may be down
+3,clearancejobs,"founded: still missing, but the homepage Why ClearanceJobs section says Founded in 2002"
+3,lemon-io,"languages: the record uses the key languages_supported, while the schema field is languages; the English and Deutsch menu already matches en;de"
+3,lemon-io,partner_program: the review's /partners URL returned 404; the partner page seen here is https://lemon.io/partnership/
+3,codility,"api_status: the review says the pricing page states API facts, yet api_status is still listed as missing"
+3,o-net,"Record parent is blank, but the review found the Department of Labor sponsor on the overview page; record and review disagree."
+3,o-net,Recorded api_docs_url is under /help/onet/webservices while the Web Services link seen points to services.onetcenter.org.
+3,99designs,Languages and business_model are marked found in attempts but are still listed as missing.
+3,99designs,"Featured partners page lists service providers, so it should not be read as a partner program."
+3,intoo,"Footer logo links to Gi Group Holding, but parent is blank in the record."
+3,impact-group,Record URL is www.impactgrouphr.com while the site's links use impactgrouphr.com; confirm the canonical domain.
+3,robert-half,"Languages is listed as missing, though attempts found it on the locations page."
+3,welcome-to-the-jungle,Founded and parent are marked found in attempts but are still listed as missing.
+3,welcome-to-the-jungle,"Languages recorded as fr, en, es, cs, sk, but the switcher seen shows only Francais and English (US/UK)."
+3,randstad,"hq_country NL comes from the registered office in Diemen, which the page does not call a headquarters."
+3,zarplata-ru,"Parent HeadHunter Group is not named in the visible page text; the operating company is LLC Hedhunter (HeadHunter LLC), so the parent comes from the record only."

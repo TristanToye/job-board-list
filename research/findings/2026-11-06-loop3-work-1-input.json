@@ -1,0 +1,132 @@
+{
+ "round": 3,
+ "orders": [
+  {
+   "id": "resumeble",
+   "name": "Resumeble",
+   "url": "https://resumeble.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "parent": "medium",
+    "business_model": "high",
+    "api_status": "high",
+    "partner_program": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://resumeble.com/about-us",
+    "https://resumeble.com/partner-with-us",
+    "https://resumeble.com/resume-packages",
+    "https://resumeble.com/api"
+   ],
+   "reason": "The homepage links About us, Partnerships, a resume-packages page with pricing, and an API link in the footer. Each of these likely covers one of the missing fields."
+  },
+  {
+   "id": "lemon-io",
+   "name": "Lemon.io",
+   "url": "https://lemon.io",
+   "fields": [
+    "founded",
+    "parent",
+    "api_status",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "parent": "medium",
+    "api_status": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://lemon.io/about-us/",
+    "https://docs.lemon.io",
+    "https://docs.lemon.io/lemon.io-mcp"
+   ],
+   "reason": "The About link and the docs.lemon.io documentation links were seen but not read. The language menu shows English and Deutsch, which matches the record."
+  },
+  {
+   "id": "99designs",
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "fields": [
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://99designs.com/pricing",
+    "https://99designs.com/featured-partners",
+    "https://99designs.com/about"
+   ],
+   "reason": "Pricing link and Espanol language switcher seen. Featured partners page lists design service vendors rather than a partner program. No Developers or API link."
+  },
+  {
+   "id": "workday",
+   "name": "Workday Recruiting",
+   "url": "https://www.workday.com",
+   "fields": [
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "languages": "medium"
+   },
+   "try_pages": [
+    "https://www.workday.com/en-us/company/about-workday/our-story.html",
+    "https://investor.workday.com/home/default.aspx",
+    "https://www.workday.com/en-us/choose-country-region.html",
+    "https://developer.workday.com/about"
+   ],
+   "reason": "Our Story link seen, and the review found the founders named there. Investor Relations link seen for ownership questions. Region chooser seen for languages. No pricing link."
+  },
+  {
+   "id": "hirevue",
+   "name": "HireVue",
+   "url": "https://www.hirevue.com",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.hirevue.com/about",
+    "https://www.hirevue.com/press-release",
+    "https://www.hirevue.com/platform/integrations"
+   ],
+   "reason": "About and Press links seen; the About page usually covers headquarters and founding. No pricing, Developers or API link."
+  },
+  {
+   "id": "australian-bureau-of-statistics",
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "fields": [
+    "api_status"
+   ],
+   "likelihood": {
+    "api_status": "medium"
+   },
+   "try_pages": [
+    "https://dataexplorer.abs.gov.au/",
+    "https://www.abs.gov.au/statistics/consultancy-services"
+   ],
+   "reason": "Data explorer and Request data links seen. A statistics agency often documents its data API, but no API link appears in nav or footer. No language switcher. Free government statistics, so business mod"
+  }
+ ]
+}

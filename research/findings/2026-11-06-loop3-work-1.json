@@ -1,0 +1,75 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 3,
+  "boards": [
+    {
+      "name": "Resumeble", "url": "https://resumeble.com",
+      "api_status": "none-known",
+      "partner_program": "yes", "partner_url": "https://resumeble.com/partner-with-us",
+      "sources": [
+        {"field": "partner_program", "url": "https://resumeble.com/partner-with-us", "title": "Partner with us", "quote": "Upon approval, you'll gain exclusive access to your affiliate dashboard"}
+      ]
+    },
+    {
+      "name": "Lemon.io", "url": "https://lemon.io",
+      "founded": "2015",
+      "sources": [
+        {"field": "founded", "url": "https://lemon.io/about-us/", "title": "About us", "quote": "We started in 2015 and have spent a decade learning what predicts a great engineering hire"}
+      ]
+    },
+    {
+      "name": "99designs", "url": "https://www.99designs.com",
+      "primary_language": "en", "languages_supported": ["en", "es"],
+      "business_model": "per contest package, fixed price (Bronze US$249, Silver US$399, Gold US$799, Platinum US$1,050)",
+      "sources": [
+        {"field": "languages", "url": "https://99designs.com/about", "title": "About", "quote": "English"},
+        {"field": "languages", "url": "https://99designs.com/about", "title": "About", "quote": "español"},
+        {"field": "business_model", "url": "https://99designs.com/pricing", "title": "Pricing", "quote": "We have 4 fixed packages to suit your budget. Prices exclude Sales Tax."}
+      ]
+    },
+    {
+      "name": "Workday Recruiting", "url": "https://www.workday.com",
+      "primary_language": "en", "languages_supported": ["en", "fr", "es", "de", "it", "nl", "pl", "id", "ja", "ko", "zh", "th"],
+      "sources": [
+        {"field": "languages", "url": "https://www.workday.com/en-us/choose-country-region.html", "title": "Choose country or region", "quote": "English, Français, Español, Deutsch, Italiano, Nederlands, Polski, Bahasa Indonesia, 日本語, 한국어, 繁體中文, ไทย"}
+      ]
+    },
+    {
+      "name": "HireVue", "url": "https://www.hirevue.com",
+      "founded": "2004",
+      "sources": [
+        {"field": "founded", "url": "https://www.hirevue.com/about", "title": "About", "quote": "Hirevue was founded in 2004 based on the idea that people are more than bullets on a resume."}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Resumeble", "url": "https://resumeble.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded", "parent", "business_model", "ingest_methods"], "method": "fetch", "note": "Affiliate program found on partner page. /api returns 404 and the footer has no API or developer link, so api_status recorded as none-known. The about page gives no year, HQ or parent. Package prices (Standard $157.00 up to Elite Boardroom $1197.00) are for job seekers, not employers, and the page does not state how payment works, so business_model was not recorded."},
+    {"name": "Lemon.io", "url": "https://lemon.io", "outcome": "partially-verified", "fields_not_found": ["parent", "api_status", "ingest_methods"], "method": "fetch", "note": "Founding year 2015 quoted from About page. About page calls the company Independent, but that word alone is not a usable quote, so parent not recorded. Docs pages describe an MCP connector (mcp.lemon.io, no account needed) and chat-based requests, with no API, key or partner access mentioned; api_status left unknown because the partner and footer pages were not read. The MCP connector does not map to the listed ingest methods."},
+    {"name": "99designs", "url": "https://www.99designs.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Language menu shows English and español. Pricing page lists four fixed contest packages. Employers pay per contest package, not a subscription. Partner and About pages were not needed for these fields."},
+    {"name": "Workday Recruiting", "url": "https://www.workday.com", "outcome": "partially-verified", "fields_not_found": ["founded"], "method": "fetch", "note": "Region chooser lists 12 language options, primary English. Our Story page names the founders Aneel Bhusri and Dave Duffield and its timeline places the founding in 2005, but the entry copied word for word does not contain the year, so founded was not recorded."},
+    {"name": "HireVue", "url": "https://www.hirevue.com", "outcome": "partially-verified", "fields_not_found": ["hq_country"], "method": "fetch", "note": "Founding year 2004 quoted from About page. About, press release and integrations pages give no headquarters location and footer shows only a copyright line."},
+    {"name": "Australian Bureau of Statistics", "url": "https://www.abs.gov.au", "outcome": "partially-verified", "fields_not_found": ["api_status"], "method": "mixed", "note": "Data Explorer user guide says users can automatically generate Application Programming Interface calls to pull data, so an API exists, but no page states whether a key is needed, so api_status is unknown. Data Explorer home page and consultancy services page contain no API text. Developer and partner pages were not read, so this stays unknown. Candidate api_docs_url: https://www.abs.gov.au/about/data-services/data-explorer/data-explorer-user-guide"}
+  ],
+  "attempts": [
+    {"name": "Resumeble", "field": "hq_country", "outcome": "not-found", "pages": ["https://resumeble.com/about-us", "https://resumeble.com/"]},
+    {"name": "Resumeble", "field": "founded", "outcome": "not-found", "pages": ["https://resumeble.com/about-us", "https://resumeble.com/"]},
+    {"name": "Resumeble", "field": "parent", "outcome": "not-found", "pages": ["https://resumeble.com/about-us"]},
+    {"name": "Resumeble", "field": "business_model", "outcome": "not-found", "pages": ["https://resumeble.com/resume-packages"]},
+    {"name": "Resumeble", "field": "api_status", "outcome": "found", "pages": ["https://resumeble.com/api", "https://resumeble.com/partner-with-us", "https://resumeble.com/"]},
+    {"name": "Resumeble", "field": "partner_program", "outcome": "found", "pages": ["https://resumeble.com/partner-with-us"]},
+    {"name": "Resumeble", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://resumeble.com/partner-with-us", "https://resumeble.com/"]},
+    {"name": "Lemon.io", "field": "founded", "outcome": "found", "pages": ["https://lemon.io/about-us/"]},
+    {"name": "Lemon.io", "field": "parent", "outcome": "not-found", "pages": ["https://lemon.io/about-us/"]},
+    {"name": "Lemon.io", "field": "api_status", "outcome": "not-found", "pages": ["https://docs.lemon.io", "https://docs.lemon.io/lemon.io-mcp"]},
+    {"name": "Lemon.io", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://docs.lemon.io/lemon.io-mcp"]},
+    {"name": "99designs", "field": "languages", "outcome": "found", "pages": ["https://99designs.com/about"]},
+    {"name": "99designs", "field": "business_model", "outcome": "found", "pages": ["https://99designs.com/pricing"]},
+    {"name": "Workday Recruiting", "field": "founded", "outcome": "not-found", "pages": ["https://www.workday.com/en-us/company/about-workday/our-story.html"]},
+    {"name": "Workday Recruiting", "field": "languages", "outcome": "found", "pages": ["https://www.workday.com/en-us/choose-country-region.html"]},
+    {"name": "HireVue", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.hirevue.com/about", "https://www.hirevue.com/press-release", "https://www.hirevue.com/platform/integrations"]},
+    {"name": "HireVue", "field": "founded", "outcome": "found", "pages": ["https://www.hirevue.com/about"]},
+    {"name": "Australian Bureau of Statistics", "field": "api_status", "outcome": "not-found", "pages": ["https://dataexplorer.abs.gov.au/", "https://www.abs.gov.au/statistics/consultancy-services", "https://www.abs.gov.au/about/data-services/data-explorer/data-explorer-user-guide"]}
+  ],
+  "blocked": []
+}
