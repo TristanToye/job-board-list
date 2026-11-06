@@ -1,0 +1,149 @@
+{
+  "round": 8,
+  "orders": [
+    {
+      "id": "kelly-services",
+      "name": "Kelly Services",
+      "url": "https://www.kellyservices.com",
+      "likelihood": {"hq_country": "low", "founded": "high", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.kellyservices.com/about-kelly/leadership/?hsLang=en", "https://ir.kellyservices.com/investor-relations/"],
+      "reason": "Our story page already gives 1946 for founded. Homepage has About, Leadership, Press and Investors links but no Developers, API or Partners link. The country selector links to Canada, Mexico and Puerto Rico sites, not a language menu. The Leadership page was not tried before.",
+      "flags": ["founded: review marks it verified (1946) but recorded is empty; the record may need the fact filled in", "languages: the menu seen is a country selector, not a language menu"]
+    },
+    {
+      "id": "revelio-labs",
+      "name": "Revelio Labs",
+      "url": "https://www.reveliolabs.com",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "languages": "none", "business_model": "high", "api_status": "medium", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.reveliolabs.com/press", "https://www.reveliolabs.com/faq", "https://www.data-dictionary.reveliolabs.com/"],
+      "reason": "Homepage links to Pricing, Press, Blog and FAQ, and the pricing page is already known. No Developers or Partners link and no language menu appear. The API section has a Talk to an Expert button and a Data Dictionary link on a subdomain, which may describe API access.",
+      "flags": ["api_status and business_model: review notes say found, but recorded is empty", "api_docs_url: null because /developers returned 404; the homepage links to a Data Dictionary subdomain instead"]
+    },
+    {
+      "id": "manpowergroup",
+      "name": "ManpowerGroup",
+      "url": "https://www.manpowergroup.com",
+      "likelihood": {"parent": "low", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.manpowergroup.com/en/news-releases", "https://www.manpowergroup.com/en/about/ethics"],
+      "reason": "Homepage has About, Leadership, Recognition and Investor Relations links, all already read. No Developers, Partners or Pricing link appears. The language line reads Global (English) as text with no switcher URL. Staffing firm, so a job-board business model does not apply.",
+      "flags": ["hq_country and founded: fields_not_found lists them but the missing list does not, so the two lists disagree", "languages: recorded en, but the site shows no language switcher URL to confirm it"]
+    },
+    {
+      "id": "personio",
+      "name": "Personio",
+      "url": "https://www.personio.com",
+      "likelihood": {"founded": "medium", "parent": "low", "languages": "medium", "business_model": "medium"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 429 to the fetch tool and no links could be read, so no page was seen. Founding year is usually on an About page and languages and pricing are usually linked from a site of this type, but neither was seen.",
+      "flags": ["homepage not read (HTTP 429), so the recorded facts were not re-checked this round", "review_history is null and there are no attempts, so this entry has had no earlier check"]
+    },
+    {
+      "id": "russell-reynolds-associates",
+      "name": "Russell Reynolds Associates",
+      "url": "https://www.russellreynolds.com",
+      "likelihood": {"hq_country": "low", "parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.russellreynolds.com/en/about/newsroom", "https://www.russellreynolds.com/zh-CN", "https://www.russellreynolds.com/ja-JP"],
+      "reason": "Homepage language menu lists English, 中文(中国) and 日本語 (日本), so languages is confirmed on the site. Partnerships was already tried and not found. No Developers, API or Pricing link appears. The newsroom may carry boilerplate on location.",
+      "flags": ["languages: listed as missing, but recorded has languages_supported, so the record and missing list disagree", "partner_program: attempt marked not-found but review fields_not_found is empty"]
+    },
+    {
+      "id": "lightcast",
+      "name": "Lightcast",
+      "url": "https://lightcast.io",
+      "likelihood": {"hq_country": "medium", "founded": "low", "parent": "low", "languages": "low", "business_model": "low", "partner_program": "low"},
+      "try_pages": ["https://lightcast.io/about/leadership", "https://lightcast.io/contact-us"],
+      "reason": "The About page links to Leadership and Board, which was not tried before, and Contact Us, which was not tried either. Those are likely places for an office location. Homepage has a regional menu (US and Canada, UK, Europe, Asia Pacific) but no language selector. No partner link and no pricing link appear; Schedule a Demo is the closest.",
+      "flags": ["review note is cut off mid-sentence after the analyst.lightcast.io link, so part of the earlier finding may be missing"]
+    },
+    {
+      "id": "topresume",
+      "name": "TopResume",
+      "url": "https://www.topresume.com",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "high", "languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.topresume.com/about", "https://www.topresume.com/faq"],
+      "reason": "About is already the source for parent and was read, so parent should be easy to record. Press and About were tried for HQ and founding with no result. Pricing (Plans) was tried without a business model result. Homepage has no Developers link and no language menu.",
+      "flags": ["parent: review marks it found (Career.io family on About) but recorded is empty; the record may need the fact filled in", "business_model: /plans was tried and returned not-found, so pricing details may sit only on a logged-in or quote page"]
+    },
+    {
+      "id": "velvetjobs",
+      "name": "VelvetJobs",
+      "url": "https://www.velvetjobs.com",
+      "likelihood": {"hq_country": "medium", "founded": "low", "parent": "low", "languages": "low", "api_status": "low", "partner_program": "low"},
+      "try_pages": ["https://www.velvetjobs.com/legal/terms_of_use", "https://www.velvetjobs.com/about"],
+      "reason": "Homepage footer links to About, Support, Terms and Privacy. Terms of use usually name the legal operator and its location, which the About page did not give. No Developers, Partners or language link appears.",
+      "flags": []
+    },
+    {
+      "id": "taskrabbit",
+      "name": "TaskRabbit",
+      "url": "https://www.taskrabbit.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.taskrabbit.com/cost-guides", "https://support.taskrabbit.com/hc/en-us"],
+      "reason": "Homepage has About, Careers, Press, Partners and Blog links, and About, Press and the partner page were already tried. No Pricing or Developers link and no language selector appear. The help centre on the support subdomain may explain fees, but that is a different host.",
+      "flags": []
+    },
+    {
+      "id": "prospects",
+      "name": "Prospects",
+      "url": "https://www.prospects.ac.uk",
+      "likelihood": {"founded": "low", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://prospects.ac.uk/post-a-job", "https://prospects.ac.uk/postgraduate-recruiters"],
+      "reason": "Homepage links Prices from £370 to the post-a-job page, so the employer pricing page is known and not yet read. The post-a-job page may also show how employers submit vacancies. About and the press office were already tried for founding. No Developers link and no language menu appear.",
+      "flags": ["hq_country: recorded as UK, but the review note says the country is England, so the ISO code would be GB"]
+    },
+    {
+      "id": "turijobs",
+      "name": "Turijobs",
+      "url": "https://www.turijobs.com/",
+      "likelihood": {"founded": "medium", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low"},
+      "try_pages": ["https://www.turijobs.com/es-es/empresa/turijobs"],
+      "reason": "Headless reader text shows a footer with Quiénes somos, Empresas and Precios, and a language switch ES and ENGLISH, so languages is confirmed on the site. The company profile page is the likely place for founding. The footer Precios link appears in the text but its URL was not captured. No Developers or API link appears.",
+      "flags": ["hq_country: recorded as ES from a company profile location, not a stated headquarters, so the record may overstate it", "languages: recorded es;en matches the language switch seen on the page"]
+    },
+    {
+      "id": "beamery",
+      "name": "Beamery",
+      "url": "https://beamery.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "medium"},
+      "try_pages": ["https://support.beamery.com/", "https://training.beamery.com/"],
+      "reason": "Homepage has no Developers, Pricing or language link. The helpdesk and training subdomains are linked from the page and may hold integration or API documentation. Partners are already recorded.",
+      "flags": []
+    },
+    {
+      "id": "hays",
+      "name": "Hays",
+      "url": "https://www.hays.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.hays.com/en-US/media-centre", "https://www.hays.com/en-US/contact-us"],
+      "reason": "About us and Leaders were already tried for HQ and founding without a result. The Media Center and Contact Us pages were not tried and may carry boilerplate or office details. No Developers, Pricing or Partners link appears; Salary Guides are not pricing.",
+      "flags": ["languages_supported: recorded en only, but the region menu lists Canada (English, French), Germany (German, English) and Japan (Japanese, English)"]
+    },
+    {
+      "id": "jazzhr",
+      "name": "JazzHR",
+      "url": "https://www.jazzhr.com",
+      "likelihood": {"founded": "low", "languages": "low"},
+      "try_pages": ["https://www.employinc.com/company/"],
+      "reason": "The About link goes to the parent company page on employinc.com, which is off this entry's domain, and that is the only likely source for founding. No language menu appears on the JazzHR homepage.",
+      "flags": []
+    },
+    {
+      "id": "lanbide",
+      "name": "Lanbide",
+      "url": "https://www.lanbide.euskadi.eus/",
+      "likelihood": {"parent": "high", "languages": "high", "business_model": "none", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/", "https://opendata.euskadi.eus/nola-berrerabili/-/lanbideren-datu-irekiak/"],
+      "reason": "Language menu shows Euskara and Español, and the About page (Lanbide) was not tried before and may state parent and founding. Open data is linked from the homepage, but it is data, not a developer API. The company register and the placement agencies are regulatory lists, not partner programmes. Lanbide is a public service, so a business model does not apply.",
+      "flags": ["parent and languages: review marks them verified from the homepage, but recorded is empty", "hq_country and founded: listed in fields_not_found but not in the missing list"]
+    },
+    {
+      "id": "99designs",
+      "name": "99designs",
+      "url": "https://www.99designs.com",
+      "likelihood": {"hq_country": "medium", "founded": "low", "api_status": "low", "partner_program": "high", "ingest_methods": "low"},
+      "try_pages": ["https://www.99designs.com/affiliates", "https://www.99designs.com/about/contact", "https://www.99designs.com/about/press-releases"],
+      "reason": "Homepage links Affiliates and Featured partners, so partner_program is likely to be stated there. Contact Us was not tried for HQ. Press releases were not tried for founding. No Developers or API link appears.",
+      "flags": []
+    }
+  ]
+}

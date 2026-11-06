@@ -1,0 +1,180 @@
+{
+  "round": 8,
+  "orders": [
+    {
+      "id": "novoresume",
+      "name": "Novoresume",
+      "url": "https://www.novoresume.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://novoresume.com/about-us", "https://novoresume.com/page/pricing", "https://novoresume.com/page/media-kit"],
+      "reason": "Homepage shows a language menu (Dansk, Deutsch, English UK, English US, Espanol) and a Pricing link; About link present. Developers, API and Partners links are not on the page read, so those are low.",
+      "flags": [
+        "founded, languages and business_model are listed as missing, but earlier attempts recorded them as found on /about-us, /pricing and the homepage; the record may need syncing.",
+        "Founded quote is 'began in 2014' (company start), while the app launched Feb 2016; confirm which date the record should hold."
+      ]
+    },
+    {
+      "id": "lhh",
+      "name": "LHH",
+      "url": "https://www.lhh.com",
+      "likelihood": {"hq_country": "low", "founded": "high", "parent": "high", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.lhh.com/en-us/about-us/our-story", "https://www.lhh.com/en-us/about-us/join-lhh"],
+      "reason": "About Us section links to Our Story, which was not tried for founded. Our Locations and Newsroom were already read with no hq or founding result. No language menu, pricing, developer or partner links on the homepage.",
+      "flags": [
+        "parent is listed as missing, but the review and attempts record it as found (The Adecco Group, on LHH's About page); the record may need syncing."
+      ]
+    },
+    {
+      "id": "egon-zehnder",
+      "name": "Egon Zehnder",
+      "url": "https://www.egonzehnder.com",
+      "likelihood": {"parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.egonzehnder.com/de", "https://www.egonzehnder.com/cn", "https://www.egonzehnder.com/jp"],
+      "reason": "Homepage language menu lists English, Deutsch, Chinese and Japanese with per-language URLs. No Developers, API, Pricing or partner program links; the Partners links are content partnerships (HBR, IMD, Mobius), not a program.",
+      "flags": [
+        "languages is listed as missing, but the record already has languages_supported (en;de;zh;ja) and attempts found it; the record may need syncing."
+      ]
+    },
+    {
+      "id": "successfactors",
+      "name": "SAP SuccessFactors Recruiting",
+      "url": "https://www.successfactors.com",
+      "likelihood": {"founded": "low", "parent": "medium", "languages": "low", "business_model": "low"},
+      "try_pages": ["https://www.sap.com/products/hcm.html?src=sfsf"],
+      "reason": "The homepage returns a 301 redirect to an SAP product page (sap.com/products/hcm.html), a different host, so the entity's own pages could not be read. The redirect target is an SAP product page, which usually states its corporate owner.",
+      "flags": [
+        "Homepage 301-redirects to sap.com/products/hcm.html, so the entry may now be presented as an SAP product; parent and url may need checking. The cross-host redirect was not followed."
+      ]
+    },
+    {
+      "id": "kickresume",
+      "name": "Kickresume",
+      "url": "https://www.kickresume.com",
+      "likelihood": {"hq_country": "high", "founded": "low", "parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.kickresume.com/en/about/", "https://www.kickresume.com/en/press/"],
+      "reason": "About link and Media/Press link in the footer; language menu seen (English, Slovensky, Espanol, Deutsch, Portugues, Italiano) but the options are # placeholders. Pricing and press pages were already read with no result. No Developers, API or Partners links seen.",
+      "flags": [
+        "The record is empty although attempts found hq_country (Bratislava team, no explicit HQ label) and languages; both need review before recording.",
+        "Language menu came from a fetch summary with # placeholder links, so exact wording needs a rendered check."
+      ]
+    },
+    {
+      "id": "harver",
+      "name": "Harver",
+      "url": "https://harver.com",
+      "likelihood": {"parent": "medium", "languages": "low", "business_model": "low", "api_status": "medium"},
+      "try_pages": ["https://harver.com/about-us/", "https://harver.com/integrations/"],
+      "reason": "About Us link was read for founded and hq, but parent was never tried there. The Integrations page is linked and may describe API access. No language menu, pricing or Developers link seen.",
+      "flags": [
+        "hq_country is not in the missing list, although the review records it as not found; the record may be incomplete.",
+        "Footer shows a Harver B.V. copyright; the parent entity may be named on the About page."
+      ]
+    },
+    {
+      "id": "gi-group-holding",
+      "name": "Gi Group Holding",
+      "url": "https://www.gigroup.com",
+      "likelihood": {"parent": "high", "languages": "medium", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.gigroupholding.com", "https://www.gigroup.com/for-employers/", "https://de.gigroup.com"],
+      "reason": "Footer has a 'Visit Gi Group Holding' link, and the About page names Gi Group Holding; attempts found parent. A country menu links to about 30 country subdomains, which may show the local language. No pricing, Developers or partner links seen.",
+      "flags": [
+        "parent is listed as missing, but the review and attempts record it as found; the record may need syncing.",
+        "The url points at the operating brand (gigroup.com), while the entry is Gi Group Holding (gigroupholding.com). Confirm which site the entry should use."
+      ]
+    },
+    {
+      "id": "ashby",
+      "name": "Ashby",
+      "url": "https://www.ashbyhq.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "low"},
+      "try_pages": ["https://www.ashbyhq.com/story", "https://www.ashbyhq.com/team"],
+      "reason": "Company menu links to Our Story (/story) and Team, neither tried for founded. No language menu seen and no press or parent text found.",
+      "flags": []
+    },
+    {
+      "id": "eightfold-ai",
+      "name": "Eightfold AI",
+      "url": "https://eightfold.ai",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "medium", "ingest_methods": "medium"},
+      "try_pages": ["https://eightfold.ai/company/partners/", "https://docs.eightfold.ai/"],
+      "reason": "Footer links to product documentation (docs.eightfold.ai), which may cover API access, and to a partners page, which may list ATS integration routes. No pricing, Developers or language menu seen.",
+      "flags": [
+        "hq_country, founded and parent are not in the missing list, but the review records them as not found; the record may be incomplete.",
+        "Only a 2026 copyright line is on the homepage, so there is no founding year on the pages read."
+      ]
+    },
+    {
+      "id": "codeable",
+      "name": "Codeable",
+      "url": "https://codeable.io",
+      "likelihood": {"parent": "low", "languages": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.codeable.io/manifesto/"],
+      "reason": "Company links are Our story, Our team and Manifesto; the manifesto was not read. No API page, language menu or job-feed text seen. Pricing and partner program were already read.",
+      "flags": []
+    },
+    {
+      "id": "first-advantage",
+      "name": "First Advantage",
+      "url": "https://fadv.com",
+      "likelihood": {"hq_country": "high", "parent": "high", "languages": "high", "business_model": "low", "api_status": "low"},
+      "try_pages": ["https://fadv.com/contact/locations/", "https://investors.fadv.com/"],
+      "reason": "Footer links to Locations (not tried for hq) and an investor relations subdomain (not tried for parent). Region and language menu lists English, Japanese, Korean, Chinese, Spanish and Portuguese. /api/ is linked but was already read with no status found.",
+      "flags": [
+        "languages is listed as missing, but the record has languages_supported and attempts found it; primary language is still not stated."
+      ]
+    },
+    {
+      "id": "japan-dev",
+      "name": "Japan Dev",
+      "url": "https://japan-dev.com/",
+      "likelihood": {"parent": "low", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low"},
+      "try_pages": ["https://japan-dev.com/hire", "https://japan-dev.com/about"],
+      "reason": "Footer For Employers section links to Post Jobs (/hire), which likely states posting terms. Language menu shows a Japanese option (?lang=jp). No Developers, API, Partners or pricing link seen.",
+      "flags": [
+        "languages is listed as missing, but the record has languages_supported (en;ja) and attempts found it; the primary language is still not stated."
+      ]
+    },
+    {
+      "id": "pinpoint",
+      "name": "Pinpoint",
+      "url": "https://www.pinpointhq.com",
+      "likelihood": {"parent": "medium", "languages": "low", "business_model": "low"},
+      "try_pages": ["https://www.pinpointhq.com/about-us", "https://www.pinpointhq.com/news/"],
+      "reason": "About us is linked, but parent was never tried there. The newsroom is linked as a possible source. The pricing link is a request form already tried with no result. No language menu seen.",
+      "flags": []
+    },
+    {
+      "id": "workopolis",
+      "name": "Workopolis",
+      "url": "https://www.workopolis.com",
+      "likelihood": {"business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage is blocked by a Cloudflare challenge (403) on both fetch and the headless reader. The challenge was not bypassed, so no pages could be seen.",
+      "flags": [
+        "Site is blocked by a Cloudflare challenge; the recorded facts could not be checked against it."
+      ]
+    },
+    {
+      "id": "greenhouse",
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.com",
+      "likelihood": {"parent": "medium", "languages": "high"},
+      "try_pages": ["https://www.greenhouse.com/company", "https://www.greenhouse.com/press"],
+      "reason": "Language selector seen (English US, English UK at /uk, Deutsch at /de), with attempts already finding de and uk. Company and Press & awards pages are linked; the company page was read for founded but parent was not tried there.",
+      "flags": [
+        "languages is listed as missing, but attempts found en-US, en-UK and de; languages_supported is not recorded yet."
+      ]
+    },
+    {
+      "id": "meinestadt-de",
+      "name": "meinestadt.de",
+      "url": "https://www.meinestadt.de",
+      "likelihood": {"hq_country": "high", "founded": "high", "languages": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://unternehmen.meinestadt.de", "https://www.meinestadt.de/unternehmen/b2b/werbemoeglichkeiten"],
+      "reason": "Footer links to the company site (unternehmen.meinestadt.de, Unternehmen / Über uns), which is likely to state headquarters and founding. Site content is German. No Developers, API or Partners links; the ad-booking page is paid advertising, not a partner program.",
+      "flags": [
+        "parent is recorded as The Stepstone Group, but the review says parent is not stated on the pages read and lists it as not found; the recorded value is unverified and conflicts with the review."
+      ]
+    }
+  ]
+}
