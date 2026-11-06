@@ -1,0 +1,166 @@
+{
+ "round": 2,
+ "orders": [
+  {
+   "id": "kickresume",
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "languages": "high",
+    "business_model": "high",
+    "partner_program": "medium"
+   },
+   "try_pages": [
+    "https://www.kickresume.com/en/about/",
+    "https://www.kickresume.com/en/press/",
+    "https://www.kickresume.com/en/pricing/",
+    "https://form.typeform.com/to/lr6p9OUR"
+   ],
+   "reason": "Footer shows a language list (English, Slovensky, Espanol, Deutsch, Portugues, Italiano); the link targets are '#' in the capture, so the list is seen but not the URLs. Pricing link seen. About Us and"
+  },
+  {
+   "id": "topresume",
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "business_model",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "business_model": "high",
+    "partner_program": "high"
+   },
+   "try_pages": [
+    "https://www.topresume.com/about",
+    "https://www.topresume.com/press",
+    "https://www.topresume.com/partnerships",
+    "https://www.topresume.com/plans"
+   ],
+   "reason": "Footer links to About, Press Room, Partnerships (the review noted it had no details) and plans. The review tried /about-us, but the footer link is /about, which was not read. No language selector."
+  },
+  {
+   "id": "jobsite",
+   "name": "Jobsite",
+   "url": "https://www.jobsite.co.uk",
+   "fields": [
+    "hq_country",
+    "founded",
+    "business_model",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "business_model": "high",
+    "partner_program": "high"
+   },
+   "try_pages": [
+    "https://www.jobsite.co.uk/recruiters",
+    "https://www.jobsite.co.uk/"
+   ],
+   "reason": "Advertise a job and For recruiters links point at recruiter terms (business model). Footer Partners and About us links seen on the homepage, URLs not captured. Footer names The Stepstone Group UK Ltd."
+  },
+  {
+   "id": "lightcast",
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "fields": [
+    "hq_country",
+    "founded",
+    "api_status"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "api_status": "high"
+   },
+   "try_pages": [
+    "https://lightcast.io/about",
+    "https://lightcast.io/pressroom",
+    "https://lightcast.io/our-data/api/menu"
+   ],
+   "reason": "Footer links to About Lightcast and Press Room. Homepage card links Data Delivery to /our-data/api/menu, which is a real API page, though the review tried /api and /developers (404). Developer link un"
+  },
+  {
+   "id": "jobware",
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.jobware.de/impressum",
+    "https://www.jobware.de/ueber-uns"
+   ],
+   "reason": "Footer links to Impressum (legal notice, which usually names the company seat) and Über uns (company history). No pricing, API, partner or language links seen."
+  },
+  {
+   "id": "jazzhr",
+   "name": "JazzHR",
+   "url": "https://www.jazzhr.com",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.jazzhr.com/pricing"
+   ],
+   "reason": "Header and footer link to Pricing. No language selector. About Employ page states no founding year, HQ or parent."
+  },
+  {
+   "id": "velvetjobs",
+   "name": "VelvetJobs",
+   "url": "https://www.velvetjobs.com",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.velvetjobs.com/about"
+   ],
+   "reason": "Footer links to About, which is not yet read. /pricing returned 404 earlier. No language or region selector seen."
+  },
+  {
+   "id": "lhh",
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.lhh.com/en-us/about-us/our-presence",
+    "https://www.lhh.com/en-us/about-us/newsroom"
+   ],
+   "reason": "Footer About Us section links to Our Locations (/en-us/about-us/our-presence) and Newsroom. No pricing, developers, partner or language menu links seen."
+  }
+ ]
+}

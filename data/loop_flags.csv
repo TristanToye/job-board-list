@@ -14,3 +14,13 @@ round,board_id,flag
 1,recruit-agent,"Recorded parent 'Recruit Holdings Co., Ltd.' is not stated on the homepage read by the earlier review; confirm it on a company page."
 1,resume-genius,"Earlier review says the homepage shows a Swiss address, yet hq_country is still empty; check the About page."
 1,resume-genius,"Language sites are on cvgenius.com, a different domain; confirm they belong to the same entity before using them for languages."
+2,jazzhr,"Parent is blank, but the footer names Employ Inc. as trademark holder and links to About Employ; the site does not say Employ Inc. is the parent."
+2,pinpoint,"Record api_status is public-key with developers.pinpointhq.com, but the homepage links no Developers or API page; the body only says there is an open API."
+2,hays,"Parent is blank, but the footer links to Hays PLC and the copyright is Hays Plc; the review recorded no parent."
+2,egon-zehnder,"languages is listed as missing, but the record already has languages_supported en;de;zh;ja, which matches the language menu."
+2,gi-group-holding,"Parent is blank; the entry is GI GROUP HOLDING S.p.A. itself, so a parent may not apply."
+2,successfactors,"Homepage redirects to an SAP product page, which suggests SAP may be the parent. Not verified, because the site is blocked to us."
+2,russell-reynolds-associates,Record holds languages_supported as en;zh;ja but languages is still listed as missing. The field name may need checking.
+2,codeable,"Review note says the menu lists a Partner program, yet partner_program is still listed as missing. It may need recording rather than searching."
+2,kelly-services,"The earlier review says the about page returned 404, but the site links /about-kelly/ and its sub-pages, so the earlier check may have used a wrong path."
+2,eightfold-ai,"Recorded partner_url is https://eightfold.ai/partners, but the site links to https://eightfold.ai/company/partners/."

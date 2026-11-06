@@ -1,0 +1,147 @@
+{
+ "round": 2,
+ "orders": [
+  {
+   "id": "hays",
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "high",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.haysplc.com",
+    "https://www.hays.com/en-US/about-us",
+    "https://www.hays.com/en-US/about-us/leaders"
+   ],
+   "reason": "Footer links to Hays PLC (haysplc.com) and the copyright reads Copyright Hays Plc 2026. Header shows a region and language dropdown (United States - English, with others). About Us page is linked and "
+  },
+  {
+   "id": "careerminds",
+   "name": "Careerminds",
+   "url": "https://www.careerminds.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "languages": "medium",
+    "business_model": "high",
+    "partner_program": "medium"
+   },
+   "try_pages": [
+    "https://careerminds.com/about-us",
+    "https://careerminds.com/global-capabilities",
+    "https://careerminds.com/global-alliance",
+    "https://careerminds.com/packages"
+   ],
+   "reason": "Pricing & Packages link (/packages) points at business model. About Us and Global Reach pages (the latter describes languages) and Global Alliance page (partnering) are linked. Country menu lists eigh"
+  },
+  {
+   "id": "gi-group-holding",
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "fields": [
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.gigroup.com/about-gi-group/",
+    "https://www.gigroup.com/contact-us/#countries"
+   ],
+   "reason": "Homepage text says 'Since 1998' and links About Gi Group. Country and region selectors seen with links to country sites. No pricing, API or partner program links."
+  },
+  {
+   "id": "breezy",
+   "name": "Breezy HR",
+   "url": "https://breezy.hr",
+   "fields": [
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://breezy.hr/pricing",
+    "https://breezy.hr/about"
+   ],
+   "reason": "Pricing link in footer and menus points at business model. About link (/about) in the Why Breezy menu and footer, not read. No language selector seen."
+  },
+  {
+   "id": "eightfold-ai",
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://eightfold.ai/company/",
+    "https://eightfold.ai/company/press/"
+   ],
+   "reason": "Company menu and footer link to About (/company/) and Newsroom (/company/press/). No pricing, developers, integrations or language links seen."
+  },
+  {
+   "id": "prospects",
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "fields": [
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://prospects.ac.uk/about-us",
+    "https://prospects.ac.uk/prospects-press-office"
+   ],
+   "reason": "Footer links to About us and Press office, which are not yet read. The review says employer advertising prices are on the homepage, but no pricing link appeared in the link list I read. Homepage names"
+  },
+  {
+   "id": "manpowergroup",
+   "name": "ManpowerGroup",
+   "url": "https://www.manpowergroup.com",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.manpowergroup.com/en/about",
+    "https://www.manpowergroup.com/en/about/leadership",
+    "https://www.manpowergroup.com/en/investors"
+   ],
+   "reason": "Menu links to About Us (/en/about, not the /en/about-us path tried before) and Investor Relations. No pricing, developers, partner or language links seen, so the remaining fields are low."
+  }
+ ]
+}

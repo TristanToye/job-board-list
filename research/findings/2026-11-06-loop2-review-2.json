@@ -1,0 +1,149 @@
+{
+  "round": 2,
+  "orders": [
+    {
+      "id": "ashby",
+      "name": "Ashby",
+      "url": "https://www.ashbyhq.com",
+      "likelihood": {"founded": "low", "parent": "low", "languages": "low", "business_model": "high"},
+      "try_pages": ["https://www.ashbyhq.com/pricing"],
+      "reason": "Footer Pricing link (/pricing) points at business model. No About link, language menu or parent statement seen on the homepage.",
+      "flags": []
+    },
+    {
+      "id": "successfactors",
+      "name": "SAP SuccessFactors Recruiting",
+      "url": "https://www.successfactors.com",
+      "likelihood": {"founded": "none", "parent": "none", "languages": "none", "business_model": "none"},
+      "try_pages": [],
+      "reason": "Site returned 403 to fetch and to the headless browser reader, and redirects to sap.com/products/hcm.html, which was also blocked. Not worth another attempt from here.",
+      "flags": ["Homepage redirects to an SAP product page, which suggests SAP may be the parent. Not verified, because the site is blocked to us."]
+    },
+    {
+      "id": "breezy",
+      "name": "Breezy HR",
+      "url": "https://breezy.hr",
+      "likelihood": {"founded": "medium", "parent": "low", "languages": "low", "business_model": "high"},
+      "try_pages": ["https://breezy.hr/pricing", "https://breezy.hr/about"],
+      "reason": "Pricing link in footer and menus points at business model. About link (/about) in the Why Breezy menu and footer, not read. No language selector seen.",
+      "flags": []
+    },
+    {
+      "id": "manpowergroup",
+      "name": "ManpowerGroup",
+      "url": "https://www.manpowergroup.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.manpowergroup.com/en/about", "https://www.manpowergroup.com/en/about/leadership", "https://www.manpowergroup.com/en/investors"],
+      "reason": "Menu links to About Us (/en/about, not the /en/about-us path tried before) and Investor Relations. No pricing, developers, partner or language links seen, so the remaining fields are low.",
+      "flags": []
+    },
+    {
+      "id": "russell-reynolds-associates",
+      "name": "Russell Reynolds Associates",
+      "url": "https://www.russellreynolds.com",
+      "likelihood": {"hq_country": "medium", "founded": "high", "parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://www.russellreynolds.com/en/about/who-we-are/history", "https://www.russellreynolds.com/en/about/who-we-are", "https://www.russellreynolds.com/en/locations", "https://www.russellreynolds.com/en/about/who-we-are/partnerships"],
+      "reason": "History link seen under Who We Are (founding likely there). Language menu lists English, Chinese and Japanese. Locations and Partnerships pages linked; no pricing or developers link.",
+      "flags": ["Record holds languages_supported as en;zh;ja but languages is still listed as missing. The field name may need checking."]
+    },
+    {
+      "id": "lhh",
+      "name": "LHH",
+      "url": "https://www.lhh.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.lhh.com/en-us/about-us/our-presence", "https://www.lhh.com/en-us/about-us/newsroom"],
+      "reason": "Footer About Us section links to Our Locations (/en-us/about-us/our-presence) and Newsroom. No pricing, developers, partner or language menu links seen.",
+      "flags": []
+    },
+    {
+      "id": "first-advantage",
+      "name": "First Advantage",
+      "url": "https://fadv.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "high", "business_model": "low", "api_status": "high"},
+      "try_pages": ["https://fadv.com/about-us/", "https://fadv.com/api/"],
+      "reason": "About Us link (/about-us/, the path the earlier check missed) and an API link (/api/) in the Integrations menu. Region menu lists several English and local-language sites.",
+      "flags": []
+    },
+    {
+      "id": "almalaurea",
+      "name": "AlmaLaurea",
+      "url": "https://www.almalaurea.it/",
+      "likelihood": {"hq_country": "high", "founded": "medium", "languages": "high", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.almalaurea.it/chi-siamo/contatti", "https://www.almalaurea.it/servizi-per-le-imprese", "https://www.almalaurea.it/trasparenza"],
+      "reason": "Contatti link (/chi-siamo/contatti) likely carries the address. Per le imprese page likely covers employer terms. Trasparenza footer link may name the company's founding and legal details. IT/EN switch seen.",
+      "flags": []
+    },
+    {
+      "id": "codeable",
+      "name": "Codeable",
+      "url": "https://codeable.io",
+      "likelihood": {"hq_country": "medium", "founded": "high", "parent": "low", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "high", "ingest_methods": "low"},
+      "try_pages": ["https://www.codeable.io/partner-program/", "https://www.codeable.io/pricing/", "https://www.codeable.io/story/", "https://www.codeable.io/team/"],
+      "reason": "Menus link to Partner program, Pricing and Our story (founding likely there). Our team page may cover location or ownership. No language menu seen.",
+      "flags": ["Review note says the menu lists a Partner program, yet partner_program is still listed as missing. It may need recording rather than searching."]
+    },
+    {
+      "id": "revelio-labs",
+      "name": "Revelio Labs",
+      "url": "https://www.reveliolabs.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.reveliolabs.com/company", "https://www.reveliolabs.com/pricing"],
+      "reason": "Pricing link in the footer Resources list points at business model. About Us link (/company) in nav and footer. No language menu or developers link seen.",
+      "flags": []
+    },
+    {
+      "id": "jobware",
+      "name": "Jobware",
+      "url": "https://www.jobware.de/",
+      "likelihood": {"hq_country": "high", "founded": "medium", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.jobware.de/impressum", "https://www.jobware.de/ueber-uns"],
+      "reason": "Footer links to Impressum (legal notice, which usually names the company seat) and Über uns (company history). No pricing, API, partner or language links seen.",
+      "flags": []
+    },
+    {
+      "id": "kelly-services",
+      "name": "Kelly Services",
+      "url": "https://www.kellyservices.com",
+      "likelihood": {"hq_country": "medium", "founded": "high", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.kellyservices.com/about-kelly/our-story/", "https://www.kellyservices.com/about-kelly/", "https://ir.kellyservices.com/investor-relations/"],
+      "reason": "About Kelly menu links to Our story (founding history likely there) and Leadership. Investors link seen. Country menu lists Canada, Mexico and Puerto Rico sites, which are country sites rather than language options.",
+      "flags": ["The earlier review says the about page returned 404, but the site links /about-kelly/ and its sub-pages, so the earlier check may have used a wrong path."]
+    },
+    {
+      "id": "careerminds",
+      "name": "Careerminds",
+      "url": "https://www.careerminds.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "medium", "business_model": "high", "api_status": "low", "partner_program": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://careerminds.com/about-us", "https://careerminds.com/global-capabilities", "https://careerminds.com/global-alliance", "https://careerminds.com/packages"],
+      "reason": "Pricing & Packages link (/packages) points at business model. About Us and Global Reach pages (the latter describes languages) and Global Alliance page (partnering) are linked. Country menu lists eight national sites.",
+      "flags": []
+    },
+    {
+      "id": "beamery",
+      "name": "Beamery",
+      "url": "https://beamery.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "low", "business_model": "low", "api_status": "low"},
+      "try_pages": ["https://beamery.com/about-us/"],
+      "reason": "About Beamery link (/about-us/) in header and footer, not read. Partner and integration pages seen. No pricing, developers or language links seen.",
+      "flags": []
+    },
+    {
+      "id": "eightfold-ai",
+      "name": "Eightfold AI",
+      "url": "https://eightfold.ai",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://eightfold.ai/company/", "https://eightfold.ai/company/press/"],
+      "reason": "Company menu and footer link to About (/company/) and Newsroom (/company/press/). No pricing, developers, integrations or language links seen.",
+      "flags": ["Recorded partner_url is https://eightfold.ai/partners, but the site links to https://eightfold.ai/company/partners/."]
+    },
+    {
+      "id": "jobsite",
+      "name": "Jobsite",
+      "url": "https://www.jobsite.co.uk",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "high", "ingest_methods": "low"},
+      "try_pages": ["https://www.jobsite.co.uk/recruiters", "https://www.jobsite.co.uk/"],
+      "reason": "Advertise a job and For recruiters links point at recruiter terms (business model). Footer Partners and About us links seen on the homepage, URLs not captured. Footer names The Stepstone Group UK Ltd. Homepage read through the browser reader after a 503 on fetch.",
+      "flags": []
+    }
+  ]
+}

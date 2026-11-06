@@ -1,0 +1,145 @@
+{
+ "round": 2,
+ "orders": [
+  {
+   "id": "codeable",
+   "name": "Codeable",
+   "url": "https://codeable.io",
+   "fields": [
+    "hq_country",
+    "founded",
+    "business_model",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "high",
+    "business_model": "high",
+    "partner_program": "high"
+   },
+   "try_pages": [
+    "https://www.codeable.io/partner-program/",
+    "https://www.codeable.io/pricing/",
+    "https://www.codeable.io/story/",
+    "https://www.codeable.io/team/"
+   ],
+   "reason": "Menus link to Partner program, Pricing and Our story (founding likely there). Our team page may cover location or ownership. No language menu seen."
+  },
+  {
+   "id": "almalaurea",
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "medium",
+    "languages": "high",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://www.almalaurea.it/chi-siamo/contatti",
+    "https://www.almalaurea.it/servizi-per-le-imprese",
+    "https://www.almalaurea.it/trasparenza"
+   ],
+   "reason": "Contatti link (/chi-siamo/contatti) likely carries the address. Per le imprese page likely covers employer terms. Trasparenza footer link may name the company's founding and legal details. IT/EN switc"
+  },
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "url": "https://www.greenhouse.com",
+   "fields": [
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.greenhouse.com/pricing",
+    "https://www.greenhouse.com/uk",
+    "https://www.greenhouse.com/de",
+    "https://www.greenhouse.com/press"
+   ],
+   "reason": "Header and footer link to Pricing; language menu lists English (US), English (UK) and Deutsch. /company and the homepage state no founding year, HQ or parent; investors TPG Growth and The Rise Fund ar"
+  },
+  {
+   "id": "taskrabbit",
+   "name": "TaskRabbit",
+   "url": "https://www.taskrabbit.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.taskrabbit.com/about",
+    "https://www.taskrabbit.com/press",
+    "https://www.taskrabbit.com/blog/partner-lp/"
+   ],
+   "reason": "Footer links to About Us and Press, neither of which is yet read. Partner with Taskrabbit link seen. No pricing or language selector seen."
+  },
+  {
+   "id": "beamery",
+   "name": "Beamery",
+   "url": "https://beamery.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://beamery.com/about-us/"
+   ],
+   "reason": "About Beamery link (/about-us/) in header and footer, not read. Partner and integration pages seen. No pricing, developers or language links seen."
+  },
+  {
+   "id": "egon-zehnder",
+   "name": "Egon Zehnder",
+   "url": "https://www.egonzehnder.com",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.egonzehnder.com/de",
+    "https://www.egonzehnder.com/cn",
+    "https://www.egonzehnder.com/jp",
+    "https://www.egonzehnder.com/newsroom"
+   ],
+   "reason": "Region menu links English, Deutsch, 中文 and 日本語. About Us was already read and gives offices and countries but no HQ or parent. No Developers, API, Pricing or Investors links."
+  },
+  {
+   "id": "ashby",
+   "name": "Ashby",
+   "url": "https://www.ashbyhq.com",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.ashbyhq.com/pricing"
+   ],
+   "reason": "Footer Pricing link (/pricing) points at business model. No About link, language menu or parent statement seen on the homepage."
+  }
+ ]
+}

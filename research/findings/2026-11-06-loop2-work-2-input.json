@@ -1,0 +1,144 @@
+{
+ "round": 2,
+ "orders": [
+  {
+   "id": "first-advantage",
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "api_status"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium",
+    "languages": "high",
+    "api_status": "high"
+   },
+   "try_pages": [
+    "https://fadv.com/about-us/",
+    "https://fadv.com/api/"
+   ],
+   "reason": "About Us link (/about-us/, the path the earlier check missed) and an API link (/api/) in the Integrations menu. Region menu lists several English and local-language sites."
+  },
+  {
+   "id": "russell-reynolds-associates",
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "languages",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "high",
+    "languages": "high",
+    "partner_program": "medium"
+   },
+   "try_pages": [
+    "https://www.russellreynolds.com/en/about/who-we-are/history",
+    "https://www.russellreynolds.com/en/about/who-we-are",
+    "https://www.russellreynolds.com/en/locations",
+    "https://www.russellreynolds.com/en/about/who-we-are/partnerships"
+   ],
+   "reason": "History link seen under Who We Are (founding likely there). Language menu lists English, Chinese and Japanese. Locations and Partnerships pages linked; no pricing or developers link."
+  },
+  {
+   "id": "novoresume",
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "fields": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://novoresume.com/about-us",
+    "https://novoresume.com/page/media-kit"
+   ],
+   "reason": "Language selector seen (Dansk, Deutsch, English UK, English US, Espanol). Pricing link seen. About Us is linked and not yet read. Copenhagen address in footer matches the recorded DK."
+  },
+  {
+   "id": "revelio-labs",
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.reveliolabs.com/company",
+    "https://www.reveliolabs.com/pricing"
+   ],
+   "reason": "Pricing link in the footer Resources list points at business model. About Us link (/company) in nav and footer. No language menu or developers link seen."
+  },
+  {
+   "id": "kelly-services",
+   "name": "Kelly Services",
+   "url": "https://www.kellyservices.com",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://www.kellyservices.com/about-kelly/our-story/",
+    "https://www.kellyservices.com/about-kelly/",
+    "https://ir.kellyservices.com/investor-relations/"
+   ],
+   "reason": "About Kelly menu links to Our story (founding history likely there) and Leadership. Investors link seen. Country menu lists Canada, Mexico and Puerto Rico sites, which are country sites rather than la"
+  },
+  {
+   "id": "pinpoint",
+   "name": "Pinpoint",
+   "url": "https://www.pinpointhq.com",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.pinpointhq.com/request-pricing",
+    "https://www.pinpointhq.com/news/"
+   ],
+   "reason": "Header and footer link to Request pricing. No language selector; the UK and US links are landing pages. About us was already read and gives no founding year, HQ or parent."
+  },
+  {
+   "id": "harver",
+   "name": "Harver",
+   "url": "https://harver.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://harver.com/about-us/",
+    "https://harver.com/newsroom/"
+   ],
+   "reason": "About Us page says 'Founded in 2015', which the record lacks. Footer copyright is Harver B.V., with no HQ stated. Banner says Outmatch is now part of Harver, which does not name a parent."
+  }
+ ]
+}
