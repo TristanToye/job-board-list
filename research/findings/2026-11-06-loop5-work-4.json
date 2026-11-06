@@ -1,0 +1,83 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 5,
+  "boards": [
+    {
+      "name": "Harver", "url": "https://harver.com",
+      "founded": "2015",
+      "ingest_methods": ["ATS integration"],
+      "sources": [
+        {"field": "founded", "url": "https://harver.com/about-us/", "title": "About us", "quote": "Founded in 2015, Harver empowers talent teams to make better-informed hiring decisions using science and data."},
+        {"field": "ingest_methods", "url": "https://harver.com/integrations/", "title": "Integrations", "quote": "That’s why we partner with leading ATS and TM providers to make integration simple and seamless."}
+      ]
+    },
+    {
+      "name": "Egon Zehnder", "url": "https://www.egonzehnder.com",
+      "primary_language": "en",
+      "languages_supported": ["en", "de", "zh", "ja"],
+      "sources": [
+        {"field": "primary_language", "url": "https://www.egonzehnder.com/", "title": "Homepage", "quote": "English"},
+        {"field": "languages_supported", "url": "https://www.egonzehnder.com/", "title": "Homepage", "quote": "Deutsch"},
+        {"field": "languages_supported", "url": "https://www.egonzehnder.com/", "title": "Homepage", "quote": "中文"},
+        {"field": "languages_supported", "url": "https://www.egonzehnder.com/", "title": "Homepage", "quote": "日本語"}
+      ]
+    },
+    {
+      "name": "Greenhouse", "url": "https://www.greenhouse.com",
+      "primary_language": "en",
+      "languages_supported": ["en", "de"],
+      "sources": [
+        {"field": "primary_language", "url": "https://www.greenhouse.com/", "title": "Homepage", "quote": "English (US)"},
+        {"field": "languages_supported", "url": "https://www.greenhouse.com/", "title": "Homepage", "quote": "Deutsch"}
+      ]
+    },
+    {
+      "name": "Prospects", "url": "https://www.prospects.ac.uk",
+      "hq_country": "GB",
+      "sources": [
+        {"field": "hq_country", "url": "https://prospects.ac.uk/about-us", "title": "About us", "quote": "4 Portwall Lane, Bristol, BS1 6NB."},
+        {"field": "hq_country", "url": "https://prospects.ac.uk/about-us", "title": "About us", "quote": "02881024 (England)"}
+      ]
+    },
+    {
+      "name": "VelvetJobs", "url": "https://www.velvetjobs.com",
+      "business_model": "free job posting for employers",
+      "ingest_methods": ["manual posting"],
+      "sources": [
+        {"field": "business_model", "url": "https://www.velvetjobs.com/post-a-job", "title": "Post a job", "quote": "Create an Employer Account & Post Jobs for Free"},
+        {"field": "ingest_methods", "url": "https://www.velvetjobs.com/post-a-job", "title": "Post a job", "quote": "Post Jobs for Free in Minutes"}
+      ]
+    },
+    {
+      "name": "Turijobs", "url": "https://www.turijobs.com/",
+      "hq_country": "ES",
+      "sources": [
+        {"field": "hq_country", "url": "https://www.turijobs.com/es-es/empresa/turijobs", "title": "Company profile", "quote": "Turijobs Barcelona, España Pequeña (10-49 empleados) Nuevas Tecnologías / Internet"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Harver", "url": "https://harver.com", "outcome": "partially-verified", "fields_not_found": ["hq_country"], "method": "fetch", "note": "Founding year and ATS integration route stated. Footer shows Harver B.V. copyright; no headquarters stated on the pages read."},
+    {"name": "Egon Zehnder", "url": "https://www.egonzehnder.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded"], "method": "fetch", "note": "Language menu read on homepage. About Us and Offices pages state no headquarters and no founding year."},
+    {"name": "Greenhouse", "url": "https://www.greenhouse.com", "outcome": "partially-verified", "fields_not_found": ["founded"], "method": "fetch", "note": "Language selector read on homepage. Company page gives only 'over a decade' and a copyright year, not a founding year."},
+    {"name": "Prospects", "url": "https://www.prospects.ac.uk", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Registered office in Bristol and registered number marked (England). Country stated as England, so GB."},
+    {"name": "VelvetJobs", "url": "https://www.velvetjobs.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Free employer posting stated. No prices, subscriptions or pay-per-click seen. Posting is by employer account."},
+    {"name": "Turijobs", "url": "https://www.turijobs.com/", "outcome": "verified", "fields_not_found": [], "method": "mixed", "note": "Homepage returned HTTP 503 to the fetch tool and was read with the headless reader. Company profile lists Barcelona, España as the location. The page does not use the word headquarters, so this is a profile location, not a stated HQ. Footer names Turijobs Tourism Services, S.L.U."}
+  ],
+  "attempts": [
+    {"name": "Harver", "field": "hq_country", "outcome": "not-found", "pages": ["https://harver.com/about-us/", "https://harver.com/"]},
+    {"name": "Harver", "field": "founded", "outcome": "found", "pages": ["https://harver.com/about-us/"]},
+    {"name": "Harver", "field": "ingest_methods", "outcome": "found", "pages": ["https://harver.com/integrations/"]},
+    {"name": "Egon Zehnder", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.egonzehnder.com/about-us", "https://www.egonzehnder.com/offices", "https://www.egonzehnder.com/"]},
+    {"name": "Egon Zehnder", "field": "founded", "outcome": "not-found", "pages": ["https://www.egonzehnder.com/about-us", "https://www.egonzehnder.com/"]},
+    {"name": "Egon Zehnder", "field": "languages", "outcome": "found", "pages": ["https://www.egonzehnder.com/"]},
+    {"name": "Greenhouse", "field": "founded", "outcome": "not-found", "pages": ["https://www.greenhouse.com/company", "https://www.greenhouse.com/"]},
+    {"name": "Greenhouse", "field": "languages", "outcome": "found", "pages": ["https://www.greenhouse.com/"]},
+    {"name": "Prospects", "field": "hq_country", "outcome": "found", "pages": ["https://prospects.ac.uk/about-us"]},
+    {"name": "VelvetJobs", "field": "business_model", "outcome": "found", "pages": ["https://www.velvetjobs.com/post-a-job"]},
+    {"name": "VelvetJobs", "field": "ingest_methods", "outcome": "found", "pages": ["https://www.velvetjobs.com/post-a-job"]},
+    {"name": "Turijobs", "field": "hq_country", "outcome": "found", "pages": ["https://www.turijobs.com/", "https://www.turijobs.com/es-es/empresa/turijobs"]}
+  ],
+  "blocked": []
+}
