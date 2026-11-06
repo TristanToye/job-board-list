@@ -14,13 +14,13 @@
  "region": "Global",
  "niche": "talent sourcing and recruiting intelligence",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription (per seat)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Pricing page lists per-seat pricing, a 14-day free trial and enterprise pricing by quote; no list prices are shown. ATS integration is a listed feature on some tiers. The homepage fetch returned embedded instructions, which were ignored. Language options, parent company and API status were not stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/seekout/",
  "indexable": false,
@@ -33,9 +33,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "hr-tech"
+  "hr-tech",
+  "subscription"
  ],
- "review": null,
+ "review": {
+  "board_id": "seekout",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+  "note": "Homepage and pricing page read; per-seat pricing and ATS integration stated, no language options, parent or API status found.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +53,14 @@
    "title": "SeekOut homepage",
    "accessed": "2026-11-06",
    "quote": "SeekOut brings recruiting intelligence inside the AI your company already approved.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.seekout.com/pricing",
+   "title": "Pricing page",
+   "accessed": "2026-11-06",
+   "quote": "Per-seat pricing adjusts with volume",
    "quote_check": "ok"
   }
  ]

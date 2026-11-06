@@ -14,13 +14,13 @@
  "region": "Global",
  "niche": "AI-powered talent network",
  "parent": "",
- "business_model": "",
+ "business_model": "per hire (Talent Marketplace); other products priced per interview or share of savings",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Pricing page lists three products with different pricing models. Pricing page states no API, partner program, or headquarters or parent. Homepage states no languages or ingest method. The about page returned HTTP 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/braintrust/",
  "indexable": false,
@@ -35,7 +35,14 @@
  "tags": [
   "freelance-platform"
  ],
- "review": null,
+ "review": {
+  "board_id": "braintrust",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+  "note": "Homepage and pricing page read; pricing stated per hire and per interview, while the about page returned HTTP 404 and no API or partner terms were stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +52,14 @@
    "title": "Braintrust homepage",
    "accessed": "2026-11-06",
    "quote": "The AI-powered talent network connecting top professionals with the world's leading companies.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.usebraintrust.com/pricing",
+   "title": "Talent Marketplace pricing",
+   "accessed": "2026-11-06",
+   "quote": "you're only paying for the talent you hire",
    "quote_check": "ok"
   }
  ]

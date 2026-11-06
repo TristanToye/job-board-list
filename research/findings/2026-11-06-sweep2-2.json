@@ -1,135 +1,415 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Resume Genius",
+   "url": "https://www.resumegenius.com",
+   "hq_country": "CH",
+   "notes": "Homepage structured data gives a Lucerne, CH address. Pricing shown is for job seekers only. No employer pricing, API, partner or ingest information found on the pages read.",
+   "sources": [
     {
-      "name": "Resume Genius",
-      "url": "https://www.resumegenius.com",
-      "hq_country": "CH",
-      "notes": "Homepage structured data gives a Lucerne, CH address. Pricing shown is for job seekers only. No employer pricing, API, partner or ingest information found on the pages read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.resumegenius.com", "title": "Homepage structured data", "quote": "\"addressLocality\":\"Lucerne\",\"addressCountry\":\"CH\""},
-        {"field": "languages", "url": "https://www.resumegenius.com", "title": "Homepage support languages", "quote": "we also provide software support in Spanish, German, Italian, and Polish"}
-      ]
+     "field": "existence",
+     "url": "https://www.resumegenius.com",
+     "title": "Homepage structured data",
+     "quote": "\"addressLocality\":\"Lucerne\",\"addressCountry\":\"CH\"",
+     "check": "unreachable"
     },
     {
-      "name": "National Career Service",
-      "url": "https://www.ncs.gov.in",
-      "notes": "Homepage states services are free for job seekers. No employer pricing, language options, API, partner program or job ingest method stated on the homepage.",
-      "sources": [
-        {"field": "business_model", "url": "https://www.ncs.gov.in", "title": "Homepage fee statement", "quote": "NCS services are free of cost."}
-      ]
-    },
-    {
-      "name": "Staffsanté",
-      "url": "https://www.staffsante.fr",
-      "notes": "Homepage is in French only with no language switcher. Footer lists related brands including Hospimedia but does not state the owner. Employer pricing page linked as Solutions et tarifs returned HTTP 404 and was not read.",
-      "sources": []
-    },
-    {
-      "name": "Tecnoempleo",
-      "url": "https://www.tecnoempleo.com/",
-      "primary_language": "es",
-      "languages_supported": ["es", "en"],
-      "business_model": "free first job offer",
-      "api_status": "unknown",
-      "partner_program": "unknown",
-      "ingest_methods": ["integration"],
-      "notes": "Homepage links an API, integrations and partners section that could not be read (the guessed /api URL returned HTTP 404). Integrations are named with HR platforms and job boards. Headquarters and parent not stated.",
-      "sources": [
-        {"field": "languages", "url": "https://www.tecnoempleo.com/", "title": "Homepage language switcher", "quote": "Español\" and \"English"},
-        {"field": "business_model", "url": "https://www.tecnoempleo.com/", "title": "Homepage employer offer", "quote": "Publica gratis tu primera oferta"},
-        {"field": "api_status", "url": "https://www.tecnoempleo.com/", "title": "Homepage API link", "quote": "API, integraciones y partners"},
-        {"field": "ingest_methods", "url": "https://www.tecnoempleo.com/", "title": "Homepage integrations", "quote": "Tenemos integraciones con Bizneo, TalentClue, LinkedIn Jobs, SAP"}
-      ]
-    },
-    {
-      "name": "Empregos.com.br",
-      "url": "https://www.empregos.com.br",
-      "hq_country": "BR",
-      "business_model": "free",
-      "notes": "Homepage gives a Sao Paulo street address; country inferred from the Sao Paulo/SP address. Operating entity named as Persona Assessoria Empresarial LTDA, parent not stated. Only the homepage was read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.empregos.com.br", "title": "Homepage address", "quote": "Avenida São Luís, nº 192, cjto. 8, Centro, São Paulo/SP"},
-        {"field": "business_model", "url": "https://www.empregos.com.br", "title": "Homepage employer posting", "quote": "Anunciar vaga grátis"}
-      ]
-    },
-    {
-      "name": "MojeDelo.com",
-      "url": "https://www.mojedelo.com",
-      "hq_country": "SI",
-      "primary_language": "sl",
-      "notes": "Fetch tool failed. Browser reader returned the page (not blocked). Footer gives a Ljubljana, Slovenia address and names the operator Styria digital marketplaces, d.o.o., which is not stated as a parent. No language switcher found. Posting prices not shown on the homepage.",
-      "sources": [
-        {"field": "existence", "url": "https://www.mojedelo.com/", "title": "Footer address", "quote": "Verovškova ulica 55 Sl - 1000 Ljubljana"},
-        {"field": "languages", "url": "https://www.mojedelo.com/", "title": "Homepage text", "quote": "Zgrabite svojo priložnost"},
-        {"field": "ingest_methods", "url": "https://www.mojedelo.com/", "title": "Employer posting prompt", "quote": "Objavite prosto delovno mesto in dosežite prave kandidate"}
-      ]
-    },
-    {
-      "name": "Torre.ai",
-      "url": "https://torre.ai/",
-      "primary_language": "en",
-      "languages_supported": ["en", "es"],
-      "business_model": "free",
-      "api_status": "unknown",
-      "partner_program": "yes",
-      "partner_url": "https://torre.ai/pricing",
-      "notes": "Homepage lists an API/MCP developer section without stated access terms. Partner types are listed. Footer copyright holder is Torre Labs, Inc. Headquarters and parent not stated.",
-      "sources": [
-        {"field": "languages", "url": "https://torre.ai/", "title": "Homepage language switcher", "quote": "Español (es)"},
-        {"field": "business_model", "url": "https://torre.ai/", "title": "Homepage employer posting", "quote": "POST A JOB (it's always free)"},
-        {"field": "partner_program", "url": "https://torre.ai/pricing", "title": "Partner section", "quote": "Staffing/BPO partners"}
-      ]
-    },
-    {
-      "name": "Profession.hu",
-      "url": "https://www.profession.hu/",
-      "primary_language": "hu",
-      "languages_supported": ["hu", "en"],
-      "business_model": "per post (free Light package available)",
-      "ingest_methods": ["manual posting"],
-      "notes": "Employer page lists job ad packages in HUF excluding VAT, including a free Light package. Ads are submitted through the site's own form. No API, feed or partner information found on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.profession.hu/", "title": "Homepage language selector", "quote": "Magyar"},
-        {"field": "business_model", "url": "https://www.profession.hu/munkaadoknak", "title": "Employer ad packages", "quote": "Light: 0 Ft"},
-        {"field": "business_model", "url": "https://www.profession.hu/munkaadoknak", "title": "Employer ad packages", "quote": "Start: \"55 000 Ft + áfa\""},
-        {"field": "ingest_methods", "url": "https://www.profession.hu/munkaadoknak", "title": "Ad submission button", "quote": "Álláshirdetés feladása"}
-      ]
-    },
-    {
-      "name": "Thai.do",
-      "url": "https://thai.do",
-      "primary_language": "th",
-      "languages_supported": ["th", "en", "ru", "zh", "my"],
-      "business_model": "free, fee when hired",
-      "notes": "Footer language list gives five languages. Employer text says posting is free and payment is due when a hire is made. Homepage and the about page (a placeholder) were read. No HQ, parent, API, partner or ingest information stated.",
-      "sources": [
-        {"field": "languages", "url": "https://thai.do", "title": "Footer language list", "quote": "ไทยEnglishРусский中文မြန်မာ"},
-        {"field": "business_model", "url": "https://thai.do", "title": "Homepage employer pricing", "quote": "ลงประกาศงานฟรี จ่ายเมื่อจ้าง"}
-      ]
-    },
-    {
-      "name": "Braintrust",
-      "url": "https://www.usebraintrust.com",
-      "business_model": "per hire (Talent Marketplace); other products priced per interview or share of savings",
-      "notes": "Pricing page lists three products with different pricing models. Pricing page states no API, partner program, or headquarters or parent. Homepage states no languages or ingest method. The about page returned HTTP 404.",
-      "sources": [
-        {"field": "business_model", "url": "https://www.usebraintrust.com/pricing", "title": "Talent Marketplace pricing", "quote": "you're only paying for the talent you hire"}
-      ]
+     "field": "languages",
+     "url": "https://www.resumegenius.com",
+     "title": "Homepage support languages",
+     "quote": "we also provide software support in Spanish, German, Italian, and Polish",
+     "check": "unreachable"
     }
-  ],
-  "reviews": [
-    {"name": "Resume Genius", "url": "https://www.resumegenius.com", "outcome": "partially-verified", "fields_not_found": ["parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage and about page read; they state a Swiss address and job seeker pricing but no employer model, parent or API."},
-    {"name": "National Career Service", "url": "https://www.ncs.gov.in", "outcome": "partially-verified", "fields_not_found": ["languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage states services are free of cost, but no employer business model, languages, API, partner or ingest method."},
-    {"name": "Staffsanté", "url": "https://www.staffsante.fr", "outcome": "not-stated", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage read; French only, no pricing or API stated. The employer pricing page (Solutions et tarifs) returned HTTP 404."},
-    {"name": "Tecnoempleo", "url": "https://www.tecnoempleo.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program"], "method": "fetch", "note": "Homepage states languages, free first offer and integrations; linked API page returned HTTP 404 at the guessed URL."},
-    {"name": "Empregos.com.br", "url": "https://www.empregos.com.br", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage states a Sao Paulo address and free job posting; no language switcher, parent, API or partner program on the homepage."},
-    {"name": "MojeDelo.com", "url": "https://www.mojedelo.com", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "business_model", "api_status", "partner_program"], "method": "browser", "note": "Fetch failed; browser reader returned HTTP 200 and the homepage, which gives a Ljubljana address but no pricing, language switcher or API."},
-    {"name": "Torre.ai", "url": "https://torre.ai/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "ingest_methods"], "method": "fetch", "note": "Homepage and pricing page read; state free posting, English and Spanish, and partner types, but no headquarters or ingest method."},
-    {"name": "Profession.hu", "url": "https://www.profession.hu/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program"], "method": "fetch", "note": "Homepage and employer page read; state Hungarian and English, HUF ad packages and a free Light package, but no HQ, parent, API or partner program."},
-    {"name": "Thai.do", "url": "https://thai.do", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage read and about page is a placeholder; states five languages and free posting with payment on hire, but no HQ, parent, API or partner."},
-    {"name": "Braintrust", "url": "https://www.usebraintrust.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage and pricing page read; pricing stated per hire and per interview, while the about page returned HTTP 404 and no API or partner terms were stated."}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "notes": "Homepage states services are free for job seekers. No employer pricing, language options, API, partner program or job ingest method stated on the homepage.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.ncs.gov.in",
+     "title": "Homepage fee statement",
+     "quote": "NCS services are free of cost.",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Staffsanté",
+   "url": "https://www.staffsante.fr",
+   "notes": "Homepage is in French only with no language switcher. Footer lists related brands including Hospimedia but does not state the owner. Employer pricing page linked as Solutions et tarifs returned HTTP 404 and was not read.",
+   "sources": []
+  },
+  {
+   "name": "Tecnoempleo",
+   "url": "https://www.tecnoempleo.com/",
+   "primary_language": "es",
+   "languages_supported": [
+    "es",
+    "en"
+   ],
+   "business_model": "free first job offer",
+   "api_status": "unknown",
+   "partner_program": "unknown",
+   "ingest_methods": [
+    "integration"
+   ],
+   "notes": "Homepage links an API, integrations and partners section that could not be read (the guessed /api URL returned HTTP 404). Integrations are named with HR platforms and job boards. Headquarters and parent not stated.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.tecnoempleo.com/",
+     "title": "Homepage language switcher",
+     "quote": "Español\" and \"English",
+     "check": "mismatch"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.tecnoempleo.com/",
+     "title": "Homepage employer offer",
+     "quote": "Publica gratis tu primera oferta",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.tecnoempleo.com/",
+     "title": "Homepage API link",
+     "quote": "API, integraciones y partners",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.tecnoempleo.com/",
+     "title": "Homepage integrations",
+     "quote": "Tenemos integraciones con Bizneo, TalentClue, LinkedIn Jobs, SAP",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Empregos.com.br",
+   "url": "https://www.empregos.com.br",
+   "hq_country": "BR",
+   "business_model": "free",
+   "notes": "Homepage gives a Sao Paulo street address; country inferred from the Sao Paulo/SP address. Operating entity named as Persona Assessoria Empresarial LTDA, parent not stated. Only the homepage was read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.empregos.com.br",
+     "title": "Homepage address",
+     "quote": "Avenida São Luís, nº 192, cjto. 8, Centro, São Paulo/SP",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.empregos.com.br",
+     "title": "Homepage employer posting",
+     "quote": "Anunciar vaga grátis",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "MojeDelo.com",
+   "url": "https://www.mojedelo.com",
+   "hq_country": "SI",
+   "primary_language": "sl",
+   "notes": "Fetch tool failed. Browser reader returned the page (not blocked). Footer gives a Ljubljana, Slovenia address and names the operator Styria digital marketplaces, d.o.o., which is not stated as a parent. No language switcher found. Posting prices not shown on the homepage.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.mojedelo.com/",
+     "title": "Footer address",
+     "quote": "Verovškova ulica 55 Sl - 1000 Ljubljana",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.mojedelo.com/",
+     "title": "Homepage text",
+     "quote": "Zgrabite svojo priložnost",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.mojedelo.com/",
+     "title": "Employer posting prompt",
+     "quote": "Objavite prosto delovno mesto in dosežite prave kandidate",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Torre.ai",
+   "url": "https://torre.ai/",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "es"
+   ],
+   "business_model": "free",
+   "api_status": "unknown",
+   "partner_program": "yes",
+   "partner_url": "https://torre.ai/pricing",
+   "notes": "Homepage lists an API/MCP developer section without stated access terms. Partner types are listed. Footer copyright holder is Torre Labs, Inc. Headquarters and parent not stated.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://torre.ai/",
+     "title": "Homepage language switcher",
+     "quote": "Español (es)",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://torre.ai/",
+     "title": "Homepage employer posting",
+     "quote": "POST A JOB (it's always free)",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://torre.ai/pricing",
+     "title": "Partner section",
+     "quote": "Staffing/BPO partners",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Profession.hu",
+   "url": "https://www.profession.hu/",
+   "primary_language": "hu",
+   "languages_supported": [
+    "hu",
+    "en"
+   ],
+   "business_model": "per post (free Light package available)",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Employer page lists job ad packages in HUF excluding VAT, including a free Light package. Ads are submitted through the site's own form. No API, feed or partner information found on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.profession.hu/",
+     "title": "Homepage language selector",
+     "quote": "Magyar",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.profession.hu/munkaadoknak",
+     "title": "Employer ad packages",
+     "quote": "Light: 0 Ft",
+     "check": "mismatch"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.profession.hu/munkaadoknak",
+     "title": "Employer ad packages",
+     "quote": "Start: \"55 000 Ft + áfa\"",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.profession.hu/munkaadoknak",
+     "title": "Ad submission button",
+     "quote": "Álláshirdetés feladása",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Thai.do",
+   "url": "https://thai.do",
+   "primary_language": "th",
+   "languages_supported": [
+    "th",
+    "en",
+    "ru",
+    "zh",
+    "my"
+   ],
+   "business_model": "free, fee when hired",
+   "notes": "Footer language list gives five languages. Employer text says posting is free and payment is due when a hire is made. Homepage and the about page (a placeholder) were read. No HQ, parent, API, partner or ingest information stated.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://thai.do",
+     "title": "Footer language list",
+     "quote": "ไทยEnglishРусский中文မြန်မာ",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://thai.do",
+     "title": "Homepage employer pricing",
+     "quote": "ลงประกาศงานฟรี จ่ายเมื่อจ้าง",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Braintrust",
+   "url": "https://www.usebraintrust.com",
+   "business_model": "per hire (Talent Marketplace); other products priced per interview or share of savings",
+   "notes": "Pricing page lists three products with different pricing models. Pricing page states no API, partner program, or headquarters or parent. Homepage states no languages or ingest method. The about page returned HTTP 404.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.usebraintrust.com/pricing",
+     "title": "Talent Marketplace pricing",
+     "quote": "you're only paying for the talent you hire",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Resume Genius",
+   "url": "https://www.resumegenius.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and about page read; they state a Swiss address and job seeker pricing but no employer model, parent or API."
+  },
+  {
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage states services are free of cost, but no employer business model, languages, API, partner or ingest method."
+  },
+  {
+   "name": "Staffsanté",
+   "url": "https://www.staffsante.fr",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage read; French only, no pricing or API stated. The employer pricing page (Solutions et tarifs) returned HTTP 404."
+  },
+  {
+   "name": "Tecnoempleo",
+   "url": "https://www.tecnoempleo.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Homepage states languages, free first offer and integrations; linked API page returned HTTP 404 at the guessed URL."
+  },
+  {
+   "name": "Empregos.com.br",
+   "url": "https://www.empregos.com.br",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage states a Sao Paulo address and free job posting; no language switcher, parent, API or partner program on the homepage."
+  },
+  {
+   "name": "MojeDelo.com",
+   "url": "https://www.mojedelo.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Fetch failed; browser reader returned HTTP 200 and the homepage, which gives a Ljubljana address but no pricing, language switcher or API."
+  },
+  {
+   "name": "Torre.ai",
+   "url": "https://torre.ai/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and pricing page read; state free posting, English and Spanish, and partner types, but no headquarters or ingest method."
+  },
+  {
+   "name": "Profession.hu",
+   "url": "https://www.profession.hu/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Homepage and employer page read; state Hungarian and English, HUF ad packages and a free Light package, but no HQ, parent, API or partner program."
+  },
+  {
+   "name": "Thai.do",
+   "url": "https://thai.do",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage read and about page is a placeholder; states five languages and free posting with payment on hire, but no HQ, parent, API or partner."
+  },
+  {
+   "name": "Braintrust",
+   "url": "https://www.usebraintrust.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and pricing page read; pricing stated per hire and per interview, while the about page returned HTTP 404 and no API or partner terms were stated."
+  }
+ ],
+ "blocked": []
 }

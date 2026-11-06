@@ -19,9 +19,11 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Language switcher offers LT and EN; the page itself is in Lithuanian. Employer section links to VIP job ads and services, with no prices shown. Headquarters and parent company are not stated; a Lithuanian phone number appears but no address.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cvmarket-lt/",
  "indexable": false,
  "prominence": {
@@ -35,7 +37,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "cvmarket-lt",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;parent",
+  "note": "Homepage and English page read; language switcher and manual job entry stated, no prices, API, partner program or headquarters.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +55,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.cvmarket.lt",
+   "title": "Employer section",
+   "accessed": "2026-11-06",
+   "quote": "Įvesti darbo skelbimą",
+   "quote_check": "ok"
   }
  ]
 }

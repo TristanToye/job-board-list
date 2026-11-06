@@ -9,21 +9,27 @@
  "countries_served": [
   "PK"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "ur",
+  "zh"
+ ],
  "region": "Global",
  "niche": "general",
- "parent": "",
+ "parent": "Naseeb Networks, Inc.",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
- "confidence": "listed-only",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Footer states the site is a division of Naseeb Networks, Inc. Language switcher lists English with Urdu and Simplified Chinese alternates. Employer products are linked but no prices are shown. Job posting is by the employer's own post form; no feed or API is described.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/rozee-pk/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -36,7 +42,14 @@
   "general",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "rozee-pk",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program",
+  "note": "Homepage states parent, languages and posting links; no prices, API or partner program stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -47,6 +60,30 @@
    "accessed": "2026-11-05",
    "quote": "",
    "quote_check": ""
+  },
+  {
+   "field": "parent",
+   "url": "http://www.rozee.pk/",
+   "title": "Footer copyright",
+   "accessed": "2026-11-06",
+   "quote": "A Division of Naseeb Networks, Inc.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "http://www.rozee.pk/",
+   "title": "Language switcher",
+   "accessed": "2026-11-06",
+   "quote": "English, اردو, 中文(简体)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "http://www.rozee.pk/",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "POST A JOB",
+   "quote_check": "ok"
   }
  ]
 }

@@ -22,8 +22,10 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Footer language switcher offers English and Español. Homepage describes employers and groups posting jobs. A menu lists API and CSR Partners, but the pages behind them could not be opened (404 on guessed URLs), so api_status and partner_program are not confirmed. Site describes itself as a 501(c)(3) based in New York and says it merged with VolunteerMatch; no parent company is named.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/idealist/",
  "indexable": true,
@@ -39,7 +41,14 @@
   "job-board",
   "nonprofit"
  ],
- "review": null,
+ "review": {
+  "board_id": "idealist",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "api_status;partner_program;parent",
+  "note": "Homepage and about page read; API and CSR Partners pages returned 404 on guessed URLs, and the about page names no parent.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,22 @@
    "title": "Idealist homepage",
    "accessed": "2026-11-05",
    "quote": "Connecting more than 200,000 organizations with millions of people looking for social-impact jobs and volunteer opportunities",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.idealist.org",
+   "title": "Footer language switcher",
+   "accessed": "2026-11-06",
+   "quote": "English, Español",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.idealist.org",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "Post a Job Listing",
    "quote_check": "ok"
   }
  ]

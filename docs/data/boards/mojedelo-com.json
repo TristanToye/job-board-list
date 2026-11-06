@@ -3,12 +3,14 @@
  "name": "MojeDelo.com",
  "url": "https://www.mojedelo.com",
  "type": "board",
- "hq_country": "",
+ "hq_country": "SI",
  "founded": "2004",
  "markets": "",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "sl",
+ "languages_supported": [
+  "sl"
+ ],
  "region": "Global",
  "niche": "",
  "parent": "",
@@ -18,10 +20,10 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Fetch tool failed. Browser reader returned the page (not blocked). Footer gives a Ljubljana, Slovenia address and names the operator Styria digital marketplaces, d.o.o., which is not stated as a parent. No language switcher found. Posting prices not shown on the homepage.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/mojedelo-com/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -33,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "mojedelo-com",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;languages;business_model;api_status;partner_program",
+  "note": "Fetch failed; browser reader returned HTTP 200 and the homepage, which gives a Ljubljana address but no pricing, language switcher or API.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -44,6 +53,30 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.mojedelo.com/",
+   "title": "Footer address",
+   "accessed": "2026-11-06",
+   "quote": "Verovškova ulica 55 Sl - 1000 Ljubljana",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.mojedelo.com/",
+   "title": "Homepage text",
+   "accessed": "2026-11-06",
+   "quote": "Zgrabite svojo priložnost",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.mojedelo.com/",
+   "title": "Employer posting prompt",
+   "accessed": "2026-11-06",
+   "quote": "Objavite prosto delovno mesto in dosežite prave kandidate",
+   "quote_check": "ok"
   }
  ]
 }

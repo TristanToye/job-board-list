@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "selor",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Redirects to workingfor.be, which shows a human-verification challenge in fetch and in the browser reader; challenge not attempted.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

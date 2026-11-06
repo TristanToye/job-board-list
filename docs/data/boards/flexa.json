@@ -17,9 +17,11 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Pricing page describes integration of candidate profiles with applicant tracking systems and lists ATS logos. Employer pricing, language options and headquarters are not stated on the pages read. The /about page returned 404.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/flexa/",
  "indexable": false,
  "prominence": {
@@ -31,9 +33,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "ats-integration",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "flexa",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent",
+  "note": "Homepage and pricing page read; ATS integration stated, nothing on headquarters, languages, pricing or API. /about returned 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -44,6 +54,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://flexa.careers/pricing",
+   "title": "Pricing page ATS section",
+   "accessed": "2026-11-06",
+   "quote": "Seamlessly integrate your Flexa profile with your ATS and consolidate your applications",
+   "quote_check": "ok"
   }
  ]
 }

@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "jobs-pl",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 in fetch; browser reader returned a Cloudflare security check with blocked true.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

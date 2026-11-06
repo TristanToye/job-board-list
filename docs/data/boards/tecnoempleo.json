@@ -14,13 +14,15 @@
  "region": "Europe",
  "niche": "tech",
  "parent": "",
- "business_model": "",
+ "business_model": "free first job offer",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "integration"
+ ],
+ "notes": "Homepage links an API, integrations and partners section that could not be read (the guessed /api URL returned HTTP 404). Integrations are named with HR platforms and job boards. Headquarters and parent not stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/tecnoempleo/",
  "indexable": false,
@@ -33,10 +35,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "job-board",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "tecnoempleo",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program",
+  "note": "Homepage states languages, free first offer and integrations; linked API page returned HTTP 404 at the guessed URL.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +56,30 @@
    "title": "tecnoempleo - Portal de Empleo en Informática y Telecomunicaciones",
    "accessed": "2026-11-05",
    "quote": "Portal de empleo especializado en informática y telecomunicaciones",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.tecnoempleo.com/",
+   "title": "Homepage employer offer",
+   "accessed": "2026-11-06",
+   "quote": "Publica gratis tu primera oferta",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.tecnoempleo.com/",
+   "title": "Homepage API link",
+   "accessed": "2026-11-06",
+   "quote": "API, integraciones y partners",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.tecnoempleo.com/",
+   "title": "Homepage integrations",
+   "accessed": "2026-11-06",
+   "quote": "Tenemos integraciones con Bizneo, TalentClue, LinkedIn Jobs, SAP",
    "quote_check": "ok"
   }
  ]

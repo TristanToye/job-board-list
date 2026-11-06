@@ -37,7 +37,14 @@
   "staffing",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "kforce",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage read with no matching statements; /about-us/ and /about returned 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

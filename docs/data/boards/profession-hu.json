@@ -9,21 +9,24 @@
  "countries_served": [
   "HU"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "hu",
+ "languages_supported": [
+  "hu",
+  "en"
+ ],
  "region": "Global",
  "niche": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post (free Light package available)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Employer page lists job ad packages in HUF excluding VAT, including a free Light package. Ads are submitted through the site's own form. No API, feed or partner information found on the pages read.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/profession-hu/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -33,9 +36,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "job-board"
+  "free-to-post",
+  "job-board",
+  "pay-per-post"
  ],
- "review": null,
+ "review": {
+  "board_id": "profession-hu",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program",
+  "note": "Homepage and employer page read; state Hungarian and English, HUF ad packages and a free Light package, but no HQ, parent, API or partner program.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +58,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.profession.hu/",
+   "title": "Homepage language selector",
+   "accessed": "2026-11-06",
+   "quote": "Magyar",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.profession.hu/munkaadoknak",
+   "title": "Employer ad packages",
+   "accessed": "2026-11-06",
+   "quote": "Start: \"55 000 Ft + áfa\"",
+   "quote_check": "ok"
   }
  ]
 }

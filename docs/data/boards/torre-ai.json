@@ -7,21 +7,24 @@
  "founded": "2019",
  "markets": "",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "es"
+ ],
  "region": "Global",
  "niche": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Homepage lists an API/MCP developer section without stated access terms. Partner types are listed. Footer copyright holder is Torre Labs, Inc. Headquarters and parent not stated.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/torre-ai/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -31,9 +34,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "torre-ai",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;ingest_methods",
+  "note": "Homepage and pricing page read; state free posting, English and Spanish, and partner types, but no headquarters or ingest method.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -44,6 +55,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://torre.ai/",
+   "title": "Homepage language switcher",
+   "accessed": "2026-11-06",
+   "quote": "Español (es)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://torre.ai/",
+   "title": "Homepage employer posting",
+   "accessed": "2026-11-06",
+   "quote": "POST A JOB (it's always free)",
+   "quote_check": "ok"
   }
  ]
 }

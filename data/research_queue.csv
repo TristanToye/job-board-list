@@ -331,3 +331,5 @@ eJobs,https://www.ejobs.ro/,ZZ,verification,Cloudflare block (HTTP 403) in brows
 jobvector,https://www.jobvector.de/,ZZ,verification,HTTP 403 and Cloudflare security challenge in browser reader,2026-11-06
 CareerBuilder.ca,http://www.careerbuilder.ca,ZZ,verification,HTTP 403 in fetch (redirected host careerbuilder.com also 403) and in the browser reader,2026-11-06
 Backpacker Job Board,https://www.backpackerjobboard.com.au,ZZ,verification,HTTP 403 Cloudflare challenge; browser reader blocked true,2026-11-06
+Selor,http://www.selor.be,ZZ,verification,"Redirects to workingfor.be, which shows a human-verification challenge; not solved",2026-11-06
+Jobs.pl,https://www.jobs.pl/,ZZ,verification,HTTP 403 and Cloudflare security check; browser reader blocked true,2026-11-06

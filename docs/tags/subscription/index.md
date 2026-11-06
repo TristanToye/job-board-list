@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 58 entries in the directory.
+Employers pay a recurring fee or plan. 59 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -46,6 +46,7 @@ Employers pay a recurring fee or plan. 58 entries in the directory.
 - [PNet](https://jobboardlist.com/boards/pnet/): board
 - [Wanted](https://jobboardlist.com/boards/wanted/): board
 - [Jobberman](https://jobboardlist.com/boards/jobberman/): board
+- [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech
 - [Kalibrr](https://jobboardlist.com/boards/kalibrr/): board
 - [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
 - [Careers24](https://jobboardlist.com/boards/careers24/): board

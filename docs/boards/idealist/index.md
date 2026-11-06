@@ -11,6 +11,7 @@ Idealist is a niche board based in United States, focused on nonprofit.
 - Partner program: unknown
 - Prominence: #4,265 globally, tier Large
 - Tags: Job board, Nonprofit
+- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: API access, partner program, owner.
 - Data status: partly verified against its own site
 
 ## Quick answers
@@ -22,6 +23,8 @@ Idealist is a niche board based in United States, focused on nonprofit.
 ## Sources
 
 - [Idealist homepage](https://www.idealist.org/) (Existence and description, checked 2026-11-05): "Connecting more than 200,000 organizations with millions of people looking for social-impact jobs and volunteer opportunities"
+- [Footer language switcher](https://www.idealist.org) (Languages, checked 2026-11-06): "English, Español"
+- [Homepage](https://www.idealist.org) (How jobs get in, checked 2026-11-06): "Post a Job Listing"
 
 Canonical page: https://jobboardlist.com/boards/idealist/
-Last updated: 2026-11-05
+Last updated: 2026-11-06

@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "iimjobs",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage read with no matching statements; about-us, employers and post-job pages returned 404. Footer links hirist.tech without stating ownership.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

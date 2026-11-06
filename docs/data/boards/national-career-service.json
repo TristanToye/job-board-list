@@ -39,7 +39,14 @@
   "job-board",
   "public-sector"
  ],
- "review": null,
+ "review": {
+  "board_id": "national-career-service",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage states services are free of cost, but no employer business model, languages, API, partner or ingest method.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

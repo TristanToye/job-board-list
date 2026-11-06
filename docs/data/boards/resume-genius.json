@@ -20,7 +20,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage structured data gives a Lucerne, CH address. Pricing shown is for job seekers only. No employer pricing, API, partner or ingest information found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/resume-genius/",
  "indexable": false,
@@ -36,7 +36,14 @@
   "career-services",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "resume-genius",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage and about page read; they state a Swiss address and job seeker pricing but no employer model, parent or API.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +53,14 @@
    "title": "Resume Genius",
    "accessed": "2026-11-06",
    "quote": "Resume Genius is a resume building software helping people in their career journey.",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.resumegenius.com",
+   "title": "Homepage support languages",
+   "accessed": "2026-11-06",
+   "quote": "we also provide software support in Spanish, German, Italian, and Polish",
    "quote_check": "unreachable"
   }
  ]

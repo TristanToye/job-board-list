@@ -36,7 +36,14 @@
   "job-board",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "japan-dev",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "business_model;api_status;partner_program;parent",
+  "note": "Homepage and about page read; languages and job-data sourcing stated, office address shown but no headquarters statement; no pricing, API or partner program.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

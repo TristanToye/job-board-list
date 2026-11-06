@@ -9,8 +9,14 @@
  "countries_served": [
   "TH"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "th",
+ "languages_supported": [
+  "th",
+  "en",
+  "ru",
+  "zh",
+  "my"
+ ],
  "region": "SEA",
  "niche": "",
  "parent": "",
@@ -20,8 +26,8 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Footer language list gives five languages. Employer text says posting is free and payment is due when a hire is made. Homepage and the about page (a placeholder) were read. No HQ, parent, API, partner or ingest information stated.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/thai-do/",
  "indexable": false,
  "prominence": {
@@ -35,7 +41,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "thai-do",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
+  "note": "Homepage read and about page is a placeholder; states five languages and free posting with payment on hire, but no HQ, parent, API or partner.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +59,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://thai.do",
+   "title": "Footer language list",
+   "accessed": "2026-11-06",
+   "quote": "ไทยEnglishРусский中文မြန်မာ",
+   "quote_check": "ok"
   }
  ]
 }
