@@ -36,7 +36,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "staff-service-holdings-co-ltd",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 in the fetch tool and in the browser reader (Access Denied).",
+  "method": "browser"
+ },
  "owners": [
   {
    "id": "recruit",

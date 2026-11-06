@@ -149,3 +149,13 @@ caterer-com,2026-11-06,unreachable,,HTTP 503 on two fetch attempts; no page cont
 nijobs,2026-11-06,unreachable,,HTTP 503 on two fetch attempts; no page content was read.,fetch
 jobsite,2026-11-06,partially-verified,hq_country;languages;business_model;api_status,About page names StepStone as parent; homepage and employers page returned HTTP 503.,fetch
 careerjunction,2026-11-06,partially-verified,hq_country;parent;languages;business_model;api_status,"Partners page confirms partner sites; parent ownership, languages, pricing and API not stated; packages page returned HTTP 404.",fetch
+chandler-macleod-group-limited,2026-11-06,partially-verified,hq_country;languages;business_model;partner_program;ingest_methods,"Parent confirmed as RGF Staffing ANZ within Recruit Group. No pricing, language options or partner program stated. HTTP 200.",mixed
+staff-service-holdings-co-ltd,2026-11-06,blocked,,HTTP 403 in the fetch tool and in the browser reader (Access Denied).,browser
+hotelcareer,2026-11-06,partially-verified,hq_country;parent,"Languages, paid ad prices, ad booking path and an advertising partner page are stated. No headquarters or parent company named.",mixed
+randstad-digital,2026-11-06,partially-verified,business_model;partner_program;ingest_methods,"Headquarters, parent and languages stated. No employer pricing or partner program found.",browser
+torc,2026-11-06,partially-verified,hq_country;languages;business_model;partner_program;ingest_methods,"Parent stated as Randstad Digital. Homepage and community pages state no employer terms, language options or headquarters.",browser
+zarplata-ru,2026-11-06,partially-verified,languages;business_model;partner_program;ingest_methods,Operating company and Moscow address stated on the terms page. No language options or employer pricing found.,browser
+careernet-de,2026-11-06,unreachable,,"Official site could not be identified: careernet.de returns a 301 redirect to stepstone.de, whose page does not mention Careernet.",mixed
+firstnaukri-com,2026-11-06,blocked,,HTTP 403 in the fetch tool and in the browser reader (Access Denied).,mixed
+townwork,2026-11-06,blocked,,HTTP 503 maintenance page in the browser reader. Fetch tool returned an empty body.,mixed
+turijobs,2026-11-06,partially-verified,business_model;partner_program,"Headquarters, parent company, languages and posting path stated. No employer pricing or partner program found.",browser

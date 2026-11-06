@@ -1,6 +1,6 @@
 # Pay per post
 
-Employers pay for each job posting. 11 entries in the directory.
+Employers pay for each job posting. 12 entries in the directory.
 
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
@@ -9,6 +9,7 @@ Employers pay for each job posting. 11 entries in the directory.
 - [CharityJob](https://jobboardlist.com/boards/charityjob/): niche-board
 - [Profession.hu](https://jobboardlist.com/boards/profession-hu/): board
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board
+- [Hotelcareer](https://jobboardlist.com/boards/hotelcareer/): board
 - [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
 - [Berlin Startup Jobs](https://jobboardlist.com/boards/berlin-startup-jobs/): niche-board
 - [Careers.Indigenous.Link](https://jobboardlist.com/boards/careers-indigenous-link/): niche-board, No known API

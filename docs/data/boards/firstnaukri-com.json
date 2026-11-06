@@ -36,7 +36,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "firstnaukri-com",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 in the fetch tool and in the browser reader (Access Denied).",
+  "method": "mixed"
+ },
  "owners": [
   {
    "id": "info-edge-india",

@@ -52,6 +52,7 @@ A site where employers post jobs and candidates search and apply. 237 entries in
 - [Remotive](https://jobboardlist.com/boards/remotive/): niche-board, Open API (no key)
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
+- [Zarplata.ru](https://jobboardlist.com/boards/zarplata-ru/): board
 - [Catho](https://jobboardlist.com/boards/catho/): board
 - [Internshala](https://jobboardlist.com/boards/internshala/): niche-board
 - [Jobsite](https://jobboardlist.com/boards/jobsite/): board
@@ -81,6 +82,5 @@ A site where employers post jobs and candidates search and apply. 237 entries in
 - [Green](https://jobboardlist.com/boards/green/): niche-board
 - [PNet](https://jobboardlist.com/boards/pnet/): board
 - [CareerViet](https://jobboardlist.com/boards/careerviet/): board
-- [Jobboom](https://jobboardlist.com/boards/jobboom/): board
 
 Canonical page: https://jobboardlist.com/tags/job-board/

@@ -36,7 +36,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "townwork",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 503 maintenance page in the browser reader. Fetch tool returned an empty body.",
+  "method": "mixed"
+ },
  "owners": [
   {
    "id": "recruit",

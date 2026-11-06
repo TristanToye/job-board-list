@@ -36,7 +36,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "careernet-de",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "",
+  "note": "Official site could not be identified: careernet.de returns a 301 redirect to stepstone.de, whose page does not mention Careernet.",
+  "method": "mixed"
+ },
  "owners": [
   {
    "id": "the-stepstone",

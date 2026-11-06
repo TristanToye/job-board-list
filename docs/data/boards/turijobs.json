@@ -1,7 +1,7 @@
 {
  "id": "turijobs",
  "name": "Turijobs",
- "url": "",
+ "url": "https://www.turijobs.com/",
  "domains": "",
  "type": "board",
  "hq_country": "",
@@ -9,7 +9,10 @@
  "markets": "",
  "countries_served": [],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "es",
+  "en"
+ ],
  "region": "Global",
  "niche": "",
  "segment": "",
@@ -19,16 +22,18 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
- "confidence": "listed-only",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" Spanish job board for tourism and hospitality. Employers publish offers from an administrator menu. No employer pricing or partner program found on the pages read. Guessed /api and /partners URLs returned 404.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/turijobs/",
  "indexable": false,
  "prominence": {
-  "tier": "",
-  "label": "Not in top 1M",
-  "global_rank": null,
-  "scope": "",
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 264236,
+  "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
   "list_date": "2026-11-06"
  },
@@ -36,7 +41,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "turijobs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "business_model;partner_program",
+  "note": "Headquarters, parent company, languages and posting path stated. No employer pricing or partner program found.",
+  "method": "browser"
+ },
  "owners": [
   {
    "id": "the-stepstone",
@@ -56,6 +68,30 @@
    "title": "Our history",
    "accessed": "2026-11-06",
    "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.turijobs.com/es-es/empresa/turijobs",
+   "title": "Company page footer",
+   "accessed": "2026-11-06",
+   "quote": "A Company part of © The Stepstone Group",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.turijobs.com/",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-06",
+   "quote": "SPANISH ENGLISH",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.turijobs.com/es-es/publicar-oferta-empleo",
+   "title": "Publish a job guide",
+   "accessed": "2026-11-06",
+   "quote": "Dirígete a \"Publicar Oferta\" en tu Menú Administrador.",
    "quote_check": "ok"
   }
  ]

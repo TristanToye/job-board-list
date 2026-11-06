@@ -24220,7 +24220,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "firstnaukri-com",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 403 in the fetch tool and in the browser reader (Access Denied).",
+    "method": "mixed"
+   },
    "owners": [
     {
      "id": "info-edge-india",
@@ -24454,7 +24461,7 @@
   {
    "id": "torc",
    "name": "Torc",
-   "url": "",
+   "url": "https://www.torc.dev/",
    "domains": "",
    "type": "hr-tech",
    "hq_country": "",
@@ -24466,22 +24473,22 @@
    "region": "Global",
    "niche": "",
    "segment": "",
-   "parent": "Randstad N.V.",
+   "parent": "Randstad Digital",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.\" Developer talent community and matching platform. Guessed /api and /for-companies URLs returned 404. No employer pricing, language options or headquarters found on the pages read.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/torc/",
    "indexable": false,
    "prominence": {
     "tier": "",
     "label": "Not in top 1M",
     "global_rank": null,
-    "scope": "",
+    "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
@@ -24489,7 +24496,14 @@
     "hr-tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "torc",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
+    "note": "Parent stated as Randstad Digital. Homepage and community pages state no employer terms, language options or headquarters.",
+    "method": "browser"
+   },
    "owners": [
     {
      "id": "randstad",
@@ -24509,6 +24523,14 @@
      "title": "Randstad Holding - Wikipedia",
      "accessed": "2026-11-06",
      "quote": "In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.torc.dev/",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "With Randstad Digital powered by Torc you can walk through the door",
      "quote_check": "ok"
     }
    ]
@@ -24732,10 +24754,10 @@
   {
    "id": "randstad-digital",
    "name": "Randstad Digital",
-   "url": "",
+   "url": "https://www.randstaddigital.com/",
    "domains": "",
    "type": "staffing",
-   "hq_country": "",
+   "hq_country": "NL",
    "founded": "",
    "markets": "",
    "countries_served": [],
@@ -24744,22 +24766,22 @@
    "region": "Global",
    "niche": "",
    "segment": "",
-   "parent": "Randstad N.V.",
+   "parent": "Randstad",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"Launched in 2023, this global brand consolidates the company's IT, cloud, data, and engineering capabilities.\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"Launched in 2023, this global brand consolidates the company's IT, cloud, data, and engineering capabilities.\" Digital talent and engineering services brand. Guessed /developers and /partnerships URLs returned 404. No public job feed or API found on the pages read.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/randstad-digital/",
    "indexable": false,
    "prominence": {
-    "tier": "",
-    "label": "Not in top 1M",
-    "global_rank": null,
-    "scope": "",
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 803483,
+    "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
@@ -24767,7 +24789,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "randstad-digital",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;partner_program;ingest_methods",
+    "note": "Headquarters, parent and languages stated. No employer pricing or partner program found.",
+    "method": "browser"
+   },
    "owners": [
     {
      "id": "randstad",
@@ -24787,6 +24816,22 @@
      "title": "Randstad Holding - Wikipedia",
      "accessed": "2026-11-06",
      "quote": "Launched in 2023, this global brand consolidates the company's IT, cloud, data, and engineering capabilities.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.randstaddigital.com/about/",
+     "title": "About",
+     "accessed": "2026-11-06",
+     "quote": "Randstad Digital B.V (91235944), Diemermere 25, 1112 TC, Diemen, The Netherlands.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.randstaddigital.com/about/",
+     "title": "About",
+     "accessed": "2026-11-06",
+     "quote": "Backed by the global scale and expertise of Randstad",
      "quote_check": "ok"
     }
    ]
@@ -25029,7 +25074,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "townwork",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 503 maintenance page in the browser reader. Fetch tool returned an empty body.",
+    "method": "mixed"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -25317,7 +25369,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "staff-service-holdings-co-ltd",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 403 in the fetch tool and in the browser reader (Access Denied).",
+    "method": "browser"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -25574,15 +25633,15 @@
    "region": "Global",
    "niche": "",
    "segment": "",
-   "parent": "Recruit Holdings Co., Ltd.",
+   "parent": "RGF Staffing ANZ (within Recruit Group)",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"A staffing company providing a broad range of HR and outsourcing services predominantly in Australia\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"A staffing company providing a broad range of HR and outsourcing services predominantly in Australia\" Australian recruitment agency. Site describes itself as part of RGF Staffing ANZ. No employer pricing, language options or partner program found on the homepage, about and employer pages. Guessed /api and /partners URLs returned 404.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/chandler-macleod-group-limited/",
    "indexable": false,
    "prominence": {
@@ -25597,7 +25656,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "chandler-macleod-group-limited",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
+    "note": "Parent confirmed as RGF Staffing ANZ within Recruit Group. No pricing, language options or partner program stated. HTTP 200.",
+    "method": "mixed"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -25617,6 +25683,14 @@
      "title": "Group companies",
      "accessed": "2026-11-06",
      "quote": "A staffing company providing a broad range of HR and outsourcing services predominantly in Australia",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.chandlermacleod.com/about",
+     "title": "About us",
+     "accessed": "2026-11-06",
+     "quote": "Chandler Macleod is part of RGF Staffing ANZ, which sits within Recruit Group.",
      "quote_check": "ok"
     }
    ]
@@ -25847,10 +25921,10 @@
   {
    "id": "zarplata-ru",
    "name": "Zarplata.ru",
-   "url": "",
+   "url": "https://zarplata.ru/",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "RU",
    "founded": "",
    "markets": "",
    "countries_served": [],
@@ -25866,15 +25940,15 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"Приобретение 100% платформы по поиску работу «Зарплата.ру»\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"Приобретение 100% платформы по поиску работу «Зарплата.ру»\" Russian job site. Its terms page names the operating company as ООО «Хэдхантер» with a Moscow address. No employer pricing or language options found. Guessed /api URL returned 404.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/zarplata-ru/",
    "indexable": false,
    "prominence": {
-    "tier": "",
-    "label": "Not in top 1M",
-    "global_rank": null,
-    "scope": "",
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 53326,
+    "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
@@ -25882,7 +25956,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "zarplata-ru",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;partner_program;ingest_methods",
+    "note": "Operating company and Moscow address stated on the terms page. No language options or employer pricing found.",
+    "method": "browser"
+   },
    "owners": [
     {
      "id": "headhunter",
@@ -25902,6 +25983,14 @@
      "title": "HeadHunter investor relations (company timeline)",
      "accessed": "2026-11-06",
      "quote": "Приобретение 100% платформы по поиску работу «Зарплата.ру»",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://zarplata.ru/zp_rules",
+     "title": "Terms of use",
+     "accessed": "2026-11-06",
+     "quote": "125047 Россия, Москва",
      "quote_check": "ok"
     }
    ]
@@ -26082,7 +26171,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "careernet-de",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "Official site could not be identified: careernet.de returns a 301 redirect to stepstone.de, whose page does not mention Careernet.",
+    "method": "mixed"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -26333,21 +26429,27 @@
    "markets": "",
    "countries_served": [],
    "primary_language": "",
-   "languages_supported": [],
+   "languages_supported": [
+    "de",
+    "en",
+    "fr"
+   ],
    "region": "Global",
    "niche": "",
    "segment": "",
    "parent": "The Stepstone Group",
-   "business_model": "",
+   "business_model": "per post",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "According to its owner's page: \"These core brands each play a crucial role in our portfolio\"",
-   "confidence": "listed-only",
+   "partner_program": "yes",
+   "partner_url": "https://www.hotelcareer.de/arbeitgeber/kooperationen-partner",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "According to its owner's page: \"These core brands each play a crucial role in our portfolio\" Hotel and catering job board. Job ads are booked from the employer pages, with prices from 319 EUR shown. The partner page covers advertising and media partners, not an API or feed. Guessed /api and /partner URLs returned no content.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/hotelcareer/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -26357,10 +26459,19 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "partner-program",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "hotelcareer",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent",
+    "note": "Languages, paid ad prices, ad booking path and an advertising partner page are stated. No headquarters or parent company named.",
+    "method": "mixed"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -26380,6 +26491,38 @@
      "title": "Our core brands",
      "accessed": "2026-11-06",
      "quote": "These core brands each play a crucial role in our portfolio",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.hotelcareer.de/",
+     "title": "Homepage footer language menu",
+     "accessed": "2026-11-06",
+     "quote": "International Deutsch Englisch Französisch",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.hotelcareer.de/arbeitgeber/anzeigen-buchen",
+     "title": "Job ad booking prices",
+     "accessed": "2026-11-06",
+     "quote": "Alle Preise verstehen sich zzgl. MwSt. und beziehen sich auf ein Unternehmen in einer festgelegten Destination.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.hotelcareer.de/arbeitgeber/kooperationen-partner",
+     "title": "Partner page",
+     "accessed": "2026-11-06",
+     "quote": "Werden Sie jetzt unser Partner",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.hotelcareer.de/arbeitgeber/anzeigen-buchen",
+     "title": "Job ad booking page",
+     "accessed": "2026-11-06",
+     "quote": "24/7 Webzugriff und flexible Anzeigenerstellung in Ihrem Kundencenter",
      "quote_check": "ok"
     }
    ]
@@ -26614,7 +26757,7 @@
   {
    "id": "turijobs",
    "name": "Turijobs",
-   "url": "",
+   "url": "https://www.turijobs.com/",
    "domains": "",
    "type": "board",
    "hq_country": "",
@@ -26622,7 +26765,10 @@
    "markets": "",
    "countries_served": [],
    "primary_language": "",
-   "languages_supported": [],
+   "languages_supported": [
+    "es",
+    "en"
+   ],
    "region": "Global",
    "niche": "",
    "segment": "",
@@ -26632,16 +26778,18 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
-   "confidence": "listed-only",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" Spanish job board for tourism and hospitality. Employers publish offers from an administrator menu. No employer pricing or partner program found on the pages read. Guessed /api and /partners URLs returned 404.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/turijobs/",
    "indexable": false,
    "prominence": {
-    "tier": "",
-    "label": "Not in top 1M",
-    "global_rank": null,
-    "scope": "",
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 264236,
+    "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
@@ -26649,7 +26797,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "turijobs",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;partner_program",
+    "note": "Headquarters, parent company, languages and posting path stated. No employer pricing or partner program found.",
+    "method": "browser"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -26669,6 +26824,30 @@
      "title": "Our history",
      "accessed": "2026-11-06",
      "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.turijobs.com/es-es/empresa/turijobs",
+     "title": "Company page footer",
+     "accessed": "2026-11-06",
+     "quote": "A Company part of © The Stepstone Group",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.turijobs.com/",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-06",
+     "quote": "SPANISH ENGLISH",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.turijobs.com/es-es/publicar-oferta-empleo",
+     "title": "Publish a job guide",
+     "accessed": "2026-11-06",
+     "quote": "Dirígete a \"Publicar Oferta\" en tu Menú Administrador.",
      "quote_check": "ok"
     }
    ]

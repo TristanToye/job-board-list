@@ -1,7 +1,7 @@
 {
  "id": "torc",
  "name": "Torc",
- "url": "",
+ "url": "https://www.torc.dev/",
  "domains": "",
  "type": "hr-tech",
  "hq_country": "",
@@ -13,22 +13,22 @@
  "region": "Global",
  "niche": "",
  "segment": "",
- "parent": "Randstad N.V.",
+ "parent": "Randstad Digital",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "According to its owner's page: \"In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.\"",
- "confidence": "listed-only",
+ "notes": "According to its owner's page: \"In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.\" Developer talent community and matching platform. Guessed /api and /for-companies URLs returned 404. No employer pricing, language options or headquarters found on the pages read.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/torc/",
  "indexable": false,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
   "global_rank": null,
-  "scope": "",
+  "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
   "list_date": "2026-11-06"
  },
@@ -36,7 +36,14 @@
   "hr-tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "torc",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
+  "note": "Parent stated as Randstad Digital. Homepage and community pages state no employer terms, language options or headquarters.",
+  "method": "browser"
+ },
  "owners": [
   {
    "id": "randstad",
@@ -56,6 +63,14 @@
    "title": "Randstad Holding - Wikipedia",
    "accessed": "2026-11-06",
    "quote": "In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.torc.dev/",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "With Randstad Digital powered by Torc you can walk through the door",
    "quote_check": "ok"
   }
  ]

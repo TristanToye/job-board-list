@@ -9,21 +9,27 @@
  "markets": "",
  "countries_served": [],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "de",
+  "en",
+  "fr"
+ ],
  "region": "Global",
  "niche": "",
  "segment": "",
  "parent": "The Stepstone Group",
- "business_model": "",
+ "business_model": "per post",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "According to its owner's page: \"These core brands each play a crucial role in our portfolio\"",
- "confidence": "listed-only",
+ "partner_program": "yes",
+ "partner_url": "https://www.hotelcareer.de/arbeitgeber/kooperationen-partner",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "According to its owner's page: \"These core brands each play a crucial role in our portfolio\" Hotel and catering job board. Job ads are booked from the employer pages, with prices from 319 EUR shown. The partner page covers advertising and media partners, not an API or feed. Guessed /api and /partner URLs returned no content.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/hotelcareer/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -33,10 +39,19 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "partner-program",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "hotelcareer",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent",
+  "note": "Languages, paid ad prices, ad booking path and an advertising partner page are stated. No headquarters or parent company named.",
+  "method": "mixed"
+ },
  "owners": [
   {
    "id": "the-stepstone",
@@ -56,6 +71,38 @@
    "title": "Our core brands",
    "accessed": "2026-11-06",
    "quote": "These core brands each play a crucial role in our portfolio",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.hotelcareer.de/",
+   "title": "Homepage footer language menu",
+   "accessed": "2026-11-06",
+   "quote": "International Deutsch Englisch Französisch",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.hotelcareer.de/arbeitgeber/anzeigen-buchen",
+   "title": "Job ad booking prices",
+   "accessed": "2026-11-06",
+   "quote": "Alle Preise verstehen sich zzgl. MwSt. und beziehen sich auf ein Unternehmen in einer festgelegten Destination.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.hotelcareer.de/arbeitgeber/kooperationen-partner",
+   "title": "Partner page",
+   "accessed": "2026-11-06",
+   "quote": "Werden Sie jetzt unser Partner",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.hotelcareer.de/arbeitgeber/anzeigen-buchen",
+   "title": "Job ad booking page",
+   "accessed": "2026-11-06",
+   "quote": "24/7 Webzugriff und flexible Anzeigenerstellung in Ihrem Kundencenter",
    "quote_check": "ok"
   }
  ]

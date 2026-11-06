@@ -8327,7 +8327,7 @@
  {
   "id": "torc",
   "name": "Torc",
-  "url": "",
+  "url": "https://www.torc.dev/",
   "domains": "",
   "type": "hr-tech",
   "hq_country": "",
@@ -8339,15 +8339,15 @@
   "region": "Global",
   "niche": "",
   "segment": "",
-  "parent": "Randstad N.V.",
+  "parent": "Randstad Digital",
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "According to its owner's page: \"In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.\"",
-  "confidence": "listed-only"
+  "notes": "According to its owner's page: \"In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.\" Developer talent community and matching platform. Guessed /api and /for-companies URLs returned 404. No employer pricing, language options or headquarters found on the pages read.",
+  "confidence": "partially-verified"
  },
  {
   "id": "yacht",
@@ -8427,10 +8427,10 @@
  {
   "id": "randstad-digital",
   "name": "Randstad Digital",
-  "url": "",
+  "url": "https://www.randstaddigital.com/",
   "domains": "",
   "type": "staffing",
-  "hq_country": "",
+  "hq_country": "NL",
   "founded": "",
   "markets": "",
   "countries_served": "",
@@ -8439,15 +8439,15 @@
   "region": "Global",
   "niche": "",
   "segment": "",
-  "parent": "Randstad N.V.",
+  "parent": "Randstad",
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "According to its owner's page: \"Launched in 2023, this global brand consolidates the company's IT, cloud, data, and engineering capabilities.\"",
-  "confidence": "listed-only"
+  "notes": "According to its owner's page: \"Launched in 2023, this global brand consolidates the company's IT, cloud, data, and engineering capabilities.\" Digital talent and engineering services brand. Guessed /developers and /partnerships URLs returned 404. No public job feed or API found on the pages read.",
+  "confidence": "partially-verified"
  },
  {
   "id": "randstad-professional",
@@ -8739,15 +8739,15 @@
   "region": "Global",
   "niche": "",
   "segment": "",
-  "parent": "Recruit Holdings Co., Ltd.",
+  "parent": "RGF Staffing ANZ (within Recruit Group)",
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "According to its owner's page: \"A staffing company providing a broad range of HR and outsourcing services predominantly in Australia\"",
-  "confidence": "listed-only"
+  "notes": "According to its owner's page: \"A staffing company providing a broad range of HR and outsourcing services predominantly in Australia\" Australian recruitment agency. Site describes itself as part of RGF Staffing ANZ. No employer pricing, language options or partner program found on the homepage, about and employer pages. Guessed /api and /partners URLs returned 404.",
+  "confidence": "partially-verified"
  },
  {
   "id": "peoplebank-hong-kong",
@@ -8827,10 +8827,10 @@
  {
   "id": "zarplata-ru",
   "name": "Zarplata.ru",
-  "url": "",
+  "url": "https://zarplata.ru/",
   "domains": "",
   "type": "board",
-  "hq_country": "",
+  "hq_country": "RU",
   "founded": "",
   "markets": "",
   "countries_served": "",
@@ -8846,8 +8846,8 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "According to its owner's page: \"Приобретение 100% платформы по поиску работу «Зарплата.ру»\"",
-  "confidence": "listed-only"
+  "notes": "According to its owner's page: \"Приобретение 100% платформы по поиску работу «Зарплата.ру»\" Russian job site. Its terms page names the operating company as ООО «Хэдхантер» with a Moscow address. No employer pricing or language options found. Guessed /api URL returned 404.",
+  "confidence": "partially-verified"
  },
  {
   "id": "caterer-com",
@@ -9010,19 +9010,19 @@
   "markets": "",
   "countries_served": "",
   "primary_language": "",
-  "languages_supported": "",
+  "languages_supported": "de;en;fr",
   "region": "Global",
   "niche": "",
   "segment": "",
   "parent": "The Stepstone Group",
-  "business_model": "",
+  "business_model": "per post",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
-  "ingest_methods": "",
-  "notes": "According to its owner's page: \"These core brands each play a crucial role in our portfolio\"",
-  "confidence": "listed-only"
+  "partner_program": "yes",
+  "partner_url": "https://www.hotelcareer.de/arbeitgeber/kooperationen-partner",
+  "ingest_methods": "manual posting",
+  "notes": "According to its owner's page: \"These core brands each play a crucial role in our portfolio\" Hotel and catering job board. Job ads are booked from the employer pages, with prices from 319 EUR shown. The partner page covers advertising and media partners, not an API or feed. Guessed /api and /partner URLs returned no content.",
+  "confidence": "partially-verified"
  },
  {
   "id": "jobs-ie",
@@ -9102,7 +9102,7 @@
  {
   "id": "turijobs",
   "name": "Turijobs",
-  "url": "",
+  "url": "https://www.turijobs.com/",
   "domains": "",
   "type": "board",
   "hq_country": "",
@@ -9110,7 +9110,7 @@
   "markets": "",
   "countries_served": "",
   "primary_language": "",
-  "languages_supported": "",
+  "languages_supported": "es;en",
   "region": "Global",
   "niche": "",
   "segment": "",
@@ -9120,9 +9120,9 @@
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "",
-  "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
-  "confidence": "listed-only"
+  "ingest_methods": "manual posting",
+  "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" Spanish job board for tourism and hospitality. Employers publish offers from an administrator menu. No employer pricing or partner program found on the pages read. Guessed /api and /partners URLs returned 404.",
+  "confidence": "partially-verified"
  },
  {
   "id": "yourcareergroup",
