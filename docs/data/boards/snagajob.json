@@ -36,7 +36,14 @@
   "general",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "snagajob",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage and employer pricing page read; no language, location, pricing or API statement found. /developers returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

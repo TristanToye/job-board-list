@@ -1,6 +1,6 @@
 # Job boards in United States
 
-36 job boards and related entries based in or serving United States.
+37 job boards and related entries based in or serving United States.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier
@@ -23,6 +23,7 @@
 - [HigherEdJobs](https://jobboardlist.com/boards/higheredjobs/): niche-board, Established tier
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Established tier, Partner-only API
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
+- [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform, Established tier
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board, Small tier
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Small tier, Partner-only API
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Small tier, Partner-only API

@@ -10,18 +10,24 @@
   "TW"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "en",
+  "zh",
+  "vi",
+  "id",
+  "ja"
+ ],
  "region": "East Asia",
  "niche": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Homepage language menu lists English, Chinese (Traditional and Simplified), Vietnamese, Indonesian and Japanese. Employer plans are tiered subscriptions billed annually, listed as US$110.00/mo to US$165.00/mo plus Enterprise (contact sales). No API, partner program or headquarters statement found; employer partner page returned HTTP 404.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cake-cakeresume/",
  "indexable": false,
  "prominence": {
@@ -33,9 +39,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "subscription"
  ],
- "review": null,
+ "review": {
+  "board_id": "cake-cakeresume",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
+  "note": "Homepage language menu, employer pricing and job seeker pricing read; no headquarters, parent, API or partner statement found. /partners returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +60,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.cake.me",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-06",
+   "quote": "English | 中文（繁體） | 中文（简体） | Tiếng Việt | Bahasa Indonesia | 日本語",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.cake.me/pricing/ats",
+   "title": "Employer pricing",
+   "accessed": "2026-11-06",
+   "quote": "US$110.00/mo",
+   "quote_check": "ok"
   }
  ]
 }

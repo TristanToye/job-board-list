@@ -10,7 +10,11 @@
   "ZZ"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "en",
+  "zh",
+  "ja"
+ ],
  "region": "Global",
  "niche": "executive search and leadership advisory",
  "parent": "",
@@ -20,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage language options are English, Chinese (China) and Japanese. Page lists a New York office address but no headquarters statement, parent, pricing, API or partner program. About page returned HTTP 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/russell-reynolds-associates/",
  "indexable": false,
@@ -36,7 +40,14 @@
   "executive",
   "recruiting-services"
  ],
- "review": null,
+ "review": {
+  "board_id": "russell-reynolds-associates",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage lists English, Chinese and Japanese options and a New York office; no headquarters statement, parent, pricing or API found. /en/about-us returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +57,14 @@
    "title": "Russell Reynolds Associates",
    "accessed": "2026-11-06",
    "quote": "We help organizations and individuals answer critical leadership questions to thrive in today's challenging landscape.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.russellreynolds.com",
+   "title": "Homepage language options",
+   "accessed": "2026-11-06",
+   "quote": "English | 中文(中国) | 日本語 (日本)",
    "quote_check": "ok"
   }
  ]

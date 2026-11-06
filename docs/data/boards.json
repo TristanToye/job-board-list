@@ -7343,7 +7343,14 @@
     "job-board",
     "public-sector"
    ],
-   "review": null,
+   "review": {
+    "board_id": "governmentjobs-com",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and careers page read; the site says it is powered by NEOGOV but states no language, location, pricing, API or partner information. /about returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -7447,7 +7454,14 @@
     "general",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "snagajob",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and employer pricing page read; no language, location, pricing or API statement found. /developers returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10276,14 +10290,14 @@
    "languages_supported": [],
    "region": "Europe",
    "niche": "general",
-   "parent": "",
+   "parent": "Ministero del Lavoro e delle Politiche Sociali",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site names the Ministry of Labour and Social Policies as publisher. No language selector, employer pricing, API or partner program statement found on pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/lavoro-gov-it-ministry-of-labour/",
    "indexable": false,
@@ -10302,7 +10316,14 @@
     "job-board",
     "public-sector"
    ],
-   "review": null,
+   "review": {
+    "board_id": "lavoro-gov-it-ministry-of-labour",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage names the Ministry of Labour and Social Policies as publisher; no language selector, pricing, API or partner program statement found. /about returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10312,6 +10333,14 @@
      "title": "Ministry of Labour website",
      "accessed": "2026-11-05",
      "quote": "Il Ministero del Lavoro e delle Politiche Sociali",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.lavoro.gov.it/",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Ministero del Lavoro e delle Politiche Sociali",
      "quote_check": "ok"
     }
    ]
@@ -12719,18 +12748,24 @@
     "TW"
    ],
    "primary_language": "",
-   "languages_supported": [],
+   "languages_supported": [
+    "en",
+    "zh",
+    "vi",
+    "id",
+    "ja"
+   ],
    "region": "East Asia",
    "niche": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "notes": "Homepage language menu lists English, Chinese (Traditional and Simplified), Vietnamese, Indonesian and Japanese. Employer plans are tiered subscriptions billed annually, listed as US$110.00/mo to US$165.00/mo plus Enterprise (contact sales). No API, partner program or headquarters statement found; employer partner page returned HTTP 404.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cake-cakeresume/",
    "indexable": false,
    "prominence": {
@@ -12742,9 +12777,17 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "subscription"
    ],
-   "review": null,
+   "review": {
+    "board_id": "cake-cakeresume",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
+    "note": "Homepage language menu, employer pricing and job seeker pricing read; no headquarters, parent, API or partner statement found. /partners returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -12755,6 +12798,22 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.cake.me",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-06",
+     "quote": "English | 中文（繁體） | 中文（简体） | Tiếng Việt | Bahasa Indonesia | 日本語",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.cake.me/pricing/ats",
+     "title": "Employer pricing",
+     "accessed": "2026-11-06",
+     "quote": "US$110.00/mo",
+     "quote_check": "ok"
     }
    ]
   },
@@ -14829,14 +14888,14 @@
    "languages_supported": [],
    "region": "Global",
    "niche": "talent, technology and advisory services",
-   "parent": "",
+   "parent": "The Adecco Group",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage states the site is part of The Adecco Group. No language options, headquarters, pricing or API statement found on pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/the-adecco-group/",
    "indexable": false,
@@ -14852,7 +14911,14 @@
     "staffing",
     "tech"
    ],
-   "review": null,
+   "review": {
+    "board_id": "the-adecco-group",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states it is part of The Adecco Group; no language options, headquarters, pricing or API statement found. /about-us returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14860,6 +14926,14 @@
      "field": "existence",
      "url": "https://www.adecco.com/",
      "title": "Adecco Group",
+     "accessed": "2026-11-06",
+     "quote": "We are part of The Adecco Group, the world's leading talent, technology and advisory company",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.adecco.com",
+     "title": "Homepage",
      "accessed": "2026-11-06",
      "quote": "We are part of The Adecco Group, the world's leading talent, technology and advisory company",
      "quote_check": "ok"
@@ -14878,7 +14952,9 @@
     "ZZ"
    ],
    "primary_language": "",
-   "languages_supported": [],
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "workforce solutions and staffing",
    "parent": "",
@@ -14888,7 +14964,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage language selector shows only English. Homepage names brands Manpower, Experis and Talent Solutions. No headquarters, parent, pricing or API statement found; about page returned HTTP 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/manpowergroup/",
    "indexable": false,
@@ -14903,7 +14979,14 @@
    "tags": [
     "staffing"
    ],
-   "review": null,
+   "review": {
+    "board_id": "manpowergroup",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage shows English as the only language option; no headquarters, pricing, API or partner statement found. /en/about-us returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14913,6 +14996,14 @@
      "title": "ManpowerGroup",
      "accessed": "2026-11-06",
      "quote": "connecting millions of people to meaningful work and hundreds of thousands of organizations to skilled talent.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.manpowergroup.com",
+     "title": "Homepage language selector",
+     "accessed": "2026-11-06",
+     "quote": "(English)",
      "quote_check": "ok"
     }
    ]
@@ -15510,7 +15601,11 @@
     "ZZ"
    ],
    "primary_language": "",
-   "languages_supported": [],
+   "languages_supported": [
+    "en",
+    "zh",
+    "ja"
+   ],
    "region": "Global",
    "niche": "executive search and leadership advisory",
    "parent": "",
@@ -15520,7 +15615,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage language options are English, Chinese (China) and Japanese. Page lists a New York office address but no headquarters statement, parent, pricing, API or partner program. About page returned HTTP 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/russell-reynolds-associates/",
    "indexable": false,
@@ -15536,7 +15631,14 @@
     "executive",
     "recruiting-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "russell-reynolds-associates",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage lists English, Chinese and Japanese options and a New York office; no headquarters statement, parent, pricing or API found. /en/about-us returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15546,6 +15648,14 @@
      "title": "Russell Reynolds Associates",
      "accessed": "2026-11-06",
      "quote": "We help organizations and individuals answer critical leadership questions to thrive in today's challenging landscape.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com",
+     "title": "Homepage language options",
+     "accessed": "2026-11-06",
+     "quote": "English | 中文(中国) | 日本語 (日本)",
      "quote_check": "ok"
     }
    ]
@@ -16143,27 +16253,30 @@
    "name": "Lemon.io",
    "url": "https://lemon.io",
    "type": "freelance-platform",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "",
    "markets": "",
    "countries_served": [
     "ZZ"
    ],
    "primary_language": "",
-   "languages_supported": [],
+   "languages_supported": [
+    "en",
+    "de"
+   ],
    "region": "Global",
    "niche": "freelance developer marketplace",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
+   "partner_program": "yes",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage lists English and Deutsch, and a US postal address in Delaware. Pricing page describes a prepaid subscription model with no upfront recruitment or setup fees. Homepage links a partner program and an MCP documentation page (docs.lemon.io), which was not read; no public API access model was stated on pages read. Partner page returned HTTP 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/lemon-io/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -16174,9 +16287,18 @@
    },
    "tags": [
     "freelance-platform",
+    "partner-program",
+    "subscription",
     "tech"
    ],
-   "review": null,
+   "review": {
+    "board_id": "lemon-io",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;api_status;ingest_methods",
+    "note": "Homepage, pricing and address read; the homepage links an MCP documentation page at docs.lemon.io, which was not read, and no API access model was stated. /partners returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16186,6 +16308,38 @@
      "title": "Lemon.io homepage",
      "accessed": "2026-11-06",
      "quote": "Lemon.io is a platform that connects businesses with top freelance developers.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://lemon.io",
+     "title": "Footer address",
+     "accessed": "2026-11-06",
+     "quote": "2093 Philadelphia Pike #7666, Claymont, Delaware 19703, USA",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://lemon.io",
+     "title": "Homepage language options",
+     "accessed": "2026-11-06",
+     "quote": "English | Deutsch",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://lemon.io/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "Lemon.io operates on a prepaid subscription model, so you pay for the developer's working hours ahead of time.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://lemon.io",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Partner program",
      "quote_check": "ok"
     }
    ]
@@ -16699,13 +16853,15 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "partner_program": "yes",
+   "partner_url": "https://fadv.com/partners/",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Regional language selector lists English, Espanol, Portugues, Japanese, Korean and Chinese options. Partner page invites partners to join the network via a form. Site states 100+ ATS and HCM integrated partners and mentions flexible APIs, but no API access model, developer documentation or headquarters statement was found; developers page returned HTTP 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/first-advantage/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -16715,10 +16871,19 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "ats-integration",
     "hr-tech",
+    "partner-program",
     "tech"
    ],
-   "review": null,
+   "review": {
+    "board_id": "first-advantage",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status",
+    "note": "Homepage, partner page and language selector read; the site mentions flexible APIs without stating how to get access, and no headquarters, parent or pricing statement found. /about/ returned HTTP 404 and /developers/ returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16728,6 +16893,22 @@
      "title": "First Advantage homepage",
      "accessed": "2026-11-06",
      "quote": "Background screening technology designed to help you move faster, mitigate risk, and create a better experience.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://fadv.com/partners/",
+     "title": "Partner program",
+     "accessed": "2026-11-06",
+     "quote": "Join our partner network and grow with First Advantage.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://fadv.com",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "100+ ATS and HCM integrated partners",
      "quote_check": "ok"
     }
    ]
@@ -17245,7 +17426,14 @@
    "tags": [
     "outplacement"
    ],
-   "review": null,
+   "review": {
+    "board_id": "velvetjobs",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage read; no language, location, pricing, API or partner statement found. /pricing returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [

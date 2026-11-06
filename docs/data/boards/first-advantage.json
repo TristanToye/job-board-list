@@ -17,13 +17,15 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "partner_program": "yes",
+ "partner_url": "https://fadv.com/partners/",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Regional language selector lists English, Espanol, Portugues, Japanese, Korean and Chinese options. Partner page invites partners to join the network via a form. Site states 100+ ATS and HCM integrated partners and mentions flexible APIs, but no API access model, developer documentation or headquarters statement was found; developers page returned HTTP 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/first-advantage/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -33,10 +35,19 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "ats-integration",
   "hr-tech",
+  "partner-program",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "first-advantage",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status",
+  "note": "Homepage, partner page and language selector read; the site mentions flexible APIs without stating how to get access, and no headquarters, parent or pricing statement found. /about/ returned HTTP 404 and /developers/ returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +57,22 @@
    "title": "First Advantage homepage",
    "accessed": "2026-11-06",
    "quote": "Background screening technology designed to help you move faster, mitigate risk, and create a better experience.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://fadv.com/partners/",
+   "title": "Partner program",
+   "accessed": "2026-11-06",
+   "quote": "Join our partner network and grow with First Advantage.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://fadv.com",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "100+ ATS and HCM integrated partners",
    "quote_check": "ok"
   }
  ]

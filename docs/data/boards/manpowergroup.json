@@ -10,7 +10,9 @@
   "ZZ"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "workforce solutions and staffing",
  "parent": "",
@@ -20,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage language selector shows only English. Homepage names brands Manpower, Experis and Talent Solutions. No headquarters, parent, pricing or API statement found; about page returned HTTP 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/manpowergroup/",
  "indexable": false,
@@ -35,7 +37,14 @@
  "tags": [
   "staffing"
  ],
- "review": null,
+ "review": {
+  "board_id": "manpowergroup",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage shows English as the only language option; no headquarters, pricing, API or partner statement found. /en/about-us returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +54,14 @@
    "title": "ManpowerGroup",
    "accessed": "2026-11-06",
    "quote": "connecting millions of people to meaningful work and hundreds of thousands of organizations to skilled talent.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.manpowergroup.com",
+   "title": "Homepage language selector",
+   "accessed": "2026-11-06",
+   "quote": "(English)",
    "quote_check": "ok"
   }
  ]

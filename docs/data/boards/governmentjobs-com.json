@@ -38,7 +38,14 @@
   "job-board",
   "public-sector"
  ],
- "review": null,
+ "review": {
+  "board_id": "governmentjobs-com",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage and careers page read; the site says it is powered by NEOGOV but states no language, location, pricing, API or partner information. /about returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

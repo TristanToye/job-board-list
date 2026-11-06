@@ -13,14 +13,14 @@
  "languages_supported": [],
  "region": "Global",
  "niche": "talent, technology and advisory services",
- "parent": "",
+ "parent": "The Adecco Group",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage states the site is part of The Adecco Group. No language options, headquarters, pricing or API statement found on pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/the-adecco-group/",
  "indexable": false,
@@ -36,7 +36,14 @@
   "staffing",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "the-adecco-group",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage states it is part of The Adecco Group; no language options, headquarters, pricing or API statement found. /about-us returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -44,6 +51,14 @@
    "field": "existence",
    "url": "https://www.adecco.com/",
    "title": "Adecco Group",
+   "accessed": "2026-11-06",
+   "quote": "We are part of The Adecco Group, the world's leading talent, technology and advisory company",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.adecco.com",
+   "title": "Homepage",
    "accessed": "2026-11-06",
    "quote": "We are part of The Adecco Group, the world's leading talent, technology and advisory company",
    "quote_check": "ok"

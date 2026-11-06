@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 54 entries in the directory.
+Employers pay a recurring fee or plan. 56 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -13,6 +13,7 @@ Employers pay a recurring fee or plan. 54 entries in the directory.
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
 - [Rikunabi](https://jobboardlist.com/boards/rikunabi/): board, No known API
 - [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Partner-only API
+- [Cake (CakeResume)](https://jobboardlist.com/boards/cake-cakeresume/): board
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
@@ -36,6 +37,7 @@ Employers pay a recurring fee or plan. 54 entries in the directory.
 - [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
 - [NaukriGulf](https://jobboardlist.com/boards/naukrigulf/): board
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
+- [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
 - [OCC Mundial](https://jobboardlist.com/boards/occ-mundial/): board
 - [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
 - [foundit](https://jobboardlist.com/boards/foundit/): board

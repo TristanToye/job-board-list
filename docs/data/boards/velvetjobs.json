@@ -35,7 +35,14 @@
  "tags": [
   "outplacement"
  ],
- "review": null,
+ "review": {
+  "board_id": "velvetjobs",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage read; no language, location, pricing, API or partner statement found. /pricing returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
