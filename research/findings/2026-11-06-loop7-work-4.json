@@ -1,0 +1,53 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 7,
+  "boards": [
+    {
+      "name": "JOBTOPGUN",
+      "url": "https://www.jobtopgun.com/th",
+      "languages": {"primary_language": "th", "languages_supported": ["th"]},
+      "business_model": "Paid packages starting from 2,000 baht, with paid credits to reveal candidate contact details",
+      "ingest_methods": ["manual posting"],
+      "sources": [
+        {"field": "languages", "url": "https://www.jobtopgun.com/th", "title": "Home page language menu", "quote": "ภาษาไทย"},
+        {"field": "business_model", "url": "https://www.jobtopgun.com/salesonline/th", "title": "Sales online page, pricing", "quote": "ซื้อครั้งแรกรับส่วนลด 79% เริ่มต้น 2,000 บาทเท่านั้น"},
+        {"field": "ingest_methods", "url": "https://www.jobtopgun.com/salesonline/th", "title": "Sales online page, package features", "quote": "ลงประกาศงาน บน App"}
+      ]
+    },
+    {
+      "name": "Vagas.com",
+      "url": "https://www.vagas.com.br",
+      "founded": "1999",
+      "sources": [
+        {"field": "founded", "url": "https://www.vagas.com.br/institucional/quem-somos", "title": "Quem somos", "quote": "Desde 1999 definimos estratégias para promover encontros de valor entre profissionais e empresas."}
+      ]
+    },
+    {
+      "name": "Wantedly",
+      "url": "https://www.wantedly.com/",
+      "business_model": "Unlimited job postings and a 0 yen hiring success fee, as stated on the home page. Plan and price details are not on the pages read; the service guide download only says it covers the pricing structure.",
+      "sources": [
+        {"field": "business_model", "url": "https://www.wantedly.com/", "title": "Home page, recruiter section", "quote": "掲載数無制限・採用成功報酬０円"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "JOBTOPGUN", "url": "https://www.jobtopgun.com/th", "outcome": "partially-verified", "fields_not_found": ["hq_country"], "method": "fetch", "note": "Language menu lists only Thai, pricing and posting pages read. The copyright names Super Resume Co., Ltd. but no headquarters country is stated; the home page says only that the platform is a leading Thai job platform, which describes its market, not its headquarters."},
+    {"name": "Vagas.com", "url": "https://www.vagas.com.br", "outcome": "partially-verified", "fields_not_found": ["parent", "ingest_methods"], "method": "fetch", "note": "Quem somos gives the 1999 start with founding partners named in the timeline. Footer names Vagas Tecnologia as operator but no parent or holding company. No feed, XML, API or integration text found on the pages read."},
+    {"name": "Wantedly", "url": "https://www.wantedly.com/", "outcome": "partially-verified", "fields_not_found": [], "method": "fetch", "note": "The try_page redirects (301) to lp.wantedly.com/visit/material/1, a page titled as a Wantedly service overview; it mentions pricing structure but states no fees. The home page gives the unlimited postings and zero success fee quote, so the business model is only partly stated."},
+    {"name": "HigherEdJobs", "url": "https://www.higheredjobs.com", "outcome": "unreachable", "fields_not_found": ["founded"], "method": "mixed", "note": "Home page and /about both return status 200 with an empty body from the fetch reader and the headless browser reader, so no text could be read or quoted."}
+  ],
+  "attempts": [
+    {"name": "JOBTOPGUN", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.jobtopgun.com/th", "https://www.jobtopgun.com/salesonline/th", "https://www.jobtopgun.com/contact-us"]},
+    {"name": "JOBTOPGUN", "field": "languages", "outcome": "found", "pages": ["https://www.jobtopgun.com/th"]},
+    {"name": "JOBTOPGUN", "field": "business_model", "outcome": "found", "pages": ["https://www.jobtopgun.com/salesonline/th"]},
+    {"name": "JOBTOPGUN", "field": "ingest_methods", "outcome": "found", "pages": ["https://www.jobtopgun.com/salesonline/th"]},
+    {"name": "Vagas.com", "field": "founded", "outcome": "found", "pages": ["https://www.vagas.com.br/institucional/quem-somos"]},
+    {"name": "Vagas.com", "field": "parent", "outcome": "not-found", "pages": ["https://www.vagas.com.br/institucional/quem-somos", "https://www.vagas.com.br/"]},
+    {"name": "Vagas.com", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://www.vagas.com.br/institucional/quem-somos", "https://www.vagas.com.br/"]},
+    {"name": "Wantedly", "field": "business_model", "outcome": "found", "pages": ["https://www.wantedly.com/external_links/serviceguide_download", "https://lp.wantedly.com/visit/material/1", "https://www.wantedly.com/"]},
+    {"name": "HigherEdJobs", "field": "founded", "outcome": "not-found", "pages": ["https://www.higheredjobs.com/about", "https://www.higheredjobs.com/"]}
+  ],
+  "blocked": []
+}
