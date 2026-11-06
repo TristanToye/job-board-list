@@ -12,21 +12,25 @@
   "CH",
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "de",
+ "languages_supported": [
+  "de"
+ ],
  "region": "Europe",
  "niche": "freelancer and project platform for the DACH region",
  "parent": "",
- "business_model": "",
+ "business_model": "pay per success (10% service fee)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "German-language platform. Employers pay a 10% service fee only on a successful engagement and can write their own project listings. No HQ, parent, API or partner program was stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/freelance-de/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -38,7 +42,14 @@
  "tags": [
   "freelance-platform"
  ],
- "review": null,
+ "review": {
+  "board_id": "freelance-de",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+  "note": "Services page states a 10% success fee and employer-written listings; no HQ, parent, API or language options stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +59,30 @@
    "title": "freelance.de homepage",
    "accessed": "2026-11-06",
    "quote": "Mit mehr als 126.100+ aktuellen Freelancer-Profilen ist freelance.de die größte Plattform im DACH Raum.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.freelance.de",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "Die Plattform für Freelancer und Projektanbieter",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.freelance.de/Services-Unternehmen",
+   "title": "Services for companies",
+   "accessed": "2026-11-06",
+   "quote": "Nur bei erfolgreicher Beauftragung eines Freelancers werden Ihnen 10% des Freelancer-Honorars als Servicegebühr berechnet",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.freelance.de/Services-Unternehmen",
+   "title": "Services for companies",
+   "accessed": "2026-11-06",
+   "quote": "Schreiben Sie Ihre Projekte selbst aus und suchen Sie aktiv nach passenden Freelancern.",
    "quote_check": "ok"
   }
  ]

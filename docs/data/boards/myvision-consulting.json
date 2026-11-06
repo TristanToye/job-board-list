@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "myvision-consulting",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "About page states a Tokyo address; site is Japanese only; no fee, API or partner statement could be matched to a verbatim quote.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

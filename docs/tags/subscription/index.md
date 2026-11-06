@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 59 entries in the directory.
+Employers pay a recurring fee or plan. 60 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -55,6 +55,7 @@ Employers pay a recurring fee or plan. 59 entries in the directory.
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
 - [Jobs.ca](https://jobboardlist.com/boards/jobs-ca/): board, No known API
 - [Bumeran](https://jobboardlist.com/boards/bumeran/): board
+- [WeLoveDevs](https://jobboardlist.com/boards/welovedevs/): niche-board
 - [Mynavi](https://jobboardlist.com/boards/mynavi/): board, No known API
 - [The Muse](https://jobboardlist.com/boards/themuse/): board+employer-brand, Self-serve API key
 - [FINN.no Jobs](https://jobboardlist.com/boards/finn-no/): classifieds+board, Partner-only API

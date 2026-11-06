@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "national-labor-gateway",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 503 in fetch; browser reader returned status 502 with blocked set to true.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

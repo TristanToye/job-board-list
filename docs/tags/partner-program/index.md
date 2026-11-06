@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 62 entries in the directory.
+Has a partner or integration program. 64 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -25,6 +25,7 @@ Has a partner or integration program. 62 entries in the directory.
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
+- [Rezi](https://jobboardlist.com/boards/rezi/): career-services, Self-serve API key
 - [Beamery](https://jobboardlist.com/boards/beamery/): hr-tech
 - [Harver](https://jobboardlist.com/boards/harver/): hr-tech
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
@@ -36,6 +37,7 @@ Has a partner or integration program. 62 entries in the directory.
 - [Jobijoba](https://jobboardlist.com/boards/jobijoba/): aggregator, API key on request
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Partner-only API
 - [Banco Nacional de Empregos](https://jobboardlist.com/boards/banco-nacional-de-empregos/): board
+- [Textkernel](https://jobboardlist.com/boards/textkernel/): lmi
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API

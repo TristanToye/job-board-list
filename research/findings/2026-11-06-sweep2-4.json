@@ -1,0 +1,340 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Rezi",
+   "url": "https://www.rezi.ai",
+   "api_status": "public-key",
+   "api_docs_url": "https://www.rezi.ai/employers/candidate-sourcing-api",
+   "business_model": "pay per use",
+   "partner_program": "yes",
+   "partner_url": "https://www.rezi.ai/employers/candidate-sourcing-api",
+   "notes": "Rezi is a resume-building product for job seekers. The employer-side Sourcing API is priced per search, message and candidate. The API docs link goes to console.rezi.ai, a subdomain of the board's own domain. No HQ, parent or language options were stated on the pages read.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.rezi.ai/employers/candidate-sourcing-api",
+     "title": "Sourcing API pricing",
+     "quote": "$0.50 per search",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.rezi.ai/employers/candidate-sourcing-api",
+     "title": "Rezi API",
+     "quote": "Get API key",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.rezi.ai/employers/candidate-sourcing-api",
+     "title": "Sourcing API",
+     "quote": "every partner gets an engineer from our team",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "WeLoveDevs",
+   "url": "https://welovedevs.com",
+   "business_model": "free posting or subscription",
+   "notes": "Employer page says a job ad can be posted free, or a subscription can be taken for access to the CV library. No API, partner program or language options were stated on the pages read.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://welovedevs.com/recruteurs/recruter-un-developpeur",
+     "title": "Employer page",
+     "quote": "vous pourrez diffuser une annonce gratuitement, ou souscrire à un abonnement",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "StudentJob ES",
+   "url": "https://www.studentjob.es/",
+   "primary_language": "es",
+   "business_model": "free",
+   "parent": "YoungCapital",
+   "notes": "Page is Spanish and shows no language switcher, only links to separate country sites. Footer names YoungCapital as parent. Employers can post a job for free according to the homepage. No API or partner program details were stated.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.studentjob.es/",
+     "title": "Homepage",
+     "quote": "1554 OFERTAS DE EMPLEO PARA ESTUDIANTES, RECIÉN GRADUADOS Y JÓVENES PROFESIONALES",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.studentjob.es/",
+     "title": "Footer",
+     "quote": "StudentJob International es una compañía subsidiaria de YoungCapital",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.studentjob.es/",
+     "title": "Homepage employer section",
+     "quote": "Publica una oferta de trabajo gratis en StudentJob hoy",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Cia de Talentos",
+   "url": "https://www.ciadetalentos.com.br",
+   "primary_language": "pt",
+   "notes": "Homepage is Portuguese. The language control shows only PT, linking to /pt/, so no other languages were confirmed. No HQ, pricing, API or partner program was stated on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.ciadetalentos.com.br",
+     "title": "Homepage",
+     "quote": "Conectamos pessoas incríveis às empresas que vão transformar suas carreiras.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "MyVision Consulting",
+   "url": "https://my-vision.co.jp/",
+   "primary_language": "ja",
+   "hq_country": "JP",
+   "notes": "Company address is in Minato-ku, Tokyo. The site is entirely Japanese with no language selector. A fee-model statement was seen only in a fetch summary and could not be matched to a verbatim quote, so no business model is recorded.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://my-vision.co.jp/about",
+     "title": "Company overview",
+     "quote": "〒105-6924 東京都港区虎ノ門4-1-1",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://my-vision.co.jp/about",
+     "title": "Company overview",
+     "quote": "会社概要",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Textkernel",
+   "url": "https://www.textkernel.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "nl",
+    "fr",
+    "de"
+   ],
+   "parent": "Bullhorn",
+   "partner_program": "yes",
+   "partner_url": "https://www.textkernel.com/become-a-partner/",
+   "notes": "Vendor of recruitment AI software, not a job board. Brand reads Textkernel by Bullhorn. Language links are EN, NL, FR and DE. No HQ, pricing, API or ingest method was stated on the pages read.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.textkernel.com",
+     "title": "Homepage cookie notice",
+     "quote": "Textkernel by Bullhorn uses cookies and other tracking technologies",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.textkernel.com",
+     "title": "Homepage language switcher",
+     "quote": "NL",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.textkernel.com/become-a-partner/",
+     "title": "Become a partner",
+     "quote": "ACQUIRE CUSTOMERS AND FOSTER LOYALTY WITH SEAMLESS INTEGRATION OF OUR PROVEN, AI-POWERED TECHNOLOGY.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "freelance.de",
+   "url": "https://www.freelance.de",
+   "primary_language": "de",
+   "business_model": "pay per success (10% service fee)",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "German-language platform. Employers pay a 10% service fee only on a successful engagement and can write their own project listings. No HQ, parent, API or partner program was stated on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.freelance.de",
+     "title": "Homepage",
+     "quote": "Die Plattform für Freelancer und Projektanbieter",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.freelance.de/Services-Unternehmen",
+     "title": "Services for companies",
+     "quote": "Nur bei erfolgreicher Beauftragung eines Freelancers werden Ihnen 10% des Freelancer-Honorars als Servicegebühr berechnet",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.freelance.de/Services-Unternehmen",
+     "title": "Services for companies",
+     "quote": "Schreiben Sie Ihre Projekte selbst aus und suchen Sie aktiv nach passenden Freelancern.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Rezi",
+   "url": "https://www.rezi.ai",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Sourcing API page states per-use pricing, API key access and partner engineers; homepage and footer state no HQ, parent or language options."
+  },
+  {
+   "name": "GradConnection (SEEK Grad)",
+   "url": "https://www.gradconnection.com/",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage lists country sites and a SEEK Grad footer; /about and /about-us returned HTTP 404 and no employer, API or partner pages are linked."
+  },
+  {
+   "name": "WeLoveDevs",
+   "url": "https://welovedevs.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Employer page states free posting or subscription; no HQ, language options, API or partner program stated."
+  },
+  {
+   "name": "StudentJob ES",
+   "url": "https://www.studentjob.es/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Footer states subsidiary of YoungCapital and homepage states free job posting; no HQ, language switcher or API stated."
+  },
+  {
+   "name": "Cia de Talentos",
+   "url": "https://www.ciadetalentos.com.br",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage is Portuguese with a PT-only language control; employer page states no pricing, API or partner program."
+  },
+  {
+   "name": "National Labor Gateway",
+   "url": "https://www.taqat.sa/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HTTP 503 in fetch; browser reader returned status 502 with blocked set to true."
+  },
+  {
+   "name": "Unified National Employment Platform",
+   "url": "https://jadarat.sa/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HTTP 403 in fetch; browser reader returned status 403 with a Cloudflare block page and blocked set to true."
+  },
+  {
+   "name": "MyVision Consulting",
+   "url": "https://my-vision.co.jp/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "About page states a Tokyo address; site is Japanese only; no fee, API or partner statement could be matched to a verbatim quote."
+  },
+  {
+   "name": "Textkernel",
+   "url": "https://www.textkernel.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Pages state Bullhorn as brand parent, four language links and a partner program; no HQ, pricing or API stated."
+  },
+  {
+   "name": "freelance.de",
+   "url": "https://www.freelance.de",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Services page states a 10% success fee and employer-written listings; no HQ, parent, API or language options stated."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "National Labor Gateway",
+   "url": "https://www.taqat.sa/",
+   "reason": "HTTP 503 in fetch; browser reader status 502, blocked true"
+  },
+  {
+   "name": "Unified National Employment Platform",
+   "url": "https://jadarat.sa/",
+   "reason": "HTTP 403 in fetch; browser reader status 403, Cloudflare block, blocked true"
+  }
+ ]
+}

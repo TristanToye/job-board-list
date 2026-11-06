@@ -37,7 +37,7 @@
 - [Russell Reynolds Associates](https://jobboardlist.com/boards/russell-reynolds-associates/): recruiting-services, Established tier
 - [Egon Zehnder](https://jobboardlist.com/boards/egon-zehnder/): recruiting-services, Established tier
 - [VelvetJobs](https://jobboardlist.com/boards/velvetjobs/): outplacement, Established tier
-- [Rezi](https://jobboardlist.com/boards/rezi/): career-services, Established tier
+- [Rezi](https://jobboardlist.com/boards/rezi/): career-services, Established tier, Self-serve API key
 - [Beamery](https://jobboardlist.com/boards/beamery/): hr-tech, Established tier
 - [Gem](https://jobboardlist.com/boards/gem/): hr-tech, Established tier
 - [Hays](https://jobboardlist.com/boards/hays/): staffing, Established tier

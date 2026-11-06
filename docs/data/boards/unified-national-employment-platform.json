@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "unified-national-employment-platform",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 in fetch; browser reader returned status 403 with a Cloudflare block page and blocked set to true.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

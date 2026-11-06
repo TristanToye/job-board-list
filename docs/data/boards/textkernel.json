@@ -9,21 +9,26 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "nl",
+  "fr",
+  "de"
+ ],
  "region": "Global",
  "niche": "real-time private and labour market data",
- "parent": "",
+ "parent": "Bullhorn",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.textkernel.com/become-a-partner/",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Vendor of recruitment AI software, not a job board. Brand reads Textkernel by Bullhorn. Language links are EN, NL, FR and DE. No HQ, pricing, API or ingest method was stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/textkernel/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -34,9 +39,17 @@
  },
  "tags": [
   "lmi",
+  "partner-program",
   "trades-labour"
  ],
- "review": null,
+ "review": {
+  "board_id": "textkernel",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;ingest_methods",
+  "note": "Pages state Bullhorn as brand parent, four language links and a partner program; no HQ, pricing or API stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +59,30 @@
    "title": "Textkernel home page",
    "accessed": "2026-11-06",
    "quote": "Structured real-time private and labor market data for 15 key markets in North America, Europe, and APAC.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.textkernel.com",
+   "title": "Homepage cookie notice",
+   "accessed": "2026-11-06",
+   "quote": "Textkernel by Bullhorn uses cookies and other tracking technologies",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.textkernel.com",
+   "title": "Homepage language switcher",
+   "accessed": "2026-11-06",
+   "quote": "NL",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.textkernel.com/become-a-partner/",
+   "title": "Become a partner",
+   "accessed": "2026-11-06",
+   "quote": "ACQUIRE CUSTOMERS AND FOSTER LOYALTY WITH SEAMLESS INTEGRATION OF OUR PROVEN, AI-POWERED TECHNOLOGY.",
    "quote_check": "ok"
   }
  ]

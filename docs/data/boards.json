@@ -7857,7 +7857,14 @@
     "graduates-students",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "gradconnection-seek-grad",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage lists country sites and a SEEK Grad footer; /about and /about-us returned HTTP 404 and no employer, API or partner pages are linked.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -8982,13 +8989,13 @@
    "region": "Europe",
    "niche": "tech",
    "parent": "",
-   "business_model": "",
+   "business_model": "free posting or subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Employer page says a job ad can be posted free, or a subscription can be taken for access to the CV library. No API, partner program or language options were stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/welovedevs/",
    "indexable": false,
@@ -9001,10 +9008,19 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "free-to-post",
     "job-board",
+    "subscription",
     "tech"
    ],
-   "review": null,
+   "review": {
+    "board_id": "welovedevs",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+    "note": "Employer page states free posting or subscription; no HQ, language options, API or partner program stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9014,6 +9030,14 @@
      "title": "WeLoveDevs homepage",
      "accessed": "2026-11-05",
      "quote": "WeLoveDevs.com is a job site for tech professionals seeking happiness at work.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://welovedevs.com/recruteurs/recruter-un-developpeur",
+     "title": "Employer page",
+     "accessed": "2026-11-06",
+     "quote": "vous pourrez diffuser une annonce gratuitement, ou souscrire à un abonnement",
      "quote_check": "ok"
     }
    ]
@@ -9541,21 +9565,23 @@
    "countries_served": [
     "ES"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "es",
+   "languages_supported": [
+    "es"
+   ],
    "region": "Europe",
    "niche": "graduates",
-   "parent": "",
-   "business_model": "",
+   "parent": "YoungCapital",
+   "business_model": "free",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Page is Spanish and shows no language switcher, only links to separate country sites. Footer names YoungCapital as parent. Employers can post a job for free according to the homepage. No API or partner program details were stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/studentjob-es/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -9565,10 +9591,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "free-to-post",
     "graduates-students",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "studentjob-es",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+    "note": "Footer states subsidiary of YoungCapital and homepage states free job posting; no HQ, language switcher or API stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9578,6 +9612,30 @@
      "title": "Portal de empleo para jóvenes - Buscar trabajo | StudentJob ES",
      "accessed": "2026-11-05",
      "quote": "Nuestro foco principal es conectar estudiantes con su negocio de manera rápida y efectiva.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.studentjob.es/",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "1554 OFERTAS DE EMPLEO PARA ESTUDIANTES, RECIÉN GRADUADOS Y JÓVENES PROFESIONALES",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.studentjob.es/",
+     "title": "Footer",
+     "accessed": "2026-11-06",
+     "quote": "StudentJob International es una compañía subsidiaria de YoungCapital",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.studentjob.es/",
+     "title": "Homepage employer section",
+     "accessed": "2026-11-06",
+     "quote": "Publica una oferta de trabajo gratis en StudentJob hoy",
      "quote_check": "ok"
     }
    ]
@@ -10233,8 +10291,10 @@
    "countries_served": [
     "BR"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "pt",
+   "languages_supported": [
+    "pt"
+   ],
    "region": "Latin America",
    "niche": "graduates",
    "parent": "",
@@ -10244,7 +10304,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage is Portuguese. The language control shows only PT, linking to /pt/, so no other languages were confirmed. No HQ, pricing, API or partner program was stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cia-de-talentos/",
    "indexable": false,
@@ -10260,7 +10320,14 @@
     "graduates-students",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "cia-de-talentos",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage is Portuguese with a PT-only language control; employer page states no pricing, API or partner program.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10269,6 +10336,14 @@
      "url": "https://www.ciadetalentos.com.br/",
      "title": "Cia de Talentos homepage",
      "accessed": "2026-11-05",
+     "quote": "Conectamos pessoas incríveis às empresas que vão transformar suas carreiras.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.ciadetalentos.com.br",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
      "quote": "Conectamos pessoas incríveis às empresas que vão transformar suas carreiras.",
      "quote_check": "ok"
     }
@@ -11644,7 +11719,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "national-labor-gateway",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 503 in fetch; browser reader returned status 502 with blocked set to true.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -12589,7 +12671,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "unified-national-employment-platform",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 403 in fetch; browser reader returned status 403 with a Cloudflare block page and blocked set to true.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -13550,7 +13639,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "myvision-consulting",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "About page states a Tokyo address; site is Japanese only; no fee, API or partner statement could be matched to a verbatim quote.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15526,21 +15622,26 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "nl",
+    "fr",
+    "de"
+   ],
    "region": "Global",
    "niche": "real-time private and labour market data",
-   "parent": "",
+   "parent": "Bullhorn",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.textkernel.com/become-a-partner/",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Vendor of recruitment AI software, not a job board. Brand reads Textkernel by Bullhorn. Language links are EN, NL, FR and DE. No HQ, pricing, API or ingest method was stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/textkernel/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -15551,9 +15652,17 @@
    },
    "tags": [
     "lmi",
+    "partner-program",
     "trades-labour"
    ],
-   "review": null,
+   "review": {
+    "board_id": "textkernel",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;ingest_methods",
+    "note": "Pages state Bullhorn as brand parent, four language links and a partner program; no HQ, pricing or API stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15563,6 +15672,30 @@
      "title": "Textkernel home page",
      "accessed": "2026-11-06",
      "quote": "Structured real-time private and labor market data for 15 key markets in North America, Europe, and APAC.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.textkernel.com",
+     "title": "Homepage cookie notice",
+     "accessed": "2026-11-06",
+     "quote": "Textkernel by Bullhorn uses cookies and other tracking technologies",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.textkernel.com",
+     "title": "Homepage language switcher",
+     "accessed": "2026-11-06",
+     "quote": "NL",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.textkernel.com/become-a-partner/",
+     "title": "Become a partner",
+     "accessed": "2026-11-06",
+     "quote": "ACQUIRE CUSTOMERS AND FOSTER LOYALTY WITH SEAMLESS INTEGRATION OF OUR PROVEN, AI-POWERED TECHNOLOGY.",
      "quote_check": "ok"
     }
    ]
@@ -17431,21 +17564,25 @@
     "CH",
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "de",
+   "languages_supported": [
+    "de"
+   ],
    "region": "Europe",
    "niche": "freelancer and project platform for the DACH region",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per success (10% service fee)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "German-language platform. Employers pay a 10% service fee only on a successful engagement and can write their own project listings. No HQ, parent, API or partner program was stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/freelance-de/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -17457,7 +17594,14 @@
    "tags": [
     "freelance-platform"
    ],
-   "review": null,
+   "review": {
+    "board_id": "freelance-de",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+    "note": "Services page states a 10% success fee and employer-written listings; no HQ, parent, API or language options stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -17467,6 +17611,30 @@
      "title": "freelance.de homepage",
      "accessed": "2026-11-06",
      "quote": "Mit mehr als 126.100+ aktuellen Freelancer-Profilen ist freelance.de die größte Plattform im DACH Raum.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.freelance.de",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Die Plattform für Freelancer und Projektanbieter",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.freelance.de/Services-Unternehmen",
+     "title": "Services for companies",
+     "accessed": "2026-11-06",
+     "quote": "Nur bei erfolgreicher Beauftragung eines Freelancers werden Ihnen 10% des Freelancer-Honorars als Servicegebühr berechnet",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.freelance.de/Services-Unternehmen",
+     "title": "Services for companies",
+     "accessed": "2026-11-06",
+     "quote": "Schreiben Sie Ihre Projekte selbst aus und suchen Sie aktiv nach passenden Freelancern.",
      "quote_check": "ok"
     }
    ]
@@ -19176,16 +19344,16 @@
    "region": "Global",
    "niche": "AI resume builder",
    "parent": "",
-   "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "business_model": "pay per use",
+   "api_status": "public-key",
+   "api_docs_url": "https://www.rezi.ai/employers/candidate-sourcing-api",
+   "partner_program": "yes",
+   "partner_url": "https://www.rezi.ai/employers/candidate-sourcing-api",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Rezi is a resume-building product for job seekers. The employer-side Sourcing API is priced per search, message and candidate. The API docs link goes to console.rezi.ai, a subdomain of the board's own domain. No HQ, parent or language options were stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/rezi/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -19195,9 +19363,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "career-services"
+    "api-self-serve",
+    "career-services",
+    "partner-program"
    ],
-   "review": null,
+   "review": {
+    "board_id": "rezi",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;ingest_methods",
+    "note": "Sourcing API page states per-use pricing, API key access and partner engineers; homepage and footer state no HQ, parent or language options.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -19207,6 +19384,30 @@
      "title": "Rezi",
      "accessed": "2026-11-06",
      "quote": "Build, improve, and tailor your resume with AI.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.rezi.ai/employers/candidate-sourcing-api",
+     "title": "Sourcing API pricing",
+     "accessed": "2026-11-06",
+     "quote": "$0.50 per search",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.rezi.ai/employers/candidate-sourcing-api",
+     "title": "Rezi API",
+     "accessed": "2026-11-06",
+     "quote": "Get API key",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.rezi.ai/employers/candidate-sourcing-api",
+     "title": "Sourcing API",
+     "accessed": "2026-11-06",
+     "quote": "every partner gets an engineer from our team",
      "quote_check": "ok"
     }
    ]

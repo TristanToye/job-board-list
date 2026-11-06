@@ -9,21 +9,23 @@
  "countries_served": [
   "ES"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "es",
+ "languages_supported": [
+  "es"
+ ],
  "region": "Europe",
  "niche": "graduates",
- "parent": "",
- "business_model": "",
+ "parent": "YoungCapital",
+ "business_model": "free",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Page is Spanish and shows no language switcher, only links to separate country sites. Footer names YoungCapital as parent. Employers can post a job for free according to the homepage. No API or partner program details were stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/studentjob-es/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -33,10 +35,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "graduates-students",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "studentjob-es",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+  "note": "Footer states subsidiary of YoungCapital and homepage states free job posting; no HQ, language switcher or API stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +56,30 @@
    "title": "Portal de empleo para jóvenes - Buscar trabajo | StudentJob ES",
    "accessed": "2026-11-05",
    "quote": "Nuestro foco principal es conectar estudiantes con su negocio de manera rápida y efectiva.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.studentjob.es/",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "1554 OFERTAS DE EMPLEO PARA ESTUDIANTES, RECIÉN GRADUADOS Y JÓVENES PROFESIONALES",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.studentjob.es/",
+   "title": "Footer",
+   "accessed": "2026-11-06",
+   "quote": "StudentJob International es una compañía subsidiaria de YoungCapital",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.studentjob.es/",
+   "title": "Homepage employer section",
+   "accessed": "2026-11-06",
+   "quote": "Publica una oferta de trabajo gratis en StudentJob hoy",
    "quote_check": "ok"
   }
  ]

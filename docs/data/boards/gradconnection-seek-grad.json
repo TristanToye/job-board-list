@@ -36,7 +36,14 @@
   "graduates-students",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "gradconnection-seek-grad",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage lists country sites and a SEEK Grad footer; /about and /about-us returned HTTP 404 and no employer, API or partner pages are linked.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

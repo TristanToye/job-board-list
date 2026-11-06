@@ -14,13 +14,13 @@
  "region": "Europe",
  "niche": "tech",
  "parent": "",
- "business_model": "",
+ "business_model": "free posting or subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Employer page says a job ad can be posted free, or a subscription can be taken for access to the CV library. No API, partner program or language options were stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/welovedevs/",
  "indexable": false,
@@ -33,10 +33,19 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "job-board",
+  "subscription",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "welovedevs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+  "note": "Employer page states free posting or subscription; no HQ, language options, API or partner program stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +55,14 @@
    "title": "WeLoveDevs homepage",
    "accessed": "2026-11-05",
    "quote": "WeLoveDevs.com is a job site for tech professionals seeking happiness at work.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://welovedevs.com/recruteurs/recruter-un-developpeur",
+   "title": "Employer page",
+   "accessed": "2026-11-06",
+   "quote": "vous pourrez diffuser une annonce gratuitement, ou souscrire à un abonnement",
    "quote_check": "ok"
   }
  ]

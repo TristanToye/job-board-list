@@ -9,8 +9,10 @@
  "countries_served": [
   "BR"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pt",
+ "languages_supported": [
+  "pt"
+ ],
  "region": "Latin America",
  "niche": "graduates",
  "parent": "",
@@ -20,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage is Portuguese. The language control shows only PT, linking to /pt/, so no other languages were confirmed. No HQ, pricing, API or partner program was stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cia-de-talentos/",
  "indexable": false,
@@ -36,7 +38,14 @@
   "graduates-students",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "cia-de-talentos",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage is Portuguese with a PT-only language control; employer page states no pricing, API or partner program.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +54,14 @@
    "url": "https://www.ciadetalentos.com.br/",
    "title": "Cia de Talentos homepage",
    "accessed": "2026-11-05",
+   "quote": "Conectamos pessoas incríveis às empresas que vão transformar suas carreiras.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.ciadetalentos.com.br",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
    "quote": "Conectamos pessoas incríveis às empresas que vão transformar suas carreiras.",
    "quote_check": "ok"
   }
