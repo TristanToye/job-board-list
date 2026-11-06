@@ -1,0 +1,82 @@
+{
+ "round": 7,
+ "orders": [
+  {
+   "id": "workeer",
+   "name": "Workeer",
+   "url": "https://workeer.de/de",
+   "fields": [
+    "hq_country",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://workeer.de/de/impressum",
+    "https://workeer.de/de/preise",
+    "https://workeer.de/de/ueber-uns",
+    "https://workeer.de/en"
+   ],
+   "reason": "Footer links to Impressum (legal notice, usually with a company address). Navigation links to Preise (pricing). The language menu offers Deutsch and Englisch. Partners is mentioned only as text (UNHCR"
+  },
+  {
+   "id": "randstad-digital",
+   "name": "Randstad Digital",
+   "url": "https://www.randstaddigital.com/",
+   "fields": [
+    "founded",
+    "languages",
+    "partner_program"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "languages": "high",
+    "partner_program": "medium"
+   },
+   "try_pages": [
+    "https://www.randstaddigital.com/about/",
+    "https://www.randstaddigital.com/about/partnerships/",
+    "https://www.randstaddigital.com/fr/",
+    "https://www.randstaddigital.com/de/"
+   ],
+   "reason": "Language menu lists en, fr and de, which can fill languages. The About section may state the founding year. A partnerships page is linked, which is the likely place for partner_program information."
+  },
+  {
+   "id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "fields": [
+    "hq_country",
+    "api_status"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "api_status": "medium"
+   },
+   "try_pages": [
+    "https://www.comunidad.madrid/gobierno/institucion",
+    "https://www.comunidad.madrid/gobierno/datos-abiertos"
+   ],
+   "reason": "El Gobierno section links La Institución and Datos Abiertos. No language selector, Empresas, Tarifas or Desarrolladores link seen. business_model does not apply to a public service."
+  },
+  {
+   "id": "51job",
+   "name": "51job",
+   "url": "https://www.51job.com",
+   "fields": [
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://ehire.51job.com/"
+   ],
+   "reason": "Top nav links 我要招人 (employer hiring) at ehire.51job.com. The footer 合作 group has no partner program page, only Join us, Contact us and Friendly links. Founding year was already found on the About page"
+  }
+ ]
+}

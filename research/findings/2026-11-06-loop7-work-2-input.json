@@ -1,0 +1,80 @@
+{
+ "round": 7,
+ "orders": [
+  {
+   "id": "goodwork-canada",
+   "name": "Goodwork Canada",
+   "url": "https://www.goodwork.ca/jobs",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium",
+    "business_model": "high",
+    "ingest_methods": "high"
+   },
+   "try_pages": [
+    "https://goodwork.ca/about",
+    "https://goodwork.ca/rates",
+    "https://goodwork.ca/post-a-job"
+   ],
+   "reason": "Header links About, Contact and Post a Job. The employer menu links Suggested rates, which covers business_model, and Employer Help. No API, Partners or Press link seen."
+  },
+  {
+   "id": "sepe-servicio-p-blico-de-empleo-estatal",
+   "name": "SEPE (Servicio Público de Empleo Estatal)",
+   "url": "https://www.sepe.es/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "ingest_methods": "high"
+   },
+   "try_pages": [
+    "https://www.sepe.es/HomeSepe/que-es-el-sepe.html",
+    "https://www.empleate.gob.es"
+   ],
+   "reason": "Top menu links Qué es el SEPE, which may state founding and location. Footer links the Empléate job portal, which covers ingest_methods. No API, Desarrolladores or Colaboradores link seen. business_mo"
+  },
+  {
+   "id": "taleo",
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "fields": [
+    "parent",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "parent": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [],
+   "reason": "Page read with the headless reader after a 403 on fetch. Footer reads '2026 Oracle', so Oracle is the owner. Sales is by 'Request a demo' and 'Contact sales' only, with no public pricing. The page des"
+  },
+  {
+   "id": "computrabajo",
+   "name": "Computrabajo",
+   "url": "https://www.computrabajo.com",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.computrabajo.com/legal.html"
+   ],
+   "reason": "Homepage has no About, Developers, API or Partners link. It lists 18 country subdomains. The footer legal notice may name the operating company."
+  }
+ ]
+}

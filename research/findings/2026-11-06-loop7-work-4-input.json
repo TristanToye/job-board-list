@@ -1,0 +1,74 @@
+{
+ "round": 7,
+ "orders": [
+  {
+   "id": "jobtopgun",
+   "name": "JOBTOPGUN",
+   "url": "https://www.jobtopgun.com/th",
+   "fields": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "languages": "high",
+    "business_model": "medium",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://www.jobtopgun.com/salesonline/th",
+    "https://www.jobtopgun.com/contact-us"
+   ],
+   "reason": "Language menu is linked and shows only Thai. Employer footer links Post a job (salesonline page) and employer sign-in. Contact us is linked from the footer. The copyright names Super Resume Co., Ltd."
+  },
+  {
+   "id": "vagas-com",
+   "name": "Vagas.com",
+   "url": "https://www.vagas.com.br",
+   "fields": [
+    "founded",
+    "parent",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "parent": "medium",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://www.vagas.com.br/institucional/quem-somos"
+   ],
+   "reason": "Footer links Quem somos, an About-type page. Vagas.com empresas section links plans, demo and support pages. No API, Parceiros or Imprensa link seen; employer login is linked as Quero contratar."
+  },
+  {
+   "id": "wantedly",
+   "name": "Wantedly",
+   "url": "https://www.wantedly.com/",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.wantedly.com/external_links/serviceguide_download"
+   ],
+   "reason": "The recruiter section links a service-guide download (the pricing PDF named in the record note). Most other fields show no matching link on the homepage. hq_country is already found in an earlier atte"
+  },
+  {
+   "id": "higheredjobs",
+   "name": "HigherEdJobs",
+   "url": "https://www.higheredjobs.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "medium"
+   },
+   "try_pages": [],
+   "reason": "Homepage returned status 200 with an empty body to both readers, so no links were seen. An About page is the usual place for founding details on a niche board."
+  }
+ ]
+}

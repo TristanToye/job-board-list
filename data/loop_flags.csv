@@ -115,3 +115,28 @@ round,board_id,flag
 6,kleinanzeigen,"parent is recorded as empty, but the footer names Marktplaats B.V. and an Adevinta link is present"
 6,kleinanzeigen,founded 2009 is recorded but not verified; the footer copyright range 2005-2026 is not a founding statement
 6,zippia,"The San Mateo location comes from a third-party press quote on the site, not a company statement"
+7,office-for-national-statistics,"hq_country is not in the missing list, but review_history says it was not found. Confirm whether that is intended."
+7,computrabajo,"Footer copyright names DGNET LTD, but the record parent is empty. Check whether DGNET LTD is the operator or a parent."
+7,media-job-search-canada,"Homepage content is an online gambling brand, not a job board. The record URL and niche-board type look wrong."
+7,media-job-search-canada,The page itself says its ownership and service status cannot be verified.
+7,z-gis-geoinformatik-stellenb-rse,Record URL returns HTTP 404. Confirm the current address of the job board.
+7,51job,"founded is still in the missing list, but the attempt found 1998 at https://we.51job.com/pc/aboutus. Update the record."
+7,51job,Parent Recruit Holdings is not stated on the pages read. The copyright reads 1999-2022 only. Verify the source.
+7,jobtopgun,"Record has no primary_language, but the site is in Thai (/th path)."
+7,goodwork-canada,"Record languages is en only, but the header links to a Francais page (goodwork.ca/francais)."
+7,goodwork-canada,"Footer copyright names People and Planet, but the record parent is empty."
+7,careersinfood,"Site returned 503 on repeated fetches, so the record facts cannot be checked."
+7,eurostat,Review note is cut off mid-sentence (ends at 'the Job opportunities'). The attempt log says ingest_methods was not found.
+7,eurostat,"founded, languages and api_status are still in the missing list although the attempts found them. Update the record."
+7,higheredjobs,"Homepage text was empty to both readers, so the site could not be checked for any field."
+7,government-e-employment-system,"Record is empty and the host is unreachable from this session; nothing was verified. The .gov.sa domain is only a hint about the owner, not a fact."
+7,talentegg,"Site says TalentEgg is transitioning and its services, including job postings, are currently unavailable. The entry may be stale or closing; confirm its status before more attempts."
+7,wantedly,"hq_country (Japan, from the privacy policy) and business_model were found in earlier attempts but are still listed as missing. The record may need updating."
+7,wantedly,"Earlier founded attempts looked at about/list, the homepage, about/features and the contact page, and found nothing."
+7,taleo,"Parent field is empty, but the page footer names Oracle as the owner of the product."
+7,right-management,"hq_country and founded are not in the missing list, but the review says they were not found. The list may be out of date."
+7,right-management,"Parent ManpowerGroup is stated on right.com. The 'Learn more' link goes to manpowergroup.com, a different domain, so that domain should not be used as the source."
+7,daijob-com,"Footer copyright names Human Resocia Co., Ltd., while the operator link is corp.daijob.com. Check which entity is the operator before filling parent."
+7,daijob-com,"The page says the Daijob.com service was established in 1998. That is the service, not the company's founding year."
+7,randstad-digital,"Record gives parent Randstad, but the page read does not name a parent. The footer gives Randstad Digital B.V. (Diemen, NL) as registered address, which supports hq_country NL."
+7,sistema-nacional-de-emprego-sine,The review_history note in the record is cut off mid-sentence after 'The service'.

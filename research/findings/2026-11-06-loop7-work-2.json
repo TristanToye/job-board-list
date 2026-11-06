@@ -1,0 +1,58 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 7,
+  "boards": [
+    {
+      "name": "Goodwork Canada",
+      "url": "https://www.goodwork.ca",
+      "parent": "People and Planet",
+      "business_model": "per post, sliding fee from $100 to $500 on an honour system",
+      "ingest_methods": "manual posting",
+      "sources": [
+        {"field": "parent", "url": "https://goodwork.ca/about", "title": "About", "quote": "Copyright © 2001-2026 People and Planet"},
+        {"field": "business_model", "url": "https://goodwork.ca/post-a-job", "title": "Post a Job", "quote": "We request a small fee to help you fill this role with the best possible person."},
+        {"field": "business_model", "url": "https://goodwork.ca/rates", "title": "Suggested rates", "quote": "Junior to intermediate positions, summer jobs, grassroots"},
+        {"field": "ingest_methods", "url": "https://goodwork.ca/post-a-job", "title": "Post a Job", "quote": "Our staff personally attend to each posting"}
+      ]
+    },
+    {
+      "name": "Oracle Taleo",
+      "url": "https://www.oracle.com/human-capital-management/taleo/",
+      "parent": "Oracle",
+      "sources": [
+        {"field": "parent", "url": "https://www.oracle.com/human-capital-management/taleo/", "title": "Taleo", "quote": "© 2026 Oracle"}
+      ]
+    },
+    {
+      "name": "Computrabajo",
+      "url": "https://www.computrabajo.com",
+      "parent": "DGNET LTD.",
+      "sources": [
+        {"field": "parent", "url": "https://www.computrabajo.com/legal.html", "title": "Aviso legal", "quote": "DGNET LTD. es titular del siguiente sitio web: www.computrabajo.com"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Goodwork Canada", "url": "https://www.goodwork.ca", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded"], "method": "fetch", "note": "Parent, business model and posting method stated. About page gives only 'Since 2001' and no founding statement; no headquarters stated."},
+    {"name": "SEPE (Servicio Público de Empleo Estatal)", "url": "https://www.sepe.es", "outcome": "blocked", "fields_not_found": ["hq_country", "founded"], "method": "fetch", "note": "The 'Qué es el SEPE' page states neither founding year nor headquarters. The Empléate portal returned 502 to fetch and to the headless reader (blocked), so ingest_methods could not be checked."},
+    {"name": "Oracle Taleo", "url": "https://www.oracle.com/human-capital-management/taleo/", "outcome": "partially-verified", "fields_not_found": ["ingest_methods"], "method": "browser", "note": "Fetch returned 403; headless reader read the page. Footer copyright names Oracle. Page describes sourcing and partner integrations but does not state how job postings get into a job board."},
+    {"name": "Computrabajo", "url": "https://www.computrabajo.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Legal notice on the entry's own domain names DGNET LTD. as the owner of the site."}
+  ],
+  "attempts": [
+    {"name": "Goodwork Canada", "field": "hq_country", "outcome": "not-found", "pages": ["https://goodwork.ca/about"]},
+    {"name": "Goodwork Canada", "field": "founded", "outcome": "not-found", "pages": ["https://goodwork.ca/about"]},
+    {"name": "Goodwork Canada", "field": "parent", "outcome": "found", "pages": ["https://goodwork.ca/about"]},
+    {"name": "Goodwork Canada", "field": "business_model", "outcome": "found", "pages": ["https://goodwork.ca/rates", "https://goodwork.ca/post-a-job"]},
+    {"name": "Goodwork Canada", "field": "ingest_methods", "outcome": "found", "pages": ["https://goodwork.ca/post-a-job"]},
+    {"name": "SEPE (Servicio Público de Empleo Estatal)", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.sepe.es/HomeSepe/que-es-el-sepe.html"]},
+    {"name": "SEPE (Servicio Público de Empleo Estatal)", "field": "founded", "outcome": "not-found", "pages": ["https://www.sepe.es/HomeSepe/que-es-el-sepe.html"]},
+    {"name": "SEPE (Servicio Público de Empleo Estatal)", "field": "ingest_methods", "outcome": "blocked", "pages": ["https://www.empleate.gob.es"]},
+    {"name": "Oracle Taleo", "field": "parent", "outcome": "found", "pages": ["https://www.oracle.com/human-capital-management/taleo/"]},
+    {"name": "Oracle Taleo", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://www.oracle.com/human-capital-management/taleo/"]},
+    {"name": "Computrabajo", "field": "parent", "outcome": "found", "pages": ["https://www.computrabajo.com/legal.html"]}
+  ],
+  "blocked": [
+    {"name": "SEPE (Servicio Público de Empleo Estatal)", "field": "ingest_methods", "url": "https://www.empleate.gob.es", "reason": "Upstream 502 on fetch; headless reader returned blocked: true"}
+  ]
+}

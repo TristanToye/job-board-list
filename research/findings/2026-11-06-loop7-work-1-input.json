@@ -1,0 +1,99 @@
+{
+ "round": 7,
+ "orders": [
+  {
+   "id": "daijob-com",
+   "name": "Daijob.com",
+   "url": "https://www.daijob.com/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "parent": "high",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://corp.daijob.com/",
+    "https://biz.daijob.com/",
+    "https://www.daijob.com/en/index.html"
+   ],
+   "reason": "Footer 運営会社 (operating company) link goes to corp.daijob.com, which should carry the company address, founding year and owner. The EN link and language menu show English. The 'For employers' and adver"
+  },
+  {
+   "id": "tesl-canada",
+   "name": "TESL Canada",
+   "url": "https://www.tesl.ca/jobs/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "ingest_methods": "high"
+   },
+   "try_pages": [
+    "https://www.tesl.ca/about-us.html",
+    "https://www.tesl.ca/jobs.html"
+   ],
+   "reason": "Top nav and footer link About Us and Contact Us. The Jobs page says positions are posted by email, which covers ingest_methods. No Employers, Pricing or API link seen. The Fredericton mailing address "
+  },
+  {
+   "id": "lavoro-gov-it-ministry-of-labour",
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://www.lavoro.gov.it/ministro-e-ministero/Pagine/default",
+    "http://www.cliclavoro.gov.it/"
+   ],
+   "reason": "Top nav links Ministro e Ministero, which may state the ministry's seat and history. The network section links Cliclavoro, the national job service, which covers ingest_methods. No language selector, "
+  },
+  {
+   "id": "esl-cafe",
+   "name": "ESL Cafe",
+   "url": "https://www.eslcafe.com/job-center",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.eslcafe.com/advertisements/job-center",
+    "https://www.eslcafe.com/advertisements"
+   ],
+   "reason": "Several links to advertising and sponsored-link purchase pages sit in the navigation and footer, which should show how listings are sold. No About, Pricing or Developers link."
+  },
+  {
+   "id": "oracle-recruiting",
+   "name": "Oracle Recruiting Cloud",
+   "url": "https://www.oracle.com/human-capital-management/recruiting/",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "medium"
+   },
+   "try_pages": [],
+   "reason": "Page read with the headless reader after a 403 on fetch. Sales is by 'Request a demo' only. The footer was cut off in the reader output, but the sister Taleo page shows an Oracle copyright, so parent "
+  }
+ ]
+}
