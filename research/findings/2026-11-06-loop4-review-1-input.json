@@ -1,0 +1,380 @@
+{
+ "round": 4,
+ "entries": [
+  {
+   "id": "office-for-national-statistics",
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "type": "lmi",
+   "parent": "UK Statistics Authority",
+   "missing": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "UK Statistics Authority",
+    "primary_language": "en",
+    "languages_supported": "en;cy"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded",
+    "note": "About us, What we do and homepage read. No founding or establishment year stated. The /developers path was not requested, as it was already recorded as a 404."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.ons.gov.uk/aboutus;https://www.ons.gov.uk/aboutus/whatwedo;https://www.ons.gov.uk/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "gulftalent",
+   "name": "GulfTalent",
+   "url": "https://www.gulftalent.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "AE",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "subscription"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "occ-mundial",
+   "name": "OCC Mundial",
+   "url": "https://www.occ.com.mx",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "MX",
+    "primary_language": "es",
+    "languages_supported": "es",
+    "business_model": "subscription"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "higheredjobs",
+   "name": "HigherEdJobs",
+   "url": "https://www.higheredjobs.com",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "paid listings"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "wow-jobs",
+   "name": "Wow Jobs",
+   "url": "https://www.wowjobs.ca/",
+   "type": "aggregator",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "cutshort",
+   "name": "Cutshort",
+   "url": "https://cutshort.io",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "business_model": "subscription",
+    "api_status": "on-request"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "find-an-apprenticeship",
+   "name": "Find an Apprenticeship",
+   "url": "https://www.findapprenticeship.service.gov.uk",
+   "type": "government",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "lanbide",
+   "name": "Lanbide",
+   "url": "https://www.lanbide.euskadi.eus/",
+   "type": "government",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "wantedly",
+   "name": "Wantedly",
+   "url": "https://www.wantedly.com/",
+   "type": "social-network+board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "sistema-nacional-de-emprego-sine",
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+   "type": "government",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "jobtoday",
+   "name": "Jobtoday",
+   "url": "https://www.jobtoday.com/it",
+   "type": "aggregator",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "z-gis-geoinformatik-stellenb-rse",
+   "name": "Z_GIS Geoinformatik Stellenbörse",
+   "url": "https://www.plus.ac.at/geoinformatik/jobs/",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "japan-institute-for-labour-policy-and-training",
+   "name": "Japan Institute for Labour Policy and Training",
+   "url": "https://www.jil.go.jp/english/",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "phenom",
+   "name": "Phenom",
+   "url": "https://www.phenom.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "partner_program": "yes"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;parent",
+    "note": "About page and homepage read. No founding year, parent or owner stated. Copyright line names Phenom People, Inc., which is the company itself."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.phenom.com/about;https://www.phenom.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.phenom.com/about;https://www.phenom.com/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "jobboom",
+   "name": "Jobboom",
+   "url": "https://www.jobboom.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "primary_language": "fr",
+    "languages_supported": "fr;en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "agcareers",
+   "name": "AgCareers",
+   "url": "https://www.agcareers.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  }
+ ]
+}
