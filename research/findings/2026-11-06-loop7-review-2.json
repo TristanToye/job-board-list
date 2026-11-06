@@ -1,0 +1,149 @@
+{
+  "round": 7,
+  "orders": [
+    {
+      "id": "gulftalent",
+      "name": "GulfTalent",
+      "url": "https://www.gulftalent.com",
+      "likelihood": {"founded": "none", "parent": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Fetch and the headless reader both hit a Cloudflare security challenge (HTTP 403). Not bypassed, so no links were seen.",
+      "flags": []
+    },
+    {
+      "id": "occ-mundial",
+      "name": "OCC Mundial",
+      "url": "https://www.occ.com.mx",
+      "likelihood": {"founded": "none", "parent": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Fetch and the headless reader both returned HTTP 403 Forbidden with no body. No links were seen.",
+      "flags": []
+    },
+    {
+      "id": "higheredjobs",
+      "name": "HigherEdJobs",
+      "url": "https://www.higheredjobs.com",
+      "likelihood": {"founded": "medium", "parent": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Homepage returned status 200 with an empty body to both readers, so no links were seen. An About page is the usual place for founding details on a niche board.",
+      "flags": ["Homepage text was empty to both readers, so the site could not be checked for any field."]
+    },
+    {
+      "id": "government-e-employment-system",
+      "name": "Government E-Employment System",
+      "url": "https://eservices.mcs.gov.sa/Jadara3/(S(loocp4m5hffrcstzv5gtsuwp))/Users/Index.aspx",
+      "likelihood": {"hq_country": "none", "founded": "none", "parent": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "The host does not resolve from this session (getaddrinfo ENOTFOUND), so nothing could be read. The host is not on the session's allowed network list. Retry only once it is allowed.",
+      "flags": ["Record is empty and the host is unreachable from this session; nothing was verified. The .gov.sa domain is only a hint about the owner, not a fact."]
+    },
+    {
+      "id": "phenom",
+      "name": "Phenom",
+      "url": "https://www.phenom.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.phenom.com/marketplace"],
+      "reason": "Homepage menus were read: no Pricing, Developers or API link and no language selector. The Partners link (marketplace) may list integrations, but it is a weak lead for api_status.",
+      "flags": []
+    },
+    {
+      "id": "talentegg",
+      "name": "TalentEgg",
+      "url": "https://talentegg.ca",
+      "likelihood": {"founded": "none", "parent": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "The homepage says TalentEgg is transitioning and that job postings and employer services are unavailable. No About, Pricing or partner links were seen.",
+      "flags": ["Site says TalentEgg is transitioning and its services, including job postings, are currently unavailable. The entry may be stale or closing; confirm its status before more attempts."]
+    },
+    {
+      "id": "find-an-apprenticeship",
+      "name": "Find an Apprenticeship",
+      "url": "https://www.findapprenticeship.service.gov.uk",
+      "likelihood": {"hq_country": "low", "founded": "low", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "none", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Footer and navigation were read: only Terms, Help, Cookies and Accessibility links. No About, Developers or language option. As a free public service, business_model and partner_program likely do not apply.",
+      "flags": []
+    },
+    {
+      "id": "wantedly",
+      "name": "Wantedly",
+      "url": "https://www.wantedly.com/",
+      "likelihood": {"hq_country": "none", "parent": "low", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.wantedly.com/external_links/serviceguide_download"],
+      "reason": "The recruiter section links a service-guide download (the pricing PDF named in the record note). Most other fields show no matching link on the homepage. hq_country is already found in an earlier attempt.",
+      "flags": ["hq_country (Japan, from the privacy policy) and business_model were found in earlier attempts but are still listed as missing. The record may need updating.", "Earlier founded attempts looked at about/list, the homepage, about/features and the contact page, and found nothing."]
+    },
+    {
+      "id": "workeer",
+      "name": "Workeer",
+      "url": "https://workeer.de/de",
+      "likelihood": {"hq_country": "high", "parent": "low", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://workeer.de/de/impressum", "https://workeer.de/de/preise", "https://workeer.de/de/ueber-uns", "https://workeer.de/en"],
+      "reason": "Footer links to Impressum (legal notice, usually with a company address). Navigation links to Preise (pricing). The language menu offers Deutsch and Englisch. Partners is mentioned only as text (UNHCR), with no link.",
+      "flags": []
+    },
+    {
+      "id": "esl-cafe",
+      "name": "ESL Cafe",
+      "url": "https://www.eslcafe.com/job-center",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.eslcafe.com/advertisements/job-center", "https://www.eslcafe.com/advertisements"],
+      "reason": "Several links to advertising and sponsored-link purchase pages sit in the navigation and footer, which should show how listings are sold. No About, Pricing or Developers link.",
+      "flags": []
+    },
+    {
+      "id": "taleo",
+      "name": "Oracle Taleo",
+      "url": "https://www.oracle.com/human-capital-management/taleo/",
+      "likelihood": {"founded": "low", "parent": "high", "languages": "low", "business_model": "low", "ingest_methods": "medium"},
+      "try_pages": [],
+      "reason": "Page read with the headless reader after a 403 on fetch. Footer reads '2026 Oracle', so Oracle is the owner. Sales is by 'Request a demo' and 'Contact sales' only, with no public pricing. The page describes job-board and LinkedIn integrations, which points at ingest_methods.",
+      "flags": ["Parent field is empty, but the page footer names Oracle as the owner of the product."]
+    },
+    {
+      "id": "right-management",
+      "name": "Right Management",
+      "url": "https://www.right.com",
+      "likelihood": {"languages": "none", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Languages were already found in an earlier attempt (Global (English)). No Pricing, Developers, API or Partners link appears in the navigation or footer, and the solutions pages are service pages.",
+      "flags": ["hq_country and founded are not in the missing list, but the review says they were not found. The list may be out of date.", "Parent ManpowerGroup is stated on right.com. The 'Learn more' link goes to manpowergroup.com, a different domain, so that domain should not be used as the source."]
+    },
+    {
+      "id": "daijob-com",
+      "name": "Daijob.com",
+      "url": "https://www.daijob.com/",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "high", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://corp.daijob.com/", "https://biz.daijob.com/", "https://www.daijob.com/en/index.html"],
+      "reason": "Footer 運営会社 (operating company) link goes to corp.daijob.com, which should carry the company address, founding year and owner. The EN link and language menu show English. The 'For employers' and advertising links go to biz.daijob.com, which should show how listings are sold.",
+      "flags": ["Footer copyright names Human Resocia Co., Ltd., while the operator link is corp.daijob.com. Check which entity is the operator before filling parent.", "The page says the Daijob.com service was established in 1998. That is the service, not the company's founding year."]
+    },
+    {
+      "id": "randstad-digital",
+      "name": "Randstad Digital",
+      "url": "https://www.randstaddigital.com/",
+      "likelihood": {"founded": "medium", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://www.randstaddigital.com/about/", "https://www.randstaddigital.com/about/partnerships/", "https://www.randstaddigital.com/fr/", "https://www.randstaddigital.com/de/"],
+      "reason": "Language menu lists en, fr and de, which can fill languages. The About section may state the founding year. A partnerships page is linked, which is the likely place for partner_program information.",
+      "flags": ["Record gives parent Randstad, but the page read does not name a parent. The footer gives Randstad Digital B.V. (Diemen, NL) as registered address, which supports hq_country NL."]
+    },
+    {
+      "id": "sistema-nacional-de-emprego-sine",
+      "name": "Sistema Nacional de Emprego (SINE)",
+      "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+      "likelihood": {"founded": "low", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "none"},
+      "try_pages": ["https://www.gov.br/governodigital/pt-br/dados-abertos"],
+      "reason": "Page read: the ministry is named and there is no language selector (pt-br only). The only related link is Dados Abertos (open data), which is a portal and may not describe this service's API. A free public service, so business_model and partner_program likely do not apply.",
+      "flags": ["The review_history note in the record is cut off mid-sentence after 'The service'."]
+    },
+    {
+      "id": "oracle-recruiting",
+      "name": "Oracle Recruiting Cloud",
+      "url": "https://www.oracle.com/human-capital-management/recruiting/",
+      "likelihood": {"founded": "low", "parent": "medium", "languages": "low", "business_model": "low"},
+      "try_pages": [],
+      "reason": "Page read with the headless reader after a 403 on fetch. Sales is by 'Request a demo' only. The footer was cut off in the reader output, but the sister Taleo page shows an Oracle copyright, so parent is medium.",
+      "flags": []
+    }
+  ]
+}

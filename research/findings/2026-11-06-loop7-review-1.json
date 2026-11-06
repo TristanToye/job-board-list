@@ -1,0 +1,149 @@
+{
+  "round": 7,
+  "orders": [
+    {
+      "id": "office-for-national-statistics",
+      "name": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk",
+      "likelihood": {"founded": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Top nav links About and Contact us; footer links What we do, Contact us and Cymraeg. No Developers, API, Partners, Pricing or Press link seen. Founding year and business model are not stated, and earlier attempts covered the obvious About pages.",
+      "flags": ["hq_country is not in the missing list, but review_history says it was not found. Confirm whether that is intended."]
+    },
+    {
+      "id": "computrabajo",
+      "name": "Computrabajo",
+      "url": "https://www.computrabajo.com",
+      "likelihood": {"founded": "low", "parent": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.computrabajo.com/legal.html"],
+      "reason": "Homepage has no About, Developers, API or Partners link. It lists 18 country subdomains. The footer legal notice may name the operating company.",
+      "flags": ["Footer copyright names DGNET LTD, but the record parent is empty. Check whether DGNET LTD is the operator or a parent."]
+    },
+    {
+      "id": "vagas-com",
+      "name": "Vagas.com",
+      "url": "https://www.vagas.com.br",
+      "likelihood": {"founded": "medium", "parent": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://www.vagas.com.br/institucional/quem-somos"],
+      "reason": "Footer links Quem somos, an About-type page. Vagas.com empresas section links plans, demo and support pages. No API, Parceiros or Imprensa link seen; employer login is linked as Quero contratar.",
+      "flags": []
+    },
+    {
+      "id": "media-job-search-canada",
+      "name": "Media Job Search Canada",
+      "url": "https://www.mediajobsearchcanada.com/",
+      "likelihood": {"hq_country": "none", "founded": "none", "parent": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage shows an online gambling brand (MUSANG178) with mixed unrelated content, and every link points back to the same domain. No About, Employers or Contact page is visible. Not worth another attempt for these facts.",
+      "flags": ["Homepage content is an online gambling brand, not a job board. The record URL and niche-board type look wrong.", "The page itself says its ownership and service status cannot be verified."]
+    },
+    {
+      "id": "z-gis-geoinformatik-stellenb-rse",
+      "name": "Z_GIS Geoinformatik Stellenbörse",
+      "url": "https://www.plus.ac.at/geoinformatik/jobs/",
+      "likelihood": {"hq_country": "none", "founded": "none", "parent": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "The job board URL returns HTTP 404. The site homepage at plus.ac.at ends in a redirect loop (more than 10 redirects), so no page could be read.",
+      "flags": ["Record URL returns HTTP 404. Confirm the current address of the job board."]
+    },
+    {
+      "id": "jobboom",
+      "name": "Jobboom",
+      "url": "https://www.jobboom.com",
+      "likelihood": {"founded": "none", "parent": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Site is behind a Cloudflare security challenge (HTTP 403). The headless reader got the same challenge page. The challenge was not bypassed.",
+      "flags": []
+    },
+    {
+      "id": "51job",
+      "name": "51job",
+      "url": "https://www.51job.com",
+      "likelihood": {"founded": "none", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://ehire.51job.com/"],
+      "reason": "Top nav links 我要招人 (employer hiring) at ehire.51job.com. The footer 合作 group has no partner program page, only Join us, Contact us and Friendly links. Founding year was already found on the About page per the attempt log.",
+      "flags": ["founded is still in the missing list, but the attempt found 1998 at https://we.51job.com/pc/aboutus. Update the record.", "Parent Recruit Holdings is not stated on the pages read. The copyright reads 1999-2022 only. Verify the source."]
+    },
+    {
+      "id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
+      "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+      "url": "https://www.comunidad.madrid/servicios/empleo",
+      "likelihood": {"hq_country": "medium", "founded": "low", "languages": "low", "business_model": "none", "api_status": "medium", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.comunidad.madrid/gobierno/institucion", "https://www.comunidad.madrid/gobierno/datos-abiertos"],
+      "reason": "El Gobierno section links La Institución and Datos Abiertos. No language selector, Empresas, Tarifas or Desarrolladores link seen. business_model does not apply to a public service.",
+      "flags": []
+    },
+    {
+      "id": "jobtopgun",
+      "name": "JOBTOPGUN",
+      "url": "https://www.jobtopgun.com/th",
+      "likelihood": {"hq_country": "medium", "parent": "low", "languages": "high", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://www.jobtopgun.com/salesonline/th", "https://www.jobtopgun.com/contact-us"],
+      "reason": "Language menu is linked and shows only Thai. Employer footer links Post a job (salesonline page) and employer sign-in. Contact us is linked from the footer. The copyright names Super Resume Co., Ltd.",
+      "flags": ["Record has no primary_language, but the site is in Thai (/th path)."]
+    },
+    {
+      "id": "tesl-canada",
+      "name": "TESL Canada",
+      "url": "https://www.tesl.ca/jobs/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "high"},
+      "try_pages": ["https://www.tesl.ca/about-us.html", "https://www.tesl.ca/jobs.html"],
+      "reason": "Top nav and footer link About Us and Contact Us. The Jobs page says positions are posted by email, which covers ingest_methods. No Employers, Pricing or API link seen. The Fredericton mailing address is shown on the site.",
+      "flags": []
+    },
+    {
+      "id": "goodwork-canada",
+      "name": "Goodwork Canada",
+      "url": "https://www.goodwork.ca/jobs",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "high"},
+      "try_pages": ["https://goodwork.ca/about", "https://goodwork.ca/rates", "https://goodwork.ca/post-a-job"],
+      "reason": "Header links About, Contact and Post a Job. The employer menu links Suggested rates, which covers business_model, and Employer Help. No API, Partners or Press link seen.",
+      "flags": ["Record languages is en only, but the header links to a Francais page (goodwork.ca/francais).", "Footer copyright names People and Planet, but the record parent is empty."]
+    },
+    {
+      "id": "careersinfood",
+      "name": "CareersInFood.com",
+      "url": "https://www.careersinfood.com",
+      "likelihood": {"founded": "none", "parent": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 503 on repeated fetches, so no page could be read.",
+      "flags": ["Site returned 503 on repeated fetches, so the record facts cannot be checked."]
+    },
+    {
+      "id": "sepe-servicio-p-blico-de-empleo-estatal",
+      "name": "SEPE (Servicio Público de Empleo Estatal)",
+      "url": "https://www.sepe.es/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "business_model": "none", "api_status": "low", "partner_program": "low", "ingest_methods": "high"},
+      "try_pages": ["https://www.sepe.es/HomeSepe/que-es-el-sepe.html", "https://www.empleate.gob.es"],
+      "reason": "Top menu links Qué es el SEPE, which may state founding and location. Footer links the Empléate job portal, which covers ingest_methods. No API, Desarrolladores or Colaboradores link seen. business_model does not apply to a public service.",
+      "flags": []
+    },
+    {
+      "id": "careerbeacon",
+      "name": "CareerBeacon",
+      "url": "https://www.careerbeacon.com",
+      "likelihood": {"founded": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Site is behind a Cloudflare security challenge (HTTP 403). The headless reader got the same challenge page. The challenge was not bypassed.",
+      "flags": []
+    },
+    {
+      "id": "lavoro-gov-it-ministry-of-labour",
+      "name": "lavoro.gov.it (Ministry of Labour)",
+      "url": "https://www.lavoro.gov.it/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://www.lavoro.gov.it/ministro-e-ministero/Pagine/default", "http://www.cliclavoro.gov.it/"],
+      "reason": "Top nav links Ministro e Ministero, which may state the ministry's seat and history. The network section links Cliclavoro, the national job service, which covers ingest_methods. No language selector, API or Open data link seen. /about returned 404.",
+      "flags": []
+    },
+    {
+      "id": "eurostat",
+      "name": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat",
+      "likelihood": {"founded": "none", "languages": "none", "business_model": "low", "api_status": "none", "partner_program": "low"},
+      "try_pages": ["https://ec.europa.eu/eurostat/about-us/european-statistical-system"],
+      "reason": "Nav links About us (with Our history and Our partners), Data and Web services, and Job opportunities. Founding year, languages and the API were already found per the attempt log, so these need a record update rather than another search. business_model does not apply to a statistics office.",
+      "flags": ["Review note is cut off mid-sentence (ends at 'the Job opportunities'). The attempt log says ingest_methods was not found.", "founded, languages and api_status are still in the missing list although the attempts found them. Update the record."]
+    }
+  ]
+}
