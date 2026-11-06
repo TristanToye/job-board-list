@@ -60,6 +60,15 @@ def prom(b):
     if scope == "mixed": return {"group": 1, "g": g, "label": "Site-wide", "tier": "", "scope": scope}
     return {"group": 2, "g": g, "label": "Not comparable", "tier": "", "scope": scope}
 def skey(b): p = prom(b); return p["group"] * 10**9 + (p["g"] if p["group"] < 2 else 0)
+OWNERS = {r["id"]: r for r in load("owners.csv")} if (ROOT/"data"/"owners.csv").exists() else {}
+HOLD = load("ownership.csv") if (ROOT/"data"/"ownership.csv").exists() else []
+HOLD_BY_BOARD = collections.defaultdict(list)
+for _h in HOLD:
+    if _h["board_id"] and _h["relation"] != "former": HOLD_BY_BOARD[_h["board_id"]].append(_h)
+REL_LABEL = {"subsidiary":"Subsidiary","brand":"Brand","majority-stake":"Majority stake","minority-stake":"Minority stake","joint-venture":"Joint venture","former":"Formerly owned"}
+CAT_LABEL = {"job-board":"Job boards","aggregator":"Job aggregators","staffing":"Staffing and recruitment agencies","hr-tech":"HR and recruiting technology",
+             "hr-services":"HR services","data-research":"Data and research","other-hr":"Other HR businesses"}
+def hold_phrase(h): return REL_LABEL[h["relation"]] + (f", {h['stake']}%" if h["stake"] else "") + (f", since {h['since']}" if h["since"] else "")
 SOURCES = collections.defaultdict(list)
 for _s in load("sources.csv"): SOURCES[_s["board_id"]].append(_s)
 FIELD_LABEL = {"existence":"Existence and description","api_status":"API access","partner_program":"Partner program","ingest_methods":"How jobs get in",
@@ -81,7 +90,7 @@ pages = []  # (path, lastmod)
 def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False):
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
-    nav = (f'<a href="{r}">Directory</a><a href="{r}rankings/">Rankings</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
+    nav = (f'<a href="{r}">Directory</a><a href="{r}rankings/">Rankings</a><a href="{r}owners/">Owners</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
            f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -208,7 +217,8 @@ for b in boards:
       "partner-only":"restricts programmatic access to approved partners","deprecated":"has retired its earlier public API",
       "on-request":"issues API keys or feeds on request","none-known":"has no publicly documented API that we could find","unknown":"has not yet been researched for API availability"}[b["api_status"]]
     partner = {"yes":"A partner or integration program exists.","n/a":"Not applicable (public body or open source of data).","unknown":"Partner program status is not yet known."}.get(b["partner_program"], "Partner program status is not yet known.")
-    srcs = SOURCES.get(b["id"], [])
+    srcs = list(SOURCES.get(b["id"], [])) + [{"field": "parent", "url": h["source_url"], "title": h["source_title"], "accessed": h["accessed"], "quote": h["quote"]} for h in HOLD_BY_BOARD.get(b["id"], [])]
+    owner_fact = "".join(f'<a href="{r}owners/{e(h["owner_id"])}/">{e(OWNERS[h["owner_id"]]["name"])}</a> <span class="muted small">({e(hold_phrase(h))})</span><br>' for h in HOLD_BY_BOARD.get(b["id"], []) if h["owner_id"] in OWNERS)
     p = prom(b); rk = RANK.get(b["id"]); nctry = len({c for c in split(b["countries_served"]) + ([b["hq_country"]] if b["hq_country"] else [])}); nlang = len(langs_of(b))
     if p["group"] == 0: rank_txt = f'<strong>#{p["g"]:,}</strong> in the world, tier <strong>{e(p["tier"])}</strong>. Tiers: Major is the top 1,000 sites, Large the top 10,000, Established the top 100,000 and Small the top million.'
     elif p["group"] == 1: rank_txt = f'<strong>#{p["g"]:,}</strong> for {e(rk["domain"])} as a whole. This site covers more than job listings, so the rank overstates its job board reach and no tier is given.'
@@ -230,7 +240,7 @@ for b in boards:
 <dl class="facts">{fact("Website", link(b["url"]))}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Type", e(b["type"]))}{fact("Founded", e(b["founded"])) if b["founded"] else ""}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>' if b["hq_country"] else '<span class="muted">Not recorded</span>')}
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
 {fact("Primary language", f'<a href="{r}languages/{slug(lang(b["primary_language"]))}/">{e(lang(b["primary_language"]))}</a>' if b["primary_language"] else '<span class="muted">Not recorded</span>')}{fact("Languages supported", "".join(f'<a class="chip" href="{r}languages/{slug(lang(c))}/">{e(lang(c))}</a>' for c in langs_of(b)) or '<span class="muted">Not recorded</span>')}
-{fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Parent organisation", e(b["parent"]) or '<span class="muted">None recorded</span>')}
+{fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Parent organisation", e(b["parent"]) or '<span class="muted">None recorded</span>')}{fact("Owner", owner_fact) if owner_fact else ""}
 {fact("Business model", e(b["business_model"]) or '<span class="muted">Not recorded</span>')}
 {fact("API status", f'<a href="{r}api/{e(b["api_status"])}/">{e(API_LABEL[b["api_status"]])}</a>')}{fact("API or developer docs", link(b["api_docs_url"]))}
 {fact("Partner program", e(b["partner_program"] or "unknown"))}{fact("Partner program link", link(b["partner_url"]))}
@@ -340,9 +350,39 @@ write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}"
 shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js")
 if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", OUT/"assets"/"logos", dirs_exist_ok=True)
 (OUT/"downloads").mkdir(exist_ok=True)
-for n in ("job_boards.csv","ats_systems.csv","sources.csv","rank.csv","scale.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
+for n in ("job_boards.csv","ats_systems.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/".nojekyll").write_text("")
+# ---------- owners ----------
+def owner_boards(oid): return [next(b for b in boards if b["id"] == h["board_id"]) for h in HOLD if h["owner_id"] == oid and h["board_id"] and h["relation"] != "former" and any(b["id"] == h["board_id"] for b in boards)]
+def holding_li(h):
+    nm = f'<a href="{e(h["holding_url"])}" rel="noopener nofollow" target="_blank">{e(h["holding_name"])}</a>' if h["holding_url"] else e(h["holding_name"])
+    return f'<li><strong>{nm}</strong> <span class="muted small">{e(hold_phrase(h))}. Source: <a href="{e(h["source_url"])}" rel="noopener nofollow" target="_blank">{e(h["source_title"] or "page")}</a>{" (secondary source)" if "wikipedia.org" in h["source_url"] or "wikidata.org" in h["source_url"] else ""}, checked {e(h["accessed"])}</span><div class="quote">{e(h["quote"])}</div></li>'
+owner_rows = []
+for oid, o in OWNERS.items():
+    hs = [h for h in HOLD if h["owner_id"] == oid]
+    if not hs: continue
+    ob = owner_boards(oid); nb = len(ob)
+    cur = [h for h in hs if h["relation"] != "former"]; former = [h for h in hs if h["relation"] == "former"]
+    others = [h for h in cur if not (h["board_id"] and any(b["id"] == h["board_id"] for b in boards))]
+    sections = ""
+    for cat in CAT_LABEL:
+        items = [h for h in others if h["category"] == cat]
+        if items: sections += f'<h2>{e(CAT_LABEL[cat])}</h2><ul class="holdings">' + "".join(holding_li(h) for h in items) + "</ul>"
+    if former: sections += "<h2>Formerly owned</h2><ul class=\"holdings\">" + "".join(holding_li(h) for h in former) + "</ul>"
+    body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">Owners</a> / {e(o["name"])}</nav><h1>{e(o["name"])}: HR holdings</h1>'
+            f'<p class="lede">{e(o["name"])}{" (" + e(country(o["country"])) + ")" if o["country"] else ""} has {len(cur)} HR businesses recorded here, {nb} of them job boards in this directory. Ownership is shown with the relationship, stake and year where a source states them.</p>'
+            + (f'<h2>Job boards in this directory</h2>' + table(ob, "../../") if ob else "") + sections
+            + f'<p class="muted small">Each holding is cited to a page and quote. Ownership changes often, so check the date. {("Owner website: " + e(o["url"])) if o["url"] else ""}</p>')
+    ld = {"@context": "https://schema.org", "@type": "Organization", "name": o["name"], **({"url": o["url"]} if o["url"] else {})}
+    idx = len(cur) >= 3
+    write(f"owners/{oid}/index.html", layout(2, f"{o['name']}: job boards and other HR businesses owned | {NAME}",
+        f"What {o['name']} owns in the HR space: {nb} job boards in this directory plus staffing, HR technology and other holdings, with cited sources.", body, f"/owners/{oid}/", ld, noindex=not idx), indexed=idx)
+    owner_rows.append((oid, o, len(cur), nb))
+if owner_rows:
+    li = "".join(f'<li><a href="{e(oid)}/">{e(o["name"])}</a> <span class="muted">({n} HR holdings, {nb} job boards here)</span></li>' for oid, o, n, nb in sorted(owner_rows, key=lambda x: -x[2]))
+    write("owners/index.html", layout(1, f"Who owns the job boards: owners and HR holdings | {NAME}", "Parent companies behind the major job boards and what else they own in the HR space, with cited sources.",
+        f'<h1>Who owns the job boards</h1><p class="lede">The companies behind the major job boards, and what else they own in the HR space: staffing firms, recruiting technology and services. Every holding is cited.</p><ul class="biglist">{li}</ul>', "/owners/"))
 # ---------- rankings ----------
 comparable = sorted([b for b in boards if prom(b)["group"] == 0], key=skey)
 rk_rows = "".join(f'<tr><td>{i}</td><td><div class="namecell">{icon(b, "../")}<a href="../boards/{b["id"]}/"><strong>{e(b["name"])}</strong></a></div></td><td><span class="badge tier-{e(prom(b)["tier"])}">{e(prom(b)["tier"])}</span> <span class="muted small">#{prom(b)["g"]:,}</span></td><td>{e(b["type"])}</td><td>{e(b["region"])}</td></tr>' for i, b in enumerate(comparable[:60], 1))
@@ -358,11 +398,13 @@ def board_json(b):
     for k in ("countries_served", "languages_supported", "ingest_methods"): d[k] = split(b[k])
     d["page"] = f'{BASE}/boards/{b["id"]}/'; d["indexable"] = indexable(b)
     p = prom(b); d["prominence"] = {"tier": p["tier"], "label": p["label"], "global_rank": p["g"] or None, "scope": p["scope"], "source": "Majestic Million (CC BY 3.0)", "list_date": RANK_DATE}
+    d["owners"] = [{"id": h["owner_id"], "name": OWNERS[h["owner_id"]]["name"], "relation": h["relation"], "stake": h["stake"], "since": h["since"], "source": h["source_url"], "quote": h["quote"]} for h in HOLD_BY_BOARD.get(b["id"], []) if h["owner_id"] in OWNERS]
     d["scale"] = [{k: x[k] for k in ("metric", "value", "unit", "as_of", "url", "quote", "quote_check")} for x in SCALE.get(b["id"], [])]
     d["sources"] = [{k: x.get(k, "") for k in ("field", "url", "title", "accessed", "quote", "quote_check")} for x in SOURCES.get(b["id"], [])]
     return d
 allj = [board_json(b) for b in boards]
 (OUT/"data"/"boards.json").write_text(json.dumps({"generated": TODAY, "count": len(allj), "boards": allj}, indent=1, ensure_ascii=False), encoding="utf-8")
+(OUT/"data"/"owners.json").write_text(json.dumps({"generated": TODAY, "owners": [{**o, "holdings": [h for h in HOLD if h["owner_id"] == oid]} for oid, o in OWNERS.items()]}, indent=1, ensure_ascii=False), encoding="utf-8")
 for d in allj: (OUT/"data"/"boards"/f'{d["id"]}.json').write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
 log = load("ingest_log.csv") if (ROOT/"data"/"ingest_log.csv").exists() else []
 rows_html = "".join(f'<tr><td>{e(x["date"])}</td><td>{e(x["files"])}</td><td>{e(x["added"])}</td><td>{e(x["merged"])}</td><td>{e(x["rejected"])}</td><td>{e(x["conflicts"])}</td></tr>' for x in reversed(log))

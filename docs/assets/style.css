@@ -30,3 +30,4 @@ th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vert
 .badge.tier-Established{background:var(--card)}.badge.tier-Small{background:transparent;color:var(--muted)}
 @media (prefers-color-scheme:dark){.badge.tier-Large{background:#1e3a8a;color:#dbeafe}.badge.tier-Major{background:#3b82f6}}
 ul.plain{margin:0;padding-left:1.1rem}
+ul.holdings{padding-left:1.1rem}ul.holdings li{margin:10px 0}

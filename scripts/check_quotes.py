@@ -40,7 +40,8 @@ def main(files):
     cache = {}
     for fn in files:
         d = json.load(open(fn, encoding="utf-8")); jobs = []
-        for b in d.get("boards", []):
+        holdings = [h for o in d.get("owners", []) for h in o.get("holdings", [])]
+        for b in d.get("boards", []) + holdings:
             for s in b.get("sources", []):
                 if s.get("field") not in ("listed_by", "relationship") and s.get("url") and s.get("check") != "structured": jobs.append(s)
             if isinstance(b.get("notes"), list):
