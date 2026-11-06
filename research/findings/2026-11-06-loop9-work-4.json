@@ -1,0 +1,54 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 9,
+  "boards": [
+    {
+      "name": "Cake (CakeResume)",
+      "url": "https://www.cake.me",
+      "hq_country": "TW",
+      "languages": {
+        "primary_language": "en",
+        "languages_supported": ["en", "zh", "vi", "id", "ja"]
+      },
+      "sources": [
+        {"field": "hq_country", "url": "https://www.cake.me/about", "title": "About Us", "quote": "Based in Taiwan, Cake has a vast talent pool of 10 million users"},
+        {"field": "languages", "url": "https://www.cake.me/about", "title": "About Us (language menu)", "quote": "English 中文（繁體） 中文（简体） Tiếng Việt Bahasa Indonesia 日本語"}
+      ]
+    },
+    {
+      "name": "Randstad",
+      "url": "https://www.randstad.com",
+      "parent": "Randstad N.V.",
+      "sources": [
+        {"field": "parent", "url": "https://www.randstad.com/about-randstad/", "title": "About randstad (footer)", "quote": "RANDSTAD, is a registered trademark of © Randstad N.V."}
+      ]
+    },
+    {
+      "name": "GovernmentJobs.com",
+      "url": "https://www.governmentjobs.com/",
+      "business_model": "per post and annual subscription: single job post $199 for up to 60 days, five-post bundle $629, unlimited annual subscription priced by agency size",
+      "sources": [
+        {"field": "business_model", "url": "https://employer.governmentjobs.com/", "title": "GovernmentJobs Employer Portal", "quote": "SINGLE JOB POST $199 for up to 60 days"},
+        {"field": "business_model", "url": "https://employer.governmentjobs.com/", "title": "GovernmentJobs Employer Portal", "quote": "Unlimited job postings for a year for one annual fee"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Cake (CakeResume)", "url": "https://www.cake.me", "outcome": "partially-verified", "fields_not_found": ["parent"], "method": "mixed", "note": "hq_country (TW) and languages verified from cake.me/about. No owner company named on /about, /pricing/ats, the footer or help.cake.me, so parent not found."},
+    {"name": "Randstad", "url": "https://www.randstad.com", "outcome": "verified", "fields_not_found": [], "method": "mixed", "note": "Footer names Randstad N.V. as registered entity. The page names no separate owner above it, so parent is recorded as the registered entity. Fetch summary included formatting directions, which were ignored."},
+    {"name": "Breezy HR", "url": "https://breezy.hr", "outcome": "blocked", "fields_not_found": ["parent"], "method": "browser", "note": "breezy.hr returned a CloudFront 403 challenge to the browser reader, so the entry is recorded as blocked. Lead only, not a sourced fact: ltgplc.com/trust-center (off-domain) lists Breezy HR among Learning Technologies Group entities, which suggests LTG as parent."},
+    {"name": "GovernmentJobs.com", "url": "https://www.governmentjobs.com/", "outcome": "verified", "fields_not_found": [], "method": "mixed", "note": "/employers returned 404 (the browser reader flagged it blocked because of the status, but the page was a 404, not a challenge). Pricing verified from the Advertise page on employer.governmentjobs.com, which the homepage links to."}
+  ],
+  "attempts": [
+    {"name": "Cake (CakeResume)", "field": "hq_country", "outcome": "found", "pages": ["https://www.cake.me/about"]},
+    {"name": "Cake (CakeResume)", "field": "parent", "outcome": "not-found", "pages": ["https://www.cake.me/about", "https://www.cake.me/pricing/ats", "https://help.cake.me/"]},
+    {"name": "Cake (CakeResume)", "field": "languages", "outcome": "found", "pages": ["https://www.cake.me/about"]},
+    {"name": "Randstad", "field": "parent", "outcome": "found", "pages": ["https://www.randstad.com/about-randstad/"]},
+    {"name": "Breezy HR", "field": "parent", "outcome": "blocked", "pages": ["https://breezy.hr"]},
+    {"name": "GovernmentJobs.com", "field": "business_model", "outcome": "found", "pages": ["https://www.governmentjobs.com/employers", "https://employer.governmentjobs.com/"]}
+  ],
+  "blocked": [
+    {"name": "Breezy HR", "url": "https://breezy.hr", "fields": ["parent"], "reason": "breezy.hr returned a 403 CloudFront challenge to the browser reader. Not solved or bypassed."}
+  ]
+}
