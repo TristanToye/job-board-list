@@ -1,0 +1,149 @@
+{
+  "round": 4,
+  "orders": [
+    {
+      "id": "jobkorea",
+      "name": "JobKorea",
+      "url": "https://www.jobkorea.co.kr",
+      "likelihood": {"founded": "medium", "parent": "medium", "api_status": "high", "partner_program": "medium", "ingest_methods": "high"},
+      "try_pages": ["https://www.jobkorea.co.kr/service/api", "https://www.worxphere.ai", "https://worxphere.ai/partnership"],
+      "reason": "Homepage has a 채용정보 API link to /service/api, a 제휴문의 (partnership) link, and a 회사소개 (company intro) link that goes to worxphere.ai rather than jobkorea.co.kr.",
+      "flags": ["Footer names the operator as Worxphere LLC and the company intro link goes to worxphere.ai, while parent is blank in the record; confirm whether JobKorea is owned or operated by Worxphere."]
+    },
+    {
+      "id": "computrabajo",
+      "name": "Computrabajo",
+      "url": "https://www.computrabajo.com",
+      "likelihood": {"founded": "low", "parent": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Homepage shows only country selector links; no Developers, API, Partners, About or Pricing link is present, and earlier obvious pages are unlikely to add anything.",
+      "flags": ["Footer copyright holder is DGNET LTD, which is not in the record; it may be the parent entity, unverified."]
+    },
+    {
+      "id": "vagas-com",
+      "name": "Vagas.com",
+      "url": "https://www.vagas.com.br",
+      "likelihood": {"founded": "low", "parent": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://forbusiness.vagas.com.br", "https://ajuda-forbusiness.vagas.com.br/portal/pt-br/kb"],
+      "reason": "Homepage links to employer-side pages (forbusiness plans, support centre) but no Developers, API, Partners or About link; the timeline on the page starts in 1996 without a founding date.",
+      "flags": ["Footer copyright holder is Vagas Tecnologia, which is not in the record; check the parent relationship."]
+    },
+    {
+      "id": "media-job-search-canada",
+      "name": "Media Job Search Canada",
+      "url": "https://www.mediajobsearchcanada.com/",
+      "likelihood": {"hq_country": "none", "founded": "none", "parent": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage content is an unrelated online gambling site, so no job board facts are worth searching for here.",
+      "flags": ["Homepage does not match a job board: footer reads '© 2025 MUSANG178' and 'Website Game Online Terpercaya', with Samsung references; the domain may be repurposed or the record stale."]
+    },
+    {
+      "id": "education-canada",
+      "name": "Education Canada",
+      "url": "https://www.educationcanada.com/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.educationcanada.com/advertise.html", "https://www.educationcanada.com/employer.html", "https://educationcanada.com/contact.html"],
+      "reason": "Advertising Options link (advertise.html) and Post a Job link (employer.html) are on the homepage, which should show pricing; the page says it is part of a larger network without naming it, so an About page is likely to name the network and location.",
+      "flags": ["Homepage says the site is part of a much larger educational recruitment network without naming it; the parent field may need that network name."]
+    },
+    {
+      "id": "built-in",
+      "name": "Built In",
+      "url": "https://builtin.com/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://builtin.com/our-story", "https://employers.builtin.com/membership?utm_medium=BIReferral&utm_source=foremployers"],
+      "reason": "Our Story link is on the homepage; Post Job and Recruit With Built In links go to the employer membership page, which is likely to show pricing. No language selector or developer link was seen.",
+      "flags": []
+    },
+    {
+      "id": "jobteaser",
+      "name": "JobTeaser",
+      "url": "https://www.jobteaser.com/fr",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "high", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.jobteaser.com/fr/corporate/a-propos", "https://www.jobteaser.com/fr/corporate/recruteurs", "https://press.jobteaser.com/"],
+      "reason": "A propos link, JobTeaser pour les entreprises link and a language selector listing 14 other languages are on the page; no Developers or API link was seen.",
+      "flags": ["Footer copyright range 2008-2026 is not a founding date; do not use it for founded."]
+    },
+    {
+      "id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
+      "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+      "url": "https://www.comunidad.madrid/servicios/empleo",
+      "likelihood": {"hq_country": "low", "founded": "none", "parent": "high", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://oficinavirtualempleo.comunidad.madrid/AreaPublica/Ofertas/", "https://www.comunidad.madrid/empleo/oficina-empleo"],
+      "reason": "Page names the Comunidad de Madrid as the operator of the Objetivo tu empleo initiative; the offer search is on a separate office site. No developer, API, convenios or language selector link was found.",
+      "flags": ["Record describes a government service section rather than a hiring platform; the offer search is at oficinavirtualempleo.comunidad.madrid, so confirm which URL the entry should use."]
+    },
+    {
+      "id": "gaijinpot-jobs",
+      "name": "GaijinPot Jobs",
+      "url": "https://www.gaijinpot.com/jobs/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "high", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://gplusmedia.com/en/company?utm_source=gaijinpot.com&utm_medium=referral&utm_campaign=b2b", "https://jobs.gaijinpot.com/employer", "https://www.gaijinpot.com/about"],
+      "reason": "Company Profile link points to gplusmedia.com, About GaijinPot link is on the homepage, and Post Jobs link goes to the employer page; no Developers, API or Partners link was seen.",
+      "flags": ["Footer copyright is GPlusMedia Inc. and the record has no parent; confirm whether GPlusMedia is the parent."]
+    },
+    {
+      "id": "ciee",
+      "name": "CIEE",
+      "url": "https://portal.ciee.org.br",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "high", "ingest_methods": "low"},
+      "try_pages": ["https://portal.ciee.org.br/quero-ser-parceiro", "https://portal.ciee.org.br/conheca-o-ciee/", "https://portal.ciee.org.br/contrate-com-o-ciee"],
+      "reason": "Quero ser parceiro link (Instituicoes de Ensino) and Area do Parceiro link are on the homepage; Sala de Imprensa leads to the about section; the Contrate com o CIEE link may cover employer fees. The API match is a WhatsApp link, not an API.",
+      "flags": ["Banner says CIEE has operated for 60 years but gives no founding year; hq and parent are blank, so confirm the operating entity."]
+    },
+    {
+      "id": "government-e-employment-system",
+      "name": "Government E-Employment System",
+      "url": "https://eservices.mcs.gov.sa/Jadara3/(S(loocp4m5hffrcstzv5gtsuwp))/Users/Index.aspx",
+      "likelihood": {"hq_country": "none", "founded": "none", "parent": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "The host did not resolve from this session (DNS failure, outside the session's allowed network), so no page could be read; not worth another attempt from here.",
+      "flags": ["Host eservices.mcs.gov.sa must be allowed in the session network settings before a retry.", "URL contains an ASP.NET session token that will expire; store the base host and path instead."]
+    },
+    {
+      "id": "eurostat",
+      "name": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "medium", "business_model": "none", "api_status": "high", "partner_program": "none", "ingest_methods": "high"},
+      "try_pages": ["https://ec.europa.eu/eurostat/web/main/about-us", "https://ec.europa.eu/eurostat/about-us", "https://ec.europa.eu/eurostat/data/web-services"],
+      "reason": "About us links and Job opportunities are on the homepage; the Web services link (/eurostat/data/web-services) covers programmatic access, and Database and bulk data pages are linked.",
+      "flags": ["Language list links are placeholders (#), so the languages field cannot be checked from the homepage."]
+    },
+    {
+      "id": "recruit-group",
+      "name": "Recruit Group",
+      "url": "https://www.recruit-holdings.com/en/",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "low", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://recruit-holdings.com/en/about/profile/", "https://recruit-holdings.com/en/about/history/", "https://recruit-holdings.com/en/about/business/", "https://recruit-holdings.com/en/about/group/"],
+      "reason": "Company Profile and History links and Our Business Model link are on the homepage, and the profile page should give headquarters and founding year; the Group Companies link covers subsidiaries.",
+      "flags": ["Recruit Group appears to be the same group as Recruit Holdings, which is named as parent of 51job; check for a duplicate entry. Parent is blank here, which may be correct if it is the top holding."]
+    },
+    {
+      "id": "51job",
+      "name": "51job",
+      "url": "https://www.51job.com",
+      "likelihood": {"founded": "none", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://ehire.51job.com/", "https://jobs.51job.com/companys/"],
+      "reason": "Founding year was already found on we.51job.com/pc/aboutus in the round review, so founded is not worth another attempt; the homepage shows employer and headhunter sections but no partner or developer link.",
+      "flags": ["Founded is still listed as missing although the review found 1998 on we.51job.com/pc/aboutus; update the record.", "Homepage copyright reads 1999-2022, which may be stale."]
+    },
+    {
+      "id": "talentegg",
+      "name": "TalentEgg",
+      "url": "https://talentegg.ca",
+      "likelihood": {"founded": "low", "parent": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage says the site is transitioning to a new platform and services are currently unavailable; the only link is a contact email, so further lookup is not worth it.",
+      "flags": ["Services are reported unavailable, so the entry may be closed or in transition; confirm its status before any further lookup."]
+    },
+    {
+      "id": "careersinfood",
+      "name": "CareersInFood.com",
+      "url": "https://www.careersinfood.com",
+      "likelihood": {"founded": "low", "parent": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "The fetch tool returned 503, so the headless reader was used once. The homepage has an Employers: Post Your Job link and an Employers section, which may show posting fees; no developer, API or partner link appears in the text, and no URLs were returned for try_pages.",
+      "flags": []
+    }
+  ]
+}
