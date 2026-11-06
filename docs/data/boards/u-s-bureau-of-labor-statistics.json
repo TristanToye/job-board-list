@@ -44,10 +44,10 @@
  "review": {
   "board_id": "u-s-bureau-of-labor-statistics",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "ingest_methods",
-  "note": "API v1.0 is open without registration; v2.0 requires registration, so public-open is recorded for the open tier. Founded 1884 from About BLS. No statement of how jobs are ingested, as BLS is a statistics agency.",
-  "method": "fetch"
+  "outcome": "blocked",
+  "fields_not_found": "founded",
+  "note": "The About page returned HTTP 403 Access Denied to the fetch tool and the headless reader reported blocked. No quote was recorded. The Developers and Public Data API pages were not read.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

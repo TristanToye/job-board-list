@@ -3256,7 +3256,7 @@
   "domains": "",
   "type": "niche-board",
   "hq_country": "",
-  "founded": "",
+  "founded": "2011",
   "markets": "",
   "countries_served": "DE",
   "primary_language": "en",
@@ -4589,15 +4589,15 @@
   "region": "Europe",
   "niche": "",
   "segment": "",
-  "parent": "",
-  "business_model": "",
+  "parent": "Adevinta",
+  "business_model": "Free for private listings. Kleinanzeigen PRO for business sellers is a monthly subscription from 39 EUR per month, plus VAT (PRO Basic).",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
   "notes": "",
-  "confidence": "secondary-sourced"
+  "confidence": "partially-verified"
  },
  {
   "id": "government-e-employment-system",
@@ -4664,7 +4664,7 @@
   "region": "Europe",
   "niche": "",
   "segment": "",
-  "parent": "",
+  "parent": "Adevinta",
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
@@ -4672,7 +4672,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "",
-  "confidence": "secondary-sourced"
+  "confidence": "partially-verified"
  },
  {
   "id": "jobstoday-ltd",
@@ -4830,7 +4830,7 @@
   "url": "https://www.zippia.com/",
   "domains": "",
   "type": "board",
-  "hq_country": "",
+  "hq_country": "US",
   "founded": "2015",
   "markets": "",
   "countries_served": "US",
@@ -4847,7 +4847,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "",
-  "confidence": "secondary-sourced"
+  "confidence": "partially-verified"
  },
  {
   "id": "z-gis-geoinformatik-stellenb-rse",
@@ -6141,7 +6141,7 @@
   "segment": "",
   "parent": "Office for National Statistics",
   "business_model": "",
-  "api_status": "unknown",
+  "api_status": "public-open",
   "api_docs_url": "https://www.nomisweb.co.uk/api",
   "partner_program": "unknown",
   "partner_url": "",
@@ -6155,7 +6155,7 @@
   "url": "https://www.abs.gov.au",
   "domains": "",
   "type": "lmi",
-  "hq_country": "",
+  "hq_country": "AU",
   "founded": "",
   "markets": "",
   "countries_served": "AU;ZZ",
@@ -6790,7 +6790,7 @@
   "niche": "freelance service marketplace",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "No paid accounts or subscriptions for sellers. Kwork charges a percentage fee on completed orders.",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
@@ -7790,14 +7790,14 @@
   "niche": "applicant tracking system",
   "segment": "SMB",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription with 15-day free trial; Standard plan $299/month or $3,588/year",
   "api_status": "public-key",
   "api_docs_url": "https://workable.readme.io",
   "partner_program": "yes",
   "partner_url": "",
   "ingest_methods": "Public job feed",
   "notes": "Also has own aggregated job board. Write API: token. Reading jobs needs auth: token.",
-  "confidence": "seed-unverified"
+  "confidence": "partially-verified"
  },
  {
   "id": "smartrecruiters",
@@ -7931,7 +7931,7 @@
   "domains": "myworkday.com;myworkdayjobs.com",
   "type": "ats",
   "hq_country": "US",
-  "founded": "",
+  "founded": "2005",
   "markets": "Global",
   "countries_served": "",
   "primary_language": "",
@@ -7947,7 +7947,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Candidate site uses undocumented CXS JSON endpoints. Write API: partner.",
-  "confidence": "seed-unverified"
+  "confidence": "partially-verified"
  },
  {
   "id": "icims",

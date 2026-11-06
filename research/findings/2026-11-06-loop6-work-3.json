@@ -1,63 +1,192 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 6,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 6,
+ "boards": [
+  {
+   "name": "Workday Recruiting",
+   "url": "https://www.workday.com",
+   "founded": "2005",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en",
+     "fr",
+     "es",
+     "de",
+     "it",
+     "nl",
+     "pl",
+     "ja",
+     "ko",
+     "id",
+     "th",
+     "zh"
+    ]
+   },
+   "sources": [
     {
-      "name": "Workday Recruiting",
-      "url": "https://www.workday.com",
-      "founded": "2005",
-      "languages": {
-        "primary_language": "en",
-        "languages_supported": ["en", "fr", "es", "de", "it", "nl", "pl", "ja", "ko", "id", "th", "zh"]
-      },
-      "sources": [
-        {"field": "founded", "url": "https://www.workday.com/en-us/company/about-workday/our-story.html", "title": "Our Story", "quote": "2005 Workday is founded by software visionaries Aneel Bhusri and Dave Duffield"},
-        {"field": "languages", "url": "https://www.workday.com/en-us/choose-country-region.html", "title": "Choose your country or region", "quote": "English Français Español Deutsch Italiano Nederlands Polski 日本語 한국어 Bahasa Indonesia ไทย 繁體中文"}
-      ]
+     "field": "founded",
+     "url": "https://www.workday.com/en-us/company/about-workday/our-story.html",
+     "title": "Our Story",
+     "quote": "2005 Workday is founded by software visionaries Aneel Bhusri and Dave Duffield",
+     "check": "ok"
     },
     {
-      "name": "Randstad",
-      "url": "https://www.randstad.com",
-      "parent": "Randstad N.V.",
-      "sources": [
-        {"field": "parent", "url": "https://www.randstad.com/", "title": "Randstad home page footer", "quote": "is a registered trademark of © Randstad N.V."}
-      ]
-    },
-    {
-      "name": "AlmaLaurea",
-      "url": "https://www.almalaurea.it/",
-      "languages": {
-        "primary_language": "it",
-        "languages_supported": ["it", "en"]
-      },
-      "sources": [
-        {"field": "languages", "url": "https://www.almalaurea.it/", "title": "Home page language switcher", "quote": "IT EN"},
-        {"field": "languages", "url": "https://www.almalaurea.it/chi-siamo/sistema-e-struttura", "title": "Sistema e struttura", "quote": "AlmaLaurea nasce nel 1994 con un chiaro obiettivo: valutare le performance di studio e gli sbocchi lavorativi dei laureati."}
-      ]
-    },
-    {
-      "name": "Australian Bureau of Statistics",
-      "url": "https://www.abs.gov.au",
-      "hq_country": "AU",
-      "sources": [
-        {"field": "hq_country", "url": "https://www.abs.gov.au/about/contact-us", "title": "Contact us", "quote": "Australian Bureau of Statistics Locked Bag 10 Belconnen ACT 2616"}
-      ]
+     "field": "languages",
+     "url": "https://www.workday.com/en-us/choose-country-region.html",
+     "title": "Choose your country or region",
+     "quote": "English Français Español Deutsch Italiano Nederlands Polski 日本語 한국어 Bahasa Indonesia ไทย 繁體中文",
+     "check": "mismatch"
     }
-  ],
-  "reviews": [
-    {"name": "Workday Recruiting", "url": "https://www.workday.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Founding year from Our Story timeline; languages from the region chooser link list."},
-    {"name": "Randstad", "url": "https://www.randstad.com", "outcome": "partially-verified", "fields_not_found": ["languages"], "method": "fetch", "note": "Parent named in the footer trademark line. No language menu on the country selector or home page."},
-    {"name": "AlmaLaurea", "url": "https://www.almalaurea.it/", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Language switcher shows IT and EN. Primary Italian inferred from Italian page text, no explicit statement."},
-    {"name": "Australian Bureau of Statistics", "url": "https://www.abs.gov.au", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Postal address in Belconnen ACT, Australia, from Contact us page."}
-  ],
-  "attempts": [
-    {"name": "Workday Recruiting", "field": "founded", "outcome": "found", "pages": ["https://www.workday.com/en-us/company/about-workday/our-story.html"]},
-    {"name": "Workday Recruiting", "field": "languages", "outcome": "found", "pages": ["https://www.workday.com/en-us/choose-country-region.html"]},
-    {"name": "Randstad", "field": "parent", "outcome": "found", "pages": ["https://www.randstad.com/investor-relations/", "https://www.randstad.com/"]},
-    {"name": "Randstad", "field": "languages", "outcome": "not-found", "pages": ["https://www.randstad.com/find-randstad-in-your-country/", "https://www.randstad.com/"]},
-    {"name": "AlmaLaurea", "field": "languages", "outcome": "found", "pages": ["https://www.almalaurea.it/en", "https://www.almalaurea.it/", "https://www.almalaurea.it/chi-siamo/sistema-e-struttura", "https://www.almalaurea.it/chi-siamo/organizzazione"]},
-    {"name": "Australian Bureau of Statistics", "field": "hq_country", "outcome": "found", "pages": ["https://www.abs.gov.au/about/contact-us"]}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "parent": "Randstad N.V.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.randstad.com/",
+     "title": "Randstad home page footer",
+     "quote": "is a registered trademark of © Randstad N.V.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "languages": {
+    "primary_language": "it",
+    "languages_supported": [
+     "it",
+     "en"
+    ]
+   },
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.almalaurea.it/",
+     "title": "Home page language switcher",
+     "quote": "IT EN",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.almalaurea.it/chi-siamo/sistema-e-struttura",
+     "title": "Sistema e struttura",
+     "quote": "AlmaLaurea nasce nel 1994 con un chiaro obiettivo: valutare le performance di studio e gli sbocchi lavorativi dei laureati.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "hq_country": "AU",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.abs.gov.au/about/contact-us",
+     "title": "Contact us",
+     "quote": "Australian Bureau of Statistics Locked Bag 10 Belconnen ACT 2616",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Workday Recruiting",
+   "url": "https://www.workday.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Founding year from Our Story timeline; languages from the region chooser link list."
+  },
+  {
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages"
+   ],
+   "method": "fetch",
+   "note": "Parent named in the footer trademark line. No language menu on the country selector or home page."
+  },
+  {
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Language switcher shows IT and EN. Primary Italian inferred from Italian page text, no explicit statement."
+  },
+  {
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Postal address in Belconnen ACT, Australia, from Contact us page."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Workday Recruiting",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.workday.com/en-us/company/about-workday/our-story.html"
+   ]
+  },
+  {
+   "name": "Workday Recruiting",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.workday.com/en-us/choose-country-region.html"
+   ]
+  },
+  {
+   "name": "Randstad",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.randstad.com/investor-relations/",
+    "https://www.randstad.com/"
+   ]
+  },
+  {
+   "name": "Randstad",
+   "field": "languages",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.randstad.com/find-randstad-in-your-country/",
+    "https://www.randstad.com/"
+   ]
+  },
+  {
+   "name": "AlmaLaurea",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.almalaurea.it/en",
+    "https://www.almalaurea.it/",
+    "https://www.almalaurea.it/chi-siamo/sistema-e-struttura",
+    "https://www.almalaurea.it/chi-siamo/organizzazione"
+   ]
+  },
+  {
+   "name": "Australian Bureau of Statistics",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.abs.gov.au/about/contact-us"
+   ]
+  }
+ ],
+ "blocked": []
 }

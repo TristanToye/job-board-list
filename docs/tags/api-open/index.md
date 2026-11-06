@@ -1,6 +1,6 @@
 # Open API
 
-Provides an API or feed that needs no approval. 15 entries in the directory.
+Provides an API or feed that needs no approval. 16 entries in the directory.
 
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Open API (no key)
 - [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
@@ -12,6 +12,7 @@ Provides an API or feed that needs no approval. 15 entries in the directory.
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [Remote OK](https://jobboardlist.com/boards/remoteok/): niche-board, Open API (no key)
 - [Remotive](https://jobboardlist.com/boards/remotive/): niche-board, Open API (no key)
+- [Nomis](https://jobboardlist.com/boards/nomis/): lmi, Open API (no key)
 - [Himalayas](https://jobboardlist.com/boards/himalayas/): niche-board, Open API (no key)
 - [Arbeitnow](https://jobboardlist.com/boards/arbeitnow/): niche-board, Open API (no key)
 - [Google for Jobs](https://jobboardlist.com/boards/google-jobs/): search-aggregator, Open API (no key)

@@ -42,7 +42,7 @@
 - [Gem](https://jobboardlist.com/boards/gem/): hr-tech, Established tier
 - [Hays](https://jobboardlist.com/boards/hays/): staffing, Established tier
 - [Harver](https://jobboardlist.com/boards/harver/): hr-tech, Established tier
-- [Nomis](https://jobboardlist.com/boards/nomis/): lmi, Established tier
+- [Nomis](https://jobboardlist.com/boards/nomis/): lmi, Established tier, Open API (no key)
 - [Codeable](https://jobboardlist.com/boards/codeable/): freelance-platform, Established tier
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform, Established tier
 - [Codility](https://jobboardlist.com/boards/codility/): hr-tech, Established tier

@@ -11,6 +11,7 @@ CharityVillage is a niche job board based in Canada, focused on nonprofit and ch
 - Partner program: unknown
 - Prominence: #71,818 globally, tier Established
 - Tags: Job board, Nonprofit, Pay per post, Subscription
+- Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: founding year.
 - Data status: partly verified against its own site
 
 ## Quick answers

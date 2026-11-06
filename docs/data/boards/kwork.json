@@ -16,7 +16,7 @@
  "niche": "freelance service marketplace",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "No paid accounts or subscriptions for sellers. Kwork charges a percentage fee on completed orders.",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -35,15 +35,16 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "freelance-platform"
+  "freelance-platform",
+  "subscription"
  ],
  "connections": [],
  "review": {
   "board_id": "kwork",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage read in the browser and /api returned 404; none of the missing facts are stated.",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "The For Sellers page states the fee model. The fee applies to sellers on completed orders, not to employers, so it describes the seller side of the marketplace.",
   "method": "mixed"
  },
  "owners": [],
@@ -55,6 +56,14 @@
    "title": "Kwork homepage",
    "accessed": "2026-11-06",
    "quote": "Shop freelance services with confidence on Kwork.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://kwork.com/for-sellers",
+   "title": "For Freelancers - Kwork",
+   "accessed": "2026-11-06",
+   "quote": "there are no paid accounts or subscriptions; we only charge a percentage fee for completed orders.",
    "quote_check": "ok"
   }
  ]

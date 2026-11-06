@@ -1,7 +1,8 @@
 # Free to post
 
-Employers can post jobs without paying. 26 entries in the directory.
+Employers can post jobs without paying. 28 entries in the directory.
 
+- [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
 - [Freelancer.com](https://jobboardlist.com/boards/freelancer-com/): freelance-platform
 - [USAJOBS](https://jobboardlist.com/boards/usajobs/): government, Self-serve API key
@@ -22,6 +23,7 @@ Employers can post jobs without paying. 26 entries in the directory.
 - [WeLoveDevs](https://jobboardlist.com/boards/welovedevs/): niche-board
 - [Jobsuche (Bundesagentur fur Arbeit)](https://jobboardlist.com/boards/jobsuche-ba/): government, Self-serve API key
 - [France Travail](https://jobboardlist.com/boards/francetravail/): government, Self-serve API key
+- [Kleinanzeigen](https://jobboardlist.com/boards/kleinanzeigen/): board
 - [Google for Jobs](https://jobboardlist.com/boards/google-jobs/): search-aggregator, Open API (no key)
 - [Hacker News Who is hiring](https://jobboardlist.com/boards/hn-whoishiring/): community, Open API (no key)
 - [Arbeidsplassen (NAV)](https://jobboardlist.com/boards/nav-arbeidsplassen/): government, Self-serve API key

@@ -15,17 +15,17 @@
  "region": "Europe",
  "niche": "",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Adevinta",
+ "business_model": "Free for private listings. Kleinanzeigen PRO for business sellers is a monthly subscription from 39 EUR per month, plus VAT (PRO Basic).",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
  "notes": "",
- "confidence": "secondary-sourced",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/kleinanzeigen/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Site-wide",
@@ -35,10 +35,19 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "job-board"
+  "free-to-post",
+  "job-board",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "kleinanzeigen",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;partner_program",
+  "note": "About page gives the Adevinta parent and the PRO subscription price is on the PRO package page. The site does not state the headquarters country, and no partner program statement was found on the pages read. Business model covers the PRO su",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,30 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "parent",
+   "url": "https://themen.kleinanzeigen.de/ueber-uns/",
+   "title": "Kleinanzeigen: Ueber uns",
+   "accessed": "2026-11-06",
+   "quote": "Seit 2021 gehört Kleinanzeigen zur Adevinta-Gruppe",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://themen.kleinanzeigen.de/mit-pro-umsatz-steigern/",
+   "title": "Kleinanzeigen PRO packages",
+   "accessed": "2026-11-06",
+   "quote": "Ab 39 € / Monat",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://themen.kleinanzeigen.de/ueber-uns/",
+   "title": "Kleinanzeigen: Ueber uns",
+   "accessed": "2026-11-06",
+   "quote": "Die Plattform ist vollständig kostenlos nutzbar",
+   "quote_check": "ok"
   }
  ]
 }

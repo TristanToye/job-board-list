@@ -5,7 +5,7 @@ Trades 11 entries in the directory.
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Open API (no key)
 - [Office for National Statistics](https://jobboardlist.com/boards/office-for-national-statistics/): lmi
 - [Lightcast](https://jobboardlist.com/boards/lightcast/): lmi
-- [Nomis](https://jobboardlist.com/boards/nomis/): lmi
+- [Nomis](https://jobboardlist.com/boards/nomis/): lmi, Open API (no key)
 - [Gi Group Holding](https://jobboardlist.com/boards/gi-group-holding/): staffing
 - [Burning Glass Institute](https://jobboardlist.com/boards/burning-glass-institute/): lmi
 - [apna](https://jobboardlist.com/boards/apna/): board

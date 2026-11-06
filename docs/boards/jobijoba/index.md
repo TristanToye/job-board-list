@@ -11,6 +11,7 @@ Jobijoba is a job aggregator.
 - Partner program: yes
 - Prominence: #149,209 globally, tier Small
 - Tags: API on request, General, Job aggregator, Partner program
+- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: headquarters, founding year, pricing and business model, how jobs get in.
 - Data status: partly verified against its own site
 
 ## Quick answers
@@ -28,6 +29,7 @@ Jobijoba is a job aggregator.
 - [Homepage](https://www.jobijoba.com) (Partner program, checked 2026-11-05): "Programme d'affiliation"
 - [Affiliation page](https://www.jobijoba.com/fr/affiliation-offres-emploi) (Partner program, checked 2026-11-05): "AJOUTEZ NOS OFFRES D'EMPLOI SUR VOS SITES OU VOS APPLICATIONS"
 - [Affiliation page](https://www.jobijoba.com/fr/affiliation-offres-emploi) (API access, checked 2026-11-05): "Intégrez facilement et rapidement nos offres comme vous les souhaitez ( Flux, API, Widget)"
+- [Jobijoba home (fr)](https://www.jobijoba.com/fr/) (Ownership, checked 2026-11-06): "Les sites du groupe Télégramme"
 
 Canonical page: https://jobboardlist.com/boards/jobijoba/
-Last updated: 2026-11-05
+Last updated: 2026-11-06

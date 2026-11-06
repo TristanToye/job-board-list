@@ -7,5 +7,7 @@ Adevinta is a leading online classifieds group and champion for sustainable comm
 ## Entries in this directory
 
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/) (board)
+- [Kleinanzeigen](https://jobboardlist.com/boards/kleinanzeigen/) (board)
+- [Subito](https://jobboardlist.com/boards/subito/) (board)
 
 Canonical page: https://jobboardlist.com/owners/adevinta/

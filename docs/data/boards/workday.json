@@ -5,7 +5,7 @@
  "domains": "myworkday.com;myworkdayjobs.com",
  "type": "ats",
  "hq_country": "US",
- "founded": "",
+ "founded": "2005",
  "markets": "Global",
  "countries_served": [],
  "primary_language": "",
@@ -21,9 +21,9 @@
  "partner_url": "",
  "ingest_methods": [],
  "notes": "Candidate site uses undocumented CXS JSON endpoints. Write API: partner.",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/workday/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -60,12 +60,21 @@
  "review": {
   "board_id": "workday",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "founded",
-  "note": "Region chooser lists 12 language options, primary English. Our Story page names the founders Aneel Bhusri and Dave Duffield and its timeline places the founding in 2005, but the entry copied word for word does not contain the year, so found",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Founding year from Our Story timeline; languages from the region chooser link list.",
   "method": "fetch"
  },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.workday.com/en-us/company/about-workday/our-story.html",
+   "title": "Our Story",
+   "accessed": "2026-11-06",
+   "quote": "2005 Workday is founded by software visionaries Aneel Bhusri and Dave Duffield",
+   "quote_check": "ok"
+  }
+ ]
 }

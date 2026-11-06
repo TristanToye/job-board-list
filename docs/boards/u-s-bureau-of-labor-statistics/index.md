@@ -11,7 +11,7 @@ U.S. Bureau of Labor Statistics is a labour market information source based in U
 - Partner program: unknown
 - Prominence: #455 globally, tier Major
 - Tags: Open API, Labour market information, Trades and labour
-- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: how jobs get in.
+- Review: Reviewed 2026-11-06. Could not verify: the site blocks automated access, so these facts remain as recorded. The About page returned HTTP 403 Access Denied to the fetch tool and the headless reader reported blocked. No quote was recorded. The Developers and Public Data API pages were not read.
 - Data status: partly verified against its own site
 
 ## Quick answers

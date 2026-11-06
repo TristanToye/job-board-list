@@ -4,7 +4,7 @@
  "url": "https://www.zippia.com/",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "2015",
  "markets": "",
  "countries_served": [
@@ -23,7 +23,7 @@
  "partner_url": "",
  "ingest_methods": [],
  "notes": "",
- "confidence": "secondary-sourced",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/zippia/",
  "indexable": false,
  "prominence": {
@@ -38,7 +38,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "zippia",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent",
+  "note": "Address on About Us is in Miami, FL. A press-style line on the same page calls Zippia San Mateo, California-based; the Miami address was used as the quote. Footer shows Copyright Zippia, Inc. which names the operator, not a parent.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.zippia.com/about-us/",
+   "title": "About Us",
+   "accessed": "2026-11-06",
+   "quote": "382 NE 191st St # 51369, Miami, FL 33179",
+   "quote_check": "ok"
   }
  ]
 }

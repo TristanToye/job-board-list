@@ -15,7 +15,7 @@
  "region": "Europe",
  "niche": "",
  "segment": "",
- "parent": "",
+ "parent": "Adevinta",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
@@ -23,7 +23,7 @@
  "partner_url": "",
  "ingest_methods": [],
  "notes": "",
- "confidence": "secondary-sourced",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/subito/",
  "indexable": false,
  "prominence": {
@@ -38,7 +38,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "subito",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "ingest_methods",
+  "note": "Homepage read in browser. Shops page returned 403 to both fetch and browser reader. Owner found on privacy page; business model taken from the business page form option only, no prices shown.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "parent",
+   "url": "https://info.subito.it/policies/privacy-professionisti.htm",
+   "title": "Privacy policy for professionals",
+   "accessed": "2026-11-06",
+   "quote": "Subito.it S.r.l., società facente parte del Gruppo Adevinta",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://aziende.subito.it/",
+   "title": "Subito per le Aziende",
+   "accessed": "2026-11-06",
+   "quote": "Acquista un nuovo abbonamento",
+   "quote_check": "ok"
   }
  ]
 }

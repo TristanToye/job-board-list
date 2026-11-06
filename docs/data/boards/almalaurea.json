@@ -42,9 +42,9 @@
  "review": {
   "board_id": "almalaurea",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "founded;business_model",
-  "note": "Head office in Bologna, Italy and IT/EN switcher verified. Services page states no pricing or payment model; Trasparenza names the consortium but no founding year.",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Language switcher shows IT and EN. Primary Italian inferred from Italian page text, no explicit statement.",
   "method": "fetch"
  },
  "owners": [],
@@ -80,6 +80,22 @@
    "title": "Contatti",
    "accessed": "2026-11-06",
    "quote": "IT",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.almalaurea.it/",
+   "title": "Home page language switcher",
+   "accessed": "2026-11-06",
+   "quote": "IT EN",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.almalaurea.it/chi-siamo/sistema-e-struttura",
+   "title": "Sistema e struttura",
+   "accessed": "2026-11-06",
+   "quote": "AlmaLaurea nasce nel 1994 con un chiaro obiettivo: valutare le performance di studio e gli sbocchi lavorativi dei laureati.",
    "quote_check": "ok"
   }
  ]

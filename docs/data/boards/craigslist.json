@@ -36,7 +36,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "craigslist",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;business_model",
+  "note": "Homepage redirects to a regional page. About and Help pages were read: they give no headquarters and no posting fee information.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

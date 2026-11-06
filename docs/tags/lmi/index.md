@@ -8,7 +8,7 @@ Statistics 12 entries in the directory.
 - [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Self-serve API key
 - [Statistics Austria](https://jobboardlist.com/boards/statistics-austria/): lmi
 - [Lightcast](https://jobboardlist.com/boards/lightcast/): lmi
-- [Nomis](https://jobboardlist.com/boards/nomis/): lmi
+- [Nomis](https://jobboardlist.com/boards/nomis/): lmi, Open API (no key)
 - [Revelio Labs](https://jobboardlist.com/boards/revelio-labs/): lmi
 - [Burning Glass Institute](https://jobboardlist.com/boards/burning-glass-institute/): lmi
 - [Textkernel](https://jobboardlist.com/boards/textkernel/): lmi

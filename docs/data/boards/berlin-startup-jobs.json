@@ -5,7 +5,7 @@
  "domains": "",
  "type": "niche-board",
  "hq_country": "",
- "founded": "",
+ "founded": "2011",
  "markets": "",
  "countries_served": [
   "DE"
@@ -28,7 +28,7 @@
  "notes": "Parent not stated. A sister site for London is linked, and the relationship is not described. Developer, API and partner links on the homepage are skill-tag pages only. The basic package includes an email job alert listing and social posts.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/berlin-startup-jobs/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -43,7 +43,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "berlin-startup-jobs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country",
+  "note": "About page states founding year. It states jobs must be based in Berlin, but no headquarters statement was found.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -69,6 +76,14 @@
    "title": "Job post prices",
    "accessed": "2026-11-05",
    "quote": "STANDARD JOB POST: 120 € / 90 DAYS",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://berlinstartupjobs.com/about/",
+   "title": "About",
+   "accessed": "2026-11-06",
+   "quote": "It was founded in 2011",
    "quote_check": "ok"
   }
  ]

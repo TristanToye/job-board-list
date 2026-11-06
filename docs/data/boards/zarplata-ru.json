@@ -39,10 +39,10 @@
  "review": {
   "board_id": "zarplata-ru",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "founded;partner_program",
-  "note": "Terms page names the operating company, ООО Хэдхантер, but no founding year appears on the pages read. The partners page is a media and advertising contact page with no partner program described. Browser reader used on pages that did not ne",
-  "method": "mixed"
+  "outcome": "blocked",
+  "fields_not_found": "business_model",
+  "note": "Media kit link is a PDF download. Fetch returned binary PDF data and the browser reader reported a download, so no text could be read.",
+  "method": "fetch"
  },
  "owners": [
   {

@@ -43,7 +43,14 @@
   "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobijoba",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded;business_model;ingest_methods",
+  "note": "Homepage heading lists Jobijoba under Les sites du groupe Telegramme, but the Hellowork group page and the Jobijoba footer name Advenn and Hellowork Group as corporate parents, so the parent is recorded with that conflict. The affiliation p",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -85,6 +92,14 @@
    "title": "Affiliation page",
    "accessed": "2026-11-05",
    "quote": "Intégrez facilement et rapidement nos offres comme vous les souhaitez ( Flux, API, Widget)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.jobijoba.com/fr/",
+   "title": "Jobijoba home (fr)",
+   "accessed": "2026-11-06",
+   "quote": "Les sites du groupe Télégramme",
    "quote_check": "ok"
   }
  ]

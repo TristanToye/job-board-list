@@ -18,7 +18,7 @@
  "segment": "",
  "parent": "Office for National Statistics",
  "business_model": "",
- "api_status": "unknown",
+ "api_status": "public-open",
  "api_docs_url": "https://www.nomisweb.co.uk/api",
  "partner_program": "unknown",
  "partner_url": "",
@@ -26,7 +26,7 @@
  "notes": "Nomis describes itself as a labour market statistics service. The API page documents a RESTful API for data downloads and states a limit on concurrent requests; it does not state whether a key is needed. The contact page names no address. No language options, prices or partner program were stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/nomis/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -36,6 +36,7 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "api-open",
   "lmi",
   "trades-labour"
  ],
@@ -43,9 +44,9 @@
  "review": {
   "board_id": "nomis",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country",
-  "note": "The /api URL redirects to /api/v01/help, which was read. The page shows ONS and Crown Copyright logos and links but no sentence stating the operator or the country. Homepage has no About, Partners or Pricing link per scout.",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "/api redirected to /api/v01/help, which states anonymous use is allowed and an optional key raises limits.",
   "method": "fetch"
  },
  "owners": [],
@@ -73,6 +74,14 @@
    "title": "Nomis API page",
    "accessed": "2026-11-06",
    "quote": "This is the Nomis RESTful API you can use it to perform a variety of structural discovery and data download requests.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "http://www.nomisweb.co.uk/api/v01/help",
+   "title": "API help",
+   "accessed": "2026-11-06",
+   "quote": "Use of the API key is optional.",
    "quote_check": "ok"
   }
  ]

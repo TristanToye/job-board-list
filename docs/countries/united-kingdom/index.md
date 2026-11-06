@@ -8,7 +8,7 @@
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Established tier, Partner-only API
 - [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Established tier, Self-serve API key
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Established tier, Partner-only API
-- [Nomis](https://jobboardlist.com/boards/nomis/): lmi, Established tier
+- [Nomis](https://jobboardlist.com/boards/nomis/): lmi, Established tier, Open API (no key)
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [CharityJob](https://jobboardlist.com/boards/charityjob/): niche-board, Established tier
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board, Small tier

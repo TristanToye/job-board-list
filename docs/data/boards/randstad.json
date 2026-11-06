@@ -42,10 +42,10 @@
  "review": {
   "board_id": "randstad",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Founding year 1960 stated on the company profile page.",
-  "method": "mixed"
+  "outcome": "partially-verified",
+  "fields_not_found": "languages",
+  "note": "Parent named in the footer trademark line. No language menu on the country selector or home page.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
@@ -72,6 +72,14 @@
    "title": "Company profile | Randstad",
    "accessed": "2026-11-06",
    "quote": "Randstad was founded in 1960 and is headquartered in Diemen, the Netherlands.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.randstad.com/",
+   "title": "Randstad home page footer",
+   "accessed": "2026-11-06",
+   "quote": "is a registered trademark of © Randstad N.V.",
    "quote_check": "ok"
   }
  ]

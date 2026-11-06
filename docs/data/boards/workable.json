@@ -14,7 +14,7 @@
  "niche": "applicant tracking system",
  "segment": "SMB",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription with 15-day free trial; Standard plan $299/month or $3,588/year",
  "api_status": "public-key",
  "api_docs_url": "https://workable.readme.io",
  "partner_program": "yes",
@@ -23,9 +23,9 @@
   "Public job feed"
  ],
  "notes": "Also has own aggregated job board. Write API: token. Reading jobs needs auth: token.",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/workable/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -37,9 +37,11 @@
  "tags": [
   "api-self-serve",
   "ats",
+  "free-to-post",
   "partner-program",
   "public-job-feed",
-  "smb"
+  "smb",
+  "subscription"
  ],
  "connections": [
   {
@@ -237,10 +239,19 @@
   "reviewed": "2026-11-06",
   "outcome": "verified",
   "fields_not_found": "",
-  "note": "Founded fact comes from the visible home page sentence Since 2012, which does not use the word founded; recorded as 2012. Subscription pricing with prices and a 15-day free trial found on the pricing page. The readme.io developer docs link ",
+  "note": "Founding year from homepage text and structured data; pricing page gives subscription plans and a 15-day trial. Parent not stated and not requested.",
   "method": "fetch"
  },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "business_model",
+   "url": "https://www.workable.com/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "Explore our full platform with a 15-day free trial.",
+   "quote_check": "ok"
+  }
+ ]
 }

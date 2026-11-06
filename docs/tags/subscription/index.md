@@ -1,9 +1,10 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 66 entries in the directory.
+Employers pay a recurring fee or plan. 69 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
+- [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [HeadHunter (hh.ru)](https://jobboardlist.com/boards/hh-ru/): board, Self-serve API key
 - [Zhaopin](https://jobboardlist.com/boards/zhaopin/): board, No known API
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board
@@ -29,6 +30,7 @@ Employers pay a recurring fee or plan. 66 entries in the directory.
 - [JobStreet](https://jobboardlist.com/boards/jobstreet/): board, Partner-only API
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Partner-only API
 - [Bayt](https://jobboardlist.com/boards/bayt/): board
+- [Kwork](https://jobboardlist.com/boards/kwork/): freelance-platform
 - [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, API key on request
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
 - [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
@@ -64,6 +66,7 @@ Employers pay a recurring fee or plan. 66 entries in the directory.
 - [WeLoveDevs](https://jobboardlist.com/boards/welovedevs/): niche-board
 - [Mynavi](https://jobboardlist.com/boards/mynavi/): board, No known API
 - [The Muse](https://jobboardlist.com/boards/themuse/): board+employer-brand, Self-serve API key
+- [Kleinanzeigen](https://jobboardlist.com/boards/kleinanzeigen/): board
 - [FINN.no Jobs](https://jobboardlist.com/boards/finn-no/): classifieds+board, Partner-only API
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [XING Jobs](https://jobboardlist.com/boards/xing/): social-network+board, Partner-only API

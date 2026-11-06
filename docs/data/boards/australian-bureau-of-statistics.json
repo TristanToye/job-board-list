@@ -4,7 +4,7 @@
  "url": "https://www.abs.gov.au",
  "domains": "",
  "type": "lmi",
- "hq_country": "",
+ "hq_country": "AU",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -42,10 +42,10 @@
  "review": {
   "board_id": "australian-bureau-of-statistics",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "api_status",
-  "note": "Data Explorer user guide says users can automatically generate Application Programming Interface calls to pull data, so an API exists, but no page states whether a key is needed, so api_status is unknown. Data Explorer home page and consult",
-  "method": "mixed"
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Postal address in Belconnen ACT, Australia, from Contact us page.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
@@ -56,6 +56,14 @@
    "title": "About the ABS",
    "accessed": "2026-11-06",
    "quote": "We are Australia's national statistical agency and an official source of independent, reliable information.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.abs.gov.au/about/contact-us",
+   "title": "Contact us",
+   "accessed": "2026-11-06",
+   "quote": "Australian Bureau of Statistics Locked Bag 10 Belconnen ACT 2616",
    "quote_check": "ok"
   }
  ]

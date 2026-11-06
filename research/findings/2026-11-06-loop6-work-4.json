@@ -1,50 +1,172 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 6,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 6,
+ "boards": [
+  {
+   "name": "Subito",
+   "url": "https://www.subito.it/",
+   "parent": "Adevinta",
+   "business_model": "subscription",
+   "ingest_methods": null,
+   "sources": [
     {
-      "name": "Subito", "url": "https://www.subito.it/",
-      "parent": "Adevinta",
-      "business_model": "subscription",
-      "ingest_methods": null,
-      "sources": [
-        {"field": "parent", "url": "https://info.subito.it/policies/privacy-professionisti.htm", "title": "Privacy policy for professionals", "quote": "Subito.it S.r.l., società facente parte del Gruppo Adevinta"},
-        {"field": "business_model", "url": "https://aziende.subito.it/", "title": "Subito per le Aziende", "quote": "Acquista un nuovo abbonamento"}
-      ]
+     "field": "parent",
+     "url": "https://info.subito.it/policies/privacy-professionisti.htm",
+     "title": "Privacy policy for professionals",
+     "quote": "Subito.it S.r.l., società facente parte del Gruppo Adevinta",
+     "check": "ok"
     },
     {
-      "name": "Berlin Startup Jobs", "url": "https://www.berlinstartupjobs.com/",
-      "founded": "2011",
-      "sources": [
-        {"field": "founded", "url": "https://berlinstartupjobs.com/about/", "title": "About", "quote": "It was founded in 2011"}
-      ]
-    },
-    {
-      "name": "Nomis", "url": "https://www.nomisweb.co.uk",
-      "api_status": "public-open", "api_docs_url": "https://www.nomisweb.co.uk/api",
-      "sources": [
-        {"field": "api_status", "url": "http://www.nomisweb.co.uk/api/v01/help", "title": "API help", "quote": "Use of the API key is optional."}
-      ]
+     "field": "business_model",
+     "url": "https://aziende.subito.it/",
+     "title": "Subito per le Aziende",
+     "quote": "Acquista un nuovo abbonamento",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Subito", "url": "https://www.subito.it/", "outcome": "partially-verified", "fields_not_found": ["ingest_methods"], "method": "mixed", "note": "Homepage read in browser. Shops page returned 403 to both fetch and browser reader. Owner found on privacy page; business model taken from the business page form option only, no prices shown."},
-    {"name": "Berlin Startup Jobs", "url": "https://www.berlinstartupjobs.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country"], "method": "fetch", "note": "About page states founding year. It states jobs must be based in Berlin, but no headquarters statement was found."},
-    {"name": "Nomis", "url": "https://www.nomisweb.co.uk", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "/api redirected to /api/v01/help, which states anonymous use is allowed and an optional key raises limits."},
-    {"name": "Zarplata.ru", "url": "https://zarplata.ru/", "outcome": "blocked", "fields_not_found": ["business_model"], "method": "fetch", "note": "Media kit link is a PDF download. Fetch returned binary PDF data and the browser reader reported a download, so no text could be read."}
-  ],
-  "attempts": [
-    {"name": "Subito", "field": "parent", "outcome": "found", "pages": ["https://info.subito.it/policies/privacy-professionisti.htm", "https://www.subito.it/"]},
-    {"name": "Subito", "field": "business_model", "outcome": "found", "pages": ["https://aziende.subito.it/", "https://www.subito.it/"]},
-    {"name": "Subito", "field": "ingest_methods", "outcome": "blocked", "pages": ["https://impresapiu.subito.it/shops"]},
-    {"name": "Berlin Startup Jobs", "field": "hq_country", "outcome": "not-found", "pages": ["https://berlinstartupjobs.com/about/"]},
-    {"name": "Berlin Startup Jobs", "field": "founded", "outcome": "found", "pages": ["https://berlinstartupjobs.com/about/"]},
-    {"name": "Nomis", "field": "api_status", "outcome": "found", "pages": ["https://www.nomisweb.co.uk/api", "http://www.nomisweb.co.uk/api/v01/help"]},
-    {"name": "Zarplata.ru", "field": "business_model", "outcome": "blocked", "pages": ["https://zarplata.ru/article/mediakit?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=main"]}
-  ],
-  "blocked": [
-    {"name": "Subito", "url": "https://impresapiu.subito.it/shops", "reason": "403 Access Denied on fetch and browser reader; ingest_methods not read"},
-    {"name": "Zarplata.ru", "url": "https://zarplata.ru/", "reason": "Media kit is a PDF download with no readable text"}
-  ]
+   ]
+  },
+  {
+   "name": "Berlin Startup Jobs",
+   "url": "https://www.berlinstartupjobs.com/",
+   "founded": "2011",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://berlinstartupjobs.com/about/",
+     "title": "About",
+     "quote": "It was founded in 2011",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "api_status": "public-open",
+   "api_docs_url": "https://www.nomisweb.co.uk/api",
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "http://www.nomisweb.co.uk/api/v01/help",
+     "title": "API help",
+     "quote": "Use of the API key is optional.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Subito",
+   "url": "https://www.subito.it/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage read in browser. Shops page returned 403 to both fetch and browser reader. Owner found on privacy page; business model taken from the business page form option only, no prices shown."
+  },
+  {
+   "name": "Berlin Startup Jobs",
+   "url": "https://www.berlinstartupjobs.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country"
+   ],
+   "method": "fetch",
+   "note": "About page states founding year. It states jobs must be based in Berlin, but no headquarters statement was found."
+  },
+  {
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "/api redirected to /api/v01/help, which states anonymous use is allowed and an optional key raises limits."
+  },
+  {
+   "name": "Zarplata.ru",
+   "url": "https://zarplata.ru/",
+   "outcome": "blocked",
+   "fields_not_found": [
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "Media kit link is a PDF download. Fetch returned binary PDF data and the browser reader reported a download, so no text could be read."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Subito",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://info.subito.it/policies/privacy-professionisti.htm",
+    "https://www.subito.it/"
+   ]
+  },
+  {
+   "name": "Subito",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://aziende.subito.it/",
+    "https://www.subito.it/"
+   ]
+  },
+  {
+   "name": "Subito",
+   "field": "ingest_methods",
+   "outcome": "blocked",
+   "pages": [
+    "https://impresapiu.subito.it/shops"
+   ]
+  },
+  {
+   "name": "Berlin Startup Jobs",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://berlinstartupjobs.com/about/"
+   ]
+  },
+  {
+   "name": "Berlin Startup Jobs",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://berlinstartupjobs.com/about/"
+   ]
+  },
+  {
+   "name": "Nomis",
+   "field": "api_status",
+   "outcome": "found",
+   "pages": [
+    "https://www.nomisweb.co.uk/api",
+    "http://www.nomisweb.co.uk/api/v01/help"
+   ]
+  },
+  {
+   "name": "Zarplata.ru",
+   "field": "business_model",
+   "outcome": "blocked",
+   "pages": [
+    "https://zarplata.ru/article/mediakit?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=main"
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Subito",
+   "url": "https://impresapiu.subito.it/shops",
+   "reason": "403 Access Denied on fetch and browser reader; ingest_methods not read"
+  },
+  {
+   "name": "Zarplata.ru",
+   "url": "https://zarplata.ru/",
+   "reason": "Media kit is a PDF download with no readable text"
+  }
+ ]
 }
