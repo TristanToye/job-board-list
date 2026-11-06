@@ -1,0 +1,149 @@
+{
+  "round": 9,
+  "orders": [
+    {
+      "id": "o-net",
+      "name": "O*NET",
+      "url": "https://www.onetonline.org",
+      "likelihood": {"hq_country": "low", "founded": "low", "languages": "low", "business_model": "none", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.onetcenter.org/links.html", "https://www.doleta.gov/programs/onet/eta_default.cfm"],
+      "reason": "Header and footer show About this Site, OnLine Help, Web Services and Related Sites only. No language menu, and the Spanish section links to another site. The About and Web Services pages were already read by earlier attempts. Free public resource, so business model does not apply.",
+      "flags": []
+    },
+    {
+      "id": "kwork",
+      "name": "Kwork",
+      "url": "https://www.kwork.com",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "languages": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Homepage shows only a For Sellers link (already read). No About, API, Developers, Partners or language or country selector link is visible.",
+      "flags": ["Recorded business_model describes only the seller-side fee; the employer-side model is not stated."]
+    },
+    {
+      "id": "the-adecco-group",
+      "name": "The Adecco Group",
+      "url": "https://www.adecco.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.adecco.com/employers/who-we-are"],
+      "reason": "Homepage links only to careers, investors, Who we are and Career Advice. Text says 'We are part of The Adecco Group'. No language selector and no Developers, API or Partners link.",
+      "flags": []
+    },
+    {
+      "id": "nomis",
+      "name": "Nomis",
+      "url": "https://www.nomisweb.co.uk",
+      "likelihood": {"hq_country": "low", "founded": "low", "languages": "low", "business_model": "none", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.nomisweb.co.uk/home/contacts.asp", "https://www.nomisweb.co.uk/home/terms.asp", "https://www.nomisweb.co.uk/sources"],
+      "reason": "Footer API link and header Contact, Data Sources and Terms links are visible. No language selector and no About or Partners link. Text says it is a service provided by ONS. Public statistics service, so business model does not apply.",
+      "flags": []
+    },
+    {
+      "id": "national-career-service",
+      "name": "National Career Service",
+      "url": "https://www.ncs.gov.in",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "partner_program": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://www.ncs.gov.in/login/employer", "https://www.ncs.gov.in/jobseeker-list"],
+      "reason": "Header menu has an Employers section and an About NCSC-DAs / VRCs page describing placement organisations, which suggests a partner-style structure. Placement organisation registration links point to the employer login. No language selector and no API link seen.",
+      "flags": []
+    },
+    {
+      "id": "caterer-com",
+      "name": "Caterer.com",
+      "url": "https://www.caterer.com",
+      "likelihood": {"hq_country": "none", "founded": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 503 again in this round, so no links could be read. Blocked, so no attempt is recommended now.",
+      "flags": ["Homepage returned HTTP 503 in two earlier fetches and again here. Recheck later before treating the site as closed."]
+    },
+    {
+      "id": "hirevue",
+      "name": "HireVue",
+      "url": "https://www.hirevue.com",
+      "likelihood": {"hq_country": "low", "parent": "low", "languages": "low", "business_model": "low"},
+      "try_pages": ["https://www.hirevue.com/contact"],
+      "reason": "Footer and Company menu show About us, Press & News and Contact, plus an Integration link. No pricing, partner, developer or language link is visible. The About and press pages were already read by earlier attempts.",
+      "flags": ["Record partner_url is https://www.hirevue.com/integrations, but the Integration link on the homepage points to /platform/integrations. Check which URL is live."]
+    },
+    {
+      "id": "almalaurea",
+      "name": "AlmaLaurea",
+      "url": "https://www.almalaurea.it/",
+      "likelihood": {"founded": "medium", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.almalaurea.it/en", "https://www.almalaurea.it/servizi-per-le-imprese"],
+      "reason": "Language switcher links IT and EN (/en). Homepage shows 'Dal 1994' beside a tagline, which may be a founding year. The Chi siamo and transparency pages were already read without a founding statement.",
+      "flags": ["Homepage names the parent as Consorzio Interuniversitario AlmaLaurea, while the record says Consorzio AlmaLaurea. Same body, but the name may need aligning."]
+    },
+    {
+      "id": "randstad",
+      "name": "Randstad",
+      "url": "https://www.randstad.com",
+      "likelihood": {"parent": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.randstad.com/about-randstad/", "https://www.randstad.com/investor-relations/"],
+      "reason": "Footer names Randstad N.V. as the registered entity, and investor relations links are visible. No API, Developers, Pricing or partner program link. The 'partner for talent' page is a strategy page, not a partner program.",
+      "flags": ["Attempt history records parent as found on the investor-relations and home pages, but the record parent is empty. Update the record if confirmed."]
+    },
+    {
+      "id": "clearancejobs",
+      "name": "ClearanceJobs",
+      "url": "https://www.clearancejobs.com",
+      "likelihood": {"hq_country": "medium", "languages": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["http://www.dhigroupinc.com"],
+      "reason": "Footer says ClearanceJobs is a DHI service and links to the DHI site, which may state headquarters for the group. The About and employer pages were already read without an HQ. No language selector, API, Integrations or Partners link is visible.",
+      "flags": ["Homepage text reads 'Founded in 2002, we are the largest career network'. The review note quoted a different 'Since 2002' line and recorded no founding year. Recheck the founding statement and consider recording 2002."]
+    },
+    {
+      "id": "kalaydo",
+      "name": "Kalaydo",
+      "url": "https://www.kalaydo.de/",
+      "likelihood": {"hq_country": "none", "parent": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 403 on fetch, and the headless reader got the same block with the message that the service is not available in the reader's country. No links could be read.",
+      "flags": ["Site restricts access by country, so it cannot be read from this environment. The record has no review history, and founded 2006 is unverified."]
+    },
+    {
+      "id": "jobware",
+      "name": "Jobware",
+      "url": "https://www.jobware.de/",
+      "likelihood": {"languages": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.jobware.de/fuer-arbeitgeber", "https://www.jobware.de/presse", "https://www.jobware.de/kontakt"],
+      "reason": "Header link to Fuer Arbeitgeber, and footer links to Karriere, Kontakt, Presse and Impressum. No language selector and no API or developer link is visible.",
+      "flags": []
+    },
+    {
+      "id": "catho",
+      "name": "Catho",
+      "url": "https://www.catho.com.br",
+      "likelihood": {"founded": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 403 on fetch, and the headless reader got the same 403. No links could be read.",
+      "flags": ["No review history. Recorded hq_country BR and business_model subscription are unverified."]
+    },
+    {
+      "id": "cake-cakeresume",
+      "name": "Cake (CakeResume)",
+      "url": "https://www.cake.me",
+      "likelihood": {"hq_country": "medium", "parent": "medium", "languages": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.cake.me/about", "https://www.cake.me/pricing/ats", "https://help.cake.me/"],
+      "reason": "Language menu lists English, Chinese (Traditional and Simplified), Vietnamese, Bahasa Indonesia and Japanese. Footer About link and a Press Kit link are visible. No API, Developers or Partners link is visible. The About page has not been read by earlier attempts.",
+      "flags": ["The Japanese option is labelled 'Powered by AI', so it may be machine translation. Check before counting it as a supported language."]
+    },
+    {
+      "id": "itjob-au",
+      "name": "ITJob.au",
+      "url": "https://www.itjob.au/",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Homepage text has no navigation, About, Employers, Pricing or language links. It shows only a skip link and job category names. Nothing on the page points at any missing field.",
+      "flags": ["Record is empty and has no review history. The homepage shows job listings with no visible company information."]
+    },
+    {
+      "id": "pcd-com-br",
+      "name": "PcD.com.br",
+      "url": "https://www.pcd.com.br",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.pcd.com.br/planos", "https://www.pcd.com.br/contato", "https://www.pcd.com.br/clientes"],
+      "reason": "Header and footer link to Planos (paid job-posting plans for employers) and Contato. Homepage says 'Especialista em PcD desde 2006', which may be a founding year. No API, partner or language link is visible.",
+      "flags": ["Record is empty and has no review history.", "'desde 2006' may be a founding year or only a claim of experience. Verify before recording."]
+    }
+  ]
+}

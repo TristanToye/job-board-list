@@ -1,0 +1,149 @@
+{
+  "round": 9,
+  "orders": [
+    {
+      "id": "australian-bureau-of-statistics",
+      "name": "Australian Bureau of Statistics",
+      "url": "https://www.abs.gov.au",
+      "likelihood": {"founded": "low", "parent": "low", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "none", "ingest_methods": "low"},
+      "try_pages": ["https://www.abs.gov.au/statistics/microdata-tablebuilder"],
+      "reason": "Homepage nav and footer show About, Statistics, Data Explorer, Microdata and Request data links, but no Developers, API, Partners, Pricing or language menu. Earlier attempts already checked /about and the homepage. Government statistics agency, so partner and business-model facts likely do not apply.",
+      "flags": []
+    },
+    {
+      "id": "governmentjobs-com",
+      "name": "GovernmentJobs.com",
+      "url": "https://www.governmentjobs.com/",
+      "likelihood": {"languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.governmentjobs.com/employers"],
+      "reason": "Homepage has an Advertise (employers) link to /employers, which may describe employer pricing. No language selector, Developers, API or Partners link seen. Company Info page already checked.",
+      "flags": ["Founded: the Company Info text about developing applications since 1998 is not a founding statement, so founded stays open."]
+    },
+    {
+      "id": "workday",
+      "name": "Workday Recruiting",
+      "url": "https://www.workday.com",
+      "likelihood": {"parent": "none", "languages": "high", "business_model": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://www.workday.com/en-us/choose-country-region.html", "https://info.workday.com/subscription.html", "https://developer.workday.com/about"],
+      "reason": "Homepage language selector links to the region chooser. Subscriptions link seen in footer for business model. Developers link present. Public company, so a parent is probably not applicable.",
+      "flags": []
+    },
+    {
+      "id": "workable",
+      "name": "Workable",
+      "url": "https://www.workable.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "low"},
+      "try_pages": [],
+      "reason": "Earlier attempts report a founding year on the homepage and /about, so founded only needs recording. Homepage shows no footer, About, Pricing or language menu. Parent not seen.",
+      "flags": ["Record has no founded value, but review_history and attempts say a founding year was found on the homepage and /about."]
+    },
+    {
+      "id": "challenger-gray-christmas",
+      "name": "Challenger, Gray & Christmas",
+      "url": "https://www.challengergray.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.challengergray.com/get-started/", "https://www.challengergray.com/outplacement-services/"],
+      "reason": "Homepage nav has Get Started and Outplacement service pages, which may describe engagement terms. No Developers, API, Partners or language selector seen.",
+      "flags": ["Founded 1966 is only partially verified: the founding quote names a founder called James and not the firm. Confirm before keeping."]
+    },
+    {
+      "id": "nijobs",
+      "name": "NIJobs",
+      "url": "https://www.nijobs.com",
+      "likelihood": {"hq_country": "none", "founded": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 503 on this attempt as well as the two earlier ones. No page content read, so no order is worth another attempt for now.",
+      "flags": ["Parent The Stepstone Group is recorded, but no page was read to support it."]
+    },
+    {
+      "id": "robert-half",
+      "name": "Robert Half",
+      "url": "https://www.roberthalf.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://press.roberthalf.com/", "https://www.roberthalf.com/us/en/about/leadership"],
+      "reason": "Homepage footer links to a Press Room and About Robert Half. Press room sites often carry company boilerplate with headquarters and founding details, which is not among the pages already checked. No Developers or API link seen. Partner pages are for job seekers and clients, not job boards.",
+      "flags": ["Review says no language selector, but the homepage footer shows a list of regional and language site links (for example Canada English/Francais, Japan English/Japanese). Languages found on /us/en/locations in attempts is not recorded."]
+    },
+    {
+      "id": "korn-ferry",
+      "name": "Korn Ferry",
+      "url": "https://www.kornferry.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.kornferry.com/contact", "https://www.kornferry.com/about-us/leadership-team"],
+      "reason": "Contact link is in the footer and not yet checked, and contact pages often list offices. Leadership Team link seen. Homepage and /about-us already checked for HQ and parent. No Developers, API, Pricing or language selector seen.",
+      "flags": []
+    },
+    {
+      "id": "impact-group",
+      "name": "IMPACT Group",
+      "url": "https://www.impactgrouphr.com",
+      "likelihood": {"parent": "low", "languages": "low", "business_model": "low", "api_status": "none", "partner_program": "low", "ingest_methods": "none"},
+      "try_pages": ["https://impactgrouphr.com/business/about/history/"],
+      "reason": "Footer has a separate Company History link (/business/about/history/) that differs from the /about/history page already checked. No Developers, API, Partners, Pricing or language menu seen. Consulting firm, so API and job-ingest facts likely do not apply.",
+      "flags": ["Review says headquarters country is not stated, but hq_country is not in the missing list. Decide whether to add it to missing."]
+    },
+    {
+      "id": "sirc-canadian-sport",
+      "name": "Canadian Sport (SIRC)",
+      "url": "https://sirc.ca/",
+      "likelihood": {"hq_country": "none", "founded": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 403 with a Cloudflare security challenge, and the headless reader hit the same challenge. Not bypassed, so no page content was read.",
+      "flags": ["Recorded parent and primary_language/languages_supported have no review history, so they are unverified. Languages is not in the missing list under that key."]
+    },
+    {
+      "id": "breezy",
+      "name": "Breezy HR",
+      "url": "https://breezy.hr",
+      "likelihood": {"founded": "low", "parent": "high", "languages": "low"},
+      "try_pages": ["https://ltgplc.com/trust-center/"],
+      "reason": "Footer shows a Learning Technologies Group plc logo link, and the Security link goes to ltgplc.com/trust-center, which may indicate a parent. Review says About and homepage do not state a founding year. No language selector seen.",
+      "flags": ["Parent may be Learning Technologies Group plc based on footer logo and trust-center link. Confirm on a page that states ownership before recording."]
+    },
+    {
+      "id": "codility",
+      "name": "Codility",
+      "url": "https://www.codility.com",
+      "likelihood": {"languages": "low", "api_status": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://www.codility.com/integrations/"],
+      "reason": "Homepage text mentions the Codility API without a link, and an Integrations page is linked in the header. No Developers or API page link seen. No language selector seen.",
+      "flags": ["Review lists hq_country and parent as not found, but neither is in the missing list. Decide whether to add them."]
+    },
+    {
+      "id": "jobtoday",
+      "name": "Jobtoday",
+      "url": "https://www.jobtoday.com/it",
+      "likelihood": {"hq_country": "high", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://jobtoday.us/about-us/contacts", "https://jobtoday.us/landings/advertise-for-free", "https://jobtoday.com/us/landings/hire", "https://jobtoday.com/it"],
+      "reason": "Contacts page linked from About (headquarters found there in attempts). Footer language dropdown on the homepage. Advertise-for-free landing page holds the business-model facts already found. No Developers, API or Partners link seen.",
+      "flags": ["Review found HQ, languages and business model, but the record has none of them. Add them after checking.", "Record url is jobtoday.com/it, while the About and Contacts pages are on jobtoday.us.", "Review says languages are English and Espanol. The homepage dropdown lists English (US), English (UK), Espanol, Francais and Italiano, so the review may be incomplete."]
+    },
+    {
+      "id": "niche-jobs",
+      "name": "Niche Jobs",
+      "url": "https://www.nichejobs.co.uk",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.nichejobs.co.uk/about-niche-jobs/"],
+      "reason": "Navigation has an About page (/about-niche-jobs/) that may state location and history. No Developers, API, Partners, Pricing or language menu seen. Small Ghost-powered site.",
+      "flags": []
+    },
+    {
+      "id": "experteer",
+      "name": "Experteer",
+      "url": "https://www.experteer.fr",
+      "likelihood": {"hq_country": "high", "founded": "medium", "parent": "high", "languages": "medium", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.experteer.fr/about/imprint", "https://www.experteer.fr/about-us/en/company/", "https://www.experteer.fr/headhunter", "https://www.experteer.fr/recruiting"],
+      "reason": "Footer Infos legales (imprint) link, which should name the operating company and its seat. Qui sommes-nous page for company history. Country selector lists 12 country sites. Headhunter Connect and recruiter access pages may describe the business model.",
+      "flags": []
+    },
+    {
+      "id": "programathor",
+      "name": "ProgramaThor",
+      "url": "https://www.programathor.com.br",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "high", "ingest_methods": "low"},
+      "try_pages": ["https://programathor.com.br/partners", "https://programathor.com.br/about_us", "https://programathor.com.br/contact", "https://programathor.com.br/recruiter"],
+      "reason": "Footer has a Parceiros (Partners) link. About us and Contatos pages are linked and may state location and founding. Contratar desenvolvedor (recruiter) page is the employer offer and may describe business model. No API, Pricing or language menu seen.",
+      "flags": []
+    }
+  ]
+}
