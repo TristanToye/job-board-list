@@ -17,11 +17,11 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.bne.com.br/seja-parceiro",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Employer sign-up is free and plan selection is offered, with no prices shown. Partner page offers BNE job ads for partner sites and an XML feed, with contact at parcerias@bne.com.br. No API found on the pages read. Service is described as Brazil-wide; headquarters not stated.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/banco-nacional-de-empregos/",
  "indexable": false,
  "prominence": {
@@ -33,9 +33,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "partner-program"
  ],
- "review": null,
+ "review": {
+  "board_id": "banco-nacional-de-empregos",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;ingest_methods",
+  "note": "Homepage and partner page read; free employer sign-up and partner program stated; no API, parent, headquarters or prices found.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +54,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.bne.com.br/seja-parceiro",
+   "title": "Partner page",
+   "accessed": "2026-11-06",
+   "quote": "Seja parceiro do BNE",
+   "quote_check": "ok"
   }
  ]
 }

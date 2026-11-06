@@ -39,7 +39,14 @@
   "job-board",
   "public-sector"
  ],
- "review": null,
+ "review": {
+  "board_id": "workforce-australia",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage fetch showed a dashboard load error; browser reader returned HTTP 200 with the page text. The /businesses fetch gave no employer fee, language or feed details.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

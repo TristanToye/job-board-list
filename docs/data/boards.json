@@ -7773,7 +7773,14 @@
     "job-board",
     "public-sector"
    ],
-   "review": null,
+   "review": {
+    "board_id": "workforce-australia",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage fetch showed a dashboard load error; browser reader returned HTTP 200 with the page text. The /businesses fetch gave no employer fee, language or feed details.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -8852,14 +8859,14 @@
    "languages_supported": [],
    "region": "Europe",
    "niche": "graduates",
-   "parent": "",
-   "business_model": "",
+   "parent": "YoungCapital",
+   "business_model": "free",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Page is in French. States employers can post offers for free; no prices shown. Footer names StudentJob International as a YoungCapital subsidiary. No language switcher or API found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/studentjob-fr/",
    "indexable": false,
@@ -8872,10 +8879,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "free-to-post",
     "graduates-students",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "studentjob-fr",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+    "note": "Homepage and footer read; parent company and free employer posting stated; no language switcher, API or headquarters found.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -8885,6 +8900,22 @@
      "title": "StudentJob FR homepage",
      "accessed": "2026-11-05",
      "quote": "Nous avons un grand choix d'offres d'emploi correspondantes à votre profil.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.studentjob.fr",
+     "title": "Footer",
+     "accessed": "2026-11-06",
+     "quote": "StudentJob International est une filiale de YoungCapital",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.studentjob.fr",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Postez une offre d'emploi gratuitement sur StudentJob dès aujourd'hui",
      "quote_check": "ok"
     }
    ]
@@ -9322,8 +9353,12 @@
    "countries_served": [
     "ES"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "es",
+   "languages_supported": [
+    "es",
+    "ca",
+    "en"
+   ],
    "region": "Europe",
    "niche": "tech",
    "parent": "",
@@ -9333,7 +9368,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Language switcher lists esp, cat and eng. No headquarters, owner or employer pricing stated. The Fundacion Telefonica line describes a partnership, not ownership. About and legal pages guessed by URL returned 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ticjob/",
    "indexable": false,
@@ -9349,7 +9384,14 @@
     "job-board",
     "tech"
    ],
-   "review": null,
+   "review": {
+    "board_id": "ticjob",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage read; language switcher stated; no pricing, owner, API or partner program found. Guessed about and legal URLs returned 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9359,6 +9401,14 @@
      "title": "Busca trabajo en informatica y telecomunicaciones - ticjob",
      "accessed": "2026-11-05",
      "quote": "Avanza hacia tu empleo digital ideal.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.ticjob.es/",
+     "title": "Homepage language switcher",
+     "accessed": "2026-11-06",
+     "quote": "esp, cat, eng",
      "quote_check": "ok"
     }
    ]
@@ -10003,7 +10053,14 @@
     "general",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "trampos",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Portuguese homepage read; shows a two-day free trial for employers and a pricing link without details. No parent, language switcher or API found.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -11341,7 +11398,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "careerbuilder-ca",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "The .ca URL returns 301 to careerbuilder.com; fetch of that URL and the browser reader on the .ca URL both returned HTTP 403, with blocked true in the browser reader.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -12234,7 +12298,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "backpacker-job-board",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 403 Cloudflare security challenge in fetch and in the browser reader (blocked true).",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -12782,11 +12853,11 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.bne.com.br/seja-parceiro",
    "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "notes": "Employer sign-up is free and plan selection is offered, with no prices shown. Partner page offers BNE job ads for partner sites and an XML feed, with contact at parcerias@bne.com.br. No API found on the pages read. Service is described as Brazil-wide; headquarters not stated.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/banco-nacional-de-empregos/",
    "indexable": false,
    "prominence": {
@@ -12798,9 +12869,17 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "partner-program"
    ],
-   "review": null,
+   "review": {
+    "board_id": "banco-nacional-de-empregos",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;ingest_methods",
+    "note": "Homepage and partner page read; free employer sign-up and partner program stated; no API, parent, headquarters or prices found.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -12811,6 +12890,14 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.bne.com.br/seja-parceiro",
+     "title": "Partner page",
+     "accessed": "2026-11-06",
+     "quote": "Seja parceiro do BNE",
+     "quote_check": "ok"
     }
    ]
   },
@@ -14252,12 +14339,12 @@
    "parent": "",
    "business_model": "",
    "api_status": "unknown",
-   "api_docs_url": "",
+   "api_docs_url": "https://happymonday.ua/developers/api/v4",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "notes": "Developer page links a job feed and API v4 documentation. API key or access requirements are not stated; other integration requests go by email to the product team. Prices not shown.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/happy-monday/",
    "indexable": false,
    "prominence": {
@@ -14271,7 +14358,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "happy-monday",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;partner_program",
+    "note": "Homepage and developers page read; job feed and API documentation links stated; key requirements and prices not stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14282,6 +14376,22 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "api_status",
+     "url": "https://happymonday.ua/",
+     "title": "Homepage developers link",
+     "accessed": "2026-11-06",
+     "quote": "Розробникам (feed + API).",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://happymonday.ua/developers",
+     "title": "Developer page",
+     "accessed": "2026-11-06",
+     "quote": "рекомендуємо дивитися документацію по актуальному API Happy Monday.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -16754,7 +16864,7 @@
    "name": "freelancermap",
    "url": "https://www.freelancermap.com",
    "type": "freelance-platform",
-   "hq_country": "",
+   "hq_country": "DE",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -16765,13 +16875,13 @@
    "region": "Global",
    "niche": "freelance project and contractor marketplace",
    "parent": "",
-   "business_model": "",
+   "business_model": "free",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage says publishing a project is free and lists 0% commission fees. Footer gives a Nuremberg company location. No languages, parent, API or partner information found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/freelancermap/",
    "indexable": false,
@@ -16784,9 +16894,17 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "free-to-post",
     "freelance-platform"
    ],
-   "review": null,
+   "review": {
+    "board_id": "freelancermap",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;api_status;partner_program;ingest_methods",
+    "note": "Homepage read; Nuremberg company footer and free project publishing stated; no languages, API or partner information found.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16796,6 +16914,22 @@
      "title": "freelancermap homepage",
      "accessed": "2026-11-06",
      "quote": "We offer direct access to freelance opportunities without commission fees or middlemen.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.freelancermap.com",
+     "title": "Footer",
+     "accessed": "2026-11-06",
+     "quote": "© 2005 ‐ 2026 freelancermap GmbH, Nürnberg",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.freelancermap.com",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Publish project for free now",
      "quote_check": "ok"
     }
    ]
@@ -18606,7 +18740,7 @@
    "name": "Novoresume",
    "url": "https://www.novoresume.com",
    "type": "career-services",
-   "hq_country": "",
+   "hq_country": "DK",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -18623,7 +18757,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Job-seeker resume builder rather than an employer job board. Footer gives a Copenhagen address and an ApS company name; no parent company stated. Pricing page covers job-seeker plans only.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/novoresume/",
    "indexable": false,
@@ -18638,7 +18772,14 @@
    "tags": [
     "career-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "novoresume",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and pricing page read; footer gives a Copenhagen address and language options; pricing covers job seekers only.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -18648,6 +18789,14 @@
      "title": "Novoresume",
      "accessed": "2026-11-06",
      "quote": "The resume is step one. Novorésumé covers every step after it, from the first ATS scan to the salary negotiation.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.novoresume.com",
+     "title": "Homepage footer",
+     "accessed": "2026-11-06",
+     "quote": "Bredgade 45B, 1260 København",
      "quote_check": "ok"
     }
    ]

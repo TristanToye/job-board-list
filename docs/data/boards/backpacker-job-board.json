@@ -33,7 +33,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "backpacker-job-board",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 Cloudflare security challenge in fetch and in the browser reader (blocked true).",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

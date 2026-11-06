@@ -3117,14 +3117,14 @@
   "languages_supported": "",
   "region": "Europe",
   "niche": "graduates",
-  "parent": "",
-  "business_model": "",
+  "parent": "YoungCapital",
+  "business_model": "free",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Page is in French. States employers can post offers for free; no prices shown. Footer names StudentJob International as a YoungCapital subsidiary. No language switcher or API found.",
   "confidence": "partially-verified"
  },
  {
@@ -3297,8 +3297,8 @@
   "founded": "",
   "markets": "",
   "countries_served": "ES",
-  "primary_language": "",
-  "languages_supported": "",
+  "primary_language": "es",
+  "languages_supported": "es;ca;en",
   "region": "Europe",
   "niche": "tech",
   "parent": "",
@@ -3308,7 +3308,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Language switcher lists esp, cat and eng. No headquarters, owner or employer pricing stated. The Fundacion Telefonica line describes a partnership, not ownership. About and legal pages guessed by URL returned 404.",
   "confidence": "partially-verified"
  },
  {
@@ -4777,11 +4777,11 @@
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
+  "partner_program": "yes",
+  "partner_url": "https://www.bne.com.br/seja-parceiro",
   "ingest_methods": "",
-  "notes": "",
-  "confidence": "secondary-sourced"
+  "notes": "Employer sign-up is free and plan selection is offered, with no prices shown. Partner page offers BNE job ads for partner sites and an XML feed, with contact at parcerias@bne.com.br. No API found on the pages read. Service is described as Brazil-wide; headquarters not stated.",
+  "confidence": "partially-verified"
  },
  {
   "id": "vieclam-net",
@@ -5420,12 +5420,12 @@
   "parent": "",
   "business_model": "",
   "api_status": "unknown",
-  "api_docs_url": "",
+  "api_docs_url": "https://happymonday.ua/developers/api/v4",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
-  "confidence": "secondary-sourced"
+  "notes": "Developer page links a job feed and API v4 documentation. API key or access requirements are not stated; other integration requests go by email to the product team. Prices not shown.",
+  "confidence": "partially-verified"
  },
  {
   "id": "zzpdock",
@@ -6329,7 +6329,7 @@
   "name": "freelancermap",
   "url": "https://www.freelancermap.com",
   "type": "freelance-platform",
-  "hq_country": "",
+  "hq_country": "DE",
   "founded": "",
   "markets": "",
   "countries_served": "ZZ",
@@ -6338,13 +6338,13 @@
   "region": "Global",
   "niche": "freelance project and contractor marketplace",
   "parent": "",
-  "business_model": "",
+  "business_model": "free",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Homepage says publishing a project is free and lists 0% commission fees. Footer gives a Nuremberg company location. No languages, parent, API or partner information found.",
   "confidence": "partially-verified"
  },
  {
@@ -7019,7 +7019,7 @@
   "name": "Novoresume",
   "url": "https://www.novoresume.com",
   "type": "career-services",
-  "hq_country": "",
+  "hq_country": "DK",
   "founded": "",
   "markets": "",
   "countries_served": "ZZ",
@@ -7034,7 +7034,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Job-seeker resume builder rather than an employer job board. Footer gives a Copenhagen address and an ApS company name; no parent company stated. Pricing page covers job-seeker plans only.",
   "confidence": "partially-verified"
  },
  {

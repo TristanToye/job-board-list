@@ -33,7 +33,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "careerbuilder-ca",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "The .ca URL returns 301 to careerbuilder.com; fetch of that URL and the browser reader on the .ca URL both returned HTTP 403, with blocked true in the browser reader.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

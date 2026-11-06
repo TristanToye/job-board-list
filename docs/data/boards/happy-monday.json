@@ -16,12 +16,12 @@
  "parent": "",
  "business_model": "",
  "api_status": "unknown",
- "api_docs_url": "",
+ "api_docs_url": "https://happymonday.ua/developers/api/v4",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Developer page links a job feed and API v4 documentation. API key or access requirements are not stated; other integration requests go by email to the product team. Prices not shown.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/happy-monday/",
  "indexable": false,
  "prominence": {
@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "happy-monday",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;partner_program",
+  "note": "Homepage and developers page read; job feed and API documentation links stated; key requirements and prices not stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +53,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "api_status",
+   "url": "https://happymonday.ua/",
+   "title": "Homepage developers link",
+   "accessed": "2026-11-06",
+   "quote": "Розробникам (feed + API).",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://happymonday.ua/developers",
+   "title": "Developer page",
+   "accessed": "2026-11-06",
+   "quote": "рекомендуємо дивитися документацію по актуальному API Happy Monday.",
+   "quote_check": "ok"
   }
  ]
 }

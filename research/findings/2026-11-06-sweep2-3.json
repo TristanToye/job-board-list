@@ -1,0 +1,312 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "hq_country": "DK",
+   "languages_supported": [
+    "en",
+    "da",
+    "de",
+    "es"
+   ],
+   "notes": "Job-seeker resume builder rather than an employer job board. Footer gives a Copenhagen address and an ApS company name; no parent company stated. Pricing page covers job-seeker plans only.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.novoresume.com",
+     "title": "Homepage footer",
+     "quote": "Bredgade 45B, 1260 København",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.novoresume.com",
+     "title": "Homepage footer language options",
+     "quote": "Dansk, Deutsch, English UK, Español",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "StudentJob FR",
+   "url": "https://www.studentjob.fr",
+   "parent": "YoungCapital",
+   "business_model": "free",
+   "notes": "Page is in French. States employers can post offers for free; no prices shown. Footer names StudentJob International as a YoungCapital subsidiary. No language switcher or API found.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.studentjob.fr",
+     "title": "Footer",
+     "quote": "StudentJob International est une filiale de YoungCapital",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.studentjob.fr",
+     "title": "Homepage",
+     "quote": "Postez une offre d'emploi gratuitement sur StudentJob dès aujourd'hui",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ticjob",
+   "url": "https://www.ticjob.es/",
+   "primary_language": "es",
+   "languages_supported": [
+    "es",
+    "ca",
+    "en"
+   ],
+   "notes": "Language switcher lists esp, cat and eng. No headquarters, owner or employer pricing stated. The Fundacion Telefonica line describes a partnership, not ownership. About and legal pages guessed by URL returned 404.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.ticjob.es/",
+     "title": "Homepage language switcher",
+     "quote": "esp, cat, eng",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Happy Monday",
+   "url": "https://happymonday.ua/",
+   "api_status": "unknown",
+   "api_docs_url": "https://happymonday.ua/developers/api/v4",
+   "ingest_methods": [
+    "manual posting",
+    "API"
+   ],
+   "notes": "Developer page links a job feed and API v4 documentation. API key or access requirements are not stated; other integration requests go by email to the product team. Prices not shown.",
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "https://happymonday.ua/",
+     "title": "Homepage developers link",
+     "quote": "Розробникам (feed + API).",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://happymonday.ua/developers",
+     "title": "Developer page",
+     "quote": "рекомендуємо дивитися документацію по актуальному API Happy Monday.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://happymonday.ua/",
+     "title": "Homepage employer services",
+     "quote": "Розміщення вакансій",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "freelancermap",
+   "url": "https://www.freelancermap.com",
+   "hq_country": "DE",
+   "business_model": "free",
+   "notes": "Homepage says publishing a project is free and lists 0% commission fees. Footer gives a Nuremberg company location. No languages, parent, API or partner information found.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.freelancermap.com",
+     "title": "Footer",
+     "quote": "© 2005 ‐ 2026 freelancermap GmbH, Nürnberg",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.freelancermap.com",
+     "title": "Homepage",
+     "quote": "Publish project for free now",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Banco Nacional de Empregos",
+   "url": "https://www.bne.com.br/",
+   "partner_program": "yes",
+   "partner_url": "https://www.bne.com.br/seja-parceiro",
+   "business_model": "free employer sign-up; paid plans exist (prices not shown)",
+   "notes": "Employer sign-up is free and plan selection is offered, with no prices shown. Partner page offers BNE job ads for partner sites and an XML feed, with contact at parcerias@bne.com.br. No API found on the pages read. Service is described as Brazil-wide; headquarters not stated.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.bne.com.br/",
+     "title": "Homepage employer sign-up",
+     "quote": "Cadastrar empresa grátis",
+     "check": "mismatch"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.bne.com.br/seja-parceiro",
+     "title": "Partner page",
+     "quote": "Seja parceiro do BNE",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.bne.com.br/seja-parceiro",
+     "title": "Partner page",
+     "quote": "Receba nossas vagas em XML para publicar no seu site.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and pricing page read; footer gives a Copenhagen address and language options; pricing covers job seekers only."
+  },
+  {
+   "name": "Workforce Australia",
+   "url": "https://www.workforceaustralia.gov.au/",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage fetch showed a dashboard load error; browser reader returned HTTP 200 with the page text. The /businesses fetch gave no employer fee, language or feed details."
+  },
+  {
+   "name": "StudentJob FR",
+   "url": "https://www.studentjob.fr",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and footer read; parent company and free employer posting stated; no language switcher, API or headquarters found."
+  },
+  {
+   "name": "Ticjob",
+   "url": "https://www.ticjob.es/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage read; language switcher stated; no pricing, owner, API or partner program found. Guessed about and legal URLs returned 404."
+  },
+  {
+   "name": "Trampos",
+   "url": "https://www.trampos.co",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Portuguese homepage read; shows a two-day free trial for employers and a pricing link without details. No parent, language switcher or API found."
+  },
+  {
+   "name": "CareerBuilder.ca",
+   "url": "http://www.careerbuilder.ca",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "The .ca URL returns 301 to careerbuilder.com; fetch of that URL and the browser reader on the .ca URL both returned HTTP 403, with blocked true in the browser reader."
+  },
+  {
+   "name": "Backpacker Job Board",
+   "url": "https://www.backpackerjobboard.com.au",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "HTTP 403 Cloudflare security challenge in fetch and in the browser reader (blocked true)."
+  },
+  {
+   "name": "Banco Nacional de Empregos",
+   "url": "https://www.bne.com.br/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and partner page read; free employer sign-up and partner program stated; no API, parent, headquarters or prices found."
+  },
+  {
+   "name": "Happy Monday",
+   "url": "https://happymonday.ua/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Homepage and developers page read; job feed and API documentation links stated; key requirements and prices not stated."
+  },
+  {
+   "name": "freelancermap",
+   "url": "https://www.freelancermap.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage read; Nuremberg company footer and free project publishing stated; no languages, API or partner information found."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "CareerBuilder.ca",
+   "url": "http://www.careerbuilder.ca",
+   "reason": "HTTP 403 in fetch (redirected host careerbuilder.com also 403) and in the browser reader"
+  },
+  {
+   "name": "Backpacker Job Board",
+   "url": "https://www.backpackerjobboard.com.au",
+   "reason": "HTTP 403 Cloudflare challenge; browser reader blocked true"
+  }
+ ]
+}

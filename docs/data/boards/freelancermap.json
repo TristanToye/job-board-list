@@ -3,7 +3,7 @@
  "name": "freelancermap",
  "url": "https://www.freelancermap.com",
  "type": "freelance-platform",
- "hq_country": "",
+ "hq_country": "DE",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -14,13 +14,13 @@
  "region": "Global",
  "niche": "freelance project and contractor marketplace",
  "parent": "",
- "business_model": "",
+ "business_model": "free",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage says publishing a project is free and lists 0% commission fees. Footer gives a Nuremberg company location. No languages, parent, API or partner information found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/freelancermap/",
  "indexable": false,
@@ -33,9 +33,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "freelance-platform"
  ],
- "review": null,
+ "review": {
+  "board_id": "freelancermap",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;languages;api_status;partner_program;ingest_methods",
+  "note": "Homepage read; Nuremberg company footer and free project publishing stated; no languages, API or partner information found.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +53,22 @@
    "title": "freelancermap homepage",
    "accessed": "2026-11-06",
    "quote": "We offer direct access to freelance opportunities without commission fees or middlemen.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.freelancermap.com",
+   "title": "Footer",
+   "accessed": "2026-11-06",
+   "quote": "© 2005 ‐ 2026 freelancermap GmbH, Nürnberg",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.freelancermap.com",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "Publish project for free now",
    "quote_check": "ok"
   }
  ]

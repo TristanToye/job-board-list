@@ -36,7 +36,14 @@
   "general",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "trampos",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Portuguese homepage read; shows a two-day free trial for employers and a pricing link without details. No parent, language switcher or API found.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

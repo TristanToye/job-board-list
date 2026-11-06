@@ -13,14 +13,14 @@
  "languages_supported": [],
  "region": "Europe",
  "niche": "graduates",
- "parent": "",
- "business_model": "",
+ "parent": "YoungCapital",
+ "business_model": "free",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Page is in French. States employers can post offers for free; no prices shown. Footer names StudentJob International as a YoungCapital subsidiary. No language switcher or API found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/studentjob-fr/",
  "indexable": false,
@@ -33,10 +33,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "graduates-students",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "studentjob-fr",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+  "note": "Homepage and footer read; parent company and free employer posting stated; no language switcher, API or headquarters found.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +54,22 @@
    "title": "StudentJob FR homepage",
    "accessed": "2026-11-05",
    "quote": "Nous avons un grand choix d'offres d'emploi correspondantes à votre profil.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.studentjob.fr",
+   "title": "Footer",
+   "accessed": "2026-11-06",
+   "quote": "StudentJob International est une filiale de YoungCapital",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.studentjob.fr",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "Postez une offre d'emploi gratuitement sur StudentJob dès aujourd'hui",
    "quote_check": "ok"
   }
  ]
