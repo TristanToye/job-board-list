@@ -1,0 +1,760 @@
+{
+ "round": 8,
+ "entries": [
+  {
+   "id": "novoresume",
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "DK"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founded quote is 'began in 2014' (company start), app launched Feb 2016. Pricing quotes read in browser text. Language menu came from a fetch summary, not the rendered text."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://novoresume.com/about-us"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://novoresume.com/about-us"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://novoresume.com"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.novoresume.com;https://novoresume.com/about-us"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://novoresume.com/pricing;https://novoresume.com;https://novoresume.com/page/media-kit"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.novoresume.com/page/pricing"
+    }
+   ]
+  },
+  {
+   "id": "lhh",
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Parent is The Adecco Group, stated on LHH's own About page. The adeccogroup.com investor page was read but not used as a source because it is off-domain."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.lhh.com/en-us/about-us/our-presence;https://www.lhh.com/en-us/about-us/newsroom;https://www.lhh.com/en-us/about-us"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.lhh.com/en-us/about-us/our-presence;https://www.lhh.com/en-us/about-us/newsroom;https://www.lhh.com/en-us/about-us"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.lhh.com/en-us/about-us;https://www.lhh.com/"
+    }
+   ]
+  },
+  {
+   "id": "egon-zehnder",
+   "name": "Egon Zehnder",
+   "url": "https://www.egonzehnder.com",
+   "type": "recruiting-services",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "languages_supported": "en;de;zh;ja"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Language menu read on homepage. About Us and Offices pages state no headquarters and no founding year."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.egonzehnder.com/about-us;https://www.egonzehnder.com/offices;https://www.egonzehnder.com/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.egonzehnder.com/about-us;https://www.egonzehnder.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.egonzehnder.com/newsroom;https://www.egonzehnder.com/de;https://www.egonzehnder.com/cn"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.egonzehnder.com/"
+    }
+   ]
+  },
+  {
+   "id": "successfactors",
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "DE",
+    "api_status": "public-key",
+    "api_docs_url": "https://api.sap.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "kickresume",
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "HQ stated as team based in Bratislava, Slovakia; no explicit HQ label. Language menu came from a fetch summary and was not in the rendered text, so treat its exact wording with care."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.kickresume.com/en/about/;https://www.kickresume.com/en/press/;https://www.kickresume.com/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.kickresume.com/en/about/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.kickresume.com/en/about/;https://www.kickresume.com/en/press/;https://www.kickresume.com/"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.kickresume.com/en/about/"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.kickresume.com/en/about/;https://www.kickresume.com/"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://www.kickresume.com/en/pricing/"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": "https://www.kickresume.com/en/press/;https://www.kickresume.com/;https://form.typeform.com/to/lr6p9OUR"
+    }
+   ]
+  },
+  {
+   "id": "harver",
+   "name": "Harver",
+   "url": "https://harver.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "recorded": {
+    "founded": "2015",
+    "partner_program": "yes",
+    "partner_url": "https://harver.com/integrations",
+    "ingest_methods": "ATS integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Founding year and ATS integration route stated. Footer shows Harver B.V. copyright; no headquarters stated on the pages read."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://harver.com/about-us/;https://harver.com/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://harver.com/about-us/"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://harver.com/about-us/"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "found",
+     "pages": "https://harver.com/integrations/"
+    }
+   ]
+  },
+  {
+   "id": "gi-group-holding",
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "IT",
+    "founded": "1998"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Gi Group about page says Gi Group is part of Gi Group Holding. Holding site copyright (2022) read but not needed. No pricing, API or partner text on the pages read."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.gigroup.com/;https://www.gigroup.com/about-gi-group/"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.gigroup.com/about-gi-group/;https://www.gigroupholding.com"
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": "https://www.gigroup.com/contact-us/#countries;https://www.gigroup.com/"
+    }
+   ]
+  },
+  {
+   "id": "ashby",
+   "name": "Ashby",
+   "url": "https://www.ashbyhq.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "business_model": "Subscription plans (Foundations, Plus, Enterprise); Foundations shown at $400 per month for up to 100 employees; Plus and Enterprise by sales contact",
+    "api_status": "public-open",
+    "api_docs_url": "https://developers.ashbyhq.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Pricing page verified: plan-based pricing with a $400 per month Foundations price and sales-led Enterprise pricing."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.ashbyhq.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "eightfold-ai",
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://eightfold.ai/partners"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;parent",
+    "note": "Read the company, press and home pages. Only a copyright line with the year 2026 appears. No headquarters, founding year or parent company is stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://eightfold.ai/company/;https://eightfold.ai/company/press/;https://eightfold.ai"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://eightfold.ai/company/;https://eightfold.ai/company/press/;https://eightfold.ai"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://eightfold.ai/company/;https://eightfold.ai/company/press/;https://eightfold.ai"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "codeable",
+   "name": "Codeable",
+   "url": "https://codeable.io",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "DK",
+    "business_model": "Client deposits project cost into escrow; 17.5% fixed fee; hourly rate $80-$120 USD",
+    "partner_program": "yes",
+    "partner_url": "https://www.codeable.io/partner-program/"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "HQ taken from the company address and incorporation line on /team/. The /story/ page gives a launch sequence (joined 2012, launched a year later) but no explicit founding year, so founded is not recorded."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.codeable.io/team/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.codeable.io/story/;https://www.codeable.io/partner-program/;https://www.codeable.io/pricing/;https://www.codeable.io/team/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.codeable.io/pricing/"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "found",
+     "pages": "https://www.codeable.io/partner-program/"
+    }
+   ]
+  },
+  {
+   "id": "first-advantage",
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "recorded": {
+    "founded": "2003",
+    "languages_supported": "en;ja;ko;zh;es;pt",
+    "partner_program": "yes",
+    "partner_url": "https://fadv.com/partners/",
+    "ingest_methods": "ATS integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "About Us states Founded in 2003. Region and language menu lists English, Japanese, Korean, Chinese, Spanish and Portuguese. Primary language not stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://fadv.com/about-us/;https://fadv.com"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://fadv.com/about-us/"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://fadv.com/about-us/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://fadv.com/about-us/;https://fadv.com"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://fadv.com/about-us/;https://fadv.com"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://fadv.com"
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": "https://fadv.com/api/;https://fadv.com/partners/"
+    }
+   ]
+  },
+  {
+   "id": "japan-dev",
+   "name": "Japan Dev",
+   "url": "https://japan-dev.com/",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "hq_country": "JP",
+    "founded": "2019",
+    "languages_supported": "en;ja"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "ingest_methods",
+    "note": "About page gives founding year 2019 and one office address in Kawasaki-shi, Japan. The page does not use the word headquarters, so hq_country is the country of that office address. Primary language is not stated; English is the default page"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://japan-dev.com/about"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://japan-dev.com/about"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://japan-dev.com/about;https://japan-dev.com/?lang=jp"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": "https://japan-dev.com/?lang=jp"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "pinpoint",
+   "name": "Pinpoint",
+   "url": "https://www.pinpointhq.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "UK",
+    "api_status": "public-key",
+    "api_docs_url": "https://developers.pinpointhq.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded",
+    "note": "About us page and homepage do not state a founding year. The only year on the site is in a copyright notice."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.pinpointhq.com/about-us;https://www.pinpointhq.com"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://www.pinpointhq.com/request-pricing"
+    }
+   ]
+  },
+  {
+   "id": "workopolis",
+   "name": "Workopolis",
+   "url": "https://www.workopolis.com",
+   "type": "board",
+   "parent": "Recruit Holdings",
+   "missing": [
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "founded": "1999",
+    "parent": "Recruit Holdings",
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "url": "https://www.greenhouse.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "business_model": "Custom-priced plans based on hiring needs; no public prices shown",
+    "api_status": "public-open",
+    "api_docs_url": "https://developers.greenhouse.io/job-board.html",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Language selector read on homepage. Company page gives only 'over a decade' and a copyright year, not a founding year."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.greenhouse.com/company;https://www.greenhouse.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.greenhouse.com/de;https://www.greenhouse.com/uk"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.greenhouse.com/"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.greenhouse.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "meinestadt-de",
+   "name": "meinestadt.de",
+   "url": "https://www.meinestadt.de",
+   "type": "board",
+   "parent": "The Stepstone Group",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "The Stepstone Group",
+    "business_model": "per post"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+    "note": "Pages show paid job ad booking and German-only content; parent and headquarters are not stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  }
+ ]
+}

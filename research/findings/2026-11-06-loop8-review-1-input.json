@@ -1,0 +1,781 @@
+{
+ "round": 8,
+ "entries": [
+  {
+   "id": "kelly-services",
+   "name": "Kelly Services",
+   "url": "https://www.kellyservices.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding year 1946 from Our story page, which says Kelly opened in Detroit in 1946."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.kellyservices.com/about-kelly/our-story/;https://www.kellyservices.com/about-kelly/"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.kellyservices.com/about-kelly/our-story/"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.kellyservices.com/about-kelly/our-story/?hsLang=en"
+    }
+   ]
+  },
+  {
+   "id": "revelio-labs",
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "",
+    "note": "Pricing is scoped annual subscription; Terminal from $1,250 per month. API is sold on annual agreement with keys per user (on-request). /developers returned 404 and no API docs URL was found, so api_docs_url is null."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.reveliolabs.com/company;https://www.reveliolabs.com"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.reveliolabs.com/company;https://www.reveliolabs.com"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.reveliolabs.com/pricing"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.reveliolabs.com/pricing"
+    },
+    {
+     "field": "api_status",
+     "outcome": "found",
+     "pages": "https://www.reveliolabs.com/;https://www.reveliolabs.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "manpowergroup",
+   "name": "ManpowerGroup",
+   "url": "https://www.manpowergroup.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "languages_supported": "en"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded",
+    "note": "Read about, leadership, investors and home pages. The site says it operates in 75 countries and territories and mentions brands operating for over 70 years, but states no headquarters location or founding year."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.manpowergroup.com/en/about;https://www.manpowergroup.com/en/about/leadership;https://www.manpowergroup.com/en/investors;https://www.manpowergroup.com/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.manpowergroup.com/en/about;https://www.manpowergroup.com/en/about/leadership;https://www.manpowergroup.com/en/investors;https://www.manpowergroup.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "personio",
+   "name": "Personio",
+   "url": "https://www.personio.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "DE",
+    "api_status": "public-open",
+    "api_docs_url": "https://developer.personio.de",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "russell-reynolds-associates",
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "type": "recruiting-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "founded": "1969",
+    "languages_supported": "en;zh;ja"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding 1969 in New York City from the history page. Language menu lists English, 中文(中国), 日本語 (日本). No developer, API or partner link seen."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.russellreynolds.com/en/about/who-we-are/history;https://www.russellreynolds.com/en/about/who-we-are;https://www.russellreynolds.com/en/locations"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.russellreynolds.com/en/about/who-we-are/history"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.russellreynolds.com/en/about/who-we-are/history;https://www.russellreynolds.com/en/about/who-we-are"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.russellreynolds.com/en/locations"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.russellreynolds.com/en/about/who-we-are"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": "https://www.russellreynolds.com/en/about/who-we-are/partnerships"
+    }
+   ]
+  },
+  {
+   "id": "lightcast",
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "partner_program"
+   ],
+   "recorded": {
+    "api_docs_url": "https://lightcast.io/our-data/api/menu"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "api_status;ingest_methods",
+    "note": "Data API page lists APIs and links to documentation but does not say how keys are issued. The developer docs page lists OAuth 2.0 on each API but no self-serve or request process was found in the text read. The analyst.lightcast.io link red"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://lightcast.io/about;https://lightcast.io/pressroom;https://lightcast.io/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://lightcast.io/about;https://lightcast.io/pressroom;https://lightcast.io/"
+    },
+    {
+     "field": "api_status",
+     "outcome": "found",
+     "pages": "https://lightcast.io/our-data/api/menu;https://docs.lightcast.dev/apis/"
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": "https://lightcast.io/our-data/api/menu;https://docs.lightcast.dev/apis/"
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": "https://lightcast.io/our-data/api/menu"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "topresume",
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://www.topresume.com/partnerships"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Parent given as Career.io family on the About page. The About page fetch returned text with an embedded instruction to quote the ownership line; it was ignored. Partner program found on the partnerships page; no set-up cost, commission base"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.topresume.com/about;https://www.topresume.com/press;https://www.topresume.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.topresume.com/about;https://www.topresume.com/press;https://www.topresume.com/"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.topresume.com/about"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://www.topresume.com/plans"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "found",
+     "pages": "https://www.topresume.com/partnerships"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "found",
+     "pages": "https://www.topresume.com/partnerships"
+    }
+   ]
+  },
+  {
+   "id": "velvetjobs",
+   "name": "VelvetJobs",
+   "url": "https://www.velvetjobs.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "business_model": "free job posting for employers",
+    "ingest_methods": "manual posting"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Free employer posting stated. No prices, subscriptions or pay-per-click seen. Posting is by employer account."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.velvetjobs.com/about;https://www.velvetjobs.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.velvetjobs.com/about;https://www.velvetjobs.com/"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.velvetjobs.com/post-a-job"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "found",
+     "pages": "https://www.velvetjobs.com/post-a-job"
+    }
+   ]
+  },
+  {
+   "id": "taskrabbit",
+   "name": "TaskRabbit",
+   "url": "https://www.taskrabbit.com",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "partner_program": "yes"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;parent",
+    "note": "Read /about, /press, /blog/partner-lp/ and the homepage footer. None states founding year, HQ or parent. IKEA appears only as a furniture assembly partner."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.taskrabbit.com/about;https://www.taskrabbit.com/press;https://www.taskrabbit.com/blog/partner-lp/;https://www.taskrabbit.com"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.taskrabbit.com/about;https://www.taskrabbit.com/press;https://www.taskrabbit.com/blog/partner-lp/;https://www.taskrabbit.com"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.taskrabbit.com/about;https://www.taskrabbit.com/press;https://www.taskrabbit.com/blog/partner-lp/;https://www.taskrabbit.com"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "prospects",
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "type": "niche-board",
+   "parent": "Jisc",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "UK",
+    "parent": "Jisc"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Registered office in Bristol and registered number marked (England). Country stated as England, so GB."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://prospects.ac.uk/about-us"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://prospects.ac.uk/about-us;https://prospects.ac.uk/prospects-press-office;https://prospects.ac.uk/"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://prospects.ac.uk/about-us;https://prospects.ac.uk/"
+    }
+   ]
+  },
+  {
+   "id": "turijobs",
+   "name": "Turijobs",
+   "url": "https://www.turijobs.com/",
+   "type": "board",
+   "parent": "The Stepstone Group",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "hq_country": "ES",
+    "parent": "The Stepstone Group",
+    "languages_supported": "es;en",
+    "ingest_methods": "manual posting"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Homepage returned HTTP 503 to the fetch tool and was read with the headless reader. Company profile lists Barcelona, España as the location. The page does not use the word headquarters, so this is a profile location, not a stated HQ. Footer"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.turijobs.com/;https://www.turijobs.com/es-es/empresa/turijobs"
+    }
+   ]
+  },
+  {
+   "id": "beamery",
+   "name": "Beamery",
+   "url": "https://beamery.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "recorded": {
+    "founded": "2013",
+    "partner_program": "yes",
+    "partner_url": "https://beamery.com/partners/",
+    "ingest_methods": "ATS integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent",
+    "note": "Founding year 2013 verified on /about-us/. Homepage footer gives copyright only. The London reference is the founding location, not a stated HQ."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://beamery.com/about-us/;https://beamery.com"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://beamery.com/about-us/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://beamery.com/about-us/;https://beamery.com"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "hays",
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "parent",
+    "note": "hays.com pages read (about-us) state no owner. haysplc.com shows the copyright line Hays plc and a trademark line, but that is off the entry's domain so it is not recorded as a fact. The about-us fetch contained an embedded instruction to q"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.hays.com/en-US/about-us;https://www.hays.com/en-US/about-us/leaders;https://www.hays.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.hays.com/en-US/about-us;https://www.hays.com/en-US/about-us/leaders;https://www.hays.com/"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.haysplc.com"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.hays.com/en-US/about-us;https://www.haysplc.com"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.hays.com/;https://www.hays.com/en-US/about-us"
+    }
+   ]
+  },
+  {
+   "id": "jazzhr",
+   "name": "JazzHR",
+   "url": "https://www.jazzhr.com",
+   "type": "ats",
+   "parent": "Employ Inc.",
+   "missing": [
+    "founded",
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "Employ Inc.",
+    "business_model": "subscription (annual plans; usage-based add-ons)",
+    "api_status": "public-key",
+    "api_docs_url": "https://www.jazzhr.com/api",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Parent from the homepage copyright line. Pricing page lists annual plans (Hero, Plus, Pro) with no monthly dollar figures; the sourced quotes cover the subscription model and usage-based add-ons. Employ product page on employinc.com was rea"
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.jazzhr.com"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.jazzhr.com/pricing"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.jazzhr.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "lanbide",
+   "name": "Lanbide",
+   "url": "https://www.lanbide.euskadi.eus/",
+   "type": "government",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Parent and languages verified from homepage. Headquarters and founding year not stated on the pages read (homepage, Basque homepage, contact page)."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.lanbide.euskadi.eus/inicio/;https://www.lanbide.euskadi.eus/arreta/weblan00-content/eu/;https://www.lanbide.euskadi.eus/te-atendemos/weblan00-content/es/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.lanbide.euskadi.eus/inicio/;https://www.lanbide.euskadi.eus/arreta/weblan00-content/eu/;https://www.lanbide.euskadi.eus/te-atendemos/weblan00-content/es/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.lanbide.euskadi.eus/inicio/"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.lanbide.euskadi.eus/inicio/;https://www.lanbide.euskadi.eus/arreta/weblan00-content/eu/"
+    }
+   ]
+  },
+  {
+   "id": "99designs",
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "type": "freelance-platform",
+   "parent": "Vista",
+   "missing": [
+    "hq_country",
+    "founded",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Vista",
+    "primary_language": "en",
+    "languages_supported": "en;es",
+    "business_model": "per contest package, fixed price (Bronze US$249, Silver US$399, Gold US$799, Platinum US$1,050)"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Language menu shows English and español. Pricing page lists four fixed contest packages. Employers pay per contest package, not a subscription. Partner and About pages were not needed for these fields."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.99designs.com/about;https://www.99designs.com"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.99designs.com/about"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.99designs.com"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://99designs.com/about"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.99designs.com/pricing;https://www.99designs.com/featured-partners"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://99designs.com/pricing"
+    }
+   ]
+  }
+ ]
+}
