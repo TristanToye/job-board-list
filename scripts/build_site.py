@@ -66,6 +66,16 @@ if (ROOT/"data"/"tags.csv").exists():
     for _t in load("tags.csv"): TAGS_BY[(_t["kind"], _t["entry_id"])].append(_t["tag"])
 FACETS = [("function", "What it is"), ("focus", "Who and what it is for"), ("model", "How it makes money"), ("integration", "How open it is"), ("segment", "Customer segment"), ("operator", "Who runs it")]
 def tags_of(kind, i, facet=None): return [t for t in TAGS_BY.get((kind, i), []) if t in TAX and (facet is None or TAX[t]["facet"] == facet)]
+REVIEWS = {r["board_id"]: r for r in load("reviews.csv")} if (ROOT/"data"/"reviews.csv").exists() else {}
+REVIEW_FIELD = {"hq_country":"headquarters","founded":"founding year","parent":"owner","languages":"languages","business_model":"pricing and business model","api_status":"API access","partner_program":"partner program","ingest_methods":"how jobs get in","pricing":"pricing"}
+def review_text(b):
+    rv = REVIEWS.get(b["id"])
+    if not rv: return ""
+    nf = ", ".join(REVIEW_FIELD.get(x, x) for x in rv["fields_not_found"].split(";") if x)
+    t = {"verified": "Checked against the board's own site.", "partially-verified": "Some facts checked against the board's own site." + (f" Not stated there: {nf}." if nf else ""),
+         "not-stated": "The board's own pages were read, but they do not state" + (f": {nf}." if nf else " the missing facts."), "blocked": "Could not verify: the site blocks automated access, so these facts remain as recorded.",
+         "unreachable": "Could not verify: the site could not be reached.", "closed": "The site appears to have closed or been replaced."}[rv["outcome"]]
+    return f'Reviewed {rv["reviewed"]}. {t}' + (f' {rv["note"]}' if rv["note"] and rv["outcome"] in ("blocked", "unreachable", "closed") else "")
 OWNERS = {r["id"]: r for r in load("owners.csv")} if (ROOT/"data"/"owners.csv").exists() else {}
 HOLD = load("ownership.csv") if (ROOT/"data"/"ownership.csv").exists() else []
 OWNER_FACTS = collections.defaultdict(dict)
@@ -286,7 +296,7 @@ for b in boards:
     body = f"""<nav class="crumbs"><a href="{r}">Directory</a> / <a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a> / {e(b["name"])}</nav>
 <div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is {article(tdesc(b))} {e(tdesc(b))}{" based in " + e(country(b["hq_country"])) if b["hq_country"] else ""}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
 <p>{api_badge(b["api_status"])} {conf_badge(b["confidence"])}</p>
-<dl class="facts">{fact("Website", link(b["url"]))}{fact("Tags", tag_html) if tag_html else ""}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Type", e(b["type"]))}{fact("Founded", e(b["founded"])) if b["founded"] else ""}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>' if b["hq_country"] else '<span class="muted">Not recorded</span>')}
+<dl class="facts">{fact("Website", link(b["url"]))}{fact("Review", e(review_text(b))) if review_text(b) else ""}{fact("Tags", tag_html) if tag_html else ""}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Type", e(b["type"]))}{fact("Founded", e(b["founded"])) if b["founded"] else ""}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>' if b["hq_country"] else '<span class="muted">Not recorded</span>')}
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
 {fact("Primary language", f'<a href="{r}languages/{slug(lang(b["primary_language"]))}/">{e(lang(b["primary_language"]))}</a>' if b["primary_language"] else '<span class="muted">Not recorded</span>')}{fact("Languages supported", "".join(f'<a class="chip" href="{r}languages/{slug(lang(c))}/">{e(lang(c))}</a>' for c in langs_of(b)) or '<span class="muted">Not recorded</span>')}
 {fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Owner", owner_fact) if owner_fact else (fact("Parent organisation", parent_html) if b["parent"] else fact("Parent organisation", '<span class="muted">None recorded</span>'))}
@@ -322,7 +332,7 @@ for b in boards:
         ("Owner", (OWNERS[_own[0]["owner_id"]]["name"] + " (" + hold_phrase(_own[0]) + ")") if _own else (b["parent"] or "not recorded")),
         ("Languages", ", ".join(lang(c) for c in langs_of(b)) or "not recorded"), ("API status", API_LABEL.get(b["api_status"], b["api_status"]) + (f' ({b["api_docs_url"]})' if b["api_docs_url"] else "")),
         ("Partner program", b["partner_program"] or "unknown"), ("Prominence", (f'#{p["g"]:,} globally, tier {p["tier"]}' if p["group"] == 0 else p["label"])),
-        ("Tags", ", ".join(TAX[t]["label"] for t in tags_of("board", b["id"])) or "none"), ("Data status", {"partially-verified": "partly verified against its own site", "secondary-sourced": "secondary sources only", "listed-only": "listed by another directory only"}.get(b["confidence"], "unverified"))] if v)
+        ("Tags", ", ".join(TAX[t]["label"] for t in tags_of("board", b["id"])) or "none"), ("Review", review_text(b)), ("Data status", {"partially-verified": "partly verified against its own site", "secondary-sourced": "secondary sources only", "listed-only": "listed by another directory only"}.get(b["confidence"], "unverified"))] if v)
         + "\n\n## Quick answers\n\n" + "\n\n".join(f"**{q}** {a}" for q, a in faq[1:])
         + ("\n\n## Sources\n\n" + "\n".join(f'- [{x["title"] or x["url"]}]({x["url"]}) ({FIELD_LABEL.get(x["field"], x["field"])}, checked {x["accessed"]})' + (f': "{x["quote"]}"' if x.get("quote") else "") for x in srcs) if srcs else "")
         + f'\n\nCanonical page: {BASE}/boards/{b["id"]}/\nLast updated: {mod_date}\n')
@@ -423,7 +433,7 @@ write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}"
 shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js")
 if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", OUT/"assets"/"logos", dirs_exist_ok=True)
 (OUT/"downloads").mkdir(exist_ok=True)
-for n in ("job_boards.csv","ats_systems.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
+for n in ("job_boards.csv","ats_systems.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv","reviews.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/".nojekyll").write_text("")
 # ---------- tags ----------
@@ -522,6 +532,7 @@ def board_json(b):
     d["page"] = f'{BASE}/boards/{b["id"]}/'; d["indexable"] = indexable(b)
     p = prom(b); d["prominence"] = {"tier": p["tier"], "label": p["label"], "global_rank": p["g"] or None, "scope": p["scope"], "source": "Majestic Million (CC BY 3.0)", "list_date": RANK_DATE}
     d["tags"] = tags_of("board", b["id"])
+    d["review"] = REVIEWS.get(b["id"])
     d["owners"] = [{"id": h["owner_id"], "name": OWNERS[h["owner_id"]]["name"], "relation": h["relation"], "stake": h["stake"], "since": h["since"], "source": h["source_url"], "quote": h["quote"]} for h in HOLD_BY_BOARD.get(b["id"], []) if h["owner_id"] in OWNERS]
     d["scale"] = [{k: x[k] for k in ("metric", "value", "unit", "as_of", "url", "quote", "quote_check")} for x in SCALE.get(b["id"], [])]
     d["sources"] = [{k: x.get(k, "") for k in ("field", "url", "title", "accessed", "quote", "quote_check")} for x in SOURCES.get(b["id"], [])]

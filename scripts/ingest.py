@@ -15,6 +15,9 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent; DATA = ROOT / "data"
 TODAY = datetime.date.today().isoformat()
 TYPES = {"staffing","recruiting-services","outplacement","lmi","hr-tech","career-services","freelance-platform","employer-reviews","board","aggregator","niche-board","government","social-network+board","programmatic-distribution","multiposting","feed-aggregator","directory","community","board+aggregator"}
 API = {"public-open","public-key","on-request","partner-only","deprecated","none-known","unknown"}
+REVIEW_OUTCOMES = {"verified", "partially-verified", "not-stated", "blocked", "unreachable", "closed"}
+REVIEW_FIELDS = {"hq_country", "founded", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods", "pricing"}
+RCOLS = ["board_id", "reviewed", "outcome", "fields_not_found", "note", "method"]
 WEAK = {"listed_by","relationship"}
 SRC_FIELDS = WEAK | {"note","existence","parent","languages","business_model","api_status","partner_program","ingest_methods","terms"}
 REFERENCE = {"wikipedia.org", "wikidata.org"}  # secondary sources: allowed for existence, parent and founded only
@@ -82,6 +85,7 @@ def main(argv):
     for s in srcs:
         if s["field"] not in WEAK: strongfields[s["board_id"]].add(s["field"])
     countries = {r["code"]: r for r in load("countries.csv")}
+    reviews = {r["board_id"]: r for r in load("reviews.csv")} if (DATA / "reviews.csv").exists() else {}
     conflicts, queue_add, stats = [], [], collections.Counter()
     for fn in files:
         d = json.load(open(fn, encoding="utf-8")); cc = str(d.get("country", "")).upper().replace("GB", "UK")
@@ -178,6 +182,19 @@ def main(argv):
                     if f not in WEAK: strongfields[row["id"]].add(f)
             if new: boards.append(row); by[row["id"]] = row; byhost[site] = row; stats["added"] += 1
             else: stats["merged"] += 1
+        def find_board(nm, ru):
+            return byhost.get(regdom(host(ru))) or by.get(slug(nm)) if (ru or nm) else None
+        for rv in d.get("reviews", []):
+            nm, ru = clean(rv.get("name"), 80), clean(rv.get("url"), 200); row = find_board(nm, ru); oc = clean(rv.get("outcome"), 20).lower()
+            if row is None or oc not in REVIEW_OUTCOMES or bad_text(json.dumps(rv)): reject("review", nm or "?", "no matching board or bad outcome"); continue
+            fnf = [x for x in (clean(y, 24) for y in rv.get("fields_not_found", [])) if x in REVIEW_FIELDS]; mth = clean(rv.get("method"), 12)
+            reviews[row["id"]] = {"board_id": row["id"], "reviewed": TODAY, "outcome": oc, "fields_not_found": ";".join(fnf), "note": clean(rv.get("note"), 240), "method": mth if mth in ("fetch", "browser", "mixed") else "fetch"}
+            stats["reviews"] += 1
+        if mode == "verify":
+            for q in d.get("blocked", []):
+                row = find_board(clean(q.get("name"), 80), clean(q.get("url"), 200))
+                if row is not None and row["id"] not in reviews or (row is not None and reviews[row["id"]]["reviewed"] != TODAY):
+                    reviews[row["id"]] = {"board_id": row["id"], "reviewed": TODAY, "outcome": "blocked", "fields_not_found": "", "note": clean(q.get("reason"), 200), "method": "fetch"}; stats["reviews"] += 1
     for r in boards:
         ids = {s["field"] for s in srcs if s["board_id"] == r["id"]}
         own = {s["field"] for s in srcs if s["board_id"] == r["id"] and s["field"] not in WEAK and regdom(host(s["url"])) not in REFERENCE}
@@ -185,7 +202,7 @@ def main(argv):
     print(dict(stats), "conflicts:", len(conflicts), "queued:", len(queue_add), "rejections:", len(log_lines))
     for k, n, w in log_lines[:40]: print("  reject", k, n, "|", w)
     if dry: print("dry run, nothing written"); return
-    save("job_boards.csv", boards, cols); save("sources.csv", srcs, scols)
+    save("job_boards.csv", boards, cols); save("sources.csv", srcs, scols); save("reviews.csv", list(reviews.values()), RCOLS)
     if conflicts:
         p = DATA / "conflicts.csv"; new_file = not p.exists()
         with open(p, "a", newline="", encoding="utf-8") as f:

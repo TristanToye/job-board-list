@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+"""Pick the entries most worth a verification pass and write chunked input files for verification agents.
+Usage: python3 scripts/sweep_candidates.py [--top 60] [--chunks 6] [--stamp YYYY-MM-DD] [--skip-days 14]
+Priority = prominence weight x number of missing key facts. Entries reviewed within --skip-days are skipped."""
+import csv, datetime, json, pathlib, sys
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+def arg(n, d): return type(d)(sys.argv[sys.argv.index(n) + 1]) if n in sys.argv else d
+top, chunks, skip = arg("--top", 60), arg("--chunks", 6), arg("--skip-days", 14); stamp = arg("--stamp", datetime.date.today().isoformat())
+def load(n):
+    p = ROOT / "data" / n
+    return list(csv.DictReader(open(p, newline="", encoding="utf-8"))) if p.exists() else []
+rank = {r["board_id"]: r for r in load("rank.csv")}; reviews = {r["board_id"]: r for r in load("reviews.csv")}
+today = datetime.date.fromisoformat(stamp)
+def weight(i):
+    r = rank.get(i)
+    if not r or not r["global_rank"]: return 1
+    g = int(r["global_rank"]); base = 5 if g <= 1000 else 4 if g <= 10000 else 3 if g <= 100000 else 2
+    return base if r["scope"] == "domain" else 1.5
+cands = []
+for b in load("job_boards.csv"):
+    if not b["url"] or b["type"] in ("lmi", "government") and False: continue
+    rv = reviews.get(b["id"])
+    if rv and (today - datetime.date.fromisoformat(rv["reviewed"])).days < skip: continue
+    miss = [k for k, empty in (("hq_country", not b["hq_country"]), ("languages", not b["primary_language"]), ("business_model", not b["business_model"]),
+            ("api_status", b["api_status"] == "unknown"), ("partner_program", b["partner_program"] == "unknown"), ("parent", not b["parent"]), ("ingest_methods", not b["ingest_methods"])) if empty]
+    if miss: cands.append((weight(b["id"]) * len(miss), b, miss))
+cands.sort(key=lambda x: -x[0]); picked = cands[:top]
+out = pathlib.Path(ROOT / "research" / "findings")
+for i in range(chunks):
+    part = picked[i::chunks]
+    if part: json.dump({"country": "ZZ", "boards": [{"name": b["name"], "url": b["url"], "missing": m} for _, b, m in part]}, open(out / f"{stamp}-sweep-{i + 1}-input.json", "w", encoding="utf-8"), indent=1)
+print(f"{len(cands)} candidates with gaps, {len(picked)} picked in {min(chunks, len(picked))} chunks")
+for sc, b, m in picked[:12]: print(f"  {sc:5.1f}  {b['name']:30} missing {','.join(m)}")

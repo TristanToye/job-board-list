@@ -2,7 +2,7 @@
 """Check that each cited quote really appears on its cited page, and annotate the findings file in place.
 Usage: python3 scripts/check_quotes.py FINDINGS.json [...]
 Each source gets "check": "ok" (quote found), "mismatch" (page read, quote not found) or "unreachable" (page not readable here)."""
-import html, json, re, subprocess, sys, time, threading, unicodedata, concurrent.futures as cf
+import html, json, pathlib, re, subprocess, sys, time, threading, unicodedata, concurrent.futures as cf
 WIKI_LOCK = threading.Lock()  # one Wikipedia request at a time, with a pause between them
 
 def norm(t):
@@ -24,8 +24,18 @@ def page_text(url):
     if code.strip() != "200" or len(body) < 200: return None
     body = re.sub(r"(?is)<(script|style|noscript)[^>]*>.*?</\1>", " ", body)
     return norm(re.sub(r"(?s)<[^>]+>", " ", body))
+def browser_text(url):
+    """Fallback for pages a plain request cannot read: render them in the headless browser (no evasion; challenge pages count as unreadable)."""
+    try:
+        r = subprocess.run(["node", str(pathlib.Path(__file__).resolve().parent / "browse.js"), url], capture_output=True, text=True, timeout=60)
+        d = json.loads(r.stdout.strip().splitlines()[-1])
+    except Exception: return None
+    if d.get("blocked") or not d.get("text"): return None
+    return norm(d["text"])
 def check(url, quote, cache):
-    if url not in cache: cache[url] = page_text(url)
+    if url not in cache:
+        cache[url] = page_text(url)
+        if cache[url] is None and "wikipedia.org/" not in url: cache[url] = browser_text(url)
     txt = cache[url]
     if txt is None: return "unreachable"
     q = norm(quote)
