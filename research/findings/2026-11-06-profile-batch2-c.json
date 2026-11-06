@@ -1,0 +1,206 @@
+{
+ "mode": "owner-profile",
+ "owners": [
+  {
+   "name": "Quess Corp",
+   "url": "https://www.quesscorp.com",
+   "facts": []
+  },
+  {
+   "name": "Kanzhun Limited",
+   "url": "https://ir.kanzhun.com",
+   "facts": [
+    {
+     "fact": "hq_city",
+     "value": "Beijing",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+       "title": "BOSS Zhipin - Wikipedia (infobox)",
+       "quote": "Headquarters: Beijing, China",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_country",
+     "value": "CN",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+       "title": "BOSS Zhipin - Wikipedia (infobox)",
+       "quote": "Headquarters: Beijing, China",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "founded",
+     "value": "2014",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+       "title": "BOSS Zhipin - Wikipedia (infobox)",
+       "quote": "Founded: 16 January 2014",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "listing",
+     "value": "Nasdaq: BZ; SEHK: 2076",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+       "title": "BOSS Zhipin - Wikipedia (infobox)",
+       "quote": "Traded as: Nasdaq: BZ and SEHK: 2076",
+       "check": "mismatch"
+      }
+     ]
+    },
+    {
+     "fact": "employees",
+     "value": "5,346 (2023)",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+       "title": "BOSS Zhipin - Wikipedia (infobox)",
+       "quote": "Number of employees: 5,346 (2023)",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "revenue",
+     "value": "CN¥5.95 billion (FY2023)",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+       "title": "BOSS Zhipin - Wikipedia (infobox)",
+       "quote": "Revenue: CN¥5.95 billion (2023)",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "HeadHunter Group",
+   "url": "https://hh.ru",
+   "facts": [
+    {
+     "fact": "description",
+     "value": "HR-tech платформа в России и СНГ",
+     "sources": [
+      {
+       "url": "https://investor.hh.ru",
+       "title": "HeadHunter investor relations",
+       "quote": "HR-tech платформа в России и СНГ",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "listing",
+     "value": "Moscow Exchange (MOEX)",
+     "sources": [
+      {
+       "url": "https://investor.hh.ru",
+       "title": "HeadHunter investor relations (company timeline)",
+       "quote": "Re-IPO компании на Московской бирже",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Grupa Pracuj",
+   "url": "https://www.grupapracuj.pl",
+   "facts": [
+    {
+     "fact": "description",
+     "value": "Jesteśmy wiodącą europejską platformą HR Tech",
+     "sources": [
+      {
+       "url": "https://www.grupapracuj.pl",
+       "title": "Grupa Pracuj home page",
+       "quote": "Jesteśmy wiodącą europejską platformą HR Tech",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_city",
+     "value": "Warsaw",
+     "sources": [
+      {
+       "url": "https://www.grupapracuj.pl/firma",
+       "title": "Grupa Pracuj - Firma (contact section; address not labelled headquarters)",
+       "quote": "ul. Prosta 68, 00-838 Warszawa",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_country",
+     "value": "PL",
+     "sources": [
+      {
+       "url": "https://www.grupapracuj.pl/firma",
+       "title": "Grupa Pracuj - Firma (contact section; address not labelled headquarters)",
+       "quote": "ul. Prosta 68, 00-838 Warszawa",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "founded",
+     "value": "2000",
+     "sources": [
+      {
+       "url": "https://www.grupapracuj.pl",
+       "title": "Grupa Pracuj home page",
+       "quote": "2000 to rok założenia Grupy Pracuj",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "employees",
+     "value": "over 1000 (no year stated)",
+     "sources": [
+      {
+       "url": "https://www.grupapracuj.pl/firma",
+       "title": "Grupa Pracuj - Firma",
+       "quote": "w Grupie Pracuj pracuje ponad 1000 osób",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "listing",
+     "value": "GRUPRACUJ (exchange not named on page)",
+     "sources": [
+      {
+       "url": "https://ir.grupapracuj.pl/pl",
+       "title": "Grupa Pracuj investor relations",
+       "quote": "notowania 06.11.2026 14:25 GRUPRACUJ 52,90",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "url": "https://ir.kanzhun.com",
+   "reason": "DNS error (getaddrinfo ENOTFOUND); one attempt, not retried. Kanzhun own-site facts not collected; description omitted because only Wikipedia wording was available and it is not the company's own self-description."
+  },
+  {
+   "url": "https://www.quesscorp.com",
+   "reason": "HTTP 307 Temporary Redirect with no body on every path tried; no Quess facts recorded"
+  }
+ ]
+}

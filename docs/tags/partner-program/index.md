@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 52 entries in the directory.
+Has a partner or integration program. 53 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -34,6 +34,7 @@ Has a partner or integration program. 52 entries in the directory.
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [XING Jobs](https://jobboardlist.com/boards/xing/): social-network+board, Partner-only API
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
+- [Thrive Career Wellness](https://jobboardlist.com/boards/thrive-career-wellness/): outplacement
 
 ## Applicant tracking systems
 

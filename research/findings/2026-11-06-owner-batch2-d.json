@@ -1,0 +1,222 @@
+{
+ "mode": "ownership",
+ "owners": [
+  {
+   "name": "SMG Swiss Marketplace Group",
+   "url": "https://swissmarketplace.group",
+   "holdings": []
+  },
+  {
+   "name": "Navent",
+   "url": "https://www.navent.com",
+   "holdings": []
+  },
+  {
+   "name": "Ringier One Africa Media",
+   "url": "https://www.ringier.com/africa/",
+   "holdings": [
+    {
+     "name": "Jobberman",
+     "relation": "subsidiary",
+     "since": "2015",
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "since",
+       "url": "https://en.wikipedia.org/wiki/Jobberman",
+       "title": "Jobberman (Wikipedia)",
+       "quote": "In 2015, One Africa Media acquired Jobberman.",
+       "check": "ok"
+      },
+      {
+       "field": "parent",
+       "url": "https://en.wikipedia.org/wiki/Jobberman",
+       "title": "Jobberman (Wikipedia)",
+       "quote": "Jobberman is part of ROAM Africa's jobs vertical, alongside other recruitment platforms in East and West Africa.",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Veritone",
+   "url": "https://www.veritone.com",
+   "holdings": [
+    {
+     "name": "Broadbean",
+     "url": "https://www.broadbean.com",
+     "relation": "subsidiary",
+     "since": "2023",
+     "category": "hr-tech",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.broadbean.com/resources/blog/news/veritone-to-acquire-broadbean-signifying-deeper-global-commitment-for-veritones-ai-powered-human-resources-solutions/",
+       "title": "Veritone to Acquire Broadbean (press release)",
+       "quote": "today announced its agreement to acquire Broadbean",
+       "check": "ok"
+      },
+      {
+       "field": "since",
+       "url": "https://www.broadbean.com/resources/blog/news/veritone-to-acquire-broadbean-signifying-deeper-global-commitment-for-veritones-ai-powered-human-resources-solutions/",
+       "title": "Veritone to Acquire Broadbean (press release)",
+       "quote": "the combined businesses of Broadbean and PandoLogic will be integrated and rebranded as Veritone HR Solutions",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Advenn",
+   "url": "https://www.advenn.com",
+   "country": "FR",
+   "holdings": [
+    {
+     "name": "Hellowork group",
+     "url": "https://www.hellowork-group.com",
+     "relation": "subsidiary",
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.hellowork-group.com/en/the-hellowork-group/",
+       "title": "Hellowork group",
+       "quote": "A subsidiary of Advenn",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Jobijoba",
+     "relation": "subsidiary",
+     "category": "aggregator",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.hellowork-group.com/en/the-hellowork-group/",
+       "title": "Hellowork group",
+       "quote": "That same year, we raised €30 million in investment with support from shareholder Groupe Télégramme and acquired Jobijoba.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Maformation",
+     "relation": "brand",
+     "category": "hr-services",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.hellowork-group.com/en/the-hellowork-group/",
+       "title": "Hellowork group",
+       "quote": "In 2009, we expanded into the training market with the launch of Maformation",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Helloworkplace",
+     "relation": "brand",
+     "category": "hr-services",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.hellowork-group.com/en/the-hellowork-group/",
+       "title": "Hellowork group",
+       "quote": "That same year, we created Helloworkplace to address recruitment and HR challenges.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Basile",
+     "relation": "subsidiary",
+     "since": "2022",
+     "category": "hr-tech",
+     "sources": [
+      {
+       "field": "since",
+       "url": "https://www.hellowork-group.com/en/the-hellowork-group/",
+       "title": "Hellowork group",
+       "quote": "Finally, in 2022, we brought in Basile, a referral-based recruitment startup",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "url": "https://www.navent.com",
+   "owner": "Navent",
+   "reason": "HTTP 403 on first fetch; not retried"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Navent",
+   "owner": "Navent",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Navent_Group",
+   "owner": "Navent",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://www.businesswire.com/news/home/20230531005278/en",
+   "owner": "Veritone",
+   "reason": "HTTP 403 on first fetch; not retried"
+  },
+  {
+   "url": "https://swissmarketplace.group/en/about-us",
+   "owner": "SMG Swiss Marketplace Group",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/SMG_Swiss_Marketplace_Group",
+   "owner": "SMG Swiss Marketplace Group",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Swiss_Marketplace_Group",
+   "owner": "SMG Swiss Marketplace Group",
+   "reason": "HTTP 404"
+  }
+ ],
+ "queue": [
+  {
+   "name": "jobs.ch",
+   "owner": "SMG Swiss Marketplace Group",
+   "url": "https://www.jobs.ch/en/",
+   "note": "Listed by the owner brief but not on swissmarketplace.group, which names only real estate, automotive, general marketplace and finance brands. The jobs.ch page footer reads JobCloud AG and does not name SMG. Needs an owner-side source before recording."
+  },
+  {
+   "name": "JobUp",
+   "owner": "SMG Swiss Marketplace Group",
+   "url": "https://www.jobup.ch",
+   "note": "Only seen in jobs.ch text: 'visit jobup.ch, our dedicated platform for the French-speaking regions of Switzerland.' No SMG statement read."
+  },
+  {
+   "name": "PandoLogic",
+   "owner": "Veritone",
+   "note": "Named in the Broadbean release as combining with Broadbean. Acquisition year conflicts across sources (2021 vs 2022); not recorded."
+  },
+  {
+   "name": "BrighterMonday",
+   "owner": "Ringier One Africa Media",
+   "note": "Appears only as a name in the 'Our Brands in Africa' list on ringier.com/africa. No sentence states the relationship."
+  },
+  {
+   "name": "NgCareers",
+   "owner": "Ringier One Africa Media",
+   "note": "Search snippet says Jobberman acquired NgCareers in 2020, citing a TechCabal article not read. Indirect holding via Jobberman."
+  },
+  {
+   "name": "Seekube",
+   "owner": "Advenn",
+   "note": "Acquisition in 2021 quoted from the Hellowork group page. Search summary says it was sold in 2025, but no page read states that, so not recorded as former."
+  }
+ ]
+}

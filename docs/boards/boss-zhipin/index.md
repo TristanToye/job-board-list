@@ -5,7 +5,7 @@ BOSS Zhipin is a board and chat based in China. It was founded in 2014.
 - Website: https://www.zhipin.com
 - Headquarters: China
 - Founded: 2014
-- Owner: Kanzhun
+- Owner: Kanzhun Limited (Brand)
 - Languages: Chinese
 - API status: No known API
 - Partner program: unknown
@@ -15,7 +15,7 @@ BOSS Zhipin is a board and chat based in China. It was founded in 2014.
 
 ## Quick answers
 
-**Who owns BOSS Zhipin?** This directory records the parent of BOSS Zhipin as Kanzhun.
+**Who owns BOSS Zhipin?** According to this directory, BOSS Zhipin is owned by Kanzhun Limited (brand).
 
 **Does BOSS Zhipin have an API?** According to this directory, BOSS Zhipin has no publicly documented API that we could find.
 
@@ -26,6 +26,7 @@ BOSS Zhipin is a board and chat based in China. It was founded in 2014.
 ## Sources
 
 - [Wikipedia: BOSS Zhipin](https://en.wikipedia.org/wiki/BOSS_Zhipin) (Existence and description, checked 2026-11-05): "is a publicly listed Chinese human resources company that focuses on providing online recruitment services through its mobile app"
+- [BOSS Zhipin - Wikipedia (lead section)](https://en.wikipedia.org/wiki/BOSS_Zhipin) (Ownership, checked 2026-11-06): "through its mobile app, Boss Zhipin"
 
 Canonical page: https://jobboardlist.com/boards/boss-zhipin/
-Last updated: 2026-11-05
+Last updated: 2026-11-06

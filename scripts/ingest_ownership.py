@@ -13,7 +13,7 @@ OWN_WORDS = re.compile(r"\b(subsidiar\w*|owned|owns|own|acquir\w*|acquisition|ac
 STRONG_RELATIONS = {"subsidiary", "majority-stake", "minority-stake", "joint-venture"}
 REFERENCE = {"wikipedia.org", "wikidata.org"}
 BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]
-OCOLS = ["id", "name", "url", "country", "aliases"]
+OCOLS = ["id", "name", "url", "country", "aliases", "domains"]
 HCOLS = ["owner_id", "holding_name", "holding_url", "board_id", "relation", "stake", "since", "category", "source_url", "source_title", "quote", "quote_check", "accessed"]
 
 def slug(s): return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
@@ -77,12 +77,13 @@ def main(argv):
             name = clean(o.get("name"), 80); oid = owner_id(name)
             if not name or not oid or bad(json.dumps(o)): rej.append(("owner", name, "missing or disallowed")); continue
             ourl = clean(o.get("url"), 200); odom = regdom(host(ourl))
-            if oid not in owners: owners[oid] = {"id": oid, "name": name, "url": ourl, "country": clean(o.get("country"), 2).upper(), "aliases": ""}; stats["owners"] += 1
+            odoms = {odom} | {x.strip() for x in owners.get(oid, {}).get("domains", "").split(";") if x.strip()}
+            if oid not in owners: owners[oid] = {"id": oid, "name": name, "url": ourl, "country": clean(o.get("country"), 2).upper(), "aliases": "", "domains": ""}; stats["owners"] += 1
             if d["mode"] == "owner-profile":
                 for f in o.get("facts", []):
                     fact = clean(f.get("fact"), 20); val = clean(f.get("value"), 120)
                     if fact not in FACTS or bad(json.dumps(f)): rej.append(("fact", name, f"bad fact {fact!r}")); stats["rejected"] += 1; continue
-                    gs = good_sources(f.get("sources", []), {odom}, f"{name} {fact}", rej)
+                    gs = good_sources(f.get("sources", []), odoms, f"{name} {fact}", rej)
                     if not gs: stats["rejected"] += 1; continue
                     su, st, q, chk = gs[0]; v = profile_fact(fact, val, q, cnames)
                     if not v: rej.append(("fact", f"{name} {fact}", f"value {val!r} not supported by its quote")); stats["rejected"] += 1; continue
@@ -102,7 +103,7 @@ def main(argv):
                     if not su.startswith("http") or len(q.split()) < 4 or len(q.split()) > 30 or chk == "mismatch": rej.append(("source", hn, "bad url or quote (a quote needs 4 to 30 words)")); continue
                     if sd in REFERENCE:
                         if chk not in ("ok", "structured"): rej.append(("source", hn, "reference quote not confirmed")); continue
-                    elif sd not in {odom, hdom}: rej.append(("source", hn, f"source off domain {sd}")); continue
+                    elif sd not in odoms | {hdom}: rej.append(("source", hn, f"source off domain {sd}")); continue
                     good.append((su, clean(s.get("title"), 120), q, chk))
                 if not good: rej.append(("holding", hn, "no usable source")); stats["rejected"] += 1; continue
                 su, st, q, chk = good[0]

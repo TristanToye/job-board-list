@@ -5,7 +5,7 @@ JobStreet is a board based in Malaysia. It was founded in 1997.
 - Website: https://www.jobstreet.com
 - Headquarters: Malaysia
 - Founded: 1997
-- Owner: SEEK
+- Owner: SEEK Limited (Brand)
 - Languages: English, Indonesian, Malay
 - API status: Partner-only API
 - Partner program: yes
@@ -15,7 +15,7 @@ JobStreet is a board based in Malaysia. It was founded in 1997.
 
 ## Quick answers
 
-**Who owns JobStreet?** This directory records the parent of JobStreet as SEEK.
+**Who owns JobStreet?** According to this directory, JobStreet is owned by SEEK Limited (brand).
 
 **Does JobStreet have an API?** According to this directory, JobStreet restricts programmatic access to approved partners.
 
@@ -28,6 +28,7 @@ JobStreet is a board based in Malaysia. It was founded in 1997.
 - [Jobstreet](https://en.wikipedia.org/wiki/Jobstreet) (Listed by a third-party directory, checked 2026-11-05)
 - [Wikipedia: JobStreet](https://en.wikipedia.org/wiki/JobStreet) (Existence and description, checked 2026-11-05): "Jobstreet is a Southeast Asian online employment website, operated by the Australian Stock Exchange-listed SEEK Limited."
 - [Wikipedia: JobStreet](https://en.wikipedia.org/wiki/JobStreet) (Note, checked 2026-11-05): "SEEK merged its APAC employment marketplaces - SEEK, Jobstreet and Jobsdb - into a single platform."
+- [About SEEK in Asia](https://my.jobstreet.com/about) (Ownership, checked 2026-11-06): "operates market-leading online employment marketplaces, including Jobstreet and Jobsdb in Asia."
 
 Canonical page: https://jobboardlist.com/boards/jobstreet/
-Last updated: 2026-11-05
+Last updated: 2026-11-06

@@ -5,7 +5,7 @@ LinkedIn is a social network and board based in United States, focused on genera
 - Website: https://www.linkedin.com/jobs
 - Headquarters: United States
 - Founded: 2002
-- Owner: Microsoft
+- Owner: Microsoft (Subsidiary, since 2016)
 - Languages: English, Spanish, French, German, Italian, Portuguese, Dutch, Polish, Swedish, Danish, Norwegian, Finnish, Japanese, Korean, Chinese, Arabic, Turkish, Russian, Indonesian, Malay, Thai, Romanian, Czech, bn, el, fa, Hindi, hu, he, mr, pa, te, tl, Ukrainian, vi
 - API status: Partner-only API (https://developer.linkedin.com/)
 - Partner program: yes
@@ -15,7 +15,7 @@ LinkedIn is a social network and board based in United States, focused on genera
 
 ## Quick answers
 
-**Who owns LinkedIn?** This directory records the parent of LinkedIn as Microsoft.
+**Who owns LinkedIn?** According to this directory, LinkedIn is owned by Microsoft (subsidiary, since 2016).
 
 **Does LinkedIn have an API?** According to this directory, LinkedIn restricts programmatic access to approved partners. Documentation: https://developer.linkedin.com/.
 
@@ -32,6 +32,7 @@ LinkedIn is a social network and board based in United States, focused on genera
 - [Wikipedia: LinkedIn](https://en.wikipedia.org/wiki/LinkedIn) (Existence and description, checked 2026-11-05): "LinkedIn is an American business and employment-oriented social networking service used globally."
 - [Wikipedia: LinkedIn](https://en.wikipedia.org/wiki/LinkedIn) (Ownership, checked 2026-11-05): "In December 2016, Microsoft purchased LinkedIn for $26.2 billion, being its largest acquisition at the time."
 - [Wikipedia: LinkedIn](https://en.wikipedia.org/wiki/LinkedIn) (Note, checked 2026-11-05): "Microsoft ended LinkedIn operations in China in October 2021."
+- [Microsoft to acquire LinkedIn (press release, 13 June 2016)](https://news.microsoft.com/2016/06/13/microsoft-to-acquire-linkedin/) (Ownership, checked 2026-11-06): "Microsoft will acquire LinkedIn for $196 per share in an all-cash transaction valued at $26.2 billion"
 
 Canonical page: https://jobboardlist.com/boards/linkedin/
-Last updated: 2026-11-05
+Last updated: 2026-11-06

@@ -1,0 +1,120 @@
+{
+ "mode": "ownership",
+ "owners": [
+  {
+   "name": "Microsoft",
+   "url": "https://www.microsoft.com",
+   "country": "US",
+   "holdings": [
+    {
+     "name": "LinkedIn",
+     "relation": "subsidiary",
+     "since": "2016",
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://news.microsoft.com/2016/06/13/microsoft-to-acquire-linkedin/",
+       "title": "Microsoft to acquire LinkedIn (press release, 13 June 2016)",
+       "quote": "Microsoft will acquire LinkedIn for $196 per share in an all-cash transaction valued at $26.2 billion",
+       "check": "ok"
+      },
+      {
+       "field": "since",
+       "url": "https://en.wikipedia.org/wiki/LinkedIn",
+       "title": "LinkedIn (Wikipedia)",
+       "quote": "In December 2016, Microsoft purchased LinkedIn for $26.2 billion, being its largest acquisition at the time.",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Alphabet Inc.",
+   "url": "https://abc.xyz",
+   "country": "US",
+   "holdings": []
+  },
+  {
+   "name": "Adevinta",
+   "url": "https://www.adevinta.com",
+   "country": null,
+   "holdings": [
+    {
+     "name": "InfoJobs Brazil",
+     "relation": "former",
+     "stake": "76.2",
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "relation",
+       "url": "https://www.inderes.dk/en/releases/ade-adevinta-announces-sale-of-infojobs-brazil-to-redarbor",
+       "title": "Adevinta announces sale of InfoJobs Brazil to Redarbor (release dated Oslo, 30 March 2022, republished by Inderes)",
+       "quote": "the sale of its 76.2% stake in InfoJobs Brazil, the largest jobs marketplace in Brazil, to Redarbor",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "owner": "Adevinta",
+   "url": "https://www.infojobs.net/",
+   "status": "456 Unknown Status",
+   "note": "Not retried; no owner statement obtained from InfoJobs' own page."
+  },
+  {
+   "owner": "Adevinta",
+   "url": "https://www.adevinta.com/about-us/",
+   "status": "503 Service Unavailable",
+   "note": "Retried once, still 503."
+  },
+  {
+   "owner": "Adevinta",
+   "url": "https://en.wikipedia.org/wiki/Adevinta",
+   "status": "404 Not Found",
+   "note": "Article not found at this title."
+  },
+  {
+   "owner": "Adevinta",
+   "url": "https://en.wikipedia.org/wiki/Adevinta_ASA",
+   "status": "404 Not Found",
+   "note": "Article not found at this title either."
+  }
+ ],
+ "queue": [
+  {
+   "owner": "Microsoft",
+   "name": "Connectifier",
+   "source": "https://en.wikipedia.org/wiki/LinkedIn",
+   "note": "Listed as a LinkedIn subsidiary in the infobox and in the acquisitions table (2016). Only Wikipedia read; no owner-page statement found."
+  },
+  {
+   "owner": "Microsoft",
+   "name": "Careerify",
+   "source": "https://en.wikipedia.org/wiki/LinkedIn",
+   "note": "Acquisitions table entry (March 2015). Wikipedia only; no owner-page statement found."
+  },
+  {
+   "owner": "Microsoft",
+   "name": "Bright.com",
+   "source": "https://en.wikipedia.org/wiki/LinkedIn",
+   "note": "Acquisitions table entry (February 2014, job matching). Wikipedia only; no owner-page statement found."
+  },
+  {
+   "owner": "Microsoft",
+   "name": "Glint",
+   "source": "https://en.wikipedia.org/wiki/LinkedIn",
+   "note": "Acquisitions table entry (September 2018, employee engagement platform). Wikipedia only; no owner-page statement found."
+  },
+  {
+   "owner": "Adevinta",
+   "name": "InfoJobs (Spain)",
+   "source": "https://adevinta.com/?p=432264",
+   "note": "Named only in a brand list in Adevinta's boilerplate (dated 31 January 2023). News search snippets report Adevinta Spain, including InfoJobs, being sold to EQT in 2025, but no primary page was read to confirm this. Needs confirmation before recording as a current holding."
+  }
+ ]
+}

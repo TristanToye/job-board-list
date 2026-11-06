@@ -7,6 +7,7 @@
    "url": "https://www.seek.com.au",
    "country": "AU",
    "aliases": "SEEK;SEEK Limited",
+   "domains": "seek.com",
    "profile": {
     "hq_city": {
      "value": "Melbourne",
@@ -22,6 +23,16 @@
      "value": "Australian Securities Exchange",
      "source": "https://en.wikipedia.org/wiki/Seek_Limited",
      "quote": "SEEK was floated on the Australian Securities Exchange"
+    },
+    "description": {
+     "value": "A market leader in online employment marketplaces",
+     "source": "https://au.seek.com/about",
+     "quote": "A market leader in online employment marketplaces"
+    },
+    "founded": {
+     "value": "1997",
+     "source": "https://au.seek.com/about",
+     "quote": "Founded in Melbourne, Australia in 1997."
     }
    },
    "holdings": [
@@ -69,6 +80,21 @@
      "quote": "sold its holdings in the Latin American job-boards OCC (Mexico) and Catho (Brazil)",
      "quote_check": "ok",
      "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "seek",
+     "holding_name": "JobStreet",
+     "holding_url": "https://my.jobstreet.com",
+     "board_id": "jobstreet",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://my.jobstreet.com/about",
+     "source_title": "About SEEK in Asia",
+     "quote": "operates market-leading online employment marketplaces, including Jobstreet and Jobsdb in Asia.",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
     }
    ]
   },
@@ -78,6 +104,7 @@
    "url": "https://www.infoedge.in",
    "country": "IN",
    "aliases": "Info Edge;Info Edge (India) Ltd",
+   "domains": "naukri.com",
    "profile": {
     "description": {
      "value": "Info Edge is India’s premier online classifieds company in recruitment, matrimony, real estate, education and related services.",
@@ -184,6 +211,7 @@
    "url": "https://www.thestepstonegroup.com",
    "country": "",
    "aliases": "",
+   "domains": "",
    "profile": {},
    "holdings": []
   },
@@ -193,6 +221,7 @@
    "url": "https://www.randstad.com",
    "country": "NL",
    "aliases": "Randstad;Randstad Holding;Randstad N.V.",
+   "domains": "randstad.nl",
    "profile": {
     "description": {
      "value": "Randstad is the world’s leading talent company and a partner of choice to clients.",
@@ -369,6 +398,7 @@
    "url": "https://recruit-holdings.com",
    "country": "JP",
    "aliases": "Recruit Co. Ltd.;Recruit Holdings;Recruit Group;Recruit",
+   "domains": "recruit.co.jp;indeed.com;glassdoor.com",
    "profile": {
     "description": {
      "value": "Recruit Group is a global technology company transforming the world of work.",
@@ -700,7 +730,19 @@
    "url": "https://www.adevinta.com",
    "country": "",
    "aliases": "",
-   "profile": {},
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "Adevinta is a leading online classifieds group and champion for sustainable commerce across Europe and beyond.",
+     "source": "https://www.adevinta.com/",
+     "quote": "Adevinta is a leading online classifieds group and champion for sustainable commerce across Europe and beyond."
+    },
+    "employees": {
+     "value": "around 8,100 (year not stated)",
+     "source": "https://adevinta.com/?p=432264",
+     "quote": "Adevinta employs around 8,100 people, including 3,000 (approx) working in product and technology teams"
+    }
+   },
    "holdings": []
   },
   {
@@ -709,6 +751,7 @@
    "url": "https://www.bold.com",
    "country": "",
    "aliases": "BOLD Holdings;BOLD",
+   "domains": "",
    "profile": {
     "description": {
      "value": "Today, we’re proud to be the largest global career technology company",
@@ -865,7 +908,14 @@
    "url": "https://www.dhigroupinc.com",
    "country": "",
    "aliases": "DHI;DHI Group;DHI Group, Inc.",
-   "profile": {},
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "DHI Group powers ClearanceJobs and Dice, the platforms top tech talent turn to and employers rely on.",
+     "source": "https://www.dhigroupinc.com",
+     "quote": "DHI Group powers ClearanceJobs and Dice, the platforms top tech talent turn to and employers rely on."
+    }
+   },
    "holdings": [
     {
      "owner_id": "dhi",
@@ -900,23 +950,363 @@
    ]
   },
   {
-   "id": "microsoft",
-   "name": "Microsoft",
-   "url": "",
-   "country": "",
+   "id": "quess",
+   "name": "Quess Corp",
+   "url": "https://www.quesscorp.com",
+   "country": "IN",
    "aliases": "",
-   "stub": true,
+   "domains": "",
    "profile": {},
    "holdings": []
   },
   {
-   "id": "alphabet",
-   "name": "Alphabet",
-   "url": "",
+   "id": "kanzhun",
+   "name": "Kanzhun Limited",
+   "url": "https://ir.kanzhun.com",
+   "country": "CN",
+   "aliases": "",
+   "domains": "",
+   "profile": {
+    "founded": {
+     "value": "2014",
+     "source": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+     "quote": "Founded: 16 January 2014"
+    },
+    "employees": {
+     "value": "5,346 (2023)",
+     "source": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+     "quote": "Number of employees: 5,346 (2023)"
+    },
+    "revenue": {
+     "value": "CN¥5.95 billion (FY2023)",
+     "source": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+     "quote": "Revenue: CN¥5.95 billion (2023)"
+    }
+   },
+   "holdings": [
+    {
+     "owner_id": "kanzhun",
+     "holding_name": "BOSS Zhipin",
+     "holding_url": "https://www.zhipin.com",
+     "board_id": "boss-zhipin",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+     "source_title": "BOSS Zhipin - Wikipedia (lead section)",
+     "quote": "through its mobile app, Boss Zhipin",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "id": "headhunter",
+   "name": "HeadHunter Group",
+   "url": "https://hh.ru",
+   "country": "RU",
+   "aliases": "",
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "HR-tech платформа в России и СНГ",
+     "source": "https://investor.hh.ru",
+     "quote": "HR-tech платформа в России и СНГ"
+    }
+   },
+   "holdings": [
+    {
+     "owner_id": "headhunter",
+     "holding_name": "Zarplata.ru",
+     "holding_url": "",
+     "board_id": "",
+     "relation": "group-company",
+     "stake": "100",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://investor.hh.ru",
+     "source_title": "HeadHunter investor relations (company timeline)",
+     "quote": "Приобретение 100% платформы по поиску работу «Зарплата.ру»",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "id": "grupa-pracuj",
+   "name": "Grupa Pracuj",
+   "url": "https://www.grupapracuj.pl",
+   "country": "PL",
+   "aliases": "",
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "Jesteśmy wiodącą europejską platformą HR Tech",
+     "source": "https://www.grupapracuj.pl",
+     "quote": "Jesteśmy wiodącą europejską platformą HR Tech"
+    },
+    "founded": {
+     "value": "2000",
+     "source": "https://www.grupapracuj.pl",
+     "quote": "2000 to rok założenia Grupy Pracuj"
+    },
+    "employees": {
+     "value": "over 1000 (no year stated)",
+     "source": "https://www.grupapracuj.pl/firma",
+     "quote": "w Grupie Pracuj pracuje ponad 1000 osób"
+    },
+    "listing": {
+     "value": "GRUPRACUJ (exchange not named on page)",
+     "source": "https://ir.grupapracuj.pl/pl",
+     "quote": "notowania 06.11.2026 14:25 GRUPRACUJ 52,90"
+    }
+   },
+   "holdings": []
+  },
+  {
+   "id": "smg-swiss-marketplace",
+   "name": "SMG Swiss Marketplace Group",
+   "url": "https://swissmarketplace.group",
    "country": "",
    "aliases": "",
-   "stub": true,
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "SMG Swiss Marketplace Group is a digital pioneer that simplifies people's lives with groundbreaking products.",
+     "source": "https://swissmarketplace.group",
+     "quote": "SMG Swiss Marketplace Group is a digital pioneer that simplifies people's lives with groundbreaking products."
+    }
+   },
+   "holdings": []
+  },
+  {
+   "id": "navent",
+   "name": "Navent",
+   "url": "https://www.navent.com",
+   "country": "",
+   "aliases": "",
+   "domains": "",
    "profile": {},
+   "holdings": []
+  },
+  {
+   "id": "ringier-one-africa-media",
+   "name": "Ringier One Africa Media",
+   "url": "https://www.ringier.com/africa/",
+   "country": "",
+   "aliases": "",
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "ROAM (Ringier One Africa Media) is the leading online marketplace company in Sub-Saharan Africa.",
+     "source": "https://www.ringier.com/africa/",
+     "quote": "ROAM (Ringier One Africa Media) is the leading online marketplace company in Sub-Saharan Africa."
+    }
+   },
+   "holdings": [
+    {
+     "owner_id": "ringier-one-africa-media",
+     "holding_name": "Jobberman",
+     "holding_url": "",
+     "board_id": "jobberman",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2015",
+     "category": "job-board",
+     "source_url": "https://en.wikipedia.org/wiki/Jobberman",
+     "source_title": "Jobberman (Wikipedia)",
+     "quote": "In 2015, One Africa Media acquired Jobberman.",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "id": "veritone",
+   "name": "Veritone",
+   "url": "https://www.veritone.com",
+   "country": "",
+   "aliases": "",
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "Enterprise AI for the Data Economy.",
+     "source": "https://www.veritone.com",
+     "quote": "Enterprise AI for the Data Economy."
+    },
+    "hq_city": {
+     "value": "Irvine",
+     "source": "https://en.wikipedia.org/wiki/Veritone",
+     "quote": "Veritone, Inc. is an American artificial intelligence technology company based in Irvine, California founded in 2014."
+    },
+    "hq_country": {
+     "value": "US",
+     "source": "https://en.wikipedia.org/wiki/Veritone",
+     "quote": "Veritone, Inc. is an American artificial intelligence technology company based in Irvine, California founded in 2014."
+    }
+   },
+   "holdings": [
+    {
+     "owner_id": "veritone",
+     "holding_name": "Broadbean",
+     "holding_url": "https://www.broadbean.com",
+     "board_id": "broadbean",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2023",
+     "category": "hr-tech",
+     "source_url": "https://www.broadbean.com/resources/blog/news/veritone-to-acquire-broadbean-signifying-deeper-global-commitment-for-veritones-ai-powered-human-resources-solutions/",
+     "source_title": "Veritone to Acquire Broadbean (press release)",
+     "quote": "today announced its agreement to acquire Broadbean",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "id": "advenn",
+   "name": "Advenn",
+   "url": "https://www.advenn.com",
+   "country": "FR",
+   "aliases": "",
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "Advenn, groupe indépendant depuis 1944 agit chaque jour pour informer, accompagner les parcours professionnels",
+     "source": "https://www.advenn.com",
+     "quote": "Advenn, groupe indépendant depuis 1944 agit chaque jour pour informer, accompagner les parcours professionnels"
+    },
+    "founded": {
+     "value": "1944",
+     "source": "https://www.advenn.com",
+     "quote": "Advenn, groupe indépendant depuis 1944 agit chaque jour pour informer, accompagner les parcours professionnels"
+    }
+   },
+   "holdings": [
+    {
+     "owner_id": "advenn",
+     "holding_name": "Hellowork group",
+     "holding_url": "https://www.hellowork-group.com",
+     "board_id": "",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.hellowork-group.com/en/the-hellowork-group/",
+     "source_title": "Hellowork group",
+     "quote": "A subsidiary of Advenn",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "url": "https://www.microsoft.com",
+   "country": "US",
+   "aliases": "",
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "Microsoft’s mission is to empower every person and every organization on the planet to achieve more.",
+     "source": "https://www.microsoft.com/en-us/about",
+     "quote": "Microsoft’s mission is to empower every person and every organization on the planet to achieve more."
+    },
+    "hq_city": {
+     "value": "Redmond",
+     "source": "https://en.wikipedia.org/wiki/Microsoft",
+     "quote": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington."
+    },
+    "hq_country": {
+     "value": "US",
+     "source": "https://en.wikipedia.org/wiki/Microsoft",
+     "quote": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington."
+    },
+    "founded": {
+     "value": "1975",
+     "source": "https://en.wikipedia.org/wiki/Microsoft",
+     "quote": "Founded April 4, 1975; 51 years ago (1975-04-04) in Albuquerque, New Mexico, U.S."
+    },
+    "listing": {
+     "value": "Nasdaq: MSFT",
+     "source": "https://news.microsoft.com/2016/06/13/microsoft-to-acquire-linkedin/",
+     "quote": "Microsoft Corp. (Nasdaq: MSFT) and LinkedIn Corporation (NYSE: LNKD) on Monday announced"
+    },
+    "employees": {
+     "value": "223,000 (2026)",
+     "source": "https://en.wikipedia.org/wiki/Microsoft",
+     "quote": "Number of employees 223,000 (2026)"
+    },
+    "revenue": {
+     "value": "US$331.8 billion (fiscal 2026, as labelled in infobox)",
+     "source": "https://en.wikipedia.org/wiki/Microsoft",
+     "quote": "Revenue US$331.8 billion (2026)"
+    }
+   },
+   "holdings": [
+    {
+     "owner_id": "microsoft",
+     "holding_name": "LinkedIn",
+     "holding_url": "",
+     "board_id": "linkedin",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2016",
+     "category": "job-board",
+     "source_url": "https://news.microsoft.com/2016/06/13/microsoft-to-acquire-linkedin/",
+     "source_title": "Microsoft to acquire LinkedIn (press release, 13 June 2016)",
+     "quote": "Microsoft will acquire LinkedIn for $196 per share in an all-cash transaction valued at $26.2 billion",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "id": "alphabet",
+   "name": "Alphabet Inc.",
+   "url": "https://abc.xyz",
+   "country": "US",
+   "aliases": "",
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "Alphabet is mostly a collection of companies.",
+     "source": "https://abc.xyz",
+     "quote": "Alphabet is mostly a collection of companies."
+    },
+    "hq_city": {
+     "value": "Mountain View",
+     "source": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+     "quote": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California."
+    },
+    "hq_country": {
+     "value": "US",
+     "source": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+     "quote": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California."
+    },
+    "founded": {
+     "value": "2015",
+     "source": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+     "quote": "It was created through a restructuring of Google on October 2, 2015"
+    },
+    "listing": {
+     "value": "Nasdaq: GOOGL and GOOG",
+     "source": "https://abc.xyz",
+     "quote": "Our two classes of shares will continue to trade on Nasdaq as GOOGL and GOOG."
+    },
+    "employees": {
+     "value": "204,757 (Sept. 2026)",
+     "source": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+     "quote": "Number of employees 204,757 (Sept. 2026)"
+    },
+    "revenue": {
+     "value": "US$403 billion (2025)",
+     "source": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+     "quote": "Revenue US$403 billion (2025)"
+    }
+   },
    "holdings": []
   },
   {
@@ -1000,56 +1390,6 @@
    "holdings": []
   },
   {
-   "id": "grupa-pracuj",
-   "name": "Grupa Pracuj",
-   "url": "",
-   "country": "",
-   "aliases": "",
-   "stub": true,
-   "profile": {},
-   "holdings": []
-  },
-  {
-   "id": "smg-swiss-marketplace-group",
-   "name": "SMG Swiss Marketplace Group",
-   "url": "",
-   "country": "",
-   "aliases": "",
-   "stub": true,
-   "profile": {},
-   "holdings": []
-  },
-  {
-   "id": "headhunter-group",
-   "name": "HeadHunter Group",
-   "url": "",
-   "country": "",
-   "aliases": "",
-   "stub": true,
-   "profile": {},
-   "holdings": []
-  },
-  {
-   "id": "quess",
-   "name": "Quess",
-   "url": "",
-   "country": "",
-   "aliases": "",
-   "stub": true,
-   "profile": {},
-   "holdings": []
-  },
-  {
-   "id": "kanzhun",
-   "name": "Kanzhun",
-   "url": "",
-   "country": "",
-   "aliases": "",
-   "stub": true,
-   "profile": {},
-   "holdings": []
-  },
-  {
    "id": "hr-corp",
    "name": "HR Corp",
    "url": "",
@@ -1070,28 +1410,8 @@
    "holdings": []
   },
   {
-   "id": "navent",
-   "name": "Navent",
-   "url": "",
-   "country": "",
-   "aliases": "",
-   "stub": true,
-   "profile": {},
-   "holdings": []
-  },
-  {
    "id": "y-combinator",
    "name": "Y Combinator",
-   "url": "",
-   "country": "",
-   "aliases": "",
-   "stub": true,
-   "profile": {},
-   "holdings": []
-  },
-  {
-   "id": "veritone",
-   "name": "Veritone",
    "url": "",
    "country": "",
    "aliases": "",
@@ -1192,16 +1512,6 @@
   {
    "id": "ministry-of-labour-employment-government-of-india",
    "name": "Ministry of Labour & Employment, Government of India",
-   "url": "",
-   "country": "",
-   "aliases": "",
-   "stub": true,
-   "profile": {},
-   "holdings": []
-  },
-  {
-   "id": "advenn",
-   "name": "Advenn",
    "url": "",
    "country": "",
    "aliases": "",

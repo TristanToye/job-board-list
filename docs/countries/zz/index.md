@@ -1,6 +1,6 @@
 # Job boards in ZZ
 
-71 job boards and related entries based in or serving ZZ.
+72 job boards and related entries based in or serving ZZ.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier
@@ -73,5 +73,6 @@
 - [Japan Institute for Labour Policy and Training](https://jobboardlist.com/boards/japan-institute-for-labour-policy-and-training/): lmi
 - [Adcorp Holdings](https://jobboardlist.com/boards/adcorp-holdings/): staffing
 - [Hudson RPO](https://jobboardlist.com/boards/hudson-rpo/): recruiting-services
+- [Thrive Career Wellness](https://jobboardlist.com/boards/thrive-career-wellness/): outplacement
 
 Canonical page: https://jobboardlist.com/countries/zz/

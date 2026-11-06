@@ -1,0 +1,158 @@
+{
+ "mode": "owner-profile",
+ "owners": [
+  {
+   "name": "SMG Swiss Marketplace Group",
+   "url": "https://swissmarketplace.group",
+   "facts": [
+    {
+     "fact": "description",
+     "sources": [
+      {
+       "url": "https://swissmarketplace.group",
+       "title": "SMG Swiss Marketplace Group home",
+       "quote": "SMG Swiss Marketplace Group is a digital pioneer that simplifies people's lives with groundbreaking products.",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Navent",
+   "url": "https://www.navent.com",
+   "facts": []
+  },
+  {
+   "name": "Ringier One Africa Media",
+   "url": "https://www.ringier.com/africa/",
+   "facts": [
+    {
+     "fact": "description",
+     "sources": [
+      {
+       "url": "https://www.ringier.com/africa/",
+       "title": "Ringier Africa",
+       "quote": "ROAM (Ringier One Africa Media) is the leading online marketplace company in Sub-Saharan Africa.",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Veritone",
+   "url": "https://www.veritone.com",
+   "facts": [
+    {
+     "fact": "description",
+     "sources": [
+      {
+       "url": "https://www.veritone.com",
+       "title": "Veritone home",
+       "quote": "Enterprise AI for the Data Economy.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_city",
+     "value": "Irvine",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Veritone",
+       "title": "Veritone (Wikipedia)",
+       "quote": "Veritone, Inc. is an American artificial intelligence technology company based in Irvine, California founded in 2014.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_country",
+     "value": "US",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Veritone",
+       "title": "Veritone (Wikipedia)",
+       "quote": "Veritone, Inc. is an American artificial intelligence technology company based in Irvine, California founded in 2014.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "founded",
+     "value": "2014",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Veritone",
+       "title": "Veritone (Wikipedia)",
+       "quote": "The company was founded in 2014 and went public via on May 12, 2017.",
+       "check": "mismatch"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Advenn",
+   "url": "https://www.advenn.com",
+   "facts": [
+    {
+     "fact": "description",
+     "sources": [
+      {
+       "url": "https://www.advenn.com",
+       "title": "Advenn home",
+       "quote": "Advenn, groupe indépendant depuis 1944 agit chaque jour pour informer, accompagner les parcours professionnels",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "founded",
+     "value": "1944",
+     "sources": [
+      {
+       "url": "https://www.advenn.com",
+       "title": "Advenn home",
+       "quote": "Advenn, groupe indépendant depuis 1944 agit chaque jour pour informer, accompagner les parcours professionnels",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "url": "https://www.navent.com",
+   "owner": "Navent",
+   "reason": "HTTP 403 on first fetch; not retried"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Navent",
+   "owner": "Navent",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Navent_Group",
+   "owner": "Navent",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://swissmarketplace.group/en/about-us",
+   "owner": "SMG Swiss Marketplace Group",
+   "reason": "HTTP 404; the home page was read instead"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/SMG_Swiss_Marketplace_Group",
+   "owner": "SMG Swiss Marketplace Group",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Swiss_Marketplace_Group",
+   "owner": "SMG Swiss Marketplace Group",
+   "reason": "HTTP 404"
+  }
+ ]
+}

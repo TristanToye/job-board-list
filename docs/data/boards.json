@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-06",
- "count": 307,
+ "count": 308,
  "boards": [
   {
    "id": "indeed",
@@ -228,7 +228,17 @@
     "professional-network",
     "subscription"
    ],
-   "owners": [],
+   "owners": [
+    {
+     "id": "microsoft",
+     "name": "Microsoft",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2016",
+     "source": "https://news.microsoft.com/2016/06/13/microsoft-to-acquire-linkedin/",
+     "quote": "Microsoft will acquire LinkedIn for $196 per share in an all-cash transaction valued at $26.2 billion"
+    }
+   ],
    "scale": [],
    "sources": [
     {
@@ -2925,7 +2935,17 @@
     "partner-program",
     "subscription"
    ],
-   "owners": [],
+   "owners": [
+    {
+     "id": "seek",
+     "name": "SEEK Limited",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://my.jobstreet.com/about",
+     "quote": "operates market-leading online employment marketplaces, including Jobstreet and Jobsdb in Asia."
+    }
+   ],
    "scale": [],
    "sources": [
     {
@@ -3299,7 +3319,17 @@
     "job-board",
     "subscription"
    ],
-   "owners": [],
+   "owners": [
+    {
+     "id": "kanzhun",
+     "name": "Kanzhun Limited",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://en.wikipedia.org/wiki/BOSS_Zhipin",
+     "quote": "through its mobile app, Boss Zhipin"
+    }
+   ],
    "scale": [],
    "sources": [
     {
@@ -3792,7 +3822,17 @@
     "job-board",
     "subscription"
    ],
-   "owners": [],
+   "owners": [
+    {
+     "id": "ringier-one-africa-media",
+     "name": "Ringier One Africa Media",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2015",
+     "source": "https://en.wikipedia.org/wiki/Jobberman",
+     "quote": "In 2015, One Africa Media acquired Jobberman."
+    }
+   ],
    "scale": [],
    "sources": [
     {
@@ -4902,7 +4942,17 @@
     "partner-program",
     "subscription"
    ],
-   "owners": [],
+   "owners": [
+    {
+     "id": "veritone",
+     "name": "Veritone",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2023",
+     "source": "https://www.broadbean.com/resources/blog/news/veritone-to-acquire-broadbean-signifying-deeper-global-commitment-for-veritones-ai-powered-human-resources-solutions/",
+     "quote": "today announced its agreement to acquire Broadbean"
+    }
+   ],
    "scale": [],
    "sources": []
   },
@@ -17186,6 +17236,73 @@
      "title": "Rezi",
      "accessed": "2026-11-06",
      "quote": "Build, improve, and tailor your resume with AI.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "thrive-career-wellness",
+   "name": "Thrive Career Wellness",
+   "url": "https://thrivemycareer.com/",
+   "type": "outplacement",
+   "hq_country": "CA",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "outplacement and career transition",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://thrivemycareer.com/",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/thrive-career-wellness/",
+   "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "outplacement",
+    "partner-program"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://thrivemycareer.com/",
+     "title": "Thrive Career Wellness Platform - Modern Workforce Solutions",
+     "accessed": "2026-11-06",
+     "quote": "Leading companies and governments worldwide turn to Thrive to navigate workforce transitions.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://thrivemycareer.com/company",
+     "title": "Thrive Career Wellness Platform - Company",
+     "accessed": "2026-11-06",
+     "quote": "317 Adelaide Street West Suite 300 Toronto, Ontario M5V 1P9 Canada",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://thrivemycareer.com/",
+     "title": "Thrive Career Wellness Platform - Modern Workforce Solutions",
+     "accessed": "2026-11-06",
+     "quote": "Explore opportunities to join our partner ecosystem.",
      "quote_check": "ok"
     }
    ]

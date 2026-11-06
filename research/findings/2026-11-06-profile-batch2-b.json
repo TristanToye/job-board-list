@@ -1,0 +1,238 @@
+{
+ "mode": "owner-profile",
+ "owners": [
+  {
+   "name": "Microsoft",
+   "url": "https://www.microsoft.com",
+   "facts": [
+    {
+     "fact": "description",
+     "sources": [
+      {
+       "url": "https://www.microsoft.com/en-us/about",
+       "title": "About Microsoft",
+       "quote": "Microsoft’s mission is to empower every person and every organization on the planet to achieve more.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_city",
+     "value": "Redmond",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Microsoft",
+       "title": "Microsoft (Wikipedia)",
+       "quote": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_country",
+     "value": "US",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Microsoft",
+       "title": "Microsoft (Wikipedia)",
+       "quote": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "founded",
+     "value": "1975",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Microsoft",
+       "title": "Microsoft (Wikipedia), infobox",
+       "quote": "Founded April 4, 1975; 51 years ago (1975-04-04) in Albuquerque, New Mexico, U.S.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "listing",
+     "value": "Nasdaq: MSFT",
+     "sources": [
+      {
+       "url": "https://news.microsoft.com/2016/06/13/microsoft-to-acquire-linkedin/",
+       "title": "Microsoft to acquire LinkedIn (press release, 13 June 2016)",
+       "quote": "Microsoft Corp. (Nasdaq: MSFT) and LinkedIn Corporation (NYSE: LNKD) on Monday announced",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "employees",
+     "value": "223,000 (2026)",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Microsoft",
+       "title": "Microsoft (Wikipedia), infobox",
+       "quote": "Number of employees 223,000 (2026)",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "revenue",
+     "value": "US$331.8 billion (fiscal 2026, as labelled in infobox)",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Microsoft",
+       "title": "Microsoft (Wikipedia), infobox",
+       "quote": "Revenue US$331.8 billion (2026)",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Alphabet Inc.",
+   "url": "https://abc.xyz",
+   "facts": [
+    {
+     "fact": "description",
+     "sources": [
+      {
+       "url": "https://abc.xyz",
+       "title": "Alphabet investor site (founders' letter text)",
+       "quote": "Alphabet is mostly a collection of companies.",
+       "check": "unreachable"
+      }
+     ]
+    },
+    {
+     "fact": "hq_city",
+     "value": "Mountain View",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+       "title": "Alphabet Inc. (Wikipedia)",
+       "quote": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_country",
+     "value": "US",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+       "title": "Alphabet Inc. (Wikipedia)",
+       "quote": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "founded",
+     "value": "2015",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+       "title": "Alphabet Inc. (Wikipedia)",
+       "quote": "It was created through a restructuring of Google on October 2, 2015",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "listing",
+     "value": "Nasdaq: GOOGL and GOOG",
+     "sources": [
+      {
+       "url": "https://abc.xyz",
+       "title": "Alphabet investor site (founders' letter text)",
+       "quote": "Our two classes of shares will continue to trade on Nasdaq as GOOGL and GOOG.",
+       "check": "unreachable"
+      }
+     ]
+    },
+    {
+     "fact": "employees",
+     "value": "204,757 (Sept. 2026)",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+       "title": "Alphabet Inc. (Wikipedia), infobox",
+       "quote": "Number of employees 204,757 (Sept. 2026)",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "revenue",
+     "value": "US$403 billion (2025)",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+       "title": "Alphabet Inc. (Wikipedia), infobox",
+       "quote": "Revenue US$403 billion (2025)",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Adevinta",
+   "url": "https://www.adevinta.com",
+   "facts": [
+    {
+     "fact": "description",
+     "sources": [
+      {
+       "url": "https://www.adevinta.com/",
+       "title": "Adevinta homepage",
+       "quote": "Adevinta is a leading online classifieds group and champion for sustainable commerce across Europe and beyond.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "employees",
+     "value": "around 8,100 (year not stated)",
+     "sources": [
+      {
+       "url": "https://adevinta.com/?p=432264",
+       "title": "Adevinta announcement on transfer of own shares (dated 31 January 2023), boilerplate",
+       "quote": "Adevinta employs around 8,100 people, including 3,000 (approx) working in product and technology teams",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "owner": "Adevinta",
+   "url": "https://www.adevinta.com/about-us/",
+   "status": "503 Service Unavailable",
+   "note": "Retried once, still 503. Likely source for HQ, founding year and listing; not obtained."
+  },
+  {
+   "owner": "Adevinta",
+   "url": "https://en.wikipedia.org/wiki/Adevinta",
+   "status": "404 Not Found",
+   "note": "Article not found at this title."
+  },
+  {
+   "owner": "Adevinta",
+   "url": "https://en.wikipedia.org/wiki/Adevinta_ASA",
+   "status": "404 Not Found",
+   "note": "Article not found at this title either."
+  },
+  {
+   "owner": "Adevinta",
+   "url": "https://www.infojobs.net/",
+   "status": "456 Unknown Status",
+   "note": "Not retried."
+  }
+ ]
+}
