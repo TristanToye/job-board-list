@@ -1,6 +1,6 @@
 # ATS integration
 
-Receives jobs from applicant tracking systems. 14 entries in the directory.
+Receives jobs from applicant tracking systems. 15 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
@@ -16,5 +16,6 @@ Receives jobs from applicant tracking systems. 14 entries in the directory.
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 - [Flexa](https://jobboardlist.com/boards/flexa/): board
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
+- [RGF Staffing B.V.](https://jobboardlist.com/boards/rgf-staffing-b-v/): staffing
 
 Canonical page: https://jobboardlist.com/tags/ats-integration/

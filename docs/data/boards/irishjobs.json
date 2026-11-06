@@ -36,7 +36,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "irishjobs",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 503 Service Unavailable on two fetch attempts; not read in the browser reader because the response was not a 403 or empty body.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "the-stepstone",

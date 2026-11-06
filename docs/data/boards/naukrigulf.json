@@ -41,7 +41,14 @@
   "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "naukrigulf",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 503 on two fetches, so the site was not read further.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "info-edge-india",

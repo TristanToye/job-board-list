@@ -36,7 +36,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "staffmark-group-llc",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;business_model;api_status",
+  "note": "Input URL redirects to smgroupna.com (HTTP 302); site states the RGF Staffing parent and a Cincinnati, Ohio address; languages, pricing and API not stated.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "recruit",

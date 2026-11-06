@@ -36,7 +36,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "expectra",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "",
+  "note": "Official site could not be identified: expectra.fr redirects to randstadprofessional.fr, which names Select TT and does not mention Expectra.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "randstad",

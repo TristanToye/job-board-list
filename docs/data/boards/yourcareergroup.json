@@ -36,7 +36,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "yourcareergroup",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "",
+  "note": "Official site not identified: the hotelcareer.de imprint names StepStone Deutschland GmbH and does not name YOURCAREERGROUP.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "the-stepstone",

@@ -14,6 +14,7 @@ An agency that supplies temporary and contract workers to employers. 27 entries 
 - [Allegis Group](https://jobboardlist.com/boards/allegis-group/): staffing
 - [Recruit Staffing Co., Ltd.](https://jobboardlist.com/boards/recruit-staffing-co-ltd/): staffing
 - [STAFF SERVICE HOLDINGS CO., LTD.](https://jobboardlist.com/boards/staff-service-holdings-co-ltd/): staffing
+- [Yacht](https://jobboardlist.com/boards/yacht/): staffing
 - [Chandler Macleod Group Limited](https://jobboardlist.com/boards/chandler-macleod-group-limited/): staffing
 - [Recruit Group](https://jobboardlist.com/boards/recruit-group/): staffing
 - [Adcorp Holdings](https://jobboardlist.com/boards/adcorp-holdings/): staffing
@@ -28,6 +29,5 @@ An agency that supplies temporary and contract workers to employers. 27 entries 
 - [The CSI Companies, Inc.](https://jobboardlist.com/boards/the-csi-companies-inc/): staffing
 - [Unique NV](https://jobboardlist.com/boards/unique-nv/): staffing
 - [Vedior](https://jobboardlist.com/boards/vedior/): staffing
-- [Yacht](https://jobboardlist.com/boards/yacht/): staffing
 
 Canonical page: https://jobboardlist.com/tags/staffing/

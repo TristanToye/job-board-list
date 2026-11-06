@@ -36,7 +36,14 @@
   "hr-tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "doselect",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "",
+  "note": "Official site not identified: www.doselect.com failed DNS lookup in this session, and no page of the company was read.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "info-edge-india",

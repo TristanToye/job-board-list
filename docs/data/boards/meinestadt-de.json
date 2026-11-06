@@ -14,14 +14,14 @@
  "niche": "",
  "segment": "",
  "parent": "The Stepstone Group",
- "business_model": "",
+ "business_model": "per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
- "confidence": "listed-only",
+ "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" German-only site. Job ads are drafted free and published after booking, with quota bundles offered; no list prices shown on the pages read. No API or feed mentioned.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/meinestadt-de/",
  "indexable": false,
  "prominence": {
@@ -33,10 +33,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "meinestadt-de",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+  "note": "Pages show paid job ad booking and German-only content; parent and headquarters are not stated.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "the-stepstone",
@@ -57,6 +65,14 @@
    "accessed": "2026-11-06",
    "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
    "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://job-shop.meinestadt.de/",
+   "title": "Job ad shop",
+   "accessed": "2026-11-06",
+   "quote": "Veröffentlichung nach Buchung",
+   "quote_check": "unreachable"
   }
  ]
 }

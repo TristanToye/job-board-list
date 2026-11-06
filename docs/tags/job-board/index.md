@@ -47,12 +47,14 @@ A site where employers post jobs and candidates search and apply. 237 entries in
 - [Cadremploi](https://jobboardlist.com/boards/cadremploi/): board
 - [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
+- [ClearanceJobs](https://jobboardlist.com/boards/clearancejobs/): board
 - [mandy.com](https://jobboardlist.com/boards/mandy-com/): board
 - [Remotive](https://jobboardlist.com/boards/remotive/): niche-board, Open API (no key)
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
 - [Catho](https://jobboardlist.com/boards/catho/): board
 - [Internshala](https://jobboardlist.com/boards/internshala/): niche-board
+- [Jobsite](https://jobboardlist.com/boards/jobsite/): board
 - [Jobat](https://jobboardlist.com/boards/jobat/): board
 - [GulfTalent](https://jobboardlist.com/boards/gulftalent/): board
 - [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
@@ -80,7 +82,5 @@ A site where employers post jobs and candidates search and apply. 237 entries in
 - [PNet](https://jobboardlist.com/boards/pnet/): board
 - [CareerViet](https://jobboardlist.com/boards/careerviet/): board
 - [Jobboom](https://jobboardlist.com/boards/jobboom/): board
-- [Wanted](https://jobboardlist.com/boards/wanted/): board
-- [Workforce Australia](https://jobboardlist.com/boards/workforce-australia/): government
 
 Canonical page: https://jobboardlist.com/tags/job-board/

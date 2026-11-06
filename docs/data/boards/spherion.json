@@ -36,7 +36,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "spherion",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;founded;parent;languages;business_model;api_status;partner_program",
+  "note": "Site names Spherion Staffing, LLC but states no headquarters, languages, pricing, API or Randstad ownership; the about page returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "randstad",

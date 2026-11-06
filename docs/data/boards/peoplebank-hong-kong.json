@@ -20,8 +20,8 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "According to its owner's page: \"An agency specializing in IT and digital talent solutions in Hong Kong and Singapore\"",
- "confidence": "listed-only",
+ "notes": "According to its owner's page: \"An agency specializing in IT and digital talent solutions in Hong Kong and Singapore\" Employers post vacancies through a 'Submit a Vacancy' link and form on the homepage. No language switcher, pricing, API, partner program or parent statement found on the homepage. The footer links to rgfstaffinghksg.com without stating a relationship.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/peoplebank-hong-kong/",
  "indexable": false,
  "prominence": {
@@ -36,7 +36,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "peoplebank-hong-kong",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program",
+  "note": "Homepage read; a Submit a Vacancy form is stated, but no language, pricing, API, partner or parent statement.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "recruit",
@@ -56,6 +63,14 @@
    "title": "Group companies",
    "accessed": "2026-11-06",
    "quote": "An agency specializing in IT and digital talent solutions in Hong Kong and Singapore",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.peoplebank.com.hk/",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "Submit a Vacancy",
    "quote_check": "ok"
   }
  ]

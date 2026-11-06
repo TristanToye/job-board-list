@@ -36,7 +36,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "recruit-staffing-co-ltd",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;partner_program",
+  "note": "Homepage only, Japanese-only; footer names Recruit Staffing Co., Ltd. and no headquarters, parent or pricing is stated. Employer link not followed.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "recruit",

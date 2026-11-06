@@ -1,0 +1,313 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Employment Hero",
+   "url": "https://employmenthero.com",
+   "business_model": "subscription",
+   "partner_program": "yes",
+   "partner_url": "https://employmenthero.com/partner-network/",
+   "notes": "Official site identified by its company name 'Employment Hero Pty Ltd' on the homepage. The homepage does not mention SEEK, the owner named in the input. Pricing page shows plans in AUD and a minimum of 10 users. No language switcher, parent or headquarters statement found on the site.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://employmenthero.com/pricing/",
+     "title": "Pricing",
+     "quote": "Minimums apply: Your subscription must include a minimum of 10 Users.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://employmenthero.com/partner-network/",
+     "title": "Partner network",
+     "quote": "Join our partner network and offer smarter HR, payroll and employment solutions",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Yacht",
+   "url": "https://www.randstadprofessional.nl/",
+   "notes": "yacht.nl (301) redirects to this site, which states that Yacht is a former brand now operating as Randstad Professional. The same site is also listed as Randstad Professional. Headquarters address on the site is in Diemen, Netherlands. Parent is Randstad as stated by the site's Randstad reference. No language switcher, pricing or API found.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.randstadprofessional.nl/",
+     "title": "Homepage",
+     "quote": "Diemermere 25, 1112TC Diemen",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.randstadprofessional.nl/",
+     "title": "Homepage",
+     "quote": "meer dan 20 jaar diepgaande lokale expertise van Yacht",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.randstadprofessional.nl/",
+     "title": "Homepage",
+     "quote": "Randstad heeft de ambitie om wereldwijd het meest gelijkwaardige en gespecialiseerde talentbedrijf te zijn.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Randstad Professional",
+   "url": "https://www.randstadprofessional.nl/",
+   "notes": "Same site as the Yacht entry. Headquarters address is in Diemen, Netherlands. Parent is Randstad. No language switcher, pricing, API or partner program found on the homepage.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.randstadprofessional.nl/",
+     "title": "Homepage",
+     "quote": "Diemermere 25, 1112TC Diemen",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.randstadprofessional.nl/",
+     "title": "Homepage",
+     "quote": "Randstad heeft de ambitie om wereldwijd het meest gelijkwaardige en gespecialiseerde talentbedrijf te zijn.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Indeed Recruit Partners Co., Ltd.",
+   "url": "https://www.indeedrecruit-partners.co.jp/",
+   "notes": "Homepage returned HTTP 403 to fetch and was read with the browser reader (status 200, not blocked). The page is a corporate site in Japanese. The service page returned HTTP 403 to fetch and was not read in the browser. No employer pricing, API or partner program found on the homepage.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.indeedrecruit-partners.co.jp/",
+     "title": "Homepage",
+     "quote": "リクルートホールディングスのサイトはこちら",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Unique NV",
+   "url": "https://www.unique.be/nl",
+   "primary_language": "nl",
+   "languages_supported": [
+    "nl",
+    "fr"
+   ],
+   "notes": "Header language switcher offers nl and fr. The page states that the service is free for candidates. No employer pricing, API, partner program or parent company statement found on the site.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.unique.be/nl",
+     "title": "Header language switcher",
+     "quote": "nl",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.unique.be/nl",
+     "title": "Header language switcher",
+     "quote": "fr",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Peoplebank Hong Kong",
+   "url": "https://www.peoplebank.com.hk/",
+   "notes": "Employers post vacancies through a 'Submit a Vacancy' link and form on the homepage. No language switcher, pricing, API, partner program or parent statement found on the homepage. The footer links to rgfstaffinghksg.com without stating a relationship.",
+   "sources": [
+    {
+     "field": "ingest_methods",
+     "url": "https://www.peoplebank.com.hk/",
+     "title": "Homepage",
+     "quote": "Submit a Vacancy",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Hellowork group",
+   "url": "https://www.hellowork-group.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr"
+   ],
+   "notes": "Homepage is in English with a French switcher in the footer. Footer heading 'Advenn group websites' links to Advenn. No pricing, API, partner program or ingest statement found on the homepage.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.hellowork-group.com",
+     "title": "Homepage",
+     "quote": "Our solutions create a seamless, efficient and transparent connection between candidates and recruiters.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.hellowork-group.com",
+     "title": "Footer language switcher",
+     "quote": "Fr",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.hellowork-group.com",
+     "title": "Footer",
+     "quote": "Advenn group websites",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Employment Hero",
+   "url": "https://employmenthero.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage, pricing and partner pages read; no parent, headquarters, language options or API statement found, and SEEK is not named on the site."
+  },
+  {
+   "name": "DoSelect",
+   "url": "",
+   "outcome": "unreachable",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Official site not identified: www.doselect.com failed DNS lookup in this session, and no page of the company was read."
+  },
+  {
+   "name": "Yacht",
+   "url": "https://www.randstadprofessional.nl/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "yacht.nl redirects (301) to randstadprofessional.nl, which describes Yacht as a former brand of Randstad Professional; no pricing or API on the homepage."
+  },
+  {
+   "name": "Randstad Professional",
+   "url": "https://www.randstadprofessional.nl/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage read; headquarters address and Randstad parent stated, no pricing, API or partner program on the homepage."
+  },
+  {
+   "name": "Indeed Recruit Partners Co., Ltd.",
+   "url": "https://www.indeedrecruit-partners.co.jp/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Fetch returned HTTP 403; browser reader returned status 200 and not blocked. Homepage states the Recruit Holdings link; service page returned HTTP 403 to fetch."
+  },
+  {
+   "name": "Unique NV",
+   "url": "https://www.unique.be/nl",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and language switcher read (nl, fr); candidate service is free but no employer pricing, parent or API statement found."
+  },
+  {
+   "name": "Peoplebank Hong Kong",
+   "url": "https://www.peoplebank.com.hk/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Homepage read; a Submit a Vacancy form is stated, but no language, pricing, API, partner or parent statement."
+  },
+  {
+   "name": "Hellowork group",
+   "url": "https://www.hellowork-group.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage read; English content with French footer switcher and Advenn group footer; no pricing, API, partner or ingest statement found."
+  },
+  {
+   "name": "IrishJobs",
+   "url": "https://www.irishjobs.ie",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "HTTP 503 Service Unavailable on two fetch attempts; not read in the browser reader because the response was not a 403 or empty body."
+  },
+  {
+   "name": "Jobs.ie",
+   "url": "",
+   "outcome": "unreachable",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Official site not confirmed: jobs.ie returned HTTP 503 on two fetch attempts, so no page could be read to confirm the company name."
+  },
+  {
+   "name": "YourCareerGroup",
+   "url": "",
+   "outcome": "unreachable",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Official site not identified: the hotelcareer.de imprint names StepStone Deutschland GmbH and does not name YOURCAREERGROUP."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "IrishJobs",
+   "url": "https://www.irishjobs.ie",
+   "reason": "HTTP 503 on two fetch attempts"
+  },
+  {
+   "name": "Jobs.ie",
+   "url": "",
+   "reason": "HTTP 503 on two fetch attempts"
+  }
+ ]
+}

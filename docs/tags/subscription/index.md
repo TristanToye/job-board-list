@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 60 entries in the directory.
+Employers pay a recurring fee or plan. 61 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -30,6 +30,7 @@ Employers pay a recurring fee or plan. 60 entries in the directory.
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
 - [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
+- [Employment Hero](https://jobboardlist.com/boards/employment-hero/): hr-tech
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
 - [Catho](https://jobboardlist.com/boards/catho/): board

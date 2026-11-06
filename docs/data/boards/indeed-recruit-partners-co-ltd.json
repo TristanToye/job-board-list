@@ -36,7 +36,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "indeed-recruit-partners-co-ltd",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Fetch returned HTTP 403; browser reader returned status 200 and not blocked. Homepage states the Recruit Holdings link; service page returned HTTP 403 to fetch.",
+  "method": "browser"
+ },
  "owners": [
   {
    "id": "recruit",

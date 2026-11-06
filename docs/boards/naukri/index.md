@@ -11,6 +11,7 @@ Naukri is a job board based in India. It was founded in 1997.
 - Partner program: unknown
 - Prominence: #14,987 globally, tier Established
 - Tags: Partner-only API, General, Job board, Subscription
+- Review: Reviewed 2026-11-06. Could not verify: the site blocks automated access, so these facts remain as recorded. HTTP 403 on fetch and in the browser reader; official domain identified from search results only.
 - Data status: secondary sources only
 
 ## Quick answers

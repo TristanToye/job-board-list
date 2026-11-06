@@ -102,8 +102,6 @@ def main(argv):
             site = regdom(host(url)); row = byhost.get(site) or by.get(slug(name))  # same site, or same name (regional domains)
             if row is not None: site = regdom(host(row["url"])) or site
             if mode == "verify" and row is None: reject("board", name, "verify finding for unknown board"); stats["rejected"] += 1; continue
-            if row is not None and not row.get("url") and re.match(r"https?://", url):  # an official website found for an entry that had none
-                row["url"] = url; byhost[regdom(host(url))] = row; stats["urls"] += 1
             new = row is None
             if new:
                 typ = clean(b.get("type"), 40).lower()
@@ -129,6 +127,8 @@ def main(argv):
                 good.setdefault(f, []).append(s | {"url": su, "quote": q})
             if not good: reject("board", name, "no usable source"); stats["rejected"] += 1; continue
             strong_ok = {f for f in good if f not in WEAK}
+            if not new and not row.get("url") and re.match(r"https?://", url) and strong_ok and byhost.get(regdom(host(url))) in (None, row):  # a website is accepted only with a fact confirmed on that same site
+                row["url"] = url; byhost[regdom(host(url))] = row; stats["urls"] += 1
             changed = 0
             def setf(field, value):
                 nonlocal changed

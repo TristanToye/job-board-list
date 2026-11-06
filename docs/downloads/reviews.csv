@@ -119,3 +119,33 @@ cvmarket-lv,2026-11-06,partially-verified,hq_country;business_model;parent;api_s
 freelancer-nl,2026-11-06,partially-verified,hq_country;languages;parent;api_status;partner_program;ingest_methods,"Homepage states free job posting for employers; no country, parent, language options or API stated.",mixed
 burning-glass-institute,2026-11-06,not-stated,hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods,"Homepage and about page read; it describes itself as a nonprofit research lab with no pricing, API or language options.",mixed
 sterling,2026-11-06,partially-verified,hq_country;business_model,"Parent, API request process, partner integrations and Canada French option confirmed; no pricing or headquarters country stated.",mixed
+naukrigulf,2026-11-06,blocked,,"HTTP 503 on two fetches, so the site was not read further.",fetch
+vedior,2026-11-06,blocked,,Official site not confirmed; vedior.com returned HTTP 503 on two fetches.,fetch
+randstad-risesmart,2026-11-06,partially-verified,hq_country;languages;business_model;api_status;partner_program,"About page states it is part of Randstad N.V.; no language options, pricing or API pages found.",fetch
+recruit-direct-scout,2026-11-06,partially-verified,hq_country;parent;languages;api_status;partner_program,Employer page states fee terms; parent company and language options are not stated.,fetch
+recruit-staffing-co-ltd,2026-11-06,not-stated,hq_country;parent;languages;business_model;partner_program,"Homepage only, Japanese-only; footer names Recruit Staffing Co., Ltd. and no headquarters, parent or pricing is stated. Employer link not followed.",fetch
+the-csi-companies-inc,2026-11-06,partially-verified,parent;languages;business_model;api_status;partner_program,"Homepage states Jacksonville, Florida; parent, language, pricing and API are not stated.",fetch
+clearancejobs,2026-11-06,partially-verified,hq_country;languages;business_model;api_status;partner_program,Footer states it is a DHI service; employer pages show a demo request and no prices.,fetch
+bayard-advertising,2026-11-06,unreachable,,"bayardad.com redirects to appcast.io, which does not mention Bayard Advertising; official site could not be identified.",fetch
+meinestadt-de,2026-11-06,partially-verified,hq_country;parent;languages;api_status;partner_program,Pages show paid job ad booking and German-only content; parent and headquarters are not stated.,fetch
+ictjobs,2026-11-06,partially-verified,hq_country;parent;business_model;api_status;partner_program,Language switcher and legal entity confirmed; StepStone ownership is not stated on its pages.,fetch
+employment-hero,2026-11-06,partially-verified,hq_country;parent;languages;api_status;ingest_methods,"Homepage, pricing and partner pages read; no parent, headquarters, language options or API statement found, and SEEK is not named on the site.",fetch
+doselect,2026-11-06,unreachable,,"Official site not identified: www.doselect.com failed DNS lookup in this session, and no page of the company was read.",fetch
+yacht,2026-11-06,partially-verified,languages;business_model;api_status;partner_program;ingest_methods,"Homepage read; headquarters address and Randstad parent stated, no pricing, API or partner program on the homepage.",fetch
+indeed-recruit-partners-co-ltd,2026-11-06,partially-verified,hq_country;languages;business_model;api_status;partner_program;ingest_methods,Fetch returned HTTP 403; browser reader returned status 200 and not blocked. Homepage states the Recruit Holdings link; service page returned HTTP 403 to fetch.,browser
+unique-nv,2026-11-06,partially-verified,hq_country;parent;business_model;api_status;partner_program;ingest_methods,"Homepage and language switcher read (nl, fr); candidate service is free but no employer pricing, parent or API statement found.",fetch
+peoplebank-hong-kong,2026-11-06,partially-verified,hq_country;parent;languages;business_model;api_status;partner_program,"Homepage read; a Submit a Vacancy form is stated, but no language, pricing, API, partner or parent statement.",fetch
+irishjobs,2026-11-06,blocked,,HTTP 503 Service Unavailable on two fetch attempts; not read in the browser reader because the response was not a 403 or empty body.,fetch
+jobs-ie,2026-11-06,unreachable,,"Official site not confirmed: jobs.ie returned HTTP 503 on two fetch attempts, so no page could be read to confirm the company name.",fetch
+yourcareergroup,2026-11-06,unreachable,,Official site not identified: the hotelcareer.de imprint names StepStone Deutschland GmbH and does not name YOURCAREERGROUP.,fetch
+naukri,2026-11-06,blocked,,HTTP 403 on fetch and in the browser reader; official domain identified from search results only.,mixed
+spherion,2026-11-06,not-stated,hq_country;founded;parent;languages;business_model;api_status;partner_program,"Site names Spherion Staffing, LLC but states no headquarters, languages, pricing, API or Randstad ownership; the about page returned HTTP 404.",fetch
+expectra,2026-11-06,unreachable,,"Official site could not be identified: expectra.fr redirects to randstadprofessional.fr, which names Select TT and does not mention Expectra.",fetch
+recruit-agent,2026-11-06,partially-verified,hq_country;parent;api_status;partner_program,"Homepage (read in full) states the Japanese-language fee model; no parent, headquarters, language switcher, API or partner page found.",fetch
+rgf-staffing-b-v,2026-11-06,partially-verified,hq_country;languages;business_model;api_status;partner_program,"Pages state the Recruit Holdings parent and ATS integration; headquarters, language options, pricing and API not stated.",fetch
+staffmark-group-llc,2026-11-06,partially-verified,languages;business_model;api_status,"Input URL redirects to smgroupna.com (HTTP 302); site states the RGF Staffing parent and a Cincinnati, Ohio address; languages, pricing and API not stated.",fetch
+flexjobs,2026-11-06,blocked,,HTTP 403 in fetch; the browser reader timed out and reported blocked.,mixed
+caterer-com,2026-11-06,unreachable,,HTTP 503 on two fetch attempts; no page content was read.,fetch
+nijobs,2026-11-06,unreachable,,HTTP 503 on two fetch attempts; no page content was read.,fetch
+jobsite,2026-11-06,partially-verified,hq_country;languages;business_model;api_status,About page names StepStone as parent; homepage and employers page returned HTTP 503.,fetch
+careerjunction,2026-11-06,partially-verified,hq_country;parent;languages;business_model;api_status,"Partners page confirms partner sites; parent ownership, languages, pricing and API not stated; packages page returned HTTP 404.",fetch

@@ -8,8 +8,11 @@
  "founded": "",
  "markets": "",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nl",
+ "languages_supported": [
+  "nl",
+  "fr"
+ ],
  "region": "Global",
  "niche": "",
  "segment": "",
@@ -20,8 +23,8 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "According to its owner's page: \"An agency providing a broad range of HR services in Belgium.\"",
- "confidence": "listed-only",
+ "notes": "According to its owner's page: \"An agency providing a broad range of HR services in Belgium.\" Header language switcher offers nl and fr. The page states that the service is free for candidates. No employer pricing, API, partner program or parent company statement found on the site.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/unique-nv/",
  "indexable": false,
  "prominence": {
@@ -36,7 +39,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "unique-nv",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage and language switcher read (nl, fr); candidate service is free but no employer pricing, parent or API statement found.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "recruit",
@@ -56,6 +66,14 @@
    "title": "Group companies",
    "accessed": "2026-11-06",
    "quote": "An agency providing a broad range of HR services in Belgium.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.unique.be/nl",
+   "title": "Header language switcher",
+   "accessed": "2026-11-06",
+   "quote": "nl",
    "quote_check": "ok"
   }
  ]

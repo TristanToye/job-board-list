@@ -36,7 +36,14 @@
   "recruiting-services"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "bayard-advertising",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "",
+  "note": "bayardad.com redirects to appcast.io, which does not mention Bayard Advertising; official site could not be identified.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "the-stepstone",

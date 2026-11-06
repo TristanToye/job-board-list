@@ -1,15 +1,19 @@
 {
  "id": "ictjobs",
  "name": "ICTJobs",
- "url": "",
+ "url": "https://www.ictjob.be",
  "domains": "",
  "type": "board",
  "hq_country": "",
  "founded": "",
  "markets": "",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr",
+  "nl"
+ ],
  "region": "Global",
  "niche": "",
  "segment": "",
@@ -20,15 +24,15 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
- "confidence": "listed-only",
+ "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" Belgian IT job board. Language switcher shows en, fr and nl. Legal page names ictjob SRL/BV as data controller at a Brussels address; StepStone is named only as a data processor, not as owner.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/ictjobs/",
  "indexable": false,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
   "global_rank": null,
-  "scope": "",
+  "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
   "list_date": "2026-11-06"
  },
@@ -36,7 +40,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "ictjobs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program",
+  "note": "Language switcher and legal entity confirmed; StepStone ownership is not stated on its pages.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "the-stepstone",
@@ -56,6 +67,14 @@
    "title": "Our history",
    "accessed": "2026-11-06",
    "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.ictjob.be/",
+   "title": "Language switcher",
+   "accessed": "2026-11-06",
+   "quote": "en | fr | nl",
    "quote_check": "ok"
   }
  ]

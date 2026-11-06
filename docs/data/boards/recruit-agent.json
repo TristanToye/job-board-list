@@ -36,7 +36,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "recruit-agent",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program",
+  "note": "Homepage (read in full) states the Japanese-language fee model; no parent, headquarters, language switcher, API or partner page found.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "recruit",

@@ -1,7 +1,7 @@
 {
  "id": "clearancejobs",
  "name": "ClearanceJobs",
- "url": "",
+ "url": "https://www.clearancejobs.com",
  "domains": "",
  "type": "board",
  "hq_country": "",
@@ -20,15 +20,15 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "According to its owner's page: \"ClearanceJobs is the leading marketplace for professionals with active U.S. security clearances.\"",
- "confidence": "listed-only",
+ "notes": "According to its owner's page: \"ClearanceJobs is the leading marketplace for professionals with active U.S. security clearances.\" Footer states ClearanceJobs is a DHI service. Employer pages invite a demo request and show no prices.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/clearancejobs/",
  "indexable": false,
  "prominence": {
-  "tier": "",
-  "label": "Not in top 1M",
-  "global_rank": null,
-  "scope": "",
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 38134,
+  "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
   "list_date": "2026-11-06"
  },
@@ -36,7 +36,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "clearancejobs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
+  "note": "Footer states it is a DHI service; employer pages show a demo request and no prices.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "dhi",
@@ -57,6 +64,14 @@
    "accessed": "2026-11-06",
    "quote": "ClearanceJobs is the leading marketplace for professionals with active U.S. security clearances.",
    "quote_check": "unreachable"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.clearancejobs.com/",
+   "title": "Homepage footer",
+   "accessed": "2026-11-06",
+   "quote": "ClearanceJobs is a DHI service",
+   "quote_check": "ok"
   }
  ]
 }

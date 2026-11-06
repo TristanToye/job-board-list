@@ -51,7 +51,14 @@
    "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "naukri",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 on fetch and in the browser reader; official domain identified from search results only.",
+  "method": "mixed"
+ },
  "owners": [
   {
    "id": "info-edge-india",

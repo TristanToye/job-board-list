@@ -36,7 +36,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobs-ie",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "",
+  "note": "Official site not confirmed: jobs.ie returned HTTP 503 on two fetch attempts, so no page could be read to confirm the company name.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "the-stepstone",

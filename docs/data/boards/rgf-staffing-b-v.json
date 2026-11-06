@@ -19,9 +19,11 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "According to its owner's page: \"Holding company for the operations of RGF Staffing, a staffing group providing a broad range of HR services\"",
- "confidence": "listed-only",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "According to its owner's page: \"Holding company for the operations of RGF Staffing, a staffing group providing a broad range of HR services\" Site says it is part of Recruit Holdings. The enterprise page says teams work with ATS and VMS platforms. No language options, pricing or API found.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/rgf-staffing-b-v/",
  "indexable": false,
  "prominence": {
@@ -33,10 +35,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "ats-integration",
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "rgf-staffing-b-v",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
+  "note": "Pages state the Recruit Holdings parent and ATS integration; headquarters, language options, pricing and API not stated.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "recruit",
@@ -56,6 +66,22 @@
    "title": "Group companies",
    "accessed": "2026-11-06",
    "quote": "Holding company for the operations of RGF Staffing, a staffing group providing a broad range of HR services",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://rgfstaffing.com/about-us/",
+   "title": "About us",
+   "accessed": "2026-11-06",
+   "quote": "We are part of Recruit Holdings, a Japanese publicly traded company with leading brands including Indeed and Glassdoor.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://rgfstaffing.com/enterprise-solutions/",
+   "title": "Enterprise solutions",
+   "accessed": "2026-11-06",
+   "quote": "Our teams work with leading ATS and VMS platforms, ensuring seamless local integration.",
    "quote_check": "ok"
   }
  ]

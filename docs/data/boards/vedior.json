@@ -36,7 +36,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "vedior",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Official site not confirmed; vedior.com returned HTTP 503 on two fetches.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "randstad",

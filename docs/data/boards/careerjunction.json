@@ -1,7 +1,7 @@
 {
  "id": "careerjunction",
  "name": "CareerJunction",
- "url": "",
+ "url": "https://www.careerjunction.co.za",
  "domains": "",
  "type": "board",
  "hq_country": "",
@@ -17,26 +17,34 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.careerjunction.co.za/partners",
  "ingest_methods": [],
- "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
- "confidence": "listed-only",
+ "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" Homepage and footer name CareerJunction. The parent company is not stated on the site. The partners page describes publishing jobs to partner sites.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/careerjunction/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
-  "tier": "",
-  "label": "Not in top 1M",
-  "global_rank": null,
-  "scope": "",
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 343744,
+  "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
   "list_date": "2026-11-06"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "careerjunction",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+  "note": "Partners page confirms partner sites; parent ownership, languages, pricing and API not stated; packages page returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "the-stepstone",
@@ -56,6 +64,14 @@
    "title": "Our history",
    "accessed": "2026-11-06",
    "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.careerjunction.co.za/partners",
+   "title": "Partners",
+   "accessed": "2026-11-06",
+   "quote": "We've partnered with a hand-picked selection of media and industry sites.",
    "quote_check": "ok"
   }
  ]

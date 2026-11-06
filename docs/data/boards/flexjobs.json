@@ -36,7 +36,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "flexjobs",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 in fetch; the browser reader timed out and reported blocked.",
+  "method": "mixed"
+ },
  "owners": [
   {
    "id": "bold",

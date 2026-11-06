@@ -19,6 +19,7 @@ Randstad is the world’s leading talent company and a partner of choice to clie
 - [Randstad Enterprise](https://jobboardlist.com/boards/randstad-enterprise/) (recruiting-services)
 - [Randstad Digital](https://jobboardlist.com/boards/randstad-digital/) (staffing)
 - [Randstad Professional](https://jobboardlist.com/boards/randstad-professional/) (staffing)
+- [Randstad RiseSmart](https://jobboardlist.com/boards/randstad-risesmart/) (outplacement)
 
 ## Holdings
 

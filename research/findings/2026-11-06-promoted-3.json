@@ -1,0 +1,241 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "The CSI Companies, Inc.",
+   "url": "https://csicompanies.com/",
+   "hq_country": "US",
+   "notes": "Homepage states a Jacksonville, Florida location. No parent, language, pricing or API information was found on the pages read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://csicompanies.com/",
+     "title": "Homepage (headquarters image text)",
+     "quote": "Located in Jacksonville, Florida.",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Randstad Enterprise",
+   "url": "https://randstadenterprise.com",
+   "parent": "Randstad N.V.",
+   "notes": "About page states it is part of Randstad N.V. No language options, pricing or developer pages were found on the pages read.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://randstadenterprise.com/about-us",
+     "title": "About us",
+     "quote": "Part of Randstad N.V.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "RECRUIT DIRECT SCOUT",
+   "url": "https://directscout.recruit.co.jp",
+   "business_model": "placement fee of 15% of the hire's theoretical annual salary, charged on hire, no setup fee",
+   "notes": "Japanese-only site. Footer names Indeed Recruit Partners Co., Ltd.; the parent company is not stated on the pages read.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://directscout.recruit.co.jp/biz/",
+     "title": "Employer page",
+     "quote": "入社時のみ、入社者の理論年収×15％の採用決定手数料が発生します",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://directscout.recruit.co.jp/biz/",
+     "title": "Employer page",
+     "quote": "リクルートダイレクトスカウトは導入時の費用がかからないため、導入コストをかけずに採用活動をスタートできます！",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "ClearanceJobs",
+   "url": "https://www.clearancejobs.com",
+   "parent": "DHI Group",
+   "notes": "Footer states ClearanceJobs is a DHI service. Employer pages invite a demo request and show no prices.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.clearancejobs.com/",
+     "title": "Homepage footer",
+     "quote": "ClearanceJobs is a DHI service",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "meinestadt.de",
+   "url": "https://www.meinestadt.de",
+   "business_model": "per post",
+   "notes": "German-only site. Job ads are drafted free and published after booking, with quota bundles offered; no list prices shown on the pages read. No API or feed mentioned.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://job-shop.meinestadt.de/",
+     "title": "Job ad shop",
+     "quote": "Veröffentlichung nach Buchung",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "ICTJobs",
+   "url": "https://www.ictjob.be",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr",
+    "nl"
+   ],
+   "notes": "Belgian IT job board. Language switcher shows en, fr and nl. Legal page names ictjob SRL/BV as data controller at a Brussels address; StepStone is named only as a data processor, not as owner.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.ictjob.be/",
+     "title": "Language switcher",
+     "quote": "en | fr | nl",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "NaukriGulf.com",
+   "url": "https://www.naukrigulf.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "HTTP 503 on two fetches, so the site was not read further."
+  },
+  {
+   "name": "Vedior",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Official site not confirmed; vedior.com returned HTTP 503 on two fetches."
+  },
+  {
+   "name": "Randstad Enterprise",
+   "url": "https://randstadenterprise.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "About page states it is part of Randstad N.V.; no language options, pricing or API pages found."
+  },
+  {
+   "name": "RECRUIT DIRECT SCOUT",
+   "url": "https://directscout.recruit.co.jp",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Employer page states fee terms; parent company and language options are not stated."
+  },
+  {
+   "name": "Recruit Staffing Co., Ltd.",
+   "url": "https://www.r-staffing.co.jp/",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Homepage only, Japanese-only; footer names Recruit Staffing Co., Ltd. and no headquarters, parent or pricing is stated. Employer link not followed."
+  },
+  {
+   "name": "The CSI Companies, Inc.",
+   "url": "https://csicompanies.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Homepage states Jacksonville, Florida; parent, language, pricing and API are not stated."
+  },
+  {
+   "name": "ClearanceJobs",
+   "url": "https://www.clearancejobs.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Footer states it is a DHI service; employer pages show a demo request and no prices."
+  },
+  {
+   "name": "Bayard Advertising",
+   "outcome": "unreachable",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "bayardad.com redirects to appcast.io, which does not mention Bayard Advertising; official site could not be identified."
+  },
+  {
+   "name": "meinestadt.de",
+   "url": "https://www.meinestadt.de",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Pages show paid job ad booking and German-only content; parent and headquarters are not stated."
+  },
+  {
+   "name": "ICTJobs",
+   "url": "https://www.ictjob.be",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Language switcher and legal entity confirmed; StepStone ownership is not stated on its pages."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "NaukriGulf.com",
+   "url": "https://www.naukrigulf.com",
+   "reason": "HTTP 503 on two fetches"
+  },
+  {
+   "name": "Vedior",
+   "reason": "HTTP 503 on two fetches at vedior.com; official site not confirmed"
+  }
+ ]
+}

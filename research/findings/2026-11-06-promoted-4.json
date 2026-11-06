@@ -1,0 +1,102 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Chandler Macleod Group Limited",
+      "url": "https://www.chandlermacleod.com/",
+      "parent": "RGF Staffing ANZ (within Recruit Group)",
+      "api_status": "none-known",
+      "notes": "Australian recruitment agency. Site describes itself as part of RGF Staffing ANZ. No employer pricing, language options or partner program found on the homepage, about and employer pages. Guessed /api and /partners URLs returned 404.",
+      "sources": [
+        {"field": "parent", "url": "https://www.chandlermacleod.com/about", "title": "About us", "quote": "Chandler Macleod is part of RGF Staffing ANZ, which sits within Recruit Group."}
+      ]
+    },
+    {
+      "name": "Hotelcareer",
+      "url": "https://www.hotelcareer.de",
+      "languages_supported": ["de", "en", "fr"],
+      "business_model": "per post",
+      "api_status": "none-known",
+      "partner_program": "yes",
+      "partner_url": "https://www.hotelcareer.de/arbeitgeber/kooperationen-partner",
+      "ingest_methods": ["manual posting"],
+      "notes": "Hotel and catering job board. Job ads are booked from the employer pages, with prices from 319 EUR shown. The partner page covers advertising and media partners, not an API or feed. Guessed /api and /partner URLs returned no content.",
+      "sources": [
+        {"field": "languages", "url": "https://www.hotelcareer.de/", "title": "Homepage footer language menu", "quote": "International Deutsch Englisch Französisch"},
+        {"field": "business_model", "url": "https://www.hotelcareer.de/arbeitgeber/anzeigen-buchen", "title": "Job ad booking prices", "quote": "Alle Preise verstehen sich zzgl. MwSt. und beziehen sich auf ein Unternehmen in einer festgelegten Destination."},
+        {"field": "partner_program", "url": "https://www.hotelcareer.de/arbeitgeber/kooperationen-partner", "title": "Partner page", "quote": "Werden Sie jetzt unser Partner"},
+        {"field": "ingest_methods", "url": "https://www.hotelcareer.de/arbeitgeber/anzeigen-buchen", "title": "Job ad booking page", "quote": "24/7 Webzugriff und flexible Anzeigenerstellung in Ihrem Kundencenter"}
+      ]
+    },
+    {
+      "name": "Randstad Digital",
+      "url": "https://www.randstaddigital.com/",
+      "hq_country": "NL",
+      "parent": "Randstad",
+      "languages_supported": ["en", "de"],
+      "api_status": "none-known",
+      "notes": "Digital talent and engineering services brand. Guessed /developers and /partnerships URLs returned 404. No public job feed or API found on the pages read.",
+      "sources": [
+        {"field": "existence", "url": "https://www.randstaddigital.com/about/", "title": "About", "quote": "Randstad Digital B.V (91235944), Diemermere 25, 1112 TC, Diemen, The Netherlands."},
+        {"field": "parent", "url": "https://www.randstaddigital.com/about/", "title": "About", "quote": "Backed by the global scale and expertise of Randstad"},
+        {"field": "languages", "url": "https://www.randstaddigital.com/", "title": "Homepage language menu", "quote": "EN DE"}
+      ]
+    },
+    {
+      "name": "Torc",
+      "url": "https://www.torc.dev/",
+      "parent": "Randstad Digital",
+      "api_status": "none-known",
+      "notes": "Developer talent community and matching platform. Guessed /api and /for-companies URLs returned 404. No employer pricing, language options or headquarters found on the pages read.",
+      "sources": [
+        {"field": "parent", "url": "https://www.torc.dev/", "title": "Homepage", "quote": "With Randstad Digital powered by Torc you can walk through the door"}
+      ]
+    },
+    {
+      "name": "Zarplata.ru",
+      "url": "https://zarplata.ru/",
+      "hq_country": "RU",
+      "parent": "ООО «Хэдхантер» (operating company)",
+      "api_status": "none-known",
+      "notes": "Russian job site. Its terms page names the operating company as ООО «Хэдхантер» with a Moscow address. No employer pricing or language options found. Guessed /api URL returned 404.",
+      "sources": [
+        {"field": "existence", "url": "https://zarplata.ru/zp_rules", "title": "Terms of use", "quote": "125047 Россия, Москва"},
+        {"field": "parent", "url": "https://zarplata.ru/zp_rules", "title": "Terms of use", "quote": "Общество с ограниченной ответственностью «Хэдхантер»"}
+      ]
+    },
+    {
+      "name": "Turijobs",
+      "url": "https://www.turijobs.com/",
+      "hq_country": "ES",
+      "parent": "The Stepstone Group",
+      "languages_supported": ["es", "en"],
+      "ingest_methods": ["manual posting"],
+      "api_status": "none-known",
+      "notes": "Spanish job board for tourism and hospitality. Employers publish offers from an administrator menu. No employer pricing or partner program found on the pages read. Guessed /api and /partners URLs returned 404.",
+      "sources": [
+        {"field": "existence", "url": "https://www.turijobs.com/es-es/empresa/turijobs", "title": "Company page", "quote": "Barcelona, España"},
+        {"field": "parent", "url": "https://www.turijobs.com/es-es/empresa/turijobs", "title": "Company page footer", "quote": "A Company part of © The Stepstone Group"},
+        {"field": "languages", "url": "https://www.turijobs.com/", "title": "Homepage language menu", "quote": "SPANISH ENGLISH"},
+        {"field": "ingest_methods", "url": "https://www.turijobs.com/es-es/publicar-oferta-empleo", "title": "Publish a job guide", "quote": "Dirígete a \"Publicar Oferta\" en tu Menú Administrador."}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Chandler Macleod Group Limited", "url": "https://www.chandlermacleod.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "partner_program", "ingest_methods"], "method": "mixed", "note": "Parent confirmed as RGF Staffing ANZ within Recruit Group. No pricing, language options or partner program stated. HTTP 200."},
+    {"name": "STAFF SERVICE HOLDINGS CO., LTD.", "url": "https://www.staffservice.co.jp/", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "HTTP 403 in the fetch tool and in the browser reader (Access Denied)."},
+    {"name": "Hotelcareer", "url": "https://www.hotelcareer.de", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent"], "method": "mixed", "note": "Languages, paid ad prices, ad booking path and an advertising partner page are stated. No headquarters or parent company named."},
+    {"name": "Randstad Digital", "url": "https://www.randstaddigital.com/", "outcome": "partially-verified", "fields_not_found": ["business_model", "partner_program", "ingest_methods"], "method": "browser", "note": "Headquarters, parent and languages stated. No employer pricing or partner program found."},
+    {"name": "Torc", "url": "https://www.torc.dev/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "partner_program", "ingest_methods"], "method": "browser", "note": "Parent stated as Randstad Digital. Homepage and community pages state no employer terms, language options or headquarters."},
+    {"name": "Zarplata.ru", "url": "https://zarplata.ru/", "outcome": "partially-verified", "fields_not_found": ["languages", "business_model", "partner_program", "ingest_methods"], "method": "browser", "note": "Operating company and Moscow address stated on the terms page. No language options or employer pricing found."},
+    {"name": "Careernet.de", "url": "", "outcome": "unreachable", "fields_not_found": [], "method": "mixed", "note": "Official site could not be identified: careernet.de returns a 301 redirect to stepstone.de, whose page does not mention Careernet."},
+    {"name": "FirstNaukri.com", "url": "https://www.firstnaukri.com/", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 403 in the fetch tool and in the browser reader (Access Denied)."},
+    {"name": "TOWNWORK", "url": "https://townwork.net/", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 503 maintenance page in the browser reader. Fetch tool returned an empty body."},
+    {"name": "Turijobs", "url": "https://www.turijobs.com/", "outcome": "partially-verified", "fields_not_found": ["business_model", "partner_program"], "method": "browser", "note": "Headquarters, parent company, languages and posting path stated. No employer pricing or partner program found."}
+  ],
+  "blocked": [
+    {"name": "STAFF SERVICE HOLDINGS CO., LTD.", "url": "https://www.staffservice.co.jp/", "reason": "HTTP 403 in fetch and in the browser reader"},
+    {"name": "FirstNaukri.com", "url": "https://www.firstnaukri.com/", "reason": "HTTP 403 in fetch and in the browser reader"},
+    {"name": "TOWNWORK", "url": "https://townwork.net/", "reason": "HTTP 503 maintenance page in the browser reader"}
+  ]
+}

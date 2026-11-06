@@ -1,7 +1,7 @@
 {
  "id": "employment-hero",
  "name": "Employment Hero",
- "url": "",
+ "url": "https://employmenthero.com",
  "domains": "",
  "type": "hr-tech",
  "hq_country": "",
@@ -14,29 +14,38 @@
  "niche": "",
  "segment": "",
  "parent": "SEEK Limited",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://employmenthero.com/partner-network/",
  "ingest_methods": [],
- "notes": "According to its owner's page: \"their remaining stake in Employment Hero, which they had invested in some years earlier.\"",
- "confidence": "listed-only",
+ "notes": "According to its owner's page: \"their remaining stake in Employment Hero, which they had invested in some years earlier.\" Official site identified by its company name 'Employment Hero Pty Ltd' on the homepage. The homepage does not mention SEEK, the owner named in the input. Pricing page shows plans in AUD and a minimum of 10 users. No language switcher, parent or headquarters statement found on the site.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/employment-hero/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
-  "tier": "",
-  "label": "Not in top 1M",
-  "global_rank": null,
-  "scope": "",
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 41844,
+  "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
   "list_date": "2026-11-06"
  },
  "tags": [
-  "hr-tech"
+  "hr-tech",
+  "partner-program",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "employment-hero",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;ingest_methods",
+  "note": "Homepage, pricing and partner pages read; no parent, headquarters, language options or API statement found, and SEEK is not named on the site.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "seek",
@@ -56,6 +65,22 @@
    "title": "Seek Limited - Wikipedia",
    "accessed": "2026-11-06",
    "quote": "their remaining stake in Employment Hero, which they had invested in some years earlier.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://employmenthero.com/pricing/",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "Minimums apply: Your subscription must include a minimum of 10 Users.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://employmenthero.com/partner-network/",
+   "title": "Partner network",
+   "accessed": "2026-11-06",
+   "quote": "Join our partner network and offer smarter HR, payroll and employment solutions",
    "quote_check": "ok"
   }
  ]

@@ -36,7 +36,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "nijobs",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "",
+  "note": "HTTP 503 on two fetch attempts; no page content was read.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "the-stepstone",

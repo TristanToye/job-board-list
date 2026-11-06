@@ -1,0 +1,259 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "RECRUIT AGENT",
+   "url": "https://www.r-agent.com/",
+   "primary_language": "ja",
+   "business_model": "placement fee (paid by employers)",
+   "notes": "Homepage is in Japanese and no language switcher was found. Employers pay a referral fee; the page says a refund applies if a placed candidate leaves within six months.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.r-agent.com/",
+     "title": "Homepage",
+     "quote": "リクルートエージェントは求人を募集する企業様から頂く、紹介手数料により事業が成り立っています。",
+     "check": "mismatch"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.r-agent.com/",
+     "title": "Homepage FAQ",
+     "quote": "半年以内に退職された場合は、リクルートエージェント側から企業に返金するルールを設けています。",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "RGF Staffing B.V.",
+   "url": "https://rgfstaffing.com/",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Site says it is part of Recruit Holdings. The enterprise page says teams work with ATS and VMS platforms. No language options, pricing or API found.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://rgfstaffing.com/about-us/",
+     "title": "About us",
+     "quote": "We are part of Recruit Holdings, a Japanese publicly traded company with leading brands including Indeed and Glassdoor.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://rgfstaffing.com/enterprise-solutions/",
+     "title": "Enterprise solutions",
+     "quote": "Our teams work with leading ATS and VMS platforms, ensuring seamless local integration.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Staffmark Group, LLC",
+   "url": "https://www.staffmarkgroup.com/",
+   "parent": "RGF Staffing (Recruit Holdings)",
+   "hq_country": "US",
+   "notes": "The input URL redirects to smgroupna.com. The contact address is in Cincinnati, Ohio, and no headquarters label is shown. No language options, pricing or API found.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://smgroupna.com/",
+     "title": "Homepage",
+     "quote": "a proud member of RGF Staffing, a leading global network of HR service providers within Recruit Holdings",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://smgroupna.com/",
+     "title": "Contact info",
+     "quote": "Cincinnati, OH 45202",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Spherion",
+   "url": "https://www.spherion.com",
+   "notes": "Site names Spherion Staffing, LLC and says its locations are locally owned by independent franchisees. Randstad ownership is not stated on the site.",
+   "sources": []
+  },
+  {
+   "name": "Jobsite",
+   "url": "https://www.jobsite.co.uk",
+   "parent": "StepStone",
+   "notes": "The About page gives a registered office in London. The homepage and employers page returned HTTP 503, so language options and pricing were not checked.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.jobsite.co.uk/about/about-us",
+     "title": "About us",
+     "quote": "is a wholly-owned subsidiary of StepStone, one of the biggest online job board businesses in Europe.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CareerJunction",
+   "url": "https://www.careerjunction.co.za",
+   "partner_program": "yes",
+   "partner_url": "https://www.careerjunction.co.za/partners",
+   "notes": "Homepage and footer name CareerJunction. The parent company is not stated on the site. The partners page describes publishing jobs to partner sites.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://www.careerjunction.co.za/partners",
+     "title": "Partners",
+     "quote": "We've partnered with a hand-picked selection of media and industry sites.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Naukri.com",
+   "url": "https://www.naukri.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HTTP 403 on fetch and in the browser reader; official domain identified from search results only."
+  },
+  {
+   "name": "Spherion",
+   "url": "https://www.spherion.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Site names Spherion Staffing, LLC but states no headquarters, languages, pricing, API or Randstad ownership; the about page returned HTTP 404."
+  },
+  {
+   "name": "Expectra",
+   "outcome": "unreachable",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Official site could not be identified: expectra.fr redirects to randstadprofessional.fr, which names Select TT and does not mention Expectra."
+  },
+  {
+   "name": "RECRUIT AGENT",
+   "url": "https://www.r-agent.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Homepage (read in full) states the Japanese-language fee model; no parent, headquarters, language switcher, API or partner page found."
+  },
+  {
+   "name": "RGF Staffing B.V.",
+   "url": "https://rgfstaffing.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Pages state the Recruit Holdings parent and ATS integration; headquarters, language options, pricing and API not stated."
+  },
+  {
+   "name": "Staffmark Group, LLC",
+   "url": "https://www.staffmarkgroup.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "method": "fetch",
+   "note": "Input URL redirects to smgroupna.com (HTTP 302); site states the RGF Staffing parent and a Cincinnati, Ohio address; languages, pricing and API not stated."
+  },
+  {
+   "name": "FlexJobs",
+   "url": "https://www.flexjobs.com/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HTTP 403 in fetch; the browser reader timed out and reported blocked."
+  },
+  {
+   "name": "Caterer.com",
+   "url": "https://www.caterer.com",
+   "outcome": "unreachable",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "HTTP 503 on two fetch attempts; no page content was read."
+  },
+  {
+   "name": "NIJobs",
+   "url": "https://www.nijobs.com",
+   "outcome": "unreachable",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "HTTP 503 on two fetch attempts; no page content was read."
+  },
+  {
+   "name": "Jobsite",
+   "url": "https://www.jobsite.co.uk",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "method": "fetch",
+   "note": "About page names StepStone as parent; homepage and employers page returned HTTP 503."
+  },
+  {
+   "name": "CareerJunction",
+   "url": "https://www.careerjunction.co.za",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "method": "fetch",
+   "note": "Partners page confirms partner sites; parent ownership, languages, pricing and API not stated; packages page returned HTTP 404."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Naukri.com",
+   "url": "https://www.naukri.com",
+   "reason": "HTTP 403 in fetch and in the browser reader"
+  },
+  {
+   "name": "FlexJobs",
+   "url": "https://www.flexjobs.com/",
+   "reason": "HTTP 403 in fetch; browser reader timed out and reported blocked"
+  },
+  {
+   "name": "Caterer.com",
+   "url": "https://www.caterer.com",
+   "reason": "HTTP 503 on two fetch attempts"
+  },
+  {
+   "name": "NIJobs",
+   "url": "https://www.nijobs.com",
+   "reason": "HTTP 503 on two fetch attempts"
+  }
+ ]
+}

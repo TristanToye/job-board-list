@@ -15,14 +15,14 @@
  "region": "Global",
  "niche": "outplacement and career transition",
  "segment": "",
- "parent": "",
+ "parent": "Randstad N.V.",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "About page states it is part of Randstad N.V. No language options, pricing or developer pages were found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/randstad-risesmart/",
  "indexable": false,
@@ -38,7 +38,14 @@
   "outplacement"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "randstad-risesmart",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
+  "note": "About page states it is part of Randstad N.V.; no language options, pricing or API pages found.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +55,14 @@
    "title": "Randstad Enterprise (RiseSmart)",
    "accessed": "2026-11-06",
    "quote": "Navigate organizational change with confidence with AI-powered, human-centered outplacement solutions.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://randstadenterprise.com/about-us",
+   "title": "About us",
+   "accessed": "2026-11-06",
+   "quote": "Part of Randstad N.V.",
    "quote_check": "ok"
   }
  ]

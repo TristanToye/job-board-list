@@ -36,7 +36,14 @@
   "staffing"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "the-csi-companies-inc",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;languages;business_model;api_status;partner_program",
+  "note": "Homepage states Jacksonville, Florida; parent, language, pricing and API are not stated.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "recruit",

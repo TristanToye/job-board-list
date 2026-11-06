@@ -4435,7 +4435,14 @@
      "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "naukri",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 403 on fetch and in the browser reader; official domain identified from search results only.",
+    "method": "mixed"
+   },
    "owners": [
     {
      "id": "info-edge-india",
@@ -5215,7 +5222,14 @@
     "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "naukrigulf",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 503 on two fetches, so the site was not read further.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "info-edge-india",
@@ -21098,14 +21112,14 @@
    "region": "Global",
    "niche": "outplacement and career transition",
    "segment": "",
-   "parent": "",
+   "parent": "Randstad N.V.",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "About page states it is part of Randstad N.V. No language options, pricing or developer pages were found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/randstad-risesmart/",
    "indexable": false,
@@ -21121,7 +21135,14 @@
     "outplacement"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "randstad-risesmart",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
+    "note": "About page states it is part of Randstad N.V.; no language options, pricing or API pages found.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -21131,6 +21152,14 @@
      "title": "Randstad Enterprise (RiseSmart)",
      "accessed": "2026-11-06",
      "quote": "Navigate organizational change with confidence with AI-powered, human-centered outplacement solutions.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://randstadenterprise.com/about-us",
+     "title": "About us",
+     "accessed": "2026-11-06",
+     "quote": "Part of Randstad N.V.",
      "quote_check": "ok"
     }
    ]
@@ -24069,7 +24098,7 @@
   {
    "id": "employment-hero",
    "name": "Employment Hero",
-   "url": "",
+   "url": "https://employmenthero.com",
    "domains": "",
    "type": "hr-tech",
    "hq_country": "",
@@ -24082,29 +24111,38 @@
    "niche": "",
    "segment": "",
    "parent": "SEEK Limited",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://employmenthero.com/partner-network/",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"their remaining stake in Employment Hero, which they had invested in some years earlier.\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"their remaining stake in Employment Hero, which they had invested in some years earlier.\" Official site identified by its company name 'Employment Hero Pty Ltd' on the homepage. The homepage does not mention SEEK, the owner named in the input. Pricing page shows plans in AUD and a minimum of 10 users. No language switcher, parent or headquarters statement found on the site.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/employment-hero/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
-    "tier": "",
-    "label": "Not in top 1M",
-    "global_rank": null,
-    "scope": "",
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 41844,
+    "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
    "tags": [
-    "hr-tech"
+    "hr-tech",
+    "partner-program",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "employment-hero",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;ingest_methods",
+    "note": "Homepage, pricing and partner pages read; no parent, headquarters, language options or API statement found, and SEEK is not named on the site.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "seek",
@@ -24124,6 +24162,22 @@
      "title": "Seek Limited - Wikipedia",
      "accessed": "2026-11-06",
      "quote": "their remaining stake in Employment Hero, which they had invested in some years earlier.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://employmenthero.com/pricing/",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "Minimums apply: Your subscription must include a minimum of 10 Users.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://employmenthero.com/partner-network/",
+     "title": "Partner network",
+     "accessed": "2026-11-06",
+     "quote": "Join our partner network and offer smarter HR, payroll and employment solutions",
      "quote_check": "ok"
     }
    ]
@@ -24228,7 +24282,14 @@
     "hr-tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "doselect",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "Official site not identified: www.doselect.com failed DNS lookup in this session, and no page of the company was read.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "info-edge-india",
@@ -24290,7 +24351,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "spherion",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;parent;languages;business_model;api_status;partner_program",
+    "note": "Site names Spherion Staffing, LLC but states no headquarters, languages, pricing, API or Randstad ownership; the about page returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "randstad",
@@ -24352,7 +24420,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "vedior",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Official site not confirmed; vedior.com returned HTTP 503 on two fetches.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "randstad",
@@ -24441,7 +24516,7 @@
   {
    "id": "yacht",
    "name": "Yacht",
-   "url": "",
+   "url": "https://www.randstadprofessional.nl/",
    "domains": "",
    "type": "staffing",
    "hq_country": "",
@@ -24460,15 +24535,15 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"This includes brands like Yacht (Netherlands) and Expectra (France).\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"This includes brands like Yacht (Netherlands) and Expectra (France).\" yacht.nl (301) redirects to this site, which states that Yacht is a former brand now operating as Randstad Professional. The same site is also listed as Randstad Professional. Headquarters address on the site is in Diemen, Netherlands. Parent is Randstad as stated by the site's Randstad reference. N Same site as the Yacht entry. Headquarters address is in Diemen, Netherlands. Parent is Randstad. No language switcher, pricing, API or partner program found on the homepage.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/yacht/",
    "indexable": false,
    "prominence": {
-    "tier": "",
-    "label": "Not in top 1M",
-    "global_rank": null,
-    "scope": "",
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 503858,
+    "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
@@ -24476,7 +24551,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "yacht",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage read; headquarters address and Randstad parent stated, no pricing, API or partner program on the homepage.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "randstad",
@@ -24496,6 +24578,22 @@
      "title": "Randstad Holding - Wikipedia",
      "accessed": "2026-11-06",
      "quote": "This includes brands like Yacht (Netherlands) and Expectra (France).",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.randstadprofessional.nl/",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Diemermere 25, 1112TC Diemen",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.randstadprofessional.nl/",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Randstad heeft de ambitie om wereldwijd het meest gelijkwaardige en gespecialiseerde talentbedrijf te zijn.",
      "quote_check": "ok"
     }
    ]
@@ -24538,7 +24636,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "expectra",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "Official site could not be identified: expectra.fr redirects to randstadprofessional.fr, which names Select TT and does not mention Expectra.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "randstad",
@@ -24786,7 +24891,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "recruit-agent",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;api_status;partner_program",
+    "note": "Homepage (read in full) states the Japanese-language fee model; no parent, headquarters, language switcher, API or partner page found.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -24848,7 +24960,14 @@
     "recruiting-services"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "recruit-direct-scout",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+    "note": "Employer page states fee terms; parent company and language options are not stated.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -24972,7 +25091,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "indeed-recruit-partners-co-ltd",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Fetch returned HTTP 403; browser reader returned status 200 and not blocked. Homepage states the Recruit Holdings link; service page returned HTTP 403 to fetch.",
+    "method": "browser"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -25017,9 +25143,11 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "According to its owner's page: \"Holding company for the operations of RGF Staffing, a staffing group providing a broad range of HR services\"",
-   "confidence": "listed-only",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "According to its owner's page: \"Holding company for the operations of RGF Staffing, a staffing group providing a broad range of HR services\" Site says it is part of Recruit Holdings. The enterprise page says teams work with ATS and VMS platforms. No language options, pricing or API found.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/rgf-staffing-b-v/",
    "indexable": false,
    "prominence": {
@@ -25031,10 +25159,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "ats-integration",
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "rgf-staffing-b-v",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
+    "note": "Pages state the Recruit Holdings parent and ATS integration; headquarters, language options, pricing and API not stated.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -25054,6 +25190,22 @@
      "title": "Group companies",
      "accessed": "2026-11-06",
      "quote": "Holding company for the operations of RGF Staffing, a staffing group providing a broad range of HR services",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://rgfstaffing.com/about-us/",
+     "title": "About us",
+     "accessed": "2026-11-06",
+     "quote": "We are part of Recruit Holdings, a Japanese publicly traded company with leading brands including Indeed and Glassdoor.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://rgfstaffing.com/enterprise-solutions/",
+     "title": "Enterprise solutions",
+     "accessed": "2026-11-06",
+     "quote": "Our teams work with leading ATS and VMS platforms, ensuring seamless local integration.",
      "quote_check": "ok"
     }
    ]
@@ -25096,7 +25248,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "recruit-staffing-co-ltd",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;partner_program",
+    "note": "Homepage only, Japanese-only; footer names Recruit Staffing Co., Ltd. and no headquarters, parent or pricing is stated. Employer link not followed.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -25192,8 +25351,11 @@
    "founded": "",
    "markets": "",
    "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "nl",
+   "languages_supported": [
+    "nl",
+    "fr"
+   ],
    "region": "Global",
    "niche": "",
    "segment": "",
@@ -25204,8 +25366,8 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"An agency providing a broad range of HR services in Belgium.\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"An agency providing a broad range of HR services in Belgium.\" Header language switcher offers nl and fr. The page states that the service is free for candidates. No employer pricing, API, partner program or parent company statement found on the site.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/unique-nv/",
    "indexable": false,
    "prominence": {
@@ -25220,7 +25382,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "unique-nv",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and language switcher read (nl, fr); candidate service is free but no employer pricing, parent or API statement found.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -25240,6 +25409,14 @@
      "title": "Group companies",
      "accessed": "2026-11-06",
      "quote": "An agency providing a broad range of HR services in Belgium.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.unique.be/nl",
+     "title": "Header language switcher",
+     "accessed": "2026-11-06",
+     "quote": "nl",
      "quote_check": "ok"
     }
    ]
@@ -25282,7 +25459,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "staffmark-group-llc",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;api_status",
+    "note": "Input URL redirects to smgroupna.com (HTTP 302); site states the RGF Staffing parent and a Cincinnati, Ohio address; languages, pricing and API not stated.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -25344,7 +25528,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "the-csi-companies-inc",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program",
+    "note": "Homepage states Jacksonville, Florida; parent, language, pricing and API are not stated.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -25452,8 +25643,8 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"An agency specializing in IT and digital talent solutions in Hong Kong and Singapore\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"An agency specializing in IT and digital talent solutions in Hong Kong and Singapore\" Employers post vacancies through a 'Submit a Vacancy' link and form on the homepage. No language switcher, pricing, API, partner program or parent statement found on the homepage. The footer links to rgfstaffinghksg.com without stating a relationship.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/peoplebank-hong-kong/",
    "indexable": false,
    "prominence": {
@@ -25468,7 +25659,14 @@
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "peoplebank-hong-kong",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program",
+    "note": "Homepage read; a Submit a Vacancy form is stated, but no language, pricing, API, partner or parent statement.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -25488,6 +25686,14 @@
      "title": "Group companies",
      "accessed": "2026-11-06",
      "quote": "An agency specializing in IT and digital talent solutions in Hong Kong and Singapore",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.peoplebank.com.hk/",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Submit a Vacancy",
      "quote_check": "ok"
     }
    ]
@@ -25530,7 +25736,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "flexjobs",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 403 in fetch; the browser reader timed out and reported blocked.",
+    "method": "mixed"
+   },
    "owners": [
     {
      "id": "bold",
@@ -25557,7 +25770,7 @@
   {
    "id": "clearancejobs",
    "name": "ClearanceJobs",
-   "url": "",
+   "url": "https://www.clearancejobs.com",
    "domains": "",
    "type": "board",
    "hq_country": "",
@@ -25576,15 +25789,15 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"ClearanceJobs is the leading marketplace for professionals with active U.S. security clearances.\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"ClearanceJobs is the leading marketplace for professionals with active U.S. security clearances.\" Footer states ClearanceJobs is a DHI service. Employer pages invite a demo request and show no prices.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/clearancejobs/",
    "indexable": false,
    "prominence": {
-    "tier": "",
-    "label": "Not in top 1M",
-    "global_rank": null,
-    "scope": "",
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 38134,
+    "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
@@ -25592,7 +25805,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "clearancejobs",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
+    "note": "Footer states it is a DHI service; employer pages show a demo request and no prices.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "dhi",
@@ -25613,6 +25833,14 @@
      "accessed": "2026-11-06",
      "quote": "ClearanceJobs is the leading marketplace for professionals with active U.S. security clearances.",
      "quote_check": "unreachable"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.clearancejobs.com/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-06",
+     "quote": "ClearanceJobs is a DHI service",
+     "quote_check": "ok"
     }
    ]
   },
@@ -25716,7 +25944,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "caterer-com",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "HTTP 503 on two fetch attempts; no page content was read.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -25778,7 +26013,14 @@
     "recruiting-services"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "bayard-advertising",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "bayardad.com redirects to appcast.io, which does not mention Bayard Advertising; official site could not be identified.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -25902,7 +26144,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "irishjobs",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 503 Service Unavailable on two fetch attempts; not read in the browser reader because the response was not a 403 or empty body.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -25964,7 +26213,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "nijobs",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "HTTP 503 on two fetch attempts; no page content was read.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -26004,14 +26260,14 @@
    "niche": "",
    "segment": "",
    "parent": "The Stepstone Group",
-   "business_model": "",
+   "business_model": "per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" German-only site. Job ads are drafted free and published after booking, with quota bundles offered; no list prices shown on the pages read. No API or feed mentioned.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/meinestadt-de/",
    "indexable": false,
    "prominence": {
@@ -26023,10 +26279,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "meinestadt-de",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+    "note": "Pages show paid job ad booking and German-only content; parent and headquarters are not stated.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -26047,6 +26311,14 @@
      "accessed": "2026-11-06",
      "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
      "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://job-shop.meinestadt.de/",
+     "title": "Job ad shop",
+     "accessed": "2026-11-06",
+     "quote": "Veröffentlichung nach Buchung",
+     "quote_check": "unreachable"
     }
    ]
   },
@@ -26150,7 +26422,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobs-ie",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "Official site not confirmed: jobs.ie returned HTTP 503 on two fetch attempts, so no page could be read to confirm the company name.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -26177,7 +26456,7 @@
   {
    "id": "jobsite",
    "name": "Jobsite",
-   "url": "",
+   "url": "https://www.jobsite.co.uk",
    "domains": "",
    "type": "board",
    "hq_country": "",
@@ -26189,22 +26468,22 @@
    "region": "Global",
    "niche": "",
    "segment": "",
-   "parent": "The Stepstone Group",
+   "parent": "StepStone",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" The About page gives a registered office in London. The homepage and employers page returned HTTP 503, so language options and pricing were not checked.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobsite/",
    "indexable": false,
    "prominence": {
-    "tier": "",
-    "label": "Not in top 1M",
-    "global_rank": null,
-    "scope": "",
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 58589,
+    "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
@@ -26212,7 +26491,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobsite",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status",
+    "note": "About page names StepStone as parent; homepage and employers page returned HTTP 503.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -26233,21 +26519,33 @@
      "accessed": "2026-11-06",
      "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
      "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.jobsite.co.uk/about/about-us",
+     "title": "About us",
+     "accessed": "2026-11-06",
+     "quote": "is a wholly-owned subsidiary of StepStone, one of the biggest online job board businesses in Europe.",
+     "quote_check": "ok"
     }
    ]
   },
   {
    "id": "ictjobs",
    "name": "ICTJobs",
-   "url": "",
+   "url": "https://www.ictjob.be",
    "domains": "",
    "type": "board",
    "hq_country": "",
    "founded": "",
    "markets": "",
    "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr",
+    "nl"
+   ],
    "region": "Global",
    "niche": "",
    "segment": "",
@@ -26258,15 +26556,15 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" Belgian IT job board. Language switcher shows en, fr and nl. Legal page names ictjob SRL/BV as data controller at a Brussels address; StepStone is named only as a data processor, not as owner.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ictjobs/",
    "indexable": false,
    "prominence": {
     "tier": "",
     "label": "Not in top 1M",
     "global_rank": null,
-    "scope": "",
+    "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
@@ -26274,7 +26572,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "ictjobs",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program",
+    "note": "Language switcher and legal entity confirmed; StepStone ownership is not stated on its pages.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -26294,6 +26599,14 @@
      "title": "Our history",
      "accessed": "2026-11-06",
      "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.ictjob.be/",
+     "title": "Language switcher",
+     "accessed": "2026-11-06",
+     "quote": "en | fr | nl",
      "quote_check": "ok"
     }
    ]
@@ -26398,7 +26711,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "yourcareergroup",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "Official site not identified: the hotelcareer.de imprint names StepStone Deutschland GmbH and does not name YOURCAREERGROUP.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -26425,7 +26745,7 @@
   {
    "id": "careerjunction",
    "name": "CareerJunction",
-   "url": "",
+   "url": "https://www.careerjunction.co.za",
    "domains": "",
    "type": "board",
    "hq_country": "",
@@ -26441,26 +26761,34 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.careerjunction.co.za/partners",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
-   "confidence": "listed-only",
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" Homepage and footer name CareerJunction. The parent company is not stated on the site. The partners page describes publishing jobs to partner sites.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/careerjunction/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
-    "tier": "",
-    "label": "Not in top 1M",
-    "global_rank": null,
-    "scope": "",
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 343744,
+    "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "partner-program"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "careerjunction",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+    "note": "Partners page confirms partner sites; parent ownership, languages, pricing and API not stated; packages page returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [
     {
      "id": "the-stepstone",
@@ -26480,6 +26808,14 @@
      "title": "Our history",
      "accessed": "2026-11-06",
      "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.careerjunction.co.za/partners",
+     "title": "Partners",
+     "accessed": "2026-11-06",
+     "quote": "We've partnered with a hand-picked selection of media and industry sites.",
      "quote_check": "ok"
     }
    ]

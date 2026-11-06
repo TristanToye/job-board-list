@@ -36,7 +36,14 @@
   "recruiting-services"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "recruit-direct-scout",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+  "note": "Employer page states fee terms; parent company and language options are not stated.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "recruit",
