@@ -64,7 +64,7 @@ def main(files):
             if ed.get("source") and ed["source"].get("url") and ed["source"].get("check") not in ("structured", "chrome"): jobs_extra.append(ed["source"])
         for b in d.get("boards", []) + holdings + facts:
             for s in b.get("sources", []):
-                if s.get("field") not in ("listed_by", "relationship") and s.get("url") and s.get("check") not in ("structured", "chrome"): jobs.append(s)
+                if s.get("field") not in ("listed_by", "relationship", "owner_listing") and s.get("url") and s.get("check") not in ("structured", "chrome"): jobs.append(s)
             if isinstance(b.get("notes"), list):
                 jobs.extend(n for n in b["notes"] if isinstance(n, dict) and n.get("url") and n.get("quote"))
         jobs.extend(jobs_extra)

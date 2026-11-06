@@ -9,11 +9,23 @@ Recruit Group is a global technology company transforming the world of work. (ow
 - Employees: 49,480 (as of March 31, 2025)
 - Revenue: 3.69 trillion JPY (FY2025)
 
-## Job boards in this directory
+## Entries in this directory
 
 - [Indeed](https://jobboardlist.com/boards/indeed/) (aggregator+board)
 - [Glassdoor](https://jobboardlist.com/boards/glassdoor/) (board+reviews)
 - [Rikunabi](https://jobboardlist.com/boards/rikunabi/) (board)
+- [RECRUIT AGENT](https://jobboardlist.com/boards/recruit-agent/) (staffing)
+- [RECRUIT DIRECT SCOUT](https://jobboardlist.com/boards/recruit-direct-scout/) (recruiting-services)
+- [TOWNWORK](https://jobboardlist.com/boards/townwork/) (board)
+- [Indeed Recruit Partners Co., Ltd.](https://jobboardlist.com/boards/indeed-recruit-partners-co-ltd/) (staffing)
+- [RGF Staffing B.V.](https://jobboardlist.com/boards/rgf-staffing-b-v/) (staffing)
+- [Recruit Staffing Co., Ltd.](https://jobboardlist.com/boards/recruit-staffing-co-ltd/) (staffing)
+- [STAFF SERVICE HOLDINGS CO., LTD.](https://jobboardlist.com/boards/staff-service-holdings-co-ltd/) (staffing)
+- [Unique NV](https://jobboardlist.com/boards/unique-nv/) (staffing)
+- [Staffmark Group, LLC](https://jobboardlist.com/boards/staffmark-group-llc/) (staffing)
+- [The CSI Companies, Inc.](https://jobboardlist.com/boards/the-csi-companies-inc/) (staffing)
+- [Chandler Macleod Group Limited](https://jobboardlist.com/boards/chandler-macleod-group-limited/) (staffing)
+- [Peoplebank Hong Kong](https://jobboardlist.com/boards/peoplebank-hong-kong/) (staffing)
 - [SimplyHired](https://jobboardlist.com/boards/simplyhired/) (aggregator)
 - [Workopolis](https://jobboardlist.com/boards/workopolis/) (board)
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/) (aggregator)

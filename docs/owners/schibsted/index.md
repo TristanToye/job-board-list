@@ -6,7 +6,7 @@ What began as a small publishing house in 1839 is now a media house with some of
 - Headquarters country: NO
 - Listing: Oslo Stock Exchange
 
-## Job boards in this directory
+## Entries in this directory
 
 - [FINN.no Jobs](https://jobboardlist.com/boards/finn-no/) (classifieds+board)
 

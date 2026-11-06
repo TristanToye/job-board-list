@@ -7,8 +7,9 @@ A market leader in online employment marketplaces (own description, https://au.s
 - Founded: 1997
 - Listing: Australian Securities Exchange
 
-## Job boards in this directory
+## Entries in this directory
 
+- [Employment Hero](https://jobboardlist.com/boards/employment-hero/) (hr-tech)
 - [JobStreet](https://jobboardlist.com/boards/jobstreet/) (board)
 - [SEEK](https://jobboardlist.com/boards/seek/) (board)
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/) (board)

@@ -69,3 +69,9 @@ Write one JSON file to the path you are given, and nothing else:
 
 Source `field` values and the data they support: existence (hq_country, parent is separate), parent, languages (primary_language, languages_supported), business_model, api_status (api_status, api_docs_url), partner_program (partner_program, partner_url), ingest_methods.
 After writing the file, reply with one line: the path and the number of boards.
+
+## Entries that have only been listed by their owner
+Some inputs have an `owner` and an `owner_says` field and often no `url`. They are companies that a parent company's own page lists as part of its group. For each one:
+1. If `url` is empty, find the company's official website. Start from the owner's page if it links the brand, otherwise search the web. Only accept a site that clearly belongs to this company: its pages should show the same company name and, ideally, mention the owner or the same country or services described in `owner_says`. If you are not sure it is the same company, do not guess: leave `url` out and set the review outcome to `unreachable` with a note saying the official site could not be identified.
+2. Put the official website in the board's `url` field.
+3. Then verify the facts as above from that site, with sources on its own domain.

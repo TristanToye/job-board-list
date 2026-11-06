@@ -4,8 +4,9 @@ HR-tech платформа в России и СНГ (own description, https://i
 
 
 
-## Job boards in this directory
+## Entries in this directory
 
+- [Zarplata.ru](https://jobboardlist.com/boards/zarplata-ru/) (board)
 - [HeadHunter (hh.ru)](https://jobboardlist.com/boards/hh-ru/) (board)
 
 ## Holdings

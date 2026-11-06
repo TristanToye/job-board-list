@@ -6,7 +6,7 @@ Jesteśmy wiodącą europejską platformą HR Tech (own description, https://www
 - Listing: GRUPRACUJ (exchange not named on page)
 - Employees: over 1000 (no year stated)
 
-## Job boards in this directory
+## Entries in this directory
 
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/) (board)
 

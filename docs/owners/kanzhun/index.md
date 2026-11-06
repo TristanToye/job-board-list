@@ -4,7 +4,7 @@
 - Employees: 5,346 (2023)
 - Revenue: CN¥5.95 billion (FY2023)
 
-## Job boards in this directory
+## Entries in this directory
 
 - [BOSS Zhipin](https://jobboardlist.com/boards/boss-zhipin/) (board+chat)
 

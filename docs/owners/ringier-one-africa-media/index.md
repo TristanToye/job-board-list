@@ -4,7 +4,7 @@ ROAM (Ringier One Africa Media) is the leading online marketplace company in Sub
 
 
 
-## Job boards in this directory
+## Entries in this directory
 
 - [Jobberman](https://jobboardlist.com/boards/jobberman/) (board)
 

@@ -9,7 +9,7 @@ Alphabet is mostly a collection of companies. (own description, https://abc.xyz)
 - Employees: 204,757 (Sept. 2026)
 - Revenue: US$403 billion (2025)
 
-## Job boards in this directory
+## Entries in this directory
 
 - [Google for Jobs](https://jobboardlist.com/boards/google-jobs/) (search-aggregator)
 

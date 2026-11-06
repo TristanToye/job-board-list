@@ -4,10 +4,11 @@ Today, we’re proud to be the largest global career technology company (own des
 
 - Headquarters city: Guaynabo
 
-## Job boards in this directory
+## Entries in this directory
 
 - [Monster](https://jobboardlist.com/boards/monster/) (board)
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/) (board)
+- [FlexJobs](https://jobboardlist.com/boards/flexjobs/) (board)
 
 ## Holdings
 

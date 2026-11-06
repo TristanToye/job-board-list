@@ -5,12 +5,25 @@ Formed in 1996, The Stepstone Group is one of the world’s leading online recru
 - Founded: 1996
 - Employees: around 3,000
 
-## Job boards in this directory
+## Entries in this directory
 
 - [StepStone](https://jobboardlist.com/boards/stepstone/) (board)
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/) (board)
+- [Caterer.com](https://jobboardlist.com/boards/caterer-com/) (board)
 - [Appcast](https://jobboardlist.com/boards/appcast/) (programmatic-distribution)
+- [Bayard Advertising](https://jobboardlist.com/boards/bayard-advertising/) (recruiting-services)
+- [Careernet.de](https://jobboardlist.com/boards/careernet-de/) (board)
+- [IrishJobs](https://jobboardlist.com/boards/irishjobs/) (board)
+- [NIJobs](https://jobboardlist.com/boards/nijobs/) (board)
 - [PNet](https://jobboardlist.com/boards/pnet/) (board)
+- [meinestadt.de](https://jobboardlist.com/boards/meinestadt-de/) (board)
+- [Hotelcareer](https://jobboardlist.com/boards/hotelcareer/) (board)
+- [Jobs.ie](https://jobboardlist.com/boards/jobs-ie/) (board)
+- [Jobsite](https://jobboardlist.com/boards/jobsite/) (board)
+- [ICTJobs](https://jobboardlist.com/boards/ictjobs/) (board)
+- [Turijobs](https://jobboardlist.com/boards/turijobs/) (board)
+- [YourCareerGroup](https://jobboardlist.com/boards/yourcareergroup/) (board)
+- [CareerJunction](https://jobboardlist.com/boards/careerjunction/) (board)
 
 ## Holdings
 

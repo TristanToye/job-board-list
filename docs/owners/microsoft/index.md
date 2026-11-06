@@ -9,7 +9,7 @@ Microsoft’s mission is to empower every person and every organization on the p
 - Employees: 223,000 (2026)
 - Revenue: US$331.8 billion (fiscal 2026, as labelled in infobox)
 
-## Job boards in this directory
+## Entries in this directory
 
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/) (social-network+board)
 

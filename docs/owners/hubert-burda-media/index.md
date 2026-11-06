@@ -6,7 +6,7 @@ Burda ist ein internationales Medien- und Beteiligungsunternehmen mit klarer Hal
 - Founded: 1903
 - Employees: approx. 8,500
 
-## Job boards in this directory
+## Entries in this directory
 
 - [XING Jobs](https://jobboardlist.com/boards/xing/) (social-network+board)
 

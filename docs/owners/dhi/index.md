@@ -4,9 +4,10 @@ DHI Group powers ClearanceJobs and Dice, the platforms top tech talent turn to a
 
 
 
-## Job boards in this directory
+## Entries in this directory
 
 - [Dice](https://jobboardlist.com/boards/dice/) (niche-board)
+- [ClearanceJobs](https://jobboardlist.com/boards/clearancejobs/) (board)
 
 ## Holdings
 

@@ -1,6 +1,6 @@
 # Job board
 
-A site where employers post jobs and candidates search and apply. 220 entries in the directory.
+A site where employers post jobs and candidates search and apply. 240 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -27,6 +27,7 @@ A site where employers post jobs and candidates search and apply. 220 entries in
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [SEPE (Servicio Público de Empleo Estatal)](https://jobboardlist.com/boards/sepe-servicio-p-blico-de-empleo-estatal/): government
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
+- [meinestadt.de](https://jobboardlist.com/boards/meinestadt-de/): board
 - [Naukri](https://jobboardlist.com/boards/naukri/): board, Partner-only API
 - [We Work Remotely](https://jobboardlist.com/boards/weworkremotely/): niche-board, Open API (no key)
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
@@ -64,6 +65,8 @@ A site where employers post jobs and candidates search and apply. 220 entries in
 - [Himalayas](https://jobboardlist.com/boards/himalayas/): niche-board, Open API (no key)
 - [OCC Mundial](https://jobboardlist.com/boards/occ-mundial/): board
 - [AlmaLaurea](https://jobboardlist.com/boards/almalaurea/): niche-board
+- [IrishJobs](https://jobboardlist.com/boards/irishjobs/): board
+- [Caterer.com](https://jobboardlist.com/boards/caterer-com/): board
 - [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
 - [TalentEgg](https://jobboardlist.com/boards/talentegg/): board
 - [eJobs](https://jobboardlist.com/boards/ejobs/): board
@@ -79,8 +82,5 @@ A site where employers post jobs and candidates search and apply. 220 entries in
 - [Jobboom](https://jobboardlist.com/boards/jobboom/): board
 - [Wanted](https://jobboardlist.com/boards/wanted/): board
 - [Workforce Australia](https://jobboardlist.com/boards/workforce-australia/): government
-- [Jobberman](https://jobboardlist.com/boards/jobberman/): board
-- [Meteojob](https://jobboardlist.com/boards/meteojob/): board
-- [CareerBeacon](https://jobboardlist.com/boards/careerbeacon/): board
 
 Canonical page: https://jobboardlist.com/tags/job-board/

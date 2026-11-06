@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-06",
- "count": 328,
+ "count": 370,
  "boards": [
   {
    "id": "indeed",
@@ -168,6 +168,15 @@
      "since": "2012",
      "source": "https://recruit-holdings.com/en/",
      "quote": "key subsidiaries including Indeed, Glassdoor, Recruit, and RGF Staffing"
+    },
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "A job distribution platform which connects a network of Applicant Tracking Systems"
     }
    ],
    "scale": [],
@@ -24026,6 +24035,2610 @@
    "owners": [],
    "scale": [],
    "sources": []
+  },
+  {
+   "id": "employment-hero",
+   "name": "Employment Hero",
+   "url": "",
+   "domains": "",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "SEEK Limited",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"their remaining stake in Employment Hero, which they had invested in some years earlier.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/employment-hero/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "seek",
+     "name": "SEEK Limited",
+     "relation": "minority-stake",
+     "stake": "",
+     "since": "",
+     "source": "https://en.wikipedia.org/wiki/Seek_Limited",
+     "quote": "their remaining stake in Employment Hero, which they had invested in some years earlier."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Seek_Limited",
+     "title": "Seek Limited - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "their remaining stake in Employment Hero, which they had invested in some years earlier.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "naukri-com",
+   "name": "Naukri.com",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Info Edge (India) Ltd",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"the flagship employment website Naukri.com\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/naukri-com/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "info-edge-india",
+     "name": "Info Edge (India) Ltd",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://en.wikipedia.org/wiki/Info_Edge",
+     "quote": "the flagship employment website Naukri.com"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Info_Edge",
+     "title": "Info Edge - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "the flagship employment website Naukri.com",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "naukrigulf-com",
+   "name": "NaukriGulf.com",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Info Edge (India) Ltd",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"NaukriGulf.com for Gulf countries in 2006\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/naukrigulf-com/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "info-edge-india",
+     "name": "Info Edge (India) Ltd",
+     "relation": "brand",
+     "stake": "",
+     "since": "2006",
+     "source": "https://en.wikipedia.org/wiki/Info_Edge",
+     "quote": "NaukriGulf.com for Gulf countries in 2006"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Info_Edge",
+     "title": "Info Edge - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "NaukriGulf.com for Gulf countries in 2006",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "firstnaukri-com",
+   "name": "FirstNaukri.com",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Info Edge (India) Ltd",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"FirstNaukri.com for campus recruitment in 2009\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/firstnaukri-com/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "info-edge-india",
+     "name": "Info Edge (India) Ltd",
+     "relation": "brand",
+     "stake": "",
+     "since": "2009",
+     "source": "https://en.wikipedia.org/wiki/Info_Edge",
+     "quote": "FirstNaukri.com for campus recruitment in 2009"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Info_Edge",
+     "title": "Info Edge - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "FirstNaukri.com for campus recruitment in 2009",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "doselect",
+   "name": "DoSelect",
+   "url": "",
+   "domains": "",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Info Edge (India) Ltd",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"HR and skilling platform\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/doselect/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "info-edge-india",
+     "name": "Info Edge (India) Ltd",
+     "relation": "group-company",
+     "stake": "",
+     "since": "2021",
+     "source": "https://en.wikipedia.org/wiki/Info_Edge",
+     "quote": "HR and skilling platform"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Info_Edge",
+     "title": "Info Edge - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "HR and skilling platform",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "spherion",
+   "name": "Spherion",
+   "url": "",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Randstad N.V.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"In September 2011, Randstad acquired Spherion for $770 million.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/spherion/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "randstad",
+     "name": "Randstad N.V.",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2011",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "In September 2011, Randstad acquired Spherion for $770 million."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "title": "Randstad Holding - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "In September 2011, Randstad acquired Spherion for $770 million.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "vedior",
+   "name": "Vedior",
+   "url": "",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Randstad N.V.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"In 2008, Randstad acquired Vedior for €3.3 billion and scaled up across Europe.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/vedior/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "randstad",
+     "name": "Randstad N.V.",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2008",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "In 2008, Randstad acquired Vedior for €3.3 billion and scaled up across Europe."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "title": "Randstad Holding - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "In 2008, Randstad acquired Vedior for €3.3 billion and scaled up across Europe.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "torc",
+   "name": "Torc",
+   "url": "",
+   "domains": "",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Randstad N.V.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/torc/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "randstad",
+     "name": "Randstad N.V.",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2024",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "title": "Randstad Holding - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "yacht",
+   "name": "Yacht",
+   "url": "",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Randstad N.V.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"This includes brands like Yacht (Netherlands) and Expectra (France).\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/yacht/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "randstad",
+     "name": "Randstad N.V.",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "This includes brands like Yacht (Netherlands) and Expectra (France)."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "title": "Randstad Holding - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "This includes brands like Yacht (Netherlands) and Expectra (France).",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "expectra",
+   "name": "Expectra",
+   "url": "",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Randstad N.V.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"This includes brands like Yacht (Netherlands) and Expectra (France).\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/expectra/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "randstad",
+     "name": "Randstad N.V.",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "This includes brands like Yacht (Netherlands) and Expectra (France)."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "title": "Randstad Holding - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "This includes brands like Yacht (Netherlands) and Expectra (France).",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "randstad-enterprise",
+   "name": "Randstad Enterprise",
+   "url": "",
+   "domains": "",
+   "type": "recruiting-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Randstad N.V.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"Randstad Enterprise: This business line provides global talent lifecycle solutions for large-scale organizations.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/randstad-enterprise/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "recruiting-services"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "randstad",
+     "name": "Randstad N.V.",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "Randstad Enterprise: This business line provides global talent lifecycle solutions for large-scale organizations."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "title": "Randstad Holding - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "Randstad Enterprise: This business line provides global talent lifecycle solutions for large-scale organizations.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "randstad-digital",
+   "name": "Randstad Digital",
+   "url": "",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Randstad N.V.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"Launched in 2023, this global brand consolidates the company's IT, cloud, data, and engineering capabilities.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/randstad-digital/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "randstad",
+     "name": "Randstad N.V.",
+     "relation": "brand",
+     "stake": "",
+     "since": "2023",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "Launched in 2023, this global brand consolidates the company's IT, cloud, data, and engineering capabilities."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "title": "Randstad Holding - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "Launched in 2023, this global brand consolidates the company's IT, cloud, data, and engineering capabilities.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "randstad-professional",
+   "name": "Randstad Professional",
+   "url": "",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Randstad N.V.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"This includes brands like Yacht (Netherlands) and Expectra (France).\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/randstad-professional/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "randstad",
+     "name": "Randstad N.V.",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "This includes brands like Yacht (Netherlands) and Expectra (France)."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "title": "Randstad Holding - Wikipedia",
+     "accessed": "2026-11-06",
+     "quote": "This includes brands like Yacht (Netherlands) and Expectra (France).",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "recruit-agent",
+   "name": "RECRUIT AGENT",
+   "url": "https://www.r-agent.com/",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"Employment placement service for professionals\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/recruit-agent/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 74812,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "Employment placement service for professionals"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://recruit-holdings.com/en/about/group/",
+     "title": "Group companies",
+     "accessed": "2026-11-06",
+     "quote": "Employment placement service for professionals",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "recruit-direct-scout",
+   "name": "RECRUIT DIRECT SCOUT",
+   "url": "",
+   "domains": "",
+   "type": "recruiting-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"Talent sourcing service for professionals.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/recruit-direct-scout/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "recruiting-services"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+     "quote": "Talent sourcing service for professionals."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+     "title": "Recruit Holdings (Wikipedia)",
+     "accessed": "2026-11-06",
+     "quote": "Talent sourcing service for professionals.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "townwork",
+   "name": "TOWNWORK",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"Online matching platform and print media for part-time and full-time job seekers.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/townwork/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+     "quote": "Online matching platform and print media for part-time and full-time job seekers."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+     "title": "Recruit Holdings (Wikipedia)",
+     "accessed": "2026-11-06",
+     "quote": "Online matching platform and print media for part-time and full-time job seekers.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "indeed-recruit-partners-co-ltd",
+   "name": "Indeed Recruit Partners Co., Ltd.",
+   "url": "https://www.indeedrecruit-partners.co.jp/",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"An agency providing HR media solutions and placement services in Japan\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/indeed-recruit-partners-co-ltd/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "group-company",
+     "stake": "",
+     "since": "",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "An agency providing HR media solutions and placement services in Japan"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://recruit-holdings.com/en/about/group/",
+     "title": "Group companies",
+     "accessed": "2026-11-06",
+     "quote": "An agency providing HR media solutions and placement services in Japan",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "rgf-staffing-b-v",
+   "name": "RGF Staffing B.V.",
+   "url": "https://rgfstaffing.com/",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"Holding company for the operations of RGF Staffing, a staffing group providing a broad range of HR services\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/rgf-staffing-b-v/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2016",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "Holding company for the operations of RGF Staffing, a staffing group providing a broad range of HR services"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://recruit-holdings.com/en/about/group/",
+     "title": "Group companies",
+     "accessed": "2026-11-06",
+     "quote": "Holding company for the operations of RGF Staffing, a staffing group providing a broad range of HR services",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "recruit-staffing-co-ltd",
+   "name": "Recruit Staffing Co., Ltd.",
+   "url": "https://www.r-staffing.co.jp/",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"A temporary staffing solutions company focused on large companies in urban areas in Japan\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/recruit-staffing-co-ltd/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 295555,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "group-company",
+     "stake": "",
+     "since": "",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "A temporary staffing solutions company focused on large companies in urban areas in Japan"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://recruit-holdings.com/en/about/group/",
+     "title": "Group companies",
+     "accessed": "2026-11-06",
+     "quote": "A temporary staffing solutions company focused on large companies in urban areas in Japan",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "staff-service-holdings-co-ltd",
+   "name": "STAFF SERVICE HOLDINGS CO., LTD.",
+   "url": "https://www.staffservice.co.jp/",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"A Japan-based staffing service company, providing comprehensive temporary staffing and placement solutions\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/staff-service-holdings-co-ltd/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 370250,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "group-company",
+     "stake": "",
+     "since": "",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "A Japan-based staffing service company, providing comprehensive temporary staffing and placement solutions"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://recruit-holdings.com/en/about/group/",
+     "title": "Group companies",
+     "accessed": "2026-11-06",
+     "quote": "A Japan-based staffing service company, providing comprehensive temporary staffing and placement solutions",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "unique-nv",
+   "name": "Unique NV",
+   "url": "https://www.unique.be/nl",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"An agency providing a broad range of HR services in Belgium.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/unique-nv/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "group-company",
+     "stake": "",
+     "since": "",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "An agency providing a broad range of HR services in Belgium."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://recruit-holdings.com/en/about/group/",
+     "title": "Group companies",
+     "accessed": "2026-11-06",
+     "quote": "An agency providing a broad range of HR services in Belgium.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "staffmark-group-llc",
+   "name": "Staffmark Group, LLC",
+   "url": "https://www.staffmarkgroup.com/",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"An agency providing staffing services in the U.S., focused mainly on light industrial jobs.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/staffmark-group-llc/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "group-company",
+     "stake": "",
+     "since": "2011",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "An agency providing staffing services in the U.S., focused mainly on light industrial jobs."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://recruit-holdings.com/en/about/group/",
+     "title": "Group companies",
+     "accessed": "2026-11-06",
+     "quote": "An agency providing staffing services in the U.S., focused mainly on light industrial jobs.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "the-csi-companies-inc",
+   "name": "The CSI Companies, Inc.",
+   "url": "https://csicompanies.com/",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"A staffing company placing highly qualified talent across a number of industries in the U.S.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/the-csi-companies-inc/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "group-company",
+     "stake": "",
+     "since": "2010",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "A staffing company placing highly qualified talent across a number of industries in the U.S."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://recruit-holdings.com/en/about/group/",
+     "title": "Group companies",
+     "accessed": "2026-11-06",
+     "quote": "A staffing company placing highly qualified talent across a number of industries in the U.S.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "chandler-macleod-group-limited",
+   "name": "Chandler Macleod Group Limited",
+   "url": "https://www.chandlermacleod.com/",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"A staffing company providing a broad range of HR and outsourcing services predominantly in Australia\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/chandler-macleod-group-limited/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 655039,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "group-company",
+     "stake": "",
+     "since": "2015",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "A staffing company providing a broad range of HR and outsourcing services predominantly in Australia"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://recruit-holdings.com/en/about/group/",
+     "title": "Group companies",
+     "accessed": "2026-11-06",
+     "quote": "A staffing company providing a broad range of HR and outsourcing services predominantly in Australia",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "peoplebank-hong-kong",
+   "name": "Peoplebank Hong Kong",
+   "url": "https://www.peoplebank.com.hk/",
+   "domains": "",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"An agency specializing in IT and digital talent solutions in Hong Kong and Singapore\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/peoplebank-hong-kong/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "recruit",
+     "name": "Recruit Holdings Co., Ltd.",
+     "relation": "group-company",
+     "stake": "",
+     "since": "",
+     "source": "https://recruit-holdings.com/en/about/group/",
+     "quote": "An agency specializing in IT and digital talent solutions in Hong Kong and Singapore"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://recruit-holdings.com/en/about/group/",
+     "title": "Group companies",
+     "accessed": "2026-11-06",
+     "quote": "An agency specializing in IT and digital talent solutions in Hong Kong and Singapore",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "flexjobs",
+   "name": "FlexJobs",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "BOLD Holdings",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"acquires FlexJobs, the largest job search site for remote work.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/flexjobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "bold",
+     "name": "BOLD Holdings",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2023",
+     "source": "https://www.bold.com/about/",
+     "quote": "acquires FlexJobs, the largest job search site for remote work."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.bold.com/about/",
+     "title": "About Us - BOLD",
+     "accessed": "2026-11-06",
+     "quote": "acquires FlexJobs, the largest job search site for remote work.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "clearancejobs",
+   "name": "ClearanceJobs",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "DHI Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"ClearanceJobs is the leading marketplace for professionals with active U.S. security clearances.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/clearancejobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "dhi",
+     "name": "DHI Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.dhigroupinc.com",
+     "quote": "ClearanceJobs is the leading marketplace for professionals with active U.S. security clearances."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.dhigroupinc.com",
+     "title": "DHI Group home",
+     "accessed": "2026-11-06",
+     "quote": "ClearanceJobs is the leading marketplace for professionals with active U.S. security clearances.",
+     "quote_check": "unreachable"
+    }
+   ]
+  },
+  {
+   "id": "zarplata-ru",
+   "name": "Zarplata.ru",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "HeadHunter Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"Приобретение 100% платформы по поиску работу «Зарплата.ру»\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/zarplata-ru/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "headhunter",
+     "name": "HeadHunter Group",
+     "relation": "group-company",
+     "stake": "100",
+     "since": "",
+     "source": "https://investor.hh.ru",
+     "quote": "Приобретение 100% платформы по поиску работу «Зарплата.ру»"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://investor.hh.ru",
+     "title": "HeadHunter investor relations (company timeline)",
+     "accessed": "2026-11-06",
+     "quote": "Приобретение 100% платформы по поиску работу «Зарплата.ру»",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "hellowork-group",
+   "name": "Hellowork group",
+   "url": "https://www.hellowork-group.com",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "Advenn",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"A subsidiary of Advenn\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/hellowork-group/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 825690,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "advenn",
+     "name": "Advenn",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "",
+     "source": "https://www.hellowork-group.com/en/the-hellowork-group/",
+     "quote": "A subsidiary of Advenn"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.hellowork-group.com/en/the-hellowork-group/",
+     "title": "Hellowork group",
+     "accessed": "2026-11-06",
+     "quote": "A subsidiary of Advenn",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "caterer-com",
+   "name": "Caterer.com",
+   "url": "https://www.caterer.com",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group acquires Totaljobs, including Caterer.com and CWJobs\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/caterer-com/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 109901,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2012",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group acquires Totaljobs, including Caterer.com and CWJobs"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group acquires Totaljobs, including Caterer.com and CWJobs",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "bayard-advertising",
+   "name": "Bayard Advertising",
+   "url": "",
+   "domains": "",
+   "type": "recruiting-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group strengthens its recruitment marketing offering in the United States with the acquisition of Bayard Advertising.\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/bayard-advertising/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "recruiting-services"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2023",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group strengthens its recruitment marketing offering in the United States with the acquisition of Bayard Advertising."
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group strengthens its recruitment marketing offering in the United States with the acquisition of Bayard Advertising.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "careernet-de",
+   "name": "Careernet.de",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"Jobshop expands into Germany and other countries with the acquisition of Careernet.de\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/careernet-de/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "1999",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "Jobshop expands into Germany and other countries with the acquisition of Careernet.de"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "Jobshop expands into Germany and other countries with the acquisition of Careernet.de",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "irishjobs",
+   "name": "IrishJobs",
+   "url": "https://www.irishjobs.ie",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/irishjobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 99665,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "nijobs",
+   "name": "NIJobs",
+   "url": "https://www.nijobs.com",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/nijobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 545537,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "meinestadt-de",
+   "name": "meinestadt.de",
+   "url": "https://www.meinestadt.de",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/meinestadt-de/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 14459,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "hotelcareer",
+   "name": "Hotelcareer",
+   "url": "https://www.hotelcareer.de",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"These core brands each play a crucial role in our portfolio\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/hotelcareer/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 228012,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-core-brands/",
+     "quote": "These core brands each play a crucial role in our portfolio"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-core-brands/",
+     "title": "Our core brands",
+     "accessed": "2026-11-06",
+     "quote": "These core brands each play a crucial role in our portfolio",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobs-ie",
+   "name": "Jobs.ie",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/jobs-ie/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobsite",
+   "name": "Jobsite",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/jobsite/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "ictjobs",
+   "name": "ICTJobs",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/ictjobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "turijobs",
+   "name": "Turijobs",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/turijobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "yourcareergroup",
+   "name": "YourCareerGroup",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/yourcareergroup/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "careerjunction",
+   "name": "CareerJunction",
+   "url": "",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "",
+   "segment": "",
+   "parent": "The Stepstone Group",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\"",
+   "confidence": "listed-only",
+   "page": "https://jobboardlist.com/boards/careerjunction/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [
+    {
+     "id": "the-stepstone",
+     "name": "The Stepstone Group",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond"
+    }
+   ],
+   "scale": [],
+   "sources": [
+    {
+     "field": "owner_listing",
+     "url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok"
+    }
+   ]
   }
  ]
 }

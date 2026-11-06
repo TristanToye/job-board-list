@@ -120,7 +120,7 @@ def hold_phrase(h): return REL_LABEL[h["relation"]] + (f", {h['stake']}%" if h["
 SOURCES = collections.defaultdict(list)
 for _s in load("sources.csv"): SOURCES[_s["board_id"]].append(_s)
 FIELD_LABEL = {"existence":"Existence and description","api_status":"API access","partner_program":"Partner program","ingest_methods":"How jobs get in",
- "business_model":"Business model and pricing","parent":"Ownership","languages":"Languages","terms":"Terms of use","relationship":"Relationships","listed_by":"Listed by a third-party directory","note":"Note"}
+ "business_model":"Business model and pricing","parent":"Ownership","languages":"Languages","terms":"Terms of use","relationship":"Relationships","owner_listing":"Listed by its owner","listed_by":"Listed by a third-party directory","note":"Note"}
 LOGO_MANIFEST = json.loads((ROOT / "data" / "logos.json").read_text()) if (ROOT / "data" / "logos.json").exists() else {}
 def logo_info(b):
     m = LOGO_MANIFEST.get(b["id"]) or {}
@@ -196,7 +196,7 @@ def itemlist(v, depth):
 def conf_badge(c):
     if c == "seed-unverified": return '<span class="badge warn" title="No facts on this page have been checked against a primary source yet">Unverified</span>'
     if c == "secondary-sourced": return '<span class="badge" title="Facts come from a secondary source such as Wikipedia, not the board itself">Secondary source</span>'
-    if c == "listed-only": return '<span class="badge" title="Only confirmed as listed by another directory. Nothing else has been checked">Listed only</span>'
+    if c == "listed-only": return '<span class="badge" title="Only confirmed as listed by another party, such as a directory, a partner list or its owner. Nothing else has been checked">Listed only</span>'
     return '<span class="badge ok" title="Some facts are checked. See the sources list on this page">Partly verified</span>'
 def api_badge(s): return f'<span class="badge api-{e(s)}">{e(API_LABEL.get(s,s))}</span>'
 def chips(vals): return "".join(f'<span class="chip">{e(v)}</span>' for v in vals) or '<span class="muted">Not recorded</span>'
@@ -497,7 +497,7 @@ def owner_boards(oid):
     ids = list(dict.fromkeys([h["board_id"] for h in HOLD if h["owner_id"] == oid and h["board_id"] and h["relation"] != "former"] + [i for i, o in PARENT_OWNER.items() if o == oid]))
     return [b for i in ids for b in boards if b["id"] == i]
 def owner_lede(o, ncur, nb):
-    if ncur: return f'has {ncur} HR holdings recorded here, including {nb} job boards in this directory. Ownership is shown with the relationship, stake and year where a source states them.'
+    if ncur: return f'has {ncur} HR holdings recorded here, including {nb} entries in this directory. Ownership is shown with the relationship, stake and year where a source states them.'
     return f'is recorded as the parent of {nb} entries in this directory. No profile or holdings research has been done for it yet. The parent shown comes from each entry\'s own record, so check the entry page for its source.'
 def holding_li(h):
     nm = f'<a href="{e(h["holding_url"])}" rel="noopener nofollow" target="_blank">{e(h["holding_name"])}</a>' if h["holding_url"] else e(h["holding_name"])
@@ -530,7 +530,7 @@ for oid, o in OWNERS.items():
     if former: sections += "<h2>Formerly owned</h2><ul class=\"holdings\">" + "".join(holding_li(h) for h in former) + "</ul>"
     body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">Owners</a> / {e(o["name"])}</nav><h1>{e(o["name"])}: HR holdings</h1>'
             f'<p class="lede">{e(o["name"])}{" (" + e(country(o["country"])) + ")" if o["country"] else ""} {owner_lede(o, len(cur), nb)}</p>'
-            + profile_html + (f'<h2>Job boards in this directory</h2>' + table(ob, "../../") if ob else "") + sections
+            + profile_html + (f'<h2>Entries in this directory</h2>' + table(ob, "../../") if ob else "") + sections
             + f'<p class="muted small">Each holding is cited to a page and quote. Ownership changes often, so check the date. {("Owner website: " + e(o["url"])) if o["url"] else ""}</p>')
     ld = {"@context": "https://schema.org", "@type": "Organization", "name": o["name"], **({"url": o["url"]} if o["url"] else {}),
           **({"foundingDate": facts_o["founded"]["value"]} if facts_o.get("founded") else {}),
@@ -538,7 +538,7 @@ for oid, o in OWNERS.items():
     idx = len(cur) >= 3 or bool(facts_o)
     md_o = (f'# {o["name"]}: HR holdings\n\n' + (f'{facts_o["description"]["value"]} (own description, {facts_o["description"]["source_url"]})\n\n' if facts_o.get("description") else "")
             + "\n".join(f'- {lbl}: {facts_o[k]["value"]}' for k, lbl in (("hq_city", "Headquarters city"), ("hq_country", "Headquarters country"), ("founded", "Founded"), ("listing", "Listing"), ("employees", "Employees"), ("revenue", "Revenue")) if facts_o.get(k))
-            + (f'\n\n## Job boards in this directory\n\n' + "\n".join(f'- [{b["name"]}]({BASE}/boards/{b["id"]}/) ({b["type"]})' for b in ob) if ob else "")
+            + (f'\n\n## Entries in this directory\n\n' + "\n".join(f'- [{b["name"]}]({BASE}/boards/{b["id"]}/) ({b["type"]})' for b in ob) if ob else "")
             + (f'\n\n## Holdings\n\n' + "\n".join(f'- {h["holding_name"]}: {hold_phrase(h)}; {CAT_LABEL[h["category"]]}. Source: {h["source_url"]} "{h["quote"]}"' for h in cur if h["category"] in CAT_LABEL) if cur else "")
             + (f'\n\n## Formerly owned\n\n' + "\n".join(f'- {h["holding_name"]}: {h["quote"]} ({h["source_url"]})' for h in former) if former else "")
             + f'\n\nCanonical page: {BASE}/owners/{oid}/\n')

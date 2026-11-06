@@ -5,7 +5,7 @@ Enterprise AI for the Data Economy. (own description, https://www.veritone.com)
 - Headquarters city: Irvine
 - Headquarters country: US
 
-## Job boards in this directory
+## Entries in this directory
 
 - [Broadbean](https://jobboardlist.com/boards/broadbean/) (multiposting)
 

@@ -8,9 +8,17 @@ Randstad is the world’s leading talent company and a partner of choice to clie
 - Listing: Euronext Amsterdam: RAND
 - Revenue: EUR 24.122 billion (FY2024)
 
-## Job boards in this directory
+## Entries in this directory
 
 - [Monster](https://jobboardlist.com/boards/monster/) (board)
+- [Spherion](https://jobboardlist.com/boards/spherion/) (staffing)
+- [Vedior](https://jobboardlist.com/boards/vedior/) (staffing)
+- [Torc](https://jobboardlist.com/boards/torc/) (hr-tech)
+- [Yacht](https://jobboardlist.com/boards/yacht/) (staffing)
+- [Expectra](https://jobboardlist.com/boards/expectra/) (staffing)
+- [Randstad Enterprise](https://jobboardlist.com/boards/randstad-enterprise/) (recruiting-services)
+- [Randstad Digital](https://jobboardlist.com/boards/randstad-digital/) (staffing)
+- [Randstad Professional](https://jobboardlist.com/boards/randstad-professional/) (staffing)
 
 ## Holdings
 

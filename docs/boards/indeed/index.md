@@ -34,6 +34,7 @@ Indeed is an aggregator and board based in United States. It was founded in 2004
 - [Wikidata: Indeed](https://www.wikidata.org/wiki/Q1045367) (Existence and description, checked 2026-11-05): "Wikidata: instance of employment website"
 - [Indeed Hiring Lab about page](https://hiringlab.indeed.com/about) (Existence and description, checked 2026-11-06): "All data used by Hiring Lab are anonymized and aggregated to show broad trends across Indeed's 60 worldwide labor markets."
 - [Recruit Holdings home](https://recruit-holdings.com/en/) (Ownership, checked 2026-11-06): "key subsidiaries including Indeed, Glassdoor, Recruit, and RGF Staffing"
+- [Group companies](https://recruit-holdings.com/en/about/group/) (Ownership, checked 2026-11-06): "A job distribution platform which connects a network of Applicant Tracking Systems"
 
 Canonical page: https://jobboardlist.com/boards/indeed/
 Last updated: 2026-11-06

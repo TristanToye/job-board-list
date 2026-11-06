@@ -4,7 +4,7 @@ SMG Swiss Marketplace Group is a digital pioneer that simplifies people's lives 
 
 
 
-## Job boards in this directory
+## Entries in this directory
 
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/) (board)
 

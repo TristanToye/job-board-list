@@ -4,7 +4,7 @@ Adevinta is a leading online classifieds group and champion for sustainable comm
 
 - Employees: around 8,100 (year not stated)
 
-## Job boards in this directory
+## Entries in this directory
 
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/) (board)
 
