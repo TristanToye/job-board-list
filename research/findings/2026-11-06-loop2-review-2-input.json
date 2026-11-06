@@ -1,0 +1,791 @@
+{
+ "round": 2,
+ "entries": [
+  {
+   "id": "ashby",
+   "name": "Ashby",
+   "url": "https://www.ashbyhq.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "public-open",
+    "api_docs_url": "https://developers.ashbyhq.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "successfactors",
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "DE",
+    "api_status": "public-key",
+    "api_docs_url": "https://api.sap.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "breezy",
+   "name": "Breezy HR",
+   "url": "https://breezy.hr",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "public-key",
+    "api_docs_url": "https://developer.breezy.hr",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "manpowergroup",
+   "name": "ManpowerGroup",
+   "url": "https://www.manpowergroup.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "languages_supported": "en"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage shows English as the only language option; no headquarters, pricing, API or partner statement found. /en/about-us returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "russell-reynolds-associates",
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "type": "recruiting-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "languages_supported": "en;zh;ja"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage lists English, Chinese and Japanese options and a New York office; no headquarters statement, parent, pricing or API found. /en/about-us returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "lhh",
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states the English language selector only; headquarters, pricing, API and partner program not stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "first-advantage",
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://fadv.com/partners/",
+    "ingest_methods": "ATS integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status",
+    "note": "Homepage, partner page and language selector read; the site mentions flexible APIs without stating how to get access, and no headquarters, parent or pricing statement found. /about/ returned HTTP 404 and /developers/ returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "almalaurea",
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "type": "niche-board",
+   "parent": "Consorzio AlmaLaurea",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Consorzio AlmaLaurea"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states parent Consorzio AlmaLaurea and IT/EN switcher; no address, pricing, API or partner program stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "codeable",
+   "name": "Codeable",
+   "url": "https://codeable.io",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+    "note": "Homepage menu lists a Partner program; no headquarters, languages or API for postings stated; /employers returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "revelio-labs",
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;partner_program;ingest_methods",
+    "note": "Homepage states flexible APIs exist; no headquarters, pricing model or partner program stated, and /developers returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "jobware",
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and employer page read; none of the missing facts are stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "kelly-services",
+   "name": "Kelly Services",
+   "url": "https://www.kellyservices.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage read by fetch and browser states none of the missing facts; the about page returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "careerminds",
+   "name": "Careerminds",
+   "url": "https://www.careerminds.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and about page show a country selector and service coverage in 80+ languages; no headquarters, parent, site language options, API or partner program stated. Only a partnership invitation appears."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "beamery",
+   "name": "Beamery",
+   "url": "https://beamery.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://beamery.com/partners/",
+    "ingest_methods": "ATS integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;parent",
+    "note": "Partner program and ATS integrations stated; no public API mention found, /developers returned 404, and no headquarters, languages or pricing stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "eightfold-ai",
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://eightfold.ai/partners"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;parent;ingest_methods",
+    "note": "Partners page states partners work alongside teams to deploy the platform; homepage and footer state no headquarters, language options, pricing or API."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "jobsite",
+   "name": "Jobsite",
+   "url": "https://www.jobsite.co.uk",
+   "type": "board",
+   "parent": "StepStone",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "StepStone"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status",
+    "note": "About page names StepStone as parent; homepage and employers page returned HTTP 503."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,773 @@
+{
+ "round": 2,
+ "entries": [
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "url": "https://www.greenhouse.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "public-open",
+    "api_docs_url": "https://developers.greenhouse.io/job-board.html",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "personio",
+   "name": "Personio",
+   "url": "https://www.personio.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "DE",
+    "api_status": "public-open",
+    "api_docs_url": "https://developer.personio.de",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "jazzhr",
+   "name": "JazzHR",
+   "url": "https://www.jazzhr.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "public-key",
+    "api_docs_url": "https://www.jazzhr.com/api",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "pinpoint",
+   "name": "Pinpoint",
+   "url": "https://www.pinpointhq.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "UK",
+    "api_status": "public-key",
+    "api_docs_url": "https://developers.pinpointhq.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "hays",
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Region and language selector is present; the Polish footer names only a Warsaw-registered subsidiary and no employer pricing or API is stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "egon-zehnder",
+   "name": "Egon Zehnder",
+   "url": "https://www.egonzehnder.com",
+   "type": "recruiting-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "languages_supported": "en;de;zh;ja"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Language menu confirmed; /about-us states operating in 37 countries but no headquarters or parent."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "kickresume",
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Footer language selector found; no employer pricing, API, parent or headquarters country stated on homepage."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "novoresume",
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "DK"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and pricing page read; footer gives a Copenhagen address and language options; pricing covers job seekers only."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "prospects",
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "type": "niche-board",
+   "parent": "Jisc",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Jisc"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+    "note": "Homepage states employer advertising prices and a registered office in Bristol, not a headquarters; no API or partner program stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "gi-group-holding",
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "IT"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Footer states the Milan headquarters; country selector only, and no pricing, API or partner program stated on the pages read."
+   },
+   "attempts": [
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "topresume",
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;partner_program;ingest_methods",
+    "note": "Homepage covers job-seeker services and a footer Partnerships link with no details; /about-us and /employers returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "lightcast",
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and partners page state no headquarters, pricing or formal partner program; /api and /developers returned HTTP 404; the API Status footer link is not an API statement."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "kwork",
+   "name": "Kwork",
+   "url": "https://www.kwork.com",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage read in the browser and /api returned 404; none of the missing facts are stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "velvetjobs",
+   "name": "VelvetJobs",
+   "url": "https://www.velvetjobs.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage read; no language, location, pricing, API or partner statement found. /pricing returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "taskrabbit",
+   "name": "TaskRabbit",
+   "url": "https://www.taskrabbit.com",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "partner_program": "yes"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+    "note": "Homepage footer partner link found; about page and homepage state no headquarters, parent or language options; no API stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "harver",
+   "name": "Harver",
+   "url": "https://harver.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://harver.com/integrations"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+    "note": "Integrations page confirms ATS partners; no headquarters, pricing, language options or API stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  }
+ ]
+}
