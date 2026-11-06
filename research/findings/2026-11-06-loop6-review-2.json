@@ -1,0 +1,149 @@
+{
+  "round": 6,
+  "orders": [
+    {
+      "id": "workable",
+      "name": "Workable",
+      "url": "https://www.workable.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "low", "business_model": "high"},
+      "try_pages": ["https://www.workable.com/pricing"],
+      "reason": "Homepage structured data gives foundingDate 2012 and text says Since 2012; the pricing page was already read in review. Parent is not mentioned. No language menu or About link seen on the homepage.",
+      "flags": ["founded and business_model are still listed as missing although the review found both", "Structured data lists a US address first (Norwood, Massachusetts) while hq_country is recorded as GR; check hq_country"]
+    },
+    {
+      "id": "australian-bureau-of-statistics",
+      "name": "Australian Bureau of Statistics",
+      "url": "https://www.abs.gov.au",
+      "likelihood": {"hq_country": "medium", "founded": "low", "parent": "low", "languages": "low", "business_model": "none", "partner_program": "low", "ingest_methods": "none"},
+      "try_pages": ["https://www.abs.gov.au/about/contact-us"],
+      "reason": "Government statistics agency. The Contact us link was seen and may give the office location, which earlier attempts did not read. Earlier attempts already covered the About pages for founding and parent. No pricing or partner program applies.",
+      "flags": []
+    },
+    {
+      "id": "nomis",
+      "name": "Nomis",
+      "url": "https://www.nomisweb.co.uk",
+      "likelihood": {"founded": "low", "languages": "low", "business_model": "low", "api_status": "high", "partner_program": "low", "ingest_methods": "none"},
+      "try_pages": ["https://www.nomisweb.co.uk/api"],
+      "reason": "Footer links to /api, which the review read at /api/v01/help. api_status has no attempt yet. No About or Partners link seen; the homepage says the service is provided by the Office for National Statistics.",
+      "flags": []
+    },
+    {
+      "id": "governmentjobs-com",
+      "name": "GovernmentJobs.com",
+      "url": "https://www.governmentjobs.com/",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.governmentjobs.com/home/applicationguide"],
+      "reason": "Footer shows Company Info, Help and legal links only. No Developers, API, Partners, Pricing or language link on the homepage.",
+      "flags": []
+    },
+    {
+      "id": "randstad",
+      "name": "Randstad",
+      "url": "https://www.randstad.com",
+      "likelihood": {"parent": "high", "languages": "medium", "business_model": "none", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.randstad.com/investor-relations/", "https://www.randstad.com/find-randstad-in-your-country/"],
+      "reason": "Footer text carries the Randstad N.V. trademark and the investor relations section is linked, which should describe the group structure. A country selector is linked, but no language menu was seen.",
+      "flags": []
+    },
+    {
+      "id": "nijobs",
+      "name": "NIJobs",
+      "url": "https://www.nijobs.com",
+      "likelihood": {"hq_country": "none", "founded": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "The site returned HTTP 503 on every attempt, including this one, so no page was read. Not worth another attempt until it responds.",
+      "flags": ["Unreachable in review and in this scout pass; recorded parent The Stepstone Group could not be checked"]
+    },
+    {
+      "id": "challenger-gray-christmas",
+      "name": "Challenger, Gray & Christmas",
+      "url": "https://www.challengergray.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Header navigation has only About Us and Our Team, both already checked. No Partners, Pricing, Developers or API link. Outplacement firm with no job feed.",
+      "flags": ["founded 1966 is only partially verified: the quote names a founder but not the firm", "Review lists parent as not found, yet parent is not in the missing list, so the record and the missing list disagree"]
+    },
+    {
+      "id": "korn-ferry",
+      "name": "Korn Ferry",
+      "url": "https://www.kornferry.com",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "none"},
+      "try_pages": ["https://www.kornferry.com/about-us/leadership-team", "https://www.kornferry.com/about-us/partnerships/la28-games"],
+      "reason": "Leadership and About links seen, but the earlier review already read the homepage and About Us with no HQ or parent. The partnership link is an Olympics sponsorship, not a partner program. No Developers, Pricing or language link.",
+      "flags": []
+    },
+    {
+      "id": "zarplata-ru",
+      "name": "Zarplata.ru",
+      "url": "https://zarplata.ru/",
+      "likelihood": {"languages": "low", "business_model": "medium", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://zarplata.ru/article/mediakit?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=main"],
+      "reason": "Footer links to a media kit and an employer page; a job board like this usually publishes employer tariffs, but no pricing link was seen. No developer or API link seen.",
+      "flags": []
+    },
+    {
+      "id": "sirc-canadian-sport",
+      "name": "Canadian Sport (SIRC)",
+      "url": "https://sirc.ca/",
+      "likelihood": {"hq_country": "none", "founded": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "A Cloudflare bot challenge page was returned by the fetch tool (403) and by the headless reader. The challenge was not bypassed, so no page content was read.",
+      "flags": ["Blocked by a bot challenge; recorded primary_language and languages_supported are unverified", "review_history is null, so the entry was never checked"]
+    },
+    {
+      "id": "charityvillage",
+      "name": "CharityVillage",
+      "url": "https://charityvillage.com",
+      "likelihood": {"founded": "medium", "parent": "low", "partner_program": "low"},
+      "try_pages": [],
+      "reason": "Header navigation lists Employer Services and Resources without URLs, and the 30-year banner gives no year. An About page is usual for a site like this but was not seen.",
+      "flags": ["No review history; the record has not been checked"]
+    },
+    {
+      "id": "berlin-startup-jobs",
+      "name": "Berlin Startup Jobs",
+      "url": "https://www.berlinstartupjobs.com/",
+      "likelihood": {"hq_country": "medium", "founded": "high", "parent": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://berlinstartupjobs.com/about/"],
+      "reason": "Homepage text says Founded in 2011 and links to an About page, which may also state the location. Advertise, Partners, Pricing and Developers links were not seen.",
+      "flags": ["founded is listed as missing, but the site states Founded in 2011"]
+    },
+    {
+      "id": "kwork",
+      "name": "Kwork",
+      "url": "https://www.kwork.com",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "none"},
+      "try_pages": ["https://kwork.com/for-sellers"],
+      "reason": "Header links only: Sign Up, For sellers and categories. The footer was not in the excerpt. Seller fee terms usually sit near the sellers pages, so business_model is the one field worth another look.",
+      "flags": []
+    },
+    {
+      "id": "craigslist",
+      "name": "Craigslist",
+      "url": "https://www.craigslist.org",
+      "likelihood": {"hq_country": "medium", "parent": "low", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "The homepage redirects to a regional page, so no About, Help or footer links were read. A board like this usually states its location and posting fees on About or Help pages, but none was linked in what was read.",
+      "flags": ["Homepage redirects through geo.craigslist.org to www.craigslist.org/area/omaha, so site navigation was not read"]
+    },
+    {
+      "id": "kleinanzeigen",
+      "name": "Kleinanzeigen",
+      "url": "https://www.kleinanzeigen.de/",
+      "likelihood": {"hq_country": "high", "parent": "high", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://themen.kleinanzeigen.de/ueber-uns/", "https://themen.kleinanzeigen.de/mit-pro-umsatz-steigern/", "https://www.adevinta.com/brands"],
+      "reason": "Ueber uns (About) link seen. The footer names Marktplaats B.V. and a Partner section links Adevinta. A PRO package page for business customers is linked, which covers pricing.",
+      "flags": ["parent is recorded as empty, but the footer names Marktplaats B.V. and an Adevinta link is present", "founded 2009 is recorded but not verified; the footer copyright range 2005-2026 is not a founding statement"]
+    },
+    {
+      "id": "zippia",
+      "name": "Zippia",
+      "url": "https://www.zippia.com/",
+      "likelihood": {"hq_country": "high", "parent": "medium", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.zippia.com/about-us/"],
+      "reason": "About Us link seen. A quote on the site describes Zippia as a San Mateo, California-based job search site, which points to the US for hq_country.",
+      "flags": ["The San Mateo location comes from a third-party press quote on the site, not a company statement"]
+    }
+  ]
+}

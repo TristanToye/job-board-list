@@ -1,0 +1,149 @@
+{
+  "round": 6,
+  "orders": [
+    {
+      "id": "u-s-bureau-of-labor-statistics",
+      "name": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov",
+      "likelihood": {"founded": "high", "languages": "low", "business_model": "low", "partner_program": "low"},
+      "try_pages": ["https://www.bls.gov/about-bls/home.htm", "https://www.bls.gov/audience/developers.htm"],
+      "reason": "About BLS is linked from the Home menu; the attempt log already found the founding year there, so it only needs copying into the record. Developers and Public Data API pages are linked. No Partners, Pricing or language selector seen.",
+      "flags": ["Attempt log records founded 1884 found at about-bls/home.htm, but the record has no founded value."]
+    },
+    {
+      "id": "o-net",
+      "name": "O*NET",
+      "url": "https://www.onetonline.org",
+      "likelihood": {"hq_country": "low", "founded": "low", "languages": "low", "business_model": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.doleta.gov/programs/onet/eta_default.cfm"],
+      "reason": "Homepage links O*NET Web Services and About pages, which earlier attempts already read. The Partner sites section links the Department of Labor program page, which is the only unread page linked. No Pricing, Partners or language selector; the Spanish link goes to a separate site (miproximopaso.org).",
+      "flags": []
+    },
+    {
+      "id": "workday",
+      "name": "Workday Recruiting",
+      "url": "https://www.workday.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "high", "business_model": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.workday.com/en-us/company/about-workday/our-story.html", "https://www.workday.com/en-us/choose-country-region.html", "https://developer.workday.com/about"],
+      "reason": "Our Story is linked from About Workday and holds the timeline. The region chooser is linked from the United States (English) label and lists the language options. Developer site is linked in the footer. No Pricing link seen.",
+      "flags": ["Review note records the founders and a 2005 founding year on the Our Story page and 12 language options in the region chooser, yet founded and languages are still missing from the record.", "parent is blank; if the Our Story page confirms independence, the record should say so rather than leave it empty."]
+    },
+    {
+      "id": "clearancejobs",
+      "name": "ClearanceJobs",
+      "url": "https://www.clearancejobs.com",
+      "likelihood": {"founded": "high", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://about.clearancejobs.com/employers/products/recruitment-solution", "https://about.clearancejobs.com/employers/request-demo", "https://about.clearancejobs.com/"],
+      "reason": "Employers menu links the recruitment solution and request-demo pages, which may say how employers pay. The About page is linked and gives the founding year. No Developers, API, Partners or Pricing link seen; no language selector.",
+      "flags": ["Review note says the founding year 2002 is on the About page, yet founded is still missing from the record."]
+    },
+    {
+      "id": "the-adecco-group",
+      "name": "The Adecco Group",
+      "url": "https://www.adecco.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Entry homepage mentions 62 countries but has no Developers, API, Partners, Pricing or language selector. The group site footer links Investors, which earlier attempts already read.",
+      "flags": ["Entry URL is adecco.com but the group content used for sourcing is on adeccogroup.com; the source domain should be recorded."]
+    },
+    {
+      "id": "caterer-com",
+      "name": "Caterer.com",
+      "url": "https://www.caterer.com",
+      "likelihood": {"hq_country": "none", "founded": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 503 on my fetch as well as on the two review attempts. No page content could be read, so nothing is worth another attempt for now.",
+      "flags": ["Parent 'The Stepstone Group' could not be checked against any page because the site is unreachable."]
+    },
+    {
+      "id": "national-career-service",
+      "name": "National Career Service",
+      "url": "https://www.ncs.gov.in",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.ncs.gov.in/about-us", "https://www.ncs.gov.in/jobseeker-list"],
+      "reason": "Footer links About us (already read) and jobseeker-list under For Employers, which was not read. The Employers menu has no destination link. No Developers, API, Partners or language selector seen. The jobseeker-list URL was resolved from a relative link.",
+      "flags": []
+    },
+    {
+      "id": "hirevue",
+      "name": "HireVue",
+      "url": "https://www.hirevue.com",
+      "likelihood": {"parent": "low", "languages": "low", "business_model": "low", "api_status": "medium"},
+      "try_pages": ["https://www.hirevue.com/platform/integrations", "https://www.hirevue.com/about"],
+      "reason": "Platform menu links Integrations, which is the recorded partner page and may describe API access. About us and Press & News are linked. No Developers, API, Partners or Pricing link seen; no language selector.",
+      "flags": []
+    },
+    {
+      "id": "robert-half",
+      "name": "Robert Half",
+      "url": "https://www.roberthalf.com",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.roberthalf.com/us/en/find-jobs/partner"],
+      "reason": "About, Locations, Investor Center and hire-talent partner pages were already read without a result. The find-jobs partner page is linked from the homepage and was not read. No Developers or API link seen.",
+      "flags": ["Review note says no country or language selector appears in raw text, but the footer on my fetch showed a country and language selector (United States - English, about 40 other options). Check the raw text before relying on the note."]
+    },
+    {
+      "id": "impact-group",
+      "name": "IMPACT Group",
+      "url": "https://www.impactgrouphr.com",
+      "likelihood": {"parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://impactgrouphr.com/about/history/"],
+      "reason": "History page is linked from About and may name an owner; it was read earlier only for the founding year. No Partners, Developers, API, Pricing or language selector seen.",
+      "flags": []
+    },
+    {
+      "id": "jobijoba",
+      "name": "Jobijoba",
+      "url": "https://www.jobijoba.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "high", "business_model": "medium", "ingest_methods": "high"},
+      "try_pages": ["https://www.hellowork-group.com/fr/", "https://www.jobijoba.com/fr/affiliation-offres-emploi", "https://magnet.work", "https://recruteur.hellowork.com/fr/"],
+      "reason": "Corporate link is labelled Hellowork Group. Programme d'affiliation is linked and is the recorded partner and API docs page, so it likely describes how offers are fed. Employer services link to magnet.work and the recruiter site. Country sites are linked in the footer.",
+      "flags": ["Corporate link names Hellowork Group but the record's parent is blank; confirm on the group page before recording it."]
+    },
+    {
+      "id": "almalaurea",
+      "name": "AlmaLaurea",
+      "url": "https://www.almalaurea.it/",
+      "likelihood": {"languages": "high", "founded": "medium", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.almalaurea.it/en", "https://www.almalaurea.it/chi-siamo/sistema-e-struttura", "https://www.almalaurea.it/chi-siamo/organizzazione"],
+      "reason": "EN link is linked from the homepage. The Chi siamo sub-pages sistema-e-struttura and organizzazione are linked and were not read in the attempt log, so they may give the founding year. The services page was already read without a pricing statement.",
+      "flags": ["Attempt log records languages found (IT/EN switcher verified), yet languages is still missing from the record."]
+    },
+    {
+      "id": "breezy",
+      "name": "Breezy HR",
+      "url": "https://breezy.hr",
+      "likelihood": {"founded": "low", "parent": "low", "languages": "low"},
+      "try_pages": ["https://breezy.hr/about"],
+      "reason": "About is linked in the Why Breezy menu, and the review note says it and the homepage give no founding year. No language selector or parent statement seen. Pricing and Developer API pages are linked but do not hold these fields.",
+      "flags": []
+    },
+    {
+      "id": "catho",
+      "name": "Catho",
+      "url": "https://www.catho.com.br",
+      "likelihood": {"founded": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 403 on my fetch and on the headless reader, so the site is blocked to this tooling and no links could be read.",
+      "flags": ["Site is blocked to this reader; none of the missing fields could be checked."]
+    },
+    {
+      "id": "kalaydo",
+      "name": "Kalaydo",
+      "url": "https://www.kalaydo.de/",
+      "likelihood": {"hq_country": "none", "parent": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 403 and the headless reader shows 'not available in your country', so the site is blocked from this location and no links could be read.",
+      "flags": ["Recorded founded 2006 could not be checked because the site is not readable from here."]
+    },
+    {
+      "id": "subito",
+      "name": "Subito",
+      "url": "https://www.subito.it/",
+      "likelihood": {"hq_country": "low", "parent": "medium", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://aziende.subito.it/", "https://impresapiu.subito.it/shops"],
+      "reason": "Homepage links Subito per le Aziende and Negozi e Aziende, which likely explain the business model and may cover how dealer listings are fed. The owner is usually named on a business or legal page, which was not linked from the homepage text read. No Developers, API, Partners or language selector seen.",
+      "flags": []
+    }
+  ]
+}
