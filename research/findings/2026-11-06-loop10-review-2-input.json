@@ -1,0 +1,546 @@
+{
+ "round": 10,
+ "entries": [
+  {
+   "id": "phenom",
+   "name": "Phenom",
+   "url": "https://www.phenom.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "partner_program": "yes"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;parent",
+    "note": "About page and homepage read. No founding year, parent or owner stated. Copyright line names Phenom People, Inc., which is the company itself."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.phenom.com/about;https://www.phenom.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.phenom.com/about;https://www.phenom.com/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "government-e-employment-system",
+   "name": "Government E-Employment System",
+   "url": "https://eservices.mcs.gov.sa/Jadara3/(S(loocp4m5hffrcstzv5gtsuwp))/Users/Index.aspx",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "media-job-search-canada",
+   "name": "Media Job Search Canada",
+   "url": "https://www.mediajobsearchcanada.com/",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "occ-mundial",
+   "name": "OCC Mundial",
+   "url": "https://www.occ.com.mx",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "MX",
+    "primary_language": "es",
+    "languages_supported": "es",
+    "business_model": "subscription"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "wantedly",
+   "name": "Wantedly",
+   "url": "https://www.wantedly.com/",
+   "type": "social-network+board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "",
+    "note": "The try_page redirects (301) to lp.wantedly.com/visit/material/1, a page titled as a Wantedly service overview; it mentions pricing structure but states no fees. The home page gives the unlimited postings and zero success fee quote, so the "
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://service-terms.wantedly.com/privacy_policy/ja_JP"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.wantedly.com/about/list;https://www.wantedly.com/;https://www.wantedly.com/about/features;https://www.wantedly.com/external_links/contact_to_business_team"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.wantedly.com/about/list;https://www.wantedly.com/"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.wantedly.com/external_links/serviceguide_download;https://lp.wantedly.com/visit/material/1;https://www.wantedly.com/"
+    }
+   ]
+  },
+  {
+   "id": "talentegg",
+   "name": "TalentEgg",
+   "url": "https://talentegg.ca",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "taleo",
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "partner-only",
+    "partner_program": "yes"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "workeer",
+   "name": "Workeer",
+   "url": "https://workeer.de/de",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "DE",
+    "founded": "2015"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Address on Impressum page gives Berlin, Germany. Language menu shows Deutsch and Englisch. Preise page describes monthly packages with no minimum term. Prices are quoted from a summarizing fetch and should be checked against the raw page."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://workeer.de/de/impressum"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://workeer.de/de;https://workeer.de/en"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://workeer.de/de/preise"
+    }
+   ]
+  },
+  {
+   "id": "eurostat",
+   "name": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat",
+   "type": "lmi",
+   "parent": "European Commission",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "parent": "European Commission",
+    "api_docs_url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;ingest_methods",
+    "note": "Founding year, parent (European Commission), languages and the public Statistics API were found. The About us, History and Web services pages do not state a headquarters location. The site does not say how jobs get in; the Job opportunities"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://ec.europa.eu/eurostat/web/main/about-us;https://ec.europa.eu/eurostat/web/main/about-us/history;https://ec.europa.eu/eurostat/data/web-services"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://ec.europa.eu/eurostat/web/main/about-us/history"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://ec.europa.eu/eurostat/web/main/about-us/history;https://ec.europa.eu/eurostat/web/main/about-us"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://ec.europa.eu/eurostat/web/main/about-us"
+    },
+    {
+     "field": "api_status",
+     "outcome": "found",
+     "pages": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started;https://ec.europa.eu/eurostat/data/web-services"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": "https://ec.europa.eu/eurostat/web/main/about-us;https://ec.europa.eu/eurostat/data/web-services"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "computrabajo",
+   "name": "Computrabajo",
+   "url": "https://www.computrabajo.com",
+   "type": "board",
+   "parent": "DGNET LTD.",
+   "missing": [
+    "founded",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CO",
+    "parent": "DGNET LTD.",
+    "primary_language": "es",
+    "languages_supported": "es;pt",
+    "business_model": "subscription/freemium"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Legal notice on the entry's own domain names DGNET LTD. as the owner of the site."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.computrabajo.com/legal.html"
+    }
+   ]
+  },
+  {
+   "id": "careerbeacon",
+   "name": "CareerBeacon",
+   "url": "https://www.careerbeacon.com",
+   "type": "board",
+   "parent": "Brunswick News",
+   "missing": [
+    "founded",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "parent": "Brunswick News",
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "tecnoempleo",
+   "name": "Tecnoempleo",
+   "url": "https://www.tecnoempleo.com/",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "business_model": "free first job offer",
+    "ingest_methods": "integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;api_status;partner_program",
+    "note": "Homepage states languages, free first offer and integrations; linked API page returned HTTP 404 at the guessed URL."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "lever",
+   "name": "Lever",
+   "url": "https://www.lever.co",
+   "type": "ats",
+   "parent": "Employ Inc.",
+   "missing": [
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "Employ Inc.",
+    "api_status": "public-open",
+    "api_docs_url": "https://github.com/lever/postings-api",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;business_model",
+    "note": "Pricing page says pricing is available upon request and scales with team size, with no plan type or prices, so business_model is not recorded. No founding year on lever.co. The employinc.com company page is a different domain and states Sin"
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.lever.co/pricing"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://www.lever.co/pricing"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "bamboohr",
+   "name": "BambooHR",
+   "url": "https://www.bamboohr.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "founded": "2008",
+    "business_model": "free trial, prices by quote, no list prices shown",
+    "api_status": "public-key",
+    "api_docs_url": "https://documentation.bamboohr.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "parent",
+    "note": "About BambooHR and homepage were read; neither names an owner, parent or controlling investor."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.bamboohr.com/about-bamboohr/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.bamboohr.com/about-bamboohr/;https://www.bamboohr.com/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.bamboohr.com/pricing/;https://www.bamboohr.com"
+    }
+   ]
+  },
+  {
+   "id": "trovolavoro",
+   "name": "Trovolavoro",
+   "url": "https://trovolavoro.com/",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "unijobs",
+   "name": "Unijobs",
+   "url": "https://www.unijobs.it/",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  }
+ ]
+}

@@ -1,0 +1,607 @@
+{
+ "round": 10,
+ "entries": [
+  {
+   "id": "lavoro-gov-it-ministry-of-labour",
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "type": "government",
+   "parent": "Ministero del Lavoro e delle Politiche Sociali",
+   "missing": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "parent": "Ministero del Lavoro e delle Politiche Sociali"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;ingest_methods",
+    "note": "Country inferred from the Italian government link on the home page. Ministry history page read with fetch: no founding date or seat. No job posting or ingest information on the pages read. Cliclavoro (http://www.cliclavoro.gov.it/) was not "
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.lavoro.gov.it/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.lavoro.gov.it/ministro-e-ministero/Pagine/default;https://www.lavoro.gov.it/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": "https://www.lavoro.gov.it/;https://www.lavoro.gov.it/ministro-e-ministero/Pagine/default"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "office-for-national-statistics",
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "type": "lmi",
+   "parent": "UK Statistics Authority",
+   "missing": [
+    "founded",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "UK Statistics Authority",
+    "primary_language": "en",
+    "languages_supported": "en;cy"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country",
+    "note": "About and contact pages read. Office locations listed (Newport, Titchfield, London, Darlington, Manchester, Edinburgh, Belfast) but no headquarters stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.ons.gov.uk/aboutus;https://www.ons.gov.uk/aboutus/contactus"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.ons.gov.uk/aboutus;https://www.ons.gov.uk/aboutus/whatwedo;https://www.ons.gov.uk/"
+    }
+   ]
+  },
+  {
+   "id": "z-gis-geoinformatik-stellenb-rse",
+   "name": "Z_GIS Geoinformatik Stellenbörse",
+   "url": "https://www.plus.ac.at/geoinformatik/jobs/",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "gulftalent",
+   "name": "GulfTalent",
+   "url": "https://www.gulftalent.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "AE",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "subscription"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "find-an-apprenticeship",
+   "name": "Find an Apprenticeship",
+   "url": "https://www.findapprenticeship.service.gov.uk",
+   "type": "government",
+   "parent": "Department for Education (DfE)",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Department for Education (DfE)"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Terms and conditions page names DfE as the service owner. The gov.uk privacy notice was read but is off the entry domain and is not cited. Get-help page names no owner."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.findapprenticeship.service.gov.uk/Home/terms-and-conditions;https://www.findapprenticeship.service.gov.uk/Home/get-help;https://www.gov.uk/government/publications/privacy-information-key-stage-4-and-5-and-adult-education/privacy-information-key-stage-4-and-5-and-adult-education"
+    }
+   ]
+  },
+  {
+   "id": "jobboom",
+   "name": "Jobboom",
+   "url": "https://www.jobboom.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "primary_language": "fr",
+    "languages_supported": "fr;en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "right-management",
+   "name": "Right Management",
+   "url": "https://www.right.com",
+   "type": "outplacement",
+   "parent": "ManpowerGroup",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "ManpowerGroup"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Home, contact and solutions pages read in raw text. Parent (ManpowerGroup) and English language shown. No headquarters or founding year on the pages. The try_pages listed manpowergroup.com, a different domain, so it was not used as a source"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.right.com/;https://www.right.com/en/contact-us;https://www.right.com/en/solutions"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.right.com/;https://www.right.com/en/contact-us;https://www.right.com/en/solutions"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.right.com/"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.right.com/;https://www.right.com/en/contact-us"
+    }
+   ]
+  },
+  {
+   "id": "esl-cafe",
+   "name": "ESL Cafe",
+   "url": "https://www.eslcafe.com/job-center",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Advertising price table on the Job Center advertising page. The Post a Job link goes to a login/checkout page, which was not read, so per-post pricing for job listings is not established."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.eslcafe.com/advertisements/job-center"
+    }
+   ]
+  },
+  {
+   "id": "sistema-nacional-de-emprego-sine",
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+   "type": "government",
+   "parent": "Ministério do Trabalho e Emprego (MTE)",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "hq_country": "BR",
+    "parent": "Ministério do Trabalho e Emprego (MTE)"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "ingest_methods",
+    "note": "Parent is the Ministry of Labour and Employment per the ministry page listing the service. hq_country BR is supported only by the gov.br portal header 'Serviços e Informações do Brasil' plus the service's own Brazilian context. The service "
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego;https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine;https://www.gov.br/governodigital/pt-br/dados-abertos"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "randstad-digital",
+   "name": "Randstad Digital",
+   "url": "https://www.randstaddigital.com/",
+   "type": "staffing",
+   "parent": "Randstad",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "NL",
+    "parent": "Randstad"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;partner_program",
+    "note": "Language menu shows en, fr, de. About page and home page do not state a founding year. Partnerships page has the heading our partnership ecosystem but does not state a partner program, so partner_program is recorded as unknown."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.randstaddigital.com/about/;https://www.randstaddigital.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.randstaddigital.com/"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": "https://www.randstaddigital.com/about/partnerships/"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "type": "government",
+   "parent": "Comunidad de Madrid",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Comunidad de Madrid"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;api_status",
+    "note": "Institucion page states Sede del Gobierno de la Comunidad de Madrid but no country is stated verbatim. Datos abiertos page has no API or key text and links to a catalog on datos.comunidad.madrid, which is outside the entry domain and was no"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.comunidad.madrid/gobierno/institucion"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.comunidad.madrid/servicios/empleo"
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": "https://www.comunidad.madrid/gobierno/datos-abiertos"
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "careersinfood",
+   "name": "CareersInFood.com",
+   "url": "https://www.careersinfood.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "business_model",
+    "note": "Homepage returned HTTP 503 on fetch again. No try_pages were given. Headless reader had already been used once for this entry per the order reason, so it was not rerun. No employer pricing was read."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "hotelcareer",
+   "name": "Hotelcareer",
+   "url": "https://www.hotelcareer.de",
+   "type": "board",
+   "parent": "The Stepstone Group",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "api_status"
+   ],
+   "recorded": {
+    "parent": "The Stepstone Group",
+    "languages_supported": "de;en;fr",
+    "business_model": "per post",
+    "partner_program": "yes",
+    "partner_url": "https://www.hotelcareer.de/arbeitgeber/kooperationen-partner",
+    "ingest_methods": "manual posting"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent",
+    "note": "Languages, paid ad prices, ad booking path and an advertising partner page are stated. No headquarters or parent company named."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "recruitee",
+   "name": "Recruitee",
+   "url": "https://recruitee.com",
+   "type": "ats",
+   "parent": "Tellent",
+   "missing": [
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "NL",
+    "parent": "Tellent",
+    "business_model": "subscription",
+    "api_status": "public-open",
+    "api_docs_url": "https://docs.recruitee.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Subscription pricing (tiered by plan) and language options en, de, fr, nl found. The founding year is not stated on recruitee.com. The Tellent About Us page says Tellent was founded in 2022, but that is the parent on another domain and was "
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://recruitee.com/;https://recruitee.com/de/;https://recruitee.com/pricing"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://recruitee.com/;https://recruitee.com/de/"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://recruitee.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "jobvite",
+   "name": "Jobvite",
+   "url": "https://www.jobvite.com",
+   "type": "ats",
+   "parent": "Employ Inc.",
+   "missing": [
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "Employ Inc.",
+    "business_model": "quote-based modular pricing; no prices shown",
+    "api_status": "public-key",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Pricing page is modular and quote-based with no prices. Founding year not stated on pricing, Employ company, or news pages. Those pages name Employ, Inc. as owner of the brands; parent was not requested."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.jobvite.com/pricing/;https://www.employinc.com/company/;https://www.jobvite.com/company/news/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.jobvite.com/pricing/"
+    }
+   ]
+  },
+  {
+   "id": "cerco-trovo",
+   "name": "Cerco&Trovo",
+   "url": "https://www.cercoetrovo.it/",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  }
+ ]
+}
