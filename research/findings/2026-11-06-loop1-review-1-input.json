@@ -1,0 +1,555 @@
+{
+ "round": 1,
+ "entries": [
+  {
+   "id": "u-s-bureau-of-labor-statistics",
+   "name": "U.S. Bureau of Labor Statistics",
+   "url": "https://www.bls.gov",
+   "type": "lmi",
+   "parent": "United States Department of Labor",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "United States Department of Labor"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states the Washington DC address and parent department; API menu link found but docs not read, and no job postings appear."
+   },
+   "attempts": [
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "icims",
+   "name": "iCIMS",
+   "url": "https://www.icims.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "partner-only",
+    "api_docs_url": "https://developer.icims.com",
+    "partner_program": "yes"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "99designs",
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "type": "freelance-platform",
+   "parent": "Vista",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Vista"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+    "note": "Parent (Vista) and languages confirmed; pricing covers design contests only and no API or partner terms are described."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "australian-bureau-of-statistics",
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states no headquarters, parent, language options or API; /about-us returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "korn-ferry",
+   "name": "Korn Ferry",
+   "url": "https://www.kornferry.com",
+   "type": "recruiting-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and /about-us state no headquarters, parent, language options or employer pricing; the only partnership text is an Olympics sponsorship."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "workable",
+   "name": "Workable",
+   "url": "https://www.workable.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "GR",
+    "api_status": "public-key",
+    "api_docs_url": "https://workable.readme.io",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "teamtailor",
+   "name": "Teamtailor",
+   "url": "https://www.teamtailor.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "SE",
+    "api_status": "public-key",
+    "api_docs_url": "https://docs.teamtailor.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "welcome-to-the-jungle",
+   "name": "Welcome to the Jungle",
+   "url": "https://www.welcometothejungle.com",
+   "type": "board+employer-brand",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "FR",
+    "primary_language": "fr",
+    "languages_supported": "fr;en;es;cs;sk",
+    "business_model": "subscription, packages",
+    "api_status": "partner-only"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "wellfound",
+   "name": "Wellfound",
+   "url": "https://wellfound.com",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "free",
+    "api_status": "none-known"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "office-for-national-statistics",
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "type": "lmi",
+   "parent": "UK Statistics Authority",
+   "missing": [
+    "hq_country",
+    "founded",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "UK Statistics Authority",
+    "primary_language": "en",
+    "languages_supported": "en;cy"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+    "note": "Pages state English and Cymraeg options and the UK Statistics Authority link; no headquarters, pricing or partner program stated, and /developers returned 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "lever",
+   "name": "Lever",
+   "url": "https://www.lever.co",
+   "type": "ats",
+   "parent": "Employ Inc.",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "Employ Inc.",
+    "api_status": "public-open",
+    "api_docs_url": "https://github.com/lever/postings-api",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "jobvite",
+   "name": "Jobvite",
+   "url": "https://www.jobvite.com",
+   "type": "ats",
+   "parent": "Employ Inc.",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "Employ Inc.",
+    "api_status": "public-key",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "rikunabi",
+   "name": "Rikunabi",
+   "url": "https://www.rikunabi.com",
+   "type": "board",
+   "parent": "Recruit Holdings",
+   "missing": [
+    "founded",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "JP",
+    "parent": "Recruit Holdings",
+    "primary_language": "ja",
+    "languages_supported": "ja",
+    "business_model": "subscription",
+    "api_status": "none-known"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "hh-ru",
+   "name": "HeadHunter (hh.ru)",
+   "url": "https://hh.ru",
+   "type": "board",
+   "parent": "HeadHunter Group",
+   "missing": [
+    "founded"
+   ],
+   "recorded": {
+    "hq_country": "RU",
+    "parent": "HeadHunter Group",
+    "primary_language": "ru",
+    "languages_supported": "ru;en;kk",
+    "business_model": "subscription",
+    "api_status": "public-key",
+    "api_docs_url": "https://api.hh.ru",
+    "partner_program": "yes",
+    "partner_url": "https://dev.hh.ru",
+    "ingest_methods": "REST API (OAuth)"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "phenom",
+   "name": "Phenom",
+   "url": "https://www.phenom.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "partner_program": "yes"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "enhancv",
+   "name": "Enhancv",
+   "url": "https://enhancv.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage, about and pricing pages state headquarters in Bulgaria and a language list; no parent, employer pricing or API stated. Partners page returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  }
+ ]
+}

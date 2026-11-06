@@ -1,0 +1,635 @@
+{
+ "round": 1,
+ "entries": [
+  {
+   "id": "workday",
+   "name": "Workday Recruiting",
+   "url": "https://www.workday.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "none-known",
+    "partner_program": "yes"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "o-net",
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "api_status": "public-key",
+    "api_docs_url": "https://www.onetonline.org/help/onet/webservices"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
+    "note": "Homepage states the U.S. Department of Labor sponsorship; help and webservices pages state sign-up access; no fees, language options or partner program stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "governmentjobs-com",
+   "name": "GovernmentJobs.com",
+   "url": "https://www.governmentjobs.com/",
+   "type": "government",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and careers page read; the site says it is powered by NEOGOV but states no language, location, pricing, API or partner information. /about returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "robert-half",
+   "name": "Robert Half",
+   "url": "https://www.roberthalf.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage read by fetch and browser; no headquarters, pricing, API or partner program stated, and the About page returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "toptal",
+   "name": "Toptal",
+   "url": "https://www.toptal.com",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage, about and developers pages state no headquarters, parent, language options or API; only AWS partner status and talent categories appear."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "smartrecruiters",
+   "name": "SmartRecruiters",
+   "url": "https://www.smartrecruiters.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "PL",
+    "api_status": "public-open",
+    "api_docs_url": "https://developers.smartrecruiters.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "bamboohr",
+   "name": "BambooHR",
+   "url": "https://www.bamboohr.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "public-key",
+    "api_docs_url": "https://documentation.bamboohr.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "zhaopin",
+   "name": "Zhaopin",
+   "url": "https://www.zhaopin.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CN",
+    "primary_language": "zh",
+    "languages_supported": "zh",
+    "business_model": "subscription",
+    "api_status": "none-known"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "the-adecco-group",
+   "name": "The Adecco Group",
+   "url": "https://www.adecco.com",
+   "type": "staffing",
+   "parent": "The Adecco Group",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "The Adecco Group"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states it is part of The Adecco Group; no language options, headquarters, pricing or API statement found. /about-us returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "freelancer-com",
+   "name": "Freelancer.com",
+   "url": "https://www.freelancer.com",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "free to post a project; 3% fee charged to employer on accepted jobs",
+    "api_docs_url": "https://www.freelancer.com/api",
+    "ingest_methods": "api"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;partner_program",
+    "note": "Homepage, API page and footer state English only, free posting with a 3% fee, and API access; /partners returned 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "recruitee",
+   "name": "Recruitee",
+   "url": "https://recruitee.com",
+   "type": "ats",
+   "parent": "Tellent",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "NL",
+    "parent": "Tellent",
+    "api_status": "public-open",
+    "api_docs_url": "https://docs.recruitee.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "51job",
+   "name": "51job",
+   "url": "https://www.51job.com",
+   "type": "board",
+   "parent": "Recruit Holdings",
+   "missing": [
+    "founded",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CN",
+    "parent": "Recruit Holdings",
+    "primary_language": "zh",
+    "languages_supported": "zh",
+    "business_model": "subscription",
+    "api_status": "none-known"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "idealist",
+   "name": "Idealist",
+   "url": "https://www.idealist.org",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "primary_language": "en",
+    "languages_supported": "en;es",
+    "business_model": "paid listings",
+    "ingest_methods": "manual posting"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "api_status;partner_program;parent",
+    "note": "Homepage and about page read; API and CSR Partners pages returned 404 on guessed URLs, and the about page names no parent."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "rippling",
+   "name": "Rippling Recruiting",
+   "url": "https://www.rippling.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "recruit-agent",
+   "name": "RECRUIT AGENT",
+   "url": "https://www.r-agent.com/",
+   "type": "staffing",
+   "parent": "Recruit Holdings Co., Ltd.",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Recruit Holdings Co., Ltd."
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;api_status;partner_program",
+    "note": "Homepage (read in full) states the Japanese-language fee model; no parent, headquarters, language switcher, API or partner page found."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "resume-genius",
+   "name": "Resume Genius",
+   "url": "https://www.resumegenius.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and about page read; they state a Swiss address and job seeker pricing but no employer model, parent or API."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  }
+ ]
+}

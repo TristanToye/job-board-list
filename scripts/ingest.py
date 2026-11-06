@@ -18,6 +18,7 @@ API = {"public-open","public-key","on-request","partner-only","deprecated","none
 REVIEW_OUTCOMES = {"verified", "partially-verified", "not-stated", "blocked", "unreachable", "closed"}
 REVIEW_FIELDS = {"hq_country", "founded", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods", "pricing"}
 RCOLS = ["board_id", "reviewed", "outcome", "fields_not_found", "note", "method"]
+ACOLS = ["board_id", "field", "round", "outcome", "pages", "date"]
 WEAK = {"listed_by","relationship","owner_listing"}
 SRC_FIELDS = WEAK | {"note","existence","parent","languages","business_model","api_status","partner_program","ingest_methods","terms"}
 REFERENCE = {"wikipedia.org", "wikidata.org"}  # secondary sources: allowed for existence, parent and founded only
@@ -86,6 +87,7 @@ def main(argv):
         if s["field"] not in WEAK: strongfields[s["board_id"]].add(s["field"])
     countries = {r["code"]: r for r in load("countries.csv")}
     reviews = {r["board_id"]: r for r in load("reviews.csv")} if (DATA / "reviews.csv").exists() else {}
+    attempts = load("attempts.csv") if (DATA / "attempts.csv").exists() else []; seen_att = {(a["board_id"], a["field"], a["round"], a["outcome"]) for a in attempts}
     conflicts, queue_add, stats = [], [], collections.Counter()
     for fn in files:
         d = json.load(open(fn, encoding="utf-8")); cc = str(d.get("country", "")).upper().replace("GB", "UK")
@@ -193,6 +195,12 @@ def main(argv):
             fnf = [x for x in (clean(y, 24) for y in rv.get("fields_not_found", [])) if x in REVIEW_FIELDS]; mth = clean(rv.get("method"), 12)
             reviews[row["id"]] = {"board_id": row["id"], "reviewed": TODAY, "outcome": oc, "fields_not_found": ";".join(fnf), "note": clean(rv.get("note"), 240), "method": mth if mth in ("fetch", "browser", "mixed", "chrome") else "fetch"}
             stats["reviews"] += 1
+        for at in d.get("attempts", []):
+            row = find_board(clean(at.get("name"), 80), clean(at.get("url"), 200)); fld = clean(at.get("field"), 24); oc2 = clean(at.get("outcome"), 12)
+            if row is None or fld not in REVIEW_FIELDS or oc2 not in ("found", "not-found", "blocked"): continue
+            key = (row["id"], fld, str(d.get("round", "")), oc2)
+            if key in seen_att: continue
+            seen_att.add(key); attempts.append({"board_id": row["id"], "field": fld, "round": str(d.get("round", "")), "outcome": oc2, "pages": ";".join(clean(x, 200) for x in at.get("pages", [])[:6] if str(x).startswith("http")), "date": TODAY}); stats["attempts"] += 1
         if mode == "verify":
             for q in d.get("blocked", []):
                 row = find_board(clean(q.get("name"), 80), clean(q.get("url"), 200))
@@ -205,7 +213,7 @@ def main(argv):
     print(dict(stats), "conflicts:", len(conflicts), "queued:", len(queue_add), "rejections:", len(log_lines))
     for k, n, w in log_lines[:40]: print("  reject", k, n, "|", w)
     if dry: print("dry run, nothing written"); return
-    save("job_boards.csv", boards, cols); save("sources.csv", srcs, scols); save("reviews.csv", list(reviews.values()), RCOLS)
+    save("job_boards.csv", boards, cols); save("sources.csv", srcs, scols); save("reviews.csv", list(reviews.values()), RCOLS); save("attempts.csv", attempts, ACOLS)
     if conflicts:
         p = DATA / "conflicts.csv"; new_file = not p.exists()
         with open(p, "a", newline="", encoding="utf-8") as f:
