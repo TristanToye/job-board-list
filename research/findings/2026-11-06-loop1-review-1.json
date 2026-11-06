@@ -1,0 +1,149 @@
+{
+  "round": 1,
+  "orders": [
+    {
+      "id": "u-s-bureau-of-labor-statistics",
+      "name": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov",
+      "likelihood": {"founded": "medium", "languages": "low", "business_model": "none", "api_status": "high", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://www.bls.gov/developers/home.htm", "https://www.bls.gov/audience/developers.htm", "https://www.bls.gov/about-bls/home.htm"],
+      "reason": "Homepage links to Developers and Public Data API pages, so api_status is linked. About BLS page is linked but not yet read for founding date. No language menu, partner link or pricing seen; government statistics are free so business_model does not apply.",
+      "flags": []
+    },
+    {
+      "id": "icims",
+      "name": "iCIMS",
+      "url": "https://www.icims.com",
+      "likelihood": {"founded": "medium", "parent": "medium", "languages": "high", "business_model": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.icims.com/company/", "https://www.icims.com/company/leadership-team/", "https://www.icims.com/company/corporate-newsroom/", "https://www.icims.com/community/partner-experience/"],
+      "reason": "Language selector (US, UK, France) is linked, so languages is high. Company pages are linked for founding and ownership. No pricing link seen on the homepage. API is partner-only, so public ingest is unlikely.",
+      "flags": ["api_docs_url https://developer.icims.com is not linked from the homepage; confirm it before relying on it"]
+    },
+    {
+      "id": "99designs",
+      "name": "99designs",
+      "url": "https://www.99designs.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.99designs.com/pricing", "https://www.99designs.com/about", "https://www.99designs.com/about/press-releases", "https://www.99designs.com/featured-partners"],
+      "reason": "Pricing, About and language switcher (espanol) are linked. Earlier review already read pricing, which covers contests only. No developers or API link seen. Featured partners page is a design-partner listing, not an integration program.",
+      "flags": ["languages is still listed as missing although the earlier review says languages were confirmed"]
+    },
+    {
+      "id": "australian-bureau-of-statistics",
+      "name": "Australian Bureau of Statistics",
+      "url": "https://www.abs.gov.au",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.abs.gov.au/about", "https://www.abs.gov.au/welcome-abs-website", "https://dataexplorer.abs.gov.au/"],
+      "reason": "Earlier attempts only tried /about-us (404). The linked main-menu About page at /about has not been read. Data explorer is linked but no API is stated. Government statistics are free, so business_model does not apply. No language menu seen.",
+      "flags": []
+    },
+    {
+      "id": "korn-ferry",
+      "name": "Korn Ferry",
+      "url": "https://www.kornferry.com",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.kornferry.com/about-us", "https://www.kornferry.com/about-us/leadership-team"],
+      "reason": "Earlier review already read the homepage and /about-us, which state neither headquarters nor parent. Only partnership text is the LA28 Olympics sponsorship. No developer, API or language links seen.",
+      "flags": []
+    },
+    {
+      "id": "workable",
+      "name": "Workable",
+      "url": "https://www.workable.com",
+      "likelihood": {"founded": "medium", "parent": "low", "languages": "low", "business_model": "medium"},
+      "try_pages": ["https://workable.readme.io/reference/workable-mcp-server"],
+      "reason": "Developer docs link is on the homepage and matches the recorded API docs. No About, pricing or language link is visible in the homepage text, so those are medium or low. No parent is shown.",
+      "flags": []
+    },
+    {
+      "id": "teamtailor",
+      "name": "Teamtailor",
+      "url": "https://www.teamtailor.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "high", "business_model": "high"},
+      "try_pages": ["https://www.teamtailor.com/en/about/", "https://www.teamtailor.com/en/pricing/", "https://www.teamtailor.com/en/resources/partnerships/"],
+      "reason": "About us, Pricing and a full language list are linked, so founded, business_model and languages are all linked. No parent is shown on the site.",
+      "flags": []
+    },
+    {
+      "id": "welcome-to-the-jungle",
+      "name": "Welcome to the Jungle",
+      "url": "https://www.welcometothejungle.com",
+      "likelihood": {"founded": "high", "parent": "medium", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://about.welcometothejungle.com/", "https://about.welcometothejungle.com/newsroom#explore-section"],
+      "reason": "Company site about.welcometothejungle.com is linked, so founding and ownership are likely there. No partners or developer link is visible on the homepage.",
+      "flags": ["recorded languages_supported lists es, cs and sk, but the homepage language switcher shows only Francais, English (US) and English (UK)"]
+    },
+    {
+      "id": "wellfound",
+      "name": "Wellfound",
+      "url": "https://wellfound.com",
+      "likelihood": {"founded": "high", "parent": "medium", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://wellfound.com/about"],
+      "reason": "About Wellfound link is in the footer, so founding is likely there. Ownership may be stated on the same page. No partner or developer link seen.",
+      "flags": ["business_model is recorded as free, but the homepage links a paid Plans and pricing page at /recruit/pricing for employers"]
+    },
+    {
+      "id": "office-for-national-statistics",
+      "name": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk",
+      "likelihood": {"hq_country": "low", "founded": "medium", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.ons.gov.uk/aboutus", "https://www.ons.gov.uk/aboutus/whatwedo"],
+      "reason": "Earlier review found no headquarters on the main pages and /developers returned 404, so those are low. About (aboutus) section is linked and has not been read for founding date. No pricing, partner or API link seen.",
+      "flags": []
+    },
+    {
+      "id": "lever",
+      "name": "Lever",
+      "url": "https://www.lever.co",
+      "likelihood": {"founded": "medium", "languages": "low", "business_model": "high"},
+      "try_pages": ["https://www.lever.co/pricing", "https://www.employinc.com/company/"],
+      "reason": "Pricing link is in the main navigation, so business_model is linked. About Employ page on employinc.com is linked and matches the recorded parent, so founding is likely there. No language menu seen.",
+      "flags": []
+    },
+    {
+      "id": "jobvite",
+      "name": "Jobvite",
+      "url": "https://www.jobvite.com",
+      "likelihood": {"founded": "medium", "languages": "low", "business_model": "high"},
+      "try_pages": ["https://www.jobvite.com/pricing/", "https://www.employinc.com/company/", "https://www.jobvite.com/company/news/"],
+      "reason": "Pricing link is in the main navigation, so business_model is linked. About Us on employinc.com is linked, which matches the recorded parent. No language menu seen.",
+      "flags": []
+    },
+    {
+      "id": "rikunabi",
+      "name": "Rikunabi",
+      "url": "https://www.rikunabi.com",
+      "likelihood": {"founded": "medium", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://www.recruit.co.jp/company/group/", "https://job.rikunabi.com/static/datause/index.html", "https://help.job.rikunabi.com/"],
+      "reason": "rikunabi.com redirects to job.rikunabi.com. The Recruit group company list and a data-use services page are linked, so founding and data-feed details may be there. No partner program link seen.",
+      "flags": ["Homepage footer shows Indeed Inc. copyright and Indeed terms, so the operating entity may be Indeed rather than Recruit Holdings; check the recorded parent"]
+    },
+    {
+      "id": "hh-ru",
+      "name": "HeadHunter (hh.ru)",
+      "url": "https://hh.ru",
+      "likelihood": {"founded": "high"},
+      "try_pages": ["https://hh.ru/article/28?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=main", "https://investor.hh.ru/"],
+      "reason": "Company info article (О компании) is linked in the footer, so founding is likely there.",
+      "flags": []
+    },
+    {
+      "id": "phenom",
+      "name": "Phenom",
+      "url": "https://www.phenom.com",
+      "likelihood": {"founded": "high", "parent": "medium", "languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.phenom.com/about", "https://www.phenom.com/marketplace"],
+      "reason": "About us link is in the navigation and footer, so founding and ownership are likely there. Marketplace link matches the recorded partner program. No language menu, pricing or developer link seen.",
+      "flags": []
+    },
+    {
+      "id": "enhancv",
+      "name": "Enhancv",
+      "url": "https://enhancv.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "none"},
+      "try_pages": ["https://enhancv.com/about/", "https://enhancv.com/press/"],
+      "reason": "Language selector is linked, so languages is high. Earlier review already read pricing and About, so business_model and headquarters on those pages are low to medium. Press page is linked for founding. Ingest does not apply to a resume builder.",
+      "flags": ["hq_country is still missing, but the earlier review says the About and pricing pages state headquarters in Bulgaria; record may need updating"]
+    }
+  ]
+}

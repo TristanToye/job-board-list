@@ -1,0 +1,149 @@
+{
+  "round": 1,
+  "orders": [
+    {
+      "id": "workday",
+      "name": "Workday Recruiting",
+      "url": "https://www.workday.com",
+      "likelihood": {"founded": "high", "parent": "medium", "languages": "medium", "business_model": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.workday.com/en-us/company/about-workday/our-story.html", "https://www.workday.com/en-us/choose-country-region.html", "https://developer.workday.com/about", "https://newsroom.workday.com/"],
+      "reason": "Homepage links to an About page (our story), a country and region chooser, and a Developers hub. No pricing link is visible, so business_model is low. The developer hub may describe ingest methods.",
+      "flags": []
+    },
+    {
+      "id": "o-net",
+      "name": "O*NET",
+      "url": "https://www.onetonline.org",
+      "likelihood": {"hq_country": "medium", "founded": "low", "parent": "high", "languages": "low", "business_model": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://www.onetcenter.org/overview.html", "https://www.doleta.gov/programs/onet/eta_default.cfm", "https://services.onetcenter.org/", "https://www.onetcenter.org/links.html"],
+      "reason": "Site links to the O*NET overview (About O*NET) and to the U.S. Department of Labor program page, which should state the sponsor. The Web Services site is linked and may describe ingest methods. No language menu or pricing link is visible; the Spanish site is a separate site.",
+      "flags": []
+    },
+    {
+      "id": "governmentjobs-com",
+      "name": "GovernmentJobs.com",
+      "url": "https://www.governmentjobs.com/",
+      "likelihood": {"hq_country": "high", "founded": "medium", "parent": "high", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.governmentjobs.com/home/companyinfo"],
+      "reason": "Footer links to a Company Info page that the earlier review did not try (its /about guess returned 404). That page is the likeliest place for location and ownership.",
+      "flags": ["Earlier review says the site is powered by NEOGOV, but the parent field is empty; check Company Info for the owner."]
+    },
+    {
+      "id": "robert-half",
+      "name": "Robert Half",
+      "url": "https://www.roberthalf.com",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "medium", "languages": "medium", "business_model": "low", "api_status": "low", "partner_program": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://www.roberthalf.com/us/en/about/about-robert-half", "https://www.roberthalf.com/us/en/about/investor-center", "https://www.roberthalf.com/us/en/locations", "https://www.roberthalf.com/us/en/hire-talent/partner"],
+      "reason": "Footer links to About, Investor Center and Locations pages, which should cover headquarters and history. A country and language list is linked from the footer. No Developers, API or pricing link is visible. The partner pages found are for hiring clients and job seekers, so partner_program is only medium.",
+      "flags": []
+    },
+    {
+      "id": "toptal",
+      "name": "Toptal",
+      "url": "https://www.toptal.com",
+      "likelihood": {"hq_country": "low", "founded": "medium", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.toptal.com/press-center"],
+      "reason": "Earlier review read the About page and found no headquarters or parent. Founding year was not on its not-found list, so the Press Center may be worth a check. The Developers link is a talent category, not an API page, and no partner or pricing link is visible.",
+      "flags": []
+    },
+    {
+      "id": "smartrecruiters",
+      "name": "SmartRecruiters",
+      "url": "https://www.smartrecruiters.com",
+      "likelihood": {"founded": "medium", "parent": "high", "languages": "high", "business_model": "high"},
+      "try_pages": ["https://www.smartrecruiters.com/about-us/", "https://www.smartrecruiters.com/pricing/", "https://www.smartrecruiters.com/about-us/partnerships", "https://www.sap.com/partners/partner-program.html"],
+      "reason": "Header links to Pricing and language versions (German and French are linked). The About Us page is linked. The partner network section links to an SAP partner page, so the ownership statement is likely on the About or partnership pages.",
+      "flags": ["Parent field is empty, but the homepage links to an SAP partner program page; check whether the site names an owner or parent."]
+    },
+    {
+      "id": "bamboohr",
+      "name": "BambooHR",
+      "url": "https://www.bamboohr.com",
+      "likelihood": {"founded": "medium", "parent": "low", "languages": "low", "business_model": "high"},
+      "try_pages": ["https://www.bamboohr.com/pricing/"],
+      "reason": "Only a Pricing link was readable on the homepage, so business_model is high. No About, language or Developers link came through in the fetch, so the other fields are only medium or low.",
+      "flags": []
+    },
+    {
+      "id": "zhaopin",
+      "name": "Zhaopin",
+      "url": "https://www.zhaopin.com",
+      "likelihood": {"founded": "medium", "parent": "medium", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.zhaopin.com"],
+      "reason": "The footer was cut off by the fetch at 100,000 characters, so its About and Investor links were not read. A re-read from offset 100000 may reveal them. The visible navigation had no usable language, partner or developer link.",
+      "flags": []
+    },
+    {
+      "id": "the-adecco-group",
+      "name": "The Adecco Group",
+      "url": "https://www.adecco.com",
+      "likelihood": {"hq_country": "high", "founded": "high", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.adeccogroup.com/", "https://www.adeccogroup.com/investors/"],
+      "reason": "Navigation links to the group site, which has a group overview and an investors section. These should state headquarters and history. No Developers, API, partner or pricing link is visible on the brand site.",
+      "flags": ["Parent field is 'The Adecco Group', the same as the entry's own name; check whether this entry should name a different parent or the group itself."]
+    },
+    {
+      "id": "freelancer-com",
+      "name": "Freelancer.com",
+      "url": "https://www.freelancer.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "api_status": "high", "partner_program": "low"},
+      "try_pages": ["https://developers.freelancer.com", "https://www.freelancer.com/about", "https://www.freelancer.com/about/media"],
+      "reason": "Footer and header link to an About page, a media page and a developer API site. The API site is the likely source for api_status, which the earlier review already found on that page. No partners link is visible; /partners returned 404 earlier.",
+      "flags": ["Record lists api_status as missing, yet the review says API access is stated and an api_docs_url is recorded; check the API page and fill the field if it confirms access."]
+    },
+    {
+      "id": "recruitee",
+      "name": "Recruitee",
+      "url": "https://recruitee.com",
+      "likelihood": {"founded": "high", "languages": "high", "business_model": "high"},
+      "try_pages": ["https://recruitee.com/pricing", "https://tellent.com/about-us", "https://recruitee.com/de/", "https://recruitee.com/api-webhooks-integrations"],
+      "reason": "Header links to Pricing, which should give the business model. A Tellent About Us page is linked and should give the founding year. German, French and Dutch language versions are linked from the page.",
+      "flags": []
+    },
+    {
+      "id": "51job",
+      "name": "51job",
+      "url": "https://www.51job.com",
+      "likelihood": {"founded": "high", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://we.51job.com/pc/aboutus", "https://we.51job.com/pc/joinus"],
+      "reason": "Footer links to an About Us page (关于我们), which should give the founding year. The 'partners' footer section offers only join, contact and friendly-link pages, so partner_program is low. No developer or API link is visible.",
+      "flags": ["Recorded parent 'Recruit Holdings' was not seen on the homepage I read; confirm it on the About page."]
+    },
+    {
+      "id": "idealist",
+      "name": "Idealist",
+      "url": "https://www.idealist.org",
+      "likelihood": {"founded": "high", "parent": "medium", "api_status": "high", "partner_program": "high"},
+      "try_pages": ["https://www.idealist.org/en/about", "https://www.idealist.org/en/open-network-api", "https://www.idealist.org/csr-services"],
+      "reason": "Business Solutions links to an Open Network API page and to CSR Partners. The earlier review's guessed URLs returned 404, but these links were seen on the homepage. The About page is linked and should give the founding year.",
+      "flags": ["Earlier review's API and CSR Partners guesses returned 404; the correct links are /en/open-network-api and /csr-services."]
+    },
+    {
+      "id": "rippling",
+      "name": "Rippling Recruiting",
+      "url": "https://www.rippling.com",
+      "likelihood": {"founded": "high", "parent": "medium", "languages": "low", "business_model": "high", "api_status": "high", "partner_program": "high", "ingest_methods": "medium"},
+      "try_pages": ["https://developer.rippling.com/", "https://www.rippling.com/partners", "https://www.rippling.com/pricing", "https://www.rippling.com/about"],
+      "reason": "Resources links to API Documentation on a developer subdomain, and the header links to a Partner Program with several partner types. Pricing and About links are also visible. The EN language selector has no readable link, so languages is low.",
+      "flags": []
+    },
+    {
+      "id": "recruit-agent",
+      "name": "RECRUIT AGENT",
+      "url": "https://www.r-agent.com/",
+      "likelihood": {"hq_country": "low", "founded": "low", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.r-agent.com/business/", "https://www.r-agent.com/service/"],
+      "reason": "A 'For companies hiring' link leads to a business page, which should state the employer fee model the review found only on the homepage. No About, Company or language link was visible in the first 100,000 characters; the footer was not read.",
+      "flags": ["Recorded parent 'Recruit Holdings Co., Ltd.' is not stated on the homepage read by the earlier review; confirm it on a company page."]
+    },
+    {
+      "id": "resume-genius",
+      "name": "Resume Genius",
+      "url": "https://www.resumegenius.com",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "medium", "languages": "medium", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://resumegenius.com/about", "https://resumegenius.com/pricing"],
+      "reason": "An About page is linked and should give the founding year and address. A pricing page is linked, but it appears to cover job seekers, so business_model is only medium. Other language sites are linked from the FAQ text, though they sit on a different domain.",
+      "flags": ["Earlier review says the homepage shows a Swiss address, yet hq_country is still empty; check the About page.", "Language sites are on cvgenius.com, a different domain; confirm they belong to the same entity before using them for languages."]
+    }
+  ]
+}
