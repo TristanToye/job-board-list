@@ -1,0 +1,156 @@
+{
+ "round": 1,
+ "orders": [
+  {
+   "id": "smartrecruiters",
+   "name": "SmartRecruiters",
+   "url": "https://www.smartrecruiters.com",
+   "fields": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "parent": "high",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.smartrecruiters.com/about-us/",
+    "https://www.smartrecruiters.com/pricing/",
+    "https://www.smartrecruiters.com/about-us/partnerships",
+    "https://www.sap.com/partners/partner-program.html"
+   ],
+   "reason": "Header links to Pricing and language versions (German and French are linked). The About Us page is linked. The partner network section links to an SAP partner page, so the ownership statement is likel"
+  },
+  {
+   "id": "teamtailor",
+   "name": "Teamtailor",
+   "url": "https://www.teamtailor.com",
+   "fields": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.teamtailor.com/en/about/",
+    "https://www.teamtailor.com/en/pricing/",
+    "https://www.teamtailor.com/en/resources/partnerships/"
+   ],
+   "reason": "About us, Pricing and a full language list are linked, so founded, business_model and languages are all linked. No parent is shown on the site."
+  },
+  {
+   "id": "icims",
+   "name": "iCIMS",
+   "url": "https://www.icims.com",
+   "fields": [
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "parent": "medium",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.icims.com/company/",
+    "https://www.icims.com/company/leadership-team/",
+    "https://www.icims.com/company/corporate-newsroom/",
+    "https://www.icims.com/community/partner-experience/"
+   ],
+   "reason": "Language selector (US, UK, France) is linked, so languages is high. Company pages are linked for founding and ownership. No pricing link seen on the homepage. API is partner-only, so public ingest is "
+  },
+  {
+   "id": "the-adecco-group",
+   "name": "The Adecco Group",
+   "url": "https://www.adecco.com",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://www.adeccogroup.com/",
+    "https://www.adeccogroup.com/investors/"
+   ],
+   "reason": "Navigation links to the group site, which has a group overview and an investors section. These should state headquarters and history. No Developers, API, partner or pricing link is visible on the bran"
+  },
+  {
+   "id": "wellfound",
+   "name": "Wellfound",
+   "url": "https://wellfound.com",
+   "fields": [
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://wellfound.com/about"
+   ],
+   "reason": "About Wellfound link is in the footer, so founding is likely there. Ownership may be stated on the same page. No partner or developer link seen."
+  },
+  {
+   "id": "bamboohr",
+   "name": "BambooHR",
+   "url": "https://www.bamboohr.com",
+   "fields": [
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.bamboohr.com/pricing/"
+   ],
+   "reason": "Only a Pricing link was readable on the homepage, so business_model is high. No About, language or Developers link came through in the fetch, so the other fields are only medium or low."
+  },
+  {
+   "id": "zhaopin",
+   "name": "Zhaopin",
+   "url": "https://www.zhaopin.com",
+   "fields": [
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.zhaopin.com"
+   ],
+   "reason": "The footer was cut off by the fetch at 100,000 characters, so its About and Investor links were not read. A re-read from offset 100000 may reveal them. The visible navigation had no usable language, p"
+  },
+  {
+   "id": "toptal",
+   "name": "Toptal",
+   "url": "https://www.toptal.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.toptal.com/press-center"
+   ],
+   "reason": "Earlier review read the About page and found no headquarters or parent. Founding year was not on its not-found list, so the Press Center may be worth a check. The Developers link is a talent category,"
+  }
+ ]
+}

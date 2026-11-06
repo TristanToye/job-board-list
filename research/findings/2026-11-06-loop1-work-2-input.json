@@ -1,0 +1,166 @@
+{
+ "round": 1,
+ "orders": [
+  {
+   "id": "robert-half",
+   "name": "Robert Half",
+   "url": "https://www.roberthalf.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "parent": "medium",
+    "languages": "medium",
+    "partner_program": "medium"
+   },
+   "try_pages": [
+    "https://www.roberthalf.com/us/en/about/about-robert-half",
+    "https://www.roberthalf.com/us/en/about/investor-center",
+    "https://www.roberthalf.com/us/en/locations",
+    "https://www.roberthalf.com/us/en/hire-talent/partner"
+   ],
+   "reason": "Footer links to About, Investor Center and Locations pages, which should cover headquarters and history. A country and language list is linked from the footer. No Developers, API or pricing link is vi"
+  },
+  {
+   "id": "99designs",
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.99designs.com/pricing",
+    "https://www.99designs.com/about",
+    "https://www.99designs.com/about/press-releases",
+    "https://www.99designs.com/featured-partners"
+   ],
+   "reason": "Pricing, About and language switcher (espanol) are linked. Earlier review already read pricing, which covers contests only. No developers or API link seen. Featured partners page is a design-partner l"
+  },
+  {
+   "id": "u-s-bureau-of-labor-statistics",
+   "name": "U.S. Bureau of Labor Statistics",
+   "url": "https://www.bls.gov",
+   "fields": [
+    "founded",
+    "api_status",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "api_status": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://www.bls.gov/developers/home.htm",
+    "https://www.bls.gov/audience/developers.htm",
+    "https://www.bls.gov/about-bls/home.htm"
+   ],
+   "reason": "Homepage links to Developers and Public Data API pages, so api_status is linked. About BLS page is linked but not yet read for founding date. No language menu, partner link or pricing seen; government"
+  },
+  {
+   "id": "o-net",
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "fields": [
+    "hq_country",
+    "parent",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "parent": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://www.onetcenter.org/overview.html",
+    "https://www.doleta.gov/programs/onet/eta_default.cfm",
+    "https://services.onetcenter.org/",
+    "https://www.onetcenter.org/links.html"
+   ],
+   "reason": "Site links to the O*NET overview (About O*NET) and to the U.S. Department of Labor program page, which should state the sponsor. The Web Services site is linked and may describe ingest methods. No lan"
+  },
+  {
+   "id": "welcome-to-the-jungle",
+   "name": "Welcome to the Jungle",
+   "url": "https://www.welcometothejungle.com",
+   "fields": [
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://about.welcometothejungle.com/",
+    "https://about.welcometothejungle.com/newsroom#explore-section"
+   ],
+   "reason": "Company site about.welcometothejungle.com is linked, so founding and ownership are likely there. No partners or developer link is visible on the homepage."
+  },
+  {
+   "id": "phenom",
+   "name": "Phenom",
+   "url": "https://www.phenom.com",
+   "fields": [
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.phenom.com/about",
+    "https://www.phenom.com/marketplace"
+   ],
+   "reason": "About us link is in the navigation and footer, so founding and ownership are likely there. Marketplace link matches the recorded partner program. No language menu, pricing or developer link seen."
+  },
+  {
+   "id": "hh-ru",
+   "name": "HeadHunter (hh.ru)",
+   "url": "https://hh.ru",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://hh.ru/article/28?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=main",
+    "https://investor.hh.ru/"
+   ],
+   "reason": "Company info article (О компании) is linked in the footer, so founding is likely there."
+  },
+  {
+   "id": "office-for-national-statistics",
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.ons.gov.uk/aboutus",
+    "https://www.ons.gov.uk/aboutus/whatwedo"
+   ],
+   "reason": "Earlier review found no headquarters on the main pages and /developers returned 404, so those are low. About (aboutus) section is linked and has not been read for founding date. No pricing, partner or"
+  }
+ ]
+}

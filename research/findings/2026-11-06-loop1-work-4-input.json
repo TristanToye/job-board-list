@@ -1,0 +1,142 @@
+{
+ "round": 1,
+ "orders": [
+  {
+   "id": "idealist",
+   "name": "Idealist",
+   "url": "https://www.idealist.org",
+   "fields": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "parent": "medium",
+    "api_status": "high",
+    "partner_program": "high"
+   },
+   "try_pages": [
+    "https://www.idealist.org/en/about",
+    "https://www.idealist.org/en/open-network-api",
+    "https://www.idealist.org/csr-services"
+   ],
+   "reason": "Business Solutions links to an Open Network API page and to CSR Partners. The earlier review's guessed URLs returned 404, but these links were seen on the homepage. The About page is linked and should"
+  },
+  {
+   "id": "recruitee",
+   "name": "Recruitee",
+   "url": "https://recruitee.com",
+   "fields": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://recruitee.com/pricing",
+    "https://tellent.com/about-us",
+    "https://recruitee.com/de/",
+    "https://recruitee.com/api-webhooks-integrations"
+   ],
+   "reason": "Header links to Pricing, which should give the business model. A Tellent About Us page is linked and should give the founding year. German, French and Dutch language versions are linked from the page."
+  },
+  {
+   "id": "enhancv",
+   "name": "Enhancv",
+   "url": "https://enhancv.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://enhancv.com/about/",
+    "https://enhancv.com/press/"
+   ],
+   "reason": "Language selector is linked, so languages is high. Earlier review already read pricing and About, so business_model and headquarters on those pages are low to medium. Press page is linked for founding"
+  },
+  {
+   "id": "freelancer-com",
+   "name": "Freelancer.com",
+   "url": "https://www.freelancer.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "api_status"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "api_status": "high"
+   },
+   "try_pages": [
+    "https://developers.freelancer.com",
+    "https://www.freelancer.com/about",
+    "https://www.freelancer.com/about/media"
+   ],
+   "reason": "Footer and header link to an About page, a media page and a developer API site. The API site is the likely source for api_status, which the earlier review already found on that page. No partners link "
+  },
+  {
+   "id": "lever",
+   "name": "Lever",
+   "url": "https://www.lever.co",
+   "fields": [
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.lever.co/pricing",
+    "https://www.employinc.com/company/"
+   ],
+   "reason": "Pricing link is in the main navigation, so business_model is linked. About Employ page on employinc.com is linked and matches the recorded parent, so founding is likely there. No language menu seen."
+  },
+  {
+   "id": "workable",
+   "name": "Workable",
+   "url": "https://www.workable.com",
+   "fields": [
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://workable.readme.io/reference/workable-mcp-server"
+   ],
+   "reason": "Developer docs link is on the homepage and matches the recorded API docs. No About, pricing or language link is visible in the homepage text, so those are medium or low. No parent is shown."
+  },
+  {
+   "id": "51job",
+   "name": "51job",
+   "url": "https://www.51job.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://we.51job.com/pc/aboutus",
+    "https://we.51job.com/pc/joinus"
+   ],
+   "reason": "Footer links to an About Us page (关于我们), which should give the founding year. The 'partners' footer section offers only join, contact and friendly-link pages, so partner_program is low. No developer o"
+  }
+ ]
+}

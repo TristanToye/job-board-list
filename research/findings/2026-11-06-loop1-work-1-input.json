@@ -1,0 +1,173 @@
+{
+ "round": 1,
+ "orders": [
+  {
+   "id": "rippling",
+   "name": "Rippling Recruiting",
+   "url": "https://www.rippling.com",
+   "fields": [
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "parent": "medium",
+    "business_model": "high",
+    "api_status": "high",
+    "partner_program": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://developer.rippling.com/",
+    "https://www.rippling.com/partners",
+    "https://www.rippling.com/pricing",
+    "https://www.rippling.com/about"
+   ],
+   "reason": "Resources links to API Documentation on a developer subdomain, and the header links to a Partner Program with several partner types. Pricing and About links are also visible. The EN language selector "
+  },
+  {
+   "id": "resume-genius",
+   "name": "Resume Genius",
+   "url": "https://www.resumegenius.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "parent": "medium",
+    "languages": "medium",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://resumegenius.com/about",
+    "https://resumegenius.com/pricing"
+   ],
+   "reason": "An About page is linked and should give the founding year and address. A pricing page is linked, but it appears to cover job seekers, so business_model is only medium. Other language sites are linked "
+  },
+  {
+   "id": "governmentjobs-com",
+   "name": "GovernmentJobs.com",
+   "url": "https://www.governmentjobs.com/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "medium",
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://www.governmentjobs.com/home/companyinfo"
+   ],
+   "reason": "Footer links to a Company Info page that the earlier review did not try (its /about guess returned 404). That page is the likeliest place for location and ownership."
+  },
+  {
+   "id": "workday",
+   "name": "Workday Recruiting",
+   "url": "https://www.workday.com",
+   "fields": [
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "parent": "medium",
+    "languages": "medium"
+   },
+   "try_pages": [
+    "https://www.workday.com/en-us/company/about-workday/our-story.html",
+    "https://www.workday.com/en-us/choose-country-region.html",
+    "https://developer.workday.com/about",
+    "https://newsroom.workday.com/"
+   ],
+   "reason": "Homepage links to an About page (our story), a country and region chooser, and a Developers hub. No pricing link is visible, so business_model is low. The developer hub may describe ingest methods."
+  },
+  {
+   "id": "australian-bureau-of-statistics",
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.abs.gov.au/about",
+    "https://www.abs.gov.au/welcome-abs-website",
+    "https://dataexplorer.abs.gov.au/"
+   ],
+   "reason": "Earlier attempts only tried /about-us (404). The linked main-menu About page at /about has not been read. Data explorer is linked but no API is stated. Government statistics are free, so business_mode"
+  },
+  {
+   "id": "jobvite",
+   "name": "Jobvite",
+   "url": "https://www.jobvite.com",
+   "fields": [
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.jobvite.com/pricing/",
+    "https://www.employinc.com/company/",
+    "https://www.jobvite.com/company/news/"
+   ],
+   "reason": "Pricing link is in the main navigation, so business_model is linked. About Us on employinc.com is linked, which matches the recorded parent. No language menu seen."
+  },
+  {
+   "id": "rikunabi",
+   "name": "Rikunabi",
+   "url": "https://www.rikunabi.com",
+   "fields": [
+    "founded",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://www.recruit.co.jp/company/group/",
+    "https://job.rikunabi.com/static/datause/index.html",
+    "https://help.job.rikunabi.com/"
+   ],
+   "reason": "rikunabi.com redirects to job.rikunabi.com. The Recruit group company list and a data-use services page are linked, so founding and data-feed details may be there. No partner program link seen."
+  },
+  {
+   "id": "recruit-agent",
+   "name": "RECRUIT AGENT",
+   "url": "https://www.r-agent.com/",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.r-agent.com/business/",
+    "https://www.r-agent.com/service/"
+   ],
+   "reason": "A 'For companies hiring' link leads to a business page, which should state the employer fee model the review found only on the homepage. No About, Company or language link was visible in the first 100"
+  }
+ ]
+}

@@ -1,1 +1,16 @@
 round,board_id,flag
+1,icims,api_docs_url https://developer.icims.com is not linked from the homepage; confirm it before relying on it
+1,99designs,languages is still listed as missing although the earlier review says languages were confirmed
+1,welcome-to-the-jungle,"recorded languages_supported lists es, cs and sk, but the homepage language switcher shows only Francais, English (US) and English (UK)"
+1,wellfound,"business_model is recorded as free, but the homepage links a paid Plans and pricing page at /recruit/pricing for employers"
+1,rikunabi,"Homepage footer shows Indeed Inc. copyright and Indeed terms, so the operating entity may be Indeed rather than Recruit Holdings; check the recorded parent"
+1,enhancv,"hq_country is still missing, but the earlier review says the About and pricing pages state headquarters in Bulgaria; record may need updating"
+1,governmentjobs-com,"Earlier review says the site is powered by NEOGOV, but the parent field is empty; check Company Info for the owner."
+1,smartrecruiters,"Parent field is empty, but the homepage links to an SAP partner program page; check whether the site names an owner or parent."
+1,the-adecco-group,"Parent field is 'The Adecco Group', the same as the entry's own name; check whether this entry should name a different parent or the group itself."
+1,freelancer-com,"Record lists api_status as missing, yet the review says API access is stated and an api_docs_url is recorded; check the API page and fill the field if it confirms access."
+1,51job,Recorded parent 'Recruit Holdings' was not seen on the homepage I read; confirm it on the About page.
+1,idealist,Earlier review's API and CSR Partners guesses returned 404; the correct links are /en/open-network-api and /csr-services.
+1,recruit-agent,"Recorded parent 'Recruit Holdings Co., Ltd.' is not stated on the homepage read by the earlier review; confirm it on a company page."
+1,resume-genius,"Earlier review says the homepage shows a Swiss address, yet hq_country is still empty; check the About page."
+1,resume-genius,"Language sites are on cvgenius.com, a different domain; confirm they belong to the same entity before using them for languages."

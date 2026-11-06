@@ -1,0 +1,88 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 1,
+  "boards": [
+    {
+      "name": "Robert Half", "url": "https://www.roberthalf.com",
+      "sources": [
+        {"field": "languages", "url": "https://www.roberthalf.com/us/en/locations", "title": "Locations", "quote": "Switzerland - Deutsch, English, Français"}
+      ]
+    },
+    {
+      "name": "99designs", "url": "https://www.99designs.com",
+      "sources": [
+        {"field": "business_model", "url": "https://www.99designs.com/pricing", "title": "Pricing", "quote": "We have 4 fixed packages to suit your budget."},
+        {"field": "business_model", "url": "https://www.99designs.com/pricing", "title": "Pricing", "quote": "Fixed pricing with contest packages."},
+        {"field": "languages", "url": "https://www.99designs.com", "title": "Home", "quote": "español"}
+      ]
+    },
+    {
+      "name": "U.S. Bureau of Labor Statistics", "url": "https://www.bls.gov",
+      "api_status": "public-open", "api_docs_url": "https://www.bls.gov/developers/home.htm",
+      "sources": [
+        {"field": "api_status", "url": "https://www.bls.gov/developers/home.htm", "title": "Getting Started", "quote": "Version 1.0 is a more limited API that does not require registration and is open for public use."},
+        {"field": "founded", "url": "https://www.bls.gov/about-bls/home.htm", "title": "About BLS", "quote": "BLS was established in 1884 and is the principal fact-finding agency"}
+      ]
+    },
+    {
+      "name": "O*NET", "url": "https://www.onetonline.org",
+      "sources": [
+        {"field": "parent", "url": "https://www.onetcenter.org/overview.html", "title": "About O*NET", "quote": "developed under the sponsorship of the U.S. Department of Labor/Employment and Training Administration"}
+      ]
+    },
+    {
+      "name": "Welcome to the Jungle", "url": "https://www.welcometothejungle.com",
+      "sources": [
+        {"field": "founded", "url": "https://about.welcometothejungle.com/newsroom#explore-section", "title": "Newsroom", "quote": "Founded in France in 2015"},
+        {"field": "parent", "url": "https://about.welcometothejungle.com/", "title": "About Welcome to the Jungle", "quote": "published by Welcome to the Jungle, the trading name of Otta Technology Ltd."}
+      ]
+    },
+    {
+      "name": "Phenom", "url": "https://www.phenom.com",
+      "sources": []
+    },
+    {
+      "name": "HeadHunter (hh.ru)", "url": "https://hh.ru",
+      "sources": []
+    },
+    {
+      "name": "Office for National Statistics", "url": "https://www.ons.gov.uk",
+      "sources": []
+    }
+  ],
+  "reviews": [
+    {"name": "Robert Half", "url": "https://www.roberthalf.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded", "parent", "partner_program"], "method": "fetch", "note": "Languages found from the country and language list. No headquarters or founding year stated on pages read. Protiviti is named as a subsidiary, not a parent. The partner URL page describes working with clients, not a partner program."},
+    {"name": "99designs", "url": "https://www.99designs.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded"], "method": "fetch", "note": "Business model is per-contest fixed packages with USD prices on pricing page. The About page gives 'Since 2008' for the community, which is not stated as a founding year, so founded was not recorded. Featured partners are design service vendors, not a job platform partner program."},
+    {"name": "U.S. Bureau of Labor Statistics", "url": "https://www.bls.gov", "outcome": "partially-verified", "fields_not_found": ["ingest_methods"], "method": "fetch", "note": "API v1.0 is open without registration; v2.0 requires registration, so public-open is recorded for the open tier. Founded 1884 from About BLS. No statement of how jobs are ingested, as BLS is a statistics agency."},
+    {"name": "O*NET", "url": "https://www.onetonline.org", "outcome": "partially-verified", "fields_not_found": ["hq_country", "ingest_methods"], "method": "fetch", "note": "Sponsor recorded as parent from overview page. The Department of Labor program page redirected to dol.gov (another domain), which was not followed. Headquarters not stated. Web Services API is a data access route for developers, not a job ingest method, so not recorded."},
+    {"name": "Welcome to the Jungle", "url": "https://www.welcometothejungle.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Founding year from newsroom press item; the homepage text 'doing since 2015' was also seen. Publisher and trading name from the About site footer."},
+    {"name": "Phenom", "url": "https://www.phenom.com", "outcome": "not-stated", "fields_not_found": ["founded", "parent"], "method": "fetch", "note": "About page and homepage read. No founding year, parent or owner stated. Copyright line names Phenom People, Inc., which is the company itself."},
+    {"name": "HeadHunter (hh.ru)", "url": "https://hh.ru", "outcome": "not-stated", "fields_not_found": ["founded"], "method": "fetch", "note": "Company article, investor relations page and homepage read. Investor page places founding in the 2000 to 2007 period without a year. No exact founding year stated."},
+    {"name": "Office for National Statistics", "url": "https://www.ons.gov.uk", "outcome": "not-stated", "fields_not_found": ["founded"], "method": "fetch", "note": "About us, What we do and homepage read. No founding or establishment year stated. The /developers path was not requested, as it was already recorded as a 404."}
+  ],
+  "attempts": [
+    {"name": "Robert Half", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.roberthalf.com/us/en/about/about-robert-half", "https://www.roberthalf.com/us/en/locations", "https://www.roberthalf.com/us/en"]},
+    {"name": "Robert Half", "field": "founded", "outcome": "not-found", "pages": ["https://www.roberthalf.com/us/en/about/about-robert-half", "https://www.roberthalf.com/us/en/about/investor-center", "https://www.roberthalf.com/us/en"]},
+    {"name": "Robert Half", "field": "parent", "outcome": "not-found", "pages": ["https://www.roberthalf.com/us/en/about/investor-center", "https://www.roberthalf.com/us/en/about/about-robert-half"]},
+    {"name": "Robert Half", "field": "languages", "outcome": "found", "pages": ["https://www.roberthalf.com/us/en/locations"]},
+    {"name": "Robert Half", "field": "partner_program", "outcome": "not-found", "pages": ["https://www.roberthalf.com/us/en/hire-talent/partner"]},
+    {"name": "99designs", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.99designs.com/about", "https://www.99designs.com"]},
+    {"name": "99designs", "field": "founded", "outcome": "not-found", "pages": ["https://www.99designs.com/about"]},
+    {"name": "99designs", "field": "languages", "outcome": "found", "pages": ["https://www.99designs.com"]},
+    {"name": "99designs", "field": "business_model", "outcome": "found", "pages": ["https://www.99designs.com/pricing", "https://www.99designs.com/featured-partners"]},
+    {"name": "U.S. Bureau of Labor Statistics", "field": "founded", "outcome": "found", "pages": ["https://www.bls.gov/about-bls/home.htm"]},
+    {"name": "U.S. Bureau of Labor Statistics", "field": "api_status", "outcome": "found", "pages": ["https://www.bls.gov/developers/home.htm", "https://www.bls.gov/audience/developers.htm"]},
+    {"name": "U.S. Bureau of Labor Statistics", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://www.bls.gov/developers/home.htm", "https://www.bls.gov/audience/developers.htm"]},
+    {"name": "O*NET", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.onetcenter.org/overview.html", "https://services.onetcenter.org/"]},
+    {"name": "O*NET", "field": "parent", "outcome": "found", "pages": ["https://www.onetcenter.org/overview.html"]},
+    {"name": "O*NET", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://services.onetcenter.org/"]},
+    {"name": "Welcome to the Jungle", "field": "founded", "outcome": "found", "pages": ["https://about.welcometothejungle.com/", "https://about.welcometothejungle.com/newsroom#explore-section"]},
+    {"name": "Welcome to the Jungle", "field": "parent", "outcome": "found", "pages": ["https://about.welcometothejungle.com/"]},
+    {"name": "Phenom", "field": "founded", "outcome": "not-found", "pages": ["https://www.phenom.com/about", "https://www.phenom.com/"]},
+    {"name": "Phenom", "field": "parent", "outcome": "not-found", "pages": ["https://www.phenom.com/about", "https://www.phenom.com/"]},
+    {"name": "HeadHunter (hh.ru)", "field": "founded", "outcome": "not-found", "pages": ["https://hh.ru/article/28?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=main", "https://investor.hh.ru/", "https://hh.ru/"]},
+    {"name": "Office for National Statistics", "field": "founded", "outcome": "not-found", "pages": ["https://www.ons.gov.uk/aboutus", "https://www.ons.gov.uk/aboutus/whatwedo", "https://www.ons.gov.uk/"]}
+  ],
+  "blocked": []
+}
