@@ -10,6 +10,8 @@ To understand where jobs originate and how they flow: employer, ATS, programmati
 
 - `data/job_boards.csv`: boards, aggregators, government portals, niche and regional boards, distribution platforms.
 - `data/sources.csv`: one row per cited fact (board, field, URL, title, date read). Every checked fact on the site links back here.
+- `data/rank.csv`: web link popularity rank per board from the Majestic Million (CC BY 3.0), with a scope (domain, mixed or section) saying whether the rank describes the board. Refresh with `python3 scripts/fetch_rank.py PATH_TO_majestic_million.csv`. `data/rank_scope.csv` holds reviewer judgements about mixed-purpose sites.
+- `data/scale.csv`: figures boards state about themselves (jobs listed, employers), each with a date, source and quote.
 - `data/research_queue.csv`: boards and verification tasks still to do, with the reason each is blocked or pending.
 - `data/ats_systems.csv`: applicant tracking systems and whether they expose public job feeds or APIs.
 - `scripts/validate.py`: checks the data and prints a coverage summary. Run `python3 scripts/validate.py`.

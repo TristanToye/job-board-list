@@ -32,6 +32,34 @@
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobbank-ca/",
  "indexable": true,
+ "prominence": {
+  "tier": "",
+  "label": "Not comparable",
+  "global_rank": 195,
+  "scope": "section",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-06"
+ },
+ "scale": [
+  {
+   "metric": "jobs_listed",
+   "value": "55000",
+   "unit": "jobs advertised per month",
+   "as_of": "2026-11-05",
+   "url": "https://www.jobbank.gc.ca/aboutus",
+   "quote": "Jobs advertised per month 55000",
+   "quote_check": "unreachable"
+  },
+  {
+   "metric": "employers",
+   "value": "371000",
+   "unit": "registered employers",
+   "as_of": "2026-11-05",
+   "url": "https://www.jobbank.gc.ca/aboutus",
+   "quote": "Registered employers 371000",
+   "quote_check": "unreachable"
+  }
+ ],
  "sources": [
   {
    "field": "existence",

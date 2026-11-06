@@ -45,6 +45,21 @@ def country(c): return COUNTRIES.get(c, c)
 
 boards, ats = load("job_boards.csv"), load("ats_systems.csv")
 for _c in load("countries.csv"): COUNTRIES.setdefault(_c["code"], _c["name"])
+RANK = {r["board_id"]: r for r in load("rank.csv")} if (ROOT/"data"/"rank.csv").exists() else {}
+SCALE = collections.defaultdict(list)
+if (ROOT/"data"/"scale.csv").exists():
+    for _s in load("scale.csv"): SCALE[_s["board_id"]].append(_s)
+RANK_DATE = max((r["list_date"] for r in RANK.values()), default="")
+TIERS = [(1000, "Major"), (10000, "Large"), (100000, "Established"), (1000000, "Small")]
+def prom(b):
+    """Prominence from web link popularity (Majestic Million). Only boards that own their whole domain get a tier."""
+    r = RANK.get(b["id"])
+    if not r or not r["global_rank"]: return {"group": 3, "g": 0, "label": "Not in top 1M", "tier": "", "scope": r["scope"] if r else ""}
+    g = int(r["global_rank"]); scope = r["scope"]
+    if scope == "domain": return {"group": 0, "g": g, "label": next(t for lim, t in TIERS if g <= lim), "tier": next(t for lim, t in TIERS if g <= lim), "scope": scope}
+    if scope == "mixed": return {"group": 1, "g": g, "label": "Site-wide", "tier": "", "scope": scope}
+    return {"group": 2, "g": g, "label": "Not comparable", "tier": "", "scope": scope}
+def skey(b): p = prom(b); return p["group"] * 10**9 + (p["g"] if p["group"] < 2 else 0)
 SOURCES = collections.defaultdict(list)
 for _s in load("sources.csv"): SOURCES[_s["board_id"]].append(_s)
 FIELD_LABEL = {"existence":"Existence and description","api_status":"API access","partner_program":"Partner program","ingest_methods":"How jobs get in",
@@ -66,7 +81,7 @@ pages = []  # (path, lastmod)
 def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False):
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
-    nav = (f'<a href="{r}">Directory</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
+    nav = (f'<a href="{r}">Directory</a><a href="{r}rankings/">Rankings</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
            f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -95,7 +110,7 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="",
 <main class="wrap">{body}</main>
 <footer class="wrap foot"><p>{e(NAME)} is an open dataset. Download: <a href="{r}downloads/job_boards.csv">boards CSV</a>,
 <a href="{r}downloads/job_boards.json">boards JSON</a>, <a href="{r}downloads/ats_systems.csv">ATS CSV</a>, <a href="{r}data/boards.json">JSON data API</a>, <a href="{r}changelog/">changelog</a> and <a href="{r}feed.xml">feed</a>.
-Data is a work in progress and may be wrong: see <a href="{r}about/">methodology</a>. Last built {TODAY}.</p></footer>
+Data is a work in progress and may be wrong: see <a href="{r}about/">methodology</a>. Web rank data: <a href="https://majestic.com/reports/majestic-million" rel="noopener nofollow">Majestic Million</a>, CC BY 3.0. Last built {TODAY}.</p></footer>
 </body></html>"""
 
 def write(rel, content, lastmod=True, indexed=True):
@@ -109,6 +124,9 @@ def facts(b):
 def indexable(b):
     """Only boards with cited, substantive facts get an indexable page. Thin pages stay out of the sitemap and are marked noindex."""
     return b["confidence"] in ("partially-verified", "secondary-sourced") and facts(b) >= 3
+def most_prominent(v):
+    top = [b for b in sorted(v, key=skey) if prom(b)["group"] == 0][:4]
+    return f'<p>Most prominent by web link popularity: {", ".join(e(b["name"]) for b in top)}.</p>' if top else ""
 def itemlist(v, depth):
     r = "../" * depth
     return {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [
@@ -123,15 +141,22 @@ def chips(vals): return "".join(f'<span class="chip">{e(v)}</span>' for v in val
 def link(u, t=None): return f'<a href="{e(u)}" rel="noopener nofollow" target="_blank">{e(t or u)}</a>' if u else '<span class="muted">Not recorded</span>'
 
 def board_url(b, r): return f'{r}boards/{b["id"]}/'
+def prom_cell(b):
+    p = prom(b)
+    if p["group"] == 0: return f'<span class="badge tier-{e(p["tier"])}" title="Global web link popularity rank #{p["g"]:,}">{e(p["tier"])}</span> <span class="muted small">#{p["g"]:,}</span>'
+    if p["group"] == 1: return f'<span class="badge" title="This rank covers the whole site, which is more than job listings">Site-wide</span> <span class="muted small">#{p["g"]:,}</span>'
+    if p["group"] == 2: return '<span class="muted small" title="This board is a section of a larger site, so the site rank does not describe it">Not comparable</span>'
+    return '<span class="muted small">Not in top 1M</span>'
 def row(b, r):
     search = " ".join([b["name"], b["type"], b["hq_country"], country(b["hq_country"]), b["markets"], b["region"], b["niche"], " ".join(lang(c) for c in langs_of(b)), b["parent"], b["ingest_methods"]]).lower()
-    return (f'<tr data-search="{e(search)}" data-region="{e(b["region"])}" data-type="{e(b["type"])}" data-api="{e(b["api_status"])}" data-partner="{e(b["partner_program"])}" data-lang="{e(" ".join(langs_of(b)))}" data-name="{e(b["name"].lower())}">'
+    return (f'<tr data-search="{e(search)}" data-region="{e(b["region"])}" data-type="{e(b["type"])}" data-api="{e(b["api_status"])}" data-partner="{e(b["partner_program"])}" data-lang="{e(" ".join(langs_of(b)))}" data-name="{e(b["name"].lower())}" data-tier="{e(prom(b)["tier"])}" data-rank="{skey(b)}">'
             f'<td><div class="namecell">{icon(b, r)}<div><a href="{board_url(b,r)}"><strong>{e(b["name"])}</strong></a><div class="muted small">{e(b["niche"])}</div></div></div></td>'
-            f'<td>{e(b["type"])}</td><td>{e(country(b["hq_country"]) or "Not recorded")}</td><td>{e(lang(b["primary_language"]) or "Not recorded")}</td>'
+            f'<td>{prom_cell(b)}</td><td>{e(b["type"])}</td><td>{e(country(b["hq_country"]) or "Not recorded")}</td><td>{e(lang(b["primary_language"]) or "Not recorded")}</td>'
             f'<td>{api_badge(b["api_status"])}</td><td>{e(b["partner_program"] or "unknown")}</td></tr>')
 
 def table(rows, r, filters=False):
-    return ('<div class="tablewrap"><table id="boards"><thead><tr><th>Board</th><th>Type</th><th>HQ</th><th>Language</th><th>API</th><th>Partner program</th></tr></thead><tbody>'
+    rows = sorted(rows, key=lambda b: (skey(b), b["name"].lower()))
+    return ('<div class="tablewrap"><table id="boards"><thead><tr><th>Board</th><th title="Tier from global web link popularity rank">Prominence</th><th>Type</th><th>HQ</th><th>Language</th><th>API</th><th>Partner program</th></tr></thead><tbody>'
             + "".join(row(b, r) for b in rows) + "</tbody></table></div>")
 
 # ---------- home ----------
@@ -154,6 +179,8 @@ home_body = f"""
 <label>Type<select id="f-type"><option value="">All</option>{opts("type")}</select></label>
 <label>Language<select id="f-lang"><option value="">All</option>{lang_opts}</select></label>
 <label>API<select id="f-api"><option value="">All</option>{opts("api_status")}</select></label>
+<label>Prominence<select id="f-tier"><option value="">All</option><option value="Major">Major</option><option value="Large">Large</option><option value="Established">Established</option><option value="Small">Small</option></select></label>
+<label>Sort<select id="sort"><option value="prom">Prominence</option><option value="name">A to Z</option></select></label>
 <label>Partner program<select id="f-partner"><option value="">All</option><option value="yes">Yes</option><option value="n/a">Not applicable</option><option value="unknown">Unknown</option></select></label>
 </div><p id="count" class="muted" aria-live="polite"></p>
 {table(sorted(boards, key=lambda b: b["name"].lower()), "")}
@@ -182,6 +209,16 @@ for b in boards:
       "on-request":"issues API keys or feeds on request","none-known":"has no publicly documented API that we could find","unknown":"has not yet been researched for API availability"}[b["api_status"]]
     partner = {"yes":"A partner or integration program exists.","n/a":"Not applicable (public body or open source of data).","unknown":"Partner program status is not yet known."}.get(b["partner_program"], "Partner program status is not yet known.")
     srcs = SOURCES.get(b["id"], [])
+    p = prom(b); rk = RANK.get(b["id"]); nctry = len({c for c in split(b["countries_served"]) + ([b["hq_country"]] if b["hq_country"] else [])}); nlang = len(langs_of(b))
+    if p["group"] == 0: rank_txt = f'<strong>#{p["g"]:,}</strong> in the world, tier <strong>{e(p["tier"])}</strong>. Tiers: Major is the top 1,000 sites, Large the top 10,000, Established the top 100,000 and Small the top million.'
+    elif p["group"] == 1: rank_txt = f'<strong>#{p["g"]:,}</strong> for {e(rk["domain"])} as a whole. This site covers more than job listings, so the rank overstates its job board reach and no tier is given.'
+    elif p["group"] == 2: rank_txt = f'Not comparable. This board is a section or subdomain of {e(rk["domain"])}, so the rank of that larger site does not describe it.'
+    else: rank_txt = "Outside the top million sites." if rk else "Not yet measured."
+    scale_li = "".join(f'<li>{int(x["value"]):,} {e(x["unit"])} <span class="muted small">as of {e(x["as_of"])}, self-reported on <a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">its own site</a>{"" if x["quote_check"] == "ok" else ", read earlier and not re-checked"}</span></li>' for x in SCALE.get(b["id"], []))
+    prom_html = (f'<h2>Prominence and reach</h2><dl class="facts">{fact("Web link popularity", rank_txt)}'
+                 f'{fact("Recorded reach", f"So far we have recorded {nctry} countries and {nlang} languages (incomplete, especially for global boards)" if nctry or nlang else "Not recorded")}'
+                 f'{fact("Self-reported scale", "<ul class=\"plain\">" + scale_li + "</ul>") if scale_li else ""}</dl>'
+                 f'<p class="muted small">Rank source: Majestic Million, list of {e(RANK_DATE)}, licensed CC BY 3.0. It measures how widely a site is linked to, not how many jobs or visitors it has. <a href="{r}about/#prominence">How prominence is measured</a>.</p>')
     sources_html = ""
     if srcs:
         sources_html = ("<h2>Sources</h2><ol class=\"sources\">" + "".join(
@@ -200,6 +237,7 @@ for b in boards:
 {fact("How jobs get in", chips(split(b["ingest_methods"])))}</dl>
 {f'<h2>Notes</h2><p>{e(b["notes"])}</p>' if b["notes"] else ""}
 <p class="muted small">{e(b["name"])} and its logo are trademarks of their respective owners. Icons are shown for identification only and do not imply affiliation or endorsement.</p>
+{prom_html}
 {sources_html}
 <p class="notice">Only facts listed under Sources have been checked, and a listing by another directory only shows a board exists. Everything else on this page is unverified. <a href="{r}about/">How we research</a>.</p>
 {"<h2>Other boards in " + e(b["region"]) + "</h2><ul>" + "".join(f'<li><a href="{r}boards/{x["id"]}/">{e(x["name"])}</a></li>' for x in siblings) + "</ul>" if siblings else ""}"""
@@ -242,7 +280,7 @@ for k, v in by_country.items():
     sv = len(v) - len(hq)
     nchk = sum(1 for b in v if b["confidence"] == "partially-verified")
     body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">By country</a> / {e(k)}</nav><h1>Job boards in {e(k)}</h1>'
-            f'<p class="lede">{len(v)} job boards and aggregators based in or serving {e(k)}: {len(hq)} headquartered there and {sv} based elsewhere that serve it. {nchk} have facts checked against their own pages or official sources.</p>'
+            f'<p class="lede">{len(v)} job boards and aggregators based in or serving {e(k)}: {len(hq)} headquartered there and {sv} based elsewhere that serve it. {nchk} have facts checked against their own pages or official sources.</p>{most_prominent(v)}'
             + table(sorted(v, key=lambda b: b["name"].lower()), "../../"))
     write(f"countries/{slug(k)}/index.html", layout(2, f"Job boards in {k}: APIs, partner programs and sources | {NAME}",
         f"{len(v)} job boards and aggregators based in or serving {k}, with API access, partner programs and cited sources.", body, f"/countries/{slug(k)}/", itemlist(v, 2), noindex=len(v) < 3), indexed=len(v) >= 3)
@@ -288,7 +326,13 @@ about = f"""<h1>About and methodology</h1><div class="prose">
 <h2>Definitions</h2><ul><li><strong>Open API:</strong> usable without approval.</li><li><strong>Self-serve API key:</strong> documented API with a signup or key request.</li>
 <li><strong>Partner-only:</strong> access requires an approved partner or commercial agreement.</li><li><strong>No known API:</strong> nothing publicly documented was found.</li><li><strong>Unknown:</strong> not yet researched.</li></ul>
 <h2>Trademarks and logos</h2><p>Names and icons shown in this directory belong to their respective owners and are used only to identify the services described. Their use does not imply any affiliation with or endorsement by those owners. Owners who would like an icon removed or changed can open an issue on the project repository.</p>
-<h2>Privacy</h2><p>This site uses Google Analytics to measure traffic. It may set cookies in your browser.</p>\n<h2>Corrections and downloads</h2><p>Spotted something wrong or missing? Open an issue or pull request on the project repository. The full dataset is available as <a href="../downloads/job_boards.csv">CSV</a>, <a href="../downloads/job_boards.json">JSON</a> and the <a href="../downloads/sources.csv">sources table</a>.</p></div>"""
+<h2 id="prominence">How prominence is measured</h2><p>There is no free, trustworthy measure of how many jobs or candidates each board has, so the directory shows several separate signals instead of one score.</p>
+<ul><li><strong>Web link popularity:</strong> the global rank of a board's domain in the Majestic Million, which ranks sites by how many distinct networks link to them. Majestic data is licensed CC BY 3.0. It measures how widely a site is linked to, not traffic, jobs or revenue. Tiers: Major (top 1,000), Large (top 10,000), Established (top 100,000), Small (top million).</li>
+<li><strong>Comparable or not:</strong> a tier is given only when the board owns its whole domain. A board that is a section or subdomain of a larger site (for example a product page of a big company) shows Not comparable. A site that covers much more than job listings, such as a classifieds or review site, shows Site-wide and gets no tier.</li>
+<li><strong>Recorded reach:</strong> the number of countries and languages we have recorded for the board. It only counts what we have found, so it understates global boards.</li>
+<li><strong>Self-reported scale:</strong> figures a board publishes about itself, such as jobs listed, with the date read and a quote. They are snapshots and are not comparable between boards.</li></ul>
+<p>Tiers are for orientation, not endorsement.</p>
+<h2>Privacy</h2><p>This site uses Google Analytics to measure traffic. It may set cookies in your browser.</p>\n<h2>Corrections and downloads</h2><p>Spotted something wrong or missing? Open an issue or pull request on the project repository. The full dataset is available as <a href="../downloads/job_boards.csv">CSV</a>, <a href="../downloads/job_boards.json">JSON</a> the <a href="../downloads/sources.csv">sources table</a>, <a href="../downloads/rank.csv">rank data</a> and <a href="../downloads/scale.csv">scale figures</a>.</p></div>"""
 write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}", "How the job board directory is compiled, what each API status means, and how to report corrections.", about, "/about/"))
 
 # ---------- assets, downloads, robots, sitemap, 404 ----------
@@ -296,15 +340,25 @@ write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}"
 shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js")
 if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", OUT/"assets"/"logos", dirs_exist_ok=True)
 (OUT/"downloads").mkdir(exist_ok=True)
-for n in ("job_boards.csv","ats_systems.csv","sources.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
+for n in ("job_boards.csv","ats_systems.csv","sources.csv","rank.csv","scale.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/".nojekyll").write_text("")
+# ---------- rankings ----------
+comparable = sorted([b for b in boards if prom(b)["group"] == 0], key=skey)
+rk_rows = "".join(f'<tr><td>{i}</td><td><div class="namecell">{icon(b, "../")}<a href="../boards/{b["id"]}/"><strong>{e(b["name"])}</strong></a></div></td><td><span class="badge tier-{e(prom(b)["tier"])}">{e(prom(b)["tier"])}</span> <span class="muted small">#{prom(b)["g"]:,}</span></td><td>{e(b["type"])}</td><td>{e(b["region"])}</td></tr>' for i, b in enumerate(comparable[:60], 1))
+write("rankings/index.html", layout(1, f"Largest job boards in the world by web link popularity | {NAME}",
+  f"The most widely linked job boards, aggregators and employment sites, ranked by Majestic Million web link popularity across {len(comparable)} measured boards.",
+  f'<h1>Largest job boards by web link popularity</h1><p class="lede">The {min(60, len(comparable))} most widely linked job boards and aggregators among the {len(boards)} in this directory. Rank is the global position of the board\'s domain in the Majestic Million as of {e(RANK_DATE)}. It measures how widely a site is linked to, not traffic or job volume.</p>'
+  f'<div class="tablewrap"><table><thead><tr><th>#</th><th>Board</th><th>Tier and global rank</th><th>Type</th><th>Region</th></tr></thead><tbody>{rk_rows}</tbody></table></div>'
+  f'<h2>What is left out</h2><p>Boards that are a section of a larger site (such as a product page on a major company site) and sites that cover much more than jobs (such as classifieds or review sites) are not ranked here because their domain rank does not describe the job board. They still appear in the directory with the reason. <a href="../about/#prominence">How prominence is measured</a>. Rank data: <a href="https://majestic.com/reports/majestic-million" rel="noopener nofollow">Majestic Million</a>, CC BY 3.0.</p>', "/rankings/", itemlist(comparable[:50], 1)))
 # ---------- JSON data API, changelog and feed ----------
 (OUT/"data"/"boards").mkdir(parents=True, exist_ok=True)
 def board_json(b):
     d = {k: v for k, v in b.items()}
     for k in ("countries_served", "languages_supported", "ingest_methods"): d[k] = split(b[k])
     d["page"] = f'{BASE}/boards/{b["id"]}/'; d["indexable"] = indexable(b)
+    p = prom(b); d["prominence"] = {"tier": p["tier"], "label": p["label"], "global_rank": p["g"] or None, "scope": p["scope"], "source": "Majestic Million (CC BY 3.0)", "list_date": RANK_DATE}
+    d["scale"] = [{k: x[k] for k in ("metric", "value", "unit", "as_of", "url", "quote", "quote_check")} for x in SCALE.get(b["id"], [])]
     d["sources"] = [{k: x.get(k, "") for k in ("field", "url", "title", "accessed", "quote", "quote_check")} for x in SOURCES.get(b["id"], [])]
     return d
 allj = [board_json(b) for b in boards]

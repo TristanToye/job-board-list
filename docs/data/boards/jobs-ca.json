@@ -32,6 +32,25 @@
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobs-ca/",
  "indexable": true,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 595315,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-06"
+ },
+ "scale": [
+  {
+   "metric": "jobs_listed",
+   "value": "547787",
+   "unit": "active jobs",
+   "as_of": "2026-11-06",
+   "url": "https://www.jobs.ca/",
+   "quote": "547787 active jobs",
+   "quote_check": "ok"
+  }
+ ],
  "sources": [
   {
    "field": "existence",

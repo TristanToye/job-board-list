@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05",
+ "generated": "2026-11-06",
  "count": 239,
  "boards": [
   {
@@ -52,6 +52,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/indeed/",
    "indexable": true,
+   "prominence": {
+    "tier": "Major",
+    "label": "Major",
+    "global_rank": 340,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -168,6 +177,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/linkedin/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 6,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "partner_program",
@@ -272,6 +290,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/google-jobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 1,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -318,6 +345,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/ziprecruiter/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 3793,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -383,6 +419,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/glassdoor/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 1250,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -454,6 +499,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/monster/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 1845,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -527,6 +581,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/careerbuilder/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 3703,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -598,6 +661,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/simplyhired/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 9831,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -649,6 +721,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/dice/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 7179,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -746,6 +827,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/usajobs/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 5522,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -815,6 +905,34 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobbank-ca/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 195,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [
+    {
+     "metric": "jobs_listed",
+     "value": "55000",
+     "unit": "jobs advertised per month",
+     "as_of": "2026-11-05",
+     "url": "https://www.jobbank.gc.ca/aboutus",
+     "quote": "Jobs advertised per month 55000",
+     "quote_check": "unreachable"
+    },
+    {
+     "metric": "employers",
+     "value": "371000",
+     "unit": "registered employers",
+     "as_of": "2026-11-05",
+     "url": "https://www.jobbank.gc.ca/aboutus",
+     "quote": "Registered employers 371000",
+     "quote_check": "unreachable"
+    }
+   ],
    "sources": [
     {
      "field": "existence",
@@ -899,6 +1017,34 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/talent-com/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 16777,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [
+    {
+     "metric": "jobs_listed",
+     "value": "35000000",
+     "unit": "jobs available",
+     "as_of": "2026-11-05",
+     "url": "https://www.talent.com/enterprise",
+     "quote": "over 35 million jobs available in 78 countries",
+     "quote_check": "ok"
+    },
+    {
+     "metric": "countries",
+     "value": "78",
+     "unit": "countries",
+     "as_of": "2026-11-05",
+     "url": "https://www.talent.com/enterprise",
+     "quote": "over 35 million jobs available in 78 countries",
+     "quote_check": "ok"
+    }
+   ],
    "sources": [
     {
      "field": "partner_program",
@@ -999,6 +1145,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/adzuna/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 66808,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "api_status",
@@ -1080,6 +1235,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jooble/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 2772,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "api_status",
@@ -1194,6 +1358,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/careerjet/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 59493,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "api_status",
@@ -1249,6 +1422,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/jobrapido/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 30714,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -1281,6 +1463,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/reed/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 13306,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -1353,6 +1544,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/totaljobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 16458,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -1387,6 +1587,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cv-library/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 37351,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -1456,6 +1665,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/jobg8/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -1492,6 +1710,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/stepstone/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 11609,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -1550,6 +1777,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/xing/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 331,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -1608,6 +1844,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobsuche-ba/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 2222,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -1648,6 +1893,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/arbeitnow/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 242405,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -1680,6 +1934,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/francetravail/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 4228,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -1731,6 +1994,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/welcome-to-the-jungle/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 8604,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -1796,6 +2068,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/infojobs/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 15838,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -1845,6 +2126,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/arbetsformedlingen/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -1876,6 +2166,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/nav-arbeidsplassen/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 23620,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -1906,6 +2205,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/finn-no/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 11651,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -1948,6 +2256,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/jobindex/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 78809,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -1996,6 +2313,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/pracuj/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 23178,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2027,6 +2353,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/jobs-ch/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 47509,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2059,6 +2394,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/hh-ru/",
    "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 3253,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2103,6 +2447,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/seek/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 8055,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -2157,6 +2510,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/jobstreet/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 22582,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -2214,6 +2576,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/jobsdb/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 26849,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2242,6 +2613,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/naukri/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 14987,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -2287,6 +2667,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/foundit/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 128765,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2318,6 +2707,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/apna/",
    "indexable": true,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 218451,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -2357,6 +2755,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/zhaopin/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 3441,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -2394,6 +2801,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/51job/",
    "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 2999,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2422,6 +2838,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/boss-zhipin/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 6148,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -2459,6 +2884,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/rikunabi/",
    "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 8315,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2487,6 +2921,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/mynavi/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 1814,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2517,6 +2960,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/saramin/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 17768,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2545,6 +2997,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/jobkorea/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 25154,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2575,6 +3036,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/wanted/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 156486,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2603,6 +3073,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/kalibrr/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 221820,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2641,6 +3120,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/bayt/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 23784,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -2686,6 +3174,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/gulftalent/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 69692,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2715,6 +3212,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/naukrigulf/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 77993,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2745,6 +3251,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/jobberman/",
    "indexable": true,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 161798,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -2806,6 +3321,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/brightermonday/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 370926,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2834,6 +3358,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/careers24/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 262138,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2862,6 +3395,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/pnet/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 139656,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2891,6 +3433,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/computrabajo/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 48457,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2919,6 +3470,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/occ-mundial/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 85293,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2947,6 +3507,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/bumeran/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 601395,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -2975,6 +3544,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/catho/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 55713,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3005,6 +3583,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/vagas-com/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 33266,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -3044,6 +3631,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/wellfound/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 7078,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -3107,6 +3703,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/remoteok/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 23618,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3137,6 +3742,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/remotive/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 45260,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3167,6 +3781,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/weworkremotely/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 15223,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3197,6 +3820,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/himalayas/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 82511,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3227,6 +3859,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/themuse/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 4296,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -3268,6 +3909,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/handshake/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 11832,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -3316,6 +3966,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/idealist/",
    "indexable": true,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 4265,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -3353,6 +4012,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/higheredjobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 29736,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3383,6 +4051,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/hn-whoishiring/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 629,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3411,6 +4088,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/yc-waas/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 230727,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3442,6 +4128,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/appcast/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 134489,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3473,6 +4168,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/joveo/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 397289,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3504,6 +4208,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/broadbean/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 423688,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3534,6 +4247,15 @@
    "confidence": "seed-unverified",
    "page": "https://jobboardlist.com/boards/recruitics/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 154974,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": []
   },
   {
@@ -3568,6 +4290,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobillico/",
    "indexable": true,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 113475,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "api_status",
@@ -3645,6 +4376,25 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobs-ca/",
    "indexable": true,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 595315,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [
+    {
+     "metric": "jobs_listed",
+     "value": "547787",
+     "unit": "active jobs",
+     "as_of": "2026-11-06",
+     "url": "https://www.jobs.ca/",
+     "quote": "547787 active jobs",
+     "quote_check": "ok"
+    }
+   ],
    "sources": [
     {
      "field": "existence",
@@ -3722,6 +4472,34 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/itjobs-ca/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [
+    {
+     "metric": "jobs_listed",
+     "value": "14685",
+     "unit": "active jobs",
+     "as_of": "2026-11-06",
+     "url": "https://www.itjobs.ca/",
+     "quote": "14685 Active jobs",
+     "quote_check": "ok"
+    },
+    {
+     "metric": "employers",
+     "value": "3126",
+     "unit": "employers hiring",
+     "as_of": "2026-11-06",
+     "url": "https://www.itjobs.ca/",
+     "quote": "3126 Employers hiring",
+     "quote_check": "ok"
+    }
+   ],
    "sources": [
     {
      "field": "existence",
@@ -3780,6 +4558,25 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/charityvillage/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 71818,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [
+    {
+     "metric": "organizations",
+     "value": "170000",
+     "unit": "charitable and nonprofit organizations served",
+     "as_of": "2026-11-06",
+     "url": "https://charityvillage.com/",
+     "quote": "a career resource to over 170000 charitable and nonprofit organizations across Canada",
+     "quote_check": "ok"
+    }
+   ],
    "sources": [
     {
      "field": "existence",
@@ -3837,6 +4634,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/careers-indigenous-link/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -3894,6 +4700,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/connect-jobs/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -3944,6 +4759,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/gc-jobs/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 195,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -4002,6 +4826,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/on-gojobs/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 676,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -4043,6 +4876,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ab-goa-jobs/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 2638,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -4083,6 +4925,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/jobboom/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 146396,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -4122,6 +4973,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/careerbeacon/",
    "indexable": true,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 180850,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -4177,6 +5037,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/eluta/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 91144,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4216,6 +5085,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/workopolis/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 24826,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4271,6 +5149,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/talentegg/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 114699,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -4310,6 +5197,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/agcareers/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 224664,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -4349,6 +5245,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/careersinfood/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 483966,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -4388,6 +5293,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/civicjobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -4427,6 +5341,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/applytoeducation/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 481821,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -4466,6 +5389,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/jobsmedia/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -4505,6 +5437,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/magnet/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "relationship",
@@ -4544,6 +5485,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/alis-alberta/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 2638,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4583,6 +5533,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/best-jobs-canada/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4622,6 +5581,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/gaulin-media/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4661,6 +5629,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/media-job-search-canada/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 887318,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4700,6 +5677,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/tesl-canada/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 785200,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4739,6 +5725,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/wow-jobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 366327,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4778,6 +5773,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/indigenous-careers/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4817,6 +5821,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/allstarjobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4856,6 +5869,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/canada-jobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4895,6 +5917,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/sirc-canadian-sport/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 123742,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4934,6 +5965,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/education-canada/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 688085,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -4971,6 +6011,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/esl-cafe/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 36059,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -5010,6 +6059,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/goodwork-canada/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 572100,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -5047,6 +6105,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/iitjobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -5086,6 +6153,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/jobshark/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -5123,6 +6199,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/governmentjobs-com/",
    "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 8572,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5160,6 +6245,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/built-in/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 3563,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5197,6 +6291,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/snagajob/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 21607,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5242,6 +6345,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/prospects/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 11371,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5287,6 +6399,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/niche-jobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5324,6 +6445,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/charityjob/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 77230,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5361,6 +6491,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/find-an-apprenticeship/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 505,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5398,6 +6537,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/workforce-australia/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 159702,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5435,6 +6583,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/gradconnection-seek-grad/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 285104,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5472,6 +6629,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/itjob-au/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5517,6 +6683,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/yakka/",
    "indexable": true,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5570,6 +6745,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/pro-bono-australia-jobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 121943,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5623,6 +6807,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/national-career-service/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 76320,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5676,6 +6869,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/internshala/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 55819,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5729,6 +6931,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/iimjobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 515642,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5766,6 +6977,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cutshort/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 481409,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5819,6 +7039,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/hirist/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 750473,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5856,6 +7085,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobware/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 77998,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5893,6 +7131,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/kimeta/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 232631,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5941,6 +7188,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/berlin-startup-jobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 490981,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -5996,6 +7252,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/hellowork/",
    "indexable": true,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 17388,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6075,6 +7340,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobijoba/",
    "indexable": true,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 149209,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6144,6 +7418,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/staffsant/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 639384,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6181,6 +7464,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobteaser/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 22137,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6218,6 +7510,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/studentjob-fr/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 467178,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6255,6 +7556,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/welovedevs/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 754944,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6292,6 +7602,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/experteer/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6331,6 +7650,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/jobserve/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 126934,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -6368,6 +7696,15 @@
    "confidence": "listed-only",
    "page": "https://jobboardlist.com/boards/rozee-pk/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 227935,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "listed_by",
@@ -6405,6 +7742,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/sepe-servicio-p-blico-de-empleo-estatal/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 12802,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6442,6 +7788,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/trabajos-com/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 271283,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6479,6 +7834,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/tecnoempleo/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 262052,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6516,6 +7880,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ticjob/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 950093,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6553,6 +7926,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/studentjob-es/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 555765,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6590,6 +7972,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/lanbide/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 5570,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6627,6 +8018,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/comunidad-de-madrid-empleo-objetivo-tu-empleo/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 5620,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6664,6 +8064,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/doda/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 20295,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6701,6 +8110,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/wantedly/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 7526,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6738,6 +8156,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/green/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 137639,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6775,6 +8202,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/japan-dev/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 261888,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6812,6 +8248,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/gaijinpot-jobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 27269,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6849,6 +8294,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/daijob-com/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 132995,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6886,6 +8340,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/empregos-com-br/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 363521,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6923,6 +8386,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/sistema-nacional-de-emprego-sine/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 14825,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6960,6 +8432,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/trampos/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 389920,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -6997,6 +8478,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cia-de-talentos/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 193830,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7034,6 +8524,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ciee/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 50459,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7071,6 +8570,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/pcd-com-br/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7108,6 +8616,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/programathor/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7145,6 +8662,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/trovolavoro/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7182,6 +8708,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobtoday/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 107098,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7219,6 +8754,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cerco-trovo/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7256,6 +8800,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/lavoro-gov-it-ministry-of-labour/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 10811,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7293,6 +8846,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/almalaurea/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 96070,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7330,6 +8892,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/unijobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7367,6 +8938,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/concorsando/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 956852,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7404,6 +8984,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/iprogrammatori/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7441,6 +9030,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ninacare/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7478,6 +9076,15 @@
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/lavoro-turismo/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7513,6 +9120,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/craigslist/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 1334,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7550,6 +9166,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/kalaydo/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 130081,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7587,6 +9212,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/jobat/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 59186,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7624,6 +9258,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/selor/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 651403,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7661,6 +9304,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/cadremploi/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 33001,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7698,6 +9350,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/mediabistro/",
    "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 7599,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7735,6 +9396,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/ejobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 120801,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7770,6 +9440,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/mojedelo-com/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 533362,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7807,6 +9486,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/104-job-bank/",
    "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 6581,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7842,6 +9530,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/careerbuilder-ca/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 331596,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7879,6 +9576,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/national-labor-gateway/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 351946,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7916,6 +9622,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/meteojob/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 167553,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7951,6 +9666,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/teamlyzer/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -7988,6 +9712,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/kleinanzeigen/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 6912,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8025,6 +9758,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/government-e-employment-system/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 622044,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8060,6 +9802,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/mandy-com/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 43136,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8097,6 +9848,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/subito/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 18026,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8132,6 +9892,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/jobstoday-ltd/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8167,6 +9936,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/grapevine-jobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8204,6 +9982,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/bdjobs-com/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 82246,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8239,6 +10026,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/flexa/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 285778,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8276,6 +10072,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/jobilize/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 860671,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8311,6 +10116,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/torre-ai/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 372572,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8348,6 +10162,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/zippia/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Site-wide",
+    "global_rank": 3299,
+    "scope": "mixed",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8383,6 +10206,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/z-gis-geoinformatik-stellenb-rse/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 32263,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8420,6 +10252,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/atypical-advantage/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8455,6 +10296,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/backpacker-job-board/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 422192,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8492,6 +10342,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/unified-national-employment-platform/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 323644,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8527,6 +10386,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/dentalpost/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8564,6 +10432,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/cvmarket-lv/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 925343,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8601,6 +10478,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/cvmarket-lt/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 662081,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8638,6 +10524,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/jobvector/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 273018,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8675,6 +10570,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/profession-hu/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 122291,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8712,6 +10616,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/jobtopgun/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 532069,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8749,6 +10662,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/workeer/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 525830,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8786,6 +10708,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/hanshek/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8823,6 +10754,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/gippslander/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8860,6 +10800,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/banco-nacional-de-empregos/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 284156,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8895,6 +10844,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/vieclam-net/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8932,6 +10890,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/arubai/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -8969,6 +10936,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/go-zambia-jobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9006,6 +10982,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/cake-cakeresume/",
    "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 10237,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9043,6 +11028,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/karmsakha/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9080,6 +11074,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/techgo/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9117,6 +11120,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/myvision-consulting/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 677099,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9152,6 +11164,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/freelancer-nl/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 485724,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9189,6 +11210,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/hireremote-ph/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9226,6 +11256,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/jobs-pl/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 429942,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9263,6 +11302,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/maison-de-talents/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9300,6 +11348,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/yemplea/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9337,6 +11394,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/cloz/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9374,6 +11440,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/remotli/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9411,6 +11486,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/workinitiatives/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9448,6 +11532,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/curatorsearch/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9485,6 +11578,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/verde-talent/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9520,6 +11622,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/relomote/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9557,6 +11668,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/careerviet/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 144684,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9594,6 +11714,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/turuncuis-com/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9631,6 +11760,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/thai-do/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 969130,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9668,6 +11806,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/gogojobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9705,6 +11852,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/enroute-jobs/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9740,6 +11896,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/twinpro/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9775,6 +11940,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/makersjob/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9810,6 +11984,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/buildjob/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9847,6 +12030,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/bib-job/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9884,6 +12076,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/happy-monday/",
    "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 269148,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9919,6 +12120,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/zzpdock/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9954,6 +12164,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/nexttechcareer/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",
@@ -9991,6 +12210,15 @@
    "confidence": "secondary-sourced",
    "page": "https://jobboardlist.com/boards/aitrainer-work/",
    "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "scale": [],
    "sources": [
     {
      "field": "existence",

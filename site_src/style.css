@@ -26,3 +26,7 @@ th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vert
 .titlerow{display:flex;gap:14px;align-items:center;margin-top:1.2rem}.titlerow h1{margin:0}.titlerow .ico{width:64px;height:64px}.titlerow .tile{font-size:1.8rem;border-radius:12px}
 .sources{padding-left:1.2rem}.sources li{margin:6px 0}
 .quote{margin:2px 0 0 0;padding-left:10px;border-left:3px solid var(--line);color:var(--muted);font-size:.88rem}
+.badge.tier-Major{background:#1d4ed8;color:#fff;border-color:transparent}.badge.tier-Large{background:#dbeafe;color:#1e3a8a;border-color:transparent}
+.badge.tier-Established{background:var(--card)}.badge.tier-Small{background:transparent;color:var(--muted)}
+@media (prefers-color-scheme:dark){.badge.tier-Large{background:#1e3a8a;color:#dbeafe}.badge.tier-Major{background:#3b82f6}}
+ul.plain{margin:0;padding-left:1.1rem}

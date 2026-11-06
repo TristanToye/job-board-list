@@ -32,6 +32,34 @@
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/itjobs-ca/",
  "indexable": true,
+ "prominence": {
+  "tier": "",
+  "label": "Not in top 1M",
+  "global_rank": null,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-06"
+ },
+ "scale": [
+  {
+   "metric": "jobs_listed",
+   "value": "14685",
+   "unit": "active jobs",
+   "as_of": "2026-11-06",
+   "url": "https://www.itjobs.ca/",
+   "quote": "14685 Active jobs",
+   "quote_check": "ok"
+  },
+  {
+   "metric": "employers",
+   "value": "3126",
+   "unit": "employers hiring",
+   "as_of": "2026-11-06",
+   "url": "https://www.itjobs.ca/",
+   "quote": "3126 Employers hiring",
+   "quote_check": "ok"
+  }
+ ],
  "sources": [
   {
    "field": "existence",

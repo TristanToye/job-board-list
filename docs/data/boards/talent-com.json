@@ -39,6 +39,34 @@
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/talent-com/",
  "indexable": true,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 16777,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-06"
+ },
+ "scale": [
+  {
+   "metric": "jobs_listed",
+   "value": "35000000",
+   "unit": "jobs available",
+   "as_of": "2026-11-05",
+   "url": "https://www.talent.com/enterprise",
+   "quote": "over 35 million jobs available in 78 countries",
+   "quote_check": "ok"
+  },
+  {
+   "metric": "countries",
+   "value": "78",
+   "unit": "countries",
+   "as_of": "2026-11-05",
+   "url": "https://www.talent.com/enterprise",
+   "quote": "over 35 million jobs available in 78 countries",
+   "quote_check": "ok"
+  }
+ ],
  "sources": [
   {
    "field": "partner_program",
