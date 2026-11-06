@@ -1,0 +1,56 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 10,
+  "boards": [
+    {
+      "name": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat",
+      "primary_language": "en",
+      "languages_supported": ["en", "bg", "es", "cs", "da", "de", "et", "el", "fr", "ga", "hr", "it", "lv", "lt", "hu", "mt", "nl", "pl", "pt", "ru", "ro", "sk", "sl", "fi", "sv", "uk"],
+      "api_status": "unknown",
+      "api_docs_url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started",
+      "sources": [
+        {"field": "languages", "url": "https://ec.europa.eu/eurostat/en/about-us", "title": "Eurostat about us (language selector)", "quote": "Select your language."}
+      ]
+    },
+    {
+      "name": "Unijobs",
+      "url": "https://www.unijobs.it/",
+      "primary_language": "it",
+      "languages_supported": ["it"],
+      "sources": [
+        {"field": "languages", "url": "https://www.unijobs.it/en", "title": "Unijobs English page", "quote": "It is in Italian only, but you would be surprised how good Google Translate has become."}
+      ]
+    },
+    {
+      "name": "Randstad Digital",
+      "url": "https://www.randstaddigital.com/",
+      "primary_language": "en",
+      "languages_supported": ["en", "fr", "de"],
+      "sources": [
+        {"field": "languages", "url": "https://www.randstaddigital.com/", "title": "Randstad Digital home page language selector", "quote": "fr"},
+        {"field": "languages", "url": "https://www.randstaddigital.com/", "title": "Randstad Digital home page language selector", "quote": "de"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Eurostat", "url": "https://ec.europa.eu/eurostat", "outcome": "partially-verified", "fields_not_found": ["founded", "api_status"], "method": "fetch", "note": "Languages verified from the language selector. The history page gives a 1952 creation date only in a sentence whose quoted text does not state the year, so founded is not recorded. The web services page does not say whether a key is needed, and the getting-started page says only that the statistics API is open for public use."},
+    {"name": "Unijobs", "url": "https://www.unijobs.it/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded"], "method": "fetch", "note": "Site is Italian only, per the English page. The about page and English page give no founding year, owner or location."},
+    {"name": "Find an Apprenticeship", "url": "https://www.findapprenticeship.service.gov.uk", "outcome": "not-stated", "fields_not_found": ["languages"], "method": "fetch", "note": "Header, footer and body show no language option, including Welsh."},
+    {"name": "Randstad Digital", "url": "https://www.randstaddigital.com/", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Language selector shows en (current), fr and de. Selector shows codes only, not full language names."},
+    {"name": "Office for National Statistics", "url": "https://www.ons.gov.uk", "outcome": "not-stated", "fields_not_found": ["api_status"], "method": "fetch", "note": "Header, footer and navigation show no developers, API, open data or partners link. The /developers page returned 404. Partner pages were not read."}
+  ],
+  "attempts": [
+    {"name": "Eurostat", "field": "founded", "outcome": "not-found", "pages": ["https://ec.europa.eu/eurostat/en/about-us/history", "https://ec.europa.eu/eurostat/en/about-us"]},
+    {"name": "Eurostat", "field": "languages", "outcome": "found", "pages": ["https://ec.europa.eu/eurostat/en/about-us"]},
+    {"name": "Eurostat", "field": "api_status", "outcome": "not-found", "pages": ["https://ec.europa.eu/eurostat/en/data/web-services", "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started"]},
+    {"name": "Unijobs", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.unijobs.it/it/about", "https://www.unijobs.it/en"]},
+    {"name": "Unijobs", "field": "founded", "outcome": "not-found", "pages": ["https://www.unijobs.it/it/about", "https://www.unijobs.it/en"]},
+    {"name": "Unijobs", "field": "languages", "outcome": "found", "pages": ["https://www.unijobs.it/en"]},
+    {"name": "Find an Apprenticeship", "field": "languages", "outcome": "not-found", "pages": ["https://www.findapprenticeship.service.gov.uk"]},
+    {"name": "Randstad Digital", "field": "languages", "outcome": "found", "pages": ["https://www.randstaddigital.com/"]},
+    {"name": "Office for National Statistics", "field": "api_status", "outcome": "not-found", "pages": ["https://www.ons.gov.uk", "https://www.ons.gov.uk/developers"]}
+  ],
+  "blocked": []
+}
