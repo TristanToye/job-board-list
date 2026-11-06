@@ -1,0 +1,636 @@
+{
+ "round": 9,
+ "entries": [
+  {
+   "id": "australian-bureau-of-statistics",
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "AU"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Postal address in Belconnen ACT, Australia, from Contact us page."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.abs.gov.au/about;https://www.abs.gov.au/welcome-abs-website;https://www.abs.gov.au/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.abs.gov.au/about/contact-us"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.abs.gov.au/about;https://www.abs.gov.au/welcome-abs-website;https://www.abs.gov.au/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.abs.gov.au/about;https://www.abs.gov.au/welcome-abs-website;https://www.abs.gov.au/"
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": "https://dataexplorer.abs.gov.au/;https://www.abs.gov.au/statistics/consultancy-services;https://www.abs.gov.au/about/data-services/data-explorer/data-explorer-user-guide"
+    }
+   ]
+  },
+  {
+   "id": "governmentjobs-com",
+   "name": "GovernmentJobs.com",
+   "url": "https://www.governmentjobs.com/",
+   "type": "government",
+   "parent": "Governmentjobs.com, Inc. (DBA NEOGOV)",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "Governmentjobs.com, Inc. (DBA NEOGOV)"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Company Info gives headquarters in El Segundo, CA, United States and owner Governmentjobs.com, Inc. (DBA NEOGOV). Page says the company began developing applications in 1998, which is not a stated founding year."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.governmentjobs.com/home/companyinfo"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.governmentjobs.com/home/companyinfo"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.governmentjobs.com/home/companyinfo"
+    }
+   ]
+  },
+  {
+   "id": "workday",
+   "name": "Workday Recruiting",
+   "url": "https://www.workday.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "founded": "2005",
+    "api_status": "none-known",
+    "partner_program": "yes"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding year from Our Story timeline; languages from the region chooser link list."
+   },
+   "attempts": []
+  },
+  {
+   "id": "workable",
+   "name": "Workable",
+   "url": "https://www.workable.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "GR",
+    "business_model": "subscription with 15-day free trial; Standard plan $299/month or $3,588/year",
+    "api_status": "public-key",
+    "api_docs_url": "https://workable.readme.io",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding year from homepage text and structured data; pricing page gives subscription plans and a 15-day trial. Parent not stated and not requested."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.workable.com;https://www.workable.com/about"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.workable.com;https://www.workable.com/pricing"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.workable.com/pricing"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.workable.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "challenger-gray-christmas",
+   "name": "Challenger, Gray & Christmas",
+   "url": "https://www.challengergray.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "founded": "1966"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent",
+    "note": "The founding quote names a founder called James and does not name the firm, so founded 1966 is partially verified. Our Team page gave no founding year or parent. Footer copyright year is not a founding statement."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.challengergray.com/about-us/;https://www.challengergray.com/our-team/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.challengergray.com/about-us/;https://www.challengergray.com/our-team/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "nijobs",
+   "name": "NIJobs",
+   "url": "https://www.nijobs.com",
+   "type": "board",
+   "parent": "The Stepstone Group",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "The Stepstone Group"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "HTTP 503 on two fetch attempts; no page content was read."
+   },
+   "attempts": []
+  },
+  {
+   "id": "robert-half",
+   "name": "Robert Half",
+   "url": "https://www.roberthalf.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "languages",
+    "note": "Raw text of the locations, homepage and hire-talent partner pages has no language or country selector. The fetch tool summary listed a footer selector that does not appear in raw text, so no quote recorded."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.roberthalf.com/us/en/about/about-robert-half;https://www.roberthalf.com/us/en/locations;https://www.roberthalf.com/us/en"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.roberthalf.com/us/en/about/about-robert-half;https://www.roberthalf.com/us/en/about/investor-center;https://www.roberthalf.com/us/en"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.roberthalf.com/us/en/about/investor-center;https://www.roberthalf.com/us/en/about/about-robert-half"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.roberthalf.com/us/en/locations"
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": "https://www.roberthalf.com/us/en/locations;https://www.roberthalf.com/;https://www.roberthalf.com/us/en/hire-talent/partner"
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": "https://www.roberthalf.com/us/en/hire-talent/partner"
+    }
+   ]
+  },
+  {
+   "id": "korn-ferry",
+   "name": "Korn Ferry",
+   "url": "https://www.kornferry.com",
+   "type": "recruiting-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and /about-us state no headquarters, parent, language options or employer pricing; the only partnership text is an Olympics sponsorship."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "impact-group",
+   "name": "IMPACT Group",
+   "url": "https://www.impactgrouphr.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "founded": "1988"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Founding year 1988 found on History page. Contact page shows a US street address and +1 phone, but no headquarters country is stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://impactgrouphr.com/about/;https://impactgrouphr.com/contact/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://impactgrouphr.com/about/history/"
+    }
+   ]
+  },
+  {
+   "id": "sirc-canadian-sport",
+   "name": "Canadian Sport (SIRC)",
+   "url": "https://sirc.ca/",
+   "type": "niche-board",
+   "parent": "Sport Information Resource Centre",
+   "missing": [
+    "hq_country",
+    "founded",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Sport Information Resource Centre",
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "breezy",
+   "name": "Breezy HR",
+   "url": "https://breezy.hr",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "business_model": "subscription",
+    "api_status": "public-key",
+    "api_docs_url": "https://developer.breezy.hr",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Business model verified from the pricing page: paid subscription plans, annual billing option, Breezy Intelligence add-on at $30 per 100,000 credits. No per-post or free posting option was stated. About page and home page do not state a fou"
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "codility",
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "founded": "2009",
+    "business_model": "subscription",
+    "partner_program": "yes",
+    "partner_url": "https://www.codility.com/partners/"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent",
+    "note": "Founding year 2009 and a partner program at /partners/ found. About page and homepage state no headquarters country or owner."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.codility.com/about/;https://www.codility.com/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.codility.com/about/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.codility.com/about/;https://www.codility.com/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "found",
+     "pages": "https://www.codility.com/partners/"
+    }
+   ]
+  },
+  {
+   "id": "jobtoday",
+   "name": "Jobtoday",
+   "url": "https://www.jobtoday.com/it",
+   "type": "aggregator",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;parent",
+    "note": "HQ (New York, US) was found on the Contacts page. Languages (English, Español) come from the language menu. Business model is free posting with a paid subscription to contact candidates; no prices shown. The About page says we launched but "
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://jobtoday.us/about-us/contacts?locale=en-US;https://jobtoday.us/about-us"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://jobtoday.us/about-us;https://jobtoday.us/about-us/contacts?locale=en-US"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://jobtoday.us/about-us;https://jobtoday.us/about-us/contacts?locale=en-US;https://jobtoday.us/landings/advertise-for-free"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://jobtoday.us/about-us"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://jobtoday.us/landings/advertise-for-free"
+    }
+   ]
+  },
+  {
+   "id": "niche-jobs",
+   "name": "Niche Jobs",
+   "url": "https://www.nichejobs.co.uk",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "experteer",
+   "name": "Experteer",
+   "url": "https://www.experteer.fr",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "programathor",
+   "name": "ProgramaThor",
+   "url": "https://www.programathor.com.br",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  }
+ ]
+}

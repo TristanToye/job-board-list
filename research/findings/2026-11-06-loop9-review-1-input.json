@@ -1,0 +1,631 @@
+{
+ "round": 9,
+ "entries": [
+  {
+   "id": "o-net",
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "type": "lmi",
+   "parent": "U.S. Department of Labor",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "U.S. Department of Labor",
+    "api_status": "public-key",
+    "api_docs_url": "https://www.onetonline.org/help/onet/webservices"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Parent taken from the onetonline.org help page. The onetcenter.org overview also names the Department of Labor sponsorship but is a different domain, so it was not used as a source."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.onetcenter.org/overview.html;https://services.onetcenter.org/"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.onetcenter.org/overview.html"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.onetonline.org/help/online/"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": "https://services.onetcenter.org/"
+    }
+   ]
+  },
+  {
+   "id": "kwork",
+   "name": "Kwork",
+   "url": "https://www.kwork.com",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "business_model": "No paid accounts or subscriptions for sellers. Kwork charges a percentage fee on completed orders."
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "The For Sellers page states the fee model. The fee applies to sellers on completed orders, not to employers, so it describes the seller side of the marketplace."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://kwork.com/for-sellers"
+    }
+   ]
+  },
+  {
+   "id": "the-adecco-group",
+   "name": "The Adecco Group",
+   "url": "https://www.adecco.com",
+   "type": "staffing",
+   "parent": "The Adecco Group",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "The Adecco Group"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded",
+    "note": "adecco.com homepage has no HQ or history. The group site adeccogroup.com (a different domain from the entry URL) was read on the homepage, our-group, about-us and investors pages, with no HQ or founding statement. The press release dateline"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.adecco.com;https://www.adeccogroup.com/;https://www.adeccogroup.com/our-group/;https://www.adeccogroup.com/our-group/about-us/;https://www.adeccogroup.com/investors/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.adeccogroup.com/our-group/about-us/;https://www.adeccogroup.com/investors/;https://www.adeccogroup.com/-/media/project/Adecco-Group/AdeccoGroup/Investors/The-Adecco-Group-Factsheet-2024-052025.pdf"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "nomis",
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "type": "lmi",
+   "parent": "Office for National Statistics",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Office for National Statistics",
+    "api_status": "public-open",
+    "api_docs_url": "https://www.nomisweb.co.uk/api"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "/api redirected to /api/v01/help, which states anonymous use is allowed and an optional key raises limits."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.nomisweb.co.uk/api/v01/help"
+    },
+    {
+     "field": "api_status",
+     "outcome": "found",
+     "pages": "https://www.nomisweb.co.uk/api;http://www.nomisweb.co.uk/api/v01/help"
+    }
+   ]
+  },
+  {
+   "id": "national-career-service",
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "type": "government",
+   "parent": "Ministry of Labour & Employment, Government of India",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "IN",
+    "parent": "Ministry of Labour & Employment, Government of India"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded",
+    "note": "About pages read. They name the Ministry of Labour & Employment as the initiative owner but give no launch or founding year."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.ncs.gov.in/about-us;https://www.ncs.gov.in/about-ncsc-da"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "caterer-com",
+   "name": "Caterer.com",
+   "url": "https://www.caterer.com",
+   "type": "board",
+   "parent": "The Stepstone Group",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "The Stepstone Group"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "HTTP 503 on two fetch attempts; no page content was read."
+   },
+   "attempts": []
+  },
+  {
+   "id": "hirevue",
+   "name": "HireVue",
+   "url": "https://www.hirevue.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "founded": "2004",
+    "partner_program": "yes",
+    "partner_url": "https://www.hirevue.com/integrations",
+    "ingest_methods": "ATS integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "api_status",
+    "note": "Integrations and Certified Integration Partner Program pages describe pre-built ATS integrations and a partner program, but no public API, API key, developer or partner-only API access is stated. Developer and API pages were not linked from"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.hirevue.com/about;https://www.hirevue.com/press-release;https://www.hirevue.com/platform/integrations"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.hirevue.com/about"
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": "https://www.hirevue.com/platform/integrations;https://www.hirevue.com/platform/integrations/partner-program"
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "almalaurea",
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "type": "niche-board",
+   "parent": "Consorzio AlmaLaurea",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "IT",
+    "parent": "Consorzio AlmaLaurea"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Language switcher shows IT and EN. Primary Italian inferred from Italian page text, no explicit statement."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.almalaurea.it/chi-siamo/contatti"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.almalaurea.it/chi-siamo/contatti;https://www.almalaurea.it/trasparenza"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.almalaurea.it/chi-siamo/contatti;https://www.almalaurea.it/trasparenza"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.almalaurea.it/en;https://www.almalaurea.it/;https://www.almalaurea.it/chi-siamo/sistema-e-struttura;https://www.almalaurea.it/chi-siamo/organizzazione"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://www.almalaurea.it/servizi-per-le-imprese"
+    }
+   ]
+  },
+  {
+   "id": "randstad",
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "NL",
+    "founded": "1960"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages",
+    "note": "Parent named in the footer trademark line. No language menu on the country selector or home page."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.randstad.com/about-randstad/company-profile/"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.randstad.com/investor-relations/;https://www.randstad.com/"
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": "https://www.randstad.com/find-randstad-in-your-country/;https://www.randstad.com/"
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "clearancejobs",
+   "name": "ClearanceJobs",
+   "url": "https://www.clearancejobs.com",
+   "type": "board",
+   "parent": "DHI Group",
+   "missing": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "DHI Group"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;business_model",
+    "note": "No founding year stated. The home page says 'Since 2002, over 1.9 million cleared candidates have joined', which describes candidate sign-ups, not the founding, so it was not recorded as founded. Recruitment solution and request-demo pages "
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://about.clearancejobs.com;https://www.clearancejobs.com"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://about.clearancejobs.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://about.clearancejobs.com/employers/products/recruitment-solution;https://about.clearancejobs.com/employers/request-demo"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "kalaydo",
+   "name": "Kalaydo",
+   "url": "https://www.kalaydo.de/",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "founded": "2006"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "jobware",
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "type": "board",
+   "parent": "Medien Union",
+   "missing": [
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "founded": "1996",
+    "parent": "Medien Union",
+    "partner_program": "yes",
+    "partner_url": "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model",
+    "note": "Parent, founding and partner program found. Impressum gives a Paderborn address and GmbH, but no country is stated. Employer prices not shown; the solutions page only describes products sold by job boards and partner revenue share (50 %)."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.jobware.de/impressum"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.jobware.de/impressum;https://www.jobware.de/ueber-uns"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.jobware.de/ueber-uns"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.jobware.de/ueber-uns"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.jobware.de/ueber-uns"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "found",
+     "pages": "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions"
+    }
+   ]
+  },
+  {
+   "id": "catho",
+   "name": "Catho",
+   "url": "https://www.catho.com.br",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "BR",
+    "primary_language": "pt",
+    "languages_supported": "pt",
+    "business_model": "subscription"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "cake-cakeresume",
+   "name": "Cake (CakeResume)",
+   "url": "https://www.cake.me",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "founded": "2016",
+    "languages_supported": "en;zh;vi;id;ja",
+    "business_model": "subscription"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
+    "note": "Homepage language menu, employer pricing and job seeker pricing read; no headquarters, parent, API or partner statement found. /partners returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "itjob-au",
+   "name": "ITJob.au",
+   "url": "https://www.itjob.au/",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "pcd-com-br",
+   "name": "PcD.com.br",
+   "url": "https://www.pcd.com.br",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  }
+ ]
+}
