@@ -24,7 +24,7 @@ for r in boards:
 src = load("sources.csv"); ids = {r["id"] for r in boards}
 for x in src:
     if x["board_id"] not in ids: print(f"source: unknown board {x['board_id']}"); bad += 1
-    if not x["url"].startswith("https://"): print(f"source {x['board_id']}: bad url {x['url']!r}"); bad += 1
+    if not x["url"].startswith(("https://", "http://")): print(f"source {x['board_id']}: bad url {x['url']!r}"); bad += 1
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", x["accessed"]): print(f"source {x['board_id']}: bad date {x['accessed']!r}"); bad += 1
 WEAK = {"listed_by", "relationship"}
 sourced = {x["board_id"] for x in src}; strong = {x["board_id"] for x in src if x["field"] not in WEAK}
