@@ -46,3 +46,26 @@ round,board_id,flag
 3,welcome-to-the-jungle,"Languages recorded as fr, en, es, cs, sk, but the switcher seen shows only Francais and English (US/UK)."
 3,randstad,"hq_country NL comes from the registered office in Diemen, which the page does not call a headquarters."
 3,zarplata-ru,"Parent HeadHunter Group is not named in the visible page text; the operating company is LLC Hedhunter (HeadHunter LLC), so the parent comes from the record only."
+4,higheredjobs,Homepage returned an empty body in both the fetch tool and the headless reader; the site may be down or may need a different URL.
+4,wow-jobs,"wowjobs.ca returns a 301 redirect to simplyhired.ca/?from=wowjobs, so the board may now be run by or merged into SimplyHired. Confirm whether it still operates independently and whether the record sho"
+4,find-an-apprenticeship,"Parent is blank, but the privacy notice link points at a Department for Education publication. Check whether the parent should be the Department for Education."
+4,sistema-nacional-de-emprego-sine,"Parent is blank, but the service page names the Ministério do Trabalho e Emprego as the operating body."
+4,jobtoday,"Entry URL is the /it section of jobtoday.com, but the About and Contacts pages sit on jobtoday.us. Check which market the entry should describe."
+4,z-gis-geoinformatik-stellenb-rse,"Entry URL https://www.plus.ac.at/geoinformatik/jobs/ returns 404 Not Found. Confirm the current listing URL, or whether the board is closed."
+4,agcareers,"Parent is blank, but the homepage footer reads 'a Farms.com Company', linking to farms.com. Check whether the parent should be Farms.com."
+4,jobkorea,"Footer names the operator as Worxphere LLC and the company intro link goes to worxphere.ai, while parent is blank in the record; confirm whether JobKorea is owned or operated by Worxphere."
+4,computrabajo,"Footer copyright holder is DGNET LTD, which is not in the record; it may be the parent entity, unverified."
+4,vagas-com,"Footer copyright holder is Vagas Tecnologia, which is not in the record; check the parent relationship."
+4,media-job-search-canada,"Homepage does not match a job board: footer reads '© 2025 MUSANG178' and 'Website Game Online Terpercaya', with Samsung references; the domain may be repurposed or the record stale."
+4,education-canada,Homepage says the site is part of a much larger educational recruitment network without naming it; the parent field may need that network name.
+4,jobteaser,Footer copyright range 2008-2026 is not a founding date; do not use it for founded.
+4,comunidad-de-madrid-empleo-objetivo-tu-empleo,"Record describes a government service section rather than a hiring platform; the offer search is at oficinavirtualempleo.comunidad.madrid, so confirm which URL the entry should use."
+4,gaijinpot-jobs,Footer copyright is GPlusMedia Inc. and the record has no parent; confirm whether GPlusMedia is the parent.
+4,ciee,"Banner says CIEE has operated for 60 years but gives no founding year; hq and parent are blank, so confirm the operating entity."
+4,government-e-employment-system,Host eservices.mcs.gov.sa must be allowed in the session network settings before a retry.
+4,government-e-employment-system,URL contains an ASP.NET session token that will expire; store the base host and path instead.
+4,eurostat,"Language list links are placeholders (#), so the languages field cannot be checked from the homepage."
+4,recruit-group,"Recruit Group appears to be the same group as Recruit Holdings, which is named as parent of 51job; check for a duplicate entry. Parent is blank here, which may be correct if it is the top holding."
+4,51job,Founded is still listed as missing although the review found 1998 on we.51job.com/pc/aboutus; update the record.
+4,51job,"Homepage copyright reads 1999-2022, which may be stale."
+4,talentegg,"Services are reported unavailable, so the entry may be closed or in transition; confirm its status before any further lookup."

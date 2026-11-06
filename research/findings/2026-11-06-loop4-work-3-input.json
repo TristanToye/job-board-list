@@ -1,0 +1,109 @@
+{
+ "round": 4,
+ "orders": [
+  {
+   "id": "agcareers",
+   "name": "AgCareers",
+   "url": "https://www.agcareers.com",
+   "fields": [
+    "founded",
+    "parent",
+    "business_model",
+    "partner_program"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "parent": "high",
+    "business_model": "high",
+    "partner_program": "high"
+   },
+   "try_pages": [
+    "https://www.agcareers.com/advertising-rates.cfm",
+    "https://www.agcareers.com/employer-partners.cfm",
+    "https://www.agcareers.com/association-partnerships.cfm",
+    "https://farms.com"
+   ],
+   "reason": "Pricing link (advertising-rates.cfm) is on the homepage, which should state the business model. Employer Partners and Association Partners links are on the homepage. The footer says a Farms.com Compan"
+  },
+  {
+   "id": "ciee",
+   "name": "CIEE",
+   "url": "https://portal.ciee.org.br",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium",
+    "business_model": "medium",
+    "partner_program": "high"
+   },
+   "try_pages": [
+    "https://portal.ciee.org.br/quero-ser-parceiro",
+    "https://portal.ciee.org.br/conheca-o-ciee/",
+    "https://portal.ciee.org.br/contrate-com-o-ciee"
+   ],
+   "reason": "Quero ser parceiro link (Instituicoes de Ensino) and Area do Parceiro link are on the homepage; Sala de Imprensa leads to the about section; the Contrate com o CIEE link may cover employer fees. The A"
+  },
+  {
+   "id": "sistema-nacional-de-emprego-sine",
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+   "fields": [
+    "hq_country",
+    "parent",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "parent": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego",
+    "https://www.gov.br/governodigital/pt-br/dados-abertos"
+   ],
+   "reason": "The service page links to the Ministério do Trabalho e Emprego, which is the operating body, so the parent is likely to be confirmed there. The federal open-data page is linked and may list vacancy da"
+  },
+  {
+   "id": "wantedly",
+   "name": "Wantedly",
+   "url": "https://www.wantedly.com/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://www.wantedly.com/about/list",
+    "https://www.wantedly.com/external_links/contact_to_business_team"
+   ],
+   "reason": "Homepage has an unlabelled banner pointing at /about/list, which may describe the company. A recruiter section offers document download and an inquiry link, but no pricing page is linked. No language "
+  },
+  {
+   "id": "wow-jobs",
+   "name": "Wow Jobs",
+   "url": "https://www.wowjobs.ca/",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.simplyhired.ca/?from=wowjobs"
+   ],
+   "reason": "Homepage returns a 301 redirect to a different domain, simplyhired.ca. The redirect target was not followed because it is off the entry's own site. Ownership may be stated there, so the parent is rate"
+  }
+ ]
+}

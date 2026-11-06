@@ -1,0 +1,149 @@
+{
+  "round": 4,
+  "orders": [
+    {
+      "id": "office-for-national-statistics",
+      "name": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk",
+      "likelihood": {"hq_country": "medium", "business_model": "none", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.ons.gov.uk/aboutus", "https://www.ons.gov.uk/news", "https://cy.ons.gov.uk"],
+      "reason": "About link is on the homepage, so the headquarters may be stated there. Homepage has no developers, API, partners or pricing link, and the /developers path is already a 404. Public statistics body, so a business model does not apply.",
+      "flags": []
+    },
+    {
+      "id": "gulftalent",
+      "name": "GulfTalent",
+      "url": "https://www.gulftalent.com",
+      "likelihood": {"founded": "none", "parent": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returns a 403 Cloudflare bot challenge to both the fetch tool and the headless reader. Not bypassed, so no pages were seen.",
+      "flags": []
+    },
+    {
+      "id": "occ-mundial",
+      "name": "OCC Mundial",
+      "url": "https://www.occ.com.mx",
+      "likelihood": {"founded": "none", "parent": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returns 403 Forbidden to both the fetch tool and the headless reader. No links could be seen.",
+      "flags": []
+    },
+    {
+      "id": "higheredjobs",
+      "name": "HigherEdJobs",
+      "url": "https://www.higheredjobs.com",
+      "likelihood": {"founded": "low", "parent": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Homepage returned an empty body to the fetch tool and to the headless reader, so no links or text could be seen. Worth a retry later, but no page is known to hold the missing facts.",
+      "flags": ["Homepage returned an empty body in both the fetch tool and the headless reader; the site may be down or may need a different URL."]
+    },
+    {
+      "id": "wow-jobs",
+      "name": "Wow Jobs",
+      "url": "https://www.wowjobs.ca/",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "medium", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.simplyhired.ca/?from=wowjobs"],
+      "reason": "Homepage returns a 301 redirect to a different domain, simplyhired.ca. The redirect target was not followed because it is off the entry's own site. Ownership may be stated there, so the parent is rated medium.",
+      "flags": ["wowjobs.ca returns a 301 redirect to simplyhired.ca/?from=wowjobs, so the board may now be run by or merged into SimplyHired. Confirm whether it still operates independently and whether the record should be marked closed or merged."]
+    },
+    {
+      "id": "cutshort",
+      "name": "Cutshort",
+      "url": "https://cutshort.io",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://cutshort.io/about", "https://cutshort.io/how-to-source-talent-using-claude"],
+      "reason": "About link is on the homepage, which may state founding and location. The Find engineering talent via API/MCP page is linked and may describe how candidates or profiles are ingested. No language selector seen in the homepage text.",
+      "flags": []
+    },
+    {
+      "id": "find-an-apprenticeship",
+      "name": "Find an Apprenticeship",
+      "url": "https://www.findapprenticeship.service.gov.uk",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "high", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "none", "ingest_methods": "low"},
+      "try_pages": ["https://www.gov.uk/government/publications/privacy-information-key-stage-4-and-5-and-adult-education/privacy-information-key-stage-4-and-5-and-adult-education", "https://www.findapprenticeship.service.gov.uk/Home/terms-and-conditions", "https://www.findapprenticeship.service.gov.uk/Home/get-help"],
+      "reason": "The homepage footer links to a gov.uk privacy notice that is a Department for Education publication, so the parent is likely stated there. The service is free to use, so a business model and partner program do not apply.",
+      "flags": ["Parent is blank, but the privacy notice link points at a Department for Education publication. Check whether the parent should be the Department for Education."]
+    },
+    {
+      "id": "lanbide",
+      "name": "Lanbide",
+      "url": "https://www.lanbide.euskadi.eus/",
+      "likelihood": {"hq_country": "high", "founded": "medium", "parent": "high", "languages": "high", "business_model": "none", "api_status": "low", "partner_program": "none", "ingest_methods": "low"},
+      "try_pages": ["https://www.lanbide.euskadi.eus/arreta/weblan00-content/eu/", "https://www.lanbide.euskadi.eus/inicio/"],
+      "reason": "Homepage has a corporate information link, a Contact page link (Kontaktua), and an Español language switch, so headquarters and languages are likely stated. The operating body is named in the footer as the Basque public employment service. Public service, so a business model does not apply.",
+      "flags": []
+    },
+    {
+      "id": "wantedly",
+      "name": "Wantedly",
+      "url": "https://www.wantedly.com/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.wantedly.com/about/list", "https://www.wantedly.com/external_links/contact_to_business_team"],
+      "reason": "Homepage has an unlabelled banner pointing at /about/list, which may describe the company. A recruiter section offers document download and an inquiry link, but no pricing page is linked. No language switch is visible.",
+      "flags": []
+    },
+    {
+      "id": "sistema-nacional-de-emprego-sine",
+      "name": "Sistema Nacional de Emprego (SINE)",
+      "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+      "likelihood": {"hq_country": "medium", "founded": "low", "parent": "high", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "none", "ingest_methods": "medium"},
+      "try_pages": ["https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego", "https://www.gov.br/governodigital/pt-br/dados-abertos"],
+      "reason": "The service page links to the Ministério do Trabalho e Emprego, which is the operating body, so the parent is likely to be confirmed there. The federal open-data page is linked and may list vacancy data feeds. Public service, so a business model and partner program do not apply.",
+      "flags": ["Parent is blank, but the service page names the Ministério do Trabalho e Emprego as the operating body."]
+    },
+    {
+      "id": "jobtoday",
+      "name": "Jobtoday",
+      "url": "https://www.jobtoday.com/it",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "high", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://jobtoday.us/about-us", "https://jobtoday.us/about-us/contacts", "https://www.jobtoday.com/it"],
+      "reason": "Footer has an About JOB TODAY link and a Contacts link, which may state founding and location. The footer language menu lists English (US), English (UK), Español, Français and Italiano. An employer page exists (Assumi ora), but no pricing link was seen. Copyright names JobToday S.A., with no parent stated.",
+      "flags": ["Entry URL is the /it section of jobtoday.com, but the About and Contacts pages sit on jobtoday.us. Check which market the entry should describe."]
+    },
+    {
+      "id": "z-gis-geoinformatik-stellenb-rse",
+      "name": "Z_GIS Geoinformatik Stellenbörse",
+      "url": "https://www.plus.ac.at/geoinformatik/jobs/",
+      "likelihood": {"hq_country": "none", "founded": "none", "parent": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "The entry URL returns 404 Not Found, so no page content could be read. Nothing can be pointed at until a working listing URL is known.",
+      "flags": ["Entry URL https://www.plus.ac.at/geoinformatik/jobs/ returns 404 Not Found. Confirm the current listing URL, or whether the board is closed."]
+    },
+    {
+      "id": "japan-institute-for-labour-policy-and-training",
+      "name": "Japan Institute for Labour Policy and Training",
+      "url": "https://www.jil.go.jp/english/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "medium", "business_model": "none", "api_status": "low", "partner_program": "none", "ingest_methods": "low"},
+      "try_pages": ["https://www.jil.go.jp/english/organization/index.html", "https://www.jil.go.jp/english/organization/aboutus.html", "https://www.jil.go.jp/english/organization/inquiries.html"],
+      "reason": "Homepage has About JILPT, What is JILPT and Contact Us links, which likely state the agency's history, location and supervising ministry. The page describes JILPT as an incorporated administrative agency but does not name its parent. A public research institute, so a business model and partner program do not apply.",
+      "flags": []
+    },
+    {
+      "id": "phenom",
+      "name": "Phenom",
+      "url": "https://www.phenom.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.phenom.com/about"],
+      "reason": "About us and Newsroom links are on the homepage, but the earlier About read found no parent. No developers, API or pricing link is shown; Book Demo is the main call to action, which suggests a sales-led model without a public price list.",
+      "flags": []
+    },
+    {
+      "id": "jobboom",
+      "name": "Jobboom",
+      "url": "https://www.jobboom.com",
+      "likelihood": {"founded": "none", "parent": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returns 403 to the fetch tool and a Cloudflare security check to the headless reader. Not bypassed, so no pages were seen.",
+      "flags": []
+    },
+    {
+      "id": "agcareers",
+      "name": "AgCareers",
+      "url": "https://www.agcareers.com",
+      "likelihood": {"founded": "medium", "parent": "high", "business_model": "high", "api_status": "low", "partner_program": "high", "ingest_methods": "low"},
+      "try_pages": ["https://www.agcareers.com/advertising-rates.cfm", "https://www.agcareers.com/employer-partners.cfm", "https://www.agcareers.com/association-partnerships.cfm", "https://farms.com"],
+      "reason": "Pricing link (advertising-rates.cfm) is on the homepage, which should state the business model. Employer Partners and Association Partners links are on the homepage. The footer says a Farms.com Company, which points at the parent. No About page URL was captured, so founding is medium.",
+      "flags": ["Parent is blank, but the homepage footer reads 'a Farms.com Company', linking to farms.com. Check whether the parent should be Farms.com."]
+    }
+  ]
+}

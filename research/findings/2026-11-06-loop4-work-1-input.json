@@ -1,0 +1,116 @@
+{
+ "round": 4,
+ "orders": [
+  {
+   "id": "eurostat",
+   "name": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium",
+    "languages": "medium",
+    "api_status": "high",
+    "ingest_methods": "high"
+   },
+   "try_pages": [
+    "https://ec.europa.eu/eurostat/web/main/about-us",
+    "https://ec.europa.eu/eurostat/about-us",
+    "https://ec.europa.eu/eurostat/data/web-services"
+   ],
+   "reason": "About us links and Job opportunities are on the homepage; the Web services link (/eurostat/data/web-services) covers programmatic access, and Database and bulk data pages are linked."
+  },
+  {
+   "id": "jobtoday",
+   "name": "Jobtoday",
+   "url": "https://www.jobtoday.com/it",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium",
+    "languages": "high",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://jobtoday.us/about-us",
+    "https://jobtoday.us/about-us/contacts",
+    "https://www.jobtoday.com/it"
+   ],
+   "reason": "Footer has an About JOB TODAY link and a Contacts link, which may state founding and location. The footer language menu lists English (US), English (UK), Español, Français and Italiano. An employer pa"
+  },
+  {
+   "id": "education-canada",
+   "name": "Education Canada",
+   "url": "https://www.educationcanada.com/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.educationcanada.com/advertise.html",
+    "https://www.educationcanada.com/employer.html",
+    "https://educationcanada.com/contact.html"
+   ],
+   "reason": "Advertising Options link (advertise.html) and Post a Job link (employer.html) are on the homepage, which should show pricing; the page says it is part of a larger network without naming it, so an Abou"
+  },
+  {
+   "id": "built-in",
+   "name": "Built In",
+   "url": "https://builtin.com/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://builtin.com/our-story",
+    "https://employers.builtin.com/membership?utm_medium=BIReferral&utm_source=foremployers"
+   ],
+   "reason": "Our Story link is on the homepage; Post Job and Recruit With Built In links go to the employer membership page, which is likely to show pricing. No language selector or developer link was seen."
+  },
+  {
+   "id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://oficinavirtualempleo.comunidad.madrid/AreaPublica/Ofertas/",
+    "https://www.comunidad.madrid/empleo/oficina-empleo"
+   ],
+   "reason": "Page names the Comunidad de Madrid as the operator of the Objetivo tu empleo initiative; the offer search is on a separate office site. No developer, API, convenios or language selector link was found"
+  }
+ ]
+}

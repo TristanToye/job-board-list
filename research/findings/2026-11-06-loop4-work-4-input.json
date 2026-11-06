@@ -1,0 +1,105 @@
+{
+ "round": 4,
+ "orders": [
+  {
+   "id": "jobkorea",
+   "name": "JobKorea",
+   "url": "https://www.jobkorea.co.kr",
+   "fields": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "parent": "medium",
+    "api_status": "high",
+    "partner_program": "medium",
+    "ingest_methods": "high"
+   },
+   "try_pages": [
+    "https://www.jobkorea.co.kr/service/api",
+    "https://www.worxphere.ai",
+    "https://worxphere.ai/partnership"
+   ],
+   "reason": "Homepage has a 채용정보 API link to /service/api, a 제휴문의 (partnership) link, and a 회사소개 (company intro) link that goes to worxphere.ai rather than jobkorea.co.kr."
+  },
+  {
+   "id": "recruit-group",
+   "name": "Recruit Group",
+   "url": "https://www.recruit-holdings.com/en/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://recruit-holdings.com/en/about/profile/",
+    "https://recruit-holdings.com/en/about/history/",
+    "https://recruit-holdings.com/en/about/business/",
+    "https://recruit-holdings.com/en/about/group/"
+   ],
+   "reason": "Company Profile and History links and Our Business Model link are on the homepage, and the profile page should give headquarters and founding year; the Group Companies link covers subsidiaries."
+  },
+  {
+   "id": "japan-institute-for-labour-policy-and-training",
+   "name": "Japan Institute for Labour Policy and Training",
+   "url": "https://www.jil.go.jp/english/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium",
+    "languages": "medium"
+   },
+   "try_pages": [
+    "https://www.jil.go.jp/english/organization/index.html",
+    "https://www.jil.go.jp/english/organization/aboutus.html",
+    "https://www.jil.go.jp/english/organization/inquiries.html"
+   ],
+   "reason": "Homepage has About JILPT, What is JILPT and Contact Us links, which likely state the agency's history, location and supervising ministry. The page describes JILPT as an incorporated administrative age"
+  },
+  {
+   "id": "find-an-apprenticeship",
+   "name": "Find an Apprenticeship",
+   "url": "https://www.findapprenticeship.service.gov.uk",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://www.gov.uk/government/publications/privacy-information-key-stage-4-and-5-and-adult-education/privacy-information-key-stage-4-and-5-and-adult-education",
+    "https://www.findapprenticeship.service.gov.uk/Home/terms-and-conditions",
+    "https://www.findapprenticeship.service.gov.uk/Home/get-help"
+   ],
+   "reason": "The homepage footer links to a gov.uk privacy notice that is a Department for Education publication, so the parent is likely stated there. The service is free to use, so a business model and partner p"
+  },
+  {
+   "id": "careersinfood",
+   "name": "CareersInFood.com",
+   "url": "https://www.careersinfood.com",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "medium"
+   },
+   "try_pages": [],
+   "reason": "The fetch tool returned 503, so the headless reader was used once. The homepage has an Employers: Post Your Job link and an Employers section, which may show posting fees; no developer, API or partner"
+  }
+ ]
+}
