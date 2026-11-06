@@ -7,7 +7,7 @@ scope = "domain" when the board is the whole site, "section" when it is a subdom
 import csv, datetime, pathlib, sys, urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SLD = {"co", "com", "gov", "org", "ne", "ac", "edu", "net"}
+SLD = {"co", "com", "gov", "org", "ne", "ac", "edu", "net", "gc", "gouv", "gob", "go"}
 def regdom(h):
     p = h.split(".")
     return ".".join(p[-3:]) if len(p) >= 3 and len(p[-1]) == 2 and p[-2] in SLD else ".".join(p[-2:])

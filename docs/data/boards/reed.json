@@ -2,6 +2,7 @@
  "id": "reed",
  "name": "Reed",
  "url": "https://www.reed.co.uk",
+ "domains": "",
  "type": "board",
  "hq_country": "UK",
  "founded": "1960",
@@ -43,6 +44,125 @@
   "job-board",
   "partner-program",
   "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Logic Melon",
+   "from_id": "",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobAdder",
+   "from_id": "",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Fire Fish Software",
+   "from_id": "",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Jobtrain",
+   "from_id": "",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Eploy",
+   "from_id": "",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workday Recruiting",
+   "from_id": "workday",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Breezy HR",
+   "from_id": "breezy",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Cornerstone",
+   "from_id": "",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  }
  ],
  "review": null,
  "owners": [],

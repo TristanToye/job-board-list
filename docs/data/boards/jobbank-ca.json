@@ -2,6 +2,7 @@
  "id": "jobbank-ca",
  "name": "Job Bank",
  "url": "https://www.jobbank.gc.ca",
+ "domains": "",
  "type": "government",
  "hq_country": "CA",
  "founded": "",
@@ -35,9 +36,9 @@
  "indexable": true,
  "prominence": {
   "tier": "",
-  "label": "Not comparable",
-  "global_rank": 195,
-  "scope": "section",
+  "label": "Not in top 1M",
+  "global_rank": null,
+  "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
   "list_date": "2026-11-06"
  },
@@ -51,6 +52,143 @@
   "partner-program",
   "public-sector",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "CareerBeacon",
+   "from_id": "careerbeacon",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Google",
+   "from_id": "",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Indeed",
+   "from_id": "indeed",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Jobillico",
+   "from_id": "jobillico",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "LinkedIn",
+   "from_id": "linkedin",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Magnet",
+   "from_id": "magnet",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Talent.com",
+   "from_id": "talent-com",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "TalentEgg",
+   "from_id": "talentegg",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "ZipRecruiter",
+   "from_id": "ziprecruiter",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "AgCareers",
+   "from_id": "agcareers",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "CareersInFood.com",
+   "from_id": "careersinfood",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "CivicJobs.ca",
+   "from_id": "civicjobs",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Jobboom",
+   "from_id": "jobboom",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobsMedia",
+   "from_id": "jobsmedia",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "ApplyToEducation",
+   "from_id": "applytoeducation",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  }
  ],
  "review": null,
  "owners": [],

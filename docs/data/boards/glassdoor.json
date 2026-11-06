@@ -2,6 +2,7 @@
  "id": "glassdoor",
  "name": "Glassdoor",
  "url": "https://www.glassdoor.com",
+ "domains": "",
  "type": "board+reviews",
  "hq_country": "US",
  "founded": "2007",
@@ -52,6 +53,26 @@
   "job-board",
   "partner-program",
   "pay-per-click"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Glassdoor",
+   "to_id": "glassdoor",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "JOB BOARDS LinkedIn Apply Connect Leisurejobs Indeed Glassdoor"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Glassdoor",
+   "to_id": "glassdoor",
+   "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+   "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  }
  ],
  "review": null,
  "owners": [

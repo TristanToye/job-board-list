@@ -2,6 +2,7 @@
  "id": "naukri",
  "name": "Naukri",
  "url": "https://www.naukri.com",
+ "domains": "",
  "type": "board",
  "hq_country": "IN",
  "founded": "1997",
@@ -38,6 +39,17 @@
   "general",
   "job-board",
   "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Naukri",
+   "to_id": "naukri",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  }
  ],
  "review": null,
  "owners": [],

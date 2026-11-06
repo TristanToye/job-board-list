@@ -9,7 +9,7 @@ GC Jobs is a government job site based in Canada, focused on federal public serv
 - Languages: English, French
 - API status: API status unknown
 - Partner program: unknown
-- Prominence: Not comparable
+- Prominence: Not in top 1M
 - Tags: Government operated, Public employment service, Job board, Publicly funded, Public sector
 - Data status: partly verified against its own site
 

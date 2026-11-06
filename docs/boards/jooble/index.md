@@ -21,6 +21,8 @@ Jooble is a job aggregator based in Ukraine. It was founded in 2006.
 
 **How large is Jooble?** Jooble ranks #2,772 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
+**Which platforms does Jooble connect to?** According to this directory, Jooble receives jobs from Workable; integrates with Pinpoint.
+
 ## Sources
 
 - [Jooble API](https://jooble.org/api/about) (API access, checked 2026-11-05)

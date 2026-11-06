@@ -67,10 +67,10 @@
 - [Resumeble](https://jobboardlist.com/boards/resumeble/): career-services, Small tier
 - [IMPACT Group](https://jobboardlist.com/boards/impact-group/): outplacement, Small tier
 - [The Muse](https://jobboardlist.com/boards/themuse/): board+employer-brand, Self-serve API key
-- [GC Jobs](https://jobboardlist.com/boards/gc-jobs/): government
 - [Eurostat](https://jobboardlist.com/boards/eurostat/): lmi
-- [Recruit Group](https://jobboardlist.com/boards/recruit-group/): staffing
 - [Japan Institute for Labour Policy and Training](https://jobboardlist.com/boards/japan-institute-for-labour-policy-and-training/): lmi
+- [Recruit Group](https://jobboardlist.com/boards/recruit-group/): staffing
+- [GC Jobs](https://jobboardlist.com/boards/gc-jobs/): government
 - [Adcorp Holdings](https://jobboardlist.com/boards/adcorp-holdings/): staffing
 - [Hudson RPO](https://jobboardlist.com/boards/hudson-rpo/): recruiting-services
 - [Thrive Career Wellness](https://jobboardlist.com/boards/thrive-career-wellness/): outplacement

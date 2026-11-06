@@ -2,6 +2,7 @@
  "id": "oracle-recruiting",
  "name": "Oracle Recruiting Cloud",
  "url": "https://www.oracle.com/human-capital-management/recruiting/",
+ "domains": "oraclecloud.com",
  "type": "ats",
  "hq_country": "US",
  "founded": "",
@@ -39,6 +40,35 @@
   "enterprise",
   "partner-program",
   "public-job-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Oracle Recruiting Cloud",
+   "from_id": "oracle-recruiting",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.oracle.com/human-capital-management/recruiting/",
+   "quote": "Allow candidates to complete their entire job application without leaving the sites of partners such as Indeed and LinkedIn."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Oracle Recruiting Cloud",
+   "from_id": "oracle-recruiting",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.oracle.com/human-capital-management/recruiting/",
+   "quote": "Allow candidates to complete their entire job application without leaving the sites of partners such as Indeed and LinkedIn."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "Oracle Recruiting Cloud",
+   "to_id": "oracle-recruiting",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"
+  }
  ],
  "review": null,
  "owners": [],

@@ -2,6 +2,7 @@
  "id": "jobstreet",
  "name": "JobStreet",
  "url": "https://www.jobstreet.com",
+ "domains": "",
  "type": "board",
  "hq_country": "MY",
  "founded": "1997",
@@ -48,6 +49,17 @@
   "job-board",
   "partner-program",
   "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "JobStreet",
+   "to_id": "jobstreet",
+   "source": "https://help.workable.com/hc/en-us/articles/115013336568-Integrating-with-Seek",
+   "quote": "post jobs directly through Workable to Seek, as well as to JobsDB and JobStreet"
+  }
  ],
  "review": null,
  "owners": [

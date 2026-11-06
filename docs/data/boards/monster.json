@@ -2,6 +2,7 @@
  "id": "monster",
  "name": "Monster",
  "url": "https://www.monster.com",
+ "domains": "",
  "type": "board",
  "hq_country": "PR",
  "founded": "1999",
@@ -50,6 +51,35 @@
   "partner-program",
   "subscription",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+   "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Greenhouse",
+   "from_id": "greenhouse",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+   "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+  }
  ],
  "review": null,
  "owners": [

@@ -2,6 +2,7 @@
  "id": "careerjet",
  "name": "Careerjet",
  "url": "https://www.careerjet.com",
+ "domains": "",
  "type": "aggregator",
  "hq_country": "FR",
  "founded": "",
@@ -54,6 +55,251 @@
   "partner-program",
   "pay-per-click",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Acquire4Hire",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "ApplicantPro",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "ApplicantStack",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Arca24",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Arcoro",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "AvaHR",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Betterteam",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Breezy HR",
+   "from_id": "breezy",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "BrightMove",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "CATS",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "CEIPAL",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Caypro",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "ClayHR",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Conrep",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Crelate",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Hireology",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "HiringThing",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "LogicMelon",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Manatal",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Recruit CRM",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "SilkRoad",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "SmartRecruiters",
+   "from_id": "smartrecruiters",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "TalentNest",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Talentlyft",
+   "from_id": "",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+   "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  }
  ],
  "review": null,
  "owners": [],

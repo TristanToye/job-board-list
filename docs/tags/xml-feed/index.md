@@ -19,8 +19,8 @@ Accepts or publishes jobs through XML feeds. 20 entries in the directory.
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Partner-only API
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
 - [Jobs.ca](https://jobboardlist.com/boards/jobs-ca/): board, No known API
-- [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
+- [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
 
 Canonical page: https://jobboardlist.com/tags/xml-feed/

@@ -2,6 +2,7 @@
  "id": "jooble",
  "name": "Jooble",
  "url": "https://jooble.org",
+ "domains": "",
  "type": "aggregator",
  "hq_country": "UA",
  "founded": "2006",
@@ -62,6 +63,26 @@
   "partner-program",
   "pay-per-click",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Jooble",
+   "to_id": "jooble",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Jooble",
+   "to_id": "jooble",
+   "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+   "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  }
  ],
  "review": null,
  "owners": [],

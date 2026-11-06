@@ -2,6 +2,7 @@
  "id": "magnet",
  "name": "Magnet",
  "url": "https://magnet.today",
+ "domains": "",
  "type": "board",
  "hq_country": "CA",
  "founded": "",
@@ -37,6 +38,17 @@
  },
  "tags": [
   "job-board"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Magnet",
+   "from_id": "magnet",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  }
  ],
  "review": null,
  "owners": [],

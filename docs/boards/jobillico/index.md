@@ -21,6 +21,8 @@ Jobillico is a job board based in Canada. It was founded in 2007.
 
 **How large is Jobillico?** Jobillico ranks #113,475 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
+**Which platforms does Jobillico connect to?** According to this directory, Jobillico integrates with Job Bank.
+
 ## Sources
 
 - [Jobillico API overview](https://www.jobillico.com/api/help/jobillico-api) (API access, checked 2026-11-05)

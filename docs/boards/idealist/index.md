@@ -20,6 +20,8 @@ Idealist is a niche job board based in United States, focused on nonprofit.
 
 **How large is Idealist?** Idealist ranks #4,265 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
+**Which platforms does Idealist connect to?** According to this directory, Idealist integrates with JazzHR.
+
 ## Sources
 
 - [Idealist homepage](https://www.idealist.org/) (Existence and description, checked 2026-11-05): "Connecting more than 200,000 organizations with millions of people looking for social-impact jobs and volunteer opportunities"

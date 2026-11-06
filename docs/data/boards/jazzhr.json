@@ -2,6 +2,7 @@
  "id": "jazzhr",
  "name": "JazzHR",
  "url": "https://www.jazzhr.com",
+ "domains": "",
  "type": "ats",
  "hq_country": "US",
  "founded": "",
@@ -39,6 +40,89 @@
   "partner-program",
   "public-job-feed",
   "smb"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "Indeed helps millions of job seekers and employers find the right fit for them every day."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "LinkedIn The world’s largest professional network with more than 1 billion members worldwide."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "ZipRecruiter Distributing your job to more than 100 job boards and classified sites with the click of a button."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "VONQ",
+   "to_id": "",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "VONQ offers end-to-end recruitment marketing solutions including job distribution tools."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "Idealist",
+   "to_id": "idealist",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "Idealist Join the world’s largest social-impact job board."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "RemotePOC",
+   "to_id": "",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "RemotePOC is the largest job board for professionals of color working remotely."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "MyJobHelper",
+   "to_id": "",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "MyJobHelper Job Board"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  }
  ],
  "review": null,
  "owners": [],

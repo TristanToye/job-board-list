@@ -2,6 +2,7 @@
  "id": "linkedin",
  "name": "LinkedIn",
  "url": "https://www.linkedin.com/jobs",
+ "domains": "licdn.com",
  "type": "social-network+board",
  "hq_country": "US",
  "founded": "2002",
@@ -90,6 +91,89 @@
   "pay-per-click",
   "professional-network",
   "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Oracle Recruiting Cloud",
+   "from_id": "oracle-recruiting",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.oracle.com/human-capital-management/recruiting/",
+   "quote": "Allow candidates to complete their entire job application without leaving the sites of partners such as Indeed and LinkedIn."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "LinkedIn The world’s largest professional network with more than 1 billion members worldwide."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "JOB BOARDS LinkedIn Apply Connect Leisurejobs Indeed Glassdoor"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "iCIMS",
+   "from_id": "icims",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://marketplace.icims.com/en-US/listing?locale=en-US",
+   "quote": "Connect iCIMS Recruit with LinkedIn Recruiter for streamlined sourcing"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "LinkedIn",
+   "from_id": "linkedin",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Appcast",
+   "from_id": "appcast",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.appcast.io/products/appcast-one/",
+   "quote": "Appcast is the largest buyer of Indeed, ZipRecruiter, and LinkedIn globally"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.lever.co/integrations",
+   "quote": "LinkedIn The world’s largest professional network with more than 1 billion members worldwide."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+   "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Greenhouse",
+   "from_id": "greenhouse",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+   "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+  }
  ],
  "review": null,
  "owners": [

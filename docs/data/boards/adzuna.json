@@ -2,6 +2,7 @@
  "id": "adzuna",
  "name": "Adzuna",
  "url": "https://www.adzuna.com",
+ "domains": "",
  "type": "aggregator",
  "hq_country": "UK",
  "founded": "2011",
@@ -72,6 +73,35 @@
   "partner-program",
   "pay-per-click",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Adzuna",
+   "to_id": "adzuna",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "Adzuna",
+   "to_id": "adzuna",
+   "source": "https://www.teamtailor.com/en/integrations",
+   "quote": "Adzuna is a search engine for job ads used by over 10 million visitors per month that aims to list every job, everywhere."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Adzuna",
+   "to_id": "adzuna",
+   "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+   "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  }
  ],
  "review": null,
  "owners": [],

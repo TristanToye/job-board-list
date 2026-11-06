@@ -21,6 +21,8 @@ Careerjet is a job aggregator based in France.
 
 **How large is Careerjet?** Careerjet ranks #59,493 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
+**Which platforms does Careerjet connect to?** According to this directory, Careerjet receives jobs from Workable; integrates with Pinpoint, Acquire4Hire, ApplicantPro, ApplicantStack, Arca24, Arcoro and others.
+
 ## Sources
 
 - [Careerjet partner API](https://www.careerjet.com/partners/api) (API access, checked 2026-11-05)

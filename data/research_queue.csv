@@ -335,3 +335,113 @@ Selor,http://www.selor.be,ZZ,verification,"Redirects to workingfor.be, which sho
 Jobs.pl,https://www.jobs.pl/,ZZ,verification,HTTP 403 and Cloudflare security check; browser reader blocked true,2026-11-06
 National Labor Gateway,https://www.taqat.sa/,ZZ,verification,"HTTP 503 in fetch; browser reader status 502, blocked true",2026-11-06
 Unified National Employment Platform,https://jadarat.sa/,ZZ,verification,"HTTP 403 in fetch; browser reader status 403, Cloudflare block, blocked true",2026-11-06
+Indeed (BambooHR marketplace listing),https://www.bamboohr.com/integrations/listings/indeed,,board,"Named on an integrations page: Listed under Free apps on the BambooHR marketplace, but the listing page body did not render in the reader, so no quote ",2026-11-06
+SEEK,https://developer.seek.com,,board,Named on an integrations page: Read; names no ATS or board partners (refers only to generic providers). seek.com.au/partners returned 404,2026-11-06
+LinkedIn Job Posting partners,https://docs.microsoft.com/en-us/linkedin/talent/job-postings/job-posting-overview,,board,Named on an integrations page: Read; describes ATS and job distributor ingestion generically and names no partners,2026-11-06
+Reed.co.uk ATS partners beyond first page,https://www.reed.co.uk/recruiter/ats-integration,,board,Named on an integrations page: Page lists 62 ATS partners; only the first 12 were visible without pagination,2026-11-06
+Careerjet ATS partners not shown,https://www.careerjet.com/recruiter/ats,,board,Named on an integrations page: Logo list read; Spark Hire (video interview) and Chattr skipped or capped by the 25-edge limit,2026-11-06
+Talent.com ATS partners beyond list,https://www.talent.com/ats,,board,"Named on an integrations page: Page notes a Show more control; only the visible logo names were read, capped at 25",2026-11-06
+Jooble,,,board,Named on an integrations page: Partners page https://www.jooble.org/partners returned 404; no partner page found,2026-11-06
+Totaljobs,https://www.totaljobs.com/ats,,board,Named on an integrations page: HTTP 404; no ATS integrations page found,2026-11-06
+Jobrapido,https://www.jobrapido.com/integrations,,board,Named on an integrations page: Read; page is candidate-facing and names no ATS partners,2026-11-06
+Abler,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Acquire,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Acquire4Hire,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Adway,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Allibo,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+ApplicantPro,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+ApplicantStack,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Applicantpro,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Apploi,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Arca24,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Arcoro,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Atsondemand,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+AvaHR,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Beetween,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Betterteam,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+BrightMove,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Bullhorn,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+CATS,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+CEIPAL,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Careerplug,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Careers In Compliance,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Cats,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Caypro,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Ceipal,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+ClayHR,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Clinch,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Comeet,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Conrep,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Cornerstone,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Crelate,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Crelatetalent,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Cvviz,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Eddy,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Education Week Jobs,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Eploy,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Fire Fish Software,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Fountain,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Freshwork,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Give a Grad a Go,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Google,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Hireology,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+HiringThing,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+JobAdder,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+JobMinglr,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Jobtrain,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Leisurejobs,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Logic Melon,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+LogicMelon,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Manatal,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+MyJobHelper,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+NHS Jobs,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Recruit CRM,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+RemotePOC,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+SilkRoad,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+TalentNest,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Talentlyft,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+TeamWork Online,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+VONQ,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+WISE,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+myGwork,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Radancy,https://www.radancy.com/en/programmatic/,,board,"Named on an integrations page: Named on JobG8 partners page only as a logo with no text name, so no quote could be copied; site not read",2026-11-06
+Talent Nexus,https://www.talentnexus.com,,board,"Named on an integrations page: Named on JobG8 partners page only as a logo with no text name, so no quote could be copied; site not read",2026-11-06
+Avature,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Avionte,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Ciphr,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Cornerstone OnDemand,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Darwinbox,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+SAP SuccessFactors,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Salesforce,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+TalentSoft,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+TribePad,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Workable Partners Directory,https://partners.workable.com/joblift,,board,Named on an integrations page: Named on Workable help pages as the comprehensive job board list; not read. Workable start URL https://www.workable.com/,2026-11-06
+"Ashby integrations directory, pages 2 to 24",https://www.ashbyhq.com/integrations,,board,Named on an integrations page: Directory is paginated; only page 1 was read,2026-11-06
+aijobs.com,,,board,"Named on an integrations page: Listed under Ashby Job Board category, but the listing says the Ashby integration is not confirmed, so no edge was recor",2026-11-06
+Teamtailor partner list (Show more),https://www.teamtailor.com/en/integrations,,board,Named on an integrations page: Partner list has a Show more control; only the first part was read,2026-11-06
+Greenhouse External job board overview,https://support.greenhouse.io/hc/en-us/articles/21270826058907-External-job-board-overview,,board,"Named on an integrations page: Found in search results, not read",2026-11-06
+Greenhouse job board partners with configurable integrations,,,board,Named on an integrations page: Linked from the Greenhouse Free job posts article; link not followed,2026-11-06
+Workable Indeed sponsored posts integration,https://help.workable.com/hc/en-us/articles/360006459833-Integrating-with-Indeed-for-sponsored-posts,,board,"Named on an integrations page: Found in search results, not read",2026-11-06
+Workable Jobs on Facebook integration,https://resources.workable.com/backstage/jobs-on-facebook-job-board-integration,,board,"Named on an integrations page: Found in search results, not read",2026-11-06
+SmartRecruiters SmartDistribute product sheet,https://www.smartrecruiters.com/resources/landing/smartdistribute-product-sheet/,,board,"Named on an integrations page: Found in search results, not read; the VONQ news release gives a 2,700-board count but names no boards",2026-11-06
+#jenesuisPASunCV,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+50Plus-Jobs,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+AJINGA,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+AcquireROI,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Agefiph,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Arbetsförmedlingen,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Asfored,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+B4work Global,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Bandana,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Boostie,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+CV-Library Group,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Jobbytime,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Jobcase,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Jobsite,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Purpose Jobs,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Recruit.net,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Sensiply,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+US.Jobs,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+X job board,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+Nexxt,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06
+OfferUp,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-06

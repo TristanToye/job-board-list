@@ -2,6 +2,7 @@
  "id": "google-jobs",
  "name": "Google for Jobs",
  "url": "https://developers.google.com/search/docs/appearance/structured-data/job-posting",
+ "domains": "",
  "type": "search-aggregator",
  "hq_country": "US",
  "founded": "",
@@ -41,6 +42,17 @@
   "free-to-post",
   "general",
   "job-aggregator"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Google for Jobs",
+   "to_id": "google-jobs",
+   "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+   "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  }
  ],
  "review": null,
  "owners": [],

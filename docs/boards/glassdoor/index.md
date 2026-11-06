@@ -21,6 +21,8 @@ Glassdoor is a board and reviews based in United States. It was founded in 2007.
 
 **Which languages does Glassdoor support?** This directory records Glassdoor as supporting English, French, German, Spanish, Italian, Portuguese, Dutch, Japanese.
 
+**Which platforms does Glassdoor connect to?** According to this directory, Glassdoor receives jobs from Workable; integrates with Pinpoint.
+
 ## Sources
 
 - [Wikipedia: Glassdoor](https://en.wikipedia.org/wiki/Glassdoor) (Existence and description, checked 2026-11-05): "Glassdoor is an American website and mobile app owned by Indeed"

@@ -23,6 +23,8 @@ Talent.com is a job aggregator based in Canada.
 
 **How many jobs does Talent.com list?** Talent.com reports 35,000,000 jobs available on its own site (as of 2026-11-05).
 
+**Which platforms does Talent.com connect to?** According to this directory, Talent.com receives jobs from Abler, Acquire, Allibo, Appcast, Applicantpro, Apploi and others; integrates with Pinpoint, Job Bank.
+
 ## Sources
 
 - [Talent.com ATS partners](https://www.talent.com/ats) (Partner program, checked 2026-11-05)

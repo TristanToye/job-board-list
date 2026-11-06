@@ -2,6 +2,7 @@
  "id": "jobboom",
  "name": "Jobboom",
  "url": "https://www.jobboom.com",
+ "domains": "",
  "type": "board",
  "hq_country": "CA",
  "founded": "",
@@ -39,6 +40,17 @@
  "tags": [
   "general",
   "job-board"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Jobboom",
+   "from_id": "jobboom",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  }
  ],
  "review": null,
  "owners": [],

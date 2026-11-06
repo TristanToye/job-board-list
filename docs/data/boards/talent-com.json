@@ -2,6 +2,7 @@
  "id": "talent-com",
  "name": "Talent.com",
  "url": "https://www.talent.com",
+ "domains": "",
  "type": "aggregator",
  "hq_country": "CA",
  "founded": "",
@@ -57,6 +58,260 @@
   "partner-program",
   "pay-per-click",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Abler",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Acquire",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Allibo",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Appcast",
+   "from_id": "appcast",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Applicantpro",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Apploi",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Atsondemand",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Beetween",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Betterteam",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Breezy HR",
+   "from_id": "breezy",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Bullhorn",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Careerplug",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Cats",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Ceipal",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Clinch",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Comeet",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Conrep",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Crelatetalent",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Cvviz",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Eddy",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Fountain",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Freshwork",
+   "from_id": "",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Greenhouse",
+   "from_id": "greenhouse",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "iCIMS",
+   "from_id": "icims",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Talent.com",
+   "from_id": "talent-com",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+   "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  }
  ],
  "review": null,
  "owners": [],

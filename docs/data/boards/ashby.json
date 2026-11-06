@@ -2,6 +2,7 @@
  "id": "ashby",
  "name": "Ashby",
  "url": "https://www.ashbyhq.com",
+ "domains": "",
  "type": "ats",
  "hq_country": "US",
  "founded": "",
@@ -38,6 +39,26 @@
   "ats",
   "partner-program",
   "public-job-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Ashby",
+   "from_id": "ashby",
+   "to": "AJINGA",
+   "to_id": "",
+   "source": "https://www.ashbyhq.com/integrations",
+   "quote": "AJINGA China-focused recruiting platform that connects Ashby to local job boards, WeChat, and bilingual candidate workflows."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Ashby",
+   "from_id": "ashby",
+   "to": "Adway",
+   "to_id": "",
+   "source": "https://www.ashbyhq.com/integrations",
+   "quote": "Adway Social recruiting platform that auto-generates paid job ads on social media from your Ashby job postings."
+  }
  ],
  "review": null,
  "owners": [],

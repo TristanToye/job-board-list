@@ -9,7 +9,7 @@ Job Bank is a government job site based in Canada.
 - Languages: English, French
 - API status: API key on request (https://www.jobbank.gc.ca/network)
 - Partner program: yes
-- Prominence: Not comparable
+- Prominence: Not in top 1M
 - Tags: API on request, Free to post, General, Government operated, Public employment service, Job board, Partner program, Public sector, XML feed
 - Data status: partly verified against its own site
 
@@ -22,6 +22,8 @@ Job Bank is a government job site based in Canada.
 **Which languages does Job Bank support?** This directory records Job Bank as supporting English, French.
 
 **How many jobs does Job Bank list?** Job Bank reports 55,000 jobs advertised per month on its own site (as of 2026-11-05).
+
+**Which platforms does Job Bank connect to?** According to this directory, Job Bank integrates with CareerBeacon, Google, Indeed, Jobillico, LinkedIn, Magnet and others.
 
 ## Sources
 

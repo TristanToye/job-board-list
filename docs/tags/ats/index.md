@@ -16,7 +16,7 @@ Software employers use to manage hiring and publish their jobs. 21 entries in th
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats
 - [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
-- [Eightfold AI](https://jobboardlist.com/boards/eightfold/): ats
+- [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key

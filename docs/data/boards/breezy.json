@@ -2,6 +2,7 @@
  "id": "breezy",
  "name": "Breezy HR",
  "url": "https://breezy.hr",
+ "domains": "",
  "type": "ats",
  "hq_country": "US",
  "founded": "",
@@ -39,6 +40,35 @@
   "partner-program",
   "public-job-feed",
   "smb"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Breezy HR",
+   "from_id": "breezy",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Breezy HR",
+   "from_id": "breezy",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Breezy HR",
+   "from_id": "breezy",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  }
  ],
  "review": null,
  "owners": [],

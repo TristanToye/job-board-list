@@ -2,6 +2,7 @@
  "id": "careerbeacon",
  "name": "CareerBeacon",
  "url": "https://www.careerbeacon.com",
+ "domains": "",
  "type": "board",
  "hq_country": "CA",
  "founded": "",
@@ -38,6 +39,17 @@
  "tags": [
   "general",
   "job-board"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "CareerBeacon",
+   "from_id": "careerbeacon",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  }
  ],
  "review": null,
  "owners": [],

@@ -2,6 +2,7 @@
  "id": "workday",
  "name": "Workday Recruiting",
  "url": "https://www.workday.com",
+ "domains": "myworkday.com;myworkdayjobs.com",
  "type": "ats",
  "hq_country": "US",
  "founded": "",
@@ -35,6 +36,26 @@
   "ats",
   "enterprise",
   "partner-program"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workday Recruiting",
+   "from_id": "workday",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "Workday Recruiting",
+   "to_id": "workday",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  }
  ],
  "review": null,
  "owners": [],

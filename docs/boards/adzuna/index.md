@@ -21,6 +21,8 @@ Adzuna is a job aggregator based in United Kingdom. It was founded in 2011.
 
 **How large is Adzuna?** Adzuna ranks #66,808 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
+**Which platforms does Adzuna connect to?** According to this directory, Adzuna receives jobs from Workable; integrates with Pinpoint, Teamtailor.
+
 ## Sources
 
 - [Adzuna API terms of service](https://developer.adzuna.com/docs/terms_of_service) (API access, checked 2026-11-05)

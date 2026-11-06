@@ -2,6 +2,7 @@
  "id": "joveo",
  "name": "Joveo",
  "url": "https://www.joveo.com",
+ "domains": "",
  "type": "programmatic-distribution",
  "hq_country": "US",
  "founded": "",
@@ -43,6 +44,107 @@
   "partner-program",
   "pay-per-click",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "iCIMS",
+   "to_id": "icims",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "Bullhorn",
+   "to_id": "",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "Greenhouse",
+   "to_id": "greenhouse",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "Workday Recruiting",
+   "to_id": "workday",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "Avionte",
+   "to_id": "",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "SAP SuccessFactors",
+   "to_id": "",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "Salesforce",
+   "to_id": "",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "SmartRecruiters",
+   "to_id": "smartrecruiters",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "Oracle Recruiting Cloud",
+   "to_id": "oracle-recruiting",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "Cornerstone OnDemand",
+   "to_id": "",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "Darwinbox",
+   "to_id": "",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"
+  }
  ],
  "review": null,
  "owners": [],

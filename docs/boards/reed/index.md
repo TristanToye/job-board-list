@@ -23,6 +23,8 @@ Reed is a job board based in United Kingdom. It was founded in 1960.
 
 **How large is Reed?** Reed ranks #13,306 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
+**Which platforms does Reed connect to?** According to this directory, Reed receives jobs from Logic Melon, JobAdder, Fire Fish Software, Jobtrain, Teamtailor, Workable and others; integrates with Pinpoint.
+
 ## Sources
 
 - [Reed.co.uk homepage](https://www.reed.co.uk) (Existence and description, checked 2026-11-05): "Jobs, careers, employment and recruitment at Reed.co.uk"

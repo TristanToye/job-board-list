@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 65 entries in the directory.
+Has a partner or integration program. 64 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -29,7 +29,6 @@ Has a partner or integration program. 65 entries in the directory.
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
-- [Eightfold AI](https://jobboardlist.com/boards/eightfold/): ats
 - [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [JobStreet](https://jobboardlist.com/boards/jobstreet/): board, Partner-only API
@@ -60,11 +59,11 @@ Has a partner or integration program. 65 entries in the directory.
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API
-- [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
 - [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API
 - [XING Jobs](https://jobboardlist.com/boards/xing/): social-network+board, Partner-only API
+- [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
 - [Thrive Career Wellness](https://jobboardlist.com/boards/thrive-career-wellness/): outplacement
 

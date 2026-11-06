@@ -2,6 +2,7 @@
  "id": "jobsmedia",
  "name": "JobsMedia",
  "url": "",
+ "domains": "",
  "type": "board",
  "hq_country": "CA",
  "founded": "",
@@ -37,6 +38,17 @@
  },
  "tags": [
   "job-board"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "JobsMedia",
+   "from_id": "jobsmedia",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  }
  ],
  "review": null,
  "owners": [],

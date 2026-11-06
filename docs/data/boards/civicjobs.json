@@ -2,6 +2,7 @@
  "id": "civicjobs",
  "name": "CivicJobs.ca",
  "url": "https://www.civicjobs.ca",
+ "domains": "",
  "type": "board",
  "hq_country": "CA",
  "founded": "",
@@ -38,6 +39,17 @@
  "tags": [
   "job-board",
   "public-sector"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "CivicJobs.ca",
+   "from_id": "civicjobs",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  }
  ],
  "review": null,
  "owners": [],

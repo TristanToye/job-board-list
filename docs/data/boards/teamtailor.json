@@ -2,6 +2,7 @@
  "id": "teamtailor",
  "name": "Teamtailor",
  "url": "https://www.teamtailor.com",
+ "domains": "",
  "type": "ats",
  "hq_country": "SE",
  "founded": "",
@@ -40,6 +41,80 @@
   "partner-program",
   "public-job-feed",
   "smb"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "Asfored",
+   "to_id": "",
+   "source": "https://www.teamtailor.com/en/integrations",
+   "quote": "Reach publishing, media and editorial talent in France by posting your jobs on ASFORED directly from Teamtailor."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "B4work Global",
+   "to_id": "",
+   "source": "https://www.teamtailor.com/en/integrations",
+   "quote": "Publish your jobs on B4work Global!"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "50Plus-Jobs",
+   "to_id": "",
+   "source": "https://www.teamtailor.com/en/integrations",
+   "quote": "50Plus-Jobs 50plus-Jobs is the Swiss job board for the generation 50plus, including companies and everyone who believes in equality in the job market."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "Adzuna",
+   "to_id": "adzuna",
+   "source": "https://www.teamtailor.com/en/integrations",
+   "quote": "Adzuna is a search engine for job ads used by over 10 million visitors per month that aims to list every job, everywhere."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "Agefiph",
+   "to_id": "",
+   "source": "https://www.teamtailor.com/en/integrations",
+   "quote": "Agefiph Le site emploi Agefiph est le 1er site emploi handicap en France avec plus de 300 000 candidats et plus de 150 000 offres d'emplois."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "#jenesuisPASunCV",
+   "to_id": "",
+   "source": "https://www.teamtailor.com/en/integrations",
+   "quote": "#jenesuisPASunCV : le premier jobboard inclusif en France"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "Arbetsförmedlingen",
+   "to_id": "",
+   "source": "https://www.teamtailor.com/en/integrations",
+   "quote": "Arbetsförmedlingen Här kan du annonsera i Platsbanken, anställa med stöd och upptäcka nya sätt att rekrytera."
+  }
  ],
  "review": null,
  "owners": [],

@@ -2,6 +2,7 @@
  "id": "pinpoint",
  "name": "Pinpoint",
  "url": "https://www.pinpointhq.com",
+ "domains": "",
  "type": "ats",
  "hq_country": "UK",
  "founded": "",
@@ -39,6 +40,242 @@
   "mid-market",
   "partner-program",
   "public-job-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "JOB BOARDS LinkedIn Apply Connect Leisurejobs Indeed Glassdoor"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Leisurejobs",
+   "to_id": "",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "JOB BOARDS LinkedIn Apply Connect Leisurejobs Indeed Glassdoor"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "JOB BOARDS LinkedIn Apply Connect Leisurejobs Indeed Glassdoor"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Glassdoor",
+   "to_id": "glassdoor",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "JOB BOARDS LinkedIn Apply Connect Leisurejobs Indeed Glassdoor"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "WISE",
+   "to_id": "",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Careers In Compliance",
+   "to_id": "",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Totaljobs",
+   "to_id": "totaljobs",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Adzuna",
+   "to_id": "adzuna",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Jooble",
+   "to_id": "jooble",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "StepStone",
+   "to_id": "stepstone",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "SEEK",
+   "to_id": "seek",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Naukri",
+   "to_id": "naukri",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "TeamWork Online",
+   "to_id": "",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Education Week Jobs",
+   "to_id": "",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Give a Grad a Go",
+   "to_id": "",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Give a Grad a Go JobMinglr myGwork NHS Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "JobMinglr",
+   "to_id": "",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Give a Grad a Go JobMinglr myGwork NHS Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "myGwork",
+   "to_id": "",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Give a Grad a Go JobMinglr myGwork NHS Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "NHS Jobs",
+   "to_id": "",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Give a Grad a Go JobMinglr myGwork NHS Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  }
  ],
  "review": null,
  "owners": [],

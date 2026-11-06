@@ -22,7 +22,7 @@ def host(u):
     except Exception: return ""
 def regdom(h):
     p = h.split(".")
-    return ".".join(p[-3:]) if len(p) >= 3 and len(p[-1]) == 2 and p[-2] in {"co", "com", "gov", "org", "ne", "ac", "edu", "net"} else ".".join(p[-2:])
+    return ".".join(p[-3:]) if len(p) >= 3 and len(p[-1]) == 2 and p[-2] in {"co", "com", "gov", "org", "ne", "ac", "edu", "net", "gc", "gouv", "gob", "go"} else ".".join(p[-2:])
 def clean(s, n=300): return str(s or "").replace(chr(0x2014), ", ").replace(chr(0x2013), "-").replace("\n", " ").strip()[:n]
 def bad(s): return bool(re.search("|".join(BLOCKED_WORDS), s or "", re.I))
 def owner_id(name):

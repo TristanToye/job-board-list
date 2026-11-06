@@ -2,6 +2,7 @@
  "id": "cv-library",
  "name": "CV-Library",
  "url": "https://www.cv-library.co.uk",
+ "domains": "",
  "type": "board",
  "hq_country": "UK",
  "founded": "2000",
@@ -46,6 +47,17 @@
   "partner-program",
   "subscription",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  }
  ],
  "review": null,
  "owners": [],

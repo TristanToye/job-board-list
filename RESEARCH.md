@@ -26,6 +26,10 @@ Entries are not only job boards. Use `research/briefs/discover-class.md` with a 
 
 `research/briefs/owner-profile.md` collects a cited self-description and basic company facts. Run `check_quotes.py`, then `ingest_ownership.py`. A fact is kept only if its quote supports its value.
 
+## Relationships
+
+Follow `research/briefs/relationships.md` for integration and partner pages, run `check_quotes.py`, then `ingest_relationships.py`. An edge is kept only if its source is on one party's domain and its quote names the other party. Partner names that are not yet entries are added to the research queue, so they can become entries and appear on the map.
+
 ## Ownership
 
 Follow `research/briefs/ownership.md` for an owner company, run `python3 scripts/check_quotes.py` on the output, then `python3 scripts/ingest_ownership.py`. A quote must be at least four words and state the relationship. If the source only lists a company on a group page, the relationship is recorded as a group company, not a subsidiary.

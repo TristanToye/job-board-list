@@ -30,16 +30,16 @@
 - [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [Google for Jobs](https://jobboardlist.com/boards/google-jobs/): search-aggregator, Open API (no key)
-- [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
-- [GC Jobs](https://jobboardlist.com/boards/gc-jobs/): government
 - [Ontario Public Service Careers](https://jobboardlist.com/boards/on-gojobs/): government
 - [Government of Alberta jobs board](https://jobboardlist.com/boards/ab-goa-jobs/): government
 - [Alberta Job Banks (ALIS)](https://jobboardlist.com/boards/alis-alberta/): government
 - [TESL Canada](https://jobboardlist.com/boards/tesl-canada/): niche-board
 - [Goodwork Canada](https://jobboardlist.com/boards/goodwork-canada/): niche-board
+- [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
 - [Careers.Indigenous.Link](https://jobboardlist.com/boards/careers-indigenous-link/): niche-board, No known API
 - [Connect Nonprofit Jobs](https://jobboardlist.com/boards/connect-jobs/): niche-board, No known API
+- [GC Jobs](https://jobboardlist.com/boards/gc-jobs/): government
 - [CivicJobs.ca](https://jobboardlist.com/boards/civicjobs/): board
 - [JobsMedia](https://jobboardlist.com/boards/jobsmedia/): board
 - [Magnet](https://jobboardlist.com/boards/magnet/): board

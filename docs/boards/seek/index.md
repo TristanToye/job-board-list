@@ -23,6 +23,8 @@ SEEK is a job board based in Australia. It was founded in 1997.
 
 **How large is SEEK?** SEEK ranks #8,055 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
+**Which platforms does SEEK connect to?** According to this directory, SEEK receives jobs from Workable; integrates with Pinpoint.
+
 ## Sources
 
 - [SEEK Limited](https://en.wikipedia.org/wiki/Seek_Limited) (Listed by a third-party directory, checked 2026-11-05)

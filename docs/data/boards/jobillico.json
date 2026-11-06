@@ -2,6 +2,7 @@
  "id": "jobillico",
  "name": "Jobillico",
  "url": "https://www.jobillico.com",
+ "domains": "",
  "type": "board",
  "hq_country": "CA",
  "founded": "2007",
@@ -45,6 +46,17 @@
   "job-board",
   "subscription",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Jobillico",
+   "from_id": "jobillico",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  }
  ],
  "review": null,
  "owners": [],

@@ -2,6 +2,7 @@
  "id": "broadbean",
  "name": "Broadbean",
  "url": "https://www.broadbean.com",
+ "domains": "",
  "type": "multiposting",
  "hq_country": "UK",
  "founded": "",
@@ -42,6 +43,71 @@
   "job-distribution",
   "partner-program",
   "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Broadbean",
+   "from_id": "broadbean",
+   "to": "Avature",
+   "to_id": "",
+   "source": "https://www.broadbean.com/partners/",
+   "quote": "Avature ATS redefines the user experience for candidates, recruiters and hiring managers."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Broadbean",
+   "from_id": "broadbean",
+   "to": "TalentSoft",
+   "to_id": "",
+   "source": "https://www.broadbean.com/partners/",
+   "quote": "trust Talentsoft to develop their talents."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Broadbean",
+   "from_id": "broadbean",
+   "to": "Ciphr",
+   "to_id": "",
+   "source": "https://www.broadbean.com/partners/",
+   "quote": "CIPHR is a specialist provider of SaaS HR software, payroll, recruitment and learning solutions"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Broadbean",
+   "from_id": "broadbean",
+   "to": "iCIMS",
+   "to_id": "icims",
+   "source": "https://www.broadbean.com/partners/",
+   "quote": "iCIMS A NEW WAY TO MANAGE THE END-TO-END HIRING LIFECYCLE"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Broadbean",
+   "from_id": "broadbean",
+   "to": "TribePad",
+   "to_id": "",
+   "source": "https://www.broadbean.com/partners/",
+   "quote": "TribePad Recruitment management software that delivers the best talent."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Broadbean",
+   "from_id": "broadbean",
+   "to": "Bullhorn",
+   "to_id": "",
+   "source": "https://www.broadbean.com/partners/",
+   "quote": "Bullhorn Powers Your Staffing Business from Start to Finish"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Broadbean",
+   "from_id": "broadbean",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.broadbean.com/product-suite/job-distribution-platform/",
+   "quote": "Multi-post to more than 7,000 job boards in 100 countries, as well as search engines, social media, Indeed and your own site."
+  }
  ],
  "review": null,
  "owners": [

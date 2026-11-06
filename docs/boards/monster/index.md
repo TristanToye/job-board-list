@@ -23,6 +23,8 @@ Monster is a job board based in PR. It was founded in 1999.
 
 **How large is Monster?** Monster ranks #1,845 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
+**Which platforms does Monster connect to?** According to this directory, Monster receives jobs from Workable, Greenhouse; integrates with Pinpoint.
+
 ## Sources
 
 - [Job Junction: national job boards (third-party directory)](https://jobjunction.ca/national-job-boards/) (Listed by a third-party directory, checked 2026-11-05)

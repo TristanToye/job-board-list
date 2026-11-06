@@ -15,6 +15,7 @@ To understand where jobs originate and how they flow: employer, ATS, programmati
 - `data/owners.csv` and `data/ownership.csv`: who owns what in the HR space. Each holding has a relationship, optional stake and year, a category and a cited quote. Holdings need not be job boards. Merge with `python3 scripts/ingest_ownership.py FINDINGS.json`.
 - `data/taxonomy.csv` and `data/tags.csv`: the tag vocabulary (function, focus, model, integration, segment, operator) with definitions, and the tags on each entry. Most tags are derived from existing fields by `python3 scripts/derive_tags.py`. Rows with basis `assigned` are set by hand and kept.
 - `data/owner_facts.csv`: cited profile facts for owner companies (self-description, headquarters, founded, listing, employees, revenue).
+- `data/relationships.csv`: documented connections between entries (sends jobs to, integrates with), each with a source page on one party's own site and a quote naming the other party. Merge with `python3 scripts/ingest_relationships.py FINDINGS.json`. Brief: `research/briefs/relationships.md`. ATS systems are ordinary entries (type `ats`) in `job_boards.csv`; an entry's `domains` column lists extra domains that count as its own site.
 - `data/research_queue.csv`: boards and verification tasks still to do, with the reason each is blocked or pending.
 - `data/ats_systems.csv`: applicant tracking systems and whether they expose public job feeds or APIs.
 - `scripts/validate.py`: checks the data and prints a coverage summary. Run `python3 scripts/validate.py`.

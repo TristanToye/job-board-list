@@ -2,6 +2,7 @@
  "id": "icims",
  "name": "iCIMS",
  "url": "https://www.icims.com",
+ "domains": "",
  "type": "ats",
  "hq_country": "US",
  "founded": "",
@@ -36,6 +37,44 @@
   "ats",
   "enterprise",
   "partner-program"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "iCIMS",
+   "from_id": "icims",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://marketplace.icims.com/en-US/listing?locale=en-US",
+   "quote": "Connect iCIMS Recruit with LinkedIn Recruiter for streamlined sourcing"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "iCIMS",
+   "from_id": "icims",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "iCIMS",
+   "to_id": "icims",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Broadbean",
+   "from_id": "broadbean",
+   "to": "iCIMS",
+   "to_id": "icims",
+   "source": "https://www.broadbean.com/partners/",
+   "quote": "iCIMS A NEW WAY TO MANAGE THE END-TO-END HIRING LIFECYCLE"
+  }
  ],
  "review": null,
  "owners": [],

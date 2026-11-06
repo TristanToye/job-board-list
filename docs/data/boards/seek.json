@@ -2,6 +2,7 @@
  "id": "seek",
  "name": "SEEK",
  "url": "https://www.seek.com.au",
+ "domains": "",
  "type": "board",
  "hq_country": "AU",
  "founded": "1997",
@@ -57,6 +58,26 @@
   "job-board",
   "partner-program",
   "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "SEEK",
+   "to_id": "seek",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "SEEK",
+   "to_id": "seek",
+   "source": "https://help.workable.com/hc/en-us/articles/115013336568-Integrating-with-Seek",
+   "quote": "post jobs directly through Workable to Seek, as well as to JobsDB and JobStreet"
+  }
  ],
  "review": null,
  "owners": [],

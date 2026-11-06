@@ -33,3 +33,10 @@ ul.plain{margin:0;padding-left:1.1rem}
 ul.holdings{padding-left:1.1rem}ul.holdings li{margin:10px 0}
 blockquote.about{margin:1rem 0;padding:12px 16px;border-left:4px solid var(--brand);background:var(--card);border-radius:0 8px 8px 0;font-size:1.05rem}blockquote.about footer{margin-top:6px;font-size:.85rem;color:var(--muted)}
 .tag{display:inline-block;margin:3px 4px 0 0;padding:0 7px;border-radius:5px;background:var(--card);border:1px solid var(--line);font-size:.74rem;color:var(--muted)}.tagrow{margin:2px 0}ul.taglist{columns:2 300px;list-style:none;padding:0}ul.taglist li{margin:0 0 12px;break-inside:avoid}
+ul.conn{columns:2 240px;list-style:none;padding:0;margin:.3rem 0 1rem}ul.conn li{margin:3px 0;break-inside:avoid}
+
+.ecowrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:1rem 0;background:var(--bg)}svg.eco{min-width:760px;width:100%;height:auto;display:block}
+.eco .layer{font-size:15px;font-weight:700;fill:var(--fg)}.eco .layer.sub{font-size:11px;font-weight:400;fill:var(--muted)}
+.eco .node rect{fill:var(--card);stroke:var(--line);stroke-width:1}.eco .node text{font-size:12px;fill:var(--fg)}.eco .node:hover rect,.eco .node:focus rect{stroke:var(--brand);stroke-width:2}
+.eco .edge{fill:none;stroke-width:1.4}.eco .edge.sends{stroke:var(--brand);stroke-opacity:.35}.eco .edge.integ{stroke:var(--muted);stroke-opacity:.35;stroke-dasharray:4 3}
+.eco .edge.hl{stroke-opacity:.95;stroke-width:2.4}.eco .edge.dim{stroke-opacity:.06}.eco marker path{fill:var(--brand);fill-opacity:.6}

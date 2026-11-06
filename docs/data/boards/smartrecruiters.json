@@ -2,6 +2,7 @@
  "id": "smartrecruiters",
  "name": "SmartRecruiters",
  "url": "https://www.smartrecruiters.com",
+ "domains": "",
  "type": "ats",
  "hq_country": "PL",
  "founded": "",
@@ -39,6 +40,35 @@
   "enterprise",
   "partner-program",
   "public-job-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "SmartRecruiters",
+   "from_id": "smartrecruiters",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.careerjet.com/recruiter/ats",
+   "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Joveo",
+   "from_id": "joveo",
+   "to": "SmartRecruiters",
+   "to_id": "smartrecruiters",
+   "source": "https://www.joveo.com/partners/ats-integrations/",
+   "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "SmartRecruiters",
+   "from_id": "smartrecruiters",
+   "to": "VONQ",
+   "to_id": "",
+   "source": "https://www.smartrecruiters.com/news/smartrecruiters-and-vonq-setting-new-standards-in-job-advertising-and-global-talent-acquisition/",
+   "quote": "SmartRecruiters, a leading All-in-One Hiring Platform, has partnered with VONQ, a global leader in recruitment marketing solutions."
+  }
  ],
  "review": null,
  "owners": [],

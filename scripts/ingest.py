@@ -41,7 +41,7 @@ def host(u):
     except Exception: return ""
 def regdom(h):
     p = h.split(".")
-    if len(p) >= 3 and p[-1] and len(p[-1]) == 2 and p[-2] in {"co","com","gov","org","ne","ac","edu"}: return ".".join(p[-3:])
+    if len(p) >= 3 and p[-1] and len(p[-1]) == 2 and p[-2] in {"co","com","gov","org","ne","ac","edu","gc","gouv","gob","go"}: return ".".join(p[-3:])
     return ".".join(p[-2:])
 def clean(s, n=400):
     s = str(s or "").replace(chr(0x2014), ", ").replace(chr(0x2013), "-").replace("\n", " ").strip()
@@ -118,7 +118,7 @@ def main(argv):
                 if f not in SRC_FIELDS or not su.startswith("https://") and not su.startswith("http://"): reject("source", name, f"bad field or url {f!r}"); continue
                 if f in WEAK:
                     good.setdefault(f, []).append(s | {"url": su, "quote": q if s.get("check") == "ok" else ""}); continue
-                same = regdom(host(su)) in {site, regdom(host(row.get("api_docs_url",""))), regdom(host(row.get("partner_url","")))} or (regdom(host(su)) in REFERENCE and f in REF_FIELDS)
+                same = regdom(host(su)) in {site, regdom(host(row.get("api_docs_url",""))), regdom(host(row.get("partner_url","")))} | {x for x in row.get("domains","").split(";") if x} or (regdom(host(su)) in REFERENCE and f in REF_FIELDS)
                 if not same: reject("source", name, f"strong source off the board's domain: {host(su)}"); continue
                 if not q or len(q.split()) > 30: reject("source", name, f"{f}: missing or long quote"); continue
                 if len(q.split()) < 3 and f != "languages": reject("source", name, f"{f}: quote too short to be evidence"); continue  # a language menu is legitimately short

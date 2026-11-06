@@ -1,6 +1,6 @@
 # Job boards in United States
 
-53 job boards and related entries based in or serving United States.
+52 job boards and related entries based in or serving United States.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier
@@ -25,7 +25,6 @@
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Established tier, Self-serve API key
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Established tier
 - [We Work Remotely](https://jobboardlist.com/boards/weworkremotely/): niche-board, Established tier, Open API (no key)
-- [Eightfold AI](https://jobboardlist.com/boards/eightfold/): ats, Established tier
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Established tier, Open API (no key)
 - [Snagajob](https://jobboardlist.com/boards/snagajob/): board, Established tier
 - [Remote OK](https://jobboardlist.com/boards/remoteok/): niche-board, Established tier, Open API (no key)

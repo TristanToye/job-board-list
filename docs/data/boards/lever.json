@@ -2,6 +2,7 @@
  "id": "lever",
  "name": "Lever",
  "url": "https://www.lever.co",
+ "domains": "lever.co",
  "type": "ats",
  "hq_country": "US",
  "founded": "",
@@ -39,6 +40,125 @@
   "mid-market",
   "partner-program",
   "public-job-feed"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://www.reed.co.uk/recruiter/ats-integration",
+   "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Indeed helps millions of job seekers and employers find the right fit for them every day."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.lever.co/integrations",
+   "quote": "LinkedIn The world’s largest professional network with more than 1 billion members worldwide."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "AcquireROI",
+   "to_id": "",
+   "source": "https://www.lever.co/integrations",
+   "quote": "AcquireROI makes job advertising easy."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Appcast",
+   "to_id": "appcast",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Appcast Optimize recruitment marketing using data, technology and our world-class expertise"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Bandana",
+   "to_id": "",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Bandana is the fastest growing and most trusted job board in the US built for modern recruiting."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Boostie",
+   "to_id": "",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Boostie A talent marketing platform that makes it easy for hiring teams to promote, capture and convert more quality applicants."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Give a Grad a Go",
+   "to_id": "",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Give a Grad a Go Advertise your jobs to millions of diverse graduates in the UK, Australia & beyond."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Handshake",
+   "to_id": "handshake",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Handshake Recruit smarter, not harder. Need to hire now? Place your job in front of qualified candidates where they are already browsing."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Jobbytime",
+   "to_id": "",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Jobbytime An AI-Powered Job Board with AI Auto Apply option to source relevant candidates to matching jobs and integrates with Lever in one click."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Purpose Jobs",
+   "to_id": "",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Purpose Jobs The #1 destination to recruit talent in the Midwest"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Sensiply",
+   "to_id": "",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Sensiply Sensiply is a modern hiring platform that helps employers connect with the right candidates faster."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "VONQ",
+   "to_id": "",
+   "source": "https://www.lever.co/integrations",
+   "quote": "VONQ VONQ offers end-to-end recruitment marketing solutions including job distribution tools."
+  }
  ],
  "review": null,
  "owners": [],

@@ -2,6 +2,7 @@
  "id": "indeed",
  "name": "Indeed",
  "url": "https://www.indeed.com",
+ "domains": "indeed.jobs",
  "type": "aggregator+board",
  "hq_country": "US",
  "founded": "2004",
@@ -69,6 +70,89 @@
   "partner-program",
   "pay-per-click",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Oracle Recruiting Cloud",
+   "from_id": "oracle-recruiting",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.oracle.com/human-capital-management/recruiting/",
+   "quote": "Allow candidates to complete their entire job application without leaving the sites of partners such as Indeed and LinkedIn."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "Indeed helps millions of job seekers and employers find the right fit for them every day."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "JOB BOARDS LinkedIn Apply Connect Leisurejobs Indeed Glassdoor"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Indeed",
+   "from_id": "indeed",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Broadbean",
+   "from_id": "broadbean",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.broadbean.com/product-suite/job-distribution-platform/",
+   "quote": "Multi-post to more than 7,000 job boards in 100 countries, as well as search engines, social media, Indeed and your own site."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Appcast",
+   "from_id": "appcast",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.appcast.io/products/appcast-one/",
+   "quote": "Appcast is the largest buyer of Indeed, ZipRecruiter, and LinkedIn globally"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Indeed helps millions of job seekers and employers find the right fit for them every day."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+   "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Greenhouse",
+   "from_id": "greenhouse",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+   "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+  }
  ],
  "review": null,
  "owners": [

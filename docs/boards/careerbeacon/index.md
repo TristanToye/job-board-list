@@ -21,6 +21,8 @@ CareerBeacon is a job board based in Canada, focused on general (Atlantic Canada
 
 **How large is CareerBeacon?** CareerBeacon ranks #180,850 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
+**Which platforms does CareerBeacon connect to?** According to this directory, CareerBeacon integrates with Job Bank.
+
 ## Sources
 
 - [Job Bank network: boards that send jobs to Job Bank](https://www.jobbank.gc.ca/network) (Relationships, checked 2026-11-05)

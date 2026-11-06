@@ -58,12 +58,16 @@ def main(files):
     for fn in files:
         d = json.load(open(fn, encoding="utf-8")); jobs = []
         holdings = [h for o in d.get("owners", []) for h in o.get("holdings", [])]
+        jobs_extra = []
         facts = [f for o in d.get("owners", []) for f in o.get("facts", [])]
+        for ed in d.get("edges", []):
+            if ed.get("source") and ed["source"].get("url") and ed["source"].get("check") not in ("structured", "chrome"): jobs_extra.append(ed["source"])
         for b in d.get("boards", []) + holdings + facts:
             for s in b.get("sources", []):
                 if s.get("field") not in ("listed_by", "relationship") and s.get("url") and s.get("check") not in ("structured", "chrome"): jobs.append(s)
             if isinstance(b.get("notes"), list):
                 jobs.extend(n for n in b["notes"] if isinstance(n, dict) and n.get("url") and n.get("quote"))
+        jobs.extend(jobs_extra)
         with cf.ThreadPoolExecutor(6) as ex: res = list(ex.map(lambda s: check(s["url"], s.get("quote", ""), cache), jobs))
         for s, r in zip(jobs, res): s["check"] = r
         json.dump(d, open(fn, "w", encoding="utf-8"), indent=1, ensure_ascii=False)

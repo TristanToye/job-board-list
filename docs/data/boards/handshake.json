@@ -2,6 +2,7 @@
  "id": "handshake",
  "name": "Handshake",
  "url": "https://joinhandshake.com",
+ "domains": "",
  "type": "niche-board",
  "hq_country": "US",
  "founded": "2014",
@@ -43,6 +44,17 @@
   "job-board",
   "partner-program",
   "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Handshake",
+   "to_id": "handshake",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Handshake Recruit smarter, not harder. Need to hire now? Place your job in front of qualified candidates where they are already browsing."
+  }
  ],
  "review": null,
  "owners": [],

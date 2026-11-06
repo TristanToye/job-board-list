@@ -2,6 +2,7 @@
  "id": "appcast",
  "name": "Appcast",
  "url": "https://www.appcast.io",
+ "domains": "",
  "type": "programmatic-distribution",
  "hq_country": "US",
  "founded": "",
@@ -43,6 +44,62 @@
   "partner-program",
   "pay-per-click",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Appcast",
+   "from_id": "appcast",
+   "to": "Talent.com",
+   "to_id": "talent-com",
+   "source": "https://www.talent.com/ats",
+   "quote": "With integrated applicant tracking software, the latest version of your job postings are searchable on Talent.com"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Appcast",
+   "from_id": "appcast",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.appcast.io/products/appcast-one/",
+   "quote": "Appcast is the largest buyer of Indeed, ZipRecruiter, and LinkedIn globally"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Appcast",
+   "from_id": "appcast",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.appcast.io/products/appcast-one/",
+   "quote": "Appcast is the largest buyer of Indeed, ZipRecruiter, and LinkedIn globally"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Appcast",
+   "from_id": "appcast",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.appcast.io/products/appcast-one/",
+   "quote": "Appcast is the largest buyer of Indeed, ZipRecruiter, and LinkedIn globally"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Appcast",
+   "to_id": "appcast",
+   "source": "https://www.lever.co/integrations",
+   "quote": "Appcast Optimize recruitment marketing using data, technology and our world-class expertise"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Greenhouse",
+   "from_id": "greenhouse",
+   "to": "Appcast",
+   "to_id": "appcast",
+   "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+   "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+  }
  ],
  "review": null,
  "owners": [

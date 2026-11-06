@@ -2,6 +2,7 @@
  "id": "ziprecruiter",
  "name": "ZipRecruiter",
  "url": "https://www.ziprecruiter.com",
+ "domains": "",
  "type": "board+aggregator",
  "hq_country": "US",
  "founded": "2010",
@@ -52,6 +53,62 @@
   "pay-per-click",
   "subscription",
   "xml-feed"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "ZipRecruiter Distributing your job to more than 100 job boards and classified sites with the click of a button."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "ZipRecruiter",
+   "from_id": "ziprecruiter",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Appcast",
+   "from_id": "appcast",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.appcast.io/products/appcast-one/",
+   "quote": "Appcast is the largest buyer of Indeed, ZipRecruiter, and LinkedIn globally"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+   "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Greenhouse",
+   "from_id": "greenhouse",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+   "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+  }
  ],
  "review": null,
  "owners": [],

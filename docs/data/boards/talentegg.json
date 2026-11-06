@@ -2,6 +2,7 @@
  "id": "talentegg",
  "name": "TalentEgg",
  "url": "https://talentegg.ca",
+ "domains": "",
  "type": "board",
  "hq_country": "CA",
  "founded": "",
@@ -38,6 +39,17 @@
  "tags": [
   "graduates-students",
   "job-board"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "TalentEgg",
+   "from_id": "talentegg",
+   "to": "Job Bank",
+   "to_id": "jobbank-ca",
+   "source": "https://www.jobbank.gc.ca/network",
+   "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
+  }
  ],
  "review": null,
  "owners": [],

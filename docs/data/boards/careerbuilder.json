@@ -2,6 +2,7 @@
  "id": "careerbuilder",
  "name": "CareerBuilder",
  "url": "https://www.careerbuilder.com",
+ "domains": "",
  "type": "board",
  "hq_country": "PR",
  "founded": "1995",
@@ -41,6 +42,26 @@
   "general",
   "job-board",
   "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Pinpoint",
+   "from_id": "pinpoint",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://www.pinpointhq.com/integrations",
+   "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://help.workable.com/hc/en-us/articles/115013182007-Integrating-with-CareerBuilder",
+   "quote": "Connect your accounts and use your prepaid CareerBuilder job credits to post jobs directly via Workable."
+  }
  ],
  "review": null,
  "owners": [

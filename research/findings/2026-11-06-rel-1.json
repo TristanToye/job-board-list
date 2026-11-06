@@ -1,0 +1,724 @@
+{
+ "mode": "relationships",
+ "edges": [
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "Indeed helps millions of job seekers and employers find the right fit for them every day.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "LinkedIn The world’s largest professional network with more than 1 billion members worldwide.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "AcquireROI",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "AcquireROI makes job advertising easy.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "Appcast",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "Appcast Optimize recruitment marketing using data, technology and our world-class expertise",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "Bandana",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "Bandana is the fastest growing and most trusted job board in the US built for modern recruiting.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "Boostie",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "Boostie A talent marketing platform that makes it easy for hiring teams to promote, capture and convert more quality applicants.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "Give a Grad a Go",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "Give a Grad a Go Advertise your jobs to millions of diverse graduates in the UK, Australia & beyond.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "Handshake",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "Handshake Recruit smarter, not harder. Need to hire now? Place your job in front of qualified candidates where they are already browsing.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "Jobbytime",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "Jobbytime An AI-Powered Job Board with AI Auto Apply option to source relevant candidates to matching jobs and integrates with Lever in one click.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "Purpose Jobs",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "Purpose Jobs The #1 destination to recruit talent in the Midwest",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "Sensiply",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "Sensiply Sensiply is a modern hiring platform that helps employers connect with the right candidates faster.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "",
+   "to": "VONQ",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/integrations",
+    "title": "Partner Marketplace",
+    "quote": "VONQ VONQ offers end-to-end recruitment marketing solutions including job distribution tools.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Ashby",
+   "from_url": "",
+   "to": "AJINGA",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.ashbyhq.com/integrations",
+    "title": "Integrations",
+    "quote": "AJINGA China-focused recruiting platform that connects Ashby to local job boards, WeChat, and bilingual candidate workflows.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Ashby",
+   "from_url": "",
+   "to": "Adway",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.ashbyhq.com/integrations",
+    "title": "Integrations",
+    "quote": "Adway Social recruiting platform that auto-generates paid job ads on social media from your Ashby job postings.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "",
+   "to": "Asfored",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.teamtailor.com/en/integrations",
+    "title": "Integrations",
+    "quote": "Reach publishing, media and editorial talent in France by posting your jobs on ASFORED directly from Teamtailor.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "",
+   "to": "B4work Global",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.teamtailor.com/en/integrations",
+    "title": "Integrations",
+    "quote": "Publish your jobs on B4work Global!",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "",
+   "to": "50Plus-Jobs",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en/integrations",
+    "title": "Integrations",
+    "quote": "50Plus-Jobs 50plus-Jobs is the Swiss job board for the generation 50plus, including companies and everyone who believes in equality in the job market.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "",
+   "to": "Adzuna",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en/integrations",
+    "title": "Integrations",
+    "quote": "Adzuna is a search engine for job ads used by over 10 million visitors per month that aims to list every job, everywhere.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "",
+   "to": "Agefiph",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en/integrations",
+    "title": "Integrations",
+    "quote": "Agefiph Le site emploi Agefiph est le 1er site emploi handicap en France avec plus de 300 000 candidats et plus de 150 000 offres d'emplois.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "",
+   "to": "#jenesuisPASunCV",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en/integrations",
+    "title": "Integrations",
+    "quote": "#jenesuisPASunCV : le premier jobboard inclusif en France",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "",
+   "to": "Arbetsförmedlingen",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en/integrations",
+    "title": "Integrations",
+    "quote": "Arbetsförmedlingen Här kan du annonsera i Platsbanken, anställa med stöd och upptäcka nya sätt att rekrytera.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Greenhouse",
+   "from_url": "",
+   "to": "Appcast",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+    "title": "Free job posts",
+    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Greenhouse",
+   "from_url": "",
+   "to": "Arbeitnow",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+    "title": "Free job posts",
+    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Greenhouse",
+   "from_url": "",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+    "title": "Free job posts",
+    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Greenhouse",
+   "from_url": "",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+    "title": "Free job posts",
+    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Greenhouse",
+   "from_url": "",
+   "to": "Monster",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+    "title": "Free job posts",
+    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Greenhouse",
+   "from_url": "",
+   "to": "Nexxt",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+    "title": "Free job posts",
+    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Greenhouse",
+   "from_url": "",
+   "to": "OfferUp",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+    "title": "Free job posts",
+    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Greenhouse",
+   "from_url": "",
+   "to": "ZipRecruiter",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+    "title": "Free job posts",
+    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Glassdoor",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "X job board",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Adzuna",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "CareerJet",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "ZipRecruiter",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Google for Jobs",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "CV-Library Group",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Talent.com",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Jobcase",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Jooble",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Monster",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Recruit.net",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "US.Jobs",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
+    "title": "Which job boards can I post to through Workable?",
+    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Seek",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115013336568-Integrating-with-Seek",
+    "title": "Integrating with the Seek network",
+    "quote": "post jobs directly through Workable to Seek, as well as to JobsDB and JobStreet",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "JobsDB",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115013336568-Integrating-with-Seek",
+    "title": "Integrating with the Seek network",
+    "quote": "post jobs directly through Workable to Seek, as well as to JobsDB and JobStreet",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "JobStreet",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115013336568-Integrating-with-Seek",
+    "title": "Integrating with the Seek network",
+    "quote": "post jobs directly through Workable to Seek, as well as to JobsDB and JobStreet",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "CareerBuilder",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/115013182007-Integrating-with-CareerBuilder",
+    "title": "Integrating with CareerBuilder",
+    "quote": "Connect your accounts and use your prepaid CareerBuilder job credits to post jobs directly via Workable.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "",
+   "to": "Jobsite",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/360012288193-Integrating-with-Jobsite",
+    "title": "Integrating with Jobsite",
+    "quote": "Connect your accounts and use your prepaid Jobsite job credits to post jobs directly via Workable.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "SmartRecruiters",
+   "from_url": "",
+   "to": "VONQ",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.smartrecruiters.com/news/smartrecruiters-and-vonq-setting-new-standards-in-job-advertising-and-global-talent-acquisition/",
+    "title": "SmartRecruiters and VONQ: Setting New Standards in Job Advertising and Global Talent Acquisition",
+    "quote": "SmartRecruiters, a leading All-in-One Hiring Platform, has partnered with VONQ, a global leader in recruitment marketing solutions.",
+    "check": "ok"
+   }
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Greenhouse",
+   "url": "https://www.greenhouse.com/integrations",
+   "reason": "HTTP 403 (Cloudflare challenge); headless reader also reported blocked"
+  },
+  {
+   "name": "Personio",
+   "url": "https://www.personio.com/integrations",
+   "reason": "HTTP 429 (Vercel security checkpoint); headless reader also reported blocked"
+  },
+  {
+   "name": "SmartRecruiters Marketplace (Multiposting)",
+   "url": "https://marketplace.smartrecruiters.com/t/partner-categories/attract/job-boards/multiposting",
+   "reason": "HTTP 403 (Cloudflare challenge); headless reader also reported blocked"
+  },
+  {
+   "name": "SmartRecruiters job posting product page",
+   "url": "https://www.smartrecruiters.com/recruiting-software/job-posting/",
+   "reason": "HTTP 403 (Cloudflare challenge); headless reader also reported blocked"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Workable Partners Directory",
+   "url": "https://partners.workable.com/joblift",
+   "reason": "Named on Workable help pages as the comprehensive job board list; not read. Workable start URL https://www.workable.com/integrations returned 404"
+  },
+  {
+   "name": "Ashby integrations directory, pages 2 to 24",
+   "url": "https://www.ashbyhq.com/integrations",
+   "reason": "Directory is paginated; only page 1 was read"
+  },
+  {
+   "name": "aijobs.com",
+   "url": "",
+   "reason": "Listed under Ashby Job Board category, but the listing says the Ashby integration is not confirmed, so no edge was recorded"
+  },
+  {
+   "name": "Teamtailor partner list (Show more)",
+   "url": "https://www.teamtailor.com/en/integrations",
+   "reason": "Partner list has a Show more control; only the first part was read"
+  },
+  {
+   "name": "Greenhouse External job board overview",
+   "url": "https://support.greenhouse.io/hc/en-us/articles/21270826058907-External-job-board-overview",
+   "reason": "Found in search results, not read"
+  },
+  {
+   "name": "Greenhouse job board partners with configurable integrations",
+   "url": "",
+   "reason": "Linked from the Greenhouse Free job posts article; link not followed"
+  },
+  {
+   "name": "Workable Indeed sponsored posts integration",
+   "url": "https://help.workable.com/hc/en-us/articles/360006459833-Integrating-with-Indeed-for-sponsored-posts",
+   "reason": "Found in search results, not read"
+  },
+  {
+   "name": "Workable Jobs on Facebook integration",
+   "url": "https://resources.workable.com/backstage/jobs-on-facebook-job-board-integration",
+   "reason": "Found in search results, not read"
+  },
+  {
+   "name": "SmartRecruiters SmartDistribute product sheet",
+   "url": "https://www.smartrecruiters.com/resources/landing/smartdistribute-product-sheet/",
+   "reason": "Found in search results, not read; the VONQ news release gives a 2,700-board count but names no boards"
+  }
+ ]
+}

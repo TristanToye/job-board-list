@@ -78,9 +78,9 @@ Jobs across many occupations and industries. 88 entries in the directory.
 - [Find an Apprenticeship](https://jobboardlist.com/boards/find-an-apprenticeship/): government
 - [FINN.no Jobs](https://jobboardlist.com/boards/finn-no/): classifieds+board, Partner-only API
 - [Google for Jobs](https://jobboardlist.com/boards/google-jobs/): search-aggregator, Open API (no key)
-- [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [Jobtoday](https://jobboardlist.com/boards/jobtoday/): aggregator
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [Arbeidsplassen (NAV)](https://jobboardlist.com/boards/nav-arbeidsplassen/): government, Self-serve API key
+- [Sistema Nacional de Emprego (SINE)](https://jobboardlist.com/boards/sistema-nacional-de-emprego-sine/): government
 
 Canonical page: https://jobboardlist.com/tags/general/

@@ -70,6 +70,15 @@ if (ROOT/"data"/"tags.csv").exists():
     for _t in load("tags.csv"): TAGS_BY[(_t["kind"], _t["entry_id"])].append(_t["tag"])
 FACETS = [("function", "What it is"), ("focus", "Who and what it is for"), ("model", "How it makes money"), ("integration", "How open it is"), ("segment", "Customer segment"), ("operator", "Who runs it")]
 def tags_of(kind, i, facet=None): return [t for t in TAGS_BY.get((kind, i), []) if t in TAX and (facet is None or TAX[t]["facet"] == facet)]
+REL = load("relationships.csv") if (ROOT/"data"/"relationships.csv").exists() else []
+CONN = collections.defaultdict(lambda: {"sends": {}, "receives": {}, "integrates": {}})
+for _r in REL:
+    if _r["relation"] == "sends-jobs-to":
+        if _r["from_id"]: CONN[_r["from_id"]]["sends"].setdefault(_r["to_id"] or _r["to_name"], _r)
+        if _r["to_id"]: CONN[_r["to_id"]]["receives"].setdefault(_r["from_id"] or _r["from_name"], _r)
+    else:
+        if _r["from_id"]: CONN[_r["from_id"]]["integrates"].setdefault(_r["to_id"] or _r["to_name"], _r)
+        if _r["to_id"]: CONN[_r["to_id"]]["integrates"].setdefault(_r["from_id"] or _r["from_name"], _r)
 REVIEWS = {r["board_id"]: r for r in load("reviews.csv")} if (ROOT/"data"/"reviews.csv").exists() else {}
 REVIEW_FIELD = {"hq_country":"headquarters","founded":"founding year","parent":"owner","languages":"languages","business_model":"pricing and business model","api_status":"API access","partner_program":"partner program","ingest_methods":"how jobs get in","pricing":"pricing"}
 def review_text(b):
@@ -132,7 +141,7 @@ pages = []  # (path, lastmod)
 def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False, md=False):
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
-    nav = (f'<a href="{r}">Directory</a><a href="{r}tags/">Types</a><a href="{r}rankings/">Rankings</a><a href="{r}owners/">Owners</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
+    nav = (f'<a href="{r}">Directory</a><a href="{r}ecosystem/">Ecosystem</a><a href="{r}tags/">Types</a><a href="{r}rankings/">Rankings</a><a href="{r}owners/">Owners</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
            f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -290,6 +299,23 @@ for b in boards:
     if langs_of(b): faq.append((f"Which languages does {qn} support?", f'This directory records {qn} as supporting {", ".join(lang(c) for c in langs_of(b))}.' + hedge))
     if p["group"] == 0: faq.append((f"How large is {qn}?", f'{qn} ranks #{p["g"]:,} among all websites by web link popularity (Majestic Million, {RANK_DATE}), in the {p["tier"]} tier. This measures how widely the site is linked to, not traffic or job volume.'))
     if SCALE.get(b["id"]): _sc = SCALE[b["id"]][0]; faq.append((f"How many jobs does {qn} list?" if _sc["metric"] == "jobs_listed" else f"What scale does {qn} report?", f'{qn} reports {int(_sc["value"]):,} {_sc["unit"]} on its own site (as of {_sc["as_of"]}).'))
+    cn = CONN.get(b["id"]); conn_html = ""; conn_json = []
+    if cn and (cn["sends"] or cn["receives"] or cn["integrates"]):
+        def other_name(rr, side): return rr["to_name"] if side == "to" else rr["from_name"]
+        def li(rr, side):
+            oid = rr["to_id"] if side == "to" else rr["from_id"]; nm = other_name(rr, side)
+            lnk = f'<a href="{r}boards/{e(oid)}/">{e(nm)}</a>' if oid else e(nm)
+            return f'<li>{lnk} <a class="muted small" href="{e(rr["source_url"])}" rel="noopener nofollow" target="_blank">source</a></li>'
+        groups = (("Sends jobs to", [(rr, "to") for rr in cn["sends"].values() if rr["from_id"] == b["id"]]), ("Receives jobs from", [(rr, "from") for rr in cn["receives"].values() if rr["to_id"] == b["id"]]),
+                  ("Integrates with", [(rr, "to" if rr["from_id"] == b["id"] else "from") for rr in cn["integrates"].values()]))
+        conn_html = "<h2>Connections</h2><p class=\"muted small\">How this entry connects to other platforms, each from a page on one party's own site. Names that are not links are not yet in the directory.</p>"
+        for lbl, items in groups:
+            if not items: continue
+            conn_html += f"<h3>{e(lbl)}</h3><ul class=\"conn\">" + "".join(li(rr, sd) for rr, sd in items[:30]) + "</ul>" + (f'<p class="muted small">and {len(items) - 30} more in the <a href="{r}data/boards/{e(b["id"])}.json">data file</a>.</p>' if len(items) > 30 else "")
+            for rr, sd in items: conn_html += ""; conn_json.append({"group": lbl, "name": other_name(rr, sd), "id": rr["to_id"] if sd == "to" else rr["from_id"], "relation": rr["relation"], "source": rr["source_url"], "quote": rr["quote"]})
+        _sn = [other_name(rr, sd) for rr, sd in groups[0][1][:6]]; _rn = [other_name(rr, sd) for rr, sd in groups[1][1][:6]]; _in = [other_name(rr, sd) for rr, sd in groups[2][1][:6]]
+        _bits = ([f'sends jobs to {", ".join(_sn)}' + (" and others" if len(groups[0][1]) > 6 else "")] if _sn else []) + ([f'receives jobs from {", ".join(_rn)}' + (" and others" if len(groups[1][1]) > 6 else "")] if _rn else []) + ([f'integrates with {", ".join(_in)}' + (" and others" if len(groups[2][1]) > 6 else "")] if _in else [])
+        faq.append((f"Which platforms does {qn} connect to?", f'According to this directory, {qn} ' + "; ".join(_bits) + "."))
     faq_html = '<section class="faq"><h2>Quick answers</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in faq) + "</section>"
     mod_date = max([x["accessed"] for x in srcs if x.get("accessed")], default=TODAY)
     sources_html = ""
@@ -312,6 +338,7 @@ for b in boards:
 <p class="muted small">{e(b["name"])} and its logo are trademarks of their respective owners. Icons are shown for identification only and do not imply affiliation or endorsement.</p>
 {prom_html}
 {faq_html}
+{conn_html}
 {sources_html}
 <p class="notice">Only facts listed under Sources have been checked, and a listing by another directory only shows a board exists. Everything else on this page is unverified. <a href="{r}about/">How we research</a>.</p>
 {"<h2>Other boards in " + e(b["region"]) + "</h2><ul>" + "".join(f'<li><a href="{r}boards/{x["id"]}/">{e(x["name"])}</a></li>' for x in siblings) + "</ul>" if siblings else ""}"""
@@ -428,10 +455,10 @@ write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}"
 
 # ---------- assets, downloads, robots, sitemap, 404 ----------
 (OUT / "assets").mkdir(parents=True, exist_ok=True)
-shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js")
+shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js"); shutil.copy(ROOT/"site_src"/"eco.js", OUT/"assets"/"eco.js")
 if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", OUT/"assets"/"logos", dirs_exist_ok=True)
 (OUT/"downloads").mkdir(exist_ok=True)
-for n in ("job_boards.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv","reviews.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
+for n in ("job_boards.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv","reviews.csv","relationships.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/".nojekyll").write_text("")
 # ---------- tags ----------
@@ -514,6 +541,51 @@ if owner_rows:
     li = "".join(f'<li><a href="{e(oid)}/">{e(o["name"])}</a> <span class="muted">({n} HR holdings, {nb} job boards here)</span></li>' for oid, o, n, nb in sorted(owner_rows, key=lambda x: -x[2]))
     write("owners/index.html", layout(1, f"Who owns the job boards: owners and HR holdings | {NAME}", "Parent companies behind the major job boards and what else they own in the HR space, with cited sources.",
         f'<h1>Who owns the job boards</h1><p class="lede">The companies behind the major job boards, and what else they own in the HR space: staffing firms, recruiting technology and services. Every holding is cited.</p><ul class="biglist">{li}</ul>', "/owners/"))
+# ---------- ecosystem ----------
+def layer_of(i):
+    tg = set(tags_of("board", i)); return 0 if "ats" in tg else 1 if "job-distribution" in tg else 2
+resolved = [x for x in REL if x["from_id"] in by_id and x["to_id"] in by_id]
+deg_all = collections.Counter()
+for x in REL:
+    if x["from_id"]: deg_all[x["from_id"]] += 1
+    if x["to_id"]: deg_all[x["to_id"]] += 1
+deg = collections.Counter()
+for x in resolved: deg[x["from_id"]] += 1; deg[x["to_id"]] += 1
+layers = [[], [], []]
+for i, _ in deg.most_common(): layers[layer_of(i)].append(i)
+shown = [L[:c] for L, c in zip(layers, (14, 8, 18))]; nodeset = {i for L in shown for i in L}
+eco_edges = [x for x in resolved if x["from_id"] in nodeset and x["to_id"] in nodeset]
+XS, ROW, TOP, NW = (160, 520, 880), 30, 70, 200
+pos = {}
+for ci, L in enumerate(shown):
+    for ri, i in enumerate(L): pos[i] = (XS[ci], TOP + ri * ROW, ci)
+H = TOP + ROW * max(len(L) for L in shown) + 20
+def trunc(t, n=26): return t if len(t) <= n else t[:n - 1] + "\u2026"
+paths = ""
+for x in eco_edges:
+    (xa, ya, ca), (xb, yb, cb) = pos[x["from_id"]], pos[x["to_id"]]
+    if ca < cb: x1, x2 = xa + NW // 2, xb - NW // 2; d = f"M{x1},{ya} C{(x1 + x2) // 2},{ya} {(x1 + x2) // 2},{yb} {x2},{yb}"
+    elif ca > cb: x1, x2 = xa - NW // 2, xb + NW // 2; d = f"M{x1},{ya} C{(x1 + x2) // 2},{ya} {(x1 + x2) // 2},{yb} {x2},{yb}"
+    else: x1 = xa + NW // 2; d = f"M{x1},{ya} C{x1 + 90},{ya} {x1 + 90},{yb} {x1},{yb}"
+    cls = "sends" if x["relation"] == "sends-jobs-to" else "integ"
+    paths += f'<path class="edge {cls}" data-a="{e(x["from_id"])}" data-b="{e(x["to_id"])}" d="{d}"' + (' marker-end="url(#arr)"' if cls == "sends" else "") + f'><title>{e(by_id[x["from_id"]]["name"])} {"sends jobs to" if cls == "sends" else "integrates with"} {e(by_id[x["to_id"]]["name"])}</title></path>'
+nodes = "".join(f'<a href="../boards/{e(i)}/" class="node" data-id="{e(i)}"><title>{e(by_id[i]["name"])}</title><rect x="{xx - NW // 2}" y="{yy - 12}" width="{NW}" height="24" rx="6"/><text x="{xx}" y="{yy + 4}" text-anchor="middle">{e(trunc(by_id[i]["name"]))}</text></a>' for i, (xx, yy, _) in pos.items())
+titles = "".join(f'<text class="layer" x="{XS[ci]}" y="30" text-anchor="middle">{e(t)}</text><text class="layer sub" x="{XS[ci]}" y="48" text-anchor="middle">{e(sb)}</text>' for ci, (t, sb) in enumerate((("Applicant tracking systems", "where employers manage hiring"), ("Distribution platforms", "push jobs to many sites"), ("Boards and aggregators", "where candidates search"))))
+svg = f'<div class="ecowrap"><svg id="eco" class="eco" viewBox="0 0 1120 {H}" role="img" aria-label="Diagram of documented connections between applicant tracking systems, distribution platforms and job boards. A table with the same connections follows."><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z"/></marker></defs>{titles}{paths}{nodes}</svg></div>'
+unres = sorted({x["from_name"] for x in REL if not x["from_id"]} | {x["to_name"] for x in REL if not x["to_id"]}, key=str.lower)
+def role(i): return {0: "ATS", 1: "Distribution", 2: "Board or aggregator"}[layer_of(i)]
+hub_rows = "".join(f'<tr><td><a href="../boards/{e(i)}/"><strong>{e(by_id[i]["name"])}</strong></a></td><td>{e(role(i))}</td><td>{n}</td></tr>' for i, n in deg_all.most_common(14) if i in by_id)
+edge_rows = "".join(f'<tr><td>{(f"<a href=\"../boards/{e(x[chr(102)+chr(114)+chr(111)+chr(109)+chr(95)+chr(105)+chr(100)])}/\">" + e(x["from_name"]) + "</a>") if x["from_id"] else e(x["from_name"])}</td><td>{"sends jobs to" if x["relation"] == "sends-jobs-to" else "integrates with"}</td><td>{(f"<a href=\"../boards/{e(x[chr(116)+chr(111)+chr(95)+chr(105)+chr(100)])}/\">" + e(x["to_name"]) + "</a>") if x["to_id"] else e(x["to_name"])}</td><td><a href="{e(x["source_url"])}" rel="noopener nofollow" target="_blank">source</a></td></tr>' for x in sorted(REL, key=lambda x: (x["from_name"].lower(), x["to_name"].lower())))
+eco_body = (f'<h1>The hiring ecosystem map</h1><p class="lede">Employers manage hiring in an applicant tracking system, which pushes jobs to boards and aggregators directly or through distribution platforms, and candidates find them there. This map shows the {len(REL)} connections documented on the platforms\' own pages, {len(resolved)} of them between entries in this directory.</p>'
+    f'<p class="muted small">Solid arrows mean the first party sends jobs to the second. Dashed lines mean the two integrate in a way the page does not describe as a job feed. A missing line does not mean no connection, only that we have not found one stated. Hover a name to highlight its connections.</p>{svg}'
+    f'<h2>Most connected</h2><div class="tablewrap"><table><thead><tr><th>Entry</th><th>Role</th><th>Documented connections</th></tr></thead><tbody>{hub_rows}</tbody></table></div>'
+    f'<h2>Every documented connection</h2><div class="tablewrap"><table><thead><tr><th>From</th><th>Relationship</th><th>To</th><th>Source</th></tr></thead><tbody>{edge_rows}</tbody></table></div>'
+    f'<h2>Partners not yet in the directory</h2><p>{len(unres)} partner names appear on these pages but are not yet entries here: ' + ", ".join(e(n) for n in unres[:60]) + (f" and {len(unres) - 60} more" if len(unres) > 60 else "") + '.</p><script src="../assets/eco.js" defer></script>')
+md_eco = ("# The hiring ecosystem map\n\nDocumented connections between applicant tracking systems, distribution platforms and job boards, each from a page on one party's own site.\n\n"
+          + "\n".join(f'- {x["from_name"]} {"sends jobs to" if x["relation"] == "sends-jobs-to" else "integrates with"} {x["to_name"]} ({x["source_url"]})' for x in sorted(REL, key=lambda x: (x["from_name"].lower(), x["to_name"].lower())))
+          + f'\n\nCanonical page: {BASE}/ecosystem/\n')
+write("ecosystem/index.html", layout(1, f"The hiring ecosystem map: how ATS systems, distribution platforms and job boards connect | {NAME}",
+    f"Documented connections between applicant tracking systems, job distribution platforms and job boards: who sends jobs to whom, with a source for every link.", eco_body, "/ecosystem/", itemlist([by_id[i] for i, _ in deg_all.most_common(30) if i in by_id], 1), noindex=len(REL) < 10, md=len(REL) >= 10), indexed=len(REL) >= 10, md=md_eco, kind="tag")
 # ---------- rankings ----------
 comparable = sorted([b for b in boards if prom(b)["group"] == 0], key=skey)
 rk_rows = "".join(f'<tr><td>{i}</td><td><div class="namecell">{icon(b, "../")}<a href="../boards/{b["id"]}/"><strong>{e(b["name"])}</strong></a></div></td><td><span class="badge tier-{e(prom(b)["tier"])}">{e(prom(b)["tier"])}</span> <span class="muted small">#{prom(b)["g"]:,}</span></td><td>{e(b["type"])}</td><td>{e(b["region"])}</td></tr>' for i, b in enumerate(comparable[:60], 1))
@@ -530,6 +602,7 @@ def board_json(b):
     d["page"] = f'{BASE}/boards/{b["id"]}/'; d["indexable"] = indexable(b)
     p = prom(b); d["prominence"] = {"tier": p["tier"], "label": p["label"], "global_rank": p["g"] or None, "scope": p["scope"], "source": "Majestic Million (CC BY 3.0)", "list_date": RANK_DATE}
     d["tags"] = tags_of("board", b["id"])
+    d["connections"] = [{"relation": x["relation"], "from": x["from_name"], "from_id": x["from_id"], "to": x["to_name"], "to_id": x["to_id"], "source": x["source_url"], "quote": x["quote"]} for x in REL if b["id"] in (x["from_id"], x["to_id"])]
     d["review"] = REVIEWS.get(b["id"])
     d["owners"] = [{"id": h["owner_id"], "name": OWNERS[h["owner_id"]]["name"], "relation": h["relation"], "stake": h["stake"], "since": h["since"], "source": h["source_url"], "quote": h["quote"]} for h in HOLD_BY_BOARD.get(b["id"], []) if h["owner_id"] in OWNERS]
     d["scale"] = [{k: x[k] for k in ("metric", "value", "unit", "as_of", "url", "quote", "quote_check")} for x in SCALE.get(b["id"], [])]
@@ -537,6 +610,7 @@ def board_json(b):
     return d
 allj = [board_json(b) for b in boards]
 (OUT/"data"/"boards.json").write_text(json.dumps({"generated": TODAY, "count": len(allj), "boards": allj}, indent=1, ensure_ascii=False), encoding="utf-8")
+(OUT/"data"/"relationships.json").write_text(json.dumps({"generated": TODAY, "count": len(REL), "relationships": REL}, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/"data"/"taxonomy.json").write_text(json.dumps({"generated": TODAY, "tags": list(TAX.values())}, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/"data"/"owners.json").write_text(json.dumps({"generated": TODAY, "owners": [{**o, "profile": {k: {"value": f["value"], "source": f["source_url"], "quote": f["quote"]} for k, f in OWNER_FACTS.get(oid, {}).items()}, "holdings": [h for h in HOLD if h["owner_id"] == oid]} for oid, o in OWNERS.items()]}, indent=1, ensure_ascii=False), encoding="utf-8")
 for d in allj: (OUT/"data"/"boards"/f'{d["id"]}.json').write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
@@ -559,7 +633,7 @@ Notes for readers and models: facts are attributed to this directory and carry t
 ## Start here
 - [Directory home]({BASE}/): searchable table with filters for type, focus, API access, language and prominence
 - [Types of job sites, explained]({BASE}/tags/): definitions and lists for job boards, aggregators, ATS, staffing, outplacement and labour market information
-- [Largest job boards by web link popularity]({BASE}/rankings/)
+- [The hiring ecosystem map]({BASE}/ecosystem/): documented connections between ATS systems, distribution platforms and boards\n- [Largest job boards by web link popularity]({BASE}/rankings/)
 - [Who owns the job boards]({BASE}/owners/): parent companies with profiles and holdings
 - [Job boards by country]({BASE}/countries/)
 - [Methodology and how to cite]({BASE}/about/)
@@ -567,7 +641,7 @@ Notes for readers and models: facts are attributed to this directory and carry t
 ## Data
 - [All entries as JSON with sources]({BASE}/data/boards.json)
 - [Owners and holdings as JSON]({BASE}/data/owners.json)
-- [Taxonomy as JSON]({BASE}/data/taxonomy.json)
+- [Taxonomy as JSON]({BASE}/data/taxonomy.json)\n- [Documented connections as JSON]({BASE}/data/relationships.json)
 - [Entries as CSV]({BASE}/downloads/job_boards.csv)
 - [Sources as CSV]({BASE}/downloads/sources.csv)
 

@@ -2,6 +2,7 @@
  "id": "idealist",
  "name": "Idealist",
  "url": "https://www.idealist.org",
+ "domains": "",
  "type": "niche-board",
  "hq_country": "US",
  "founded": "",
@@ -41,6 +42,17 @@
  "tags": [
   "job-board",
   "nonprofit"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "Idealist",
+   "to_id": "idealist",
+   "source": "https://www.jazzhr.com/integrations",
+   "quote": "Idealist Join the world’s largest social-impact job board."
+  }
  ],
  "review": {
   "board_id": "idealist",

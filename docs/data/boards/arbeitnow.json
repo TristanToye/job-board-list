@@ -2,6 +2,7 @@
  "id": "arbeitnow",
  "name": "Arbeitnow",
  "url": "https://www.arbeitnow.com",
+ "domains": "",
  "type": "niche-board",
  "hq_country": "DE",
  "founded": "",
@@ -41,6 +42,17 @@
   "free-to-post",
   "job-board",
   "tech"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Greenhouse",
+   "from_id": "greenhouse",
+   "to": "Arbeitnow",
+   "to_id": "arbeitnow",
+   "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
+   "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+  }
  ],
  "review": null,
  "owners": [],

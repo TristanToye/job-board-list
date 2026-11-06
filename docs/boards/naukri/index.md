@@ -23,6 +23,8 @@ Naukri is a job board based in India. It was founded in 1997.
 
 **How large is Naukri?** Naukri ranks #14,987 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
+**Which platforms does Naukri connect to?** According to this directory, Naukri integrates with Pinpoint.
+
 ## Sources
 
 - [Wikipedia: Naukri.com](https://en.wikipedia.org/wiki/Naukri.com) (Existence and description, checked 2026-11-05): "Naukri.com is an Indian employment website which operates in India and the Middle East."
