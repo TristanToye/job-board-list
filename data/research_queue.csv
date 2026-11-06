@@ -272,3 +272,53 @@ Eluta,https://www.eluta.ca,ZZ,verification,No article found at Eluta (HTTP 404).
 Himalayas,https://himalayas.app,ZZ,verification,Himalayas article is about a mountain range; no job board article found.,2026-11-05
 Jobillico,https://www.jobillico.com,ZZ,verification,No article found at Jobillico (HTTP 404).,2026-11-05
 Jobs.ca,https://www.jobs.ca,ZZ,verification,No article found at Jobs.ca (HTTP 404).,2026-11-05
+ILOSTAT,https://ilostat.ilo.org/,ZZ,verification,HTTP 403 on two attempts,2026-11-06
+Jobs and Skills Australia,https://www.jobsandskills.gov.au/,ZZ,verification,HTTP 503 on two attempts,2026-11-06
+Cedefop,https://www.cedefop.europa.eu/en,ZZ,verification,HTTP 403,2026-11-06
+OECD employment,https://www.oecd.org/en/topics/employment.html,ZZ,verification,HTTP 403,2026-11-06
+Glassdoor economic research,https://www.glassdoor.com/research/,ZZ,verification,HTTP 403,2026-11-06
+CareerOneStop,https://www.careeronestop.org/,ZZ,verification,HTTP 403,2026-11-06
+Adzuna,https://www.adzuna.com/,ZZ,verification,HTTP 403,2026-11-06
+Eurofound,https://www.eurofound.europa.eu/en,ZZ,verification,HTTP 429,2026-11-06
+LinkedIn Economic Graph,https://pulse.linkedin.com/,ZZ,verification,"Redirected from economicgraph.linkedin.com; page says the Economic Graph is now named LinkedIn Pulse, and the quote does not describe a labour market data product",2026-11-06
+Stats NZ,https://www.stats.govt.nz/,ZZ,verification,"Home and About pages read, but only the page title was returned; no descriptive sentence to quote",2026-11-06
+Destatis (Federal Statistical Office Germany),https://www.destatis.de/EN/Home/_node.html,ZZ,verification,Page read; no complete descriptive sentence within quote rules,2026-11-06
+IAB (Institute for Employment Research),https://iab.de/en/,ZZ,verification,"Page read; only logo alt text describes it, no descriptive sentence",2026-11-06
+INSEE,https://www.insee.fr/en/accueil,ZZ,verification,Page read; only an activity fragment (Disseminating its statistics and studies) found,2026-11-06
+Statistics Netherlands (CBS),https://www.cbs.nl/en-gb,ZZ,verification,"Page read; no descriptive sentence found, only a tagline",2026-11-06
+Statistics Sweden (SCB),https://www.scb.se/en/,ZZ,verification,Page read; only a cookie notice sentence found,2026-11-06
+Statistics Denmark,https://www.dst.dk/en,ZZ,verification,"Page read; only a database-usage sentence found, not an organisation description",2026-11-06
+Central Statistics Office Ireland,https://www.cso.ie/en/,ZZ,verification,"Page read; only a trust statement found, not an organisation description",2026-11-06
+EURES,https://eures.europa.eu/index_en,ZZ,verification,"Page read; only a job listing sentence found, not an organisation description",2026-11-06
+MoSPI India,https://www.mospi.gov.in/,ZZ,verification,Page read; only the page title was returned,2026-11-06
+Ministry of Manpower Singapore,https://www.mom.gov.sg/,ZZ,verification,"Page read; only list fragments found, no descriptive sentence",2026-11-06
+Persol Holdings,https://www.persol-holdings.com,ZZ,verification,DNS error (getaddrinfo ENOTFOUND); host not resolvable from this session,2026-11-06
+TeamLease Services,https://www.teamlease.com,ZZ,verification,"HTTP 403 (retried once, same result)",2026-11-06
+Brexa Next,,ZZ,verification,Named in an SIA roundup of largest Japanese staffing firms but homepage not read,2026-11-06
+Upwork,https://www.upwork.com,ZZ,verification,HTTP 403 on two attempts,2026-11-06
+Fiverr,https://www.fiverr.com,ZZ,verification,HTTP 403 on two attempts,2026-11-06
+Malt,https://www.malt.com,ZZ,verification,HTTP 403 on two attempts,2026-11-06
+Workana,https://www.workana.com,ZZ,verification,HTTP 403 on two attempts,2026-11-06
+Guru,https://www.guru.com,ZZ,verification,HTTP 403,2026-11-06
+Bark,https://www.bark.com,ZZ,verification,HTTP 403 on two attempts,2026-11-06
+Lancers,https://www.lancers.jp,ZZ,verification,HTTP 405,2026-11-06
+Hired,https://hired.com,ZZ,verification,"Homepage redirects to another company's domain (lhh.com), which was not followed",2026-11-06
+HireRight,https://www.hireright.com,ZZ,verification,"Homepage and about page loaded without readable body text, so no quote could be taken",2026-11-06
+CrowdWorks,https://crowdworks.jp,ZZ,verification,Page returned an error message; only a header line was readable,2026-11-06
+Twago,https://www.twago.com,ZZ,verification,"Redirects to talent-pool.com, which was not followed",2026-11-06
+PeoplePerHour,https://www.peopleperhour.com,ZZ,verification,Homepage loaded with no readable content,2026-11-06
+Topcoder,https://www.topcoder.com,ZZ,verification,HTTP 404,2026-11-06
+DBM (Drake Beam Morris),https://www.dbm.com,ZZ,verification,HTTP 503 (two attempts),2026-11-06
+Zety,https://www.zety.com,ZZ,verification,HTTP 503 (two attempts),2026-11-06
+VisualCV,https://www.visualcv.com,ZZ,verification,HTTP 429,2026-11-06
+The Ladders,https://www.theladders.com,ZZ,verification,HTTP 403,2026-11-06
+ResumeSpice,https://www.resumespice.com,ZZ,verification,HTTP 403,2026-11-06
+Teal,https://www.tealhq.com,ZZ,verification,HTTP 403,2026-11-06
+CareerBuilder,https://www.careerbuilder.com,ZZ,verification,HTTP 403,2026-11-06
+Korn Ferry,https://www.kornferry.com,ZZ,verification,"Homepage read, but its quote describes general consulting; career transition offering not confirmed on that page",2026-11-06
+Partners International,https://www.partnersinternational.com,ZZ,verification,"Homepage read, but the quote does not say what it does; outplacement named only in a press release seen in search",2026-11-06
+Penna,https://www.penna.com,ZZ,verification,"Homepage read, but the quote does not describe outplacement; described on the page as an LHH brand",2026-11-06
+Aon,https://www.aon.com,ZZ,verification,"Homepage read, but the quote is general purpose; career transition or outplacement not confirmed on that page",2026-11-06
+Renovo,https://renovo.uk.com,ZZ,verification,Redirects to careerminds.co.uk; appears to be part of Careerminds per search results,2026-11-06
+Career Partners International,https://www.careerpartners.com,ZZ,verification,Domain redirects to a parked domain-for-sale page; homepage not confirmed,2026-11-06
+Persol Consulting (Asia-Pacific),,ZZ,verification,Named in a search roundup; the domain attempted failed DNS lookup and no homepage was confirmed,2026-11-06

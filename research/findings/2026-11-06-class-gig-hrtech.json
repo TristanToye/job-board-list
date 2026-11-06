@@ -1,0 +1,447 @@
+{
+ "mode": "discover",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Freelancer.com",
+   "url": "https://www.freelancer.com",
+   "type": "freelance-platform",
+   "niche": "general freelance and project marketplace",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.freelancer.com/",
+     "title": "Freelancer.com homepage",
+     "quote": "Hire the best freelancers for any job, online.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Toptal",
+   "url": "https://www.toptal.com",
+   "type": "freelance-platform",
+   "niche": "vetted freelance experts in tech, design and finance",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.toptal.com/",
+     "title": "Toptal homepage",
+     "quote": "Toptal solves complex business challenges with outcome-oriented services and solutions tailored to your needs.",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "Contra",
+   "url": "https://www.contra.com",
+   "type": "freelance-platform",
+   "niche": "commission-free creative and tech freelance network",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.contra.com/",
+     "title": "Contra homepage",
+     "quote": "Join the commission-free creative network, connecting you with the talent and tools to get work underway.",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Kwork",
+   "url": "https://www.kwork.com",
+   "type": "freelance-platform",
+   "niche": "freelance service marketplace",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kwork.com/",
+     "title": "Kwork homepage",
+     "quote": "Shop freelance services with confidence on Kwork.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "TaskRabbit",
+   "url": "https://www.taskrabbit.com",
+   "type": "freelance-platform",
+   "niche": "local on-demand task and errand marketplace",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.taskrabbit.com/",
+     "title": "TaskRabbit homepage",
+     "quote": "Choose a Tasker by price, skills, and reviews.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Braintrust",
+   "url": "https://www.usebraintrust.com",
+   "type": "freelance-platform",
+   "niche": "AI-powered talent network",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.usebraintrust.com/",
+     "title": "Braintrust homepage",
+     "quote": "The AI-powered talent network connecting top professionals with the world's leading companies.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "type": "freelance-platform",
+   "niche": "freelance design marketplace",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.99designs.com/",
+     "title": "99designs homepage",
+     "quote": "Logos, websites, packaging design and more.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "freelancermap",
+   "url": "https://www.freelancermap.com",
+   "type": "freelance-platform",
+   "niche": "freelance project and contractor marketplace",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.freelancermap.com/",
+     "title": "freelancermap homepage",
+     "quote": "We offer direct access to freelance opportunities without commission fees or middlemen.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Codeable",
+   "url": "https://codeable.io",
+   "type": "freelance-platform",
+   "niche": "WordPress freelance developer platform",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://codeable.io/",
+     "title": "Codeable homepage",
+     "quote": "Codeable is the only WordPress freelancer platform.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Lemon.io",
+   "url": "https://lemon.io",
+   "type": "freelance-platform",
+   "niche": "freelance developer marketplace",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://lemon.io/",
+     "title": "Lemon.io homepage",
+     "quote": "Lemon.io is a platform that connects businesses with top freelance developers.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "freelance.de",
+   "url": "https://www.freelance.de",
+   "type": "freelance-platform",
+   "niche": "freelancer and project platform for the DACH region",
+   "countries_served": [
+    "DE",
+    "AT",
+    "CH"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.freelance.de/",
+     "title": "freelance.de homepage",
+     "quote": "Mit mehr als 126.100+ aktuellen Freelancer-Profilen ist freelance.de die größte Plattform im DACH Raum.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Sterling",
+   "url": "https://www.sterlingcheck.com",
+   "type": "hr-tech",
+   "niche": "background screening",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.sterlingcheck.com/",
+     "title": "Sterling homepage",
+     "quote": "Order the same Sterling checks through First Advantage.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "HireVue",
+   "url": "https://www.hirevue.com",
+   "type": "hr-tech",
+   "niche": "video interviewing and skills assessment",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hirevue.com/",
+     "title": "HireVue homepage",
+     "quote": "AI hiring technology to reveal proven skills and capabilities",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Gem",
+   "url": "https://www.gem.com",
+   "type": "hr-tech",
+   "niche": "recruiting CRM and sourcing",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.gem.com/",
+     "title": "Gem homepage",
+     "quote": "Gem is the AI-first recruiting platform built for better outcomes, not more tools.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "SeekOut",
+   "url": "https://www.seekout.com",
+   "type": "hr-tech",
+   "niche": "talent sourcing and recruiting intelligence",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.seekout.com/",
+     "title": "SeekOut homepage",
+     "quote": "SeekOut brings recruiting intelligence inside the AI your company already approved.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Beamery",
+   "url": "https://beamery.com",
+   "type": "hr-tech",
+   "niche": "talent lifecycle and workforce intelligence",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://beamery.com/",
+     "title": "Beamery homepage",
+     "quote": "Connect talent strategy to business outcomes with real-time intelligence on people, skills, and tasks.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Checkr",
+   "url": "https://checkr.com",
+   "type": "hr-tech",
+   "niche": "background screening",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://checkr.com/",
+     "title": "Checkr homepage",
+     "quote": "Checkr combines AI with human experts to ensure your reports are accurate, fast, and compliant every time.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Criteria",
+   "url": "https://criteriacorp.com",
+   "type": "hr-tech",
+   "niche": "pre-employment assessment",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://criteriacorp.com/",
+     "title": "Criteria homepage",
+     "quote": "Criteria turns those signals into more confident hiring decisions.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "HackerRank",
+   "url": "https://www.hackerrank.com",
+   "type": "hr-tech",
+   "niche": "technical skills assessment for developer hiring",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hackerrank.com/",
+     "title": "HackerRank homepage",
+     "quote": "We help you hire the next-gen developers who combine strong engineering fundamentals with AI fluency & great taste.",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "type": "hr-tech",
+   "niche": "coding tests and technical interviews",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.codility.com/",
+     "title": "Codility homepage",
+     "quote": "Codility runs coding tests, real-world coding tasks and live technical interviews",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "type": "hr-tech",
+   "niche": "background screening technology",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://fadv.com/",
+     "title": "First Advantage homepage",
+     "quote": "Background screening technology designed to help you move faster, mitigate risk, and create a better experience.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "type": "hr-tech",
+   "niche": "talent intelligence and workforce planning",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://eightfold.ai/",
+     "title": "Eightfold AI homepage",
+     "quote": "The system of intelligence for workforce decisions.",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "Harver",
+   "url": "https://harver.com",
+   "type": "hr-tech",
+   "niche": "pre-employment assessment for high-volume hiring",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://harver.com/",
+     "title": "Harver homepage",
+     "quote": "Harver helps the leading BPOs, contact centers, and retail organizations across the globe find quality talent quickly.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Upwork",
+   "url": "https://www.upwork.com",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Fiverr",
+   "url": "https://www.fiverr.com",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Malt",
+   "url": "https://www.malt.com",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Workana",
+   "url": "https://www.workana.com",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Guru",
+   "url": "https://www.guru.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Bark",
+   "url": "https://www.bark.com",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Lancers",
+   "url": "https://www.lancers.jp",
+   "reason": "HTTP 405"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Hired",
+   "url": "https://hired.com",
+   "reason": "Homepage redirects to another company's domain (lhh.com), which was not followed"
+  },
+  {
+   "name": "HireRight",
+   "url": "https://www.hireright.com",
+   "reason": "Homepage and about page loaded without readable body text, so no quote could be taken"
+  },
+  {
+   "name": "CrowdWorks",
+   "url": "https://crowdworks.jp",
+   "reason": "Page returned an error message; only a header line was readable"
+  },
+  {
+   "name": "Twago",
+   "url": "https://www.twago.com",
+   "reason": "Redirects to talent-pool.com, which was not followed"
+  },
+  {
+   "name": "PeoplePerHour",
+   "url": "https://www.peopleperhour.com",
+   "reason": "Homepage loaded with no readable content"
+  },
+  {
+   "name": "Topcoder",
+   "url": "https://www.topcoder.com",
+   "reason": "HTTP 404"
+  }
+ ]
+}

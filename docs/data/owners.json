@@ -6,6 +6,23 @@
    "name": "SEEK Limited",
    "url": "https://www.seek.com.au",
    "country": "AU",
+   "profile": {
+    "hq_city": {
+     "value": "Melbourne",
+     "source": "https://en.wikipedia.org/wiki/Seek_Limited",
+     "quote": "is an Australian employment website for job listings, headquartered in Melbourne, Victoria"
+    },
+    "hq_country": {
+     "value": "AU",
+     "source": "https://en.wikipedia.org/wiki/Seek_Limited",
+     "quote": "is an Australian employment website for job listings, headquartered in Melbourne, Victoria"
+    },
+    "listing": {
+     "value": "Australian Securities Exchange",
+     "source": "https://en.wikipedia.org/wiki/Seek_Limited",
+     "quote": "SEEK was floated on the Australian Securities Exchange"
+    }
+   },
    "holdings": [
     {
      "owner_id": "seek",
@@ -59,6 +76,43 @@
    "name": "Info Edge (India) Ltd",
    "url": "https://www.infoedge.in",
    "country": "IN",
+   "profile": {
+    "description": {
+     "value": "Info Edge is India’s premier online classifieds company in recruitment, matrimony, real estate, education and related services.",
+     "source": "https://www.infoedge.in",
+     "quote": "Info Edge is India’s premier online classifieds company in recruitment, matrimony, real estate, education and related services."
+    },
+    "hq_city": {
+     "value": "Noida",
+     "source": "https://www.infoedge.in",
+     "quote": "Corporate Office Info Edge (India) Limited B - 8, Sector - 132 Noida - 201304 India"
+    },
+    "hq_country": {
+     "value": "IN",
+     "source": "https://www.infoedge.in",
+     "quote": "Corporate Office Info Edge (India) Limited B - 8, Sector - 132 Noida - 201304 India"
+    },
+    "founded": {
+     "value": "1995",
+     "source": "https://en.wikipedia.org/wiki/Info_Edge",
+     "quote": "in 1995, initially reproducing classified ads from newspapers on its website"
+    },
+    "listing": {
+     "value": "Public, ticker symbol Naukri",
+     "source": "https://en.wikipedia.org/wiki/Info_Edge",
+     "quote": "Info Edge went public in 2006 under the ticker symbol \"Naukri\"."
+    },
+    "employees": {
+     "value": "4,049 (2022)",
+     "source": "https://en.wikipedia.org/wiki/Info_Edge",
+     "quote": "Number of employees 4,049 (2022)"
+    },
+    "revenue": {
+     "value": "INR 2,654 crore (FY25)",
+     "source": "https://en.wikipedia.org/wiki/Info_Edge",
+     "quote": "₹ 2,654 crore (US$280 million) (FY25)"
+    }
+   },
    "holdings": [
     {
      "owner_id": "info-edge-india",
@@ -127,6 +181,7 @@
    "name": "The Stepstone Group",
    "url": "https://www.thestepstonegroup.com",
    "country": "",
+   "profile": {},
    "holdings": []
   },
   {
@@ -134,6 +189,38 @@
    "name": "Randstad N.V.",
    "url": "https://www.randstad.com",
    "country": "NL",
+   "profile": {
+    "description": {
+     "value": "Randstad is the world’s leading talent company and a partner of choice to clients.",
+     "source": "https://www.randstad.com",
+     "quote": "Randstad is the world’s leading talent company and a partner of choice to clients."
+    },
+    "hq_city": {
+     "value": "Diemen",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "Dutch multinational human resource consulting firm headquartered in Diemen, Netherlands"
+    },
+    "hq_country": {
+     "value": "NL",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "Dutch multinational human resource consulting firm headquartered in Diemen, Netherlands"
+    },
+    "founded": {
+     "value": "1960",
+     "source": "https://www.randstad.com",
+     "quote": "From our start in 1960 to becoming the world’s leading talent company"
+    },
+    "listing": {
+     "value": "Euronext Amsterdam: RAND",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "Euronext Amsterdam: RAND AEX component"
+    },
+    "revenue": {
+     "value": "EUR 24.122 billion (FY2024)",
+     "source": "https://en.wikipedia.org/wiki/Randstad_Holding",
+     "quote": "Revenue €24.122 billion (2024)"
+    }
+   },
    "holdings": [
     {
      "owner_id": "randstad",
@@ -277,6 +364,43 @@
    "name": "Recruit Holdings Co., Ltd.",
    "url": "https://recruit-holdings.com",
    "country": "JP",
+   "profile": {
+    "description": {
+     "value": "Recruit Group is a global technology company transforming the world of work.",
+     "source": "https://recruit-holdings.com/en/",
+     "quote": "Recruit Group is a global technology company transforming the world of work."
+    },
+    "hq_city": {
+     "value": "Tokyo",
+     "source": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+     "quote": "holding company headquartered in Tokyo, Japan."
+    },
+    "hq_country": {
+     "value": "JP",
+     "source": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+     "quote": "holding company headquartered in Tokyo, Japan."
+    },
+    "founded": {
+     "value": "1960",
+     "source": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+     "quote": "was founded in 1960"
+    },
+    "listing": {
+     "value": "Tokyo Stock Exchange",
+     "source": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+     "quote": "The company is listed on the Tokyo Stock Exchange"
+    },
+    "employees": {
+     "value": "49,480 (as of March 31, 2025)",
+     "source": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+     "quote": "49,480 (group) (as of March 31, 2025)"
+    },
+    "revenue": {
+     "value": "3.69 trillion JPY (FY2025)",
+     "source": "https://recruit-holdings.com/en/",
+     "quote": "3.69 Trillion Yen (FY2025) Revenue"
+    }
+   },
    "holdings": [
     {
      "owner_id": "recruit",
@@ -570,6 +694,7 @@
    "name": "Adevinta",
    "url": "https://www.adevinta.com",
    "country": "",
+   "profile": {},
    "holdings": []
   },
   {
@@ -577,6 +702,18 @@
    "name": "BOLD Holdings",
    "url": "https://www.bold.com",
    "country": "",
+   "profile": {
+    "description": {
+     "value": "Today, we’re proud to be the largest global career technology company",
+     "source": "https://www.bold.com/about/",
+     "quote": "Today, we’re proud to be the largest global career technology company"
+    },
+    "hq_city": {
+     "value": "Guaynabo",
+     "source": "https://www.bold.com/about/",
+     "quote": "As BOLD’s headquarters, our dynamic workspace in Guaynabo, Puerto Rico, is the hub of our operations."
+    }
+   },
    "holdings": [
     {
      "owner_id": "bold",
@@ -720,6 +857,7 @@
    "name": "DHI Group",
    "url": "https://www.dhigroupinc.com",
    "country": "",
+   "profile": {},
    "holdings": [
     {
      "owner_id": "dhi",

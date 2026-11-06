@@ -1,0 +1,373 @@
+{
+ "mode": "discover",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "U.S. Bureau of Labor Statistics",
+   "url": "https://www.bls.gov",
+   "type": "lmi",
+   "niche": "national labour market statistics agency",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.bls.gov/",
+     "title": "U.S. Bureau of Labor Statistics home page",
+     "quote": "BLS offers many types of data for regions, states and local areas.",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat",
+   "type": "lmi",
+   "niche": "European Union statistical office, labour market statistics",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://ec.europa.eu/eurostat",
+     "title": "Eurostat home page",
+     "quote": "The home of high-quality statistics and data on Europe",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Statistics Canada",
+   "url": "https://www.statcan.gc.ca",
+   "type": "lmi",
+   "niche": "national statistical office, labour force statistics",
+   "countries_served": [
+    "CA"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.statcan.gc.ca/en/start",
+     "title": "Statistics Canada home page",
+     "quote": "Statistics Canada is the national statistical office.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "type": "lmi",
+   "niche": "UK national statistical institute, labour market statistics",
+   "countries_served": [
+    "GB"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.ons.gov.uk/",
+     "title": "Office for National Statistics home page",
+     "quote": "Watch our video to find out how we at the Office for National Statistics (ONS) collect and use data to produce statistics.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "type": "lmi",
+   "niche": "occupation database and job analysis",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.onetonline.org/",
+     "title": "O*NET OnLine home page",
+     "quote": "Welcome to your tool for career exploration and job analysis!",
+     "check": "ok"
+    },
+    {
+     "field": "countries_served",
+     "url": "https://www.onetcenter.org/",
+     "title": "O*NET Resource Center home page",
+     "quote": "sponsored by the U.S. Department of Labor",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "type": "lmi",
+   "niche": "labour market analytics",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://lightcast.io/",
+     "title": "Lightcast home page",
+     "quote": "Lightcast delivers trusted intelligence so leaders can make smarter decisions.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Indeed Hiring Lab",
+   "url": "https://hiringlab.indeed.com",
+   "type": "lmi",
+   "niche": "labour market research and hiring data",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://hiringlab.indeed.com/about",
+     "title": "Indeed Hiring Lab about page",
+     "quote": "All data used by Hiring Lab are anonymized and aggregated to show broad trends across Indeed's 60 worldwide labor markets.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "type": "lmi",
+   "niche": "workforce analytics",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.reveliolabs.com/",
+     "title": "Revelio Labs home page",
+     "quote": "Track companies, analyze markets, and discover talent, all in one place.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "type": "lmi",
+   "niche": "UK labour market statistics service",
+   "countries_served": [
+    "GB"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.nomisweb.co.uk/",
+     "title": "Nomis home page",
+     "quote": "we publish statistics related to population, society and the labour market",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Job Bank",
+   "url": "https://www.jobbank.gc.ca",
+   "type": "lmi",
+   "niche": "Canadian government job board and labour market information",
+   "countries_served": [
+    "CA"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobbank.gc.ca/",
+     "title": "Job Bank home page",
+     "quote": "Helping Canadians connect to jobs, workers, and training.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "type": "lmi",
+   "niche": "national statistical agency",
+   "countries_served": [
+    "AU"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.abs.gov.au/about",
+     "title": "About the ABS",
+     "quote": "We are Australia's national statistical agency and an official source of independent, reliable information.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Statistics Austria",
+   "url": "https://www.statistik.at",
+   "type": "lmi",
+   "niche": "national statistical office",
+   "countries_served": [
+    "AT"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.statistik.at/en",
+     "title": "Statistics Austria home page",
+     "quote": "Independent statistics for evidence-based decision making",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Japan Institute for Labour Policy and Training",
+   "url": "https://www.jil.go.jp/english/",
+   "type": "lmi",
+   "niche": "labour policy research institute",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jil.go.jp/english/",
+     "title": "JILPT English home page",
+     "quote": "JILPT conducts comprehensive researches on labor issues and policies, both domestically and internationally",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Textkernel",
+   "url": "https://www.textkernel.com",
+   "type": "lmi",
+   "niche": "real-time private and labour market data",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.textkernel.com/",
+     "title": "Textkernel home page",
+     "quote": "Structured real-time private and labor market data for 15 key markets in North America, Europe, and APAC.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Burning Glass Institute",
+   "url": "https://www.burningglassinstitute.org",
+   "type": "lmi",
+   "niche": "labour market research",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.burningglassinstitute.org/",
+     "title": "Burning Glass Institute home page",
+     "quote": "We are a nonprofit research and action lab building pathways to opportunity.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "ILOSTAT",
+   "url": "https://ilostat.ilo.org/",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Jobs and Skills Australia",
+   "url": "https://www.jobsandskills.gov.au/",
+   "reason": "HTTP 503 on two attempts"
+  },
+  {
+   "name": "Cedefop",
+   "url": "https://www.cedefop.europa.eu/en",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "OECD employment",
+   "url": "https://www.oecd.org/en/topics/employment.html",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Glassdoor economic research",
+   "url": "https://www.glassdoor.com/research/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "CareerOneStop",
+   "url": "https://www.careeronestop.org/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Adzuna",
+   "url": "https://www.adzuna.com/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Eurofound",
+   "url": "https://www.eurofound.europa.eu/en",
+   "reason": "HTTP 429"
+  }
+ ],
+ "queue": [
+  {
+   "name": "LinkedIn Economic Graph",
+   "url": "https://pulse.linkedin.com/",
+   "reason": "Redirected from economicgraph.linkedin.com; page says the Economic Graph is now named LinkedIn Pulse, and the quote does not describe a labour market data product"
+  },
+  {
+   "name": "Stats NZ",
+   "url": "https://www.stats.govt.nz/",
+   "reason": "Home and About pages read, but only the page title was returned; no descriptive sentence to quote"
+  },
+  {
+   "name": "Destatis (Federal Statistical Office Germany)",
+   "url": "https://www.destatis.de/EN/Home/_node.html",
+   "reason": "Page read; no complete descriptive sentence within quote rules"
+  },
+  {
+   "name": "IAB (Institute for Employment Research)",
+   "url": "https://iab.de/en/",
+   "reason": "Page read; only logo alt text describes it, no descriptive sentence"
+  },
+  {
+   "name": "INSEE",
+   "url": "https://www.insee.fr/en/accueil",
+   "reason": "Page read; only an activity fragment (Disseminating its statistics and studies) found"
+  },
+  {
+   "name": "Statistics Netherlands (CBS)",
+   "url": "https://www.cbs.nl/en-gb",
+   "reason": "Page read; no descriptive sentence found, only a tagline"
+  },
+  {
+   "name": "Statistics Sweden (SCB)",
+   "url": "https://www.scb.se/en/",
+   "reason": "Page read; only a cookie notice sentence found"
+  },
+  {
+   "name": "Statistics Denmark",
+   "url": "https://www.dst.dk/en",
+   "reason": "Page read; only a database-usage sentence found, not an organisation description"
+  },
+  {
+   "name": "Central Statistics Office Ireland",
+   "url": "https://www.cso.ie/en/",
+   "reason": "Page read; only a trust statement found, not an organisation description"
+  },
+  {
+   "name": "EURES",
+   "url": "https://eures.europa.eu/index_en",
+   "reason": "Page read; only a job listing sentence found, not an organisation description"
+  },
+  {
+   "name": "MoSPI India",
+   "url": "https://www.mospi.gov.in/",
+   "reason": "Page read; only the page title was returned"
+  },
+  {
+   "name": "Ministry of Manpower Singapore",
+   "url": "https://www.mom.gov.sg/",
+   "reason": "Page read; only list fragments found, no descriptive sentence"
+  }
+ ]
+}

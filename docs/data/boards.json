@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-06",
- "count": 239,
+ "count": 307,
  "boards": [
   {
    "id": "indeed",
@@ -12,7 +12,8 @@
    "markets": "60+ countries",
    "countries_served": [
     "CA",
-    "US"
+    "US",
+    "ZZ"
    ],
    "primary_language": "en",
    "languages_supported": [
@@ -49,7 +50,7 @@
     "crawl"
    ],
    "notes": "Legacy Publisher API retired; integrations now via partner program. Official pages returned HTTP 403 to automated fetch on 2026-11-05, so developer and partner details are unverified.",
-   "confidence": "secondary-sourced",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/indeed/",
    "indexable": true,
    "prominence": {
@@ -60,6 +61,18 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "apply-integration",
+    "ats-integration",
+    "crawl-sourced",
+    "general",
+    "job-aggregator",
+    "job-board",
+    "partner-program",
+    "pay-per-click",
+    "xml-feed"
+   ],
    "owners": [
     {
      "id": "recruit",
@@ -112,6 +125,14 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "existence",
+     "url": "https://hiringlab.indeed.com/about",
+     "title": "Indeed Hiring Lab about page",
+     "accessed": "2026-11-06",
+     "quote": "All data used by Hiring Lab are anonymized and aggregated to show broad trends across Indeed's 60 worldwide labor markets.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -196,6 +217,17 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "apply-integration",
+    "ats-integration",
+    "general",
+    "job-board",
+    "partner-program",
+    "pay-per-click",
+    "professional-network",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -310,6 +342,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-open",
+    "free-to-post",
+    "general",
+    "job-aggregator"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -366,6 +404,17 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "ats-integration",
+    "general",
+    "job-aggregator",
+    "job-board",
+    "partner-program",
+    "pay-per-click",
+    "subscription",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -441,6 +490,14 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "employer-reviews",
+    "general",
+    "job-board",
+    "partner-program",
+    "pay-per-click"
+   ],
    "owners": [
     {
      "id": "recruit",
@@ -532,6 +589,14 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription",
+    "xml-feed"
+   ],
    "owners": [
     {
      "id": "randstad",
@@ -634,6 +699,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [
     {
      "id": "bold",
@@ -725,6 +795,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-aggregator",
+    "pay-per-click"
+   ],
    "owners": [
     {
      "id": "recruit",
@@ -796,6 +871,15 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "job-board",
+    "partner-program",
+    "pay-per-post",
+    "subscription",
+    "tech",
+    "xml-feed"
+   ],
    "owners": [
     {
      "id": "dhi",
@@ -913,6 +997,14 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-self-serve",
+    "free-to-post",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -992,6 +1084,17 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-on-request",
+    "free-to-post",
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "partner-program",
+    "public-sector",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [
     {
@@ -1105,6 +1208,16 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "ats-integration",
+    "crawl-sourced",
+    "general",
+    "job-aggregator",
+    "partner-program",
+    "pay-per-click",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [
     {
@@ -1234,6 +1347,15 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-self-serve",
+    "crawl-sourced",
+    "general",
+    "job-aggregator",
+    "partner-program",
+    "pay-per-click",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -1325,6 +1447,16 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-on-request",
+    "ats-integration",
+    "crawl-sourced",
+    "general",
+    "job-aggregator",
+    "partner-program",
+    "pay-per-click",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -1449,6 +1581,15 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-self-serve",
+    "crawl-sourced",
+    "general",
+    "job-aggregator",
+    "partner-program",
+    "pay-per-click",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -1514,6 +1655,14 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "crawl-sourced",
+    "general",
+    "job-aggregator",
+    "partner-program",
+    "pay-per-click",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -1556,6 +1705,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-self-serve",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -1638,6 +1794,14 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -1682,6 +1846,14 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -1761,6 +1933,14 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-distribution",
+    "partner-program",
+    "pay-per-click",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -1807,6 +1987,15 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "partner-program",
+    "pay-per-post",
+    "subscription",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -1875,6 +2064,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "job-board",
+    "partner-program",
+    "professional-network",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -1943,6 +2139,15 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-self-serve",
+    "free-to-post",
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -1993,6 +2198,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-open",
+    "free-to-post",
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -2035,6 +2246,15 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-self-serve",
+    "free-to-post",
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -2096,6 +2316,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "job-board",
+    "startup",
+    "subscription",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -2171,6 +2398,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -2230,6 +2464,15 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-open",
+    "free-to-post",
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -2271,6 +2514,15 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-self-serve",
+    "free-to-post",
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -2311,6 +2563,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -2363,6 +2621,14 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -2421,6 +2687,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -2462,6 +2735,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -2504,6 +2784,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-self-serve",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -2558,6 +2845,15 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "apply-integration",
+    "ats-integration",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -2622,6 +2918,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -2689,6 +2992,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "partner-program",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -2727,6 +3037,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -2782,6 +3098,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -2823,6 +3144,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "freemium",
+    "job-board",
+    "pay-per-click",
+    "trades-labour"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -2872,6 +3199,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -2919,6 +3251,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -2957,6 +3294,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -3004,6 +3346,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board",
+    "subscription"
+   ],
    "owners": [
     {
      "id": "recruit",
@@ -3061,6 +3408,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3101,6 +3453,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-self-serve",
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3139,6 +3497,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3179,6 +3542,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "subscription",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3217,6 +3585,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3265,6 +3638,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -3320,6 +3698,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3359,6 +3742,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3399,6 +3787,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -3470,6 +3863,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3508,6 +3906,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3546,6 +3949,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3585,6 +3993,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "freemium",
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3623,6 +4037,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3661,6 +4080,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3699,6 +4123,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3739,6 +4168,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -3788,6 +4222,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "free-to-post",
+    "job-board",
+    "startup"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -3861,6 +4300,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-open",
+    "job-board",
+    "remote"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3901,6 +4345,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-open",
+    "job-board",
+    "remote"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3941,6 +4390,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-open",
+    "job-board",
+    "remote"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3981,6 +4435,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-open",
+    "job-board",
+    "remote"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -3993,7 +4452,9 @@
    "hq_country": "US",
    "founded": "2011",
    "markets": "US",
-   "countries_served": [],
+   "countries_served": [
+    "ZZ"
+   ],
    "primary_language": "en",
    "languages_supported": [
     "en"
@@ -4010,7 +4471,7 @@
     "REST API"
    ],
    "notes": "",
-   "confidence": "secondary-sourced",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/themuse/",
    "indexable": true,
    "prominence": {
@@ -4021,6 +4482,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-self-serve",
+    "graduates-students",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -4030,6 +4497,14 @@
      "title": "Wikipedia: The Muse (website)",
      "accessed": "2026-11-05",
      "quote": "The Muse (formerly known as The Daily Muse) is a New York City-based online career platform founded in 2011",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.themuse.com/",
+     "title": "The Muse",
+     "accessed": "2026-11-06",
+     "quote": "Get expert advice for every life stage and experience level.",
      "quote_check": "ok"
     }
    ]
@@ -4072,6 +4547,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "graduates-students",
+    "job-board",
+    "partner-program",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -4130,6 +4612,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "nonprofit"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -4177,6 +4663,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "education",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -4217,6 +4707,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-open",
+    "community",
+    "free-to-post",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -4255,6 +4751,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "free-to-post",
+    "job-board",
+    "startup"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -4296,6 +4797,14 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-distribution",
+    "partner-program",
+    "pay-per-click",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -4337,6 +4846,14 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-distribution",
+    "partner-program",
+    "pay-per-click",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -4378,6 +4895,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-distribution",
+    "partner-program",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -4418,6 +4942,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-distribution",
+    "partner-program",
+    "pay-per-click"
+   ],
    "owners": [],
    "scale": [],
    "sources": []
@@ -4462,6 +4993,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-partner-only",
+    "general",
+    "job-board",
+    "subscription",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -4549,6 +5087,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "subscription",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [
     {
@@ -4646,6 +5190,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "subscription",
+    "tech",
+    "xml-feed"
+   ],
    "owners": [],
    "scale": [
     {
@@ -4733,6 +5283,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "nonprofit",
+    "pay-per-post",
+    "subscription"
+   ],
    "owners": [],
    "scale": [
     {
@@ -4810,6 +5366,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "indigenous",
+    "job-board",
+    "pay-per-post"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -4877,6 +5438,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "free-to-post",
+    "job-board",
+    "nonprofit",
+    "nonprofit-operated"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -4907,7 +5474,8 @@
    "founded": "",
    "markets": "CA",
    "countries_served": [
-    "CA"
+    "CA",
+    "ZZ"
    ],
    "primary_language": "en",
    "languages_supported": [
@@ -4937,6 +5505,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-funded",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -4963,6 +5538,22 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.statcan.gc.ca/en/start",
+     "title": "Statistics Canada home page",
+     "accessed": "2026-11-06",
+     "quote": "Statistics Canada is the national statistical office.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.jobbank.gc.ca/",
+     "title": "Job Bank home page",
+     "accessed": "2026-11-06",
+     "quote": "Helping Canadians connect to jobs, workers, and training.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -5005,6 +5596,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-funded",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5056,6 +5654,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-funded",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5106,6 +5711,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5155,6 +5764,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5220,6 +5833,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-aggregator"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5269,6 +5886,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [
     {
      "id": "recruit",
@@ -5344,6 +5965,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5393,6 +6018,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "agriculture-food",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5442,6 +6071,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "agriculture-food",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5491,6 +6124,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5540,6 +6177,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "education",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5589,6 +6230,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5638,6 +6282,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5687,6 +6334,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5736,6 +6389,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5785,6 +6442,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "creative-media",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5834,6 +6495,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "creative-media",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5883,6 +6548,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "education",
+    "job-board",
+    "teaching-esl"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5932,6 +6602,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-aggregator"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -5981,6 +6655,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "indigenous",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6030,6 +6708,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "directory"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6079,6 +6760,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6128,6 +6813,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "sport"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6177,6 +6866,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "education",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6224,6 +6917,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "education",
+    "job-board",
+    "teaching-esl"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6273,6 +6971,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "environment",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6320,6 +7022,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6369,6 +7075,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6416,6 +7126,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6463,6 +7179,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6510,6 +7230,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6565,6 +7289,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6620,6 +7348,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "healthcare",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6667,6 +7399,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "nonprofit"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6714,6 +7450,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6761,6 +7504,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6808,6 +7558,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6855,6 +7609,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6910,6 +7668,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "pay-per-post",
+    "trades-labour"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -6973,6 +7736,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "nonprofit"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7036,6 +7803,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7099,6 +7873,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "free-to-post",
+    "graduates-students",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7162,6 +7941,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7209,6 +7991,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-on-request",
+    "job-board",
+    "subscription",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7272,6 +8060,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7319,6 +8111,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7366,6 +8162,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-aggregator",
+    "pay-per-post",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7424,6 +8226,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "pay-per-post",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7489,6 +8296,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "freemium",
+    "general",
+    "job-board",
+    "subscription"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7578,6 +8391,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "api-on-request",
+    "general",
+    "job-aggregator",
+    "partner-program"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7657,6 +8476,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "healthcare",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7704,6 +8527,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7751,6 +8578,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7798,6 +8629,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7845,6 +8680,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "executive",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7894,6 +8733,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7941,6 +8784,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -7988,6 +8835,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8035,6 +8888,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8082,6 +8939,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8129,6 +8990,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8176,6 +9041,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8223,6 +9092,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8270,6 +9145,12 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8317,6 +9198,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8364,6 +9249,11 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board",
+    "professional-network"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8411,6 +9301,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8458,6 +9352,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8505,6 +9403,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8552,6 +9453,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8599,6 +9503,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8646,6 +9554,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8693,6 +9608,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8740,6 +9659,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8787,6 +9710,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8834,6 +9761,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "diversity-inclusion",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8881,6 +9812,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8928,6 +9863,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -8975,6 +9914,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-aggregator"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9022,6 +9965,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9069,6 +10016,13 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9116,6 +10070,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9163,6 +10121,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "education",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9210,6 +10172,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "public-sector"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9257,6 +10223,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9304,6 +10274,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "healthcare",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9351,6 +10325,10 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "hospitality-tourism",
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9396,6 +10374,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9443,6 +10424,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9490,6 +10474,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9537,6 +10524,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9584,6 +10574,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9631,6 +10624,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9678,6 +10674,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9723,6 +10722,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9770,6 +10772,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9815,6 +10820,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9862,6 +10870,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9909,6 +10920,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -9954,6 +10968,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10001,6 +11018,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10048,6 +11068,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10093,6 +11116,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10140,6 +11166,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10185,6 +11214,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10230,6 +11262,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10277,6 +11312,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10322,6 +11360,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10369,6 +11410,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10414,6 +11458,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10461,6 +11508,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10506,6 +11556,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10553,6 +11606,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10598,6 +11654,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10645,6 +11704,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10690,6 +11752,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10737,6 +11802,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10784,6 +11852,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10831,6 +11902,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10878,6 +11952,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10925,6 +12002,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -10972,6 +12052,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11019,6 +12102,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11066,6 +12152,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11113,6 +12202,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11158,6 +12250,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11205,6 +12300,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11252,6 +12350,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11299,6 +12400,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11346,6 +12450,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11393,6 +12500,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11440,6 +12550,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11485,6 +12598,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11532,6 +12648,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11579,6 +12698,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11626,6 +12748,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11673,6 +12798,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11720,6 +12848,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11767,6 +12898,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11814,6 +12948,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11861,6 +12998,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11908,6 +13048,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -11953,6 +13096,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12000,6 +13146,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12047,6 +13196,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12094,6 +13246,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12141,6 +13296,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12188,6 +13346,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12233,6 +13394,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12278,6 +13442,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12323,6 +13490,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12370,6 +13540,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12417,6 +13590,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12462,6 +13638,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12507,6 +13686,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12554,6 +13736,9 @@
     "source": "Majestic Million (CC BY 3.0)",
     "list_date": "2026-11-06"
    },
+   "tags": [
+    "job-board"
+   ],
    "owners": [],
    "scale": [],
    "sources": [
@@ -12564,6 +13749,3444 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    }
+   ]
+  },
+  {
+   "id": "u-s-bureau-of-labor-statistics",
+   "name": "U.S. Bureau of Labor Statistics",
+   "url": "https://www.bls.gov",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "US",
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "North America",
+   "niche": "national labour market statistics agency",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Major",
+    "label": "Major",
+    "global_rank": 455,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi",
+    "trades-labour"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.bls.gov/",
+     "title": "U.S. Bureau of Labor Statistics home page",
+     "accessed": "2026-11-06",
+     "quote": "BLS offers many types of data for regions, states and local areas.",
+     "quote_check": "unreachable"
+    }
+   ]
+  },
+  {
+   "id": "eurostat",
+   "name": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "European Union statistical office, labour market statistics",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/eurostat/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 37,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi",
+    "trades-labour"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://ec.europa.eu/eurostat",
+     "title": "Eurostat home page",
+     "accessed": "2026-11-06",
+     "quote": "The home of high-quality statistics and data on Europe",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "office-for-national-statistics",
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "UK",
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "UK national statistical institute, labour market statistics",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/office-for-national-statistics/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 1433,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi",
+    "trades-labour"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.ons.gov.uk/",
+     "title": "Office for National Statistics home page",
+     "accessed": "2026-11-06",
+     "quote": "Watch our video to find out how we at the Office for National Statistics (ONS) collect and use data to produce statistics.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "o-net",
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "US",
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "North America",
+   "niche": "occupation database and job analysis",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/o-net/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 8445,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.onetonline.org/",
+     "title": "O*NET OnLine home page",
+     "accessed": "2026-11-06",
+     "quote": "Welcome to your tool for career exploration and job analysis!",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "lightcast",
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "labour market analytics",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/lightcast/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 41852,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi",
+    "trades-labour"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://lightcast.io/",
+     "title": "Lightcast home page",
+     "accessed": "2026-11-06",
+     "quote": "Lightcast delivers trusted intelligence so leaders can make smarter decisions.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "revelio-labs",
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "workforce analytics",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/revelio-labs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 81358,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.reveliolabs.com/",
+     "title": "Revelio Labs home page",
+     "accessed": "2026-11-06",
+     "quote": "Track companies, analyze markets, and discover talent, all in one place.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "nomis",
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "UK",
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "UK labour market statistics service",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/nomis/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 63671,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi",
+    "trades-labour"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.nomisweb.co.uk/",
+     "title": "Nomis home page",
+     "accessed": "2026-11-06",
+     "quote": "we publish statistics related to population, society and the labour market",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "australian-bureau-of-statistics",
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AU",
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "APAC",
+   "niche": "national statistical agency",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/australian-bureau-of-statistics/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 3629,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.abs.gov.au/about",
+     "title": "About the ABS",
+     "accessed": "2026-11-06",
+     "quote": "We are Australia's national statistical agency and an official source of independent, reliable information.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "statistics-austria",
+   "name": "Statistics Austria",
+   "url": "https://www.statistik.at",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AT",
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "national statistical office",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/statistics-austria/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 14037,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.statistik.at/en",
+     "title": "Statistics Austria home page",
+     "accessed": "2026-11-06",
+     "quote": "Independent statistics for evidence-based decision making",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "japan-institute-for-labour-policy-and-training",
+   "name": "Japan Institute for Labour Policy and Training",
+   "url": "https://www.jil.go.jp/english/",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "labour policy research institute",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/japan-institute-for-labour-policy-and-training/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi",
+    "trades-labour"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jil.go.jp/english/",
+     "title": "JILPT English home page",
+     "accessed": "2026-11-06",
+     "quote": "JILPT conducts comprehensive researches on labor issues and policies, both domestically and internationally",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "textkernel",
+   "name": "Textkernel",
+   "url": "https://www.textkernel.com",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "real-time private and labour market data",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/textkernel/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 316521,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi",
+    "trades-labour"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.textkernel.com/",
+     "title": "Textkernel home page",
+     "accessed": "2026-11-06",
+     "quote": "Structured real-time private and labor market data for 15 key markets in North America, Europe, and APAC.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "burning-glass-institute",
+   "name": "Burning Glass Institute",
+   "url": "https://www.burningglassinstitute.org",
+   "type": "lmi",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "labour market research",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/burning-glass-institute/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 161331,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "lmi",
+    "trades-labour"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.burningglassinstitute.org/",
+     "title": "Burning Glass Institute home page",
+     "accessed": "2026-11-06",
+     "quote": "We are a nonprofit research and action lab building pathways to opportunity.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "randstad",
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "general and specialist staffing and talent services",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/randstad/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 22715,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "general",
+    "staffing"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.randstad.com/",
+     "title": "Randstad",
+     "accessed": "2026-11-06",
+     "quote": "Randstad is the world’s leading talent company and a partner of choice to clients.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "the-adecco-group",
+   "name": "The Adecco Group",
+   "url": "https://www.adecco.com",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "talent, technology and advisory services",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/the-adecco-group/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 4756,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing",
+    "tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.adecco.com/",
+     "title": "Adecco Group",
+     "accessed": "2026-11-06",
+     "quote": "We are part of The Adecco Group, the world's leading talent, technology and advisory company",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "manpowergroup",
+   "name": "ManpowerGroup",
+   "url": "https://www.manpowergroup.com",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "workforce solutions and staffing",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/manpowergroup/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 19373,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.manpowergroup.com/",
+     "title": "ManpowerGroup",
+     "accessed": "2026-11-06",
+     "quote": "connecting millions of people to meaningful work and hundreds of thousands of organizations to skilled talent.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "robert-half",
+   "name": "Robert Half",
+   "url": "https://www.roberthalf.com",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "specialised professional recruiting and staffing",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/robert-half/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 6281,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.roberthalf.com/",
+     "title": "Robert Half",
+     "accessed": "2026-11-06",
+     "quote": "Our experienced, specialized recruiting professionals, assisted by proprietary AI, deliver top available talent.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "kelly-services",
+   "name": "Kelly Services",
+   "url": "https://www.kellyservices.com",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "workforce solutions and staffing",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/kelly-services/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 33475,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kellyservices.com/",
+     "title": "Kelly Services",
+     "accessed": "2026-11-06",
+     "quote": "We deliver the people, strategy, and solutions to turn high-stakes challenges into high-impact results.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "hays",
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "specialist recruitment and workforce solutions",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/hays/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 56718,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hays.com/",
+     "title": "Hays",
+     "accessed": "2026-11-06",
+     "quote": "Connecting organizations and skilled professionals through specialist recruitment and workforce solutions.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "kforce",
+   "name": "Kforce",
+   "url": "https://www.kforce.com",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "technology, finance and accounting, and professional staffing",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/kforce/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 124035,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "finance",
+    "staffing",
+    "tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kforce.com/",
+     "title": "Kforce",
+     "accessed": "2026-11-06",
+     "quote": "Kforce is a solutions firm specializing in technology, finance and accounting, and professional staffing services.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "recruit-group",
+   "name": "Recruit Group",
+   "url": "https://www.recruit-holdings.com/en/",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "HR and staffing services (Japan-headquartered)",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/recruit-group/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 128454,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.recruit-holdings.com/en/",
+     "title": "Recruit Group",
+     "accessed": "2026-11-06",
+     "quote": "Recruit Group is a global technology company transforming the world of work.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "gi-group-holding",
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "labour market services",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/gi-group-holding/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 98275,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing",
+    "trades-labour"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.gigroup.com/",
+     "title": "Gi Group Holding",
+     "accessed": "2026-11-06",
+     "quote": "Gi Group Holding, one of the world's leading providers of services for the evolution of the labour market",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "adcorp-holdings",
+   "name": "Adcorp Holdings",
+   "url": "https://www.adcorpgroup.com",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "workforce solutions and staffing",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/adcorp-holdings/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.adcorpgroup.com/",
+     "title": "Adcorp Group",
+     "accessed": "2026-11-06",
+     "quote": "We enable agile, focused and skilled workforces for the future.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "allegis-group",
+   "name": "Allegis Group",
+   "url": "https://www.allegisgroup.com",
+   "type": "staffing",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "workforce and business solutions",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/allegis-group/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 218541,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "staffing"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.allegisgroup.com/",
+     "title": "Allegis Group",
+     "accessed": "2026-11-06",
+     "quote": "We're the global leader in workforce and business solutions.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "korn-ferry",
+   "name": "Korn Ferry",
+   "url": "https://www.kornferry.com",
+   "type": "recruiting-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "executive search and consulting",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/korn-ferry/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 7369,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "executive",
+    "recruiting-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kornferry.com/",
+     "title": "Korn Ferry",
+     "accessed": "2026-11-06",
+     "quote": "Korn Ferry is a global consulting firm that powers performance.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "heidrick-struggles",
+   "name": "Heidrick & Struggles",
+   "url": "https://www.heidrick.com",
+   "type": "recruiting-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "executive search and leadership consulting",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/heidrick-struggles/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 38266,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "executive",
+    "recruiting-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.heidrick.com/",
+     "title": "Heidrick & Struggles",
+     "accessed": "2026-11-06",
+     "quote": "We help our clients change the world, one leadership team at a time®.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "spencer-stuart",
+   "name": "Spencer Stuart",
+   "url": "https://www.spencerstuart.com",
+   "type": "recruiting-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "executive search and board consulting",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/spencer-stuart/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 33574,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "executive",
+    "recruiting-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.spencerstuart.com/",
+     "title": "Spencer Stuart",
+     "accessed": "2026-11-06",
+     "quote": "We help you find and develop outstanding leaders, improve team and board performance, and align culture with your strategy.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "russell-reynolds-associates",
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "type": "recruiting-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "executive search and leadership advisory",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/russell-reynolds-associates/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 45213,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "executive",
+    "recruiting-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.russellreynolds.com/",
+     "title": "Russell Reynolds Associates",
+     "accessed": "2026-11-06",
+     "quote": "We help organizations and individuals answer critical leadership questions to thrive in today's challenging landscape.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "michael-page",
+   "name": "Michael Page",
+   "url": "https://www.michaelpage.com",
+   "type": "recruiting-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "permanent placement recruitment",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/michael-page/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 96759,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "recruiting-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.michaelpage.com/",
+     "title": "Michael Page",
+     "accessed": "2026-11-06",
+     "quote": "We connect companies with talent, and professionals with job opportunities.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "hudson-rpo",
+   "name": "Hudson RPO",
+   "url": "https://hudsontalent.com",
+   "type": "recruiting-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "recruitment process outsourcing (RPO)",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/hudson-rpo/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "recruiting-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://hudsontalent.com/",
+     "title": "Hudson Talent Solutions",
+     "accessed": "2026-11-06",
+     "quote": "Hudson Talent Solutions supports organizations hiring across multiple regions including the Americas, EMEA, and APAC.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "egon-zehnder",
+   "name": "Egon Zehnder",
+   "url": "https://www.egonzehnder.com",
+   "type": "recruiting-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "executive search and leadership assessment",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/egon-zehnder/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 50129,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "executive",
+    "recruiting-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.egonzehnder.com/",
+     "title": "Egon Zehnder",
+     "accessed": "2026-11-06",
+     "quote": "In a world full of questions, we deliver human-centric solutions.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "freelancer-com",
+   "name": "Freelancer.com",
+   "url": "https://www.freelancer.com",
+   "type": "freelance-platform",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "general freelance and project marketplace",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/freelancer-com/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 3578,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "freelance-platform",
+    "general"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.freelancer.com/",
+     "title": "Freelancer.com homepage",
+     "accessed": "2026-11-06",
+     "quote": "Hire the best freelancers for any job, online.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "toptal",
+   "name": "Toptal",
+   "url": "https://www.toptal.com",
+   "type": "freelance-platform",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "vetted freelance experts in tech, design and finance",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/toptal/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 1941,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "creative-media",
+    "finance",
+    "freelance-platform",
+    "tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.toptal.com/",
+     "title": "Toptal homepage",
+     "accessed": "2026-11-06",
+     "quote": "Toptal solves complex business challenges with outcome-oriented services and solutions tailored to your needs.",
+     "quote_check": "unreachable"
+    }
+   ]
+  },
+  {
+   "id": "kwork",
+   "name": "Kwork",
+   "url": "https://www.kwork.com",
+   "type": "freelance-platform",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "freelance service marketplace",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/kwork/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 24875,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "freelance-platform"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kwork.com/",
+     "title": "Kwork homepage",
+     "accessed": "2026-11-06",
+     "quote": "Shop freelance services with confidence on Kwork.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "taskrabbit",
+   "name": "TaskRabbit",
+   "url": "https://www.taskrabbit.com",
+   "type": "freelance-platform",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "local on-demand task and errand marketplace",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/taskrabbit/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 15164,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "freelance-platform"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.taskrabbit.com/",
+     "title": "TaskRabbit homepage",
+     "accessed": "2026-11-06",
+     "quote": "Choose a Tasker by price, skills, and reviews.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "braintrust",
+   "name": "Braintrust",
+   "url": "https://www.usebraintrust.com",
+   "type": "freelance-platform",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "AI-powered talent network",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/braintrust/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 114606,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "freelance-platform"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.usebraintrust.com/",
+     "title": "Braintrust homepage",
+     "accessed": "2026-11-06",
+     "quote": "The AI-powered talent network connecting top professionals with the world's leading companies.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "99designs",
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "type": "freelance-platform",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "freelance design marketplace",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/99designs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Large",
+    "label": "Large",
+    "global_rank": 5858,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "creative-media",
+    "freelance-platform"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.99designs.com/",
+     "title": "99designs homepage",
+     "accessed": "2026-11-06",
+     "quote": "Logos, websites, packaging design and more.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "freelancermap",
+   "name": "freelancermap",
+   "url": "https://www.freelancermap.com",
+   "type": "freelance-platform",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "freelance project and contractor marketplace",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/freelancermap/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 114998,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "freelance-platform"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.freelancermap.com/",
+     "title": "freelancermap homepage",
+     "accessed": "2026-11-06",
+     "quote": "We offer direct access to freelance opportunities without commission fees or middlemen.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "codeable",
+   "name": "Codeable",
+   "url": "https://codeable.io",
+   "type": "freelance-platform",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "WordPress freelance developer platform",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/codeable/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 72162,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "freelance-platform",
+    "tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://codeable.io/",
+     "title": "Codeable homepage",
+     "accessed": "2026-11-06",
+     "quote": "Codeable is the only WordPress freelancer platform.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "lemon-io",
+   "name": "Lemon.io",
+   "url": "https://lemon.io",
+   "type": "freelance-platform",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "freelance developer marketplace",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/lemon-io/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 79103,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "freelance-platform",
+    "tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://lemon.io/",
+     "title": "Lemon.io homepage",
+     "accessed": "2026-11-06",
+     "quote": "Lemon.io is a platform that connects businesses with top freelance developers.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "freelance-de",
+   "name": "freelance.de",
+   "url": "https://www.freelance.de",
+   "type": "freelance-platform",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DE",
+    "AT",
+    "CH",
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "freelancer and project platform for the DACH region",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/freelance-de/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 202761,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "freelance-platform"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.freelance.de/",
+     "title": "freelance.de homepage",
+     "accessed": "2026-11-06",
+     "quote": "Mit mehr als 126.100+ aktuellen Freelancer-Profilen ist freelance.de die größte Plattform im DACH Raum.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "sterling",
+   "name": "Sterling",
+   "url": "https://www.sterlingcheck.com",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "background screening",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/sterling/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 186223,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.sterlingcheck.com/",
+     "title": "Sterling homepage",
+     "accessed": "2026-11-06",
+     "quote": "Order the same Sterling checks through First Advantage.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "hirevue",
+   "name": "HireVue",
+   "url": "https://www.hirevue.com",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "video interviewing and skills assessment",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/hirevue/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 25537,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hirevue.com/",
+     "title": "HireVue homepage",
+     "accessed": "2026-11-06",
+     "quote": "AI hiring technology to reveal proven skills and capabilities",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "gem",
+   "name": "Gem",
+   "url": "https://www.gem.com",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "recruiting CRM and sourcing",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/gem/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 56361,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.gem.com/",
+     "title": "Gem homepage",
+     "accessed": "2026-11-06",
+     "quote": "Gem is the AI-first recruiting platform built for better outcomes, not more tools.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "seekout",
+   "name": "SeekOut",
+   "url": "https://www.seekout.com",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "talent sourcing and recruiting intelligence",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/seekout/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 172312,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.seekout.com/",
+     "title": "SeekOut homepage",
+     "accessed": "2026-11-06",
+     "quote": "SeekOut brings recruiting intelligence inside the AI your company already approved.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "beamery",
+   "name": "Beamery",
+   "url": "https://beamery.com",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "talent lifecycle and workforce intelligence",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/beamery/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 56127,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://beamery.com/",
+     "title": "Beamery homepage",
+     "accessed": "2026-11-06",
+     "quote": "Connect talent strategy to business outcomes with real-time intelligence on people, skills, and tasks.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "checkr",
+   "name": "Checkr",
+   "url": "https://checkr.com",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "background screening",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/checkr/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 37606,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://checkr.com/",
+     "title": "Checkr homepage",
+     "accessed": "2026-11-06",
+     "quote": "Checkr combines AI with human experts to ensure your reports are accurate, fast, and compliant every time.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "criteria",
+   "name": "Criteria",
+   "url": "https://criteriacorp.com",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "pre-employment assessment",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/criteria/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 106662,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://criteriacorp.com/",
+     "title": "Criteria homepage",
+     "accessed": "2026-11-06",
+     "quote": "Criteria turns those signals into more confident hiring decisions.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "codility",
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "coding tests and technical interviews",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/codility/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 79835,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech",
+    "tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.codility.com/",
+     "title": "Codility homepage",
+     "accessed": "2026-11-06",
+     "quote": "Codility runs coding tests, real-world coding tasks and live technical interviews",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "first-advantage",
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "background screening technology",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/first-advantage/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 93572,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech",
+    "tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://fadv.com/",
+     "title": "First Advantage homepage",
+     "accessed": "2026-11-06",
+     "quote": "Background screening technology designed to help you move faster, mitigate risk, and create a better experience.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "eightfold-ai",
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "talent intelligence and workforce planning",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/eightfold-ai/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 20269,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://eightfold.ai/",
+     "title": "Eightfold AI homepage",
+     "accessed": "2026-11-06",
+     "quote": "The system of intelligence for workforce decisions.",
+     "quote_check": "unreachable"
+    }
+   ]
+  },
+  {
+   "id": "harver",
+   "name": "Harver",
+   "url": "https://harver.com",
+   "type": "hr-tech",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "pre-employment assessment for high-volume hiring",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/harver/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 58904,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "hr-tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://harver.com/",
+     "title": "Harver homepage",
+     "accessed": "2026-11-06",
+     "quote": "Harver helps the leading BPOs, contact centers, and retail organizations across the globe find quality talent quickly.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "lhh",
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "type": "outplacement",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "career transition and talent solutions",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/lhh/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 13394,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "outplacement"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.lhh.com/",
+     "title": "LHH",
+     "accessed": "2026-11-06",
+     "quote": "LHH is your single partner to solve complex talent challenges.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "randstad-risesmart",
+   "name": "Randstad RiseSmart",
+   "url": "https://www.randstadenterprise.com",
+   "type": "outplacement",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "outplacement and career transition",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/randstad-risesmart/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 326013,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "outplacement"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.randstadenterprise.com/",
+     "title": "Randstad Enterprise (RiseSmart)",
+     "accessed": "2026-11-06",
+     "quote": "Navigate organizational change with confidence with AI-powered, human-centered outplacement solutions.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "intoo",
+   "name": "INTOO",
+   "url": "https://www.intoo.com",
+   "type": "outplacement",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "outplacement and career transition",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/intoo/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 342263,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "outplacement"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.intoo.com/",
+     "title": "INTOO",
+     "accessed": "2026-11-06",
+     "quote": "Accelerate the path to meaningful employment for employees impacted by layoffs.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "careerminds",
+   "name": "Careerminds",
+   "url": "https://www.careerminds.com",
+   "type": "outplacement",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "outplacement and career transition",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/careerminds/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 81805,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "outplacement"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.careerminds.com/",
+     "title": "Careerminds",
+     "accessed": "2026-11-06",
+     "quote": "Outplacement delivered in 100+ countries and 80+ languages",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "right-management",
+   "name": "Right Management",
+   "url": "https://www.right.com",
+   "type": "outplacement",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "career management and talent development",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/right-management/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 239469,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "outplacement"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.right.com/",
+     "title": "Right Management",
+     "accessed": "2026-11-06",
+     "quote": "We power careers so individuals grow and organizations thrive.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "challenger-gray-christmas",
+   "name": "Challenger, Gray & Christmas",
+   "url": "https://www.challengergray.com",
+   "type": "outplacement",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "US",
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "North America",
+   "niche": "outplacement programs and workforce research",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/challenger-gray-christmas/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 24711,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "outplacement"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.challengergray.com/",
+     "title": "Challenger, Gray & Christmas",
+     "accessed": "2026-11-06",
+     "quote": "Provide the support people need to take the next step with outplacement programs that work for every career stage.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "impact-group",
+   "name": "IMPACT Group",
+   "url": "https://www.impactgrouphr.com",
+   "type": "outplacement",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "outplacement and career coaching",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/impact-group/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 659214,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "outplacement"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.impactgrouphr.com/",
+     "title": "IMPACT Group",
+     "accessed": "2026-11-06",
+     "quote": "Our coaches deliver services in 100+ countries and 25 languages.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "velvetjobs",
+   "name": "VelvetJobs",
+   "url": "https://www.velvetjobs.com",
+   "type": "outplacement",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "outplacement and employer branding",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/velvetjobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 50433,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "outplacement"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.velvetjobs.com/",
+     "title": "VelvetJobs",
+     "accessed": "2026-11-06",
+     "quote": "The Outplacement & Employer Branding Services Selected by The Leading Companies",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "resume-io",
+   "name": "Resume.io",
+   "url": "https://resume.io",
+   "type": "career-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "online resume builder",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/resume-io/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 25753,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "career-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://resume.io/",
+     "title": "Resume.io",
+     "accessed": "2026-11-06",
+     "quote": "Build powerful resumes in only 5 minutes with our easy to use Resume Builder and get hired faster.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "topresume",
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "type": "career-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "professional resume writing services",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/topresume/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 31702,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "career-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.topresume.com/",
+     "title": "TopResume",
+     "accessed": "2026-11-06",
+     "quote": "Land more interviews and get hired faster with a professional resume that highlights your full potential.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobscan",
+   "name": "Jobscan",
+   "url": "https://www.jobscan.co",
+   "type": "career-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "resume optimisation for applicant tracking systems",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobscan/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 19443,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "career-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobscan.co/",
+     "title": "Jobscan",
+     "accessed": "2026-11-06",
+     "quote": "Jobscan improves job placement by helping job seekers land 3X more interviews and cutting job search time in half.",
+     "quote_check": "unreachable"
+    }
+   ]
+  },
+  {
+   "id": "resumeble",
+   "name": "Resumeble",
+   "url": "https://resumeble.com",
+   "type": "career-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "resume writing services",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/resumeble/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 499115,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "career-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://resumeble.com/",
+     "title": "Resumeble",
+     "accessed": "2026-11-06",
+     "quote": "Expert resume writing services from certified professional writers",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "kickresume",
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "type": "career-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "online resume builder",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/kickresume/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 27964,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "career-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kickresume.com/",
+     "title": "Kickresume",
+     "accessed": "2026-11-06",
+     "quote": "Build a professional resume online in minutes with Kickresume's free resume builder.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "enhancv",
+   "name": "Enhancv",
+   "url": "https://enhancv.com",
+   "type": "career-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "AI resume builder",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/enhancv/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 34089,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "career-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://enhancv.com/",
+     "title": "Enhancv",
+     "accessed": "2026-11-06",
+     "quote": "Enhancv is the best overall resume builder, combining AI writing, ATS feedback, and one-click job tailoring in a single tool.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "resume-genius",
+   "name": "Resume Genius",
+   "url": "https://www.resumegenius.com",
+   "type": "career-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "resume building software",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/resume-genius/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 27879,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "career-services",
+    "tech"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.resumegenius.com/",
+     "title": "Resume Genius",
+     "accessed": "2026-11-06",
+     "quote": "Resume Genius is a resume building software helping people in their career journey.",
+     "quote_check": "unreachable"
+    }
+   ]
+  },
+  {
+   "id": "novoresume",
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "type": "career-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "online resume builder",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/novoresume/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 20616,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "career-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.novoresume.com/",
+     "title": "Novoresume",
+     "accessed": "2026-11-06",
+     "quote": "The resume is step one. Novorésumé covers every step after it, from the first ATS scan to the salary negotiation.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "rezi",
+   "name": "Rezi",
+   "url": "https://www.rezi.ai",
+   "type": "career-services",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "AI resume builder",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/rezi/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 50588,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-06"
+   },
+   "tags": [
+    "career-services"
+   ],
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.rezi.ai/",
+     "title": "Rezi",
+     "accessed": "2026-11-06",
+     "quote": "Build, improve, and tailor your resume with AI.",
+     "quote_check": "ok"
     }
    ]
   }

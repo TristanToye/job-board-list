@@ -7,7 +7,8 @@
  "founded": "",
  "markets": "CA",
  "countries_served": [
-  "CA"
+  "CA",
+  "ZZ"
  ],
  "primary_language": "en",
  "languages_supported": [
@@ -37,6 +38,13 @@
   "source": "Majestic Million (CC BY 3.0)",
   "list_date": "2026-11-06"
  },
+ "tags": [
+  "government-operated",
+  "government-service",
+  "job-board",
+  "public-funded",
+  "public-sector"
+ ],
  "owners": [],
  "scale": [],
  "sources": [
@@ -63,6 +71,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.statcan.gc.ca/en/start",
+   "title": "Statistics Canada home page",
+   "accessed": "2026-11-06",
+   "quote": "Statistics Canada is the national statistical office.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.jobbank.gc.ca/",
+   "title": "Job Bank home page",
+   "accessed": "2026-11-06",
+   "quote": "Helping Canadians connect to jobs, workers, and training.",
+   "quote_check": "ok"
   }
  ]
 }

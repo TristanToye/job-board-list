@@ -18,6 +18,14 @@ Discovery and verification agents for many countries can run in parallel on a lo
 - **Wikidata** (CC0): `python3 scripts/fetch_wikidata.py` pulls employment websites with owner, founding year and country, then `python3 scripts/ingest.py` merges them. Its statements are machine generated, so they need no quote check and are labelled as a secondary source.
 - **Wikipedia** article pages: follow `research/briefs/wikipedia.md`. Run `python3 scripts/check_quotes.py` on the output (it fetches Wikipedia one page at a time) before ingest.
 
+## Other classes of entry
+
+Entries are not only job boards. Use `research/briefs/discover-class.md` with a class (labour market information, outplacement, career services, staffing, executive search, freelance platforms, HR technology) and set `type` to match. Run `python3 scripts/derive_tags.py` after ingest so each entry gets its tags.
+
+## Owner profiles
+
+`research/briefs/owner-profile.md` collects a cited self-description and basic company facts. Run `check_quotes.py`, then `ingest_ownership.py`. A fact is kept only if its quote supports its value.
+
 ## Ownership
 
 Follow `research/briefs/ownership.md` for an owner company, run `python3 scripts/check_quotes.py` on the output, then `python3 scripts/ingest_ownership.py`. A quote must be at least four words and state the relationship. If the source only lists a company on a group page, the relationship is recorded as a group company, not a subsidiary.

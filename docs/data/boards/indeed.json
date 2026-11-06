@@ -8,7 +8,8 @@
  "markets": "60+ countries",
  "countries_served": [
   "CA",
-  "US"
+  "US",
+  "ZZ"
  ],
  "primary_language": "en",
  "languages_supported": [
@@ -45,7 +46,7 @@
   "crawl"
  ],
  "notes": "Legacy Publisher API retired; integrations now via partner program. Official pages returned HTTP 403 to automated fetch on 2026-11-05, so developer and partner details are unverified.",
- "confidence": "secondary-sourced",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/indeed/",
  "indexable": true,
  "prominence": {
@@ -56,6 +57,18 @@
   "source": "Majestic Million (CC BY 3.0)",
   "list_date": "2026-11-06"
  },
+ "tags": [
+  "api-partner-only",
+  "apply-integration",
+  "ats-integration",
+  "crawl-sourced",
+  "general",
+  "job-aggregator",
+  "job-board",
+  "partner-program",
+  "pay-per-click",
+  "xml-feed"
+ ],
  "owners": [
   {
    "id": "recruit",
@@ -108,6 +121,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "existence",
+   "url": "https://hiringlab.indeed.com/about",
+   "title": "Indeed Hiring Lab about page",
+   "accessed": "2026-11-06",
+   "quote": "All data used by Hiring Lab are anonymized and aggregated to show broad trends across Indeed's 60 worldwide labor markets.",
+   "quote_check": "ok"
   }
  ]
 }

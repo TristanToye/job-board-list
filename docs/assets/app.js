@@ -1,6 +1,6 @@
 (function () {
   var rows = Array.prototype.slice.call(document.querySelectorAll("#boards tbody tr"));
-  var q = document.getElementById("q"), ids = { region: "f-region", type: "f-type", api: "f-api", partner: "f-partner", lang: "f-lang", tier: "f-tier" };
+  var q = document.getElementById("q"), ids = { region: "f-region", type: "f-type", api: "f-api", partner: "f-partner", lang: "f-lang", tier: "f-tier", function: "f-function", focus: "f-focus" };
   var sels = {}; Object.keys(ids).forEach(function (k) { sels[k] = document.getElementById(ids[k]); });
   var count = document.getElementById("count"), empty = document.getElementById("empty");
   if (!q) return;
@@ -16,7 +16,7 @@
     var term = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean), shown = 0;
     rows.forEach(function (r) {
       var ok = term.every(function (t) { return r.dataset.search.indexOf(t) > -1; });
-      Object.keys(sels).forEach(function (k) { var v = sels[k].value; if (!v) return; if (k === "lang") { if ((" " + r.dataset.lang + " ").indexOf(" " + v + " ") < 0) ok = false; } else if (r.dataset[k] !== v) ok = false; });
+      Object.keys(sels).forEach(function (k) { var v = sels[k].value; if (!v) return; if (k === "lang") { if ((" " + r.dataset.lang + " ").indexOf(" " + v + " ") < 0) ok = false; } else if (k === "function" || k === "focus") { if ((" " + r.dataset.tags + " ").indexOf(" " + v + " ") < 0) ok = false; } else if (r.dataset[k] !== v) ok = false; });
       r.hidden = !ok; if (ok) shown++;
     });
     count.textContent = "Showing " + shown + " of " + rows.length + " boards";

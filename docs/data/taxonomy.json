@@ -1,0 +1,428 @@
+{
+ "generated": "2026-11-06",
+ "tags": [
+  {
+   "tag": "job-board",
+   "facet": "function",
+   "label": "Job board",
+   "definition": "A site where employers post jobs and candidates search and apply."
+  },
+  {
+   "tag": "job-aggregator",
+   "facet": "function",
+   "label": "Job aggregator",
+   "definition": "A search engine that collects listings from many sources and links candidates to them."
+  },
+  {
+   "tag": "professional-network",
+   "facet": "function",
+   "label": "Professional network",
+   "definition": "A social or professional network where job listings are one feature."
+  },
+  {
+   "tag": "government-service",
+   "facet": "function",
+   "label": "Public employment service",
+   "definition": "A job service or portal run by a government or public body."
+  },
+  {
+   "tag": "ats",
+   "facet": "function",
+   "label": "Applicant tracking system",
+   "definition": "Software employers use to manage hiring and publish their jobs."
+  },
+  {
+   "tag": "job-distribution",
+   "facet": "function",
+   "label": "Job distribution",
+   "definition": "Multiposting and programmatic platforms that push one job to many boards."
+  },
+  {
+   "tag": "staffing",
+   "facet": "function",
+   "label": "Staffing agency",
+   "definition": "An agency that supplies temporary and contract workers to employers."
+  },
+  {
+   "tag": "recruiting-services",
+   "facet": "function",
+   "label": "Recruiting services",
+   "definition": "Executive search",
+   "null": [
+    " recruitment process outsourcing and permanent placement firms."
+   ]
+  },
+  {
+   "tag": "outplacement",
+   "facet": "function",
+   "label": "Outplacement",
+   "definition": "Career transition support for laid off employees",
+   "null": [
+    " usually paid for by the employer."
+   ]
+  },
+  {
+   "tag": "lmi",
+   "facet": "function",
+   "label": "Labour market information",
+   "definition": "Statistics",
+   "null": [
+    " data and analytics about jobs",
+    " skills",
+    " wages and employment."
+   ]
+  },
+  {
+   "tag": "hr-tech",
+   "facet": "function",
+   "label": "HR and recruiting technology",
+   "definition": "Software for sourcing",
+   "null": [
+    " assessment",
+    " screening and other HR tasks",
+    " other than applicant tracking."
+   ]
+  },
+  {
+   "tag": "career-services",
+   "facet": "function",
+   "label": "Career services",
+   "definition": "Resume",
+   "null": [
+    " coaching and career development services for individuals."
+   ]
+  },
+  {
+   "tag": "freelance-platform",
+   "facet": "function",
+   "label": "Freelance marketplace",
+   "definition": "A platform that matches freelancers with project based work."
+  },
+  {
+   "tag": "employer-reviews",
+   "facet": "function",
+   "label": "Employer reviews",
+   "definition": "Company reviews",
+   "null": [
+    " ratings and salary data."
+   ]
+  },
+  {
+   "tag": "community",
+   "facet": "function",
+   "label": "Community",
+   "definition": "A forum or community that shares job leads."
+  },
+  {
+   "tag": "directory",
+   "facet": "function",
+   "label": "Directory",
+   "definition": "A list of other job sites."
+  },
+  {
+   "tag": "general",
+   "facet": "focus",
+   "label": "General",
+   "definition": "Jobs across many occupations and industries."
+  },
+  {
+   "tag": "tech",
+   "facet": "focus",
+   "label": "Technology",
+   "definition": "Software",
+   "null": [
+    " IT and technology roles."
+   ]
+  },
+  {
+   "tag": "engineering",
+   "facet": "focus",
+   "label": "Engineering",
+   "definition": "Engineering and technical roles."
+  },
+  {
+   "tag": "healthcare",
+   "facet": "focus",
+   "label": "Healthcare",
+   "definition": "Health",
+   "null": [
+    " medical and care roles."
+   ]
+  },
+  {
+   "tag": "education",
+   "facet": "focus",
+   "label": "Education",
+   "definition": "Teaching",
+   "null": [
+    " academic and education roles."
+   ]
+  },
+  {
+   "tag": "teaching-esl",
+   "facet": "focus",
+   "label": "ESL and language teaching",
+   "definition": "English as a second language and language teaching roles."
+  },
+  {
+   "tag": "nonprofit",
+   "facet": "focus",
+   "label": "Nonprofit",
+   "definition": "Nonprofit",
+   "null": [
+    " charity and social sector roles."
+   ]
+  },
+  {
+   "tag": "volunteering",
+   "facet": "focus",
+   "label": "Volunteering",
+   "definition": "Volunteer opportunities."
+  },
+  {
+   "tag": "public-sector",
+   "facet": "focus",
+   "label": "Public sector",
+   "definition": "Government",
+   "null": [
+    " civic and municipal roles."
+   ]
+  },
+  {
+   "tag": "graduates-students",
+   "facet": "focus",
+   "label": "Graduates and students",
+   "definition": "Graduate",
+   "null": [
+    " student",
+    " internship and early career roles."
+   ]
+  },
+  {
+   "tag": "remote",
+   "facet": "focus",
+   "label": "Remote",
+   "definition": "Remote and work from home roles."
+  },
+  {
+   "tag": "startup",
+   "facet": "focus",
+   "label": "Startups",
+   "definition": "Roles at startups and scale ups."
+  },
+  {
+   "tag": "trades-labour",
+   "facet": "focus",
+   "label": "Trades and labour",
+   "definition": "Trades",
+   "null": [
+    " hourly",
+    " part time",
+    " gig and blue collar roles."
+   ]
+  },
+  {
+   "tag": "creative-media",
+   "facet": "focus",
+   "label": "Creative and media",
+   "definition": "Media",
+   "null": [
+    " journalism",
+    " design and creative roles."
+   ]
+  },
+  {
+   "tag": "indigenous",
+   "facet": "focus",
+   "label": "Indigenous",
+   "definition": "Roles aimed at Indigenous job seekers and employers."
+  },
+  {
+   "tag": "diversity-inclusion",
+   "facet": "focus",
+   "label": "Diversity and inclusion",
+   "definition": "Roles aimed at underrepresented groups",
+   "null": [
+    " women or people with disabilities."
+   ]
+  },
+  {
+   "tag": "sport",
+   "facet": "focus",
+   "label": "Sport and fitness",
+   "definition": "Sport",
+   "null": [
+    " fitness and recreation roles."
+   ]
+  },
+  {
+   "tag": "environment",
+   "facet": "focus",
+   "label": "Environment",
+   "definition": "Environmental and green roles."
+  },
+  {
+   "tag": "agriculture-food",
+   "facet": "focus",
+   "label": "Agriculture and food",
+   "definition": "Agriculture and food industry roles."
+  },
+  {
+   "tag": "hospitality-tourism",
+   "facet": "focus",
+   "label": "Hospitality and tourism",
+   "definition": "Hotel",
+   "null": [
+    " restaurant",
+    " travel and tourism roles."
+   ]
+  },
+  {
+   "tag": "legal",
+   "facet": "focus",
+   "label": "Legal",
+   "definition": "Legal roles."
+  },
+  {
+   "tag": "finance",
+   "facet": "focus",
+   "label": "Finance",
+   "definition": "Finance",
+   "null": [
+    " accounting and banking roles."
+   ]
+  },
+  {
+   "tag": "executive",
+   "facet": "focus",
+   "label": "Executive",
+   "definition": "Senior and executive roles."
+  },
+  {
+   "tag": "free-to-post",
+   "facet": "model",
+   "label": "Free to post",
+   "definition": "Employers can post jobs without paying."
+  },
+  {
+   "tag": "pay-per-post",
+   "facet": "model",
+   "label": "Pay per post",
+   "definition": "Employers pay for each job posting."
+  },
+  {
+   "tag": "subscription",
+   "facet": "model",
+   "label": "Subscription",
+   "definition": "Employers pay a recurring fee or plan."
+  },
+  {
+   "tag": "pay-per-click",
+   "facet": "model",
+   "label": "Pay per click",
+   "definition": "Employers pay for clicks or applications on sponsored jobs."
+  },
+  {
+   "tag": "freemium",
+   "facet": "model",
+   "label": "Freemium",
+   "definition": "A free tier with paid upgrades."
+  },
+  {
+   "tag": "public-funded",
+   "facet": "model",
+   "label": "Publicly funded",
+   "definition": "Funded by government or public money."
+  },
+  {
+   "tag": "api-open",
+   "facet": "integration",
+   "label": "Open API",
+   "definition": "Provides an API or feed that needs no approval."
+  },
+  {
+   "tag": "api-self-serve",
+   "facet": "integration",
+   "label": "Self-serve API",
+   "definition": "Provides a documented API with a self-serve key."
+  },
+  {
+   "tag": "api-on-request",
+   "facet": "integration",
+   "label": "API on request",
+   "definition": "Issues API keys or feeds after a request form or review."
+  },
+  {
+   "tag": "api-partner-only",
+   "facet": "integration",
+   "label": "Partner-only API",
+   "definition": "Programmatic access requires an approved partner or commercial agreement."
+  },
+  {
+   "tag": "xml-feed",
+   "facet": "integration",
+   "label": "XML feed",
+   "definition": "Accepts or publishes jobs through XML feeds."
+  },
+  {
+   "tag": "ats-integration",
+   "facet": "integration",
+   "label": "ATS integration",
+   "definition": "Receives jobs from applicant tracking systems."
+  },
+  {
+   "tag": "apply-integration",
+   "facet": "integration",
+   "label": "Apply integration",
+   "definition": "Offers an apply flow that other systems can plug into."
+  },
+  {
+   "tag": "partner-program",
+   "facet": "integration",
+   "label": "Partner program",
+   "definition": "Has a partner or integration program."
+  },
+  {
+   "tag": "crawl-sourced",
+   "facet": "integration",
+   "label": "Crawl sourced",
+   "definition": "Collects jobs by crawling employer sites."
+  },
+  {
+   "tag": "public-job-feed",
+   "facet": "integration",
+   "label": "Public job feed",
+   "definition": "Publishes a public job feed or API for customers' postings."
+  },
+  {
+   "tag": "smb",
+   "facet": "segment",
+   "label": "Small business",
+   "definition": "Aimed at small businesses."
+  },
+  {
+   "tag": "mid-market",
+   "facet": "segment",
+   "label": "Mid-market",
+   "definition": "Aimed at mid-sized companies."
+  },
+  {
+   "tag": "enterprise",
+   "facet": "segment",
+   "label": "Enterprise",
+   "definition": "Aimed at large enterprises."
+  },
+  {
+   "tag": "government-operated",
+   "facet": "operator",
+   "label": "Government operated",
+   "definition": "Run by a government or public body."
+  },
+  {
+   "tag": "nonprofit-operated",
+   "facet": "operator",
+   "label": "Nonprofit operated",
+   "definition": "Run by a nonprofit or not for profit organisation."
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "mode": "owner-profile",
+ "owners": [
+  {
+   "name": "BOLD Holdings",
+   "url": "https://www.bold.com/about/",
+   "facts": [
+    {
+     "fact": "description",
+     "value": "Today, we’re proud to be the largest global career technology company",
+     "sources": [
+      {
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "Today, we’re proud to be the largest global career technology company",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_city",
+     "value": "Guaynabo",
+     "sources": [
+      {
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "As BOLD’s headquarters, our dynamic workspace in Guaynabo, Puerto Rico, is the hub of our operations.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_country",
+     "value": "PR",
+     "sources": [
+      {
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "As BOLD’s headquarters, our dynamic workspace in Guaynabo, Puerto Rico, is the hub of our operations.",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "DHI Group",
+   "url": "https://www.dhigroupinc.com",
+   "facts": []
+  },
+  {
+   "name": "Info Edge (India) Ltd",
+   "url": "https://www.infoedge.in",
+   "facts": [
+    {
+     "fact": "description",
+     "value": "Info Edge is India’s premier online classifieds company in recruitment, matrimony, real estate, education and related services.",
+     "sources": [
+      {
+       "url": "https://www.infoedge.in",
+       "title": "Info Edge (India) Limited",
+       "quote": "Info Edge is India’s premier online classifieds company in recruitment, matrimony, real estate, education and related services.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_city",
+     "value": "Noida",
+     "sources": [
+      {
+       "url": "https://www.infoedge.in",
+       "title": "Info Edge (India) Limited",
+       "quote": "Corporate Office Info Edge (India) Limited B - 8, Sector - 132 Noida - 201304 India",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_country",
+     "value": "IN",
+     "sources": [
+      {
+       "url": "https://www.infoedge.in",
+       "title": "Info Edge (India) Limited",
+       "quote": "Corporate Office Info Edge (India) Limited B - 8, Sector - 132 Noida - 201304 India",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "founded",
+     "value": "1995",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Info_Edge",
+       "title": "Info Edge - Wikipedia",
+       "quote": "in 1995, initially reproducing classified ads from newspapers on its website",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "listing",
+     "value": "Public, ticker symbol Naukri",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Info_Edge",
+       "title": "Info Edge - Wikipedia",
+       "quote": "Info Edge went public in 2006 under the ticker symbol \"Naukri\".",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "employees",
+     "value": "4,049 (2022)",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Info_Edge",
+       "title": "Info Edge - Wikipedia",
+       "quote": "Number of employees 4,049 (2022)",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "revenue",
+     "value": "INR 2,654 crore (FY25)",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Info_Edge",
+       "title": "Info Edge - Wikipedia",
+       "quote": "₹ 2,654 crore (US$280 million) (FY25)",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "url": "https://www.dhigroupinc.com",
+   "owner": "DHI Group",
+   "status": 403,
+   "note": "Direct request returned 403; not retried. Wikipedia DHI_Group redirects to DHI (company), a Danish water consultancy, not DHI Group Inc., so no facts were taken from it."
+  }
+ ]
+}
