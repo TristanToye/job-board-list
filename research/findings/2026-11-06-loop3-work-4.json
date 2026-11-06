@@ -1,0 +1,54 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 3,
+  "boards": [
+    {
+      "name": "Right Management",
+      "url": "https://www.right.com",
+      "parent": "ManpowerGroup",
+      "primary_language": "en",
+      "languages_supported": ["en"],
+      "sources": [
+        {"field": "parent", "url": "https://www.right.com/", "title": "Right Management home", "quote": "As part of ManpowerGroup, Right Management combines global scale with local care"},
+        {"field": "primary_language", "url": "https://www.right.com/", "title": "Right Management home", "quote": "Global (English)"},
+        {"field": "languages_supported", "url": "https://www.right.com/", "title": "Right Management home", "quote": "Global (English)"}
+      ]
+    },
+    {
+      "name": "INTOO",
+      "url": "https://www.intoo.com",
+      "parent": "Gi Group Holding",
+      "business_model": "per-program fee; US list prices from $600 (3-month) to $3750 (6-month), volume and custom quotes by call",
+      "sources": [
+        {"field": "parent", "url": "https://www.intoo.com/us/about/", "title": "INTOO About", "quote": "INTOO is the career development and outplacement flagship for Gi Group Holding"},
+        {"field": "business_model", "url": "https://www.intoo.com/us/solutions/outplacement/outplacement-pricing/", "title": "Outplacement Pricing & Plans", "quote": "SMB pricing below reflects per-program rates for the U.S."}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Right Management", "url": "https://www.right.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded"], "method": "mixed", "note": "Home, contact and solutions pages read in raw text. Parent (ManpowerGroup) and English language shown. No headquarters or founding year on the pages. The try_pages listed manpowergroup.com, a different domain, so it was not used as a source."},
+    {"name": "INTOO", "url": "https://www.intoo.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded"], "method": "mixed", "note": "About page gives a Los Angeles office address under Careers, not labelled as headquarters, so not recorded. The fetch tool summary showed a 2012 founding sentence that is not in the raw text, so not recorded. Parent and per-program pricing verified."},
+    {"name": "Toptal", "url": "https://www.toptal.com", "outcome": "blocked", "fields_not_found": ["hq_country", "parent", "business_model"], "method": "mixed", "note": "Headless reader returned 403 with blocked true for /about, /clients and /why. The fetch tool returned summaries only, without verbatim quotes, so no facts recorded."},
+    {"name": "Robert Half", "url": "https://www.roberthalf.com", "outcome": "not-stated", "fields_not_found": ["languages"], "method": "mixed", "note": "Raw text of the locations, homepage and hire-talent partner pages has no language or country selector. The fetch tool summary listed a footer selector that does not appear in raw text, so no quote recorded."},
+    {"name": "ClearanceJobs", "url": "https://www.clearancejobs.com", "outcome": "not-stated", "fields_not_found": ["hq_country"], "method": "mixed", "note": "About and homepage raw text give founding (2002) and DHI service footer but no headquarters location."}
+  ],
+  "attempts": [
+    {"name": "Right Management", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.right.com/", "https://www.right.com/en/contact-us", "https://www.right.com/en/solutions"]},
+    {"name": "Right Management", "field": "founded", "outcome": "not-found", "pages": ["https://www.right.com/", "https://www.right.com/en/contact-us", "https://www.right.com/en/solutions"]},
+    {"name": "Right Management", "field": "parent", "outcome": "found", "pages": ["https://www.right.com/"]},
+    {"name": "Right Management", "field": "languages", "outcome": "found", "pages": ["https://www.right.com/", "https://www.right.com/en/contact-us"]},
+    {"name": "INTOO", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.intoo.com/us/about/"]},
+    {"name": "INTOO", "field": "founded", "outcome": "not-found", "pages": ["https://www.intoo.com/us/about/", "https://www.intoo.com/us/"]},
+    {"name": "INTOO", "field": "parent", "outcome": "found", "pages": ["https://www.intoo.com/us/about/"]},
+    {"name": "INTOO", "field": "business_model", "outcome": "found", "pages": ["https://www.intoo.com/us/solutions/outplacement/outplacement-pricing/"]},
+    {"name": "Toptal", "field": "hq_country", "outcome": "blocked", "pages": ["https://www.toptal.com/about"]},
+    {"name": "Toptal", "field": "parent", "outcome": "blocked", "pages": ["https://www.toptal.com/about", "https://www.toptal.com/clients"]},
+    {"name": "Toptal", "field": "business_model", "outcome": "blocked", "pages": ["https://www.toptal.com/clients", "https://www.toptal.com/why"]},
+    {"name": "Robert Half", "field": "languages", "outcome": "not-found", "pages": ["https://www.roberthalf.com/us/en/locations", "https://www.roberthalf.com/", "https://www.roberthalf.com/us/en/hire-talent/partner"]},
+    {"name": "ClearanceJobs", "field": "hq_country", "outcome": "not-found", "pages": ["https://about.clearancejobs.com", "https://www.clearancejobs.com"]}
+  ],
+  "blocked": [
+    {"name": "Toptal", "url": "https://www.toptal.com", "reason": "Headless reader returned 403 and blocked true on /about, /clients and /why"}
+  ]
+}
