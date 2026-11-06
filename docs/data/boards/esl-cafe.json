@@ -23,7 +23,7 @@
  "partner_url": "",
  "ingest_methods": [],
  "notes": "International ESL and EFL teacher community with a job center. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
- "confidence": "listed-only",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/esl-cafe/",
  "indexable": false,
  "prominence": {
@@ -40,7 +40,14 @@
   "teaching-esl"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "esl-cafe",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Advertising price table on the Job Center advertising page. The Post a Job link goes to a login/checkout page, which was not read, so per-post pricing for job listings is not established.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -51,6 +58,14 @@
    "accessed": "2026-11-05",
    "quote": "",
    "quote_check": ""
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.eslcafe.com/advertisements/job-center",
+   "title": "Job Center advertising",
+   "accessed": "2026-11-06",
+   "quote": "Interested in advertising your program or school on our Job Center?",
+   "quote_check": "ok"
   }
  ]
 }

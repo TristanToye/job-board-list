@@ -42,9 +42,9 @@
   "board_id": "daijob-com",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage shows EN and English language links; footer names operating company only. No headquarters, parent, pricing or API stated on the homepage.",
-  "method": "fetch"
+  "fields_not_found": "hq_country;founded;parent;business_model",
+  "note": "Languages verified from the English home page. The Tokyo office address (Shinjuku) is on biz.daijob.com/about but no headquarters statement, so hq_country is not recorded. Corp page corp.daijob.com returned 403 and the headless reader repor",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -55,6 +55,14 @@
    "title": "Daijob.com homepage",
    "accessed": "2026-11-05",
    "quote": "日本初の\"バイリンガル専門転職サイト\"として1998年に設立された「Daijob.com」。",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.daijob.com/en/index.html",
+   "title": "Daijob.com English home page",
+   "accessed": "2026-11-06",
+   "quote": "Daijob.com - Looking for jobs in Japan? Want to work in Japan?",
    "quote_check": "ok"
   }
  ]

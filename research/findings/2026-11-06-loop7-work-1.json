@@ -1,0 +1,276 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 7,
+ "boards": [
+  {
+   "name": "Daijob.com",
+   "url": "https://www.daijob.com/",
+   "sources": [
+    {
+     "field": "languages",
+     "value": "primary_language ja; languages_supported ja, en",
+     "url": "https://www.daijob.com/en/index.html",
+     "title": "Daijob.com English home page",
+     "quote": "日本語",
+     "check": "mismatch"
+    },
+    {
+     "field": "languages",
+     "value": "English site version confirmed by its own title",
+     "url": "https://www.daijob.com/en/index.html",
+     "title": "Daijob.com English home page",
+     "quote": "Daijob.com - Looking for jobs in Japan? Want to work in Japan?",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "TESL Canada",
+   "url": "https://www.tesl.ca/jobs/",
+   "sources": [
+    {
+     "field": "hq_country",
+     "value": "CA (mailing address in Fredericton, New Brunswick)",
+     "url": "https://www.tesl.ca/jobs.html",
+     "title": "Jobs (footer)",
+     "quote": "TESL Canada PO Box 30001, RPO Prospect Plaza Fredericton, NB E3B 0H8",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "value": "manual posting by email to admin@tesl.ca, submitted as PDF or Word",
+     "url": "https://www.tesl.ca/jobs.html",
+     "title": "Jobs",
+     "quote": "To post a position on the TESL Canada Job Board, please email admin@tesl.ca.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "sources": [
+    {
+     "field": "hq_country",
+     "value": "IT (inferred from the Italian government link and Italian-language site; seat not stated on pages read)",
+     "url": "https://www.lavoro.gov.it/",
+     "title": "Home page",
+     "quote": "Vai al sito del Governo Italiano - Apre in una nuova scheda",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "ESL Cafe",
+   "url": "https://www.eslcafe.com/job-center",
+   "sources": [
+    {
+     "field": "business_model",
+     "value": "paid advertising slots, flat fee per 30 days: Leaderboard Banner $599 or $399, Sponsored Link $299, Skyscraper Banner $499; no per-post or subscription pricing shown",
+     "url": "https://www.eslcafe.com/advertisements/job-center",
+     "title": "Job Center advertising",
+     "quote": "Interested in advertising your program or school on our Job Center?",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "value": "Sponsored Link slot price",
+     "url": "https://www.eslcafe.com/advertisements/job-center",
+     "title": "Job Center advertising",
+     "quote": "Sponsored Link $299/30 days",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Oracle Recruiting Cloud",
+   "url": "https://www.oracle.com/human-capital-management/recruiting/",
+   "sources": [
+    {
+     "field": "parent",
+     "value": "Oracle (copyright holder named in footer)",
+     "url": "https://www.oracle.com/human-capital-management/recruiting/",
+     "title": "Oracle Recruiting Cloud (footer)",
+     "quote": "© 2026 Oracle Privacy / Do Not Sell My Info",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Daijob.com",
+   "url": "https://www.daijob.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model"
+   ],
+   "method": "mixed",
+   "note": "Languages verified from the English home page. The Tokyo office address (Shinjuku) is on biz.daijob.com/about but no headquarters statement, so hq_country is not recorded. Corp page corp.daijob.com returned 403 and the headless reader reported it blocked, so founded and parent could not be checked there. Footer names Human Resocia Co., Ltd. as copyright holder only, which is not recorded as parent. Prices are behind a request form on biz.daijob.com/price, so business_model is not recorded. Only a Japanese-language sub-page was used for pricing."
+  },
+  {
+   "name": "TESL Canada",
+   "url": "https://www.tesl.ca/jobs/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "mixed",
+   "note": "Ingest by email and the Fredericton, NB mailing address verified on jobs.html. Founding year not stated on about-us.html or jobs.html; the only year is a 2015 copyright line, which is not a founding date."
+  },
+  {
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Country inferred from the Italian government link on the home page. Ministry history page read with fetch: no founding date or seat. No job posting or ingest information on the pages read. Cliclavoro (http://www.cliclavoro.gov.it/) was not used as a source because it is outside this entry's domain. Site shows SIISL as a system label only, with no description of job ingest."
+  },
+  {
+   "name": "ESL Cafe",
+   "url": "https://www.eslcafe.com/job-center",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Advertising price table on the Job Center advertising page. The Post a Job link goes to a login/checkout page, which was not read, so per-post pricing for job listings is not established."
+  },
+  {
+   "name": "Oracle Recruiting Cloud",
+   "url": "https://www.oracle.com/human-capital-management/recruiting/",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "Fetch returned 403; headless reader succeeded. Owner taken from the copyright footer, Oracle."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Daijob.com",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://biz.daijob.com/about",
+    "https://biz.daijob.com/"
+   ]
+  },
+  {
+   "name": "Daijob.com",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://biz.daijob.com/about",
+    "https://biz.daijob.com/",
+    "https://corp.daijob.com/"
+   ]
+  },
+  {
+   "name": "Daijob.com",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://biz.daijob.com/about",
+    "https://biz.daijob.com/",
+    "https://corp.daijob.com/"
+   ]
+  },
+  {
+   "name": "Daijob.com",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.daijob.com/en/index.html",
+    "https://biz.daijob.com/about"
+   ]
+  },
+  {
+   "name": "Daijob.com",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://biz.daijob.com/price"
+   ]
+  },
+  {
+   "name": "TESL Canada",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.tesl.ca/jobs.html",
+    "https://www.tesl.ca/about-us.html"
+   ]
+  },
+  {
+   "name": "TESL Canada",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.tesl.ca/about-us.html",
+    "https://www.tesl.ca/jobs.html"
+   ]
+  },
+  {
+   "name": "TESL Canada",
+   "field": "ingest_methods",
+   "outcome": "found",
+   "pages": [
+    "https://www.tesl.ca/jobs.html"
+   ]
+  },
+  {
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.lavoro.gov.it/"
+   ]
+  },
+  {
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.lavoro.gov.it/ministro-e-ministero/Pagine/default",
+    "https://www.lavoro.gov.it/"
+   ]
+  },
+  {
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "field": "ingest_methods",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.lavoro.gov.it/",
+    "https://www.lavoro.gov.it/ministro-e-ministero/Pagine/default"
+   ]
+  },
+  {
+   "name": "ESL Cafe",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.eslcafe.com/advertisements/job-center"
+   ]
+  },
+  {
+   "name": "Oracle Recruiting Cloud",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.oracle.com/human-capital-management/recruiting/"
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Daijob.com",
+   "url": "https://corp.daijob.com/",
+   "note": "403 on fetch; headless reader returned blocked: true. Not retried."
+  }
+ ]
+}

@@ -5,7 +5,7 @@
  "domains": "",
  "type": "board",
  "hq_country": "BR",
- "founded": "",
+ "founded": "1999",
  "markets": "BR",
  "countries_served": [
   "BR"
@@ -42,7 +42,14 @@
   "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "vagas-com",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;ingest_methods",
+  "note": "Quem somos gives the 1999 start with founding partners named in the timeline. Footer names Vagas Tecnologia as operator but no parent or holding company. No feed, XML, API or integration text found on the pages read.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +59,14 @@
    "title": "Vagas.com.br homepage",
    "accessed": "2026-11-05",
    "quote": "A plataforma de recrutamento mais rápida do mercado",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.vagas.com.br/institucional/quem-somos",
+   "title": "Quem somos",
+   "accessed": "2026-11-06",
+   "quote": "Desde 1999 definimos estratégias para promover encontros de valor entre profissionais e empresas.",
    "quote_check": "ok"
   }
  ]

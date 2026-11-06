@@ -40,9 +40,9 @@
   "board_id": "randstad-digital",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "business_model;partner_program;ingest_methods",
-  "note": "Headquarters, parent and languages stated. No employer pricing or partner program found.",
-  "method": "browser"
+  "fields_not_found": "founded;partner_program",
+  "note": "Language menu shows en, fr, de. About page and home page do not state a founding year. Partnerships page has the heading our partnership ecosystem but does not state a partner program, so partner_program is recorded as unknown.",
+  "method": "fetch"
  },
  "owners": [
   {
@@ -79,6 +79,14 @@
    "title": "About",
    "accessed": "2026-11-06",
    "quote": "Backed by the global scale and expertise of Randstad",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.randstaddigital.com/",
+   "title": "Language menu",
+   "accessed": "2026-11-06",
+   "quote": "en, fr, de",
    "quote_check": "ok"
   }
  ]

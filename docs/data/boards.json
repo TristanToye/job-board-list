@@ -4729,10 +4729,10 @@
    "review": {
     "board_id": "51job",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "The About Us page returned only the title in fetch, so the headless reader was used once. Founded 1998 found in the raw text. Partner program was not asked for.",
-    "method": "browser"
+    "outcome": "not-stated",
+    "fields_not_found": "ingest_methods",
+    "note": "ehire.51job.com is a login page for an enterprise recruitment platform with no text on how employers post jobs or connect feeds. Main site has only a nav link labelled 我要招人 and no posting method text.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -5581,7 +5581,7 @@
    "region": "Latin America",
    "niche": "general",
    "segment": "",
-   "parent": "",
+   "parent": "DGNET LTD.",
    "business_model": "subscription/freemium",
    "api_status": "unknown",
    "api_docs_url": "",
@@ -5589,9 +5589,9 @@
    "partner_url": "",
    "ingest_methods": [],
    "notes": "Large LatAm footprint",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/computrabajo/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -5607,10 +5607,26 @@
     "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "computrabajo",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Legal notice on the entry's own domain names DGNET LTD. as the owner of the site.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.computrabajo.com/legal.html",
+     "title": "Aviso legal",
+     "accessed": "2026-11-06",
+     "quote": "DGNET LTD. es titular del siguiente sitio web: www.computrabajo.com",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "occ-mundial",
@@ -5760,7 +5776,7 @@
    "domains": "",
    "type": "board",
    "hq_country": "BR",
-   "founded": "",
+   "founded": "1999",
    "markets": "BR",
    "countries_served": [
     "BR"
@@ -5797,7 +5813,14 @@
     "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "vagas-com",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;ingest_methods",
+    "note": "Quem somos gives the 1999 start with founding partners named in the timeline. Footer names Vagas Tecnologia as operator but no parent or holding company. No feed, XML, API or integration text found on the pages read.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -5807,6 +5830,14 @@
      "title": "Vagas.com.br homepage",
      "accessed": "2026-11-05",
      "quote": "A plataforma de recrutamento mais rápida do mercado",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.vagas.com.br/institucional/quem-somos",
+     "title": "Quem somos",
+     "accessed": "2026-11-06",
+     "quote": "Desde 1999 definimos estratégias para promover encontros de valor entre profissionais e empresas.",
      "quote_check": "ok"
     }
    ]
@@ -6396,7 +6427,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "higheredjobs",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "founded",
+    "note": "Home page and /about both return status 200 with an empty body from the fetch reader and the headless browser reader, so no text could be read or quoted.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -8809,7 +8847,7 @@
    "partner_url": "",
    "ingest_methods": [],
    "notes": "Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-   "confidence": "listed-only",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/tesl-canada/",
    "indexable": false,
    "prominence": {
@@ -8826,7 +8864,14 @@
     "teaching-esl"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "tesl-canada",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Ingest by email and the Fredericton, NB mailing address verified on jobs.html. Founding year not stated on about-us.html or jobs.html; the only year is a 2015 copyright line, which is not a founding date.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -8837,6 +8882,22 @@
      "accessed": "2026-11-05",
      "quote": "",
      "quote_check": ""
+    },
+    {
+     "field": "existence",
+     "url": "https://www.tesl.ca/jobs.html",
+     "title": "Jobs (footer)",
+     "accessed": "2026-11-06",
+     "quote": "TESL Canada PO Box 30001, RPO Prospect Plaza Fredericton, NB E3B 0H8",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.tesl.ca/jobs.html",
+     "title": "Jobs",
+     "accessed": "2026-11-06",
+     "quote": "To post a position on the TESL Canada Job Board, please email admin@tesl.ca.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -9220,7 +9281,7 @@
    "partner_url": "",
    "ingest_methods": [],
    "notes": "International ESL and EFL teacher community with a job center. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-   "confidence": "listed-only",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/esl-cafe/",
    "indexable": false,
    "prominence": {
@@ -9237,7 +9298,14 @@
     "teaching-esl"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "esl-cafe",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Advertising price table on the Job Center advertising page. The Post a Job link goes to a login/checkout page, which was not read, so per-post pricing for job listings is not established.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9248,6 +9316,14 @@
      "accessed": "2026-11-05",
      "quote": "",
      "quote_check": ""
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.eslcafe.com/advertisements/job-center",
+     "title": "Job Center advertising",
+     "accessed": "2026-11-06",
+     "quote": "Interested in advertising your program or school on our Job Center?",
+     "quote_check": "ok"
     }
    ]
   },
@@ -9270,17 +9346,19 @@
    "region": "North America",
    "niche": "environmental and green jobs",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "People and Planet",
+   "business_model": "per post, sliding fee from $100 to $500 on an honour system",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
+   "ingest_methods": [
+    "manual posting"
+   ],
    "notes": "Describes itself as Canada's green job site since 2001, per the directory. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-   "confidence": "listed-only",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/goodwork-canada/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not comparable",
@@ -9291,10 +9369,18 @@
    },
    "tags": [
     "environment",
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "goodwork-canada",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Parent, business model and posting method stated. About page gives only 'Since 2001' and no founding statement; no headquarters stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9305,6 +9391,38 @@
      "accessed": "2026-11-05",
      "quote": "",
      "quote_check": ""
+    },
+    {
+     "field": "parent",
+     "url": "https://goodwork.ca/about",
+     "title": "About",
+     "accessed": "2026-11-06",
+     "quote": "Copyright © 2001-2026 People and Planet",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://goodwork.ca/post-a-job",
+     "title": "Post a Job",
+     "accessed": "2026-11-06",
+     "quote": "We request a small fee to help you fill this role with the best possible person.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://goodwork.ca/rates",
+     "title": "Suggested rates",
+     "accessed": "2026-11-06",
+     "quote": "Junior to intermediate positions, summer jobs, grassroots",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://goodwork.ca/post-a-job",
+     "title": "Post a Job",
+     "accessed": "2026-11-06",
+     "quote": "Our staff personally attend to each posting",
+     "quote_check": "ok"
     }
    ]
   },
@@ -11683,9 +11801,9 @@
    "review": {
     "board_id": "sepe-servicio-p-blico-de-empleo-estatal",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage footer and logo state the operator and language list; no employer pricing, public API or partner program found on pages read.",
+    "outcome": "blocked",
+    "fields_not_found": "hq_country;founded",
+    "note": "The 'Qué es el SEPE' page states neither founding year nor headquarters. The Empléate portal returned 502 to fetch and to the headless reader (blocked), so ingest_methods could not be checked.",
     "method": "fetch"
    },
    "owners": [],
@@ -12174,10 +12292,10 @@
    "review": {
     "board_id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "The page states the Objetivo: tu empleo initiative is a Comunidad de Madrid initiative. Quote is in Spanish, copied from the raw page text.",
-    "method": "mixed"
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;api_status",
+    "note": "Institucion page states Sede del Gobierno de la Comunidad de Madrid but no country is stated verbatim. Datos abiertos page has no API or key text and links to a catalog on datos.comunidad.madrid, which is outside the entry domain and was no",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -12318,9 +12436,9 @@
     "board_id": "wantedly",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "founded",
-    "note": "Monthly flat-fee model with no success fee and unlimited postings. Prices are in a pricing PDF behind a download link that was not read. Japan comes from the privacy policy naming the Japanese company. No founding year on the pages read.",
-    "method": "browser"
+    "fields_not_found": "",
+    "note": "The try_page redirects (301) to lp.wantedly.com/visit/material/1, a page titled as a Wantedly service overview; it mentions pricing structure but states no fees. The home page gives the unlimited postings and zero success fee quote, so the ",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -12591,9 +12709,9 @@
     "board_id": "daijob-com",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage shows EN and English language links; footer names operating company only. No headquarters, parent, pricing or API stated on the homepage.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;founded;parent;business_model",
+    "note": "Languages verified from the English home page. The Tokyo office address (Shinjuku) is on biz.daijob.com/about but no headquarters statement, so hq_country is not recorded. Corp page corp.daijob.com returned 403 and the headless reader repor",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -12604,6 +12722,14 @@
      "title": "Daijob.com homepage",
      "accessed": "2026-11-05",
      "quote": "日本初の\"バイリンガル専門転職サイト\"として1998年に設立された「Daijob.com」。",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.daijob.com/en/index.html",
+     "title": "Daijob.com English home page",
+     "accessed": "2026-11-06",
+     "quote": "Daijob.com - Looking for jobs in Japan? Want to work in Japan?",
      "quote_check": "ok"
     }
    ]
@@ -13296,9 +13422,9 @@
     "board_id": "lavoro-gov-it-ministry-of-labour",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage names the Ministry of Labour and Social Policies as publisher; no language selector, pricing, API or partner program statement found. /about returned HTTP 404.",
-    "method": "fetch"
+    "fields_not_found": "founded;ingest_methods",
+    "note": "Country inferred from the Italian government link on the home page. Ministry history page read with fetch: no founding date or seat. No job posting or ingest information on the pages read. Cliclavoro (http://www.cliclavoro.gov.it/) was not ",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -15881,16 +16007,18 @@
    "niche": "",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "Paid packages starting from 2,000 baht, with paid credits to reveal candidate contact details",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
+   "ingest_methods": [
+    "manual posting"
+   ],
    "notes": "",
-   "confidence": "secondary-sourced",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobtopgun/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not comparable",
@@ -15900,10 +16028,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobtopgun",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Language menu lists only Thai, pricing and posting pages read. The copyright names Super Resume Co., Ltd. but no headquarters country is stated; the home page says only that the platform is a leading Thai job platform, which describes its m",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15914,6 +16050,22 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jobtopgun.com/salesonline/th",
+     "title": "Sales online page, pricing",
+     "accessed": "2026-11-06",
+     "quote": "ซื้อครั้งแรกรับส่วนลด 79% เริ่มต้น 2,000 บาทเท่านั้น",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobtopgun.com/salesonline/th",
+     "title": "Sales online page, package features",
+     "accessed": "2026-11-06",
+     "quote": "ลงประกาศงาน บน App",
+     "quote_check": "ok"
     }
    ]
   },
@@ -15923,7 +16075,7 @@
    "url": "https://workeer.de/de",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "DE",
    "founded": "2015",
    "markets": "",
    "countries_served": [
@@ -15942,7 +16094,7 @@
    "partner_url": "",
    "ingest_methods": [],
    "notes": "",
-   "confidence": "secondary-sourced",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/workeer/",
    "indexable": false,
    "prominence": {
@@ -15957,7 +16109,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "workeer",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Address on Impressum page gives Berlin, Germany. Language menu shows Deutsch and Englisch. Preise page describes monthly packages with no minimum term. Prices are quoted from a summarizing fetch and should be checked against the raw page.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15968,6 +16127,22 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "existence",
+     "url": "https://workeer.de/de/impressum",
+     "title": "Impressum",
+     "accessed": "2026-11-06",
+     "quote": "workeer gGmbH Weinbergsweg 27 10119 Berlin Deutschland",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://workeer.de/de/preise",
+     "title": "Preise",
+     "accessed": "2026-11-06",
+     "quote": "Alle Preisangaben exkl. 19% USt",
+     "quote_check": "ok"
     }
    ]
   },
@@ -24832,7 +25007,7 @@
    "region": "North America",
    "niche": "applicant tracking system",
    "segment": "enterprise",
-   "parent": "",
+   "parent": "Oracle",
    "business_model": "",
    "api_status": "public-key",
    "api_docs_url": "https://docs.oracle.com/en/cloud/saas/talent-management/",
@@ -24842,9 +25017,9 @@
     "Public job feed"
    ],
    "notes": "Public requisition REST resources on career sites. Write API: OAuth. Reading jobs needs auth: partial.",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/oracle-recruiting/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not comparable",
@@ -24889,10 +25064,34 @@
      "quote": "Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "oracle-recruiting",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "ingest_methods",
+    "note": "Fetch returned 403; headless reader read the page. Footer copyright names Oracle. Page describes sourcing and partner integrations but does not state how job postings get into a job board.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.oracle.com/human-capital-management/recruiting/",
+     "title": "Oracle Recruiting Cloud (footer)",
+     "accessed": "2026-11-06",
+     "quote": "© 2026 Oracle Privacy / Do Not Sell My Info",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo",
+     "accessed": "2026-11-06",
+     "quote": "© 2026 Oracle",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "successfactors",
@@ -26387,9 +26586,9 @@
     "board_id": "randstad-digital",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "business_model;partner_program;ingest_methods",
-    "note": "Headquarters, parent and languages stated. No employer pricing or partner program found.",
-    "method": "browser"
+    "fields_not_found": "founded;partner_program",
+    "note": "Language menu shows en, fr, de. About page and home page do not state a founding year. Partnerships page has the heading our partnership ecosystem but does not state a partner program, so partner_program is recorded as unknown.",
+    "method": "fetch"
    },
    "owners": [
     {
@@ -26426,6 +26625,14 @@
      "title": "About",
      "accessed": "2026-11-06",
      "quote": "Backed by the global scale and expertise of Randstad",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.randstaddigital.com/",
+     "title": "Language menu",
+     "accessed": "2026-11-06",
+     "quote": "en, fr, de",
      "quote_check": "ok"
     }
    ]

@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "higheredjobs",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "founded",
+  "note": "Home page and /about both return status 200 with an empty body from the fetch reader and the headless browser reader, so no text could be read or quoted.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": []

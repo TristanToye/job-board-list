@@ -1,48 +1,193 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 7,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 7,
+ "boards": [
+  {
+   "name": "Workeer",
+   "url": "https://workeer.de/de",
+   "hq_country": "DE",
+   "languages": {
+    "primary_language": "de",
+    "languages_supported": [
+     "de",
+     "en"
+    ]
+   },
+   "business_model": "subscription",
+   "sources": [
     {
-      "name": "Workeer",
-      "url": "https://workeer.de/de",
-      "hq_country": "DE",
-      "languages": {"primary_language": "de", "languages_supported": ["de", "en"]},
-      "business_model": "subscription",
-      "sources": [
-        {"field": "hq_country", "url": "https://workeer.de/de/impressum", "title": "Impressum", "quote": "workeer gGmbH Weinbergsweg 27 10119 Berlin Deutschland"},
-        {"field": "languages", "url": "https://workeer.de/de", "title": "Language menu", "quote": "Deutsch and Englisch"},
-        {"field": "business_model", "url": "https://workeer.de/de/preise", "title": "Preise", "quote": "Alle Preisangaben exkl. 19% USt"},
-        {"field": "business_model", "url": "https://workeer.de/de/preise", "title": "Preise", "quote": "Nein, die Pakete können zum Ende jedes Abrechnungszeitraums gekündigt werden."}
-      ]
+     "field": "hq_country",
+     "url": "https://workeer.de/de/impressum",
+     "title": "Impressum",
+     "quote": "workeer gGmbH Weinbergsweg 27 10119 Berlin Deutschland",
+     "check": "ok"
     },
     {
-      "name": "Randstad Digital",
-      "url": "https://www.randstaddigital.com/",
-      "languages": {"primary_language": "en", "languages_supported": ["en", "fr", "de"]},
-      "partner_program": "unknown",
-      "partner_url": "https://www.randstaddigital.com/about/partnerships/",
-      "sources": [
-        {"field": "languages", "url": "https://www.randstaddigital.com/", "title": "Language menu", "quote": "en, fr, de"}
-      ]
+     "field": "languages",
+     "url": "https://workeer.de/de",
+     "title": "Language menu",
+     "quote": "Deutsch and Englisch",
+     "check": "mismatch"
+    },
+    {
+     "field": "business_model",
+     "url": "https://workeer.de/de/preise",
+     "title": "Preise",
+     "quote": "Alle Preisangaben exkl. 19% USt",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://workeer.de/de/preise",
+     "title": "Preise",
+     "quote": "Nein, die Pakete können zum Ende jedes Abrechnungszeitraums gekündigt werden.",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Workeer", "url": "https://workeer.de/de", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Address on Impressum page gives Berlin, Germany. Language menu shows Deutsch and Englisch. Preise page describes monthly packages with no minimum term. Prices are quoted from a summarizing fetch and should be checked against the raw page."},
-    {"name": "Randstad Digital", "url": "https://www.randstaddigital.com/", "outcome": "partially-verified", "fields_not_found": ["founded", "partner_program"], "method": "fetch", "note": "Language menu shows en, fr, de. About page and home page do not state a founding year. Partnerships page has the heading our partnership ecosystem but does not state a partner program, so partner_program is recorded as unknown."},
-    {"name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)", "url": "https://www.comunidad.madrid/servicios/empleo", "outcome": "partially-verified", "fields_not_found": ["hq_country", "api_status"], "method": "fetch", "note": "Institucion page states Sede del Gobierno de la Comunidad de Madrid but no country is stated verbatim. Datos abiertos page has no API or key text and links to a catalog on datos.comunidad.madrid, which is outside the entry domain and was not used. First fetch of institucion returned HTTP 503; retry succeeded."},
-    {"name": "51job", "url": "https://www.51job.com", "outcome": "not-stated", "fields_not_found": ["ingest_methods"], "method": "fetch", "note": "ehire.51job.com is a login page for an enterprise recruitment platform with no text on how employers post jobs or connect feeds. Main site has only a nav link labelled 我要招人 and no posting method text."}
-  ],
-  "attempts": [
-    {"name": "Workeer", "field": "hq_country", "outcome": "found", "pages": ["https://workeer.de/de/impressum"]},
-    {"name": "Workeer", "field": "languages", "outcome": "found", "pages": ["https://workeer.de/de", "https://workeer.de/en"]},
-    {"name": "Workeer", "field": "business_model", "outcome": "found", "pages": ["https://workeer.de/de/preise"]},
-    {"name": "Randstad Digital", "field": "founded", "outcome": "not-found", "pages": ["https://www.randstaddigital.com/about/", "https://www.randstaddigital.com/"]},
-    {"name": "Randstad Digital", "field": "languages", "outcome": "found", "pages": ["https://www.randstaddigital.com/"]},
-    {"name": "Randstad Digital", "field": "partner_program", "outcome": "not-found", "pages": ["https://www.randstaddigital.com/about/partnerships/"]},
-    {"name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.comunidad.madrid/gobierno/institucion"]},
-    {"name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)", "field": "api_status", "outcome": "not-found", "pages": ["https://www.comunidad.madrid/gobierno/datos-abiertos"]},
-    {"name": "51job", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://ehire.51job.com/", "https://www.51job.com"]}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Randstad Digital",
+   "url": "https://www.randstaddigital.com/",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en",
+     "fr",
+     "de"
+    ]
+   },
+   "partner_program": "unknown",
+   "partner_url": "https://www.randstaddigital.com/about/partnerships/",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.randstaddigital.com/",
+     "title": "Language menu",
+     "quote": "en, fr, de",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Workeer",
+   "url": "https://workeer.de/de",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Address on Impressum page gives Berlin, Germany. Language menu shows Deutsch and Englisch. Preise page describes monthly packages with no minimum term. Prices are quoted from a summarizing fetch and should be checked against the raw page."
+  },
+  {
+   "name": "Randstad Digital",
+   "url": "https://www.randstaddigital.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Language menu shows en, fr, de. About page and home page do not state a founding year. Partnerships page has the heading our partnership ecosystem but does not state a partner program, so partner_program is recorded as unknown."
+  },
+  {
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "api_status"
+   ],
+   "method": "fetch",
+   "note": "Institucion page states Sede del Gobierno de la Comunidad de Madrid but no country is stated verbatim. Datos abiertos page has no API or key text and links to a catalog on datos.comunidad.madrid, which is outside the entry domain and was not used. First fetch of institucion returned HTTP 503; retry succeeded."
+  },
+  {
+   "name": "51job",
+   "url": "https://www.51job.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "ehire.51job.com is a login page for an enterprise recruitment platform with no text on how employers post jobs or connect feeds. Main site has only a nav link labelled 我要招人 and no posting method text."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Workeer",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://workeer.de/de/impressum"
+   ]
+  },
+  {
+   "name": "Workeer",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://workeer.de/de",
+    "https://workeer.de/en"
+   ]
+  },
+  {
+   "name": "Workeer",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://workeer.de/de/preise"
+   ]
+  },
+  {
+   "name": "Randstad Digital",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.randstaddigital.com/about/",
+    "https://www.randstaddigital.com/"
+   ]
+  },
+  {
+   "name": "Randstad Digital",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.randstaddigital.com/"
+   ]
+  },
+  {
+   "name": "Randstad Digital",
+   "field": "partner_program",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.randstaddigital.com/about/partnerships/"
+   ]
+  },
+  {
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.comunidad.madrid/gobierno/institucion"
+   ]
+  },
+  {
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "field": "api_status",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.comunidad.madrid/gobierno/datos-abiertos"
+   ]
+  },
+  {
+   "name": "51job",
+   "field": "ingest_methods",
+   "outcome": "not-found",
+   "pages": [
+    "https://ehire.51job.com/",
+    "https://www.51job.com"
+   ]
+  }
+ ],
+ "blocked": []
 }

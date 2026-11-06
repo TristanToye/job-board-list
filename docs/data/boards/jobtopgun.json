@@ -16,16 +16,18 @@
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "Paid packages starting from 2,000 baht, with paid credits to reveal candidate contact details",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
+ "ingest_methods": [
+  "manual posting"
+ ],
  "notes": "",
- "confidence": "secondary-sourced",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobtopgun/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -35,10 +37,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobtopgun",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country",
+  "note": "Language menu lists only Thai, pricing and posting pages read. The copyright names Super Resume Co., Ltd. but no headquarters country is stated; the home page says only that the platform is a leading Thai job platform, which describes its m",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +59,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.jobtopgun.com/salesonline/th",
+   "title": "Sales online page, pricing",
+   "accessed": "2026-11-06",
+   "quote": "ซื้อครั้งแรกรับส่วนลด 79% เริ่มต้น 2,000 บาทเท่านั้น",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobtopgun.com/salesonline/th",
+   "title": "Sales online page, package features",
+   "accessed": "2026-11-06",
+   "quote": "ลงประกาศงาน บน App",
+   "quote_check": "ok"
   }
  ]
 }

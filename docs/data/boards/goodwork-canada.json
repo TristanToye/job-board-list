@@ -17,17 +17,19 @@
  "region": "North America",
  "niche": "environmental and green jobs",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "People and Planet",
+ "business_model": "per post, sliding fee from $100 to $500 on an honour system",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
+ "ingest_methods": [
+  "manual posting"
+ ],
  "notes": "Describes itself as Canada's green job site since 2001, per the directory. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
- "confidence": "listed-only",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/goodwork-canada/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -38,10 +40,18 @@
  },
  "tags": [
   "environment",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "goodwork-canada",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded",
+  "note": "Parent, business model and posting method stated. About page gives only 'Since 2001' and no founding statement; no headquarters stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +62,38 @@
    "accessed": "2026-11-05",
    "quote": "",
    "quote_check": ""
+  },
+  {
+   "field": "parent",
+   "url": "https://goodwork.ca/about",
+   "title": "About",
+   "accessed": "2026-11-06",
+   "quote": "Copyright © 2001-2026 People and Planet",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://goodwork.ca/post-a-job",
+   "title": "Post a Job",
+   "accessed": "2026-11-06",
+   "quote": "We request a small fee to help you fill this role with the best possible person.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://goodwork.ca/rates",
+   "title": "Suggested rates",
+   "accessed": "2026-11-06",
+   "quote": "Junior to intermediate positions, summer jobs, grassroots",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://goodwork.ca/post-a-job",
+   "title": "Post a Job",
+   "accessed": "2026-11-06",
+   "quote": "Our staff personally attend to each posting",
+   "quote_check": "ok"
   }
  ]
 }

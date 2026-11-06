@@ -46,9 +46,9 @@
   "board_id": "lavoro-gov-it-ministry-of-labour",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage names the Ministry of Labour and Social Policies as publisher; no language selector, pricing, API or partner program statement found. /about returned HTTP 404.",
-  "method": "fetch"
+  "fields_not_found": "founded;ingest_methods",
+  "note": "Country inferred from the Italian government link on the home page. Ministry history page read with fetch: no founding date or seat. No job posting or ingest information on the pages read. Cliclavoro (http://www.cliclavoro.gov.it/) was not ",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

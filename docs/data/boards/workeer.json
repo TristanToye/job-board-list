@@ -4,7 +4,7 @@
  "url": "https://workeer.de/de",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "DE",
  "founded": "2015",
  "markets": "",
  "countries_served": [
@@ -23,7 +23,7 @@
  "partner_url": "",
  "ingest_methods": [],
  "notes": "",
- "confidence": "secondary-sourced",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/workeer/",
  "indexable": false,
  "prominence": {
@@ -38,7 +38,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "workeer",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Address on Impressum page gives Berlin, Germany. Language menu shows Deutsch and Englisch. Preise page describes monthly packages with no minimum term. Prices are quoted from a summarizing fetch and should be checked against the raw page.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "existence",
+   "url": "https://workeer.de/de/impressum",
+   "title": "Impressum",
+   "accessed": "2026-11-06",
+   "quote": "workeer gGmbH Weinbergsweg 27 10119 Berlin Deutschland",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://workeer.de/de/preise",
+   "title": "Preise",
+   "accessed": "2026-11-06",
+   "quote": "Alle Preisangaben exkl. 19% USt",
+   "quote_check": "ok"
   }
  ]
 }

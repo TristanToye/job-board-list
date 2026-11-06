@@ -25,7 +25,7 @@
  "partner_url": "",
  "ingest_methods": [],
  "notes": "Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
- "confidence": "listed-only",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/tesl-canada/",
  "indexable": false,
  "prominence": {
@@ -42,7 +42,14 @@
   "teaching-esl"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "tesl-canada",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded",
+  "note": "Ingest by email and the Fredericton, NB mailing address verified on jobs.html. Founding year not stated on about-us.html or jobs.html; the only year is a 2015 copyright line, which is not a founding date.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -53,6 +60,22 @@
    "accessed": "2026-11-05",
    "quote": "",
    "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://www.tesl.ca/jobs.html",
+   "title": "Jobs (footer)",
+   "accessed": "2026-11-06",
+   "quote": "TESL Canada PO Box 30001, RPO Prospect Plaza Fredericton, NB E3B 0H8",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.tesl.ca/jobs.html",
+   "title": "Jobs",
+   "accessed": "2026-11-06",
+   "quote": "To post a position on the TESL Canada Job Board, please email admin@tesl.ca.",
+   "quote_check": "ok"
   }
  ]
 }

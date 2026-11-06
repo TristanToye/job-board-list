@@ -16,7 +16,7 @@
  "region": "Latin America",
  "niche": "general",
  "segment": "",
- "parent": "",
+ "parent": "DGNET LTD.",
  "business_model": "subscription/freemium",
  "api_status": "unknown",
  "api_docs_url": "",
@@ -24,9 +24,9 @@
  "partner_url": "",
  "ingest_methods": [],
  "notes": "Large LatAm footprint",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/computrabajo/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -42,8 +42,24 @@
   "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "computrabajo",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Legal notice on the entry's own domain names DGNET LTD. as the owner of the site.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "parent",
+   "url": "https://www.computrabajo.com/legal.html",
+   "title": "Aviso legal",
+   "accessed": "2026-11-06",
+   "quote": "DGNET LTD. es titular del siguiente sitio web: www.computrabajo.com",
+   "quote_check": "ok"
+  }
+ ]
 }

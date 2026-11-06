@@ -13,7 +13,7 @@
  "region": "North America",
  "niche": "applicant tracking system",
  "segment": "enterprise",
- "parent": "",
+ "parent": "Oracle",
  "business_model": "",
  "api_status": "public-key",
  "api_docs_url": "https://docs.oracle.com/en/cloud/saas/talent-management/",
@@ -23,9 +23,9 @@
   "Public job feed"
  ],
  "notes": "Public requisition REST resources on career sites. Write API: OAuth. Reading jobs needs auth: partial.",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/oracle-recruiting/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -70,8 +70,32 @@
    "quote": "Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "oracle-recruiting",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "ingest_methods",
+  "note": "Fetch returned 403; headless reader read the page. Footer copyright names Oracle. Page describes sourcing and partner integrations but does not state how job postings get into a job board.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "parent",
+   "url": "https://www.oracle.com/human-capital-management/recruiting/",
+   "title": "Oracle Recruiting Cloud (footer)",
+   "accessed": "2026-11-06",
+   "quote": "© 2026 Oracle Privacy / Do Not Sell My Info",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "title": "Taleo",
+   "accessed": "2026-11-06",
+   "quote": "© 2026 Oracle",
+   "quote_check": "ok"
+  }
+ ]
 }

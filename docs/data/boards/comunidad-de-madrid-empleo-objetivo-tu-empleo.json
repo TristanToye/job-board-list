@@ -44,10 +44,10 @@
  "review": {
   "board_id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "The page states the Objetivo: tu empleo initiative is a Comunidad de Madrid initiative. Quote is in Spanish, copied from the raw page text.",
-  "method": "mixed"
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;api_status",
+  "note": "Institucion page states Sede del Gobierno de la Comunidad de Madrid but no country is stated verbatim. Datos abiertos page has no API or key text and links to a catalog on datos.comunidad.madrid, which is outside the entry domain and was no",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],

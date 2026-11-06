@@ -1414,7 +1414,7 @@
   "region": "Latin America",
   "niche": "general",
   "segment": "",
-  "parent": "",
+  "parent": "DGNET LTD.",
   "business_model": "subscription/freemium",
   "api_status": "unknown",
   "api_docs_url": "",
@@ -1422,7 +1422,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Large LatAm footprint",
-  "confidence": "seed-unverified"
+  "confidence": "partially-verified"
  },
  {
   "id": "occ-mundial",
@@ -1506,7 +1506,7 @@
   "domains": "",
   "type": "board",
   "hq_country": "BR",
-  "founded": "",
+  "founded": "1999",
   "markets": "BR",
   "countries_served": "BR",
   "primary_language": "pt",
@@ -2522,7 +2522,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "listed-only"
+  "confidence": "partially-verified"
  },
  {
   "id": "wow-jobs",
@@ -2697,7 +2697,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "International ESL and EFL teacher community with a job center. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "listed-only"
+  "confidence": "partially-verified"
  },
  {
   "id": "goodwork-canada",
@@ -2714,15 +2714,15 @@
   "region": "North America",
   "niche": "environmental and green jobs",
   "segment": "",
-  "parent": "",
-  "business_model": "",
+  "parent": "People and Planet",
+  "business_model": "per post, sliding fee from $100 to $500 on an honour system",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "",
+  "ingest_methods": "manual posting",
   "notes": "Describes itself as Canada's green job site since 2001, per the directory. Listed by Job Junction, a third-party directory. Headquarters, ownership and API details are not stated and not yet checked.",
-  "confidence": "listed-only"
+  "confidence": "partially-verified"
  },
  {
   "id": "iitjobs",
@@ -5090,14 +5090,14 @@
   "niche": "",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "Paid packages starting from 2,000 baht, with paid credits to reveal candidate contact details",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "",
+  "ingest_methods": "manual posting",
   "notes": "",
-  "confidence": "secondary-sourced"
+  "confidence": "partially-verified"
  },
  {
   "id": "workeer",
@@ -5105,7 +5105,7 @@
   "url": "https://workeer.de/de",
   "domains": "",
   "type": "board",
-  "hq_country": "",
+  "hq_country": "DE",
   "founded": "2015",
   "markets": "",
   "countries_served": "DE",
@@ -5122,7 +5122,7 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "",
-  "confidence": "secondary-sourced"
+  "confidence": "partially-verified"
  },
  {
   "id": "hanshek",
@@ -8014,7 +8014,7 @@
   "region": "North America",
   "niche": "applicant tracking system",
   "segment": "enterprise",
-  "parent": "",
+  "parent": "Oracle",
   "business_model": "",
   "api_status": "public-key",
   "api_docs_url": "https://docs.oracle.com/en/cloud/saas/talent-management/",
@@ -8022,7 +8022,7 @@
   "partner_url": "",
   "ingest_methods": "Public job feed",
   "notes": "Public requisition REST resources on career sites. Write API: OAuth. Reading jobs needs auth: partial.",
-  "confidence": "seed-unverified"
+  "confidence": "partially-verified"
  },
  {
   "id": "successfactors",

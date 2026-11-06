@@ -51,9 +51,9 @@
  "review": {
   "board_id": "sepe-servicio-p-blico-de-empleo-estatal",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage footer and logo state the operator and language list; no employer pricing, public API or partner program found on pages read.",
+  "outcome": "blocked",
+  "fields_not_found": "hq_country;founded",
+  "note": "The 'Qué es el SEPE' page states neither founding year nor headquarters. The Empléate portal returned 502 to fetch and to the headless reader (blocked), so ingest_methods could not be checked.",
   "method": "fetch"
  },
  "owners": [],

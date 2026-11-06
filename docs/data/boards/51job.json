@@ -43,10 +43,10 @@
  "review": {
   "board_id": "51job",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "The About Us page returned only the title in fetch, so the headless reader was used once. Founded 1998 found in the raw text. Partner program was not asked for.",
-  "method": "browser"
+  "outcome": "not-stated",
+  "fields_not_found": "ingest_methods",
+  "note": "ehire.51job.com is a login page for an enterprise recruitment platform with no text on how employers post jobs or connect feeds. Main site has only a nav link labelled 我要招人 and no posting method text.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
