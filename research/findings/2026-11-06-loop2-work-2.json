@@ -1,0 +1,86 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 2,
+  "boards": [
+    {
+      "name": "First Advantage", "url": "https://fadv.com",
+      "api_status": "unknown",
+      "sources": [
+        {"field": "founded", "url": "https://fadv.com/about-us/", "title": "About First Advantage | Global Screening Leader", "quote": "Founded in 2003,"},
+        {"field": "languages", "url": "https://fadv.com", "title": "Global Background Checks & Screenings | First Advantage", "quote": "Choose Your Region & Language."}
+      ]
+    },
+    {
+      "name": "Russell Reynolds Associates", "url": "https://www.russellreynolds.com",
+      "sources": [
+        {"field": "founded", "url": "https://www.russellreynolds.com/en/about/who-we-are/history", "title": "Our History | Russell Reynolds Associates", "quote": "Former banker Russell S. Reynolds, Jr. founds the firm in New York"},
+        {"field": "languages", "url": "https://www.russellreynolds.com/en/locations", "title": "Office Locations | Russell Reynolds Associates", "quote": "English 中文(中国) 日本語 (日本)"}
+      ]
+    },
+    {
+      "name": "Novoresume", "url": "https://www.novoresume.com",
+      "sources": [
+        {"field": "founded", "url": "https://novoresume.com/about-us", "title": "Find out the story behind Novorésumé team | Novorésumé", "quote": "Novorésumé began in 2014 when Andrei, Cristian, and Stefan noticed a common problem among several of their contacts."},
+        {"field": "languages", "url": "https://novoresume.com", "title": "Free Online Resume Builder | Used by 18M+ Job Seekers", "quote": "Dansk, Deutsch, English UK, English US, Español"},
+        {"field": "business_model", "url": "https://novoresume.com", "title": "Free Online Resume Builder | Used by 18M+ Job Seekers", "quote": "The core builder is free: create, edit, and download your resume with no credit card and no trial period."},
+        {"field": "business_model", "url": "https://novoresume.com/pricing", "title": "Pricing Plans | Novorésumé", "quote": "One payment. Nothing to cancel."}
+      ]
+    },
+    {
+      "name": "Revelio Labs", "url": "https://www.reveliolabs.com",
+      "sources": [
+        {"field": "business_model", "url": "https://www.reveliolabs.com/pricing", "title": "Workforce Data Pricing | Revelio Labs", "quote": "Revelio Terminal starts at $1,250 per month."}
+      ]
+    },
+    {
+      "name": "Kelly Services", "url": "https://www.kellyservices.com",
+      "sources": [
+        {"field": "founded", "url": "https://www.kellyservices.com/about-kelly/our-story/", "title": "Our story | Kelly Services", "quote": "1946: William Russell Kelly created the staffing industry, founding Russell Kelly Office Service in Detroit, Michigan."}
+      ]
+    },
+    {
+      "name": "Pinpoint", "url": "https://www.pinpointhq.com",
+      "sources": []
+    },
+    {
+      "name": "Harver", "url": "https://harver.com",
+      "sources": [
+        {"field": "founded", "url": "https://harver.com/about-us/", "title": "About Harver | Science-Backed Talent Decision Platform", "quote": "Founded in 2015, Harver empowers talent teams to make better-informed hiring decisions using science and data."}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "First Advantage", "url": "https://fadv.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status"], "method": "fetch", "note": "Founded 2003 and region/language menu verified. HQ and parent not stated on About Us or home page. API page (/api/) describes docs and a sandbox but states no access rule; /developers/ returned 404. api_status left unknown. Partner page (/partners/) states a partner program ('Partner with First Advantage so we can shape the future of work together.'); partner_program was not in the requested fields so it is not recorded in boards. Primary language inferred as English from the default English menu entry; not separately quoted."},
+    {"name": "Russell Reynolds Associates", "url": "https://www.russellreynolds.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "partner_program"], "method": "fetch", "note": "Founded 1969: the year appears as the timeline heading above the quoted sentence, so the quote does not itself contain the year; check the history page. Languages from the language menu: English, Chinese, Japanese. HQ not labelled; the only office block is 'OUR NEW YORK OFFICE' at 277 Park Avenue, New York, NY 10172, USA, so hq_country not recorded. Partnerships page describes collaborations (Hogan, UN Global Compact, 30% Club) but no partner program or sign-up."},
+    {"name": "Novoresume", "url": "https://www.novoresume.com", "outcome": "partially-verified", "fields_not_found": [], "method": "fetch", "note": "Founded 2014 and language menu verified. Business model: the core builder is free and paid Pro is a one-time pass for job seekers; no employer pricing is shown, so this is a job seeker model, not how employers pay. Homepage FAQ calls it 'a Danish company' (not recorded, hq not requested). Media kit page had no pricing."},
+    {"name": "Revelio Labs", "url": "https://www.reveliolabs.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded"], "method": "fetch", "note": "Business model from pricing page: Terminal starts at $1,250 per month, with an annual commitment (annual commitment is from the FAQ and not separately quoted), plus quote-based enterprise data and API plans and a free Terminal trial. Company page and home page state no founding year, HQ or parent; footer shows only the copyright line."},
+    {"name": "Kelly Services", "url": "https://www.kellyservices.com", "outcome": "partially-verified", "fields_not_found": ["hq_country"], "method": "mixed", "note": "Founded 1946 verified from Our story page. Our story page says 'Headquartered in Troy, Michigan' but states no country, so hq_country is not recorded. About Kelly page gives no HQ. Investor relations page returned 403 on fetch and browser; it was not bypassed."},
+    {"name": "Pinpoint", "url": "https://www.pinpointhq.com", "outcome": "not-stated", "fields_not_found": ["business_model"], "method": "fetch", "note": "Request-pricing page says pricing is a custom quote after a call ('provide you with an accurate price'); no payment model (subscription, per post, free) is stated. /pricing returned 404. News page has no HQ, founding or parent facts."},
+    {"name": "Harver", "url": "https://harver.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Founded 2015 verified from About Us. Only founded was requested; HQ and parent were checked on the newsroom and home pages and are not stated. 'Outmatch is now part of Harver' describes an acquisition, not a parent."}
+  ],
+  "attempts": [
+    {"name": "First Advantage", "field": "hq_country", "outcome": "not-found", "pages": ["https://fadv.com/about-us/", "https://fadv.com"]},
+    {"name": "First Advantage", "field": "founded", "outcome": "found", "pages": ["https://fadv.com/about-us/"]},
+    {"name": "First Advantage", "field": "parent", "outcome": "not-found", "pages": ["https://fadv.com/about-us/", "https://fadv.com"]},
+    {"name": "First Advantage", "field": "languages", "outcome": "found", "pages": ["https://fadv.com/about-us/", "https://fadv.com"]},
+    {"name": "First Advantage", "field": "api_status", "outcome": "not-found", "pages": ["https://fadv.com/api/", "https://fadv.com/partners/"]},
+    {"name": "Russell Reynolds Associates", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.russellreynolds.com/en/about/who-we-are/history", "https://www.russellreynolds.com/en/about/who-we-are", "https://www.russellreynolds.com/en/locations"]},
+    {"name": "Russell Reynolds Associates", "field": "founded", "outcome": "found", "pages": ["https://www.russellreynolds.com/en/about/who-we-are/history"]},
+    {"name": "Russell Reynolds Associates", "field": "languages", "outcome": "found", "pages": ["https://www.russellreynolds.com/en/locations"]},
+    {"name": "Russell Reynolds Associates", "field": "partner_program", "outcome": "not-found", "pages": ["https://www.russellreynolds.com/en/about/who-we-are/partnerships"]},
+    {"name": "Novoresume", "field": "founded", "outcome": "found", "pages": ["https://novoresume.com/about-us"]},
+    {"name": "Novoresume", "field": "languages", "outcome": "found", "pages": ["https://novoresume.com"]},
+    {"name": "Novoresume", "field": "business_model", "outcome": "found", "pages": ["https://novoresume.com/pricing", "https://novoresume.com", "https://novoresume.com/page/media-kit"]},
+    {"name": "Revelio Labs", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.reveliolabs.com/company", "https://www.reveliolabs.com"]},
+    {"name": "Revelio Labs", "field": "founded", "outcome": "not-found", "pages": ["https://www.reveliolabs.com/company", "https://www.reveliolabs.com"]},
+    {"name": "Revelio Labs", "field": "business_model", "outcome": "found", "pages": ["https://www.reveliolabs.com/pricing"]},
+    {"name": "Kelly Services", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.kellyservices.com/about-kelly/our-story/", "https://www.kellyservices.com/about-kelly/"]},
+    {"name": "Kelly Services", "field": "founded", "outcome": "found", "pages": ["https://www.kellyservices.com/about-kelly/our-story/"]},
+    {"name": "Pinpoint", "field": "business_model", "outcome": "not-found", "pages": ["https://www.pinpointhq.com/request-pricing"]},
+    {"name": "Harver", "field": "founded", "outcome": "found", "pages": ["https://harver.com/about-us/"]}
+  ],
+  "blocked": [
+    {"name": "Kelly Services", "url": "https://ir.kellyservices.com/investor-relations/", "note": "403 Access Denied on fetch and on one browse.js run; not retried or bypassed."}
+  ]
+}

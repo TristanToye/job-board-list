@@ -1,0 +1,99 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 2,
+  "boards": [
+    {
+      "name": "Codeable", "url": "https://codeable.io",
+      "hq_country": "DK",
+      "business_model": "Client deposits project cost into escrow; 17.5% fixed fee; hourly rate $80-$120 USD",
+      "partner_program": "yes", "partner_url": "https://www.codeable.io/partner-program/",
+      "sources": [
+        {"field": "hq_country", "url": "https://www.codeable.io/team/", "title": "Team", "quote": "Codeable ApS, Holmegaardsvej 21, 2920 Charlottenlund."},
+        {"field": "hq_country", "url": "https://www.codeable.io/team/", "title": "Team", "quote": "Distributed globally, incorporated in Denmark"},
+        {"field": "business_model", "url": "https://www.codeable.io/pricing/", "title": "Pricing", "quote": "You deposit the total cost of your project into a secure escrow system before the project work starts."},
+        {"field": "business_model", "url": "https://www.codeable.io/pricing/", "title": "Pricing", "quote": "17.5% Fixed Fee Covers:"},
+        {"field": "business_model", "url": "https://www.codeable.io/pricing/", "title": "Pricing", "quote": "based on our $80–$120 USD hourly rate"},
+        {"field": "partner_program", "url": "https://www.codeable.io/partner-program/", "title": "Partner program", "quote": "Earn commissions or offer a discount for new clients you refer to us."}
+      ]
+    },
+    {
+      "name": "AlmaLaurea", "url": "https://www.almalaurea.it/",
+      "hq_country": "IT",
+      "languages": {"primary_language": "it", "languages_supported": ["it", "en"]},
+      "sources": [
+        {"field": "hq_country", "url": "https://www.almalaurea.it/chi-siamo/contatti", "title": "Contatti", "quote": "Indirizzo: Viale Masini 36, 40126 Bologna - Italia"},
+        {"field": "languages", "url": "https://www.almalaurea.it/chi-siamo/contatti", "title": "Contatti", "quote": "IT"},
+        {"field": "languages", "url": "https://www.almalaurea.it/chi-siamo/contatti", "title": "Contatti", "quote": "EN"}
+      ]
+    },
+    {
+      "name": "Greenhouse", "url": "https://www.greenhouse.com",
+      "languages": {"primary_language": "en", "languages_supported": ["en", "de"]},
+      "business_model": "Custom-priced plans based on hiring needs; no public prices shown",
+      "sources": [
+        {"field": "languages", "url": "https://www.greenhouse.com/de", "title": "Deutsch page language menu", "quote": "English (US)"},
+        {"field": "languages", "url": "https://www.greenhouse.com/uk", "title": "UK page language menu", "quote": "English (UK)"},
+        {"field": "languages", "url": "https://www.greenhouse.com/de", "title": "Deutsch page language menu", "quote": "Deutsch"},
+        {"field": "business_model", "url": "https://www.greenhouse.com/pricing", "title": "Pricing", "quote": "Greenhouse pricing is customized based on your company’s hiring needs."}
+      ]
+    },
+    {
+      "name": "Beamery", "url": "https://beamery.com",
+      "founded": "2013",
+      "sources": [
+        {"field": "founded", "url": "https://beamery.com/about-us/", "title": "About us", "quote": "Beamery was founded in a London garage in 2013 by brothers Abakar and Sultan Saidov, and Michael Paterson"}
+      ]
+    },
+    {
+      "name": "Egon Zehnder", "url": "https://www.egonzehnder.com",
+      "languages": {"primary_language": "en", "languages_supported": ["en", "de", "zh", "ja"]},
+      "sources": [
+        {"field": "languages", "url": "https://www.egonzehnder.com/newsroom", "title": "Newsroom region menu", "quote": "English"},
+        {"field": "languages", "url": "https://www.egonzehnder.com/de", "title": "Region menu", "quote": "Deutsch"},
+        {"field": "languages", "url": "https://www.egonzehnder.com/cn", "title": "Region menu", "quote": "中文"},
+        {"field": "languages", "url": "https://www.egonzehnder.com/cn", "title": "Region menu", "quote": "日本語"},
+        {"field": "languages", "url": "https://www.egonzehnder.com/newsroom", "title": "Newsroom", "quote": "As the world’s preeminent leadership advisory Firm, we inspire leaders to navigate complex questions with human answers."}
+      ]
+    },
+    {
+      "name": "Ashby", "url": "https://www.ashbyhq.com",
+      "business_model": "Subscription plans (Foundations, Plus, Enterprise); Foundations shown at $400 per month for up to 100 employees; Plus and Enterprise by sales contact",
+      "sources": [
+        {"field": "business_model", "url": "https://www.ashbyhq.com/pricing", "title": "Pricing", "quote": "Our pricing is based on company size, usage, and commitment."},
+        {"field": "business_model", "url": "https://www.ashbyhq.com/pricing", "title": "Pricing", "quote": "Total $400 /Month"},
+        {"field": "business_model", "url": "https://www.ashbyhq.com/pricing", "title": "Pricing", "quote": "Up to 100 employees"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Codeable", "url": "https://codeable.io", "outcome": "partially-verified", "fields_not_found": ["founded"], "method": "fetch", "note": "HQ taken from the company address and incorporation line on /team/. The /story/ page gives a launch sequence (joined 2012, launched a year later) but no explicit founding year, so founded is not recorded."},
+    {"name": "AlmaLaurea", "url": "https://www.almalaurea.it/", "outcome": "partially-verified", "fields_not_found": ["founded", "business_model"], "method": "fetch", "note": "Head office in Bologna, Italy and IT/EN switcher verified. Services page states no pricing or payment model; Trasparenza names the consortium but no founding year."},
+    {"name": "Greenhouse", "url": "https://www.greenhouse.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Language menu verified on /de and /uk. Pricing is custom by plan with no public prices; the page does not use the word subscription."},
+    {"name": "TaskRabbit", "url": "https://www.taskrabbit.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "founded", "parent"], "method": "fetch", "note": "Read /about, /press, /blog/partner-lp/ and the homepage footer. None states founding year, HQ or parent. IKEA appears only as a furniture assembly partner."},
+    {"name": "Beamery", "url": "https://beamery.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent"], "method": "fetch", "note": "Founding year 2013 verified on /about-us/. Homepage footer gives copyright only. The London reference is the founding location, not a stated HQ."},
+    {"name": "Egon Zehnder", "url": "https://www.egonzehnder.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Region and language menu verified on /newsroom, /de, /cn with English, Deutsch, 中文, 日本語. Main page language is English."},
+    {"name": "Ashby", "url": "https://www.ashbyhq.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Pricing page verified: plan-based pricing with a $400 per month Foundations price and sales-led Enterprise pricing."}
+  ],
+  "attempts": [
+    {"name": "Codeable", "field": "hq_country", "outcome": "found", "pages": ["https://www.codeable.io/team/"]},
+    {"name": "Codeable", "field": "founded", "outcome": "not-found", "pages": ["https://www.codeable.io/story/", "https://www.codeable.io/partner-program/", "https://www.codeable.io/pricing/", "https://www.codeable.io/team/"]},
+    {"name": "Codeable", "field": "business_model", "outcome": "found", "pages": ["https://www.codeable.io/pricing/"]},
+    {"name": "Codeable", "field": "partner_program", "outcome": "found", "pages": ["https://www.codeable.io/partner-program/"]},
+    {"name": "AlmaLaurea", "field": "hq_country", "outcome": "found", "pages": ["https://www.almalaurea.it/chi-siamo/contatti"]},
+    {"name": "AlmaLaurea", "field": "founded", "outcome": "not-found", "pages": ["https://www.almalaurea.it/chi-siamo/contatti", "https://www.almalaurea.it/trasparenza"]},
+    {"name": "AlmaLaurea", "field": "languages", "outcome": "found", "pages": ["https://www.almalaurea.it/chi-siamo/contatti", "https://www.almalaurea.it/trasparenza"]},
+    {"name": "AlmaLaurea", "field": "business_model", "outcome": "not-found", "pages": ["https://www.almalaurea.it/servizi-per-le-imprese"]},
+    {"name": "Greenhouse", "field": "languages", "outcome": "found", "pages": ["https://www.greenhouse.com/de", "https://www.greenhouse.com/uk"]},
+    {"name": "Greenhouse", "field": "business_model", "outcome": "found", "pages": ["https://www.greenhouse.com/pricing"]},
+    {"name": "TaskRabbit", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.taskrabbit.com/about", "https://www.taskrabbit.com/press", "https://www.taskrabbit.com/blog/partner-lp/", "https://www.taskrabbit.com"]},
+    {"name": "TaskRabbit", "field": "founded", "outcome": "not-found", "pages": ["https://www.taskrabbit.com/about", "https://www.taskrabbit.com/press", "https://www.taskrabbit.com/blog/partner-lp/", "https://www.taskrabbit.com"]},
+    {"name": "TaskRabbit", "field": "parent", "outcome": "not-found", "pages": ["https://www.taskrabbit.com/about", "https://www.taskrabbit.com/press", "https://www.taskrabbit.com/blog/partner-lp/", "https://www.taskrabbit.com"]},
+    {"name": "Beamery", "field": "hq_country", "outcome": "not-found", "pages": ["https://beamery.com/about-us/", "https://beamery.com"]},
+    {"name": "Beamery", "field": "founded", "outcome": "found", "pages": ["https://beamery.com/about-us/"]},
+    {"name": "Beamery", "field": "parent", "outcome": "not-found", "pages": ["https://beamery.com/about-us/", "https://beamery.com"]},
+    {"name": "Egon Zehnder", "field": "languages", "outcome": "found", "pages": ["https://www.egonzehnder.com/newsroom", "https://www.egonzehnder.com/de", "https://www.egonzehnder.com/cn"]},
+    {"name": "Ashby", "field": "business_model", "outcome": "found", "pages": ["https://www.ashbyhq.com/pricing"]}
+  ],
+  "blocked": []
+}
