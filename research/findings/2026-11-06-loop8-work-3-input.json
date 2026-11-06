@@ -1,0 +1,125 @@
+{
+ "round": 8,
+ "orders": [
+  {
+   "id": "turijobs",
+   "name": "Turijobs",
+   "url": "https://www.turijobs.com/",
+   "fields": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.turijobs.com/es-es/empresa/turijobs"
+   ],
+   "reason": "Headless reader text shows a footer with Quiénes somos, Empresas and Precios, and a language switch ES and ENGLISH, so languages is confirmed on the site. The company profile page is the likely place "
+  },
+  {
+   "id": "kickresume",
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "fields": [
+    "hq_country",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.kickresume.com/en/about/",
+    "https://www.kickresume.com/en/press/"
+   ],
+   "reason": "About link and Media/Press link in the footer; language menu seen (English, Slovensky, Espanol, Deutsch, Portugues, Italiano) but the options are # placeholders. Pricing and press pages were already r"
+  },
+  {
+   "id": "prospects",
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "fields": [
+    "business_model",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "business_model": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://prospects.ac.uk/post-a-job",
+    "https://prospects.ac.uk/postgraduate-recruiters"
+   ],
+   "reason": "Homepage links Prices from £370 to the post-a-job page, so the employer pricing page is known and not yet read. The post-a-job page may also show how employers submit vacancies. About and the press of"
+  },
+  {
+   "id": "kelly-services",
+   "name": "Kelly Services",
+   "url": "https://www.kellyservices.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://www.kellyservices.com/about-kelly/leadership/?hsLang=en",
+    "https://ir.kellyservices.com/investor-relations/"
+   ],
+   "reason": "Our story page already gives 1946 for founded. Homepage has About, Leadership, Press and Investors links but no Developers, API or Partners link. The country selector links to Canada, Mexico and Puert"
+  },
+  {
+   "id": "egon-zehnder",
+   "name": "Egon Zehnder",
+   "url": "https://www.egonzehnder.com",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.egonzehnder.com/de",
+    "https://www.egonzehnder.com/cn",
+    "https://www.egonzehnder.com/jp"
+   ],
+   "reason": "Homepage language menu lists English, Deutsch, Chinese and Japanese with per-language URLs. No Developers, API, Pricing or partner program links; the Partners links are content partnerships (HBR, IMD,"
+  },
+  {
+   "id": "lightcast",
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "fields": [
+    "hq_country"
+   ],
+   "likelihood": {
+    "hq_country": "medium"
+   },
+   "try_pages": [
+    "https://lightcast.io/about/leadership",
+    "https://lightcast.io/contact-us"
+   ],
+   "reason": "The About page links to Leadership and Board, which was not tried before, and Contact Us, which was not tried either. Those are likely places for an office location. Homepage has a regional menu (US a"
+  },
+  {
+   "id": "pinpoint",
+   "name": "Pinpoint",
+   "url": "https://www.pinpointhq.com",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.pinpointhq.com/about-us",
+    "https://www.pinpointhq.com/news/"
+   ],
+   "reason": "About us is linked, but parent was never tried there. The newsroom is linked as a possible source. The pricing link is a request form already tried with no result. No language menu seen."
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "round": 8,
+ "orders": [
+  {
+   "id": "meinestadt-de",
+   "name": "meinestadt.de",
+   "url": "https://www.meinestadt.de",
+   "fields": [
+    "hq_country",
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "languages": "medium"
+   },
+   "try_pages": [
+    "https://unternehmen.meinestadt.de",
+    "https://www.meinestadt.de/unternehmen/b2b/werbemoeglichkeiten"
+   ],
+   "reason": "Footer links to the company site (unternehmen.meinestadt.de, Unternehmen / Über uns), which is likely to state headquarters and founding. Site content is German. No Developers, API or Partners links; "
+  },
+  {
+   "id": "japan-dev",
+   "name": "Japan Dev",
+   "url": "https://japan-dev.com/",
+   "fields": [
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://japan-dev.com/hire",
+    "https://japan-dev.com/about"
+   ],
+   "reason": "Footer For Employers section links to Post Jobs (/hire), which likely states posting terms. Language menu shows a Japanese option (?lang=jp). No Developers, API, Partners or pricing link seen."
+  },
+  {
+   "id": "99designs",
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "fields": [
+    "hq_country",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "partner_program": "high"
+   },
+   "try_pages": [
+    "https://www.99designs.com/affiliates",
+    "https://www.99designs.com/about/contact",
+    "https://www.99designs.com/about/press-releases"
+   ],
+   "reason": "Homepage links Affiliates and Featured partners, so partner_program is likely to be stated there. Contact Us was not tried for HQ. Press releases were not tried for founding. No Developers or API link"
+  },
+  {
+   "id": "russell-reynolds-associates",
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.russellreynolds.com/en/about/newsroom",
+    "https://www.russellreynolds.com/zh-CN",
+    "https://www.russellreynolds.com/ja-JP"
+   ],
+   "reason": "Homepage language menu lists English, 中文(中国) and 日本語 (日本), so languages is confirmed on the site. Partnerships was already tried and not found. No Developers, API or Pricing link appears. The newsroom"
+  },
+  {
+   "id": "harver",
+   "name": "Harver",
+   "url": "https://harver.com",
+   "fields": [
+    "parent",
+    "api_status"
+   ],
+   "likelihood": {
+    "parent": "medium",
+    "api_status": "medium"
+   },
+   "try_pages": [
+    "https://harver.com/about-us/",
+    "https://harver.com/integrations/"
+   ],
+   "reason": "About Us link was read for founded and hq, but parent was never tried there. The Integrations page is linked and may describe API access. No language menu, pricing or Developers link seen."
+  },
+  {
+   "id": "velvetjobs",
+   "name": "VelvetJobs",
+   "url": "https://www.velvetjobs.com",
+   "fields": [
+    "hq_country"
+   ],
+   "likelihood": {
+    "hq_country": "medium"
+   },
+   "try_pages": [
+    "https://www.velvetjobs.com/legal/terms_of_use",
+    "https://www.velvetjobs.com/about"
+   ],
+   "reason": "Homepage footer links to About, Support, Terms and Privacy. Terms of use usually name the legal operator and its location, which the About page did not give. No Developers, Partners or language link a"
+  }
+ ]
+}

@@ -140,3 +140,40 @@ round,board_id,flag
 7,daijob-com,"The page says the Daijob.com service was established in 1998. That is the service, not the company's founding year."
 7,randstad-digital,"Record gives parent Randstad, but the page read does not name a parent. The footer gives Randstad Digital B.V. (Diemen, NL) as registered address, which supports hq_country NL."
 7,sistema-nacional-de-emprego-sine,The review_history note in the record is cut off mid-sentence after 'The service'.
+8,kelly-services,founded: review marks it verified (1946) but recorded is empty; the record may need the fact filled in
+8,kelly-services,"languages: the menu seen is a country selector, not a language menu"
+8,revelio-labs,"api_status and business_model: review notes say found, but recorded is empty"
+8,revelio-labs,api_docs_url: null because /developers returned 404; the homepage links to a Data Dictionary subdomain instead
+8,manpowergroup,"hq_country and founded: fields_not_found lists them but the missing list does not, so the two lists disagree"
+8,manpowergroup,"languages: recorded en, but the site shows no language switcher URL to confirm it"
+8,personio,"homepage not read (HTTP 429), so the recorded facts were not re-checked this round"
+8,personio,"review_history is null and there are no attempts, so this entry has had no earlier check"
+8,russell-reynolds-associates,"languages: listed as missing, but recorded has languages_supported, so the record and missing list disagree"
+8,russell-reynolds-associates,partner_program: attempt marked not-found but review fields_not_found is empty
+8,lightcast,"review note is cut off mid-sentence after the analyst.lightcast.io link, so part of the earlier finding may be missing"
+8,topresume,parent: review marks it found (Career.io family on About) but recorded is empty; the record may need the fact filled in
+8,topresume,"business_model: /plans was tried and returned not-found, so pricing details may sit only on a logged-in or quote page"
+8,prospects,"hq_country: recorded as UK, but the review note says the country is England, so the ISO code would be GB"
+8,turijobs,"hq_country: recorded as ES from a company profile location, not a stated headquarters, so the record may overstate it"
+8,turijobs,languages: recorded es;en matches the language switch seen on the page
+8,hays,"languages_supported: recorded en only, but the region menu lists Canada (English, French), Germany (German, English) and Japan (Japanese, English)"
+8,lanbide,"parent and languages: review marks them verified from the homepage, but recorded is empty"
+8,lanbide,hq_country and founded: listed in fields_not_found but not in the missing list
+8,novoresume,"founded, languages and business_model are listed as missing, but earlier attempts recorded them as found on /about-us, /pricing and the homepage; the record may need syncing."
+8,novoresume,"Founded quote is 'began in 2014' (company start), while the app launched Feb 2016; confirm which date the record should hold."
+8,lhh,"parent is listed as missing, but the review and attempts record it as found (The Adecco Group, on LHH's About page); the record may need syncing."
+8,egon-zehnder,"languages is listed as missing, but the record already has languages_supported (en;de;zh;ja) and attempts found it; the record may need syncing."
+8,successfactors,"Homepage 301-redirects to sap.com/products/hcm.html, so the entry may now be presented as an SAP product; parent and url may need checking. The cross-host redirect was not followed."
+8,kickresume,"The record is empty although attempts found hq_country (Bratislava team, no explicit HQ label) and languages; both need review before recording."
+8,kickresume,"Language menu came from a fetch summary with # placeholder links, so exact wording needs a rendered check."
+8,harver,"hq_country is not in the missing list, although the review records it as not found; the record may be incomplete."
+8,harver,Footer shows a Harver B.V. copyright; the parent entity may be named on the About page.
+8,gi-group-holding,"parent is listed as missing, but the review and attempts record it as found; the record may need syncing."
+8,gi-group-holding,"The url points at the operating brand (gigroup.com), while the entry is Gi Group Holding (gigroupholding.com). Confirm which site the entry should use."
+8,eightfold-ai,"hq_country, founded and parent are not in the missing list, but the review records them as not found; the record may be incomplete."
+8,eightfold-ai,"Only a 2026 copyright line is on the homepage, so there is no founding year on the pages read."
+8,first-advantage,"languages is listed as missing, but the record has languages_supported and attempts found it; primary language is still not stated."
+8,japan-dev,"languages is listed as missing, but the record has languages_supported (en;ja) and attempts found it; the primary language is still not stated."
+8,workopolis,Site is blocked by a Cloudflare challenge; the recorded facts could not be checked against it.
+8,greenhouse,"languages is listed as missing, but attempts found en-US, en-UK and de; languages_supported is not recorded yet."
+8,meinestadt-de,"parent is recorded as The Stepstone Group, but the review says parent is not stated on the pages read and lists it as not found; the recorded value is unverified and conflicts with the review."

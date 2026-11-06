@@ -1,0 +1,130 @@
+{
+ "round": 8,
+ "orders": [
+  {
+   "id": "novoresume",
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "fields": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://novoresume.com/about-us",
+    "https://novoresume.com/page/pricing",
+    "https://novoresume.com/page/media-kit"
+   ],
+   "reason": "Homepage shows a language menu (Dansk, Deutsch, English UK, English US, Espanol) and a Pricing link; About link present. Developers, API and Partners links are not on the page read, so those are low."
+  },
+  {
+   "id": "lanbide",
+   "name": "Lanbide",
+   "url": "https://www.lanbide.euskadi.eus/",
+   "fields": [
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "parent": "high",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/",
+    "https://opendata.euskadi.eus/nola-berrerabili/-/lanbideren-datu-irekiak/"
+   ],
+   "reason": "Language menu shows Euskara and Español, and the About page (Lanbide) was not tried before and may state parent and founding. Open data is linked from the homepage, but it is data, not a developer API"
+  },
+  {
+   "id": "revelio-labs",
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "fields": [
+    "business_model",
+    "api_status"
+   ],
+   "likelihood": {
+    "business_model": "high",
+    "api_status": "medium"
+   },
+   "try_pages": [
+    "https://www.reveliolabs.com/press",
+    "https://www.reveliolabs.com/faq",
+    "https://www.data-dictionary.reveliolabs.com/"
+   ],
+   "reason": "Homepage links to Pricing, Press, Blog and FAQ, and the pricing page is already known. No Developers or Partners link and no language menu appear. The API section has a Talk to an Expert button and a "
+  },
+  {
+   "id": "gi-group-holding",
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "fields": [
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "parent": "high",
+    "languages": "medium"
+   },
+   "try_pages": [
+    "https://www.gigroupholding.com",
+    "https://www.gigroup.com/for-employers/",
+    "https://de.gigroup.com"
+   ],
+   "reason": "Footer has a 'Visit Gi Group Holding' link, and the About page names Gi Group Holding; attempts found parent. A country menu links to about 30 country subdomains, which may show the local language. No"
+  },
+  {
+   "id": "topresume",
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://www.topresume.com/about",
+    "https://www.topresume.com/faq"
+   ],
+   "reason": "About is already the source for parent and was read, so parent should be easy to record. Press and About were tried for HQ and founding with no result. Pricing (Plans) was tried without a business mod"
+  },
+  {
+   "id": "ashby",
+   "name": "Ashby",
+   "url": "https://www.ashbyhq.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://www.ashbyhq.com/story",
+    "https://www.ashbyhq.com/team"
+   ],
+   "reason": "Company menu links to Our Story (/story) and Team, neither tried for founded. No language menu seen and no press or parent text found."
+  },
+  {
+   "id": "beamery",
+   "name": "Beamery",
+   "url": "https://beamery.com",
+   "fields": [
+    "api_status"
+   ],
+   "likelihood": {
+    "api_status": "medium"
+   },
+   "try_pages": [
+    "https://support.beamery.com/",
+    "https://training.beamery.com/"
+   ],
+   "reason": "Homepage has no Developers, Pricing or language link. The helpdesk and training subdomains are linked from the page and may hold integration or API documentation. Partners are already recorded."
+  }
+ ]
+}

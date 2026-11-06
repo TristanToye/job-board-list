@@ -1,0 +1,74 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 8,
+  "boards": [
+    {
+      "name": "Turijobs", "url": "https://www.turijobs.com/",
+      "primary_language": "es", "languages_supported": ["es", "en"],
+      "business_model": "per post",
+      "sources": [
+        {"field": "languages", "url": "https://www.turijobs.com/es-es/empresa/turijobs", "title": "Turijobs company profile", "quote": "SPANISH ENGLISH"},
+        {"field": "languages", "url": "https://www.turijobs.com/es-es/empresa/turijobs", "title": "Turijobs company profile", "quote": "Turijobs.com es la compañía líder en desarrollo de talento"},
+        {"field": "business_model", "url": "https://www.turijobs.com/es-es/precios", "title": "Turijobs pricing", "quote": "Planes de publicación a la carta para tus contrataciones."},
+        {"field": "business_model", "url": "https://www.turijobs.com/es-es/precios", "title": "Turijobs pricing", "quote": "95€ / publicación"}
+      ]
+    },
+    {
+      "name": "Kickresume", "url": "https://www.kickresume.com",
+      "hq_country": "SK",
+      "primary_language": "en", "languages_supported": ["en", "sk", "es", "de", "pt", "it"],
+      "sources": [
+        {"field": "hq_country", "url": "https://www.kickresume.com/en/about/", "title": "About Kickresume", "quote": "We’re a small, passionate team based in Bratislava, Slovakia."},
+        {"field": "languages", "url": "https://www.kickresume.com/en/about/", "title": "About Kickresume", "quote": "English Slovensky Español Deutsch Português Italiano"},
+        {"field": "languages", "url": "https://www.kickresume.com/en/about/", "title": "About Kickresume", "quote": "We’re a small, passionate team based in Bratislava, Slovakia."}
+      ]
+    },
+    {
+      "name": "Prospects", "url": "https://www.prospects.ac.uk",
+      "business_model": "per post",
+      "sources": [
+        {"field": "business_model", "url": "https://prospects.ac.uk/post-a-job", "title": "Post a job", "quote": "Buy a 2 week job advert"},
+        {"field": "business_model", "url": "https://prospects.ac.uk/postgraduate-recruiters", "title": "Postgraduate recruiters", "quote": "Prices from £370"}
+      ]
+    },
+    {
+      "name": "Kelly Services", "url": "https://www.kellyservices.com",
+      "founded": "1946",
+      "sources": [
+        {"field": "founded", "url": "https://www.kellyservices.com/about-kelly/our-story/", "title": "Our story", "quote": "1946: William Russell Kelly created the staffing industry, founding Russell Kelly Office Service in Detroit, Michigan."}
+      ]
+    },
+    {
+      "name": "Egon Zehnder", "url": "https://www.egonzehnder.com",
+      "primary_language": "en", "languages_supported": ["en", "de", "zh", "ja"],
+      "sources": [
+        {"field": "languages", "url": "https://www.egonzehnder.com/de", "title": "Egon Zehnder (Deutsch)", "quote": "English Deutsch 中文 日本語"},
+        {"field": "languages", "url": "https://www.egonzehnder.com/", "title": "Egon Zehnder", "quote": "In a world full of questions, we deliver human-centric solutions."}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Turijobs", "url": "https://www.turijobs.com/", "outcome": "partially-verified", "fields_not_found": ["founded"], "method": "browser", "note": "Fetch returned 503, so the headless reader was used. Languages and business model found; no founding year on the company profile or pricing pages."},
+    {"name": "Kickresume", "url": "https://www.kickresume.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "HQ in Bratislava, Slovakia and language menu read from the About page."},
+    {"name": "Prospects", "url": "https://www.prospects.ac.uk", "outcome": "partially-verified", "fields_not_found": ["ingest_methods"], "method": "fetch", "note": "Pricing from the post-a-job and postgraduate pages. No text on how vacancies are submitted."},
+    {"name": "Kelly Services", "url": "https://www.kellyservices.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Founding year 1946 from the Our story timeline."},
+    {"name": "Egon Zehnder", "url": "https://www.egonzehnder.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Language menu lists English, Deutsch, Chinese and Japanese. Homepage text is in English."},
+    {"name": "Lightcast", "url": "https://lightcast.io", "outcome": "not-stated", "fields_not_found": ["hq_country"], "method": "fetch", "note": "Leadership, contact, and homepage pages read. Only a Global Reach regional menu and a copyright line; no headquarters or country stated."},
+    {"name": "Pinpoint", "url": "https://www.pinpointhq.com", "outcome": "not-stated", "fields_not_found": ["parent"], "method": "fetch", "note": "About us, news, and homepage read. No statement of an owning or parent company; copyright line names only Pinpoint."}
+  ],
+  "attempts": [
+    {"name": "Turijobs", "field": "founded", "outcome": "not-found", "pages": ["https://www.turijobs.com/es-es/empresa/turijobs"]},
+    {"name": "Turijobs", "field": "languages", "outcome": "found", "pages": ["https://www.turijobs.com/es-es/empresa/turijobs"]},
+    {"name": "Turijobs", "field": "business_model", "outcome": "found", "pages": ["https://www.turijobs.com/es-es/precios"]},
+    {"name": "Kickresume", "field": "hq_country", "outcome": "found", "pages": ["https://www.kickresume.com/en/about/"]},
+    {"name": "Kickresume", "field": "languages", "outcome": "found", "pages": ["https://www.kickresume.com/en/about/"]},
+    {"name": "Prospects", "field": "business_model", "outcome": "found", "pages": ["https://prospects.ac.uk/post-a-job", "https://prospects.ac.uk/postgraduate-recruiters"]},
+    {"name": "Prospects", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://prospects.ac.uk/post-a-job", "https://prospects.ac.uk/postgraduate-recruiters"]},
+    {"name": "Kelly Services", "field": "founded", "outcome": "found", "pages": ["https://www.kellyservices.com/about-kelly/leadership/?hsLang=en", "https://www.kellyservices.com/about-kelly/our-story/"]},
+    {"name": "Egon Zehnder", "field": "languages", "outcome": "found", "pages": ["https://www.egonzehnder.com/de", "https://www.egonzehnder.com/"]},
+    {"name": "Lightcast", "field": "hq_country", "outcome": "not-found", "pages": ["https://lightcast.io/about/leadership", "https://lightcast.io/contact-us", "https://lightcast.io/"]},
+    {"name": "Pinpoint", "field": "parent", "outcome": "not-found", "pages": ["https://www.pinpointhq.com/about-us", "https://www.pinpointhq.com/news/", "https://www.pinpointhq.com/"]}
+  ],
+  "blocked": []
+}

@@ -1,0 +1,129 @@
+{
+ "round": 8,
+ "orders": [
+  {
+   "id": "first-advantage",
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "fields": [
+    "hq_country",
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "parent": "high",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://fadv.com/contact/locations/",
+    "https://investors.fadv.com/"
+   ],
+   "reason": "Footer links to Locations (not tried for hq) and an investor relations subdomain (not tried for parent). Region and language menu lists English, Japanese, Korean, Chinese, Spanish and Portuguese. /api"
+  },
+  {
+   "id": "lhh",
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "fields": [
+    "founded",
+    "parent"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://www.lhh.com/en-us/about-us/our-story",
+    "https://www.lhh.com/en-us/about-us/join-lhh"
+   ],
+   "reason": "About Us section links to Our Story, which was not tried for founded. Our Locations and Newsroom were already read with no hq or founding result. No language menu, pricing, developer or partner links "
+  },
+  {
+   "id": "personio",
+   "name": "Personio",
+   "url": "https://www.personio.com",
+   "fields": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "languages": "medium",
+    "business_model": "medium"
+   },
+   "try_pages": [],
+   "reason": "Homepage returned HTTP 429 to the fetch tool and no links could be read, so no page was seen. Founding year is usually on an About page and languages and pricing are usually linked from a site of this"
+  },
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "url": "https://www.greenhouse.com",
+   "fields": [
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "parent": "medium",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.greenhouse.com/company",
+    "https://www.greenhouse.com/press"
+   ],
+   "reason": "Language selector seen (English US, English UK at /uk, Deutsch at /de), with attempts already finding de and uk. Company and Press & awards pages are linked; the company page was read for founded but "
+  },
+  {
+   "id": "hays",
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.hays.com/en-US/media-centre",
+    "https://www.hays.com/en-US/contact-us"
+   ],
+   "reason": "About us and Leaders were already tried for HQ and founding without a result. The Media Center and Contact Us pages were not tried and may carry boilerplate or office details. No Developers, Pricing o"
+  },
+  {
+   "id": "eightfold-ai",
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "fields": [
+    "api_status",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "api_status": "medium",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://eightfold.ai/company/partners/",
+    "https://docs.eightfold.ai/"
+   ],
+   "reason": "Footer links to product documentation (docs.eightfold.ai), which may cover API access, and to a partners page, which may list ATS integration routes. No pricing, Developers or language menu seen."
+  },
+  {
+   "id": "successfactors",
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.sap.com/products/hcm.html?src=sfsf"
+   ],
+   "reason": "The homepage returns a 301 redirect to an SAP product page (sap.com/products/hcm.html), a different host, so the entity's own pages could not be read. The redirect target is an SAP product page, which"
+  }
+ ]
+}
