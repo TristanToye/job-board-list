@@ -18,6 +18,10 @@ Discovery and verification agents for many countries can run in parallel on a lo
 - **Wikidata** (CC0): `python3 scripts/fetch_wikidata.py` pulls employment websites with owner, founding year and country, then `python3 scripts/ingest.py` merges them. Its statements are machine generated, so they need no quote check and are labelled as a secondary source.
 - **Wikipedia** article pages: follow `research/briefs/wikipedia.md`. Run `python3 scripts/check_quotes.py` on the output (it fetches Wikipedia one page at a time) before ingest.
 
+## Ownership
+
+Follow `research/briefs/ownership.md` for an owner company, run `python3 scripts/check_quotes.py` on the output, then `python3 scripts/ingest_ownership.py`. A quote must be at least four words and state the relationship. If the source only lists a company on a group page, the relationship is recorded as a group company, not a subsidiary.
+
 ## What ingest enforces
 
 - A value is accepted only with a source. Strong claims (HQ, ownership, languages, pricing, API, partner program, ingest methods) need a source on the board's own domain with a quote of 30 words or fewer.

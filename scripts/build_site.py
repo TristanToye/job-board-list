@@ -65,8 +65,8 @@ HOLD = load("ownership.csv") if (ROOT/"data"/"ownership.csv").exists() else []
 HOLD_BY_BOARD = collections.defaultdict(list)
 for _h in HOLD:
     if _h["board_id"] and _h["relation"] != "former": HOLD_BY_BOARD[_h["board_id"]].append(_h)
-REL_LABEL = {"subsidiary":"Subsidiary","brand":"Brand","majority-stake":"Majority stake","minority-stake":"Minority stake","joint-venture":"Joint venture","former":"Formerly owned"}
-CAT_LABEL = {"job-board":"Job boards","aggregator":"Job aggregators","staffing":"Staffing and recruitment agencies","hr-tech":"HR and recruiting technology",
+REL_LABEL = {"group-company":"Group company (listed by the owner, ownership terms not stated)","subsidiary":"Subsidiary","brand":"Brand","majority-stake":"Majority stake","minority-stake":"Minority stake","joint-venture":"Joint venture","former":"Formerly owned"}
+CAT_LABEL = {"job-board":"Other job boards (not yet in the directory)","aggregator":"Other job aggregators (not yet in the directory)","staffing":"Staffing and recruitment agencies","hr-tech":"HR and recruiting technology",
              "hr-services":"HR services","data-research":"Data and research","other-hr":"Other HR businesses"}
 def hold_phrase(h): return REL_LABEL[h["relation"]] + (f", {h['stake']}%" if h["stake"] else "") + (f", since {h['since']}" if h["since"] else "")
 SOURCES = collections.defaultdict(list)
@@ -218,7 +218,7 @@ for b in boards:
       "on-request":"issues API keys or feeds on request","none-known":"has no publicly documented API that we could find","unknown":"has not yet been researched for API availability"}[b["api_status"]]
     partner = {"yes":"A partner or integration program exists.","n/a":"Not applicable (public body or open source of data).","unknown":"Partner program status is not yet known."}.get(b["partner_program"], "Partner program status is not yet known.")
     srcs = list(SOURCES.get(b["id"], [])) + [{"field": "parent", "url": h["source_url"], "title": h["source_title"], "accessed": h["accessed"], "quote": h["quote"]} for h in HOLD_BY_BOARD.get(b["id"], [])]
-    owner_fact = "".join(f'<a href="{r}owners/{e(h["owner_id"])}/">{e(OWNERS[h["owner_id"]]["name"])}</a> <span class="muted small">({e(hold_phrase(h))})</span><br>' for h in HOLD_BY_BOARD.get(b["id"], []) if h["owner_id"] in OWNERS)
+    owner_fact = "".join(f'<a href="{r}owners/{e(h["owner_id"])}/">{e(OWNERS[h["owner_id"]]["name"])}</a> <span class="muted small">({e(hold_phrase(h))})</span><br>' for h in {x["owner_id"]: x for x in reversed(HOLD_BY_BOARD.get(b["id"], []))}.values() if h["owner_id"] in OWNERS)
     p = prom(b); rk = RANK.get(b["id"]); nctry = len({c for c in split(b["countries_served"]) + ([b["hq_country"]] if b["hq_country"] else [])}); nlang = len(langs_of(b))
     if p["group"] == 0: rank_txt = f'<strong>#{p["g"]:,}</strong> in the world, tier <strong>{e(p["tier"])}</strong>. Tiers: Major is the top 1,000 sites, Large the top 10,000, Established the top 100,000 and Small the top million.'
     elif p["group"] == 1: rank_txt = f'<strong>#{p["g"]:,}</strong> for {e(rk["domain"])} as a whole. This site covers more than job listings, so the rank overstates its job board reach and no tier is given.'
@@ -354,7 +354,9 @@ for n in ("job_boards.csv","ats_systems.csv","sources.csv","rank.csv","scale.csv
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/".nojekyll").write_text("")
 # ---------- owners ----------
-def owner_boards(oid): return [next(b for b in boards if b["id"] == h["board_id"]) for h in HOLD if h["owner_id"] == oid and h["board_id"] and h["relation"] != "former" and any(b["id"] == h["board_id"] for b in boards)]
+def owner_boards(oid):
+    ids = list(dict.fromkeys(h["board_id"] for h in HOLD if h["owner_id"] == oid and h["board_id"] and h["relation"] != "former"))
+    return [b for i in ids for b in boards if b["id"] == i]
 def holding_li(h):
     nm = f'<a href="{e(h["holding_url"])}" rel="noopener nofollow" target="_blank">{e(h["holding_name"])}</a>' if h["holding_url"] else e(h["holding_name"])
     return f'<li><strong>{nm}</strong> <span class="muted small">{e(hold_phrase(h))}. Source: <a href="{e(h["source_url"])}" rel="noopener nofollow" target="_blank">{e(h["source_title"] or "page")}</a>{" (secondary source)" if "wikipedia.org" in h["source_url"] or "wikidata.org" in h["source_url"] else ""}, checked {e(h["accessed"])}</span><div class="quote">{e(h["quote"])}</div></li>'
@@ -371,7 +373,7 @@ for oid, o in OWNERS.items():
         if items: sections += f'<h2>{e(CAT_LABEL[cat])}</h2><ul class="holdings">' + "".join(holding_li(h) for h in items) + "</ul>"
     if former: sections += "<h2>Formerly owned</h2><ul class=\"holdings\">" + "".join(holding_li(h) for h in former) + "</ul>"
     body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">Owners</a> / {e(o["name"])}</nav><h1>{e(o["name"])}: HR holdings</h1>'
-            f'<p class="lede">{e(o["name"])}{" (" + e(country(o["country"])) + ")" if o["country"] else ""} has {len(cur)} HR businesses recorded here, {nb} of them job boards in this directory. Ownership is shown with the relationship, stake and year where a source states them.</p>'
+            f'<p class="lede">{e(o["name"])}{" (" + e(country(o["country"])) + ")" if o["country"] else ""} has {len(cur)} HR holdings recorded here, including {nb} job boards in this directory. Ownership is shown with the relationship, stake and year where a source states them.</p>'
             + (f'<h2>Job boards in this directory</h2>' + table(ob, "../../") if ob else "") + sections
             + f'<p class="muted small">Each holding is cited to a page and quote. Ownership changes often, so check the date. {("Owner website: " + e(o["url"])) if o["url"] else ""}</p>')
     ld = {"@context": "https://schema.org", "@type": "Organization", "name": o["name"], **({"url": o["url"]} if o["url"] else {})}

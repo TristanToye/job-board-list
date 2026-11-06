@@ -7,8 +7,10 @@ Reference sources must have been confirmed (check "ok")."""
 import csv, json, pathlib, re, sys, datetime, urllib.parse, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent; DATA = ROOT / "data"; TODAY = datetime.date.today().isoformat()
-RELATIONS = {"subsidiary", "brand", "majority-stake", "minority-stake", "joint-venture", "former"}
+RELATIONS = {"group-company", "subsidiary", "brand", "majority-stake", "minority-stake", "joint-venture", "former"}
 CATEGORIES = {"job-board", "aggregator", "staffing", "hr-tech", "hr-services", "data-research", "other-hr"}
+OWN_WORDS = re.compile(r"\b(subsidiar\w*|owned|owns|own|acquir\w*|acquisition|acquired|stake|wholly|majority|minority|joint venture|purchas\w*|bought|holding)\b", re.I)
+STRONG_RELATIONS = {"subsidiary", "majority-stake", "minority-stake", "joint-venture"}
 REFERENCE = {"wikipedia.org", "wikidata.org"}
 BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]
 OCOLS = ["id", "name", "url", "country"]
@@ -57,16 +59,18 @@ def main(argv):
                 good = []
                 for s in h.get("sources", []):
                     su, q = clean(s.get("url"), 300), clean(s.get("quote"), 300); sd = regdom(host(su)); chk = s.get("check", "")
-                    if not su.startswith("http") or not q or len(q.split()) > 30 or chk == "mismatch": rej.append(("source", hn, "bad url or quote")); continue
+                    if not su.startswith("http") or len(q.split()) < 4 or len(q.split()) > 30 or chk == "mismatch": rej.append(("source", hn, "bad url or quote (a quote needs 4 to 30 words)")); continue
                     if sd in REFERENCE:
                         if chk not in ("ok", "structured"): rej.append(("source", hn, "reference quote not confirmed")); continue
                     elif sd not in {odom, hdom}: rej.append(("source", hn, f"source off domain {sd}")); continue
                     good.append((su, clean(s.get("title"), 120), q, chk))
                 if not good: rej.append(("holding", hn, "no usable source")); stats["rejected"] += 1; continue
+                su, st, q, chk = good[0]
+                if rel in STRONG_RELATIONS and not OWN_WORDS.search(q): rel = "group-company"  # the source lists it without stating ownership
                 key = (oid, slug(hn), rel)
                 if key in have: stats["duplicate"] += 1; continue
-                bid = bydom.get(hdom) or (slug(hn) if slug(hn) in byid else "")
-                su, st, q, chk = good[0]
+                flat = {i.replace("-", ""): i for i in byid}
+                bid = (slug(hn) if slug(hn) in byid else "") or flat.get(slug(hn).replace("-", ""), "") or (bydom.get(hdom, "") if cat in ("job-board", "aggregator") else "")
                 holds.append({"owner_id": oid, "holding_name": hn, "holding_url": hurl, "board_id": bid, "relation": rel, "stake": stake, "since": since,
                               "category": cat, "source_url": su, "source_title": st, "quote": q, "quote_check": chk, "accessed": TODAY})
                 have.add(key); stats["added"] += 1

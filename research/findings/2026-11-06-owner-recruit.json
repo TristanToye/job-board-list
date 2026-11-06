@@ -1,0 +1,397 @@
+{
+ "mode": "ownership",
+ "owners": [
+  {
+   "name": "Recruit Holdings Co., Ltd.",
+   "url": "https://recruit-holdings.com",
+   "country": "JP",
+   "holdings": [
+    {
+     "name": "Indeed",
+     "url": "https://www.indeed.com/about",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2012",
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/",
+       "title": "Recruit Holdings home",
+       "quote": "key subsidiaries including Indeed, Glassdoor, Recruit, and RGF Staffing",
+       "check": "ok"
+      },
+      {
+       "field": "since",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "The company acquired US-based Indeed.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Glassdoor",
+     "url": "https://www.glassdoor.com/about-us/",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2018",
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/",
+       "title": "Recruit Holdings home",
+       "quote": "key subsidiaries including Indeed, Glassdoor, Recruit, and RGF Staffing",
+       "check": "ok"
+      },
+      {
+       "field": "since",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "Recruit Holdings acquired Glassdoor for US$1.2 billion in cash.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Rikunabi",
+     "url": null,
+     "relation": "brand",
+     "stake": null,
+     "since": null,
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "brand",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "Online matching platform for new graduates.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Rikunabi NEXT",
+     "url": "https://next.rikunabi.com/",
+     "relation": "brand",
+     "stake": null,
+     "since": null,
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "brand",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "Online matching platform for mid-career job seekers",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "RECRUIT AGENT",
+     "url": "https://www.r-agent.com/",
+     "relation": "brand",
+     "stake": null,
+     "since": null,
+     "category": "staffing",
+     "sources": [
+      {
+       "field": "brand",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "Employment placement service for professionals",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "RECRUIT DIRECT SCOUT",
+     "url": null,
+     "relation": "brand",
+     "stake": null,
+     "since": null,
+     "category": "hr-services",
+     "sources": [
+      {
+       "field": "brand",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "Talent sourcing service for professionals.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "TOWNWORK",
+     "url": null,
+     "relation": "brand",
+     "stake": null,
+     "since": null,
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "brand",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "Online matching platform and print media for part-time and full-time job seekers.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Indeed PLUS",
+     "url": "https://jp.indeed.com/%E6%B1%82%E4%BA%BA%E5%BA%83%E5%91%8A/indeedplus-ls/en",
+     "relation": "brand",
+     "stake": null,
+     "since": null,
+     "category": "hr-tech",
+     "sources": [
+      {
+       "field": "brand",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "A job distribution platform which connects a network of Applicant Tracking Systems",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Indeed Recruit Partners Co., Ltd.",
+     "url": "https://www.indeedrecruit-partners.co.jp/",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": null,
+     "category": "staffing",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "An agency providing HR media solutions and placement services in Japan",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "RGF Staffing B.V.",
+     "url": "https://rgfstaffing.com/",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2016",
+     "category": "staffing",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "Holding company for the operations of RGF Staffing, a staffing group providing a broad range of HR services",
+       "check": "ok"
+      },
+      {
+       "field": "since",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "Recruit Holdings acquired USG People (currently RGF Staffing) for €1.42 billion.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Recruit Staffing Co., Ltd.",
+     "url": "https://www.r-staffing.co.jp/",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": null,
+     "category": "staffing",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "A temporary staffing solutions company focused on large companies in urban areas in Japan",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "STAFF SERVICE HOLDINGS CO., LTD.",
+     "url": "https://www.staffservice.co.jp/",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": null,
+     "category": "staffing",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "A Japan-based staffing service company, providing comprehensive temporary staffing and placement solutions",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Unique NV",
+     "url": "https://www.unique.be/nl",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": null,
+     "category": "staffing",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "An agency providing a broad range of HR services in Belgium.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Staffmark Group, LLC",
+     "url": "https://www.staffmarkgroup.com/",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2011",
+     "category": "staffing",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "An agency providing staffing services in the U.S., focused mainly on light industrial jobs.",
+       "check": "ok"
+      },
+      {
+       "field": "since",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "The company acquired US-based Staffmark for US$295 million.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "The CSI Companies, Inc.",
+     "url": "https://csicompanies.com/",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2010",
+     "category": "staffing",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "A staffing company placing highly qualified talent across a number of industries in the U.S.",
+       "check": "ok"
+      },
+      {
+       "field": "since",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "The company acquired US-based The CSI Companies.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Chandler Macleod Group Limited",
+     "url": "https://www.chandlermacleod.com/",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2015",
+     "category": "staffing",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "A staffing company providing a broad range of HR and outsourcing services predominantly in Australia",
+       "check": "ok"
+      },
+      {
+       "field": "since",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "Recruit Holdings acquired Chandler Macleod Group.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Peoplebank Hong Kong",
+     "url": "https://www.peoplebank.com.hk/",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": null,
+     "category": "staffing",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://recruit-holdings.com/en/about/group/",
+       "title": "Group companies",
+       "quote": "An agency specializing in IT and digital talent solutions in Hong Kong and Singapore",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Simply Hired",
+     "url": null,
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2016",
+     "category": "aggregator",
+     "sources": [
+      {
+       "field": "since",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "Recruit Holdings acquired Simply Hired, a competitor of Indeed.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Workopolis",
+     "url": null,
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2018",
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "since",
+       "url": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+       "title": "Recruit Holdings (Wikipedia)",
+       "quote": "Recruit Holdings Co., Ltd. acquires the Canadian job search website Workopolis.",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "url": "https://www.indeed.com/about",
+   "status": 403,
+   "note": "Indeed's own about page; attempted twice, both 403. Indeed's own holdings not checked."
+  },
+  {
+   "url": "https://www.glassdoor.com/about-us/",
+   "status": 403,
+   "note": "Glassdoor's own about page; attempted twice, both 403. Glassdoor's own holdings not checked."
+  }
+ ],
+ "queue": [
+  {
+   "name": "People Bank Australia",
+   "url": null,
+   "source": "https://en.wikipedia.org/wiki/Recruit_Holdings",
+   "note": "Timeline entry for 2015/1 only. The article does not describe its business, so HR status is unconfirmed."
+  }
+ ]
+}

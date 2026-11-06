@@ -1,0 +1,262 @@
+{
+ "mode": "ownership",
+ "owners": [
+  {
+   "name": "Adevinta",
+   "url": "https://www.adevinta.com",
+   "country": null,
+   "holdings": [],
+   "note": "Homepage lists brands only as logo images with no wording, so no holding has a quote. Wikipedia article returned 404 twice. The About page returned 503 twice."
+  },
+  {
+   "name": "BOLD Holdings",
+   "url": "https://www.bold.com",
+   "country": null,
+   "holdings": [
+    {
+     "name": "Monster",
+     "url": "https://www.monster.com",
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2025",
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "BOLD acquires CareerBuilder & Monster.com.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "CareerBuilder",
+     "url": null,
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2025",
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "BOLD acquires CareerBuilder & Monster.com.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "FlexJobs",
+     "url": null,
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2023",
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "acquires FlexJobs, the largest job search site for remote work.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "ResumeBuilder.com",
+     "url": null,
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2024",
+     "category": "other-hr",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "BOLD acquires ResumeBuilder.com and Sonara.ai.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Zety",
+     "url": null,
+     "relation": "subsidiary",
+     "stake": null,
+     "since": "2019",
+     "category": "other-hr",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "BOLD acquires Zety (Interview.me).",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "LiveCareer",
+     "url": null,
+     "relation": "brand",
+     "stake": null,
+     "since": "2005",
+     "category": "other-hr",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "Doug and Jamie establish LiveCareer.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "My Perfect Resume",
+     "url": null,
+     "relation": "brand",
+     "stake": null,
+     "since": null,
+     "category": "other-hr",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "My Perfect Resume helps job seekers create professional resumes and cover letters.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "My Perfect Cover Letter",
+     "url": null,
+     "relation": "brand",
+     "stake": null,
+     "since": null,
+     "category": "other-hr",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "Launched as a companion to My Perfect Resume, My Perfect Cover Letter set out to help job seekers.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "name": "Bold.pro",
+     "url": null,
+     "relation": "brand",
+     "stake": null,
+     "since": "2022",
+     "category": "other-hr",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.bold.com/about/",
+       "title": "About Us - BOLD",
+       "quote": "Launched in 2022, Bold.pro has emerged as one of the fastest-growing professional networks.",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "DHI Group",
+   "url": "https://www.dhigroupinc.com",
+   "country": null,
+   "holdings": [
+    {
+     "name": "Dice",
+     "url": null,
+     "relation": "brand",
+     "stake": null,
+     "since": null,
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.dhigroupinc.com",
+       "title": "DHI Group home",
+       "quote": "Dice is the largest technology-focused talent marketplace in the United States, built over more than 35 years.",
+       "check": "unreachable"
+      }
+     ]
+    },
+    {
+     "name": "ClearanceJobs",
+     "url": null,
+     "relation": "brand",
+     "stake": null,
+     "since": null,
+     "category": "job-board",
+     "sources": [
+      {
+       "field": "parent",
+       "url": "https://www.dhigroupinc.com",
+       "title": "DHI Group home",
+       "quote": "ClearanceJobs is the leading marketplace for professionals with active U.S. security clearances.",
+       "check": "unreachable"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Adevinta",
+   "status": "404",
+   "note": "Fetched twice, not retried further."
+  },
+  {
+   "url": "https://www.adevinta.com/about-us/",
+   "status": "503",
+   "note": "Fetched twice, not retried further."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/BOLD_Holdings",
+   "status": "404",
+   "note": "Fetched once, not retried."
+  }
+ ],
+ "queue": [
+  {
+   "owner": "Adevinta",
+   "name": "InfoJobs",
+   "url": null,
+   "note": "Named in the task. Not found on any page read, so no quote."
+  },
+  {
+   "owner": "BOLD Holdings",
+   "name": "Sonara.ai",
+   "url": null,
+   "note": "Acquisition named on bold.com/about/ ('BOLD acquires ResumeBuilder.com and Sonara.ai.') but the page gives no description, so category is unknown."
+  },
+  {
+   "owner": "BOLD Holdings",
+   "name": "Interview.me",
+   "url": null,
+   "note": "Appears only in parentheses after Zety on bold.com/about/. Unclear whether it is a separate brand or an alias."
+  },
+  {
+   "owner": "DHI Group",
+   "name": "PSG (Point Solutions Group)",
+   "url": null,
+   "note": "Appears only as a menu link under ClearanceJobs on dhigroupinc.com. No description, year or stake."
+  },
+  {
+   "owner": "DHI Group",
+   "name": "AgileATS",
+   "url": null,
+   "note": "Appears only as a menu link under ClearanceJobs on dhigroupinc.com. No description, year or stake."
+  }
+ ]
+}
