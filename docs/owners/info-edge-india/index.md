@@ -11,12 +11,10 @@ Info Edge is India’s premier online classifieds company in recruitment, matrim
 
 ## Entries in this directory
 
-- [Naukri.com](https://jobboardlist.com/boards/naukri-com/) (board)
-- [NaukriGulf.com](https://jobboardlist.com/boards/naukrigulf-com/) (board)
-- [FirstNaukri.com](https://jobboardlist.com/boards/firstnaukri-com/) (board)
-- [DoSelect](https://jobboardlist.com/boards/doselect/) (hr-tech)
 - [Naukri](https://jobboardlist.com/boards/naukri/) (board)
 - [NaukriGulf](https://jobboardlist.com/boards/naukrigulf/) (board)
+- [FirstNaukri.com](https://jobboardlist.com/boards/firstnaukri-com/) (board)
+- [DoSelect](https://jobboardlist.com/boards/doselect/) (hr-tech)
 
 ## Holdings
 

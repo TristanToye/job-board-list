@@ -345,14 +345,14 @@ for b in boards:
       {"@type":"ListItem","position":1,"name":"Directory","item":BASE+"/"},
       {"@type":"ListItem","position":2,"name":b["region"],"item":f'{BASE}/regions/{slug(b["region"])}/'},
       {"@type":"ListItem","position":3,"name":b["name"]}]}
-    org = {"@context":"https://schema.org","@type":"Organization","name":b["name"],"url":b["url"]}
+    org = {"@context":"https://schema.org","@type":"Organization","name":b["name"], **({"url": b["url"]} if b["url"] else {})}
     if logo_info(b): org["logo"] = f'{BASE}/assets/logos/{logo_info(b)["file"]}'
     org["description"] = faq[0][1]
     if b["founded"]: org["foundingDate"] = b["founded"]
     if b["id"] in PARENT_OWNER and PARENT_OWNER[b["id"]] in OWNERS: org["parentOrganization"] = {"@type": "Organization", "name": OWNERS[PARENT_OWNER[b["id"]]]["name"], "url": f'{BASE}/owners/{PARENT_OWNER[b["id"]]}/'}
     if split(b["countries_served"]): org["areaServed"] = [country(c) for c in split(b["countries_served"])]
     if langs_of(b): org["knowsLanguage"] = langs_of(b)
-    org["sameAs"] = list(dict.fromkeys([b["url"]] + [x["url"] for x in srcs if "wikipedia.org" in x["url"] or "wikidata.org" in x["url"]]))
+    org["sameAs"] = list(dict.fromkeys(([b["url"]] if b["url"] else []) + [x["url"] for x in srcs if "wikipedia.org" in x["url"] or "wikidata.org" in x["url"]]))
     webpage = {"@context": "https://schema.org", "@type": "WebPage", "name": f'{b["name"]}: API, partner program and integration details', "url": f'{BASE}/boards/{b["id"]}/', "dateModified": mod_date,
                "isPartOf": {"@type": "WebSite", "name": NAME, "url": BASE + "/"}, "about": {"@type": "Organization", "name": b["name"]}}
     faqld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}

@@ -6,7 +6,6 @@ Advenn, groupe indépendant depuis 1944 agit chaque jour pour informer, accompag
 
 ## Entries in this directory
 
-- [Hellowork group](https://jobboardlist.com/boards/hellowork-group/) (board)
 - [Hellowork](https://jobboardlist.com/boards/hellowork/) (board)
 
 ## Holdings

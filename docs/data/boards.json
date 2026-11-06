@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-06",
- "count": 370,
+ "count": 367,
  "boards": [
   {
    "id": "indeed",
@@ -4436,7 +4436,17 @@
     }
    ],
    "review": null,
-   "owners": [],
+   "owners": [
+    {
+     "id": "info-edge-india",
+     "name": "Info Edge (India) Ltd",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "source": "https://en.wikipedia.org/wiki/Info_Edge",
+     "quote": "the flagship employment website Naukri.com"
+    }
+   ],
    "scale": [],
    "sources": [
     {
@@ -5206,7 +5216,17 @@
    ],
    "connections": [],
    "review": null,
-   "owners": [],
+   "owners": [
+    {
+     "id": "info-edge-india",
+     "name": "Info Edge (India) Ltd",
+     "relation": "brand",
+     "stake": "",
+     "since": "2006",
+     "source": "https://en.wikipedia.org/wiki/Info_Edge",
+     "quote": "NaukriGulf.com for Gulf countries in 2006"
+    }
+   ],
    "scale": [],
    "sources": []
   },
@@ -10585,7 +10605,17 @@
    ],
    "connections": [],
    "review": null,
-   "owners": [],
+   "owners": [
+    {
+     "id": "advenn",
+     "name": "Advenn",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "",
+     "source": "https://www.hellowork-group.com/en/the-hellowork-group/",
+     "quote": "A subsidiary of Advenn"
+    }
+   ],
    "scale": [],
    "sources": [
     {
@@ -24099,130 +24129,6 @@
    ]
   },
   {
-   "id": "naukri-com",
-   "name": "Naukri.com",
-   "url": "",
-   "domains": "",
-   "type": "board",
-   "hq_country": "",
-   "founded": "",
-   "markets": "",
-   "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
-   "region": "Global",
-   "niche": "",
-   "segment": "",
-   "parent": "Info Edge (India) Ltd",
-   "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "According to its owner's page: \"the flagship employment website Naukri.com\"",
-   "confidence": "listed-only",
-   "page": "https://jobboardlist.com/boards/naukri-com/",
-   "indexable": false,
-   "prominence": {
-    "tier": "",
-    "label": "Not in top 1M",
-    "global_rank": null,
-    "scope": "",
-    "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-06"
-   },
-   "tags": [
-    "job-board"
-   ],
-   "connections": [],
-   "review": null,
-   "owners": [
-    {
-     "id": "info-edge-india",
-     "name": "Info Edge (India) Ltd",
-     "relation": "brand",
-     "stake": "",
-     "since": "",
-     "source": "https://en.wikipedia.org/wiki/Info_Edge",
-     "quote": "the flagship employment website Naukri.com"
-    }
-   ],
-   "scale": [],
-   "sources": [
-    {
-     "field": "owner_listing",
-     "url": "https://en.wikipedia.org/wiki/Info_Edge",
-     "title": "Info Edge - Wikipedia",
-     "accessed": "2026-11-06",
-     "quote": "the flagship employment website Naukri.com",
-     "quote_check": "ok"
-    }
-   ]
-  },
-  {
-   "id": "naukrigulf-com",
-   "name": "NaukriGulf.com",
-   "url": "",
-   "domains": "",
-   "type": "board",
-   "hq_country": "",
-   "founded": "",
-   "markets": "",
-   "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
-   "region": "Global",
-   "niche": "",
-   "segment": "",
-   "parent": "Info Edge (India) Ltd",
-   "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "According to its owner's page: \"NaukriGulf.com for Gulf countries in 2006\"",
-   "confidence": "listed-only",
-   "page": "https://jobboardlist.com/boards/naukrigulf-com/",
-   "indexable": false,
-   "prominence": {
-    "tier": "",
-    "label": "Not in top 1M",
-    "global_rank": null,
-    "scope": "",
-    "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-06"
-   },
-   "tags": [
-    "job-board"
-   ],
-   "connections": [],
-   "review": null,
-   "owners": [
-    {
-     "id": "info-edge-india",
-     "name": "Info Edge (India) Ltd",
-     "relation": "brand",
-     "stake": "",
-     "since": "2006",
-     "source": "https://en.wikipedia.org/wiki/Info_Edge",
-     "quote": "NaukriGulf.com for Gulf countries in 2006"
-    }
-   ],
-   "scale": [],
-   "sources": [
-    {
-     "field": "owner_listing",
-     "url": "https://en.wikipedia.org/wiki/Info_Edge",
-     "title": "Info Edge - Wikipedia",
-     "accessed": "2026-11-06",
-     "quote": "NaukriGulf.com for Gulf countries in 2006",
-     "quote_check": "ok"
-    }
-   ]
-  },
-  {
    "id": "firstnaukri-com",
    "name": "FirstNaukri.com",
    "url": "",
@@ -25768,68 +25674,6 @@
      "title": "HeadHunter investor relations (company timeline)",
      "accessed": "2026-11-06",
      "quote": "Приобретение 100% платформы по поиску работу «Зарплата.ру»",
-     "quote_check": "ok"
-    }
-   ]
-  },
-  {
-   "id": "hellowork-group",
-   "name": "Hellowork group",
-   "url": "https://www.hellowork-group.com",
-   "domains": "",
-   "type": "board",
-   "hq_country": "",
-   "founded": "",
-   "markets": "",
-   "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
-   "region": "Global",
-   "niche": "",
-   "segment": "",
-   "parent": "Advenn",
-   "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "According to its owner's page: \"A subsidiary of Advenn\"",
-   "confidence": "listed-only",
-   "page": "https://jobboardlist.com/boards/hellowork-group/",
-   "indexable": false,
-   "prominence": {
-    "tier": "Small",
-    "label": "Small",
-    "global_rank": 825690,
-    "scope": "domain",
-    "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-06"
-   },
-   "tags": [
-    "job-board"
-   ],
-   "connections": [],
-   "review": null,
-   "owners": [
-    {
-     "id": "advenn",
-     "name": "Advenn",
-     "relation": "subsidiary",
-     "stake": "",
-     "since": "",
-     "source": "https://www.hellowork-group.com/en/the-hellowork-group/",
-     "quote": "A subsidiary of Advenn"
-    }
-   ],
-   "scale": [],
-   "sources": [
-    {
-     "field": "owner_listing",
-     "url": "https://www.hellowork-group.com/en/the-hellowork-group/",
-     "title": "Hellowork group",
-     "accessed": "2026-11-06",
-     "quote": "A subsidiary of Advenn",
      "quote_check": "ok"
     }
    ]

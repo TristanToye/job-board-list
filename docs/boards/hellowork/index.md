@@ -5,7 +5,7 @@ Hellowork is a job board. It was founded in 2022.
 - Website: https://www.hellowork.com
 - Headquarters: not recorded
 - Founded: 2022
-- Owner: Advenn
+- Owner: Advenn (Subsidiary)
 - Languages: French
 - API status: API status unknown
 - Partner program: unknown
@@ -15,7 +15,7 @@ Hellowork is a job board. It was founded in 2022.
 
 ## Quick answers
 
-**Who owns Hellowork?** This directory records the parent of Hellowork as Advenn.
+**Who owns Hellowork?** According to this directory, Hellowork is owned by Advenn (subsidiary).
 
 **Which languages does Hellowork support?** This directory records Hellowork as supporting French.
 
@@ -29,6 +29,7 @@ Hellowork is a job board. It was founded in 2022.
 - [Recruiter page](https://recruteur.hellowork.com/fr/) (Business model and pricing, checked 2026-11-05): "Diffusez jusqu'à 2 offres d'emploi gratuitement et recevez vos candidatures dans votre boîte mail."
 - [Recruiter page](https://recruteur.hellowork.com/fr/) (How jobs get in, checked 2026-11-05): "Des solutions connectées à votre ATS."
 - [Wikidata: Hellowork](https://www.wikidata.org/wiki/Q131898727) (Existence and description, checked 2026-11-05): "Wikidata: instance of employment website"
+- [Hellowork group](https://www.hellowork-group.com/en/the-hellowork-group/) (Ownership, checked 2026-11-06): "A subsidiary of Advenn"
 
 Canonical page: https://jobboardlist.com/boards/hellowork/
-Last updated: 2026-11-05
+Last updated: 2026-11-06

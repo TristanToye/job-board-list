@@ -14,18 +14,22 @@ def host(u):
     except Exception: return ""
 def regdom(h):
     p = h.split("."); return ".".join(p[-3:]) if len(p) >= 3 and len(p[-1]) == 2 and p[-2] in SLD else ".".join(p[-2:])
+def norm(n):
+    x = re.sub(r"\.(com|net|org|co\.uk|io|de|fr)\b", "", n.lower())
+    x = re.sub(r"\b(co|ltd|inc|llc|limited|group|holdings?|b\.?v|nv|gmbh|corp|corporation|the)\b\.?", "", x)
+    return re.sub(r"[^a-z0-9]", "", x)
 def load(n): return list(csv.DictReader(open(DATA / n, newline="", encoding="utf-8")))
 def main():
     dry = "--dry-run" in sys.argv
     boards = load("job_boards.csv"); cols = list(boards[0].keys()); owners = {o["id"]: o for o in load("owners.csv")}
     hold = load("ownership.csv"); hcols = list(hold[0].keys()); srcs = load("sources.csv"); scols = list(srcs[0].keys())
-    ids = {b["id"] for b in boards}; bydom = {regdom(host(b["url"])): b for b in boards if b["url"]}; byslug = {slug(b["name"]): b for b in boards}
+    ids = {b["id"] for b in boards}; bydom = {regdom(host(b["url"])): b for b in boards if b["url"]}; byslug = {norm(b["name"]): b for b in boards}
     seen_src = {(s["board_id"], s["field"], s["url"]) for s in srcs}; made = linked = skipped = 0
     for h in hold:
         if h["relation"] == "former" or (h["board_id"] and h["board_id"] in ids): continue
         if h["category"] not in TYPE: skipped += 1; continue
         d = regdom(host(h["holding_url"])) if h["holding_url"] else ""
-        ex = (bydom.get(d) if d else None) or byslug.get(slug(h["holding_name"]))
+        ex = (bydom.get(d) if d else None) or byslug.get(norm(h["holding_name"]))
         owner_dom = regdom(host(owners.get(h["owner_id"], {}).get("url", "")))
         if ex is not None: h["board_id"] = ex["id"]; linked += 1; continue
         rid = slug(h["holding_name"]) or "entry"; rid = rid if rid not in ids else f'{rid}-{h["owner_id"]}'
@@ -35,7 +39,7 @@ def main():
                    notes=f'According to its owner\'s page: "{h["quote"]}"')
         boards.append(row); ids.add(rid); h["board_id"] = rid; made += 1
         if d: bydom[d] = row
-        byslug[slug(h["holding_name"])] = row
+        byslug[norm(h["holding_name"])] = row
         key = (rid, "owner_listing", h["source_url"])
         if key not in seen_src: srcs.append({"board_id": rid, "field": "owner_listing", "url": h["source_url"], "title": h["source_title"], "accessed": h["accessed"], "quote": h["quote"], "quote_check": h["quote_check"]}); seen_src.add(key)
     print(f"{made} entries created, {linked} holdings linked to existing entries, {skipped} left as holdings only (other HR categories)")

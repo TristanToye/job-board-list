@@ -1,6 +1,6 @@
 # Job board
 
-A site where employers post jobs and candidates search and apply. 240 entries in the directory.
+A site where employers post jobs and candidates search and apply. 237 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API

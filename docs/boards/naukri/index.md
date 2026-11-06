@@ -5,7 +5,7 @@ Naukri is a job board based in India. It was founded in 1997.
 - Website: https://www.naukri.com
 - Headquarters: India
 - Founded: 1997
-- Owner: Info Edge
+- Owner: Info Edge (India) Ltd (Brand)
 - Languages: English
 - API status: Partner-only API
 - Partner program: unknown
@@ -15,7 +15,7 @@ Naukri is a job board based in India. It was founded in 1997.
 
 ## Quick answers
 
-**Who owns Naukri?** This directory records the parent of Naukri as Info Edge.
+**Who owns Naukri?** According to this directory, Naukri is owned by Info Edge (India) Ltd (brand).
 
 **Does Naukri have an API?** According to this directory, Naukri restricts programmatic access to approved partners.
 
@@ -29,6 +29,7 @@ Naukri is a job board based in India. It was founded in 1997.
 
 - [Wikipedia: Naukri.com](https://en.wikipedia.org/wiki/Naukri.com) (Existence and description, checked 2026-11-05): "Naukri.com is an Indian employment website which operates in India and the Middle East."
 - [Wikipedia: Naukri.com](https://en.wikipedia.org/wiki/Naukri.com) (Ownership, checked 2026-11-05): "It was founded in March 1997 by Sanjeev Bikhchandani as a division of Info Edge."
+- [Info Edge - Wikipedia](https://en.wikipedia.org/wiki/Info_Edge) (Ownership, checked 2026-11-06): "the flagship employment website Naukri.com"
 
 Canonical page: https://jobboardlist.com/boards/naukri/
-Last updated: 2026-11-05
+Last updated: 2026-11-06
