@@ -1,0 +1,79 @@
+{
+ "round": 9,
+ "orders": [
+  {
+   "id": "jobtoday",
+   "name": "Jobtoday",
+   "url": "https://www.jobtoday.com/it",
+   "fields": [
+    "hq_country",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://jobtoday.us/about-us/contacts",
+    "https://jobtoday.us/landings/advertise-for-free",
+    "https://jobtoday.com/us/landings/hire",
+    "https://jobtoday.com/it"
+   ],
+   "reason": "Contacts page linked from About (headquarters found there in attempts). Footer language dropdown on the homepage. Advertise-for-free landing page holds the business-model facts already found. No Devel"
+  },
+  {
+   "id": "almalaurea",
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "fields": [
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.almalaurea.it/en",
+    "https://www.almalaurea.it/servizi-per-le-imprese"
+   ],
+   "reason": "Language switcher links IT and EN (/en). Homepage shows 'Dal 1994' beside a tagline, which may be a founding year. The Chi siamo and transparency pages were already read without a founding statement."
+  },
+  {
+   "id": "robert-half",
+   "name": "Robert Half",
+   "url": "https://www.roberthalf.com",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://press.roberthalf.com/",
+    "https://www.roberthalf.com/us/en/about/leadership"
+   ],
+   "reason": "Homepage footer links to a Press Room and About Robert Half. Press room sites often carry company boilerplate with headquarters and founding details, which is not among the pages already checked. No D"
+  },
+  {
+   "id": "national-career-service",
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "fields": [
+    "partner_program"
+   ],
+   "likelihood": {
+    "partner_program": "medium"
+   },
+   "try_pages": [
+    "https://www.ncs.gov.in/login/employer",
+    "https://www.ncs.gov.in/jobseeker-list"
+   ],
+   "reason": "Header menu has an Employers section and an About NCSC-DAs / VRCs page describing placement organisations, which suggests a partner-style structure. Placement organisation registration links point to "
+  }
+ ]
+}

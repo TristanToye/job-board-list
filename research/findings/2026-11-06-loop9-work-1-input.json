@@ -1,0 +1,97 @@
+{
+ "round": 9,
+ "orders": [
+  {
+   "id": "experteer",
+   "name": "Experteer",
+   "url": "https://www.experteer.fr",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "medium",
+    "parent": "high",
+    "languages": "medium",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://www.experteer.fr/about/imprint",
+    "https://www.experteer.fr/about-us/en/company/",
+    "https://www.experteer.fr/headhunter",
+    "https://www.experteer.fr/recruiting"
+   ],
+   "reason": "Footer Infos legales (imprint) link, which should name the operating company and its seat. Qui sommes-nous page for company history. Country selector lists 12 country sites. Headhunter Connect and rec"
+  },
+  {
+   "id": "pcd-com-br",
+   "name": "PcD.com.br",
+   "url": "https://www.pcd.com.br",
+   "fields": [
+    "hq_country",
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.pcd.com.br/planos",
+    "https://www.pcd.com.br/contato",
+    "https://www.pcd.com.br/clientes"
+   ],
+   "reason": "Header and footer link to Planos (paid job-posting plans for employers) and Contato. Homepage says 'Especialista em PcD desde 2006', which may be a founding year. No API, partner or language link is v"
+  },
+  {
+   "id": "workable",
+   "name": "Workable",
+   "url": "https://www.workable.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "high"
+   },
+   "try_pages": [],
+   "reason": "Earlier attempts report a founding year on the homepage and /about, so founded only needs recording. Homepage shows no footer, About, Pricing or language menu. Parent not seen."
+  },
+  {
+   "id": "niche-jobs",
+   "name": "Niche Jobs",
+   "url": "https://www.nichejobs.co.uk",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.nichejobs.co.uk/about-niche-jobs/"
+   ],
+   "reason": "Navigation has an About page (/about-niche-jobs/) that may state location and history. No Developers, API, Partners, Pricing or language menu seen. Small Ghost-powered site."
+  },
+  {
+   "id": "codility",
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "fields": [
+    "api_status"
+   ],
+   "likelihood": {
+    "api_status": "medium"
+   },
+   "try_pages": [
+    "https://www.codility.com/integrations/"
+   ],
+   "reason": "Homepage text mentions the Codility API without a link, and an Integrations page is linked in the header. No Developers or API page link seen. No language selector seen."
+  }
+ ]
+}

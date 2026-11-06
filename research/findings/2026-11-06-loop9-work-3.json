@@ -1,0 +1,46 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 9,
+  "boards": [
+    {
+      "name": "Workday Recruiting",
+      "url": "https://www.workday.com",
+      "primary_language": "en",
+      "languages_supported": ["en", "fr", "es", "de", "it", "nl", "pl", "id", "ja", "ko", "zh", "th"],
+      "sources": [
+        {"field": "primary_language", "url": "https://www.workday.com/en-us/choose-country-region.html", "title": "Regions and Languages", "quote": "United States (English)"},
+        {"field": "languages_supported", "url": "https://www.workday.com/en-us/choose-country-region.html", "title": "Regions and Languages", "quote": "Deutschland Deutsch"},
+        {"field": "languages_supported", "url": "https://www.workday.com/en-us/choose-country-region.html", "title": "Regions and Languages", "quote": "Polska Polski"},
+        {"field": "languages_supported", "url": "https://www.workday.com/en-us/choose-country-region.html", "title": "Regions and Languages", "quote": "대한민국 한국어"},
+        {"field": "languages_supported", "url": "https://www.workday.com/en-us/choose-country-region.html", "title": "Regions and Languages", "quote": "Thailand ไทย English"}
+      ]
+    },
+    {
+      "name": "Korn Ferry",
+      "url": "https://www.kornferry.com",
+      "founded": 1969,
+      "sources": [
+        {"field": "founded", "url": "https://www.kornferry.com/about-us/our-story", "title": "Our Story", "quote": "From a small LA office in 1969 to a global consulting firm."}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Workday Recruiting", "url": "https://www.workday.com", "outcome": "partially-verified", "fields_not_found": ["business_model"], "method": "mixed", "note": "Language menu read from the region chooser page, with the raw text from the headless reader. Subscriptions page covers marketing email preferences only, and the developer page shows no pricing. No employer pricing found."},
+    {"name": "Korn Ferry", "url": "https://www.kornferry.com", "outcome": "partially-verified", "fields_not_found": ["hq_country"], "method": "mixed", "note": "Founding year 1969 stated on Our Story page. Contact, leadership, and global offices pages do not name a headquarters country. Contact page needed the headless reader."},
+    {"name": "ClearanceJobs", "url": "https://www.clearancejobs.com", "outcome": "not-stated", "fields_not_found": ["hq_country"], "method": "fetch", "note": "Homepage footer says ClearanceJobs is a DHI service. The DHI site (dhigroupinc.com, off the entry's domain) does not state a headquarters city or country, and it is not usable as a source anyway."},
+    {"name": "ProgramaThor", "url": "https://www.programathor.com.br", "outcome": "not-stated", "fields_not_found": ["hq_country", "founded", "business_model", "partner_program"], "method": "fetch", "note": "Partners page lists partner companies but does not describe a partner program. Recruiter page shows only a free trial of 5 jobs for 30 days with no contract, and no paid model. About, contact, and homepage do not state a city, founding year, or owner."}
+  ],
+  "attempts": [
+    {"name": "Workday Recruiting", "field": "languages", "outcome": "found", "pages": ["https://www.workday.com/en-us/choose-country-region.html"]},
+    {"name": "Workday Recruiting", "field": "business_model", "outcome": "not-found", "pages": ["https://info.workday.com/subscription.html", "https://developer.workday.com/about"]},
+    {"name": "Korn Ferry", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.kornferry.com/contact", "https://www.kornferry.com/about-us/leadership-team", "https://www.kornferry.com/about-us/global-offices"]},
+    {"name": "Korn Ferry", "field": "founded", "outcome": "found", "pages": ["https://www.kornferry.com/about-us/our-story"]},
+    {"name": "ClearanceJobs", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.clearancejobs.com", "http://www.dhigroupinc.com"]},
+    {"name": "ProgramaThor", "field": "hq_country", "outcome": "not-found", "pages": ["https://programathor.com.br/about_us", "https://programathor.com.br/contact", "https://programathor.com.br"]},
+    {"name": "ProgramaThor", "field": "founded", "outcome": "not-found", "pages": ["https://programathor.com.br/about_us", "https://programathor.com.br"]},
+    {"name": "ProgramaThor", "field": "business_model", "outcome": "not-found", "pages": ["https://programathor.com.br/recruiter"]},
+    {"name": "ProgramaThor", "field": "partner_program", "outcome": "not-found", "pages": ["https://programathor.com.br/partners"]}
+  ],
+  "blocked": []
+}

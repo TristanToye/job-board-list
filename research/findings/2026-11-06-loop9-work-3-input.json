@@ -1,0 +1,81 @@
+{
+ "round": 9,
+ "orders": [
+  {
+   "id": "programathor",
+   "name": "ProgramaThor",
+   "url": "https://www.programathor.com.br",
+   "fields": [
+    "hq_country",
+    "founded",
+    "business_model",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "business_model": "medium",
+    "partner_program": "high"
+   },
+   "try_pages": [
+    "https://programathor.com.br/partners",
+    "https://programathor.com.br/about_us",
+    "https://programathor.com.br/contact",
+    "https://programathor.com.br/recruiter"
+   ],
+   "reason": "Footer has a Parceiros (Partners) link. About us and Contatos pages are linked and may state location and founding. Contratar desenvolvedor (recruiter) page is the employer offer and may describe busi"
+  },
+  {
+   "id": "workday",
+   "name": "Workday Recruiting",
+   "url": "https://www.workday.com",
+   "fields": [
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "languages": "high",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://www.workday.com/en-us/choose-country-region.html",
+    "https://info.workday.com/subscription.html",
+    "https://developer.workday.com/about"
+   ],
+   "reason": "Homepage language selector links to the region chooser. Subscriptions link seen in footer for business model. Developers link present. Public company, so a parent is probably not applicable."
+  },
+  {
+   "id": "korn-ferry",
+   "name": "Korn Ferry",
+   "url": "https://www.kornferry.com",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.kornferry.com/contact",
+    "https://www.kornferry.com/about-us/leadership-team"
+   ],
+   "reason": "Contact link is in the footer and not yet checked, and contact pages often list offices. Leadership Team link seen. Homepage and /about-us already checked for HQ and parent. No Developers, API, Pricin"
+  },
+  {
+   "id": "clearancejobs",
+   "name": "ClearanceJobs",
+   "url": "https://www.clearancejobs.com",
+   "fields": [
+    "hq_country"
+   ],
+   "likelihood": {
+    "hq_country": "medium"
+   },
+   "try_pages": [
+    "http://www.dhigroupinc.com"
+   ],
+   "reason": "Footer says ClearanceJobs is a DHI service and links to the DHI site, which may state headquarters for the group. The About and employer pages were already read without an HQ. No language selector, AP"
+  }
+ ]
+}

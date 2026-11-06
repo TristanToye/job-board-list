@@ -177,3 +177,27 @@ round,board_id,flag
 8,workopolis,Site is blocked by a Cloudflare challenge; the recorded facts could not be checked against it.
 8,greenhouse,"languages is listed as missing, but attempts found en-US, en-UK and de; languages_supported is not recorded yet."
 8,meinestadt-de,"parent is recorded as The Stepstone Group, but the review says parent is not stated on the pages read and lists it as not found; the recorded value is unverified and conflicts with the review."
+9,kwork,Recorded business_model describes only the seller-side fee; the employer-side model is not stated.
+9,caterer-com,Homepage returned HTTP 503 in two earlier fetches and again here. Recheck later before treating the site as closed.
+9,hirevue,"Record partner_url is https://www.hirevue.com/integrations, but the Integration link on the homepage points to /platform/integrations. Check which URL is live."
+9,almalaurea,"Homepage names the parent as Consorzio Interuniversitario AlmaLaurea, while the record says Consorzio AlmaLaurea. Same body, but the name may need aligning."
+9,randstad,"Attempt history records parent as found on the investor-relations and home pages, but the record parent is empty. Update the record if confirmed."
+9,clearancejobs,"Homepage text reads 'Founded in 2002, we are the largest career network'. The review note quoted a different 'Since 2002' line and recorded no founding year. Recheck the founding statement and conside"
+9,kalaydo,"Site restricts access by country, so it cannot be read from this environment. The record has no review history, and founded 2006 is unverified."
+9,catho,No review history. Recorded hq_country BR and business_model subscription are unverified.
+9,cake-cakeresume,"The Japanese option is labelled 'Powered by AI', so it may be machine translation. Check before counting it as a supported language."
+9,itjob-au,Record is empty and has no review history. The homepage shows job listings with no visible company information.
+9,pcd-com-br,Record is empty and has no review history.
+9,pcd-com-br,'desde 2006' may be a founding year or only a claim of experience. Verify before recording.
+9,governmentjobs-com,"Founded: the Company Info text about developing applications since 1998 is not a founding statement, so founded stays open."
+9,workable,"Record has no founded value, but review_history and attempts say a founding year was found on the homepage and /about."
+9,challenger-gray-christmas,Founded 1966 is only partially verified: the founding quote names a founder called James and not the firm. Confirm before keeping.
+9,nijobs,"Parent The Stepstone Group is recorded, but no page was read to support it."
+9,robert-half,"Review says no language selector, but the homepage footer shows a list of regional and language site links (for example Canada English/Francais, Japan English/Japanese). Languages found on /us/en/loca"
+9,impact-group,"Review says headquarters country is not stated, but hq_country is not in the missing list. Decide whether to add it to missing."
+9,sirc-canadian-sport,"Recorded parent and primary_language/languages_supported have no review history, so they are unverified. Languages is not in the missing list under that key."
+9,breezy,Parent may be Learning Technologies Group plc based on footer logo and trust-center link. Confirm on a page that states ownership before recording.
+9,codility,"Review lists hq_country and parent as not found, but neither is in the missing list. Decide whether to add them."
+9,jobtoday,"Review found HQ, languages and business model, but the record has none of them. Add them after checking."
+9,jobtoday,"Record url is jobtoday.com/it, while the About and Contacts pages are on jobtoday.us."
+9,jobtoday,"Review says languages are English and Espanol. The homepage dropdown lists English (US), English (UK), Espanol, Francais and Italiano, so the review may be incomplete."

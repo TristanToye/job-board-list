@@ -1,0 +1,72 @@
+{
+ "round": 9,
+ "orders": [
+  {
+   "id": "cake-cakeresume",
+   "name": "Cake (CakeResume)",
+   "url": "https://www.cake.me",
+   "fields": [
+    "hq_country",
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "parent": "medium",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.cake.me/about",
+    "https://www.cake.me/pricing/ats",
+    "https://help.cake.me/"
+   ],
+   "reason": "Language menu lists English, Chinese (Traditional and Simplified), Vietnamese, Bahasa Indonesia and Japanese. Footer About link and a Press Kit link are visible. No API, Developers or Partners link is"
+  },
+  {
+   "id": "randstad",
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://www.randstad.com/about-randstad/",
+    "https://www.randstad.com/investor-relations/"
+   ],
+   "reason": "Footer names Randstad N.V. as the registered entity, and investor relations links are visible. No API, Developers, Pricing or partner program link. The 'partner for talent' page is a strategy page, no"
+  },
+  {
+   "id": "breezy",
+   "name": "Breezy HR",
+   "url": "https://breezy.hr",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://ltgplc.com/trust-center/"
+   ],
+   "reason": "Footer shows a Learning Technologies Group plc logo link, and the Security link goes to ltgplc.com/trust-center, which may indicate a parent. Review says About and homepage do not state a founding yea"
+  },
+  {
+   "id": "governmentjobs-com",
+   "name": "GovernmentJobs.com",
+   "url": "https://www.governmentjobs.com/",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://www.governmentjobs.com/employers"
+   ],
+   "reason": "Homepage has an Advertise (employers) link to /employers, which may describe employer pricing. No language selector, Developers, API or Partners link seen. Company Info page already checked."
+  }
+ ]
+}
