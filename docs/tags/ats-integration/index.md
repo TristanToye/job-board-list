@@ -1,6 +1,6 @@
 # ATS integration
 
-Receives jobs from applicant tracking systems. 11 entries in the directory.
+Receives jobs from applicant tracking systems. 12 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
@@ -10,6 +10,7 @@ Receives jobs from applicant tracking systems. 11 entries in the directory.
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
 - [HireVue](https://jobboardlist.com/boards/hirevue/): hr-tech
 - [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech
+- [Beamery](https://jobboardlist.com/boards/beamery/): hr-tech
 - [Gem](https://jobboardlist.com/boards/gem/): hr-tech
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API

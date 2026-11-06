@@ -1,7 +1,8 @@
 # Free to post
 
-Employers can post jobs without paying. 13 entries in the directory.
+Employers can post jobs without paying. 14 entries in the directory.
 
+- [Freelancer.com](https://jobboardlist.com/boards/freelancer-com/): freelance-platform
 - [USAJOBS](https://jobboardlist.com/boards/usajobs/): government, Self-serve API key
 - [Wellfound](https://jobboardlist.com/boards/wellfound/): niche-board, No known API
 - [Internshala](https://jobboardlist.com/boards/internshala/): niche-board

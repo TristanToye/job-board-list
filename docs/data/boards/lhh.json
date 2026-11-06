@@ -35,7 +35,14 @@
  "tags": [
   "outplacement"
  ],
- "review": null,
+ "review": {
+  "board_id": "lhh",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage states the English language selector only; headquarters, pricing, API and partner program not stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

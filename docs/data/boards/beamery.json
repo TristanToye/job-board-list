@@ -17,13 +17,15 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "partner_program": "yes",
+ "partner_url": "https://beamery.com/partners/",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Partners page offers joining the partner network and lists certified SAP and Workday integrations. Homepage, partners page and about page make no mention of a public API. The /developers page returned 404. No headquarters, parent, languages or pricing were stated; the only call to action is Book a demo.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/beamery/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -33,9 +35,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "hr-tech"
+  "ats-integration",
+  "hr-tech",
+  "partner-program"
  ],
- "review": null,
+ "review": {
+  "board_id": "beamery",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;parent",
+  "note": "Partner program and ATS integrations stated; no public API mention found, /developers returned 404, and no headquarters, languages or pricing stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +56,22 @@
    "title": "Beamery homepage",
    "accessed": "2026-11-06",
    "quote": "Connect talent strategy to business outcomes with real-time intelligence on people, skills, and tasks.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://beamery.com/partners/",
+   "title": "Partners page",
+   "accessed": "2026-11-06",
+   "quote": "Become a Beamery partner",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://beamery.com/partners/",
+   "title": "Partners page",
+   "accessed": "2026-11-06",
+   "quote": "Our integration allows mutual customers to bidirectionally sync candidate and vacancy data in real-time between the Beamery CRM and Greenhouse ATS.",
    "quote_check": "ok"
   }
  ]

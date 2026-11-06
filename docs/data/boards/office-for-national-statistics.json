@@ -10,18 +10,21 @@
   "UK",
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "cy"
+ ],
  "region": "Europe",
  "niche": "UK national statistical institute, labour market statistics",
- "parent": "",
+ "parent": "UK Statistics Authority",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage offers English and Cymraeg. The About page names the UK Statistics Authority as the body it serves as executive office. Contact page lists offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast; no headquarters is named. The /developers page returned 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/office-for-national-statistics/",
  "indexable": false,
@@ -37,7 +40,14 @@
   "lmi",
   "trades-labour"
  ],
- "review": null,
+ "review": {
+  "board_id": "office-for-national-statistics",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+  "note": "Pages state English and Cymraeg options and the UK Statistics Authority link; no headquarters, pricing or partner program stated, and /developers returned 404.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -47,6 +57,30 @@
    "title": "Office for National Statistics home page",
    "accessed": "2026-11-06",
    "quote": "Watch our video to find out how we at the Office for National Statistics (ONS) collect and use data to produce statistics.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.ons.gov.uk/",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-06",
+   "quote": "English (EN) | Cymraeg (CY)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.ons.gov.uk/aboutus",
+   "title": "About ONS",
+   "accessed": "2026-11-06",
+   "quote": "We are the executive office of the UK Statistics Authority",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.ons.gov.uk/aboutus/contactus",
+   "title": "Office locations",
+   "accessed": "2026-11-06",
+   "quote": "Details of our offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast.",
    "quote_check": "ok"
   }
  ]

@@ -36,7 +36,14 @@
   "general",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "jobware",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage and employer page read; none of the missing facts are stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

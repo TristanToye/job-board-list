@@ -35,7 +35,14 @@
  "tags": [
   "freelance-platform"
  ],
- "review": null,
+ "review": {
+  "board_id": "kwork",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage read in the browser and /api returned 404; none of the missing facts are stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

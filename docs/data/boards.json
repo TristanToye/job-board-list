@@ -8380,7 +8380,14 @@
     "general",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "jobware",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and employer page read; none of the missing facts are stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10956,9 +10963,11 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Fetch tool could not reach the site; the browser reader loaded it without a block. The footer links Groupe Figaro, but the page does not state the relationship. Employer area offers posting a job; no prices or API are stated. Page is in French with no language selector shown.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cadremploi/",
    "indexable": false,
    "prominence": {
@@ -10972,7 +10981,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "cadremploi",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent",
+    "note": "Fetch tool could not reach the site; browser reader loaded the homepage, which states a job posting link but no prices, API or company facts.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10983,6 +10999,14 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.cadremploi.fr/",
+     "title": "Homepage employer link",
+     "accessed": "2026-11-06",
+     "quote": "Déposer une offre d'emploi",
+     "quote_check": "ok"
     }
    ]
   },
@@ -11748,8 +11772,11 @@
    "countries_served": [
     "BD"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "bn"
+   ],
    "region": "South Asia",
    "niche": "",
    "parent": "",
@@ -11758,11 +11785,13 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Homepage language menu offers ENG and Bangla. Employers post jobs through the recruiter site. Office list on the about page is not labelled as headquarters; no pricing shown. Fetch returned only the title, so the browser reader was used.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/bdjobs-com/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -11792,6 +11821,22 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "languages",
+     "url": "https://bdjobs.com/h/",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-06",
+     "quote": "ENG বাংলা",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://bdjobs.com/h/",
+     "title": "Homepage employer link",
+     "accessed": "2026-11-06",
+     "quote": "Post a Job",
+     "quote_check": "ok"
     }
    ]
   },
@@ -14438,18 +14483,21 @@
     "UK",
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "cy"
+   ],
    "region": "Europe",
    "niche": "UK national statistical institute, labour market statistics",
-   "parent": "",
+   "parent": "UK Statistics Authority",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage offers English and Cymraeg. The About page names the UK Statistics Authority as the body it serves as executive office. Contact page lists offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast; no headquarters is named. The /developers page returned 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/office-for-national-statistics/",
    "indexable": false,
@@ -14465,7 +14513,14 @@
     "lmi",
     "trades-labour"
    ],
-   "review": null,
+   "review": {
+    "board_id": "office-for-national-statistics",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+    "note": "Pages state English and Cymraeg options and the UK Statistics Authority link; no headquarters, pricing or partner program stated, and /developers returned 404.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14475,6 +14530,30 @@
      "title": "Office for National Statistics home page",
      "accessed": "2026-11-06",
      "quote": "Watch our video to find out how we at the Office for National Statistics (ONS) collect and use data to produce statistics.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.ons.gov.uk/",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-06",
+     "quote": "English (EN) | Cymraeg (CY)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.ons.gov.uk/aboutus",
+     "title": "About ONS",
+     "accessed": "2026-11-06",
+     "quote": "We are the executive office of the UK Statistics Authority",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.ons.gov.uk/aboutus/contactus",
+     "title": "Office locations",
+     "accessed": "2026-11-06",
+     "quote": "Details of our offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast.",
      "quote_check": "ok"
     }
    ]
@@ -14688,14 +14767,14 @@
    "languages_supported": [],
    "region": "Europe",
    "niche": "UK labour market statistics service",
-   "parent": "",
+   "parent": "Office for National Statistics",
    "business_model": "",
    "api_status": "unknown",
-   "api_docs_url": "",
+   "api_docs_url": "https://www.nomisweb.co.uk/api",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Nomis describes itself as a labour market statistics service. The API page documents a RESTful API for data downloads and states a limit on concurrent requests; it does not state whether a key is needed. The contact page names no address. No language options, prices or partner program were stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/nomis/",
    "indexable": false,
@@ -14711,7 +14790,14 @@
     "lmi",
     "trades-labour"
    ],
-   "review": null,
+   "review": {
+    "board_id": "nomis",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
+    "note": "Homepage states ONS as provider and API page documents the RESTful API; no key requirement, languages, address or partner program stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14721,6 +14807,22 @@
      "title": "Nomis home page",
      "accessed": "2026-11-06",
      "quote": "we publish statistics related to population, society and the labour market",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.nomisweb.co.uk/",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Nomis is a service provided by Office for National Statistics (ONS)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.nomisweb.co.uk/api",
+     "title": "Nomis API page",
+     "accessed": "2026-11-06",
+     "quote": "This is the Nomis RESTful API you can use it to perform a variety of structural discovery and data download requests.",
      "quote_check": "ok"
     }
    ]
@@ -15495,7 +15597,7 @@
    "name": "Gi Group Holding",
    "url": "https://www.gigroup.com",
    "type": "staffing",
-   "hq_country": "",
+   "hq_country": "IT",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -15512,7 +15614,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Footer gives the headquarters as Milano and the company as GI GROUP HOLDING S.p.A. The country is Italy from the Milan address and the Milan companies register named in the footer. Country selector only; no language options shown. No pricing, API or partner program was stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/gi-group-holding/",
    "indexable": false,
@@ -15528,7 +15630,14 @@
     "staffing",
     "trades-labour"
    ],
-   "review": null,
+   "review": {
+    "board_id": "gi-group-holding",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Footer states the Milan headquarters; country selector only, and no pricing, API or partner program stated on the pages read.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15538,6 +15647,14 @@
      "title": "Gi Group Holding",
      "accessed": "2026-11-06",
      "quote": "Gi Group Holding, one of the world's leading providers of services for the evolution of the labour market",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.gigroup.com/contact-us/",
+     "title": "Footer company details",
+     "accessed": "2026-11-06",
+     "quote": "Headquarter: Piazza IV Novembre, 5 - 20124 Milano",
      "quote_check": "ok"
     }
    ]
@@ -16135,21 +16252,25 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "general freelance and project marketplace",
    "parent": "",
-   "business_model": "",
+   "business_model": "free to post a project; 3% fee charged to employer on accepted jobs",
    "api_status": "unknown",
-   "api_docs_url": "",
+   "api_docs_url": "https://www.freelancer.com/api",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "api"
+   ],
+   "notes": "Homepage footer language selector shows only US (International) / English. The API page says posting is free and describes a 3% charge on accepted jobs. The API page does not state whether a key is needed. The /partners page returned 404. No headquarters or parent is stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/freelancer-com/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -16159,10 +16280,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "free-to-post",
     "freelance-platform",
     "general"
    ],
-   "review": null,
+   "review": {
+    "board_id": "freelancer-com",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;partner_program",
+    "note": "Homepage, API page and footer state English only, free posting with a 3% fee, and API access; /partners returned 404.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16172,6 +16301,38 @@
      "title": "Freelancer.com homepage",
      "accessed": "2026-11-06",
      "quote": "Hire the best freelancers for any job, online.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.freelancer.com/",
+     "title": "Homepage footer language selector",
+     "accessed": "2026-11-06",
+     "quote": "US (International) / English",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.freelancer.com/api",
+     "title": "Freelancer API page",
+     "accessed": "2026-11-06",
+     "quote": "If a job is accepted, we charge 3% to the employer with no minimum project fee.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.freelancer.com/api",
+     "title": "Freelancer API page",
+     "accessed": "2026-11-06",
+     "quote": "Use the Freelancer API to access a cloud workforce of skilled freelancers from your website, app or software.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.freelancer.com/api",
+     "title": "Freelancer API page",
+     "accessed": "2026-11-06",
+     "quote": "Hire in any profession you can think of using our API, on demand",
      "quote_check": "ok"
     }
    ]
@@ -16274,7 +16435,14 @@
    "tags": [
     "freelance-platform"
    ],
-   "review": null,
+   "review": {
+    "board_id": "kwork",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage read in the browser and /api returned 404; none of the missing facts are stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -17010,13 +17178,15 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "partner_program": "yes",
+   "partner_url": "https://beamery.com/partners/",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Partners page offers joining the partner network and lists certified SAP and Workday integrations. Homepage, partners page and about page make no mention of a public API. The /developers page returned 404. No headquarters, parent, languages or pricing were stated; the only call to action is Book a demo.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/beamery/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -17026,9 +17196,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "hr-tech"
+    "ats-integration",
+    "hr-tech",
+    "partner-program"
    ],
-   "review": null,
+   "review": {
+    "board_id": "beamery",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;parent",
+    "note": "Partner program and ATS integrations stated; no public API mention found, /developers returned 404, and no headquarters, languages or pricing stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -17038,6 +17217,22 @@
      "title": "Beamery homepage",
      "accessed": "2026-11-06",
      "quote": "Connect talent strategy to business outcomes with real-time intelligence on people, skills, and tasks.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://beamery.com/partners/",
+     "title": "Partners page",
+     "accessed": "2026-11-06",
+     "quote": "Become a Beamery partner",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://beamery.com/partners/",
+     "title": "Partners page",
+     "accessed": "2026-11-06",
+     "quote": "Our integration allows mutual customers to bidirectionally sync candidate and vacancy data in real-time between the Beamery CRM and Greenhouse ATS.",
      "quote_check": "ok"
     }
    ]
@@ -17489,7 +17684,14 @@
    "tags": [
     "outplacement"
    ],
-   "review": null,
+   "review": {
+    "board_id": "lhh",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states the English language selector only; headquarters, pricing, API and partner program not stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -18043,7 +18245,14 @@
    "tags": [
     "career-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "jobscan",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Browser reader returned a Cloudflare challenge page with HTTP 403 and flagged blocked.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [

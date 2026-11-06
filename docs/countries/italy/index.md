@@ -1,6 +1,6 @@
 # Job boards in Italy
 
-17 job boards and related entries based in or serving Italy.
+18 job boards and related entries based in or serving Italy.
 
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, Large tier, API key on request
 - [lavoro.gov.it (Ministry of Labour)](https://jobboardlist.com/boards/lavoro-gov-it-ministry-of-labour/): government, Established tier
@@ -8,6 +8,7 @@
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator, Established tier
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [AlmaLaurea](https://jobboardlist.com/boards/almalaurea/): niche-board, Established tier
+- [Gi Group Holding](https://jobboardlist.com/boards/gi-group-holding/): staffing, Established tier
 - [Concorsando](https://jobboardlist.com/boards/concorsando/): niche-board, Small tier
 - [Subito](https://jobboardlist.com/boards/subito/): board
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API

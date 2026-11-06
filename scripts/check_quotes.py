@@ -32,12 +32,7 @@ def browser_text(url):
     except Exception: return None
     if d.get("blocked") or not d.get("text"): return None
     return norm(d["text"])
-def check(url, quote, cache):
-    if url not in cache:
-        cache[url] = page_text(url)
-        if cache[url] is None and "wikipedia.org/" not in url: cache[url] = browser_text(url)
-    txt = cache[url]
-    if txt is None: return "unreachable"
+def judge(txt, quote):
     q = norm(quote)
     if not q: return "mismatch"
     if q in txt: return "ok"
@@ -46,6 +41,18 @@ def check(url, quote, cache):
         wins = [" ".join(words[i:i+4]) for i in range(len(words) - 3)]
         if sum(w in txt for w in wins) / len(wins) >= 0.8: return "ok"
     return "mismatch"
+def check(url, quote, cache):
+    """Plain request first. If the quote is not in it (or the page is unreadable), try the rendered page in the browser, since many sites build menus and text with JavaScript."""
+    wiki = "wikipedia.org/" in url
+    if url not in cache: cache[url] = {"curl": page_text(url), "browser": False}
+    c = cache[url]; res = judge(c["curl"], quote) if c["curl"] is not None else "unreachable"
+    if res == "ok" or wiki: return res
+    if c["browser"] is False: c["browser"] = browser_text(url)
+    if c["browser"] is not None:
+        r2 = judge(c["browser"], quote)
+        if r2 == "ok": return "ok"
+        return "mismatch"
+    return res
 def main(files):
     cache = {}
     for fn in files:

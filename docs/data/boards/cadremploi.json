@@ -19,9 +19,11 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Fetch tool could not reach the site; the browser reader loaded it without a block. The footer links Groupe Figaro, but the page does not state the relationship. Employer area offers posting a job; no prices or API are stated. Page is in French with no language selector shown.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cadremploi/",
  "indexable": false,
  "prominence": {
@@ -35,7 +37,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "cadremploi",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent",
+  "note": "Fetch tool could not reach the site; browser reader loaded the homepage, which states a job posting link but no prices, API or company facts.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +55,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.cadremploi.fr/",
+   "title": "Homepage employer link",
+   "accessed": "2026-11-06",
+   "quote": "Déposer une offre d'emploi",
+   "quote_check": "ok"
   }
  ]
 }

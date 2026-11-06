@@ -1,0 +1,350 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "cy"
+   ],
+   "parent": "UK Statistics Authority",
+   "notes": "Homepage offers English and Cymraeg. The About page names the UK Statistics Authority as the body it serves as executive office. Contact page lists offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast; no headquarters is named. The /developers page returned 404.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.ons.gov.uk/",
+     "title": "Homepage language menu",
+     "quote": "English (EN) | Cymraeg (CY)",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.ons.gov.uk/aboutus",
+     "title": "About ONS",
+     "quote": "We are the executive office of the UK Statistics Authority",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://www.ons.gov.uk/aboutus/contactus",
+     "title": "Office locations",
+     "quote": "Details of our offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Freelancer.com",
+   "url": "https://www.freelancer.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "business_model": "free to post a project; 3% fee charged to employer on accepted jobs",
+   "api_status": "unknown",
+   "api_docs_url": "https://www.freelancer.com/api",
+   "ingest_methods": [
+    "api"
+   ],
+   "notes": "Homepage footer language selector shows only US (International) / English. The API page says posting is free and describes a 3% charge on accepted jobs. The API page does not state whether a key is needed. The /partners page returned 404. No headquarters or parent is stated on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.freelancer.com/",
+     "title": "Homepage footer language selector",
+     "quote": "US (International) / English",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.freelancer.com/api",
+     "title": "Freelancer API page",
+     "quote": "If a job is accepted, we charge 3% to the employer with no minimum project fee.",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.freelancer.com/api",
+     "title": "Freelancer API page",
+     "quote": "Use the Freelancer API to access a cloud workforce of skilled freelancers from your website, app or software.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.freelancer.com/api",
+     "title": "Freelancer API page",
+     "quote": "Hire in any profession you can think of using our API, on demand",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "notes": "Homepage and employer page are in German with no language selector shown. The employer page names a network of partner platforms for reach, which is not a partner program for integrations. No prices, headquarters, parent, API or posting method were stated on the pages read. Footer names Jobware GmbH without an address.",
+   "sources": []
+  },
+  {
+   "name": "Cadremploi",
+   "url": "https://www.cadremploi.fr/",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Fetch tool could not reach the site; the browser reader loaded it without a block. The footer links Groupe Figaro, but the page does not state the relationship. Employer area offers posting a job; no prices or API are stated. Page is in French with no language selector shown.",
+   "sources": [
+    {
+     "field": "ingest_methods",
+     "url": "https://www.cadremploi.fr/",
+     "title": "Homepage employer link",
+     "quote": "Déposer une offre d'emploi",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "parent": "Office for National Statistics",
+   "api_status": "unknown",
+   "api_docs_url": "https://www.nomisweb.co.uk/api",
+   "notes": "Nomis describes itself as a labour market statistics service. The API page documents a RESTful API for data downloads and states a limit on concurrent requests; it does not state whether a key is needed. The contact page names no address. No language options, prices or partner program were stated on the pages read.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.nomisweb.co.uk/",
+     "title": "Homepage",
+     "quote": "Nomis is a service provided by Office for National Statistics (ONS)",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.nomisweb.co.uk/api",
+     "title": "Nomis API page",
+     "quote": "This is the Nomis RESTful API you can use it to perform a variety of structural discovery and data download requests.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "hq_country": "IT",
+   "notes": "Footer gives the headquarters as Milano and the company as GI GROUP HOLDING S.p.A. The country is Italy from the Milan address and the Milan companies register named in the footer. Country selector only; no language options shown. No pricing, API or partner program was stated on the pages read.",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.gigroup.com/contact-us/",
+     "title": "Footer company details",
+     "quote": "Headquarter: Piazza IV Novembre, 5 – 20124 Milano",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Kwork",
+   "url": "https://www.kwork.com",
+   "notes": "Homepage read in the browser; no language selector, company location, parent or pricing for employers was stated. The /api page returned 404.",
+   "sources": []
+  },
+  {
+   "name": "Beamery",
+   "url": "https://beamery.com",
+   "partner_program": "yes",
+   "partner_url": "https://beamery.com/partners/",
+   "api_status": "none-known",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Partners page offers joining the partner network and lists certified SAP and Workday integrations. Homepage, partners page and about page make no mention of a public API. The /developers page returned 404. No headquarters, parent, languages or pricing were stated; the only call to action is Book a demo.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://beamery.com/partners/",
+     "title": "Partners page",
+     "quote": "Become a Beamery partner",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://beamery.com/partners/",
+     "title": "Partners page",
+     "quote": "Our integration allows mutual customers to bidirectionally sync candidate and vacancy data in real-time between the Beamery CRM and Greenhouse ATS.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "notes": "Homepage language selector shows only United States (English). Footer links The Adecco Group but does not state the relationship. Locations page says talent solutions span 66 countries without naming a headquarters. No pricing, API or partner program was stated on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.lhh.com/en-us/about-us/our-presence",
+     "title": "Language selector",
+     "quote": "United States (English)",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Jobscan",
+   "url": "https://www.jobscan.co",
+   "notes": "Browser reader returned a Cloudflare challenge page with HTTP 403 and flagged the site as blocked. No facts recorded from this board.",
+   "sources": []
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Pages state English and Cymraeg options and the UK Statistics Authority link; no headquarters, pricing or partner program stated, and /developers returned 404."
+  },
+  {
+   "name": "Freelancer.com",
+   "url": "https://www.freelancer.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage, API page and footer state English only, free posting with a 3% fee, and API access; /partners returned 404."
+  },
+  {
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage and employer page read; none of the missing facts are stated."
+  },
+  {
+   "name": "Cadremploi",
+   "url": "https://www.cadremploi.fr/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent"
+   ],
+   "method": "browser",
+   "note": "Fetch tool could not reach the site; browser reader loaded the homepage, which states a job posting link but no prices, API or company facts."
+  },
+  {
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage states ONS as provider and API page documents the RESTful API; no key requirement, languages, address or partner program stated."
+  },
+  {
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Footer states the Milan headquarters; country selector only, and no pricing, API or partner program stated on the pages read."
+  },
+  {
+   "name": "Kwork",
+   "url": "https://www.kwork.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage read in the browser and /api returned 404; none of the missing facts are stated."
+  },
+  {
+   "name": "Beamery",
+   "url": "https://beamery.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "Partner program and ATS integrations stated; no public API mention found, /developers returned 404, and no headquarters, languages or pricing stated."
+  },
+  {
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage states the English language selector only; headquarters, pricing, API and partner program not stated."
+  },
+  {
+   "name": "Jobscan",
+   "url": "https://www.jobscan.co",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "Browser reader returned a Cloudflare challenge page with HTTP 403 and flagged blocked."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Jobscan",
+   "url": "https://www.jobscan.co",
+   "reason": "HTTP 403 Cloudflare challenge in browser reader"
+  }
+ ]
+}

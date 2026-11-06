@@ -9,8 +9,11 @@
  "countries_served": [
   "BD"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "bn"
+ ],
  "region": "South Asia",
  "niche": "",
  "parent": "",
@@ -19,11 +22,13 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Homepage language menu offers ENG and Bangla. Employers post jobs through the recruiter site. Office list on the about page is not labelled as headquarters; no pricing shown. Fetch returned only the title, so the browser reader was used.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/bdjobs-com/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -53,6 +58,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://bdjobs.com/h/",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-06",
+   "quote": "ENG বাংলা",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://bdjobs.com/h/",
+   "title": "Homepage employer link",
+   "accessed": "2026-11-06",
+   "quote": "Post a Job",
+   "quote_check": "ok"
   }
  ]
 }

@@ -9,21 +9,25 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "general freelance and project marketplace",
  "parent": "",
- "business_model": "",
+ "business_model": "free to post a project; 3% fee charged to employer on accepted jobs",
  "api_status": "unknown",
- "api_docs_url": "",
+ "api_docs_url": "https://www.freelancer.com/api",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "api"
+ ],
+ "notes": "Homepage footer language selector shows only US (International) / English. The API page says posting is free and describes a 3% charge on accepted jobs. The API page does not state whether a key is needed. The /partners page returned 404. No headquarters or parent is stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/freelancer-com/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -33,10 +37,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "freelance-platform",
   "general"
  ],
- "review": null,
+ "review": {
+  "board_id": "freelancer-com",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;partner_program",
+  "note": "Homepage, API page and footer state English only, free posting with a 3% fee, and API access; /partners returned 404.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +58,38 @@
    "title": "Freelancer.com homepage",
    "accessed": "2026-11-06",
    "quote": "Hire the best freelancers for any job, online.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.freelancer.com/",
+   "title": "Homepage footer language selector",
+   "accessed": "2026-11-06",
+   "quote": "US (International) / English",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.freelancer.com/api",
+   "title": "Freelancer API page",
+   "accessed": "2026-11-06",
+   "quote": "If a job is accepted, we charge 3% to the employer with no minimum project fee.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.freelancer.com/api",
+   "title": "Freelancer API page",
+   "accessed": "2026-11-06",
+   "quote": "Use the Freelancer API to access a cloud workforce of skilled freelancers from your website, app or software.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.freelancer.com/api",
+   "title": "Freelancer API page",
+   "accessed": "2026-11-06",
+   "quote": "Hire in any profession you can think of using our API, on demand",
    "quote_check": "ok"
   }
  ]

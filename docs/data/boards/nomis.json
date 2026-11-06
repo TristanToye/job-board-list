@@ -14,14 +14,14 @@
  "languages_supported": [],
  "region": "Europe",
  "niche": "UK labour market statistics service",
- "parent": "",
+ "parent": "Office for National Statistics",
  "business_model": "",
  "api_status": "unknown",
- "api_docs_url": "",
+ "api_docs_url": "https://www.nomisweb.co.uk/api",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Nomis describes itself as a labour market statistics service. The API page documents a RESTful API for data downloads and states a limit on concurrent requests; it does not state whether a key is needed. The contact page names no address. No language options, prices or partner program were stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/nomis/",
  "indexable": false,
@@ -37,7 +37,14 @@
   "lmi",
   "trades-labour"
  ],
- "review": null,
+ "review": {
+  "board_id": "nomis",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
+  "note": "Homepage states ONS as provider and API page documents the RESTful API; no key requirement, languages, address or partner program stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -47,6 +54,22 @@
    "title": "Nomis home page",
    "accessed": "2026-11-06",
    "quote": "we publish statistics related to population, society and the labour market",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.nomisweb.co.uk/",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "Nomis is a service provided by Office for National Statistics (ONS)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.nomisweb.co.uk/api",
+   "title": "Nomis API page",
+   "accessed": "2026-11-06",
+   "quote": "This is the Nomis RESTful API you can use it to perform a variety of structural discovery and data download requests.",
    "quote_check": "ok"
   }
  ]
