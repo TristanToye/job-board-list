@@ -1,0 +1,149 @@
+{
+  "round": 5,
+  "orders": [
+    {
+      "id": "jobware",
+      "name": "Jobware",
+      "url": "https://www.jobware.de/",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "high", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://www.jobware.de/impressum", "https://www.jobware.de/ueber-uns", "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions"],
+      "reason": "Ueber uns says Jobware is a subsidiary (Tochterunternehmen) of Medien Union, Ludwigshafen, which covers parent; hq and founded were already found by earlier attempts. Footer links to Impressum and Presse; no Developers, API, Pricing or language menu seen. Jobboard Solutions page is a white-label offer, not a partner program page.",
+      "flags": ["parent is empty in the record, but the about page names Medien Union as parent group"]
+    },
+    {
+      "id": "harver",
+      "name": "Harver",
+      "url": "https://harver.com",
+      "likelihood": {"hq_country": "medium", "founded": "high", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "high"},
+      "try_pages": ["https://harver.com/about-us/", "https://harver.com/integrations/"],
+      "reason": "About Us link in the header and footer; founded already verified there. Footer shows a Harver B.V. copyright line, which points at a legal entity for hq_country but does not state a headquarters. Integrations page describes ATS integrations (iCIMS Prime, UKG, Workday) as the data access method. No Developers, API, Pricing or language menu seen.",
+      "flags": ["partner_program is recorded yes with partner_url /integrations, but that page lists ATS integrations rather than a partner program; check the URL"]
+    },
+    {
+      "id": "novoresume",
+      "name": "Novoresume",
+      "url": "https://www.novoresume.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "none"},
+      "try_pages": ["https://novoresume.com/about-us", "https://www.novoresume.com/page/pricing", "https://www.novoresume.com"],
+      "reason": "Footer language menu lists Dansk, Deutsch, English UK, English US and Espanol. About Us and Pricing links are in the Company section. No Developers, API, Partners or Affiliates link seen. Resume builder, so job ingest is not expected.",
+      "flags": ["founded, languages and business_model are listed as missing, but the review history says all three were found"]
+    },
+    {
+      "id": "personio",
+      "name": "Personio",
+      "url": "https://www.personio.com",
+      "likelihood": {"founded": "none", "parent": "none", "languages": "none", "business_model": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 429 on two attempts, so the site is treated as blocked for this round and no pages were seen. No likelihood is given from site type alone.",
+      "flags": []
+    },
+    {
+      "id": "jazzhr",
+      "name": "JazzHR",
+      "url": "https://www.jazzhr.com",
+      "likelihood": {"founded": "low", "parent": "high", "languages": "low", "business_model": "high"},
+      "try_pages": ["https://www.employinc.com/company/", "https://www.jazzhr.com/pricing"],
+      "reason": "Footer shows a copyright line for Employ Inc. and an About Employ link. The Employ company page names JazzHR as one of its products but gives no founding year or headquarters. Pricing link is in the header and footer.",
+      "flags": ["parent is empty in the record, but the footer names Employ Inc. and the Employ page lists JazzHR as an Employ product", "recorded api_docs_url https://www.jazzhr.com/api returned HTTP 404 on fetch, so the public-key status may rest on a stale link", "business_model was found on the pricing page per the review, but is still listed as missing"]
+    },
+    {
+      "id": "revelio-labs",
+      "name": "Revelio Labs",
+      "url": "https://www.reveliolabs.com",
+      "likelihood": {"parent": "low", "languages": "low", "business_model": "high", "api_status": "medium", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.reveliolabs.com/pricing", "https://www.reveliolabs.com/"],
+      "reason": "Pricing link is in the footer (business model already found on that page). Homepage has an API section with SDK and MCP Server tabs that have no links, plus a Talk to an Expert link, so an API product exists but its access rule is not shown. Footer has no parent statement. No partner link seen.",
+      "flags": ["business_model was found on the pricing page per the review, but is still listed as missing"]
+    },
+    {
+      "id": "lhh",
+      "name": "LHH",
+      "url": "https://www.lhh.com",
+      "likelihood": {"parent": "high", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.lhh.com/en-us/about-us", "https://adeccogroup.com/investors/"],
+      "reason": "About page footer links to The Adecco Group and its Investor Relations page, which points at a parent group. Earlier attempts found no HQ or founding year. No Developers, API, Partners, Pricing or language menu seen.",
+      "flags": ["parent is empty in the record, but the footer links to The Adecco Group and Investor Relations"]
+    },
+    {
+      "id": "first-advantage",
+      "name": "First Advantage",
+      "url": "https://fadv.com",
+      "likelihood": {"founded": "high", "languages": "high", "business_model": "low"},
+      "try_pages": ["https://fadv.com/about-us/", "https://fadv.com"],
+      "reason": "About Us link in the nav and footer; the review says founded 2003 was found there. Region and language menu on the homepage lists English, Japanese, Korean, Chinese, Spanish and Portuguese. No pricing link seen; business model is likely employer-contract based.",
+      "flags": ["founded and languages are listed as missing, but the review history says both were found"]
+    },
+    {
+      "id": "ashby",
+      "name": "Ashby",
+      "url": "https://www.ashbyhq.com",
+      "likelihood": {"founded": "low", "parent": "low", "languages": "low"},
+      "try_pages": ["https://www.ashbyhq.com/story"],
+      "reason": "Our Story page mentions the founding of Ashby but gives no year, and the only year on the site is the copyright. No About page link, footer shows no parent, and no language menu is offered.",
+      "flags": []
+    },
+    {
+      "id": "kickresume",
+      "name": "Kickresume",
+      "url": "https://www.kickresume.com",
+      "likelihood": {"hq_country": "high", "parent": "low", "languages": "high", "api_status": "low", "ingest_methods": "none"},
+      "try_pages": ["https://www.kickresume.com/en/about/", "https://www.kickresume.com/"],
+      "reason": "About Us link in the Company footer; the review says the Bratislava HQ was found there. Footer lists alternative languages (Slovensky, Espanol, Deutsch, Portugues, Italiano). No Developers, API or Partners link seen. Resume builder, so job ingest is not expected.",
+      "flags": ["hq_country is empty in the record, but the review says Bratislava was found on the About page"]
+    },
+    {
+      "id": "prospects",
+      "name": "Prospects",
+      "url": "https://www.prospects.ac.uk",
+      "likelihood": {"hq_country": "high", "languages": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://prospects.ac.uk/about-us"],
+      "reason": "About us page gives a registered office in Bristol, England, which is the closest text to hq_country. No Developers, API or language menu seen. University packages link is a recruiter offer, not a partner program page.",
+      "flags": []
+    },
+    {
+      "id": "eightfold-ai",
+      "name": "Eightfold AI",
+      "url": "https://eightfold.ai",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "No language menu and only English content. No Pricing or Developers link seen. The Product documentation link at docs.eightfold.ai redirects to a single sign-on login, so it was not followed.",
+      "flags": ["recorded partner_url https://eightfold.ai/partners does not match the footer link, which points to https://eightfold.ai/company/partners/"]
+    },
+    {
+      "id": "hays",
+      "name": "Hays",
+      "url": "https://www.hays.com",
+      "likelihood": {"parent": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.haysplc.com", "https://www.hays.com/en-US/about-us"],
+      "reason": "Footer and About page link to Hays PLC (haysplc.com) and carry a Hays Plc copyright line, so the parent group is linked directly. No Pricing, Developers, API or Partners link seen.",
+      "flags": ["parent is empty in the record, but the review says it was verified from haysplc.com and the footer links to Hays PLC", "languages_supported is recorded as en only, but the region selector lists English, German, French, Dutch, Portuguese, Chinese, Italian, Japanese, Spanish and Polish"]
+    },
+    {
+      "id": "enhancv",
+      "name": "Enhancv",
+      "url": "https://enhancv.com",
+      "likelihood": {"parent": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "none"},
+      "try_pages": ["https://enhancv.com/pricing/", "https://enhancv.com/press/"],
+      "reason": "Pricing link is in the header navigation. Press and PR link in the footer shows no parent. No Developers, API or Partners link seen. Resume builder, so job ingest is not expected.",
+      "flags": []
+    },
+    {
+      "id": "codeable",
+      "name": "Codeable",
+      "url": "https://codeable.io",
+      "likelihood": {"parent": "low", "languages": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.codeable.io/story/", "https://www.codeable.io/team/"],
+      "reason": "Developers links point to the freelancer directory and application pages, not an API. No language menu and English-only content. Team and Our story pages are the only company pages linked, and neither names a parent.",
+      "flags": ["founded is not in the missing list, and the review says no founding year was found, but the /story/ page shows founded 2012 in its statistics section"]
+    },
+    {
+      "id": "japan-dev",
+      "name": "Japan Dev",
+      "url": "https://japan-dev.com/",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://japan-dev.com/about", "https://japan-dev.com/?lang=jp"],
+      "reason": "About page states Founded 2019 and lists an office in Kawasaki-shi, Kanagawa, Japan, so the earlier review's note of no HQ statement may be out of date. Language toggle offers Japanese beside English. The About page names Company Japan Dev, Inc. with no parent. No pricing, API or partner link seen. The earlier review says job-data sourcing is stated, which is not in the record.",
+      "flags": ["the earlier review says no headquarters statement, but the About page lists the Kawasaki office address"]
+    }
+  ]
+}

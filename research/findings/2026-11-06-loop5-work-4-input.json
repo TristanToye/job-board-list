@@ -1,0 +1,109 @@
+{
+ "round": 5,
+ "orders": [
+  {
+   "id": "harver",
+   "name": "Harver",
+   "url": "https://harver.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "high",
+    "ingest_methods": "high"
+   },
+   "try_pages": [
+    "https://harver.com/about-us/",
+    "https://harver.com/integrations/"
+   ],
+   "reason": "About Us link in the header and footer; founded already verified there. Footer shows a Harver B.V. copyright line, which points at a legal entity for hq_country but does not state a headquarters. Inte"
+  },
+  {
+   "id": "egon-zehnder",
+   "name": "Egon Zehnder",
+   "url": "https://www.egonzehnder.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.egonzehnder.com/about-us",
+    "https://www.egonzehnder.com/offices"
+   ],
+   "reason": "Language menu (English, Deutsch, 中文, 日本語) is on the homepage. About Us and Find Offices links are seen but not read. No Developers, API, Pricing or partner link; the partnership links are with HBR, Mo"
+  },
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "url": "https://www.greenhouse.com",
+   "fields": [
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.greenhouse.com/company",
+    "https://www.greenhouse.com/de"
+   ],
+   "reason": "Company page is in the About footer. The homepage language menu lists English (US), English (UK) and Deutsch. Pricing, Developer resources and Partnerships links are present but do not state founding "
+  },
+  {
+   "id": "prospects",
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "fields": [
+    "hq_country"
+   ],
+   "likelihood": {
+    "hq_country": "high"
+   },
+   "try_pages": [
+    "https://prospects.ac.uk/about-us"
+   ],
+   "reason": "About us page gives a registered office in Bristol, England, which is the closest text to hq_country. No Developers, API or language menu seen. University packages link is a recruiter offer, not a par"
+  },
+  {
+   "id": "velvetjobs",
+   "name": "VelvetJobs",
+   "url": "https://www.velvetjobs.com",
+   "fields": [
+    "business_model",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "business_model": "medium",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://www.velvetjobs.com/post-a-job",
+    "https://www.velvetjobs.com/outplacement"
+   ],
+   "reason": "Post a Job and Outplacement pages are in the navigation. The post-a-job page is the likely place for how employers post and pay. No language menu, Developers or partner link on the homepage."
+  },
+  {
+   "id": "turijobs",
+   "name": "Turijobs",
+   "url": "https://www.turijobs.com/",
+   "fields": [
+    "hq_country"
+   ],
+   "likelihood": {
+    "hq_country": "medium"
+   },
+   "try_pages": [],
+   "reason": "Homepage returned HTTP 503, so no navigation links were seen and no page was read. The review says headquarters is stated somewhere, so a retry is worth it; no sign of the other fields being stated."
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "round": 5,
+ "orders": [
+  {
+   "id": "novoresume",
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "fields": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://novoresume.com/about-us",
+    "https://www.novoresume.com/page/pricing",
+    "https://www.novoresume.com"
+   ],
+   "reason": "Footer language menu lists Dansk, Deutsch, English UK, English US and Espanol. About Us and Pricing links are in the Company section. No Developers, API, Partners or Affiliates link seen. Resume build"
+  },
+  {
+   "id": "kickresume",
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "fields": [
+    "hq_country",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.kickresume.com/en/about/",
+    "https://www.kickresume.com/"
+   ],
+   "reason": "About Us link in the Company footer; the review says the Bratislava HQ was found there. Footer lists alternative languages (Slovensky, Espanol, Deutsch, Portugues, Italiano). No Developers, API or Par"
+  },
+  {
+   "id": "revelio-labs",
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "fields": [
+    "business_model",
+    "api_status"
+   ],
+   "likelihood": {
+    "business_model": "high",
+    "api_status": "medium"
+   },
+   "try_pages": [
+    "https://www.reveliolabs.com/pricing",
+    "https://www.reveliolabs.com/"
+   ],
+   "reason": "Pricing link is in the footer (business model already found on that page). Homepage has an API section with SDK and MCP Server tabs that have no links, plus a Talk to an Expert link, so an API product"
+  },
+  {
+   "id": "lhh",
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://www.lhh.com/en-us/about-us",
+    "https://adeccogroup.com/investors/"
+   ],
+   "reason": "About page footer links to The Adecco Group and its Investor Relations page, which points at a parent group. Earlier attempts found no HQ or founding year. No Developers, API, Partners, Pricing or lan"
+  },
+  {
+   "id": "kelly-services",
+   "name": "Kelly Services",
+   "url": "https://www.kellyservices.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://www.kellyservices.com/about-kelly/our-story/?hsLang=en"
+   ],
+   "reason": "Our story page is linked from About Kelly and already gave 1946 in review. Region menu lists Canada, Mexico and Puerto Rico with no language selector. No Developers, API or partner link. Careers runs "
+  },
+  {
+   "id": "bamboohr",
+   "name": "BambooHR",
+   "url": "https://www.bamboohr.com",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.bamboohr.com/about-bamboohr/"
+   ],
+   "reason": "About BambooHR page is the usual place for ownership and was already read for founding year. The fetch of the homepage returned no navigation, so no language menu was seen."
+  }
+ ]
+}

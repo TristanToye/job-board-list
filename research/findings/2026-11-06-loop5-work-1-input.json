@@ -1,0 +1,116 @@
+{
+ "round": 5,
+ "orders": [
+  {
+   "id": "jobware",
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "parent": "high",
+    "business_model": "medium",
+    "partner_program": "medium"
+   },
+   "try_pages": [
+    "https://www.jobware.de/impressum",
+    "https://www.jobware.de/ueber-uns",
+    "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions"
+   ],
+   "reason": "Ueber uns says Jobware is a subsidiary (Tochterunternehmen) of Medien Union, Ludwigshafen, which covers parent; hq and founded were already found by earlier attempts. Footer links to Impressum and Pre"
+  },
+  {
+   "id": "jazzhr",
+   "name": "JazzHR",
+   "url": "https://www.jazzhr.com",
+   "fields": [
+    "parent",
+    "business_model"
+   ],
+   "likelihood": {
+    "parent": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.employinc.com/company/",
+    "https://www.jazzhr.com/pricing"
+   ],
+   "reason": "Footer shows a copyright line for Employ Inc. and an About Employ link. The Employ company page names JazzHR as one of its products but gives no founding year or headquarters. Pricing link is in the h"
+  },
+  {
+   "id": "russell-reynolds-associates",
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "fields": [
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.russellreynolds.com/en/about/who-we-are/history",
+    "https://www.russellreynolds.com/en/about/who-we-are"
+   ],
+   "reason": "History page sits under Who We Are, which the About menu links to. Language menu on the homepage lists English, 中文(中国) and 日本語 (日本). No Developers, API or partner link seen; no parent stated."
+  },
+  {
+   "id": "topresume",
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "fields": [
+    "parent",
+    "partner_program"
+   ],
+   "likelihood": {
+    "parent": "medium",
+    "partner_program": "high"
+   },
+   "try_pages": [
+    "https://www.topresume.com/about",
+    "https://www.topresume.com/partnerships"
+   ],
+   "reason": "About page is in the Company menu and is where the Career.io family wording appears. Partnerships page is linked and is where partner_program was found. No language menu, Developers or API link."
+  },
+  {
+   "id": "hays",
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://www.haysplc.com",
+    "https://www.hays.com/en-US/about-us"
+   ],
+   "reason": "Footer and About page link to Hays PLC (haysplc.com) and carry a Hays Plc copyright line, so the parent group is linked directly. No Pricing, Developers, API or Partners link seen."
+  },
+  {
+   "id": "gi-group-holding",
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "high"
+   },
+   "try_pages": [
+    "https://www.gigroupholding.com",
+    "https://www.gigroup.com/about-gi-group/"
+   ],
+   "reason": "Footer links to gigroupholding.com, and the About Gi Group page says Gi Group is part of Gi Group Holding. For Employers and Outsourcing pages are linked; none states pricing, API or partner program."
+  }
+ ]
+}

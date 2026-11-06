@@ -1,0 +1,130 @@
+{
+  "round": 5,
+  "orders": [
+    {
+      "id": "egon-zehnder", "name": "Egon Zehnder", "url": "https://www.egonzehnder.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.egonzehnder.com/about-us", "https://www.egonzehnder.com/offices"],
+      "reason": "Language menu (English, Deutsch, 中文, 日本語) is on the homepage. About Us and Find Offices links are seen but not read. No Developers, API, Pricing or partner link; the partnership links are with HBR, Mobius and IMD.",
+      "flags": []
+    },
+    {
+      "id": "kelly-services", "name": "Kelly Services", "url": "https://www.kellyservices.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.kellyservices.com/about-kelly/our-story/?hsLang=en"],
+      "reason": "Our story page is linked from About Kelly and already gave 1946 in review. Region menu lists Canada, Mexico and Puerto Rico with no language selector. No Developers, API or partner link. Careers runs on a Workday job board.",
+      "flags": []
+    },
+    {
+      "id": "russell-reynolds-associates", "name": "Russell Reynolds Associates", "url": "https://www.russellreynolds.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.russellreynolds.com/en/about/who-we-are/history", "https://www.russellreynolds.com/en/about/who-we-are"],
+      "reason": "History page sits under Who We Are, which the About menu links to. Language menu on the homepage lists English, 中文(中国) and 日本語 (日本). No Developers, API or partner link seen; no parent stated.",
+      "flags": []
+    },
+    {
+      "id": "successfactors", "name": "SAP SuccessFactors Recruiting", "url": "https://www.successfactors.com",
+      "likelihood": {"founded": "none", "parent": "none", "languages": "none", "business_model": "none"},
+      "try_pages": [],
+      "reason": "Homepage redirects to sap.com/products/hcm.html, which returns 403 to the fetch tool and to the headless reader, so no page could be read.",
+      "flags": [
+        "Parent is empty, but the site redirects to SAP's domain, which suggests SAP is the owner (not verified here).",
+        "api_docs_url recorded as api.sap.com was not checked."
+      ]
+    },
+    {
+      "id": "lightcast", "name": "Lightcast", "url": "https://lightcast.io",
+      "likelihood": {"parent": "low", "languages": "low", "business_model": "low", "api_status": "high", "partner_program": "low", "ingest_methods": "high"},
+      "try_pages": ["https://lightcast.io/our-data/api/menu", "https://analyst.lightcast.io/"],
+      "reason": "Data Delivery page (our-data/api/menu) is linked from the product menu and is already recorded. Developer item links to analyst.lightcast.io. Regional sites are listed under Global Reach with no language selector. No Partners or Pricing link.",
+      "flags": []
+    },
+    {
+      "id": "manpowergroup", "name": "ManpowerGroup", "url": "https://www.manpowergroup.com",
+      "likelihood": {"parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Footer shows Global (English) with no language link. No Developers, API, Pricing or partner link on the homepage. Media is the nearest press link.",
+      "flags": []
+    },
+    {
+      "id": "velvetjobs", "name": "VelvetJobs", "url": "https://www.velvetjobs.com",
+      "likelihood": {"parent": "low", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://www.velvetjobs.com/post-a-job", "https://www.velvetjobs.com/outplacement"],
+      "reason": "Post a Job and Outplacement pages are in the navigation. The post-a-job page is the likely place for how employers post and pay. No language menu, Developers or partner link on the homepage.",
+      "flags": []
+    },
+    {
+      "id": "greenhouse", "name": "Greenhouse", "url": "https://www.greenhouse.com",
+      "likelihood": {"founded": "medium", "parent": "low", "languages": "high"},
+      "try_pages": ["https://www.greenhouse.com/company", "https://www.greenhouse.com/de"],
+      "reason": "Company page is in the About footer. The homepage language menu lists English (US), English (UK) and Deutsch. Pricing, Developer resources and Partnerships links are present but do not state founding or parent.",
+      "flags": []
+    },
+    {
+      "id": "pinpoint", "name": "Pinpoint", "url": "https://www.pinpointhq.com",
+      "likelihood": {"founded": "medium", "parent": "low", "languages": "low"},
+      "try_pages": ["https://www.pinpointhq.com/about-us"],
+      "reason": "About us is in the Company menu and footer. Reviewer read only request-pricing and news. No language menu; only UK and US Companies pages.",
+      "flags": [
+        "Recorded api_docs_url developers.pinpointhq.com is not linked from the homepage, which mentions an open API only in text."
+      ]
+    },
+    {
+      "id": "topresume", "name": "TopResume", "url": "https://www.topresume.com",
+      "likelihood": {"parent": "medium", "languages": "low", "api_status": "low", "partner_program": "high", "ingest_methods": "low"},
+      "try_pages": ["https://www.topresume.com/about", "https://www.topresume.com/partnerships"],
+      "reason": "About page is in the Company menu and is where the Career.io family wording appears. Partnerships page is linked and is where partner_program was found. No language menu, Developers or API link.",
+      "flags": [
+        "About page says part of the Career.io family, but no parent is recorded."
+      ]
+    },
+    {
+      "id": "taskrabbit", "name": "TaskRabbit", "url": "https://www.taskrabbit.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "No language menu, Pricing, Developers or API link on the homepage or footer. Become a Tasker is the only supply-side link seen.",
+      "flags": []
+    },
+    {
+      "id": "bamboohr", "name": "BambooHR", "url": "https://www.bamboohr.com",
+      "likelihood": {"parent": "medium", "languages": "low"},
+      "try_pages": ["https://www.bamboohr.com/about-bamboohr/"],
+      "reason": "About BambooHR page is the usual place for ownership and was already read for founding year. The fetch of the homepage returned no navigation, so no language menu was seen.",
+      "flags": []
+    },
+    {
+      "id": "gi-group-holding", "name": "Gi Group Holding", "url": "https://www.gigroup.com",
+      "likelihood": {"parent": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.gigroupholding.com", "https://www.gigroup.com/about-gi-group/"],
+      "reason": "Footer links to gigroupholding.com, and the About Gi Group page says Gi Group is part of Gi Group Holding. For Employers and Outsourcing pages are linked; none states pricing, API or partner program.",
+      "flags": [
+        "Entry is the holding, but its url is the operating brand gigroup.com. Parent is empty although About says Gi Group is part of Gi Group Holding."
+      ]
+    },
+    {
+      "id": "applytoeducation", "name": "ApplyToEducation", "url": "https://www.applytoeducation.com",
+      "likelihood": {"founded": "medium", "parent": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://www.applytoeducation.com/about-us", "https://www.applytoeducation.com/our-solutions", "https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx"],
+      "reason": "About us is in the footer. Why Switch and the Post a Job registration page are in the navigation and are the likely places for employer pricing and posting method. No Developers or API link seen.",
+      "flags": [
+        "Language toggle shows En and Fr, but languages_supported is recorded as en only."
+      ]
+    },
+    {
+      "id": "beamery", "name": "Beamery", "url": "https://beamery.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low"},
+      "try_pages": [],
+      "reason": "Homepage and footer show Partners (Workday, SAP SuccessFactors), a Helpdesk and a Trust Center, but no Pricing, Developers or API link and no language menu.",
+      "flags": []
+    },
+    {
+      "id": "turijobs", "name": "Turijobs", "url": "https://www.turijobs.com/",
+      "likelihood": {"hq_country": "medium", "founded": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 503, so no navigation links were seen and no page was read. The review says headquarters is stated somewhere, so a retry is worth it; no sign of the other fields being stated.",
+      "flags": [
+        "Review note says headquarters is stated, yet hq_country is still in the missing list with no value recorded."
+      ]
+    }
+  ]
+}

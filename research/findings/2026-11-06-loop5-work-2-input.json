@@ -1,0 +1,115 @@
+{
+ "round": 5,
+ "orders": [
+  {
+   "id": "japan-dev",
+   "name": "Japan Dev",
+   "url": "https://japan-dev.com/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "languages",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "founded": "high",
+    "languages": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://japan-dev.com/about",
+    "https://japan-dev.com/?lang=jp"
+   ],
+   "reason": "About page states Founded 2019 and lists an office in Kawasaki-shi, Kanagawa, Japan, so the earlier review's note of no HQ statement may be out of date. Language toggle offers Japanese beside English."
+  },
+  {
+   "id": "first-advantage",
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "fields": [
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://fadv.com/about-us/",
+    "https://fadv.com"
+   ],
+   "reason": "About Us link in the nav and footer; the review says founded 2003 was found there. Region and language menu on the homepage lists English, Japanese, Korean, Chinese, Spanish and Portuguese. No pricing"
+  },
+  {
+   "id": "lightcast",
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "fields": [
+    "api_status",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "api_status": "high",
+    "ingest_methods": "high"
+   },
+   "try_pages": [
+    "https://lightcast.io/our-data/api/menu",
+    "https://analyst.lightcast.io/"
+   ],
+   "reason": "Data Delivery page (our-data/api/menu) is linked from the product menu and is already recorded. Developer item links to analyst.lightcast.io. Regional sites are listed under Global Reach with no langu"
+  },
+  {
+   "id": "applytoeducation",
+   "name": "ApplyToEducation",
+   "url": "https://www.applytoeducation.com",
+   "fields": [
+    "founded",
+    "business_model",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "founded": "medium",
+    "business_model": "medium",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://www.applytoeducation.com/about-us",
+    "https://www.applytoeducation.com/our-solutions",
+    "https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx"
+   ],
+   "reason": "About us is in the footer. Why Switch and the Post a Job registration page are in the navigation and are the likely places for employer pricing and posting method. No Developers or API link seen."
+  },
+  {
+   "id": "enhancv",
+   "name": "Enhancv",
+   "url": "https://enhancv.com",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://enhancv.com/pricing/",
+    "https://enhancv.com/press/"
+   ],
+   "reason": "Pricing link is in the header navigation. Press and PR link in the footer shows no parent. No Developers, API or Partners link seen. Resume builder, so job ingest is not expected."
+  },
+  {
+   "id": "pinpoint",
+   "name": "Pinpoint",
+   "url": "https://www.pinpointhq.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "medium"
+   },
+   "try_pages": [
+    "https://www.pinpointhq.com/about-us"
+   ],
+   "reason": "About us is in the Company menu and footer. Reviewer read only request-pricing and news. No language menu; only UK and US Companies pages."
+  }
+ ]
+}
