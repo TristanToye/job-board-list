@@ -15,10 +15,12 @@ for name, rows in (("job_boards", boards),):
 for r in boards:
     if r["api_status"] not in API: print(f"board {r['id']}: bad api_status {r['api_status']!r}"); bad += 1
 import re
+LANG_NAMES = {x["code"] for x in load("languages.csv")}
 for r in boards:
     codes = [x for x in [r["primary_language"]] + r["languages_supported"].split(";") if x]
     for cd in codes:
         if not re.fullmatch(r"[a-z]{2,3}", cd): print(f"board {r['id']}: bad language code {cd!r}"); bad += 1
+        elif cd not in LANG_NAMES: print(f"board {r['id']}: language code {cd!r} has no name in data/languages.csv"); bad += 1
     if r["languages_supported"] and r["primary_language"] and r["primary_language"] not in r["languages_supported"].split(";"):
         print(f"board {r['id']}: primary language not in languages_supported"); bad += 1
 src = load("sources.csv"); ids = {r["id"] for r in boards}

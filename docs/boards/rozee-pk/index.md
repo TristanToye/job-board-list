@@ -6,7 +6,7 @@ Rozee.pk is a job board.
 - Headquarters: not recorded
 - Founded: not recorded
 - Owner: Naseeb Networks, Inc.
-- Languages: English, ur, Chinese
+- Languages: English, Urdu, Chinese
 - API status: API status unknown
 - Partner program: unknown
 - Prominence: #227,935 globally, tier Small
@@ -18,7 +18,7 @@ Rozee.pk is a job board.
 
 **Who owns Rozee.pk?** This directory records the parent of Rozee.pk as Naseeb Networks, Inc..
 
-**Which languages does Rozee.pk support?** This directory records Rozee.pk as supporting English, ur, Chinese.
+**Which languages does Rozee.pk support?** This directory records Rozee.pk as supporting English, Urdu, Chinese.
 
 **How large is Rozee.pk?** Rozee.pk ranks #227,935 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 

@@ -6,7 +6,7 @@ bdjobs.com is a job board. It was founded in 2000.
 - Headquarters: not recorded
 - Founded: 2000
 - Owner: not recorded
-- Languages: English, bn
+- Languages: English, Bengali
 - API status: API status unknown
 - Partner program: unknown
 - Prominence: #82,246 globally, tier Established
@@ -16,7 +16,7 @@ bdjobs.com is a job board. It was founded in 2000.
 
 ## Quick answers
 
-**Which languages does bdjobs.com support?** This directory records bdjobs.com as supporting English, bn.
+**Which languages does bdjobs.com support?** This directory records bdjobs.com as supporting English, Bengali.
 
 **How large is bdjobs.com?** bdjobs.com ranks #82,246 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 

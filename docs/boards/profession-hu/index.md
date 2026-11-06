@@ -6,7 +6,7 @@ Profession.hu is a job board. It was founded in 2002.
 - Headquarters: not recorded
 - Founded: 2002
 - Owner: not recorded
-- Languages: hu, English
+- Languages: Hungarian, English
 - API status: API status unknown
 - Partner program: unknown
 - Prominence: #122,291 globally, tier Small
@@ -16,7 +16,7 @@ Profession.hu is a job board. It was founded in 2002.
 
 ## Quick answers
 
-**Which languages does Profession.hu support?** This directory records Profession.hu as supporting hu, English.
+**Which languages does Profession.hu support?** This directory records Profession.hu as supporting Hungarian, English.
 
 **How large is Profession.hu?** Profession.hu ranks #122,291 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 

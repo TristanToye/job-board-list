@@ -14,10 +14,8 @@ COUNTRIES = {"US":"United States","CA":"Canada","UK":"United Kingdom","DE":"Germ
  "RU":"Russia","AU":"Australia","MY":"Malaysia","HK":"Hong Kong","IN":"India","CN":"China","JP":"Japan","KR":"South Korea",
  "PH":"Philippines","AE":"United Arab Emirates","NG":"Nigeria","KE":"Kenya","ZA":"South Africa","CO":"Colombia","MX":"Mexico",
  "AR":"Argentina","BR":"Brazil","Global":"Global (no single HQ)"}
-LANGS = {"en":"English","es":"Spanish","fr":"French","de":"German","it":"Italian","pt":"Portuguese","nl":"Dutch","pl":"Polish",
- "sv":"Swedish","da":"Danish","no":"Norwegian","fi":"Finnish","ja":"Japanese","ko":"Korean","zh":"Chinese","ar":"Arabic","tr":"Turkish",
- "ru":"Russian","uk":"Ukrainian","ca":"Catalan","cs":"Czech","sk":"Slovak","id":"Indonesian","ms":"Malay","th":"Thai","hi":"Hindi","kk":"Kazakh","ro":"Romanian"}
-def lang(c): return LANGS.get(c, c)
+LANGS = {}; NATIVE = {}  # filled from data/languages.csv once load() is defined
+def lang(c): return LANGS.get(c, c.upper())
 def langs_of(b):
     out = []
     for c in [b["primary_language"]] + split(b["languages_supported"]):
@@ -48,6 +46,7 @@ def split(s): return [x.strip() for x in (s or "").split(";") if x.strip()]
 def country(c): return COUNTRIES.get(c, c)
 
 boards = load("job_boards.csv"); ats = [b for b in boards if b["type"] == "ats"]
+for _l in load("languages.csv"): LANGS[_l["code"]] = _l["name"]; NATIVE[_l["code"]] = _l["native"]
 for _c in load("countries.csv"): COUNTRIES.setdefault(_c["code"], _c["name"])
 RANK = {r["board_id"]: r for r in load("rank.csv")} if (ROOT/"data"/"rank.csv").exists() else {}
 SCALE = collections.defaultdict(list)
@@ -413,13 +412,22 @@ group_pages("api", "API status", lambda b: b["api_status"], lambda k: API_LABEL[
 by_lang = collections.defaultdict(list)
 for b in boards:
     for c in langs_of(b): by_lang[c].append(b)
-write("languages/index.html", layout(1, f"Job boards by language | {NAME}", "Browse job boards and aggregators by primary language and supported languages.",
-    '<h1>Job boards by language</h1><p class="lede">Boards are listed under their primary language and every other language they support.</p><ul class="biglist">'
-    + "".join(f'<li><a href="{slug(lang(c))}/">{e(lang(c))}</a> <span class="muted">({len(v)})</span></li>' for c, v in sorted(by_lang.items(), key=lambda kv: lang(kv[0]))) + "</ul>", "/languages/"))
+n_lang_rec = sum(1 for b in boards if langs_of(b))
+lang_items = sorted(by_lang.items(), key=lambda kv: (-len(kv[1]), lang(kv[0])))
+def lang_li(c, v): return f'<li><a href="{slug(lang(c))}/"><strong>{e(lang(c))}</strong></a>' + (f' <span class="muted">{e(NATIVE[c])}</span>' if NATIVE.get(c) and NATIVE[c] != lang(c) else "") + f' <span class="muted">({len(v)})</span></li>'
+write("languages/index.html", layout(1, f"Job boards by language | {NAME}", f"Job boards and aggregators by the languages they support: {len(by_lang)} languages across {n_lang_rec} entries.",
+    f'<h1>Job boards by language</h1><p class="lede">{len(by_lang)} languages across the {n_lang_rec} entries whose language we have recorded from the site\'s language menu or text. Entries are listed under their primary language and every other language they support, most widely supported first.</p>'
+    f'<p class="muted small">{len(boards) - n_lang_rec} of the {len(boards)} entries have no language recorded yet, so these counts understate real coverage. To see every entry that supports a language, use the Language filter on the <a href="../">directory</a>.</p>'
+    f'<h2>Most widely supported</h2><ul class="biglist">' + "".join(lang_li(c, v) for c, v in lang_items[:12]) + '</ul>'
+    f'<h2>All languages</h2><ul class="biglist">' + "".join(lang_li(c, v) for c, v in sorted(lang_items, key=lambda kv: lang(kv[0]))) + "</ul>", "/languages/"))
+for c in by_lang:  # old addresses that used the language code keep working
+    if slug(lang(c)) != c:
+        _d = OUT / "languages" / c; _d.mkdir(parents=True, exist_ok=True)
+        (_d / "index.html").write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(lang(c))}</title><meta name="robots" content="noindex"><link rel="canonical" href="{e(BASE)}/languages/{slug(lang(c))}/"><meta http-equiv="refresh" content="0; url=../{slug(lang(c))}/"></head><body><a href="../{slug(lang(c))}/">{e(lang(c))}</a></body></html>', encoding="utf-8")
 for c, v in by_lang.items():
     prim = sum(1 for b in v if b["primary_language"] == c)
     body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">By language</a> / {e(lang(c))}</nav><h1>{e(lang(c))} job boards</h1>'
-            f'<p class="lede">{len(v)} job boards and aggregators that support {e(lang(c))}, of which {prim} use it as their primary language.</p>'
+            f'<p class="lede">{len(v)} entries that support {e(lang(c))}{(" (" + e(NATIVE[c]) + ")") if NATIVE.get(c) and NATIVE[c] != lang(c) else ""}, of which {prim} use it as their primary language.</p>'
             + table(sorted(v, key=lambda b: b["name"].lower()), "../../"))
     write(f"languages/{slug(lang(c))}/index.html", layout(2, f"{lang(c)} job boards and aggregators | {NAME}",
         f"{len(v)} job boards and aggregators supporting {lang(c)}, with API access and partner program details.", body, f"/languages/{slug(lang(c))}/", itemlist(v, 2), noindex=len(v) < 3), indexed=len(v) >= 3)
@@ -458,7 +466,7 @@ write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}"
 shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js"); shutil.copy(ROOT/"site_src"/"eco.js", OUT/"assets"/"eco.js")
 if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", OUT/"assets"/"logos", dirs_exist_ok=True)
 (OUT/"downloads").mkdir(exist_ok=True)
-for n in ("job_boards.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv","reviews.csv","relationships.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
+for n in ("job_boards.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv","reviews.csv","relationships.csv","languages.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/".nojekyll").write_text("")
 # ---------- tags ----------
