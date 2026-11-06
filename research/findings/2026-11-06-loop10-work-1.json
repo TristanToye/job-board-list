@@ -1,88 +1,338 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 10,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 10,
+ "boards": [
+  {
+   "name": "Tecnoempleo",
+   "url": "https://www.tecnoempleo.com/",
+   "parent": "CYBEREMPLEO, S.L.",
+   "languages": {
+    "primary_language": "es",
+    "languages_supported": [
+     "es",
+     "en"
+    ]
+   },
+   "api_status": "unknown",
+   "api_docs_url": null,
+   "sources": [
     {
-      "name": "Tecnoempleo",
-      "url": "https://www.tecnoempleo.com/",
-      "parent": "CYBEREMPLEO, S.L.",
-      "languages": {"primary_language": "es", "languages_supported": ["es", "en"]},
-      "api_status": "unknown",
-      "api_docs_url": null,
-      "sources": [
-        {"field": "parent", "url": "https://www.tecnoempleo.com/politicaymarco.php", "title": "Normas de Uso, Privacidad y cookies", "quote": "Tecnoempleo® es propiedad de CYBEREMPLEO, S.L."},
-        {"field": "languages", "url": "https://www.tecnoempleo.com/", "title": "Language switcher", "quote": "English"},
-        {"field": "languages", "url": "https://www.tecnoempleo.com/", "title": "Language switcher", "quote": "Español"},
-        {"field": "languages", "url": "https://www.tecnoempleo.com/servicios-tecnoempleo.php", "title": "Acerca de tecnoempleo.com", "quote": "Portal de empleo especializado en informática y telecomunicaciones."}
-      ]
+     "field": "parent",
+     "url": "https://www.tecnoempleo.com/politicaymarco.php",
+     "title": "Normas de Uso, Privacidad y cookies",
+     "quote": "Tecnoempleo® es propiedad de CYBEREMPLEO, S.L.",
+     "check": "ok"
     },
     {
-      "name": "Trovolavoro",
-      "url": "https://trovolavoro.com/",
-      "hq_country": "CH",
-      "founded": "2007",
-      "parent": "Arca24 (TeamSystem group)",
-      "business_model": "Free first job posting. Pay per item from the e-commerce store, unlimited subscription (manual or via ATS), or pricing by number of active users. No prices shown; demo request for subscription and per-user plans.",
-      "sources": [
-        {"field": "hq_country", "url": "https://trovolavoro.com/condizioni-generali/", "title": "Condizioni Generali", "quote": "Arca24.com SA (di seguito “Arca24”) con sede legale in Via Roncaglia 5"},
-        {"field": "founded", "url": "https://trovolavoro.com/chi-siamo/", "title": "Chi siamo", "quote": "Trovolavoro nasce nel 2007"},
-        {"field": "parent", "url": "https://trovolavoro.com/chi-siamo/", "title": "Chi siamo", "quote": "oggi è parte di Arca24, azienda del gruppo TeamSystem."},
-        {"field": "business_model", "url": "https://trovolavoro.com/aziende/", "title": "Pubblica offerte di lavoro | Primo annuncio Gratuito", "quote": "Primo annuncio Gratuito"},
-        {"field": "business_model", "url": "https://trovolavoro.com/aziende/", "title": "Pubblica offerte di lavoro", "quote": "Acquista solo ciò che ti serve direttamente dall’e-commerce."},
-        {"field": "business_model", "url": "https://trovolavoro.com/aziende/", "title": "Pubblica offerte di lavoro", "quote": "Abbonamento illimitato"},
-        {"field": "business_model", "url": "https://trovolavoro.com/aziende/", "title": "Pubblica offerte di lavoro", "quote": "Prezzo in base al numero di utenti attivi"}
-      ]
+     "field": "languages",
+     "url": "https://www.tecnoempleo.com/",
+     "title": "Language switcher",
+     "quote": "English",
+     "check": "ok"
     },
     {
-      "name": "lavoro.gov.it (Ministry of Labour)",
-      "url": "https://www.lavoro.gov.it/",
-      "languages": {"primary_language": "it", "languages_supported": ["it"]},
-      "sources": [
-        {"field": "languages", "url": "https://www.lavoro.gov.it/stampa-e-media/Pagine/default", "title": "Stampa e media", "quote": "Salta al contenuto principale"}
-      ]
+     "field": "languages",
+     "url": "https://www.tecnoempleo.com/",
+     "title": "Language switcher",
+     "quote": "Español",
+     "check": "ok"
     },
     {
-      "name": "Sistema Nacional de Emprego (SINE)",
-      "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
-      "languages": {"primary_language": "pt", "languages_supported": ["pt"]},
-      "sources": [
-        {"field": "languages", "url": "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego", "title": "Ministério do Trabalho e Emprego", "quote": "Aderir à Rede de Parceiros do Caminho Digital"}
-      ]
-    },
-    {
-      "name": "Jobvite",
-      "url": "https://www.jobvite.com",
-      "languages": {"primary_language": "en", "languages_supported": ["en"]},
-      "sources": [
-        {"field": "languages", "url": "https://www.jobvite.com", "title": "Simplify Complex Hiring with Recruitment Software | Jobvite", "quote": "Jobvite gets you in front of the right talent and helps you land them"}
-      ]
+     "field": "languages",
+     "url": "https://www.tecnoempleo.com/servicios-tecnoempleo.php",
+     "title": "Acerca de tecnoempleo.com",
+     "quote": "Portal de empleo especializado en informática y telecomunicaciones.",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Tecnoempleo", "url": "https://www.tecnoempleo.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded", "api_status", "partner_program"], "method": "mixed", "note": "Parent and languages found. Founding year not stated (footer shows only a copyright range). API, partner and contact pages are behind a Cloudflare challenge; browser reader blocked."},
-    {"name": "Trovolavoro", "url": "https://trovolavoro.com/", "outcome": "verified", "fields_not_found": [], "method": "mixed", "note": "HQ taken from the operator's legal seat (Arca24.com SA, Novazzano, CH) in the terms. No prices shown on the employer page."},
-    {"name": "lavoro.gov.it (Ministry of Labour)", "url": "https://www.lavoro.gov.it/", "outcome": "verified", "fields_not_found": [], "method": "mixed", "note": "Italian only; no language menu seen."},
-    {"name": "Sistema Nacional de Emprego (SINE)", "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine", "outcome": "verified", "fields_not_found": [], "method": "mixed", "note": "Portuguese only; evidence from the ministry page the scout listed. No language menu seen."},
-    {"name": "Jobvite", "url": "https://www.jobvite.com", "outcome": "verified", "fields_not_found": [], "method": "mixed", "note": "English only; no language menu on the homepage. Only the homepage was read (no try_pages were given)."}
-  ],
-  "attempts": [
-    {"name": "Tecnoempleo", "field": "hq_country", "outcome": "blocked", "pages": ["https://www.tecnoempleo.com/corporativo/contacta.php", "https://www.tecnoempleo.com/politicaymarco.php", "https://www.tecnoempleo.com/servicios-tecnoempleo.php"]},
-    {"name": "Tecnoempleo", "field": "founded", "outcome": "not-found", "pages": ["https://www.tecnoempleo.com/servicios-tecnoempleo.php", "https://www.tecnoempleo.com/politicaymarco.php", "https://www.tecnoempleo.com/"]},
-    {"name": "Tecnoempleo", "field": "parent", "outcome": "found", "pages": ["https://www.tecnoempleo.com/politicaymarco.php"]},
-    {"name": "Tecnoempleo", "field": "languages", "outcome": "found", "pages": ["https://www.tecnoempleo.com/", "https://www.tecnoempleo.com/servicios-tecnoempleo.php"]},
-    {"name": "Tecnoempleo", "field": "api_status", "outcome": "blocked", "pages": ["https://www.tecnoempleo.com/api-integraciones.php"]},
-    {"name": "Tecnoempleo", "field": "partner_program", "outcome": "blocked", "pages": ["https://www.tecnoempleo.com/api-integraciones.php", "https://www.tecnoempleo.com/servicios-tecnoempleo.php"]},
-    {"name": "Trovolavoro", "field": "hq_country", "outcome": "found", "pages": ["https://trovolavoro.com/condizioni-generali/"]},
-    {"name": "Trovolavoro", "field": "founded", "outcome": "found", "pages": ["https://trovolavoro.com/chi-siamo/"]},
-    {"name": "Trovolavoro", "field": "parent", "outcome": "found", "pages": ["https://trovolavoro.com/chi-siamo/"]},
-    {"name": "Trovolavoro", "field": "business_model", "outcome": "found", "pages": ["https://trovolavoro.com/aziende/"]},
-    {"name": "lavoro.gov.it (Ministry of Labour)", "field": "languages", "outcome": "found", "pages": ["https://www.lavoro.gov.it/stampa-e-media/Pagine/default"]},
-    {"name": "Sistema Nacional de Emprego (SINE)", "field": "languages", "outcome": "found", "pages": ["https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego"]},
-    {"name": "Jobvite", "field": "languages", "outcome": "found", "pages": ["https://www.jobvite.com"]}
-  ],
-  "blocked": [
-    {"name": "Tecnoempleo", "url": "https://www.tecnoempleo.com/api-integraciones.php", "reason": "Cloudflare security challenge (403) on API and partner page; browser reader also blocked. Not bypassed."},
-    {"name": "Tecnoempleo", "url": "https://www.tecnoempleo.com/corporativo/contacta.php", "reason": "Cloudflare security challenge (403) on contact page; browser reader also blocked. Not bypassed."}
-  ]
+   ]
+  },
+  {
+   "name": "Trovolavoro",
+   "url": "https://trovolavoro.com/",
+   "hq_country": "CH",
+   "founded": "2007",
+   "parent": "Arca24 (TeamSystem group)",
+   "business_model": "Free first job posting. Pay per item from the e-commerce store, unlimited subscription (manual or via ATS), or pricing by number of active users. No prices shown; demo request for subscription and per-user plans.",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://trovolavoro.com/condizioni-generali/",
+     "title": "Condizioni Generali",
+     "quote": "Arca24.com SA (di seguito “Arca24”) con sede legale in Via Roncaglia 5",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://trovolavoro.com/chi-siamo/",
+     "title": "Chi siamo",
+     "quote": "Trovolavoro nasce nel 2007",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://trovolavoro.com/chi-siamo/",
+     "title": "Chi siamo",
+     "quote": "oggi è parte di Arca24, azienda del gruppo TeamSystem.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://trovolavoro.com/aziende/",
+     "title": "Pubblica offerte di lavoro | Primo annuncio Gratuito",
+     "quote": "Primo annuncio Gratuito",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://trovolavoro.com/aziende/",
+     "title": "Pubblica offerte di lavoro",
+     "quote": "Acquista solo ciò che ti serve direttamente dall’e-commerce.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://trovolavoro.com/aziende/",
+     "title": "Pubblica offerte di lavoro",
+     "quote": "Abbonamento illimitato",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://trovolavoro.com/aziende/",
+     "title": "Pubblica offerte di lavoro",
+     "quote": "Prezzo in base al numero di utenti attivi",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "languages": {
+    "primary_language": "it",
+    "languages_supported": [
+     "it"
+    ]
+   },
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.lavoro.gov.it/stampa-e-media/Pagine/default",
+     "title": "Stampa e media",
+     "quote": "Salta al contenuto principale",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+   "languages": {
+    "primary_language": "pt",
+    "languages_supported": [
+     "pt"
+    ]
+   },
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego",
+     "title": "Ministério do Trabalho e Emprego",
+     "quote": "Aderir à Rede de Parceiros do Caminho Digital",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobvite",
+   "url": "https://www.jobvite.com",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en"
+    ]
+   },
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.jobvite.com",
+     "title": "Simplify Complex Hiring with Recruitment Software | Jobvite",
+     "quote": "Jobvite gets you in front of the right talent and helps you land them",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Tecnoempleo",
+   "url": "https://www.tecnoempleo.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "founded",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Parent and languages found. Founding year not stated (footer shows only a copyright range). API, partner and contact pages are behind a Cloudflare challenge; browser reader blocked."
+  },
+  {
+   "name": "Trovolavoro",
+   "url": "https://trovolavoro.com/",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HQ taken from the operator's legal seat (Arca24.com SA, Novazzano, CH) in the terms. No prices shown on the employer page."
+  },
+  {
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Italian only; no language menu seen."
+  },
+  {
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Portuguese only; evidence from the ministry page the scout listed. No language menu seen."
+  },
+  {
+   "name": "Jobvite",
+   "url": "https://www.jobvite.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "English only; no language menu on the homepage. Only the homepage was read (no try_pages were given)."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Tecnoempleo",
+   "field": "hq_country",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.tecnoempleo.com/corporativo/contacta.php",
+    "https://www.tecnoempleo.com/politicaymarco.php",
+    "https://www.tecnoempleo.com/servicios-tecnoempleo.php"
+   ]
+  },
+  {
+   "name": "Tecnoempleo",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.tecnoempleo.com/servicios-tecnoempleo.php",
+    "https://www.tecnoempleo.com/politicaymarco.php",
+    "https://www.tecnoempleo.com/"
+   ]
+  },
+  {
+   "name": "Tecnoempleo",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.tecnoempleo.com/politicaymarco.php"
+   ]
+  },
+  {
+   "name": "Tecnoempleo",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.tecnoempleo.com/",
+    "https://www.tecnoempleo.com/servicios-tecnoempleo.php"
+   ]
+  },
+  {
+   "name": "Tecnoempleo",
+   "field": "api_status",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.tecnoempleo.com/api-integraciones.php"
+   ]
+  },
+  {
+   "name": "Tecnoempleo",
+   "field": "partner_program",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.tecnoempleo.com/api-integraciones.php",
+    "https://www.tecnoempleo.com/servicios-tecnoempleo.php"
+   ]
+  },
+  {
+   "name": "Trovolavoro",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://trovolavoro.com/condizioni-generali/"
+   ]
+  },
+  {
+   "name": "Trovolavoro",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://trovolavoro.com/chi-siamo/"
+   ]
+  },
+  {
+   "name": "Trovolavoro",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://trovolavoro.com/chi-siamo/"
+   ]
+  },
+  {
+   "name": "Trovolavoro",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://trovolavoro.com/aziende/"
+   ]
+  },
+  {
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.lavoro.gov.it/stampa-e-media/Pagine/default"
+   ]
+  },
+  {
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego"
+   ]
+  },
+  {
+   "name": "Jobvite",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.jobvite.com"
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Tecnoempleo",
+   "url": "https://www.tecnoempleo.com/api-integraciones.php",
+   "reason": "Cloudflare security challenge (403) on API and partner page; browser reader also blocked. Not bypassed."
+  },
+  {
+   "name": "Tecnoempleo",
+   "url": "https://www.tecnoempleo.com/corporativo/contacta.php",
+   "reason": "Cloudflare security challenge (403) on contact page; browser reader also blocked. Not bypassed."
+  }
+ ]
 }

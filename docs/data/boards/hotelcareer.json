@@ -4,7 +4,7 @@
  "url": "https://www.hotelcareer.de",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "DE",
  "founded": "",
  "markets": "",
  "countries_served": [],
@@ -47,9 +47,9 @@
  "review": {
   "board_id": "hotelcareer",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent",
-  "note": "Languages, paid ad prices, ad booking path and an advertising partner page are stated. No headquarters or parent company named.",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Imprint names The StepStone Group Deutschland GmbH with a Düsseldorf seat, so hq_country DE rests on that operator name and seat, not on a standalone country line. Language menu shows Deutsch, Englisch, Französisch.",
   "method": "mixed"
  },
  "owners": [
@@ -103,6 +103,22 @@
    "title": "Job ad booking page",
    "accessed": "2026-11-06",
    "quote": "24/7 Webzugriff und flexible Anzeigenerstellung in Ihrem Kundencenter",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.hotelcareer.de/impressum",
+   "title": "Impressum Hotelcareer | Hotelcareer",
+   "accessed": "2026-11-06",
+   "quote": "The StepStone Group Deutschland GmbH Völklinger Straße 1 40219 Düsseldorf",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.hotelcareer.de/impressum",
+   "title": "Impressum Hotelcareer | Hotelcareer",
+   "accessed": "2026-11-06",
+   "quote": "Deutsch Englisch Französisch",
    "quote_check": "ok"
   }
  ]

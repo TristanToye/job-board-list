@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 71 entries in the directory.
+Employers pay a recurring fee or plan. 73 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -71,7 +71,9 @@ Employers pay a recurring fee or plan. 71 entries in the directory.
 - [FINN.no Jobs](https://jobboardlist.com/boards/finn-no/): classifieds+board, Partner-only API
 - [JOBTOPGUN](https://jobboardlist.com/boards/jobtopgun/): board
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
+- [Workeer](https://jobboardlist.com/boards/workeer/): board
 - [XING Jobs](https://jobboardlist.com/boards/xing/): social-network+board, Partner-only API
 - [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
+- [Trovolavoro](https://jobboardlist.com/boards/trovolavoro/): board
 
 Canonical page: https://jobboardlist.com/tags/subscription/

@@ -47,9 +47,9 @@
   "board_id": "office-for-national-statistics",
   "reviewed": "2026-11-06",
   "outcome": "not-stated",
-  "fields_not_found": "hq_country",
-  "note": "About and contact pages read. Office locations listed (Newport, Titchfield, London, Darlington, Manchester, Edinburgh, Belfast) but no headquarters stated.",
-  "method": "mixed"
+  "fields_not_found": "api_status",
+  "note": "Header, footer and navigation show no developers, API, open data or partners link. The /developers page returned 404. Partner pages were not read.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],

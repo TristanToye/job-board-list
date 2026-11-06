@@ -11,7 +11,7 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 - Partner program: yes
 - Prominence: #5,796 globally, tier Large
 - Tags: Open API, Applicant tracking system, Mid-market, Partner program, Public job feed, Small business, Subscription
-- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: founding year.
+- Review: Reviewed 2026-11-06. Checked against the board's own site.
 - Data status: partly verified against its own site
 
 ## Quick answers

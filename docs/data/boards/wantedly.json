@@ -44,9 +44,9 @@
   "board_id": "wantedly",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "",
-  "note": "The try_page redirects (301) to lp.wantedly.com/visit/material/1, a page titled as a Wantedly service overview; it mentions pricing structure but states no fees. The home page gives the unlimited postings and zero success fee quote, so the ",
-  "method": "fetch"
+  "fields_not_found": "hq_country;founded",
+  "note": "Business model verified from the company page. No headquarters or founding year stated on the pages read; the privacy policy gives no seat or founding year. Terms and company paths returned 404.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],

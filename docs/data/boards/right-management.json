@@ -41,9 +41,9 @@
  "review": {
   "board_id": "right-management",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;founded",
-  "note": "Home, contact and solutions pages read in raw text. Parent (ManpowerGroup) and English language shown. No headquarters or founding year on the pages. The try_pages listed manpowergroup.com, a different domain, so it was not used as a source",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Language selector shows only Global (English). Single-language site.",
   "method": "mixed"
  },
  "owners": [],
@@ -63,6 +63,14 @@
    "title": "Right Management home",
    "accessed": "2026-11-06",
    "quote": "As part of ManpowerGroup, Right Management combines global scale with local care",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.right.com/en/your-outplacement",
+   "title": "Your Outplacement | Personalized Outplacement Starts with PowerSuite Next",
+   "accessed": "2026-11-06",
+   "quote": "Global (English)",
    "quote_check": "ok"
   }
  ]

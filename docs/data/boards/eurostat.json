@@ -10,8 +10,35 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "bg",
+  "es",
+  "cs",
+  "da",
+  "de",
+  "et",
+  "el",
+  "fr",
+  "ga",
+  "hr",
+  "it",
+  "lv",
+  "lt",
+  "hu",
+  "mt",
+  "nl",
+  "pl",
+  "pt",
+  "ru",
+  "ro",
+  "sk",
+  "sl",
+  "fi",
+  "sv",
+  "uk"
+ ],
  "region": "Global",
  "niche": "European Union statistical office, labour market statistics",
  "segment": "",
@@ -25,7 +52,7 @@
  "notes": "",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/eurostat/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -43,9 +70,9 @@
   "board_id": "eurostat",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;ingest_methods",
-  "note": "Founding year, parent (European Commission), languages and the public Statistics API were found. The About us, History and Web services pages do not state a headquarters location. The site does not say how jobs get in; the Job opportunities",
-  "method": "mixed"
+  "fields_not_found": "founded;api_status",
+  "note": "Languages verified from the language selector. The history page gives a 1952 creation date only in a sentence whose quoted text does not state the year, so founded is not recorded. The web services page does not say whether a key is needed,",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
@@ -88,6 +115,14 @@
    "title": "API - Getting started",
    "accessed": "2026-11-06",
    "quote": "Statistics API is a REST web service for data query focused on supporting Eurostat Visualisations Tools and open for public use.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://ec.europa.eu/eurostat/en/about-us",
+   "title": "Eurostat about us (language selector)",
+   "accessed": "2026-11-06",
+   "quote": "Select your language.",
    "quote_check": "ok"
   }
  ]

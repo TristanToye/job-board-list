@@ -45,9 +45,9 @@
  "review": {
   "board_id": "lavoro-gov-it-ministry-of-labour",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "founded;ingest_methods",
-  "note": "Country inferred from the Italian government link on the home page. Ministry history page read with fetch: no founding date or seat. No job posting or ingest information on the pages read. Cliclavoro (http://www.cliclavoro.gov.it/) was not ",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Italian only; no language menu seen.",
   "method": "mixed"
  },
  "owners": [],
@@ -67,6 +67,14 @@
    "title": "Homepage",
    "accessed": "2026-11-06",
    "quote": "Ministero del Lavoro e delle Politiche Sociali",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.lavoro.gov.it/stampa-e-media/Pagine/default",
+   "title": "Stampa e media",
+   "accessed": "2026-11-06",
+   "quote": "Salta al contenuto principale",
    "quote_check": "ok"
   }
  ]

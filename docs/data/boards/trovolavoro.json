@@ -4,8 +4,8 @@
  "url": "https://trovolavoro.com/",
  "domains": "",
  "type": "board",
- "hq_country": "",
- "founded": "",
+ "hq_country": "CH",
+ "founded": "2007",
  "markets": "",
  "countries_served": [
   "IT"
@@ -15,8 +15,8 @@
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Arca24 (TeamSystem group)",
+ "business_model": "Free first job posting. Pay per item from the e-commerce store, unlimited subscription (manual or via ATS), or pricing by number of active users. No prices shown; demo request for subscription and per",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -25,7 +25,7 @@
  "notes": "",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/trovolavoro/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
@@ -35,11 +35,20 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "general",
-  "job-board"
+  "job-board",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "trovolavoro",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "HQ taken from the operator's legal seat (Arca24.com SA, Novazzano, CH) in the terms. No prices shown on the employer page.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,38 @@
    "title": "Trovolavoro homepage",
    "accessed": "2026-11-05",
    "quote": "Trovolavoro: la piattaforma di job matching potenziata dall’AI e dall’assistente virtuale Jobbit",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://trovolavoro.com/condizioni-generali/",
+   "title": "Condizioni Generali",
+   "accessed": "2026-11-06",
+   "quote": "Arca24.com SA (di seguito “Arca24”) con sede legale in Via Roncaglia 5",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://trovolavoro.com/chi-siamo/",
+   "title": "Chi siamo",
+   "accessed": "2026-11-06",
+   "quote": "Trovolavoro nasce nel 2007",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://trovolavoro.com/chi-siamo/",
+   "title": "Chi siamo",
+   "accessed": "2026-11-06",
+   "quote": "oggi è parte di Arca24, azienda del gruppo TeamSystem.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://trovolavoro.com/aziende/",
+   "title": "Pubblica offerte di lavoro | Primo annuncio Gratuito",
+   "accessed": "2026-11-06",
+   "quote": "Primo annuncio Gratuito",
    "quote_check": "ok"
   }
  ]

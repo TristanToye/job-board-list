@@ -9274,7 +9274,7 @@
    "niche": "ESL and EFL teaching",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "paid sponsorship per 30 days (e.g. Sponsored Link $299/30 days, Leaderboard Banner $1500/30 days); job posting price not shown",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -9295,16 +9295,17 @@
    "tags": [
     "education",
     "job-board",
+    "pay-per-click",
     "teaching-esl"
    ],
    "connections": [],
    "review": {
     "board_id": "esl-cafe",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
+    "outcome": "partially-verified",
     "fields_not_found": "",
-    "note": "Advertising price table on the Job Center advertising page. The Post a Job link goes to a login/checkout page, which was not read, so per-post pricing for job listings is not established.",
-    "method": "mixed"
+    "note": "Paid sponsorship prices verified from the advertisements page. Price for posting a job is not shown; the Post a Job link leads to a login or guest checkout page without prices.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -9323,6 +9324,14 @@
      "title": "Job Center advertising",
      "accessed": "2026-11-06",
      "quote": "Interested in advertising your program or school on our Job Center?",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.eslcafe.com/advertisements",
+     "title": "Banner & Sponsored Announcement Advertising",
+     "accessed": "2026-11-06",
+     "quote": "Sponsored Link $299/30 days",
      "quote_check": "ok"
     }
    ]
@@ -10043,9 +10052,9 @@
    "review": {
     "board_id": "find-an-apprenticeship",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Terms and conditions page names DfE as the service owner. The gov.uk privacy notice was read but is off the entry domain and is not cited. Get-help page names no owner.",
+    "outcome": "not-stated",
+    "fields_not_found": "languages",
+    "note": "Header, footer and body show no language option, including Welsh.",
     "method": "fetch"
    },
    "owners": [],
@@ -12012,7 +12021,7 @@
    "region": "Europe",
    "niche": "tech",
    "segment": "",
-   "parent": "",
+   "parent": "CYBEREMPLEO, S.L.",
    "business_model": "free first job offer",
    "api_status": "unknown",
    "api_docs_url": "",
@@ -12024,7 +12033,7 @@
    "notes": "Homepage links an API, integrations and partners section that could not be read (the guessed /api URL returned HTTP 404). Integrations are named with HR platforms and job boards. Headquarters and parent not stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/tecnoempleo/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -12043,9 +12052,9 @@
     "board_id": "tecnoempleo",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;api_status;partner_program",
-    "note": "Homepage states languages, free first offer and integrations; linked API page returned HTTP 404 at the guessed URL.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;founded;api_status;partner_program",
+    "note": "Parent and languages found. Founding year not stated (footer shows only a copyright range). API, partner and contact pages are behind a Cloudflare challenge; browser reader blocked.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -12080,6 +12089,30 @@
      "title": "Homepage integrations",
      "accessed": "2026-11-06",
      "quote": "Tenemos integraciones con Bizneo, TalentClue, LinkedIn Jobs, SAP",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.tecnoempleo.com/politicaymarco.php",
+     "title": "Normas de Uso, Privacidad y cookies",
+     "accessed": "2026-11-06",
+     "quote": "Tecnoempleo® es propiedad de CYBEREMPLEO, S.L.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.tecnoempleo.com/",
+     "title": "Language switcher",
+     "accessed": "2026-11-06",
+     "quote": "English",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.tecnoempleo.com/servicios-tecnoempleo.php",
+     "title": "Acerca de tecnoempleo.com",
+     "accessed": "2026-11-06",
+     "quote": "Portal de empleo especializado en informática y telecomunicaciones.",
      "quote_check": "ok"
     }
    ]
@@ -12390,9 +12423,9 @@
     "board_id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;api_status",
-    "note": "Institucion page states Sede del Gobierno de la Comunidad de Madrid but no country is stated verbatim. Datos abiertos page has no API or key text and links to a catalog on datos.comunidad.madrid, which is outside the entry domain and was no",
-    "method": "fetch"
+    "fields_not_found": "",
+    "note": "Site text is Spanish. No language selector seen on the sitemap page, so languages_supported lists only es.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -12411,6 +12444,14 @@
      "title": "Empleo",
      "accessed": "2026-11-06",
      "quote": "Iniciativa de la Comunidad de Madrid para conectar el talento madrileño con las empresas de la región.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.comunidad.madrid/sitemap",
+     "title": "Mapa del sitio | Comunidad de Madrid",
+     "accessed": "2026-11-06",
+     "quote": "A continuación se muestra el mapa web de este sitio.",
      "quote_check": "ok"
     }
    ]
@@ -12533,9 +12574,9 @@
     "board_id": "wantedly",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "",
-    "note": "The try_page redirects (301) to lp.wantedly.com/visit/material/1, a page titled as a Wantedly service overview; it mentions pricing structure but states no fees. The home page gives the unlimited postings and zero success fee quote, so the ",
-    "method": "fetch"
+    "fields_not_found": "hq_country;founded",
+    "note": "Business model verified from the company page. No headquarters or founding year stated on the pages read; the privacy policy gives no seat or founding year. Terms and company paths returned 404.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -12965,10 +13006,10 @@
    "review": {
     "board_id": "sistema-nacional-de-emprego-sine",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "ingest_methods",
-    "note": "Parent is the Ministry of Labour and Employment per the ministry page listing the service. hq_country BR is supported only by the gov.br portal header 'Serviços e Informações do Brasil' plus the service's own Brazilian context. The service ",
-    "method": "browser"
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Portuguese only; evidence from the ministry page the scout listed. No language menu seen.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -12987,6 +13028,14 @@
      "title": "Ministério do Trabalho e Emprego",
      "accessed": "2026-11-06",
      "quote": "Ministério do Trabalho e Emprego (MTE)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego",
+     "title": "Ministério do Trabalho e Emprego",
+     "accessed": "2026-11-06",
+     "quote": "Aderir à Rede de Parceiros do Caminho Digital",
      "quote_check": "ok"
     }
    ]
@@ -13343,8 +13392,8 @@
    "url": "https://trovolavoro.com/",
    "domains": "",
    "type": "board",
-   "hq_country": "",
-   "founded": "",
+   "hq_country": "CH",
+   "founded": "2007",
    "markets": "",
    "countries_served": [
     "IT"
@@ -13354,8 +13403,8 @@
    "region": "Europe",
    "niche": "general",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "Arca24 (TeamSystem group)",
+   "business_model": "Free first job posting. Pay per item from the e-commerce store, unlimited subscription (manual or via ATS), or pricing by number of active users. No prices shown; demo request for subscription and per",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -13364,7 +13413,7 @@
    "notes": "",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/trovolavoro/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not in top 1M",
@@ -13374,11 +13423,20 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "free-to-post",
     "general",
-    "job-board"
+    "job-board",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "trovolavoro",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "HQ taken from the operator's legal seat (Arca24.com SA, Novazzano, CH) in the terms. No prices shown on the employer page.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -13388,6 +13446,38 @@
      "title": "Trovolavoro homepage",
      "accessed": "2026-11-05",
      "quote": "Trovolavoro: la piattaforma di job matching potenziata dall’AI e dall’assistente virtuale Jobbit",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://trovolavoro.com/condizioni-generali/",
+     "title": "Condizioni Generali",
+     "accessed": "2026-11-06",
+     "quote": "Arca24.com SA (di seguito “Arca24”) con sede legale in Via Roncaglia 5",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://trovolavoro.com/chi-siamo/",
+     "title": "Chi siamo",
+     "accessed": "2026-11-06",
+     "quote": "Trovolavoro nasce nel 2007",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://trovolavoro.com/chi-siamo/",
+     "title": "Chi siamo",
+     "accessed": "2026-11-06",
+     "quote": "oggi è parte di Arca24, azienda del gruppo TeamSystem.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://trovolavoro.com/aziende/",
+     "title": "Pubblica offerte di lavoro | Primo annuncio Gratuito",
+     "accessed": "2026-11-06",
+     "quote": "Primo annuncio Gratuito",
      "quote_check": "ok"
     }
    ]
@@ -13491,7 +13581,7 @@
    "niche": "general",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "free (companies seeking internal staff; paid services for other advertisers, no prices shown)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -13510,11 +13600,19 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "free-to-post",
     "general",
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "cerco-trovo",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Languages and business model found. Contact page gives an Italian address (Perugia) but no country is stated. Ad terms say free for companies seeking internal staff; paid services for other advertisers, no prices shown.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -13525,6 +13623,22 @@
      "accessed": "2026-11-05",
      "quote": "Cerco&Trovo - portale di annunci gratuiti",
      "quote_check": "unreachable"
+    },
+    {
+     "field": "languages",
+     "url": "https://cercoetrovo.it/pubblicita",
+     "title": "Cerco&Trovo - portale di annunci gratuiti",
+     "accessed": "2026-11-06",
+     "quote": "Per conoscere le opportunità offerte da Cerco&Trovo compila il seguente modulo",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://cercoetrovo.it/informazioni/termini",
+     "title": "Cerco&Trovo - Termini di utilizzo",
+     "accessed": "2026-11-06",
+     "quote": "gratuito è riservato ad inserzionisti privati",
+     "quote_check": "ok"
     }
    ]
   },
@@ -13575,9 +13689,9 @@
    "review": {
     "board_id": "lavoro-gov-it-ministry-of-labour",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "founded;ingest_methods",
-    "note": "Country inferred from the Italian government link on the home page. Ministry history page read with fetch: no founding date or seat. No job posting or ingest information on the pages read. Cliclavoro (http://www.cliclavoro.gov.it/) was not ",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Italian only; no language menu seen.",
     "method": "mixed"
    },
    "owners": [],
@@ -13597,6 +13711,14 @@
      "title": "Homepage",
      "accessed": "2026-11-06",
      "quote": "Ministero del Lavoro e delle Politiche Sociali",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.lavoro.gov.it/stampa-e-media/Pagine/default",
+     "title": "Stampa e media",
+     "accessed": "2026-11-06",
+     "quote": "Salta al contenuto principale",
      "quote_check": "ok"
     }
    ]
@@ -13734,8 +13856,10 @@
    "countries_served": [
     "IT"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "it",
+   "languages_supported": [
+    "it"
+   ],
    "region": "Europe",
    "niche": "education",
    "segment": "",
@@ -13763,7 +13887,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "unijobs",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Site is Italian only, per the English page. The about page and English page give no founding year, owner or location.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -13773,6 +13904,14 @@
      "title": "Unijobs homepage",
      "accessed": "2026-11-05",
      "quote": "Trovare un lavoro nell'accademia italiana può essere difficile.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.unijobs.it/en",
+     "title": "Unijobs English page",
+     "accessed": "2026-11-06",
+     "quote": "It is in Italian only, but you would be surprised how good Google Translate has become.",
      "quote_check": "ok"
     }
    ]
@@ -16260,7 +16399,7 @@
    "niche": "",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription, monthly or annual, from 290 EUR per month for the Light package (excl. 19% VAT)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -16269,7 +16408,7 @@
    "notes": "",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/workeer/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not comparable",
@@ -16279,16 +16418,17 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "subscription"
    ],
    "connections": [],
    "review": {
     "board_id": "workeer",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Address on Impressum page gives Berlin, Germany. Language menu shows Deutsch and Englisch. Preise page describes monthly packages with no minimum term. Prices are quoted from a summarizing fetch and should be checked against the raw page.",
-    "method": "fetch"
+    "outcome": "partially-verified",
+    "fields_not_found": "parent",
+    "note": "Languages and business model verified from the about and pricing pages. No parent or owner named on the about, press, pricing or imprint pages; the imprint names only the operator workeer gGmbH and its managing directors.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -18408,8 +18548,35 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "bg",
+    "es",
+    "cs",
+    "da",
+    "de",
+    "et",
+    "el",
+    "fr",
+    "ga",
+    "hr",
+    "it",
+    "lv",
+    "lt",
+    "hu",
+    "mt",
+    "nl",
+    "pl",
+    "pt",
+    "ru",
+    "ro",
+    "sk",
+    "sl",
+    "fi",
+    "sv",
+    "uk"
+   ],
    "region": "Global",
    "niche": "European Union statistical office, labour market statistics",
    "segment": "",
@@ -18423,7 +18590,7 @@
    "notes": "",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/eurostat/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not comparable",
@@ -18441,9 +18608,9 @@
     "board_id": "eurostat",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;ingest_methods",
-    "note": "Founding year, parent (European Commission), languages and the public Statistics API were found. The About us, History and Web services pages do not state a headquarters location. The site does not say how jobs get in; the Job opportunities",
-    "method": "mixed"
+    "fields_not_found": "founded;api_status",
+    "note": "Languages verified from the language selector. The history page gives a 1952 creation date only in a sentence whose quoted text does not state the year, so founded is not recorded. The web services page does not say whether a key is needed,",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -18486,6 +18653,14 @@
      "title": "API - Getting started",
      "accessed": "2026-11-06",
      "quote": "Statistics API is a REST web service for data query focused on supporting Eurostat Visualisations Tools and open for public use.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://ec.europa.eu/eurostat/en/about-us",
+     "title": "Eurostat about us (language selector)",
+     "accessed": "2026-11-06",
+     "quote": "Select your language.",
      "quote_check": "ok"
     }
    ]
@@ -18539,9 +18714,9 @@
     "board_id": "office-for-national-statistics",
     "reviewed": "2026-11-06",
     "outcome": "not-stated",
-    "fields_not_found": "hq_country",
-    "note": "About and contact pages read. Office locations listed (Newport, Titchfield, London, Darlington, Manchester, Edinburgh, Belfast) but no headquarters stated.",
-    "method": "mixed"
+    "fields_not_found": "api_status",
+    "note": "Header, footer and navigation show no developers, API, open data or partners link. The /developers page returned 404. Partner pages were not read.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -22859,9 +23034,9 @@
    "review": {
     "board_id": "right-management",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;founded",
-    "note": "Home, contact and solutions pages read in raw text. Parent (ManpowerGroup) and English language shown. No headquarters or founding year on the pages. The try_pages listed manpowergroup.com, a different domain, so it was not used as a source",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Language selector shows only Global (English). Single-language site.",
     "method": "mixed"
    },
    "owners": [],
@@ -22881,6 +23056,14 @@
      "title": "Right Management home",
      "accessed": "2026-11-06",
      "quote": "As part of ManpowerGroup, Right Management combines global scale with local care",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.right.com/en/your-outplacement",
+     "title": "Your Outplacement | Personalized Outplacement Starts with PowerSuite Next",
+     "accessed": "2026-11-06",
+     "quote": "Global (English)",
      "quote_check": "ok"
     }
    ]
@@ -24776,10 +24959,10 @@
    "review": {
     "board_id": "recruitee",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "founded",
-    "note": "Subscription pricing (tiered by plan) and language options en, de, fr, nl found. The founding year is not stated on recruitee.com. The Tellent About Us page says Tellent was founded in 2022, but that is the parent on another domain and was ",
-    "method": "fetch"
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Language menu shows NL, DE, EN, FR on the Dutch home page; the Dutch text confirms the primary language.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -25392,9 +25575,9 @@
    "review": {
     "board_id": "oracle-recruiting",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "ingest_methods",
-    "note": "Fetch returned 403; headless reader read the page. Footer copyright names Oracle. Page describes sourcing and partner integrations but does not state how job postings get into a job board.",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Fetch tool returned 403; headless reader loaded the page. Owner shown as Oracle (copyright line and product text).",
     "method": "browser"
    },
    "owners": [],
@@ -25772,10 +25955,10 @@
    "review": {
     "board_id": "jobvite",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "founded",
-    "note": "Pricing page is modular and quote-based with no prices. Founding year not stated on pricing, Employ company, or news pages. Those pages name Employ, Inc. as owner of the brands; parent was not requested.",
-    "method": "fetch"
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "English only; no language menu on the homepage. Only the homepage was read (no try_pages were given).",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -25786,6 +25969,14 @@
      "title": "Pricing",
      "accessed": "2026-11-06",
      "quote": "This modular approach ensures you only pay for the Jobvite features you require.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.jobvite.com",
+     "title": "Simplify Complex Hiring with Recruitment Software | Jobvite",
+     "accessed": "2026-11-06",
+     "quote": "Jobvite gets you in front of the right talent and helps you land them",
      "quote_check": "ok"
     }
    ]
@@ -26886,8 +27077,12 @@
    "founded": "",
    "markets": "",
    "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr",
+    "de"
+   ],
    "region": "Global",
    "niche": "",
    "segment": "",
@@ -26901,7 +27096,7 @@
    "notes": "According to its owner's page: \"Launched in 2023, this global brand consolidates the company's IT, cloud, data, and engineering capabilities.\" Digital talent and engineering services brand. Guessed /developers and /partnerships URLs returned 404. No public job feed or API found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/randstad-digital/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -26917,9 +27112,9 @@
    "review": {
     "board_id": "randstad-digital",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "founded;partner_program",
-    "note": "Language menu shows en, fr, de. About page and home page do not state a founding year. Partnerships page has the heading our partnership ecosystem but does not state a partner program, so partner_program is recorded as unknown.",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Language selector shows en (current), fr and de. Selector shows codes only, not full language names.",
     "method": "fetch"
    },
    "owners": [
@@ -28573,7 +28768,7 @@
    "url": "https://www.hotelcareer.de",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "DE",
    "founded": "",
    "markets": "",
    "countries_served": [],
@@ -28616,9 +28811,9 @@
    "review": {
     "board_id": "hotelcareer",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent",
-    "note": "Languages, paid ad prices, ad booking path and an advertising partner page are stated. No headquarters or parent company named.",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Imprint names The StepStone Group Deutschland GmbH with a Düsseldorf seat, so hq_country DE rests on that operator name and seat, not on a standalone country line. Language menu shows Deutsch, Englisch, Französisch.",
     "method": "mixed"
    },
    "owners": [
@@ -28672,6 +28867,22 @@
      "title": "Job ad booking page",
      "accessed": "2026-11-06",
      "quote": "24/7 Webzugriff und flexible Anzeigenerstellung in Ihrem Kundencenter",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.hotelcareer.de/impressum",
+     "title": "Impressum Hotelcareer | Hotelcareer",
+     "accessed": "2026-11-06",
+     "quote": "The StepStone Group Deutschland GmbH Völklinger Straße 1 40219 Düsseldorf",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.hotelcareer.de/impressum",
+     "title": "Impressum Hotelcareer | Hotelcareer",
+     "accessed": "2026-11-06",
+     "quote": "Deutsch Englisch Französisch",
      "quote_check": "ok"
     }
    ]

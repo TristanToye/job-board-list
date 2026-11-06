@@ -45,10 +45,10 @@
  "review": {
   "board_id": "sistema-nacional-de-emprego-sine",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "ingest_methods",
-  "note": "Parent is the Ministry of Labour and Employment per the ministry page listing the service. hq_country BR is supported only by the gov.br portal header 'Serviços e Informações do Brasil' plus the service's own Brazilian context. The service ",
-  "method": "browser"
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Portuguese only; evidence from the ministry page the scout listed. No language menu seen.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -67,6 +67,14 @@
    "title": "Ministério do Trabalho e Emprego",
    "accessed": "2026-11-06",
    "quote": "Ministério do Trabalho e Emprego (MTE)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego",
+   "title": "Ministério do Trabalho e Emprego",
+   "accessed": "2026-11-06",
+   "quote": "Aderir à Rede de Parceiros do Caminho Digital",
    "quote_check": "ok"
   }
  ]

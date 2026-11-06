@@ -16,7 +16,7 @@
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free (companies seeking internal staff; paid services for other advertisers, no prices shown)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -35,11 +35,19 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "general",
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "cerco-trovo",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country",
+  "note": "Languages and business model found. Contact page gives an Italian address (Perugia) but no country is stated. Ad terms say free for companies seeking internal staff; paid services for other advertisers, no prices shown.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -50,6 +58,22 @@
    "accessed": "2026-11-05",
    "quote": "Cerco&Trovo - portale di annunci gratuiti",
    "quote_check": "unreachable"
+  },
+  {
+   "field": "languages",
+   "url": "https://cercoetrovo.it/pubblicita",
+   "title": "Cerco&Trovo - portale di annunci gratuiti",
+   "accessed": "2026-11-06",
+   "quote": "Per conoscere le opportunità offerte da Cerco&Trovo compila il seguente modulo",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://cercoetrovo.it/informazioni/termini",
+   "title": "Cerco&Trovo - Termini di utilizzo",
+   "accessed": "2026-11-06",
+   "quote": "gratuito è riservato ad inserzionisti privati",
+   "quote_check": "ok"
   }
  ]
 }

@@ -8,8 +8,12 @@
  "founded": "",
  "markets": "",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr",
+  "de"
+ ],
  "region": "Global",
  "niche": "",
  "segment": "",
@@ -23,7 +27,7 @@
  "notes": "According to its owner's page: \"Launched in 2023, this global brand consolidates the company's IT, cloud, data, and engineering capabilities.\" Digital talent and engineering services brand. Guessed /developers and /partnerships URLs returned 404. No public job feed or API found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/randstad-digital/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -39,9 +43,9 @@
  "review": {
   "board_id": "randstad-digital",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "founded;partner_program",
-  "note": "Language menu shows en, fr, de. About page and home page do not state a founding year. Partnerships page has the heading our partnership ecosystem but does not state a partner program, so partner_program is recorded as unknown.",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Language selector shows en (current), fr and de. Selector shows codes only, not full language names.",
   "method": "fetch"
  },
  "owners": [

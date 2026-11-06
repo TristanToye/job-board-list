@@ -1,84 +1,251 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 10,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 10,
+ "boards": [
+  {
+   "name": "Cerco&Trovo",
+   "url": "https://www.cercoetrovo.it/",
+   "languages": {
+    "primary_language": "it",
+    "languages_supported": [
+     "it"
+    ]
+   },
+   "business_model": "free (companies seeking internal staff; paid services for other advertisers, no prices shown)",
+   "sources": [
     {
-      "name": "Cerco&Trovo",
-      "url": "https://www.cercoetrovo.it/",
-      "languages": {
-        "primary_language": "it",
-        "languages_supported": ["it"]
-      },
-      "business_model": "free (companies seeking internal staff; paid services for other advertisers, no prices shown)",
-      "sources": [
-        {"field": "languages", "url": "https://cercoetrovo.it/pubblicita", "title": "Cerco&Trovo - portale di annunci gratuiti", "quote": "Per conoscere le opportunità offerte da Cerco&Trovo compila il seguente modulo"},
-        {"field": "business_model", "url": "https://cercoetrovo.it/informazioni/termini", "title": "Cerco&Trovo - Termini di utilizzo", "quote": "gratuito è riservato ad inserzionisti privati"},
-        {"field": "business_model", "url": "https://cercoetrovo.it/informazioni/termini", "title": "Cerco&Trovo - Termini di utilizzo", "quote": "ad aziende intente nella ricerca di personale interno"},
-        {"field": "business_model", "url": "https://cercoetrovo.it/informazioni/termini", "title": "Cerco&Trovo - Termini di utilizzo", "quote": "devono utilizzare i servizi a pagamento"}
-      ]
+     "field": "languages",
+     "url": "https://cercoetrovo.it/pubblicita",
+     "title": "Cerco&Trovo - portale di annunci gratuiti",
+     "quote": "Per conoscere le opportunità offerte da Cerco&Trovo compila il seguente modulo",
+     "check": "ok"
     },
     {
-      "name": "Hotelcareer",
-      "url": "https://www.hotelcareer.de",
-      "hq_country": "DE",
-      "languages": {
-        "primary_language": "de",
-        "languages_supported": ["de", "en", "fr"]
-      },
-      "sources": [
-        {"field": "hq_country", "url": "https://www.hotelcareer.de/impressum", "title": "Impressum Hotelcareer | Hotelcareer", "quote": "The StepStone Group Deutschland GmbH Völklinger Straße 1 40219 Düsseldorf"},
-        {"field": "languages", "url": "https://www.hotelcareer.de/impressum", "title": "Impressum Hotelcareer | Hotelcareer", "quote": "Deutsch Englisch Französisch"},
-        {"field": "languages", "url": "https://www.hotelcareer.de/impressum", "title": "Impressum Hotelcareer | Hotelcareer", "quote": "Sie sind Arbeitgeber?"}
-      ]
+     "field": "business_model",
+     "url": "https://cercoetrovo.it/informazioni/termini",
+     "title": "Cerco&Trovo - Termini di utilizzo",
+     "quote": "gratuito è riservato ad inserzionisti privati",
+     "check": "ok"
     },
     {
-      "name": "Right Management",
-      "url": "https://www.right.com",
-      "languages": {
-        "primary_language": "en",
-        "languages_supported": ["en"]
-      },
-      "sources": [
-        {"field": "languages", "url": "https://www.right.com/en/your-outplacement", "title": "Your Outplacement | Personalized Outplacement Starts with PowerSuite Next", "quote": "Global (English)"}
-      ]
+     "field": "business_model",
+     "url": "https://cercoetrovo.it/informazioni/termini",
+     "title": "Cerco&Trovo - Termini di utilizzo",
+     "quote": "ad aziende intente nella ricerca di personale interno",
+     "check": "ok"
     },
     {
-      "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
-      "url": "https://www.comunidad.madrid/servicios/empleo",
-      "languages": {
-        "primary_language": "es",
-        "languages_supported": ["es"]
-      },
-      "sources": [
-        {"field": "languages", "url": "https://www.comunidad.madrid/sitemap", "title": "Mapa del sitio | Comunidad de Madrid", "quote": "A continuación se muestra el mapa web de este sitio."}
-      ]
-    },
-    {
-      "name": "Oracle Taleo",
-      "url": "https://www.oracle.com/human-capital-management/taleo/",
-      "parent": "Oracle",
-      "sources": [
-        {"field": "parent", "url": "https://www.oracle.com/human-capital-management/taleo/", "title": "Taleo", "quote": "Oracle Taleo is the most robust standalone talent acquisition suite"}
-      ]
+     "field": "business_model",
+     "url": "https://cercoetrovo.it/informazioni/termini",
+     "title": "Cerco&Trovo - Termini di utilizzo",
+     "quote": "devono utilizzare i servizi a pagamento",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Cerco&Trovo", "url": "https://www.cercoetrovo.it/", "outcome": "partially-verified", "fields_not_found": ["hq_country"], "method": "mixed", "note": "Languages and business model found. Contact page gives an Italian address (Perugia) but no country is stated. Ad terms say free for companies seeking internal staff; paid services for other advertisers, no prices shown."},
-    {"name": "Hotelcareer", "url": "https://www.hotelcareer.de", "outcome": "verified", "fields_not_found": [], "method": "mixed", "note": "Imprint names The StepStone Group Deutschland GmbH with a Düsseldorf seat, so hq_country DE rests on that operator name and seat, not on a standalone country line. Language menu shows Deutsch, Englisch, Französisch."},
-    {"name": "Right Management", "url": "https://www.right.com", "outcome": "verified", "fields_not_found": [], "method": "mixed", "note": "Language selector shows only Global (English). Single-language site."},
-    {"name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)", "url": "https://www.comunidad.madrid/servicios/empleo", "outcome": "partially-verified", "fields_not_found": [], "method": "mixed", "note": "Site text is Spanish. No language selector seen on the sitemap page, so languages_supported lists only es."},
-    {"name": "Oracle Taleo", "url": "https://www.oracle.com/human-capital-management/taleo/", "outcome": "verified", "fields_not_found": [], "method": "browser", "note": "Fetch tool returned 403; headless reader loaded the page. Owner shown as Oracle (copyright line and product text)."}
-  ],
-  "attempts": [
-    {"name": "Cerco&Trovo", "field": "hq_country", "outcome": "not-found", "pages": ["https://cercoetrovo.it/dove-siamo"]},
-    {"name": "Cerco&Trovo", "field": "languages", "outcome": "found", "pages": ["https://cercoetrovo.it/dove-siamo", "https://cercoetrovo.it/pubblicita", "https://cercoetrovo.it/informazioni/aziende"]},
-    {"name": "Cerco&Trovo", "field": "business_model", "outcome": "found", "pages": ["https://cercoetrovo.it/pubblicita", "https://cercoetrovo.it/informazioni/aziende", "https://cercoetrovo.it/informazioni/termini"]},
-    {"name": "Hotelcareer", "field": "hq_country", "outcome": "found", "pages": ["https://www.hotelcareer.de/impressum"]},
-    {"name": "Hotelcareer", "field": "languages", "outcome": "found", "pages": ["https://www.hotelcareer.de/impressum"]},
-    {"name": "Right Management", "field": "languages", "outcome": "found", "pages": ["https://www.right.com/en/your-outplacement"]},
-    {"name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)", "field": "languages", "outcome": "found", "pages": ["https://www.comunidad.madrid/sitemap"]},
-    {"name": "Oracle Taleo", "field": "parent", "outcome": "found", "pages": ["https://www.oracle.com/human-capital-management/taleo/"]}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Hotelcareer",
+   "url": "https://www.hotelcareer.de",
+   "hq_country": "DE",
+   "languages": {
+    "primary_language": "de",
+    "languages_supported": [
+     "de",
+     "en",
+     "fr"
+    ]
+   },
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.hotelcareer.de/impressum",
+     "title": "Impressum Hotelcareer | Hotelcareer",
+     "quote": "The StepStone Group Deutschland GmbH Völklinger Straße 1 40219 Düsseldorf",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.hotelcareer.de/impressum",
+     "title": "Impressum Hotelcareer | Hotelcareer",
+     "quote": "Deutsch Englisch Französisch",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.hotelcareer.de/impressum",
+     "title": "Impressum Hotelcareer | Hotelcareer",
+     "quote": "Sie sind Arbeitgeber?",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Right Management",
+   "url": "https://www.right.com",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en"
+    ]
+   },
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.right.com/en/your-outplacement",
+     "title": "Your Outplacement | Personalized Outplacement Starts with PowerSuite Next",
+     "quote": "Global (English)",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "languages": {
+    "primary_language": "es",
+    "languages_supported": [
+     "es"
+    ]
+   },
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.comunidad.madrid/sitemap",
+     "title": "Mapa del sitio | Comunidad de Madrid",
+     "quote": "A continuación se muestra el mapa web de este sitio.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "parent": "Oracle",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo",
+     "quote": "Oracle Taleo is the most robust standalone talent acquisition suite",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Cerco&Trovo",
+   "url": "https://www.cercoetrovo.it/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country"
+   ],
+   "method": "mixed",
+   "note": "Languages and business model found. Contact page gives an Italian address (Perugia) but no country is stated. Ad terms say free for companies seeking internal staff; paid services for other advertisers, no prices shown."
+  },
+  {
+   "name": "Hotelcareer",
+   "url": "https://www.hotelcareer.de",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Imprint names The StepStone Group Deutschland GmbH with a Düsseldorf seat, so hq_country DE rests on that operator name and seat, not on a standalone country line. Language menu shows Deutsch, Englisch, Französisch."
+  },
+  {
+   "name": "Right Management",
+   "url": "https://www.right.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Language selector shows only Global (English). Single-language site."
+  },
+  {
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "outcome": "partially-verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Site text is Spanish. No language selector seen on the sitemap page, so languages_supported lists only es."
+  },
+  {
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "Fetch tool returned 403; headless reader loaded the page. Owner shown as Oracle (copyright line and product text)."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Cerco&Trovo",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://cercoetrovo.it/dove-siamo"
+   ]
+  },
+  {
+   "name": "Cerco&Trovo",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://cercoetrovo.it/dove-siamo",
+    "https://cercoetrovo.it/pubblicita",
+    "https://cercoetrovo.it/informazioni/aziende"
+   ]
+  },
+  {
+   "name": "Cerco&Trovo",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://cercoetrovo.it/pubblicita",
+    "https://cercoetrovo.it/informazioni/aziende",
+    "https://cercoetrovo.it/informazioni/termini"
+   ]
+  },
+  {
+   "name": "Hotelcareer",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.hotelcareer.de/impressum"
+   ]
+  },
+  {
+   "name": "Hotelcareer",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.hotelcareer.de/impressum"
+   ]
+  },
+  {
+   "name": "Right Management",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.right.com/en/your-outplacement"
+   ]
+  },
+  {
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.comunidad.madrid/sitemap"
+   ]
+  },
+  {
+   "name": "Oracle Taleo",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.oracle.com/human-capital-management/taleo/"
+   ]
+  }
+ ],
+ "blocked": []
 }

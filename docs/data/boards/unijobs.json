@@ -10,8 +10,10 @@
  "countries_served": [
   "IT"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "it",
+ "languages_supported": [
+  "it"
+ ],
  "region": "Europe",
  "niche": "education",
  "segment": "",
@@ -39,7 +41,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "unijobs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded",
+  "note": "Site is Italian only, per the English page. The about page and English page give no founding year, owner or location.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,14 @@
    "title": "Unijobs homepage",
    "accessed": "2026-11-05",
    "quote": "Trovare un lavoro nell'accademia italiana può essere difficile.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.unijobs.it/en",
+   "title": "Unijobs English page",
+   "accessed": "2026-11-06",
+   "quote": "It is in Italian only, but you would be surprised how good Google Translate has become.",
    "quote_check": "ok"
   }
  ]

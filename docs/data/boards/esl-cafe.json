@@ -16,7 +16,7 @@
  "niche": "ESL and EFL teaching",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "paid sponsorship per 30 days (e.g. Sponsored Link $299/30 days, Leaderboard Banner $1500/30 days); job posting price not shown",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -37,16 +37,17 @@
  "tags": [
   "education",
   "job-board",
+  "pay-per-click",
   "teaching-esl"
  ],
  "connections": [],
  "review": {
   "board_id": "esl-cafe",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
+  "outcome": "partially-verified",
   "fields_not_found": "",
-  "note": "Advertising price table on the Job Center advertising page. The Post a Job link goes to a login/checkout page, which was not read, so per-post pricing for job listings is not established.",
-  "method": "mixed"
+  "note": "Paid sponsorship prices verified from the advertisements page. Price for posting a job is not shown; the Post a Job link leads to a login or guest checkout page without prices.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -65,6 +66,14 @@
    "title": "Job Center advertising",
    "accessed": "2026-11-06",
    "quote": "Interested in advertising your program or school on our Job Center?",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.eslcafe.com/advertisements",
+   "title": "Banner & Sponsored Announcement Advertising",
+   "accessed": "2026-11-06",
+   "quote": "Sponsored Link $299/30 days",
    "quote_check": "ok"
   }
  ]

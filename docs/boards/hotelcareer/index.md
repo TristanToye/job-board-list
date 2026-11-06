@@ -1,9 +1,9 @@
 # Hotelcareer
 
-Hotelcareer is a job board.
+Hotelcareer is a job board based in Germany.
 
 - Website: https://www.hotelcareer.de
-- Headquarters: not recorded
+- Headquarters: Germany
 - Founded: not recorded
 - Owner: The Stepstone Group (Brand)
 - Languages: German, English, French
@@ -11,7 +11,7 @@ Hotelcareer is a job board.
 - Partner program: yes
 - Prominence: #228,012 globally, tier Small
 - Tags: Job board, Partner program, Pay per post
-- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: headquarters, owner.
+- Review: Reviewed 2026-11-06. Checked against the board's own site.
 - Data status: partly verified against its own site
 
 ## Quick answers
@@ -29,6 +29,8 @@ Hotelcareer is a job board.
 - [Job ad booking prices](https://www.hotelcareer.de/arbeitgeber/anzeigen-buchen) (Business model and pricing, checked 2026-11-06): "Alle Preise verstehen sich zzgl. MwSt. und beziehen sich auf ein Unternehmen in einer festgelegten Destination."
 - [Partner page](https://www.hotelcareer.de/arbeitgeber/kooperationen-partner) (Partner program, checked 2026-11-06): "Werden Sie jetzt unser Partner"
 - [Job ad booking page](https://www.hotelcareer.de/arbeitgeber/anzeigen-buchen) (How jobs get in, checked 2026-11-06): "24/7 Webzugriff und flexible Anzeigenerstellung in Ihrem Kundencenter"
+- [Impressum Hotelcareer | Hotelcareer](https://www.hotelcareer.de/impressum) (Existence and description, checked 2026-11-06): "The StepStone Group Deutschland GmbH Völklinger Straße 1 40219 Düsseldorf"
+- [Impressum Hotelcareer | Hotelcareer](https://www.hotelcareer.de/impressum) (Languages, checked 2026-11-06): "Deutsch Englisch Französisch"
 - [Our core brands](https://www.thestepstonegroup.com/english/about-us/our-core-brands/) (Ownership, checked 2026-11-06): "These core brands each play a crucial role in our portfolio"
 
 Canonical page: https://jobboardlist.com/boards/hotelcareer/

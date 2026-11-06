@@ -16,7 +16,7 @@
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription, monthly or annual, from 290 EUR per month for the Light package (excl. 19% VAT)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -25,7 +25,7 @@
  "notes": "",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/workeer/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -35,16 +35,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "subscription"
  ],
  "connections": [],
  "review": {
   "board_id": "workeer",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Address on Impressum page gives Berlin, Germany. Language menu shows Deutsch and Englisch. Preise page describes monthly packages with no minimum term. Prices are quoted from a summarizing fetch and should be checked against the raw page.",
-  "method": "fetch"
+  "outcome": "partially-verified",
+  "fields_not_found": "parent",
+  "note": "Languages and business model verified from the about and pricing pages. No parent or owner named on the about, press, pricing or imprint pages; the imprint names only the operator workeer gGmbH and its managing directors.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

@@ -45,9 +45,9 @@
   "board_id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;api_status",
-  "note": "Institucion page states Sede del Gobierno de la Comunidad de Madrid but no country is stated verbatim. Datos abiertos page has no API or key text and links to a catalog on datos.comunidad.madrid, which is outside the entry domain and was no",
-  "method": "fetch"
+  "fields_not_found": "",
+  "note": "Site text is Spanish. No language selector seen on the sitemap page, so languages_supported lists only es.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -66,6 +66,14 @@
    "title": "Empleo",
    "accessed": "2026-11-06",
    "quote": "Iniciativa de la Comunidad de Madrid para conectar el talento madrileño con las empresas de la región.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.comunidad.madrid/sitemap",
+   "title": "Mapa del sitio | Comunidad de Madrid",
+   "accessed": "2026-11-06",
+   "quote": "A continuación se muestra el mapa web de este sitio.",
    "quote_check": "ok"
   }
  ]

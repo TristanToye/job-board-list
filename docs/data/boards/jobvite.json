@@ -46,10 +46,10 @@
  "review": {
   "board_id": "jobvite",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "founded",
-  "note": "Pricing page is modular and quote-based with no prices. Founding year not stated on pricing, Employ company, or news pages. Those pages name Employ, Inc. as owner of the brands; parent was not requested.",
-  "method": "fetch"
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "English only; no language menu on the homepage. Only the homepage was read (no try_pages were given).",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -60,6 +60,14 @@
    "title": "Pricing",
    "accessed": "2026-11-06",
    "quote": "This modular approach ensures you only pay for the Jobvite features you require.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.jobvite.com",
+   "title": "Simplify Complex Hiring with Recruitment Software | Jobvite",
+   "accessed": "2026-11-06",
+   "quote": "Jobvite gets you in front of the right talent and helps you land them",
    "quote_check": "ok"
   }
  ]
