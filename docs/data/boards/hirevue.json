@@ -17,13 +17,15 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.hirevue.com/integrations",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Certified Integration Partner Program page links to a Become a Partner page. Integrates with ATS and HR platforms. No API or pricing stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/hirevue/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -33,9 +35,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "hr-tech"
+  "ats-integration",
+  "hr-tech",
+  "partner-program"
  ],
- "review": null,
+ "review": {
+  "board_id": "hirevue",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;parent",
+  "note": "Homepage and integrations page state ATS integrations and a Certified Integration Partner Program; no headquarters, pricing or API stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +56,22 @@
    "title": "HireVue homepage",
    "accessed": "2026-11-06",
    "quote": "AI hiring technology to reveal proven skills and capabilities",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.hirevue.com",
+   "title": "Homepage integrations",
+   "accessed": "2026-11-06",
+   "quote": "integrates with many leading applicant tracking systems (ATS) and HR platforms",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.hirevue.com/integrations",
+   "title": "Integrations page",
+   "accessed": "2026-11-06",
+   "quote": "Certified Integration Partner Program",
    "quote_check": "ok"
   }
  ]

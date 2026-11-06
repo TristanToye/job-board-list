@@ -1,6 +1,6 @@
 # Job boards in United States
 
-38 job boards and related entries based in or serving United States.
+39 job boards and related entries based in or serving United States.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier
@@ -25,6 +25,7 @@
 - [Heidrick & Struggles](https://jobboardlist.com/boards/heidrick-struggles/): recruiting-services, Established tier
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform, Established tier
+- [Michael Page](https://jobboardlist.com/boards/michael-page/): recruiting-services, Established tier
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board, Small tier
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Small tier, Partner-only API
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Small tier, Partner-only API

@@ -13,14 +13,14 @@
  "languages_supported": [],
  "region": "Europe",
  "niche": "graduates",
- "parent": "",
+ "parent": "Consorzio AlmaLaurea",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Site language switcher offers IT and EN. Page states AlmaLaurea srl is wholly controlled by the Consorzio AlmaLaurea. No pricing or API stated on the homepage.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/almalaurea/",
  "indexable": false,
@@ -36,7 +36,14 @@
   "graduates-students",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "almalaurea",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage states parent Consorzio AlmaLaurea and IT/EN switcher; no address, pricing, API or partner program stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +53,14 @@
    "title": "AlmaLaurea homepage",
    "accessed": "2026-11-05",
    "quote": "Crea il tuo CV, accedi al database delle offerte di lavoro e partecipa agli eventi di recruiting.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.almalaurea.it/",
+   "title": "Homepage company statement",
+   "accessed": "2026-11-06",
+   "quote": "società interamente controllata dal Consorzio AlmaLaurea",
    "quote_check": "ok"
   }
  ]

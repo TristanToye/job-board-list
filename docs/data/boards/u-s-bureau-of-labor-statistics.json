@@ -3,7 +3,7 @@
  "name": "U.S. Bureau of Labor Statistics",
  "url": "https://www.bls.gov",
  "type": "lmi",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -14,14 +14,14 @@
  "languages_supported": [],
  "region": "North America",
  "niche": "national labour market statistics agency",
- "parent": "",
+ "parent": "United States Department of Labor",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Public Data API and RSS feeds are linked; the API docs were not read, so api_status is not recorded. The site lists no job postings.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/",
  "indexable": false,
@@ -37,7 +37,14 @@
   "lmi",
   "trades-labour"
  ],
- "review": null,
+ "review": {
+  "board_id": "u-s-bureau-of-labor-statistics",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage states the Washington DC address and parent department; API menu link found but docs not read, and no job postings appear.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -47,6 +54,22 @@
    "title": "U.S. Bureau of Labor Statistics home page",
    "accessed": "2026-11-06",
    "quote": "BLS offers many types of data for regions, states and local areas.",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.bls.gov",
+   "title": "Homepage footer address",
+   "accessed": "2026-11-06",
+   "quote": "Suitland Federal Center Floor 7 4600 Silver Hill Road Washington, DC 20212-0002.",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.bls.gov",
+   "title": "Homepage header",
+   "accessed": "2026-11-06",
+   "quote": "United States Department of Labor",
    "quote_check": "unreachable"
   }
  ]

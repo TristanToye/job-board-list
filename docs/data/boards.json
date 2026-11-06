@@ -7498,14 +7498,14 @@
    "languages_supported": [],
    "region": "Europe",
    "niche": "graduates",
-   "parent": "",
+   "parent": "Jisc",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Part of Jisc; registered office in Bristol, England. Homepage shows prices from 370 pounds under employer advertising, model not stated. Employers page returned 404. No API or integration mention found on pages read.",
+   "notes": "Part of Jisc; registered office in Bristol, England. Homepage shows prices from 370 pounds under employer advertising, model not stated. Employers page returned 404. No API or integration mention found on pages read. Registered office in Bristol, UK. Employer advertising shows prices from £370; the pricing model (per post or otherwise) is not stated. Parent is inferred only from the copyright line naming Jisc.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/prospects/",
    "indexable": false,
@@ -7521,7 +7521,14 @@
     "graduates-students",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "prospects",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+    "note": "Homepage states employer advertising prices and a registered office in Bristol, not a headquarters; no API or partner program stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9482,8 +9489,10 @@
    "countries_served": [
     "JP"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "ja",
+   "languages_supported": [
+    "ja"
+   ],
    "region": "East Asia",
    "niche": "general",
    "parent": "",
@@ -9493,7 +9502,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage is in Japanese. Copyright footer names PERSOL CAREER CO., LTD. Group company list names PERSOL Holdings, but no parent is stated. Only the first 100,000 characters of the homepage were read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/doda/",
    "indexable": false,
@@ -9509,7 +9518,14 @@
     "general",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "doda",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Japanese homepage names PERSOL CAREER CO., LTD.; no headquarters, parent, employer pricing or API stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9519,6 +9535,14 @@
      "title": "doda homepage",
      "accessed": "2026-11-05",
      "quote": "dodaの転職サービスは、求人数、バリエーションともに豊富に揃え、あなたの転職を成功に導きます。",
+     "quote_check": "unreachable"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.doda.jp/",
+     "title": "Homepage site name",
+     "accessed": "2026-11-06",
+     "quote": "パーソルキャリア株式会社の転職サイトdoda。",
      "quote_check": "unreachable"
     }
    ]
@@ -10390,14 +10414,14 @@
    "languages_supported": [],
    "region": "Europe",
    "niche": "graduates",
-   "parent": "",
+   "parent": "Consorzio AlmaLaurea",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site language switcher offers IT and EN. Page states AlmaLaurea srl is wholly controlled by the Consorzio AlmaLaurea. No pricing or API stated on the homepage.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/almalaurea/",
    "indexable": false,
@@ -10413,7 +10437,14 @@
     "graduates-students",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "almalaurea",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states parent Consorzio AlmaLaurea and IT/EN switcher; no address, pricing, API or partner program stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10423,6 +10454,14 @@
      "title": "AlmaLaurea homepage",
      "accessed": "2026-11-05",
      "quote": "Crea il tuo CV, accedi al database delle offerte di lavoro e partecipa agli eventi di recruiting.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.almalaurea.it/",
+     "title": "Homepage company statement",
+     "accessed": "2026-11-06",
+     "quote": "società interamente controllata dal Consorzio AlmaLaurea",
      "quote_check": "ok"
     }
    ]
@@ -10962,17 +11001,19 @@
    "languages_supported": [],
    "region": "North America",
    "niche": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "CognoGroup, Inc.",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Monthly and annual plans with a single-post option; Starter plan $165/month or $1,990/yr billed annually. Auto-Sync from ATS or career site is a listed plan feature.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/mediabistro/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -10982,9 +11023,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "job-board"
+    "ats-integration",
+    "job-board",
+    "subscription"
    ],
-   "review": null,
+   "review": {
+    "board_id": "mediabistro",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;api_status;partner_program",
+    "note": "Homepage and post-jobs page state plans and CognoGroup operator but no headquarters, language options, API or partner program.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10995,6 +11045,30 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.mediabistro.com/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-06",
+     "quote": "Mediabistro is a brand operated by CognoGroup, Inc.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.mediabistro.com/post-jobs",
+     "title": "Employer plans",
+     "accessed": "2026-11-06",
+     "quote": "Save $98 compared to a Single Post",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.mediabistro.com/post-jobs",
+     "title": "Employer plans",
+     "accessed": "2026-11-06",
+     "quote": "Auto-Sync from Your ATS or Career Site",
+     "quote_check": "ok"
     }
    ]
   },
@@ -11700,7 +11774,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "bdjobs-com",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program",
+    "note": "Fetch returned only the title; browser reader confirmed English and Bangla language menu and a Post a Job link.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14222,7 +14303,7 @@
    "name": "U.S. Bureau of Labor Statistics",
    "url": "https://www.bls.gov",
    "type": "lmi",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -14233,14 +14314,14 @@
    "languages_supported": [],
    "region": "North America",
    "niche": "national labour market statistics agency",
-   "parent": "",
+   "parent": "United States Department of Labor",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Public Data API and RSS feeds are linked; the API docs were not read, so api_status is not recorded. The site lists no job postings.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/",
    "indexable": false,
@@ -14256,7 +14337,14 @@
     "lmi",
     "trades-labour"
    ],
-   "review": null,
+   "review": {
+    "board_id": "u-s-bureau-of-labor-statistics",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states the Washington DC address and parent department; API menu link found but docs not read, and no job postings appear.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14266,6 +14354,22 @@
      "title": "U.S. Bureau of Labor Statistics home page",
      "accessed": "2026-11-06",
      "quote": "BLS offers many types of data for regions, states and local areas.",
+     "quote_check": "unreachable"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.bls.gov",
+     "title": "Homepage footer address",
+     "accessed": "2026-11-06",
+     "quote": "Suitland Federal Center Floor 7 4600 Silver Hill Road Washington, DC 20212-0002.",
+     "quote_check": "unreachable"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.bls.gov",
+     "title": "Homepage header",
+     "accessed": "2026-11-06",
+     "quote": "United States Department of Labor",
      "quote_check": "unreachable"
     }
    ]
@@ -14481,7 +14585,14 @@
     "lmi",
     "trades-labour"
    ],
-   "review": null,
+   "review": {
+    "board_id": "lightcast",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and partners page state no headquarters, pricing or formal partner program; /api and /developers returned HTTP 404; the API Status footer link is not an API statement.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14652,7 +14763,14 @@
    "tags": [
     "lmi"
    ],
-   "review": null,
+   "review": {
+    "board_id": "australian-bureau-of-statistics",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states no headquarters, parent, language options or API; /about-us returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14897,7 +15015,7 @@
    "name": "Randstad",
    "url": "https://www.randstad.com",
    "type": "staffing",
-   "hq_country": "",
+   "hq_country": "NL",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -14914,7 +15032,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Footer gives a registered office in The Netherlands; it is not labelled headquarters. Page offers a country selector, not a language switcher. The /about-us page returned HTTP 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/randstad/",
    "indexable": false,
@@ -14930,7 +15048,14 @@
     "general",
     "staffing"
    ],
-   "review": null,
+   "review": {
+    "board_id": "randstad",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Footer states a registered office in Diemen, The Netherlands; no language, pricing, API or partner program stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14940,6 +15065,14 @@
      "title": "Randstad",
      "accessed": "2026-11-06",
      "quote": "Randstad is the world’s leading talent company and a partner of choice to clients.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.randstad.com",
+     "title": "Homepage footer registered office",
+     "accessed": "2026-11-06",
+     "quote": "Registered office: Diemermere 25, 1112 TC Diemen, The Netherlands.",
      "quote_check": "ok"
     }
    ]
@@ -15116,7 +15249,14 @@
    "tags": [
     "staffing"
    ],
-   "review": null,
+   "review": {
+    "board_id": "robert-half",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage read by fetch and browser; no headquarters, pricing, API or partner program stated, and the About page returned HTTP 404.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15167,7 +15307,14 @@
    "tags": [
     "staffing"
    ],
-   "review": null,
+   "review": {
+    "board_id": "kelly-services",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage read by fetch and browser states none of the missing facts; the about page returned HTTP 404.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15645,8 +15792,14 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "zh",
+    "de",
+    "fr",
+    "ja"
+   ],
    "region": "Global",
    "niche": "executive search and board consulting",
    "parent": "",
@@ -15656,7 +15809,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Header language menu lists five languages. Footer shows only a copyright line; headquarters, parent and business model not stated. The /about-us page returned HTTP 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/spencer-stuart/",
    "indexable": false,
@@ -15672,7 +15825,14 @@
     "executive",
     "recruiting-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "spencer-stuart",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Header lists five languages; no headquarters, parent, pricing, API or partner program stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15682,6 +15842,14 @@
      "title": "Spencer Stuart",
      "accessed": "2026-11-06",
      "quote": "We help you find and develop outstanding leaders, improve team and board performance, and align culture with your strategy.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.spencerstuart.com",
+     "title": "Homepage header language menu",
+     "accessed": "2026-11-06",
+     "quote": "English | 简体中文 | Deutsch | Français (Québec) | 日本語",
      "quote_check": "ok"
     }
    ]
@@ -15762,14 +15930,16 @@
    "name": "Michael Page",
    "url": "https://www.michaelpage.com",
    "type": "recruiting-services",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "",
    "markets": "",
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "permanent placement recruitment",
    "parent": "",
@@ -15779,7 +15949,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Principal place of business given as New York, NY. Only EN appears in the header language selector.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/michael-page/",
    "indexable": false,
@@ -15794,7 +15964,14 @@
    "tags": [
     "recruiting-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "michael-page",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage states a principal place of business in New York and an EN-only language selector; no parent, pricing, API or partner program stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15804,6 +15981,22 @@
      "title": "Michael Page",
      "accessed": "2026-11-06",
      "quote": "We connect companies with talent, and professionals with job opportunities.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.michaelpage.com",
+     "title": "Footer principal place of business",
+     "accessed": "2026-11-06",
+     "quote": "Principal Place of Business: 1156 Avenue of the Americas, 5th Floor, New York, NY 10036, United States.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.michaelpage.com",
+     "title": "Header language selector",
+     "accessed": "2026-11-06",
+     "quote": "EN",
      "quote_check": "ok"
     }
    ]
@@ -16228,14 +16421,14 @@
    "languages_supported": [],
    "region": "Global",
    "niche": "freelance design marketplace",
-   "parent": "",
+   "parent": "Vista",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Footer language switcher lists English and Spanish. Pricing page shows fixed packages for design contests, not employer job posting prices. Headquarters and API not stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/99designs/",
    "indexable": false,
@@ -16251,7 +16444,14 @@
     "creative-media",
     "freelance-platform"
    ],
-   "review": null,
+   "review": {
+    "board_id": "99designs",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+    "note": "Parent (Vista) and languages confirmed; pricing covers design contests only and no API or partner terms are described.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16261,6 +16461,14 @@
      "title": "99designs homepage",
      "accessed": "2026-11-06",
      "quote": "Logos, websites, packaging design and more.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.99designs.com/about",
+     "title": "About page",
+     "accessed": "2026-11-06",
+     "quote": "As part of the Vista family, we're dedicated to helping small businesses thrive through expert design.",
      "quote_check": "ok"
     }
    ]
@@ -16354,7 +16562,14 @@
     "freelance-platform",
     "tech"
    ],
-   "review": null,
+   "review": {
+    "board_id": "codeable",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+    "note": "Homepage menu lists a Partner program; no headquarters, languages or API for postings stated; /employers returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16588,13 +16803,15 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.hirevue.com/integrations",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Certified Integration Partner Program page links to a Become a Partner page. Integrates with ATS and HR platforms. No API or pricing stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/hirevue/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -16604,9 +16821,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "hr-tech"
+    "ats-integration",
+    "hr-tech",
+    "partner-program"
    ],
-   "review": null,
+   "review": {
+    "board_id": "hirevue",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;parent",
+    "note": "Homepage and integrations page state ATS integrations and a Certified Integration Partner Program; no headquarters, pricing or API stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16616,6 +16842,22 @@
      "title": "HireVue homepage",
      "accessed": "2026-11-06",
      "quote": "AI hiring technology to reveal proven skills and capabilities",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.hirevue.com",
+     "title": "Homepage integrations",
+     "accessed": "2026-11-06",
+     "quote": "integrates with many leading applicant tracking systems (ATS) and HR platforms",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.hirevue.com/integrations",
+     "title": "Integrations page",
+     "accessed": "2026-11-06",
+     "quote": "Certified Integration Partner Program",
      "quote_check": "ok"
     }
    ]
@@ -16945,13 +17187,13 @@
    "region": "Global",
    "niche": "coding tests and technical interviews",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Pricing page sells pack-based plans; no prices appear in the quoted text. Full API is listed only in the comparison table, and it is included in Enterprise plans. The /partners/ page returned HTTP 500.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/codility/",
    "indexable": false,
@@ -16965,9 +17207,17 @@
    },
    "tags": [
     "hr-tech",
+    "subscription",
     "tech"
    ],
-   "review": null,
+   "review": {
+    "board_id": "codility",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;partner_program;ingest_methods",
+    "note": "Pricing page and comparison table state plan and API facts; /partners/ returned HTTP 500 and no headquarters stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16977,6 +17227,14 @@
      "title": "Codility homepage",
      "accessed": "2026-11-06",
      "quote": "Codility runs coding tests, real-world coding tasks and live technical interviews",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.codility.com/pricing/",
+     "title": "Pricing page",
+     "accessed": "2026-11-06",
+     "quote": "Online plans are bought by card, in annual or monthly packs of invites.",
      "quote_check": "ok"
     }
    ]
@@ -17079,10 +17337,10 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://eightfold.ai/partners",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Partners page describes consulting, technology and system integrator partners and links to a partner registration page. No API or pricing stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/eightfold-ai/",
    "indexable": false,
@@ -17095,9 +17353,17 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "hr-tech"
+    "hr-tech",
+    "partner-program"
    ],
-   "review": null,
+   "review": {
+    "board_id": "eightfold-ai",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;parent;ingest_methods",
+    "note": "Partners page states partners work alongside teams to deploy the platform; homepage and footer state no headquarters, language options, pricing or API.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -17108,6 +17374,14 @@
      "accessed": "2026-11-06",
      "quote": "The system of intelligence for workforce decisions.",
      "quote_check": "unreachable"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://eightfold.ai/partners",
+     "title": "Partners page",
+     "accessed": "2026-11-06",
+     "quote": "Great platforms deliver more with great partners behind them.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -17445,7 +17719,7 @@
    "name": "Challenger, Gray & Christmas",
    "url": "https://www.challengergray.com",
    "type": "outplacement",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -17463,7 +17737,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Footer locations list Chicago as headquarters. No parent, language options, employer pricing or API stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/challenger-gray-christmas/",
    "indexable": false,
@@ -17478,7 +17752,14 @@
    "tags": [
     "outplacement"
    ],
-   "review": null,
+   "review": {
+    "board_id": "challenger-gray-christmas",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Footer lists Chicago as headquarters; no parent, languages, pricing or API stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -17488,6 +17769,14 @@
      "title": "Challenger, Gray & Christmas",
      "accessed": "2026-11-06",
      "quote": "Provide the support people need to take the next step with outplacement programs that work for every career stage.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.challengergray.com",
+     "title": "Homepage footer locations",
+     "accessed": "2026-11-06",
+     "quote": "Chicago | Headquarters",
      "quote_check": "ok"
     }
    ]
@@ -17638,7 +17927,14 @@
    "tags": [
     "career-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "resume-io",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Fetch returned page text, but the browser reader returned HTTP 403 with blocked true, so no facts are recorded.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [

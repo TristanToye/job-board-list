@@ -35,7 +35,14 @@
  "tags": [
   "career-services"
  ],
- "review": null,
+ "review": {
+  "board_id": "resume-io",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Fetch returned page text, but the browser reader returned HTTP 403 with blocked true, so no facts are recorded.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

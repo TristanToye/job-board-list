@@ -121,6 +121,7 @@ def main(argv):
                 same = regdom(host(su)) in {site, regdom(host(row.get("api_docs_url",""))), regdom(host(row.get("partner_url","")))} or (regdom(host(su)) in REFERENCE and f in REF_FIELDS)
                 if not same: reject("source", name, f"strong source off the board's domain: {host(su)}"); continue
                 if not q or len(q.split()) > 30: reject("source", name, f"{f}: missing or long quote"); continue
+                if len(q.split()) < 3 and f != "languages": reject("source", name, f"{f}: quote too short to be evidence"); continue  # a language menu is legitimately short
                 if regdom(host(su)) in REFERENCE and s.get("check") not in ("ok", "structured"): reject("source", name, f"{f}: reference quote not confirmed on the page"); continue
                 if s.get("check") == "mismatch": reject("source", name, f"{f}: quote not found on page"); continue
                 good.setdefault(f, []).append(s | {"url": su, "quote": q})

@@ -36,7 +36,14 @@
   "freelance-platform",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "codeable",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+  "note": "Homepage menu lists a Partner program; no headquarters, languages or API for postings stated; /employers returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

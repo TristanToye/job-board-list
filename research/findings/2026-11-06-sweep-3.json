@@ -1,0 +1,305 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Mediabistro",
+   "url": "https://www.mediabistro.com/",
+   "parent": "CognoGroup, Inc.",
+   "business_model": "subscription",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Monthly and annual plans with a single-post option; Starter plan $165/month or $1,990/yr billed annually. Auto-Sync from ATS or career site is a listed plan feature.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.mediabistro.com/",
+     "title": "Homepage footer",
+     "quote": "Mediabistro is a brand operated by CognoGroup, Inc.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.mediabistro.com/post-jobs",
+     "title": "Employer plans",
+     "quote": "Save $98 compared to a Single Post",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.mediabistro.com/post-jobs",
+     "title": "Employer plans",
+     "quote": "billed annually · $1,990/yr",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.mediabistro.com/post-jobs",
+     "title": "Employer plans",
+     "quote": "Auto-Sync from Your ATS or Career Site",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "parent": "Jisc",
+   "notes": "Registered office in Bristol, UK. Employer advertising shows prices from £370; the pricing model (per post or otherwise) is not stated. Parent is inferred only from the copyright line naming Jisc.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.prospects.ac.uk",
+     "title": "Homepage footer",
+     "quote": "© Copyright 2026 Jisc.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "primary_language": "it",
+   "languages_supported": [
+    "it",
+    "en"
+   ],
+   "parent": "Consorzio AlmaLaurea",
+   "notes": "Site language switcher offers IT and EN. Page states AlmaLaurea srl is wholly controlled by the Consorzio AlmaLaurea. No pricing or API stated on the homepage.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.almalaurea.it/",
+     "title": "Header language switcher",
+     "quote": "IT\nEN",
+     "check": "mismatch"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.almalaurea.it/",
+     "title": "Homepage company statement",
+     "quote": "società interamente controllata dal Consorzio AlmaLaurea",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Michael Page",
+   "url": "https://www.michaelpage.com",
+   "hq_country": "US",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "notes": "Principal place of business given as New York, NY. Only EN appears in the header language selector.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.michaelpage.com",
+     "title": "Footer principal place of business",
+     "quote": "Principal Place of Business: 1156 Avenue of the Americas, 5th Floor, New York, NY 10036, United States.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.michaelpage.com",
+     "title": "Header language selector",
+     "quote": "EN",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "HireVue",
+   "url": "https://www.hirevue.com",
+   "partner_program": "yes",
+   "partner_url": "https://www.hirevue.com/integrations",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Certified Integration Partner Program page links to a Become a Partner page. Integrates with ATS and HR platforms. No API or pricing stated.",
+   "sources": [
+    {
+     "field": "ingest_methods",
+     "url": "https://www.hirevue.com",
+     "title": "Homepage integrations",
+     "quote": "integrates with many leading applicant tracking systems (ATS) and HR platforms",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.hirevue.com/integrations",
+     "title": "Integrations page",
+     "quote": "Certified Integration Partner Program",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "partner_program": "yes",
+   "partner_url": "https://eightfold.ai/partners",
+   "notes": "Partners page describes consulting, technology and system integrator partners and links to a partner registration page. No API or pricing stated.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://eightfold.ai/partners",
+     "title": "Partners page",
+     "quote": "Great platforms deliver more with great partners behind them.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Mediabistro",
+   "url": "https://www.mediabistro.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage and post-jobs page state plans and CognoGroup operator but no headquarters, language options, API or partner program."
+  },
+  {
+   "name": "Robert Half",
+   "url": "https://www.roberthalf.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage read by fetch and browser; no headquarters, pricing, API or partner program stated, and the About page returned HTTP 404."
+  },
+  {
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage states employer advertising prices and a registered office in Bristol, not a headquarters; no API or partner program stated."
+  },
+  {
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage states parent Consorzio AlmaLaurea and IT/EN switcher; no address, pricing, API or partner program stated."
+  },
+  {
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage and partners page state no headquarters, pricing or formal partner program; /api and /developers returned HTTP 404; the API Status footer link is not an API statement."
+  },
+  {
+   "name": "Kelly Services",
+   "url": "https://www.kellyservices.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage read by fetch and browser states none of the missing facts; the about page returned HTTP 404."
+  },
+  {
+   "name": "Michael Page",
+   "url": "https://www.michaelpage.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage states a principal place of business in New York and an EN-only language selector; no parent, pricing, API or partner program stated."
+  },
+  {
+   "name": "HireVue",
+   "url": "https://www.hirevue.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "Homepage and integrations page state ATS integrations and a Certified Integration Partner Program; no headquarters, pricing or API stated."
+  },
+  {
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Partners page states partners work alongside teams to deploy the platform; homepage and footer state no headquarters, language options, pricing or API."
+  },
+  {
+   "name": "Resume.io",
+   "url": "https://resume.io",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Fetch returned page text, but the browser reader returned HTTP 403 with blocked true, so no facts are recorded."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Resume.io",
+   "url": "https://resume.io",
+   "reason": "HTTP 403 in browser reader; blocked true"
+  }
+ ]
+}

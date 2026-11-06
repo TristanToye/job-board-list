@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "bdjobs-com",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program",
+  "note": "Fetch returned only the title; browser reader confirmed English and Bangla language menu and a Post a Job link.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

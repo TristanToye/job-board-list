@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 58 entries in the directory.
+Has a partner or integration program. 60 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -16,8 +16,10 @@ Has a partner or integration program. 58 entries in the directory.
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
+- [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
 - [JobStreet](https://jobboardlist.com/boards/jobstreet/): board, Partner-only API
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Partner-only API
+- [HireVue](https://jobboardlist.com/boards/hirevue/): hr-tech
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API

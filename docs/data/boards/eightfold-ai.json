@@ -17,10 +17,10 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://eightfold.ai/partners",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Partners page describes consulting, technology and system integrator partners and links to a partner registration page. No API or pricing stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/eightfold-ai/",
  "indexable": false,
@@ -33,9 +33,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "hr-tech"
+  "hr-tech",
+  "partner-program"
  ],
- "review": null,
+ "review": {
+  "board_id": "eightfold-ai",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;parent;ingest_methods",
+  "note": "Partners page states partners work alongside teams to deploy the platform; homepage and footer state no headquarters, language options, pricing or API.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +54,14 @@
    "accessed": "2026-11-06",
    "quote": "The system of intelligence for workforce decisions.",
    "quote_check": "unreachable"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://eightfold.ai/partners",
+   "title": "Partners page",
+   "accessed": "2026-11-06",
+   "quote": "Great platforms deliver more with great partners behind them.",
+   "quote_check": "ok"
   }
  ]
 }

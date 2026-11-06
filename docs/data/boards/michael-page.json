@@ -3,14 +3,16 @@
  "name": "Michael Page",
  "url": "https://www.michaelpage.com",
  "type": "recruiting-services",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "",
  "markets": "",
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "permanent placement recruitment",
  "parent": "",
@@ -20,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Principal place of business given as New York, NY. Only EN appears in the header language selector.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/michael-page/",
  "indexable": false,
@@ -35,7 +37,14 @@
  "tags": [
   "recruiting-services"
  ],
- "review": null,
+ "review": {
+  "board_id": "michael-page",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage states a principal place of business in New York and an EN-only language selector; no parent, pricing, API or partner program stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +54,22 @@
    "title": "Michael Page",
    "accessed": "2026-11-06",
    "quote": "We connect companies with talent, and professionals with job opportunities.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.michaelpage.com",
+   "title": "Footer principal place of business",
+   "accessed": "2026-11-06",
+   "quote": "Principal Place of Business: 1156 Avenue of the Americas, 5th Floor, New York, NY 10036, United States.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.michaelpage.com",
+   "title": "Header language selector",
+   "accessed": "2026-11-06",
+   "quote": "EN",
    "quote_check": "ok"
   }
  ]

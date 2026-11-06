@@ -35,7 +35,14 @@
  "tags": [
   "staffing"
  ],
- "review": null,
+ "review": {
+  "board_id": "robert-half",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage read by fetch and browser; no headquarters, pricing, API or partner program stated, and the About page returned HTTP 404.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

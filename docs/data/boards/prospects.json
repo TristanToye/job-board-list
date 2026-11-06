@@ -13,14 +13,14 @@
  "languages_supported": [],
  "region": "Europe",
  "niche": "graduates",
- "parent": "",
+ "parent": "Jisc",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Part of Jisc; registered office in Bristol, England. Homepage shows prices from 370 pounds under employer advertising, model not stated. Employers page returned 404. No API or integration mention found on pages read.",
+ "notes": "Part of Jisc; registered office in Bristol, England. Homepage shows prices from 370 pounds under employer advertising, model not stated. Employers page returned 404. No API or integration mention found on pages read. Registered office in Bristol, UK. Employer advertising shows prices from £370; the pricing model (per post or otherwise) is not stated. Parent is inferred only from the copyright line naming Jisc.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/prospects/",
  "indexable": false,
@@ -36,7 +36,14 @@
   "graduates-students",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "prospects",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+  "note": "Homepage states employer advertising prices and a registered office in Bristol, not a headquarters; no API or partner program stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

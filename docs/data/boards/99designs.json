@@ -13,14 +13,14 @@
  "languages_supported": [],
  "region": "Global",
  "niche": "freelance design marketplace",
- "parent": "",
+ "parent": "Vista",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Footer language switcher lists English and Spanish. Pricing page shows fixed packages for design contests, not employer job posting prices. Headquarters and API not stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/99designs/",
  "indexable": false,
@@ -36,7 +36,14 @@
   "creative-media",
   "freelance-platform"
  ],
- "review": null,
+ "review": {
+  "board_id": "99designs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+  "note": "Parent (Vista) and languages confirmed; pricing covers design contests only and no API or partner terms are described.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +53,14 @@
    "title": "99designs homepage",
    "accessed": "2026-11-06",
    "quote": "Logos, websites, packaging design and more.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.99designs.com/about",
+   "title": "About page",
+   "accessed": "2026-11-06",
+   "quote": "As part of the Vista family, we're dedicated to helping small businesses thrive through expert design.",
    "quote_check": "ok"
   }
  ]

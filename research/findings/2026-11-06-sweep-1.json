@@ -1,0 +1,346 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "U.S. Bureau of Labor Statistics",
+   "url": "https://www.bls.gov",
+   "hq_country": "US",
+   "parent": "United States Department of Labor",
+   "notes": "Public Data API and RSS feeds are linked; the API docs were not read, so api_status is not recorded. The site lists no job postings.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.bls.gov",
+     "title": "Homepage footer address",
+     "quote": "Suitland Federal Center Floor 7 4600 Silver Hill Road Washington, DC 20212-0002.",
+     "check": "unreachable"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.bls.gov",
+     "title": "Homepage header",
+     "quote": "United States Department of Labor",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "notes": "Homepage footer and navigation state no headquarters, parent, language options, API or partner program. The /about-us page returned HTTP 404.",
+   "sources": []
+  },
+  {
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "parent": "Vista",
+   "languages_supported": [
+    "en",
+    "es"
+   ],
+   "notes": "Footer language switcher lists English and Spanish. Pricing page shows fixed packages for design contests, not employer job posting prices. Headquarters and API not stated.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.99designs.com/about",
+     "title": "About page",
+     "quote": "As part of the Vista family, we're dedicated to helping small businesses thrive through expert design.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.99designs.com",
+     "title": "Footer language switcher",
+     "quote": "English and español",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "doda",
+   "url": "https://www.doda.jp/",
+   "primary_language": "ja",
+   "notes": "Homepage is in Japanese. Copyright footer names PERSOL CAREER CO., LTD. Group company list names PERSOL Holdings, but no parent is stated. Only the first 100,000 characters of the homepage were read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.doda.jp/",
+     "title": "Homepage site name",
+     "quote": "パーソルキャリア株式会社の転職サイトdoda。",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "bdjobs.com",
+   "url": "https://bdjobs.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "bn"
+   ],
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Homepage language menu offers ENG and Bangla. Employers post jobs through the recruiter site. Office list on the about page is not labelled as headquarters; no pricing shown. Fetch returned only the title, so the browser reader was used.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://bdjobs.com/h/",
+     "title": "Homepage language menu",
+     "quote": "ENG বাংলা",
+     "check": "mismatch"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://bdjobs.com/h/",
+     "title": "Homepage employer link",
+     "quote": "Post a Job",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "hq_country": "NL",
+   "notes": "Footer gives a registered office in The Netherlands; it is not labelled headquarters. Page offers a country selector, not a language switcher. The /about-us page returned HTTP 404.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.randstad.com",
+     "title": "Homepage footer registered office",
+     "quote": "Registered office: Diemermere 25, 1112 TC Diemen, The Netherlands.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Spencer Stuart",
+   "url": "https://www.spencerstuart.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "zh",
+    "de",
+    "fr",
+    "ja"
+   ],
+   "notes": "Header language menu lists five languages. Footer shows only a copyright line; headquarters, parent and business model not stated. The /about-us page returned HTTP 404.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.spencerstuart.com",
+     "title": "Homepage header language menu",
+     "quote": "English | 简体中文 | Deutsch | Français (Québec) | 日本語",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Codeable",
+   "url": "https://codeable.io",
+   "partner_program": "yes",
+   "notes": "Homepage menu lists a Partner program; the partner page was not followed, so partner_url is not recorded. Freelancer rates are quoted hourly, which is not a posting fee. /employers returned HTTP 404.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://codeable.io",
+     "title": "Homepage menu",
+     "quote": "Partner program",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "business_model": "subscription",
+   "api_status": "partner-only",
+   "notes": "Pricing page sells pack-based plans; no prices appear in the quoted text. Full API is listed only in the comparison table, and it is included in Enterprise plans. The /partners/ page returned HTTP 500.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.codility.com/pricing/",
+     "title": "Pricing page",
+     "quote": "Online plans are bought by card, in annual or monthly packs of invites.",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.codility.com/pricing/",
+     "title": "Pricing comparison table",
+     "quote": "Full API",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Challenger, Gray & Christmas",
+   "url": "https://www.challengergray.com",
+   "hq_country": "US",
+   "notes": "Footer locations list Chicago as headquarters. No parent, language options, employer pricing or API stated.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.challengergray.com",
+     "title": "Homepage footer locations",
+     "quote": "Chicago | Headquarters",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "U.S. Bureau of Labor Statistics",
+   "url": "https://www.bls.gov",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage states the Washington DC address and parent department; API menu link found but docs not read, and no job postings appear."
+  },
+  {
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage states no headquarters, parent, language options or API; /about-us returned HTTP 404."
+  },
+  {
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Parent (Vista) and languages confirmed; pricing covers design contests only and no API or partner terms are described."
+  },
+  {
+   "name": "doda",
+   "url": "https://www.doda.jp/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Japanese homepage names PERSOL CAREER CO., LTD.; no headquarters, parent, employer pricing or API stated."
+  },
+  {
+   "name": "bdjobs.com",
+   "url": "https://bdjobs.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Fetch returned only the title; browser reader confirmed English and Bangla language menu and a Post a Job link."
+  },
+  {
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Footer states a registered office in Diemen, The Netherlands; no language, pricing, API or partner program stated."
+  },
+  {
+   "name": "Spencer Stuart",
+   "url": "https://www.spencerstuart.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Header lists five languages; no headquarters, parent, pricing, API or partner program stated."
+  },
+  {
+   "name": "Codeable",
+   "url": "https://codeable.io",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage menu lists a Partner program; no headquarters, languages or API for postings stated; /employers returned HTTP 404."
+  },
+  {
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Pricing page and comparison table state plan and API facts; /partners/ returned HTTP 500 and no headquarters stated."
+  },
+  {
+   "name": "Challenger, Gray & Christmas",
+   "url": "https://www.challengergray.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Footer lists Chicago as headquarters; no parent, languages, pricing or API stated."
+  }
+ ],
+ "blocked": []
+}

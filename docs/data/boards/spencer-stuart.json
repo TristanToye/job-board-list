@@ -9,8 +9,14 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "zh",
+  "de",
+  "fr",
+  "ja"
+ ],
  "region": "Global",
  "niche": "executive search and board consulting",
  "parent": "",
@@ -20,7 +26,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Header language menu lists five languages. Footer shows only a copyright line; headquarters, parent and business model not stated. The /about-us page returned HTTP 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/spencer-stuart/",
  "indexable": false,
@@ -36,7 +42,14 @@
   "executive",
   "recruiting-services"
  ],
- "review": null,
+ "review": {
+  "board_id": "spencer-stuart",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Header lists five languages; no headquarters, parent, pricing, API or partner program stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +59,14 @@
    "title": "Spencer Stuart",
    "accessed": "2026-11-06",
    "quote": "We help you find and develop outstanding leaders, improve team and board performance, and align culture with your strategy.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.spencerstuart.com",
+   "title": "Homepage header language menu",
+   "accessed": "2026-11-06",
+   "quote": "English | 简体中文 | Deutsch | Français (Québec) | 日本語",
    "quote_check": "ok"
   }
  ]

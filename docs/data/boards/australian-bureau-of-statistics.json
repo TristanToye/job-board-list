@@ -36,7 +36,14 @@
  "tags": [
   "lmi"
  ],
- "review": null,
+ "review": {
+  "board_id": "australian-bureau-of-statistics",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage states no headquarters, parent, language options or API; /about-us returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

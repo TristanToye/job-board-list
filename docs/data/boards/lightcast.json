@@ -36,7 +36,14 @@
   "lmi",
   "trades-labour"
  ],
- "review": null,
+ "review": {
+  "board_id": "lightcast",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage and partners page state no headquarters, pricing or formal partner program; /api and /developers returned HTTP 404; the API Status footer link is not an API statement.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
