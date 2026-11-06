@@ -16,7 +16,7 @@
  "niche": "government",
  "segment": "",
  "parent": "Governmentjobs.com, Inc. (DBA NEOGOV)",
- "business_model": "",
+ "business_model": "per post and annual subscription: single job post $199 for up to 60 days, five-post bundle $629, unlimited annual subscription priced by agency size",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -25,7 +25,7 @@
  "notes": "",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/governmentjobs-com/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -38,16 +38,18 @@
   "government-operated",
   "government-service",
   "job-board",
-  "public-sector"
+  "pay-per-post",
+  "public-sector",
+  "subscription"
  ],
  "connections": [],
  "review": {
   "board_id": "governmentjobs-com",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "founded",
-  "note": "Company Info gives headquarters in El Segundo, CA, United States and owner Governmentjobs.com, Inc. (DBA NEOGOV). Page says the company began developing applications in 1998, which is not a stated founding year.",
-  "method": "fetch"
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "/employers returned 404 (the browser reader flagged it blocked because of the status, but the page was a 404, not a challenge). Pricing verified from the Advertise page on employer.governmentjobs.com, which the homepage links to.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -74,6 +76,14 @@
    "title": "Company Info",
    "accessed": "2026-11-06",
    "quote": "This website is owned and operated by Governmentjobs.com, Inc. (DBA \"NEOGOV\").",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://employer.governmentjobs.com/",
+   "title": "GovernmentJobs Employer Portal",
+   "accessed": "2026-11-06",
+   "quote": "SINGLE JOB POST $199 for up to 60 days",
    "quote_check": "ok"
   }
  ]

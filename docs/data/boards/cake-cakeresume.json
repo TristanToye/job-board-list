@@ -4,7 +4,7 @@
  "url": "https://www.cake.me",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "TW",
  "founded": "2016",
  "markets": "",
  "countries_served": [
@@ -31,7 +31,7 @@
  "notes": "Homepage language menu lists English, Chinese (Traditional and Simplified), Vietnamese, Indonesian and Japanese. Employer plans are tiered subscriptions billed annually, listed as US$110.00/mo to US$165.00/mo plus Enterprise (contact sales). No API, partner program or headquarters statement found; employer partner page returned HTTP 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cake-cakeresume/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -49,9 +49,9 @@
   "board_id": "cake-cakeresume",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
-  "note": "Homepage language menu, employer pricing and job seeker pricing read; no headquarters, parent, API or partner statement found. /partners returned HTTP 404.",
-  "method": "fetch"
+  "fields_not_found": "parent",
+  "note": "hq_country (TW) and languages verified from cake.me/about. No owner company named on /about, /pricing/ats, the footer or help.cake.me, so parent not found.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -78,6 +78,22 @@
    "title": "Employer pricing",
    "accessed": "2026-11-06",
    "quote": "US$110.00/mo",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.cake.me/about",
+   "title": "About Us",
+   "accessed": "2026-11-06",
+   "quote": "Based in Taiwan, Cake has a vast talent pool of 10 million users",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.cake.me/about",
+   "title": "About Us (language menu)",
+   "accessed": "2026-11-06",
+   "quote": "English 中文（繁體） 中文（简体） Tiếng Việt Bahasa Indonesia 日本語",
    "quote_check": "ok"
   }
  ]

@@ -74,10 +74,10 @@
  "review": {
   "board_id": "breezy",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "founded",
-  "note": "Business model verified from the pricing page: paid subscription plans, annual billing option, Breezy Intelligence add-on at $30 per 100,000 credits. No per-post or free posting option was stated. About page and home page do not state a fou",
-  "method": "fetch"
+  "outcome": "blocked",
+  "fields_not_found": "parent",
+  "note": "breezy.hr returned a CloudFront 403 challenge to the browser reader, so the entry is recorded as blocked. Lead only, not a sourced fact: ltgplc.com/trust-center (off-domain) lists Breezy HR among Learning Technologies Group entities, which ",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],

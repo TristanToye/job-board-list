@@ -237,10 +237,10 @@
  "review": {
   "board_id": "workable",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Founding year from homepage text and structured data; pricing page gives subscription plans and a 15-day trial. Parent not stated and not requested.",
-  "method": "fetch"
+  "outcome": "not-stated",
+  "fields_not_found": "founded",
+  "note": "Homepage and /about read in full. Neither states a founding year. Copyright line shows 2012-2026 only.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

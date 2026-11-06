@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "niche-jobs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country",
+  "note": "Launch year 2008 stated on About page. No headquarters location stated. Only the About page was read.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,14 @@
    "title": "Niche Jobs homepage",
    "accessed": "2026-11-05",
    "quote": "Since 2008 we’ve designed, developed and hosted our own proprietary job board platform for our four healthcare and social",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.nichejobs.co.uk/about-niche-jobs/",
+   "title": "About Niche Jobs",
+   "accessed": "2026-11-06",
+   "quote": "We are a mature jobs board brand, launched in 2008",
    "quote_check": "ok"
   }
  ]

@@ -17,7 +17,7 @@
  "segment": "",
  "parent": "",
  "business_model": "subscription",
- "api_status": "unknown",
+ "api_status": "on-request",
  "api_docs_url": "",
  "partner_program": "yes",
  "partner_url": "https://www.codility.com/partners/",
@@ -35,6 +35,7 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "api-on-request",
   "hr-tech",
   "partner-program",
   "subscription",
@@ -44,9 +45,9 @@
  "review": {
   "board_id": "codility",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent",
-  "note": "Founding year 2009 and a partner program at /partners/ found. About page and homepage state no headquarters country or owner.",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Integrations page states API is on the top plan and points to a Talk to us contact. No developer docs link found.",
   "method": "mixed"
  },
  "owners": [],
@@ -82,6 +83,14 @@
    "title": "Codility Partners: Resell and Integrate Skills Assessment",
    "accessed": "2026-11-06",
    "quote": "Five ways to partner with Codility",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.codility.com/integrations/",
+   "title": "Integrations - Codility",
+   "accessed": "2026-11-06",
+   "quote": "Full API access is included on our top plan.",
    "quote_check": "ok"
   }
  ]

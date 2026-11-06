@@ -11,7 +11,7 @@ Workday Recruiting is an applicant tracking system based in United States, focus
 - Partner program: yes
 - Prominence: #4,634 globally, tier Large
 - Tags: Applicant tracking system, Enterprise, Partner program
-- Review: Reviewed 2026-11-06. Checked against the board's own site.
+- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: pricing and business model.
 - Data status: partly verified against its own site
 
 ## Quick answers

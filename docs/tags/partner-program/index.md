@@ -56,7 +56,7 @@ Has a partner or integration program. 78 entries in the directory.
 - [Jobware](https://jobboardlist.com/boards/jobware/): board
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
-- [Codility](https://jobboardlist.com/boards/codility/): hr-tech
+- [Codility](https://jobboardlist.com/boards/codility/): hr-tech, API key on request
 - [Careerminds](https://jobboardlist.com/boards/careerminds/): outplacement
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Partner-only API

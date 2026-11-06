@@ -10,13 +10,15 @@
  "countries_served": [
   "IT"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -35,6 +37,7 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "general",
   "job-aggregator"
  ],
@@ -43,8 +46,8 @@
   "board_id": "jobtoday",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "founded;parent",
-  "note": "HQ (New York, US) was found on the Contacts page. Languages (English, Español) come from the language menu. Business model is free posting with a paid subscription to contact candidates; no prices shown. The About page says we launched but ",
+  "fields_not_found": "hq_country",
+  "note": "Business model and English language verified from the hire page. The contacts page gives only a US office address for JobToday USA Inc. and the footer names JobToday S.A.; neither states the headquarters country, so hq_country was not recor",
   "method": "mixed"
  },
  "owners": [],
@@ -56,6 +59,22 @@
    "title": "Jobtoday Italia homepage",
    "accessed": "2026-11-05",
    "quote": "Trova lavoro in Italia oggi stesso.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://jobtoday.com/us/landings/hire",
+   "title": "Hiring staff in the US",
+   "accessed": "2026-11-06",
+   "quote": "Advertise your job for free.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://jobtoday.com/us/landings/hire",
+   "title": "Hiring staff in the US",
+   "accessed": "2026-11-06",
+   "quote": "Hire staff in a few taps",
    "quote_check": "ok"
   }
  ]

@@ -60,10 +60,10 @@
  "review": {
   "board_id": "workday",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Founding year from Our Story timeline; languages from the region chooser link list.",
-  "method": "fetch"
+  "outcome": "partially-verified",
+  "fields_not_found": "business_model",
+  "note": "Language menu read from the region chooser page, with the raw text from the headless reader. Subscriptions page covers marketing email preferences only, and the developer page shows no pricing. No employer pricing found.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

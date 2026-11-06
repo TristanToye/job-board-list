@@ -1,0 +1,260 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 9,
+ "boards": [
+  {
+   "name": "Experteer",
+   "url": "https://www.experteer.fr",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.experteer.fr/about/imprint",
+     "title": "Mentions légales - Experteer",
+     "quote": "Experteer GmbH Lenbachplatz 3 80333 München Allemagne",
+     "value": "DE (legal seat Munich)",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://www.experteer.fr/about-us/en/company/",
+     "title": "About Experteer",
+     "quote": "Experteer was founded in 2005",
+     "value": "2005",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.experteer.fr/about/imprint",
+     "title": "Mentions légales - Experteer",
+     "quote": "Avec votre consentement, nous utilisons des cookies et des technologies similaires",
+     "value": "primary fr; languages_supported not stated",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.experteer.fr/about-us/en/company/",
+     "title": "About Experteer",
+     "quote": "Our unique freemium business model monetizes both professionals and recruiters.",
+     "value": "freemium; recruiters monetized; no prices shown",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "PcD.com.br",
+   "url": "https://www.pcd.com.br",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.pcd.com.br/planos",
+     "title": "Planos - PCD Online",
+     "quote": "Desde 2006 · 20 anos apoiando o compliance da Lei de Cotas (Lei 8.213/91)",
+     "value": "2006",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.pcd.com.br/planos",
+     "title": "Planos - PCD Online",
+     "quote": "Escolha o plano conforme o volume de contratações da sua empresa.",
+     "value": "plan tiers (Gold, Premium) with custom proposal; no prices shown",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Niche Jobs",
+   "url": "https://www.nichejobs.co.uk",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.nichejobs.co.uk/about-niche-jobs/",
+     "title": "About Niche Jobs",
+     "quote": "We are a mature jobs board brand, launched in 2008",
+     "value": "2008",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "api_status": "on-request",
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "https://www.codility.com/integrations/",
+     "title": "Integrations - Codility",
+     "quote": "Full API access is included on our top plan.",
+     "value": "on-request: Talk to us about the API; full access on top plan",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.codility.com/integrations/",
+     "title": "Integrations - Codility",
+     "quote": "Talk to us about the API",
+     "value": "on-request",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Experteer",
+   "url": "https://www.experteer.fr",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "Imprint names Experteer GmbH with seat in Munich, Germany. Company page gives founding year 2005. Site names no owner company. Languages: only French site text shown, supported languages not stated."
+  },
+  {
+   "name": "PcD.com.br",
+   "url": "https://www.pcd.com.br",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country"
+   ],
+   "method": "mixed",
+   "note": "Founding year 2006 on planos page. Plans use custom proposals and show no prices. No address on contact page."
+  },
+  {
+   "name": "Niche Jobs",
+   "url": "https://www.nichejobs.co.uk",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country"
+   ],
+   "method": "mixed",
+   "note": "Launch year 2008 stated on About page. No headquarters location stated. Only the About page was read."
+  },
+  {
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Integrations page states API is on the top plan and points to a Talk to us contact. No developer docs link found."
+  },
+  {
+   "name": "Workable",
+   "url": "https://www.workable.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "mixed",
+   "note": "Homepage and /about read in full. Neither states a founding year. Copyright line shows 2012-2026 only."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Experteer",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.experteer.fr/about/imprint"
+   ]
+  },
+  {
+   "name": "Experteer",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.experteer.fr/about-us/en/company/",
+    "https://www.experteer.fr/about/imprint"
+   ]
+  },
+  {
+   "name": "Experteer",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.experteer.fr/about/imprint",
+    "https://www.experteer.fr/about-us/en/company/",
+    "https://www.experteer.fr/recruiting"
+   ]
+  },
+  {
+   "name": "Experteer",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.experteer.fr/about/imprint"
+   ]
+  },
+  {
+   "name": "Experteer",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.experteer.fr/about-us/en/company/",
+    "https://www.experteer.fr/headhunter",
+    "https://www.experteer.fr/recruiting"
+   ]
+  },
+  {
+   "name": "PcD.com.br",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.pcd.com.br/contato",
+    "https://www.pcd.com.br/planos"
+   ]
+  },
+  {
+   "name": "PcD.com.br",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.pcd.com.br/planos"
+   ]
+  },
+  {
+   "name": "PcD.com.br",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.pcd.com.br/planos"
+   ]
+  },
+  {
+   "name": "Niche Jobs",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.nichejobs.co.uk/about-niche-jobs/"
+   ]
+  },
+  {
+   "name": "Niche Jobs",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.nichejobs.co.uk/about-niche-jobs/"
+   ]
+  },
+  {
+   "name": "Codility",
+   "field": "api_status",
+   "outcome": "found",
+   "pages": [
+    "https://www.codility.com/integrations/"
+   ]
+  },
+  {
+   "name": "Workable",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.workable.com/",
+    "https://www.workable.com/about"
+   ]
+  }
+ ],
+ "blocked": []
+}

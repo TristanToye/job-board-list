@@ -1,10 +1,11 @@
 # API on request
 
-Issues API keys or feeds after a request form or review. 7 entries in the directory.
+Issues API keys or feeds after a request form or review. 8 entries in the directory.
 
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
 - [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, API key on request
 - [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, API key on request
+- [Codility](https://jobboardlist.com/boards/codility/): hr-tech, API key on request
 - [Jobijoba](https://jobboardlist.com/boards/jobijoba/): aggregator, API key on request
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request

@@ -9556,7 +9556,7 @@
    "niche": "government",
    "segment": "",
    "parent": "Governmentjobs.com, Inc. (DBA NEOGOV)",
-   "business_model": "",
+   "business_model": "per post and annual subscription: single job post $199 for up to 60 days, five-post bundle $629, unlimited annual subscription priced by agency size",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -9565,7 +9565,7 @@
    "notes": "",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/governmentjobs-com/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -9578,16 +9578,18 @@
     "government-operated",
     "government-service",
     "job-board",
-    "public-sector"
+    "pay-per-post",
+    "public-sector",
+    "subscription"
    ],
    "connections": [],
    "review": {
     "board_id": "governmentjobs-com",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "founded",
-    "note": "Company Info gives headquarters in El Segundo, CA, United States and owner Governmentjobs.com, Inc. (DBA NEOGOV). Page says the company began developing applications in 1998, which is not a stated founding year.",
-    "method": "fetch"
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "/employers returned 404 (the browser reader flagged it blocked because of the status, but the page was a 404, not a challenge). Pricing verified from the Advertise page on employer.governmentjobs.com, which the homepage links to.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -9614,6 +9616,14 @@
      "title": "Company Info",
      "accessed": "2026-11-06",
      "quote": "This website is owned and operated by Governmentjobs.com, Inc. (DBA \"NEOGOV\").",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://employer.governmentjobs.com/",
+     "title": "GovernmentJobs Employer Portal",
+     "accessed": "2026-11-06",
+     "quote": "SINGLE JOB POST $199 for up to 60 days",
      "quote_check": "ok"
     }
    ]
@@ -9886,7 +9896,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "niche-jobs",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Launch year 2008 stated on About page. No headquarters location stated. Only the About page was read.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9896,6 +9913,14 @@
      "title": "Niche Jobs homepage",
      "accessed": "2026-11-05",
      "quote": "Since 2008 we’ve designed, developed and hosted our own proprietary job board platform for our four healthcare and social",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.nichejobs.co.uk/about-niche-jobs/",
+     "title": "About Niche Jobs",
+     "accessed": "2026-11-06",
+     "quote": "We are a mature jobs board brand, launched in 2008",
      "quote_check": "ok"
     }
    ]
@@ -10432,8 +10457,8 @@
     "board_id": "national-career-service",
     "reviewed": "2026-11-06",
     "outcome": "not-stated",
-    "fields_not_found": "founded",
-    "note": "About pages read. They name the Ministry of Labour & Employment as the initiative owner but give no launch or founding year.",
+    "fields_not_found": "partner_program",
+    "note": "Employer login and jobseeker list pages read. Placement organisation registration is described, but no partner programme or empanelment arrangement for employers is stated, so partner_program is left unknown. A fraud warning on the page men",
     "method": "fetch"
    },
    "owners": [],
@@ -11570,7 +11595,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "experteer",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent",
+    "note": "Imprint names Experteer GmbH with seat in Munich, Germany. Company page gives founding year 2005. Site names no owner company. Languages: only French site text shown, supported languages not stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -11580,6 +11612,38 @@
      "title": "Experteer homepage",
      "accessed": "2026-11-05",
      "quote": "Opportunités de carrière pour Managers et Dirigeants en France et en Europe.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.experteer.fr/about/imprint",
+     "title": "Mentions légales - Experteer",
+     "accessed": "2026-11-06",
+     "quote": "Experteer GmbH Lenbachplatz 3 80333 München Allemagne",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.experteer.fr/about-us/en/company/",
+     "title": "About Experteer",
+     "accessed": "2026-11-06",
+     "quote": "Experteer was founded in 2005",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.experteer.fr/about/imprint",
+     "title": "Mentions légales - Experteer",
+     "accessed": "2026-11-06",
+     "quote": "Avec votre consentement, nous utilisons des cookies et des technologies similaires",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.experteer.fr/about-us/en/company/",
+     "title": "About Experteer",
+     "accessed": "2026-11-06",
+     "quote": "Our unique freemium business model monetizes both professionals and recruiters.",
      "quote_check": "ok"
     }
    ]
@@ -13174,7 +13238,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "pcd-com-br",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Founding year 2006 on planos page. Plans use custom proposals and show no prices. No address on contact page.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -13184,6 +13255,22 @@
      "title": "PcD.com.br homepage",
      "accessed": "2026-11-05",
      "quote": "Site de vagas e empregos para PcD no Brasil, com apoio à contratação inclusiva e à Lei de Cotas.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.pcd.com.br/planos",
+     "title": "Planos - PCD Online",
+     "accessed": "2026-11-06",
+     "quote": "Desde 2006 · 20 anos apoiando o compliance da Lei de Cotas (Lei 8.213/91)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.pcd.com.br/planos",
+     "title": "Planos - PCD Online",
+     "accessed": "2026-11-06",
+     "quote": "Escolha o plano conforme o volume de contratações da sua empresa.",
      "quote_check": "ok"
     }
    ]
@@ -13229,7 +13316,14 @@
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "programathor",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;business_model;partner_program",
+    "note": "Partners page lists partner companies but does not describe a partner program. Recruiter page shows only a free trial of 5 jobs for 30 days with no contract, and no paid model. About, contact, and homepage do not state a city, founding year",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -13310,13 +13404,15 @@
    "countries_served": [
     "IT"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "free",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -13335,6 +13431,7 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "free-to-post",
     "general",
     "job-aggregator"
    ],
@@ -13343,8 +13440,8 @@
     "board_id": "jobtoday",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "founded;parent",
-    "note": "HQ (New York, US) was found on the Contacts page. Languages (English, Español) come from the language menu. Business model is free posting with a paid subscription to contact candidates; no prices shown. The About page says we launched but ",
+    "fields_not_found": "hq_country",
+    "note": "Business model and English language verified from the hire page. The contacts page gives only a US office address for JobToday USA Inc. and the footer names JobToday S.A.; neither states the headquarters country, so hq_country was not recor",
     "method": "mixed"
    },
    "owners": [],
@@ -13356,6 +13453,22 @@
      "title": "Jobtoday Italia homepage",
      "accessed": "2026-11-05",
      "quote": "Trova lavoro in Italia oggi stesso.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://jobtoday.com/us/landings/hire",
+     "title": "Hiring staff in the US",
+     "accessed": "2026-11-06",
+     "quote": "Advertise your job for free.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://jobtoday.com/us/landings/hire",
+     "title": "Hiring staff in the US",
+     "accessed": "2026-11-06",
+     "quote": "Hire staff in a few taps",
      "quote_check": "ok"
     }
    ]
@@ -13495,13 +13608,16 @@
    "domains": "",
    "type": "niche-board",
    "hq_country": "IT",
-   "founded": "",
+   "founded": "1994",
    "markets": "",
    "countries_served": [
     "IT"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "it",
+   "languages_supported": [
+    "it",
+    "en"
+   ],
    "region": "Europe",
    "niche": "graduates",
    "segment": "",
@@ -13515,7 +13631,7 @@
    "notes": "Site language switcher offers IT and EN. Page states AlmaLaurea srl is wholly controlled by the Consorzio AlmaLaurea. No pricing or API stated on the homepage.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/almalaurea/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -13534,7 +13650,7 @@
     "reviewed": "2026-11-06",
     "outcome": "verified",
     "fields_not_found": "",
-    "note": "Language switcher shows IT and EN. Primary Italian inferred from Italian page text, no explicit statement.",
+    "note": "Founding year from the English homepage via the fetch tool. The headless reader returned a bot-check block (Azure WAF) on the same page, so the quotes could not be checked against raw reader text; they come from the fetch output. primary_la",
     "method": "fetch"
    },
    "owners": [],
@@ -13586,6 +13702,22 @@
      "title": "Sistema e struttura",
      "accessed": "2026-11-06",
      "quote": "AlmaLaurea nasce nel 1994 con un chiaro obiettivo: valutare le performance di studio e gli sbocchi lavorativi dei laureati.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.almalaurea.it/en",
+     "title": "AlmaLaurea (English)",
+     "accessed": "2026-11-06",
+     "quote": "Since 1994 point of reference for students, universities and companies",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.almalaurea.it/en",
+     "title": "AlmaLaurea (English)",
+     "accessed": "2026-11-06",
+     "quote": "IT EN",
      "quote_check": "ok"
     }
    ]
@@ -16531,7 +16663,7 @@
    "url": "https://www.cake.me",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "TW",
    "founded": "2016",
    "markets": "",
    "countries_served": [
@@ -16558,7 +16690,7 @@
    "notes": "Homepage language menu lists English, Chinese (Traditional and Simplified), Vietnamese, Indonesian and Japanese. Employer plans are tiered subscriptions billed annually, listed as US$110.00/mo to US$165.00/mo plus Enterprise (contact sales). No API, partner program or headquarters statement found; employer partner page returned HTTP 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cake-cakeresume/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -16576,9 +16708,9 @@
     "board_id": "cake-cakeresume",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
-    "note": "Homepage language menu, employer pricing and job seeker pricing read; no headquarters, parent, API or partner statement found. /partners returned HTTP 404.",
-    "method": "fetch"
+    "fields_not_found": "parent",
+    "note": "hq_country (TW) and languages verified from cake.me/about. No owner company named on /about, /pricing/ats, the footer or help.cake.me, so parent not found.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -16605,6 +16737,22 @@
      "title": "Employer pricing",
      "accessed": "2026-11-06",
      "quote": "US$110.00/mo",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.cake.me/about",
+     "title": "About Us",
+     "accessed": "2026-11-06",
+     "quote": "Based in Taiwan, Cake has a vast talent pool of 10 million users",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.cake.me/about",
+     "title": "About Us (language menu)",
+     "accessed": "2026-11-06",
+     "quote": "English 中文（繁體） 中文（简体） Tiếng Việt Bahasa Indonesia 日本語",
      "quote_check": "ok"
     }
    ]
@@ -19174,10 +19322,10 @@
    "review": {
     "board_id": "randstad",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "languages",
-    "note": "Parent named in the footer trademark line. No language menu on the country selector or home page.",
-    "method": "fetch"
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Footer names Randstad N.V. as registered entity. The page names no separate owner above it, so parent is recorded as the registered entity. Fetch summary included formatting directions, which were ignored.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -19212,6 +19360,14 @@
      "title": "Randstad home page footer",
      "accessed": "2026-11-06",
      "quote": "is a registered trademark of © Randstad N.V.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.randstad.com/about-randstad/",
+     "title": "About randstad (footer)",
+     "accessed": "2026-11-06",
+     "quote": "RANDSTAD, is a registered trademark of © Randstad N.V.",
      "quote_check": "ok"
     }
    ]
@@ -19401,9 +19557,9 @@
     "board_id": "robert-half",
     "reviewed": "2026-11-06",
     "outcome": "not-stated",
-    "fields_not_found": "languages",
-    "note": "Raw text of the locations, homepage and hire-talent partner pages has no language or country selector. The fetch tool summary listed a footer selector that does not appear in raw text, so no quote recorded.",
-    "method": "mixed"
+    "fields_not_found": "hq_country;founded",
+    "note": "Press room and leadership pages read; neither states headquarters location or founding year. Locations page was linked but not read (fetch budget used on the try pages).",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -19978,10 +20134,10 @@
    "review": {
     "board_id": "korn-ferry",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage and /about-us state no headquarters, parent, language options or employer pricing; the only partnership text is an Olympics sponsorship.",
-    "method": "fetch"
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Founding year 1969 stated on Our Story page. Contact, leadership, and global offices pages do not name a headquarters country. Contact page needed the headless reader.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -22016,7 +22172,7 @@
    "segment": "",
    "parent": "",
    "business_model": "subscription",
-   "api_status": "unknown",
+   "api_status": "on-request",
    "api_docs_url": "",
    "partner_program": "yes",
    "partner_url": "https://www.codility.com/partners/",
@@ -22034,6 +22190,7 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "api-on-request",
     "hr-tech",
     "partner-program",
     "subscription",
@@ -22043,9 +22200,9 @@
    "review": {
     "board_id": "codility",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent",
-    "note": "Founding year 2009 and a partner program at /partners/ found. About page and homepage state no headquarters country or owner.",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Integrations page states API is on the top plan and points to a Talk to us contact. No developer docs link found.",
     "method": "mixed"
    },
    "owners": [],
@@ -22081,6 +22238,14 @@
      "title": "Codility Partners: Resell and Integrate Skills Assessment",
      "accessed": "2026-11-06",
      "quote": "Five ways to partner with Codility",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.codility.com/integrations/",
+     "title": "Integrations - Codility",
+     "accessed": "2026-11-06",
+     "quote": "Full API access is included on our top plan.",
      "quote_check": "ok"
     }
    ]
@@ -24439,10 +24604,10 @@
    "review": {
     "board_id": "workable",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Founding year from homepage text and structured data; pricing page gives subscription plans and a 15-day trial. Parent not stated and not requested.",
-    "method": "fetch"
+    "outcome": "not-stated",
+    "fields_not_found": "founded",
+    "note": "Homepage and /about read in full. Neither states a founding year. Copyright line shows 2012-2026 only.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -24970,10 +25135,10 @@
    "review": {
     "board_id": "workday",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Founding year from Our Story timeline; languages from the region chooser link list.",
-    "method": "fetch"
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model",
+    "note": "Language menu read from the region chooser page, with the raw text from the headless reader. Subscriptions page covers marketing email preferences only, and the developer page shows no pricing. No employer pricing found.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -25541,10 +25706,10 @@
    "review": {
     "board_id": "breezy",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "founded",
-    "note": "Business model verified from the pricing page: paid subscription plans, annual billing option, Breezy Intelligence add-on at $30 per 100,000 credits. No per-post or free posting option was stated. About page and home page do not state a fou",
-    "method": "fetch"
+    "outcome": "blocked",
+    "fields_not_found": "parent",
+    "note": "breezy.hr returned a CloudFront 403 challenge to the browser reader, so the entry is recorded as blocked. Lead only, not a sourced fact: ltgplc.com/trust-center (off-domain) lists Breezy HR among Learning Technologies Group entities, which ",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -27851,9 +28016,9 @@
     "board_id": "clearancejobs",
     "reviewed": "2026-11-06",
     "outcome": "not-stated",
-    "fields_not_found": "founded;business_model",
-    "note": "No founding year stated. The home page says 'Since 2002, over 1.9 million cleared candidates have joined', which describes candidate sign-ups, not the founding, so it was not recorded as founded. Recruitment solution and request-demo pages ",
-    "method": "mixed"
+    "fields_not_found": "hq_country",
+    "note": "Homepage footer says ClearanceJobs is a DHI service. The DHI site (dhigroupinc.com, off the entry's domain) does not state a headquarters city or country, and it is not usable as a source anyway.",
+    "method": "fetch"
    },
    "owners": [
     {

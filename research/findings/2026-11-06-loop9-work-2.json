@@ -1,47 +1,178 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 9,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 9,
+ "boards": [
+  {
+   "name": "Jobtoday",
+   "url": "https://www.jobtoday.com/it",
+   "business_model": "free",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "sources": [
     {
-      "name": "Jobtoday",
-      "url": "https://www.jobtoday.com/it",
-      "business_model": "free",
-      "primary_language": "en",
-      "languages_supported": ["en"],
-      "sources": [
-        {"field": "business_model", "url": "https://jobtoday.com/us/landings/hire", "title": "Hiring staff in the US", "quote": "Advertise your job for free."},
-        {"field": "business_model", "url": "https://jobtoday.com/us/landings/hire", "title": "Hiring staff in the US", "quote": "$0/ job post"},
-        {"field": "languages", "url": "https://jobtoday.com/us/landings/hire", "title": "Hiring staff in the US", "quote": "Hire staff in a few taps"}
-      ]
+     "field": "business_model",
+     "url": "https://jobtoday.com/us/landings/hire",
+     "title": "Hiring staff in the US",
+     "quote": "Advertise your job for free.",
+     "check": "ok"
     },
     {
-      "name": "AlmaLaurea",
-      "url": "https://www.almalaurea.it/",
-      "founded": "1994",
-      "primary_language": "it",
-      "languages_supported": ["it", "en"],
-      "sources": [
-        {"field": "founded", "url": "https://www.almalaurea.it/en", "title": "AlmaLaurea (English)", "quote": "Since 1994 point of reference for students, universities and companies"},
-        {"field": "languages", "url": "https://www.almalaurea.it/en", "title": "AlmaLaurea (English)", "quote": "IT EN"}
-      ]
+     "field": "business_model",
+     "url": "https://jobtoday.com/us/landings/hire",
+     "title": "Hiring staff in the US",
+     "quote": "$0/ job post",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://jobtoday.com/us/landings/hire",
+     "title": "Hiring staff in the US",
+     "quote": "Hire staff in a few taps",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Jobtoday", "url": "https://www.jobtoday.com/it", "outcome": "partially-verified", "fields_not_found": ["hq_country"], "method": "mixed", "note": "Business model and English language verified from the hire page. The contacts page gives only a US office address for JobToday USA Inc. and the footer names JobToday S.A.; neither states the headquarters country, so hq_country was not recorded. Language menu on the hire page shows flags only; Spanish locales were seen as links but no quotable text was found, so languages_supported lists en only."},
-    {"name": "AlmaLaurea", "url": "https://www.almalaurea.it/", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Founding year from the English homepage via the fetch tool. The headless reader returned a bot-check block (Azure WAF) on the same page, so the quotes could not be checked against raw reader text; they come from the fetch output. primary_language it is inferred from the Italian default site with /en as the English version."},
-    {"name": "Robert Half", "url": "https://www.roberthalf.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "founded"], "method": "fetch", "note": "Press room and leadership pages read; neither states headquarters location or founding year. Locations page was linked but not read (fetch budget used on the try pages)."},
-    {"name": "National Career Service", "url": "https://www.ncs.gov.in", "outcome": "not-stated", "fields_not_found": ["partner_program"], "method": "fetch", "note": "Employer login and jobseeker list pages read. Placement organisation registration is described, but no partner programme or empanelment arrangement for employers is stated, so partner_program is left unknown. A fraud warning on the page mentions unverified claims of NCS association, which was not treated as a partner programme."}
-  ],
-  "attempts": [
-    {"name": "Jobtoday", "field": "hq_country", "outcome": "not-found", "pages": ["https://jobtoday.us/about-us/contacts", "https://jobtoday.com/us/landings/hire"]},
-    {"name": "Jobtoday", "field": "languages", "outcome": "found", "pages": ["https://jobtoday.com/us/landings/hire", "https://jobtoday.us/about-us/contacts"]},
-    {"name": "Jobtoday", "field": "business_model", "outcome": "found", "pages": ["https://jobtoday.com/us/landings/hire"]},
-    {"name": "AlmaLaurea", "field": "founded", "outcome": "found", "pages": ["https://www.almalaurea.it/en"]},
-    {"name": "AlmaLaurea", "field": "languages", "outcome": "found", "pages": ["https://www.almalaurea.it/en"]},
-    {"name": "Robert Half", "field": "hq_country", "outcome": "not-found", "pages": ["https://press.roberthalf.com/", "https://www.roberthalf.com/us/en/about/leadership"]},
-    {"name": "Robert Half", "field": "founded", "outcome": "not-found", "pages": ["https://press.roberthalf.com/", "https://www.roberthalf.com/us/en/about/leadership"]},
-    {"name": "National Career Service", "field": "partner_program", "outcome": "not-found", "pages": ["https://www.ncs.gov.in/login/employer", "https://www.ncs.gov.in/jobseeker-list"]}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "founded": "1994",
+   "primary_language": "it",
+   "languages_supported": [
+    "it",
+    "en"
+   ],
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.almalaurea.it/en",
+     "title": "AlmaLaurea (English)",
+     "quote": "Since 1994 point of reference for students, universities and companies",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.almalaurea.it/en",
+     "title": "AlmaLaurea (English)",
+     "quote": "IT EN",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Jobtoday",
+   "url": "https://www.jobtoday.com/it",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country"
+   ],
+   "method": "mixed",
+   "note": "Business model and English language verified from the hire page. The contacts page gives only a US office address for JobToday USA Inc. and the footer names JobToday S.A.; neither states the headquarters country, so hq_country was not recorded. Language menu on the hire page shows flags only; Spanish locales were seen as links but no quotable text was found, so languages_supported lists en only."
+  },
+  {
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Founding year from the English homepage via the fetch tool. The headless reader returned a bot-check block (Azure WAF) on the same page, so the quotes could not be checked against raw reader text; they come from the fetch output. primary_language it is inferred from the Italian default site with /en as the English version."
+  },
+  {
+   "name": "Robert Half",
+   "url": "https://www.roberthalf.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "Press room and leadership pages read; neither states headquarters location or founding year. Locations page was linked but not read (fetch budget used on the try pages)."
+  },
+  {
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Employer login and jobseeker list pages read. Placement organisation registration is described, but no partner programme or empanelment arrangement for employers is stated, so partner_program is left unknown. A fraud warning on the page mentions unverified claims of NCS association, which was not treated as a partner programme."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Jobtoday",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://jobtoday.us/about-us/contacts",
+    "https://jobtoday.com/us/landings/hire"
+   ]
+  },
+  {
+   "name": "Jobtoday",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://jobtoday.com/us/landings/hire",
+    "https://jobtoday.us/about-us/contacts"
+   ]
+  },
+  {
+   "name": "Jobtoday",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://jobtoday.com/us/landings/hire"
+   ]
+  },
+  {
+   "name": "AlmaLaurea",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.almalaurea.it/en"
+   ]
+  },
+  {
+   "name": "AlmaLaurea",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.almalaurea.it/en"
+   ]
+  },
+  {
+   "name": "Robert Half",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://press.roberthalf.com/",
+    "https://www.roberthalf.com/us/en/about/leadership"
+   ]
+  },
+  {
+   "name": "Robert Half",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://press.roberthalf.com/",
+    "https://www.roberthalf.com/us/en/about/leadership"
+   ]
+  },
+  {
+   "name": "National Career Service",
+   "field": "partner_program",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.ncs.gov.in/login/employer",
+    "https://www.ncs.gov.in/jobseeker-list"
+   ]
+  }
+ ],
+ "blocked": []
 }

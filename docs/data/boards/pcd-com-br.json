@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "pcd-com-br",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country",
+  "note": "Founding year 2006 on planos page. Plans use custom proposals and show no prices. No address on contact page.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,22 @@
    "title": "PcD.com.br homepage",
    "accessed": "2026-11-05",
    "quote": "Site de vagas e empregos para PcD no Brasil, com apoio à contratação inclusiva e à Lei de Cotas.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.pcd.com.br/planos",
+   "title": "Planos - PCD Online",
+   "accessed": "2026-11-06",
+   "quote": "Desde 2006 · 20 anos apoiando o compliance da Lei de Cotas (Lei 8.213/91)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.pcd.com.br/planos",
+   "title": "Planos - PCD Online",
+   "accessed": "2026-11-06",
+   "quote": "Escolha o plano conforme o volume de contratações da sua empresa.",
    "quote_check": "ok"
   }
  ]

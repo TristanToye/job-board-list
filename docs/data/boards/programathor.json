@@ -39,7 +39,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "programathor",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;founded;business_model;partner_program",
+  "note": "Partners page lists partner companies but does not describe a partner program. Recruiter page shows only a free trial of 5 jobs for 30 days with no contract, and no paid model. About, contact, and homepage do not state a city, founding year",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

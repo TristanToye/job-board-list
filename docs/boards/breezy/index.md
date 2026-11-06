@@ -11,7 +11,7 @@ Breezy HR is an applicant tracking system based in United States, focused on app
 - Partner program: yes
 - Prominence: #11,990 globally, tier Established
 - Tags: Self-serve API, Applicant tracking system, Partner program, Public job feed, Small business, Subscription
-- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: founding year.
+- Review: Reviewed 2026-11-06. Could not verify: the site blocks automated access, so these facts remain as recorded. breezy.hr returned a CloudFront 403 challenge to the browser reader, so the entry is recorded as blocked. Lead only, not a sourced fact: ltgplc.com/trust-center (off-domain) lists Breezy HR among Learning Technologies Group entities, which 
 - Data status: partly verified against its own site
 
 ## Quick answers

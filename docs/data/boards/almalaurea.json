@@ -5,13 +5,16 @@
  "domains": "",
  "type": "niche-board",
  "hq_country": "IT",
- "founded": "",
+ "founded": "1994",
  "markets": "",
  "countries_served": [
   "IT"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "it",
+ "languages_supported": [
+  "it",
+  "en"
+ ],
  "region": "Europe",
  "niche": "graduates",
  "segment": "",
@@ -25,7 +28,7 @@
  "notes": "Site language switcher offers IT and EN. Page states AlmaLaurea srl is wholly controlled by the Consorzio AlmaLaurea. No pricing or API stated on the homepage.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/almalaurea/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -44,7 +47,7 @@
   "reviewed": "2026-11-06",
   "outcome": "verified",
   "fields_not_found": "",
-  "note": "Language switcher shows IT and EN. Primary Italian inferred from Italian page text, no explicit statement.",
+  "note": "Founding year from the English homepage via the fetch tool. The headless reader returned a bot-check block (Azure WAF) on the same page, so the quotes could not be checked against raw reader text; they come from the fetch output. primary_la",
   "method": "fetch"
  },
  "owners": [],
@@ -96,6 +99,22 @@
    "title": "Sistema e struttura",
    "accessed": "2026-11-06",
    "quote": "AlmaLaurea nasce nel 1994 con un chiaro obiettivo: valutare le performance di studio e gli sbocchi lavorativi dei laureati.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.almalaurea.it/en",
+   "title": "AlmaLaurea (English)",
+   "accessed": "2026-11-06",
+   "quote": "Since 1994 point of reference for students, universities and companies",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.almalaurea.it/en",
+   "title": "AlmaLaurea (English)",
+   "accessed": "2026-11-06",
+   "quote": "IT EN",
    "quote_check": "ok"
   }
  ]

@@ -9,7 +9,7 @@ Software 27 entries in the directory.
 - [Resume Genius](https://jobboardlist.com/boards/resume-genius/): career-services
 - [Codeable](https://jobboardlist.com/boards/codeable/): freelance-platform
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
-- [Codility](https://jobboardlist.com/boards/codility/): hr-tech
+- [Codility](https://jobboardlist.com/boards/codility/): hr-tech, API key on request
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
 - [Kforce](https://jobboardlist.com/boards/kforce/): staffing
 - [Green](https://jobboardlist.com/boards/green/): niche-board

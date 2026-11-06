@@ -42,10 +42,10 @@
  "review": {
   "board_id": "randstad",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "languages",
-  "note": "Parent named in the footer trademark line. No language menu on the country selector or home page.",
-  "method": "fetch"
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Footer names Randstad N.V. as registered entity. The page names no separate owner above it, so parent is recorded as the registered entity. Fetch summary included formatting directions, which were ignored.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -80,6 +80,14 @@
    "title": "Randstad home page footer",
    "accessed": "2026-11-06",
    "quote": "is a registered trademark of © Randstad N.V.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.randstad.com/about-randstad/",
+   "title": "About randstad (footer)",
+   "accessed": "2026-11-06",
+   "quote": "RANDSTAD, is a registered trademark of © Randstad N.V.",
    "quote_check": "ok"
   }
  ]

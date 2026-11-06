@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "experteer",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent",
+  "note": "Imprint names Experteer GmbH with seat in Munich, Germany. Company page gives founding year 2005. Site names no owner company. Languages: only French site text shown, supported languages not stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,38 @@
    "title": "Experteer homepage",
    "accessed": "2026-11-05",
    "quote": "Opportunités de carrière pour Managers et Dirigeants en France et en Europe.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.experteer.fr/about/imprint",
+   "title": "Mentions légales - Experteer",
+   "accessed": "2026-11-06",
+   "quote": "Experteer GmbH Lenbachplatz 3 80333 München Allemagne",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.experteer.fr/about-us/en/company/",
+   "title": "About Experteer",
+   "accessed": "2026-11-06",
+   "quote": "Experteer was founded in 2005",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.experteer.fr/about/imprint",
+   "title": "Mentions légales - Experteer",
+   "accessed": "2026-11-06",
+   "quote": "Avec votre consentement, nous utilisons des cookies et des technologies similaires",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.experteer.fr/about-us/en/company/",
+   "title": "About Experteer",
+   "accessed": "2026-11-06",
+   "quote": "Our unique freemium business model monetizes both professionals and recruiters.",
    "quote_check": "ok"
   }
  ]

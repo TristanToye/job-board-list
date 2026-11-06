@@ -42,9 +42,9 @@
   "board_id": "robert-half",
   "reviewed": "2026-11-06",
   "outcome": "not-stated",
-  "fields_not_found": "languages",
-  "note": "Raw text of the locations, homepage and hire-talent partner pages has no language or country selector. The fetch tool summary listed a footer selector that does not appear in raw text, so no quote recorded.",
-  "method": "mixed"
+  "fields_not_found": "hq_country;founded",
+  "note": "Press room and leadership pages read; neither states headquarters location or founding year. Locations page was linked but not read (fetch budget used on the try pages).",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],

@@ -45,7 +45,7 @@
 - [Nomis](https://jobboardlist.com/boards/nomis/): lmi, Established tier, Open API (no key)
 - [Codeable](https://jobboardlist.com/boards/codeable/): freelance-platform, Established tier
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform, Established tier
-- [Codility](https://jobboardlist.com/boards/codility/): hr-tech, Established tier
+- [Codility](https://jobboardlist.com/boards/codility/): hr-tech, Established tier, API key on request
 - [Revelio Labs](https://jobboardlist.com/boards/revelio-labs/): lmi, Established tier
 - [Careerminds](https://jobboardlist.com/boards/careerminds/): outplacement, Established tier
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech, Established tier

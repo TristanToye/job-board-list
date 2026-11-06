@@ -9,7 +9,7 @@ Software for sourcing 14 entries in the directory.
 - [Beamery](https://jobboardlist.com/boards/beamery/): hr-tech
 - [Gem](https://jobboardlist.com/boards/gem/): hr-tech
 - [Harver](https://jobboardlist.com/boards/harver/): hr-tech
-- [Codility](https://jobboardlist.com/boards/codility/): hr-tech
+- [Codility](https://jobboardlist.com/boards/codility/): hr-tech, API key on request
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
 - [Criteria](https://jobboardlist.com/boards/criteria/): hr-tech
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech

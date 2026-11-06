@@ -42,10 +42,10 @@
  "review": {
   "board_id": "korn-ferry",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage and /about-us state no headquarters, parent, language options or employer pricing; the only partnership text is an Olympics sponsorship.",
-  "method": "fetch"
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country",
+  "note": "Founding year 1969 stated on Our Story page. Contact, leadership, and global offices pages do not name a headquarters country. Contact page needed the headless reader.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

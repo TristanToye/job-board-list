@@ -1,8 +1,9 @@
 # Pay per post
 
-Employers pay for each job posting. 17 entries in the directory.
+Employers pay for each job posting. 18 entries in the directory.
 
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
+- [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government
 - [Prospects](https://jobboardlist.com/boards/prospects/): niche-board
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [meinestadt.de](https://jobboardlist.com/boards/meinestadt-de/): board
