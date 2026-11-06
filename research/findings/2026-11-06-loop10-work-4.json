@@ -1,0 +1,69 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 10,
+  "boards": [
+    {
+      "name": "Workeer",
+      "url": "https://workeer.de/de",
+      "primary_language": "de",
+      "languages_supported": ["de", "en"],
+      "business_model": "subscription, monthly or annual, from 290 EUR per month for the Light package (excl. 19% VAT)",
+      "sources": [
+        {"field": "primary_language", "url": "https://workeer.de/de/ueber-uns", "title": "Über uns", "quote": "Die Jobplattform für internationale & geflüchtete Talente in Deutschland"},
+        {"field": "languages_supported", "url": "https://workeer.de/de/ueber-uns", "title": "Über uns", "quote": "Deutsch"},
+        {"field": "languages_supported", "url": "https://workeer.de/de/ueber-uns", "title": "Über uns", "quote": "Englisch"},
+        {"field": "business_model", "url": "https://workeer.de/de/preise", "title": "Preise", "quote": "290 € pro Monat / Jahresabo"},
+        {"field": "business_model", "url": "https://workeer.de/de/preise", "title": "Preise", "quote": "Alle Preisangaben exkl. 19% USt"}
+      ]
+    },
+    {
+      "name": "Wantedly",
+      "url": "https://www.wantedly.com/",
+      "business_model": "flat monthly fee with unlimited postings and no success fee",
+      "sources": [
+        {"field": "business_model", "url": "https://www.wantedly.com/about/list", "title": "Wantedly for business (about/list)", "quote": "成果報酬のかからない毎月定額の料金モデルを採用しています。"}
+      ]
+    },
+    {
+      "name": "ESL Cafe",
+      "url": "https://www.eslcafe.com/job-center",
+      "business_model": "paid sponsorship per 30 days (e.g. Sponsored Link $299/30 days, Leaderboard Banner $1500/30 days); job posting price not shown",
+      "sources": [
+        {"field": "business_model", "url": "https://www.eslcafe.com/advertisements", "title": "Banner & Sponsored Announcement Advertising", "quote": "Sponsored Link $299/30 days"},
+        {"field": "business_model", "url": "https://www.eslcafe.com/advertisements", "title": "Banner & Sponsored Announcement Advertising", "quote": "Leaderboard Banner $1500/30 days"}
+      ]
+    },
+    {
+      "name": "Recruitee",
+      "url": "https://recruitee.com",
+      "primary_language": "nl",
+      "languages_supported": ["nl", "de", "en", "fr"],
+      "sources": [
+        {"field": "primary_language", "url": "https://recruitee.com/nl/", "title": "Recruitee (NL home)", "quote": "Werf sneller, werk slimmer samen en neem betere beslissingen"},
+        {"field": "languages_supported", "url": "https://recruitee.com/nl/", "title": "Recruitee (NL home)", "quote": "NL DE EN FR"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Workeer", "url": "https://workeer.de/de", "outcome": "partially-verified", "fields_not_found": ["parent"], "method": "mixed", "note": "Languages and business model verified from the about and pricing pages. No parent or owner named on the about, press, pricing or imprint pages; the imprint names only the operator workeer gGmbH and its managing directors."},
+    {"name": "Wantedly", "url": "https://www.wantedly.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded"], "method": "browser", "note": "Business model verified from the company page. No headquarters or founding year stated on the pages read; the privacy policy gives no seat or founding year. Terms and company paths returned 404."},
+    {"name": "ESL Cafe", "url": "https://www.eslcafe.com/job-center", "outcome": "partially-verified", "fields_not_found": [], "method": "browser", "note": "Paid sponsorship prices verified from the advertisements page. Price for posting a job is not shown; the Post a Job link leads to a login or guest checkout page without prices."},
+    {"name": "Recruitee", "url": "https://recruitee.com", "outcome": "verified", "fields_not_found": [], "method": "browser", "note": "Language menu shows NL, DE, EN, FR on the Dutch home page; the Dutch text confirms the primary language."}
+  ],
+  "attempts": [
+    {"name": "Workeer", "field": "parent", "outcome": "not-found", "pages": ["https://workeer.de/de/ueber-uns", "https://workeer.de/de/presse", "https://workeer.de/de/impressum"]},
+    {"name": "Workeer", "field": "languages", "outcome": "found", "pages": ["https://workeer.de/de/ueber-uns"]},
+    {"name": "Workeer", "field": "business_model", "outcome": "found", "pages": ["https://workeer.de/de/preise"]},
+    {"name": "Wantedly", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.wantedly.com/about/list", "https://www.wantedly.com/", "https://service-terms.wantedly.com/privacy_policy/ja_JP", "https://www.wantedly.com/terms", "https://www.wantedly.com/company"]},
+    {"name": "Wantedly", "field": "founded", "outcome": "not-found", "pages": ["https://www.wantedly.com/about/list", "https://www.wantedly.com/", "https://service-terms.wantedly.com/privacy_policy/ja_JP", "https://www.wantedly.com/terms", "https://www.wantedly.com/company"]},
+    {"name": "Wantedly", "field": "business_model", "outcome": "found", "pages": ["https://www.wantedly.com/about/list"]},
+    {"name": "ESL Cafe", "field": "business_model", "outcome": "found", "pages": ["https://www.eslcafe.com/advertisements", "https://www.eslcafe.com/job-center", "https://www.eslcafe.com/checkout-login?refUrl=/post-a-job"]},
+    {"name": "Recruitee", "field": "languages", "outcome": "found", "pages": ["https://recruitee.com/nl/"]}
+  ],
+  "blocked": [
+    {"name": "ESL Cafe", "url": "https://www.eslcafe.com/contact", "note": "Browse reader returned blocked true for the contact page; not used for any fact."},
+    {"name": "Wantedly", "url": "https://www.wantedly.com/terms", "note": "Browse reader returned status 404 with blocked true; not used for any fact."},
+    {"name": "Wantedly", "url": "https://www.wantedly.com/company", "note": "Browse reader returned status 404 with blocked true; not used for any fact."}
+  ]
+}
