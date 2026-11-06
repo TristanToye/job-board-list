@@ -1,0 +1,77 @@
+{
+ "round": 10,
+ "orders": [
+  {
+   "id": "workeer",
+   "name": "Workeer",
+   "url": "https://workeer.de/de",
+   "fields": [
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "parent": "medium",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://workeer.de/de/ueber-uns",
+    "https://workeer.de/de/presse",
+    "https://workeer.de/de/preise"
+   ],
+   "reason": "Nav links to Über uns, Presse and Preise, and a Deutsch/Englisch language switcher, were seen. No Developers or API link appeared. Earlier attempts recorded languages and business_model as found, but "
+  },
+  {
+   "id": "wantedly",
+   "name": "Wantedly",
+   "url": "https://www.wantedly.com/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://www.wantedly.com/about/list",
+    "https://www.wantedly.com/external_links/contact_to_business_team"
+   ],
+   "reason": "Homepage links to about/list and an inquiry page. No Developers, API, Partners, Pricing or language link was seen. Earlier attempts recorded hq_country and business_model as found, but both are still "
+  },
+  {
+   "id": "esl-cafe",
+   "name": "ESL Cafe",
+   "url": "https://www.eslcafe.com/job-center",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.eslcafe.com/advertisements",
+    "https://www.eslcafe.com/contact"
+   ],
+   "reason": "Advertise link seen, pointing to the advertisements and job-center pages, which the review already read for prices. Contact and Terms links seen. No About, Pricing for employers, Developers or API lin"
+  },
+  {
+   "id": "recruitee",
+   "name": "Recruitee",
+   "url": "https://recruitee.com",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://recruitee.com/nl/"
+   ],
+   "reason": "Language menu seen with EN, DE, FR and NL, matching the review's findings. Founding year is not linked on this site."
+  }
+ ]
+}

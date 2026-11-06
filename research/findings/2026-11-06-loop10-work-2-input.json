@@ -1,0 +1,85 @@
+{
+ "round": 10,
+ "orders": [
+  {
+   "id": "eurostat",
+   "name": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat",
+   "fields": [
+    "founded",
+    "languages",
+    "api_status"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "languages": "high",
+    "api_status": "high"
+   },
+   "try_pages": [
+    "https://ec.europa.eu/eurostat/en/about-us/history",
+    "https://ec.europa.eu/eurostat/en/data/web-services",
+    "https://ec.europa.eu/eurostat/en/about-us"
+   ],
+   "reason": "Main menu links to About us, History and Web services, and the language switcher lists the EU languages. Eurostat is a public statistics body, so no business model applies."
+  },
+  {
+   "id": "unijobs",
+   "name": "Unijobs",
+   "url": "https://www.unijobs.it/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.unijobs.it/it/about",
+    "https://www.unijobs.it/en"
+   ],
+   "reason": "Homepage links to Chi siamo (/it/about) and an English switcher (/en). No Aziende, pricing or API link was seen. A linked blog post suggests an individual maintainer."
+  },
+  {
+   "id": "find-an-apprenticeship",
+   "name": "Find an Apprenticeship",
+   "url": "https://www.findapprenticeship.service.gov.uk",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [],
+   "reason": "Footer has only accessibility, cookies, privacy, terms and get-help links. No About, Developers, API or Partners link. No language option, including Welsh. Free government service, so no business mode"
+  },
+  {
+   "id": "randstad-digital",
+   "name": "Randstad Digital",
+   "url": "https://www.randstaddigital.com/",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [],
+   "reason": "Language menu seen with en, fr and de links. About and Partnerships links seen, already read by the review. No Developers, API or Press link. Business-to-business services, with no pricing link seen."
+  },
+  {
+   "id": "office-for-national-statistics",
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "fields": [
+    "api_status"
+   ],
+   "likelihood": {
+    "api_status": "medium"
+   },
+   "try_pages": [],
+   "reason": "Header and footer link About, What we do, Contact, News and Careers. No Developers, API, Open data or Partners link seen. A statistics office usually documents its data access somewhere, but not on th"
+  }
+ ]
+}

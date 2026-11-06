@@ -1,0 +1,155 @@
+{
+  "round": 10,
+  "orders": [
+    {
+      "id": "phenom",
+      "name": "Phenom",
+      "url": "https://www.phenom.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.phenom.com/about", "https://www.phenom.com/marketplace"],
+      "reason": "Homepage nav has About and Partners (marketplace) links, but no Developers, API, Pricing or language switcher links. Earlier checks found no founding year or parent.",
+      "flags": ["founded and parent: review_history lists them as not found, but neither is in missing; reconcile the record"]
+    },
+    {
+      "id": "government-e-employment-system",
+      "name": "Government E-Employment System",
+      "url": "https://eservices.mcs.gov.sa/Jadara3/(S(loocp4m5hffrcstzv5gtsuwp))/Users/Index.aspx",
+      "likelihood": {"hq_country": "none", "founded": "none", "parent": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "The host did not resolve from this session, so no page was read. Rated none for now; revisit once the host is allowed in the session network settings.",
+      "flags": ["Site unreachable from this session: eservices.mcs.gov.sa is not in the allowed network domains"]
+    },
+    {
+      "id": "media-job-search-canada",
+      "name": "Media Job Search Canada",
+      "url": "https://www.mediajobsearchcanada.com/",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage shows no About, Pricing, Employers, API or Partners links. Its footer and region menus point to other pages, and the content is not that of a job board.",
+      "flags": [
+        "Content does not look like a job board: footer brand MUSANG178, Indonesian region menu and Samsung product listings; primary_language en may be wrong",
+        "Operator not identifiable from the page, so hq_country and parent are unlikely to be findable here"
+      ]
+    },
+    {
+      "id": "occ-mundial",
+      "name": "OCC Mundial",
+      "url": "https://www.occ.com.mx",
+      "likelihood": {"founded": "none", "parent": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returns HTTP 403 to both the fetch tool and the headless reader. The block was not bypassed, so no pages were read.",
+      "flags": ["Site blocked (403) to both readers; facts cannot be checked from this session"]
+    },
+    {
+      "id": "wantedly",
+      "name": "Wantedly",
+      "url": "https://www.wantedly.com/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.wantedly.com/about/list", "https://www.wantedly.com/external_links/contact_to_business_team"],
+      "reason": "Homepage links to about/list and an inquiry page. No Developers, API, Partners, Pricing or language link was seen. Earlier attempts recorded hq_country and business_model as found, but both are still listed as missing.",
+      "flags": ["hq_country and business_model: earlier attempts recorded them as found, but both remain in missing; update the record or re-verify"]
+    },
+    {
+      "id": "talentegg",
+      "name": "TalentEgg",
+      "url": "https://talentegg.ca",
+      "likelihood": {"founded": "low", "parent": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Homepage is a single page with a contact email and a copyright line. No navigation, About, Pricing or API links were seen.",
+      "flags": ["Site appears to be a single contact page; most fields may stay unstated"]
+    },
+    {
+      "id": "taleo",
+      "name": "Oracle Taleo",
+      "url": "https://www.oracle.com/human-capital-management/taleo/",
+      "likelihood": {"founded": "low", "parent": "medium", "languages": "low", "business_model": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Oracle product page on oracle.com. It describes a certified partner ecosystem, but no direct Pricing, Developers or language links were read.",
+      "flags": ["parent is blank although the page is an Oracle product page on oracle.com; verify whether Oracle is the parent"]
+    },
+    {
+      "id": "workeer",
+      "name": "Workeer",
+      "url": "https://workeer.de/de",
+      "likelihood": {"parent": "medium", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://workeer.de/de/ueber-uns", "https://workeer.de/de/presse", "https://workeer.de/de/preise"],
+      "reason": "Nav links to Über uns, Presse and Preise, and a Deutsch/Englisch language switcher, were seen. No Developers or API link appeared. Earlier attempts recorded languages and business_model as found, but both are still listed as missing.",
+      "flags": [
+        "languages and business_model: earlier attempts recorded them as found, but both remain in missing; update the record",
+        "Prices came from a summarizing fetch; check the raw Preise page"
+      ]
+    },
+    {
+      "id": "eurostat",
+      "name": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat",
+      "likelihood": {"founded": "high", "languages": "high", "business_model": "none", "api_status": "high", "partner_program": "low"},
+      "try_pages": ["https://ec.europa.eu/eurostat/en/about-us/history", "https://ec.europa.eu/eurostat/en/data/web-services", "https://ec.europa.eu/eurostat/en/about-us"],
+      "reason": "Main menu links to About us, History and Web services, and the language switcher lists the EU languages. Eurostat is a public statistics body, so no business model applies.",
+      "flags": ["founded, languages and api_status: earlier attempts recorded them as found, but all three remain in missing; update the record"]
+    },
+    {
+      "id": "computrabajo",
+      "name": "Computrabajo",
+      "url": "https://www.computrabajo.com",
+      "likelihood": {"founded": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Homepage shows only a regional country switcher (Mexico, Colombia) and an Aviso legal link. No About, Developers, API or Partners link was seen.",
+      "flags": ["languages_supported lists pt, but the homepage read showed only Spanish regional selectors; verify pt"]
+    },
+    {
+      "id": "careerbeacon",
+      "name": "CareerBeacon",
+      "url": "https://www.careerbeacon.com",
+      "likelihood": {"founded": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Site serves a Cloudflare bot challenge (403) to both readers. The challenge was not bypassed, so no pages were read.",
+      "flags": ["Site blocked by a bot challenge; retry only if it becomes readable without bypassing it"]
+    },
+    {
+      "id": "tecnoempleo",
+      "name": "Tecnoempleo",
+      "url": "https://www.tecnoempleo.com/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "high", "api_status": "high", "partner_program": "high"},
+      "try_pages": ["https://www.tecnoempleo.com/api-integraciones.php", "https://www.tecnoempleo.com/servicios-tecnoempleo.php"],
+      "reason": "Footer links to Acerca de tecnoempleo.com and to 'API, integraciones y partners' (api-integraciones.php). The language switcher offers Español and English.",
+      "flags": ["Earlier API check used a guessed URL that returned 404; the linked page is api-integraciones.php, which has not been read yet"]
+    },
+    {
+      "id": "lever",
+      "name": "Lever",
+      "url": "https://www.lever.co",
+      "likelihood": {"languages": "low"},
+      "try_pages": [],
+      "reason": "Homepage nav and footer show Pricing, Partners and About links. No language switcher was seen.",
+      "flags": []
+    },
+    {
+      "id": "bamboohr",
+      "name": "BambooHR",
+      "url": "https://www.bamboohr.com",
+      "likelihood": {"languages": "low"},
+      "try_pages": [],
+      "reason": "Homepage links to Integrations and Pricing only. No language switcher or Developers link appeared in the read.",
+      "flags": ["parent is blank and not listed as missing, though review found no owner stated; confirm the blank is intended"]
+    },
+    {
+      "id": "trovolavoro",
+      "name": "Trovolavoro",
+      "url": "https://trovolavoro.com/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://trovolavoro.com/chi-siamo/", "https://trovolavoro.com/aziende/", "https://trovolavoro.com/condizioni-generali/"],
+      "reason": "Homepage links to Chi siamo (About) and Aziende (employers) pages, and to general conditions. No Pricing, API or language menu was seen.",
+      "flags": ["Footer reads 'Powered by Arca24'; the operator may be Arca24 rather than this entry, so parent may differ"]
+    },
+    {
+      "id": "unijobs",
+      "name": "Unijobs",
+      "url": "https://www.unijobs.it/",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.unijobs.it/it/about", "https://www.unijobs.it/en"],
+      "reason": "Homepage links to Chi siamo (/it/about) and an English switcher (/en). No Aziende, pricing or API link was seen. A linked blog post suggests an individual maintainer.",
+      "flags": ["A linked blog suggests an individual maintainer rather than a company, so company fields may stay unstated"]
+    }
+  ]
+}

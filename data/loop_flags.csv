@@ -201,3 +201,30 @@ round,board_id,flag
 9,jobtoday,"Review found HQ, languages and business model, but the record has none of them. Add them after checking."
 9,jobtoday,"Record url is jobtoday.com/it, while the About and Contacts pages are on jobtoday.us."
 9,jobtoday,"Review says languages are English and Espanol. The homepage dropdown lists English (US), English (UK), Espanol, Francais and Italiano, so the review may be incomplete."
+10,lavoro-gov-it-ministry-of-labour,"hq_country is in the missing list, but the review found it from the homepage; check the record."
+10,z-gis-geoinformatik-stellenb-rse,The entry URL returns HTTP 404; the board may have moved or closed.
+10,z-gis-geoinformatik-stellenb-rse,"No parent is recorded. The domain is a university domain, but the owner was not checked because the page did not load."
+10,right-management,"languages is in the missing list, but the site shows English only and the review already found it; check the record."
+10,esl-cafe,"business_model is in the missing list, but the advertising price table was found in the review; check the record."
+10,randstad-digital,"languages is in the missing list, but the language menu (en, fr, de) was seen; check the record."
+10,hotelcareer,"languages is in the missing list, but the language menu was seen and the record already lists de, en and fr; check the record."
+10,recruitee,"languages is in the missing list, but the language menu and the review both show en, de, fr and nl; check the record."
+10,jobvite,"languages is in the missing list; the site shows English only, so check whether the record should be en."
+10,cerco-trovo,"The site is a general classifieds portal with about 12,800 listings across many categories, not only jobs. The record type 'board' should be checked."
+10,phenom,"founded and parent: review_history lists them as not found, but neither is in missing; reconcile the record"
+10,government-e-employment-system,Site unreachable from this session: eservices.mcs.gov.sa is not in the allowed network domains
+10,media-job-search-canada,"Content does not look like a job board: footer brand MUSANG178, Indonesian region menu and Samsung product listings; primary_language en may be wrong"
+10,media-job-search-canada,"Operator not identifiable from the page, so hq_country and parent are unlikely to be findable here"
+10,occ-mundial,Site blocked (403) to both readers; facts cannot be checked from this session
+10,wantedly,"hq_country and business_model: earlier attempts recorded them as found, but both remain in missing; update the record or re-verify"
+10,talentegg,Site appears to be a single contact page; most fields may stay unstated
+10,taleo,parent is blank although the page is an Oracle product page on oracle.com; verify whether Oracle is the parent
+10,workeer,"languages and business_model: earlier attempts recorded them as found, but both remain in missing; update the record"
+10,workeer,Prices came from a summarizing fetch; check the raw Preise page
+10,eurostat,"founded, languages and api_status: earlier attempts recorded them as found, but all three remain in missing; update the record"
+10,computrabajo,"languages_supported lists pt, but the homepage read showed only Spanish regional selectors; verify pt"
+10,careerbeacon,Site blocked by a bot challenge; retry only if it becomes readable without bypassing it
+10,tecnoempleo,"Earlier API check used a guessed URL that returned 404; the linked page is api-integraciones.php, which has not been read yet"
+10,bamboohr,"parent is blank and not listed as missing, though review found no owner stated; confirm the blank is intended"
+10,trovolavoro,"Footer reads 'Powered by Arca24'; the operator may be Arca24 rather than this entry, so parent may differ"
+10,unijobs,"A linked blog suggests an individual maintainer rather than a company, so company fields may stay unstated"

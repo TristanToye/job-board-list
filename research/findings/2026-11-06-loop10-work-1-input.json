@@ -1,0 +1,97 @@
+{
+ "round": 10,
+ "orders": [
+  {
+   "id": "tecnoempleo",
+   "name": "Tecnoempleo",
+   "url": "https://www.tecnoempleo.com/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium",
+    "languages": "high",
+    "api_status": "high",
+    "partner_program": "high"
+   },
+   "try_pages": [
+    "https://www.tecnoempleo.com/api-integraciones.php",
+    "https://www.tecnoempleo.com/servicios-tecnoempleo.php"
+   ],
+   "reason": "Footer links to Acerca de tecnoempleo.com and to 'API, integraciones y partners' (api-integraciones.php). The language switcher offers Español and English."
+  },
+  {
+   "id": "trovolavoro",
+   "name": "Trovolavoro",
+   "url": "https://trovolavoro.com/",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "medium",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://trovolavoro.com/chi-siamo/",
+    "https://trovolavoro.com/aziende/",
+    "https://trovolavoro.com/condizioni-generali/"
+   ],
+   "reason": "Homepage links to Chi siamo (About) and Aziende (employers) pages, and to general conditions. No Pricing, API or language menu was seen."
+  },
+  {
+   "id": "lavoro-gov-it-ministry-of-labour",
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.lavoro.gov.it/stampa-e-media/Pagine/default"
+   ],
+   "reason": "Homepage is entirely Italian with no language menu. No Developers, API or Partners page linked; the Nostra rete section links to partner bodies. Ministry page already read without a seat. Government s"
+  },
+  {
+   "id": "sistema-nacional-de-emprego-sine",
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego"
+   ],
+   "reason": "Only Portuguese (pt-br) pages, with no language menu. Ministry page links to the responsible body. Open data page exists but no API or developer page was linked. Only a legal date is shown, not a foun"
+  },
+  {
+   "id": "jobvite",
+   "name": "Jobvite",
+   "url": "https://www.jobvite.com",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [],
+   "reason": "No language menu on the page, and the content is in English only. Pricing, Partners, Marketplace and Company links seen; no Developers or API link."
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "round": 10,
+ "orders": [
+  {
+   "id": "cerco-trovo",
+   "name": "Cerco&Trovo",
+   "url": "https://www.cercoetrovo.it/",
+   "fields": [
+    "hq_country",
+    "languages",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "languages": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://cercoetrovo.it/dove-siamo",
+    "https://cercoetrovo.it/pubblicita"
+   ],
+   "reason": "Contatti page (Sede e Contatti) seen, which usually states the seat. Pubblicita page (Per la tua pubblicita) seen for paid placement. Site is Italian only with no language menu. No About, Partner or A"
+  },
+  {
+   "id": "hotelcareer",
+   "name": "Hotelcareer",
+   "url": "https://www.hotelcareer.de",
+   "fields": [
+    "hq_country",
+    "languages"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.hotelcareer.de/impressum"
+   ],
+   "reason": "Language menu seen (Deutsch, Englisch, Französisch). Impressum link seen, which usually names the legal operator and seat, but its content was not read. Footer copyright and StepStone links seen. No D"
+  },
+  {
+   "id": "right-management",
+   "name": "Right Management",
+   "url": "https://www.right.com",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.right.com/en/your-outplacement",
+    "https://www.right.com/en/our-expertise"
+   ],
+   "reason": "Language menu shows only Global (English). Navigation links to Solutions, Your Outplacement, Insights and Contact, but no Developers, API or Partners page. Outplacement is sold to employers, with no p"
+  },
+  {
+   "id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.comunidad.madrid/sitemap"
+   ],
+   "reason": "All text is Spanish with no language selector. Footer and menu links to Datos abiertos, Institucion and Aviso legal seen, already read. Sitemap linked from the footer may list job-related pages. Publi"
+  },
+  {
+   "id": "taleo",
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "fields": [
+    "parent"
+   ],
+   "likelihood": {
+    "parent": "medium"
+   },
+   "try_pages": [],
+   "reason": "Oracle product page on oracle.com. It describes a certified partner ecosystem, but no direct Pricing, Developers or language links were read."
+  }
+ ]
+}
