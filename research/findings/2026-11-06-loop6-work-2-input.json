@@ -1,0 +1,94 @@
+{
+ "round": 6,
+ "orders": [
+  {
+   "id": "kleinanzeigen",
+   "name": "Kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/",
+   "fields": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "partner_program"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "parent": "high",
+    "business_model": "high",
+    "partner_program": "medium"
+   },
+   "try_pages": [
+    "https://themen.kleinanzeigen.de/ueber-uns/",
+    "https://themen.kleinanzeigen.de/mit-pro-umsatz-steigern/",
+    "https://www.adevinta.com/brands"
+   ],
+   "reason": "Ueber uns (About) link seen. The footer names Marktplaats B.V. and a Partner section links Adevinta. A PRO package page for business customers is linked, which covers pricing."
+  },
+  {
+   "id": "clearancejobs",
+   "name": "ClearanceJobs",
+   "url": "https://www.clearancejobs.com",
+   "fields": [
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://about.clearancejobs.com/employers/products/recruitment-solution",
+    "https://about.clearancejobs.com/employers/request-demo",
+    "https://about.clearancejobs.com/"
+   ],
+   "reason": "Employers menu links the recruitment solution and request-demo pages, which may say how employers pay. The About page is linked and gives the founding year. No Developers, API, Partners or Pricing lin"
+  },
+  {
+   "id": "u-s-bureau-of-labor-statistics",
+   "name": "U.S. Bureau of Labor Statistics",
+   "url": "https://www.bls.gov",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://www.bls.gov/about-bls/home.htm",
+    "https://www.bls.gov/audience/developers.htm"
+   ],
+   "reason": "About BLS is linked from the Home menu; the attempt log already found the founding year there, so it only needs copying into the record. Developers and Public Data API pages are linked. No Partners, P"
+  },
+  {
+   "id": "hirevue",
+   "name": "HireVue",
+   "url": "https://www.hirevue.com",
+   "fields": [
+    "api_status"
+   ],
+   "likelihood": {
+    "api_status": "medium"
+   },
+   "try_pages": [
+    "https://www.hirevue.com/platform/integrations",
+    "https://www.hirevue.com/about"
+   ],
+   "reason": "Platform menu links Integrations, which is the recorded partner page and may describe API access. About us and Press & News are linked. No Developers, API, Partners or Pricing link seen; no language s"
+  },
+  {
+   "id": "kwork",
+   "name": "Kwork",
+   "url": "https://www.kwork.com",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://kwork.com/for-sellers"
+   ],
+   "reason": "Header links only: Sign Up, For sellers and categories. The footer was not in the excerpt. Seller fee terms usually sit near the sellers pages, so business_model is the one field worth another look."
+  }
+ ]
+}

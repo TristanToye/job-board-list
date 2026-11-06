@@ -1,0 +1,74 @@
+{
+ "round": 6,
+ "orders": [
+  {
+   "id": "workday",
+   "name": "Workday Recruiting",
+   "url": "https://www.workday.com",
+   "fields": [
+    "founded",
+    "languages"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.workday.com/en-us/company/about-workday/our-story.html",
+    "https://www.workday.com/en-us/choose-country-region.html",
+    "https://developer.workday.com/about"
+   ],
+   "reason": "Our Story is linked from About Workday and holds the timeline. The region chooser is linked from the United States (English) label and lists the language options. Developer site is linked in the foote"
+  },
+  {
+   "id": "randstad",
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "fields": [
+    "parent",
+    "languages"
+   ],
+   "likelihood": {
+    "parent": "high",
+    "languages": "medium"
+   },
+   "try_pages": [
+    "https://www.randstad.com/investor-relations/",
+    "https://www.randstad.com/find-randstad-in-your-country/"
+   ],
+   "reason": "Footer text carries the Randstad N.V. trademark and the investor relations section is linked, which should describe the group structure. A country selector is linked, but no language menu was seen."
+  },
+  {
+   "id": "almalaurea",
+   "name": "AlmaLaurea",
+   "url": "https://www.almalaurea.it/",
+   "fields": [
+    "languages"
+   ],
+   "likelihood": {
+    "languages": "high"
+   },
+   "try_pages": [
+    "https://www.almalaurea.it/en",
+    "https://www.almalaurea.it/chi-siamo/sistema-e-struttura",
+    "https://www.almalaurea.it/chi-siamo/organizzazione"
+   ],
+   "reason": "EN link is linked from the homepage. The Chi siamo sub-pages sistema-e-struttura and organizzazione are linked and were not read in the attempt log, so they may give the founding year. The services pa"
+  },
+  {
+   "id": "australian-bureau-of-statistics",
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "fields": [
+    "hq_country"
+   ],
+   "likelihood": {
+    "hq_country": "medium"
+   },
+   "try_pages": [
+    "https://www.abs.gov.au/about/contact-us"
+   ],
+   "reason": "Government statistics agency. The Contact us link was seen and may give the office location, which earlier attempts did not read. Earlier attempts already covered the About pages for founding and pare"
+  }
+ ]
+}

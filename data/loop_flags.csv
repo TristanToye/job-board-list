@@ -91,3 +91,27 @@ round,board_id,flag
 5,gi-group-holding,"Entry is the holding, but its url is the operating brand gigroup.com. Parent is empty although About says Gi Group is part of Gi Group Holding."
 5,applytoeducation,"Language toggle shows En and Fr, but languages_supported is recorded as en only."
 5,turijobs,"Review note says headquarters is stated, yet hq_country is still in the missing list with no value recorded."
+6,u-s-bureau-of-labor-statistics,"Attempt log records founded 1884 found at about-bls/home.htm, but the record has no founded value."
+6,workday,"Review note records the founders and a 2005 founding year on the Our Story page and 12 language options in the region chooser, yet founded and languages are still missing from the record."
+6,workday,"parent is blank; if the Our Story page confirms independence, the record should say so rather than leave it empty."
+6,clearancejobs,"Review note says the founding year 2002 is on the About page, yet founded is still missing from the record."
+6,the-adecco-group,Entry URL is adecco.com but the group content used for sourcing is on adeccogroup.com; the source domain should be recorded.
+6,caterer-com,Parent 'The Stepstone Group' could not be checked against any page because the site is unreachable.
+6,robert-half,"Review note says no country or language selector appears in raw text, but the footer on my fetch showed a country and language selector (United States - English, about 40 other options). Check the raw"
+6,jobijoba,Corporate link names Hellowork Group but the record's parent is blank; confirm on the group page before recording it.
+6,almalaurea,"Attempt log records languages found (IT/EN switcher verified), yet languages is still missing from the record."
+6,catho,Site is blocked to this reader; none of the missing fields could be checked.
+6,kalaydo,Recorded founded 2006 could not be checked because the site is not readable from here.
+6,workable,founded and business_model are still listed as missing although the review found both
+6,workable,"Structured data lists a US address first (Norwood, Massachusetts) while hq_country is recorded as GR; check hq_country"
+6,nijobs,Unreachable in review and in this scout pass; recorded parent The Stepstone Group could not be checked
+6,challenger-gray-christmas,founded 1966 is only partially verified: the quote names a founder but not the firm
+6,challenger-gray-christmas,"Review lists parent as not found, yet parent is not in the missing list, so the record and the missing list disagree"
+6,sirc-canadian-sport,Blocked by a bot challenge; recorded primary_language and languages_supported are unverified
+6,sirc-canadian-sport,"review_history is null, so the entry was never checked"
+6,charityvillage,No review history; the record has not been checked
+6,berlin-startup-jobs,"founded is listed as missing, but the site states Founded in 2011"
+6,craigslist,"Homepage redirects through geo.craigslist.org to www.craigslist.org/area/omaha, so site navigation was not read"
+6,kleinanzeigen,"parent is recorded as empty, but the footer names Marktplaats B.V. and an Adevinta link is present"
+6,kleinanzeigen,founded 2009 is recorded but not verified; the footer copyright range 2005-2026 is not a founding statement
+6,zippia,"The San Mateo location comes from a third-party press quote on the site, not a company statement"

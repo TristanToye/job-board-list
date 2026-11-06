@@ -1,0 +1,93 @@
+{
+ "round": 6,
+ "orders": [
+  {
+   "id": "jobijoba",
+   "name": "Jobijoba",
+   "url": "https://www.jobijoba.com",
+   "fields": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "medium",
+    "parent": "high",
+    "business_model": "medium",
+    "ingest_methods": "high"
+   },
+   "try_pages": [
+    "https://www.hellowork-group.com/fr/",
+    "https://www.jobijoba.com/fr/affiliation-offres-emploi",
+    "https://magnet.work",
+    "https://recruteur.hellowork.com/fr/"
+   ],
+   "reason": "Corporate link is labelled Hellowork Group. Programme d'affiliation is linked and is the recorded partner and API docs page, so it likely describes how offers are fed. Employer services link to magnet"
+  },
+  {
+   "id": "workable",
+   "name": "Workable",
+   "url": "https://www.workable.com",
+   "fields": [
+    "founded",
+    "business_model"
+   ],
+   "likelihood": {
+    "founded": "high",
+    "business_model": "high"
+   },
+   "try_pages": [
+    "https://www.workable.com/pricing"
+   ],
+   "reason": "Homepage structured data gives foundingDate 2012 and text says Since 2012; the pricing page was already read in review. Parent is not mentioned. No language menu or About link seen on the homepage."
+  },
+  {
+   "id": "zippia",
+   "name": "Zippia",
+   "url": "https://www.zippia.com/",
+   "fields": [
+    "hq_country",
+    "parent"
+   ],
+   "likelihood": {
+    "hq_country": "high",
+    "parent": "medium"
+   },
+   "try_pages": [
+    "https://www.zippia.com/about-us/"
+   ],
+   "reason": "About Us link seen. A quote on the site describes Zippia as a San Mateo, California-based job search site, which points to the US for hq_country."
+  },
+  {
+   "id": "craigslist",
+   "name": "Craigslist",
+   "url": "https://www.craigslist.org",
+   "fields": [
+    "hq_country",
+    "business_model"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "business_model": "medium"
+   },
+   "try_pages": [],
+   "reason": "The homepage redirects to a regional page, so no About, Help or footer links were read. A board like this usually states its location and posting fees on About or Help pages, but none was linked in wh"
+  },
+  {
+   "id": "charityvillage",
+   "name": "CharityVillage",
+   "url": "https://charityvillage.com",
+   "fields": [
+    "founded"
+   ],
+   "likelihood": {
+    "founded": "medium"
+   },
+   "try_pages": [],
+   "reason": "Header navigation lists Employer Services and Resources without URLs, and the 30-year banner gives no year. An About page is usual for a site like this but was not seen."
+  }
+ ]
+}

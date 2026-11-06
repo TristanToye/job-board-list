@@ -1,0 +1,72 @@
+{
+ "round": 6,
+ "orders": [
+  {
+   "id": "subito",
+   "name": "Subito",
+   "url": "https://www.subito.it/",
+   "fields": [
+    "parent",
+    "business_model",
+    "ingest_methods"
+   ],
+   "likelihood": {
+    "parent": "medium",
+    "business_model": "high",
+    "ingest_methods": "medium"
+   },
+   "try_pages": [
+    "https://aziende.subito.it/",
+    "https://impresapiu.subito.it/shops"
+   ],
+   "reason": "Homepage links Subito per le Aziende and Negozi e Aziende, which likely explain the business model and may cover how dealer listings are fed. The owner is usually named on a business or legal page, wh"
+  },
+  {
+   "id": "berlin-startup-jobs",
+   "name": "Berlin Startup Jobs",
+   "url": "https://www.berlinstartupjobs.com/",
+   "fields": [
+    "hq_country",
+    "founded"
+   ],
+   "likelihood": {
+    "hq_country": "medium",
+    "founded": "high"
+   },
+   "try_pages": [
+    "https://berlinstartupjobs.com/about/"
+   ],
+   "reason": "Homepage text says Founded in 2011 and links to an About page, which may also state the location. Advertise, Partners, Pricing and Developers links were not seen."
+  },
+  {
+   "id": "nomis",
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "fields": [
+    "api_status"
+   ],
+   "likelihood": {
+    "api_status": "high"
+   },
+   "try_pages": [
+    "https://www.nomisweb.co.uk/api"
+   ],
+   "reason": "Footer links to /api, which the review read at /api/v01/help. api_status has no attempt yet. No About or Partners link seen; the homepage says the service is provided by the Office for National Statis"
+  },
+  {
+   "id": "zarplata-ru",
+   "name": "Zarplata.ru",
+   "url": "https://zarplata.ru/",
+   "fields": [
+    "business_model"
+   ],
+   "likelihood": {
+    "business_model": "medium"
+   },
+   "try_pages": [
+    "https://zarplata.ru/article/mediakit?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=main"
+   ],
+   "reason": "Footer links to a media kit and an employer page; a job board like this usually publishes employer tariffs, but no pricing link was seen. No developer or API link seen."
+  }
+ ]
+}
