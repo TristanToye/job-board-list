@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 67 entries in the directory.
+Has a partner or integration program. 69 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -11,6 +11,7 @@ Has a partner or integration program. 67 entries in the directory.
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
 - [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
 - [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
+- [Idealist](https://jobboardlist.com/boards/idealist/): niche-board
 - [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
@@ -22,6 +23,7 @@ Has a partner or integration program. 67 entries in the directory.
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
+- [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Self-serve API key
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
 - [TaskRabbit](https://jobboardlist.com/boards/taskrabbit/): freelance-platform
 - [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)

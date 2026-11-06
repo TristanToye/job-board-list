@@ -4,7 +4,7 @@
  "url": "https://www.governmentjobs.com/",
  "domains": "",
  "type": "government",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -15,7 +15,7 @@
  "region": "North America",
  "niche": "government",
  "segment": "",
- "parent": "",
+ "parent": "Governmentjobs.com, Inc. (DBA NEOGOV)",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
@@ -44,9 +44,9 @@
  "review": {
   "board_id": "governmentjobs-com",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage and careers page read; the site says it is powered by NEOGOV but states no language, location, pricing, API or partner information. /about returned HTTP 404.",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded",
+  "note": "Company Info gives headquarters in El Segundo, CA, United States and owner Governmentjobs.com, Inc. (DBA NEOGOV). Page says the company began developing applications in 1998, which is not a stated founding year.",
   "method": "fetch"
  },
  "owners": [],
@@ -58,6 +58,22 @@
    "title": "GovernmentJobs.com homepage",
    "accessed": "2026-11-05",
    "quote": "Search thousands of government jobs and apply in minutes",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.governmentjobs.com/home/companyinfo",
+   "title": "Company Info",
+   "accessed": "2026-11-06",
+   "quote": "Our principal place of business is at 2120 Park Place, Suite 100, El Segundo, CA 90245, United States.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.governmentjobs.com/home/companyinfo",
+   "title": "Company Info",
+   "accessed": "2026-11-06",
+   "quote": "This website is owned and operated by Governmentjobs.com, Inc. (DBA \"NEOGOV\").",
    "quote_check": "ok"
   }
  ]

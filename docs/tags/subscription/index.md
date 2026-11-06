@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 61 entries in the directory.
+Employers pay a recurring fee or plan. 62 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -8,6 +8,7 @@ Employers pay a recurring fee or plan. 61 entries in the directory.
 - [Zhaopin](https://jobboardlist.com/boards/zhaopin/): board, No known API
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
 - [BOSS Zhipin](https://jobboardlist.com/boards/boss-zhipin/): board+chat, No known API
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [Mediabistro](https://jobboardlist.com/boards/mediabistro/): board

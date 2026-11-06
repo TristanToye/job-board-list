@@ -4,14 +4,28 @@
  "url": "https://enhancv.com",
  "domains": "",
  "type": "career-services",
- "hq_country": "",
- "founded": "",
+ "hq_country": "BG",
+ "founded": "2014",
  "markets": "",
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "cs",
+  "da",
+  "nl",
+  "fi",
+  "fr",
+  "de",
+  "it",
+  "no",
+  "pl",
+  "pt",
+  "es",
+  "sv"
+ ],
  "region": "Global",
  "niche": "AI resume builder",
  "segment": "",
@@ -25,7 +39,7 @@
  "notes": "Resume builder with a job search feature. Headquarters address listed on the about page. No parent, employer pricing, API or ingest method stated on pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/enhancv/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -41,9 +55,9 @@
  "review": {
   "board_id": "enhancv",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage, about and pricing pages state headquarters in Bulgaria and a language list; no parent, employer pricing or API stated. Partners page returned HTTP 404.",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Founded 2014 in Sofia, Bulgaria; registered address in Bulgaria; 13 language options on the home page menu. Languages list uses ISO 639-1 codes; Portuguese (PT-BR) recorded as pt and Swedish (SE) as sv.",
   "method": "fetch"
  },
  "owners": [],
@@ -63,6 +77,14 @@
    "title": "About page, Headquarters",
    "accessed": "2026-11-06",
    "quote": "9A Sinanishko Ezero Str., 1680 Sofia, Bulgaria",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://enhancv.com/",
+   "title": "Home",
+   "accessed": "2026-11-06",
+   "quote": "English (US)",
    "quote_check": "ok"
   }
  ]

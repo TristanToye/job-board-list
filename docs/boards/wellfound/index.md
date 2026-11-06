@@ -11,6 +11,7 @@ Wellfound is a niche job board based in United States, focused on startup.
 - Partner program: unknown
 - Prominence: #7,078 globally, tier Large
 - Tags: Free to post, Job board, Startups
+- Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: founding year, owner.
 - Data status: partly verified against its own site
 
 ## Quick answers

@@ -1,89 +1,380 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 1,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 1,
+ "boards": [
+  {
+   "name": "Idealist",
+   "url": "https://www.idealist.org",
+   "founded": "1995",
+   "partner_program": "yes",
+   "partner_url": "https://www.idealist.org/csr-services",
+   "sources": [
     {
-      "name": "Idealist", "url": "https://www.idealist.org",
-      "founded": "1995",
-      "partner_program": "yes", "partner_url": "https://www.idealist.org/csr-services",
-      "sources": [
-        {"field": "founded", "url": "https://www.idealist.org/en/about", "title": "About Idealist", "quote": "Idealist came to life in the summer of 1995"},
-        {"field": "partner_program", "url": "https://www.idealist.org/csr-services", "title": "CSR Services", "quote": "our partners can help you elevate your impact"}
-      ]
+     "field": "founded",
+     "url": "https://www.idealist.org/en/about",
+     "title": "About Idealist",
+     "quote": "Idealist came to life in the summer of 1995",
+     "check": "ok"
     },
     {
-      "name": "Recruitee", "url": "https://recruitee.com",
-      "business_model": "subscription",
-      "primary_language": "en", "languages_supported": ["en", "de", "fr", "nl"],
-      "sources": [
-        {"field": "business_model", "url": "https://recruitee.com/pricing", "title": "Pricing", "quote": "Our subscriptions are tiered based on the plan you choose"},
-        {"field": "languages", "url": "https://recruitee.com/", "title": "Home", "quote": "Language selector options: \"en\", \"DE\", \"FR\", \"NL\""}
-      ]
-    },
-    {
-      "name": "Enhancv", "url": "https://enhancv.com",
-      "hq_country": "BG",
-      "founded": "2014",
-      "primary_language": "en", "languages_supported": ["en", "cs", "da", "nl", "fi", "fr", "de", "it", "no", "pl", "pt", "es", "sv"],
-      "sources": [
-        {"field": "hq_country", "url": "https://enhancv.com/about/", "title": "About Enhancv", "quote": "9A Sinanishko Ezero Str., 1680 Sofia, Bulgaria"},
-        {"field": "founded", "url": "https://enhancv.com/about/", "title": "About Enhancv", "quote": "2014-2015: Enhancv was founded in Sofia, Bulgaria, by three friends on a mission to help people craft better resumes."},
-        {"field": "languages", "url": "https://enhancv.com/", "title": "Home", "quote": "English (US)"}
-      ]
-    },
-    {
-      "name": "Freelancer.com", "url": "https://www.freelancer.com",
-      "hq_country": "AU",
-      "sources": [
-        {"field": "hq_country", "url": "https://www.freelancer.com/about", "title": "About Freelancer", "quote": "Level 37 Grosvenor Place 225 George Street Sydney, NSW 2000 Australia"}
-      ]
-    },
-    {
-      "name": "Workable", "url": "https://www.workable.com",
-      "founded": "2012",
-      "business_model": "subscription",
-      "sources": [
-        {"field": "founded", "url": "https://www.workable.com", "title": "Workable home", "quote": "Since 2012, more than 27,000 companies have used our recruiting software"},
-        {"field": "business_model", "url": "https://www.workable.com/pricing", "title": "Pricing", "quote": "Standard: $299/month or $3,588/year"}
-      ]
-    },
-    {
-      "name": "51job", "url": "https://www.51job.com",
-      "founded": "1998",
-      "sources": [
-        {"field": "founded", "url": "https://we.51job.com/pc/aboutus", "title": "About Us (关于我们)", "quote": "前程无忧，成立于1998年"}
-      ]
+     "field": "partner_program",
+     "url": "https://www.idealist.org/csr-services",
+     "title": "CSR Services",
+     "quote": "our partners can help you elevate your impact",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Idealist", "url": "https://www.idealist.org", "outcome": "partially-verified", "fields_not_found": ["parent", "api_status"], "method": "fetch", "note": "Founding year 1995 and partner program found. No owner company named; the page mentions a 2025 merger with VolunteerMatch but not an owner. The Open Network API page has no sentence on key or access terms; it has an inquiry form and links to Listings and Apply API docs, which were not opened. api_status left unknown."},
-    {"name": "Recruitee", "url": "https://recruitee.com", "outcome": "partially-verified", "fields_not_found": ["founded"], "method": "fetch", "note": "Subscription pricing (tiered by plan) and language options en, de, fr, nl found. The founding year is not stated on recruitee.com. The Tellent About Us page says Tellent was founded in 2022, but that is the parent on another domain and was not used. Recruitee's FAQ says it is part of Tellent. Primary language en is inferred from the default home page menu order."},
-    {"name": "Enhancv", "url": "https://enhancv.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Founded 2014 in Sofia, Bulgaria; registered address in Bulgaria; 13 language options on the home page menu. Languages list uses ISO 639-1 codes; Portuguese (PT-BR) recorded as pt and Swedish (SE) as sv."},
-    {"name": "Freelancer.com", "url": "https://www.freelancer.com", "outcome": "partially-verified", "fields_not_found": ["founded", "api_status"], "method": "mixed", "note": "Registered office in Sydney, Australia found on the About page. No founding year on the About or media pages. Developer root (headless reader) describes the API and documentation but states no key or access terms. Docs and authentication paths returned 404. The trademark owner Freelancer Technology Pty Limited is named but not asked for."},
-    {"name": "Lever", "url": "https://www.lever.co", "outcome": "not-stated", "fields_not_found": ["founded", "business_model"], "method": "fetch", "note": "Pricing page says pricing is available upon request and scales with team size, with no plan type or prices, so business_model is not recorded. No founding year on lever.co. The employinc.com company page is a different domain and states Since 2012 only in structured data, so it was not used."},
-    {"name": "Workable", "url": "https://www.workable.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Founded fact comes from the visible home page sentence Since 2012, which does not use the word founded; recorded as 2012. Subscription pricing with prices and a 15-day free trial found on the pricing page. The readme.io developer docs link was not opened."},
-    {"name": "51job", "url": "https://www.51job.com", "outcome": "verified", "fields_not_found": [], "method": "browser", "note": "The About Us page returned only the title in fetch, so the headless reader was used once. Founded 1998 found in the raw text. Partner program was not asked for."}
-  ],
-  "attempts": [
-    {"name": "Idealist", "field": "founded", "outcome": "found", "pages": ["https://www.idealist.org/en/about"]},
-    {"name": "Idealist", "field": "parent", "outcome": "not-found", "pages": ["https://www.idealist.org/en/about", "https://www.idealist.org/en/open-network-api"]},
-    {"name": "Idealist", "field": "api_status", "outcome": "not-found", "pages": ["https://www.idealist.org/en/open-network-api", "https://www.idealist.org/"]},
-    {"name": "Idealist", "field": "partner_program", "outcome": "found", "pages": ["https://www.idealist.org/csr-services", "https://www.idealist.org/en/open-network-api"]},
-    {"name": "Recruitee", "field": "founded", "outcome": "not-found", "pages": ["https://recruitee.com/", "https://recruitee.com/de/", "https://recruitee.com/pricing"]},
-    {"name": "Recruitee", "field": "languages", "outcome": "found", "pages": ["https://recruitee.com/", "https://recruitee.com/de/"]},
-    {"name": "Recruitee", "field": "business_model", "outcome": "found", "pages": ["https://recruitee.com/pricing"]},
-    {"name": "Enhancv", "field": "hq_country", "outcome": "found", "pages": ["https://enhancv.com/about/"]},
-    {"name": "Enhancv", "field": "founded", "outcome": "found", "pages": ["https://enhancv.com/about/", "https://enhancv.com/press/"]},
-    {"name": "Enhancv", "field": "languages", "outcome": "found", "pages": ["https://enhancv.com/"]},
-    {"name": "Freelancer.com", "field": "hq_country", "outcome": "found", "pages": ["https://www.freelancer.com/about"]},
-    {"name": "Freelancer.com", "field": "founded", "outcome": "not-found", "pages": ["https://www.freelancer.com/about", "https://www.freelancer.com/about/media"]},
-    {"name": "Freelancer.com", "field": "api_status", "outcome": "not-found", "pages": ["https://developers.freelancer.com", "https://developers.freelancer.com/docs/", "https://developers.freelancer.com/docs/authentication"]},
-    {"name": "Lever", "field": "founded", "outcome": "not-found", "pages": ["https://www.lever.co/pricing"]},
-    {"name": "Lever", "field": "business_model", "outcome": "not-found", "pages": ["https://www.lever.co/pricing"]},
-    {"name": "Workable", "field": "founded", "outcome": "found", "pages": ["https://www.workable.com", "https://www.workable.com/about"]},
-    {"name": "Workable", "field": "business_model", "outcome": "found", "pages": ["https://www.workable.com/pricing"]},
-    {"name": "51job", "field": "founded", "outcome": "found", "pages": ["https://we.51job.com/pc/aboutus"]}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Recruitee",
+   "url": "https://recruitee.com",
+   "business_model": "subscription",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "de",
+    "fr",
+    "nl"
+   ],
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://recruitee.com/pricing",
+     "title": "Pricing",
+     "quote": "Our subscriptions are tiered based on the plan you choose",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://recruitee.com/",
+     "title": "Home",
+     "quote": "Language selector options: \"en\", \"DE\", \"FR\", \"NL\"",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Enhancv",
+   "url": "https://enhancv.com",
+   "hq_country": "BG",
+   "founded": "2014",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "cs",
+    "da",
+    "nl",
+    "fi",
+    "fr",
+    "de",
+    "it",
+    "no",
+    "pl",
+    "pt",
+    "es",
+    "sv"
+   ],
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://enhancv.com/about/",
+     "title": "About Enhancv",
+     "quote": "9A Sinanishko Ezero Str., 1680 Sofia, Bulgaria",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://enhancv.com/about/",
+     "title": "About Enhancv",
+     "quote": "2014-2015: Enhancv was founded in Sofia, Bulgaria, by three friends on a mission to help people craft better resumes.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://enhancv.com/",
+     "title": "Home",
+     "quote": "English (US)",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Freelancer.com",
+   "url": "https://www.freelancer.com",
+   "hq_country": "AU",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.freelancer.com/about",
+     "title": "About Freelancer",
+     "quote": "Level 37 Grosvenor Place 225 George Street Sydney, NSW 2000 Australia",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Workable",
+   "url": "https://www.workable.com",
+   "founded": "2012",
+   "business_model": "subscription",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.workable.com",
+     "title": "Workable home",
+     "quote": "Since 2012, more than 27,000 companies have used our recruiting software",
+     "check": "mismatch"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.workable.com/pricing",
+     "title": "Pricing",
+     "quote": "Standard: $299/month or $3,588/year",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "51job",
+   "url": "https://www.51job.com",
+   "founded": "1998",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://we.51job.com/pc/aboutus",
+     "title": "About Us (关于我们)",
+     "quote": "前程无忧，成立于1998年",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Idealist",
+   "url": "https://www.idealist.org",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "api_status"
+   ],
+   "method": "fetch",
+   "note": "Founding year 1995 and partner program found. No owner company named; the page mentions a 2025 merger with VolunteerMatch but not an owner. The Open Network API page has no sentence on key or access terms; it has an inquiry form and links to Listings and Apply API docs, which were not opened. api_status left unknown."
+  },
+  {
+   "name": "Recruitee",
+   "url": "https://recruitee.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "Subscription pricing (tiered by plan) and language options en, de, fr, nl found. The founding year is not stated on recruitee.com. The Tellent About Us page says Tellent was founded in 2022, but that is the parent on another domain and was not used. Recruitee's FAQ says it is part of Tellent. Primary language en is inferred from the default home page menu order."
+  },
+  {
+   "name": "Enhancv",
+   "url": "https://enhancv.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Founded 2014 in Sofia, Bulgaria; registered address in Bulgaria; 13 language options on the home page menu. Languages list uses ISO 639-1 codes; Portuguese (PT-BR) recorded as pt and Swedish (SE) as sv."
+  },
+  {
+   "name": "Freelancer.com",
+   "url": "https://www.freelancer.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded",
+    "api_status"
+   ],
+   "method": "mixed",
+   "note": "Registered office in Sydney, Australia found on the About page. No founding year on the About or media pages. Developer root (headless reader) describes the API and documentation but states no key or access terms. Docs and authentication paths returned 404. The trademark owner Freelancer Technology Pty Limited is named but not asked for."
+  },
+  {
+   "name": "Lever",
+   "url": "https://www.lever.co",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "founded",
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "Pricing page says pricing is available upon request and scales with team size, with no plan type or prices, so business_model is not recorded. No founding year on lever.co. The employinc.com company page is a different domain and states Since 2012 only in structured data, so it was not used."
+  },
+  {
+   "name": "Workable",
+   "url": "https://www.workable.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Founded fact comes from the visible home page sentence Since 2012, which does not use the word founded; recorded as 2012. Subscription pricing with prices and a 15-day free trial found on the pricing page. The readme.io developer docs link was not opened."
+  },
+  {
+   "name": "51job",
+   "url": "https://www.51job.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "The About Us page returned only the title in fetch, so the headless reader was used once. Founded 1998 found in the raw text. Partner program was not asked for."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Idealist",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.idealist.org/en/about"
+   ]
+  },
+  {
+   "name": "Idealist",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.idealist.org/en/about",
+    "https://www.idealist.org/en/open-network-api"
+   ]
+  },
+  {
+   "name": "Idealist",
+   "field": "api_status",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.idealist.org/en/open-network-api",
+    "https://www.idealist.org/"
+   ]
+  },
+  {
+   "name": "Idealist",
+   "field": "partner_program",
+   "outcome": "found",
+   "pages": [
+    "https://www.idealist.org/csr-services",
+    "https://www.idealist.org/en/open-network-api"
+   ]
+  },
+  {
+   "name": "Recruitee",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://recruitee.com/",
+    "https://recruitee.com/de/",
+    "https://recruitee.com/pricing"
+   ]
+  },
+  {
+   "name": "Recruitee",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://recruitee.com/",
+    "https://recruitee.com/de/"
+   ]
+  },
+  {
+   "name": "Recruitee",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://recruitee.com/pricing"
+   ]
+  },
+  {
+   "name": "Enhancv",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://enhancv.com/about/"
+   ]
+  },
+  {
+   "name": "Enhancv",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://enhancv.com/about/",
+    "https://enhancv.com/press/"
+   ]
+  },
+  {
+   "name": "Enhancv",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://enhancv.com/"
+   ]
+  },
+  {
+   "name": "Freelancer.com",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.freelancer.com/about"
+   ]
+  },
+  {
+   "name": "Freelancer.com",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.freelancer.com/about",
+    "https://www.freelancer.com/about/media"
+   ]
+  },
+  {
+   "name": "Freelancer.com",
+   "field": "api_status",
+   "outcome": "not-found",
+   "pages": [
+    "https://developers.freelancer.com",
+    "https://developers.freelancer.com/docs/",
+    "https://developers.freelancer.com/docs/authentication"
+   ]
+  },
+  {
+   "name": "Lever",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.lever.co/pricing"
+   ]
+  },
+  {
+   "name": "Lever",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.lever.co/pricing"
+   ]
+  },
+  {
+   "name": "Workable",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.workable.com",
+    "https://www.workable.com/about"
+   ]
+  },
+  {
+   "name": "Workable",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.workable.com/pricing"
+   ]
+  },
+  {
+   "name": "51job",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://we.51job.com/pc/aboutus"
+   ]
+  }
+ ],
+ "blocked": []
 }

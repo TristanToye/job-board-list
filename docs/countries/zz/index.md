@@ -3,7 +3,7 @@
 72 job boards and related entries based in or serving ZZ.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
-- [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier
+- [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier, Open API (no key)
 - [Office for National Statistics](https://jobboardlist.com/boards/office-for-national-statistics/): lmi, Large tier
 - [Toptal](https://jobboardlist.com/boards/toptal/): freelance-platform, Large tier
 - [Freelancer.com](https://jobboardlist.com/boards/freelancer-com/): freelance-platform, Large tier

@@ -41,10 +41,10 @@
  "review": {
   "board_id": "robert-half",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage read by fetch and browser; no headquarters, pricing, API or partner program stated, and the About page returned HTTP 404.",
-  "method": "mixed"
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded;parent;partner_program",
+  "note": "Languages found from the country and language list. No headquarters or founding year stated on pages read. Protiviti is named as a subsidiary, not a parent. The partner URL page describes working with clients, not a partner program.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],

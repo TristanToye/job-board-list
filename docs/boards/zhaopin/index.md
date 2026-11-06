@@ -11,6 +11,7 @@ Zhaopin is a job board based in China.
 - Partner program: unknown
 - Prominence: #3,441 globally, tier Large
 - Tags: General, Job board, Subscription
+- Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: founding year, owner.
 - Data status: secondary sources only
 
 ## Quick answers

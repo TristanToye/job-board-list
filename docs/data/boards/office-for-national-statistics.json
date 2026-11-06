@@ -46,10 +46,10 @@
  "review": {
   "board_id": "office-for-national-statistics",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
-  "note": "Pages state English and Cymraeg options and the UK Statistics Authority link; no headquarters, pricing or partner program stated, and /developers returned 404.",
-  "method": "mixed"
+  "outcome": "not-stated",
+  "fields_not_found": "founded",
+  "note": "About us, What we do and homepage read. No founding or establishment year stated. The /developers path was not requested, as it was already recorded as a 404.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],

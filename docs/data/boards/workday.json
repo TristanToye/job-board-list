@@ -57,7 +57,14 @@
    "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "workday",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded;parent",
+  "note": "Our Story says Workday was founded by Aneel Bhusri and Dave Duffield, and a summary gives 2005, but the year was not in a quotable sentence; the captured quote was cut off before the year, so founded is not recorded. No parent or owner name",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": []

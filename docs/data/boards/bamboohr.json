@@ -5,7 +5,7 @@
  "domains": "",
  "type": "ats",
  "hq_country": "US",
- "founded": "",
+ "founded": "2008",
  "markets": "Global",
  "countries_served": [],
  "primary_language": "",
@@ -14,7 +14,7 @@
  "niche": "applicant tracking system",
  "segment": "SMB",
  "parent": "",
- "business_model": "",
+ "business_model": "free trial, prices by quote, no list prices shown",
  "api_status": "public-key",
  "api_docs_url": "https://documentation.bamboohr.com",
  "partner_program": "yes",
@@ -23,9 +23,9 @@
   "Public job feed"
  ],
  "notes": "Careers list JSON endpoint. Write API: API key. Reading jobs needs auth: partial.",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/bamboohr/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -37,13 +37,38 @@
  "tags": [
   "api-self-serve",
   "ats",
+  "free-to-post",
   "partner-program",
   "public-job-feed",
   "smb"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "bamboohr",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Founding year 2008 quoted from the About BambooHR page via the fetch tool; the headless reader text did not contain the story body, so the quote is taken from the fetch tool output. Pricing page shows Try it free and Get a Free Price Quote,",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.bamboohr.com/about-bamboohr/",
+   "title": "About BambooHR",
+   "accessed": "2026-11-06",
+   "quote": "We founded BambooHR in 2008 with a mission to set people free to do great work",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.bamboohr.com/pricing/",
+   "title": "Plans and Pricing",
+   "accessed": "2026-11-06",
+   "quote": "Try it free",
+   "quote_check": "ok"
+  }
+ ]
 }

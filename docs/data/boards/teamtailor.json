@@ -8,13 +8,15 @@
  "founded": "",
  "markets": "Global",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Europe",
  "niche": "applicant tracking system",
  "segment": "SMB/mid-market",
  "parent": "",
- "business_model": "",
+ "business_model": "quote-based pricing, no public price shown",
  "api_status": "public-key",
  "api_docs_url": "https://docs.teamtailor.com",
  "partner_program": "yes",
@@ -23,9 +25,9 @@
   "Public job feed"
  ],
  "notes": "Strong in Nordics. Write API: token. Reading jobs needs auth: token.",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/teamtailor/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -116,8 +118,32 @@
    "quote": "Arbetsförmedlingen Här kan du annonsera i Platsbanken, anställa med stöd och upptäcka nya sätt att rekrytera."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "teamtailor",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded",
+  "note": "Language menu shows English (US) only. Pricing is by quote with no public price. About page and homepage give no founding year. 'First partnership was formed in late 2013' is not a founding date.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "languages",
+   "url": "https://www.teamtailor.com/",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-06",
+   "quote": "English (US)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.teamtailor.com/en/pricing/",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "Tell us a little about your company and we'll get back to you with a price.",
+   "quote_check": "ok"
+  }
+ ]
 }

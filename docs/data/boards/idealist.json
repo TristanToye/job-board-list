@@ -5,7 +5,7 @@
  "domains": "",
  "type": "niche-board",
  "hq_country": "US",
- "founded": "",
+ "founded": "1995",
  "markets": "Global",
  "countries_served": [
   "US"
@@ -22,8 +22,8 @@
  "business_model": "paid listings",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.idealist.org/csr-services",
  "ingest_methods": [
   "manual posting"
  ],
@@ -41,7 +41,8 @@
  },
  "tags": [
   "job-board",
-  "nonprofit"
+  "nonprofit",
+  "partner-program"
  ],
  "connections": [
   {
@@ -58,8 +59,8 @@
   "board_id": "idealist",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "api_status;partner_program;parent",
-  "note": "Homepage and about page read; API and CSR Partners pages returned 404 on guessed URLs, and the about page names no parent.",
+  "fields_not_found": "parent;api_status",
+  "note": "Founding year 1995 and partner program found. No owner company named; the page mentions a 2025 merger with VolunteerMatch but not an owner. The Open Network API page has no sentence on key or access terms; it has an inquiry form and links t",
   "method": "fetch"
  },
  "owners": [],
@@ -87,6 +88,22 @@
    "title": "Homepage",
    "accessed": "2026-11-06",
    "quote": "Post a Job Listing",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.idealist.org/en/about",
+   "title": "About Idealist",
+   "accessed": "2026-11-06",
+   "quote": "Idealist came to life in the summer of 1995",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.idealist.org/csr-services",
+   "title": "CSR Services",
+   "accessed": "2026-11-06",
+   "quote": "our partners can help you elevate your impact",
    "quote_check": "ok"
   }
  ]

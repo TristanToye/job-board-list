@@ -42,7 +42,14 @@
   "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "zhaopin",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "founded;parent",
+  "note": "Headless reader returned a Tencent EdgeOne security verification page and was not used further. Fetch of the homepage read the full page in two parts (offsets 0 and 100000). Footer shows an About Us heading and a company introduction link, ",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

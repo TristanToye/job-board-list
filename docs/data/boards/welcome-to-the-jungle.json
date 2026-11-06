@@ -48,7 +48,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "welcome-to-the-jungle",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Founding year from newsroom press item; the homepage text 'doing since 2015' was also seen. Publisher and trading name from the About site footer.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -82,6 +89,22 @@
    "title": "Offer page",
    "accessed": "2026-11-05",
    "quote": "ou intégrez-le facilement à votre ATS existant.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://about.welcometothejungle.com/newsroom#explore-section",
+   "title": "Newsroom",
+   "accessed": "2026-11-06",
+   "quote": "Founded in France in 2015",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://about.welcometothejungle.com/",
+   "title": "About Welcome to the Jungle",
+   "accessed": "2026-11-06",
+   "quote": "published by Welcome to the Jungle, the trading name of Otta Technology Ltd.",
    "quote_check": "ok"
   }
  ]

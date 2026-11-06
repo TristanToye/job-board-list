@@ -43,8 +43,8 @@
   "board_id": "99designs",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
-  "note": "Parent (Vista) and languages confirmed; pricing covers design contests only and no API or partner terms are described.",
+  "fields_not_found": "hq_country;founded",
+  "note": "Business model is per-contest fixed packages with USD prices on pricing page. The About page gives 'Since 2008' for the community, which is not stated as a founding year, so founded was not recorded. Featured partners are design service ven",
   "method": "fetch"
  },
  "owners": [],
@@ -64,6 +64,22 @@
    "title": "About page",
    "accessed": "2026-11-06",
    "quote": "As part of the Vista family, we're dedicated to helping small businesses thrive through expert design.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.99designs.com/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "We have 4 fixed packages to suit your budget.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.99designs.com",
+   "title": "Home",
+   "accessed": "2026-11-06",
+   "quote": "español",
    "quote_check": "ok"
   }
  ]

@@ -3608,7 +3608,14 @@
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "welcome-to-the-jungle",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding year from newsroom press item; the homepage text 'doing since 2015' was also seen. Publisher and trading name from the About site footer.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -3642,6 +3649,22 @@
      "title": "Offer page",
      "accessed": "2026-11-05",
      "quote": "ou intégrez-le facilement à votre ATS existant.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://about.welcometothejungle.com/newsroom#explore-section",
+     "title": "Newsroom",
+     "accessed": "2026-11-06",
+     "quote": "Founded in France in 2015",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://about.welcometothejungle.com/",
+     "title": "About Welcome to the Jungle",
+     "accessed": "2026-11-06",
+     "quote": "published by Welcome to the Jungle, the trading name of Otta Technology Ltd.",
      "quote_check": "ok"
     }
    ]
@@ -4108,7 +4131,14 @@
     "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "hh-ru",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded",
+    "note": "Company article, investor relations page and homepage read. Investor page places founding in the 2000 to 2007 period without a year. No exact founding year stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -4625,7 +4655,14 @@
     "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "zhaopin",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;parent",
+    "note": "Headless reader returned a Tencent EdgeOne security verification page and was not used further. Fetch of the homepage read the full page in two parts (offsets 0 and 100000). Footer shows an About Us heading and a company introduction link, ",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -4681,7 +4718,14 @@
     "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "51job",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "The About Us page returned only the title in fetch, so the headless reader was used once. Founded 1998 found in the raw text. Partner program was not asked for.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -4794,7 +4838,14 @@
     "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "rikunabi",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;ingest_methods",
+    "note": "Recruit group company page (recruit.co.jp, off domain) gives Recruit Co., Ltd. founded 2012 as a spin-off, but that is not on the entry's own domain, so it is not recorded. Data-use page covers user data to employers, not job intake. Help c",
+    "method": "mixed"
+   },
    "owners": [
     {
      "id": "recruit",
@@ -5779,7 +5830,14 @@
     "startup"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "wellfound",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;parent",
+    "note": "About page timeline has '2019' against AngelList splitting into two businesses, not Wellfound's founding. It says AngelList Talent 'started' without a year. Wellfound 'spun out as an independent company (AL Talent, Inc.)' with no named pare",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -6169,7 +6227,7 @@
    "domains": "",
    "type": "niche-board",
    "hq_country": "US",
-   "founded": "",
+   "founded": "1995",
    "markets": "Global",
    "countries_served": [
     "US"
@@ -6186,8 +6244,8 @@
    "business_model": "paid listings",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.idealist.org/csr-services",
    "ingest_methods": [
     "manual posting"
    ],
@@ -6205,7 +6263,8 @@
    },
    "tags": [
     "job-board",
-    "nonprofit"
+    "nonprofit",
+    "partner-program"
    ],
    "connections": [
     {
@@ -6222,8 +6281,8 @@
     "board_id": "idealist",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "api_status;partner_program;parent",
-    "note": "Homepage and about page read; API and CSR Partners pages returned 404 on guessed URLs, and the about page names no parent.",
+    "fields_not_found": "parent;api_status",
+    "note": "Founding year 1995 and partner program found. No owner company named; the page mentions a 2025 merger with VolunteerMatch but not an owner. The Open Network API page has no sentence on key or access terms; it has an inquiry form and links t",
     "method": "fetch"
    },
    "owners": [],
@@ -6251,6 +6310,22 @@
      "title": "Homepage",
      "accessed": "2026-11-06",
      "quote": "Post a Job Listing",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.idealist.org/en/about",
+     "title": "About Idealist",
+     "accessed": "2026-11-06",
+     "quote": "Idealist came to life in the summer of 1995",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.idealist.org/csr-services",
+     "title": "CSR Services",
+     "accessed": "2026-11-06",
+     "quote": "our partners can help you elevate your impact",
      "quote_check": "ok"
     }
    ]
@@ -9238,7 +9313,7 @@
    "url": "https://www.governmentjobs.com/",
    "domains": "",
    "type": "government",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -9249,7 +9324,7 @@
    "region": "North America",
    "niche": "government",
    "segment": "",
-   "parent": "",
+   "parent": "Governmentjobs.com, Inc. (DBA NEOGOV)",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
@@ -9278,9 +9353,9 @@
    "review": {
     "board_id": "governmentjobs-com",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage and careers page read; the site says it is powered by NEOGOV but states no language, location, pricing, API or partner information. /about returned HTTP 404.",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Company Info gives headquarters in El Segundo, CA, United States and owner Governmentjobs.com, Inc. (DBA NEOGOV). Page says the company began developing applications in 1998, which is not a stated founding year.",
     "method": "fetch"
    },
    "owners": [],
@@ -9292,6 +9367,22 @@
      "title": "GovernmentJobs.com homepage",
      "accessed": "2026-11-05",
      "quote": "Search thousands of government jobs and apply in minutes",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.governmentjobs.com/home/companyinfo",
+     "title": "Company Info",
+     "accessed": "2026-11-06",
+     "quote": "Our principal place of business is at 2120 Park Place, Suite 100, El Segundo, CA 90245, United States.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.governmentjobs.com/home/companyinfo",
+     "title": "Company Info",
+     "accessed": "2026-11-06",
+     "quote": "This website is owned and operated by Governmentjobs.com, Inc. (DBA \"NEOGOV\").",
      "quote_check": "ok"
     }
    ]
@@ -17375,15 +17466,15 @@
    "segment": "",
    "parent": "United States Department of Labor",
    "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
+   "api_status": "public-open",
+   "api_docs_url": "https://www.bls.gov/developers/home.htm",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
    "notes": "Public Data API and RSS feeds are linked; the API docs were not read, so api_status is not recorded. The site lists no job postings.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Major",
     "label": "Major",
@@ -17393,6 +17484,7 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "api-open",
     "lmi",
     "trades-labour"
    ],
@@ -17401,8 +17493,8 @@
     "board_id": "u-s-bureau-of-labor-statistics",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage states the Washington DC address and parent department; API menu link found but docs not read, and no job postings appear.",
+    "fields_not_found": "ingest_methods",
+    "note": "API v1.0 is open without registration; v2.0 requires registration, so public-open is recorded for the open tier. Founded 1884 from About BLS. No statement of how jobs are ingested, as BLS is a statistics agency.",
     "method": "fetch"
    },
    "owners": [],
@@ -17430,6 +17522,22 @@
      "title": "Homepage header",
      "accessed": "2026-11-06",
      "quote": "United States Department of Labor",
+     "quote_check": "unreachable"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.bls.gov/developers/home.htm",
+     "title": "Getting Started",
+     "accessed": "2026-11-06",
+     "quote": "Version 1.0 is a more limited API that does not require registration and is open for public use.",
+     "quote_check": "unreachable"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.bls.gov/about-bls/home.htm",
+     "title": "About BLS",
+     "accessed": "2026-11-06",
+     "quote": "BLS was established in 1884 and is the principal fact-finding agency",
      "quote_check": "unreachable"
     }
    ]
@@ -17537,10 +17645,10 @@
    "review": {
     "board_id": "office-for-national-statistics",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
-    "note": "Pages state English and Cymraeg options and the UK Statistics Authority link; no headquarters, pricing or partner program stated, and /developers returned 404.",
-    "method": "mixed"
+    "outcome": "not-stated",
+    "fields_not_found": "founded",
+    "note": "About us, What we do and homepage read. No founding or establishment year stated. The /developers path was not requested, as it was already recorded as a 404.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -17625,8 +17733,8 @@
     "board_id": "o-net",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
-    "note": "Homepage states the U.S. Department of Labor sponsorship; help and webservices pages state sign-up access; no fees, language options or partner program stated.",
+    "fields_not_found": "hq_country;ingest_methods",
+    "note": "Sponsor recorded as parent from overview page. The Department of Labor program page redirected to dol.gov (another domain), which was not followed. Headquarters not stated. Web Services API is a data access route for developers, not a job i",
     "method": "fetch"
    },
    "owners": [],
@@ -17905,8 +18013,8 @@
     "board_id": "australian-bureau-of-statistics",
     "reviewed": "2026-11-06",
     "outcome": "not-stated",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage states no headquarters, parent, language options or API; /about-us returned HTTP 404.",
+    "fields_not_found": "hq_country;founded;parent",
+    "note": "About page gives only a description of the agency. Welcome page and homepage state none of the three fields. The corporate-information guess returned 404. Browser run not needed.",
     "method": "fetch"
    },
    "owners": [],
@@ -18318,10 +18426,10 @@
    "review": {
     "board_id": "the-adecco-group",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage states it is part of The Adecco Group; no language options, headquarters, pricing or API statement found. /about-us returned HTTP 404.",
-    "method": "fetch"
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded",
+    "note": "adecco.com homepage has no HQ or history. The group site adeccogroup.com (a different domain from the entry URL) was read on the homepage, our-group, about-us and investors pages, with no HQ or founding statement. The press release dateline",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -18458,10 +18566,10 @@
    "review": {
     "board_id": "robert-half",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage read by fetch and browser; no headquarters, pricing, API or partner program stated, and the About page returned HTTP 404.",
-    "method": "mixed"
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded;parent;partner_program",
+    "note": "Languages found from the country and language list. No headquarters or founding year stated on pages read. Protiviti is named as a subsidiary, not a parent. The partner URL page describes working with clients, not a partner program.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -19417,7 +19525,7 @@
    "url": "https://www.freelancer.com",
    "domains": "",
    "type": "freelance-platform",
-   "hq_country": "",
+   "hq_country": "AU",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -19461,8 +19569,8 @@
     "board_id": "freelancer-com",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;partner_program",
-    "note": "Homepage, API page and footer state English only, free posting with a 3% fee, and API access; /partners returned 404.",
+    "fields_not_found": "founded;api_status",
+    "note": "Registered office in Sydney, Australia found on the About page. No founding year on the About or media pages. Developer root (headless reader) describes the API and documentation but states no key or access terms. Docs and authentication pa",
     "method": "mixed"
    },
    "owners": [],
@@ -19507,6 +19615,14 @@
      "accessed": "2026-11-06",
      "quote": "Hire in any profession you can think of using our API, on demand",
      "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.freelancer.com/about",
+     "title": "About Freelancer",
+     "accessed": "2026-11-06",
+     "quote": "Level 37 Grosvenor Place 225 George Street Sydney, NSW 2000 Australia",
+     "quote_check": "ok"
     }
    ]
   },
@@ -19517,7 +19633,7 @@
    "domains": "",
    "type": "freelance-platform",
    "hq_country": "",
-   "founded": "",
+   "founded": "2010",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -19556,10 +19672,10 @@
    "review": {
     "board_id": "toptal",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage, about and developers pages state no headquarters, parent, language options or API; only AWS partner status and talent categories appear.",
-    "method": "fetch"
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding year 2010 from the Press Center page via the fetch tool. The headless reader was blocked by a Cloudflare 403 on both press-center and about, so the fact comes from the fetch tool output only.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -19570,6 +19686,14 @@
      "title": "Toptal homepage",
      "accessed": "2026-11-06",
      "quote": "Toptal solves complex business challenges with outcome-oriented services and solutions tailored to your needs.",
+     "quote_check": "unreachable"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.toptal.com/press-center",
+     "title": "Press Center",
+     "accessed": "2026-11-06",
+     "quote": "Since its inception in 2010, and today with over 4,000 people working remotely, Toptal has been",
      "quote_check": "unreachable"
     }
    ]
@@ -19819,8 +19943,8 @@
     "board_id": "99designs",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
-    "note": "Parent (Vista) and languages confirmed; pricing covers design contests only and no API or partner terms are described.",
+    "fields_not_found": "hq_country;founded",
+    "note": "Business model is per-contest fixed packages with USD prices on pricing page. The About page gives 'Since 2008' for the community, which is not stated as a founding year, so founded was not recorded. Featured partners are design service ven",
     "method": "fetch"
    },
    "owners": [],
@@ -19840,6 +19964,22 @@
      "title": "About page",
      "accessed": "2026-11-06",
      "quote": "As part of the Vista family, we're dedicated to helping small businesses thrive through expert design.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.99designs.com/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "We have 4 fixed packages to suit your budget.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.99designs.com",
+     "title": "Home",
+     "accessed": "2026-11-06",
+     "quote": "español",
      "quote_check": "ok"
     }
    ]
@@ -21822,14 +21962,28 @@
    "url": "https://enhancv.com",
    "domains": "",
    "type": "career-services",
-   "hq_country": "",
-   "founded": "",
+   "hq_country": "BG",
+   "founded": "2014",
    "markets": "",
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "cs",
+    "da",
+    "nl",
+    "fi",
+    "fr",
+    "de",
+    "it",
+    "no",
+    "pl",
+    "pt",
+    "es",
+    "sv"
+   ],
    "region": "Global",
    "niche": "AI resume builder",
    "segment": "",
@@ -21843,7 +21997,7 @@
    "notes": "Resume builder with a job search feature. Headquarters address listed on the about page. No parent, employer pricing, API or ingest method stated on pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/enhancv/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -21859,9 +22013,9 @@
    "review": {
     "board_id": "enhancv",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage, about and pricing pages state headquarters in Bulgaria and a language list; no parent, employer pricing or API stated. Partners page returned HTTP 404.",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founded 2014 in Sofia, Bulgaria; registered address in Bulgaria; 13 language options on the home page menu. Languages list uses ISO 639-1 codes; Portuguese (PT-BR) recorded as pt and Swedish (SE) as sv.",
     "method": "fetch"
    },
    "owners": [],
@@ -21882,6 +22036,14 @@
      "accessed": "2026-11-06",
      "quote": "9A Sinanishko Ezero Str., 1680 Sofia, Bulgaria",
      "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://enhancv.com/",
+     "title": "Home",
+     "accessed": "2026-11-06",
+     "quote": "English (US)",
+     "quote_check": "ok"
     }
    ]
   },
@@ -21892,7 +22054,7 @@
    "domains": "",
    "type": "career-services",
    "hq_country": "",
-   "founded": "",
+   "founded": "2009",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -21930,9 +22092,9 @@
     "board_id": "resume-genius",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage and about page read; they state a Swiss address and job seeker pricing but no employer model, parent or API.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;parent;languages;business_model",
+    "note": "Founding year 2009 on About page. About page lists Resume Genius, Taipei, Taiwan (R.O.C.) for the marketing office and a Lucerne address for business operations, with no stated headquarters. Pricing page is for job seekers only. Language se",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -21951,6 +22113,14 @@
      "title": "Homepage support languages",
      "accessed": "2026-11-06",
      "quote": "we also provide software support in Spanish, German, Italian, and Polish",
+     "quote_check": "unreachable"
+    },
+    {
+     "field": "existence",
+     "url": "https://resumegenius.com/about",
+     "title": "About",
+     "accessed": "2026-11-06",
+     "quote": "Resume Genius was founded in 2009 with the idea that the resume creation process could be made easier.",
      "quote_check": "unreachable"
     }
    ]
@@ -22485,7 +22655,14 @@
      "quote": "VONQ VONQ offers end-to-end recruitment marketing solutions including job distribution tools."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "lever",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;business_model",
+    "note": "Pricing page says pricing is available upon request and scales with team size, with no plan type or prices, so business_model is not recorded. No founding year on lever.co. The employinc.com company page is a different domain and states Sin",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -22791,7 +22968,14 @@
      "quote": "Connect your accounts and use your prepaid Jobsite job credits to post jobs directly via Workable."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "workable",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founded fact comes from the visible home page sentence Since 2012, which does not use the word founded; recorded as 2012. Subscription pricing with prices and a 15-day free trial found on the pricing page. The readme.io developer docs link ",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -22806,12 +22990,16 @@
    "founded": "",
    "markets": "Global",
    "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "de",
+    "fr"
+   ],
    "region": "Europe",
    "niche": "applicant tracking system",
    "segment": "enterprise",
-   "parent": "",
+   "parent": "SAP",
    "business_model": "",
    "api_status": "public-open",
    "api_docs_url": "https://developers.smartrecruiters.com",
@@ -22821,9 +23009,9 @@
     "Public job feed"
    ],
    "notes": "Posting API public; marketplace. Write API: OAuth/key. Reading jobs needs auth: no (postings).",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/smartrecruiters/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -22868,10 +23056,34 @@
      "quote": "SmartRecruiters, a leading All-in-One Hiring Platform, has partnered with VONQ, a global leader in recruitment marketing solutions."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "smartrecruiters",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;business_model",
+    "note": "Parent (SAP) and languages (en, de, fr) found. About page gives no founding year, only 'founded on a bold belief'. Pricing page states no pricing model, only 'Talk to an expert' and 'Build your RFP' style contact paths. The partnerships pag",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.smartrecruiters.com/about-us/",
+     "title": "About Us",
+     "accessed": "2026-11-06",
+     "quote": "SmartRecruiters, an SAP company, has reaffirmed its commitment",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.smartrecruiters.com/pricing/",
+     "title": "Pricing language menu",
+     "accessed": "2026-11-06",
+     "quote": "Deutsch",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "recruitee",
@@ -22889,7 +23101,7 @@
    "niche": "applicant tracking system",
    "segment": "SMB/mid-market",
    "parent": "Tellent",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "public-open",
    "api_docs_url": "https://docs.recruitee.com",
    "partner_program": "yes",
@@ -22898,9 +23110,9 @@
     "Public job feed"
    ],
    "notes": "Careers site API per company. Write API: token. Reading jobs needs auth: no (public offers).",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/recruitee/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -22915,13 +23127,30 @@
     "mid-market",
     "partner-program",
     "public-job-feed",
-    "smb"
+    "smb",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "recruitee",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Subscription pricing (tiered by plan) and language options en, de, fr, nl found. The founding year is not stated on recruitee.com. The Tellent About Us page says Tellent was founded in 2022, but that is the parent on another domain and was ",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://recruitee.com/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "Our subscriptions are tiered based on the plan you choose",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "teamtailor",
@@ -22933,13 +23162,15 @@
    "founded": "",
    "markets": "Global",
    "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Europe",
    "niche": "applicant tracking system",
    "segment": "SMB/mid-market",
    "parent": "",
-   "business_model": "",
+   "business_model": "quote-based pricing, no public price shown",
    "api_status": "public-key",
    "api_docs_url": "https://docs.teamtailor.com",
    "partner_program": "yes",
@@ -22948,9 +23179,9 @@
     "Public job feed"
    ],
    "notes": "Strong in Nordics. Write API: token. Reading jobs needs auth: token.",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/teamtailor/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -23041,10 +23272,34 @@
      "quote": "Arbetsförmedlingen Här kan du annonsera i Platsbanken, anställa med stöd och upptäcka nya sätt att rekrytera."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "teamtailor",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Language menu shows English (US) only. Pricing is by quote with no public price. About page and homepage give no founding year. 'First partnership was formed in late 2013' is not a founding date.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.teamtailor.com/",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-06",
+     "quote": "English (US)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.teamtailor.com/en/pricing/",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "Tell us a little about your company and we'll get back to you with a price.",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "personio",
@@ -23102,7 +23357,7 @@
    "domains": "",
    "type": "ats",
    "hq_country": "US",
-   "founded": "",
+   "founded": "2008",
    "markets": "Global",
    "countries_served": [],
    "primary_language": "",
@@ -23111,7 +23366,7 @@
    "niche": "applicant tracking system",
    "segment": "SMB",
    "parent": "",
-   "business_model": "",
+   "business_model": "free trial, prices by quote, no list prices shown",
    "api_status": "public-key",
    "api_docs_url": "https://documentation.bamboohr.com",
    "partner_program": "yes",
@@ -23120,9 +23375,9 @@
     "Public job feed"
    ],
    "notes": "Careers list JSON endpoint. Write API: API key. Reading jobs needs auth: partial.",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/bamboohr/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -23134,15 +23389,40 @@
    "tags": [
     "api-self-serve",
     "ats",
+    "free-to-post",
     "partner-program",
     "public-job-feed",
     "smb"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "bamboohr",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding year 2008 quoted from the About BambooHR page via the fetch tool; the headless reader text did not contain the story body, so the quote is taken from the fetch tool output. Pricing page shows Try it free and Get a Free Price Quote,",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.bamboohr.com/about-bamboohr/",
+     "title": "About BambooHR",
+     "accessed": "2026-11-06",
+     "quote": "We founded BambooHR in 2008 with a mission to set people free to do great work",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.bamboohr.com/pricing/",
+     "title": "Plans and Pricing",
+     "accessed": "2026-11-06",
+     "quote": "Try it free",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "workday",
@@ -23203,7 +23483,14 @@
      "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "workday",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;parent",
+    "note": "Our Story says Workday was founded by Aneel Bhusri and Dave Duffield, and a summary gives 2005, but the year was not in a quotable sentence; the captured quote was cut off before the year, so founded is not recorded. No parent or owner name",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -23218,12 +23505,15 @@
    "founded": "",
    "markets": "Global",
    "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr"
+   ],
    "region": "North America",
    "niche": "applicant tracking system",
    "segment": "enterprise",
-   "parent": "",
+   "parent": "Vista Equity Partners",
    "business_model": "",
    "api_status": "partner-only",
    "api_docs_url": "https://developer.icims.com",
@@ -23231,9 +23521,9 @@
    "partner_url": "",
    "ingest_methods": [],
    "notes": "Developer portal; partner program. Write API: partner. Reading jobs needs auth: partner.",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/icims/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -23286,10 +23576,42 @@
      "quote": "iCIMS A NEW WAY TO MANAGE THE END-TO-END HIRING LIFECYCLE"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "icims",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Parent is Vista Equity Partners (investor since August 2018). Language selector links UK (en-gb) and France (fr). No founding year on company, leadership, newsroom or homepage pages.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.icims.com/company/vista-equity-partners-and-icims/",
+     "title": "Vista Equity Partners and iCIMS",
+     "accessed": "2026-11-06",
+     "quote": "Vista Equity Partners invested in iCIMS in August 2018",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.icims.com/company/",
+     "title": "About iCIMS",
+     "accessed": "2026-11-06",
+     "quote": "Partnered with leading investing firm Vista Equity Partners",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.icims.com/",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-06",
+     "quote": "UK",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "taleo",
@@ -23687,7 +24009,7 @@
    "niche": "applicant tracking system",
    "segment": "mid-market/enterprise",
    "parent": "Employ Inc.",
-   "business_model": "",
+   "business_model": "quote-based modular pricing; no prices shown",
    "api_status": "public-key",
    "api_docs_url": "",
    "partner_program": "yes",
@@ -23696,9 +24018,9 @@
     "Public job feed"
    ],
    "notes": "Write API: key. Reading jobs needs auth: key.",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobvite/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -23716,10 +24038,26 @@
     "public-job-feed"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobvite",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Pricing page is modular and quote-based with no prices. Founding year not stated on pricing, Employ company, or news pages. Those pages name Employ, Inc. as owner of the brands; parent was not requested.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.jobvite.com/pricing/",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "This modular approach ensures you only pay for the Jobvite features you require.",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "pinpoint",
@@ -24020,17 +24358,17 @@
    "region": "North America",
    "niche": "applicant tracking system",
    "segment": "SMB/mid-market",
-   "parent": "",
-   "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "parent": "Rippling People Center Inc.",
+   "business_model": "per employee per month (PEPM) pricing; custom quote for recruiting",
+   "api_status": "public-key",
+   "api_docs_url": "https://developer.rippling.com/",
+   "partner_program": "yes",
+   "partner_url": "https://www.rippling.com/partners",
    "ingest_methods": [],
    "notes": "",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/rippling/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -24040,15 +24378,57 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "api-self-serve",
     "ats",
     "mid-market",
+    "partner-program",
     "smb"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "rippling",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;ingest_methods",
+    "note": "Founding year not on the About page. Recruiting page describes posting to job boards and HRIS flows, but no statement of how jobs get in. Developer page gives self-serve API tokens; no recruiting-specific API stated. Browser run was not blo",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.rippling.com/about",
+     "title": "About",
+     "accessed": "2026-11-06",
+     "quote": "© 2026 Rippling People Center Inc.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.rippling.com/recruiting",
+     "title": "Recruiting",
+     "accessed": "2026-11-06",
+     "quote": "Rippling Recruiting uses a per-employee, per-month (PEPM) pricing model and works with teams of all sizes and budgets.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://developer.rippling.com/",
+     "title": "Rippling Developer",
+     "accessed": "2026-11-06",
+     "quote": "Set up API tokens and scopes to authorize requests from your code.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.rippling.com/partners",
+     "title": "Partners",
+     "accessed": "2026-11-06",
+     "quote": "Join a thriving partner community built to help your business scale.",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "phenom",
@@ -24090,7 +24470,14 @@
     "partner-program"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "phenom",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;parent",
+    "note": "About page and homepage read. No founding year, parent or owner stated. Copyright line names Phenom People, Inc., which is the company itself.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -24939,10 +25326,10 @@
    "review": {
     "board_id": "recruit-agent",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;api_status;partner_program",
-    "note": "Homepage (read in full) states the Japanese-language fee model; no parent, headquarters, language switcher, API or partner page found.",
-    "method": "fetch"
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Business page fee wording was read with the fetch tool and is recorded. Headless reader run on /business/ returned a 503 maintenance page marked blocked, so the verification pass is recorded as blocked. Service page links back to the busine",
+    "method": "mixed"
    },
    "owners": [
     {

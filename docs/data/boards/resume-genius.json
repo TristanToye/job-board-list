@@ -5,7 +5,7 @@
  "domains": "",
  "type": "career-services",
  "hq_country": "",
- "founded": "",
+ "founded": "2009",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -43,9 +43,9 @@
   "board_id": "resume-genius",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage and about page read; they state a Swiss address and job seeker pricing but no employer model, parent or API.",
-  "method": "fetch"
+  "fields_not_found": "hq_country;parent;languages;business_model",
+  "note": "Founding year 2009 on About page. About page lists Resume Genius, Taipei, Taiwan (R.O.C.) for the marketing office and a Lucerne address for business operations, with no stated headquarters. Pricing page is for job seekers only. Language se",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -64,6 +64,14 @@
    "title": "Homepage support languages",
    "accessed": "2026-11-06",
    "quote": "we also provide software support in Spanish, German, Italian, and Polish",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://resumegenius.com/about",
+   "title": "About",
+   "accessed": "2026-11-06",
+   "quote": "Resume Genius was founded in 2009 with the idea that the resume creation process could be made easier.",
    "quote_check": "unreachable"
   }
  ]

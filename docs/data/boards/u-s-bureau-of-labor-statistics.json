@@ -18,15 +18,15 @@
  "segment": "",
  "parent": "United States Department of Labor",
  "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
+ "api_status": "public-open",
+ "api_docs_url": "https://www.bls.gov/developers/home.htm",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
  "notes": "Public Data API and RSS feeds are linked; the API docs were not read, so api_status is not recorded. The site lists no job postings.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Major",
   "label": "Major",
@@ -36,6 +36,7 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "api-open",
   "lmi",
   "trades-labour"
  ],
@@ -44,8 +45,8 @@
   "board_id": "u-s-bureau-of-labor-statistics",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage states the Washington DC address and parent department; API menu link found but docs not read, and no job postings appear.",
+  "fields_not_found": "ingest_methods",
+  "note": "API v1.0 is open without registration; v2.0 requires registration, so public-open is recorded for the open tier. Founded 1884 from About BLS. No statement of how jobs are ingested, as BLS is a statistics agency.",
   "method": "fetch"
  },
  "owners": [],
@@ -73,6 +74,22 @@
    "title": "Homepage header",
    "accessed": "2026-11-06",
    "quote": "United States Department of Labor",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.bls.gov/developers/home.htm",
+   "title": "Getting Started",
+   "accessed": "2026-11-06",
+   "quote": "Version 1.0 is a more limited API that does not require registration and is open for public use.",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.bls.gov/about-bls/home.htm",
+   "title": "About BLS",
+   "accessed": "2026-11-06",
+   "quote": "BLS was established in 1884 and is the principal fact-finding agency",
    "quote_check": "unreachable"
   }
  ]

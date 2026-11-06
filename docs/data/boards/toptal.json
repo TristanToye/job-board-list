@@ -5,7 +5,7 @@
  "domains": "",
  "type": "freelance-platform",
  "hq_country": "",
- "founded": "",
+ "founded": "2010",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -44,10 +44,10 @@
  "review": {
   "board_id": "toptal",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage, about and developers pages state no headquarters, parent, language options or API; only AWS partner status and talent categories appear.",
-  "method": "fetch"
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Founding year 2010 from the Press Center page via the fetch tool. The headless reader was blocked by a Cloudflare 403 on both press-center and about, so the fact comes from the fetch tool output only.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -58,6 +58,14 @@
    "title": "Toptal homepage",
    "accessed": "2026-11-06",
    "quote": "Toptal solves complex business challenges with outcome-oriented services and solutions tailored to your needs.",
+   "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.toptal.com/press-center",
+   "title": "Press Center",
+   "accessed": "2026-11-06",
+   "quote": "Since its inception in 2010, and today with over 4,000 people working remotely, Toptal has been",
    "quote_check": "unreachable"
   }
  ]

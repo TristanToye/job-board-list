@@ -4,7 +4,7 @@
  "url": "https://www.freelancer.com",
  "domains": "",
  "type": "freelance-platform",
- "hq_country": "",
+ "hq_country": "AU",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -48,8 +48,8 @@
   "board_id": "freelancer-com",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;partner_program",
-  "note": "Homepage, API page and footer state English only, free posting with a 3% fee, and API access; /partners returned 404.",
+  "fields_not_found": "founded;api_status",
+  "note": "Registered office in Sydney, Australia found on the About page. No founding year on the About or media pages. Developer root (headless reader) describes the API and documentation but states no key or access terms. Docs and authentication pa",
   "method": "mixed"
  },
  "owners": [],
@@ -93,6 +93,14 @@
    "title": "Freelancer API page",
    "accessed": "2026-11-06",
    "quote": "Hire in any profession you can think of using our API, on demand",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.freelancer.com/about",
+   "title": "About Freelancer",
+   "accessed": "2026-11-06",
+   "quote": "Level 37 Grosvenor Place 225 George Street Sydney, NSW 2000 Australia",
    "quote_check": "ok"
   }
  ]

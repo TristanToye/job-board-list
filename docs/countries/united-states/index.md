@@ -3,7 +3,7 @@
 52 job boards and related entries based in or serving United States.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
-- [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier
+- [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier, Open API (no key)
 - [Monster](https://jobboardlist.com/boards/monster/): board, Large tier, Partner-only API
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Large tier, Self-serve API key
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board, Large tier
@@ -23,7 +23,7 @@
 - [Ashby](https://jobboardlist.com/boards/ashby/): ats, Established tier, Open API (no key)
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Established tier, Partner-only API
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Established tier, Self-serve API key
-- [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Established tier
+- [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Established tier, Self-serve API key
 - [We Work Remotely](https://jobboardlist.com/boards/weworkremotely/): niche-board, Established tier, Open API (no key)
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Established tier, Open API (no key)
 - [Snagajob](https://jobboardlist.com/boards/snagajob/): board, Established tier

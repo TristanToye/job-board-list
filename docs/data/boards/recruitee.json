@@ -14,7 +14,7 @@
  "niche": "applicant tracking system",
  "segment": "SMB/mid-market",
  "parent": "Tellent",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "public-open",
  "api_docs_url": "https://docs.recruitee.com",
  "partner_program": "yes",
@@ -23,9 +23,9 @@
   "Public job feed"
  ],
  "notes": "Careers site API per company. Write API: token. Reading jobs needs auth: no (public offers).",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/recruitee/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -40,11 +40,28 @@
   "mid-market",
   "partner-program",
   "public-job-feed",
-  "smb"
+  "smb",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "recruitee",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded",
+  "note": "Subscription pricing (tiered by plan) and language options en, de, fr, nl found. The founding year is not stated on recruitee.com. The Tellent About Us page says Tellent was founded in 2022, but that is the parent on another domain and was ",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "business_model",
+   "url": "https://recruitee.com/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "Our subscriptions are tiered based on the plan you choose",
+   "quote_check": "ok"
+  }
+ ]
 }

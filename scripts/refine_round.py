@@ -121,6 +121,20 @@ def apply(n):
     print(f"round {n}: {row['facts_added']} facts filled across {row['entries_changed']} entries {dict(filled)}; attempts {dict(oc)}; validation {'OK' if ok else 'FAILED'}")
     if not ok: print(v.stdout[:600])
 
+def finish(n):
+    """Refresh icons, ranks and the site, run the repository checks, then commit and push the round."""
+    steps = [("scripts/derive_tags.py",), ("scripts/fetch_logos.py",), ("scripts/validate.py",), ("scripts/build_site.py",)]
+    for st in steps:
+        r = run(*st)
+        if r.returncode != 0: print("STOPPED:", st[0], r.stdout[-500:], r.stderr[-300:]); return
+    bad = subprocess.run("grep -rl $(printf '\\342\\200\\224') docs site_src scripts README.md RESEARCH.md research data; grep -rli -e cla''ude -e anthro''pic docs site_src scripts README.md RESEARCH.md research data", shell=True, capture_output=True, text=True, cwd=ROOT)
+    if bad.stdout.strip(): print("STOPPED: style or branding check found:", bad.stdout[:300]); return
+    log = {r["round"]: r for r in load("loop_log.csv")}.get(str(n), {})
+    msg = f"Refinement round {n}: {log.get('facts_added', '0')} facts across {log.get('entries_changed', '0')} entries"
+    subprocess.run(["git", "add", "-A"], cwd=ROOT); c = subprocess.run(["git", "commit", "-q", "-m", msg], capture_output=True, text=True, cwd=ROOT)
+    p_ = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True, cwd=ROOT)
+    print(msg, "|", "pushed" if p_.returncode == 0 else "PUSH FAILED " + p_.stderr[-200:])
+
 def report():
     log = load("loop_log.csv"); print("round planned scouted ordered changed facts found notfound blocked rejected flags")
     for r in sorted(log, key=lambda r: int(r["round"])): print("  ".join(str(r[k]) for k in ("round", "planned", "scouted", "ordered", "entries_changed", "facts_added", "found", "not_found", "blocked", "rejected", "flags")))
@@ -128,4 +142,4 @@ def report():
 
 if __name__ == "__main__":
     cmd = sys.argv[1]
-    {"plan": lambda: plan(int(sys.argv[2])), "orders": lambda: orders(int(sys.argv[2])), "apply": lambda: apply(int(sys.argv[2])), "report": report}[cmd]()
+    {"plan": lambda: plan(int(sys.argv[2])), "orders": lambda: orders(int(sys.argv[2])), "apply": lambda: apply(int(sys.argv[2])), "finish": lambda: finish(int(sys.argv[2])), "report": report}[cmd]()

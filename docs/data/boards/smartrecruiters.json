@@ -8,12 +8,16 @@
  "founded": "",
  "markets": "Global",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "de",
+  "fr"
+ ],
  "region": "Europe",
  "niche": "applicant tracking system",
  "segment": "enterprise",
- "parent": "",
+ "parent": "SAP",
  "business_model": "",
  "api_status": "public-open",
  "api_docs_url": "https://developers.smartrecruiters.com",
@@ -23,9 +27,9 @@
   "Public job feed"
  ],
  "notes": "Posting API public; marketplace. Write API: OAuth/key. Reading jobs needs auth: no (postings).",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/smartrecruiters/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -70,8 +74,32 @@
    "quote": "SmartRecruiters, a leading All-in-One Hiring Platform, has partnered with VONQ, a global leader in recruitment marketing solutions."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "smartrecruiters",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded;business_model",
+  "note": "Parent (SAP) and languages (en, de, fr) found. About page gives no founding year, only 'founded on a bold belief'. Pricing page states no pricing model, only 'Talk to an expert' and 'Build your RFP' style contact paths. The partnerships pag",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "parent",
+   "url": "https://www.smartrecruiters.com/about-us/",
+   "title": "About Us",
+   "accessed": "2026-11-06",
+   "quote": "SmartRecruiters, an SAP company, has reaffirmed its commitment",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.smartrecruiters.com/pricing/",
+   "title": "Pricing language menu",
+   "accessed": "2026-11-06",
+   "quote": "Deutsch",
+   "quote_check": "ok"
+  }
+ ]
 }

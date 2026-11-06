@@ -2,7 +2,7 @@
 
 Trades 11 entries in the directory.
 
-- [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi
+- [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Open API (no key)
 - [Office for National Statistics](https://jobboardlist.com/boards/office-for-national-statistics/): lmi
 - [Lightcast](https://jobboardlist.com/boards/lightcast/): lmi
 - [Nomis](https://jobboardlist.com/boards/nomis/): lmi

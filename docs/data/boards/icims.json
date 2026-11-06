@@ -8,12 +8,15 @@
  "founded": "",
  "markets": "Global",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr"
+ ],
  "region": "North America",
  "niche": "applicant tracking system",
  "segment": "enterprise",
- "parent": "",
+ "parent": "Vista Equity Partners",
  "business_model": "",
  "api_status": "partner-only",
  "api_docs_url": "https://developer.icims.com",
@@ -21,9 +24,9 @@
  "partner_url": "",
  "ingest_methods": [],
  "notes": "Developer portal; partner program. Write API: partner. Reading jobs needs auth: partner.",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/icims/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -76,8 +79,40 @@
    "quote": "iCIMS A NEW WAY TO MANAGE THE END-TO-END HIRING LIFECYCLE"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "icims",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded",
+  "note": "Parent is Vista Equity Partners (investor since August 2018). Language selector links UK (en-gb) and France (fr). No founding year on company, leadership, newsroom or homepage pages.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "parent",
+   "url": "https://www.icims.com/company/vista-equity-partners-and-icims/",
+   "title": "Vista Equity Partners and iCIMS",
+   "accessed": "2026-11-06",
+   "quote": "Vista Equity Partners invested in iCIMS in August 2018",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.icims.com/company/",
+   "title": "About iCIMS",
+   "accessed": "2026-11-06",
+   "quote": "Partnered with leading investing firm Vista Equity Partners",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.icims.com/",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-06",
+   "quote": "UK",
+   "quote_check": "ok"
+  }
+ ]
 }

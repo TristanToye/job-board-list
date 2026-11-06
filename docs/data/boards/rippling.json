@@ -13,17 +13,17 @@
  "region": "North America",
  "niche": "applicant tracking system",
  "segment": "SMB/mid-market",
- "parent": "",
- "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "parent": "Rippling People Center Inc.",
+ "business_model": "per employee per month (PEPM) pricing; custom quote for recruiting",
+ "api_status": "public-key",
+ "api_docs_url": "https://developer.rippling.com/",
+ "partner_program": "yes",
+ "partner_url": "https://www.rippling.com/partners",
  "ingest_methods": [],
  "notes": "",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/rippling/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -33,13 +33,55 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "api-self-serve",
   "ats",
   "mid-market",
+  "partner-program",
   "smb"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "rippling",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded;ingest_methods",
+  "note": "Founding year not on the About page. Recruiting page describes posting to job boards and HRIS flows, but no statement of how jobs get in. Developer page gives self-serve API tokens; no recruiting-specific API stated. Browser run was not blo",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "parent",
+   "url": "https://www.rippling.com/about",
+   "title": "About",
+   "accessed": "2026-11-06",
+   "quote": "© 2026 Rippling People Center Inc.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.rippling.com/recruiting",
+   "title": "Recruiting",
+   "accessed": "2026-11-06",
+   "quote": "Rippling Recruiting uses a per-employee, per-month (PEPM) pricing model and works with teams of all sizes and budgets.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://developer.rippling.com/",
+   "title": "Rippling Developer",
+   "accessed": "2026-11-06",
+   "quote": "Set up API tokens and scopes to authorize requests from your code.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.rippling.com/partners",
+   "title": "Partners",
+   "accessed": "2026-11-06",
+   "quote": "Join a thriving partner community built to help your business scale.",
+   "quote_check": "ok"
+  }
+ ]
 }

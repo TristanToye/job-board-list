@@ -1,0 +1,408 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 1,
+ "boards": [
+  {
+   "name": "SmartRecruiters",
+   "url": "https://www.smartrecruiters.com",
+   "parent": "SAP",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "de",
+    "fr"
+   ],
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.smartrecruiters.com/about-us/",
+     "title": "About Us",
+     "quote": "SmartRecruiters, an SAP company, has reaffirmed its commitment",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.smartrecruiters.com/pricing/",
+     "title": "Pricing language menu",
+     "quote": "Deutsch",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.smartrecruiters.com/pricing/",
+     "title": "Pricing language menu",
+     "quote": "Français",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Teamtailor",
+   "url": "https://www.teamtailor.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "business_model": "quote-based pricing, no public price shown",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.teamtailor.com/",
+     "title": "Homepage language menu",
+     "quote": "English (US)",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.teamtailor.com/en/pricing/",
+     "title": "Pricing",
+     "quote": "Tell us a little about your company and we'll get back to you with a price.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "iCIMS",
+   "url": "https://www.icims.com",
+   "parent": "Vista Equity Partners",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr"
+   ],
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.icims.com/company/vista-equity-partners-and-icims/",
+     "title": "Vista Equity Partners and iCIMS",
+     "quote": "Vista Equity Partners invested in iCIMS in August 2018",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.icims.com/company/",
+     "title": "About iCIMS",
+     "quote": "Partnered with leading investing firm Vista Equity Partners",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.icims.com/",
+     "title": "Homepage language menu",
+     "quote": "UK",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.icims.com/",
+     "title": "Homepage language menu",
+     "quote": "France",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "BambooHR",
+   "url": "https://www.bamboohr.com",
+   "founded": "2008",
+   "business_model": "free trial, prices by quote, no list prices shown",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.bamboohr.com/about-bamboohr/",
+     "title": "About BambooHR",
+     "quote": "We founded BambooHR in 2008 with a mission to set people free to do great work",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.bamboohr.com/pricing/",
+     "title": "Plans and Pricing",
+     "quote": "Try it free",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.bamboohr.com/pricing/",
+     "title": "Plans and Pricing",
+     "quote": "Get a Free Price Quote",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Toptal",
+   "url": "https://www.toptal.com",
+   "founded": "2010",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.toptal.com/press-center",
+     "title": "Press Center",
+     "quote": "Since its inception in 2010, and today with over 4,000 people working remotely, Toptal has been",
+     "check": "unreachable"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "SmartRecruiters",
+   "url": "https://www.smartrecruiters.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded",
+    "business_model"
+   ],
+   "method": "mixed",
+   "note": "Parent (SAP) and languages (en, de, fr) found. About page gives no founding year, only 'founded on a bold belief'. Pricing page states no pricing model, only 'Talk to an expert' and 'Build your RFP' style contact paths. The partnerships page had no ownership statement."
+  },
+  {
+   "name": "Teamtailor",
+   "url": "https://www.teamtailor.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "mixed",
+   "note": "Language menu shows English (US) only. Pricing is by quote with no public price. About page and homepage give no founding year. 'First partnership was formed in late 2013' is not a founding date."
+  },
+  {
+   "name": "iCIMS",
+   "url": "https://www.icims.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "browser",
+   "note": "Parent is Vista Equity Partners (investor since August 2018). Language selector links UK (en-gb) and France (fr). No founding year on company, leadership, newsroom or homepage pages."
+  },
+  {
+   "name": "The Adecco Group",
+   "url": "https://www.adecco.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "founded"
+   ],
+   "method": "mixed",
+   "note": "adecco.com homepage has no HQ or history. The group site adeccogroup.com (a different domain from the entry URL) was read on the homepage, our-group, about-us and investors pages, with no HQ or founding statement. The press release dateline 'Zurich, Switzerland' is not a headquarters statement. The investors factsheet PDF returned HTTP 503."
+  },
+  {
+   "name": "Wellfound",
+   "url": "https://wellfound.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "founded",
+    "parent"
+   ],
+   "method": "browser",
+   "note": "About page timeline has '2019' against AngelList splitting into two businesses, not Wellfound's founding. It says AngelList Talent 'started' without a year. Wellfound 'spun out as an independent company (AL Talent, Inc.)' with no named parent."
+  },
+  {
+   "name": "BambooHR",
+   "url": "https://www.bamboohr.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Founding year 2008 quoted from the About BambooHR page via the fetch tool; the headless reader text did not contain the story body, so the quote is taken from the fetch tool output. Pricing page shows Try it free and Get a Free Price Quote, no list prices."
+  },
+  {
+   "name": "Zhaopin",
+   "url": "https://www.zhaopin.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "founded",
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "Headless reader returned a Tencent EdgeOne security verification page and was not used further. Fetch of the homepage read the full page in two parts (offsets 0 and 100000). Footer shows an About Us heading and a company introduction link, plus the operating company name, but the link URL could not be located and /about/ returned 404. No founding year or owner stated on pages read."
+  },
+  {
+   "name": "Toptal",
+   "url": "https://www.toptal.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Founding year 2010 from the Press Center page via the fetch tool. The headless reader was blocked by a Cloudflare 403 on both press-center and about, so the fact comes from the fetch tool output only."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "SmartRecruiters",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.smartrecruiters.com/about-us/"
+   ]
+  },
+  {
+   "name": "SmartRecruiters",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.smartrecruiters.com/about-us/",
+    "https://www.smartrecruiters.com/about-us/partnerships"
+   ]
+  },
+  {
+   "name": "SmartRecruiters",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.smartrecruiters.com/pricing/",
+    "https://www.smartrecruiters.com/about-us/"
+   ]
+  },
+  {
+   "name": "SmartRecruiters",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.smartrecruiters.com/pricing/"
+   ]
+  },
+  {
+   "name": "Teamtailor",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.teamtailor.com/en/about/",
+    "https://www.teamtailor.com/"
+   ]
+  },
+  {
+   "name": "Teamtailor",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.teamtailor.com/"
+   ]
+  },
+  {
+   "name": "Teamtailor",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.teamtailor.com/en/pricing/"
+   ]
+  },
+  {
+   "name": "iCIMS",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.icims.com/company/",
+    "https://www.icims.com/company/leadership-team/",
+    "https://www.icims.com/company/corporate-newsroom/",
+    "https://www.icims.com/"
+   ]
+  },
+  {
+   "name": "iCIMS",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.icims.com/company/",
+    "https://www.icims.com/company/vista-equity-partners-and-icims/"
+   ]
+  },
+  {
+   "name": "iCIMS",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.icims.com/"
+   ]
+  },
+  {
+   "name": "The Adecco Group",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.adecco.com",
+    "https://www.adeccogroup.com/",
+    "https://www.adeccogroup.com/our-group/",
+    "https://www.adeccogroup.com/our-group/about-us/",
+    "https://www.adeccogroup.com/investors/"
+   ]
+  },
+  {
+   "name": "The Adecco Group",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.adeccogroup.com/our-group/about-us/",
+    "https://www.adeccogroup.com/investors/",
+    "https://www.adeccogroup.com/-/media/project/Adecco-Group/AdeccoGroup/Investors/The-Adecco-Group-Factsheet-2024-052025.pdf"
+   ]
+  },
+  {
+   "name": "Wellfound",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://wellfound.com/about",
+    "https://wellfound.com"
+   ]
+  },
+  {
+   "name": "Wellfound",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://wellfound.com/about"
+   ]
+  },
+  {
+   "name": "BambooHR",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.bamboohr.com/about-bamboohr/"
+   ]
+  },
+  {
+   "name": "BambooHR",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.bamboohr.com/pricing/",
+    "https://www.bamboohr.com"
+   ]
+  },
+  {
+   "name": "Zhaopin",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.zhaopin.com",
+    "https://www.zhaopin.com/about/"
+   ]
+  },
+  {
+   "name": "Zhaopin",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.zhaopin.com"
+   ]
+  },
+  {
+   "name": "Toptal",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.toptal.com/press-center"
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Toptal",
+   "url": "https://www.toptal.com/about",
+   "reason": "Cloudflare 403 via headless reader on /about and /press-center; fetch tool read press-center"
+  }
+ ]
+}

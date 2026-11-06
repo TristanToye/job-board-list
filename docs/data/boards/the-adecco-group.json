@@ -42,10 +42,10 @@
  "review": {
   "board_id": "the-adecco-group",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage states it is part of The Adecco Group; no language options, headquarters, pricing or API statement found. /about-us returned HTTP 404.",
-  "method": "fetch"
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;founded",
+  "note": "adecco.com homepage has no HQ or history. The group site adeccogroup.com (a different domain from the entry URL) was read on the homepage, our-group, about-us and investors pages, with no HQ or founding statement. The press release dateline",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

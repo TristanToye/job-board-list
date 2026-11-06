@@ -39,10 +39,10 @@
  "review": {
   "board_id": "recruit-agent",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;api_status;partner_program",
-  "note": "Homepage (read in full) states the Japanese-language fee model; no parent, headquarters, language switcher, API or partner page found.",
-  "method": "fetch"
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Business page fee wording was read with the fetch tool and is recorded. Headless reader run on /business/ returned a 503 maintenance page marked blocked, so the verification pass is recorded as blocked. Service page links back to the busine",
+  "method": "mixed"
  },
  "owners": [
   {

@@ -40,7 +40,14 @@
   "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "51job",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "The About Us page returned only the title in fetch, so the headless reader was used once. Founded 1998 found in the raw text. Partner program was not asked for.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": []

@@ -14,7 +14,7 @@
  "niche": "applicant tracking system",
  "segment": "mid-market/enterprise",
  "parent": "Employ Inc.",
- "business_model": "",
+ "business_model": "quote-based modular pricing; no prices shown",
  "api_status": "public-key",
  "api_docs_url": "",
  "partner_program": "yes",
@@ -23,9 +23,9 @@
   "Public job feed"
  ],
  "notes": "Write API: key. Reading jobs needs auth: key.",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobvite/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -43,8 +43,24 @@
   "public-job-feed"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobvite",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded",
+  "note": "Pricing page is modular and quote-based with no prices. Founding year not stated on pricing, Employ company, or news pages. Those pages name Employ, Inc. as owner of the brands; parent was not requested.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "business_model",
+   "url": "https://www.jobvite.com/pricing/",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "This modular approach ensures you only pay for the Jobvite features you require.",
+   "quote_check": "ok"
+  }
+ ]
 }
