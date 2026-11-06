@@ -189,7 +189,7 @@ def main(argv):
             nm, ru = clean(rv.get("name"), 80), clean(rv.get("url"), 200); row = find_board(nm, ru); oc = clean(rv.get("outcome"), 20).lower()
             if row is None or oc not in REVIEW_OUTCOMES or bad_text(json.dumps(rv)): reject("review", nm or "?", "no matching board or bad outcome"); continue
             fnf = [x for x in (clean(y, 24) for y in rv.get("fields_not_found", [])) if x in REVIEW_FIELDS]; mth = clean(rv.get("method"), 12)
-            reviews[row["id"]] = {"board_id": row["id"], "reviewed": TODAY, "outcome": oc, "fields_not_found": ";".join(fnf), "note": clean(rv.get("note"), 240), "method": mth if mth in ("fetch", "browser", "mixed") else "fetch"}
+            reviews[row["id"]] = {"board_id": row["id"], "reviewed": TODAY, "outcome": oc, "fields_not_found": ";".join(fnf), "note": clean(rv.get("note"), 240), "method": mth if mth in ("fetch", "browser", "mixed", "chrome") else "fetch"}
             stats["reviews"] += 1
         if mode == "verify":
             for q in d.get("blocked", []):

@@ -1,0 +1,478 @@
+{
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Indeed",
+   "url": "https://www.indeed.com",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403",
+    "HTTP 403 (retried once)"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "Recruit Co. Ltd.",
+    "primary_language": "en",
+    "languages_supported": "en;es;fr;de;it;pt;nl;pl;sv;da;no;fi;ja;ko;zh;ar;tr",
+    "business_model": "PPC/sponsored",
+    "api_status": "partner-only",
+    "api_docs_url": "https://docs.indeed.com",
+    "partner_program": "yes",
+    "partner_url": "https://docs.indeed.com",
+    "ingest_methods": "XML feed;Indeed Apply;ATS partner integration;crawl"
+   }
+  },
+  {
+   "name": "104 Job Bank",
+   "url": "http://www.104.com.tw/",
+   "why": "refused automated access",
+   "blocked_before": [
+    "Fetch returned HTTP 403 and the browser reader shows a Cloudflare security check",
+    "HTTP 403 in fetch; Cloudflare challenge in browser reader (blocked: true)"
+   ],
+   "recorded": {
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "51job",
+   "url": "https://www.51job.com",
+   "why": "no fact yet sourced from its own site",
+   "blocked_before": [],
+   "recorded": {
+    "hq_country": "CN",
+    "parent": "Recruit Holdings",
+    "primary_language": "zh",
+    "languages_supported": "zh",
+    "business_model": "subscription",
+    "api_status": "none-known",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "CareerBuilder",
+   "url": "https://www.careerbuilder.com",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403"
+   ],
+   "recorded": {
+    "hq_country": "PR",
+    "parent": "BOLD Holdings",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "subscription",
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "HeadHunter (hh.ru)",
+   "url": "https://hh.ru",
+   "why": "no fact yet sourced from its own site",
+   "blocked_before": [],
+   "recorded": {
+    "hq_country": "RU",
+    "parent": "HeadHunter Group",
+    "primary_language": "ru",
+    "languages_supported": "ru;en;kk",
+    "business_model": "subscription",
+    "api_status": "public-key",
+    "api_docs_url": "https://api.hh.ru",
+    "partner_program": "yes",
+    "partner_url": "https://dev.hh.ru",
+    "ingest_methods": "REST API (OAuth)"
+   }
+  },
+  {
+   "name": "Monster",
+   "url": "https://www.monster.com",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403"
+   ],
+   "recorded": {
+    "hq_country": "PR",
+    "parent": "BOLD Holdings",
+    "primary_language": "en",
+    "languages_supported": "en;fr;de;nl;it",
+    "business_model": "subscription",
+    "api_status": "partner-only",
+    "partner_program": "yes",
+    "ingest_methods": "XML feed;partner API"
+   }
+  },
+  {
+   "name": "Rikunabi",
+   "url": "https://www.rikunabi.com",
+   "why": "no fact yet sourced from its own site",
+   "blocked_before": [],
+   "recorded": {
+    "hq_country": "JP",
+    "parent": "Recruit Holdings",
+    "primary_language": "ja",
+    "languages_supported": "ja",
+    "business_model": "subscription",
+    "api_status": "none-known",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "SEEK",
+   "url": "https://www.seek.com.au",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403 on two attempts"
+   ],
+   "recorded": {
+    "hq_country": "AU",
+    "parent": "SEEK",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "subscription",
+    "api_status": "partner-only",
+    "api_docs_url": "https://developer.seek.com",
+    "partner_program": "yes",
+    "partner_url": "https://developer.seek.com",
+    "ingest_methods": "Posting API (GraphQL);Apply;ATS partners"
+   }
+  },
+  {
+   "name": "SimplyHired",
+   "url": "https://www.simplyhired.com",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "Recruit Holdings",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "PPC",
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "Zhaopin",
+   "url": "https://www.zhaopin.com",
+   "why": "no fact yet sourced from its own site",
+   "blocked_before": [],
+   "recorded": {
+    "hq_country": "CN",
+    "primary_language": "zh",
+    "languages_supported": "zh",
+    "business_model": "subscription",
+    "api_status": "none-known",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "ZipRecruiter",
+   "url": "https://www.ziprecruiter.com",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "primary_language": "en",
+    "languages_supported": "en;fr;de",
+    "business_model": "subscription+PPC",
+    "api_status": "partner-only",
+    "partner_program": "yes",
+    "ingest_methods": "XML feed;partner API;ATS integration"
+   }
+  },
+  {
+   "name": "Adzuna",
+   "url": "https://www.adzuna.com",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403"
+   ],
+   "recorded": {
+    "hq_country": "UK",
+    "primary_language": "en",
+    "languages_supported": "en;de;fr;nl;pl;pt;es;it",
+    "business_model": "PPC",
+    "api_status": "public-key",
+    "api_docs_url": "https://developer.adzuna.com",
+    "partner_program": "yes",
+    "partner_url": "https://developer.adzuna.com",
+    "ingest_methods": "REST API (key);XML feed;crawl"
+   }
+  },
+  {
+   "name": "CV-Library",
+   "url": "https://www.cv-library.co.uk",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403 on API page; one attempt, not retried. Board homepage read normally."
+   ],
+   "recorded": {
+    "hq_country": "UK",
+    "parent": "Lee Biggins",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "subscription",
+    "api_status": "partner-only",
+    "api_docs_url": "https://www.cv-library.co.uk/developers",
+    "partner_program": "yes",
+    "ingest_methods": "API;XML feed"
+   }
+  },
+  {
+   "name": "Catho",
+   "url": "https://www.catho.com.br",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403 (two attempts)"
+   ],
+   "recorded": {
+    "hq_country": "BR",
+    "primary_language": "pt",
+    "languages_supported": "pt",
+    "business_model": "subscription",
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "InfoJobs",
+   "url": "https://www.infojobs.net",
+   "why": "no fact yet sourced from its own site",
+   "blocked_before": [],
+   "recorded": {
+    "hq_country": "ES",
+    "parent": "Adevinta Group",
+    "primary_language": "es",
+    "languages_supported": "es;ca;it",
+    "business_model": "subscription",
+    "api_status": "partner-only",
+    "api_docs_url": "https://developer.infojobs.net",
+    "partner_program": "yes",
+    "partner_url": "https://developer.infojobs.net",
+    "ingest_methods": "REST API (OAuth)"
+   }
+  },
+  {
+   "name": "Jobat",
+   "url": "https://www.jobat.be",
+   "why": "refused automated access",
+   "blocked_before": [
+    "Fetch failed and the browser reader returned HTTP 403 with a Cloudflare block an",
+    "Fetch failed; HTTP 403 Cloudflare block in browser reader (blocked: true)"
+   ],
+   "recorded": {
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "Jobrapido",
+   "url": "https://www.jobrapido.com",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403"
+   ],
+   "recorded": {
+    "hq_country": "IT",
+    "parent": "Recruit Holdings",
+    "primary_language": "it",
+    "languages_supported": "it;en;es;fr;de;pt;nl;pl",
+    "business_model": "PPC",
+    "api_status": "unknown",
+    "partner_program": "yes",
+    "ingest_methods": "XML feed;crawl"
+   }
+  },
+  {
+   "name": "Jobscan",
+   "url": "https://www.jobscan.co",
+   "why": "refused automated access",
+   "blocked_before": [
+    "Browser reader returned a Cloudflare challenge page with HTTP 403 and flagged bl",
+    "HTTP 403 Cloudflare challenge in browser reader"
+   ],
+   "recorded": {
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "Naukri",
+   "url": "https://www.naukri.com",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403"
+   ],
+   "recorded": {
+    "hq_country": "IN",
+    "parent": "Info Edge",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "subscription",
+    "api_status": "partner-only",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "Resume.io",
+   "url": "https://resume.io",
+   "why": "refused automated access",
+   "blocked_before": [
+    "Fetch returned page text, but the browser reader returned HTTP 403 with blocked ",
+    "HTTP 403 in browser reader; blocked true"
+   ],
+   "recorded": {
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "Saramin",
+   "url": "https://www.saramin.co.kr",
+   "why": "no fact yet sourced from its own site",
+   "blocked_before": [],
+   "recorded": {
+    "hq_country": "KR",
+    "parent": "HR Corp",
+    "primary_language": "ko",
+    "languages_supported": "ko",
+    "business_model": "subscription",
+    "api_status": "public-key",
+    "api_docs_url": "https://oapi.saramin.co.kr",
+    "partner_program": "unknown",
+    "ingest_methods": "Open API"
+   }
+  },
+  {
+   "name": "Totaljobs",
+   "url": "https://www.totaljobs.com",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 503"
+   ],
+   "recorded": {
+    "hq_country": "UK",
+    "parent": "StepStone Group",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "subscription",
+    "api_status": "partner-only",
+    "partner_program": "yes",
+    "ingest_methods": "XML feed;partner API"
+   }
+  },
+  {
+   "name": "We Work Remotely",
+   "url": "https://weworkremotely.com",
+   "why": "no fact yet sourced from its own site",
+   "blocked_before": [],
+   "recorded": {
+    "hq_country": "US",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "paid listings",
+    "api_status": "public-open",
+    "api_docs_url": "https://weworkremotely.com/remote-job-rss-feed",
+    "partner_program": "n/a",
+    "ingest_methods": "RSS feeds"
+   }
+  },
+  {
+   "name": "mandy.com",
+   "url": "https://www.mandy.com/",
+   "why": "refused automated access",
+   "blocked_before": [
+    "Fetch returned HTTP 403 (Cloudflare block); browser reader returned status 403 w",
+    "HTTP 403 Cloudflare block in fetch and in the browser reader (blocked: true)"
+   ],
+   "recorded": {
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "foundit",
+   "url": "https://www.foundit.in",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403"
+   ],
+   "recorded": {
+    "hq_country": "IN",
+    "parent": "Quess",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "subscription",
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403",
+    "HTTP 429"
+   ],
+   "recorded": {
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "Glassdoor",
+   "url": "https://www.glassdoor.com",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "Recruit Holdings",
+    "primary_language": "en",
+    "languages_supported": "en;fr;de;es;it;pt;nl;ja",
+    "business_model": "PPC",
+    "api_status": "partner-only",
+    "partner_program": "yes",
+    "ingest_methods": "Via Indeed feeds/partners"
+   }
+  },
+  {
+   "name": "Subito",
+   "url": "https://www.subito.it/",
+   "why": "refused automated access",
+   "blocked_before": [
+    "HTTP 403 (retried once)"
+   ],
+   "recorded": {
+    "api_status": "unknown",
+    "partner_program": "unknown"
+   }
+  },
+  {
+   "name": "XING Jobs",
+   "url": "https://www.xing.com/jobs",
+   "why": "refused automated access",
+   "blocked_before": [
+    "Fetch refused by tool"
+   ],
+   "recorded": {
+    "hq_country": "DE",
+    "parent": "Hubert Burda Media",
+    "primary_language": "de",
+    "languages_supported": "de;en",
+    "business_model": "subscription",
+    "api_status": "partner-only",
+    "partner_program": "yes",
+    "ingest_methods": "partner API"
+   }
+  }
+ ]
+}
