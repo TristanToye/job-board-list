@@ -1,0 +1,59 @@
+# Subscription
+
+Employers pay a recurring fee or plan. 53 entries in the directory.
+
+- [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
+- [51job](https://jobboardlist.com/boards/51job/): board, No known API
+- [HeadHunter (hh.ru)](https://jobboardlist.com/boards/hh-ru/): board, Self-serve API key
+- [Zhaopin](https://jobboardlist.com/boards/zhaopin/): board, No known API
+- [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board
+- [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
+- [BOSS Zhipin](https://jobboardlist.com/boards/boss-zhipin/): board+chat, No known API
+- [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
+- [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
+- [Rikunabi](https://jobboardlist.com/boards/rikunabi/): board, No known API
+- [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Partner-only API
+- [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
+- [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
+- [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
+- [Naukri](https://jobboardlist.com/boards/naukri/): board, Partner-only API
+- [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
+- [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
+- [Hellowork](https://jobboardlist.com/boards/hellowork/): board
+- [Saramin](https://jobboardlist.com/boards/saramin/): board, Self-serve API key
+- [JobStreet](https://jobboardlist.com/boards/jobstreet/): board, Partner-only API
+- [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Partner-only API
+- [Bayt](https://jobboardlist.com/boards/bayt/): board
+- [JobKorea](https://jobboardlist.com/boards/jobkorea/): board
+- [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
+- [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
+- [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
+- [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
+- [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
+- [Catho](https://jobboardlist.com/boards/catho/): board
+- [GulfTalent](https://jobboardlist.com/boards/gulftalent/): board
+- [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
+- [NaukriGulf](https://jobboardlist.com/boards/naukrigulf/): board
+- [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
+- [OCC Mundial](https://jobboardlist.com/boards/occ-mundial/): board
+- [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
+- [foundit](https://jobboardlist.com/boards/foundit/): board
+- [PNet](https://jobboardlist.com/boards/pnet/): board
+- [Wanted](https://jobboardlist.com/boards/wanted/): board
+- [Jobberman](https://jobboardlist.com/boards/jobberman/): board
+- [Kalibrr](https://jobboardlist.com/boards/kalibrr/): board
+- [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
+- [Careers24](https://jobboardlist.com/boards/careers24/): board
+- [BrighterMonday](https://jobboardlist.com/boards/brightermonday/): board
+- [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
+- [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
+- [Jobs.ca](https://jobboardlist.com/boards/jobs-ca/): board, No known API
+- [Bumeran](https://jobboardlist.com/boards/bumeran/): board
+- [Mynavi](https://jobboardlist.com/boards/mynavi/): board, No known API
+- [The Muse](https://jobboardlist.com/boards/themuse/): board+employer-brand, Self-serve API key
+- [FINN.no Jobs](https://jobboardlist.com/boards/finn-no/): classifieds+board, Partner-only API
+- [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
+- [XING Jobs](https://jobboardlist.com/boards/xing/): social-network+board, Partner-only API
+- [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
+
+Canonical page: https://jobboardlist.com/tags/subscription/

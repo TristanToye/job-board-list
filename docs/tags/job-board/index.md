@@ -1,0 +1,86 @@
+# Job board
+
+A site where employers post jobs and candidates search and apply. 220 entries in the directory.
+
+- [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
+- [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
+- [51job](https://jobboardlist.com/boards/51job/): board, No known API
+- [HeadHunter (hh.ru)](https://jobboardlist.com/boards/hh-ru/): board, Self-serve API key
+- [Zhaopin](https://jobboardlist.com/boards/zhaopin/): board, No known API
+- [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board
+- [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
+- [Idealist](https://jobboardlist.com/boards/idealist/): niche-board
+- [USAJOBS](https://jobboardlist.com/boards/usajobs/): government, Self-serve API key
+- [BOSS Zhipin](https://jobboardlist.com/boards/boss-zhipin/): board+chat, No known API
+- [104 Job Bank](https://jobboardlist.com/boards/104-job-bank/): board
+- [Wellfound](https://jobboardlist.com/boards/wellfound/): niche-board, No known API
+- [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
+- [Mediabistro](https://jobboardlist.com/boards/mediabistro/): board
+- [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
+- [Rikunabi](https://jobboardlist.com/boards/rikunabi/): board, No known API
+- [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government
+- [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Partner-only API
+- [Cake (CakeResume)](https://jobboardlist.com/boards/cake-cakeresume/): board
+- [lavoro.gov.it (Ministry of Labour)](https://jobboardlist.com/boards/lavoro-gov-it-ministry-of-labour/): government
+- [Prospects](https://jobboardlist.com/boards/prospects/): niche-board
+- [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
+- [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
+- [SEPE (Servicio Público de Empleo Estatal)](https://jobboardlist.com/boards/sepe-servicio-p-blico-de-empleo-estatal/): government
+- [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
+- [Naukri](https://jobboardlist.com/boards/naukri/): board, Partner-only API
+- [We Work Remotely](https://jobboardlist.com/boards/weworkremotely/): niche-board, Open API (no key)
+- [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
+- [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
+- [Hellowork](https://jobboardlist.com/boards/hellowork/): board
+- [Saramin](https://jobboardlist.com/boards/saramin/): board, Self-serve API key
+- [doda](https://jobboardlist.com/boards/doda/): board
+- [Snagajob](https://jobboardlist.com/boards/snagajob/): board
+- [JobStreet](https://jobboardlist.com/boards/jobstreet/): board, Partner-only API
+- [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Partner-only API
+- [Remote OK](https://jobboardlist.com/boards/remoteok/): niche-board, Open API (no key)
+- [Bayt](https://jobboardlist.com/boards/bayt/): board
+- [Workopolis](https://jobboardlist.com/boards/workopolis/): board
+- [JobKorea](https://jobboardlist.com/boards/jobkorea/): board
+- [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
+- [HigherEdJobs](https://jobboardlist.com/boards/higheredjobs/): niche-board
+- [Cadremploi](https://jobboardlist.com/boards/cadremploi/): board
+- [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
+- [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
+- [mandy.com](https://jobboardlist.com/boards/mandy-com/): board
+- [Remotive](https://jobboardlist.com/boards/remotive/): niche-board, Open API (no key)
+- [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
+- [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
+- [Catho](https://jobboardlist.com/boards/catho/): board
+- [Internshala](https://jobboardlist.com/boards/internshala/): niche-board
+- [Jobat](https://jobboardlist.com/boards/jobat/): board
+- [GulfTalent](https://jobboardlist.com/boards/gulftalent/): board
+- [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
+- [National Career Service](https://jobboardlist.com/boards/national-career-service/): government
+- [CharityJob](https://jobboardlist.com/boards/charityjob/): niche-board
+- [NaukriGulf](https://jobboardlist.com/boards/naukrigulf/): board
+- [Jobware](https://jobboardlist.com/boards/jobware/): board
+- [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
+- [bdjobs.com](https://jobboardlist.com/boards/bdjobs-com/): board
+- [Himalayas](https://jobboardlist.com/boards/himalayas/): niche-board, Open API (no key)
+- [OCC Mundial](https://jobboardlist.com/boards/occ-mundial/): board
+- [AlmaLaurea](https://jobboardlist.com/boards/almalaurea/): niche-board
+- [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
+- [TalentEgg](https://jobboardlist.com/boards/talentegg/): board
+- [eJobs](https://jobboardlist.com/boards/ejobs/): board
+- [Pro Bono Australia Jobs](https://jobboardlist.com/boards/pro-bono-australia-jobs/): niche-board
+- [Profession.hu](https://jobboardlist.com/boards/profession-hu/): board
+- [Canadian Sport (SIRC)](https://jobboardlist.com/boards/sirc-canadian-sport/): niche-board
+- [JobServe](https://jobboardlist.com/boards/jobserve/): board
+- [foundit](https://jobboardlist.com/boards/foundit/): board
+- [Daijob.com](https://jobboardlist.com/boards/daijob-com/): board
+- [Green](https://jobboardlist.com/boards/green/): niche-board
+- [PNet](https://jobboardlist.com/boards/pnet/): board
+- [CareerViet](https://jobboardlist.com/boards/careerviet/): board
+- [Jobboom](https://jobboardlist.com/boards/jobboom/): board
+- [Wanted](https://jobboardlist.com/boards/wanted/): board
+- [Workforce Australia](https://jobboardlist.com/boards/workforce-australia/): government
+- [Jobberman](https://jobboardlist.com/boards/jobberman/): board
+- [Meteojob](https://jobboardlist.com/boards/meteojob/): board
+- [CareerBeacon](https://jobboardlist.com/boards/careerbeacon/): board
+
+Canonical page: https://jobboardlist.com/tags/job-board/

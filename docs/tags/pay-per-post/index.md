@@ -1,0 +1,13 @@
+# Pay per post
+
+Employers pay for each job posting. 7 entries in the directory.
+
+- [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
+- [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
+- [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
+- [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
+- [Berlin Startup Jobs](https://jobboardlist.com/boards/berlin-startup-jobs/): niche-board
+- [Careers.Indigenous.Link](https://jobboardlist.com/boards/careers-indigenous-link/): niche-board, No known API
+- [Yakka](https://jobboardlist.com/boards/yakka/): niche-board, No known API
+
+Canonical page: https://jobboardlist.com/tags/pay-per-post/

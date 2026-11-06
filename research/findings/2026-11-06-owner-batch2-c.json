@@ -1,0 +1,70 @@
+{
+  "mode": "ownership",
+  "owners": [
+    {
+      "name": "Quess Corp",
+      "url": "https://www.quesscorp.com",
+      "country": "IN",
+      "holdings": []
+    },
+    {
+      "name": "Kanzhun Limited",
+      "url": "https://ir.kanzhun.com",
+      "country": "CN",
+      "holdings": [
+        {
+          "name": "BOSS Zhipin",
+          "url": "https://www.zhipin.com",
+          "relation": "brand",
+          "category": "job-board",
+          "sources": [
+            {"field": "brand", "url": "https://en.wikipedia.org/wiki/BOSS_Zhipin", "title": "BOSS Zhipin - Wikipedia (lead section)", "quote": "through its mobile app, Boss Zhipin"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HeadHunter Group",
+      "url": "https://hh.ru",
+      "country": "RU",
+      "holdings": [
+        {
+          "name": "Zarplata.ru",
+          "relation": "subsidiary",
+          "stake": "100",
+          "category": "job-board",
+          "sources": [
+            {"field": "holding", "url": "https://investor.hh.ru", "title": "HeadHunter investor relations (company timeline)", "quote": "Приобретение 100% платформы по поиску работу «Зарплата.ру»"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grupa Pracuj",
+      "url": "https://www.grupapracuj.pl",
+      "country": "PL",
+      "holdings": []
+    }
+  ],
+  "blocked": [
+    {"url": "https://ir.kanzhun.com", "reason": "DNS error (getaddrinfo ENOTFOUND); one attempt, not retried"},
+    {"url": "https://www.quesscorp.com", "reason": "HTTP 307 Temporary Redirect with no body on every path tried (/, /en, /about-us, apex domain); no Quess page could be read"}
+  ],
+  "queue": [
+    {"name": "foundit", "owner": "Quess Corp", "category": "job-board", "note": "Quess acquired Monster India in January 2018 per a search snippet of a draft wiki page; no owner or Wikipedia page read. Not quoted."},
+    {"name": "Bluspring Enterprises Limited", "owner": "Quess Corp", "category": "other-hr", "note": "Wholly owned subsidiary incorporated 11 Feb 2024 per marketscreener; page describes it as an operating asset management and technology business, so HR category not established. Not quoted for HR."},
+    {"name": "Skillaz", "owner": "HeadHunter Group", "category": "hr-tech", "note": "Timeline states HeadHunter acquires a stake (\"HeadHunter приобретает долю в Skillaz\") with no percentage and no minority or majority wording; relation not determinable."},
+    {"name": "Dream Job", "owner": "HeadHunter Group", "category": "other-hr", "note": "Timeline states \"HeadHunter инвестировал в Dream Job, платформу отзывов о работодателях\"; no stake percentage, so relation not determinable."},
+    {"name": "hh.ru", "owner": "HeadHunter Group", "url": "https://hh.ru", "category": "job-board", "note": "Operator named only in the copyright line \"© 2026 ООО «Хэдхантер»\" on hh.ru; no sentence states the holding relationship."},
+    {"name": "pracuj.pl (Pracuj.pl)", "owner": "Grupa Pracuj", "url": "https://www.grupapracuj.pl", "category": "job-board", "note": "Listed under the heading \"Nasze marki\" (our brands) without a relationship sentence."},
+    {"name": "robota.ua", "owner": "Grupa Pracuj", "category": "job-board", "note": "Listed under \"Nasze marki\" on ir.grupapracuj.pl and grupapracuj.pl; no relationship sentence."},
+    {"name": "theprotocol (the:protocol)", "owner": "Grupa Pracuj", "category": "job-board", "note": "Listed under \"Nasze marki\"; no relationship sentence."},
+    {"name": "nofluffjobs", "owner": "Grupa Pracuj", "category": "job-board", "note": "Listed under \"Nasze marki\" on ir.grupapracuj.pl only; no relationship sentence."},
+    {"name": "eRecruiter", "owner": "Grupa Pracuj", "category": "hr-tech", "note": "Listed under \"Nasze marki\"; no relationship sentence. Executive bio titles reference it but do not state ownership."},
+    {"name": "softgarden", "owner": "Grupa Pracuj", "category": "hr-tech", "note": "Listed under \"Nasze marki\"; no relationship sentence."},
+    {"name": "Kadromierz", "owner": "Grupa Pracuj", "category": "hr-tech", "note": "Listed under \"Nasze marki\"; no relationship sentence."},
+    {"name": "worksmile", "owner": "Grupa Pracuj", "category": "hr-tech", "note": "Listed under \"Nasze marki\" on grupapracuj.pl; no relationship sentence."},
+    {"name": "absence", "owner": "Grupa Pracuj", "category": "hr-tech", "note": "Listed under \"Nasze marki\"; no relationship sentence."},
+    {"name": "Elevato", "owner": "Grupa Pracuj (via eRecruiter)", "category": "hr-tech", "note": "ir.grupapracuj.pl headline \"eRecruiter przejmuje Elevato i wzmacnia działalność w obszarze HR Software\" (dated 30.10.2026). Acquirer is eRecruiter, not stated as a direct Grupa Pracuj holding; deal status not confirmed."}
+  ]
+}

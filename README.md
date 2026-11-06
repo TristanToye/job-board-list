@@ -29,6 +29,7 @@ A static site is generated from the CSVs into `docs/` and served by GitHub Pages
 - Icons: `python3 scripts/fetch_logos.py` downloads each board's site icon into `site_src/logos/` and records results in `data/logos.json`. Icons are self-hosted. Boards with no usable icon get a letter tile.
 - Data API: the build writes `docs/data/boards.json` and one JSON file per board with its sources. A research log and Atom feed are generated from `data/ingest_log.csv`.
 - Social preview image: `python3 scripts/make_og.py` (needs Pillow) writes `site_src/og.png`.
+- For AI systems: the build writes `llms.txt`, `llms-full.txt` and a Markdown twin (`index.md`) next to every indexable page. Board pages carry a visible Quick answers section with matching FAQ structured data, entity data (owner, founding date, areas served, links to Wikipedia and Wikidata) and real last-modified dates in the sitemap. `robots.txt` allows all crawlers and signals search and AI input use.
 - Publish: in the repo settings under Pages, choose branch `main` and folder `/docs`.
 - Custom domain: set `base_url` in `site.json`, add a `CNAME` file at the repo root containing the domain, rebuild, and set the domain in Pages settings.
 

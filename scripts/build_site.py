@@ -34,7 +34,7 @@ API_BLURB = {
  "none-known":"Boards with no publicly documented API that we could identify. Access is typically by crawling or by employer feed.",
  "unknown":"Boards where API availability has not yet been researched."}
 
-def tdesc(b): return {"government":"government job site"}.get(b["type"], b["type"])
+def tdesc(b): return {"government":"government job site"}.get(b["type"], b["type"].replace("+", " and ").replace("-", " "))
 def article(w): return "an" if w[:1].lower() in "aeiou" else "a"
 def e(s): return html.escape(str(s), quote=True)
 def slug(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")
@@ -115,7 +115,7 @@ if OUT.exists(): shutil.rmtree(OUT)  # start clean so renamed or removed pages a
 OUT.mkdir(parents=True, exist_ok=True)
 pages = []  # (path, lastmod)
 
-def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False):
+def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False, md=False):
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     nav = (f'<a href="{r}">Directory</a><a href="{r}tags/">Types</a><a href="{r}rankings/">Rankings</a><a href="{r}owners/">Owners</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
@@ -140,7 +140,7 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="",
 <meta property="og:url" content="{e(BASE + canonical)}">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="og:image" content="{e(BASE)}/assets/og.png">
-<link rel="alternate" type="application/atom+xml" title="{e(NAME)} research log" href="{r}feed.xml">{'<meta name="robots" content="noindex,follow">' if noindex else ""}
+<link rel="alternate" type="application/atom+xml" title="{e(NAME)} research log" href="{r}feed.xml">{'<meta name="robots" content="noindex,follow">' if noindex else ""}{'<link rel="alternate" type="text/markdown" href="index.md">' if md else ""}
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Cpath d='M8 22V10h4a4 4 0 0 1 0 8H8' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="{r}assets/style.css">{extra_head}{ld}</head>
 <body><header class="top"><div class="wrap bar"><a class="brand" href="{r}">{e(NAME)}</a><nav>{nav}</nav></div></header>
@@ -150,10 +150,13 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="",
 Data is a work in progress and may be wrong: see <a href="{r}about/">methodology</a>. Web rank data: <a href="https://majestic.com/reports/majestic-million" rel="noopener nofollow">Majestic Million</a>, CC BY 3.0. Last built {TODAY}.</p></footer>
 </body></html>"""
 
-def write(rel, content, lastmod=True, indexed=True):
+MD_PAGES = []  # (kind, path, markdown) for pages that have a Markdown twin, used for llms-full.txt
+def write(rel, content, lastmod=True, indexed=True, mod=None, md=None, kind=""):
     p = OUT / rel; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(content, encoding="utf-8")
     if lastmod and indexed and rel.endswith("index.html"):
-        pages.append("/" + rel[:-len("index.html")])
+        pages.append(("/" + rel[:-len("index.html")], mod or TODAY))
+    if md is not None and indexed and rel.endswith("index.html"):
+        p.with_name("index.md").write_text(md, encoding="utf-8"); MD_PAGES.append((kind, "/" + rel[:-len("index.html")], md))
 
 INFO_FIELDS = ["hq_country", "founded", "parent", "business_model", "api_docs_url", "partner_url", "ingest_methods", "primary_language"]
 def facts(b):
@@ -264,6 +267,17 @@ for b in boards:
                  f'{fact("Recorded reach", f"So far we have recorded {nctry} countries and {nlang} languages (incomplete, especially for global boards)" if nctry or nlang else "Not recorded")}'
                  f'{fact("Self-reported scale", "<ul class=\"plain\">" + scale_li + "</ul>") if scale_li else ""}</dl>'
                  f'<p class="muted small">Rank source: Majestic Million, list of {e(RANK_DATE)}, licensed CC BY 3.0. It measures how widely a site is linked to, not how many jobs or visitors it has. <a href="{r}about/#prominence">How prominence is measured</a>.</p>')
+    qn = b["name"]; hedge = " This has not yet been verified against the board's own site." if b["confidence"] == "seed-unverified" else ""
+    faq = [(f"What is {qn}?", f'{qn} is {article(tdesc(b))} {tdesc(b)}' + (f' based in {country(b["hq_country"])}' if b["hq_country"] else "") + (f', focused on {b["niche"]}' if b["niche"] and b["niche"] != "general" else "") + "." + (f' It was founded in {b["founded"]}.' if b["founded"] else ""))]
+    _own = [h for h in {x["owner_id"]: x for x in reversed(HOLD_BY_BOARD.get(b["id"], []))}.values() if h["owner_id"] in OWNERS]
+    if _own: faq.append((f"Who owns {qn}?", f'According to this directory, {qn} is owned by {OWNERS[_own[0]["owner_id"]]["name"]} ({hold_phrase(_own[0]).lower()}).'))
+    elif b["parent"]: faq.append((f"Who owns {qn}?", f'This directory records the parent of {qn} as {b["parent"]}.' + hedge))
+    if b["api_status"] != "unknown": faq.append((f"Does {qn} have an API?", f'According to this directory, {qn} {api_text}.' + (f' Documentation: {b["api_docs_url"] or b["partner_url"]}.' if (b["api_docs_url"] or b["partner_url"]) else "") + hedge))
+    if langs_of(b): faq.append((f"Which languages does {qn} support?", f'This directory records {qn} as supporting {", ".join(lang(c) for c in langs_of(b))}.' + hedge))
+    if p["group"] == 0: faq.append((f"How large is {qn}?", f'{qn} ranks #{p["g"]:,} among all websites by web link popularity (Majestic Million, {RANK_DATE}), in the {p["tier"]} tier. This measures how widely the site is linked to, not traffic or job volume.'))
+    if SCALE.get(b["id"]): _sc = SCALE[b["id"]][0]; faq.append((f"How many jobs does {qn} list?" if _sc["metric"] == "jobs_listed" else f"What scale does {qn} report?", f'{qn} reports {int(_sc["value"]):,} {_sc["unit"]} on its own site (as of {_sc["as_of"]}).'))
+    faq_html = '<section class="faq"><h2>Quick answers</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in faq) + "</section>"
+    mod_date = max([x["accessed"] for x in srcs if x.get("accessed")], default=TODAY)
     sources_html = ""
     if srcs:
         sources_html = ("<h2>Sources</h2><ol class=\"sources\">" + "".join(
@@ -283,6 +297,7 @@ for b in boards:
 {f'<h2>Notes</h2><p>{e(b["notes"])}</p>' if b["notes"] else ""}
 <p class="muted small">{e(b["name"])} and its logo are trademarks of their respective owners. Icons are shown for identification only and do not imply affiliation or endorsement.</p>
 {prom_html}
+{faq_html}
 {sources_html}
 <p class="notice">Only facts listed under Sources have been checked, and a listing by another directory only shows a board exists. Everything else on this page is unverified. <a href="{r}about/">How we research</a>.</p>
 {"<h2>Other boards in " + e(b["region"]) + "</h2><ul>" + "".join(f'<li><a href="{r}boards/{x["id"]}/">{e(x["name"])}</a></li>' for x in siblings) + "</ul>" if siblings else ""}"""
@@ -292,9 +307,27 @@ for b in boards:
       {"@type":"ListItem","position":3,"name":b["name"]}]}
     org = {"@context":"https://schema.org","@type":"Organization","name":b["name"],"url":b["url"]}
     if logo_info(b): org["logo"] = f'{BASE}/assets/logos/{logo_info(b)["file"]}'
-    ld = [ld, org]
+    org["description"] = faq[0][1]
+    if b["founded"]: org["foundingDate"] = b["founded"]
+    if b["id"] in PARENT_OWNER and PARENT_OWNER[b["id"]] in OWNERS: org["parentOrganization"] = {"@type": "Organization", "name": OWNERS[PARENT_OWNER[b["id"]]]["name"], "url": f'{BASE}/owners/{PARENT_OWNER[b["id"]]}/'}
+    if split(b["countries_served"]): org["areaServed"] = [country(c) for c in split(b["countries_served"])]
+    if langs_of(b): org["knowsLanguage"] = langs_of(b)
+    org["sameAs"] = list(dict.fromkeys([b["url"]] + [x["url"] for x in srcs if "wikipedia.org" in x["url"] or "wikidata.org" in x["url"]]))
+    webpage = {"@context": "https://schema.org", "@type": "WebPage", "name": f'{b["name"]}: API, partner program and integration details', "url": f'{BASE}/boards/{b["id"]}/', "dateModified": mod_date,
+               "isPartOf": {"@type": "WebSite", "name": NAME, "url": BASE + "/"}, "about": {"@type": "Organization", "name": b["name"]}}
+    faqld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}
+    ld = [ld, org, webpage, faqld]
+    md_b = (f'# {b["name"]}\n\n{faq[0][1]}\n\n' + "\n".join(f"- {k}: {v}" for k, v in [
+        ("Website", b["url"]), ("Headquarters", country(b["hq_country"]) if b["hq_country"] else "not recorded"), ("Founded", b["founded"] or "not recorded"),
+        ("Owner", (OWNERS[_own[0]["owner_id"]]["name"] + " (" + hold_phrase(_own[0]) + ")") if _own else (b["parent"] or "not recorded")),
+        ("Languages", ", ".join(lang(c) for c in langs_of(b)) or "not recorded"), ("API status", API_LABEL.get(b["api_status"], b["api_status"]) + (f' ({b["api_docs_url"]})' if b["api_docs_url"] else "")),
+        ("Partner program", b["partner_program"] or "unknown"), ("Prominence", (f'#{p["g"]:,} globally, tier {p["tier"]}' if p["group"] == 0 else p["label"])),
+        ("Tags", ", ".join(TAX[t]["label"] for t in tags_of("board", b["id"])) or "none"), ("Data status", {"partially-verified": "partly verified against its own site", "secondary-sourced": "secondary sources only", "listed-only": "listed by another directory only"}.get(b["confidence"], "unverified"))] if v)
+        + "\n\n## Quick answers\n\n" + "\n\n".join(f"**{q}** {a}" for q, a in faq[1:])
+        + ("\n\n## Sources\n\n" + "\n".join(f'- [{x["title"] or x["url"]}]({x["url"]}) ({FIELD_LABEL.get(x["field"], x["field"])}, checked {x["accessed"]})' + (f': "{x["quote"]}"' if x.get("quote") else "") for x in srcs) if srcs else "")
+        + f'\n\nCanonical page: {BASE}/boards/{b["id"]}/\nLast updated: {mod_date}\n')
     write(f'boards/{b["id"]}/index.html', layout(2, f'{b["name"]}: API, partner program and integration details | {NAME}',
-      f'{b["name"]} ({b["type"]}{", " + country(b["hq_country"]) if b["hq_country"] else ""}{", " + lang(b["primary_language"]) if b["primary_language"] else ""}): API status, partner program, developer docs and how jobs are ingested.', body, f'/boards/{b["id"]}/', ld, noindex=not indexable(b)), indexed=indexable(b))
+      f'{b["name"]} ({b["type"]}{", " + country(b["hq_country"]) if b["hq_country"] else ""}{", " + lang(b["primary_language"]) if b["primary_language"] else ""}): API status, partner program, developer docs and how jobs are ingested.', body, f'/boards/{b["id"]}/', ld, noindex=not indexable(b), md=indexable(b)), indexed=indexable(b), mod=mod_date, md=md_b, kind="board")
 
 # ---------- group pages (regions, countries, api status) ----------
 def group_pages(kind, label_plural, keyfn, labelfn, blurbfn, titlefn, h1fn):
@@ -327,8 +360,9 @@ for k, v in by_country.items():
     body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">By country</a> / {e(k)}</nav><h1>Job boards in {e(k)}</h1>'
             f'<p class="lede">{len(v)} job boards and aggregators based in or serving {e(k)}: {len(hq)} headquartered there and {sv} based elsewhere that serve it. {nchk} have facts checked against their own pages or official sources.</p>{most_prominent(v)}'
             + table(sorted(v, key=lambda b: b["name"].lower()), "../../"))
+    md_c = (f'# Job boards in {k}\n\n{len(v)} job boards and related entries based in or serving {k}.\n\n' + "\n".join(f'- [{b["name"]}]({BASE}/boards/{b["id"]}/): {b["type"]}' + (f', {prom(b)["tier"]} tier' if prom(b)["tier"] else "") + (f', {API_LABEL[b["api_status"]]}' if b["api_status"] != "unknown" else "") for b in sorted(v, key=skey)[:120]) + f'\n\nCanonical page: {BASE}/countries/{slug(k)}/\n')
     write(f"countries/{slug(k)}/index.html", layout(2, f"Job boards in {k}: APIs, partner programs and sources | {NAME}",
-        f"{len(v)} job boards and aggregators based in or serving {k}, with API access, partner programs and cited sources.", body, f"/countries/{slug(k)}/", itemlist(v, 2), noindex=len(v) < 3), indexed=len(v) >= 3)
+        f"{len(v)} job boards and aggregators based in or serving {k}, with API access, partner programs and cited sources.", body, f"/countries/{slug(k)}/", itemlist(v, 2), noindex=len(v) < 3, md=len(v) >= 3), indexed=len(v) >= 3, md=md_c, kind="country")
 API_TITLE = {"on-request":"Job board APIs and feeds available on request","public-open":"Job boards with an open API","public-key":"Job board APIs with self-serve keys",
   "partner-only":"Partner-only job board APIs and feeds","deprecated":"Job boards with deprecated APIs","none-known":"Job boards with no known API","unknown":"Job boards with unresearched API status"}
 group_pages("api", "API status", lambda b: b["api_status"], lambda k: API_LABEL[k],
@@ -377,6 +411,10 @@ about = f"""<h1>About and methodology</h1><div class="prose">
 <li><strong>Recorded reach:</strong> the number of countries and languages we have recorded for the board. It only counts what we have found, so it understates global boards.</li>
 <li><strong>Self-reported scale:</strong> figures a board publishes about itself, such as jobs listed, with the date read and a quote. They are snapshots and are not comparable between boards.</li></ul>
 <p>Tiers are for orientation, not endorsement.</p>
+<h2 id="cite">How to cite this dataset</h2><p>Cite the page you used and the date you read it, because entries change as research continues. Suggested form:</p>
+<p><code>{e(CFG["author"])}. {e(NAME)}: an open directory of job boards, aggregators, ATS systems and their owners. {e(BASE)}/. Accessed {TODAY}.</code></p>
+<p>Each entry page lists its sources with the date each was read. Machine readable copies: <a href="../data/boards.json">boards.json</a>, <a href="../data/owners.json">owners.json</a>, <a href="../data/taxonomy.json">taxonomy.json</a> and the <a href="../downloads/job_boards.csv">CSV files</a>.</p>
+<h2 id="ai">For AI systems and crawlers</h2><p>An index for language models is at <a href="../llms.txt">llms.txt</a>, and the full text of the main pages is at <a href="../llms-full.txt">llms-full.txt</a>. Every indexable page also has a Markdown version at the same address ending in <code>index.md</code>. Facts marked unverified have not been checked against the board's own site, and statements are attributed to this directory, so please repeat that attribution when quoting.</p>
 <h2>Privacy</h2><p>This site uses Google Analytics to measure traffic. It may set cookies in your browser.</p>\n<h2>Corrections and downloads</h2><p>Spotted something wrong or missing? Open an issue or pull request on the project repository. The full dataset is available as <a href="../downloads/job_boards.csv">CSV</a>, <a href="../downloads/job_boards.json">JSON</a> the <a href="../downloads/sources.csv">sources table</a>, <a href="../downloads/rank.csv">rank data</a> and <a href="../downloads/scale.csv">scale figures</a>.</p></div>"""
 write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}", "How the job board directory is compiled, what each API status means, and how to report corrections.", about, "/about/"))
 
@@ -408,7 +446,9 @@ for t, r in TAX.items():
     if mb: body += table(mb, "../../")
     if ma: body += '<h2>Applicant tracking systems</h2><div class="tablewrap"><table><thead><tr><th>ATS</th><th>Segment</th><th>HQ</th><th>Public job feed</th><th>Partner program</th></tr></thead><tbody>' + "".join(ats_row(a, "../../") for a in ma) + "</tbody></table></div>"
     n = len(mb) + len(ma); idx = n >= 3
-    write(f"tags/{t}/index.html", layout(2, f"{r['label']}: {r['facet']} tag | {NAME}" if r["facet"] != "function" else f"{r['label']}: directory and examples | {NAME}", f"{r['definition']} {n} entries in the directory.", body, f"/tags/{t}/", itemlist(mb, 2) if mb else None, noindex=not idx), indexed=idx)
+    md_t = (f'# {r["label"]}\n\n{r["definition"]} {n} entries in the directory.\n\n' + "\n".join(f'- [{b["name"]}]({BASE}/boards/{b["id"]}/): {b["type"]}' + (f', {API_LABEL[b["api_status"]]}' if b["api_status"] != "unknown" else "") for b in sorted(mb, key=skey)[:80])
+            + ("\n\n## Applicant tracking systems\n\n" + "\n".join(f'- [{a["name"]}]({BASE}/ats/{a["id"]}/): {a["vendor"]}, {a["segment"]}' for a in ma) if ma else "") + f'\n\nCanonical page: {BASE}/tags/{t}/\n')
+    write(f"tags/{t}/index.html", layout(2, f"{r['label']}: {r['facet']} tag | {NAME}" if r["facet"] != "function" else f"{r['label']}: directory and examples | {NAME}", f"{r['definition']} {n} entries in the directory.", body, f"/tags/{t}/", itemlist(mb, 2) if mb else None, noindex=not idx, md=idx), indexed=idx, md=md_t, kind="tag")
 # ---------- owners ----------
 def owner_boards(oid):
     ids = list(dict.fromkeys([h["board_id"] for h in HOLD if h["owner_id"] == oid and h["board_id"] and h["relation"] != "former"] + [i for i, o in PARENT_OWNER.items() if o == oid]))
@@ -453,8 +493,14 @@ for oid, o in OWNERS.items():
           **({"foundingDate": facts_o["founded"]["value"]} if facts_o.get("founded") else {}),
           **({"address": {"@type": "PostalAddress", "addressCountry": facts_o["hq_country"]["value"].replace("UK", "GB")}} if facts_o.get("hq_country") else {})}
     idx = len(cur) >= 3 or bool(facts_o)
+    md_o = (f'# {o["name"]}: HR holdings\n\n' + (f'{facts_o["description"]["value"]} (own description, {facts_o["description"]["source_url"]})\n\n' if facts_o.get("description") else "")
+            + "\n".join(f'- {lbl}: {facts_o[k]["value"]}' for k, lbl in (("hq_city", "Headquarters city"), ("hq_country", "Headquarters country"), ("founded", "Founded"), ("listing", "Listing"), ("employees", "Employees"), ("revenue", "Revenue")) if facts_o.get(k))
+            + (f'\n\n## Job boards in this directory\n\n' + "\n".join(f'- [{b["name"]}]({BASE}/boards/{b["id"]}/) ({b["type"]})' for b in ob) if ob else "")
+            + (f'\n\n## Holdings\n\n' + "\n".join(f'- {h["holding_name"]}: {hold_phrase(h)}; {CAT_LABEL[h["category"]]}. Source: {h["source_url"]} "{h["quote"]}"' for h in cur if h["category"] in CAT_LABEL) if cur else "")
+            + (f'\n\n## Formerly owned\n\n' + "\n".join(f'- {h["holding_name"]}: {h["quote"]} ({h["source_url"]})' for h in former) if former else "")
+            + f'\n\nCanonical page: {BASE}/owners/{oid}/\n')
     write(f"owners/{oid}/index.html", layout(2, f"{o['name']}: job boards and other HR businesses owned | {NAME}",
-        f"What {o['name']} owns in the HR space: {nb} job boards in this directory plus staffing, HR technology and other holdings, with cited sources.", body, f"/owners/{oid}/", ld, noindex=not idx), indexed=idx)
+        f"What {o['name']} owns in the HR space: {nb} job boards in this directory plus staffing, HR technology and other holdings, with cited sources.", body, f"/owners/{oid}/", ld, noindex=not idx, md=idx), indexed=idx, md=md_o, kind="owner")
     owner_rows.append((oid, o, len(cur), nb))
 if owner_rows:
     li = "".join(f'<li><a href="{e(oid)}/">{e(o["name"])}</a> <span class="muted">({n} HR holdings, {nb} job boards here)</span></li>' for oid, o, n, nb in sorted(owner_rows, key=lambda x: -x[2]))
@@ -492,8 +538,42 @@ write("changelog/index.html", layout(1, f"Research log and changelog | {NAME}", 
 entries = "".join(f'<entry><id>tag:{BASE.split("//")[-1].split("/")[0]},{x["date"]}:run{i}</id><title>Research run {e(x["date"])}: {e(x["added"])} boards added, {e(x["merged"])} merged</title><updated>{e(x["date"])}T00:00:00Z</updated><link href="{e(BASE)}/changelog/"/><summary>{e(x["rejected"])} items rejected, {e(x["conflicts"])} conflicts logged.</summary></entry>' for i, x in enumerate(reversed(log)))
 (OUT/"feed.xml").write_text(f'<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><id>{e(BASE)}/</id><title>{e(NAME)} research log</title><updated>{TODAY}T00:00:00Z</updated><link href="{e(BASE)}/feed.xml" rel="self"/><link href="{e(BASE)}/changelog/"/>{entries}</feed>', encoding="utf-8")
 if (ROOT/"site_src"/"og.png").exists(): shutil.copy(ROOT/"site_src"/"og.png", OUT/"assets"/"og.png")
-(OUT/"robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
-sm = "".join(f"<url><loc>{e(BASE + p)}</loc><lastmod>{TODAY}</lastmod></url>" for p in sorted(pages))
+# ---------- AI-facing files ----------
+order = {"board": 0, "owner": 1, "tag": 2, "country": 3}
+n_idx = {k: sum(1 for kk, _, _ in MD_PAGES if kk == k) for k in order}
+llms = f"""# {NAME}
+
+> {CFG["tagline"]}. {len(boards)} entries (job boards, aggregators, staffing firms, labour market information sources and other HR services), {len(ats)} applicant tracking systems and {len(OWNERS)} owner companies, each with cited sources. Updated {TODAY}.
+
+Notes for readers and models: facts are attributed to this directory and carry the date they were checked. Entries marked unverified have not been checked against the board's own site. Prominence uses Majestic Million web link popularity (CC BY 3.0), which measures how widely a site is linked to, not traffic. Every indexable page has a Markdown version at the same address ending in index.md.
+
+## Start here
+- [Directory home]({BASE}/): searchable table with filters for type, focus, API access, language and prominence
+- [Types of job sites, explained]({BASE}/tags/): definitions and lists for job boards, aggregators, ATS, staffing, outplacement and labour market information
+- [Largest job boards by web link popularity]({BASE}/rankings/)
+- [Who owns the job boards]({BASE}/owners/): parent companies with profiles and holdings
+- [Job boards by country]({BASE}/countries/)
+- [Methodology and how to cite]({BASE}/about/)
+
+## Data
+- [All entries as JSON with sources]({BASE}/data/boards.json)
+- [Owners and holdings as JSON]({BASE}/data/owners.json)
+- [Taxonomy as JSON]({BASE}/data/taxonomy.json)
+- [Entries as CSV]({BASE}/downloads/job_boards.csv)
+- [Sources as CSV]({BASE}/downloads/sources.csv)
+
+## Optional
+- [Full text of the main pages]({BASE}/llms-full.txt)
+- [Research log]({BASE}/changelog/)
+- [Atom feed]({BASE}/feed.xml)
+"""
+(OUT/"llms.txt").write_text(llms, encoding="utf-8")
+full = [llms, f"\n---\n\nThe following is the Markdown of the main pages ({n_idx['board']} entries, {n_idx['owner']} owners, {n_idx['tag']} types and {n_idx['country']} countries).\n"]
+for kind, path, md_text in sorted(MD_PAGES, key=lambda x: (order.get(x[0], 9), x[1])): full.append(f"\n---\n\n{md_text}")
+(OUT/"llms-full.txt").write_text("".join(full), encoding="utf-8")
+(OUT/"robots.txt").write_text(f"User-agent: *\nAllow: /\nContent-Signal: search=yes, ai-input=yes\n\n# Index for language models: {BASE}/llms.txt\nSitemap: {BASE}/sitemap.xml\n")
+
+sm = "".join(f"<url><loc>{e(BASE + p)}</loc><lastmod>{e(m)}</lastmod></url>" for p, m in sorted(pages))
 (OUT/"sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
 nf = layout(0, f"Page not found | {NAME}", "Page not found.", '<h1>Page not found</h1><p>Try the <a href="/">directory</a>.</p>', "/404.html").replace('href="assets/','href="/assets/').replace('href=""','href="/"')
 (OUT/"404.html").write_text(nf, encoding="utf-8")

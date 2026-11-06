@@ -1,0 +1,32 @@
+# Welcome to the Jungle
+
+Welcome to the Jungle is a board and employer brand based in France, focused on tech/startup.
+
+- Website: https://www.welcometothejungle.com
+- Headquarters: France
+- Founded: not recorded
+- Owner: not recorded
+- Languages: French, English, Spanish, Czech, Slovak
+- API status: Partner-only API
+- Partner program: unknown
+- Prominence: #8,604 globally, tier Large
+- Tags: Partner-only API, Job board, Startups, Subscription, Technology
+- Data status: partly verified against its own site
+
+## Quick answers
+
+**Does Welcome to the Jungle have an API?** According to this directory, Welcome to the Jungle restricts programmatic access to approved partners.
+
+**Which languages does Welcome to the Jungle support?** This directory records Welcome to the Jungle as supporting French, English, Spanish, Czech, Slovak.
+
+**How large is Welcome to the Jungle?** Welcome to the Jungle ranks #8,604 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+
+## Sources
+
+- [Welcome to the Jungle (FR) homepage](https://www.welcometothejungle.com/fr) (Existence and description, checked 2026-11-05): "Découvrez l’histoire, les équipes, la culture de plus de 6000 entreprises : et choisissez celle qui vous correspond vraiment."
+- [Offer page](https://solutions.welcometothejungle.com/notre-offre) (Languages, checked 2026-11-05): "vous ne payez que ce que vous utilisez vraiment"
+- [Offer page](https://solutions.welcometothejungle.com/notre-offre) (Business model and pricing, checked 2026-11-05): "Payez en fonction de vos recrutements."
+- [Offer page](https://solutions.welcometothejungle.com/notre-offre) (How jobs get in, checked 2026-11-05): "ou intégrez-le facilement à votre ATS existant."
+
+Canonical page: https://jobboardlist.com/boards/welcome-to-the-jungle/
+Last updated: 2026-11-05
