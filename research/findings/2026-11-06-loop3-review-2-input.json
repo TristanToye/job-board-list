@@ -1,0 +1,727 @@
+{
+ "round": 3,
+ "entries": [
+  {
+   "id": "o-net",
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "partner_program"
+   ],
+   "recorded": {
+    "api_status": "public-key",
+    "api_docs_url": "https://www.onetonline.org/help/onet/webservices"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;ingest_methods",
+    "note": "Sponsor recorded as parent from overview page. The Department of Labor program page redirected to dol.gov (another domain), which was not followed. Headquarters not stated. Web Services API is a data access route for developers, not a job i"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.onetcenter.org/overview.html;https://services.onetcenter.org/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.onetcenter.org/overview.html"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": "https://services.onetcenter.org/"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "toptal",
+   "name": "Toptal",
+   "url": "https://www.toptal.com",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "founded": "2010"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding year 2010 from the Press Center page via the fetch tool. The headless reader was blocked by a Cloudflare 403 on both press-center and about, so the fact comes from the fetch tool output only."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.toptal.com/press-center"
+    }
+   ]
+  },
+  {
+   "id": "workday",
+   "name": "Workday Recruiting",
+   "url": "https://www.workday.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "none-known",
+    "partner_program": "yes"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;parent",
+    "note": "Our Story says Workday was founded by Aneel Bhusri and Dave Duffield, and a summary gives 2005, but the year was not in a quotable sentence; the captured quote was cut off before the year, so founded is not recorded. No parent or owner name"
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "australian-bureau-of-statistics",
+   "name": "Australian Bureau of Statistics",
+   "url": "https://www.abs.gov.au",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;parent",
+    "note": "About page gives only a description of the agency. Welcome page and homepage state none of the three fields. The corporate-information guess returned 404. Browser run not needed."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.abs.gov.au/about;https://www.abs.gov.au/welcome-abs-website;https://www.abs.gov.au/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.abs.gov.au/about;https://www.abs.gov.au/welcome-abs-website;https://www.abs.gov.au/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.abs.gov.au/about;https://www.abs.gov.au/welcome-abs-website;https://www.abs.gov.au/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "99designs",
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "type": "freelance-platform",
+   "parent": "Vista",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Vista"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Business model is per-contest fixed packages with USD prices on pricing page. The About page gives 'Since 2008' for the community, which is not stated as a founding year, so founded was not recorded. Featured partners are design service ven"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.99designs.com/about;https://www.99designs.com"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.99designs.com/about"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.99designs.com"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.99designs.com/pricing;https://www.99designs.com/featured-partners"
+    }
+   ]
+  },
+  {
+   "id": "intoo",
+   "name": "INTOO",
+   "url": "https://www.intoo.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "impact-group",
+   "name": "IMPACT Group",
+   "url": "https://www.impactgrouphr.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "robert-half",
+   "name": "Robert Half",
+   "url": "https://www.roberthalf.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded;parent;partner_program",
+    "note": "Languages found from the country and language list. No headquarters or founding year stated on pages read. Protiviti is named as a subsidiary, not a parent. The partner URL page describes working with clients, not a partner program."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.roberthalf.com/us/en/about/about-robert-half;https://www.roberthalf.com/us/en/locations;https://www.roberthalf.com/us/en"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.roberthalf.com/us/en/about/about-robert-half;https://www.roberthalf.com/us/en/about/investor-center;https://www.roberthalf.com/us/en"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.roberthalf.com/us/en/about/investor-center;https://www.roberthalf.com/us/en/about/about-robert-half"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.roberthalf.com/us/en/locations"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": "https://www.roberthalf.com/us/en/hire-talent/partner"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "caterer-com",
+   "name": "Caterer.com",
+   "url": "https://www.caterer.com",
+   "type": "board",
+   "parent": "The Stepstone Group",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "The Stepstone Group"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "HTTP 503 on two fetch attempts; no page content was read."
+   },
+   "attempts": []
+  },
+  {
+   "id": "welcome-to-the-jungle",
+   "name": "Welcome to the Jungle",
+   "url": "https://www.welcometothejungle.com",
+   "type": "board+employer-brand",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "FR",
+    "primary_language": "fr",
+    "languages_supported": "fr;en;es;cs;sk",
+    "business_model": "subscription, packages",
+    "api_status": "partner-only"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding year from newsroom press item; the homepage text 'doing since 2015' was also seen. Publisher and trading name from the About site footer."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://about.welcometothejungle.com/;https://about.welcometothejungle.com/newsroom#explore-section"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://about.welcometothejungle.com/"
+    }
+   ]
+  },
+  {
+   "id": "randstad",
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "NL"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Footer states a registered office in Diemen, The Netherlands; no language, pricing, API or partner program stated."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "hirevue",
+   "name": "HireVue",
+   "url": "https://www.hirevue.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://www.hirevue.com/integrations",
+    "ingest_methods": "ATS integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;parent",
+    "note": "Homepage and integrations page state ATS integrations and a Certified Integration Partner Program; no headquarters, pricing or API stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "lavoro-gov-it-ministry-of-labour",
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "type": "government",
+   "parent": "Ministero del Lavoro e delle Politiche Sociali",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Ministero del Lavoro e delle Politiche Sociali"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage names the Ministry of Labour and Social Policies as publisher; no language selector, pricing, API or partner program statement found. /about returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "zarplata-ru",
+   "name": "Zarplata.ru",
+   "url": "https://zarplata.ru/",
+   "type": "board",
+   "parent": "HeadHunter Group",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "RU",
+    "parent": "HeadHunter Group"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;partner_program;ingest_methods",
+    "note": "Operating company and Moscow address stated on the terms page. No language options or employer pricing found."
+   },
+   "attempts": [
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "national-career-service",
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "type": "government",
+   "parent": "Ministry of Labour & Employment, Government of India",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "IN",
+    "parent": "Ministry of Labour & Employment, Government of India"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states services are free of cost, but no employer business model, languages, API, partner or ingest method."
+   },
+   "attempts": [
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "charityjob",
+   "name": "CharityJob",
+   "url": "https://www.charityjob.co.uk",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "business_model": "pay per post"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+    "note": "Recruiters page states per-advert pricing; /about returned HTTP 404 and no language switcher or API appears."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  }
+ ]
+}

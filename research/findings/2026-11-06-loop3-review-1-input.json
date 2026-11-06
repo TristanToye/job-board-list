@@ -1,0 +1,659 @@
+{
+ "round": 3,
+ "entries": [
+  {
+   "id": "u-s-bureau-of-labor-statistics",
+   "name": "U.S. Bureau of Labor Statistics",
+   "url": "https://www.bls.gov",
+   "type": "lmi",
+   "parent": "United States Department of Labor",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "partner_program"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "United States Department of Labor",
+    "api_status": "public-open",
+    "api_docs_url": "https://www.bls.gov/developers/home.htm"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "ingest_methods",
+    "note": "API v1.0 is open without registration; v2.0 requires registration, so public-open is recorded for the open tier. Founded 1884 from About BLS. No statement of how jobs are ingested, as BLS is a statistics agency."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.bls.gov/about-bls/home.htm"
+    },
+    {
+     "field": "api_status",
+     "outcome": "found",
+     "pages": "https://www.bls.gov/developers/home.htm;https://www.bls.gov/audience/developers.htm"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": "https://www.bls.gov/developers/home.htm;https://www.bls.gov/audience/developers.htm"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "workable",
+   "name": "Workable",
+   "url": "https://www.workable.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "GR",
+    "api_status": "public-key",
+    "api_docs_url": "https://workable.readme.io",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founded fact comes from the visible home page sentence Since 2012, which does not use the word founded; recorded as 2012. Subscription pricing with prices and a 15-day free trial found on the pricing page. The readme.io developer docs link "
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.workable.com;https://www.workable.com/about"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.workable.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "korn-ferry",
+   "name": "Korn Ferry",
+   "url": "https://www.kornferry.com",
+   "type": "recruiting-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and /about-us state no headquarters, parent, language options or employer pricing; the only partnership text is an Olympics sponsorship."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "governmentjobs-com",
+   "name": "GovernmentJobs.com",
+   "url": "https://www.governmentjobs.com/",
+   "type": "government",
+   "parent": "Governmentjobs.com, Inc. (DBA NEOGOV)",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "parent": "Governmentjobs.com, Inc. (DBA NEOGOV)"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Company Info gives headquarters in El Segundo, CA, United States and owner Governmentjobs.com, Inc. (DBA NEOGOV). Page says the company began developing applications in 1998, which is not a stated founding year."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.governmentjobs.com/home/companyinfo"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.governmentjobs.com/home/companyinfo"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.governmentjobs.com/home/companyinfo"
+    }
+   ]
+  },
+  {
+   "id": "the-adecco-group",
+   "name": "The Adecco Group",
+   "url": "https://www.adecco.com",
+   "type": "staffing",
+   "parent": "The Adecco Group",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "The Adecco Group"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded",
+    "note": "adecco.com homepage has no HQ or history. The group site adeccogroup.com (a different domain from the entry URL) was read on the homepage, our-group, about-us and investors pages, with no HQ or founding statement. The press release dateline"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.adecco.com;https://www.adeccogroup.com/;https://www.adeccogroup.com/our-group/;https://www.adeccogroup.com/our-group/about-us/;https://www.adeccogroup.com/investors/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.adeccogroup.com/our-group/about-us/;https://www.adeccogroup.com/investors/;https://www.adeccogroup.com/-/media/project/Adecco-Group/AdeccoGroup/Investors/The-Adecco-Group-Factsheet-2024-052025.pdf"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "criteria",
+   "name": "Criteria",
+   "url": "https://criteriacorp.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "right-management",
+   "name": "Right Management",
+   "url": "https://www.right.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "resumeble",
+   "name": "Resumeble",
+   "url": "https://resumeble.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "nomis",
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "type": "lmi",
+   "parent": "Office for National Statistics",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Office for National Statistics",
+    "api_docs_url": "https://www.nomisweb.co.uk/api"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
+    "note": "Homepage states ONS as provider and API page documents the RESTful API; no key requirement, languages, address or partner program stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "nijobs",
+   "name": "NIJobs",
+   "url": "https://www.nijobs.com",
+   "type": "board",
+   "parent": "The Stepstone Group",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "The Stepstone Group"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "",
+    "note": "HTTP 503 on two fetch attempts; no page content was read."
+   },
+   "attempts": []
+  },
+  {
+   "id": "clearancejobs",
+   "name": "ClearanceJobs",
+   "url": "https://www.clearancejobs.com",
+   "type": "board",
+   "parent": "DHI Group",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "DHI Group"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
+    "note": "Footer states it is a DHI service; employer pages show a demo request and no prices."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "challenger-gray-christmas",
+   "name": "Challenger, Gray & Christmas",
+   "url": "https://www.challengergray.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Footer lists Chicago as headquarters; no parent, languages, pricing or API stated."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "checkr",
+   "name": "Checkr",
+   "url": "https://checkr.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://checkr.com/partners",
+    "ingest_methods": "ATS integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+    "note": "Partners page describes ATS integrations and a partner developer guide link; developers page states no key process; no headquarters or language options stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "lemon-io",
+   "name": "Lemon.io",
+   "url": "https://lemon.io",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "languages_supported": "en;de",
+    "business_model": "subscription",
+    "partner_program": "yes"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;api_status;ingest_methods",
+    "note": "Homepage, pricing and address read; the homepage links an MCP documentation page at docs.lemon.io, which was not read, and no API access model was stated. /partners returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "codility",
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "business_model": "subscription"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;partner_program;ingest_methods",
+    "note": "Pricing page and comparison table state plan and API facts; /partners/ returned HTTP 500 and no headquarters stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "kimeta",
+   "name": "kimeta",
+   "url": "https://www.kimeta.de/",
+   "type": "aggregator",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "business_model": "per post, monthly flatrate"
+   },
+   "review_history": null,
+   "attempts": []
+  }
+ ]
+}

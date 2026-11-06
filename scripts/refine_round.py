@@ -45,7 +45,7 @@ def plan(n):
     for (bid, f), lst in att.items():
         for a in lst: tried[f] += 1; found[f] += a["outcome"] == "found"
     prior = {f: (found[f] + 1) / (tried[f] + 3) for f in FIELDS}
-    last = set(state()["rounds"].get(str(n - 1), {}).get("entries", []))
+    last = set(state()["rounds"].get(str(n - 1), {}).get("entries", [])) | set(state()["rounds"].get(str(n - 2), {}).get("entries", []))  # scouted in either of the last two rounds
     def weight(i):
         r = rank.get(i)
         if not r or not r["global_rank"]: return 1
@@ -59,7 +59,7 @@ def plan(n):
         if any(a["outcome"] == "blocked" for f in FIELDS for a in att[(b["id"], f)]): continue
         elig = [f for f in missing(b, owned) if sum(1 for a in att[(b["id"], f)] if a["outcome"] != "found") < 2 and not any(a["outcome"] == "found" for a in att[(b["id"], f)] if False)]
         if not elig: continue
-        cands.append((weight(b["id"]) * sum(prior[f] * 0.5 ** sum(1 for a in att[(b["id"], f)] if a["outcome"] != "found") for f in elig), b, elig))
+        cands.append((weight(b["id"]) * sum(prior[f] * 0.25 ** sum(1 for a in att[(b["id"], f)] if a["outcome"] != "found") for f in elig), b, elig))
     cands.sort(key=lambda x: -x[0]); fresh = [c for c in cands if c[1]["id"] not in last]; picked = (fresh + [c for c in cands if c[1]["id"] in last])[:SCOUTS * PER_SCOUT]
     for k in range(SCOUTS):
         part = picked[k::SCOUTS]
