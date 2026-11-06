@@ -1,11 +1,12 @@
 (function () {
-  var svg = document.getElementById("eco"); if (!svg) return;
-  var edges = Array.prototype.slice.call(svg.querySelectorAll(".edge"));
-  function focus(id) {
-    edges.forEach(function (e) { var on = !id || e.dataset.a === id || e.dataset.b === id; e.classList.toggle("dim", !on); e.classList.toggle("hl", !!id && on); });
-  }
-  Array.prototype.forEach.call(svg.querySelectorAll(".node"), function (n) {
-    n.addEventListener("mouseenter", function () { focus(n.dataset.id); }); n.addEventListener("mouseleave", function () { focus(null); });
-    n.addEventListener("focusin", function () { focus(n.dataset.id); }); n.addEventListener("focusout", function () { focus(null); });
+  var table = document.querySelector("table.matrix"); if (!table) return;
+  var rows = Array.prototype.slice.call(table.querySelectorAll("tbody tr")), filter = document.getElementById("ecofilter");
+  if (filter) filter.addEventListener("input", function () { var t = filter.value.trim().toLowerCase(); rows.forEach(function (r) { r.hidden = !!t && r.dataset.name.indexOf(t) < 0; }); });
+  var heads = table.querySelectorAll("thead th");
+  table.addEventListener("mouseover", function (ev) {
+    var td = ev.target.closest("td"); rows.forEach(function (r) { r.classList.remove("hot"); }); Array.prototype.forEach.call(table.querySelectorAll(".hotcol"), function (c) { c.classList.remove("hotcol"); });
+    if (!td) return; var tr = td.parentNode; tr.classList.add("hot"); var idx = Array.prototype.indexOf.call(tr.children, td);
+    if (heads[idx]) heads[idx].classList.add("hotcol"); rows.forEach(function (r) { if (r.children[idx]) r.children[idx].classList.add("hotcol"); });
   });
+  table.addEventListener("mouseleave", function () { rows.forEach(function (r) { r.classList.remove("hot"); }); Array.prototype.forEach.call(table.querySelectorAll(".hotcol"), function (c) { c.classList.remove("hotcol"); }); });
 })();

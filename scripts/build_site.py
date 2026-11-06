@@ -549,35 +549,41 @@ deg_all = collections.Counter()
 for x in REL:
     if x["from_id"]: deg_all[x["from_id"]] += 1
     if x["to_id"]: deg_all[x["to_id"]] += 1
-deg = collections.Counter()
-for x in resolved: deg[x["from_id"]] += 1; deg[x["to_id"]] += 1
-layers = [[], [], []]
-for i, _ in deg.most_common(): layers[layer_of(i)].append(i)
-shown = [L[:c] for L, c in zip(layers, (14, 8, 18))]; nodeset = {i for L in shown for i in L}
-eco_edges = [x for x in resolved if x["from_id"] in nodeset and x["to_id"] in nodeset]
-XS, ROW, TOP, NW = (160, 520, 880), 30, 70, 200
-pos = {}
-for ci, L in enumerate(shown):
-    for ri, i in enumerate(L): pos[i] = (XS[ci], TOP + ri * ROW, ci)
-H = TOP + ROW * max(len(L) for L in shown) + 20
-def trunc(t, n=26): return t if len(t) <= n else t[:n - 1] + "\u2026"
-paths = ""
-for x in eco_edges:
-    (xa, ya, ca), (xb, yb, cb) = pos[x["from_id"]], pos[x["to_id"]]
-    if ca < cb: x1, x2 = xa + NW // 2, xb - NW // 2; d = f"M{x1},{ya} C{(x1 + x2) // 2},{ya} {(x1 + x2) // 2},{yb} {x2},{yb}"
-    elif ca > cb: x1, x2 = xa - NW // 2, xb + NW // 2; d = f"M{x1},{ya} C{(x1 + x2) // 2},{ya} {(x1 + x2) // 2},{yb} {x2},{yb}"
-    else: x1 = xa + NW // 2; d = f"M{x1},{ya} C{x1 + 90},{ya} {x1 + 90},{yb} {x1},{yb}"
-    cls = "sends" if x["relation"] == "sends-jobs-to" else "integ"
-    paths += f'<path class="edge {cls}" data-a="{e(x["from_id"])}" data-b="{e(x["to_id"])}" d="{d}"' + (' marker-end="url(#arr)"' if cls == "sends" else "") + f'><title>{e(by_id[x["from_id"]]["name"])} {"sends jobs to" if cls == "sends" else "integrates with"} {e(by_id[x["to_id"]]["name"])}</title></path>'
-nodes = "".join(f'<a href="../boards/{e(i)}/" class="node" data-id="{e(i)}"><title>{e(by_id[i]["name"])}</title><rect x="{xx - NW // 2}" y="{yy - 12}" width="{NW}" height="24" rx="6"/><text x="{xx}" y="{yy + 4}" text-anchor="middle">{e(trunc(by_id[i]["name"]))}</text></a>' for i, (xx, yy, _) in pos.items())
-titles = "".join(f'<text class="layer" x="{XS[ci]}" y="30" text-anchor="middle">{e(t)}</text><text class="layer sub" x="{XS[ci]}" y="48" text-anchor="middle">{e(sb)}</text>' for ci, (t, sb) in enumerate((("Applicant tracking systems", "where employers manage hiring"), ("Distribution platforms", "push jobs to many sites"), ("Boards and aggregators", "where candidates search"))))
-svg = f'<div class="ecowrap"><svg id="eco" class="eco" viewBox="0 0 1120 {H}" role="img" aria-label="Diagram of documented connections between applicant tracking systems, distribution platforms and job boards. A table with the same connections follows."><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z"/></marker></defs>{titles}{paths}{nodes}</svg></div>'
-unres = sorted({x["from_name"] for x in REL if not x["from_id"]} | {x["to_name"] for x in REL if not x["to_id"]}, key=str.lower)
 def role(i): return {0: "ATS", 1: "Distribution", 2: "Board or aggregator"}[layer_of(i)]
+# matrix: senders (ATS and distribution platforms) across, receivers (boards and aggregators) down
+cell = {}
+for x in resolved:
+    if layer_of(x["from_id"]) < 2 and layer_of(x["to_id"]) == 2:
+        k = (x["from_id"], x["to_id"])
+        if k not in cell or x["relation"] == "sends-jobs-to": cell[k] = x
+send_deg = collections.Counter(k[0] for k in cell); recv_deg = collections.Counter(k[1] for k in cell)
+cols = [i for i, _ in send_deg.most_common(14)]; rows_ = [i for i, _ in recv_deg.most_common(40)]
+def mcell(fi, ti):
+    x = cell.get((fi, ti))
+    if not x: return "<td></td>"
+    snd = x["relation"] == "sends-jobs-to"; lab = f'{by_id[fi]["name"]} {"sends jobs to" if snd else "integrates with"} {by_id[ti]["name"]}'
+    return f'<td class="{"s" if snd else "i"}"><a href="{e(x["source_url"])}" rel="noopener nofollow" target="_blank" title="{e(lab)}. Open the source page." aria-label="{e(lab)}">{"&#9679;" if snd else "&#9675;"}</a></td>'
+head = "".join(f'<th class="col" scope="col"><a href="../boards/{e(i)}/"><span>{e(by_id[i]["name"])}</span></a></th>' for i in cols)
+body_rows = "".join(f'<tr data-name="{e(by_id[t]["name"].lower())}"><th scope="row"><a href="../boards/{e(t)}/">{e(by_id[t]["name"])}</a></th>' + "".join(mcell(c, t) for c in cols) + f'<td class="tot">{sum(1 for c in cols if (c, t) in cell)}</td></tr>' for t in rows_)
+matrix = (f'<div class="matrixwrap" tabindex="0" role="region" aria-label="Compatibility matrix, scrollable"><table class="matrix"><thead><tr><th class="corner" scope="col">Boards and aggregators</th>{head}<th class="tot" scope="col">Total</th></tr></thead><tbody>{body_rows}</tbody></table></div>')
+# connections not shown in the matrix, grouped by who is listing them
+shown_keys = {(a, b) for (a, b) in cell}
+other = collections.defaultdict(list)
+for x in resolved:
+    if (x["from_id"], x["to_id"]) in shown_keys: continue
+    other[(x["from_id"], x["relation"])].append(x)
+other_html = "".join(f'<li><a href="../boards/{e(fi)}/"><strong>{e(by_id[fi]["name"])}</strong></a> {"sends jobs to" if rel == "sends-jobs-to" else "integrates with"}: ' + ", ".join(f'<a href="../boards/{e(x["to_id"])}/">{e(x["to_name"])}</a> <a class="muted small" href="{e(x["source_url"])}" rel="noopener nofollow" target="_blank">source</a>' for x in xs[:20]) + (f" and {len(xs) - 20} more" if len(xs) > 20 else "") + "</li>" for (fi, rel), xs in sorted(other.items(), key=lambda kv: -len(kv[1])))
+layer_counts = collections.Counter(layer_of(i) for i in deg_all if i in by_id)
+flow = "".join(f'<div class="flowbox"><strong>{e(t)}</strong><span>{n} connected entries</span><span class="muted small">{e(sb)}</span></div>' + ('<div class="flowarrow" aria-hidden="true">&rarr;</div>' if k < 2 else "") for k, (t, sb, n) in enumerate((("Applicant tracking systems", "where employers manage hiring", layer_counts[0]), ("Distribution platforms", "push jobs to many sites", layer_counts[1]), ("Boards and aggregators", "where candidates search", layer_counts[2]))))
+unres = sorted({x["from_name"] for x in REL if not x["from_id"]} | {x["to_name"] for x in REL if not x["to_id"]}, key=str.lower)
 hub_rows = "".join(f'<tr><td><a href="../boards/{e(i)}/"><strong>{e(by_id[i]["name"])}</strong></a></td><td>{e(role(i))}</td><td>{n}</td></tr>' for i, n in deg_all.most_common(14) if i in by_id)
-edge_rows = "".join(f'<tr><td>{(f"<a href=\"../boards/{e(x[chr(102)+chr(114)+chr(111)+chr(109)+chr(95)+chr(105)+chr(100)])}/\">" + e(x["from_name"]) + "</a>") if x["from_id"] else e(x["from_name"])}</td><td>{"sends jobs to" if x["relation"] == "sends-jobs-to" else "integrates with"}</td><td>{(f"<a href=\"../boards/{e(x[chr(116)+chr(111)+chr(95)+chr(105)+chr(100)])}/\">" + e(x["to_name"]) + "</a>") if x["to_id"] else e(x["to_name"])}</td><td><a href="{e(x["source_url"])}" rel="noopener nofollow" target="_blank">source</a></td></tr>' for x in sorted(REL, key=lambda x: (x["from_name"].lower(), x["to_name"].lower())))
-eco_body = (f'<h1>The hiring ecosystem map</h1><p class="lede">Employers manage hiring in an applicant tracking system, which pushes jobs to boards and aggregators directly or through distribution platforms, and candidates find them there. This map shows the {len(REL)} connections documented on the platforms\' own pages, {len(resolved)} of them between entries in this directory.</p>'
-    f'<p class="muted small">Solid arrows mean the first party sends jobs to the second. Dashed lines mean the two integrate in a way the page does not describe as a job feed. A missing line does not mean no connection, only that we have not found one stated. Hover a name to highlight its connections.</p>{svg}'
+def _lnk(i, nm): return f'<a href="../boards/{e(i)}/">{e(nm)}</a>' if i else e(nm)
+edge_rows = "".join(f'<tr><td>{_lnk(x["from_id"], x["from_name"])}</td><td>{"sends jobs to" if x["relation"] == "sends-jobs-to" else "integrates with"}</td><td>{_lnk(x["to_id"], x["to_name"])}</td><td><a href="{e(x["source_url"])}" rel="noopener nofollow" target="_blank">source</a></td></tr>' for x in sorted(REL, key=lambda x: (x["from_name"].lower(), x["to_name"].lower())))
+eco_body = (f'<h1>The hiring ecosystem map</h1><p class="lede">Employers manage hiring in an applicant tracking system, which pushes jobs to boards and aggregators directly or through distribution platforms, and candidates find them there. This page maps the {len(REL)} connections documented on the platforms\' own pages, {len(resolved)} of them between entries in this directory.</p>'
+    f'<div class="flow">{flow}</div>'
+    f'<h2>Who sends jobs to whom</h2><p class="muted small">Each row is a board or aggregator and each column an ATS or distribution platform. A filled circle means the column sends jobs to the row. A hollow circle means the two integrate in a way the page does not describe as a job feed. Select a mark to open the page that states it. An empty cell means we have not found a stated connection, not that none exists.</p>'
+    f'<label class="ecofilter">Filter boards<input id="ecofilter" type="search" placeholder="Type a board name" autocomplete="off"></label>{matrix}'
+    f'<h2>Other documented connections</h2><p class="muted small">Connections between entries that do not fit the matrix, such as platforms listing each other or boards that feed a public employment service.</p><ul class="plainlist">{other_html}</ul>'
     f'<h2>Most connected</h2><div class="tablewrap"><table><thead><tr><th>Entry</th><th>Role</th><th>Documented connections</th></tr></thead><tbody>{hub_rows}</tbody></table></div>'
     f'<h2>Every documented connection</h2><div class="tablewrap"><table><thead><tr><th>From</th><th>Relationship</th><th>To</th><th>Source</th></tr></thead><tbody>{edge_rows}</tbody></table></div>'
     f'<h2>Partners not yet in the directory</h2><p>{len(unres)} partner names appear on these pages but are not yet entries here: ' + ", ".join(e(n) for n in unres[:60]) + (f" and {len(unres) - 60} more" if len(unres) > 60 else "") + '.</p><script src="../assets/eco.js" defer></script>')
