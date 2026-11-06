@@ -17,15 +17,15 @@
  "segment": "",
  "parent": "",
  "business_model": "subscription",
- "api_status": "unknown",
- "api_docs_url": "",
+ "api_status": "on-request",
+ "api_docs_url": "https://www.jobkorea.co.kr/service/api",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
  "notes": "",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobkorea/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -35,13 +35,30 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "api-on-request",
   "general",
   "job-board",
   "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobkorea",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded;partner_program;ingest_methods",
+  "note": "API page and homepage footer read. Footer names Worxphere LLC as owner. Worxphere.ai pages were read but are off the entry domain, so their 1996 founding date and 'new name' statement are not cited. The 제휴문의 link leads to worxphere.ai, so n",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "api_status",
+   "url": "https://www.jobkorea.co.kr/service/api",
+   "title": "채용정보 API service page",
+   "accessed": "2026-11-06",
+   "quote": "승인 후 API 고유 주소를 가이드와 함께 전달드립니다.",
+   "quote_check": "ok"
+  }
+ ]
 }

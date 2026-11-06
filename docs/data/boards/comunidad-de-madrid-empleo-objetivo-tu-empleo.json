@@ -15,7 +15,7 @@
  "region": "Europe",
  "niche": "regional-public-employment",
  "segment": "",
- "parent": "",
+ "parent": "Comunidad de Madrid",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
@@ -41,7 +41,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "The page states the Objetivo: tu empleo initiative is a Comunidad de Madrid initiative. Quote is in Spanish, copied from the raw page text.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -50,6 +57,14 @@
    "url": "https://www.comunidad.madrid/servicios/empleo",
    "title": "Empleo | Comunidad de Madrid",
    "accessed": "2026-11-05",
+   "quote": "Iniciativa de la Comunidad de Madrid para conectar el talento madrileño con las empresas de la región.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "title": "Empleo",
+   "accessed": "2026-11-06",
    "quote": "Iniciativa de la Comunidad de Madrid para conectar el talento madrileño con las empresas de la región.",
    "quote_check": "ok"
   }

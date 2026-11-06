@@ -15,7 +15,7 @@
  "region": "East Asia",
  "niche": "english-speaking",
  "segment": "",
- "parent": "",
+ "parent": "GPlusMedia Inc.",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
@@ -38,7 +38,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "gaijinpot-jobs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded;business_model",
+  "note": "Owner verified from footer copyright on about page. Employer page returned a reCAPTCHA challenge (blocked), so business model was not read. Headquarters and founding year not stated on the about page.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +55,14 @@
    "title": "GaijinPot Jobs section",
    "accessed": "2026-11-05",
    "quote": "There's a position that's perfect for you on Japan's No.1 English job board.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.gaijinpot.com/about",
+   "title": "About GaijinPot (site footer copyright line)",
+   "accessed": "2026-11-06",
+   "quote": "© 2026 GPlusMedia Inc.",
    "quote_check": "ok"
   }
  ]

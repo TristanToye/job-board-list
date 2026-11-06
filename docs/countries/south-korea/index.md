@@ -3,7 +3,7 @@
 4 job boards and related entries based in or serving South Korea.
 
 - [Saramin](https://jobboardlist.com/boards/saramin/): board, Established tier, Self-serve API key
-- [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, Established tier
+- [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, Established tier, API key on request
 - [Wanted](https://jobboardlist.com/boards/wanted/): board, Small tier
 - [Maison de Talents](https://jobboardlist.com/boards/maison-de-talents/): board
 

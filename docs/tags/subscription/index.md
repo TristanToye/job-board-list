@@ -29,7 +29,7 @@ Employers pay a recurring fee or plan. 64 entries in the directory.
 - [JobStreet](https://jobboardlist.com/boards/jobstreet/): board, Partner-only API
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Partner-only API
 - [Bayt](https://jobboardlist.com/boards/bayt/): board
-- [JobKorea](https://jobboardlist.com/boards/jobkorea/): board
+- [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, API key on request
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
 - [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API

@@ -200,7 +200,7 @@ def main(argv):
             if row is None or fld not in REVIEW_FIELDS or oc2 not in ("found", "not-found", "blocked"): continue
             key = (row["id"], fld, str(d.get("round", "")), oc2)
             if key in seen_att: continue
-            seen_att.add(key); attempts.append({"board_id": row["id"], "field": fld, "round": str(d.get("round", "")), "outcome": oc2, "pages": ";".join(clean(x, 200) for x in at.get("pages", [])[:6] if str(x).startswith("http")), "date": TODAY}); stats["attempts"] += 1
+            seen_att.add(key); attempts.append({"board_id": row["id"], "field": fld, "round": str(d.get("round", "")), "outcome": oc2, "pages": ";".join(clean(x, 200) for x in at.get("pages", [])[:6] if str(x).startswith("http") and not bad_text(str(x))), "date": TODAY}); stats["attempts"] += 1
         if mode == "verify":
             for q in d.get("blocked", []):
                 row = find_board(clean(q.get("name"), 80), clean(q.get("url"), 200))

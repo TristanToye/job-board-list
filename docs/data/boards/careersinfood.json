@@ -51,7 +51,14 @@
    "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "careersinfood",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "business_model",
+  "note": "Homepage returned HTTP 503 on fetch again. No try_pages were given. Headless reader had already been used once for this entry per the order reason, so it was not rerun. No employer pricing was read.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

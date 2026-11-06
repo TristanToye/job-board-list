@@ -1,0 +1,676 @@
+{
+ "round": 5,
+ "entries": [
+  {
+   "id": "egon-zehnder",
+   "name": "Egon Zehnder",
+   "url": "https://www.egonzehnder.com",
+   "type": "recruiting-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "languages_supported": "en;de;zh;ja"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Region and language menu verified on /newsroom, /de, /cn with English, Deutsch, 中文, 日本語. Main page language is English."
+   },
+   "attempts": [
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.egonzehnder.com/newsroom;https://www.egonzehnder.com/de;https://www.egonzehnder.com/cn"
+    }
+   ]
+  },
+  {
+   "id": "kelly-services",
+   "name": "Kelly Services",
+   "url": "https://www.kellyservices.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Founded 1946 verified from Our story page. Our story page says 'Headquartered in Troy, Michigan' but states no country, so hq_country is not recorded. About Kelly page gives no HQ. Investor relations page returned 403 on fetch and browser; "
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.kellyservices.com/about-kelly/our-story/;https://www.kellyservices.com/about-kelly/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.kellyservices.com/about-kelly/our-story/"
+    }
+   ]
+  },
+  {
+   "id": "russell-reynolds-associates",
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "type": "recruiting-services",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "languages_supported": "en;zh;ja"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;partner_program",
+    "note": "Founded 1969: the year appears as the timeline heading above the quoted sentence, so the quote does not itself contain the year; check the history page. Languages from the language menu: English, Chinese, Japanese. HQ not labelled; the only"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.russellreynolds.com/en/about/who-we-are/history;https://www.russellreynolds.com/en/about/who-we-are;https://www.russellreynolds.com/en/locations"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.russellreynolds.com/en/about/who-we-are/history"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.russellreynolds.com/en/locations"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": "https://www.russellreynolds.com/en/about/who-we-are/partnerships"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "successfactors",
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "DE",
+    "api_status": "public-key",
+    "api_docs_url": "https://api.sap.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "lightcast",
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "api_docs_url": "https://lightcast.io/our-data/api/menu"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Menu page says to reach out to the team for integration, which was taken as on-request. The page does not literally say key or feed, so this is a judgement from the quote. Docs at docs.lightcast.dev/apis/ state no access rules, and that dom"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://lightcast.io/about;https://lightcast.io/pressroom;https://lightcast.io/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://lightcast.io/about;https://lightcast.io/pressroom;https://lightcast.io/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "found",
+     "pages": "https://lightcast.io/our-data/api/menu;https://docs.lightcast.dev/apis/"
+    }
+   ]
+  },
+  {
+   "id": "manpowergroup",
+   "name": "ManpowerGroup",
+   "url": "https://www.manpowergroup.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "languages_supported": "en"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded",
+    "note": "Read about, leadership, investors and home pages. The site says it operates in 75 countries and territories and mentions brands operating for over 70 years, but states no headquarters location or founding year."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.manpowergroup.com/en/about;https://www.manpowergroup.com/en/about/leadership;https://www.manpowergroup.com/en/investors;https://www.manpowergroup.com/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.manpowergroup.com/en/about;https://www.manpowergroup.com/en/about/leadership;https://www.manpowergroup.com/en/investors;https://www.manpowergroup.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "velvetjobs",
+   "name": "VelvetJobs",
+   "url": "https://www.velvetjobs.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded",
+    "note": "About page says Based in Los Angeles, but names no country, so hq_country was not recorded from the city alone. No founding year on About or homepage. Footer copyright is VelvetJobs 2026 only."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.velvetjobs.com/about;https://www.velvetjobs.com/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.velvetjobs.com/about;https://www.velvetjobs.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "url": "https://www.greenhouse.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "business_model": "Custom-priced plans based on hiring needs; no public prices shown",
+    "api_status": "public-open",
+    "api_docs_url": "https://developers.greenhouse.io/job-board.html",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Language menu verified on /de and /uk. Pricing is custom by plan with no public prices; the page does not use the word subscription."
+   },
+   "attempts": [
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.greenhouse.com/de;https://www.greenhouse.com/uk"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.greenhouse.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "pinpoint",
+   "name": "Pinpoint",
+   "url": "https://www.pinpointhq.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "UK",
+    "api_status": "public-key",
+    "api_docs_url": "https://developers.pinpointhq.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "business_model",
+    "note": "Request-pricing page says pricing is a custom quote after a call ('provide you with an accurate price'); no payment model (subscription, per post, free) is stated. /pricing returned 404. News page has no HQ, founding or parent facts."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://www.pinpointhq.com/request-pricing"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "topresume",
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "partner_url": "https://www.topresume.com/partnerships"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded;business_model",
+    "note": "Partnerships page describes an incentive program for job seekers referral and commission; join form only, no joining steps. About page says part of the Career.io family but no HQ or founding year. Plans page shows job-seeker pricing only (b"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.topresume.com/about;https://www.topresume.com/press;https://www.topresume.com/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.topresume.com/about;https://www.topresume.com/press;https://www.topresume.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://www.topresume.com/plans"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "found",
+     "pages": "https://www.topresume.com/partnerships"
+    }
+   ]
+  },
+  {
+   "id": "taskrabbit",
+   "name": "TaskRabbit",
+   "url": "https://www.taskrabbit.com",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "partner_program": "yes"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;parent",
+    "note": "Read /about, /press, /blog/partner-lp/ and the homepage footer. None states founding year, HQ or parent. IKEA appears only as a furniture assembly partner."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.taskrabbit.com/about;https://www.taskrabbit.com/press;https://www.taskrabbit.com/blog/partner-lp/;https://www.taskrabbit.com"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.taskrabbit.com/about;https://www.taskrabbit.com/press;https://www.taskrabbit.com/blog/partner-lp/;https://www.taskrabbit.com"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.taskrabbit.com/about;https://www.taskrabbit.com/press;https://www.taskrabbit.com/blog/partner-lp/;https://www.taskrabbit.com"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "bamboohr",
+   "name": "BambooHR",
+   "url": "https://www.bamboohr.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "founded": "2008",
+    "business_model": "free trial, prices by quote, no list prices shown",
+    "api_status": "public-key",
+    "api_docs_url": "https://documentation.bamboohr.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding year 2008 quoted from the About BambooHR page via the fetch tool; the headless reader text did not contain the story body, so the quote is taken from the fetch tool output. Pricing page shows Try it free and Get a Free Price Quote,"
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.bamboohr.com/about-bamboohr/"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.bamboohr.com/pricing/;https://www.bamboohr.com"
+    }
+   ]
+  },
+  {
+   "id": "gi-group-holding",
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "IT",
+    "founded": "1998"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages",
+    "note": "Founding year verified from the home page ('Since 1998'). About page gives a Milan head office address and says Gi Group is part of Gi Group Holding, not recorded because the fields asked were founded and languages. Country and region selec"
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.gigroup.com/;https://www.gigroup.com/about-gi-group/"
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": "https://www.gigroup.com/contact-us/#countries;https://www.gigroup.com/"
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "applytoeducation",
+   "name": "ApplyToEducation",
+   "url": "https://www.applytoeducation.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "beamery",
+   "name": "Beamery",
+   "url": "https://beamery.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "recorded": {
+    "founded": "2013",
+    "partner_program": "yes",
+    "partner_url": "https://beamery.com/partners/",
+    "ingest_methods": "ATS integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent",
+    "note": "Founding year 2013 verified on /about-us/. Homepage footer gives copyright only. The London reference is the founding location, not a stated HQ."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://beamery.com/about-us/;https://beamery.com"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://beamery.com/about-us/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://beamery.com/about-us/;https://beamery.com"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "turijobs",
+   "name": "Turijobs",
+   "url": "https://www.turijobs.com/",
+   "type": "board",
+   "parent": "The Stepstone Group",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "parent": "The Stepstone Group",
+    "languages_supported": "es;en",
+    "ingest_methods": "manual posting"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;partner_program",
+    "note": "Headquarters, parent company, languages and posting path stated. No employer pricing or partner program found."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 # Government operated
 
-Run by a government or public body. 19 entries in the directory.
+Run by a government or public body. 20 entries in the directory.
 
 - [USAJOBS](https://jobboardlist.com/boards/usajobs/): government, Self-serve API key
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government
@@ -14,6 +14,7 @@ Run by a government or public body. 19 entries in the directory.
 - [Alberta Job Banks (ALIS)](https://jobboardlist.com/boards/alis-alberta/): government
 - [Comunidad de Madrid Empleo (Objetivo: tu empleo)](https://jobboardlist.com/boards/comunidad-de-madrid-empleo-objetivo-tu-empleo/): government
 - [Find an Apprenticeship](https://jobboardlist.com/boards/find-an-apprenticeship/): government
+- [Japan Institute for Labour Policy and Training](https://jobboardlist.com/boards/japan-institute-for-labour-policy-and-training/): lmi
 - [Lanbide](https://jobboardlist.com/boards/lanbide/): government
 - [Arbeidsplassen (NAV)](https://jobboardlist.com/boards/nav-arbeidsplassen/): government, Self-serve API key
 - [Ontario Public Service Careers](https://jobboardlist.com/boards/on-gojobs/): government

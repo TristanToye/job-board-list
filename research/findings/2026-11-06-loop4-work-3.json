@@ -1,0 +1,341 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 4,
+ "boards": [
+  {
+   "name": "AgCareers",
+   "url": "https://www.agcareers.com",
+   "business_model": "per post",
+   "partner_program": "yes",
+   "partner_url": "https://www.agcareers.com/employer-partners.cfm",
+   "founded": "2001",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.agcareers.com/advertising-rates.cfm",
+     "title": "Job Advertising Rates",
+     "quote": "Listing on AgCareers for 60 days",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.agcareers.com/employer-partners.cfm",
+     "title": "Employer Partnerships",
+     "quote": "Interested in joining our network of employer partners?",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://www.agcareers.com/about-us.cfm",
+     "title": "AgCareers.com - Agriculture Jobs & Agriculture Careers",
+     "quote": "The original business, JobHog.net, launched in 2001 to raise the bar",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CIEE",
+   "url": "https://portal.ciee.org.br",
+   "hq_country": "BR",
+   "founded": "1964",
+   "partner_program": "yes",
+   "partner_url": "https://portal.ciee.org.br/quero-ser-parceiro",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://portal.ciee.org.br/conheca-o-ciee/quem-somos",
+     "title": "Quem somos",
+     "quote": "Tudo começou em 1964 quando alguns educadores e empresários se uniram",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://portal.ciee.org.br/conheca-o-ciee/quem-somos",
+     "title": "Quem somos",
+     "quote": "nossa sede, localizada em São Paulo",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://portal.ciee.org.br/conheca-o-ciee/quem-somos",
+     "title": "Quem somos",
+     "quote": "presente em todos os estados brasileiros",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://portal.ciee.org.br/quero-ser-parceiro",
+     "title": "Benefícios para Instituição de Ensino - CIEE",
+     "quote": "Futuro se constrói em parceria. Veja os benefícios para a sua Instituição de Ensino!",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+   "hq_country": "BR",
+   "parent": "Ministério do Trabalho e Emprego (MTE)",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego",
+     "title": "Ministério do Trabalho e Emprego",
+     "quote": "Ministério do Trabalho e Emprego (MTE)",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego",
+     "title": "Ministério do Trabalho e Emprego",
+     "quote": "Buscar Emprego no Sistema Nacional de Emprego (Sine)",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+     "title": "Buscar Emprego no Sistema Nacional de Emprego (Sine)",
+     "quote": "Serviços e Informações do Brasil",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Wantedly",
+   "url": "https://www.wantedly.com/",
+   "hq_country": "JP",
+   "business_model": "subscription",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.wantedly.com/about/list",
+     "title": "【法人向け】意欲ある若手の採用ならWantedly｜掲載し放題、成果報酬なし",
+     "quote": "成果報酬のかからない毎月定額の料金モデルを採用しています",
+     "check": "mismatch"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.wantedly.com/",
+     "title": "Wantedly（ウォンテッドリー）共感でつながるビジネスSNS",
+     "quote": "掲載数無制限・採用成功報酬０円",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://service-terms.wantedly.com/privacy_policy/ja_JP",
+     "title": "Wantedly サービスプライバシーポリシー",
+     "quote": "日本国内にあるウォンテッドリー株式会社",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Wow Jobs",
+   "url": "https://www.wowjobs.ca/"
+  }
+ ],
+ "reviews": [
+  {
+   "name": "AgCareers",
+   "url": "https://www.agcareers.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "Pricing page lists per-listing packages (Job Posting, MPE, custom sourcing). Founding year 2001 is for the predecessor JobHog.net; the about page says Farms.com is an active shareholder partner, which is not a stated owner, so parent is not recorded. The footer claim 'a Farms.com Company' seen in a summary tool was not in the raw page text, so it was not used."
+  },
+  {
+   "name": "CIEE",
+   "url": "https://portal.ciee.org.br",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "business_model"
+   ],
+   "method": "browser",
+   "note": "Founded 1964 and São Paulo headquarters from the about page. The site calls itself a phil[redacted] entity with no government link and names no owner. Employers pay for hiring ('dinheiro investido na sua contratação') but no payment model or price is stated."
+  },
+  {
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Parent is the Ministry of Labour and Employment per the ministry page listing the service. hq_country BR is supported only by the gov.br portal header 'Serviços e Informações do Brasil' plus the service's own Brazilian context. The service page does not say how employers submit vacancies."
+  },
+  {
+   "name": "Wantedly",
+   "url": "https://www.wantedly.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "browser",
+   "note": "Monthly flat-fee model with no success fee and unlimited postings. Prices are in a pricing PDF behind a download link that was not read. Japan comes from the privacy policy naming the Japanese company. No founding year on the pages read."
+  },
+  {
+   "name": "Wow Jobs",
+   "url": "https://www.wowjobs.ca/",
+   "outcome": "blocked",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "browser",
+   "note": "wowjobs.ca returns a 301 to simplyhired.ca. The redirect target is off-domain and was not followed. The headless reader hit a Cloudflare challenge on the target, so no own-domain page with ownership text was read."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "AgCareers",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.agcareers.com/about-us.cfm"
+   ]
+  },
+  {
+   "name": "AgCareers",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.agcareers.com/",
+    "https://www.agcareers.com/advertising-rates.cfm",
+    "https://www.agcareers.com/about-us.cfm"
+   ]
+  },
+  {
+   "name": "AgCareers",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.agcareers.com/advertising-rates.cfm"
+   ]
+  },
+  {
+   "name": "AgCareers",
+   "field": "partner_program",
+   "outcome": "found",
+   "pages": [
+    "https://www.agcareers.com/employer-partners.cfm"
+   ]
+  },
+  {
+   "name": "CIEE",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://portal.ciee.org.br/conheca-o-ciee/quem-somos"
+   ]
+  },
+  {
+   "name": "CIEE",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://portal.ciee.org.br/conheca-o-ciee/quem-somos"
+   ]
+  },
+  {
+   "name": "CIEE",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://portal.ciee.org.br/quero-ser-parceiro",
+    "https://portal.ciee.org.br/conheca-o-ciee/",
+    "https://portal.ciee.org.br/contrate-com-o-ciee",
+    "https://portal.ciee.org.br/conheca-o-ciee/quem-somos",
+    "https://portal.ciee.org.br/conheca-o-ciee/transparencia/"
+   ]
+  },
+  {
+   "name": "CIEE",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://portal.ciee.org.br/contrate-com-o-ciee",
+    "https://portal.ciee.org.br/conheca-o-ciee/quem-somos"
+   ]
+  },
+  {
+   "name": "CIEE",
+   "field": "partner_program",
+   "outcome": "found",
+   "pages": [
+    "https://portal.ciee.org.br/quero-ser-parceiro"
+   ]
+  },
+  {
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine"
+   ]
+  },
+  {
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego",
+    "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine"
+   ]
+  },
+  {
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "field": "ingest_methods",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+    "https://www.gov.br/governodigital/pt-br/dados-abertos"
+   ]
+  },
+  {
+   "name": "Wantedly",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://service-terms.wantedly.com/privacy_policy/ja_JP"
+   ]
+  },
+  {
+   "name": "Wantedly",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.wantedly.com/about/list",
+    "https://www.wantedly.com/",
+    "https://www.wantedly.com/about/features",
+    "https://www.wantedly.com/external_links/contact_to_business_team"
+   ]
+  },
+  {
+   "name": "Wantedly",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.wantedly.com/about/list",
+    "https://www.wantedly.com/"
+   ]
+  },
+  {
+   "name": "Wow Jobs",
+   "field": "parent",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.wowjobs.ca/"
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Wow Jobs",
+   "url": "https://www.wowjobs.ca/",
+   "reason": "301 redirect to off-domain simplyhired.ca, which returned a Cloudflare challenge in the headless reader. Redirect target not followed."
+  }
+ ]
+}

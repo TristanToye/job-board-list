@@ -1,0 +1,722 @@
+{
+ "round": 5,
+ "entries": [
+  {
+   "id": "jobware",
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Impressum names the registry court AG Paderborn and the Paderborn address, so hq_country DE is taken from the registry court. Ueber uns gives 1 May 1996 for the first German online job market, founded in Paderborn; the page does not name a "
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.jobware.de/impressum"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://www.jobware.de/ueber-uns"
+    }
+   ]
+  },
+  {
+   "id": "harver",
+   "name": "Harver",
+   "url": "https://harver.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://harver.com/integrations"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founded 2015 verified from About Us. Only founded was requested; HQ and parent were checked on the newsroom and home pages and are not stated. 'Outmatch is now part of Harver' describes an acquisition, not a parent."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://harver.com/about-us/"
+    }
+   ]
+  },
+  {
+   "id": "novoresume",
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "DK"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "",
+    "note": "Founded 2014 and language menu verified. Business model: the core builder is free and paid Pro is a one-time pass for job seekers; no employer pricing is shown, so this is a job seeker model, not how employers pay. Homepage FAQ calls it 'a "
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://novoresume.com/about-us"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://novoresume.com"
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://novoresume.com/pricing;https://novoresume.com;https://novoresume.com/page/media-kit"
+    }
+   ]
+  },
+  {
+   "id": "personio",
+   "name": "Personio",
+   "url": "https://www.personio.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "DE",
+    "api_status": "public-open",
+    "api_docs_url": "https://developer.personio.de",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "jazzhr",
+   "name": "JazzHR",
+   "url": "https://www.jazzhr.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "public-key",
+    "api_docs_url": "https://www.jazzhr.com/api",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Pricing page gives yearly billing with a discount, a Hero plan at $1,000/yr billed annually, and usage-billed add-ons."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.jazzhr.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "revelio-labs",
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "type": "lmi",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Business model from pricing page: Terminal starts at $1,250 per month, with an annual commitment (annual commitment is from the FAQ and not separately quoted), plus quote-based enterprise data and API plans and a free Terminal trial. Compan"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.reveliolabs.com/company;https://www.reveliolabs.com"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.reveliolabs.com/company;https://www.reveliolabs.com"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.reveliolabs.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "lhh",
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "type": "outplacement",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded",
+    "note": "Our presence, newsroom and About pages give no global HQ, HQ country or founding year. About says over 50 years of expertise, which is not a year. Newsroom page content was truncated in the fetch."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.lhh.com/en-us/about-us/our-presence;https://www.lhh.com/en-us/about-us/newsroom;https://www.lhh.com/en-us/about-us"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.lhh.com/en-us/about-us/our-presence;https://www.lhh.com/en-us/about-us/newsroom;https://www.lhh.com/en-us/about-us"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "first-advantage",
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://fadv.com/partners/",
+    "ingest_methods": "ATS integration"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;api_status",
+    "note": "Founded 2003 and region/language menu verified. HQ and parent not stated on About Us or home page. API page (/api/) describes docs and a sandbox but states no access rule; /developers/ returned 404. api_status left unknown. Partner page (/p"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://fadv.com/about-us/;https://fadv.com"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://fadv.com/about-us/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://fadv.com/about-us/;https://fadv.com"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://fadv.com/about-us/;https://fadv.com"
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": "https://fadv.com/api/;https://fadv.com/partners/"
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "ashby",
+   "name": "Ashby",
+   "url": "https://www.ashbyhq.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "business_model": "Subscription plans (Foundations, Plus, Enterprise); Foundations shown at $400 per month for up to 100 employees; Plus and Enterprise by sales contact",
+    "api_status": "public-open",
+    "api_docs_url": "https://developers.ashbyhq.com",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Pricing page verified: plan-based pricing with a $400 per month Foundations price and sales-led Enterprise pricing."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.ashbyhq.com/pricing"
+    }
+   ]
+  },
+  {
+   "id": "kickresume",
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;business_model;partner_program",
+    "note": "HQ Bratislava and language list found on About page. No founding year. Pricing pages (/en/pricing/) show plans for job seekers only (yearly $96, quarterly $54, free unless paid customization options), no employer pricing, so business_model "
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.kickresume.com/en/about/;https://www.kickresume.com/en/press/;https://www.kickresume.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.kickresume.com/en/about/;https://www.kickresume.com/en/press/;https://www.kickresume.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.kickresume.com/en/about/"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://www.kickresume.com/en/pricing/"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": "https://www.kickresume.com/en/press/;https://www.kickresume.com/;https://form.typeform.com/to/lr6p9OUR"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "prospects",
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "type": "niche-board",
+   "parent": "Jisc",
+   "missing": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Jisc"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;business_model",
+    "note": "About us page gives a Bristol address and says Prospects is part of Jisc, but no founding year. Employer advertising shows 'Prices from £370' with no statement of whether it is per advert, subscription or other, so business_model is not rec"
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://prospects.ac.uk/about-us;https://prospects.ac.uk/prospects-press-office;https://prospects.ac.uk/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": "https://prospects.ac.uk/about-us;https://prospects.ac.uk/"
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "eightfold-ai",
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "type": "hr-tech",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "partner_program": "yes",
+    "partner_url": "https://eightfold.ai/partners"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;parent",
+    "note": "Read the company, press and home pages. Only a copyright line with the year 2026 appears. No headquarters, founding year or parent company is stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://eightfold.ai/company/;https://eightfold.ai/company/press/;https://eightfold.ai"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://eightfold.ai/company/;https://eightfold.ai/company/press/;https://eightfold.ai"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://eightfold.ai/company/;https://eightfold.ai/company/press/;https://eightfold.ai"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "hays",
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "type": "staffing",
+   "parent": "",
+   "missing": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Parent verified from the haysplc.com group site, which is not on the hays.com domain; the hays.com footer links to Hays PLC. Language selector shows United States English; the list of other region and language options was read but not quote"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.hays.com/en-US/about-us;https://www.hays.com/en-US/about-us/leaders;https://www.hays.com/"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.hays.com/en-US/about-us;https://www.hays.com/en-US/about-us/leaders;https://www.hays.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.haysplc.com"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.hays.com/;https://www.hays.com/en-US/about-us"
+    }
+   ]
+  },
+  {
+   "id": "enhancv",
+   "name": "Enhancv",
+   "url": "https://enhancv.com",
+   "type": "career-services",
+   "parent": "",
+   "missing": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "BG",
+    "founded": "2014",
+    "primary_language": "en",
+    "languages_supported": "en;cs;da;nl;fi;fr;de;it;no;pl;pt;es;sv"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founded 2014 in Sofia, Bulgaria; registered address in Bulgaria; 13 language options on the home page menu. Languages list uses ISO 639-1 codes; Portuguese (PT-BR) recorded as pt and Swedish (SE) as sv."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://enhancv.com/about/"
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://enhancv.com/about/;https://enhancv.com/press/"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://enhancv.com/"
+    }
+   ]
+  },
+  {
+   "id": "codeable",
+   "name": "Codeable",
+   "url": "https://codeable.io",
+   "type": "freelance-platform",
+   "parent": "",
+   "missing": [
+    "parent",
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "DK",
+    "business_model": "Client deposits project cost into escrow; 17.5% fixed fee; hourly rate $80-$120 USD",
+    "partner_program": "yes",
+    "partner_url": "https://www.codeable.io/partner-program/"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "HQ taken from the company address and incorporation line on /team/. The /story/ page gives a launch sequence (joined 2012, launched a year later) but no explicit founding year, so founded is not recorded."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.codeable.io/team/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.codeable.io/story/;https://www.codeable.io/partner-program/;https://www.codeable.io/pricing/;https://www.codeable.io/team/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.codeable.io/pricing/"
+    },
+    {
+     "field": "partner_program",
+     "outcome": "found",
+     "pages": "https://www.codeable.io/partner-program/"
+    }
+   ]
+  },
+  {
+   "id": "japan-dev",
+   "name": "Japan Dev",
+   "url": "https://japan-dev.com/",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;api_status;partner_program;parent",
+    "note": "Homepage and about page read; languages and job-data sourcing stated, office address shown but no headquarters statement; no pricing, API or partner program."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  }
+ ]
+}

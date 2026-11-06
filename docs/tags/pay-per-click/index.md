@@ -1,6 +1,6 @@
 # Pay per click
 
-Employers pay for clicks or applications on sponsored jobs. 15 entries in the directory.
+Employers pay for clicks or applications on sponsored jobs. 16 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
@@ -16,6 +16,7 @@ Employers pay for clicks or applications on sponsored jobs. 15 entries in the di
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
 - [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
+- [Recruit Group](https://jobboardlist.com/boards/recruit-group/): staffing
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
 
 Canonical page: https://jobboardlist.com/tags/pay-per-click/

@@ -1,72 +1,307 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 4,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 4,
+ "boards": [
+  {
+   "name": "JobKorea",
+   "url": "https://www.jobkorea.co.kr",
+   "api_status": "on-request",
+   "api_docs_url": "https://www.jobkorea.co.kr/service/api",
+   "parent": "Worxphere LLC",
+   "sources": [
     {
-      "name": "JobKorea", "url": "https://www.jobkorea.co.kr",
-      "api_status": "on-request", "api_docs_url": "https://www.jobkorea.co.kr/service/api",
-      "parent": "Worxphere LLC",
-      "sources": [
-        {"field": "api_status", "url": "https://www.jobkorea.co.kr/service/api", "title": "채용정보 API service page", "quote": "승인 후 API 고유 주소를 가이드와 함께 전달드립니다."},
-        {"field": "parent", "url": "https://www.jobkorea.co.kr", "title": "Homepage footer", "quote": "© Worxphere LLC. All rights reserved."}
-      ]
+     "field": "api_status",
+     "url": "https://www.jobkorea.co.kr/service/api",
+     "title": "채용정보 API service page",
+     "quote": "승인 후 API 고유 주소를 가이드와 함께 전달드립니다.",
+     "check": "ok"
     },
     {
-      "name": "Recruit Group", "url": "https://www.recruit-holdings.com/en/",
-      "hq_country": "JP", "founded": "1960",
-      "business_model": "pay per click (Indeed PLUS) and success-based placement fee (RECRUIT AGENT); no prices shown",
-      "sources": [
-        {"field": "hq_country", "url": "https://recruit-holdings.com/en/about/history/", "title": "History", "quote": "Gran Tokyo SOUTH TOWER (Marunouchi 1-9-2, Chiyoda-ku, Tokyo, Japan)"},
-        {"field": "founded", "url": "https://recruit-holdings.com/en/about/history/", "title": "History", "quote": "Recruit Group was launched in 1960 in a small prefabricated rooftop unit in Tokyo."},
-        {"field": "business_model", "url": "https://recruit-holdings.com/en/about/business/", "title": "Our Business Model", "quote": "With Indeed PLUS, you only pay when a job seeker clicks on your job post."},
-        {"field": "business_model", "url": "https://recruit-holdings.com/en/about/business/", "title": "Our Business Model", "quote": "RECRUIT AGENT operates a placement service on a fully success-based fee model."}
-      ]
-    },
-    {
-      "name": "Japan Institute for Labour Policy and Training", "url": "https://www.jil.go.jp/english/",
-      "hq_country": "JP", "founded": "2003",
-      "parent": "Ministry of Health, Labour and Welfare (MHLW)",
-      "languages": {"languages_supported": ["ja"], "primary_language": null},
-      "sources": [
-        {"field": "hq_country", "url": "https://www.jil.go.jp/english/organization/aboutus.html", "title": "About us", "quote": "4-8-23, Kamishakujii, Nerima-ku, Tokyo, Japan, 177-8502"},
-        {"field": "founded", "url": "https://www.jil.go.jp/english/organization/aboutus.html", "title": "About us", "quote": "established in October 2003"},
-        {"field": "parent", "url": "https://www.jil.go.jp/english/organization/aboutus.html", "title": "About us", "quote": "under the jurisdiction of the Ministry of Health, Labour and Welfare (MHLW)"},
-        {"field": "languages", "url": "https://www.jil.go.jp/english/organization/index.html", "title": "Language menu", "quote": "Japanese"}
-      ]
-    },
-    {
-      "name": "Find an Apprenticeship", "url": "https://www.findapprenticeship.service.gov.uk",
-      "parent": "Department for Education (DfE)",
-      "sources": [
-        {"field": "parent", "url": "https://www.findapprenticeship.service.gov.uk/Home/terms-and-conditions", "title": "Terms and conditions", "quote": "This service is run by the Department for Education (DfE)."}
-      ]
+     "field": "parent",
+     "url": "https://www.jobkorea.co.kr",
+     "title": "Homepage footer",
+     "quote": "© Worxphere LLC. All rights reserved.",
+     "check": "mismatch"
     }
-  ],
-  "reviews": [
-    {"name": "JobKorea", "url": "https://www.jobkorea.co.kr", "outcome": "partially-verified", "fields_not_found": ["founded", "partner_program", "ingest_methods"], "method": "fetch", "note": "API page and homepage footer read. Footer names Worxphere LLC as owner. Worxphere.ai pages were read but are off the entry domain, so their 1996 founding date and 'new name' statement are not cited. The 제휴문의 link leads to worxphere.ai, so no partner program is shown on jobkorea.co.kr. Company intro page returned HTTP 500."},
-    {"name": "Recruit Group", "url": "https://www.recruit-holdings.com/en/", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Profile, history and business pages read. Business model is mixed across SBUs and no prices are shown."},
-    {"name": "Japan Institute for Labour Policy and Training", "url": "https://www.jil.go.jp/english/", "outcome": "partially-verified", "fields_not_found": ["languages.primary_language"], "method": "fetch", "note": "About us, organization and inquiries pages read. Only a 'Japanese' language menu link was quoted, so the primary language is not sourced. Languages field recorded as ja only."},
-    {"name": "Find an Apprenticeship", "url": "https://www.findapprenticeship.service.gov.uk", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Terms and conditions page names DfE as the service owner. The gov.uk privacy notice was read but is off the entry domain and is not cited. Get-help page names no owner."},
-    {"name": "CareersInFood.com", "url": "https://www.careersinfood.com", "outcome": "unreachable", "fields_not_found": ["business_model"], "method": "fetch", "note": "Homepage returned HTTP 503 on fetch again. No try_pages were given. Headless reader had already been used once for this entry per the order reason, so it was not rerun. No employer pricing was read."}
-  ],
-  "attempts": [
-    {"name": "JobKorea", "field": "api_status", "outcome": "found", "pages": ["https://www.jobkorea.co.kr/service/api"]},
-    {"name": "JobKorea", "field": "founded", "outcome": "not-found", "pages": ["https://www.jobkorea.co.kr", "https://www.worxphere.ai", "https://worxphere.ai/partnership"]},
-    {"name": "JobKorea", "field": "parent", "outcome": "found", "pages": ["https://www.jobkorea.co.kr"]},
-    {"name": "JobKorea", "field": "partner_program", "outcome": "not-found", "pages": ["https://www.jobkorea.co.kr", "https://worxphere.ai/partnership"]},
-    {"name": "JobKorea", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://www.jobkorea.co.kr/service/api"]},
-    {"name": "Recruit Group", "field": "hq_country", "outcome": "found", "pages": ["https://recruit-holdings.com/en/about/profile/", "https://recruit-holdings.com/en/about/history/"]},
-    {"name": "Recruit Group", "field": "founded", "outcome": "found", "pages": ["https://recruit-holdings.com/en/about/history/", "https://recruit-holdings.com/en/about/profile/"]},
-    {"name": "Recruit Group", "field": "business_model", "outcome": "found", "pages": ["https://recruit-holdings.com/en/about/business/", "https://recruit-holdings.com/en/about/profile/"]},
-    {"name": "Japan Institute for Labour Policy and Training", "field": "hq_country", "outcome": "found", "pages": ["https://www.jil.go.jp/english/organization/aboutus.html", "https://www.jil.go.jp/english/organization/index.html", "https://www.jil.go.jp/english/organization/inquiries.html"]},
-    {"name": "Japan Institute for Labour Policy and Training", "field": "founded", "outcome": "found", "pages": ["https://www.jil.go.jp/english/organization/aboutus.html", "https://www.jil.go.jp/english/organization/index.html"]},
-    {"name": "Japan Institute for Labour Policy and Training", "field": "parent", "outcome": "found", "pages": ["https://www.jil.go.jp/english/organization/aboutus.html", "https://www.jil.go.jp/english/organization/index.html"]},
-    {"name": "Japan Institute for Labour Policy and Training", "field": "languages", "outcome": "found", "pages": ["https://www.jil.go.jp/english/organization/index.html"]},
-    {"name": "Find an Apprenticeship", "field": "parent", "outcome": "found", "pages": ["https://www.findapprenticeship.service.gov.uk/Home/terms-and-conditions", "https://www.findapprenticeship.service.gov.uk/Home/get-help", "https://www.gov.uk/government/publications/privacy-information-key-stage-4-and-5-and-adult-education/privacy-information-key-stage-4-and-5-and-adult-education"]},
-    {"name": "CareersInFood.com", "field": "business_model", "outcome": "blocked", "pages": ["https://www.careersinfood.com"]}
-  ],
-  "blocked": [
-    {"name": "CareersInFood.com", "url": "https://www.careersinfood.com", "reason": "HTTP 503 on fetch; no try_pages given; headless reader already used once per the order reason"}
-  ]
+   ]
+  },
+  {
+   "name": "Recruit Group",
+   "url": "https://www.recruit-holdings.com/en/",
+   "hq_country": "JP",
+   "founded": "1960",
+   "business_model": "pay per click (Indeed PLUS) and success-based placement fee (RECRUIT AGENT); no prices shown",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://recruit-holdings.com/en/about/history/",
+     "title": "History",
+     "quote": "Gran Tokyo SOUTH TOWER (Marunouchi 1-9-2, Chiyoda-ku, Tokyo, Japan)",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://recruit-holdings.com/en/about/history/",
+     "title": "History",
+     "quote": "Recruit Group was launched in 1960 in a small prefabricated rooftop unit in Tokyo.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://recruit-holdings.com/en/about/business/",
+     "title": "Our Business Model",
+     "quote": "With Indeed PLUS, you only pay when a job seeker clicks on your job post.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://recruit-holdings.com/en/about/business/",
+     "title": "Our Business Model",
+     "quote": "RECRUIT AGENT operates a placement service on a fully success-based fee model.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Japan Institute for Labour Policy and Training",
+   "url": "https://www.jil.go.jp/english/",
+   "hq_country": "JP",
+   "founded": "2003",
+   "parent": "Ministry of Health, Labour and Welfare (MHLW)",
+   "languages": {
+    "languages_supported": [
+     "ja"
+    ],
+    "primary_language": null
+   },
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.jil.go.jp/english/organization/aboutus.html",
+     "title": "About us",
+     "quote": "4-8-23, Kamishakujii, Nerima-ku, Tokyo, Japan, 177-8502",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "url": "https://www.jil.go.jp/english/organization/aboutus.html",
+     "title": "About us",
+     "quote": "established in October 2003",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.jil.go.jp/english/organization/aboutus.html",
+     "title": "About us",
+     "quote": "under the jurisdiction of the Ministry of Health, Labour and Welfare (MHLW)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.jil.go.jp/english/organization/index.html",
+     "title": "Language menu",
+     "quote": "Japanese",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Find an Apprenticeship",
+   "url": "https://www.findapprenticeship.service.gov.uk",
+   "parent": "Department for Education (DfE)",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.findapprenticeship.service.gov.uk/Home/terms-and-conditions",
+     "title": "Terms and conditions",
+     "quote": "This service is run by the Department for Education (DfE).",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "JobKorea",
+   "url": "https://www.jobkorea.co.kr",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "API page and homepage footer read. Footer names Worxphere LLC as owner. Worxphere.ai pages were read but are off the entry domain, so their 1996 founding date and 'new name' statement are not cited. The 제휴문의 link leads to worxphere.ai, so no partner program is shown on jobkorea.co.kr. Company intro page returned HTTP 500."
+  },
+  {
+   "name": "Recruit Group",
+   "url": "https://www.recruit-holdings.com/en/",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Profile, history and business pages read. Business model is mixed across SBUs and no prices are shown."
+  },
+  {
+   "name": "Japan Institute for Labour Policy and Training",
+   "url": "https://www.jil.go.jp/english/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages.primary_language"
+   ],
+   "method": "fetch",
+   "note": "About us, organization and inquiries pages read. Only a 'Japanese' language menu link was quoted, so the primary language is not sourced. Languages field recorded as ja only."
+  },
+  {
+   "name": "Find an Apprenticeship",
+   "url": "https://www.findapprenticeship.service.gov.uk",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Terms and conditions page names DfE as the service owner. The gov.uk privacy notice was read but is off the entry domain and is not cited. Get-help page names no owner."
+  },
+  {
+   "name": "CareersInFood.com",
+   "url": "https://www.careersinfood.com",
+   "outcome": "unreachable",
+   "fields_not_found": [
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "Homepage returned HTTP 503 on fetch again. No try_pages were given. Headless reader had already been used once for this entry per the order reason, so it was not rerun. No employer pricing was read."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "JobKorea",
+   "field": "api_status",
+   "outcome": "found",
+   "pages": [
+    "https://www.jobkorea.co.kr/service/api"
+   ]
+  },
+  {
+   "name": "JobKorea",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.jobkorea.co.kr",
+    "https://www.worxphere.ai",
+    "https://worxphere.ai/partnership"
+   ]
+  },
+  {
+   "name": "JobKorea",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.jobkorea.co.kr"
+   ]
+  },
+  {
+   "name": "JobKorea",
+   "field": "partner_program",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.jobkorea.co.kr",
+    "https://worxphere.ai/partnership"
+   ]
+  },
+  {
+   "name": "JobKorea",
+   "field": "ingest_methods",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.jobkorea.co.kr/service/api"
+   ]
+  },
+  {
+   "name": "Recruit Group",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://recruit-holdings.com/en/about/profile/",
+    "https://recruit-holdings.com/en/about/history/"
+   ]
+  },
+  {
+   "name": "Recruit Group",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://recruit-holdings.com/en/about/history/",
+    "https://recruit-holdings.com/en/about/profile/"
+   ]
+  },
+  {
+   "name": "Recruit Group",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://recruit-holdings.com/en/about/business/",
+    "https://recruit-holdings.com/en/about/profile/"
+   ]
+  },
+  {
+   "name": "Japan Institute for Labour Policy and Training",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.jil.go.jp/english/organization/aboutus.html",
+    "https://www.jil.go.jp/english/organization/index.html",
+    "https://www.jil.go.jp/english/organization/inquiries.html"
+   ]
+  },
+  {
+   "name": "Japan Institute for Labour Policy and Training",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.jil.go.jp/english/organization/aboutus.html",
+    "https://www.jil.go.jp/english/organization/index.html"
+   ]
+  },
+  {
+   "name": "Japan Institute for Labour Policy and Training",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.jil.go.jp/english/organization/aboutus.html",
+    "https://www.jil.go.jp/english/organization/index.html"
+   ]
+  },
+  {
+   "name": "Japan Institute for Labour Policy and Training",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.jil.go.jp/english/organization/index.html"
+   ]
+  },
+  {
+   "name": "Find an Apprenticeship",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.findapprenticeship.service.gov.uk/Home/terms-and-conditions",
+    "https://www.findapprenticeship.service.gov.uk/Home/get-help",
+    "https://www.gov.uk/government/publications/privacy-information-key-stage-4-and-5-and-adult-education/privacy-information-key-stage-4-and-5-and-adult-education"
+   ]
+  },
+  {
+   "name": "CareersInFood.com",
+   "field": "business_model",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.careersinfood.com"
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "CareersInFood.com",
+   "url": "https://www.careersinfood.com",
+   "reason": "HTTP 503 on fetch; no try_pages given; headless reader already used once per the order reason"
+  }
+ ]
 }

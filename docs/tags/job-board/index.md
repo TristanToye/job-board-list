@@ -41,7 +41,7 @@ A site where employers post jobs and candidates search and apply. 237 entries in
 - [Remote OK](https://jobboardlist.com/boards/remoteok/): niche-board, Open API (no key)
 - [Bayt](https://jobboardlist.com/boards/bayt/): board
 - [Workopolis](https://jobboardlist.com/boards/workopolis/): board
-- [JobKorea](https://jobboardlist.com/boards/jobkorea/): board
+- [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, API key on request
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
 - [HigherEdJobs](https://jobboardlist.com/boards/higheredjobs/): niche-board
 - [Cadremploi](https://jobboardlist.com/boards/cadremploi/): board

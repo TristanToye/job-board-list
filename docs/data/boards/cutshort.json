@@ -41,7 +41,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "cutshort",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;founded;ingest_methods",
+  "note": "About page and sourcing article read. No headquarters, founding year or job/profile ingest method stated. The API and MCP pages describe employer sourcing access, not how jobs enter the platform; that page was not read in full.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

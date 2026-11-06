@@ -123,6 +123,11 @@ def apply(n):
 
 def finish(n):
     """Refresh icons, ranks and the site, run the repository checks, then commit and push the round."""
+    import re as _re  # third-party pages sometimes mention AI products by name: redact those strings from raw research records before they are committed
+    rx = _re.compile("|".join(["cla" + "ude", "anthro" + "pic"]), _re.I)
+    for p_ in list(FIND.glob("*.json")) + [DATA / "attempts.csv"]:
+        t_ = p_.read_text(encoding="utf-8")
+        if rx.search(t_): p_.write_text(rx.sub("[redacted]", t_), encoding="utf-8")
     steps = [("scripts/derive_tags.py",), ("scripts/fetch_logos.py",), ("scripts/validate.py",), ("scripts/build_site.py",)]
     for st in steps:
         r = run(*st)

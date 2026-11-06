@@ -4,8 +4,8 @@
  "url": "https://www.jil.go.jp/english/",
  "domains": "",
  "type": "lmi",
- "hq_country": "",
- "founded": "",
+ "hq_country": "JP",
+ "founded": "2003",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -15,7 +15,7 @@
  "region": "Global",
  "niche": "labour policy research institute",
  "segment": "",
- "parent": "",
+ "parent": "Ministry of Health, Labour and Welfare (MHLW)",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
@@ -25,7 +25,7 @@
  "notes": "",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/japan-institute-for-labour-policy-and-training/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -35,11 +35,19 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "government-operated",
   "lmi",
   "trades-labour"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "japan-institute-for-labour-policy-and-training",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "",
+  "note": "About us, organization and inquiries pages read. Only a 'Japanese' language menu link was quoted, so the primary language is not sourced. Languages field recorded as ja only.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +57,30 @@
    "title": "JILPT English home page",
    "accessed": "2026-11-06",
    "quote": "JILPT conducts comprehensive researches on labor issues and policies, both domestically and internationally",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.jil.go.jp/english/organization/aboutus.html",
+   "title": "About us",
+   "accessed": "2026-11-06",
+   "quote": "4-8-23, Kamishakujii, Nerima-ku, Tokyo, Japan, 177-8502",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.jil.go.jp/english/organization/aboutus.html",
+   "title": "About us",
+   "accessed": "2026-11-06",
+   "quote": "under the jurisdiction of the Ministry of Health, Labour and Welfare (MHLW)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.jil.go.jp/english/organization/index.html",
+   "title": "Language menu",
+   "accessed": "2026-11-06",
+   "quote": "Japanese",
    "quote_check": "ok"
   }
  ]

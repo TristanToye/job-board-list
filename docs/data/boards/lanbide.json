@@ -41,7 +41,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "lanbide",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded",
+  "note": "Parent and languages verified from homepage. Headquarters and founding year not stated on the pages read (homepage, Basque homepage, contact page).",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +59,22 @@
    "accessed": "2026-11-05",
    "quote": "Lanbiden zugan espezializatutako zerbitzuak ditugu.",
    "quote_check": "unreachable"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.lanbide.euskadi.eus/inicio/",
+   "title": "Lanbide homepage (news notice heading)",
+   "accessed": "2026-11-06",
+   "quote": "RESOLUCIÓN del director general de Lanbide- Servicio Público Vasco de Empleo",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.lanbide.euskadi.eus/inicio/",
+   "title": "Lanbide homepage (primary language, Spanish page)",
+   "accessed": "2026-11-06",
+   "quote": "Trabajamos por tu empleo",
+   "quote_check": "ok"
   }
  ]
 }

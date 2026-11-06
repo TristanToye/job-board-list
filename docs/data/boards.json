@@ -4993,15 +4993,15 @@
    "segment": "",
    "parent": "",
    "business_model": "subscription",
-   "api_status": "unknown",
-   "api_docs_url": "",
+   "api_status": "on-request",
+   "api_docs_url": "https://www.jobkorea.co.kr/service/api",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
    "notes": "",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobkorea/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -5011,15 +5011,32 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "api-on-request",
     "general",
     "job-board",
     "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobkorea",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;partner_program;ingest_methods",
+    "note": "API page and homepage footer read. Footer names Worxphere LLC as owner. Worxphere.ai pages were read but are off the entry domain, so their 1996 founding date and 'new name' statement are not cited. The 제휴문의 link leads to worxphere.ai, so n",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "https://www.jobkorea.co.kr/service/api",
+     "title": "채용정보 API service page",
+     "accessed": "2026-11-06",
+     "quote": "승인 후 API 고유 주소를 가이드와 함께 전달드립니다.",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "wanted",
@@ -8068,7 +8085,7 @@
    "domains": "",
    "type": "board",
    "hq_country": "CA",
-   "founded": "",
+   "founded": "2001",
    "markets": "CA",
    "countries_served": [
     "CA"
@@ -8081,16 +8098,16 @@
    "niche": "agriculture",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "per post",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.agcareers.com/employer-partners.cfm",
    "ingest_methods": [],
    "notes": "Listed as a Job Bank feed partner. Site not yet fetched. Niche from general knowledge.",
-   "confidence": "listed-only",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/agcareers/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -8101,7 +8118,9 @@
    },
    "tags": [
     "agriculture-food",
-    "job-board"
+    "job-board",
+    "partner-program",
+    "pay-per-post"
    ],
    "connections": [
     {
@@ -8114,7 +8133,14 @@
      "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "agcareers",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent",
+    "note": "Pricing page lists per-listing packages (Job Posting, MPE, custom sourcing). Founding year 2001 is for the predecessor JobHog.net; the about page says Farms.com is an active shareholder partner, which is not a stated owner, so parent is not",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -8125,6 +8151,30 @@
      "accessed": "2026-11-05",
      "quote": "",
      "quote_check": ""
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.agcareers.com/advertising-rates.cfm",
+     "title": "Job Advertising Rates",
+     "accessed": "2026-11-06",
+     "quote": "Listing on AgCareers for 60 days",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.agcareers.com/employer-partners.cfm",
+     "title": "Employer Partnerships",
+     "accessed": "2026-11-06",
+     "quote": "Interested in joining our network of employer partners?",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.agcareers.com/about-us.cfm",
+     "title": "AgCareers.com - Agriculture Jobs & Agriculture Careers",
+     "accessed": "2026-11-06",
+     "quote": "The original business, JobHog.net, launched in 2001 to raise the bar",
+     "quote_check": "ok"
     }
    ]
   },
@@ -8181,7 +8231,14 @@
      "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "careersinfood",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "business_model",
+    "note": "Homepage returned HTTP 503 on fetch again. No try_pages were given. Headless reader had already been used once for this entry per the order reason, so it was not rerun. No employer pricing was read.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -8792,7 +8849,14 @@
     "job-aggregator"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "wow-jobs",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "parent",
+    "note": "wowjobs.ca returns a 301 to simplyhired.ca. The redirect target is off-domain and was not followed. The headless reader hit a Cloudflare challenge on the target, so no own-domain page with ownership text was read.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9076,7 +9140,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "education-canada",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;parent;business_model",
+    "note": "Advertise, employer, about and contact pages were read. Advertising is listed as banners and a job newsletter with no prices; the employer page is a login only. The About page says the site is part of a growing global family of education e-",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9436,7 +9507,14 @@
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "built-in",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;business_model",
+    "note": "Our Story says more than 15 years but gives no founding year and no headquarters. The membership page offers a demo booking and a free AI Reputation Dashboard; it shows no prices or per-post fees for job posting.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9733,7 +9811,7 @@
    "region": "Europe",
    "niche": "general",
    "segment": "",
-   "parent": "",
+   "parent": "Department for Education (DfE)",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
@@ -9760,7 +9838,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "find-an-apprenticeship",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Terms and conditions page names DfE as the service owner. The gov.uk privacy notice was read but is off the entry domain and is not cited. Get-help page names no owner.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9770,6 +9855,14 @@
      "title": "Find an apprenticeship homepage",
      "accessed": "2026-11-05",
      "quote": "Search apprenticeships",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.findapprenticeship.service.gov.uk/Home/terms-and-conditions",
+     "title": "Terms and conditions",
+     "accessed": "2026-11-06",
+     "quote": "This service is run by the Department for Education (DfE).",
      "quote_check": "ok"
     }
    ]
@@ -10378,7 +10471,14 @@
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "cutshort",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;ingest_methods",
+    "note": "About page and sourcing article read. No headquarters, founding year or job/profile ingest method stated. The API and MCP pages describe employer sourcing access, not how jobs enter the platform; that page was not read in full.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10982,8 +11082,8 @@
    "url": "https://www.jobteaser.com/fr",
    "domains": "",
    "type": "niche-board",
-   "hq_country": "",
-   "founded": "",
+   "hq_country": "FR",
+   "founded": "2008",
    "markets": "",
    "countries_served": [
     "FR"
@@ -11017,7 +11117,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobteaser",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model",
+    "note": "Headquarters address, founding year and languages verified from press and about pages. No owner company stated. Recruiter page read but shows no prices (packs not priced in text read).",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -11027,6 +11134,22 @@
      "title": "JobTeaser (FR) homepage",
      "accessed": "2026-11-05",
      "quote": "JobTeaser, c'est l'espace carrière de plus de 800 écoles et universités européennes",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://press.jobteaser.com/",
+     "title": "JobTeaser press contact address",
+     "accessed": "2026-11-06",
+     "quote": "19 Rue Blanche 75009 Paris 9 France",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.jobteaser.com/fr/corporate/a-propos",
+     "title": "A propos JobTeaser (primary language)",
+     "accessed": "2026-11-06",
+     "quote": "LANGUE SÉLECTIONNÉE : FRANÇAIS",
      "quote_check": "ok"
     }
    ]
@@ -11879,7 +12002,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "lanbide",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Parent and languages verified from homepage. Headquarters and founding year not stated on the pages read (homepage, Basque homepage, contact page).",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -11890,6 +12020,22 @@
      "accessed": "2026-11-05",
      "quote": "Lanbiden zugan espezializatutako zerbitzuak ditugu.",
      "quote_check": "unreachable"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.lanbide.euskadi.eus/inicio/",
+     "title": "Lanbide homepage (news notice heading)",
+     "accessed": "2026-11-06",
+     "quote": "RESOLUCIÓN del director general de Lanbide- Servicio Público Vasco de Empleo",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.lanbide.euskadi.eus/inicio/",
+     "title": "Lanbide homepage (primary language, Spanish page)",
+     "accessed": "2026-11-06",
+     "quote": "Trabajamos por tu empleo",
+     "quote_check": "ok"
     }
    ]
   },
@@ -11910,7 +12056,7 @@
    "region": "Europe",
    "niche": "regional-public-employment",
    "segment": "",
-   "parent": "",
+   "parent": "Comunidad de Madrid",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
@@ -11936,7 +12082,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "The page states the Objetivo: tu empleo initiative is a Comunidad de Madrid initiative. Quote is in Spanish, copied from the raw page text.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -11945,6 +12098,14 @@
      "url": "https://www.comunidad.madrid/servicios/empleo",
      "title": "Empleo | Comunidad de Madrid",
      "accessed": "2026-11-05",
+     "quote": "Iniciativa de la Comunidad de Madrid para conectar el talento madrileño con las empresas de la región.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.comunidad.madrid/servicios/empleo",
+     "title": "Empleo",
+     "accessed": "2026-11-06",
      "quote": "Iniciativa de la Comunidad de Madrid para conectar el talento madrileño con las empresas de la región.",
      "quote_check": "ok"
     }
@@ -12064,7 +12225,14 @@
     "professional-network"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "wantedly",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Monthly flat-fee model with no success fee and unlimited postings. Prices are in a pricing PDF behind a download link that was not read. Japan comes from the privacy policy naming the Japanese company. No founding year on the pages read.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -12219,7 +12387,7 @@
    "region": "East Asia",
    "niche": "english-speaking",
    "segment": "",
-   "parent": "",
+   "parent": "GPlusMedia Inc.",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
@@ -12242,7 +12410,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "gaijinpot-jobs",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded;business_model",
+    "note": "Owner verified from footer copyright on about page. Employer page returned a reCAPTCHA challenge (blocked), so business model was not read. Headquarters and founding year not stated on the about page.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -12252,6 +12427,14 @@
      "title": "GaijinPot Jobs section",
      "accessed": "2026-11-05",
      "quote": "There's a position that's perfect for you on Japan's No.1 English job board.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.gaijinpot.com/about",
+     "title": "About GaijinPot (site footer copyright line)",
+     "accessed": "2026-11-06",
+     "quote": "© 2026 GPlusMedia Inc.",
      "quote_check": "ok"
     }
    ]
@@ -12402,7 +12585,7 @@
    "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
    "domains": "",
    "type": "government",
-   "hq_country": "",
+   "hq_country": "BR",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -12413,7 +12596,7 @@
    "region": "Latin America",
    "niche": "general",
    "segment": "",
-   "parent": "",
+   "parent": "Ministério do Trabalho e Emprego (MTE)",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
@@ -12440,7 +12623,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "sistema-nacional-de-emprego-sine",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "ingest_methods",
+    "note": "Parent is the Ministry of Labour and Employment per the ministry page listing the service. hq_country BR is supported only by the gov.br portal header 'Serviços e Informações do Brasil' plus the service's own Brazilian context. The service ",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -12450,6 +12640,14 @@
      "title": "Buscar emprego no Sistema Nacional de Emprego (SINE)",
      "accessed": "2026-11-05",
      "quote": "O Sistema Nacional de Emprego auxilia os trabalhadores e empregadores no processo de intermediação de mão de obra.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego",
+     "title": "Ministério do Trabalho e Emprego",
+     "accessed": "2026-11-06",
+     "quote": "Ministério do Trabalho e Emprego (MTE)",
      "quote_check": "ok"
     }
    ]
@@ -12594,8 +12792,8 @@
    "url": "https://portal.ciee.org.br",
    "domains": "",
    "type": "niche-board",
-   "hq_country": "",
-   "founded": "",
+   "hq_country": "BR",
+   "founded": "1964",
    "markets": "",
    "countries_served": [
     "BR"
@@ -12609,13 +12807,13 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://portal.ciee.org.br/quero-ser-parceiro",
    "ingest_methods": [],
    "notes": "",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ciee/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not comparable",
@@ -12626,7 +12824,8 @@
    },
    "tags": [
     "graduates-students",
-    "job-board"
+    "job-board",
+    "partner-program"
    ],
    "connections": [],
    "review": null,
@@ -12639,6 +12838,22 @@
      "title": "CIEE portal homepage",
      "accessed": "2026-11-05",
      "quote": "Encontre os estagiários e aprendizes certos para a sua necessidade",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://portal.ciee.org.br/conheca-o-ciee/quem-somos",
+     "title": "Quem somos",
+     "accessed": "2026-11-06",
+     "quote": "Tudo começou em 1964 quando alguns educadores e empresários se uniram",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://portal.ciee.org.br/quero-ser-parceiro",
+     "title": "Benefícios para Instituição de Ensino - CIEE",
+     "accessed": "2026-11-06",
+     "quote": "Futuro se constrói em parceria. Veja os benefícios para a sua Instituição de Ensino!",
      "quote_check": "ok"
     }
    ]
@@ -12849,7 +13064,14 @@
     "job-aggregator"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobtoday",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;parent",
+    "note": "HQ (New York, US) was found on the Contacts page. Languages (English, Español) come from the language menu. Business model is free posting with a paid subscription to contact candidates; no prices shown. The About page says we launched but ",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -17625,10 +17847,10 @@
    "region": "Global",
    "niche": "European Union statistical office, labour market statistics",
    "segment": "",
-   "parent": "",
+   "parent": "European Commission",
    "business_model": "",
    "api_status": "unknown",
-   "api_docs_url": "",
+   "api_docs_url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
@@ -17649,7 +17871,14 @@
     "trades-labour"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "eurostat",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;ingest_methods",
+    "note": "Founding year, parent (European Commission), languages and the public Statistics API were found. The About us, History and Web services pages do not state a headquarters location. The site does not say how jobs get in; the Job opportunities",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -17659,6 +17888,38 @@
      "title": "Eurostat home page",
      "accessed": "2026-11-06",
      "quote": "The home of high-quality statistics and data on Europe",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://ec.europa.eu/eurostat/web/main/about-us/history",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "is created on 1 October as one of the 12 divisions and services of the ECSC’s High Authority",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://ec.europa.eu/eurostat/web/main/about-us/history",
+     "title": "Our history",
+     "accessed": "2026-11-06",
+     "quote": "A new European Commission decision on Eurostat further defines Eurostat's tasks and responsibilities within the Commission",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://ec.europa.eu/eurostat/web/main/about-us",
+     "title": "About us",
+     "accessed": "2026-11-06",
+     "quote": "español",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started",
+     "title": "API - Getting started",
+     "accessed": "2026-11-06",
+     "quote": "Statistics API is a REST web service for data query focused on supporting Eurostat Visualisations Tools and open for public use.",
      "quote_check": "ok"
     }
    ]
@@ -17712,9 +17973,9 @@
     "board_id": "office-for-national-statistics",
     "reviewed": "2026-11-06",
     "outcome": "not-stated",
-    "fields_not_found": "founded",
-    "note": "About us, What we do and homepage read. No founding or establishment year stated. The /developers path was not requested, as it was already recorded as a 404.",
-    "method": "fetch"
+    "fields_not_found": "hq_country",
+    "note": "About and contact pages read. Office locations listed (Newport, Titchfield, London, Darlington, Manchester, Edinburgh, Belfast) but no headquarters stated.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -18191,8 +18452,8 @@
    "url": "https://www.jil.go.jp/english/",
    "domains": "",
    "type": "lmi",
-   "hq_country": "",
-   "founded": "",
+   "hq_country": "JP",
+   "founded": "2003",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -18202,7 +18463,7 @@
    "region": "Global",
    "niche": "labour policy research institute",
    "segment": "",
-   "parent": "",
+   "parent": "Ministry of Health, Labour and Welfare (MHLW)",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
@@ -18212,7 +18473,7 @@
    "notes": "",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/japan-institute-for-labour-policy-and-training/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not comparable",
@@ -18222,11 +18483,19 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "government-operated",
     "lmi",
     "trades-labour"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "japan-institute-for-labour-policy-and-training",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "",
+    "note": "About us, organization and inquiries pages read. Only a 'Japanese' language menu link was quoted, so the primary language is not sourced. Languages field recorded as ja only.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -18236,6 +18505,30 @@
      "title": "JILPT English home page",
      "accessed": "2026-11-06",
      "quote": "JILPT conducts comprehensive researches on labor issues and policies, both domestically and internationally",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.jil.go.jp/english/organization/aboutus.html",
+     "title": "About us",
+     "accessed": "2026-11-06",
+     "quote": "4-8-23, Kamishakujii, Nerima-ku, Tokyo, Japan, 177-8502",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.jil.go.jp/english/organization/aboutus.html",
+     "title": "About us",
+     "accessed": "2026-11-06",
+     "quote": "under the jurisdiction of the Ministry of Health, Labour and Welfare (MHLW)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.jil.go.jp/english/organization/index.html",
+     "title": "Language menu",
+     "accessed": "2026-11-06",
+     "quote": "Japanese",
      "quote_check": "ok"
     }
    ]
@@ -18883,8 +19176,8 @@
    "url": "https://www.recruit-holdings.com/en/",
    "domains": "",
    "type": "staffing",
-   "hq_country": "",
-   "founded": "",
+   "hq_country": "JP",
+   "founded": "1960",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -18895,7 +19188,7 @@
    "niche": "HR and staffing services (Japan-headquartered)",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per click (Indeed PLUS) and success-based placement fee (RECRUIT AGENT); no prices shown",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -18904,7 +19197,7 @@
    "notes": "",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/recruit-group/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not comparable",
@@ -18914,10 +19207,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "pay-per-click",
     "staffing"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "recruit-group",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Profile, history and business pages read. Business model is mixed across SBUs and no prices are shown.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -18927,6 +19228,22 @@
      "title": "Recruit Group",
      "accessed": "2026-11-06",
      "quote": "Recruit Group is a global technology company transforming the world of work.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://recruit-holdings.com/en/about/history/",
+     "title": "History",
+     "accessed": "2026-11-06",
+     "quote": "Gran Tokyo SOUTH TOWER (Marunouchi 1-9-2, Chiyoda-ku, Tokyo, Japan)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://recruit-holdings.com/en/about/business/",
+     "title": "Our Business Model",
+     "accessed": "2026-11-06",
+     "quote": "With Indeed PLUS, you only pay when a job seeker clicks on your job post.",
      "quote_check": "ok"
     }
    ]

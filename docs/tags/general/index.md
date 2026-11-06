@@ -30,7 +30,7 @@ Jobs across many occupations and industries. 88 entries in the directory.
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Partner-only API
 - [Bayt](https://jobboardlist.com/boards/bayt/): board
 - [Workopolis](https://jobboardlist.com/boards/workopolis/): board
-- [JobKorea](https://jobboardlist.com/boards/jobkorea/): board
+- [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, API key on request
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board

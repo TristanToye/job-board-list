@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 73 entries in the directory.
+Has a partner or integration program. 75 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -60,6 +60,7 @@ Has a partner or integration program. 73 entries in the directory.
 - [Jobijoba](https://jobboardlist.com/boards/jobijoba/): aggregator, API key on request
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Partner-only API
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
+- [AgCareers](https://jobboardlist.com/boards/agcareers/): board
 - [Hotelcareer](https://jobboardlist.com/boards/hotelcareer/): board
 - [Banco Nacional de Empregos](https://jobboardlist.com/boards/banco-nacional-de-empregos/): board
 - [Textkernel](https://jobboardlist.com/boards/textkernel/): lmi
@@ -68,6 +69,7 @@ Has a partner or integration program. 73 entries in the directory.
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [Resumeble](https://jobboardlist.com/boards/resumeble/): career-services
 - [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API
+- [CIEE](https://jobboardlist.com/boards/ciee/): niche-board
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
 - [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API

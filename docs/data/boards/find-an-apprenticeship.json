@@ -15,7 +15,7 @@
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
+ "parent": "Department for Education (DfE)",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
@@ -42,7 +42,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "find-an-apprenticeship",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Terms and conditions page names DfE as the service owner. The gov.uk privacy notice was read but is off the entry domain and is not cited. Get-help page names no owner.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +59,14 @@
    "title": "Find an apprenticeship homepage",
    "accessed": "2026-11-05",
    "quote": "Search apprenticeships",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.findapprenticeship.service.gov.uk/Home/terms-and-conditions",
+   "title": "Terms and conditions",
+   "accessed": "2026-11-06",
+   "quote": "This service is run by the Department for Education (DfE).",
    "quote_check": "ok"
   }
  ]

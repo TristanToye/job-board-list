@@ -4,8 +4,8 @@
  "url": "https://www.jobteaser.com/fr",
  "domains": "",
  "type": "niche-board",
- "hq_country": "",
- "founded": "",
+ "hq_country": "FR",
+ "founded": "2008",
  "markets": "",
  "countries_served": [
   "FR"
@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobteaser",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;business_model",
+  "note": "Headquarters address, founding year and languages verified from press and about pages. No owner company stated. Recruiter page read but shows no prices (packs not priced in text read).",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,22 @@
    "title": "JobTeaser (FR) homepage",
    "accessed": "2026-11-05",
    "quote": "JobTeaser, c'est l'espace carrière de plus de 800 écoles et universités européennes",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://press.jobteaser.com/",
+   "title": "JobTeaser press contact address",
+   "accessed": "2026-11-06",
+   "quote": "19 Rue Blanche 75009 Paris 9 France",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.jobteaser.com/fr/corporate/a-propos",
+   "title": "A propos JobTeaser (primary language)",
+   "accessed": "2026-11-06",
+   "quote": "LANGUE SÉLECTIONNÉE : FRANÇAIS",
    "quote_check": "ok"
   }
  ]

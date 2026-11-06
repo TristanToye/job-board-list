@@ -1,72 +1,358 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 4,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 4,
+ "boards": [
+  {
+   "name": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat",
+   "founded": 1952,
+   "parent": "European Commission",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en",
+     "bg",
+     "es",
+     "cs",
+     "da",
+     "de",
+     "et",
+     "el",
+     "fr",
+     "ga",
+     "hr",
+     "it",
+     "lv",
+     "lt",
+     "hu",
+     "mt",
+     "nl",
+     "pl",
+     "pt",
+     "ru",
+     "ro",
+     "sk",
+     "sl",
+     "fi",
+     "sv",
+     "uk"
+    ]
+   },
+   "api_status": "public-open",
+   "api_docs_url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started",
+   "sources": [
     {
-      "name": "Eurostat",
-      "url": "https://ec.europa.eu/eurostat",
-      "founded": 1952,
-      "parent": "European Commission",
-      "languages": {"primary_language": "en", "languages_supported": ["en", "bg", "es", "cs", "da", "de", "et", "el", "fr", "ga", "hr", "it", "lv", "lt", "hu", "mt", "nl", "pl", "pt", "ru", "ro", "sk", "sl", "fi", "sv", "uk"]},
-      "api_status": "public-open",
-      "api_docs_url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started",
-      "sources": [
-        {"field": "founded", "url": "https://ec.europa.eu/eurostat/web/main/about-us/history", "title": "Our history", "quote": "is created on 1 October as one of the 12 divisions and services of the ECSC’s High Authority"},
-        {"field": "parent", "url": "https://ec.europa.eu/eurostat/web/main/about-us/history", "title": "Our history", "quote": "A new European Commission decision on Eurostat further defines Eurostat's tasks and responsibilities within the Commission"},
-        {"field": "languages", "url": "https://ec.europa.eu/eurostat/web/main/about-us", "title": "About us", "quote": "español"},
-        {"field": "api_status", "url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started", "title": "API - Getting started", "quote": "Statistics API is a REST web service for data query focused on supporting Eurostat Visualisations Tools and open for public use."}
-      ]
+     "field": "founded",
+     "url": "https://ec.europa.eu/eurostat/web/main/about-us/history",
+     "title": "Our history",
+     "quote": "is created on 1 October as one of the 12 divisions and services of the ECSC’s High Authority",
+     "check": "ok"
     },
     {
-      "name": "Jobtoday",
-      "url": "https://www.jobtoday.com/it",
-      "hq_country": "US",
-      "languages": {"primary_language": "en", "languages_supported": ["en", "es"]},
-      "business_model": "Free to post a job ad; employers pay only to contact candidates, via a subscription. No prices shown on the pages read.",
-      "sources": [
-        {"field": "hq_country", "url": "https://jobtoday.us/about-us/contacts?locale=en-US", "title": "Contacts", "quote": "JobToday USA Inc., 88 Pine St, 20th Fl, New York, NY 10005"},
-        {"field": "languages", "url": "https://jobtoday.us/about-us", "title": "About JOB TODAY", "quote": "Español"},
-        {"field": "business_model", "url": "https://jobtoday.us/landings/advertise-for-free", "title": "Advertise your job for free", "quote": "Post your job for free and receive applicants in minutes. Only pay when you find perfect candidates."},
-        {"field": "business_model", "url": "https://jobtoday.us/landings/advertise-for-free", "title": "Advertise your job for free", "quote": "subscribe only when you decide to get in touch"}
-      ]
+     "field": "parent",
+     "url": "https://ec.europa.eu/eurostat/web/main/about-us/history",
+     "title": "Our history",
+     "quote": "A new European Commission decision on Eurostat further defines Eurostat's tasks and responsibilities within the Commission",
+     "check": "ok"
     },
     {
-      "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
-      "url": "https://www.comunidad.madrid/servicios/empleo",
-      "parent": "Comunidad de Madrid",
-      "sources": [
-        {"field": "parent", "url": "https://www.comunidad.madrid/servicios/empleo", "title": "Empleo", "quote": "Iniciativa de la Comunidad de Madrid para conectar el talento madrileño con las empresas de la región."}
-      ]
+     "field": "languages",
+     "url": "https://ec.europa.eu/eurostat/web/main/about-us",
+     "title": "About us",
+     "quote": "español",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started",
+     "title": "API - Getting started",
+     "quote": "Statistics API is a REST web service for data query focused on supporting Eurostat Visualisations Tools and open for public use.",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Eurostat", "url": "https://ec.europa.eu/eurostat", "outcome": "partially-verified", "fields_not_found": ["hq_country", "ingest_methods"], "method": "mixed", "note": "Founding year, parent (European Commission), languages and the public Statistics API were found. The About us, History and Web services pages do not state a headquarters location. The site does not say how jobs get in; the Job opportunities page was linked but not read. The public-open reading rests on the phrase open for public use; no key requirement is mentioned. The 1952 year comes from the timeline heading on the History page."},
-    {"name": "Jobtoday", "url": "https://www.jobtoday.com/it", "outcome": "partially-verified", "fields_not_found": ["founded", "parent"], "method": "mixed", "note": "HQ (New York, US) was found on the Contacts page. Languages (English, Español) come from the language menu. Business model is free posting with a paid subscription to contact candidates; no prices shown. The About page says we launched but gives no year. The advertise-for-free footer names JobToday S.A. as copyright holder, but no parent relationship is stated, so parent was not recorded. The .it page was not read."},
-    {"name": "Education Canada", "url": "https://www.educationcanada.com/", "outcome": "not-stated", "fields_not_found": ["hq_country", "founded", "parent", "business_model"], "method": "mixed", "note": "Advertise, employer, about and contact pages were read. Advertising is listed as banners and a job newsletter with no prices; the employer page is a login only. The About page says the site is part of a growing global family of education e-recruitment websites but does not name a parent. No location or founding year was stated. The footer copyright range 2001 - 2026 is not a founding statement."},
-    {"name": "Built In", "url": "https://builtin.com/", "outcome": "not-stated", "fields_not_found": ["hq_country", "founded", "business_model"], "method": "mixed", "note": "Our Story says more than 15 years but gives no founding year and no headquarters. The membership page offers a demo booking and a free AI Reputation Dashboard; it shows no prices or per-post fees for job posting."},
-    {"name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)", "url": "https://www.comunidad.madrid/servicios/empleo", "outcome": "verified", "fields_not_found": [], "method": "mixed", "note": "The page states the Objetivo: tu empleo initiative is a Comunidad de Madrid initiative. Quote is in Spanish, copied from the raw page text."}
-  ],
-  "attempts": [
-    {"name": "Eurostat", "field": "hq_country", "outcome": "not-found", "pages": ["https://ec.europa.eu/eurostat/web/main/about-us", "https://ec.europa.eu/eurostat/web/main/about-us/history", "https://ec.europa.eu/eurostat/data/web-services"]},
-    {"name": "Eurostat", "field": "founded", "outcome": "found", "pages": ["https://ec.europa.eu/eurostat/web/main/about-us/history"]},
-    {"name": "Eurostat", "field": "parent", "outcome": "found", "pages": ["https://ec.europa.eu/eurostat/web/main/about-us/history", "https://ec.europa.eu/eurostat/web/main/about-us"]},
-    {"name": "Eurostat", "field": "languages", "outcome": "found", "pages": ["https://ec.europa.eu/eurostat/web/main/about-us"]},
-    {"name": "Eurostat", "field": "api_status", "outcome": "found", "pages": ["https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started", "https://ec.europa.eu/eurostat/data/web-services"]},
-    {"name": "Eurostat", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://ec.europa.eu/eurostat/web/main/about-us", "https://ec.europa.eu/eurostat/data/web-services"]},
-    {"name": "Jobtoday", "field": "hq_country", "outcome": "found", "pages": ["https://jobtoday.us/about-us/contacts?locale=en-US", "https://jobtoday.us/about-us"]},
-    {"name": "Jobtoday", "field": "founded", "outcome": "not-found", "pages": ["https://jobtoday.us/about-us", "https://jobtoday.us/about-us/contacts?locale=en-US"]},
-    {"name": "Jobtoday", "field": "parent", "outcome": "not-found", "pages": ["https://jobtoday.us/about-us", "https://jobtoday.us/about-us/contacts?locale=en-US", "https://jobtoday.us/landings/advertise-for-free"]},
-    {"name": "Jobtoday", "field": "languages", "outcome": "found", "pages": ["https://jobtoday.us/about-us"]},
-    {"name": "Jobtoday", "field": "business_model", "outcome": "found", "pages": ["https://jobtoday.us/landings/advertise-for-free"]},
-    {"name": "Education Canada", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.educationcanada.com/about.html", "https://educationcanada.com/contact.html"]},
-    {"name": "Education Canada", "field": "founded", "outcome": "not-found", "pages": ["https://www.educationcanada.com/about.html", "https://educationcanada.com/contact.html"]},
-    {"name": "Education Canada", "field": "parent", "outcome": "not-found", "pages": ["https://www.educationcanada.com/about.html"]},
-    {"name": "Education Canada", "field": "business_model", "outcome": "not-found", "pages": ["https://www.educationcanada.com/advertise.html", "https://www.educationcanada.com/employer.html"]},
-    {"name": "Built In", "field": "hq_country", "outcome": "not-found", "pages": ["https://builtin.com/our-story"]},
-    {"name": "Built In", "field": "founded", "outcome": "not-found", "pages": ["https://builtin.com/our-story"]},
-    {"name": "Built In", "field": "business_model", "outcome": "not-found", "pages": ["https://employers.builtin.com/membership?utm_medium=BIReferral&utm_source=foremployers", "https://builtin.com/our-story"]},
-    {"name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)", "field": "parent", "outcome": "found", "pages": ["https://www.comunidad.madrid/servicios/empleo"]}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Jobtoday",
+   "url": "https://www.jobtoday.com/it",
+   "hq_country": "US",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en",
+     "es"
+    ]
+   },
+   "business_model": "Free to post a job ad; employers pay only to contact candidates, via a subscription. No prices shown on the pages read.",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://jobtoday.us/about-us/contacts?locale=en-US",
+     "title": "Contacts",
+     "quote": "JobToday USA Inc., 88 Pine St, 20th Fl, New York, NY 10005",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://jobtoday.us/about-us",
+     "title": "About JOB TODAY",
+     "quote": "Español",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://jobtoday.us/landings/advertise-for-free",
+     "title": "Advertise your job for free",
+     "quote": "Post your job for free and receive applicants in minutes. Only pay when you find perfect candidates.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://jobtoday.us/landings/advertise-for-free",
+     "title": "Advertise your job for free",
+     "quote": "subscribe only when you decide to get in touch",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "parent": "Comunidad de Madrid",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.comunidad.madrid/servicios/empleo",
+     "title": "Empleo",
+     "quote": "Iniciativa de la Comunidad de Madrid para conectar el talento madrileño con las empresas de la región.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Founding year, parent (European Commission), languages and the public Statistics API were found. The About us, History and Web services pages do not state a headquarters location. The site does not say how jobs get in; the Job opportunities page was linked but not read. The public-open reading rests on the phrase open for public use; no key requirement is mentioned. The 1952 year comes from the timeline heading on the History page."
+  },
+  {
+   "name": "Jobtoday",
+   "url": "https://www.jobtoday.com/it",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded",
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "HQ (New York, US) was found on the Contacts page. Languages (English, Español) come from the language menu. Business model is free posting with a paid subscription to contact candidates; no prices shown. The About page says we launched but gives no year. The advertise-for-free footer names JobToday S.A. as copyright holder, but no parent relationship is stated, so parent was not recorded. The .it page was not read."
+  },
+  {
+   "name": "Education Canada",
+   "url": "https://www.educationcanada.com/",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model"
+   ],
+   "method": "mixed",
+   "note": "Advertise, employer, about and contact pages were read. Advertising is listed as banners and a job newsletter with no prices; the employer page is a login only. The About page says the site is part of a growing global family of education e-recruitment websites but does not name a parent. No location or founding year was stated. The footer copyright range 2001 - 2026 is not a founding statement."
+  },
+  {
+   "name": "Built In",
+   "url": "https://builtin.com/",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "founded",
+    "business_model"
+   ],
+   "method": "mixed",
+   "note": "Our Story says more than 15 years but gives no founding year and no headquarters. The membership page offers a demo booking and a free AI Reputation Dashboard; it shows no prices or per-post fees for job posting."
+  },
+  {
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "The page states the Objetivo: tu empleo initiative is a Comunidad de Madrid initiative. Quote is in Spanish, copied from the raw page text."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Eurostat",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://ec.europa.eu/eurostat/web/main/about-us",
+    "https://ec.europa.eu/eurostat/web/main/about-us/history",
+    "https://ec.europa.eu/eurostat/data/web-services"
+   ]
+  },
+  {
+   "name": "Eurostat",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://ec.europa.eu/eurostat/web/main/about-us/history"
+   ]
+  },
+  {
+   "name": "Eurostat",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://ec.europa.eu/eurostat/web/main/about-us/history",
+    "https://ec.europa.eu/eurostat/web/main/about-us"
+   ]
+  },
+  {
+   "name": "Eurostat",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://ec.europa.eu/eurostat/web/main/about-us"
+   ]
+  },
+  {
+   "name": "Eurostat",
+   "field": "api_status",
+   "outcome": "found",
+   "pages": [
+    "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started",
+    "https://ec.europa.eu/eurostat/data/web-services"
+   ]
+  },
+  {
+   "name": "Eurostat",
+   "field": "ingest_methods",
+   "outcome": "not-found",
+   "pages": [
+    "https://ec.europa.eu/eurostat/web/main/about-us",
+    "https://ec.europa.eu/eurostat/data/web-services"
+   ]
+  },
+  {
+   "name": "Jobtoday",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://jobtoday.us/about-us/contacts?locale=en-US",
+    "https://jobtoday.us/about-us"
+   ]
+  },
+  {
+   "name": "Jobtoday",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://jobtoday.us/about-us",
+    "https://jobtoday.us/about-us/contacts?locale=en-US"
+   ]
+  },
+  {
+   "name": "Jobtoday",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://jobtoday.us/about-us",
+    "https://jobtoday.us/about-us/contacts?locale=en-US",
+    "https://jobtoday.us/landings/advertise-for-free"
+   ]
+  },
+  {
+   "name": "Jobtoday",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://jobtoday.us/about-us"
+   ]
+  },
+  {
+   "name": "Jobtoday",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://jobtoday.us/landings/advertise-for-free"
+   ]
+  },
+  {
+   "name": "Education Canada",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.educationcanada.com/about.html",
+    "https://educationcanada.com/contact.html"
+   ]
+  },
+  {
+   "name": "Education Canada",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.educationcanada.com/about.html",
+    "https://educationcanada.com/contact.html"
+   ]
+  },
+  {
+   "name": "Education Canada",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.educationcanada.com/about.html"
+   ]
+  },
+  {
+   "name": "Education Canada",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.educationcanada.com/advertise.html",
+    "https://www.educationcanada.com/employer.html"
+   ]
+  },
+  {
+   "name": "Built In",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://builtin.com/our-story"
+   ]
+  },
+  {
+   "name": "Built In",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://builtin.com/our-story"
+   ]
+  },
+  {
+   "name": "Built In",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://employers.builtin.com/membership?utm_medium=BIReferral&utm_source=foremployers",
+    "https://builtin.com/our-story"
+   ]
+  },
+  {
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.comunidad.madrid/servicios/empleo"
+   ]
+  }
+ ],
+ "blocked": []
 }
