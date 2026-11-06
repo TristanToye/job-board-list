@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 53 entries in the directory.
+Has a partner or integration program. 54 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -21,6 +21,7 @@ Has a partner or integration program. 53 entries in the directory.
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
+- [Harver](https://jobboardlist.com/boards/harver/): hr-tech
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API

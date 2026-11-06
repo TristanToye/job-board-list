@@ -35,7 +35,14 @@
  "tags": [
   "staffing"
  ],
- "review": null,
+ "review": {
+  "board_id": "hays",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Region and language selector is present; the Polish footer names only a Warsaw-registered subsidiary and no employer pricing or API is stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

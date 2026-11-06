@@ -1,0 +1,247 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "CharityJob",
+   "url": "https://www.charityjob.co.uk",
+   "business_model": "pay per post",
+   "notes": "Recruiters page lists paid job adverts at £285 to £599 per ad by package. No API, partner program or employer ingest method stated. The /about page returned HTTP 404.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.charityjob.co.uk/recruiters",
+     "title": "Recruiters page",
+     "quote": "Choose from four different types of job advert, to suit your role and budget.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "api_status": "unknown",
+   "notes": "Homepage states that flexible APIs exist. Key requirements and API docs were not found; the /developers page returned HTTP 404.",
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "https://www.reveliolabs.com",
+     "title": "Homepage",
+     "quote": "Access global workforce data through flexible APIs built to integrate directly into your models, applications, and workflows.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Egon Zehnder",
+   "url": "https://www.egonzehnder.com",
+   "languages_supported": [
+    "en",
+    "de",
+    "zh",
+    "ja"
+   ],
+   "notes": "Language menu lists English, Deutsch, 中文 and 日本語. Careers are at a separate career subdomain. No headquarters, parent or employer business model stated.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.egonzehnder.com",
+     "title": "Homepage language menu",
+     "quote": "You are switching to an alternate language version of the Egon Zehnder website.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Gem",
+   "url": "https://www.gem.com",
+   "business_model": "subscription",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Pricing page lists a Startup Program at $130 per month on yearly billing; enterprise pricing is custom. Homepage says Gem integrates with several ATS products.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.gem.com/pricing",
+     "title": "Pricing page",
+     "quote": "Each workflow has a base set of features available on any Standard seat",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.gem.com",
+     "title": "Homepage",
+     "quote": "Gem integrates natively with Greenhouse, Workday, Lever, iCIMS, and more.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Harver",
+   "url": "https://harver.com",
+   "partner_program": "yes",
+   "partner_url": "https://harver.com/integrations",
+   "notes": "Integrations page describes ATS partners and lists partner logos. No API, pricing or job posting method stated. Homepage banner says Outmatch is now part of Harver, which does not name a parent.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://harver.com/integrations",
+     "title": "Integrations page",
+     "quote": "That's why we partner with leading ATS and TM providers to make integration simple and seamless.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "104 Job Bank",
+   "url": "http://www.104.com.tw/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Fetch returned HTTP 403 and the browser reader shows a Cloudflare security check with blocked set to true."
+  },
+  {
+   "name": "Korn Ferry",
+   "url": "https://www.kornferry.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and /about-us state no headquarters, parent, language options or employer pricing; the only partnership text is an Olympics sponsorship."
+  },
+  {
+   "name": "CharityJob",
+   "url": "https://www.charityjob.co.uk",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Recruiters page states per-advert pricing; /about returned HTTP 404 and no language switcher or API appears."
+  },
+  {
+   "name": "Jobat",
+   "url": "https://www.jobat.be",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Fetch failed and the browser reader returned HTTP 403 with a Cloudflare block and blocked set to true."
+  },
+  {
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage states flexible APIs exist; no headquarters, pricing model or partner program stated, and /developers returned HTTP 404."
+  },
+  {
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Region and language selector is present; the Polish footer names only a Warsaw-registered subsidiary and no employer pricing or API is stated."
+  },
+  {
+   "name": "Egon Zehnder",
+   "url": "https://www.egonzehnder.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Language menu confirmed; /about-us states operating in 37 countries but no headquarters or parent."
+  },
+  {
+   "name": "Gem",
+   "url": "https://www.gem.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Pricing page and homepage state subscription pricing and ATS integrations; no language switcher, headquarters or API program stated."
+  },
+  {
+   "name": "Harver",
+   "url": "https://harver.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Integrations page confirms ATS partners; no headquarters, pricing, language options or API stated."
+  },
+  {
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage covers job-seeker services and a footer Partnerships link with no details; /about-us and /employers returned HTTP 404."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "104 Job Bank",
+   "url": "http://www.104.com.tw/",
+   "reason": "HTTP 403 in fetch; Cloudflare challenge in browser reader (blocked: true)"
+  },
+  {
+   "name": "Jobat",
+   "url": "https://www.jobat.be",
+   "reason": "Fetch failed; HTTP 403 Cloudflare block in browser reader (blocked: true)"
+  }
+ ]
+}

@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "104-job-bank",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Fetch returned HTTP 403 and the browser reader shows a Cloudflare security check with blocked set to true.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

@@ -17,10 +17,10 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://harver.com/integrations",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Integrations page describes ATS partners and lists partner logos. No API, pricing or job posting method stated. Homepage banner says Outmatch is now part of Harver, which does not name a parent.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/harver/",
  "indexable": false,
@@ -33,9 +33,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "hr-tech"
+  "hr-tech",
+  "partner-program"
  ],
- "review": null,
+ "review": {
+  "board_id": "harver",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+  "note": "Integrations page confirms ATS partners; no headquarters, pricing, language options or API stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +53,14 @@
    "title": "Harver homepage",
    "accessed": "2026-11-06",
    "quote": "Harver helps the leading BPOs, contact centers, and retail organizations across the globe find quality talent quickly.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://harver.com/integrations",
+   "title": "Integrations page",
+   "accessed": "2026-11-06",
+   "quote": "That's why we partner with leading ATS and TM providers to make integration simple and seamless.",
    "quote_check": "ok"
   }
  ]

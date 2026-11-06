@@ -14,13 +14,13 @@
  "region": "Europe",
  "niche": "nonprofit",
  "parent": "",
- "business_model": "",
+ "business_model": "pay per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Recruiters page lists paid job adverts at £285 to £599 per ad by package. No API, partner program or employer ingest method stated. The /about page returned HTTP 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/charityjob/",
  "indexable": false,
@@ -34,9 +34,17 @@
  },
  "tags": [
   "job-board",
-  "nonprofit"
+  "nonprofit",
+  "pay-per-post"
  ],
- "review": null,
+ "review": {
+  "board_id": "charityjob",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+  "note": "Recruiters page states per-advert pricing; /about returned HTTP 404 and no language switcher or API appears.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +54,14 @@
    "title": "CharityJob homepage",
    "accessed": "2026-11-05",
    "quote": "CharityJob helps you find opportunities.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.charityjob.co.uk/recruiters",
+   "title": "Recruiters page",
+   "accessed": "2026-11-06",
+   "quote": "Choose from four different types of job advert, to suit your role and budget.",
    "quote_check": "ok"
   }
  ]

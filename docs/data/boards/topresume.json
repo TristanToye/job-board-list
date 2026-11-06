@@ -35,7 +35,14 @@
  "tags": [
   "career-services"
  ],
- "review": null,
+ "review": {
+  "board_id": "topresume",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;partner_program;ingest_methods",
+  "note": "Homepage covers job-seeker services and a footer Partnerships link with no details; /about-us and /employers returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

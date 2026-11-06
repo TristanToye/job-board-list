@@ -10,7 +10,12 @@
   "ZZ"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "en",
+  "de",
+  "zh",
+  "ja"
+ ],
  "region": "Global",
  "niche": "executive search and leadership assessment",
  "parent": "",
@@ -20,7 +25,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Language menu lists English, Deutsch, 中文 and 日本語. Careers are at a separate career subdomain. No headquarters, parent or employer business model stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/egon-zehnder/",
  "indexable": false,
@@ -36,7 +41,14 @@
   "executive",
   "recruiting-services"
  ],
- "review": null,
+ "review": {
+  "board_id": "egon-zehnder",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Language menu confirmed; /about-us states operating in 37 countries but no headquarters or parent.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +58,14 @@
    "title": "Egon Zehnder",
    "accessed": "2026-11-06",
    "quote": "In a world full of questions, we deliver human-centric solutions.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.egonzehnder.com",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-06",
+   "quote": "You are switching to an alternate language version of the Egon Zehnder website.",
    "quote_check": "ok"
   }
  ]

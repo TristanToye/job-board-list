@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "jobat",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Fetch failed and the browser reader returned HTTP 403 with a Cloudflare block and blocked set to true.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

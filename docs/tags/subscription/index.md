@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 53 entries in the directory.
+Employers pay a recurring fee or plan. 54 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -31,6 +31,7 @@ Employers pay a recurring fee or plan. 53 entries in the directory.
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
 - [Catho](https://jobboardlist.com/boards/catho/): board
+- [Gem](https://jobboardlist.com/boards/gem/): hr-tech
 - [GulfTalent](https://jobboardlist.com/boards/gulftalent/): board
 - [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
 - [NaukriGulf](https://jobboardlist.com/boards/naukrigulf/): board

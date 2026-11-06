@@ -7597,13 +7597,13 @@
    "region": "Europe",
    "niche": "nonprofit",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Recruiters page lists paid job adverts at £285 to £599 per ad by package. No API, partner program or employer ingest method stated. The /about page returned HTTP 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/charityjob/",
    "indexable": false,
@@ -7617,9 +7617,17 @@
    },
    "tags": [
     "job-board",
-    "nonprofit"
+    "nonprofit",
+    "pay-per-post"
    ],
-   "review": null,
+   "review": {
+    "board_id": "charityjob",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+    "note": "Recruiters page states per-advert pricing; /about returned HTTP 404 and no language switcher or API appears.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -7629,6 +7637,14 @@
      "title": "CharityJob homepage",
      "accessed": "2026-11-05",
      "quote": "CharityJob helps you find opportunities.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.charityjob.co.uk/recruiters",
+     "title": "Recruiters page",
+     "accessed": "2026-11-06",
+     "quote": "Choose from four different types of job advert, to suit your role and budget.",
      "quote_check": "ok"
     }
    ]
@@ -10749,7 +10765,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "jobat",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Fetch failed and the browser reader returned HTTP 403 with a Cloudflare block and blocked set to true.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -11053,7 +11076,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "104-job-bank",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Fetch returned HTTP 403 and the browser reader shows a Cloudflare security check with blocked set to true.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14375,7 +14405,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage states that flexible APIs exist. Key requirements and API docs were not found; the /developers page returned HTTP 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/revelio-labs/",
    "indexable": false,
@@ -14390,7 +14420,14 @@
    "tags": [
     "lmi"
    ],
-   "review": null,
+   "review": {
+    "board_id": "revelio-labs",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;partner_program;ingest_methods",
+    "note": "Homepage states flexible APIs exist; no headquarters, pricing model or partner program stated, and /developers returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14400,6 +14437,14 @@
      "title": "Revelio Labs home page",
      "accessed": "2026-11-06",
      "quote": "Track companies, analyze markets, and discover talent, all in one place.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.reveliolabs.com",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Access global workforce data through flexible APIs built to integrate directly into your models, applications, and workflows.",
      "quote_check": "ok"
     }
    ]
@@ -15011,7 +15056,14 @@
    "tags": [
     "staffing"
    ],
-   "review": null,
+   "review": {
+    "board_id": "hays",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Region and language selector is present; the Polish footer names only a Warsaw-registered subsidiary and no employer pricing or API is stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15321,7 +15373,14 @@
     "executive",
     "recruiting-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "korn-ferry",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and /about-us state no headquarters, parent, language options or employer pricing; the only partnership text is an Olympics sponsorship.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15605,7 +15664,12 @@
     "ZZ"
    ],
    "primary_language": "",
-   "languages_supported": [],
+   "languages_supported": [
+    "en",
+    "de",
+    "zh",
+    "ja"
+   ],
    "region": "Global",
    "niche": "executive search and leadership assessment",
    "parent": "",
@@ -15615,7 +15679,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Language menu lists English, Deutsch, 中文 and 日本語. Careers are at a separate career subdomain. No headquarters, parent or employer business model stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/egon-zehnder/",
    "indexable": false,
@@ -15631,7 +15695,14 @@
     "executive",
     "recruiting-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "egon-zehnder",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Language menu confirmed; /about-us states operating in 37 countries but no headquarters or parent.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15641,6 +15712,14 @@
      "title": "Egon Zehnder",
      "accessed": "2026-11-06",
      "quote": "In a world full of questions, we deliver human-centric solutions.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.egonzehnder.com",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-06",
+     "quote": "You are switching to an alternate language version of the Egon Zehnder website.",
      "quote_check": "ok"
     }
    ]
@@ -16283,13 +16362,15 @@
    "region": "Global",
    "niche": "recruiting CRM and sourcing",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Pricing page lists a Startup Program at $130 per month on yearly billing; enterprise pricing is custom. Homepage says Gem integrates with several ATS products.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/gem/",
    "indexable": false,
@@ -16302,9 +16383,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "hr-tech"
+    "ats-integration",
+    "hr-tech",
+    "subscription"
    ],
-   "review": null,
+   "review": {
+    "board_id": "gem",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+    "note": "Pricing page and homepage state subscription pricing and ATS integrations; no language switcher, headquarters or API program stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16314,6 +16404,22 @@
      "title": "Gem homepage",
      "accessed": "2026-11-06",
      "quote": "Gem is the AI-first recruiting platform built for better outcomes, not more tools.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.gem.com/pricing",
+     "title": "Pricing page",
+     "accessed": "2026-11-06",
+     "quote": "Each workflow has a base set of features available on any Standard seat",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.gem.com",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Gem integrates natively with Greenhouse, Workday, Lever, iCIMS, and more.",
      "quote_check": "ok"
     }
    ]
@@ -16696,10 +16802,10 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://harver.com/integrations",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Integrations page describes ATS partners and lists partner logos. No API, pricing or job posting method stated. Homepage banner says Outmatch is now part of Harver, which does not name a parent.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/harver/",
    "indexable": false,
@@ -16712,9 +16818,17 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "hr-tech"
+    "hr-tech",
+    "partner-program"
    ],
-   "review": null,
+   "review": {
+    "board_id": "harver",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+    "note": "Integrations page confirms ATS partners; no headquarters, pricing, language options or API stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16724,6 +16838,14 @@
      "title": "Harver homepage",
      "accessed": "2026-11-06",
      "quote": "Harver helps the leading BPOs, contact centers, and retail organizations across the globe find quality talent quickly.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://harver.com/integrations",
+     "title": "Integrations page",
+     "accessed": "2026-11-06",
+     "quote": "That's why we partner with leading ATS and TM providers to make integration simple and seamless.",
      "quote_check": "ok"
     }
    ]
@@ -17225,7 +17347,14 @@
    "tags": [
     "career-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "topresume",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;partner_program;ingest_methods",
+    "note": "Homepage covers job-seeker services and a footer Partnerships link with no details; /about-us and /employers returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [

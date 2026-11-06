@@ -115,7 +115,7 @@ built-in,Built In,https://builtin.com/,board,,,,US,,,North America,tech,,,unknow
 snagajob,Snagajob,https://www.snagajob.com/,board,,1999,,US,,,North America,general,,,unknown,,unknown,,,,partially-verified
 prospects,Prospects,https://www.prospects.ac.uk,niche-board,,,,UK,,,Europe,graduates,,,unknown,,unknown,,,"Part of Jisc; registered office in Bristol, England. Homepage shows prices from 370 pounds under employer advertising, model not stated. Employers page returned 404. No API or integration mention found on pages read.",partially-verified
 niche-jobs,Niche Jobs,https://www.nichejobs.co.uk,niche-board,,,,UK,,,Europe,healthcare,,,unknown,,unknown,,,,partially-verified
-charityjob,CharityJob,https://www.charityjob.co.uk,niche-board,,,,UK,,,Europe,nonprofit,,,unknown,,unknown,,,,partially-verified
+charityjob,CharityJob,https://www.charityjob.co.uk,niche-board,,,,UK,,,Europe,nonprofit,,pay per post,unknown,,unknown,,,"Recruiters page lists paid job adverts at £285 to £599 per ad by package. No API, partner program or employer ingest method stated. The /about page returned HTTP 404.",partially-verified
 find-an-apprenticeship,Find an Apprenticeship,https://www.findapprenticeship.service.gov.uk,government,,,,UK,,,Europe,general,,,unknown,,unknown,,,,partially-verified
 workforce-australia,Workforce Australia,https://www.workforceaustralia.gov.au/,government,,,,AU,,,APAC,general,,,unknown,,unknown,,,,partially-verified
 gradconnection-seek-grad,GradConnection (SEEK Grad),https://www.gradconnection.com/,niche-board,,,,AU,,,APAC,graduates,,,unknown,,unknown,,,,partially-verified
@@ -243,7 +243,7 @@ eurostat,Eurostat,https://ec.europa.eu/eurostat,lmi,,,,ZZ,,,Global,"European Uni
 office-for-national-statistics,Office for National Statistics,https://www.ons.gov.uk,lmi,,,,UK;ZZ,,,Europe,"UK national statistical institute, labour market statistics",,,unknown,,unknown,,,,partially-verified
 o-net,O*NET,https://www.onetonline.org,lmi,,,,US;ZZ,,,North America,occupation database and job analysis,,,unknown,,unknown,,,,partially-verified
 lightcast,Lightcast,https://lightcast.io,lmi,,,,ZZ,,,Global,labour market analytics,,,unknown,,unknown,,,,partially-verified
-revelio-labs,Revelio Labs,https://www.reveliolabs.com,lmi,,,,ZZ,,,Global,workforce analytics,,,unknown,,unknown,,,,partially-verified
+revelio-labs,Revelio Labs,https://www.reveliolabs.com,lmi,,,,ZZ,,,Global,workforce analytics,,,unknown,,unknown,,,Homepage states that flexible APIs exist. Key requirements and API docs were not found; the /developers page returned HTTP 404.,partially-verified
 nomis,Nomis,https://www.nomisweb.co.uk,lmi,,,,UK;ZZ,,,Europe,UK labour market statistics service,,,unknown,,unknown,,,,partially-verified
 australian-bureau-of-statistics,Australian Bureau of Statistics,https://www.abs.gov.au,lmi,,,,AU;ZZ,,,APAC,national statistical agency,,,unknown,,unknown,,,,partially-verified
 statistics-austria,Statistics Austria,https://www.statistik.at,lmi,,,,AT;ZZ,,,Europe,national statistical office,,,unknown,,unknown,,,,partially-verified
@@ -267,7 +267,7 @@ spencer-stuart,Spencer Stuart,https://www.spencerstuart.com,recruiting-services,
 russell-reynolds-associates,Russell Reynolds Associates,https://www.russellreynolds.com,recruiting-services,,,,ZZ,,,Global,executive search and leadership advisory,,,unknown,,unknown,,,,partially-verified
 michael-page,Michael Page,https://www.michaelpage.com,recruiting-services,,,,ZZ,,,Global,permanent placement recruitment,,,unknown,,unknown,,,,partially-verified
 hudson-rpo,Hudson RPO,https://hudsontalent.com,recruiting-services,,,,ZZ,,,Global,recruitment process outsourcing (RPO),,,unknown,,unknown,,,,partially-verified
-egon-zehnder,Egon Zehnder,https://www.egonzehnder.com,recruiting-services,,,,ZZ,,,Global,executive search and leadership assessment,,,unknown,,unknown,,,,partially-verified
+egon-zehnder,Egon Zehnder,https://www.egonzehnder.com,recruiting-services,,,,ZZ,,en;de;zh;ja,Global,executive search and leadership assessment,,,unknown,,unknown,,,"Language menu lists English, Deutsch, 中文 and 日本語. Careers are at a separate career subdomain. No headquarters, parent or employer business model stated.",partially-verified
 freelancer-com,Freelancer.com,https://www.freelancer.com,freelance-platform,,,,ZZ,,,Global,general freelance and project marketplace,,,unknown,,unknown,,,,partially-verified
 toptal,Toptal,https://www.toptal.com,freelance-platform,,,,ZZ,,,Global,"vetted freelance experts in tech, design and finance",,,unknown,,unknown,,,,partially-verified
 kwork,Kwork,https://www.kwork.com,freelance-platform,,,,ZZ,,,Global,freelance service marketplace,,,unknown,,unknown,,,,partially-verified
@@ -280,7 +280,7 @@ lemon-io,Lemon.io,https://lemon.io,freelance-platform,,,,ZZ,,,Global,freelance d
 freelance-de,freelance.de,https://www.freelance.de,freelance-platform,,,,DE;AT;CH;ZZ,,,Europe,freelancer and project platform for the DACH region,,,unknown,,unknown,,,,partially-verified
 sterling,Sterling,https://www.sterlingcheck.com,hr-tech,,,,ZZ,,,Global,background screening,,,unknown,,unknown,,,,partially-verified
 hirevue,HireVue,https://www.hirevue.com,hr-tech,,,,ZZ,,,Global,video interviewing and skills assessment,,,unknown,,unknown,,,,partially-verified
-gem,Gem,https://www.gem.com,hr-tech,,,,ZZ,,,Global,recruiting CRM and sourcing,,,unknown,,unknown,,,,partially-verified
+gem,Gem,https://www.gem.com,hr-tech,,,,ZZ,,,Global,recruiting CRM and sourcing,,subscription,unknown,,unknown,,ATS integration,Pricing page lists a Startup Program at $130 per month on yearly billing; enterprise pricing is custom. Homepage says Gem integrates with several ATS products.,partially-verified
 seekout,SeekOut,https://www.seekout.com,hr-tech,,,,ZZ,,,Global,talent sourcing and recruiting intelligence,,,unknown,,unknown,,,,partially-verified
 beamery,Beamery,https://beamery.com,hr-tech,,,,ZZ,,,Global,talent lifecycle and workforce intelligence,,,unknown,,unknown,,,,partially-verified
 checkr,Checkr,https://checkr.com,hr-tech,,,,ZZ,,,Global,background screening,,,unknown,,unknown,,,,partially-verified
@@ -288,7 +288,7 @@ criteria,Criteria,https://criteriacorp.com,hr-tech,,,,ZZ,,,Global,pre-employment
 codility,Codility,https://www.codility.com,hr-tech,,,,ZZ,,,Global,coding tests and technical interviews,,,unknown,,unknown,,,,partially-verified
 first-advantage,First Advantage,https://fadv.com,hr-tech,,,,ZZ,,,Global,background screening technology,,,unknown,,unknown,,,,partially-verified
 eightfold-ai,Eightfold AI,https://eightfold.ai,hr-tech,,,,ZZ,,,Global,talent intelligence and workforce planning,,,unknown,,unknown,,,,partially-verified
-harver,Harver,https://harver.com,hr-tech,,,,ZZ,,,Global,pre-employment assessment for high-volume hiring,,,unknown,,unknown,,,,partially-verified
+harver,Harver,https://harver.com,hr-tech,,,,ZZ,,,Global,pre-employment assessment for high-volume hiring,,,unknown,,yes,https://harver.com/integrations,,"Integrations page describes ATS partners and lists partner logos. No API, pricing or job posting method stated. Homepage banner says Outmatch is now part of Harver, which does not name a parent.",partially-verified
 lhh,LHH,https://www.lhh.com,outplacement,,,,ZZ,,,Global,career transition and talent solutions,,,unknown,,unknown,,,,partially-verified
 randstad-risesmart,Randstad RiseSmart,https://www.randstadenterprise.com,outplacement,,,,ZZ,,,Global,outplacement and career transition,,,unknown,,unknown,,,,partially-verified
 intoo,INTOO,https://www.intoo.com,outplacement,,,,ZZ,,,Global,outplacement and career transition,,,unknown,,unknown,,,,partially-verified

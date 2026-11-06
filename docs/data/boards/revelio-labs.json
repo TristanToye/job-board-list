@@ -20,7 +20,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage states that flexible APIs exist. Key requirements and API docs were not found; the /developers page returned HTTP 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/revelio-labs/",
  "indexable": false,
@@ -35,7 +35,14 @@
  "tags": [
   "lmi"
  ],
- "review": null,
+ "review": {
+  "board_id": "revelio-labs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;partner_program;ingest_methods",
+  "note": "Homepage states flexible APIs exist; no headquarters, pricing model or partner program stated, and /developers returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +52,14 @@
    "title": "Revelio Labs home page",
    "accessed": "2026-11-06",
    "quote": "Track companies, analyze markets, and discover talent, all in one place.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.reveliolabs.com",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "Access global workforce data through flexible APIs built to integrate directly into your models, applications, and workflows.",
    "quote_check": "ok"
   }
  ]

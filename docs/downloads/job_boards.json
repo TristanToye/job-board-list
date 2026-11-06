@@ -2681,13 +2681,13 @@
   "region": "Europe",
   "niche": "nonprofit",
   "parent": "",
-  "business_model": "",
+  "business_model": "pay per post",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Recruiters page lists paid job adverts at £285 to £599 per ad by package. No API, partner program or employer ingest method stated. The /about page returned HTTP 404.",
   "confidence": "partially-verified"
  },
  {
@@ -5631,7 +5631,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Homepage states that flexible APIs exist. Key requirements and API docs were not found; the /developers page returned HTTP 404.",
   "confidence": "partially-verified"
  },
  {
@@ -6173,7 +6173,7 @@
   "markets": "",
   "countries_served": "ZZ",
   "primary_language": "",
-  "languages_supported": "",
+  "languages_supported": "en;de;zh;ja",
   "region": "Global",
   "niche": "executive search and leadership assessment",
   "parent": "",
@@ -6183,7 +6183,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Language menu lists English, Deutsch, 中文 and 日本語. Careers are at a separate career subdomain. No headquarters, parent or employer business model stated.",
   "confidence": "partially-verified"
  },
  {
@@ -6476,13 +6476,13 @@
   "region": "Global",
   "niche": "recruiting CRM and sourcing",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "",
-  "notes": "",
+  "ingest_methods": "ATS integration",
+  "notes": "Pricing page lists a Startup Program at $130 per month on yearly billing; enterprise pricing is custom. Homepage says Gem integrates with several ATS products.",
   "confidence": "partially-verified"
  },
  {
@@ -6663,10 +6663,10 @@
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
+  "partner_program": "yes",
+  "partner_url": "https://harver.com/integrations",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Integrations page describes ATS partners and lists partner logos. No API, pricing or job posting method stated. Homepage banner says Outmatch is now part of Harver, which does not name a parent.",
   "confidence": "partially-verified"
  },
  {

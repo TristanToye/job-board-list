@@ -14,13 +14,15 @@
  "region": "Global",
  "niche": "recruiting CRM and sourcing",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Pricing page lists a Startup Program at $130 per month on yearly billing; enterprise pricing is custom. Homepage says Gem integrates with several ATS products.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/gem/",
  "indexable": false,
@@ -33,9 +35,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "hr-tech"
+  "ats-integration",
+  "hr-tech",
+  "subscription"
  ],
- "review": null,
+ "review": {
+  "board_id": "gem",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+  "note": "Pricing page and homepage state subscription pricing and ATS integrations; no language switcher, headquarters or API program stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +56,22 @@
    "title": "Gem homepage",
    "accessed": "2026-11-06",
    "quote": "Gem is the AI-first recruiting platform built for better outcomes, not more tools.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.gem.com/pricing",
+   "title": "Pricing page",
+   "accessed": "2026-11-06",
+   "quote": "Each workflow has a base set of features available on any Standard seat",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.gem.com",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "Gem integrates natively with Greenhouse, Workday, Lever, iCIMS, and more.",
    "quote_check": "ok"
   }
  ]

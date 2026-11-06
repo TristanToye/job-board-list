@@ -1,1 +1,11 @@
 board_id,reviewed,outcome,fields_not_found,note,method
+104-job-bank,2026-11-06,blocked,,Fetch returned HTTP 403 and the browser reader shows a Cloudflare security check with blocked set to true.,mixed
+korn-ferry,2026-11-06,not-stated,hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods,"Homepage and /about-us state no headquarters, parent, language options or employer pricing; the only partnership text is an Olympics sponsorship.",fetch
+charityjob,2026-11-06,partially-verified,hq_country;parent;languages;api_status;partner_program;ingest_methods,Recruiters page states per-advert pricing; /about returned HTTP 404 and no language switcher or API appears.,fetch
+jobat,2026-11-06,blocked,,Fetch failed and the browser reader returned HTTP 403 with a Cloudflare block and blocked set to true.,mixed
+revelio-labs,2026-11-06,partially-verified,hq_country;parent;languages;business_model;partner_program;ingest_methods,"Homepage states flexible APIs exist; no headquarters, pricing model or partner program stated, and /developers returned HTTP 404.",fetch
+hays,2026-11-06,partially-verified,hq_country;parent;business_model;api_status;partner_program;ingest_methods,Region and language selector is present; the Polish footer names only a Warsaw-registered subsidiary and no employer pricing or API is stated.,fetch
+egon-zehnder,2026-11-06,partially-verified,hq_country;parent;business_model;api_status;partner_program;ingest_methods,Language menu confirmed; /about-us states operating in 37 countries but no headquarters or parent.,fetch
+gem,2026-11-06,partially-verified,hq_country;parent;languages;api_status;partner_program,"Pricing page and homepage state subscription pricing and ATS integrations; no language switcher, headquarters or API program stated.",fetch
+harver,2026-11-06,partially-verified,hq_country;parent;languages;business_model;api_status;ingest_methods,"Integrations page confirms ATS partners; no headquarters, pricing, language options or API stated.",fetch
+topresume,2026-11-06,not-stated,hq_country;parent;languages;business_model;partner_program;ingest_methods,Homepage covers job-seeker services and a footer Partnerships link with no details; /about-us and /employers returned HTTP 404.,fetch
