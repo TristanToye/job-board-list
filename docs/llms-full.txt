@@ -1,6 +1,6 @@
 # Job Board Atlas
 
-> An open directory of job boards, aggregators and ATS systems, with their APIs and partner programs. 308 entries (job boards, aggregators, staffing firms, labour market information sources and other HR services), 21 applicant tracking systems and 42 owner companies, each with cited sources. Updated 2026-11-06.
+> An open directory of job boards, aggregators and ATS systems, with their APIs and partner programs. 308 entries (job boards, aggregators, staffing firms, labour market information sources and other HR services), 21 applicant tracking systems and 43 owner companies, each with cited sources. Updated 2026-11-06.
 
 Notes for readers and models: facts are attributed to this directory and carry the date they were checked. Entries marked unverified have not been checked against the board's own site. Prominence uses Majestic Million web link popularity (CC BY 3.0), which measures how widely a site is linked to, not traffic. Every indexable page has a Markdown version at the same address ending in index.md.
 
@@ -26,7 +26,7 @@ Notes for readers and models: facts are attributed to this directory and carry t
 
 ---
 
-The following is the Markdown of the main pages (54 entries, 19 owners, 45 types and 24 countries).
+The following is the Markdown of the main pages (55 entries, 19 owners, 45 types and 24 countries).
 
 ---
 
@@ -362,6 +362,37 @@ CharityVillage is a niche board based in Canada, focused on nonprofit and charit
 
 Canonical page: https://jobboardlist.com/boards/charityvillage/
 Last updated: 2026-11-05
+
+---
+
+# Checkr
+
+Checkr is a hr tech, focused on background screening.
+
+- Website: https://checkr.com
+- Headquarters: not recorded
+- Founded: not recorded
+- Owner: not recorded
+- Languages: not recorded
+- API status: API status unknown
+- Partner program: yes
+- Prominence: #37,606 globally, tier Established
+- Tags: ATS integration, HR and recruiting technology, Partner program
+- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: headquarters, owner, languages, pricing and business model, API access.
+- Data status: partly verified against its own site
+
+## Quick answers
+
+**How large is Checkr?** Checkr ranks #37,606 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+
+## Sources
+
+- [Checkr homepage](https://checkr.com/) (Existence and description, checked 2026-11-06): "Checkr combines AI with human experts to ensure your reports are accurate, fast, and compliant every time."
+- [Partners page](https://checkr.com/partners) (Partner program, checked 2026-11-06): "We've partnered with industry-leading ATS, HR and onboarding systems to create pre-built integrations."
+- [Partners page](https://checkr.com/partners) (How jobs get in, checked 2026-11-06): "Learn how the Checkr and Greenhouse partnership can optimize the background check process"
+
+Canonical page: https://jobboardlist.com/boards/checkr/
+Last updated: 2026-11-06
 
 ---
 
@@ -2408,10 +2439,11 @@ Canonical page: https://jobboardlist.com/tags/api-partner-only/
 
 # Self-serve API
 
-Provides a documented API with a self-serve key. 10 entries in the directory.
+Provides a documented API with a self-serve key. 11 entries in the directory.
 
 - [HeadHunter (hh.ru)](https://jobboardlist.com/boards/hh-ru/): board, Self-serve API key
 - [USAJOBS](https://jobboardlist.com/boards/usajobs/): government, Self-serve API key
+- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Self-serve API key
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
 - [Saramin](https://jobboardlist.com/boards/saramin/): board, Self-serve API key
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
@@ -2439,13 +2471,14 @@ Canonical page: https://jobboardlist.com/tags/apply-integration/
 
 # ATS integration
 
-Receives jobs from applicant tracking systems. 8 entries in the directory.
+Receives jobs from applicant tracking systems. 9 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
+- [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech
 - [Gem](https://jobboardlist.com/boards/gem/): hr-tech
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
@@ -2973,7 +3006,7 @@ Statistics 12 entries in the directory.
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi
 - [Office for National Statistics](https://jobboardlist.com/boards/office-for-national-statistics/): lmi
 - [Australian Bureau of Statistics](https://jobboardlist.com/boards/australian-bureau-of-statistics/): lmi
-- [O*NET](https://jobboardlist.com/boards/o-net/): lmi
+- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Self-serve API key
 - [Statistics Austria](https://jobboardlist.com/boards/statistics-austria/): lmi
 - [Lightcast](https://jobboardlist.com/boards/lightcast/): lmi
 - [Nomis](https://jobboardlist.com/boards/nomis/): lmi
@@ -3041,7 +3074,7 @@ Canonical page: https://jobboardlist.com/tags/outplacement/
 
 # Partner program
 
-Has a partner or integration program. 56 entries in the directory.
+Has a partner or integration program. 58 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -3053,6 +3086,7 @@ Has a partner or integration program. 56 entries in the directory.
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
+- [TaskRabbit](https://jobboardlist.com/boards/taskrabbit/): freelance-platform
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
@@ -3061,6 +3095,7 @@ Has a partner or integration program. 56 entries in the directory.
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
+- [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Harver](https://jobboardlist.com/boards/harver/): hr-tech
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
@@ -3872,7 +3907,7 @@ Canonical page: https://jobboardlist.com/countries/united-kingdom/
 
 # Job boards in United States
 
-37 job boards and related entries based in or serving United States.
+38 job boards and related entries based in or serving United States.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier
@@ -3884,7 +3919,7 @@ Canonical page: https://jobboardlist.com/countries/united-kingdom/
 - [Wellfound](https://jobboardlist.com/boards/wellfound/): niche-board, Large tier, No known API
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Large tier, Partner-only API
 - [Mediabistro](https://jobboardlist.com/boards/mediabistro/): board, Large tier
-- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Large tier
+- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Large tier, Self-serve API key
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government, Large tier
 - [SimplyHired](https://jobboardlist.com/boards/simplyhired/): aggregator, Large tier
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Established tier, Partner-only API
@@ -3894,6 +3929,7 @@ Canonical page: https://jobboardlist.com/countries/united-kingdom/
 - [Challenger, Gray & Christmas](https://jobboardlist.com/boards/challenger-gray-christmas/): outplacement, Established tier
 - [HigherEdJobs](https://jobboardlist.com/boards/higheredjobs/): niche-board, Established tier
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Established tier, Partner-only API
+- [Heidrick & Struggles](https://jobboardlist.com/boards/heidrick-struggles/): recruiting-services, Established tier
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform, Established tier
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board, Small tier
@@ -3930,7 +3966,7 @@ Canonical page: https://jobboardlist.com/countries/united-states/
 - [99designs](https://jobboardlist.com/boards/99designs/): freelance-platform, Large tier
 - [Robert Half](https://jobboardlist.com/boards/robert-half/): staffing, Large tier
 - [Korn Ferry](https://jobboardlist.com/boards/korn-ferry/): recruiting-services, Large tier
-- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Large tier
+- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Large tier, Self-serve API key
 - [LHH](https://jobboardlist.com/boards/lhh/): outplacement, Established tier
 - [Statistics Austria](https://jobboardlist.com/boards/statistics-austria/): lmi, Established tier
 - [TaskRabbit](https://jobboardlist.com/boards/taskrabbit/): freelance-platform, Established tier

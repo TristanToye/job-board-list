@@ -17,10 +17,10 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
+ "partner_program": "yes",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Footer link text 'Partner with Taskrabbit' found; the linked partner page was not read, so no partner URL is recorded. Pricing shown is for customers booking taskers, not employer job posting. HQ, parent and languages not stated on pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/taskrabbit/",
  "indexable": false,
@@ -33,9 +33,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "freelance-platform"
+  "freelance-platform",
+  "partner-program"
  ],
- "review": null,
+ "review": {
+  "board_id": "taskrabbit",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+  "note": "Homepage footer partner link found; about page and homepage state no headquarters, parent or language options; no API stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +53,14 @@
    "title": "TaskRabbit homepage",
    "accessed": "2026-11-06",
    "quote": "Choose a Tasker by price, skills, and reviews.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.taskrabbit.com",
+   "title": "Homepage footer link",
+   "accessed": "2026-11-06",
+   "quote": "Partner with Taskrabbit",
    "quote_check": "ok"
   }
  ]

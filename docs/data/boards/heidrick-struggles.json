@@ -3,14 +3,17 @@
  "name": "Heidrick & Struggles",
  "url": "https://www.heidrick.com",
  "type": "recruiting-services",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "",
  "markets": "",
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "ja"
+ ],
  "region": "Global",
  "niche": "executive search and leadership consulting",
  "parent": "",
@@ -20,7 +23,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Footer lists a Chicago address; it is not labeled headquarters. About page states the firm was founded in 1953. Parent not stated. No API or partner program found on pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/heidrick-struggles/",
  "indexable": false,
@@ -36,7 +39,14 @@
   "executive",
   "recruiting-services"
  ],
- "review": null,
+ "review": {
+  "board_id": "heidrick-struggles",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage footer address and language selector and About page founding year found; no parent, pricing, API or partner program stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +56,22 @@
    "title": "Heidrick & Struggles",
    "accessed": "2026-11-06",
    "quote": "We help our clients change the world, one leadership team at a time®.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.heidrick.com",
+   "title": "Homepage footer address",
+   "accessed": "2026-11-06",
+   "quote": "Heidrick & Struggles International, Inc. • 233 South Wacker Drive Willis Tower • Suite 4900 • Chicago, IL 60606-6303",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.heidrick.com",
+   "title": "Homepage language selector",
+   "accessed": "2026-11-06",
+   "quote": "Select your language",
    "quote_check": "ok"
   }
  ]

@@ -35,7 +35,14 @@
  "tags": [
   "career-services"
  ],
- "review": null,
+ "review": {
+  "board_id": "kickresume",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Footer language selector found; no employer pricing, API, parent or headquarters country stated on homepage.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

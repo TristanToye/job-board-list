@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 56 entries in the directory.
+Has a partner or integration program. 58 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -12,6 +12,7 @@ Has a partner or integration program. 56 entries in the directory.
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
+- [TaskRabbit](https://jobboardlist.com/boards/taskrabbit/): freelance-platform
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
@@ -20,6 +21,7 @@ Has a partner or integration program. 56 entries in the directory.
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
+- [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Harver](https://jobboardlist.com/boards/harver/): hr-tech
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key

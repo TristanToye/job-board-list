@@ -139,7 +139,7 @@ welovedevs,WeLoveDevs,https://welovedevs.com,niche-board,,,,FR,,,Europe,tech,,,u
 experteer,Experteer,https://www.experteer.fr,niche-board,,,,FR,,,Europe,executive,,,unknown,,unknown,,,,partially-verified
 jobserve,JobServe,http://www.jobserve.com,board,,,,UK;AU;US,,,Europe,general,,,unknown,,unknown,,,,listed-only
 rozee-pk,Rozee.pk,http://www.rozee.pk/,board,,,,PK,,,Global,general,,,unknown,,unknown,,,,listed-only
-sepe-servicio-p-blico-de-empleo-estatal,SEPE (Servicio Público de Empleo Estatal),https://www.sepe.es/,government,,,,ES,,,Europe,public-employment,,,unknown,,unknown,,,,partially-verified
+sepe-servicio-p-blico-de-empleo-estatal,SEPE (Servicio Público de Empleo Estatal),https://www.sepe.es/,government,,,,ES,es,es;ca;eu;gl;fr;en,Europe,public-employment,Ministerio de Trabajo y Economía Social (Gobierno de España),,unknown,,unknown,,,"Operated by the Spanish public employment service. Country inferred from the government attribution in the logo text; city not stated. Language list includes Valenciano, mapped to ca. No public API or employer pricing stated on pages read.",partially-verified
 trabajos-com,Trabajos.com,https://www.trabajos.com/,board,,,,ES,,,Europe,general,,,unknown,,unknown,,,,partially-verified
 tecnoempleo,Tecnoempleo,https://www.tecnoempleo.com/,niche-board,,,,ES,,,Europe,tech,,,unknown,,unknown,,,,partially-verified
 ticjob,Ticjob,https://www.ticjob.es/,niche-board,,,,ES,,,Europe,tech,,,unknown,,unknown,,,,partially-verified
@@ -241,12 +241,12 @@ aitrainer-work,aitrainer.work,https://aitrainer.work,board,,2025,,IT,,,Europe,,,
 u-s-bureau-of-labor-statistics,U.S. Bureau of Labor Statistics,https://www.bls.gov,lmi,,,,US;ZZ,,,North America,national labour market statistics agency,,,unknown,,unknown,,,,partially-verified
 eurostat,Eurostat,https://ec.europa.eu/eurostat,lmi,,,,ZZ,,,Global,"European Union statistical office, labour market statistics",,,unknown,,unknown,,,,partially-verified
 office-for-national-statistics,Office for National Statistics,https://www.ons.gov.uk,lmi,,,,UK;ZZ,,,Europe,"UK national statistical institute, labour market statistics",,,unknown,,unknown,,,,partially-verified
-o-net,O*NET,https://www.onetonline.org,lmi,,,,US;ZZ,,,North America,occupation database and job analysis,,,unknown,,unknown,,,,partially-verified
+o-net,O*NET,https://www.onetonline.org,lmi,,,,US;ZZ,,,North America,occupation database and job analysis,,,public-key,https://www.onetonline.org/help/onet/webservices,unknown,,,Homepage says the site is sponsored by the U.S. Department of Labor. Web Services page describes sign-up for an account and a REST API with documentation. No fees or languages stated.,partially-verified
 lightcast,Lightcast,https://lightcast.io,lmi,,,,ZZ,,,Global,labour market analytics,,,unknown,,unknown,,,,partially-verified
 revelio-labs,Revelio Labs,https://www.reveliolabs.com,lmi,,,,ZZ,,,Global,workforce analytics,,,unknown,,unknown,,,Homepage states that flexible APIs exist. Key requirements and API docs were not found; the /developers page returned HTTP 404.,partially-verified
 nomis,Nomis,https://www.nomisweb.co.uk,lmi,,,,UK;ZZ,,,Europe,UK labour market statistics service,,,unknown,,unknown,,,,partially-verified
 australian-bureau-of-statistics,Australian Bureau of Statistics,https://www.abs.gov.au,lmi,,,,AU;ZZ,,,APAC,national statistical agency,,,unknown,,unknown,,,,partially-verified
-statistics-austria,Statistics Austria,https://www.statistik.at,lmi,,,,AT;ZZ,,,Europe,national statistical office,,,unknown,,unknown,,,,partially-verified
+statistics-austria,Statistics Austria,https://www.statistik.at,lmi,,,,AT;ZZ,de,de;en,Europe,national statistical office,,,unknown,,unknown,,,"Header language switcher offers DE and EN. Open data is linked under Datenzugang, but no API is described; a guessed open-data URL returned 404. Austria is implied by content, not stated as headquarters.",partially-verified
 japan-institute-for-labour-policy-and-training,Japan Institute for Labour Policy and Training,https://www.jil.go.jp/english/,lmi,,,,ZZ,,,Global,labour policy research institute,,,unknown,,unknown,,,,partially-verified
 textkernel,Textkernel,https://www.textkernel.com,lmi,,,,ZZ,,,Global,real-time private and labour market data,,,unknown,,unknown,,,,partially-verified
 burning-glass-institute,Burning Glass Institute,https://www.burningglassinstitute.org,lmi,,,,ZZ,,,Global,labour market research,,,unknown,,unknown,,,,partially-verified
@@ -262,7 +262,7 @@ gi-group-holding,Gi Group Holding,https://www.gigroup.com,staffing,,,,ZZ,,,Globa
 adcorp-holdings,Adcorp Holdings,https://www.adcorpgroup.com,staffing,,,,ZZ,,,Global,workforce solutions and staffing,,,unknown,,unknown,,,,partially-verified
 allegis-group,Allegis Group,https://www.allegisgroup.com,staffing,,,,ZZ,,,Global,workforce and business solutions,,,unknown,,unknown,,,,partially-verified
 korn-ferry,Korn Ferry,https://www.kornferry.com,recruiting-services,,,,ZZ,,,Global,executive search and consulting,,,unknown,,unknown,,,,partially-verified
-heidrick-struggles,Heidrick & Struggles,https://www.heidrick.com,recruiting-services,,,,ZZ,,,Global,executive search and leadership consulting,,,unknown,,unknown,,,,partially-verified
+heidrick-struggles,Heidrick & Struggles,https://www.heidrick.com,recruiting-services,US,,,ZZ,en,en;ja,Global,executive search and leadership consulting,,,unknown,,unknown,,,Footer lists a Chicago address; it is not labeled headquarters. About page states the firm was founded in 1953. Parent not stated. No API or partner program found on pages read.,partially-verified
 spencer-stuart,Spencer Stuart,https://www.spencerstuart.com,recruiting-services,,,,ZZ,,,Global,executive search and board consulting,,,unknown,,unknown,,,,partially-verified
 russell-reynolds-associates,Russell Reynolds Associates,https://www.russellreynolds.com,recruiting-services,,,,ZZ,,en;zh;ja,Global,executive search and leadership advisory,,,unknown,,unknown,,,"Homepage language options are English, Chinese (China) and Japanese. Page lists a New York office address but no headquarters statement, parent, pricing, API or partner program. About page returned HTTP 404.",partially-verified
 michael-page,Michael Page,https://www.michaelpage.com,recruiting-services,,,,ZZ,,,Global,permanent placement recruitment,,,unknown,,unknown,,,,partially-verified
@@ -271,7 +271,7 @@ egon-zehnder,Egon Zehnder,https://www.egonzehnder.com,recruiting-services,,,,ZZ,
 freelancer-com,Freelancer.com,https://www.freelancer.com,freelance-platform,,,,ZZ,,,Global,general freelance and project marketplace,,,unknown,,unknown,,,,partially-verified
 toptal,Toptal,https://www.toptal.com,freelance-platform,,,,ZZ,,,Global,"vetted freelance experts in tech, design and finance",,,unknown,,unknown,,,,partially-verified
 kwork,Kwork,https://www.kwork.com,freelance-platform,,,,ZZ,,,Global,freelance service marketplace,,,unknown,,unknown,,,,partially-verified
-taskrabbit,TaskRabbit,https://www.taskrabbit.com,freelance-platform,,,,ZZ,,,Global,local on-demand task and errand marketplace,,,unknown,,unknown,,,,partially-verified
+taskrabbit,TaskRabbit,https://www.taskrabbit.com,freelance-platform,,,,ZZ,,,Global,local on-demand task and errand marketplace,,,unknown,,yes,,,"Footer link text 'Partner with Taskrabbit' found; the linked partner page was not read, so no partner URL is recorded. Pricing shown is for customers booking taskers, not employer job posting. HQ, parent and languages not stated on pages read.",partially-verified
 braintrust,Braintrust,https://www.usebraintrust.com,freelance-platform,,,,ZZ,,,Global,AI-powered talent network,,,unknown,,unknown,,,,partially-verified
 99designs,99designs,https://www.99designs.com,freelance-platform,,,,ZZ,,,Global,freelance design marketplace,,,unknown,,unknown,,,,partially-verified
 freelancermap,freelancermap,https://www.freelancermap.com,freelance-platform,,,,ZZ,,,Global,freelance project and contractor marketplace,,,unknown,,unknown,,,,partially-verified
@@ -283,7 +283,7 @@ hirevue,HireVue,https://www.hirevue.com,hr-tech,,,,ZZ,,,Global,video interviewin
 gem,Gem,https://www.gem.com,hr-tech,,,,ZZ,,,Global,recruiting CRM and sourcing,,subscription,unknown,,unknown,,ATS integration,Pricing page lists a Startup Program at $130 per month on yearly billing; enterprise pricing is custom. Homepage says Gem integrates with several ATS products.,partially-verified
 seekout,SeekOut,https://www.seekout.com,hr-tech,,,,ZZ,,,Global,talent sourcing and recruiting intelligence,,,unknown,,unknown,,,,partially-verified
 beamery,Beamery,https://beamery.com,hr-tech,,,,ZZ,,,Global,talent lifecycle and workforce intelligence,,,unknown,,unknown,,,,partially-verified
-checkr,Checkr,https://checkr.com,hr-tech,,,,ZZ,,,Global,background screening,,,unknown,,unknown,,,,partially-verified
+checkr,Checkr,https://checkr.com,hr-tech,,,,ZZ,,,Global,background screening,,,unknown,,yes,https://checkr.com/partners,ATS integration,Partners page describes pre-built integrations with ATS and HR systems and a Become a Partner link. Developers menu on the homepage lists an API; key process not stated on pages read. HQ and parent not stated.,partially-verified
 criteria,Criteria,https://criteriacorp.com,hr-tech,,,,ZZ,,,Global,pre-employment assessment,,,unknown,,unknown,,,,partially-verified
 codility,Codility,https://www.codility.com,hr-tech,,,,ZZ,,,Global,coding tests and technical interviews,,,unknown,,unknown,,,,partially-verified
 first-advantage,First Advantage,https://fadv.com,hr-tech,,,,ZZ,,,Global,background screening technology,,,unknown,,yes,https://fadv.com/partners/,ATS integration,"Regional language selector lists English, Espanol, Portugues, Japanese, Korean and Chinese options. Partner page invites partners to join the network via a form. Site states 100+ ATS and HCM integrated partners and mentions flexible APIs, but no API access model, developer documentation or headquarters statement was found; developers page returned HTTP 404.",partially-verified

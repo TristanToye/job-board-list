@@ -1,6 +1,6 @@
 # Job boards in United States
 
-37 job boards and related entries based in or serving United States.
+38 job boards and related entries based in or serving United States.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier
@@ -12,7 +12,7 @@
 - [Wellfound](https://jobboardlist.com/boards/wellfound/): niche-board, Large tier, No known API
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Large tier, Partner-only API
 - [Mediabistro](https://jobboardlist.com/boards/mediabistro/): board, Large tier
-- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Large tier
+- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Large tier, Self-serve API key
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government, Large tier
 - [SimplyHired](https://jobboardlist.com/boards/simplyhired/): aggregator, Large tier
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Established tier, Partner-only API
@@ -22,6 +22,7 @@
 - [Challenger, Gray & Christmas](https://jobboardlist.com/boards/challenger-gray-christmas/): outplacement, Established tier
 - [HigherEdJobs](https://jobboardlist.com/boards/higheredjobs/): niche-board, Established tier
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Established tier, Partner-only API
+- [Heidrick & Struggles](https://jobboardlist.com/boards/heidrick-struggles/): recruiting-services, Established tier
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform, Established tier
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board, Small tier

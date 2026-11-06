@@ -9,18 +9,25 @@
  "countries_served": [
   "ES"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "es",
+ "languages_supported": [
+  "es",
+  "ca",
+  "eu",
+  "gl",
+  "fr",
+  "en"
+ ],
  "region": "Europe",
  "niche": "public-employment",
- "parent": "",
+ "parent": "Ministerio de Trabajo y Economía Social (Gobierno de España)",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Operated by the Spanish public employment service. Country inferred from the government attribution in the logo text; city not stated. Language list includes Valenciano, mapped to ca. No public API or employer pricing stated on pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/sepe-servicio-p-blico-de-empleo-estatal/",
  "indexable": false,
@@ -38,7 +45,14 @@
   "job-board",
   "public-sector"
  ],
- "review": null,
+ "review": {
+  "board_id": "sepe-servicio-p-blico-de-empleo-estatal",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage footer and logo state the operator and language list; no employer pricing, public API or partner program found on pages read.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +62,22 @@
    "title": "Servicio Publico de Empleo Estatal SEPE",
    "accessed": "2026-11-05",
    "quote": "Únete a Garantía Juvenil Plus para estar más cerca de tu próximo empleo.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.sepe.es/",
+   "title": "Homepage logo alt text",
+   "accessed": "2026-11-06",
+   "quote": "Ministerio de Trabajo y Economía Social",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.sepe.es/",
+   "title": "Homepage language list",
+   "accessed": "2026-11-06",
+   "quote": "Español Catalán Euskera Gallego Valenciano Francés Inglés",
    "quote_check": "ok"
   }
  ]

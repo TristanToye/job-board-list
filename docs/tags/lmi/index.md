@@ -5,7 +5,7 @@ Statistics 12 entries in the directory.
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi
 - [Office for National Statistics](https://jobboardlist.com/boards/office-for-national-statistics/): lmi
 - [Australian Bureau of Statistics](https://jobboardlist.com/boards/australian-bureau-of-statistics/): lmi
-- [O*NET](https://jobboardlist.com/boards/o-net/): lmi
+- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Self-serve API key
 - [Statistics Austria](https://jobboardlist.com/boards/statistics-austria/): lmi
 - [Lightcast](https://jobboardlist.com/boards/lightcast/): lmi
 - [Nomis](https://jobboardlist.com/boards/nomis/): lmi

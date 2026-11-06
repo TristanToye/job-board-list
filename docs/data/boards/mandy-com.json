@@ -33,7 +33,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "mandy-com",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Fetch returned HTTP 403 (Cloudflare block); browser reader returned status 403 with blocked: true. Not retried.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

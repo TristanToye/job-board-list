@@ -12,7 +12,7 @@
 - [99designs](https://jobboardlist.com/boards/99designs/): freelance-platform, Large tier
 - [Robert Half](https://jobboardlist.com/boards/robert-half/): staffing, Large tier
 - [Korn Ferry](https://jobboardlist.com/boards/korn-ferry/): recruiting-services, Large tier
-- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Large tier
+- [O*NET](https://jobboardlist.com/boards/o-net/): lmi, Large tier, Self-serve API key
 - [LHH](https://jobboardlist.com/boards/lhh/): outplacement, Established tier
 - [Statistics Austria](https://jobboardlist.com/boards/statistics-austria/): lmi, Established tier
 - [TaskRabbit](https://jobboardlist.com/boards/taskrabbit/): freelance-platform, Established tier

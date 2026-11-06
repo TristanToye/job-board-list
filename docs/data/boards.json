@@ -9082,18 +9082,25 @@
    "countries_served": [
     "ES"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "es",
+   "languages_supported": [
+    "es",
+    "ca",
+    "eu",
+    "gl",
+    "fr",
+    "en"
+   ],
    "region": "Europe",
    "niche": "public-employment",
-   "parent": "",
+   "parent": "Ministerio de Trabajo y Economía Social (Gobierno de España)",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Operated by the Spanish public employment service. Country inferred from the government attribution in the logo text; city not stated. Language list includes Valenciano, mapped to ca. No public API or employer pricing stated on pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/sepe-servicio-p-blico-de-empleo-estatal/",
    "indexable": false,
@@ -9111,7 +9118,14 @@
     "job-board",
     "public-sector"
    ],
-   "review": null,
+   "review": {
+    "board_id": "sepe-servicio-p-blico-de-empleo-estatal",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage footer and logo state the operator and language list; no employer pricing, public API or partner program found on pages read.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9121,6 +9135,22 @@
      "title": "Servicio Publico de Empleo Estatal SEPE",
      "accessed": "2026-11-05",
      "quote": "Únete a Garantía Juvenil Plus para estar más cerca de tu próximo empleo.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.sepe.es/",
+     "title": "Homepage logo alt text",
+     "accessed": "2026-11-06",
+     "quote": "Ministerio de Trabajo y Economía Social",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.sepe.es/",
+     "title": "Homepage language list",
+     "accessed": "2026-11-06",
+     "quote": "Español Catalán Euskera Gallego Valenciano Francés Inglés",
      "quote_check": "ok"
     }
    ]
@@ -11463,7 +11493,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "mandy-com",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Fetch returned HTTP 403 (Cloudflare block); browser reader returned status 403 with blocked: true. Not retried.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14356,12 +14393,12 @@
    "niche": "occupation database and job analysis",
    "parent": "",
    "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
+   "api_status": "public-key",
+   "api_docs_url": "https://www.onetonline.org/help/onet/webservices",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage says the site is sponsored by the U.S. Department of Labor. Web Services page describes sign-up for an account and a REST API with documentation. No fees or languages stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/o-net/",
    "indexable": false,
@@ -14374,9 +14411,17 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "api-self-serve",
     "lmi"
    ],
-   "review": null,
+   "review": {
+    "board_id": "o-net",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
+    "note": "Homepage states the U.S. Department of Labor sponsorship; help and webservices pages state sign-up access; no fees, language options or partner program stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14386,6 +14431,14 @@
      "title": "O*NET OnLine home page",
      "accessed": "2026-11-06",
      "quote": "Welcome to your tool for career exploration and job analysis!",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.onetonline.org/help/onet/webservices",
+     "title": "O*NET Web Services",
+     "accessed": "2026-11-06",
+     "quote": "Sign up for O*NET Web Services to get started!",
      "quote_check": "ok"
     }
    ]
@@ -14625,8 +14678,11 @@
     "AT",
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "de",
+   "languages_supported": [
+    "de",
+    "en"
+   ],
    "region": "Europe",
    "niche": "national statistical office",
    "parent": "",
@@ -14636,7 +14692,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Header language switcher offers DE and EN. Open data is linked under Datenzugang, but no API is described; a guessed open-data URL returned 404. Austria is implied by content, not stated as headquarters.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/statistics-austria/",
    "indexable": false,
@@ -14651,7 +14707,14 @@
    "tags": [
     "lmi"
    ],
-   "review": null,
+   "review": {
+    "board_id": "statistics-austria",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states the operator and a DE/EN language switcher; no headquarters, API, job posting cost or partner program stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -14661,6 +14724,14 @@
      "title": "Statistics Austria home page",
      "accessed": "2026-11-06",
      "quote": "Independent statistics for evidence-based decision making",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.statistik.at",
+     "title": "Homepage language switcher",
+     "accessed": "2026-11-06",
+     "quote": "DE EN",
      "quote_check": "ok"
     }
    ]
@@ -15490,14 +15561,17 @@
    "name": "Heidrick & Struggles",
    "url": "https://www.heidrick.com",
    "type": "recruiting-services",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "",
    "markets": "",
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "ja"
+   ],
    "region": "Global",
    "niche": "executive search and leadership consulting",
    "parent": "",
@@ -15507,7 +15581,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Footer lists a Chicago address; it is not labeled headquarters. About page states the firm was founded in 1953. Parent not stated. No API or partner program found on pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/heidrick-struggles/",
    "indexable": false,
@@ -15523,7 +15597,14 @@
     "executive",
     "recruiting-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "heidrick-struggles",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage footer address and language selector and About page founding year found; no parent, pricing, API or partner program stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15533,6 +15614,22 @@
      "title": "Heidrick & Struggles",
      "accessed": "2026-11-06",
      "quote": "We help our clients change the world, one leadership team at a time®.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.heidrick.com",
+     "title": "Homepage footer address",
+     "accessed": "2026-11-06",
+     "quote": "Heidrick & Struggles International, Inc. • 233 South Wacker Drive Willis Tower • Suite 4900 • Chicago, IL 60606-6303",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.heidrick.com",
+     "title": "Homepage language selector",
+     "accessed": "2026-11-06",
+     "quote": "Select your language",
      "quote_check": "ok"
     }
    ]
@@ -15926,7 +16023,14 @@
     "freelance-platform",
     "tech"
    ],
-   "review": null,
+   "review": {
+    "board_id": "toptal",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage, about and developers pages state no headquarters, parent, language options or API; only AWS partner status and talent categories appear.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16010,10 +16114,10 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
+   "partner_program": "yes",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Footer link text 'Partner with Taskrabbit' found; the linked partner page was not read, so no partner URL is recorded. Pricing shown is for customers booking taskers, not employer job posting. HQ, parent and languages not stated on pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/taskrabbit/",
    "indexable": false,
@@ -16026,9 +16130,17 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "freelance-platform"
+    "freelance-platform",
+    "partner-program"
    ],
-   "review": null,
+   "review": {
+    "board_id": "taskrabbit",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+    "note": "Homepage footer partner link found; about page and homepage state no headquarters, parent or language options; no API stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16038,6 +16150,14 @@
      "title": "TaskRabbit homepage",
      "accessed": "2026-11-06",
      "quote": "Choose a Tasker by price, skills, and reviews.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.taskrabbit.com",
+     "title": "Homepage footer link",
+     "accessed": "2026-11-06",
+     "quote": "Partner with Taskrabbit",
      "quote_check": "ok"
     }
    ]
@@ -16699,13 +16819,15 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "partner_program": "yes",
+   "partner_url": "https://checkr.com/partners",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Partners page describes pre-built integrations with ATS and HR systems and a Become a Partner link. Developers menu on the homepage lists an API; key process not stated on pages read. HQ and parent not stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/checkr/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -16715,9 +16837,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "hr-tech"
+    "ats-integration",
+    "hr-tech",
+    "partner-program"
    ],
-   "review": null,
+   "review": {
+    "board_id": "checkr",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+    "note": "Partners page describes ATS integrations and a partner developer guide link; developers page states no key process; no headquarters or language options stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -16727,6 +16858,22 @@
      "title": "Checkr homepage",
      "accessed": "2026-11-06",
      "quote": "Checkr combines AI with human experts to ensure your reports are accurate, fast, and compliant every time.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://checkr.com/partners",
+     "title": "Partners page",
+     "accessed": "2026-11-06",
+     "quote": "We've partnered with industry-leading ATS, HR and onboarding systems to create pre-built integrations.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://checkr.com/partners",
+     "title": "Partners page",
+     "accessed": "2026-11-06",
+     "quote": "Learn how the Checkr and Greenhouse partnership can optimize the background check process",
      "quote_check": "ok"
     }
    ]
@@ -17221,7 +17368,14 @@
    "tags": [
     "outplacement"
    ],
-   "review": null,
+   "review": {
+    "board_id": "careerminds",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and about page show a country selector and service coverage in 80+ languages; no headquarters, parent, site language options, API or partner program stated. Only a partnership invitation appears.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -17695,7 +17849,14 @@
    "tags": [
     "career-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "kickresume",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Footer language selector found; no employer pricing, API, parent or headquarters country stated on homepage.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [

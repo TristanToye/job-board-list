@@ -35,7 +35,14 @@
  "tags": [
   "outplacement"
  ],
- "review": null,
+ "review": {
+  "board_id": "careerminds",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage and about page show a country selector and service coverage in 80+ languages; no headquarters, parent, site language options, API or partner program stated. Only a partnership invitation appears.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

@@ -16,12 +16,12 @@
  "niche": "occupation database and job analysis",
  "parent": "",
  "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
+ "api_status": "public-key",
+ "api_docs_url": "https://www.onetonline.org/help/onet/webservices",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage says the site is sponsored by the U.S. Department of Labor. Web Services page describes sign-up for an account and a REST API with documentation. No fees or languages stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/o-net/",
  "indexable": false,
@@ -34,9 +34,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "api-self-serve",
   "lmi"
  ],
- "review": null,
+ "review": {
+  "board_id": "o-net",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
+  "note": "Homepage states the U.S. Department of Labor sponsorship; help and webservices pages state sign-up access; no fees, language options or partner program stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +54,14 @@
    "title": "O*NET OnLine home page",
    "accessed": "2026-11-06",
    "quote": "Welcome to your tool for career exploration and job analysis!",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.onetonline.org/help/onet/webservices",
+   "title": "O*NET Web Services",
+   "accessed": "2026-11-06",
+   "quote": "Sign up for O*NET Web Services to get started!",
    "quote_check": "ok"
   }
  ]

@@ -38,7 +38,14 @@
   "freelance-platform",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "toptal",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage, about and developers pages state no headquarters, parent, language options or API; only AWS partner status and talent categories appear.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

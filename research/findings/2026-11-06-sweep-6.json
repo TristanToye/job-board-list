@@ -1,100 +1,328 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "parent": "U.S. Department of Labor",
+   "api_status": "public-key",
+   "api_docs_url": "https://www.onetonline.org/help/onet/webservices",
+   "notes": "Homepage says the site is sponsored by the U.S. Department of Labor. Web Services page describes sign-up for an account and a REST API with documentation. No fees or languages stated.",
+   "sources": [
     {
-      "name": "O*NET",
-      "url": "https://www.onetonline.org",
-      "parent": "U.S. Department of Labor",
-      "api_status": "public-key",
-      "api_docs_url": "https://www.onetonline.org/help/onet/webservices",
-      "notes": "Homepage says the site is sponsored by the U.S. Department of Labor. Web Services page describes sign-up for an account and a REST API with documentation. No fees or languages stated.",
-      "sources": [
-        {"field": "parent", "url": "https://www.onetonline.org", "title": "Homepage sponsor line", "quote": "O*NET is sponsored by the U.S. Department of Labor"},
-        {"field": "api_status", "url": "https://www.onetonline.org/help/onet/webservices", "title": "O*NET Web Services", "quote": "Sign up for O*NET Web Services to get started!"}
-      ]
+     "field": "parent",
+     "url": "https://www.onetonline.org",
+     "title": "Homepage sponsor line",
+     "quote": "O*NET is sponsored by the U.S. Department of Labor",
+     "check": "mismatch"
     },
     {
-      "name": "SEPE (Servicio Público de Empleo Estatal)",
-      "url": "https://www.sepe.es/",
-      "hq_country": "ES",
-      "parent": "Ministerio de Trabajo y Economía Social (Gobierno de España)",
-      "primary_language": "es",
-      "languages_supported": ["es", "ca", "eu", "gl", "fr", "en"],
-      "notes": "Operated by the Spanish public employment service. Country inferred from the government attribution in the logo text; city not stated. Language list includes Valenciano, mapped to ca. No public API or employer pricing stated on pages read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.sepe.es/", "title": "Homepage logo alt text", "quote": "Servicio Público de Empleo Estatal, Ministerio de Trabajo y Economía Social, Gobierno de España"},
-        {"field": "parent", "url": "https://www.sepe.es/", "title": "Homepage logo alt text", "quote": "Ministerio de Trabajo y Economía Social"},
-        {"field": "languages", "url": "https://www.sepe.es/", "title": "Homepage language list", "quote": "Español Catalán Euskera Gallego Valenciano Francés Inglés"}
-      ]
-    },
-    {
-      "name": "Heidrick & Struggles",
-      "url": "https://www.heidrick.com",
-      "hq_country": "US",
-      "primary_language": "en",
-      "languages_supported": ["en", "ja"],
-      "notes": "Footer lists a Chicago address; it is not labeled headquarters. About page states the firm was founded in 1953. Parent not stated. No API or partner program found on pages read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.heidrick.com", "title": "Homepage footer address", "quote": "Heidrick & Struggles International, Inc. • 233 South Wacker Drive Willis Tower • Suite 4900 • Chicago, IL 60606-6303"},
-        {"field": "languages", "url": "https://www.heidrick.com", "title": "Homepage language selector", "quote": "Select your language"}
-      ]
-    },
-    {
-      "name": "TaskRabbit",
-      "url": "https://www.taskrabbit.com",
-      "partner_program": "yes",
-      "notes": "Footer link text 'Partner with Taskrabbit' found; the linked partner page was not read, so no partner URL is recorded. Pricing shown is for customers booking taskers, not employer job posting. HQ, parent and languages not stated on pages read.",
-      "sources": [
-        {"field": "partner_program", "url": "https://www.taskrabbit.com", "title": "Homepage footer link", "quote": "Partner with Taskrabbit"}
-      ]
-    },
-    {
-      "name": "Checkr",
-      "url": "https://checkr.com",
-      "partner_program": "yes",
-      "partner_url": "https://checkr.com/partners",
-      "ingest_methods": ["ATS integration"],
-      "notes": "Partners page describes pre-built integrations with ATS and HR systems and a Become a Partner link. Developers menu on the homepage lists an API; key process not stated on pages read. HQ and parent not stated.",
-      "sources": [
-        {"field": "partner_program", "url": "https://checkr.com/partners", "title": "Partners page", "quote": "We've partnered with industry-leading ATS, HR and onboarding systems to create pre-built integrations."},
-        {"field": "ingest_methods", "url": "https://checkr.com/partners", "title": "Partners page", "quote": "Learn how the Checkr and Greenhouse partnership can optimize the background check process"}
-      ]
-    },
-    {
-      "name": "Kickresume",
-      "url": "https://www.kickresume.com",
-      "primary_language": "en",
-      "languages_supported": ["en", "sk", "es", "de", "pt", "it"],
-      "notes": "Footer language selector shows English as current language with five alternatives. Only job seeker plans are shown; employer posting pricing not stated. Company says it is based in the EU, which is not a country code.",
-      "sources": [
-        {"field": "languages", "url": "https://www.kickresume.com", "title": "Footer language selector", "quote": "Slovensky, Español, Deutsch, Português, and Italiano"}
-      ]
-    },
-    {
-      "name": "Statistik Austria",
-      "url": "https://www.statistik.at",
-      "primary_language": "de",
-      "languages_supported": ["de", "en"],
-      "notes": "Header language switcher offers DE and EN. Open data is linked under Datenzugang, but no API is described; a guessed open-data URL returned 404. Austria is implied by content, not stated as headquarters.",
-      "sources": [
-        {"field": "languages", "url": "https://www.statistik.at", "title": "Homepage language switcher", "quote": "DE EN"}
-      ]
+     "field": "api_status",
+     "url": "https://www.onetonline.org/help/onet/webservices",
+     "title": "O*NET Web Services",
+     "quote": "Sign up for O*NET Web Services to get started!",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "O*NET", "url": "https://www.onetonline.org", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage states the U.S. Department of Labor sponsorship; help and webservices pages state sign-up access; no fees, language options or partner program stated."},
-    {"name": "Toptal", "url": "https://www.toptal.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage, about and developers pages state no headquarters, parent, language options or API; only AWS partner status and talent categories appear."},
-    {"name": "SEPE (Servicio Público de Empleo Estatal)", "url": "https://www.sepe.es/", "outcome": "partially-verified", "fields_not_found": ["business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage footer and logo state the operator and language list; no employer pricing, public API or partner program found on pages read."},
-    {"name": "mandy.com", "url": "https://www.mandy.com/", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "Fetch returned HTTP 403 (Cloudflare block); browser reader returned status 403 with blocked: true. Not retried."},
-    {"name": "Statistics Austria", "url": "https://www.statistik.at", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage states the operator and a DE/EN language switcher; no headquarters, API, job posting cost or partner program stated."},
-    {"name": "Heidrick & Struggles", "url": "https://www.heidrick.com", "outcome": "partially-verified", "fields_not_found": ["parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage footer address and language selector and About page founding year found; no parent, pricing, API or partner program stated."},
-    {"name": "TaskRabbit", "url": "https://www.taskrabbit.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "ingest_methods"], "method": "fetch", "note": "Homepage footer partner link found; about page and homepage state no headquarters, parent or language options; no API stated."},
-    {"name": "Checkr", "url": "https://checkr.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status"], "method": "fetch", "note": "Partners page describes ATS integrations and a partner developer guide link; developers page states no key process; no headquarters or language options stated."},
-    {"name": "Careerminds", "url": "https://www.careerminds.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage and about page show a country selector and service coverage in 80+ languages; no headquarters, parent, site language options, API or partner program stated. Only a partnership invitation appears."},
-    {"name": "Kickresume", "url": "https://www.kickresume.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Footer language selector found; no employer pricing, API, parent or headquarters country stated on homepage."}
-  ],
-  "blocked": [
-    {"name": "mandy.com", "url": "https://www.mandy.com/", "reason": "HTTP 403 Cloudflare block in fetch and in the browser reader (blocked: true)"}
-  ]
+   ]
+  },
+  {
+   "name": "SEPE (Servicio Público de Empleo Estatal)",
+   "url": "https://www.sepe.es/",
+   "hq_country": "ES",
+   "parent": "Ministerio de Trabajo y Economía Social (Gobierno de España)",
+   "primary_language": "es",
+   "languages_supported": [
+    "es",
+    "ca",
+    "eu",
+    "gl",
+    "fr",
+    "en"
+   ],
+   "notes": "Operated by the Spanish public employment service. Country inferred from the government attribution in the logo text; city not stated. Language list includes Valenciano, mapped to ca. No public API or employer pricing stated on pages read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.sepe.es/",
+     "title": "Homepage logo alt text",
+     "quote": "Servicio Público de Empleo Estatal, Ministerio de Trabajo y Economía Social, Gobierno de España",
+     "check": "mismatch"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.sepe.es/",
+     "title": "Homepage logo alt text",
+     "quote": "Ministerio de Trabajo y Economía Social",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.sepe.es/",
+     "title": "Homepage language list",
+     "quote": "Español Catalán Euskera Gallego Valenciano Francés Inglés",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Heidrick & Struggles",
+   "url": "https://www.heidrick.com",
+   "hq_country": "US",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "ja"
+   ],
+   "notes": "Footer lists a Chicago address; it is not labeled headquarters. About page states the firm was founded in 1953. Parent not stated. No API or partner program found on pages read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.heidrick.com",
+     "title": "Homepage footer address",
+     "quote": "Heidrick & Struggles International, Inc. • 233 South Wacker Drive Willis Tower • Suite 4900 • Chicago, IL 60606-6303",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.heidrick.com",
+     "title": "Homepage language selector",
+     "quote": "Select your language",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "TaskRabbit",
+   "url": "https://www.taskrabbit.com",
+   "partner_program": "yes",
+   "notes": "Footer link text 'Partner with Taskrabbit' found; the linked partner page was not read, so no partner URL is recorded. Pricing shown is for customers booking taskers, not employer job posting. HQ, parent and languages not stated on pages read.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://www.taskrabbit.com",
+     "title": "Homepage footer link",
+     "quote": "Partner with Taskrabbit",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Checkr",
+   "url": "https://checkr.com",
+   "partner_program": "yes",
+   "partner_url": "https://checkr.com/partners",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Partners page describes pre-built integrations with ATS and HR systems and a Become a Partner link. Developers menu on the homepage lists an API; key process not stated on pages read. HQ and parent not stated.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://checkr.com/partners",
+     "title": "Partners page",
+     "quote": "We've partnered with industry-leading ATS, HR and onboarding systems to create pre-built integrations.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://checkr.com/partners",
+     "title": "Partners page",
+     "quote": "Learn how the Checkr and Greenhouse partnership can optimize the background check process",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "sk",
+    "es",
+    "de",
+    "pt",
+    "it"
+   ],
+   "notes": "Footer language selector shows English as current language with five alternatives. Only job seeker plans are shown; employer posting pricing not stated. Company says it is based in the EU, which is not a country code.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.kickresume.com",
+     "title": "Footer language selector",
+     "quote": "Slovensky, Español, Deutsch, Português, and Italiano",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Statistik Austria",
+   "url": "https://www.statistik.at",
+   "primary_language": "de",
+   "languages_supported": [
+    "de",
+    "en"
+   ],
+   "notes": "Header language switcher offers DE and EN. Open data is linked under Datenzugang, but no API is described; a guessed open-data URL returned 404. Austria is implied by content, not stated as headquarters.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.statistik.at",
+     "title": "Homepage language switcher",
+     "quote": "DE EN",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage states the U.S. Department of Labor sponsorship; help and webservices pages state sign-up access; no fees, language options or partner program stated."
+  },
+  {
+   "name": "Toptal",
+   "url": "https://www.toptal.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage, about and developers pages state no headquarters, parent, language options or API; only AWS partner status and talent categories appear."
+  },
+  {
+   "name": "SEPE (Servicio Público de Empleo Estatal)",
+   "url": "https://www.sepe.es/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage footer and logo state the operator and language list; no employer pricing, public API or partner program found on pages read."
+  },
+  {
+   "name": "mandy.com",
+   "url": "https://www.mandy.com/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Fetch returned HTTP 403 (Cloudflare block); browser reader returned status 403 with blocked: true. Not retried."
+  },
+  {
+   "name": "Statistics Austria",
+   "url": "https://www.statistik.at",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage states the operator and a DE/EN language switcher; no headquarters, API, job posting cost or partner program stated."
+  },
+  {
+   "name": "Heidrick & Struggles",
+   "url": "https://www.heidrick.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage footer address and language selector and About page founding year found; no parent, pricing, API or partner program stated."
+  },
+  {
+   "name": "TaskRabbit",
+   "url": "https://www.taskrabbit.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage footer partner link found; about page and homepage state no headquarters, parent or language options; no API stated."
+  },
+  {
+   "name": "Checkr",
+   "url": "https://checkr.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "method": "fetch",
+   "note": "Partners page describes ATS integrations and a partner developer guide link; developers page states no key process; no headquarters or language options stated."
+  },
+  {
+   "name": "Careerminds",
+   "url": "https://www.careerminds.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and about page show a country selector and service coverage in 80+ languages; no headquarters, parent, site language options, API or partner program stated. Only a partnership invitation appears."
+  },
+  {
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Footer language selector found; no employer pricing, API, parent or headquarters country stated on homepage."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "mandy.com",
+   "url": "https://www.mandy.com/",
+   "reason": "HTTP 403 Cloudflare block in fetch and in the browser reader (blocked: true)"
+  }
+ ]
 }

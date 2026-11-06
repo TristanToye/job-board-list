@@ -17,13 +17,15 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "partner_program": "yes",
+ "partner_url": "https://checkr.com/partners",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Partners page describes pre-built integrations with ATS and HR systems and a Become a Partner link. Developers menu on the homepage lists an API; key process not stated on pages read. HQ and parent not stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/checkr/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -33,9 +35,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "hr-tech"
+  "ats-integration",
+  "hr-tech",
+  "partner-program"
  ],
- "review": null,
+ "review": {
+  "board_id": "checkr",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+  "note": "Partners page describes ATS integrations and a partner developer guide link; developers page states no key process; no headquarters or language options stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +56,22 @@
    "title": "Checkr homepage",
    "accessed": "2026-11-06",
    "quote": "Checkr combines AI with human experts to ensure your reports are accurate, fast, and compliant every time.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://checkr.com/partners",
+   "title": "Partners page",
+   "accessed": "2026-11-06",
+   "quote": "We've partnered with industry-leading ATS, HR and onboarding systems to create pre-built integrations.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://checkr.com/partners",
+   "title": "Partners page",
+   "accessed": "2026-11-06",
+   "quote": "Learn how the Checkr and Greenhouse partnership can optimize the background check process",
    "quote_check": "ok"
   }
  ]
