@@ -1,0 +1,53 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 6,
+  "boards": [
+    {
+      "name": "Jobijoba", "url": "https://www.jobijoba.com",
+      "parent": "Telegramme group",
+      "sources": [
+        {"field": "parent", "url": "https://www.jobijoba.com/fr/", "title": "Jobijoba home (fr)", "quote": "Les sites du groupe Télégramme"}
+      ]
+    },
+    {
+      "name": "Workable", "url": "https://www.workable.com",
+      "founded": "2012",
+      "business_model": "subscription with 15-day free trial; Standard plan $299/month or $3,588/year",
+      "sources": [
+        {"field": "founded", "url": "https://www.workable.com", "title": "Homepage", "quote": "Since 2012, more than 27,000 companies have used our recruiting software to hire 1.5 million candidates."},
+        {"field": "business_model", "url": "https://www.workable.com/pricing", "title": "Pricing", "quote": "Explore our full platform with a 15-day free trial."},
+        {"field": "business_model", "url": "https://www.workable.com/pricing", "title": "Pricing", "quote": "Standard: $299/month or $3,588/year"}
+      ]
+    },
+    {
+      "name": "Zippia", "url": "https://www.zippia.com/",
+      "hq_country": "US",
+      "sources": [
+        {"field": "hq_country", "url": "https://www.zippia.com/about-us/", "title": "About Us", "quote": "382 NE 191st St # 51369, Miami, FL 33179"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Jobijoba", "url": "https://www.jobijoba.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded", "business_model", "ingest_methods"], "method": "fetch", "note": "Homepage heading lists Jobijoba under Les sites du groupe Telegramme, but the Hellowork group page and the Jobijoba footer name Advenn and Hellowork Group as corporate parents, so the parent is recorded with that conflict. The affiliation page sentence about Flux, API and Widget describes offers Jobijoba sends to partner sites, not how jobs get in, so ingest_methods is not-found. magnet.work returned HTTP 503 twice and was not read."},
+    {"name": "Workable", "url": "https://www.workable.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Founding year from homepage text and structured data; pricing page gives subscription plans and a 15-day trial. Parent not stated and not requested."},
+    {"name": "Zippia", "url": "https://www.zippia.com/", "outcome": "partially-verified", "fields_not_found": ["parent"], "method": "fetch", "note": "Address on About Us is in Miami, FL. A press-style line on the same page calls Zippia San Mateo, California-based; the Miami address was used as the quote. Footer shows Copyright Zippia, Inc. which names the operator, not a parent."},
+    {"name": "Craigslist", "url": "https://www.craigslist.org", "outcome": "not-stated", "fields_not_found": ["hq_country", "business_model"], "method": "fetch", "note": "Homepage redirects to a regional page. About and Help pages were read: they give no headquarters and no posting fee information."},
+    {"name": "CharityVillage", "url": "https://charityvillage.com", "outcome": "not-stated", "fields_not_found": ["founded"], "method": "fetch", "note": "Site says For more than 30 years and Celebrating 30 years, with no founding year, on the homepage and About Us page."}
+  ],
+  "attempts": [
+    {"name": "Jobijoba", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.jobijoba.com/fr/affiliation-offres-emploi", "https://www.jobijoba.com/fr/", "https://www.hellowork-group.com/fr/"]},
+    {"name": "Jobijoba", "field": "founded", "outcome": "not-found", "pages": ["https://www.jobijoba.com/fr/affiliation-offres-emploi", "https://www.jobijoba.com/fr/", "https://www.hellowork-group.com/fr/"]},
+    {"name": "Jobijoba", "field": "parent", "outcome": "found", "pages": ["https://www.jobijoba.com/fr/", "https://www.hellowork-group.com/fr/"]},
+    {"name": "Jobijoba", "field": "business_model", "outcome": "not-found", "pages": ["https://www.jobijoba.com/fr/affiliation-offres-emploi", "https://www.jobijoba.com/fr/"]},
+    {"name": "Jobijoba", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://www.jobijoba.com/fr/affiliation-offres-emploi", "https://www.jobijoba.com/fr/"]},
+    {"name": "Workable", "field": "founded", "outcome": "found", "pages": ["https://www.workable.com", "https://www.workable.com/pricing"]},
+    {"name": "Workable", "field": "business_model", "outcome": "found", "pages": ["https://www.workable.com/pricing"]},
+    {"name": "Zippia", "field": "hq_country", "outcome": "found", "pages": ["https://www.zippia.com/about-us/"]},
+    {"name": "Zippia", "field": "parent", "outcome": "not-found", "pages": ["https://www.zippia.com/about-us/"]},
+    {"name": "Craigslist", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.craigslist.org", "https://geo.craigslist.org/", "https://www.craigslist.org/area/omaha", "https://www.craigslist.org/about/"]},
+    {"name": "Craigslist", "field": "business_model", "outcome": "not-found", "pages": ["https://www.craigslist.org/about/", "https://www.craigslist.org/about/help/"]},
+    {"name": "CharityVillage", "field": "founded", "outcome": "not-found", "pages": ["https://charityvillage.com", "https://charityvillage.com/about-us"]}
+  ],
+  "blocked": []
+}
