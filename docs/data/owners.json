@@ -212,8 +212,280 @@
    "country": "",
    "aliases": "",
    "domains": "",
-   "profile": {},
-   "holdings": []
+   "profile": {
+    "description": {
+     "value": "Formed in 1996, The Stepstone Group is one of the world’s leading online recruitment companies.",
+     "source": "https://www.thestepstonegroup.com/english/about-us/",
+     "quote": "Formed in 1996, The Stepstone Group is one of the world’s leading online recruitment companies."
+    },
+    "founded": {
+     "value": "1996",
+     "source": "https://www.thestepstonegroup.com/english/about-us/",
+     "quote": "Formed in 1996, The Stepstone Group is one of the world’s leading online recruitment companies."
+    },
+    "employees": {
+     "value": "around 3,000",
+     "source": "https://www.thestepstonegroup.com/english/about-us/",
+     "quote": "Operating in more than 10 countries, with around 3,000 employees worldwide"
+    }
+   },
+   "holdings": [
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Stepstone",
+     "holding_url": "https://www.stepstone.de",
+     "board_id": "stepstone",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-core-brands/",
+     "source_title": "Our core brands",
+     "quote": "These core brands each play a crucial role in our portfolio",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Totaljobs",
+     "holding_url": "https://www.totaljobs.com",
+     "board_id": "totaljobs",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2012",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group acquires Totaljobs, including Caterer.com and CWJobs",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Caterer.com",
+     "holding_url": "https://www.caterer.com",
+     "board_id": "",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2012",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group acquires Totaljobs, including Caterer.com and CWJobs",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Appcast",
+     "holding_url": "https://www.appcast.io",
+     "board_id": "appcast",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2019",
+     "category": "hr-tech",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group enters the US market with the acquisition of Appcast",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Bayard Advertising",
+     "holding_url": "",
+     "board_id": "",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "2023",
+     "category": "hr-services",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group strengthens its recruitment marketing offering in the United States with the acquisition of Bayard Advertising.",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Careernet.de",
+     "holding_url": "",
+     "board_id": "",
+     "relation": "subsidiary",
+     "stake": "",
+     "since": "1999",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "Jobshop expands into Germany and other countries with the acquisition of Careernet.de",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "IrishJobs",
+     "holding_url": "https://www.irishjobs.ie",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "NIJobs",
+     "holding_url": "https://www.nijobs.com",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Pnet",
+     "holding_url": "https://www.pnet.co.za",
+     "board_id": "pnet",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "meinestadt.de",
+     "holding_url": "https://www.meinestadt.de",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Hotelcareer",
+     "holding_url": "https://www.hotelcareer.de",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-core-brands/",
+     "source_title": "Our core brands",
+     "quote": "These core brands each play a crucial role in our portfolio",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Jobs.ie",
+     "holding_url": "",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Jobsite",
+     "holding_url": "",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "ICTJobs",
+     "holding_url": "",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "Turijobs",
+     "holding_url": "",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "YourCareerGroup",
+     "holding_url": "",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "the-stepstone",
+     "holding_name": "CareerJunction",
+     "holding_url": "",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "job-board",
+     "source_url": "https://www.thestepstonegroup.com/english/about-us/our-history/",
+     "source_title": "Our history",
+     "quote": "The Stepstone Group integrates additional brands and platforms in Europe and beyond",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    }
+   ]
   },
   {
    "id": "randstad",
@@ -1310,6 +1582,99 @@
    "holdings": []
   },
   {
+   "id": "hubert-burda-media",
+   "name": "Hubert Burda Media",
+   "url": "https://www.burda.com",
+   "country": "DE",
+   "aliases": "",
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "Burda ist ein internationales Medien- und Beteiligungsunternehmen mit klarer Haltung und einer starken Idee",
+     "source": "https://www.burda.com/de/unternehmen/",
+     "quote": "Burda ist ein internationales Medien- und Beteiligungsunternehmen mit klarer Haltung und einer starken Idee"
+    },
+    "hq_city": {
+     "value": "Offenburg and Munich",
+     "source": "https://www.burda.com/de/unternehmen/",
+     "quote": "Gründung 1903 Unternehmenssitz Offenburg und München"
+    },
+    "founded": {
+     "value": "1903",
+     "source": "https://www.burda.com/de/unternehmen/",
+     "quote": "Gründung 1903 Unternehmenssitz Offenburg und München"
+    },
+    "employees": {
+     "value": "approx. 8,500",
+     "source": "https://www.burda.com/en/company/",
+     "quote": "Employees approx. 8,500 Executive Board"
+    }
+   },
+   "holdings": [
+    {
+     "owner_id": "hubert-burda-media",
+     "holding_name": "Xing",
+     "holding_url": "https://www.xing.com",
+     "board_id": "xing",
+     "relation": "brand",
+     "stake": "",
+     "since": "2009",
+     "category": "job-board",
+     "source_url": "https://www.burda.com/en/brands/xing/",
+     "source_title": "Xing",
+     "quote": "Xing - A Brand of Hubert Burda Media",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    },
+    {
+     "owner_id": "hubert-burda-media",
+     "holding_name": "kununu",
+     "holding_url": "https://www.kununu.com",
+     "board_id": "",
+     "relation": "brand",
+     "stake": "",
+     "since": "",
+     "category": "other-hr",
+     "source_url": "https://www.burda.com/en/brands/kununu/",
+     "source_title": "Kununu",
+     "quote": "Kununu - A Brand of Hubert Burda Media",
+     "quote_check": "ok",
+     "accessed": "2026-11-06"
+    }
+   ]
+  },
+  {
+   "id": "schibsted",
+   "name": "Schibsted",
+   "url": "https://schibsted.com",
+   "country": "NO",
+   "aliases": "",
+   "domains": "",
+   "profile": {
+    "description": {
+     "value": "What began as a small publishing house in 1839 is now a media house with some of the strongest news brands in the Nordics.",
+     "source": "https://schibsted.com/",
+     "quote": "What began as a small publishing house in 1839 is now a media house with some of the strongest news brands in the Nordics."
+    },
+    "hq_city": {
+     "value": "Oslo",
+     "source": "https://en.wikipedia.org/wiki/Schibsted",
+     "quote": "The company has its headquarters in Oslo, Norway."
+    },
+    "hq_country": {
+     "value": "NO",
+     "source": "https://en.wikipedia.org/wiki/Schibsted",
+     "quote": "The company has its headquarters in Oslo, Norway."
+    },
+    "listing": {
+     "value": "Oslo Stock Exchange",
+     "source": "https://schibsted.com/about/",
+     "quote": "The company is listed on the Oslo Stock Exchange"
+    }
+   },
+   "holdings": []
+  },
+  {
    "id": "us-opm",
    "name": "US OPM",
    "url": "",
@@ -1322,16 +1687,6 @@
   {
    "id": "government-of-canada",
    "name": "Government of Canada",
-   "url": "",
-   "country": "",
-   "aliases": "",
-   "stub": true,
-   "profile": {},
-   "holdings": []
-  },
-  {
-   "id": "hubert-burda-media",
-   "name": "Hubert Burda Media",
    "url": "",
    "country": "",
    "aliases": "",
@@ -1372,16 +1727,6 @@
   {
    "id": "nav",
    "name": "NAV",
-   "url": "",
-   "country": "",
-   "aliases": "",
-   "stub": true,
-   "profile": {},
-   "holdings": []
-  },
-  {
-   "id": "schibsted",
-   "name": "Schibsted",
    "url": "",
    "country": "",
    "aliases": "",

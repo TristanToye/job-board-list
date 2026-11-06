@@ -5,7 +5,7 @@ StepStone is a board based in Germany.
 - Website: https://www.stepstone.de
 - Headquarters: Germany
 - Founded: not recorded
-- Owner: The Stepstone Group
+- Owner: The Stepstone Group (Brand)
 - Languages: German, English, French, Dutch
 - API status: Partner-only API
 - Partner program: yes
@@ -15,7 +15,7 @@ StepStone is a board based in Germany.
 
 ## Quick answers
 
-**Who owns StepStone?** This directory records the parent of StepStone as The Stepstone Group.
+**Who owns StepStone?** According to this directory, StepStone is owned by The Stepstone Group (brand).
 
 **Does StepStone have an API?** According to this directory, StepStone restricts programmatic access to approved partners.
 
@@ -28,6 +28,7 @@ StepStone is a board based in Germany.
 - [StepStone homepage](https://www.stepstone.de/) (Existence and description, checked 2026-11-05): "Jobs sind unser Job: Die Jobbörse mit 150.000+ Jobs"
 - [About Stepstone](https://www.stepstone.de/ueber-uns/) (Ownership, checked 2026-11-05): "Stepstone, Teil von The Stepstone Group, ist eine führende Karriereplattform für Jobsuche und Online-Recruiting"
 - [About Stepstone](https://www.stepstone.de/ueber-uns/) (Business model and pricing, checked 2026-11-05): "Stellenanzeigen (Pro, Pro Plus, Pro Ultimate, Pro Campus) und das Abo-Modell All Jobs"
+- [Our core brands](https://www.thestepstonegroup.com/english/about-us/our-core-brands/) (Ownership, checked 2026-11-06): "These core brands each play a crucial role in our portfolio"
 
 Canonical page: https://jobboardlist.com/boards/stepstone/
-Last updated: 2026-11-05
+Last updated: 2026-11-06

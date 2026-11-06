@@ -1,39 +1,185 @@
 {
-  "mode": "owner-profile",
-  "owners": [
+ "mode": "owner-profile",
+ "owners": [
+  {
+   "name": "The Stepstone Group",
+   "url": "https://www.thestepstonegroup.com",
+   "facts": [
     {
-      "name": "The Stepstone Group",
-      "url": "https://www.thestepstonegroup.com",
-      "facts": [
-        {"fact": "description", "value": "Formed in 1996, The Stepstone Group is one of the world’s leading online recruitment companies.", "sources": [{"url": "https://www.thestepstonegroup.com/english/about-us/", "title": "About us", "quote": "Formed in 1996, The Stepstone Group is one of the world’s leading online recruitment companies."}]},
-        {"fact": "founded", "value": "1996", "sources": [{"url": "https://www.thestepstonegroup.com/english/about-us/", "title": "About us", "quote": "Formed in 1996, The Stepstone Group is one of the world’s leading online recruitment companies."}]},
-        {"fact": "employees", "value": "around 3,000", "sources": [{"url": "https://www.thestepstonegroup.com/english/about-us/", "title": "About us", "quote": "Operating in more than 10 countries, with around 3,000 employees worldwide"}]}
-      ]
+     "fact": "description",
+     "value": "Formed in 1996, The Stepstone Group is one of the world’s leading online recruitment companies.",
+     "sources": [
+      {
+       "url": "https://www.thestepstonegroup.com/english/about-us/",
+       "title": "About us",
+       "quote": "Formed in 1996, The Stepstone Group is one of the world’s leading online recruitment companies.",
+       "check": "ok"
+      }
+     ]
     },
     {
-      "name": "Hubert Burda Media",
-      "url": "https://www.burda.com",
-      "facts": [
-        {"fact": "description", "value": "Burda ist ein internationales Medien- und Beteiligungsunternehmen mit klarer Haltung und einer starken Idee", "sources": [{"url": "https://www.burda.com/de/unternehmen/", "title": "Das Unternehmen", "quote": "Burda ist ein internationales Medien- und Beteiligungsunternehmen mit klarer Haltung und einer starken Idee"}]},
-        {"fact": "hq_city", "value": "Offenburg and Munich", "sources": [{"url": "https://www.burda.com/de/unternehmen/", "title": "Das Unternehmen", "quote": "Gründung 1903 Unternehmenssitz Offenburg und München"}]},
-        {"fact": "hq_country", "value": "DE", "sources": [{"url": "https://www.burda.com/de/unternehmen/", "title": "Das Unternehmen", "quote": "Unternehmenssitz Offenburg und München"}]},
-        {"fact": "founded", "value": "1903", "sources": [{"url": "https://www.burda.com/de/unternehmen/", "title": "Das Unternehmen", "quote": "Gründung 1903 Unternehmenssitz Offenburg und München"}]},
-        {"fact": "employees", "value": "approx. 8,500", "sources": [{"url": "https://www.burda.com/en/company/", "title": "The Company", "quote": "Employees approx. 8,500 Executive Board"}]}
-      ]
+     "fact": "founded",
+     "value": "1996",
+     "sources": [
+      {
+       "url": "https://www.thestepstonegroup.com/english/about-us/",
+       "title": "About us",
+       "quote": "Formed in 1996, The Stepstone Group is one of the world’s leading online recruitment companies.",
+       "check": "ok"
+      }
+     ]
     },
     {
-      "name": "Schibsted",
-      "url": "https://schibsted.com",
-      "facts": [
-        {"fact": "description", "value": "What began as a small publishing house in 1839 is now a media house with some of the strongest news brands in the Nordics.", "sources": [{"url": "https://schibsted.com/", "title": "Schibsted", "quote": "What began as a small publishing house in 1839 is now a media house with some of the strongest news brands in the Nordics."}]},
-        {"fact": "founded", "value": "1839", "sources": [{"url": "https://schibsted.com/", "title": "Schibsted", "quote": "What began as a small publishing house in 1839"}]},
-        {"fact": "hq_city", "value": "Oslo", "sources": [{"url": "https://en.wikipedia.org/wiki/Schibsted", "title": "Schibsted (Wikipedia)", "quote": "The company has its headquarters in Oslo, Norway."}]},
-        {"fact": "hq_country", "value": "NO", "sources": [{"url": "https://en.wikipedia.org/wiki/Schibsted", "title": "Schibsted (Wikipedia)", "quote": "The company has its headquarters in Oslo, Norway."}]},
-        {"fact": "listing", "value": "Oslo Stock Exchange", "sources": [{"url": "https://schibsted.com/about/", "title": "About", "quote": "The company is listed on the Oslo Stock Exchange"}]}
-      ]
+     "fact": "employees",
+     "value": "around 3,000",
+     "sources": [
+      {
+       "url": "https://www.thestepstonegroup.com/english/about-us/",
+       "title": "About us",
+       "quote": "Operating in more than 10 countries, with around 3,000 employees worldwide",
+       "check": "ok"
+      }
+     ]
     }
-  ],
-  "blocked": [
-    {"url": "https://www.thestepstonegroup.com", "reason": "Root page returned HTTP 410 to both the fetch tool and curl; /english/about-us/ pages were read instead"}
-  ]
+   ]
+  },
+  {
+   "name": "Hubert Burda Media",
+   "url": "https://www.burda.com",
+   "facts": [
+    {
+     "fact": "description",
+     "value": "Burda ist ein internationales Medien- und Beteiligungsunternehmen mit klarer Haltung und einer starken Idee",
+     "sources": [
+      {
+       "url": "https://www.burda.com/de/unternehmen/",
+       "title": "Das Unternehmen",
+       "quote": "Burda ist ein internationales Medien- und Beteiligungsunternehmen mit klarer Haltung und einer starken Idee",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_city",
+     "value": "Offenburg and Munich",
+     "sources": [
+      {
+       "url": "https://www.burda.com/de/unternehmen/",
+       "title": "Das Unternehmen",
+       "quote": "Gründung 1903 Unternehmenssitz Offenburg und München",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_country",
+     "value": "DE",
+     "sources": [
+      {
+       "url": "https://www.burda.com/de/unternehmen/",
+       "title": "Das Unternehmen",
+       "quote": "Unternehmenssitz Offenburg und München",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "founded",
+     "value": "1903",
+     "sources": [
+      {
+       "url": "https://www.burda.com/de/unternehmen/",
+       "title": "Das Unternehmen",
+       "quote": "Gründung 1903 Unternehmenssitz Offenburg und München",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "employees",
+     "value": "approx. 8,500",
+     "sources": [
+      {
+       "url": "https://www.burda.com/en/company/",
+       "title": "The Company",
+       "quote": "Employees approx. 8,500 Executive Board",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Schibsted",
+   "url": "https://schibsted.com",
+   "facts": [
+    {
+     "fact": "description",
+     "value": "What began as a small publishing house in 1839 is now a media house with some of the strongest news brands in the Nordics.",
+     "sources": [
+      {
+       "url": "https://schibsted.com/",
+       "title": "Schibsted",
+       "quote": "What began as a small publishing house in 1839 is now a media house with some of the strongest news brands in the Nordics.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "founded",
+     "value": "1839",
+     "sources": [
+      {
+       "url": "https://schibsted.com/",
+       "title": "Schibsted",
+       "quote": "What began as a small publishing house in 1839",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_city",
+     "value": "Oslo",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Schibsted",
+       "title": "Schibsted (Wikipedia)",
+       "quote": "The company has its headquarters in Oslo, Norway.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "hq_country",
+     "value": "NO",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Schibsted",
+       "title": "Schibsted (Wikipedia)",
+       "quote": "The company has its headquarters in Oslo, Norway.",
+       "check": "ok"
+      }
+     ]
+    },
+    {
+     "fact": "listing",
+     "value": "Oslo Stock Exchange",
+     "sources": [
+      {
+       "url": "https://schibsted.com/about/",
+       "title": "About",
+       "quote": "The company is listed on the Oslo Stock Exchange",
+       "check": "ok"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "url": "https://www.thestepstonegroup.com",
+   "reason": "Root page returned HTTP 410 to both the fetch tool and curl; /english/about-us/ pages were read instead"
+  }
+ ]
 }

@@ -5,7 +5,7 @@ XING Jobs is a social network and board based in Germany, focused on professiona
 - Website: https://www.xing.com/jobs
 - Headquarters: Germany
 - Founded: 2003
-- Owner: Hubert Burda Media
+- Owner: Hubert Burda Media (Brand, since 2009)
 - Languages: German, English
 - API status: Partner-only API
 - Partner program: yes
@@ -15,7 +15,7 @@ XING Jobs is a social network and board based in Germany, focused on professiona
 
 ## Quick answers
 
-**Who owns XING Jobs?** This directory records the parent of XING Jobs as Hubert Burda Media.
+**Who owns XING Jobs?** According to this directory, XING Jobs is owned by Hubert Burda Media (brand, since 2009).
 
 **Does XING Jobs have an API?** According to this directory, XING Jobs restricts programmatic access to approved partners.
 
@@ -26,6 +26,7 @@ XING Jobs is a social network and board based in Germany, focused on professiona
 - [Wikipedia: XING](https://en.wikipedia.org/wiki/XING) (Existence and description, checked 2026-11-05): "XING is a German career-oriented recruiting, job-search and social networking site"
 - [Wikipedia: XING](https://en.wikipedia.org/wiki/XING) (Ownership, checked 2026-11-05): "In November 2009, Hubert Burda Media acquired 25.1% of XING, becoming its main shareholder."
 - [Wikidata: XING](https://www.wikidata.org/wiki/Q681849) (Existence and description, checked 2026-11-05): "Wikidata: instance of employment website"
+- [Xing](https://www.burda.com/en/brands/xing/) (Ownership, checked 2026-11-06): "Xing - A Brand of Hubert Burda Media"
 
 Canonical page: https://jobboardlist.com/boards/xing/
-Last updated: 2026-11-05
+Last updated: 2026-11-06
