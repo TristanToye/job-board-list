@@ -1,0 +1,99 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 1,
+  "boards": [
+    {
+      "name": "Rippling Recruiting", "url": "https://www.rippling.com",
+      "parent": "Rippling People Center Inc.",
+      "business_model": "per employee per month (PEPM) pricing; custom quote for recruiting",
+      "api_status": "public-key", "api_docs_url": "https://developer.rippling.com/",
+      "partner_program": "yes", "partner_url": "https://www.rippling.com/partners",
+      "sources": [
+        {"field": "parent", "url": "https://www.rippling.com/about", "title": "About", "quote": "© 2026 Rippling People Center Inc."},
+        {"field": "business_model", "url": "https://www.rippling.com/recruiting", "title": "Recruiting", "quote": "Rippling Recruiting uses a per-employee, per-month (PEPM) pricing model and works with teams of all sizes and budgets."},
+        {"field": "api_status", "url": "https://developer.rippling.com/", "title": "Rippling Developer", "quote": "Set up API tokens and scopes to authorize requests from your code."},
+        {"field": "partner_program", "url": "https://www.rippling.com/partners", "title": "Partners", "quote": "Join a thriving partner community built to help your business scale."}
+      ]
+    },
+    {
+      "name": "Resume Genius", "url": "https://www.resumegenius.com",
+      "founded": "2009",
+      "sources": [
+        {"field": "founded", "url": "https://resumegenius.com/about", "title": "About", "quote": "Resume Genius was founded in 2009 with the idea that the resume creation process could be made easier."}
+      ]
+    },
+    {
+      "name": "GovernmentJobs.com", "url": "https://www.governmentjobs.com/",
+      "hq_country": "US",
+      "parent": "Governmentjobs.com, Inc. (DBA NEOGOV)",
+      "sources": [
+        {"field": "hq_country", "url": "https://www.governmentjobs.com/home/companyinfo", "title": "Company Info", "quote": "Our principal place of business is at 2120 Park Place, Suite 100, El Segundo, CA 90245, United States."},
+        {"field": "parent", "url": "https://www.governmentjobs.com/home/companyinfo", "title": "Company Info", "quote": "This website is owned and operated by Governmentjobs.com, Inc. (DBA \"NEOGOV\")."}
+      ]
+    },
+    {
+      "name": "Workday Recruiting", "url": "https://www.workday.com",
+      "primary_language": "en",
+      "languages_supported": ["en", "fr", "es", "de", "it", "nl", "pl", "id", "ja", "ko", "zh", "th"],
+      "sources": [
+        {"field": "languages", "url": "https://www.workday.com/en-us/choose-country-region.html", "title": "Choose your country or region", "quote": "English Français Español Deutsch Italiano Nederlands Polski"}
+      ]
+    },
+    {
+      "name": "Jobvite", "url": "https://www.jobvite.com",
+      "business_model": "quote-based modular pricing; no prices shown",
+      "sources": [
+        {"field": "business_model", "url": "https://www.jobvite.com/pricing/", "title": "Pricing", "quote": "This modular approach ensures you only pay for the Jobvite features you require."}
+      ]
+    },
+    {
+      "name": "RECRUIT AGENT", "url": "https://www.r-agent.com/",
+      "business_model": "success fee: due only after the hired candidate joins; no upfront cost; partial refund if the hire leaves within six months",
+      "sources": [
+        {"field": "business_model", "url": "https://www.r-agent.com/business/", "title": "For companies hiring", "quote": "完全成果報酬型ですので、初期コストは一切かかりません。"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Rippling Recruiting", "url": "https://www.rippling.com", "outcome": "partially-verified", "fields_not_found": ["founded", "ingest_methods"], "method": "mixed", "note": "Founding year not on the About page. Recruiting page describes posting to job boards and HRIS flows, but no statement of how jobs get in. Developer page gives self-serve API tokens; no recruiting-specific API stated. Browser run was not blocked. Quotes come from the fetch tool's text and were not re-checked against raw text."},
+    {"name": "Resume Genius", "url": "https://www.resumegenius.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "business_model"], "method": "mixed", "note": "Founding year 2009 on About page. About page lists Resume Genius, Taipei, Taiwan (R.O.C.) for the marketing office and a Lucerne address for business operations, with no stated headquarters. Pricing page is for job seekers only. Language selector not on the homepage; other-language sites sit on cvgenius.com, off domain. Headless reader hit a Cloudflare challenge on /about; not solved."},
+    {"name": "GovernmentJobs.com", "url": "https://www.governmentjobs.com/", "outcome": "partially-verified", "fields_not_found": ["founded"], "method": "fetch", "note": "Company Info gives headquarters in El Segundo, CA, United States and owner Governmentjobs.com, Inc. (DBA NEOGOV). Page says the company began developing applications in 1998, which is not a stated founding year."},
+    {"name": "Workday Recruiting", "url": "https://www.workday.com", "outcome": "partially-verified", "fields_not_found": ["founded", "parent"], "method": "fetch", "note": "Our Story says Workday was founded by Aneel Bhusri and Dave Duffield, and a summary gives 2005, but the year was not in a quotable sentence; the captured quote was cut off before the year, so founded is not recorded. No parent or owner named. Language list taken from the country and region chooser."},
+    {"name": "Australian Bureau of Statistics", "url": "https://www.abs.gov.au", "outcome": "not-stated", "fields_not_found": ["hq_country", "founded", "parent"], "method": "fetch", "note": "About page gives only a description of the agency. Welcome page and homepage state none of the three fields. The corporate-information guess returned 404. Browser run not needed."},
+    {"name": "Jobvite", "url": "https://www.jobvite.com", "outcome": "partially-verified", "fields_not_found": ["founded"], "method": "fetch", "note": "Pricing page is modular and quote-based with no prices. Founding year not stated on pricing, Employ company, or news pages. Those pages name Employ, Inc. as owner of the brands; parent was not requested."},
+    {"name": "Rikunabi", "url": "https://www.rikunabi.com", "outcome": "not-stated", "fields_not_found": ["founded", "ingest_methods"], "method": "mixed", "note": "Recruit group company page (recruit.co.jp, off domain) gives Recruit Co., Ltd. founded 2012 as a spin-off, but that is not on the entry's own domain, so it is not recorded. Data-use page covers user data to employers, not job intake. Help center rendered empty in headless reader. Recruit page was fetched after a 403 through the headless reader."},
+    {"name": "RECRUIT AGENT", "url": "https://www.r-agent.com/", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "Business page fee wording was read with the fetch tool and is recorded. Headless reader run on /business/ returned a 503 maintenance page marked blocked, so the verification pass is recorded as blocked. Service page links back to the business page and gives no fee terms."}
+  ],
+  "attempts": [
+    {"name": "Rippling Recruiting", "field": "founded", "outcome": "not-found", "pages": ["https://www.rippling.com/about"]},
+    {"name": "Rippling Recruiting", "field": "parent", "outcome": "found", "pages": ["https://www.rippling.com/about"]},
+    {"name": "Rippling Recruiting", "field": "business_model", "outcome": "found", "pages": ["https://www.rippling.com/recruiting", "https://www.rippling.com/pricing"]},
+    {"name": "Rippling Recruiting", "field": "api_status", "outcome": "found", "pages": ["https://developer.rippling.com/"]},
+    {"name": "Rippling Recruiting", "field": "partner_program", "outcome": "found", "pages": ["https://www.rippling.com/partners"]},
+    {"name": "Rippling Recruiting", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://developer.rippling.com/", "https://www.rippling.com/recruiting"]},
+    {"name": "Resume Genius", "field": "hq_country", "outcome": "not-found", "pages": ["https://resumegenius.com/about", "https://www.resumegenius.com/"]},
+    {"name": "Resume Genius", "field": "founded", "outcome": "found", "pages": ["https://resumegenius.com/about"]},
+    {"name": "Resume Genius", "field": "parent", "outcome": "not-found", "pages": ["https://resumegenius.com/about"]},
+    {"name": "Resume Genius", "field": "languages", "outcome": "not-found", "pages": ["https://www.resumegenius.com/"]},
+    {"name": "Resume Genius", "field": "business_model", "outcome": "not-found", "pages": ["https://resumegenius.com/pricing"]},
+    {"name": "GovernmentJobs.com", "field": "hq_country", "outcome": "found", "pages": ["https://www.governmentjobs.com/home/companyinfo"]},
+    {"name": "GovernmentJobs.com", "field": "founded", "outcome": "not-found", "pages": ["https://www.governmentjobs.com/home/companyinfo"]},
+    {"name": "GovernmentJobs.com", "field": "parent", "outcome": "found", "pages": ["https://www.governmentjobs.com/home/companyinfo"]},
+    {"name": "Workday Recruiting", "field": "founded", "outcome": "not-found", "pages": ["https://www.workday.com/en-us/company/about-workday/our-story.html"]},
+    {"name": "Workday Recruiting", "field": "parent", "outcome": "not-found", "pages": ["https://www.workday.com/en-us/company/about-workday/our-story.html"]},
+    {"name": "Workday Recruiting", "field": "languages", "outcome": "found", "pages": ["https://www.workday.com/en-us/choose-country-region.html"]},
+    {"name": "Australian Bureau of Statistics", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.abs.gov.au/about", "https://www.abs.gov.au/welcome-abs-website", "https://www.abs.gov.au/"]},
+    {"name": "Australian Bureau of Statistics", "field": "founded", "outcome": "not-found", "pages": ["https://www.abs.gov.au/about", "https://www.abs.gov.au/welcome-abs-website", "https://www.abs.gov.au/"]},
+    {"name": "Australian Bureau of Statistics", "field": "parent", "outcome": "not-found", "pages": ["https://www.abs.gov.au/about", "https://www.abs.gov.au/welcome-abs-website", "https://www.abs.gov.au/"]},
+    {"name": "Jobvite", "field": "founded", "outcome": "not-found", "pages": ["https://www.jobvite.com/pricing/", "https://www.employinc.com/company/", "https://www.jobvite.com/company/news/"]},
+    {"name": "Jobvite", "field": "business_model", "outcome": "found", "pages": ["https://www.jobvite.com/pricing/"]},
+    {"name": "Rikunabi", "field": "founded", "outcome": "not-found", "pages": ["https://www.recruit.co.jp/company/group/", "https://job.rikunabi.com/static/datause/index.html", "https://help.job.rikunabi.com/"]},
+    {"name": "Rikunabi", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://job.rikunabi.com/static/datause/index.html", "https://help.job.rikunabi.com/"]},
+    {"name": "RECRUIT AGENT", "field": "business_model", "outcome": "found", "pages": ["https://www.r-agent.com/business/", "https://www.r-agent.com/service/"]}
+  ],
+  "blocked": [
+    {"name": "Resume Genius", "url": "https://www.resumegenius.com", "note": "Headless reader on /about hit a Cloudflare challenge (403). Not solved. Fetch read of the same page is recorded."},
+    {"name": "RECRUIT AGENT", "url": "https://www.r-agent.com/", "note": "Headless reader on /business/ returned a 503 maintenance page marked blocked. Fetch read is recorded."}
+  ]
+}
