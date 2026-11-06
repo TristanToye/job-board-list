@@ -41,9 +41,9 @@
  "review": {
   "board_id": "novoresume",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
+  "outcome": "partially-verified",
   "fields_not_found": "",
-  "note": "Founded quote is 'began in 2014' (company start), app launched Feb 2016. Pricing quotes read in browser text. Language menu came from a fetch summary, not the rendered text.",
+  "note": "Founded and business model quoted. Only English is confirmed for languages; a language menu was not in the raw page text, so other languages are not recorded.",
   "method": "mixed"
  },
  "owners": [],
@@ -111,6 +111,22 @@
    "title": "Home (footer language menu)",
    "accessed": "2026-11-06",
    "quote": "Dansk, Deutsch, English UK, English US, Español",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://novoresume.com/about-us",
+   "title": "Our Vision",
+   "accessed": "2026-11-06",
+   "quote": "Empower People to Achieve Fulfilling Careers.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://novoresume.com/page/pricing",
+   "title": "Pricing Plans",
+   "accessed": "2026-11-06",
+   "quote": "No credit card required.",
    "quote_check": "ok"
   }
  ]

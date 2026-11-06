@@ -45,9 +45,9 @@
  "review": {
   "board_id": "harver",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country",
-  "note": "Founding year and ATS integration route stated. Footer shows Harver B.V. copyright; no headquarters stated on the pages read.",
+  "outcome": "not-stated",
+  "fields_not_found": "parent;api_status",
+  "note": "About Us has founding year 2015 but no parent company. The banner 'Outmatch is now part of Harver' describes Outmatch joining Harver, not a parent. Integrations page and home page footer show no API or Developers link and no API wording. /d",
   "method": "fetch"
  },
  "owners": [],

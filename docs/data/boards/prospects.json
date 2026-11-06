@@ -16,7 +16,7 @@
  "niche": "graduates",
  "segment": "",
  "parent": "Jisc",
- "business_model": "",
+ "business_model": "per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -25,7 +25,7 @@
  "notes": "Part of Jisc; registered office in Bristol, England. Homepage shows prices from 370 pounds under employer advertising, model not stated. Employers page returned 404. No API or integration mention found on pages read. Registered office in Bristol, UK. Employer advertising shows prices from £370; the pricing model (per post or otherwise) is not stated. Parent is inferred only from the copyright line naming Jisc.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/prospects/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -36,15 +36,16 @@
  },
  "tags": [
   "graduates-students",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
  "review": {
   "board_id": "prospects",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Registered office in Bristol and registered number marked (England). Country stated as England, so GB.",
+  "outcome": "partially-verified",
+  "fields_not_found": "ingest_methods",
+  "note": "Pricing from the post-a-job and postgraduate pages. No text on how vacancies are submitted.",
   "method": "fetch"
  },
  "owners": [],
@@ -72,6 +73,22 @@
    "title": "About us",
    "accessed": "2026-11-06",
    "quote": "4 Portwall Lane, Bristol, BS1 6NB.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://prospects.ac.uk/post-a-job",
+   "title": "Post a job",
+   "accessed": "2026-11-06",
+   "quote": "Buy a 2 week job advert",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://prospects.ac.uk/postgraduate-recruiters",
+   "title": "Postgraduate recruiters",
+   "accessed": "2026-11-06",
+   "quote": "Prices from £370",
    "quote_check": "ok"
   }
  ]

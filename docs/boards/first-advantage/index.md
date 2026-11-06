@@ -1,9 +1,9 @@
 # First Advantage
 
-First Advantage is an HR technology vendor, focused on background screening technology. It was founded in 2003.
+First Advantage is an HR technology vendor based in United States, focused on background screening technology. It was founded in 2003.
 
 - Website: https://fadv.com
-- Headquarters: not recorded
+- Headquarters: United States
 - Founded: 2003
 - Owner: not recorded
 - Languages: English, Japanese, Korean, Chinese, Spanish, Portuguese
@@ -11,7 +11,7 @@ First Advantage is an HR technology vendor, focused on background screening tech
 - Partner program: yes
 - Prominence: #93,572 globally, tier Established
 - Tags: ATS integration, HR and recruiting technology, Partner program, Technology
-- Review: Reviewed 2026-11-06. Checked against the board's own site.
+- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: owner.
 - Data status: partly verified against its own site
 
 ## Quick answers
@@ -27,6 +27,8 @@ First Advantage is an HR technology vendor, focused on background screening tech
 - [Homepage](https://fadv.com) (How jobs get in, checked 2026-11-06): "100+ ATS and HCM integrated partners"
 - [About First Advantage | Global Screening Leader](https://fadv.com/about-us/) (Existence and description, checked 2026-11-06): "Founded in 2003,"
 - [Global Background Checks & Screenings | First Advantage](https://fadv.com) (Languages, checked 2026-11-06): "Choose Your Region & Language."
+- [Locations](https://fadv.com/contact/locations/) (Existence and description, checked 2026-11-06): "HQ United States"
+- [Locations](https://fadv.com/contact/locations/) (Languages, checked 2026-11-06): "North America (English)"
 
 Canonical page: https://jobboardlist.com/boards/first-advantage/
 Last updated: 2026-11-06

@@ -4,7 +4,7 @@
  "url": "https://fadv.com",
  "domains": "",
  "type": "hr-tech",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "2003",
  "markets": "",
  "countries_served": [
@@ -53,10 +53,10 @@
  "review": {
   "board_id": "first-advantage",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "About Us states Founded in 2003. Region and language menu lists English, Japanese, Korean, Chinese, Spanish and Portuguese. Primary language not stated.",
-  "method": "fetch"
+  "outcome": "partially-verified",
+  "fields_not_found": "parent",
+  "note": "Locations page read by fetch: HQ United States and language menu found. Investor relations subdomain returned 403 to fetch and to the browser reader, so parent was not checked there and no owner was stated on the pages read.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -99,6 +99,22 @@
    "title": "Global Background Checks & Screenings | First Advantage",
    "accessed": "2026-11-06",
    "quote": "Choose Your Region & Language.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://fadv.com/contact/locations/",
+   "title": "Locations",
+   "accessed": "2026-11-06",
+   "quote": "HQ United States",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://fadv.com/contact/locations/",
+   "title": "Locations",
+   "accessed": "2026-11-06",
+   "quote": "North America (English)",
    "quote_check": "ok"
   }
  ]

@@ -11,7 +11,7 @@ Beamery is an HR technology vendor, focused on talent lifecycle and workforce in
 - Partner program: yes
 - Prominence: #56,127 globally, tier Established
 - Tags: ATS integration, HR and recruiting technology, Partner program
-- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: headquarters, owner.
+- Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: API access.
 - Data status: partly verified against its own site
 
 ## Quick answers

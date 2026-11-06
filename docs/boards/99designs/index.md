@@ -1,16 +1,16 @@
 # 99designs
 
-99designs is a freelance marketplace, focused on freelance design marketplace.
+99designs is a freelance marketplace based in Australia, focused on freelance design marketplace.
 
 - Website: https://www.99designs.com
-- Headquarters: not recorded
+- Headquarters: Australia
 - Founded: not recorded
 - Owner: Vista
 - Languages: English, Spanish
 - API status: API status unknown
-- Partner program: unknown
+- Partner program: yes
 - Prominence: #5,858 globally, tier Large
-- Tags: Creative and media, Freelance marketplace
+- Tags: Creative and media, Freelance marketplace, Partner program
 - Review: Reviewed 2026-11-06. Checked against the board's own site.
 - Data status: partly verified against its own site
 
@@ -30,6 +30,8 @@
 - [Home](https://www.99designs.com) (Languages, checked 2026-11-06): "español"
 - [About](https://99designs.com/about) (Languages, checked 2026-11-06): "English"
 - [Pricing](https://99designs.com/pricing) (Business model and pricing, checked 2026-11-06): "We have 4 fixed packages to suit your budget. Prices exclude Sales Tax."
+- [Press releases (About boilerplate)](https://www.99designs.com/about/press-releases) (Existence and description, checked 2026-11-06): "With headquarters in Melbourne, Australia 99designs has operations in Oakland, California and Berlin, Germany."
+- [Become an affiliate](https://www.99designs.com/affiliates) (Partner program, checked 2026-11-06): "Earn uncapped commissions when you refer new customers to 99designs."
 
 Canonical page: https://jobboardlist.com/boards/99designs/
 Last updated: 2026-11-06

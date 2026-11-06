@@ -46,8 +46,8 @@
   "board_id": "japan-dev",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "ingest_methods",
-  "note": "About page gives founding year 2019 and one office address in Kawasaki-shi, Japan. The page does not use the word headquarters, so hq_country is the country of that office address. Primary language is not stated; English is the default page",
+  "fields_not_found": "business_model",
+  "note": "Languages found (English primary, Japanese option). Employer posting pages (/hire, /about, home) state no pricing or payment model.",
   "method": "fetch"
  },
  "owners": [],
@@ -75,6 +75,14 @@
    "title": "Home (Japanese version)",
    "accessed": "2026-11-06",
    "quote": "English",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://japan-dev.com/about",
+   "title": "About",
+   "accessed": "2026-11-06",
+   "quote": "we turn away 90% of companies that ask to post jobs on Japan Dev.",
    "quote_check": "ok"
   }
  ]

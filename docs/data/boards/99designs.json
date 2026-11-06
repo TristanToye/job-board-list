@@ -4,7 +4,7 @@
  "url": "https://www.99designs.com",
  "domains": "",
  "type": "freelance-platform",
- "hq_country": "",
+ "hq_country": "AU",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -22,8 +22,8 @@
  "business_model": "per contest package, fixed price (Bronze US$249, Silver US$399, Gold US$799, Platinum US$1,050)",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.99designs.com/affiliates",
  "ingest_methods": [],
  "notes": "Footer language switcher lists English and Spanish. Pricing page shows fixed packages for design contests, not employer job posting prices. Headquarters and API not stated.",
  "confidence": "partially-verified",
@@ -39,7 +39,8 @@
  },
  "tags": [
   "creative-media",
-  "freelance-platform"
+  "freelance-platform",
+  "partner-program"
  ],
  "connections": [],
  "review": {
@@ -47,7 +48,7 @@
   "reviewed": "2026-11-06",
   "outcome": "verified",
   "fields_not_found": "",
-  "note": "Language menu shows English and español. Pricing page lists four fixed contest packages. Employers pay per contest package, not a subscription. Partner and About pages were not needed for these fields.",
+  "note": "HQ Melbourne, Australia from press-release boilerplate. Affiliate program confirmed on /affiliates. Contact page lists offices in Oakland, Melbourne and Berlin without naming the HQ.",
   "method": "fetch"
  },
  "owners": [],
@@ -99,6 +100,22 @@
    "title": "Pricing",
    "accessed": "2026-11-06",
    "quote": "We have 4 fixed packages to suit your budget. Prices exclude Sales Tax.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.99designs.com/about/press-releases",
+   "title": "Press releases (About boilerplate)",
+   "accessed": "2026-11-06",
+   "quote": "With headquarters in Melbourne, Australia 99designs has operations in Oakland, California and Berlin, Germany.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.99designs.com/affiliates",
+   "title": "Become an affiliate",
+   "accessed": "2026-11-06",
+   "quote": "Earn uncapped commissions when you refer new customers to 99designs.",
    "quote_check": "ok"
   }
  ]

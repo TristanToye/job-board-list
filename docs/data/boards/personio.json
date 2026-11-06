@@ -42,7 +42,14 @@
   "smb"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "personio",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "founded;languages;business_model",
+  "note": "Homepage and About Us page both returned HTTP 429 Too Many Requests to the fetch tool. No page content was read. Not retried with the browser reader, since the response is rate limiting rather than a challenge.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": []

@@ -1,0 +1,322 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 8,
+ "boards": [
+  {
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "sources": [
+    {
+     "field": "founded",
+     "value": "2014",
+     "url": "https://novoresume.com/about-us",
+     "title": "Origin",
+     "quote": "Novorésumé began in 2014 when Andrei, Cristian, and Stefan noticed a common problem among several of their contacts.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "value": "primary en",
+     "url": "https://novoresume.com/about-us",
+     "title": "Our Vision",
+     "quote": "Empower People to Achieve Fulfilling Careers.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "value": "freemium: free Basic plan, paid Pro passes billed once",
+     "url": "https://novoresume.com/page/pricing",
+     "title": "Pricing Plans",
+     "quote": "No credit card required.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "value": "freemium: free Basic plan, paid Pro passes billed once",
+     "url": "https://novoresume.com/page/pricing",
+     "title": "Pricing Plans",
+     "quote": "47.99 USD charged once for 3 months. No renewal.",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Lanbide",
+   "url": "https://www.lanbide.euskadi.eus/",
+   "sources": [
+    {
+     "field": "parent",
+     "value": "Eusko Jaurlaritza (Basque Government)",
+     "url": "https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/",
+     "title": "Zer da Lanbide?",
+     "quote": "Eusko Jaurlaritzak eskueran jartzen dizun Euskal Enplegu Zerbitzu Publikoa da",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "value": "primary eu; supported eu, es",
+     "url": "https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/",
+     "title": "Zer da Lanbide?",
+     "quote": "Euskal Enplegu Zerbitzu Publikoa da",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "value": "supported es",
+     "url": "https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/",
+     "title": "Zer da Lanbide?",
+     "quote": "ESPAÑOL",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "api_status": "on-request",
+   "api_docs_url": null,
+   "sources": [
+    {
+     "field": "business_model",
+     "value": "paid subscription, Terminal from $1,250 per month, data and API priced by scope",
+     "url": "https://www.reveliolabs.com/pricing",
+     "title": "Pricing",
+     "quote": "Workforce data priced by what you access, not by what you look at.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "value": "Terminal from $1,250 per month",
+     "url": "https://www.reveliolabs.com/pricing",
+     "title": "Pricing",
+     "quote": "From $1,250 / month",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "value": "on-request",
+     "url": "https://www.reveliolabs.com/pricing",
+     "title": "Pricing",
+     "quote": "API and MCP on the same contracted scope",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "sources": [
+    {
+     "field": "languages",
+     "value": "primary en",
+     "url": "https://www.gigroup.com/for-employers/",
+     "title": "For employers",
+     "quote": "Gi Group is your strategic business partner for operational workforce solutions",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "value": "supported de",
+     "url": "https://de.gigroup.com",
+     "title": "Gi Group",
+     "quote": "Gemeinsam finden wir den Job, der wirklich zu dir passt.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "sources": [
+    {
+     "field": "parent",
+     "value": "Career.io",
+     "url": "https://www.topresume.com/about",
+     "title": "About TopResume",
+     "quote": "We're part of the Career.io family",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Founded and business model quoted. Only English is confirmed for languages; a language menu was not in the raw page text, so other languages are not recorded."
+  },
+  {
+   "name": "Lanbide",
+   "url": "https://www.lanbide.euskadi.eus/",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Parent and languages quoted from the Basque page and its language menu link. Quotes are in Basque; parent is the Basque Government."
+  },
+  {
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Pricing page read. The API is sold on contracted scope; no self-serve key or request form was seen, so on-request is a moderate-confidence reading. Developer docs page not found."
+  },
+  {
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "Footer says GI GROUP HOLDING S.p.A. is With Sole Shareholder, but the shareholder is not named, so no parent recorded. Languages: English on main site, German on de subdomain; the country menu was not checked."
+  },
+  {
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Parent stated on the About page as part of the Career.io family."
+  },
+  {
+   "name": "Ashby",
+   "url": "https://www.ashbyhq.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "mixed",
+   "note": "Story and Team pages read; no founding year stated. Copyright year only."
+  },
+  {
+   "name": "Beamery",
+   "url": "https://beamery.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "api_status"
+   ],
+   "method": "mixed",
+   "note": "Support center and Integrations category read; no API, developer or key mention. Developer, API and partner pages were not found, so api_status is unknown. Training subdomain returned an empty page."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Novoresume",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://novoresume.com/about-us"
+   ]
+  },
+  {
+   "name": "Novoresume",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://novoresume.com/about-us",
+    "https://novoresume.com/"
+   ]
+  },
+  {
+   "name": "Novoresume",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://novoresume.com/page/pricing",
+    "https://novoresume.com/"
+   ]
+  },
+  {
+   "name": "Lanbide",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/"
+   ]
+  },
+  {
+   "name": "Lanbide",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/",
+    "https://www.lanbide.euskadi.eus/"
+   ]
+  },
+  {
+   "name": "Revelio Labs",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.reveliolabs.com/pricing",
+    "https://www.reveliolabs.com/",
+    "https://www.reveliolabs.com/faq",
+    "https://www.reveliolabs.com/press"
+   ]
+  },
+  {
+   "name": "Revelio Labs",
+   "field": "api_status",
+   "outcome": "found",
+   "pages": [
+    "https://www.reveliolabs.com/pricing",
+    "https://www.data-dictionary.reveliolabs.com/",
+    "https://www.reveliolabs.com/faq"
+   ]
+  },
+  {
+   "name": "Gi Group Holding",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.gigroupholding.com",
+    "https://www.gigroup.com/for-employers/",
+    "https://de.gigroup.com"
+   ]
+  },
+  {
+   "name": "Gi Group Holding",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.gigroup.com/for-employers/",
+    "https://de.gigroup.com",
+    "https://www.gigroupholding.com"
+   ]
+  },
+  {
+   "name": "TopResume",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.topresume.com/about",
+    "https://www.topresume.com/faq"
+   ]
+  },
+  {
+   "name": "Ashby",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.ashbyhq.com/story",
+    "https://www.ashbyhq.com/team"
+   ]
+  },
+  {
+   "name": "Beamery",
+   "field": "api_status",
+   "outcome": "not-found",
+   "pages": [
+    "https://support.beamery.com/",
+    "https://support.beamery.com/hc/en-us/categories/22052797855889-Integrations",
+    "https://training.beamery.com/"
+   ]
+  }
+ ],
+ "blocked": []
+}

@@ -11,7 +11,7 @@ Harver is an HR technology vendor, focused on pre-employment assessment for high
 - Partner program: yes
 - Prominence: #58,904 globally, tier Established
 - Tags: ATS integration, HR and recruiting technology, Partner program
-- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: headquarters.
+- Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: owner, API access.
 - Data status: partly verified against its own site
 
 ## Quick answers

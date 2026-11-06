@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 77 entries in the directory.
+Has a partner or integration program. 78 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -16,6 +16,7 @@ Has a partner or integration program. 77 entries in the directory.
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
 - [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [99designs](https://jobboardlist.com/boards/99designs/): freelance-platform
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key

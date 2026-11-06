@@ -1,9 +1,10 @@
 # Job boards in Germany
 
-19 job boards and related entries based in or serving Germany.
+20 job boards and related entries based in or serving Germany.
 
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board, Large tier
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Established tier, Partner-only API
+- [meinestadt.de](https://jobboardlist.com/boards/meinestadt-de/): board, Established tier
 - [Personio](https://jobboardlist.com/boards/personio/): ats, Established tier, Open API (no key)
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Established tier, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key

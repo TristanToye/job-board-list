@@ -43,9 +43,9 @@
  "review": {
   "board_id": "eightfold-ai",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;founded;parent",
-  "note": "Read the company, press and home pages. Only a copyright line with the year 2026 appears. No headquarters, founding year or parent company is stated.",
+  "outcome": "blocked",
+  "fields_not_found": "api_status;ingest_methods",
+  "note": "Partners page read: it describes implementation partners and gives no API or ingestion route. docs.eightfold.ai redirects to a login (SSO) page on another host. Not followed, since it requires signing in.",
   "method": "fetch"
  },
  "owners": [],

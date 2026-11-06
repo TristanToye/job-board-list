@@ -9768,7 +9768,7 @@
    "niche": "graduates",
    "segment": "",
    "parent": "Jisc",
-   "business_model": "",
+   "business_model": "per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -9777,7 +9777,7 @@
    "notes": "Part of Jisc; registered office in Bristol, England. Homepage shows prices from 370 pounds under employer advertising, model not stated. Employers page returned 404. No API or integration mention found on pages read. Registered office in Bristol, UK. Employer advertising shows prices from £370; the pricing model (per post or otherwise) is not stated. Parent is inferred only from the copyright line naming Jisc.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/prospects/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -9788,15 +9788,16 @@
    },
    "tags": [
     "graduates-students",
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
    "review": {
     "board_id": "prospects",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Registered office in Bristol and registered number marked (England). Country stated as England, so GB.",
+    "outcome": "partially-verified",
+    "fields_not_found": "ingest_methods",
+    "note": "Pricing from the post-a-job and postgraduate pages. No text on how vacancies are submitted.",
     "method": "fetch"
    },
    "owners": [],
@@ -9824,6 +9825,22 @@
      "title": "About us",
      "accessed": "2026-11-06",
      "quote": "4 Portwall Lane, Bristol, BS1 6NB.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://prospects.ac.uk/post-a-job",
+     "title": "Post a job",
+     "accessed": "2026-11-06",
+     "quote": "Buy a 2 week job advert",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://prospects.ac.uk/postgraduate-recruiters",
+     "title": "Postgraduate recruiters",
+     "accessed": "2026-11-06",
+     "quote": "Prices from £370",
      "quote_check": "ok"
     }
    ]
@@ -12212,9 +12229,9 @@
    "review": {
     "board_id": "lanbide",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;founded",
-    "note": "Parent and languages verified from homepage. Headquarters and founding year not stated on the pages read (homepage, Basque homepage, contact page).",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Parent and languages quoted from the Basque page and its language menu link. Quotes are in Basque; parent is the Basque Government.",
     "method": "mixed"
    },
    "owners": [],
@@ -12242,6 +12259,22 @@
      "title": "Lanbide homepage (primary language, Spanish page)",
      "accessed": "2026-11-06",
      "quote": "Trabajamos por tu empleo",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/",
+     "title": "Zer da Lanbide?",
+     "accessed": "2026-11-06",
+     "quote": "Eusko Jaurlaritzak eskueran jartzen dizun Euskal Enplegu Zerbitzu Publikoa da",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/",
+     "title": "Zer da Lanbide?",
+     "accessed": "2026-11-06",
+     "quote": "Euskal Enplegu Zerbitzu Publikoa da",
      "quote_check": "ok"
     }
    ]
@@ -12563,8 +12596,8 @@
     "board_id": "japan-dev",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "ingest_methods",
-    "note": "About page gives founding year 2019 and one office address in Kawasaki-shi, Japan. The page does not use the word headquarters, so hq_country is the country of that office address. Primary language is not stated; English is the default page",
+    "fields_not_found": "business_model",
+    "note": "Languages found (English primary, Japanese option). Employer posting pages (/hire, /about, home) state no pricing or payment model.",
     "method": "fetch"
    },
    "owners": [],
@@ -12592,6 +12625,14 @@
      "title": "Home (Japanese version)",
      "accessed": "2026-11-06",
      "quote": "English",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://japan-dev.com/about",
+     "title": "About",
+     "accessed": "2026-11-06",
+     "quote": "we turn away 90% of companies that ask to post jobs on Japan Dev.",
      "quote_check": "ok"
     }
    ]
@@ -18515,9 +18556,9 @@
     "board_id": "lightcast",
     "reviewed": "2026-11-06",
     "outcome": "not-stated",
-    "fields_not_found": "api_status;ingest_methods",
-    "note": "Data API page lists APIs and links to documentation but does not say how keys are issued. The developer docs page lists OAuth 2.0 on each API but no self-serve or request process was found in the text read. The analyst.lightcast.io link red",
-    "method": "mixed"
+    "fields_not_found": "hq_country",
+    "note": "Leadership, contact, and homepage pages read. Only a Global Reach regional menu and a copyright line; no headquarters or country stated.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -18577,7 +18618,7 @@
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
     "fields_not_found": "",
-    "note": "Pricing is scoped annual subscription; Terminal from $1,250 per month. API is sold on annual agreement with keys per user (on-request). /developers returned 404 and no API docs URL was found, so api_docs_url is null.",
+    "note": "Pricing page read. The API is sold on contracted scope; no self-serve key or request form was seen, so on-request is a moderate-confidence reading. Developer docs page not found.",
     "method": "mixed"
    },
    "owners": [],
@@ -19384,7 +19425,7 @@
    "domains": "",
    "type": "staffing",
    "hq_country": "",
-   "founded": "",
+   "founded": "1946",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -19422,7 +19463,7 @@
     "reviewed": "2026-11-06",
     "outcome": "verified",
     "fields_not_found": "",
-    "note": "Founding year 1946 from Our story page, which says Kelly opened in Detroit in 1946.",
+    "note": "Founding year 1946 from the Our story timeline.",
     "method": "fetch"
    },
    "owners": [],
@@ -19500,8 +19541,8 @@
     "board_id": "hays",
     "reviewed": "2026-11-06",
     "outcome": "not-stated",
-    "fields_not_found": "parent",
-    "note": "hays.com pages read (about-us) state no owner. haysplc.com shows the copyright line Hays plc and a trademark line, but that is off the entry's domain so it is not recorded as a fact. The about-us fetch contained an embedded instruction to q",
+    "fields_not_found": "hq_country;founded",
+    "note": "Media Centre and Contact Us pages read. Only the Polish subsidiary's Warsaw seat and the copyright year appear, which are not group headquarters or founding facts.",
     "method": "fetch"
    },
    "owners": [],
@@ -19710,10 +19751,10 @@
    "review": {
     "board_id": "gi-group-holding",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Gi Group about page says Gi Group is part of Gi Group Holding. Holding site copyright (2022) read but not needed. No pricing, API or partner text on the pages read.",
-    "method": "fetch"
+    "outcome": "partially-verified",
+    "fields_not_found": "parent",
+    "note": "Footer says GI GROUP HOLDING S.p.A. is With Sole Shareholder, but the shareholder is not named, so no parent recorded. Languages: English on main site, German on de subdomain; the country menu was not checked.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -19748,6 +19789,22 @@
      "title": "About Gi Group",
      "accessed": "2026-11-06",
      "quote": "Gi Group is part of Gi Group Holding, one of the world’s leading providers of services for the evolution of the labour market",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.gigroup.com/for-employers/",
+     "title": "For employers",
+     "accessed": "2026-11-06",
+     "quote": "Gi Group is your strategic business partner for operational workforce solutions",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://de.gigroup.com",
+     "title": "Gi Group",
+     "accessed": "2026-11-06",
+     "quote": "Gemeinsam finden wir den Job, der wirklich zu dir passt.",
      "quote_check": "ok"
     }
    ]
@@ -20146,7 +20203,7 @@
     "reviewed": "2026-11-06",
     "outcome": "verified",
     "fields_not_found": "",
-    "note": "Founding 1969 in New York City from the history page. Language menu lists English, 中文(中国), 日本語 (日本). No developer, API or partner link seen.",
+    "note": "Language menu lists English, 中文(中国) and 日本語 (日本). Newsroom and zh-CN pages read. No Developers, API or Pricing link on the pages read.",
     "method": "fetch"
    },
    "owners": [],
@@ -20188,6 +20245,14 @@
      "field": "languages",
      "url": "https://www.russellreynolds.com/en/about/who-we-are",
      "title": "Who we are (language menu)",
+     "accessed": "2026-11-06",
+     "quote": "English",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com/en/about/newsroom",
+     "title": "Language menu",
      "accessed": "2026-11-06",
      "quote": "English",
      "quote_check": "ok"
@@ -20339,7 +20404,7 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
+   "primary_language": "en",
    "languages_supported": [
     "en",
     "de",
@@ -20376,9 +20441,9 @@
    "review": {
     "board_id": "egon-zehnder",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;founded",
-    "note": "Language menu read on homepage. About Us and Offices pages state no headquarters and no founding year.",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Language menu lists English, Deutsch, Chinese and Japanese. Homepage text is in English.",
     "method": "fetch"
    },
    "owners": [],
@@ -20414,6 +20479,14 @@
      "title": "Region menu",
      "accessed": "2026-11-06",
      "quote": "Deutsch",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.egonzehnder.com/",
+     "title": "Egon Zehnder",
+     "accessed": "2026-11-06",
+     "quote": "In a world full of questions, we deliver human-centric solutions.",
      "quote_check": "ok"
     }
    ]
@@ -20812,7 +20885,7 @@
    "url": "https://www.99designs.com",
    "domains": "",
    "type": "freelance-platform",
-   "hq_country": "",
+   "hq_country": "AU",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -20830,8 +20903,8 @@
    "business_model": "per contest package, fixed price (Bronze US$249, Silver US$399, Gold US$799, Platinum US$1,050)",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.99designs.com/affiliates",
    "ingest_methods": [],
    "notes": "Footer language switcher lists English and Spanish. Pricing page shows fixed packages for design contests, not employer job posting prices. Headquarters and API not stated.",
    "confidence": "partially-verified",
@@ -20847,7 +20920,8 @@
    },
    "tags": [
     "creative-media",
-    "freelance-platform"
+    "freelance-platform",
+    "partner-program"
    ],
    "connections": [],
    "review": {
@@ -20855,7 +20929,7 @@
     "reviewed": "2026-11-06",
     "outcome": "verified",
     "fields_not_found": "",
-    "note": "Language menu shows English and español. Pricing page lists four fixed contest packages. Employers pay per contest package, not a subscription. Partner and About pages were not needed for these fields.",
+    "note": "HQ Melbourne, Australia from press-release boilerplate. Affiliate program confirmed on /affiliates. Contact page lists offices in Oakland, Melbourne and Berlin without naming the HQ.",
     "method": "fetch"
    },
    "owners": [],
@@ -20907,6 +20981,22 @@
      "title": "Pricing",
      "accessed": "2026-11-06",
      "quote": "We have 4 fixed packages to suit your budget. Prices exclude Sales Tax.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.99designs.com/about/press-releases",
+     "title": "Press releases (About boilerplate)",
+     "accessed": "2026-11-06",
+     "quote": "With headquarters in Melbourne, Australia 99designs has operations in Oakland, California and Berlin, Germany.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.99designs.com/affiliates",
+     "title": "Become an affiliate",
+     "accessed": "2026-11-06",
+     "quote": "Earn uncapped commissions when you refer new customers to 99designs.",
      "quote_check": "ok"
     }
    ]
@@ -21679,10 +21769,10 @@
    "review": {
     "board_id": "beamery",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent",
-    "note": "Founding year 2013 verified on /about-us/. Homepage footer gives copyright only. The London reference is the founding location, not a stated HQ.",
-    "method": "fetch"
+    "outcome": "not-stated",
+    "fields_not_found": "api_status",
+    "note": "Support center and Integrations category read; no API, developer or key mention. Developer, API and partner pages were not found, so api_status is unknown. Training subdomain returned an empty page.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -22001,7 +22091,7 @@
    "url": "https://fadv.com",
    "domains": "",
    "type": "hr-tech",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "2003",
    "markets": "",
    "countries_served": [
@@ -22050,10 +22140,10 @@
    "review": {
     "board_id": "first-advantage",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "About Us states Founded in 2003. Region and language menu lists English, Japanese, Korean, Chinese, Spanish and Portuguese. Primary language not stated.",
-    "method": "fetch"
+    "outcome": "partially-verified",
+    "fields_not_found": "parent",
+    "note": "Locations page read by fetch: HQ United States and language menu found. Investor relations subdomain returned 403 to fetch and to the browser reader, so parent was not checked there and no owner was stated on the pages read.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -22096,6 +22186,22 @@
      "title": "Global Background Checks & Screenings | First Advantage",
      "accessed": "2026-11-06",
      "quote": "Choose Your Region & Language.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://fadv.com/contact/locations/",
+     "title": "Locations",
+     "accessed": "2026-11-06",
+     "quote": "HQ United States",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com/contact/locations/",
+     "title": "Locations",
+     "accessed": "2026-11-06",
+     "quote": "North America (English)",
      "quote_check": "ok"
     }
    ]
@@ -22145,9 +22251,9 @@
    "review": {
     "board_id": "eightfold-ai",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;founded;parent",
-    "note": "Read the company, press and home pages. Only a copyright line with the year 2026 appears. No headquarters, founding year or parent company is stated.",
+    "outcome": "blocked",
+    "fields_not_found": "api_status;ingest_methods",
+    "note": "Partners page read: it describes implementation partners and gives no API or ingestion route. docs.eightfold.ai redirects to a login (SSO) page on another host. Not followed, since it requires signing in.",
     "method": "fetch"
    },
    "owners": [],
@@ -22218,9 +22324,9 @@
    "review": {
     "board_id": "harver",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country",
-    "note": "Founding year and ATS integration route stated. Footer shows Harver B.V. copyright; no headquarters stated on the pages read.",
+    "outcome": "not-stated",
+    "fields_not_found": "parent;api_status",
+    "note": "About Us has founding year 2015 but no parent company. The banner 'Outmatch is now part of Harver' describes Outmatch joining Harver, not a parent. Integrations page and home page footer show no API or Developers link and no API wording. /d",
     "method": "fetch"
    },
    "owners": [],
@@ -22267,7 +22373,7 @@
    "domains": "",
    "type": "outplacement",
    "hq_country": "",
-   "founded": "",
+   "founded": "1967",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -22303,10 +22409,10 @@
    "review": {
     "board_id": "lhh",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Parent is The Adecco Group, stated on LHH's own About page. The adeccogroup.com investor page was read but not used as a source because it is off-domain.",
-    "method": "mixed"
+    "outcome": "partially-verified",
+    "fields_not_found": "parent",
+    "note": "Our Story page states founding year 1967. No page states an owner. The Adecco Group appears only as a navigation link, which is not a stated parent.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -22317,6 +22423,14 @@
      "title": "LHH",
      "accessed": "2026-11-06",
      "quote": "LHH is your single partner to solve complex talent challenges.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.lhh.com/en-us/about-us/our-story",
+     "title": "Our Story",
+     "accessed": "2026-11-06",
+     "quote": "Founded in 1967, Lee Hecht Harrison began as a provider of talent services and quickly grew to become a global leader.",
      "quote_check": "ok"
     }
    ]
@@ -22759,7 +22873,7 @@
    "url": "https://www.velvetjobs.com",
    "domains": "",
    "type": "outplacement",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -22782,7 +22896,7 @@
    "notes": "",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/velvetjobs/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -22801,7 +22915,7 @@
     "reviewed": "2026-11-06",
     "outcome": "verified",
     "fields_not_found": "",
-    "note": "Free employer posting stated. No prices, subscriptions or pay-per-click seen. Posting is by employer account.",
+    "note": "Terms of use name VelvetJobs LLC and state operation from offices within the USA. About page gives Los Angeles only.",
     "method": "fetch"
    },
    "owners": [],
@@ -22829,6 +22943,14 @@
      "title": "Post a job",
      "accessed": "2026-11-06",
      "quote": "Post Jobs for Free in Minutes",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.velvetjobs.com/legal/terms_of_use",
+     "title": "Terms of use",
+     "accessed": "2026-11-06",
+     "quote": "The Service is controlled, operated and administered by VelvetJobs LLC from our offices within the USA.",
      "quote_check": "ok"
     }
    ]
@@ -22940,8 +23062,8 @@
     "reviewed": "2026-11-06",
     "outcome": "verified",
     "fields_not_found": "",
-    "note": "Parent given as Career.io family on the About page. The About page fetch returned text with an embedded instruction to quote the ownership line; it was ignored. Partner program found on the partnerships page; no set-up cost, commission base",
-    "method": "fetch"
+    "note": "Parent stated on the About page as part of the Career.io family.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -22960,6 +23082,14 @@
      "title": "Partnerships",
      "accessed": "2026-11-06",
      "quote": "Our programs incentivize you for helping us reach job seekers who can benefit from our expert resume-writing services.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.topresume.com/about",
+     "title": "About TopResume",
+     "accessed": "2026-11-06",
+     "quote": "We're part of the Career.io family",
      "quote_check": "ok"
     }
    ]
@@ -23101,14 +23231,21 @@
    "url": "https://www.kickresume.com",
    "domains": "",
    "type": "career-services",
-   "hq_country": "",
+   "hq_country": "SK",
    "founded": "",
    "markets": "",
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "sk",
+    "es",
+    "de",
+    "pt",
+    "it"
+   ],
    "region": "Global",
    "niche": "online resume builder",
    "segment": "",
@@ -23140,8 +23277,8 @@
     "reviewed": "2026-11-06",
     "outcome": "verified",
     "fields_not_found": "",
-    "note": "HQ stated as team based in Bratislava, Slovakia; no explicit HQ label. Language menu came from a fetch summary and was not in the rendered text, so treat its exact wording with care.",
-    "method": "mixed"
+    "note": "HQ in Bratislava, Slovakia and language menu read from the About page.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -23384,9 +23521,9 @@
    "review": {
     "board_id": "novoresume",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
+    "outcome": "partially-verified",
     "fields_not_found": "",
-    "note": "Founded quote is 'began in 2014' (company start), app launched Feb 2016. Pricing quotes read in browser text. Language menu came from a fetch summary, not the rendered text.",
+    "note": "Founded and business model quoted. Only English is confirmed for languages; a language menu was not in the raw page text, so other languages are not recorded.",
     "method": "mixed"
    },
    "owners": [],
@@ -23454,6 +23591,22 @@
      "title": "Home (footer language menu)",
      "accessed": "2026-11-06",
      "quote": "Dansk, Deutsch, English UK, English US, Español",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://novoresume.com/about-us",
+     "title": "Our Vision",
+     "accessed": "2026-11-06",
+     "quote": "Empower People to Achieve Fulfilling Careers.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://novoresume.com/page/pricing",
+     "title": "Pricing Plans",
+     "accessed": "2026-11-06",
+     "quote": "No credit card required.",
      "quote_check": "ok"
     }
    ]
@@ -23756,8 +23909,8 @@
     "board_id": "greenhouse",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "founded",
-    "note": "Language selector read on homepage. Company page gives only 'over a decade' and a copyright year, not a founding year.",
+    "fields_not_found": "parent",
+    "note": "Language menu on Company and Press pages lists English (US), English (UK) and Deutsch. Investor names (TPG Growth, The Rise Fund) appear on the Company page, but no owner is stated.",
     "method": "fetch"
    },
    "owners": [],
@@ -24029,10 +24182,10 @@
    "review": {
     "board_id": "ashby",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Pricing page verified: plan-based pricing with a $400 per month Foundations price and sales-led Enterprise pricing.",
-    "method": "fetch"
+    "outcome": "not-stated",
+    "fields_not_found": "founded",
+    "note": "Story and Team pages read; no founding year stated. Copyright year only.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -24669,7 +24822,14 @@
     "smb"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "personio",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "founded;languages;business_model",
+    "note": "Homepage and About Us page both returned HTTP 429 Too Many Requests to the fetch tool. No page content was read. Not retried with the browser reader, since the response is rate limiting rather than a challenge.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -25137,7 +25297,14 @@
     "public-job-feed"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "successfactors",
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "parent",
+    "note": "Homepage returns 301 to sap.com/products/hcm.html, a different host. That page was not used as a source, since facts must come from the entity's own domain.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -25741,8 +25908,8 @@
     "board_id": "pinpoint",
     "reviewed": "2026-11-06",
     "outcome": "not-stated",
-    "fields_not_found": "founded",
-    "note": "About us page and homepage do not state a founding year. The only year on the site is in a copyright notice.",
+    "fields_not_found": "parent",
+    "note": "About us, news, and homepage read. No statement of an owning or parent company; copyright line names only Pinpoint.",
     "method": "fetch"
    },
    "owners": [],
@@ -28147,7 +28314,7 @@
    "url": "https://www.meinestadt.de",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "DE",
    "founded": "",
    "markets": "",
    "countries_served": [],
@@ -28166,7 +28333,7 @@
    "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" German-only site. Job ads are drafted free and published after booking, with quota bundles offered; no list prices shown on the pages read. No API or feed mentioned.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/meinestadt-de/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -28184,8 +28351,8 @@
     "board_id": "meinestadt-de",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
-    "note": "Pages show paid job ad booking and German-only content; parent and headquarters are not stated.",
+    "fields_not_found": "founded",
+    "note": "HQ in Köln found on the About page. Language German found from site text. Founding year not stated; the page only says 'Schon seit 1996' and 'seit 1996' in a tagline, which does not state a founding date.",
     "method": "fetch"
    },
    "owners": [
@@ -28216,6 +28383,22 @@
      "accessed": "2026-11-06",
      "quote": "Veröffentlichung nach Buchung",
      "quote_check": "unreachable"
+    },
+    {
+     "field": "existence",
+     "url": "https://unternehmen.meinestadt.de/ueber-uns/",
+     "title": "Über uns",
+     "accessed": "2026-11-06",
+     "quote": "Über 130 Kolleg:innen am Hauptsitz in Köln sowie deutschlandweit arbeiten jeden Tag mit Begeisterung daran,",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://unternehmen.meinestadt.de",
+     "title": "meinestadt.de company site",
+     "accessed": "2026-11-06",
+     "quote": "Für jede Stadt und jeden Ort seit 1996",
+     "quote_check": "ok"
     }
    ]
   },
@@ -28565,7 +28748,7 @@
    "founded": "",
    "markets": "",
    "countries_served": [],
-   "primary_language": "",
+   "primary_language": "es",
    "languages_supported": [
     "es",
     "en"
@@ -28574,7 +28757,7 @@
    "niche": "",
    "segment": "",
    "parent": "The Stepstone Group",
-   "business_model": "",
+   "business_model": "per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -28595,16 +28778,17 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
    "review": {
     "board_id": "turijobs",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Homepage returned HTTP 503 to the fetch tool and was read with the headless reader. Company profile lists Barcelona, España as the location. The page does not use the word headquarters, so this is a profile location, not a stated HQ. Footer",
-    "method": "mixed"
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Fetch returned 503, so the headless reader was used. Languages and business model found; no founding year on the company profile or pricing pages.",
+    "method": "browser"
    },
    "owners": [
     {
@@ -28657,6 +28841,22 @@
      "title": "Company profile",
      "accessed": "2026-11-06",
      "quote": "Turijobs Barcelona, España Pequeña (10-49 empleados) Nuevas Tecnologías / Internet",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.turijobs.com/es-es/empresa/turijobs",
+     "title": "Turijobs company profile",
+     "accessed": "2026-11-06",
+     "quote": "SPANISH ENGLISH",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.turijobs.com/es-es/precios",
+     "title": "Turijobs pricing",
+     "accessed": "2026-11-06",
+     "quote": "Planes de publicación a la carta para tus contrataciones.",
      "quote_check": "ok"
     }
    ]

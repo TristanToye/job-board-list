@@ -11,7 +11,7 @@ Ashby is an applicant tracking system based in United States, focused on applica
 - Partner program: yes
 - Prominence: #10,735 globally, tier Established
 - Tags: Open API, Applicant tracking system, Partner program, Public job feed, Subscription
-- Review: Reviewed 2026-11-06. Checked against the board's own site.
+- Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: founding year.
 - Data status: partly verified against its own site
 
 ## Quick answers

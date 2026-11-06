@@ -42,7 +42,14 @@
   "public-job-feed"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "successfactors",
+  "reviewed": "2026-11-06",
+  "outcome": "unreachable",
+  "fields_not_found": "parent",
+  "note": "Homepage returns 301 to sap.com/products/hcm.html, a different host. That page was not used as a source, since facts must come from the entity's own domain.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": []

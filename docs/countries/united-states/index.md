@@ -1,6 +1,6 @@
 # Job boards in United States
 
-52 job boards and related entries based in or serving United States.
+54 job boards and related entries based in or serving United States.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier, Open API (no key)
@@ -32,10 +32,12 @@
 - [HigherEdJobs](https://jobboardlist.com/boards/higheredjobs/): niche-board, Established tier
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Established tier, Partner-only API
 - [Heidrick & Struggles](https://jobboardlist.com/boards/heidrick-struggles/): recruiting-services, Established tier
+- [VelvetJobs](https://jobboardlist.com/boards/velvetjobs/): outplacement, Established tier
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Established tier, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [Phenom](https://jobboardlist.com/boards/phenom/): ats, Established tier
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform, Established tier
+- [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech, Established tier
 - [Michael Page](https://jobboardlist.com/boards/michael-page/): recruiting-services, Established tier
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board, Small tier
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Small tier, Partner-only API

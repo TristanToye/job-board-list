@@ -10,7 +10,7 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
+ "primary_language": "en",
  "languages_supported": [
   "en",
   "de",
@@ -47,9 +47,9 @@
  "review": {
   "board_id": "egon-zehnder",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;founded",
-  "note": "Language menu read on homepage. About Us and Offices pages state no headquarters and no founding year.",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Language menu lists English, Deutsch, Chinese and Japanese. Homepage text is in English.",
   "method": "fetch"
  },
  "owners": [],
@@ -85,6 +85,14 @@
    "title": "Region menu",
    "accessed": "2026-11-06",
    "quote": "Deutsch",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.egonzehnder.com/",
+   "title": "Egon Zehnder",
+   "accessed": "2026-11-06",
+   "quote": "In a world full of questions, we deliver human-centric solutions.",
    "quote_check": "ok"
   }
  ]

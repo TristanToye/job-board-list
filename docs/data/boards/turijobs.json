@@ -8,7 +8,7 @@
  "founded": "",
  "markets": "",
  "countries_served": [],
- "primary_language": "",
+ "primary_language": "es",
  "languages_supported": [
   "es",
   "en"
@@ -17,7 +17,7 @@
  "niche": "",
  "segment": "",
  "parent": "The Stepstone Group",
- "business_model": "",
+ "business_model": "per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -38,16 +38,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
  "review": {
   "board_id": "turijobs",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Homepage returned HTTP 503 to the fetch tool and was read with the headless reader. Company profile lists Barcelona, España as the location. The page does not use the word headquarters, so this is a profile location, not a stated HQ. Footer",
-  "method": "mixed"
+  "outcome": "partially-verified",
+  "fields_not_found": "founded",
+  "note": "Fetch returned 503, so the headless reader was used. Languages and business model found; no founding year on the company profile or pricing pages.",
+  "method": "browser"
  },
  "owners": [
   {
@@ -100,6 +101,22 @@
    "title": "Company profile",
    "accessed": "2026-11-06",
    "quote": "Turijobs Barcelona, España Pequeña (10-49 empleados) Nuevas Tecnologías / Internet",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.turijobs.com/es-es/empresa/turijobs",
+   "title": "Turijobs company profile",
+   "accessed": "2026-11-06",
+   "quote": "SPANISH ENGLISH",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.turijobs.com/es-es/precios",
+   "title": "Turijobs pricing",
+   "accessed": "2026-11-06",
+   "quote": "Planes de publicación a la carta para tus contrataciones.",
    "quote_check": "ok"
   }
  ]

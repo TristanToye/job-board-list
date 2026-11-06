@@ -4,7 +4,7 @@
  "url": "https://www.velvetjobs.com",
  "domains": "",
  "type": "outplacement",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -27,7 +27,7 @@
  "notes": "",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/velvetjobs/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -46,7 +46,7 @@
   "reviewed": "2026-11-06",
   "outcome": "verified",
   "fields_not_found": "",
-  "note": "Free employer posting stated. No prices, subscriptions or pay-per-click seen. Posting is by employer account.",
+  "note": "Terms of use name VelvetJobs LLC and state operation from offices within the USA. About page gives Los Angeles only.",
   "method": "fetch"
  },
  "owners": [],
@@ -74,6 +74,14 @@
    "title": "Post a job",
    "accessed": "2026-11-06",
    "quote": "Post Jobs for Free in Minutes",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.velvetjobs.com/legal/terms_of_use",
+   "title": "Terms of use",
+   "accessed": "2026-11-06",
+   "quote": "The Service is controlled, operated and administered by VelvetJobs LLC from our offices within the USA.",
    "quote_check": "ok"
   }
  ]

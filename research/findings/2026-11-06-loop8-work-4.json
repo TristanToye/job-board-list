@@ -1,77 +1,295 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 8,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 8,
+ "boards": [
+  {
+   "name": "meinestadt.de",
+   "url": "https://www.meinestadt.de",
+   "hq_country": "DE",
+   "languages": {
+    "primary_language": "de",
+    "languages_supported": [
+     "de"
+    ]
+   },
+   "sources": [
     {
-      "name": "meinestadt.de",
-      "url": "https://www.meinestadt.de",
-      "hq_country": "DE",
-      "languages": {"primary_language": "de", "languages_supported": ["de"]},
-      "sources": [
-        {"field": "hq_country", "url": "https://unternehmen.meinestadt.de/ueber-uns/", "title": "Über uns", "quote": "Über 130 Kolleg:innen am Hauptsitz in Köln sowie deutschlandweit arbeiten jeden Tag mit Begeisterung daran,"},
-        {"field": "languages", "url": "https://unternehmen.meinestadt.de", "title": "meinestadt.de company site", "quote": "Für jede Stadt und jeden Ort seit 1996"}
-      ]
+     "field": "hq_country",
+     "url": "https://unternehmen.meinestadt.de/ueber-uns/",
+     "title": "Über uns",
+     "quote": "Über 130 Kolleg:innen am Hauptsitz in Köln sowie deutschlandweit arbeiten jeden Tag mit Begeisterung daran,",
+     "check": "ok"
     },
     {
-      "name": "Japan Dev",
-      "url": "https://japan-dev.com/",
-      "languages": {"primary_language": "en", "languages_supported": ["en", "ja"]},
-      "sources": [
-        {"field": "languages", "url": "https://japan-dev.com/about", "title": "About", "quote": "we turn away 90% of companies that ask to post jobs on Japan Dev."},
-        {"field": "languages", "url": "https://japan-dev.com/hire", "title": "Language menu", "quote": "日本語"}
-      ]
-    },
-    {
-      "name": "99designs",
-      "url": "https://www.99designs.com",
-      "hq_country": "AU",
-      "partner_program": "yes",
-      "partner_url": "https://www.99designs.com/affiliates",
-      "sources": [
-        {"field": "hq_country", "url": "https://www.99designs.com/about/press-releases", "title": "Press releases (About boilerplate)", "quote": "With headquarters in Melbourne, Australia 99designs has operations in Oakland, California and Berlin, Germany."},
-        {"field": "partner_program", "url": "https://www.99designs.com/affiliates", "title": "Become an affiliate", "quote": "Earn uncapped commissions when you refer new customers to 99designs."}
-      ]
-    },
-    {
-      "name": "Russell Reynolds Associates",
-      "url": "https://www.russellreynolds.com",
-      "languages": {"primary_language": "en", "languages_supported": ["en", "zh", "ja"]},
-      "sources": [
-        {"field": "languages", "url": "https://www.russellreynolds.com/en/about/newsroom", "title": "Language menu", "quote": "English"},
-        {"field": "languages", "url": "https://www.russellreynolds.com/en/about/newsroom", "title": "Language menu", "quote": "中文(中国)"},
-        {"field": "languages", "url": "https://www.russellreynolds.com/en/about/newsroom", "title": "Language menu", "quote": "日本語 (日本)"}
-      ]
-    },
-    {
-      "name": "VelvetJobs",
-      "url": "https://www.velvetjobs.com",
-      "hq_country": "US",
-      "sources": [
-        {"field": "hq_country", "url": "https://www.velvetjobs.com/legal/terms_of_use", "title": "Terms of use", "quote": "The Service is controlled, operated and administered by VelvetJobs LLC from our offices within the USA."}
-      ]
+     "field": "languages",
+     "url": "https://unternehmen.meinestadt.de",
+     "title": "meinestadt.de company site",
+     "quote": "Für jede Stadt und jeden Ort seit 1996",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "meinestadt.de", "url": "https://www.meinestadt.de", "outcome": "partially-verified", "fields_not_found": ["founded"], "method": "fetch", "note": "HQ in Köln found on the About page. Language German found from site text. Founding year not stated; the page only says 'Schon seit 1996' and 'seit 1996' in a tagline, which does not state a founding date."},
-    {"name": "Japan Dev", "url": "https://japan-dev.com/", "outcome": "partially-verified", "fields_not_found": ["business_model"], "method": "fetch", "note": "Languages found (English primary, Japanese option). Employer posting pages (/hire, /about, home) state no pricing or payment model."},
-    {"name": "99designs", "url": "https://www.99designs.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "HQ Melbourne, Australia from press-release boilerplate. Affiliate program confirmed on /affiliates. Contact page lists offices in Oakland, Melbourne and Berlin without naming the HQ."},
-    {"name": "Russell Reynolds Associates", "url": "https://www.russellreynolds.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Language menu lists English, 中文(中国) and 日本語 (日本). Newsroom and zh-CN pages read. No Developers, API or Pricing link on the pages read."},
-    {"name": "Harver", "url": "https://harver.com", "outcome": "not-stated", "fields_not_found": ["parent", "api_status"], "method": "fetch", "note": "About Us has founding year 2015 but no parent company. The banner 'Outmatch is now part of Harver' describes Outmatch joining Harver, not a parent. Integrations page and home page footer show no API or Developers link and no API wording. /developers/ returned 404. api_status left as unknown."},
-    {"name": "VelvetJobs", "url": "https://www.velvetjobs.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Terms of use name VelvetJobs LLC and state operation from offices within the USA. About page gives Los Angeles only."}
-  ],
-  "attempts": [
-    {"name": "meinestadt.de", "field": "hq_country", "outcome": "found", "pages": ["https://unternehmen.meinestadt.de", "https://unternehmen.meinestadt.de/ueber-uns/", "https://www.meinestadt.de/impressum"]},
-    {"name": "meinestadt.de", "field": "founded", "outcome": "not-found", "pages": ["https://unternehmen.meinestadt.de", "https://unternehmen.meinestadt.de/ueber-uns/"]},
-    {"name": "meinestadt.de", "field": "languages", "outcome": "found", "pages": ["https://unternehmen.meinestadt.de", "https://www.meinestadt.de/unternehmen/b2b/werbemoeglichkeiten"]},
-    {"name": "Japan Dev", "field": "languages", "outcome": "found", "pages": ["https://japan-dev.com/hire", "https://japan-dev.com/about", "https://japan-dev.com/"]},
-    {"name": "Japan Dev", "field": "business_model", "outcome": "not-found", "pages": ["https://japan-dev.com/hire", "https://japan-dev.com/about", "https://japan-dev.com/"]},
-    {"name": "99designs", "field": "hq_country", "outcome": "found", "pages": ["https://www.99designs.com/about/press-releases", "https://www.99designs.com/about/contact"]},
-    {"name": "99designs", "field": "partner_program", "outcome": "found", "pages": ["https://www.99designs.com/affiliates"]},
-    {"name": "Russell Reynolds Associates", "field": "languages", "outcome": "found", "pages": ["https://www.russellreynolds.com/en/about/newsroom", "https://www.russellreynolds.com/zh-CN"]},
-    {"name": "Harver", "field": "parent", "outcome": "not-found", "pages": ["https://harver.com/about-us/", "https://harver.com/"]},
-    {"name": "Harver", "field": "api_status", "outcome": "not-found", "pages": ["https://harver.com/integrations/", "https://harver.com/", "https://harver.com/developers/"]},
-    {"name": "VelvetJobs", "field": "hq_country", "outcome": "found", "pages": ["https://www.velvetjobs.com/legal/terms_of_use", "https://www.velvetjobs.com/about"]}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Japan Dev",
+   "url": "https://japan-dev.com/",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en",
+     "ja"
+    ]
+   },
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://japan-dev.com/about",
+     "title": "About",
+     "quote": "we turn away 90% of companies that ask to post jobs on Japan Dev.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://japan-dev.com/hire",
+     "title": "Language menu",
+     "quote": "日本語",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "hq_country": "AU",
+   "partner_program": "yes",
+   "partner_url": "https://www.99designs.com/affiliates",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.99designs.com/about/press-releases",
+     "title": "Press releases (About boilerplate)",
+     "quote": "With headquarters in Melbourne, Australia 99designs has operations in Oakland, California and Berlin, Germany.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.99designs.com/affiliates",
+     "title": "Become an affiliate",
+     "quote": "Earn uncapped commissions when you refer new customers to 99designs.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en",
+     "zh",
+     "ja"
+    ]
+   },
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com/en/about/newsroom",
+     "title": "Language menu",
+     "quote": "English",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com/en/about/newsroom",
+     "title": "Language menu",
+     "quote": "中文(中国)",
+     "check": "mismatch"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com/en/about/newsroom",
+     "title": "Language menu",
+     "quote": "日本語 (日本)",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "VelvetJobs",
+   "url": "https://www.velvetjobs.com",
+   "hq_country": "US",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.velvetjobs.com/legal/terms_of_use",
+     "title": "Terms of use",
+     "quote": "The Service is controlled, operated and administered by VelvetJobs LLC from our offices within the USA.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "meinestadt.de",
+   "url": "https://www.meinestadt.de",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "HQ in Köln found on the About page. Language German found from site text. Founding year not stated; the page only says 'Schon seit 1996' and 'seit 1996' in a tagline, which does not state a founding date."
+  },
+  {
+   "name": "Japan Dev",
+   "url": "https://japan-dev.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "Languages found (English primary, Japanese option). Employer posting pages (/hire, /about, home) state no pricing or payment model."
+  },
+  {
+   "name": "99designs",
+   "url": "https://www.99designs.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "HQ Melbourne, Australia from press-release boilerplate. Affiliate program confirmed on /affiliates. Contact page lists offices in Oakland, Melbourne and Berlin without naming the HQ."
+  },
+  {
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Language menu lists English, 中文(中国) and 日本語 (日本). Newsroom and zh-CN pages read. No Developers, API or Pricing link on the pages read."
+  },
+  {
+   "name": "Harver",
+   "url": "https://harver.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "parent",
+    "api_status"
+   ],
+   "method": "fetch",
+   "note": "About Us has founding year 2015 but no parent company. The banner 'Outmatch is now part of Harver' describes Outmatch joining Harver, not a parent. Integrations page and home page footer show no API or Developers link and no API wording. /developers/ returned 404. api_status left as unknown."
+  },
+  {
+   "name": "VelvetJobs",
+   "url": "https://www.velvetjobs.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Terms of use name VelvetJobs LLC and state operation from offices within the USA. About page gives Los Angeles only."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "meinestadt.de",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://unternehmen.meinestadt.de",
+    "https://unternehmen.meinestadt.de/ueber-uns/",
+    "https://www.meinestadt.de/impressum"
+   ]
+  },
+  {
+   "name": "meinestadt.de",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://unternehmen.meinestadt.de",
+    "https://unternehmen.meinestadt.de/ueber-uns/"
+   ]
+  },
+  {
+   "name": "meinestadt.de",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://unternehmen.meinestadt.de",
+    "https://www.meinestadt.de/unternehmen/b2b/werbemoeglichkeiten"
+   ]
+  },
+  {
+   "name": "Japan Dev",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://japan-dev.com/hire",
+    "https://japan-dev.com/about",
+    "https://japan-dev.com/"
+   ]
+  },
+  {
+   "name": "Japan Dev",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://japan-dev.com/hire",
+    "https://japan-dev.com/about",
+    "https://japan-dev.com/"
+   ]
+  },
+  {
+   "name": "99designs",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.99designs.com/about/press-releases",
+    "https://www.99designs.com/about/contact"
+   ]
+  },
+  {
+   "name": "99designs",
+   "field": "partner_program",
+   "outcome": "found",
+   "pages": [
+    "https://www.99designs.com/affiliates"
+   ]
+  },
+  {
+   "name": "Russell Reynolds Associates",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.russellreynolds.com/en/about/newsroom",
+    "https://www.russellreynolds.com/zh-CN"
+   ]
+  },
+  {
+   "name": "Harver",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://harver.com/about-us/",
+    "https://harver.com/"
+   ]
+  },
+  {
+   "name": "Harver",
+   "field": "api_status",
+   "outcome": "not-found",
+   "pages": [
+    "https://harver.com/integrations/",
+    "https://harver.com/",
+    "https://harver.com/developers/"
+   ]
+  },
+  {
+   "name": "VelvetJobs",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.velvetjobs.com/legal/terms_of_use",
+    "https://www.velvetjobs.com/about"
+   ]
+  }
+ ],
+ "blocked": []
 }

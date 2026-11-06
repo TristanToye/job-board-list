@@ -42,10 +42,10 @@
  "review": {
   "board_id": "gi-group-holding",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Gi Group about page says Gi Group is part of Gi Group Holding. Holding site copyright (2022) read but not needed. No pricing, API or partner text on the pages read.",
-  "method": "fetch"
+  "outcome": "partially-verified",
+  "fields_not_found": "parent",
+  "note": "Footer says GI GROUP HOLDING S.p.A. is With Sole Shareholder, but the shareholder is not named, so no parent recorded. Languages: English on main site, German on de subdomain; the country menu was not checked.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -80,6 +80,22 @@
    "title": "About Gi Group",
    "accessed": "2026-11-06",
    "quote": "Gi Group is part of Gi Group Holding, one of the world’s leading providers of services for the evolution of the labour market",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.gigroup.com/for-employers/",
+   "title": "For employers",
+   "accessed": "2026-11-06",
+   "quote": "Gi Group is your strategic business partner for operational workforce solutions",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://de.gigroup.com",
+   "title": "Gi Group",
+   "accessed": "2026-11-06",
+   "quote": "Gemeinsam finden wir den Job, der wirklich zu dir passt.",
    "quote_check": "ok"
   }
  ]

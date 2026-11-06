@@ -10,8 +10,8 @@ Turijobs is a job board based in Spain.
 - API status: API status unknown
 - Partner program: unknown
 - Prominence: #264,236 globally, tier Small
-- Tags: Job board
-- Review: Reviewed 2026-11-06. Checked against the board's own site.
+- Tags: Job board, Pay per post
+- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: founding year.
 - Data status: partly verified against its own site
 
 ## Quick answers
@@ -29,6 +29,8 @@ Turijobs is a job board based in Spain.
 - [Homepage language menu](https://www.turijobs.com/) (Languages, checked 2026-11-06): "SPANISH ENGLISH"
 - [Publish a job guide](https://www.turijobs.com/es-es/publicar-oferta-empleo) (How jobs get in, checked 2026-11-06): "Dirígete a "Publicar Oferta" en tu Menú Administrador."
 - [Company profile](https://www.turijobs.com/es-es/empresa/turijobs) (Existence and description, checked 2026-11-06): "Turijobs Barcelona, España Pequeña (10-49 empleados) Nuevas Tecnologías / Internet"
+- [Turijobs company profile](https://www.turijobs.com/es-es/empresa/turijobs) (Languages, checked 2026-11-06): "SPANISH ENGLISH"
+- [Turijobs pricing](https://www.turijobs.com/es-es/precios) (Business model and pricing, checked 2026-11-06): "Planes de publicación a la carta para tus contrataciones."
 - [Our history](https://www.thestepstonegroup.com/english/about-us/our-history/) (Ownership, checked 2026-11-06): "The Stepstone Group integrates additional brands and platforms in Europe and beyond"
 
 Canonical page: https://jobboardlist.com/boards/turijobs/

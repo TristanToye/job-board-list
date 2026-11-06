@@ -45,10 +45,10 @@
  "review": {
   "board_id": "beamery",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent",
-  "note": "Founding year 2013 verified on /about-us/. Homepage footer gives copyright only. The London reference is the founding location, not a stated HQ.",
-  "method": "fetch"
+  "outcome": "not-stated",
+  "fields_not_found": "api_status",
+  "note": "Support center and Integrations category read; no API, developer or key mention. Developer, API and partner pages were not found, so api_status is unknown. Training subdomain returned an empty page.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

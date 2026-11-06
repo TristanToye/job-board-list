@@ -5,7 +5,7 @@
  "domains": "",
  "type": "outplacement",
  "hq_country": "",
- "founded": "",
+ "founded": "1967",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -41,10 +41,10 @@
  "review": {
   "board_id": "lhh",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Parent is The Adecco Group, stated on LHH's own About page. The adeccogroup.com investor page was read but not used as a source because it is off-domain.",
-  "method": "mixed"
+  "outcome": "partially-verified",
+  "fields_not_found": "parent",
+  "note": "Our Story page states founding year 1967. No page states an owner. The Adecco Group appears only as a navigation link, which is not a stated parent.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
@@ -55,6 +55,14 @@
    "title": "LHH",
    "accessed": "2026-11-06",
    "quote": "LHH is your single partner to solve complex talent challenges.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.lhh.com/en-us/about-us/our-story",
+   "title": "Our Story",
+   "accessed": "2026-11-06",
+   "quote": "Founded in 1967, Lee Hecht Harrison began as a provider of talent services and quickly grew to become a global leader.",
    "quote_check": "ok"
   }
  ]

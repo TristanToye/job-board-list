@@ -1,72 +1,348 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 8,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 8,
+ "boards": [
+  {
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "hq_country": "US",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en",
+     "ja",
+     "ko",
+     "zh",
+     "es",
+     "pt"
+    ]
+   },
+   "sources": [
     {
-      "name": "First Advantage",
-      "url": "https://fadv.com",
-      "hq_country": "US",
-      "languages": {"primary_language": "en", "languages_supported": ["en", "ja", "ko", "zh", "es", "pt"]},
-      "sources": [
-        {"field": "hq_country", "url": "https://fadv.com/contact/locations/", "title": "Locations", "quote": "HQ United States"},
-        {"field": "languages", "url": "https://fadv.com/contact/locations/", "title": "Locations", "quote": "North America (English)"},
-        {"field": "languages", "url": "https://fadv.com/contact/locations/", "title": "Locations", "quote": "APAC (日本語)"},
-        {"field": "languages", "url": "https://fadv.com/contact/locations/", "title": "Locations", "quote": "APAC (한국어)"},
-        {"field": "languages", "url": "https://fadv.com/contact/locations/", "title": "Locations", "quote": "China (中文 中国)"},
-        {"field": "languages", "url": "https://fadv.com/contact/locations/", "title": "Locations", "quote": "Latin America (Español)"},
-        {"field": "languages", "url": "https://fadv.com/contact/locations/", "title": "Locations", "quote": "Latin America (Português)"}
-      ]
+     "field": "hq_country",
+     "url": "https://fadv.com/contact/locations/",
+     "title": "Locations",
+     "quote": "HQ United States",
+     "check": "ok"
     },
     {
-      "name": "LHH",
-      "url": "https://www.lhh.com",
-      "founded": "1967",
-      "sources": [
-        {"field": "founded", "url": "https://www.lhh.com/en-us/about-us/our-story", "title": "Our Story", "quote": "Founded in 1967, Lee Hecht Harrison began as a provider of talent services and quickly grew to become a global leader."}
-      ]
+     "field": "languages",
+     "url": "https://fadv.com/contact/locations/",
+     "title": "Locations",
+     "quote": "North America (English)",
+     "check": "ok"
     },
     {
-      "name": "Greenhouse",
-      "url": "https://www.greenhouse.com",
-      "languages": {"primary_language": "en", "languages_supported": ["en", "de"]},
-      "sources": [
-        {"field": "languages", "url": "https://www.greenhouse.com/company", "title": "Company", "quote": "English (US), English (UK), and Deutsch."},
-        {"field": "languages", "url": "https://www.greenhouse.com/press", "title": "Press", "quote": "English (US), English (UK), and Deutsch."}
-      ]
+     "field": "languages",
+     "url": "https://fadv.com/contact/locations/",
+     "title": "Locations",
+     "quote": "APAC (日本語)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com/contact/locations/",
+     "title": "Locations",
+     "quote": "APAC (한국어)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com/contact/locations/",
+     "title": "Locations",
+     "quote": "China (中文 中国)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com/contact/locations/",
+     "title": "Locations",
+     "quote": "Latin America (Español)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com/contact/locations/",
+     "title": "Locations",
+     "quote": "Latin America (Português)",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "First Advantage", "url": "https://fadv.com", "outcome": "partially-verified", "fields_not_found": ["parent"], "method": "mixed", "note": "Locations page read by fetch: HQ United States and language menu found. Investor relations subdomain returned 403 to fetch and to the browser reader, so parent was not checked there and no owner was stated on the pages read."},
-    {"name": "LHH", "url": "https://www.lhh.com", "outcome": "partially-verified", "fields_not_found": ["parent"], "method": "fetch", "note": "Our Story page states founding year 1967. No page states an owner. The Adecco Group appears only as a navigation link, which is not a stated parent."},
-    {"name": "Personio", "url": "https://www.personio.com", "outcome": "unreachable", "fields_not_found": ["founded", "languages", "business_model"], "method": "fetch", "note": "Homepage and About Us page both returned HTTP 429 Too Many Requests to the fetch tool. No page content was read. Not retried with the browser reader, since the response is rate limiting rather than a challenge."},
-    {"name": "Greenhouse", "url": "https://www.greenhouse.com", "outcome": "partially-verified", "fields_not_found": ["parent"], "method": "fetch", "note": "Language menu on Company and Press pages lists English (US), English (UK) and Deutsch. Investor names (TPG Growth, The Rise Fund) appear on the Company page, but no owner is stated."},
-    {"name": "Hays", "url": "https://www.hays.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "founded"], "method": "fetch", "note": "Media Centre and Contact Us pages read. Only the Polish subsidiary's Warsaw seat and the copyright year appear, which are not group headquarters or founding facts."},
-    {"name": "Eightfold AI", "url": "https://eightfold.ai", "outcome": "blocked", "fields_not_found": ["api_status", "ingest_methods"], "method": "fetch", "note": "Partners page read: it describes implementation partners and gives no API or ingestion route. docs.eightfold.ai redirects to a login (SSO) page on another host. Not followed, since it requires signing in."},
-    {"name": "SAP SuccessFactors Recruiting", "url": "https://www.successfactors.com", "outcome": "unreachable", "fields_not_found": ["parent"], "method": "fetch", "note": "Homepage returns 301 to sap.com/products/hcm.html, a different host. That page was not used as a source, since facts must come from the entity's own domain."}
-  ],
-  "attempts": [
-    {"name": "First Advantage", "field": "hq_country", "outcome": "found", "pages": ["https://fadv.com/contact/locations/"]},
-    {"name": "First Advantage", "field": "parent", "outcome": "blocked", "pages": ["https://investors.fadv.com/"]},
-    {"name": "First Advantage", "field": "languages", "outcome": "found", "pages": ["https://fadv.com/contact/locations/"]},
-    {"name": "LHH", "field": "founded", "outcome": "found", "pages": ["https://www.lhh.com/en-us/about-us/our-story"]},
-    {"name": "LHH", "field": "parent", "outcome": "not-found", "pages": ["https://www.lhh.com/en-us/about-us/our-story", "https://www.lhh.com/en-us/about-us/join-lhh"]},
-    {"name": "Personio", "field": "founded", "outcome": "blocked", "pages": ["https://www.personio.com/", "https://www.personio.com/about-us/"]},
-    {"name": "Personio", "field": "languages", "outcome": "blocked", "pages": ["https://www.personio.com/", "https://www.personio.com/about-us/"]},
-    {"name": "Personio", "field": "business_model", "outcome": "blocked", "pages": ["https://www.personio.com/"]},
-    {"name": "Greenhouse", "field": "parent", "outcome": "not-found", "pages": ["https://www.greenhouse.com/company", "https://www.greenhouse.com/press"]},
-    {"name": "Greenhouse", "field": "languages", "outcome": "found", "pages": ["https://www.greenhouse.com/company", "https://www.greenhouse.com/press"]},
-    {"name": "Hays", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.hays.com/en-US/media-centre", "https://www.hays.com/en-US/contact-us"]},
-    {"name": "Hays", "field": "founded", "outcome": "not-found", "pages": ["https://www.hays.com/en-US/media-centre", "https://www.hays.com/en-US/contact-us"]},
-    {"name": "Eightfold AI", "field": "api_status", "outcome": "blocked", "pages": ["https://eightfold.ai/company/partners/", "https://docs.eightfold.ai/"]},
-    {"name": "Eightfold AI", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://eightfold.ai/company/partners/"]},
-    {"name": "SAP SuccessFactors Recruiting", "field": "parent", "outcome": "blocked", "pages": ["https://www.successfactors.com/"]}
-  ],
-  "blocked": [
-    {"name": "First Advantage", "url": "https://investors.fadv.com/", "reason": "403 Access Denied to fetch and to the browser reader"},
-    {"name": "Personio", "url": "https://www.personio.com/", "reason": "HTTP 429 Too Many Requests"},
-    {"name": "Personio", "url": "https://www.personio.com/about-us/", "reason": "HTTP 429 Too Many Requests"},
-    {"name": "Eightfold AI", "url": "https://docs.eightfold.ai/", "reason": "Redirects to a login (SSO) page on app.eightfold.ai; not followed"},
-    {"name": "SAP SuccessFactors Recruiting", "url": "https://www.successfactors.com/", "reason": "301 redirect to sap.com, a different host; not used as a source"}
-  ]
+   ]
+  },
+  {
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "founded": "1967",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.lhh.com/en-us/about-us/our-story",
+     "title": "Our Story",
+     "quote": "Founded in 1967, Lee Hecht Harrison began as a provider of talent services and quickly grew to become a global leader.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Greenhouse",
+   "url": "https://www.greenhouse.com",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en",
+     "de"
+    ]
+   },
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.greenhouse.com/company",
+     "title": "Company",
+     "quote": "English (US), English (UK), and Deutsch.",
+     "check": "mismatch"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.greenhouse.com/press",
+     "title": "Press",
+     "quote": "English (US), English (UK), and Deutsch.",
+     "check": "mismatch"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "Locations page read by fetch: HQ United States and language menu found. Investor relations subdomain returned 403 to fetch and to the browser reader, so parent was not checked there and no owner was stated on the pages read."
+  },
+  {
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "fetch",
+   "note": "Our Story page states founding year 1967. No page states an owner. The Adecco Group appears only as a navigation link, which is not a stated parent."
+  },
+  {
+   "name": "Personio",
+   "url": "https://www.personio.com",
+   "outcome": "unreachable",
+   "fields_not_found": [
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "Homepage and About Us page both returned HTTP 429 Too Many Requests to the fetch tool. No page content was read. Not retried with the browser reader, since the response is rate limiting rather than a challenge."
+  },
+  {
+   "name": "Greenhouse",
+   "url": "https://www.greenhouse.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "fetch",
+   "note": "Language menu on Company and Press pages lists English (US), English (UK) and Deutsch. Investor names (TPG Growth, The Rise Fund) appear on the Company page, but no owner is stated."
+  },
+  {
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "Media Centre and Contact Us pages read. Only the Polish subsidiary's Warsaw seat and the copyright year appear, which are not group headquarters or founding facts."
+  },
+  {
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "outcome": "blocked",
+   "fields_not_found": [
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Partners page read: it describes implementation partners and gives no API or ingestion route. docs.eightfold.ai redirects to a login (SSO) page on another host. Not followed, since it requires signing in."
+  },
+  {
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "outcome": "unreachable",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "fetch",
+   "note": "Homepage returns 301 to sap.com/products/hcm.html, a different host. That page was not used as a source, since facts must come from the entity's own domain."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "First Advantage",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://fadv.com/contact/locations/"
+   ]
+  },
+  {
+   "name": "First Advantage",
+   "field": "parent",
+   "outcome": "blocked",
+   "pages": [
+    "https://investors.fadv.com/"
+   ]
+  },
+  {
+   "name": "First Advantage",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://fadv.com/contact/locations/"
+   ]
+  },
+  {
+   "name": "LHH",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.lhh.com/en-us/about-us/our-story"
+   ]
+  },
+  {
+   "name": "LHH",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.lhh.com/en-us/about-us/our-story",
+    "https://www.lhh.com/en-us/about-us/join-lhh"
+   ]
+  },
+  {
+   "name": "Personio",
+   "field": "founded",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.personio.com/",
+    "https://www.personio.com/about-us/"
+   ]
+  },
+  {
+   "name": "Personio",
+   "field": "languages",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.personio.com/",
+    "https://www.personio.com/about-us/"
+   ]
+  },
+  {
+   "name": "Personio",
+   "field": "business_model",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.personio.com/"
+   ]
+  },
+  {
+   "name": "Greenhouse",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.greenhouse.com/company",
+    "https://www.greenhouse.com/press"
+   ]
+  },
+  {
+   "name": "Greenhouse",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.greenhouse.com/company",
+    "https://www.greenhouse.com/press"
+   ]
+  },
+  {
+   "name": "Hays",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.hays.com/en-US/media-centre",
+    "https://www.hays.com/en-US/contact-us"
+   ]
+  },
+  {
+   "name": "Hays",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.hays.com/en-US/media-centre",
+    "https://www.hays.com/en-US/contact-us"
+   ]
+  },
+  {
+   "name": "Eightfold AI",
+   "field": "api_status",
+   "outcome": "blocked",
+   "pages": [
+    "https://eightfold.ai/company/partners/",
+    "https://docs.eightfold.ai/"
+   ]
+  },
+  {
+   "name": "Eightfold AI",
+   "field": "ingest_methods",
+   "outcome": "not-found",
+   "pages": [
+    "https://eightfold.ai/company/partners/"
+   ]
+  },
+  {
+   "name": "SAP SuccessFactors Recruiting",
+   "field": "parent",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.successfactors.com/"
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "First Advantage",
+   "url": "https://investors.fadv.com/",
+   "reason": "403 Access Denied to fetch and to the browser reader"
+  },
+  {
+   "name": "Personio",
+   "url": "https://www.personio.com/",
+   "reason": "HTTP 429 Too Many Requests"
+  },
+  {
+   "name": "Personio",
+   "url": "https://www.personio.com/about-us/",
+   "reason": "HTTP 429 Too Many Requests"
+  },
+  {
+   "name": "Eightfold AI",
+   "url": "https://docs.eightfold.ai/",
+   "reason": "Redirects to a login (SSO) page on app.eightfold.ai; not followed"
+  },
+  {
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com/",
+   "reason": "301 redirect to sap.com, a different host; not used as a source"
+  }
+ ]
 }

@@ -4,14 +4,21 @@
  "url": "https://www.kickresume.com",
  "domains": "",
  "type": "career-services",
- "hq_country": "",
+ "hq_country": "SK",
  "founded": "",
  "markets": "",
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "sk",
+  "es",
+  "de",
+  "pt",
+  "it"
+ ],
  "region": "Global",
  "niche": "online resume builder",
  "segment": "",
@@ -43,8 +50,8 @@
   "reviewed": "2026-11-06",
   "outcome": "verified",
   "fields_not_found": "",
-  "note": "HQ stated as team based in Bratislava, Slovakia; no explicit HQ label. Language menu came from a fetch summary and was not in the rendered text, so treat its exact wording with care.",
-  "method": "mixed"
+  "note": "HQ in Bratislava, Slovakia and language menu read from the About page.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],

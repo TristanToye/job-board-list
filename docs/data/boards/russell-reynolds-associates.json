@@ -48,7 +48,7 @@
   "reviewed": "2026-11-06",
   "outcome": "verified",
   "fields_not_found": "",
-  "note": "Founding 1969 in New York City from the history page. Language menu lists English, 中文(中国), 日本語 (日本). No developer, API or partner link seen.",
+  "note": "Language menu lists English, 中文(中国) and 日本語 (日本). Newsroom and zh-CN pages read. No Developers, API or Pricing link on the pages read.",
   "method": "fetch"
  },
  "owners": [],
@@ -90,6 +90,14 @@
    "field": "languages",
    "url": "https://www.russellreynolds.com/en/about/who-we-are",
    "title": "Who we are (language menu)",
+   "accessed": "2026-11-06",
+   "quote": "English",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.russellreynolds.com/en/about/newsroom",
+   "title": "Language menu",
    "accessed": "2026-11-06",
    "quote": "English",
    "quote_check": "ok"

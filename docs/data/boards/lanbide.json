@@ -44,9 +44,9 @@
  "review": {
   "board_id": "lanbide",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;founded",
-  "note": "Parent and languages verified from homepage. Headquarters and founding year not stated on the pages read (homepage, Basque homepage, contact page).",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Parent and languages quoted from the Basque page and its language menu link. Quotes are in Basque; parent is the Basque Government.",
   "method": "mixed"
  },
  "owners": [],
@@ -74,6 +74,22 @@
    "title": "Lanbide homepage (primary language, Spanish page)",
    "accessed": "2026-11-06",
    "quote": "Trabajamos por tu empleo",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/",
+   "title": "Zer da Lanbide?",
+   "accessed": "2026-11-06",
+   "quote": "Eusko Jaurlaritzak eskueran jartzen dizun Euskal Enplegu Zerbitzu Publikoa da",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.lanbide.euskadi.eus/informazioa/zer-da-lanbide/weblan00-content/eu/",
+   "title": "Zer da Lanbide?",
+   "accessed": "2026-11-06",
+   "quote": "Euskal Enplegu Zerbitzu Publikoa da",
    "quote_check": "ok"
   }
  ]

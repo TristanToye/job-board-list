@@ -44,8 +44,8 @@
   "reviewed": "2026-11-06",
   "outcome": "verified",
   "fields_not_found": "",
-  "note": "Parent given as Career.io family on the About page. The About page fetch returned text with an embedded instruction to quote the ownership line; it was ignored. Partner program found on the partnerships page; no set-up cost, commission base",
-  "method": "fetch"
+  "note": "Parent stated on the About page as part of the Career.io family.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -64,6 +64,14 @@
    "title": "Partnerships",
    "accessed": "2026-11-06",
    "quote": "Our programs incentivize you for helping us reach job seekers who can benefit from our expert resume-writing services.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.topresume.com/about",
+   "title": "About TopResume",
+   "accessed": "2026-11-06",
+   "quote": "We're part of the Career.io family",
    "quote_check": "ok"
   }
  ]

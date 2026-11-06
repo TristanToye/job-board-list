@@ -4,7 +4,7 @@
  "url": "https://www.meinestadt.de",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "DE",
  "founded": "",
  "markets": "",
  "countries_served": [],
@@ -23,7 +23,7 @@
  "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" German-only site. Job ads are drafted free and published after booking, with quota bundles offered; no list prices shown on the pages read. No API or feed mentioned.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/meinestadt-de/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -41,8 +41,8 @@
   "board_id": "meinestadt-de",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
-  "note": "Pages show paid job ad booking and German-only content; parent and headquarters are not stated.",
+  "fields_not_found": "founded",
+  "note": "HQ in Köln found on the About page. Language German found from site text. Founding year not stated; the page only says 'Schon seit 1996' and 'seit 1996' in a tagline, which does not state a founding date.",
   "method": "fetch"
  },
  "owners": [
@@ -73,6 +73,22 @@
    "accessed": "2026-11-06",
    "quote": "Veröffentlichung nach Buchung",
    "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://unternehmen.meinestadt.de/ueber-uns/",
+   "title": "Über uns",
+   "accessed": "2026-11-06",
+   "quote": "Über 130 Kolleg:innen am Hauptsitz in Köln sowie deutschlandweit arbeiten jeden Tag mit Begeisterung daran,",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://unternehmen.meinestadt.de",
+   "title": "meinestadt.de company site",
+   "accessed": "2026-11-06",
+   "quote": "Für jede Stadt und jeden Ort seit 1996",
+   "quote_check": "ok"
   }
  ]
 }

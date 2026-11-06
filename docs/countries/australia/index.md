@@ -1,9 +1,10 @@
 # Job boards in Australia
 
-12 job boards and related entries based in or serving Australia.
+13 job boards and related entries based in or serving Australia.
 
 - [Freelancer.com](https://jobboardlist.com/boards/freelancer-com/): freelance-platform, Large tier
 - [Australian Bureau of Statistics](https://jobboardlist.com/boards/australian-bureau-of-statistics/): lmi, Large tier
+- [99designs](https://jobboardlist.com/boards/99designs/): freelance-platform, Large tier
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Large tier, Partner-only API
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [Pro Bono Australia Jobs](https://jobboardlist.com/boards/pro-bono-australia-jobs/): niche-board, Small tier

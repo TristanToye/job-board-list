@@ -43,9 +43,9 @@
   "board_id": "lightcast",
   "reviewed": "2026-11-06",
   "outcome": "not-stated",
-  "fields_not_found": "api_status;ingest_methods",
-  "note": "Data API page lists APIs and links to documentation but does not say how keys are issued. The developer docs page lists OAuth 2.0 on each API but no self-serve or request process was found in the text read. The analyst.lightcast.io link red",
-  "method": "mixed"
+  "fields_not_found": "hq_country",
+  "note": "Leadership, contact, and homepage pages read. Only a Global Reach regional menu and a copyright line; no headquarters or country stated.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
