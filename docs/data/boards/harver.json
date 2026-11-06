@@ -5,7 +5,7 @@
  "domains": "",
  "type": "hr-tech",
  "hq_country": "",
- "founded": "",
+ "founded": "2015",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -21,11 +21,13 @@
  "api_docs_url": "",
  "partner_program": "yes",
  "partner_url": "https://harver.com/integrations",
- "ingest_methods": [],
+ "ingest_methods": [
+  "ATS integration"
+ ],
  "notes": "Integrations page describes ATS partners and lists partner logos. No API, pricing or job posting method stated. Homepage banner says Outmatch is now part of Harver, which does not name a parent.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/harver/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -35,6 +37,7 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "ats-integration",
   "hr-tech",
   "partner-program"
  ],
@@ -42,9 +45,9 @@
  "review": {
   "board_id": "harver",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Founded 2015 verified from About Us. Only founded was requested; HQ and parent were checked on the newsroom and home pages and are not stated. 'Outmatch is now part of Harver' describes an acquisition, not a parent.",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country",
+  "note": "Founding year and ATS integration route stated. Footer shows Harver B.V. copyright; no headquarters stated on the pages read.",
   "method": "fetch"
  },
  "owners": [],
@@ -72,6 +75,14 @@
    "title": "About Harver | Science-Backed Talent Decision Platform",
    "accessed": "2026-11-06",
    "quote": "Founded in 2015, Harver empowers talent teams to make better-informed hiring decisions using science and data.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://harver.com/integrations/",
+   "title": "Integrations",
+   "accessed": "2026-11-06",
+   "quote": "That’s why we partner with leading ATS and TM providers to make integration simple and seamless.",
    "quote_check": "ok"
   }
  ]

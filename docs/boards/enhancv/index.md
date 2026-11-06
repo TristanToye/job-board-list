@@ -11,7 +11,7 @@ Enhancv is a career services provider based in BG, focused on AI resume builder.
 - Partner program: unknown
 - Prominence: #34,089 globally, tier Established
 - Tags: Career services
-- Review: Reviewed 2026-11-06. Checked against the board's own site.
+- Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: pricing and business model.
 - Data status: partly verified against its own site
 
 ## Quick answers

@@ -42,9 +42,9 @@
  "review": {
   "board_id": "gi-group-holding",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "languages",
-  "note": "Founding year verified from the home page ('Since 1998'). About page gives a Milan head office address and says Gi Group is part of Gi Group Holding, not recorded because the fields asked were founded and languages. Country and region selec",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Gi Group about page says Gi Group is part of Gi Group Holding. Holding site copyright (2022) read but not needed. No pricing, API or partner text on the pages read.",
   "method": "fetch"
  },
  "owners": [],
@@ -72,6 +72,14 @@
    "title": "Gi Group home page",
    "accessed": "2026-11-06",
    "quote": "Since 1998, we’ve grown alongside people and organisations to create real value in work.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.gigroup.com/about-gi-group/",
+   "title": "About Gi Group",
+   "accessed": "2026-11-06",
+   "quote": "Gi Group is part of Gi Group Holding, one of the world’s leading providers of services for the evolution of the labour market",
    "quote_check": "ok"
   }
  ]

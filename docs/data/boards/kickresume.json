@@ -41,10 +41,10 @@
  "review": {
   "board_id": "kickresume",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "founded;business_model;partner_program",
-  "note": "HQ Bratislava and language list found on About page. No founding year. Pricing pages (/en/pricing/) show plans for job seekers only (yearly $96, quarterly $54, free unless paid customization options), no employer pricing, so business_model ",
-  "method": "fetch"
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "HQ stated as team based in Bratislava, Slovakia; no explicit HQ label. Language menu came from a fetch summary and was not in the rendered text, so treat its exact wording with care.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -63,6 +63,14 @@
    "title": "About Us",
    "accessed": "2026-11-06",
    "quote": "We're a small, passionate team based in Bratislava, Slovakia.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.kickresume.com/en/about/",
+   "title": "About Kickresume (language menu)",
+   "accessed": "2026-11-06",
+   "quote": "English Slovensky Español Deutsch Português Italiano",
    "quote_check": "ok"
   }
  ]

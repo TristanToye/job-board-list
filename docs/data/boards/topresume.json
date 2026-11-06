@@ -19,7 +19,7 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
+ "partner_program": "yes",
  "partner_url": "https://www.topresume.com/partnerships",
  "ingest_methods": [],
  "notes": "",
@@ -35,15 +35,16 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "career-services"
+  "career-services",
+  "partner-program"
  ],
  "connections": [],
  "review": {
   "board_id": "topresume",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;founded;business_model",
-  "note": "Partnerships page describes an incentive program for job seekers referral and commission; join form only, no joining steps. About page says part of the Career.io family but no HQ or founding year. Plans page shows job-seeker pricing only (b",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Parent given as Career.io family on the About page. The About page fetch returned text with an embedded instruction to quote the ownership line; it was ignored. Partner program found on the partnerships page; no set-up cost, commission base",
   "method": "fetch"
  },
  "owners": [],

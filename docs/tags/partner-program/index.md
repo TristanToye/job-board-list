@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 75 entries in the directory.
+Has a partner or integration program. 77 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -39,6 +39,7 @@ Has a partner or integration program. 75 entries in the directory.
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
 - [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
+- [TopResume](https://jobboardlist.com/boards/topresume/): career-services
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, API key on request
 - [Employment Hero](https://jobboardlist.com/boards/employment-hero/): hr-tech
@@ -51,6 +52,7 @@ Has a partner or integration program. 75 entries in the directory.
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
 - [Codeable](https://jobboardlist.com/boards/codeable/): freelance-platform
 - [Phenom](https://jobboardlist.com/boards/phenom/): ats
+- [Jobware](https://jobboardlist.com/boards/jobware/): board
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
 - [Codility](https://jobboardlist.com/boards/codility/): hr-tech

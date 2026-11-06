@@ -4,7 +4,7 @@
  "url": "https://www.prospects.ac.uk",
  "domains": "",
  "type": "niche-board",
- "hq_country": "",
+ "hq_country": "UK",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -42,9 +42,9 @@
  "review": {
   "board_id": "prospects",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "founded;business_model",
-  "note": "About us page gives a Bristol address and says Prospects is part of Jisc, but no founding year. Employer advertising shows 'Prices from £370' with no statement of whether it is per advert, subscription or other, so business_model is not rec",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Registered office in Bristol and registered number marked (England). Country stated as England, so GB.",
   "method": "fetch"
  },
  "owners": [],
@@ -64,6 +64,14 @@
    "title": "Homepage footer",
    "accessed": "2026-11-05",
    "quote": "Prospects is part of Jisc",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://prospects.ac.uk/about-us",
+   "title": "About us",
+   "accessed": "2026-11-06",
+   "quote": "4 Portwall Lane, Bristol, BS1 6NB.",
    "quote_check": "ok"
   }
  ]

@@ -13,8 +13,8 @@
  "region": "North America",
  "niche": "applicant tracking system",
  "segment": "SMB",
- "parent": "",
- "business_model": "",
+ "parent": "Employ Inc.",
+ "business_model": "subscription (annual plans; usage-based add-ons)",
  "api_status": "public-key",
  "api_docs_url": "https://www.jazzhr.com/api",
  "partner_program": "yes",
@@ -39,7 +39,8 @@
   "ats",
   "partner-program",
   "public-job-feed",
-  "smb"
+  "smb",
+  "subscription"
  ],
  "connections": [
   {
@@ -129,7 +130,7 @@
   "reviewed": "2026-11-06",
   "outcome": "verified",
   "fields_not_found": "",
-  "note": "Pricing page gives yearly billing with a discount, a Hero plan at $1,000/yr billed annually, and usage-billed add-ons.",
+  "note": "Parent from the homepage copyright line. Pricing page lists annual plans (Hero, Plus, Pro) with no monthly dollar figures; the sourced quotes cover the subscription model and usage-based add-ons. Employ product page on employinc.com was rea",
   "method": "fetch"
  },
  "owners": [],
@@ -141,6 +142,14 @@
    "title": "Pricing",
    "accessed": "2026-11-06",
    "quote": "Save up to 24% by paying yearly",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.jazzhr.com",
+   "title": "Home footer",
+   "accessed": "2026-11-06",
+   "quote": "© 2026 Employ Inc. All rights reserved.",
    "quote_check": "ok"
   }
  ]

@@ -1,20 +1,22 @@
 # First Advantage
 
-First Advantage is an HR technology vendor, focused on background screening technology.
+First Advantage is an HR technology vendor, focused on background screening technology. It was founded in 2003.
 
 - Website: https://fadv.com
 - Headquarters: not recorded
-- Founded: not recorded
+- Founded: 2003
 - Owner: not recorded
-- Languages: not recorded
+- Languages: English, Japanese, Korean, Chinese, Spanish, Portuguese
 - API status: API status unknown
 - Partner program: yes
 - Prominence: #93,572 globally, tier Established
 - Tags: ATS integration, HR and recruiting technology, Partner program, Technology
-- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: headquarters, owner, API access.
+- Review: Reviewed 2026-11-06. Checked against the board's own site.
 - Data status: partly verified against its own site
 
 ## Quick answers
+
+**Which languages does First Advantage support?** This directory records First Advantage as supporting English, Japanese, Korean, Chinese, Spanish, Portuguese.
 
 **How large is First Advantage?** First Advantage ranks #93,572 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 

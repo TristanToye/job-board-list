@@ -1,0 +1,256 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 5,
+ "boards": [
+  {
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://novoresume.com/about-us",
+     "title": "Our story (About Us)",
+     "quote": "Novorésumé began in 2014 when Andrei, Cristian, and Stefan noticed a common problem",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.novoresume.com/page/pricing",
+     "title": "Pricing",
+     "quote": "One payment. Nothing to cancel.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.novoresume.com/page/pricing",
+     "title": "Pricing",
+     "quote": "Free forever. ATS-tested basic templates, full formatted PDF. No card required.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.novoresume.com",
+     "title": "Home (footer language menu)",
+     "quote": "Dansk, Deutsch, English UK, English US, Español",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.kickresume.com/en/about/",
+     "title": "About Kickresume",
+     "quote": "We’re a small, passionate team based in Bratislava, Slovakia.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.kickresume.com/en/about/",
+     "title": "About Kickresume (language menu)",
+     "quote": "English Slovensky Español Deutsch Português Italiano",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "api_status": "on-request",
+   "api_docs_url": null,
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.reveliolabs.com/pricing",
+     "title": "Workforce Data Pricing",
+     "quote": "You pay a fixed annual fee for defined volume, granularity, recency and databases",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.reveliolabs.com/pricing",
+     "title": "Workforce Data Pricing (API & MCP)",
+     "quote": "Users and monthly call allowance. Annual agreement.",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.reveliolabs.com/pricing",
+     "title": "Workforce Data Pricing (Team size)",
+     "quote": "On API and MCP this is the number of users behind the key.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.lhh.com/en-us/about-us",
+     "title": "About us",
+     "quote": "As part of the Adecco Group, the world’s leading talent and advisory company,",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Kelly Services",
+   "url": "https://www.kellyservices.com",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.kellyservices.com/about-kelly/our-story/?hsLang=en",
+     "title": "Our story",
+     "quote": "1946: William Russell Kelly created the staffing industry, founding Russell Kelly Office Service in Detroit, Michigan.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Founded quote is 'began in 2014' (company start), app launched Feb 2016. Pricing quotes read in browser text. Language menu came from a fetch summary, not the rendered text."
+  },
+  {
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HQ stated as team based in Bratislava, Slovakia; no explicit HQ label. Language menu came from a fetch summary and was not in the rendered text, so treat its exact wording with care."
+  },
+  {
+   "name": "Revelio Labs",
+   "url": "https://www.reveliolabs.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Pricing is scoped annual subscription; Terminal from $1,250 per month. API is sold on annual agreement with keys per user (on-request). /developers returned 404 and no API docs URL was found, so api_docs_url is null."
+  },
+  {
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Parent is The Adecco Group, stated on LHH's own About page. The adeccogroup.com investor page was read but not used as a source because it is off-domain."
+  },
+  {
+   "name": "Kelly Services",
+   "url": "https://www.kellyservices.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "browse",
+   "note": "Founding year 1946 from Our story page, which says Kelly opened in Detroit in 1946."
+  },
+  {
+   "name": "BambooHR",
+   "url": "https://www.bamboohr.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "About BambooHR and homepage were read; neither names an owner, parent or controlling investor."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Novoresume",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://novoresume.com/about-us"
+   ]
+  },
+  {
+   "name": "Novoresume",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.novoresume.com",
+    "https://novoresume.com/about-us"
+   ]
+  },
+  {
+   "name": "Novoresume",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.novoresume.com/page/pricing"
+   ]
+  },
+  {
+   "name": "Kickresume",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.kickresume.com/en/about/"
+   ]
+  },
+  {
+   "name": "Kickresume",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.kickresume.com/en/about/",
+    "https://www.kickresume.com/"
+   ]
+  },
+  {
+   "name": "Revelio Labs",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.reveliolabs.com/pricing"
+   ]
+  },
+  {
+   "name": "Revelio Labs",
+   "field": "api_status",
+   "outcome": "found",
+   "pages": [
+    "https://www.reveliolabs.com/",
+    "https://www.reveliolabs.com/pricing"
+   ]
+  },
+  {
+   "name": "LHH",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.lhh.com/en-us/about-us",
+    "https://www.lhh.com/"
+   ]
+  },
+  {
+   "name": "Kelly Services",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.kellyservices.com/about-kelly/our-story/?hsLang=en"
+   ]
+  },
+  {
+   "name": "BambooHR",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.bamboohr.com/about-bamboohr/",
+    "https://www.bamboohr.com/"
+   ]
+  }
+ ],
+ "blocked": []
+}

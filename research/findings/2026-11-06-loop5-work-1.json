@@ -1,84 +1,311 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 5,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 5,
+ "boards": [
+  {
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "founded": "1996",
+   "parent": "Medien Union",
+   "partner_program": "yes",
+   "partner_url": "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions",
+   "sources": [
     {
-      "name": "Jobware", "url": "https://www.jobware.de/",
-      "founded": "1996",
-      "parent": "Medien Union",
-      "partner_program": "yes",
-      "partner_url": "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions",
-      "sources": [
-        {"field": "founded", "url": "https://www.jobware.de/ueber-uns", "title": "Über uns", "quote": "Am 1. Mai 1996 gründet er in Paderborn den ersten deutschen Online-Stellenmarkt."},
-        {"field": "parent", "url": "https://www.jobware.de/ueber-uns", "title": "Über uns", "quote": "Als Tochterunternehmen der Medien Union, Ludwigshafen, arbeiten wir seit vielen Jahren mit renommierten Verlagen zusammen."},
-        {"field": "partner_program", "url": "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions", "title": "Jobboard solutions", "quote": "Wir bieten unseren Partnern professionelle Technologie, attraktive Reichweitenprodukte und umfassende Dienstleistungen"}
-      ]
+     "field": "founded",
+     "url": "https://www.jobware.de/ueber-uns",
+     "title": "Über uns",
+     "quote": "Am 1. Mai 1996 gründet er in Paderborn den ersten deutschen Online-Stellenmarkt.",
+     "check": "ok"
     },
     {
-      "name": "JazzHR", "url": "https://www.jazzhr.com",
-      "parent": "Employ Inc.",
-      "business_model": "subscription (annual plans; usage-based add-ons)",
-      "sources": [
-        {"field": "parent", "url": "https://www.jazzhr.com", "title": "Home footer", "quote": "© 2026 Employ Inc. All rights reserved."},
-        {"field": "business_model", "url": "https://www.jazzhr.com/pricing", "title": "Pricing", "quote": "Save up to 24% by paying yearly"},
-        {"field": "business_model", "url": "https://www.jazzhr.com/pricing", "title": "Pricing FAQ", "quote": "certain add-on features or functionalities within JazzHR are billed based on how much you use them"}
-      ]
+     "field": "parent",
+     "url": "https://www.jobware.de/ueber-uns",
+     "title": "Über uns",
+     "quote": "Als Tochterunternehmen der Medien Union, Ludwigshafen, arbeiten wir seit vielen Jahren mit renommierten Verlagen zusammen.",
+     "check": "ok"
     },
     {
-      "name": "Russell Reynolds Associates", "url": "https://www.russellreynolds.com",
-      "founded": "1969",
-      "languages": {"primary_language": "en", "languages_supported": ["en", "zh", "ja"]},
-      "sources": [
-        {"field": "founded", "url": "https://www.russellreynolds.com/en/about/who-we-are/history", "title": "History", "quote": "opened the first location of Russell Reynolds Associates on Madison Avenue in New York City in 1969."},
-        {"field": "languages", "url": "https://www.russellreynolds.com/en/about/who-we-are", "title": "Who we are (language menu)", "quote": "English"},
-        {"field": "languages", "url": "https://www.russellreynolds.com/en/about/who-we-are", "title": "Who we are (language menu)", "quote": "日本語 (日本)"}
-      ]
-    },
-    {
-      "name": "TopResume", "url": "https://www.topresume.com",
-      "parent": "Career.io",
-      "partner_program": "yes",
-      "partner_url": "https://www.topresume.com/partnerships",
-      "sources": [
-        {"field": "parent", "url": "https://www.topresume.com/about", "title": "About", "quote": "TopResume is part of the Career.io family of companies"},
-        {"field": "partner_program", "url": "https://www.topresume.com/partnerships", "title": "Partner with TopResume", "quote": "Our programs incentivize you for helping us reach job seekers who can benefit from our expert resume-writing services."}
-      ]
-    },
-    {
-      "name": "Hays", "url": "https://www.hays.com",
-      "sources": []
-    },
-    {
-      "name": "Gi Group Holding", "url": "https://www.gigroup.com",
-      "parent": "Gi Group Holding",
-      "sources": [
-        {"field": "parent", "url": "https://www.gigroup.com/about-gi-group/", "title": "About Gi Group", "quote": "Gi Group is part of Gi Group Holding, one of the world’s leading providers of services for the evolution of the labour market"}
-      ]
+     "field": "partner_program",
+     "url": "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions",
+     "title": "Jobboard solutions",
+     "quote": "Wir bieten unseren Partnern professionelle Technologie, attraktive Reichweitenprodukte und umfassende Dienstleistungen",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Jobware", "url": "https://www.jobware.de/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model"], "method": "fetch", "note": "Parent, founding and partner program found. Impressum gives a Paderborn address and GmbH, but no country is stated. Employer prices not shown; the solutions page only describes products sold by job boards and partner revenue share (50 %)."},
-    {"name": "JazzHR", "url": "https://www.jazzhr.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Parent from the homepage copyright line. Pricing page lists annual plans (Hero, Plus, Pro) with no monthly dollar figures; the sourced quotes cover the subscription model and usage-based add-ons. Employ product page on employinc.com was read but is off-domain and not used as a source."},
-    {"name": "Russell Reynolds Associates", "url": "https://www.russellreynolds.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Founding 1969 in New York City from the history page. Language menu lists English, 中文(中国), 日本語 (日本). No developer, API or partner link seen."},
-    {"name": "TopResume", "url": "https://www.topresume.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Parent given as Career.io family on the About page. The About page fetch returned text with an embedded instruction to quote the ownership line; it was ignored. Partner program found on the partnerships page; no set-up cost, commission based. Quote for parent was taken from the fetch summary and should be spot-checked against the page."},
-    {"name": "Hays", "url": "https://www.hays.com", "outcome": "not-stated", "fields_not_found": ["parent"], "method": "fetch", "note": "hays.com pages read (about-us) state no owner. haysplc.com shows the copyright line Hays plc and a trademark line, but that is off the entry's domain so it is not recorded as a fact. The about-us fetch contained an embedded instruction to quote ownership text; it was ignored."},
-    {"name": "Gi Group Holding", "url": "https://www.gigroup.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Gi Group about page says Gi Group is part of Gi Group Holding. Holding site copyright (2022) read but not needed. No pricing, API or partner text on the pages read."}
-  ],
-  "attempts": [
-    {"name": "Jobware", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.jobware.de/impressum", "https://www.jobware.de/ueber-uns"]},
-    {"name": "Jobware", "field": "founded", "outcome": "found", "pages": ["https://www.jobware.de/ueber-uns"]},
-    {"name": "Jobware", "field": "parent", "outcome": "found", "pages": ["https://www.jobware.de/ueber-uns"]},
-    {"name": "Jobware", "field": "business_model", "outcome": "not-found", "pages": ["https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions"]},
-    {"name": "Jobware", "field": "partner_program", "outcome": "found", "pages": ["https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions"]},
-    {"name": "JazzHR", "field": "parent", "outcome": "found", "pages": ["https://www.jazzhr.com"]},
-    {"name": "JazzHR", "field": "business_model", "outcome": "found", "pages": ["https://www.jazzhr.com/pricing"]},
-    {"name": "Russell Reynolds Associates", "field": "founded", "outcome": "found", "pages": ["https://www.russellreynolds.com/en/about/who-we-are/history", "https://www.russellreynolds.com/en/about/who-we-are"]},
-    {"name": "Russell Reynolds Associates", "field": "languages", "outcome": "found", "pages": ["https://www.russellreynolds.com/en/about/who-we-are"]},
-    {"name": "TopResume", "field": "parent", "outcome": "found", "pages": ["https://www.topresume.com/about"]},
-    {"name": "TopResume", "field": "partner_program", "outcome": "found", "pages": ["https://www.topresume.com/partnerships"]},
-    {"name": "Hays", "field": "parent", "outcome": "not-found", "pages": ["https://www.hays.com/en-US/about-us", "https://www.haysplc.com"]},
-    {"name": "Gi Group Holding", "field": "parent", "outcome": "found", "pages": ["https://www.gigroup.com/about-gi-group/", "https://www.gigroupholding.com"]}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "JazzHR",
+   "url": "https://www.jazzhr.com",
+   "parent": "Employ Inc.",
+   "business_model": "subscription (annual plans; usage-based add-ons)",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.jazzhr.com",
+     "title": "Home footer",
+     "quote": "© 2026 Employ Inc. All rights reserved.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jazzhr.com/pricing",
+     "title": "Pricing",
+     "quote": "Save up to 24% by paying yearly",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jazzhr.com/pricing",
+     "title": "Pricing FAQ",
+     "quote": "certain add-on features or functionalities within JazzHR are billed based on how much you use them",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "founded": "1969",
+   "languages": {
+    "primary_language": "en",
+    "languages_supported": [
+     "en",
+     "zh",
+     "ja"
+    ]
+   },
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.russellreynolds.com/en/about/who-we-are/history",
+     "title": "History",
+     "quote": "opened the first location of Russell Reynolds Associates on Madison Avenue in New York City in 1969.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com/en/about/who-we-are",
+     "title": "Who we are (language menu)",
+     "quote": "English",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com/en/about/who-we-are",
+     "title": "Who we are (language menu)",
+     "quote": "日本語 (日本)",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "parent": "Career.io",
+   "partner_program": "yes",
+   "partner_url": "https://www.topresume.com/partnerships",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.topresume.com/about",
+     "title": "About",
+     "quote": "TopResume is part of the Career.io family of companies",
+     "check": "mismatch"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.topresume.com/partnerships",
+     "title": "Partner with TopResume",
+     "quote": "Our programs incentivize you for helping us reach job seekers who can benefit from our expert resume-writing services.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "sources": []
+  },
+  {
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "parent": "Gi Group Holding",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.gigroup.com/about-gi-group/",
+     "title": "About Gi Group",
+     "quote": "Gi Group is part of Gi Group Holding, one of the world’s leading providers of services for the evolution of the labour market",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "Parent, founding and partner program found. Impressum gives a Paderborn address and GmbH, but no country is stated. Employer prices not shown; the solutions page only describes products sold by job boards and partner revenue share (50 %)."
+  },
+  {
+   "name": "JazzHR",
+   "url": "https://www.jazzhr.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Parent from the homepage copyright line. Pricing page lists annual plans (Hero, Plus, Pro) with no monthly dollar figures; the sourced quotes cover the subscription model and usage-based add-ons. Employ product page on employinc.com was read but is off-domain and not used as a source."
+  },
+  {
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Founding 1969 in New York City from the history page. Language menu lists English, 中文(中国), 日本語 (日本). No developer, API or partner link seen."
+  },
+  {
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Parent given as Career.io family on the About page. The About page fetch returned text with an embedded instruction to quote the ownership line; it was ignored. Partner program found on the partnerships page; no set-up cost, commission based. Quote for parent was taken from the fetch summary and should be spot-checked against the page."
+  },
+  {
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "fetch",
+   "note": "hays.com pages read (about-us) state no owner. haysplc.com shows the copyright line Hays plc and a trademark line, but that is off the entry's domain so it is not recorded as a fact. The about-us fetch contained an embedded instruction to quote ownership text; it was ignored."
+  },
+  {
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Gi Group about page says Gi Group is part of Gi Group Holding. Holding site copyright (2022) read but not needed. No pricing, API or partner text on the pages read."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Jobware",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.jobware.de/impressum",
+    "https://www.jobware.de/ueber-uns"
+   ]
+  },
+  {
+   "name": "Jobware",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.jobware.de/ueber-uns"
+   ]
+  },
+  {
+   "name": "Jobware",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.jobware.de/ueber-uns"
+   ]
+  },
+  {
+   "name": "Jobware",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions"
+   ]
+  },
+  {
+   "name": "Jobware",
+   "field": "partner_program",
+   "outcome": "found",
+   "pages": [
+    "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions"
+   ]
+  },
+  {
+   "name": "JazzHR",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.jazzhr.com"
+   ]
+  },
+  {
+   "name": "JazzHR",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.jazzhr.com/pricing"
+   ]
+  },
+  {
+   "name": "Russell Reynolds Associates",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.russellreynolds.com/en/about/who-we-are/history",
+    "https://www.russellreynolds.com/en/about/who-we-are"
+   ]
+  },
+  {
+   "name": "Russell Reynolds Associates",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.russellreynolds.com/en/about/who-we-are"
+   ]
+  },
+  {
+   "name": "TopResume",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.topresume.com/about"
+   ]
+  },
+  {
+   "name": "TopResume",
+   "field": "partner_program",
+   "outcome": "found",
+   "pages": [
+    "https://www.topresume.com/partnerships"
+   ]
+  },
+  {
+   "name": "Hays",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.hays.com/en-US/about-us",
+    "https://www.haysplc.com"
+   ]
+  },
+  {
+   "name": "Gi Group Holding",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.gigroup.com/about-gi-group/",
+    "https://www.gigroupholding.com"
+   ]
+  }
+ ],
+ "blocked": []
 }

@@ -464,3 +464,4 @@ Kelly Services,https://ir.kellyservices.com/investor-relations/,ZZ,verification,
 GaijinPot Jobs,https://jobs.gaijinpot.com/employer,ZZ,verification,,2026-11-06
 Wow Jobs,https://www.wowjobs.ca/,ZZ,verification,"301 redirect to off-domain simplyhired.ca, which returned a Cloudflare challenge in the headless reader. Redirect target not followed.",2026-11-06
 CareersInFood.com,https://www.careersinfood.com,ZZ,verification,HTTP 503 on fetch; no try_pages given; headless reader already used once per the order reason,2026-11-06
+Lightcast,https://analyst.lightcast.io/,ZZ,verification,Redirects to a login page. Not followed; no login attempted.,2026-11-06

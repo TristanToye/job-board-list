@@ -4,14 +4,17 @@
  "url": "https://japan-dev.com/",
  "domains": "",
  "type": "niche-board",
- "hq_country": "",
- "founded": "",
+ "hq_country": "JP",
+ "founded": "2019",
  "markets": "",
  "countries_served": [
   "JP"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "en",
+  "ja"
+ ],
  "region": "East Asia",
  "niche": "tech",
  "segment": "",
@@ -43,8 +46,8 @@
   "board_id": "japan-dev",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "business_model;api_status;partner_program;parent",
-  "note": "Homepage and about page read; languages and job-data sourcing stated, office address shown but no headquarters statement; no pricing, API or partner program.",
+  "fields_not_found": "ingest_methods",
+  "note": "About page gives founding year 2019 and one office address in Kawasaki-shi, Japan. The page does not use the word headquarters, so hq_country is the country of that office address. Primary language is not stated; English is the default page",
   "method": "fetch"
  },
  "owners": [],
@@ -56,6 +59,22 @@
    "title": "Japan Dev homepage",
    "accessed": "2026-11-05",
    "quote": "No Japanese required. Apply from overseas. Top companies only.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://japan-dev.com/about",
+   "title": "About",
+   "accessed": "2026-11-06",
+   "quote": "Office 3-12 Manpukuji, Asao-ku , Kawasaki-shi, Kanagawa, Japan",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://japan-dev.com/?lang=jp",
+   "title": "Home (Japanese version)",
+   "accessed": "2026-11-06",
+   "quote": "English",
    "quote_check": "ok"
   }
  ]

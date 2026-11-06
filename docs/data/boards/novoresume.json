@@ -41,10 +41,10 @@
  "review": {
   "board_id": "novoresume",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
+  "outcome": "verified",
   "fields_not_found": "",
-  "note": "Founded 2014 and language menu verified. Business model: the core builder is free and paid Pro is a one-time pass for job seekers; no employer pricing is shown, so this is a job seeker model, not how employers pay. Homepage FAQ calls it 'a ",
-  "method": "fetch"
+  "note": "Founded quote is 'began in 2014' (company start), app launched Feb 2016. Pricing quotes read in browser text. Language menu came from a fetch summary, not the rendered text.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -95,6 +95,22 @@
    "title": "Pricing Plans | Novorésumé",
    "accessed": "2026-11-06",
    "quote": "One payment. Nothing to cancel.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.novoresume.com/page/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "One payment. Nothing to cancel.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.novoresume.com",
+   "title": "Home (footer language menu)",
+   "accessed": "2026-11-06",
+   "quote": "Dansk, Deutsch, English UK, English US, Español",
    "quote_check": "ok"
   }
  ]

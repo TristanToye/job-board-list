@@ -18,16 +18,18 @@
  "niche": "education",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post: packages for private employers, 1 job posting (61 days) $699, 3 job postings $1,799, unlimited job postings for 1 year $5,999",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
+ "ingest_methods": [
+  "manual posting"
+ ],
  "notes": "Listed as a Job Bank feed partner. Site not yet fetched. Niche from general knowledge.",
- "confidence": "listed-only",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/applytoeducation/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -38,7 +40,9 @@
  },
  "tags": [
   "education",
-  "job-board"
+  "job-board",
+  "pay-per-post",
+  "subscription"
  ],
  "connections": [
   {
@@ -51,7 +55,14 @@
    "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "applytoeducation",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded",
+  "note": "Employer package prices found on the private employer registration page, which is a login-free public page. Posting by employers is stated on Why Switch. No founding year: about-us shows a founder story without a founding year, and the foot",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -62,6 +73,22 @@
    "accessed": "2026-11-05",
    "quote": "",
    "quote_check": ""
+  },
+  {
+   "field": "business_model",
+   "url": "https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx",
+   "title": "Private Employer Registration",
+   "accessed": "2026-11-06",
+   "quote": "The below pricing is only applicable to Private Employers:",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.applytoeducation.com/our-solutions",
+   "title": "Why Switch",
+   "accessed": "2026-11-06",
+   "quote": "Book a demo or post a job with us to see firsthand how we can transform your hiring process.",
+   "quote_check": "ok"
   }
  ]
 }

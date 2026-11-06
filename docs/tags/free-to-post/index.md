@@ -1,11 +1,12 @@
 # Free to post
 
-Employers can post jobs without paying. 25 entries in the directory.
+Employers can post jobs without paying. 26 entries in the directory.
 
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
 - [Freelancer.com](https://jobboardlist.com/boards/freelancer-com/): freelance-platform
 - [USAJOBS](https://jobboardlist.com/boards/usajobs/): government, Self-serve API key
 - [Wellfound](https://jobboardlist.com/boards/wellfound/): niche-board, No known API
+- [VelvetJobs](https://jobboardlist.com/boards/velvetjobs/): outplacement
 - [Internshala](https://jobboardlist.com/boards/internshala/): niche-board
 - [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform
 - [Profession.hu](https://jobboardlist.com/boards/profession-hu/): board

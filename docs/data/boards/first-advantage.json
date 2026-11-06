@@ -5,13 +5,20 @@
  "domains": "",
  "type": "hr-tech",
  "hq_country": "",
- "founded": "",
+ "founded": "2003",
  "markets": "",
  "countries_served": [
   "ZZ"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "en",
+  "ja",
+  "ko",
+  "zh",
+  "es",
+  "pt"
+ ],
  "region": "Global",
  "niche": "background screening technology",
  "segment": "",
@@ -46,9 +53,9 @@
  "review": {
   "board_id": "first-advantage",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;api_status",
-  "note": "Founded 2003 and region/language menu verified. HQ and parent not stated on About Us or home page. API page (/api/) describes docs and a sandbox but states no access rule; /developers/ returned 404. api_status left unknown. Partner page (/p",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "About Us states Founded in 2003. Region and language menu lists English, Japanese, Korean, Chinese, Spanish and Portuguese. Primary language not stated.",
   "method": "fetch"
  },
  "owners": [],

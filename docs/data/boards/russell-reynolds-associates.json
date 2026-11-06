@@ -5,7 +5,7 @@
  "domains": "",
  "type": "recruiting-services",
  "hq_country": "",
- "founded": "",
+ "founded": "1969",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -46,9 +46,9 @@
  "review": {
   "board_id": "russell-reynolds-associates",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;partner_program",
-  "note": "Founded 1969: the year appears as the timeline heading above the quoted sentence, so the quote does not itself contain the year; check the history page. Languages from the language menu: English, Chinese, Japanese. HQ not labelled; the only",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Founding 1969 in New York City from the history page. Language menu lists English, 中文(中国), 日本語 (日本). No developer, API or partner link seen.",
   "method": "fetch"
  },
  "owners": [],
@@ -84,6 +84,14 @@
    "title": "Office Locations | Russell Reynolds Associates",
    "accessed": "2026-11-06",
    "quote": "English 中文(中国) 日本語 (日本)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.russellreynolds.com/en/about/who-we-are",
+   "title": "Who we are (language menu)",
+   "accessed": "2026-11-06",
+   "quote": "English",
    "quote_check": "ok"
   }
  ]

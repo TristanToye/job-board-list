@@ -1,6 +1,6 @@
 # Job boards in Spain
 
-12 job boards and related entries based in or serving Spain.
+13 job boards and related entries based in or serving Spain.
 
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, Large tier, API key on request
 - [SEPE (Servicio Público de Empleo Estatal)](https://jobboardlist.com/boards/sepe-servicio-p-blico-de-empleo-estatal/): government, Established tier
@@ -8,6 +8,7 @@
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Established tier, Partner-only API
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [Tecnoempleo](https://jobboardlist.com/boards/tecnoempleo/): niche-board, Small tier
+- [Turijobs](https://jobboardlist.com/boards/turijobs/): board, Small tier
 - [Trabajos.com](https://jobboardlist.com/boards/trabajos-com/): board, Small tier
 - [StudentJob ES](https://jobboardlist.com/boards/studentjob-es/): niche-board, Small tier
 - [Ticjob](https://jobboardlist.com/boards/ticjob/): niche-board, Small tier

@@ -11,7 +11,7 @@ BambooHR is an applicant tracking system based in United States, focused on appl
 - Partner program: yes
 - Prominence: #3,235 globally, tier Large
 - Tags: Self-serve API, Applicant tracking system, Free to post, Partner program, Public job feed, Small business
-- Review: Reviewed 2026-11-06. Checked against the board's own site.
+- Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: owner.
 - Data status: partly verified against its own site
 
 ## Quick answers

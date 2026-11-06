@@ -5,7 +5,7 @@
  "domains": "",
  "type": "board",
  "hq_country": "",
- "founded": "",
+ "founded": "1996",
  "markets": "",
  "countries_served": [
   "DE"
@@ -15,17 +15,17 @@
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
+ "parent": "Medien Union",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions",
  "ingest_methods": [],
  "notes": "",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobware/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -36,15 +36,16 @@
  },
  "tags": [
   "general",
-  "job-board"
+  "job-board",
+  "partner-program"
  ],
  "connections": [],
  "review": {
   "board_id": "jobware",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Impressum names the registry court AG Paderborn and the Paderborn address, so hq_country DE is taken from the registry court. Ueber uns gives 1 May 1996 for the first German online job market, founded in Paderborn; the page does not name a ",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model",
+  "note": "Parent, founding and partner program found. Impressum gives a Paderborn address and GmbH, but no country is stated. Employer prices not shown; the solutions page only describes products sold by job boards and partner revenue share (50 %).",
   "method": "fetch"
  },
  "owners": [],
@@ -72,6 +73,22 @@
    "title": "Über uns",
    "accessed": "2026-11-06",
    "quote": "Am 1. Mai 1996 gründet er in Paderborn den ersten deutschen Online-Stellenmarkt.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.jobware.de/ueber-uns",
+   "title": "Über uns",
+   "accessed": "2026-11-06",
+   "quote": "Als Tochterunternehmen der Medien Union, Ludwigshafen, arbeiten wir seit vielen Jahren mit renommierten Verlagen zusammen.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.jobware.de/fuer-arbeitgeber/jobboard-solutions",
+   "title": "Jobboard solutions",
+   "accessed": "2026-11-06",
+   "quote": "Wir bieten unseren Partnern professionelle Technologie, attraktive Reichweitenprodukte und umfassende Dienstleistungen",
    "quote_check": "ok"
   }
  ]

@@ -4,7 +4,7 @@
  "url": "https://www.turijobs.com/",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "ES",
  "founded": "",
  "markets": "",
  "countries_served": [],
@@ -28,7 +28,7 @@
  "notes": "According to its owner's page: \"The Stepstone Group integrates additional brands and platforms in Europe and beyond\" Spanish job board for tourism and hospitality. Employers publish offers from an administrator menu. No employer pricing or partner program found on the pages read. Guessed /api and /partners URLs returned 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/turijobs/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -44,10 +44,10 @@
  "review": {
   "board_id": "turijobs",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "business_model;partner_program",
-  "note": "Headquarters, parent company, languages and posting path stated. No employer pricing or partner program found.",
-  "method": "browser"
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Homepage returned HTTP 503 to the fetch tool and was read with the headless reader. Company profile lists Barcelona, España as the location. The page does not use the word headquarters, so this is a profile location, not a stated HQ. Footer",
+  "method": "mixed"
  },
  "owners": [
   {
@@ -92,6 +92,14 @@
    "title": "Publish a job guide",
    "accessed": "2026-11-06",
    "quote": "Dirígete a \"Publicar Oferta\" en tu Menú Administrador.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.turijobs.com/es-es/empresa/turijobs",
+   "title": "Company profile",
+   "accessed": "2026-11-06",
+   "quote": "Turijobs Barcelona, España Pequeña (10-49 empleados) Nuevas Tecnologías / Internet",
    "quote_check": "ok"
   }
  ]

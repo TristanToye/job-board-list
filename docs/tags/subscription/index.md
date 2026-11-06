@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 64 entries in the directory.
+Employers pay a recurring fee or plan. 66 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -38,6 +38,7 @@ Employers pay a recurring fee or plan. 64 entries in the directory.
 - [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
 - [Catho](https://jobboardlist.com/boards/catho/): board
 - [Gem](https://jobboardlist.com/boards/gem/): hr-tech
+- [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [GulfTalent](https://jobboardlist.com/boards/gulftalent/): board
 - [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
 - [NaukriGulf](https://jobboardlist.com/boards/naukrigulf/): board
@@ -57,6 +58,7 @@ Employers pay a recurring fee or plan. 64 entries in the directory.
 - [BrighterMonday](https://jobboardlist.com/boards/brightermonday/): board
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
+- [ApplyToEducation](https://jobboardlist.com/boards/applytoeducation/): board
 - [Jobs.ca](https://jobboardlist.com/boards/jobs-ca/): board, No known API
 - [Bumeran](https://jobboardlist.com/boards/bumeran/): board
 - [WeLoveDevs](https://jobboardlist.com/boards/welovedevs/): niche-board

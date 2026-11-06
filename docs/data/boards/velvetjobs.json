@@ -16,12 +16,14 @@
  "niche": "outplacement and employer branding",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free job posting for employers",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
+ "ingest_methods": [
+  "manual posting"
+ ],
  "notes": "",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/velvetjobs/",
@@ -35,15 +37,16 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "outplacement"
  ],
  "connections": [],
  "review": {
   "board_id": "velvetjobs",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;founded",
-  "note": "About page says Based in Los Angeles, but names no country, so hq_country was not recorded from the city alone. No founding year on About or homepage. Footer copyright is VelvetJobs 2026 only.",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Free employer posting stated. No prices, subscriptions or pay-per-click seen. Posting is by employer account.",
   "method": "fetch"
  },
  "owners": [],
@@ -55,6 +58,22 @@
    "title": "VelvetJobs",
    "accessed": "2026-11-06",
    "quote": "The Outplacement & Employer Branding Services Selected by The Leading Companies",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.velvetjobs.com/post-a-job",
+   "title": "Post a job",
+   "accessed": "2026-11-06",
+   "quote": "Create an Employer Account & Post Jobs for Free",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.velvetjobs.com/post-a-job",
+   "title": "Post a job",
+   "accessed": "2026-11-06",
+   "quote": "Post Jobs for Free in Minutes",
    "quote_check": "ok"
   }
  ]

@@ -47,9 +47,9 @@
  "review": {
   "board_id": "egon-zehnder",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Region and language menu verified on /newsroom, /de, /cn with English, Deutsch, 中文, 日本語. Main page language is English.",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded",
+  "note": "Language menu read on homepage. About Us and Offices pages state no headquarters and no founding year.",
   "method": "fetch"
  },
  "owners": [],

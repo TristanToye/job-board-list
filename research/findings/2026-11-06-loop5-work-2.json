@@ -1,73 +1,327 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 5,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 5,
+ "boards": [
+  {
+   "name": "Japan Dev",
+   "url": "https://japan-dev.com/",
+   "hq_country": "JP",
+   "founded": "2019",
+   "languages_supported": [
+    "en",
+    "ja"
+   ],
+   "sources": [
     {
-      "name": "Japan Dev",
-      "url": "https://japan-dev.com/",
-      "hq_country": "JP",
-      "founded": "2019",
-      "languages_supported": ["en", "ja"],
-      "sources": [
-        {"field": "hq_country", "url": "https://japan-dev.com/about", "title": "About", "quote": "Office 3-12 Manpukuji, Asao-ku , Kawasaki-shi, Kanagawa, Japan"},
-        {"field": "founded", "url": "https://japan-dev.com/about", "title": "About", "quote": "Founded 2019 (initially sole proprietorship)"},
-        {"field": "languages", "url": "https://japan-dev.com/about", "title": "About", "quote": "日本語"},
-        {"field": "languages", "url": "https://japan-dev.com/?lang=jp", "title": "Home (Japanese version)", "quote": "English"}
-      ]
+     "field": "hq_country",
+     "url": "https://japan-dev.com/about",
+     "title": "About",
+     "quote": "Office 3-12 Manpukuji, Asao-ku , Kawasaki-shi, Kanagawa, Japan",
+     "check": "ok"
     },
     {
-      "name": "First Advantage",
-      "url": "https://fadv.com",
-      "founded": "2003",
-      "languages_supported": ["en", "ja", "ko", "zh", "es", "pt"],
-      "sources": [
-        {"field": "founded", "url": "https://fadv.com/about-us/", "title": "About Us", "quote": "Founded in 2003,"},
-        {"field": "languages", "url": "https://fadv.com", "title": "Home", "quote": "APAC (日本語)"},
-        {"field": "languages", "url": "https://fadv.com", "title": "Home", "quote": "APAC (한국어)"},
-        {"field": "languages", "url": "https://fadv.com", "title": "Home", "quote": "China (中文 中国)"},
-        {"field": "languages", "url": "https://fadv.com", "title": "Home", "quote": "Latin America (Español)"},
-        {"field": "languages", "url": "https://fadv.com", "title": "Home", "quote": "Latin America (Português)"},
-        {"field": "languages", "url": "https://fadv.com", "title": "Home", "quote": "North America (English)"}
-      ]
+     "field": "founded",
+     "url": "https://japan-dev.com/about",
+     "title": "About",
+     "quote": "Founded 2019 (initially sole proprietorship)",
+     "check": "ok"
     },
     {
-      "name": "ApplyToEducation",
-      "url": "https://www.applytoeducation.com",
-      "business_model": "per post: packages for private employers, 1 job posting (61 days) $699, 3 job postings $1,799, unlimited job postings for 1 year $5,999",
-      "ingest_methods": ["manual posting"],
-      "sources": [
-        {"field": "business_model", "url": "https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx", "title": "Private Employer Registration", "quote": "The below pricing is only applicable to Private Employers:"},
-        {"field": "business_model", "url": "https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx", "title": "Private Employer Registration", "quote": "1 Job Posting (61 days) $699"},
-        {"field": "business_model", "url": "https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx", "title": "Private Employer Registration", "quote": "Jobs will be live for 61 days."},
-        {"field": "ingest_methods", "url": "https://www.applytoeducation.com/our-solutions", "title": "Why Switch", "quote": "Book a demo or post a job with us to see firsthand how we can transform your hiring process."}
-      ]
+     "field": "languages",
+     "url": "https://japan-dev.com/about",
+     "title": "About",
+     "quote": "日本語",
+     "check": "mismatch"
+    },
+    {
+     "field": "languages",
+     "url": "https://japan-dev.com/?lang=jp",
+     "title": "Home (Japanese version)",
+     "quote": "English",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Japan Dev", "url": "https://japan-dev.com/", "outcome": "partially-verified", "fields_not_found": ["ingest_methods"], "method": "fetch", "note": "About page gives founding year 2019 and one office address in Kawasaki-shi, Japan. The page does not use the word headquarters, so hq_country is the country of that office address. Primary language is not stated; English is the default page language and Japanese is offered by the toggle. No job ingest method stated."},
-    {"name": "First Advantage", "url": "https://fadv.com", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "About Us states Founded in 2003. Region and language menu lists English, Japanese, Korean, Chinese, Spanish and Portuguese. Primary language not stated."},
-    {"name": "Lightcast", "url": "https://lightcast.io", "outcome": "not-stated", "fields_not_found": ["api_status", "ingest_methods"], "method": "mixed", "note": "Data API page lists APIs and links to documentation but does not say how keys are issued. The developer docs page lists OAuth 2.0 on each API but no self-serve or request process was found in the text read. The analyst.lightcast.io link redirects to a login page, which was not followed."},
-    {"name": "ApplyToEducation", "url": "https://www.applytoeducation.com", "outcome": "partially-verified", "fields_not_found": ["founded"], "method": "mixed", "note": "Employer package prices found on the private employer registration page, which is a login-free public page. Posting by employers is stated on Why Switch. No founding year: about-us shows a founder story without a founding year, and the footer shows only a copyright range. No API or feed was found on the pages read."},
-    {"name": "Enhancv", "url": "https://enhancv.com", "outcome": "not-stated", "fields_not_found": ["business_model"], "method": "fetch", "note": "Pricing page shows consumer plans for job seekers (free 7-day plan, quarterly subscription), not how employers pay. Euro price text rendered incorrectly on the page, so prices are not recorded. Press page was not read."},
-    {"name": "Pinpoint", "url": "https://www.pinpointhq.com", "outcome": "not-stated", "fields_not_found": ["founded"], "method": "fetch", "note": "About us page and homepage do not state a founding year. The only year on the site is in a copyright notice."}
-  ],
-  "attempts": [
-    {"name": "Japan Dev", "field": "hq_country", "outcome": "found", "pages": ["https://japan-dev.com/about"]},
-    {"name": "Japan Dev", "field": "founded", "outcome": "found", "pages": ["https://japan-dev.com/about"]},
-    {"name": "Japan Dev", "field": "languages", "outcome": "found", "pages": ["https://japan-dev.com/about", "https://japan-dev.com/?lang=jp"]},
-    {"name": "Japan Dev", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://japan-dev.com/?lang=jp"]},
-    {"name": "First Advantage", "field": "founded", "outcome": "found", "pages": ["https://fadv.com/about-us/"]},
-    {"name": "First Advantage", "field": "languages", "outcome": "found", "pages": ["https://fadv.com"]},
-    {"name": "Lightcast", "field": "api_status", "outcome": "not-found", "pages": ["https://lightcast.io/our-data/api/menu", "https://docs.lightcast.dev/apis/"]},
-    {"name": "Lightcast", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://lightcast.io/our-data/api/menu"]},
-    {"name": "ApplyToEducation", "field": "founded", "outcome": "not-found", "pages": ["https://www.applytoeducation.com/about-us", "https://www.applytoeducation.com/our-solutions"]},
-    {"name": "ApplyToEducation", "field": "business_model", "outcome": "found", "pages": ["https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx"]},
-    {"name": "ApplyToEducation", "field": "ingest_methods", "outcome": "found", "pages": ["https://www.applytoeducation.com/our-solutions"]},
-    {"name": "Enhancv", "field": "business_model", "outcome": "not-found", "pages": ["https://enhancv.com/pricing/"]},
-    {"name": "Pinpoint", "field": "founded", "outcome": "not-found", "pages": ["https://www.pinpointhq.com/about-us", "https://www.pinpointhq.com"]}
-  ],
-  "blocked": [
-    {"name": "Lightcast", "url": "https://analyst.lightcast.io/", "reason": "Redirects to a login page. Not followed; no login attempted."}
-  ]
+   ]
+  },
+  {
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "founded": "2003",
+   "languages_supported": [
+    "en",
+    "ja",
+    "ko",
+    "zh",
+    "es",
+    "pt"
+   ],
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://fadv.com/about-us/",
+     "title": "About Us",
+     "quote": "Founded in 2003,",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com",
+     "title": "Home",
+     "quote": "APAC (日本語)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com",
+     "title": "Home",
+     "quote": "APAC (한국어)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com",
+     "title": "Home",
+     "quote": "China (中文 中国)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com",
+     "title": "Home",
+     "quote": "Latin America (Español)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com",
+     "title": "Home",
+     "quote": "Latin America (Português)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com",
+     "title": "Home",
+     "quote": "North America (English)",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "ApplyToEducation",
+   "url": "https://www.applytoeducation.com",
+   "business_model": "per post: packages for private employers, 1 job posting (61 days) $699, 3 job postings $1,799, unlimited job postings for 1 year $5,999",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx",
+     "title": "Private Employer Registration",
+     "quote": "The below pricing is only applicable to Private Employers:",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx",
+     "title": "Private Employer Registration",
+     "quote": "1 Job Posting (61 days) $699",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx",
+     "title": "Private Employer Registration",
+     "quote": "Jobs will be live for 61 days.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.applytoeducation.com/our-solutions",
+     "title": "Why Switch",
+     "quote": "Book a demo or post a job with us to see firsthand how we can transform your hiring process.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Japan Dev",
+   "url": "https://japan-dev.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "About page gives founding year 2019 and one office address in Kawasaki-shi, Japan. The page does not use the word headquarters, so hq_country is the country of that office address. Primary language is not stated; English is the default page language and Japanese is offered by the toggle. No job ingest method stated."
+  },
+  {
+   "name": "First Advantage",
+   "url": "https://fadv.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "About Us states Founded in 2003. Region and language menu lists English, Japanese, Korean, Chinese, Spanish and Portuguese. Primary language not stated."
+  },
+  {
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Data API page lists APIs and links to documentation but does not say how keys are issued. The developer docs page lists OAuth 2.0 on each API but no self-serve or request process was found in the text read. The analyst.lightcast.io link redirects to a login page, which was not followed."
+  },
+  {
+   "name": "ApplyToEducation",
+   "url": "https://www.applytoeducation.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "mixed",
+   "note": "Employer package prices found on the private employer registration page, which is a login-free public page. Posting by employers is stated on Why Switch. No founding year: about-us shows a founder story without a founding year, and the footer shows only a copyright range. No API or feed was found on the pages read."
+  },
+  {
+   "name": "Enhancv",
+   "url": "https://enhancv.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "Pricing page shows consumer plans for job seekers (free 7-day plan, quarterly subscription), not how employers pay. Euro price text rendered incorrectly on the page, so prices are not recorded. Press page was not read."
+  },
+  {
+   "name": "Pinpoint",
+   "url": "https://www.pinpointhq.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "About us page and homepage do not state a founding year. The only year on the site is in a copyright notice."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Japan Dev",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://japan-dev.com/about"
+   ]
+  },
+  {
+   "name": "Japan Dev",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://japan-dev.com/about"
+   ]
+  },
+  {
+   "name": "Japan Dev",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://japan-dev.com/about",
+    "https://japan-dev.com/?lang=jp"
+   ]
+  },
+  {
+   "name": "Japan Dev",
+   "field": "ingest_methods",
+   "outcome": "not-found",
+   "pages": [
+    "https://japan-dev.com/?lang=jp"
+   ]
+  },
+  {
+   "name": "First Advantage",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://fadv.com/about-us/"
+   ]
+  },
+  {
+   "name": "First Advantage",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://fadv.com"
+   ]
+  },
+  {
+   "name": "Lightcast",
+   "field": "api_status",
+   "outcome": "not-found",
+   "pages": [
+    "https://lightcast.io/our-data/api/menu",
+    "https://docs.lightcast.dev/apis/"
+   ]
+  },
+  {
+   "name": "Lightcast",
+   "field": "ingest_methods",
+   "outcome": "not-found",
+   "pages": [
+    "https://lightcast.io/our-data/api/menu"
+   ]
+  },
+  {
+   "name": "ApplyToEducation",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.applytoeducation.com/about-us",
+    "https://www.applytoeducation.com/our-solutions"
+   ]
+  },
+  {
+   "name": "ApplyToEducation",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://network.applytoeducation.com/Registration/AttPrivate_Reg_01.aspx"
+   ]
+  },
+  {
+   "name": "ApplyToEducation",
+   "field": "ingest_methods",
+   "outcome": "found",
+   "pages": [
+    "https://www.applytoeducation.com/our-solutions"
+   ]
+  },
+  {
+   "name": "Enhancv",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://enhancv.com/pricing/"
+   ]
+  },
+  {
+   "name": "Pinpoint",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.pinpointhq.com/about-us",
+    "https://www.pinpointhq.com"
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Lightcast",
+   "url": "https://analyst.lightcast.io/",
+   "reason": "Redirects to a login page. Not followed; no login attempted."
+  }
+ ]
 }
