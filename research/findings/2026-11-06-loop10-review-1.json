@@ -1,0 +1,149 @@
+{
+  "round": 10,
+  "orders": [
+    {
+      "id": "lavoro-gov-it-ministry-of-labour",
+      "name": "lavoro.gov.it (Ministry of Labour)",
+      "url": "https://www.lavoro.gov.it/",
+      "likelihood": {"hq_country": "low", "languages": "high", "business_model": "none", "api_status": "low", "partner_program": "none"},
+      "try_pages": ["https://www.lavoro.gov.it/stampa-e-media/Pagine/default"],
+      "reason": "Homepage is entirely Italian with no language menu. No Developers, API or Partners page linked; the Nostra rete section links to partner bodies. Ministry page already read without a seat. Government service, so no business model.",
+      "flags": ["hq_country is in the missing list, but the review found it from the homepage; check the record."]
+    },
+    {
+      "id": "office-for-national-statistics",
+      "name": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk",
+      "likelihood": {"founded": "low", "business_model": "none", "api_status": "medium", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Header and footer link About, What we do, Contact, News and Careers. No Developers, API, Open data or Partners link seen. A statistics office usually documents its data access somewhere, but not on the links seen. Public body, so no business model.",
+      "flags": []
+    },
+    {
+      "id": "z-gis-geoinformatik-stellenb-rse",
+      "name": "Z_GIS Geoinformatik Stellenbörse",
+      "url": "https://www.plus.ac.at/geoinformatik/jobs/",
+      "likelihood": {"hq_country": "none", "founded": "none", "parent": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "The URL returned HTTP 404 on fetch, so no page could be read.",
+      "flags": ["The entry URL returns HTTP 404; the board may have moved or closed.", "No parent is recorded. The domain is a university domain, but the owner was not checked because the page did not load."]
+    },
+    {
+      "id": "gulftalent",
+      "name": "GulfTalent",
+      "url": "https://www.gulftalent.com",
+      "likelihood": {"founded": "none", "parent": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Fetch returned HTTP 403 and the headless reader was also blocked by a Cloudflare verification page. Not attempted further.",
+      "flags": []
+    },
+    {
+      "id": "find-an-apprenticeship",
+      "name": "Find an Apprenticeship",
+      "url": "https://www.findapprenticeship.service.gov.uk",
+      "likelihood": {"hq_country": "low", "founded": "low", "languages": "high", "business_model": "none", "api_status": "low", "partner_program": "none", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Footer has only accessibility, cookies, privacy, terms and get-help links. No About, Developers, API or Partners link. No language option, including Welsh. Free government service, so no business model.",
+      "flags": []
+    },
+    {
+      "id": "jobboom",
+      "name": "Jobboom",
+      "url": "https://www.jobboom.com",
+      "likelihood": {"founded": "none", "parent": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Fetch returned HTTP 403 and the headless reader was also blocked by a Cloudflare verification page. Not attempted further.",
+      "flags": []
+    },
+    {
+      "id": "right-management",
+      "name": "Right Management",
+      "url": "https://www.right.com",
+      "likelihood": {"languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.right.com/en/your-outplacement", "https://www.right.com/en/our-expertise"],
+      "reason": "Language menu shows only Global (English). Navigation links to Solutions, Your Outplacement, Insights and Contact, but no Developers, API or Partners page. Outplacement is sold to employers, with no pricing link seen.",
+      "flags": ["languages is in the missing list, but the site shows English only and the review already found it; check the record."]
+    },
+    {
+      "id": "esl-cafe",
+      "name": "ESL Cafe",
+      "url": "https://www.eslcafe.com/job-center",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.eslcafe.com/advertisements", "https://www.eslcafe.com/contact"],
+      "reason": "Advertise link seen, pointing to the advertisements and job-center pages, which the review already read for prices. Contact and Terms links seen. No About, Pricing for employers, Developers or API link. The site names an individual, Dave, and no company.",
+      "flags": ["business_model is in the missing list, but the advertising price table was found in the review; check the record."]
+    },
+    {
+      "id": "sistema-nacional-de-emprego-sine",
+      "name": "Sistema Nacional de Emprego (SINE)",
+      "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+      "likelihood": {"founded": "low", "languages": "high", "business_model": "none", "api_status": "low", "partner_program": "none"},
+      "try_pages": ["https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego"],
+      "reason": "Only Portuguese (pt-br) pages, with no language menu. Ministry page links to the responsible body. Open data page exists but no API or developer page was linked. Only a legal date is shown, not a founding date. Free public service, so no business model.",
+      "flags": []
+    },
+    {
+      "id": "randstad-digital",
+      "name": "Randstad Digital",
+      "url": "https://www.randstaddigital.com/",
+      "likelihood": {"languages": "high", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Language menu seen with en, fr and de links. About and Partnerships links seen, already read by the review. No Developers, API or Press link. Business-to-business services, with no pricing link seen.",
+      "flags": ["languages is in the missing list, but the language menu (en, fr, de) was seen; check the record."]
+    },
+    {
+      "id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
+      "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+      "url": "https://www.comunidad.madrid/servicios/empleo",
+      "likelihood": {"founded": "low", "languages": "high", "business_model": "none", "partner_program": "none", "ingest_methods": "low"},
+      "try_pages": ["https://www.comunidad.madrid/sitemap"],
+      "reason": "All text is Spanish with no language selector. Footer and menu links to Datos abiertos, Institucion and Aviso legal seen, already read. Sitemap linked from the footer may list job-related pages. Public service, so no business model.",
+      "flags": []
+    },
+    {
+      "id": "careersinfood",
+      "name": "CareersInFood.com",
+      "url": "https://www.careersinfood.com",
+      "likelihood": {"founded": "none", "parent": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 503 on fetch, so no links or content could be read. Not retried.",
+      "flags": []
+    },
+    {
+      "id": "hotelcareer",
+      "name": "Hotelcareer",
+      "url": "https://www.hotelcareer.de",
+      "likelihood": {"hq_country": "medium", "founded": "low", "languages": "high", "api_status": "low"},
+      "try_pages": ["https://www.hotelcareer.de/impressum"],
+      "reason": "Language menu seen (Deutsch, Englisch, Französisch). Impressum link seen, which usually names the legal operator and seat, but its content was not read. Footer copyright and StepStone links seen. No Developers or API link.",
+      "flags": ["languages is in the missing list, but the language menu was seen and the record already lists de, en and fr; check the record."]
+    },
+    {
+      "id": "recruitee",
+      "name": "Recruitee",
+      "url": "https://recruitee.com",
+      "likelihood": {"languages": "high"},
+      "try_pages": ["https://recruitee.com/nl/"],
+      "reason": "Language menu seen with EN, DE, FR and NL, matching the review's findings. Founding year is not linked on this site.",
+      "flags": ["languages is in the missing list, but the language menu and the review both show en, de, fr and nl; check the record."]
+    },
+    {
+      "id": "jobvite",
+      "name": "Jobvite",
+      "url": "https://www.jobvite.com",
+      "likelihood": {"languages": "high"},
+      "try_pages": [],
+      "reason": "No language menu on the page, and the content is in English only. Pricing, Partners, Marketplace and Company links seen; no Developers or API link.",
+      "flags": ["languages is in the missing list; the site shows English only, so check whether the record should be en."]
+    },
+    {
+      "id": "cerco-trovo",
+      "name": "Cerco&Trovo",
+      "url": "https://www.cercoetrovo.it/",
+      "likelihood": {"hq_country": "medium", "founded": "low", "parent": "low", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://cercoetrovo.it/dove-siamo", "https://cercoetrovo.it/pubblicita"],
+      "reason": "Contatti page (Sede e Contatti) seen, which usually states the seat. Pubblicita page (Per la tua pubblicita) seen for paid placement. Site is Italian only with no language menu. No About, Partner or API link.",
+      "flags": ["The site is a general classifieds portal with about 12,800 listings across many categories, not only jobs. The record type 'board' should be checked."]
+    }
+  ]
+}
