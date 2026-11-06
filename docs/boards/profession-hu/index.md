@@ -1,6 +1,6 @@
 # Profession.hu
 
-Profession.hu is a board. It was founded in 2002.
+Profession.hu is a job board. It was founded in 2002.
 
 - Website: https://www.profession.hu/
 - Headquarters: not recorded

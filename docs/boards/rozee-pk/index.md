@@ -1,6 +1,6 @@
 # Rozee.pk
 
-Rozee.pk is a board.
+Rozee.pk is a job board.
 
 - Website: http://www.rozee.pk/
 - Headquarters: not recorded

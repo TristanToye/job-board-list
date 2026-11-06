@@ -1,0 +1,47 @@
+{
+ "id": "personio",
+ "name": "Personio",
+ "url": "https://www.personio.com",
+ "type": "ats",
+ "hq_country": "DE",
+ "founded": "",
+ "markets": "Global",
+ "countries_served": [],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Europe",
+ "niche": "applicant tracking system",
+ "segment": "SMB (DACH)",
+ "parent": "",
+ "business_model": "",
+ "api_status": "public-open",
+ "api_docs_url": "https://developer.personio.de",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "Public job feed"
+ ],
+ "notes": "Public XML job feed. Write API: OAuth. Reading jobs needs auth: no (XML feed).",
+ "confidence": "seed-unverified",
+ "page": "https://jobboardlist.com/boards/personio/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 15455,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-06"
+ },
+ "tags": [
+  "api-open",
+  "ats",
+  "partner-program",
+  "public-job-feed",
+  "smb"
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": []
+}

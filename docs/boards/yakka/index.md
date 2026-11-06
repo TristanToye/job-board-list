@@ -1,6 +1,6 @@
 # Yakka
 
-Yakka is a niche board, focused on trades.
+Yakka is a niche job board, focused on trades.
 
 - Website: https://www.yakkalabour.com.au/
 - Headquarters: not recorded

@@ -1,11 +1,12 @@
 # Job boards in United Kingdom
 
-15 job boards and related entries based in or serving United Kingdom.
+16 job boards and related entries based in or serving United Kingdom.
 
 - [Office for National Statistics](https://jobboardlist.com/boards/office-for-national-statistics/): lmi, Large tier
 - [Prospects](https://jobboardlist.com/boards/prospects/): niche-board, Established tier
 - [Reed](https://jobboardlist.com/boards/reed/): board, Established tier, Self-serve API key
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Established tier, Partner-only API
+- [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Established tier, Self-serve API key
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Established tier, Partner-only API
 - [Nomis](https://jobboardlist.com/boards/nomis/): lmi, Established tier
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key

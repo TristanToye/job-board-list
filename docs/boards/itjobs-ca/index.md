@@ -1,6 +1,6 @@
 # ITjobs.ca
 
-ITjobs.ca is a niche board based in Canada, focused on IT, software and cybersecurity.
+ITjobs.ca is a niche job board based in Canada, focused on IT, software and cybersecurity.
 
 - Website: https://www.itjobs.ca
 - Headquarters: Canada

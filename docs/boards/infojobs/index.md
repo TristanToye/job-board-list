@@ -1,6 +1,6 @@
 # InfoJobs
 
-InfoJobs is a board based in Spain. It was founded in 1998.
+InfoJobs is a job board based in Spain. It was founded in 1998.
 
 - Website: https://www.infojobs.net
 - Headquarters: Spain

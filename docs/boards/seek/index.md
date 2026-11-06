@@ -1,6 +1,6 @@
 # SEEK
 
-SEEK is a board based in Australia. It was founded in 1997.
+SEEK is a job board based in Australia. It was founded in 1997.
 
 - Website: https://www.seek.com.au
 - Headquarters: Australia

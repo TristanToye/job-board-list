@@ -1,6 +1,6 @@
 # apna
 
-apna is a board based in India, focused on blue-collar/gig.
+apna is a job board based in India, focused on blue-collar/gig.
 
 - Website: https://apna.co
 - Headquarters: India

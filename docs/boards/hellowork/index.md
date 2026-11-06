@@ -1,6 +1,6 @@
 # Hellowork
 
-Hellowork is a board. It was founded in 2022.
+Hellowork is a job board. It was founded in 2022.
 
 - Website: https://www.hellowork.com
 - Headquarters: not recorded

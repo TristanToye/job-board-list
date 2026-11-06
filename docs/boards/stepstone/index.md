@@ -1,6 +1,6 @@
 # StepStone
 
-StepStone is a board based in Germany.
+StepStone is a job board based in Germany.
 
 - Website: https://www.stepstone.de
 - Headquarters: Germany

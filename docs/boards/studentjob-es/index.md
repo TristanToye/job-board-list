@@ -1,6 +1,6 @@
 # StudentJob ES
 
-StudentJob ES is a niche board, focused on graduates.
+StudentJob ES is a niche job board, focused on graduates.
 
 - Website: https://www.studentjob.es/
 - Headquarters: not recorded

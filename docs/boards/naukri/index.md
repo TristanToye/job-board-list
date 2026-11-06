@@ -1,6 +1,6 @@
 # Naukri
 
-Naukri is a board based in India. It was founded in 1997.
+Naukri is a job board based in India. It was founded in 1997.
 
 - Website: https://www.naukri.com
 - Headquarters: India

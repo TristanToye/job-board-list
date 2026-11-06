@@ -2,30 +2,26 @@
 
 Software employers use to manage hiring and publish their jobs. 21 entries in the directory.
 
-
-
-## Applicant tracking systems
-
-- [Ashby](https://jobboardlist.com/ats/ashby/): Ashby, startup/scale-up
-- [BambooHR](https://jobboardlist.com/ats/bamboohr/): BambooHR, SMB
-- [Breezy HR](https://jobboardlist.com/ats/breezy/): Breezy, SMB
-- [Eightfold AI](https://jobboardlist.com/ats/eightfold/): Eightfold, enterprise
-- [Greenhouse](https://jobboardlist.com/ats/greenhouse/): Greenhouse Software, mid-market/enterprise
-- [iCIMS](https://jobboardlist.com/ats/icims/): iCIMS, enterprise
-- [JazzHR](https://jobboardlist.com/ats/jazzhr/): JazzHR (Employ), SMB
-- [Jobvite](https://jobboardlist.com/ats/jobvite/): Employ Inc., mid-market/enterprise
-- [Lever](https://jobboardlist.com/ats/lever/): Employ Inc., mid-market
-- [Oracle Recruiting Cloud](https://jobboardlist.com/ats/oracle-recruiting/): Oracle, enterprise
-- [Personio](https://jobboardlist.com/ats/personio/): Personio, SMB (DACH)
-- [Phenom](https://jobboardlist.com/ats/phenom/): Phenom, enterprise
-- [Pinpoint](https://jobboardlist.com/ats/pinpoint/): Pinpoint, mid-market
-- [Recruitee](https://jobboardlist.com/ats/recruitee/): Tellent, SMB/mid-market
-- [Rippling Recruiting](https://jobboardlist.com/ats/rippling/): Rippling, SMB/mid-market
-- [SmartRecruiters](https://jobboardlist.com/ats/smartrecruiters/): SmartRecruiters, enterprise
-- [SAP SuccessFactors Recruiting](https://jobboardlist.com/ats/successfactors/): SAP, enterprise
-- [Oracle Taleo](https://jobboardlist.com/ats/taleo/): Oracle, enterprise
-- [Teamtailor](https://jobboardlist.com/ats/teamtailor/): Teamtailor, SMB/mid-market
-- [Workable](https://jobboardlist.com/ats/workable/): Workable, SMB
-- [Workday Recruiting](https://jobboardlist.com/ats/workday/): Workday, enterprise
+- [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
+- [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
+- [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
+- [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
+- [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
+- [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
+- [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
+- [Eightfold AI](https://jobboardlist.com/boards/eightfold/): ats
+- [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
+- [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
+- [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
+- [Phenom](https://jobboardlist.com/boards/phenom/): ats
+- [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
+- [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API
 
 Canonical page: https://jobboardlist.com/tags/ats/

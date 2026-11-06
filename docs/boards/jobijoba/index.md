@@ -1,6 +1,6 @@
 # Jobijoba
 
-Jobijoba is an aggregator.
+Jobijoba is a job aggregator.
 
 - Website: https://www.jobijoba.com
 - Headquarters: not recorded

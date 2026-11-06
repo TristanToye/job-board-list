@@ -1,6 +1,6 @@
 # SimplyHired
 
-SimplyHired is an aggregator based in United States. It was founded in 2003.
+SimplyHired is a job aggregator based in United States. It was founded in 2003.
 
 - Website: https://www.simplyhired.com
 - Headquarters: United States

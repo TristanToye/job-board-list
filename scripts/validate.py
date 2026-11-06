@@ -6,8 +6,8 @@ API = {"on-request","public-open","public-key","partner-only","deprecated","none
 bad = 0
 def load(n):
     with open(D/n, newline="", encoding="utf-8") as f: return list(csv.DictReader(f))
-boards, ats = load("job_boards.csv"), load("ats_systems.csv")
-for name, rows in (("job_boards", boards), ("ats_systems", ats)):
+boards = load("job_boards.csv"); ats = [b for b in boards if b["type"] == "ats"]
+for name, rows in (("job_boards", boards),):
     ids = [r["id"] for r in rows]
     for i in {x for x in ids if ids.count(x) > 1}: print(f"{name}: duplicate id {i}"); bad += 1
     for r in rows:

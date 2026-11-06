@@ -1,6 +1,6 @@
 # Jobs.ca
 
-Jobs.ca is a board based in Canada, focused on general (network of sector and regional sites).
+Jobs.ca is a job board based in Canada, focused on general (network of sector and regional sites).
 
 - Website: https://www.jobs.ca
 - Headquarters: Canada

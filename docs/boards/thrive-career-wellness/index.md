@@ -1,6 +1,6 @@
 # Thrive Career Wellness
 
-Thrive Career Wellness is an outplacement based in Canada, focused on outplacement and career transition.
+Thrive Career Wellness is an outplacement firm based in Canada, focused on outplacement and career transition.
 
 - Website: https://thrivemycareer.com/
 - Headquarters: Canada

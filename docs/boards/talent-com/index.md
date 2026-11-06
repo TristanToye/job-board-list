@@ -1,6 +1,6 @@
 # Talent.com
 
-Talent.com is an aggregator based in Canada.
+Talent.com is a job aggregator based in Canada.
 
 - Website: https://www.talent.com
 - Headquarters: Canada

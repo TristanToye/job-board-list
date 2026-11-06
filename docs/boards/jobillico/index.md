@@ -1,6 +1,6 @@
 # Jobillico
 
-Jobillico is a board based in Canada. It was founded in 2007.
+Jobillico is a job board based in Canada. It was founded in 2007.
 
 - Website: https://www.jobillico.com
 - Headquarters: Canada

@@ -1,0 +1,47 @@
+{
+ "id": "successfactors",
+ "name": "SAP SuccessFactors Recruiting",
+ "url": "https://www.successfactors.com",
+ "type": "ats",
+ "hq_country": "DE",
+ "founded": "",
+ "markets": "Global",
+ "countries_served": [],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Europe",
+ "niche": "applicant tracking system",
+ "segment": "enterprise",
+ "parent": "",
+ "business_model": "",
+ "api_status": "public-key",
+ "api_docs_url": "https://api.sap.com",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "Public job feed"
+ ],
+ "notes": "Job feed + OData APIs. Write API: OData. Reading jobs needs auth: partial.",
+ "confidence": "seed-unverified",
+ "page": "https://jobboardlist.com/boards/successfactors/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 18668,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-06"
+ },
+ "tags": [
+  "api-self-serve",
+  "ats",
+  "enterprise",
+  "partner-program",
+  "public-job-feed"
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": []
+}

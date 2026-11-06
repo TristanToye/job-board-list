@@ -1,6 +1,6 @@
 # Jooble
 
-Jooble is an aggregator based in Ukraine. It was founded in 2006.
+Jooble is a job aggregator based in Ukraine. It was founded in 2006.
 
 - Website: https://jooble.org
 - Headquarters: Ukraine

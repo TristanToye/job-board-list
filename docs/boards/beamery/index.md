@@ -1,6 +1,6 @@
 # Beamery
 
-Beamery is a hr tech, focused on talent lifecycle and workforce intelligence.
+Beamery is an HR technology vendor, focused on talent lifecycle and workforce intelligence.
 
 - Website: https://beamery.com
 - Headquarters: not recorded

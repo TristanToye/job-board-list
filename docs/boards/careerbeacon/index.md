@@ -1,6 +1,6 @@
 # CareerBeacon
 
-CareerBeacon is a board based in Canada, focused on general (Atlantic Canada).
+CareerBeacon is a job board based in Canada, focused on general (Atlantic Canada).
 
 - Website: https://www.careerbeacon.com
 - Headquarters: Canada

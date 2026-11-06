@@ -1,6 +1,6 @@
 # Handshake
 
-Handshake is a niche board based in United States, focused on students/early-career. It was founded in 2014.
+Handshake is a niche job board based in United States, focused on students/early-career. It was founded in 2014.
 
 - Website: https://joinhandshake.com
 - Headquarters: United States

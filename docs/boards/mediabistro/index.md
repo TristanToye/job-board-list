@@ -1,6 +1,6 @@
 # Mediabistro
 
-Mediabistro is a board. It was founded in 1999.
+Mediabistro is a job board. It was founded in 1999.
 
 - Website: https://www.mediabistro.com/
 - Headquarters: not recorded

@@ -1,8 +1,14 @@
 # Open API
 
-Provides an API or feed that needs no approval. 8 entries in the directory.
+Provides an API or feed that needs no approval. 14 entries in the directory.
 
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
 - [We Work Remotely](https://jobboardlist.com/boards/weworkremotely/): niche-board, Open API (no key)
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
+- [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [Remote OK](https://jobboardlist.com/boards/remoteok/): niche-board, Open API (no key)
 - [Remotive](https://jobboardlist.com/boards/remotive/): niche-board, Open API (no key)
 - [Himalayas](https://jobboardlist.com/boards/himalayas/): niche-board, Open API (no key)

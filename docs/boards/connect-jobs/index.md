@@ -1,6 +1,6 @@
 # Connect Nonprofit Jobs
 
-Connect Nonprofit Jobs is a niche board based in Canada, focused on nonprofit sector (Ontario).
+Connect Nonprofit Jobs is a niche job board based in Canada, focused on nonprofit sector (Ontario).
 
 - Website: https://connectjobs.ca
 - Headquarters: Canada

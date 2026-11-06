@@ -1,6 +1,6 @@
 # Textkernel
 
-Textkernel is a lmi, focused on real-time private and labour market data.
+Textkernel is a labour market information source, focused on real-time private and labour market data.
 
 - Website: https://www.textkernel.com
 - Headquarters: not recorded

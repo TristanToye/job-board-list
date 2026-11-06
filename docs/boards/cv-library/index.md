@@ -1,6 +1,6 @@
 # CV-Library
 
-CV-Library is a board based in United Kingdom. It was founded in 2000.
+CV-Library is a job board based in United Kingdom. It was founded in 2000.
 
 - Website: https://www.cv-library.co.uk
 - Headquarters: United Kingdom

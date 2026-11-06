@@ -1,6 +1,6 @@
 # CareerBuilder
 
-CareerBuilder is a board based in PR. It was founded in 1995.
+CareerBuilder is a job board based in PR. It was founded in 1995.
 
 - Website: https://www.careerbuilder.com
 - Headquarters: PR

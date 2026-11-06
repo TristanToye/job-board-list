@@ -1,6 +1,6 @@
 # Zhaopin
 
-Zhaopin is a board based in China.
+Zhaopin is a job board based in China.
 
 - Website: https://www.zhaopin.com
 - Headquarters: China

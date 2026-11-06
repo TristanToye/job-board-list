@@ -1,6 +1,6 @@
 # Checkr
 
-Checkr is a hr tech, focused on background screening.
+Checkr is an HR technology vendor, focused on background screening.
 
 - Website: https://checkr.com
 - Headquarters: not recorded

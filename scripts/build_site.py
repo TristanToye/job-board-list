@@ -34,8 +34,12 @@ API_BLURB = {
  "none-known":"Boards with no publicly documented API that we could identify. Access is typically by crawling or by employer feed.",
  "unknown":"Boards where API availability has not yet been researched."}
 
-def tdesc(b): return {"government":"government job site"}.get(b["type"], b["type"].replace("+", " and ").replace("-", " "))
-def article(w): return "an" if w[:1].lower() in "aeiou" else "a"
+TYPE_NOUN = {"board": "job board", "niche-board": "niche job board", "aggregator": "job aggregator", "ats": "applicant tracking system", "lmi": "labour market information source", "hr-tech": "HR technology vendor",
+    "career-services": "career services provider", "freelance-platform": "freelance marketplace", "employer-reviews": "employer review site", "staffing": "staffing agency",
+    "recruiting-services": "recruiting firm", "outplacement": "outplacement firm", "government": "government job site", "directory": "directory of job sites", "community": "job community"}
+def tdesc(b): return TYPE_NOUN.get(b["type"], b["type"].replace("+", " and ").replace("-", " "))
+def type_label(b): t = tdesc(b); return t[:1].upper() + t[1:] if not t.startswith("HR") else t
+def article(w): return "an" if w[:1].lower() in "aeiou" or w.startswith("HR") else "a"
 def e(s): return html.escape(str(s), quote=True)
 def slug(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")
 def load(n):
@@ -43,7 +47,7 @@ def load(n):
 def split(s): return [x.strip() for x in (s or "").split(";") if x.strip()]
 def country(c): return COUNTRIES.get(c, c)
 
-boards, ats = load("job_boards.csv"), load("ats_systems.csv")
+boards = load("job_boards.csv"); ats = [b for b in boards if b["type"] == "ats"]
 for _c in load("countries.csv"): COUNTRIES.setdefault(_c["code"], _c["name"])
 RANK = {r["board_id"]: r for r in load("rank.csv")} if (ROOT/"data"/"rank.csv").exists() else {}
 SCALE = collections.defaultdict(list)
@@ -156,7 +160,7 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="",
 <body><header class="top"><div class="wrap bar"><a class="brand" href="{r}">{e(NAME)}</a><nav>{nav}</nav></div></header>
 <main class="wrap">{body}</main>
 <footer class="wrap foot"><p>{e(NAME)} is an open dataset. Download: <a href="{r}downloads/job_boards.csv">boards CSV</a>,
-<a href="{r}downloads/job_boards.json">boards JSON</a>, <a href="{r}downloads/ats_systems.csv">ATS CSV</a>, <a href="{r}data/boards.json">JSON data API</a>, <a href="{r}changelog/">changelog</a> and <a href="{r}feed.xml">feed</a>.
+<a href="{r}downloads/job_boards.json">boards JSON</a>, <a href="{r}data/boards.json">JSON data API</a>, <a href="{r}changelog/">changelog</a> and <a href="{r}feed.xml">feed</a>.
 Data is a work in progress and may be wrong: see <a href="{r}about/">methodology</a>. Web rank data: <a href="https://majestic.com/reports/majestic-million" rel="noopener nofollow">Majestic Million</a>, CC BY 3.0. Last built {TODAY}.</p></footer>
 </body></html>"""
 
@@ -201,7 +205,7 @@ def row(b, r):
     search = " ".join([b["name"], b["type"], b["hq_country"], country(b["hq_country"]), b["markets"], b["region"], b["niche"], " ".join(lang(c) for c in langs_of(b)), b["parent"], b["ingest_methods"]]).lower()
     return (f'<tr data-search="{e(search)}" data-region="{e(b["region"])}" data-type="{e(b["type"])}" data-api="{e(b["api_status"])}" data-partner="{e(b["partner_program"])}" data-lang="{e(" ".join(langs_of(b)))}" data-name="{e(b["name"].lower())}" data-tier="{e(prom(b)["tier"])}" data-rank="{skey(b)}" data-tags="{e(" ".join(tags_of("board", b["id"])))}">'
             f'<td><div class="namecell">{icon(b, r)}<div><a href="{board_url(b,r)}"><strong>{e(b["name"])}</strong></a><div class="muted small">{e(b["niche"])}</div>{"".join(f'<span class="tag">{e(TAX[t]["label"])}</span>' for t in tags_of("board", b["id"], "function")[:2])}</div></div></td>'
-            f'<td>{prom_cell(b)}</td><td>{e(b["type"])}</td><td>{e(country(b["hq_country"]) or "Not recorded")}</td><td>{e(lang(b["primary_language"]) or "Not recorded")}</td>'
+            f'<td>{prom_cell(b)}</td><td>{e(type_label(b))}</td><td>{e(country(b["hq_country"]) or "Not recorded")}</td><td>{e(lang(b["primary_language"]) or "Not recorded")}</td>'
             f'<td>{api_badge(b["api_status"])}</td><td>{e(b["partner_program"] or "unknown")}</td></tr>')
 
 def table(rows, r, filters=False):
@@ -222,7 +226,7 @@ fc_opts = "".join(f'<option value="{e(t)}">{e(r["label"])} ({tag_counts[t]})</op
 apicount = collections.Counter(b["api_status"] for b in boards)
 home_body = f"""
 <section class="hero"><h1>Every job board, aggregator and ATS, and how to integrate with them</h1>
-<p class="lede">{e(CFG["tagline"])}. Search {len(boards)} job boards, aggregators, staffing firms and other HR services, plus {len(ats)} applicant tracking systems, across regions and countries. Filter by type, focus and openness. Find who has an API, a partner program or a developer portal.</p>
+<p class="lede">{e(CFG["tagline"])}. Search {len(boards)} entries across job boards, aggregators, applicant tracking systems ({len(ats)}), staffing firms and other HR services, by region and country. Filter by type, focus and openness. Find who has an API, a partner program or a developer portal.</p>
 <div class="stats"><div><b>{len(boards)}</b><span>directory entries</span></div><div><b>{checked}</b><span>checked against sources</span></div><div><b>{len(ats)}</b><span>ATS systems</span></div>
 <div><b>{apicount["public-open"] + apicount["public-key"]}</b><span>with a public API</span></div><div><b>{apicount["partner-only"]}</b><span>partner-only</span></div></div>
 <p class="notice"><strong>Early data.</strong> {checked} of {len(boards)} entries have facts checked against cited sources, starting with Canada. Others are only confirmed as listed by another directory, and the rest were compiled from general knowledge. Treat anything not marked Partly verified as a lead.</p></section>
@@ -251,7 +255,7 @@ dataset = {"@context":"https://schema.org","@type":"Dataset","name":f"{NAME}: jo
                  {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":BASE+"/downloads/job_boards.json"}]}
 site_ld = {"@context":"https://schema.org","@type":"WebSite","name":NAME,"url":BASE+"/"}
 write("index.html", layout(0, f"{NAME}: job boards, aggregators and ATS systems with APIs and partner programs",
-  f"Open directory of {len(boards)} job boards, aggregators, staffing firms and HR services plus {len(ats)} ATS systems, by region and country, with API access, partner programs and owners.",
+  f"Open directory of {len(boards)} job boards, aggregators, ATS systems, staffing firms and HR services, by region and country, with API access, partner programs and owners.",
   home_body, "/", [dataset, site_ld]))
 
 # ---------- board pages ----------
@@ -296,7 +300,7 @@ for b in boards:
     body = f"""<nav class="crumbs"><a href="{r}">Directory</a> / <a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a> / {e(b["name"])}</nav>
 <div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is {article(tdesc(b))} {e(tdesc(b))}{" based in " + e(country(b["hq_country"])) if b["hq_country"] else ""}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
 <p>{api_badge(b["api_status"])} {conf_badge(b["confidence"])}</p>
-<dl class="facts">{fact("Website", link(b["url"]))}{fact("Review", e(review_text(b))) if review_text(b) else ""}{fact("Tags", tag_html) if tag_html else ""}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Type", e(b["type"]))}{fact("Founded", e(b["founded"])) if b["founded"] else ""}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>' if b["hq_country"] else '<span class="muted">Not recorded</span>')}
+<dl class="facts">{fact("Website", link(b["url"]))}{fact("Type", e(type_label(b)))}{fact("Review", e(review_text(b))) if review_text(b) else ""}{fact("Tags", tag_html) if tag_html else ""}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Founded", e(b["founded"])) if b["founded"] else ""}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>' if b["hq_country"] else '<span class="muted">Not recorded</span>')}
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
 {fact("Primary language", f'<a href="{r}languages/{slug(lang(b["primary_language"]))}/">{e(lang(b["primary_language"]))}</a>' if b["primary_language"] else '<span class="muted">Not recorded</span>')}{fact("Languages supported", "".join(f'<a class="chip" href="{r}languages/{slug(lang(c))}/">{e(lang(c))}</a>' for c in langs_of(b)) or '<span class="muted">Not recorded</span>')}
 {fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Owner", owner_fact) if owner_fact else (fact("Parent organisation", parent_html) if b["parent"] else fact("Parent organisation", '<span class="muted">None recorded</span>'))}
@@ -394,19 +398,13 @@ for c, v in by_lang.items():
         f"{len(v)} job boards and aggregators supporting {lang(c)}, with API access and partner program details.", body, f"/languages/{slug(lang(c))}/", itemlist(v, 2), noindex=len(v) < 3), indexed=len(v) >= 3)
 
 # ---------- ATS ----------
-def ats_row(a, r): return (f'<tr><td><a href="{r}ats/{a["id"]}/"><strong>{e(a["name"])}</strong></a><div class="muted small">{e(a["vendor"])}</div></td>'
-    f'<td>{e(a["segment"])}</td><td>{e(a["hq_country"])}</td><td>{e(a["public_job_feed"])}</td><td>{e(a["marketplace_partner_program"])}</td></tr>')
-write("ats/index.html", layout(1, f"ATS systems with public job feeds and APIs | {NAME}",
-  f"{len(ats)} applicant tracking systems compared by public job feed, API access and partner marketplace.",
-  f'<h1>Applicant tracking systems and their job APIs</h1><p class="lede">Which ATS platforms expose public job feeds, which require tokens, and which run partner marketplaces. Useful for building integrations or aggregating postings at source.</p><div class="tablewrap"><table><thead><tr><th>ATS</th><th>Segment</th><th>HQ</th><th>Public job feed</th><th>Partner program</th></tr></thead><tbody>'
-  + "".join(ats_row(a, "../") for a in sorted(ats, key=lambda a: a["name"].lower())) + "</tbody></table></div>", "/ats/"))
-for a in ats:
-    body = f"""<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">ATS systems</a> / {e(a["name"])}</nav><h1>{e(a["name"])}: job feed and API access</h1>
-<p class="lede">{e(a["name"])} is an applicant tracking system from {e(a["vendor"])} aimed at {e(a["segment"])} employers. Public job feed: {e(a["public_job_feed"])}.</p><p>{conf_badge(a["confidence"])}</p>
-<dl class="facts">{fact("Vendor", e(a["vendor"]))}{fact("Segment", e(a["segment"]))}{fact("HQ", e(a["hq_country"]))}{fact("Public job feed", e(a["public_job_feed"]))}
-{fact("Documentation", link(a["job_feed_docs_url"]))}{fact("Auth for reading jobs", e(a["auth_required"]))}{fact("Write API", e(a["write_api"]))}{fact("Partner marketplace", e(a["marketplace_partner_program"]))}</dl>
-{f'<h2>Notes</h2><p>{e(a["notes"])}</p>' if a["notes"] else ""}"""
-    write(f'ats/{a["id"]}/index.html', layout(2, f'{a["name"]} API and public job feed | {NAME}', f'{a["name"]} ({a["vendor"]}): public job feed, API authentication, write access and partner marketplace.', body, f'/ats/{a["id"]}/'))
+write("ats/index.html", layout(1, f"Applicant tracking systems: job feeds, APIs and partner programs | {NAME}",
+  f"{len(ats)} applicant tracking systems compared by public job feed, API access, partner programs, owners and customer segment.",
+  f'<h1>Applicant tracking systems</h1><p class="lede">Which ATS platforms expose public job feeds, which need keys, and which run partner marketplaces, with owners and customer segments. These systems are where most employers publish their jobs from, so their openness decides how jobs reach boards.</p>' + table(sorted(ats, key=lambda b: b["name"].lower()), "../")
+  + '<p class="muted small">ATS systems are part of the main directory, so filter by Type: Applicant tracking system on the home page, or see <a href="../tags/ats/">the tag page</a>.</p>', "/ats/", itemlist(ats, 1)), mod=TODAY)
+for a in ats:  # old addresses keep working
+    p_ = OUT / "ats" / a["id"]; p_.mkdir(parents=True, exist_ok=True)
+    (p_ / "index.html").write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(a["name"])}</title><meta name="robots" content="noindex"><link rel="canonical" href="{e(BASE)}/boards/{e(a["id"])}/"><meta http-equiv="refresh" content="0; url=../../boards/{e(a["id"])}/"></head><body><a href="../../boards/{e(a["id"])}/">{e(a["name"])}</a></body></html>', encoding="utf-8")
 
 # ---------- about ----------
 about = f"""<h1>About and methodology</h1><div class="prose">
@@ -433,11 +431,11 @@ write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}"
 shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js")
 if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", OUT/"assets"/"logos", dirs_exist_ok=True)
 (OUT/"downloads").mkdir(exist_ok=True)
-for n in ("job_boards.csv","ats_systems.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv","reviews.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
+for n in ("job_boards.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv","reviews.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/".nojekyll").write_text("")
 # ---------- tags ----------
-by_id = {b["id"]: b for b in boards}; ats_by = {a["id"]: a for a in ats}
+by_id = {b["id"]: b for b in boards}
 members = collections.defaultdict(lambda: {"board": [], "ats": []})
 for (kind, i), ts in TAGS_BY.items():
     for t in ts:
@@ -450,7 +448,7 @@ for fac, lbl in FACETS:
 write("tags/index.html", layout(1, f"Types of job sites explained: job boards, ATS, staffing, outplacement and more | {NAME}", "A taxonomy of job boards, aggregators, applicant tracking systems, staffing, outplacement and labour market information sources, with definitions.",
     f'<h1>Types of job sites, explained</h1><p class="lede">Every entry in the directory is tagged by what it is, who it is for, how it makes money and how open it is to integration. Use the tags to filter, group and compare.</p>{tag_idx}', "/tags/"))
 for t, r in TAX.items():
-    mb = [by_id[i] for i in members[t]["board"] if i in by_id]; ma = [ats_by[i] for i in members[t]["ats"] if i in ats_by]
+    mb = [by_id[i] for i in members[t]["board"] if i in by_id]; ma = []
     if not mb and not ma: continue
     body = f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">Types</a> / {e(r["label"])}</nav><h1>{e(r["label"])}</h1><p class="lede">{e(r["definition"])} {len(mb) + len(ma)} entries are tagged this way.</p>'
     if mb: body += table(mb, "../../")
@@ -554,7 +552,7 @@ order = {"board": 0, "owner": 1, "tag": 2, "country": 3}
 n_idx = {k: sum(1 for kk, _, _ in MD_PAGES if kk == k) for k in order}
 llms = f"""# {NAME}
 
-> {CFG["tagline"]}. {len(boards)} entries (job boards, aggregators, staffing firms, labour market information sources and other HR services), {len(ats)} applicant tracking systems and {len(OWNERS)} owner companies, each with cited sources. Updated {TODAY}.
+> {CFG["tagline"]}. {len(boards)} entries (job boards, aggregators, {len(ats)} applicant tracking systems, staffing firms, labour market information sources and other HR services) and {len(OWNERS)} owner companies, each with cited sources. Updated {TODAY}.
 
 Notes for readers and models: facts are attributed to this directory and carry the date they were checked. Entries marked unverified have not been checked against the board's own site. Prominence uses Majestic Million web link popularity (CC BY 3.0), which measures how widely a site is linked to, not traffic. Every indexable page has a Markdown version at the same address ending in index.md.
 

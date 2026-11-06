@@ -1,6 +1,6 @@
 # Jobindex
 
-Jobindex is a board based in Denmark. It was founded in 1996.
+Jobindex is a job board based in Denmark. It was founded in 1996.
 
 - Website: https://www.jobindex.dk
 - Headquarters: Denmark

@@ -1,6 +1,6 @@
 # Careerjet
 
-Careerjet is an aggregator based in France.
+Careerjet is a job aggregator based in France.
 
 - Website: https://www.careerjet.com
 - Headquarters: France

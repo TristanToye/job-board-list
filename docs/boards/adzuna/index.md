@@ -1,6 +1,6 @@
 # Adzuna
 
-Adzuna is an aggregator based in United Kingdom. It was founded in 2011.
+Adzuna is a job aggregator based in United Kingdom. It was founded in 2011.
 
 - Website: https://www.adzuna.com
 - Headquarters: United Kingdom

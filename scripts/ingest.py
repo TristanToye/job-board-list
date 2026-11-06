@@ -13,7 +13,7 @@ import csv, json, pathlib, re, sys, datetime, urllib.parse, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent; DATA = ROOT / "data"
 TODAY = datetime.date.today().isoformat()
-TYPES = {"staffing","recruiting-services","outplacement","lmi","hr-tech","career-services","freelance-platform","employer-reviews","board","aggregator","niche-board","government","social-network+board","programmatic-distribution","multiposting","feed-aggregator","directory","community","board+aggregator"}
+TYPES = {"ats","staffing","recruiting-services","outplacement","lmi","hr-tech","career-services","freelance-platform","employer-reviews","board","aggregator","niche-board","government","social-network+board","programmatic-distribution","multiposting","feed-aggregator","directory","community","board+aggregator"}
 API = {"public-open","public-key","on-request","partner-only","deprecated","none-known","unknown"}
 REVIEW_OUTCOMES = {"verified", "partially-verified", "not-stated", "blocked", "unreachable", "closed"}
 REVIEW_FIELDS = {"hq_country", "founded", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods", "pricing"}

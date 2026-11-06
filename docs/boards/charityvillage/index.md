@@ -1,6 +1,6 @@
 # CharityVillage
 
-CharityVillage is a niche board based in Canada, focused on nonprofit and charitable sector.
+CharityVillage is a niche job board based in Canada, focused on nonprofit and charitable sector.
 
 - Website: https://charityvillage.com
 - Headquarters: Canada

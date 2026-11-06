@@ -1,6 +1,6 @@
 # Torre.ai
 
-Torre.ai is a board. It was founded in 2019.
+Torre.ai is a job board. It was founded in 2019.
 
 - Website: https://torre.ai/
 - Headquarters: not recorded

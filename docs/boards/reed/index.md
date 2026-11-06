@@ -1,6 +1,6 @@
 # Reed
 
-Reed is a board based in United Kingdom. It was founded in 1960.
+Reed is a job board based in United Kingdom. It was founded in 1960.
 
 - Website: https://www.reed.co.uk
 - Headquarters: United Kingdom

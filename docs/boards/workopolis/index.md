@@ -1,6 +1,6 @@
 # Workopolis
 
-Workopolis is a board based in Canada. It was founded in 1999.
+Workopolis is a job board based in Canada. It was founded in 1999.
 
 - Website: https://www.workopolis.com
 - Headquarters: Canada

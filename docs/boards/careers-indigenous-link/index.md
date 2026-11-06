@@ -1,6 +1,6 @@
 # Careers.Indigenous.Link
 
-Careers.Indigenous.Link is a niche board based in Canada, focused on Indigenous job seekers.
+Careers.Indigenous.Link is a niche job board based in Canada, focused on Indigenous job seekers.
 
 - Website: https://careers.indigenous.link
 - Headquarters: Canada

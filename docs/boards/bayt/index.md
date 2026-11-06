@@ -1,6 +1,6 @@
 # Bayt
 
-Bayt is a board based in United Arab Emirates. It was founded in 2000.
+Bayt is a job board based in United Arab Emirates. It was founded in 2000.
 
 - Website: https://www.bayt.com
 - Headquarters: United Arab Emirates

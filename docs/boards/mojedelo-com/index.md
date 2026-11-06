@@ -1,6 +1,6 @@
 # MojeDelo.com
 
-MojeDelo.com is a board based in SI. It was founded in 2004.
+MojeDelo.com is a job board based in SI. It was founded in 2004.
 
 - Website: https://www.mojedelo.com
 - Headquarters: SI

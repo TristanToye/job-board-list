@@ -17,7 +17,7 @@ def add(kind, eid, tag, evidence):
 
 FUNCTION = {"board": ["job-board"], "niche-board": ["job-board"], "aggregator": ["job-aggregator"], "board+aggregator": ["job-board", "job-aggregator"],
     "aggregator+board": ["job-board", "job-aggregator"], "search-aggregator": ["job-aggregator"], "government": ["government-service", "job-board"],
-    "social-network+board": ["professional-network", "job-board"], "board+employer-brand": ["job-board"], "classifieds+board": ["job-board"], "board+chat": ["job-board"], "board+reviews": ["job-board", "employer-reviews"], "programmatic-distribution": ["job-distribution"],
+    "social-network+board": ["professional-network", "job-board"], "ats": ["ats"], "board+employer-brand": ["job-board"], "classifieds+board": ["job-board"], "board+chat": ["job-board"], "board+reviews": ["job-board", "employer-reviews"], "programmatic-distribution": ["job-distribution"],
     "multiposting": ["job-distribution"], "feed-aggregator": ["job-distribution"], "directory": ["directory"], "community": ["community"]}
 for t in ("staffing", "recruiting-services", "outplacement", "lmi", "hr-tech", "career-services", "freelance-platform", "employer-reviews"): FUNCTION[t] = [t]
 FOCUS = [("tech", r"\btech|software|\bit\b|cyber|developer|data science"), ("engineering", r"engineer"), ("healthcare", r"health|medical|nursing|dental|pharma|\bcare\b"),
@@ -55,14 +55,12 @@ for b in load("job_boards.csv"):
     if "crawl" in im: add("board", i, "crawl-sourced", f"ingest_methods={b['ingest_methods']}")
     if GOV.search(b["parent"]): add("board", i, "government-operated", f"parent={b['parent']}")
     if NONPROFIT.search(b["parent"]): add("board", i, "nonprofit-operated", f"parent={b['parent']}")
-for a in load("ats_systems.csv"):
-    i = a["id"]; add("ats", i, "ats", "listed in ats_systems")
-    if a["public_job_feed"].lower().startswith("yes"): add("ats", i, "public-job-feed", f"public_job_feed={a['public_job_feed']}")
-    if a["marketplace_partner_program"].lower() == "yes": add("ats", i, "partner-program", "marketplace_partner_program=yes")
-    seg = a["segment"].lower()
-    if "smb" in seg: add("ats", i, "smb", f"segment={a['segment']}")
-    if "mid-market" in seg: add("ats", i, "mid-market", f"segment={a['segment']}")
-    if "enterprise" in seg: add("ats", i, "enterprise", f"segment={a['segment']}")
+for b in load("job_boards.csv"):
+    seg = b.get("segment", "").lower()
+    if "smb" in seg or "small" in seg: add("board", b["id"], "smb", f"segment={b['segment']}")
+    if "mid-market" in seg: add("board", b["id"], "mid-market", f"segment={b['segment']}")
+    if "enterprise" in seg: add("board", b["id"], "enterprise", f"segment={b['segment']}")
+    if "public job feed" in b["ingest_methods"].lower(): add("board", b["id"], "public-job-feed", f"ingest_methods={b['ingest_methods']}")
 out.sort(key=lambda r: (r["kind"], r["entry_id"], r["tag"]))
 with open(DATA / "tags.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=["kind", "entry_id", "tag", "basis", "evidence"], lineterminator="\n"); w.writeheader(); w.writerows(out)

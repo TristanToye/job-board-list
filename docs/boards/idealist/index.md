@@ -1,6 +1,6 @@
 # Idealist
 
-Idealist is a niche board based in United States, focused on nonprofit.
+Idealist is a niche job board based in United States, focused on nonprofit.
 
 - Website: https://www.idealist.org
 - Headquarters: United States

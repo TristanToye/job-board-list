@@ -1,6 +1,6 @@
 # HireVue
 
-HireVue is a hr tech, focused on video interviewing and skills assessment.
+HireVue is an HR technology vendor, focused on video interviewing and skills assessment.
 
 - Website: https://www.hirevue.com
 - Headquarters: not recorded

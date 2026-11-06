@@ -1,6 +1,6 @@
 # JobStreet
 
-JobStreet is a board based in Malaysia. It was founded in 1997.
+JobStreet is a job board based in Malaysia. It was founded in 1997.
 
 - Website: https://www.jobstreet.com
 - Headquarters: Malaysia

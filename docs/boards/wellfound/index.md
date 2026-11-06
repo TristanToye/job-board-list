@@ -1,6 +1,6 @@
 # Wellfound
 
-Wellfound is a niche board based in United States, focused on startup.
+Wellfound is a niche job board based in United States, focused on startup.
 
 - Website: https://wellfound.com
 - Headquarters: United States

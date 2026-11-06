@@ -1,6 +1,6 @@
 # Rezi
 
-Rezi is a career services, focused on AI resume builder.
+Rezi is a career services provider, focused on AI resume builder.
 
 - Website: https://www.rezi.ai
 - Headquarters: not recorded

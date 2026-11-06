@@ -2,19 +2,15 @@
 
 Aimed at large enterprises. 10 entries in the directory.
 
-
-
-## Applicant tracking systems
-
-- [Eightfold AI](https://jobboardlist.com/ats/eightfold/): Eightfold, enterprise
-- [Greenhouse](https://jobboardlist.com/ats/greenhouse/): Greenhouse Software, mid-market/enterprise
-- [iCIMS](https://jobboardlist.com/ats/icims/): iCIMS, enterprise
-- [Jobvite](https://jobboardlist.com/ats/jobvite/): Employ Inc., mid-market/enterprise
-- [Oracle Recruiting Cloud](https://jobboardlist.com/ats/oracle-recruiting/): Oracle, enterprise
-- [Phenom](https://jobboardlist.com/ats/phenom/): Phenom, enterprise
-- [SmartRecruiters](https://jobboardlist.com/ats/smartrecruiters/): SmartRecruiters, enterprise
-- [SAP SuccessFactors Recruiting](https://jobboardlist.com/ats/successfactors/): SAP, enterprise
-- [Oracle Taleo](https://jobboardlist.com/ats/taleo/): Oracle, enterprise
-- [Workday Recruiting](https://jobboardlist.com/ats/workday/): Workday, enterprise
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
+- [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
+- [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
+- [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
+- [Eightfold AI](https://jobboardlist.com/boards/eightfold/): ats
+- [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
+- [Phenom](https://jobboardlist.com/boards/phenom/): ats
+- [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
+- [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API
 
 Canonical page: https://jobboardlist.com/tags/enterprise/

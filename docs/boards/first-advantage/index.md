@@ -1,6 +1,6 @@
 # First Advantage
 
-First Advantage is a hr tech, focused on background screening technology.
+First Advantage is an HR technology vendor, focused on background screening technology.
 
 - Website: https://fadv.com
 - Headquarters: not recorded

@@ -1,6 +1,6 @@
 # bdjobs.com
 
-bdjobs.com is a board. It was founded in 2000.
+bdjobs.com is a job board. It was founded in 2000.
 
 - Website: https://bdjobs.com
 - Headquarters: not recorded

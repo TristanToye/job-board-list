@@ -1,0 +1,47 @@
+{
+ "id": "lever",
+ "name": "Lever",
+ "url": "https://www.lever.co",
+ "type": "ats",
+ "hq_country": "US",
+ "founded": "",
+ "markets": "Global",
+ "countries_served": [],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "North America",
+ "niche": "applicant tracking system",
+ "segment": "mid-market",
+ "parent": "Employ Inc.",
+ "business_model": "",
+ "api_status": "public-open",
+ "api_docs_url": "https://github.com/lever/postings-api",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "Public job feed"
+ ],
+ "notes": "Postings API api.lever.co/v0/postings/{site}. Write API: API key. Reading jobs needs auth: no (read).",
+ "confidence": "seed-unverified",
+ "page": "https://jobboardlist.com/boards/lever/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Large",
+  "label": "Large",
+  "global_rank": 3942,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-06"
+ },
+ "tags": [
+  "api-open",
+  "ats",
+  "mid-market",
+  "partner-program",
+  "public-job-feed"
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": []
+}

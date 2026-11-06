@@ -1,0 +1,47 @@
+{
+ "id": "workable",
+ "name": "Workable",
+ "url": "https://www.workable.com",
+ "type": "ats",
+ "hq_country": "GR",
+ "founded": "",
+ "markets": "Global",
+ "countries_served": [],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Europe",
+ "niche": "applicant tracking system",
+ "segment": "SMB",
+ "parent": "",
+ "business_model": "",
+ "api_status": "public-key",
+ "api_docs_url": "https://workable.readme.io",
+ "partner_program": "yes",
+ "partner_url": "",
+ "ingest_methods": [
+  "Public job feed"
+ ],
+ "notes": "Also has own aggregated job board. Write API: token. Reading jobs needs auth: token.",
+ "confidence": "seed-unverified",
+ "page": "https://jobboardlist.com/boards/workable/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Large",
+  "label": "Large",
+  "global_rank": 3142,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-06"
+ },
+ "tags": [
+  "api-self-serve",
+  "ats",
+  "partner-program",
+  "public-job-feed",
+  "smb"
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": []
+}

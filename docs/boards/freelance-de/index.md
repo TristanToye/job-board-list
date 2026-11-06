@@ -1,6 +1,6 @@
 # freelance.de
 
-freelance.de is a freelance platform, focused on freelancer and project platform for the DACH region.
+freelance.de is a freelance marketplace, focused on freelancer and project platform for the DACH region.
 
 - Website: https://www.freelance.de
 - Headquarters: not recorded

@@ -1,6 +1,6 @@
 # Jobberman
 
-Jobberman is a board based in Nigeria. It was founded in 2009.
+Jobberman is a job board based in Nigeria. It was founded in 2009.
 
 - Website: https://www.jobberman.com
 - Headquarters: Nigeria

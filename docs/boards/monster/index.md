@@ -1,6 +1,6 @@
 # Monster
 
-Monster is a board based in PR. It was founded in 1999.
+Monster is a job board based in PR. It was founded in 1999.
 
 - Website: https://www.monster.com
 - Headquarters: PR

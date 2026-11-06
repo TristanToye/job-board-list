@@ -1,6 +1,6 @@
 # Freelancer.com
 
-Freelancer.com is a freelance platform, focused on general freelance and project marketplace.
+Freelancer.com is a freelance marketplace, focused on general freelance and project marketplace.
 
 - Website: https://www.freelancer.com
 - Headquarters: not recorded

@@ -5,22 +5,38 @@ Has a partner or integration program. 65 entries in the directory.
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
+- [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
+- [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
 - [HeadHunter (hh.ru)](https://jobboardlist.com/boards/hh-ru/): board, Self-serve API key
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
+- [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
+- [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
+- [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
+- [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
 - [TaskRabbit](https://jobboardlist.com/boards/taskrabbit/): freelance-platform
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
+- [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
+- [Eightfold AI](https://jobboardlist.com/boards/eightfold/): ats
 - [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
+- [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [JobStreet](https://jobboardlist.com/boards/jobstreet/): board, Partner-only API
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Partner-only API
 - [HireVue](https://jobboardlist.com/boards/hirevue/): hr-tech
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
+- [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech
@@ -29,7 +45,9 @@ Has a partner or integration program. 65 entries in the directory.
 - [Beamery](https://jobboardlist.com/boards/beamery/): hr-tech
 - [Harver](https://jobboardlist.com/boards/harver/): hr-tech
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
+- [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
+- [Phenom](https://jobboardlist.com/boards/phenom/): ats
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
@@ -44,31 +62,10 @@ Has a partner or integration program. 65 entries in the directory.
 - [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API
 - [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
+- [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
+- [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API
 - [XING Jobs](https://jobboardlist.com/boards/xing/): social-network+board, Partner-only API
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
 - [Thrive Career Wellness](https://jobboardlist.com/boards/thrive-career-wellness/): outplacement
-
-## Applicant tracking systems
-
-- [Ashby](https://jobboardlist.com/ats/ashby/): Ashby, startup/scale-up
-- [BambooHR](https://jobboardlist.com/ats/bamboohr/): BambooHR, SMB
-- [Breezy HR](https://jobboardlist.com/ats/breezy/): Breezy, SMB
-- [Eightfold AI](https://jobboardlist.com/ats/eightfold/): Eightfold, enterprise
-- [Greenhouse](https://jobboardlist.com/ats/greenhouse/): Greenhouse Software, mid-market/enterprise
-- [iCIMS](https://jobboardlist.com/ats/icims/): iCIMS, enterprise
-- [JazzHR](https://jobboardlist.com/ats/jazzhr/): JazzHR (Employ), SMB
-- [Jobvite](https://jobboardlist.com/ats/jobvite/): Employ Inc., mid-market/enterprise
-- [Lever](https://jobboardlist.com/ats/lever/): Employ Inc., mid-market
-- [Oracle Recruiting Cloud](https://jobboardlist.com/ats/oracle-recruiting/): Oracle, enterprise
-- [Personio](https://jobboardlist.com/ats/personio/): Personio, SMB (DACH)
-- [Phenom](https://jobboardlist.com/ats/phenom/): Phenom, enterprise
-- [Pinpoint](https://jobboardlist.com/ats/pinpoint/): Pinpoint, mid-market
-- [Recruitee](https://jobboardlist.com/ats/recruitee/): Tellent, SMB/mid-market
-- [SmartRecruiters](https://jobboardlist.com/ats/smartrecruiters/): SmartRecruiters, enterprise
-- [SAP SuccessFactors Recruiting](https://jobboardlist.com/ats/successfactors/): SAP, enterprise
-- [Oracle Taleo](https://jobboardlist.com/ats/taleo/): Oracle, enterprise
-- [Teamtailor](https://jobboardlist.com/ats/teamtailor/): Teamtailor, SMB/mid-market
-- [Workable](https://jobboardlist.com/ats/workable/): Workable, SMB
-- [Workday Recruiting](https://jobboardlist.com/ats/workday/): Workday, enterprise
 
 Canonical page: https://jobboardlist.com/tags/partner-program/

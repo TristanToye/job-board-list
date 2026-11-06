@@ -1,6 +1,6 @@
 # Vagas.com
 
-Vagas.com is a board based in Brazil.
+Vagas.com is a job board based in Brazil.
 
 - Website: https://www.vagas.com.br
 - Headquarters: Brazil

@@ -1,6 +1,6 @@
 # Sterling
 
-Sterling is a hr tech, focused on background screening.
+Sterling is an HR technology vendor, focused on background screening.
 
 - Website: https://www.sterlingcheck.com
 - Headquarters: not recorded

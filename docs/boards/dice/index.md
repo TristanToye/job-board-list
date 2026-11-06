@@ -1,6 +1,6 @@
 # Dice
 
-Dice is a niche board based in United States, focused on tech. It was founded in 1990.
+Dice is a niche job board based in United States, focused on tech. It was founded in 1990.
 
 - Website: https://www.dice.com
 - Headquarters: United States
