@@ -38,7 +38,14 @@
   "general",
   "job-aggregator"
  ],
- "review": null,
+ "review": {
+  "board_id": "eluta",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 503 Service Unavailable on two fetch attempts.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

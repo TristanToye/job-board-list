@@ -9,8 +9,10 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "workforce and business solutions",
  "parent": "",
@@ -20,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Staffing company site. Language selector lists regional English variants only. Headquarters, parent company and job-posting terms not stated on pages read. /about-us returned HTTP 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/allegis-group/",
  "indexable": false,
@@ -35,7 +37,14 @@
  "tags": [
   "staffing"
  ],
- "review": null,
+ "review": {
+  "board_id": "allegis-group",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage language selector lists English variants only. Headquarters and parent not stated; /about-us returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +54,14 @@
    "title": "Allegis Group",
    "accessed": "2026-11-06",
    "quote": "We're the global leader in workforce and business solutions.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.allegisgroup.com",
+   "title": "Language selector",
+   "accessed": "2026-11-06",
+   "quote": "United States - English, EMEA - English, APAC - English",
    "quote_check": "ok"
   }
  ]

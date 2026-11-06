@@ -36,7 +36,14 @@
   "job-board",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "hirist",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage and /about-us read; no readable text states any of the missing facts. Homepage describes itself as India's #1 IT Job Portal.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

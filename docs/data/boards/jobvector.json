@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "jobvector",
+  "reviewed": "2026-11-06",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Fetch returned HTTP 403; browser reader returned a Cloudflare security verification page (blocked).",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

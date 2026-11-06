@@ -1,6 +1,6 @@
 # Free to post
 
-Employers can post jobs without paying. 14 entries in the directory.
+Employers can post jobs without paying. 15 entries in the directory.
 
 - [Freelancer.com](https://jobboardlist.com/boards/freelancer-com/): freelance-platform
 - [USAJOBS](https://jobboardlist.com/boards/usajobs/): government, Self-serve API key
@@ -8,6 +8,7 @@ Employers can post jobs without paying. 14 entries in the directory.
 - [Internshala](https://jobboardlist.com/boards/internshala/): niche-board
 - [Work at a Startup](https://jobboardlist.com/boards/yc-waas/): niche-board, No known API
 - [Arbeitnow](https://jobboardlist.com/boards/arbeitnow/): niche-board, Open API (no key)
+- [Trabajos.com](https://jobboardlist.com/boards/trabajos-com/): board
 - [Jobsuche (Bundesagentur fur Arbeit)](https://jobboardlist.com/boards/jobsuche-ba/): government, Self-serve API key
 - [France Travail](https://jobboardlist.com/boards/francetravail/): government, Self-serve API key
 - [Google for Jobs](https://jobboardlist.com/boards/google-jobs/): search-aggregator, Open API (no key)

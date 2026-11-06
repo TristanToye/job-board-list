@@ -9,8 +9,10 @@
  "countries_served": [
   "VN"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "vi",
+ "languages_supported": [
+  "vi"
+ ],
  "region": "SEA",
  "niche": "",
  "parent": "",
@@ -20,8 +22,8 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Vietnamese job board. Head office address listed in Ho Chi Minh City. Copyright names the operating company; no parent stated. Employer payment terms not stated on pages read.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/careerviet/",
  "indexable": false,
  "prominence": {
@@ -35,7 +37,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "careerviet",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage and /vi/gioi-thieu state a Ho Chi Minh City head office. No parent, employer pricing, API or ingest method stated; language options not quoted.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +55,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "existence",
+   "url": "https://careerviet.vn",
+   "title": "Footer, head office",
+   "accessed": "2026-11-06",
+   "quote": "Trụ sở chính: Tầng 6, Tòa nhà VNO, 139 Pasteur, Phường Xuân Hoà, TP. Hồ Chí Minh, Việt Nam",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://careerviet.vn",
+   "title": "Homepage navigation",
+   "accessed": "2026-11-06",
+   "quote": "Đăng Tuyển Dụng",
+   "quote_check": "ok"
   }
  ]
 }

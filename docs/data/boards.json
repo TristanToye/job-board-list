@@ -6024,7 +6024,14 @@
     "general",
     "job-aggregator"
    ],
-   "review": null,
+   "review": {
+    "board_id": "eluta",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 503 Service Unavailable on two fetch attempts.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -8328,7 +8335,14 @@
     "job-board",
     "tech"
    ],
-   "review": null,
+   "review": {
+    "board_id": "hirist",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and /about-us read; no readable text states any of the missing facts. Homepage describes itself as India's #1 IT Job Portal.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9185,13 +9199,13 @@
    "region": "Europe",
    "niche": "general",
    "parent": "",
-   "business_model": "",
+   "business_model": "free unit posting; paid packs and flat-rate plans also offered",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Spanish job board. Homepage states it is a brand of Hispavista. No language switcher, headquarters, API or ingest method stated on pages read. Employer prices not shown.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/trabajos-com/",
    "indexable": false,
@@ -9204,10 +9218,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "free-to-post",
     "general",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "trabajos-com",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+    "note": "Homepage states parent brand Hispavista; /empresas states free unit posting. No headquarters, language options, API or partner program stated.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9217,6 +9239,22 @@
      "title": "Trabajos.com - Ofertas de trabajo, Bolsa de empleo",
      "accessed": "2026-11-05",
      "quote": "Cuéntanos el puesto de trabajo que te interesa para conectar con las mejores oportunidades en trabajos.com",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.trabajos.com/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-06",
+     "quote": "Trabajos.com es una marca de Hispavista",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.trabajos.com/empresas",
+     "title": "Companies page",
+     "accessed": "2026-11-06",
+     "quote": "Publica gratis y contrata sólo si los candidatos te interesan. Sin riesgos.",
      "quote_check": "ok"
     }
    ]
@@ -9799,7 +9837,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "daijob-com",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage shows EN and English language links; footer names operating company only. No headquarters, parent, pricing or API stated on the homepage.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -11133,7 +11178,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "ejobs",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Fetch failed; browser reader returned HTTP 403 Cloudflare block page.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -11926,7 +11978,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "jobilize",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage read; it states no missing facts. /about and /pricing return HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -12428,7 +12487,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "jobvector",
+    "reviewed": "2026-11-06",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Fetch returned HTTP 403; browser reader returned a Cloudflare security verification page (blocked).",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -13701,8 +13767,10 @@
    "countries_served": [
     "VN"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "vi",
+   "languages_supported": [
+    "vi"
+   ],
    "region": "SEA",
    "niche": "",
    "parent": "",
@@ -13712,8 +13780,8 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "notes": "Vietnamese job board. Head office address listed in Ho Chi Minh City. Copyright names the operating company; no parent stated. Employer payment terms not stated on pages read.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/careerviet/",
    "indexable": false,
    "prominence": {
@@ -13727,7 +13795,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "careerviet",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and /vi/gioi-thieu state a Ho Chi Minh City head office. No parent, employer pricing, API or ingest method stated; language options not quoted.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -13738,6 +13813,22 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "existence",
+     "url": "https://careerviet.vn",
+     "title": "Footer, head office",
+     "accessed": "2026-11-06",
+     "quote": "Trụ sở chính: Tầng 6, Tòa nhà VNO, 139 Pasteur, Phường Xuân Hoà, TP. Hồ Chí Minh, Việt Nam",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://careerviet.vn",
+     "title": "Homepage navigation",
+     "accessed": "2026-11-06",
+     "quote": "Đăng Tuyển Dụng",
+     "quote_check": "ok"
     }
    ]
   },
@@ -15721,8 +15812,10 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "workforce and business solutions",
    "parent": "",
@@ -15732,7 +15825,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Staffing company site. Language selector lists regional English variants only. Headquarters, parent company and job-posting terms not stated on pages read. /about-us returned HTTP 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/allegis-group/",
    "indexable": false,
@@ -15747,7 +15840,14 @@
    "tags": [
     "staffing"
    ],
-   "review": null,
+   "review": {
+    "board_id": "allegis-group",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage language selector lists English variants only. Headquarters and parent not stated; /about-us returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -15757,6 +15857,14 @@
      "title": "Allegis Group",
      "accessed": "2026-11-06",
      "quote": "We're the global leader in workforce and business solutions.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.allegisgroup.com",
+     "title": "Language selector",
+     "accessed": "2026-11-06",
+     "quote": "United States - English, EMEA - English, APAC - English",
      "quote_check": "ok"
     }
    ]
@@ -18397,7 +18505,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Resume builder with a job search feature. Headquarters address listed on the about page. No parent, employer pricing, API or ingest method stated on pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/enhancv/",
    "indexable": false,
@@ -18412,7 +18520,14 @@
    "tags": [
     "career-services"
    ],
-   "review": null,
+   "review": {
+    "board_id": "enhancv",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage, about and pricing pages state headquarters in Bulgaria and a language list; no parent, employer pricing or API stated. Partners page returned HTTP 404.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -18422,6 +18537,14 @@
      "title": "Enhancv",
      "accessed": "2026-11-06",
      "quote": "Enhancv is the best overall resume builder, combining AI writing, ATS feedback, and one-click job tailoring in a single tool.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://enhancv.com/about/",
+     "title": "About page, Headquarters",
+     "accessed": "2026-11-06",
+     "quote": "9A Sinanishko Ezero Str., 1680 Sofia, Bulgaria",
      "quote_check": "ok"
     }
    ]

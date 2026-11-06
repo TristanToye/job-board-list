@@ -1,0 +1,273 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Enhancv",
+   "url": "https://enhancv.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "cs",
+    "da",
+    "nl",
+    "fi",
+    "fr",
+    "de",
+    "it",
+    "no",
+    "pl",
+    "pt",
+    "es",
+    "sv"
+   ],
+   "notes": "Resume builder with a job search feature. Headquarters address listed on the about page. No parent, employer pricing, API or ingest method stated on pages read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://enhancv.com/about/",
+     "title": "About page, Headquarters",
+     "quote": "9A Sinanishko Ezero Str., 1680 Sofia, Bulgaria",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://enhancv.com",
+     "title": "Homepage language switcher",
+     "quote": "English (US), English (UK), Czech, Danish, Dutch, Finnish, French, German",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Trabajos.com",
+   "url": "https://www.trabajos.com/",
+   "primary_language": "es",
+   "business_model": "free unit posting; paid packs and flat-rate plans also offered",
+   "notes": "Spanish job board. Homepage states it is a brand of Hispavista. No language switcher, headquarters, API or ingest method stated on pages read. Employer prices not shown.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.trabajos.com/",
+     "title": "Homepage footer",
+     "quote": "Trabajos.com es una marca de Hispavista",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.trabajos.com/empresas",
+     "title": "Companies page",
+     "quote": "Publica gratis y contrata sólo si los candidatos te interesan. Sin riesgos.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Daijob.com",
+   "url": "https://www.daijob.com/",
+   "primary_language": "ja",
+   "languages_supported": [
+    "ja",
+    "en"
+   ],
+   "notes": "Japanese job board. Footer names the operating company Human Resocia Co., Ltd. Employer advertising is handled on a separate business site; pricing not stated on pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.daijob.com/",
+     "title": "Homepage language switcher",
+     "quote": "EN English",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "CareerViet",
+   "url": "https://careerviet.vn",
+   "primary_language": "vi",
+   "notes": "Vietnamese job board. Head office address listed in Ho Chi Minh City. Copyright names the operating company; no parent stated. Employer payment terms not stated on pages read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://careerviet.vn",
+     "title": "Footer, head office",
+     "quote": "Trụ sở chính: Tầng 6, Tòa nhà VNO, 139 Pasteur, Phường Xuân Hoà, TP. Hồ Chí Minh, Việt Nam",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://careerviet.vn",
+     "title": "Homepage navigation",
+     "quote": "Đăng Tuyển Dụng",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Allegis Group",
+   "url": "https://www.allegisgroup.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "notes": "Staffing company site. Language selector lists regional English variants only. Headquarters, parent company and job-posting terms not stated on pages read. /about-us returned HTTP 404.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.allegisgroup.com",
+     "title": "Language selector",
+     "quote": "United States - English, EMEA - English, APAC - English",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Enhancv",
+   "url": "https://enhancv.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage, about and pricing pages state headquarters in Bulgaria and a language list; no parent, employer pricing or API stated. Partners page returned HTTP 404."
+  },
+  {
+   "name": "Eluta",
+   "url": "https://www.eluta.ca",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "HTTP 503 Service Unavailable on two fetch attempts."
+  },
+  {
+   "name": "Hirist",
+   "url": "https://www.hirist.tech",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and /about-us read; no readable text states any of the missing facts. Homepage describes itself as India's #1 IT Job Portal."
+  },
+  {
+   "name": "Trabajos.com",
+   "url": "https://www.trabajos.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage states parent brand Hispavista; /empresas states free unit posting. No headquarters, language options, API or partner program stated."
+  },
+  {
+   "name": "Daijob.com",
+   "url": "https://www.daijob.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage shows EN and English language links; footer names operating company only. No headquarters, parent, pricing or API stated on the homepage."
+  },
+  {
+   "name": "eJobs",
+   "url": "https://www.ejobs.ro/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Fetch failed; browser reader returned HTTP 403 Cloudflare block page."
+  },
+  {
+   "name": "Jobilize",
+   "url": "https://www.jobilize.com/",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage read; it states no missing facts. /about and /pricing return HTTP 404."
+  },
+  {
+   "name": "jobvector",
+   "url": "https://www.jobvector.de/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Fetch returned HTTP 403; browser reader returned a Cloudflare security verification page (blocked)."
+  },
+  {
+   "name": "CareerViet",
+   "url": "https://careerviet.vn",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and /vi/gioi-thieu state a Ho Chi Minh City head office. No parent, employer pricing, API or ingest method stated; language options not quoted."
+  },
+  {
+   "name": "Allegis Group",
+   "url": "https://www.allegisgroup.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage language selector lists English variants only. Headquarters and parent not stated; /about-us returned HTTP 404."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Eluta",
+   "url": "https://www.eluta.ca",
+   "reason": "HTTP 503 on two fetch attempts"
+  },
+  {
+   "name": "eJobs",
+   "url": "https://www.ejobs.ro/",
+   "reason": "Cloudflare block (HTTP 403) in browser reader"
+  },
+  {
+   "name": "jobvector",
+   "url": "https://www.jobvector.de/",
+   "reason": "HTTP 403 and Cloudflare security challenge in browser reader"
+  }
+ ]
+}

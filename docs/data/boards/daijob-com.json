@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "daijob-com",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage shows EN and English language links; footer names operating company only. No headquarters, parent, pricing or API stated on the homepage.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

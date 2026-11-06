@@ -14,13 +14,13 @@
  "region": "Europe",
  "niche": "general",
  "parent": "",
- "business_model": "",
+ "business_model": "free unit posting; paid packs and flat-rate plans also offered",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Spanish job board. Homepage states it is a brand of Hispavista. No language switcher, headquarters, API or ingest method stated on pages read. Employer prices not shown.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/trabajos-com/",
  "indexable": false,
@@ -33,10 +33,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "general",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "trabajos-com",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+  "note": "Homepage states parent brand Hispavista; /empresas states free unit posting. No headquarters, language options, API or partner program stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +54,22 @@
    "title": "Trabajos.com - Ofertas de trabajo, Bolsa de empleo",
    "accessed": "2026-11-05",
    "quote": "Cuéntanos el puesto de trabajo que te interesa para conectar con las mejores oportunidades en trabajos.com",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.trabajos.com/",
+   "title": "Homepage footer",
+   "accessed": "2026-11-06",
+   "quote": "Trabajos.com es una marca de Hispavista",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.trabajos.com/empresas",
+   "title": "Companies page",
+   "accessed": "2026-11-06",
+   "quote": "Publica gratis y contrata sólo si los candidatos te interesan. Sin riesgos.",
    "quote_check": "ok"
   }
  ]
