@@ -1,0 +1,520 @@
+{
+ "round": 7,
+ "entries": [
+  {
+   "id": "gulftalent",
+   "name": "GulfTalent",
+   "url": "https://www.gulftalent.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "AE",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "subscription"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "occ-mundial",
+   "name": "OCC Mundial",
+   "url": "https://www.occ.com.mx",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "MX",
+    "primary_language": "es",
+    "languages_supported": "es",
+    "business_model": "subscription"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "higheredjobs",
+   "name": "HigherEdJobs",
+   "url": "https://www.higheredjobs.com",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "primary_language": "en",
+    "languages_supported": "en",
+    "business_model": "paid listings"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "government-e-employment-system",
+   "name": "Government E-Employment System",
+   "url": "https://eservices.mcs.gov.sa/Jadara3/(S(loocp4m5hffrcstzv5gtsuwp))/Users/Index.aspx",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "phenom",
+   "name": "Phenom",
+   "url": "https://www.phenom.com",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "partner_program": "yes"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "founded;parent",
+    "note": "About page and homepage read. No founding year, parent or owner stated. Copyright line names Phenom People, Inc., which is the company itself."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.phenom.com/about;https://www.phenom.com/"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": "https://www.phenom.com/about;https://www.phenom.com/"
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "talentegg",
+   "name": "TalentEgg",
+   "url": "https://talentegg.ca",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "find-an-apprenticeship",
+   "name": "Find an Apprenticeship",
+   "url": "https://www.findapprenticeship.service.gov.uk",
+   "type": "government",
+   "parent": "Department for Education (DfE)",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Department for Education (DfE)"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Terms and conditions page names DfE as the service owner. The gov.uk privacy notice was read but is off the entry domain and is not cited. Get-help page names no owner."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.findapprenticeship.service.gov.uk/Home/terms-and-conditions;https://www.findapprenticeship.service.gov.uk/Home/get-help;https://www.gov.uk/government/publications/privacy-information-key-stage-4-and-5-and-adult-education/privacy-information-key-stage-4-and-5-and-adult-education"
+    }
+   ]
+  },
+  {
+   "id": "wantedly",
+   "name": "Wantedly",
+   "url": "https://www.wantedly.com/",
+   "type": "social-network+board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Monthly flat-fee model with no success fee and unlimited postings. Prices are in a pricing PDF behind a download link that was not read. Japan comes from the privacy policy naming the Japanese company. No founding year on the pages read."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://service-terms.wantedly.com/privacy_policy/ja_JP"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.wantedly.com/about/list;https://www.wantedly.com/;https://www.wantedly.com/about/features;https://www.wantedly.com/external_links/contact_to_business_team"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "found",
+     "pages": "https://www.wantedly.com/about/list;https://www.wantedly.com/"
+    }
+   ]
+  },
+  {
+   "id": "workeer",
+   "name": "Workeer",
+   "url": "https://workeer.de/de",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "founded": "2015"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "esl-cafe",
+   "name": "ESL Cafe",
+   "url": "https://www.eslcafe.com/job-center",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "taleo",
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "partner-only",
+    "partner_program": "yes"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "right-management",
+   "name": "Right Management",
+   "url": "https://www.right.com",
+   "type": "outplacement",
+   "parent": "ManpowerGroup",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "ManpowerGroup"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Home, contact and solutions pages read in raw text. Parent (ManpowerGroup) and English language shown. No headquarters or founding year on the pages. The try_pages listed manpowergroup.com, a different domain, so it was not used as a source"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.right.com/;https://www.right.com/en/contact-us;https://www.right.com/en/solutions"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.right.com/;https://www.right.com/en/contact-us;https://www.right.com/en/solutions"
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.right.com/"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://www.right.com/;https://www.right.com/en/contact-us"
+    }
+   ]
+  },
+  {
+   "id": "daijob-com",
+   "name": "Daijob.com",
+   "url": "https://www.daijob.com/",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage shows EN and English language links; footer names operating company only. No headquarters, parent, pricing or API stated on the homepage."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "parent",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "randstad-digital",
+   "name": "Randstad Digital",
+   "url": "https://www.randstaddigital.com/",
+   "type": "staffing",
+   "parent": "Randstad",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "NL",
+    "parent": "Randstad"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;partner_program;ingest_methods",
+    "note": "Headquarters, parent and languages stated. No employer pricing or partner program found."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "sistema-nacional-de-emprego-sine",
+   "name": "Sistema Nacional de Emprego (SINE)",
+   "url": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine",
+   "type": "government",
+   "parent": "Ministério do Trabalho e Emprego (MTE)",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "hq_country": "BR",
+    "parent": "Ministério do Trabalho e Emprego (MTE)"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "ingest_methods",
+    "note": "Parent is the Ministry of Labour and Employment per the ministry page listing the service. hq_country BR is supported only by the gov.br portal header 'Serviços e Informações do Brasil' plus the service's own Brazilian context. The service "
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "found",
+     "pages": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.gov.br/pt-br/orgaos/ministerio-do-trabalho-e-emprego;https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": "https://www.gov.br/pt-br/servicos/buscar-emprego-no-sistema-nacional-de-emprego-sine;https://www.gov.br/governodigital/pt-br/dados-abertos"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "oracle-recruiting",
+   "name": "Oracle Recruiting Cloud",
+   "url": "https://www.oracle.com/human-capital-management/recruiting/",
+   "type": "ats",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "recorded": {
+    "hq_country": "US",
+    "api_status": "public-key",
+    "api_docs_url": "https://docs.oracle.com/en/cloud/saas/talent-management/",
+    "partner_program": "yes",
+    "ingest_methods": "Public job feed"
+   },
+   "review_history": null,
+   "attempts": []
+  }
+ ]
+}

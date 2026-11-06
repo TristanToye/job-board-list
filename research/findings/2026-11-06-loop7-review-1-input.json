@@ -1,0 +1,511 @@
+{
+ "round": 7,
+ "entries": [
+  {
+   "id": "office-for-national-statistics",
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "type": "lmi",
+   "parent": "UK Statistics Authority",
+   "missing": [
+    "founded",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "UK Statistics Authority",
+    "primary_language": "en",
+    "languages_supported": "en;cy"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country",
+    "note": "About and contact pages read. Office locations listed (Newport, Titchfield, London, Darlington, Manchester, Edinburgh, Belfast) but no headquarters stated."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://www.ons.gov.uk/aboutus;https://www.ons.gov.uk/aboutus/contactus"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "not-found",
+     "pages": "https://www.ons.gov.uk/aboutus;https://www.ons.gov.uk/aboutus/whatwedo;https://www.ons.gov.uk/"
+    }
+   ]
+  },
+  {
+   "id": "computrabajo",
+   "name": "Computrabajo",
+   "url": "https://www.computrabajo.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CO",
+    "primary_language": "es",
+    "languages_supported": "es;pt",
+    "business_model": "subscription/freemium"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "vagas-com",
+   "name": "Vagas.com",
+   "url": "https://www.vagas.com.br",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "BR",
+    "primary_language": "pt",
+    "languages_supported": "pt",
+    "business_model": "subscription"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "media-job-search-canada",
+   "name": "Media Job Search Canada",
+   "url": "https://www.mediajobsearchcanada.com/",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "z-gis-geoinformatik-stellenb-rse",
+   "name": "Z_GIS Geoinformatik Stellenbörse",
+   "url": "https://www.plus.ac.at/geoinformatik/jobs/",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {},
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "jobboom",
+   "name": "Jobboom",
+   "url": "https://www.jobboom.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "primary_language": "fr",
+    "languages_supported": "fr;en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "51job",
+   "name": "51job",
+   "url": "https://www.51job.com",
+   "type": "board",
+   "parent": "Recruit Holdings",
+   "missing": [
+    "founded",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CN",
+    "parent": "Recruit Holdings",
+    "primary_language": "zh",
+    "languages_supported": "zh",
+    "business_model": "subscription",
+    "api_status": "none-known"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "The About Us page returned only the title in fetch, so the headless reader was used once. Founded 1998 found in the raw text. Partner program was not asked for."
+   },
+   "attempts": [
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://we.51job.com/pc/aboutus"
+    }
+   ]
+  },
+  {
+   "id": "comunidad-de-madrid-empleo-objetivo-tu-empleo",
+   "name": "Comunidad de Madrid Empleo (Objetivo: tu empleo)",
+   "url": "https://www.comunidad.madrid/servicios/empleo",
+   "type": "government",
+   "parent": "Comunidad de Madrid",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Comunidad de Madrid"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "The page states the Objetivo: tu empleo initiative is a Comunidad de Madrid initiative. Quote is in Spanish, copied from the raw page text."
+   },
+   "attempts": [
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://www.comunidad.madrid/servicios/empleo"
+    }
+   ]
+  },
+  {
+   "id": "jobtopgun",
+   "name": "JOBTOPGUN",
+   "url": "https://www.jobtopgun.com/th",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "founded": "2000"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "tesl-canada",
+   "name": "TESL Canada",
+   "url": "https://www.tesl.ca/jobs/",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "goodwork-canada",
+   "name": "Goodwork Canada",
+   "url": "https://www.goodwork.ca/jobs",
+   "type": "niche-board",
+   "parent": "",
+   "missing": [
+    "hq_country",
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "careersinfood",
+   "name": "CareersInFood.com",
+   "url": "https://www.careersinfood.com",
+   "type": "board",
+   "parent": "",
+   "missing": [
+    "founded",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "unreachable",
+    "fields_not_found": "business_model",
+    "note": "Homepage returned HTTP 503 on fetch again. No try_pages were given. Headless reader had already been used once for this entry per the order reason, so it was not rerun. No employer pricing was read."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "sepe-servicio-p-blico-de-empleo-estatal",
+   "name": "SEPE (Servicio Público de Empleo Estatal)",
+   "url": "https://www.sepe.es/",
+   "type": "government",
+   "parent": "Ministerio de Trabajo y Economía Social (Gobierno de España)",
+   "missing": [
+    "hq_country",
+    "founded",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Ministerio de Trabajo y Economía Social (Gobierno de España)",
+    "primary_language": "es",
+    "languages_supported": "es;ca;eu;gl;fr;en"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage footer and logo state the operator and language list; no employer pricing, public API or partner program found on pages read."
+   },
+   "attempts": [
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "careerbeacon",
+   "name": "CareerBeacon",
+   "url": "https://www.careerbeacon.com",
+   "type": "board",
+   "parent": "Brunswick News",
+   "missing": [
+    "founded",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "hq_country": "CA",
+    "parent": "Brunswick News",
+    "primary_language": "en",
+    "languages_supported": "en"
+   },
+   "review_history": null,
+   "attempts": []
+  },
+  {
+   "id": "lavoro-gov-it-ministry-of-labour",
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "type": "government",
+   "parent": "Ministero del Lavoro e delle Politiche Sociali",
+   "missing": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "recorded": {
+    "parent": "Ministero del Lavoro e delle Politiche Sociali"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage names the Ministry of Labour and Social Policies as publisher; no language selector, pricing, API or partner program statement found. /about returned HTTP 404."
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "languages",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "business_model",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "api_status",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "partner_program",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  },
+  {
+   "id": "eurostat",
+   "name": "Eurostat",
+   "url": "https://ec.europa.eu/eurostat",
+   "type": "lmi",
+   "parent": "European Commission",
+   "missing": [
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "recorded": {
+    "parent": "European Commission",
+    "api_docs_url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started"
+   },
+   "review_history": {
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;ingest_methods",
+    "note": "Founding year, parent (European Commission), languages and the public Statistics API were found. The About us, History and Web services pages do not state a headquarters location. The site does not say how jobs get in; the Job opportunities"
+   },
+   "attempts": [
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": "https://ec.europa.eu/eurostat/web/main/about-us;https://ec.europa.eu/eurostat/web/main/about-us/history;https://ec.europa.eu/eurostat/data/web-services"
+    },
+    {
+     "field": "hq_country",
+     "outcome": "not-found",
+     "pages": ""
+    },
+    {
+     "field": "founded",
+     "outcome": "found",
+     "pages": "https://ec.europa.eu/eurostat/web/main/about-us/history"
+    },
+    {
+     "field": "parent",
+     "outcome": "found",
+     "pages": "https://ec.europa.eu/eurostat/web/main/about-us/history;https://ec.europa.eu/eurostat/web/main/about-us"
+    },
+    {
+     "field": "languages",
+     "outcome": "found",
+     "pages": "https://ec.europa.eu/eurostat/web/main/about-us"
+    },
+    {
+     "field": "api_status",
+     "outcome": "found",
+     "pages": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started;https://ec.europa.eu/eurostat/data/web-services"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": "https://ec.europa.eu/eurostat/web/main/about-us;https://ec.europa.eu/eurostat/data/web-services"
+    },
+    {
+     "field": "ingest_methods",
+     "outcome": "not-found",
+     "pages": ""
+    }
+   ]
+  }
+ ]
+}
