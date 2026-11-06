@@ -74,6 +74,23 @@ if (ROOT/"data"/"owner_facts.csv").exists():
 HOLD_BY_BOARD = collections.defaultdict(list)
 for _h in HOLD:
     if _h["board_id"] and _h["relation"] != "former": HOLD_BY_BOARD[_h["board_id"]].append(_h)
+def norm_owner(n):
+    x = re.sub(r"\b(the|co|ltd|inc|corp|corporation|company|limited|plc|nv|ag|se|group|holdings?)\b\.?", " ", n.lower().replace(".", " ").replace(",", " "))
+    return re.sub(r"[^a-z0-9]+", " ", x).strip()
+ALIAS_MAP = {}
+for _oid, _o in OWNERS.items():
+    for _n in [_o["name"]] + split(_o.get("aliases", "")): ALIAS_MAP[norm_owner(_n)] = _oid
+_pc = collections.Counter(norm_owner(b["parent"]) for b in boards if b["parent"])
+EXCLUDED = {norm_owner(r["parent"]) for r in load("owner_exclusions.csv")} if (ROOT/"data"/"owner_exclusions.csv").exists() else set()
+PARENT_OWNER = {}
+STUB_IDS = {}
+for _b in boards:
+    if not _b["parent"]: continue
+    _k = norm_owner(_b["parent"])
+    if _k in ALIAS_MAP: PARENT_OWNER[_b["id"]] = ALIAS_MAP[_k]
+    elif _k and _k not in EXCLUDED:  # every parent gets a page, except individuals and families
+        _sid = STUB_IDS.setdefault(_k, slug(_b["parent"]) or "parent"); PARENT_OWNER[_b["id"]] = _sid
+        OWNERS.setdefault(_sid, {"id": _sid, "name": _b["parent"], "url": "", "country": "", "aliases": "", "stub": True})
 REL_LABEL = {"group-company":"Group company (listed by the owner, ownership terms not stated)","subsidiary":"Subsidiary","brand":"Brand","majority-stake":"Majority stake","minority-stake":"Minority stake","joint-venture":"Joint venture","former":"Formerly owned"}
 CAT_LABEL = {"job-board":"Other job boards (not yet in the directory)","aggregator":"Other job aggregators (not yet in the directory)","staffing":"Staffing and recruitment agencies","hr-tech":"HR and recruiting technology",
              "hr-services":"HR services","data-research":"Data and research","other-hr":"Other HR businesses"}
@@ -94,6 +111,8 @@ def icon(b, r, px=24):
         return f'<img class="ico" src="{r}assets/logos/{e(m["file"])}" width="{px}" height="{px}" alt="" loading="lazy" decoding="async">'
     hue = sum(map(ord, b["id"])) * 37 % 360
     return f'<span class="ico tile" style="--h:{hue}" aria-hidden="true">{e(b["name"][:1].upper())}</span>'
+if OUT.exists(): shutil.rmtree(OUT)  # start clean so renamed or removed pages are not left behind
+OUT.mkdir(parents=True, exist_ok=True)
 pages = []  # (path, lastmod)
 
 def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False):
@@ -233,6 +252,7 @@ for b in boards:
     partner = {"yes":"A partner or integration program exists.","n/a":"Not applicable (public body or open source of data).","unknown":"Partner program status is not yet known."}.get(b["partner_program"], "Partner program status is not yet known.")
     tag_html = "".join(f'<div class="tagrow"><span class="muted small">{e(lbl)}:</span> ' + "".join(f'<a class="chip" href="{r}tags/{e(t)}/">{e(TAX[t]["label"])}</a>' for t in tags_of("board", b["id"], fac)) + "</div>" for fac, lbl in FACETS if tags_of("board", b["id"], fac))
     srcs = list(SOURCES.get(b["id"], [])) + [{"field": "parent", "url": h["source_url"], "title": h["source_title"], "accessed": h["accessed"], "quote": h["quote"]} for h in HOLD_BY_BOARD.get(b["id"], [])]
+    parent_html = (f'<a href="{r}owners/{e(PARENT_OWNER[b["id"]])}/">{e(b["parent"])}</a>' if b["id"] in PARENT_OWNER else e(b["parent"]))
     owner_fact = "".join(f'<a href="{r}owners/{e(h["owner_id"])}/">{e(OWNERS[h["owner_id"]]["name"])}</a> <span class="muted small">({e(hold_phrase(h))})</span><br>' for h in {x["owner_id"]: x for x in reversed(HOLD_BY_BOARD.get(b["id"], []))}.values() if h["owner_id"] in OWNERS)
     p = prom(b); rk = RANK.get(b["id"]); nctry = len({c for c in split(b["countries_served"]) + ([b["hq_country"]] if b["hq_country"] else [])}); nlang = len(langs_of(b))
     if p["group"] == 0: rank_txt = f'<strong>#{p["g"]:,}</strong> in the world, tier <strong>{e(p["tier"])}</strong>. Tiers: Major is the top 1,000 sites, Large the top 10,000, Established the top 100,000 and Small the top million.'
@@ -255,7 +275,7 @@ for b in boards:
 <dl class="facts">{fact("Website", link(b["url"]))}{fact("Tags", tag_html) if tag_html else ""}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Type", e(b["type"]))}{fact("Founded", e(b["founded"])) if b["founded"] else ""}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>' if b["hq_country"] else '<span class="muted">Not recorded</span>')}
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
 {fact("Primary language", f'<a href="{r}languages/{slug(lang(b["primary_language"]))}/">{e(lang(b["primary_language"]))}</a>' if b["primary_language"] else '<span class="muted">Not recorded</span>')}{fact("Languages supported", "".join(f'<a class="chip" href="{r}languages/{slug(lang(c))}/">{e(lang(c))}</a>' for c in langs_of(b)) or '<span class="muted">Not recorded</span>')}
-{fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Parent organisation", e(b["parent"]) or '<span class="muted">None recorded</span>')}{fact("Owner", owner_fact) if owner_fact else ""}
+{fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Owner", owner_fact) if owner_fact else (fact("Parent organisation", parent_html) if b["parent"] else fact("Parent organisation", '<span class="muted">None recorded</span>'))}
 {fact("Business model", e(b["business_model"]) or '<span class="muted">Not recorded</span>')}
 {fact("API status", f'<a href="{r}api/{e(b["api_status"])}/">{e(API_LABEL[b["api_status"]])}</a>')}{fact("API or developer docs", link(b["api_docs_url"]))}
 {fact("Partner program", e(b["partner_program"] or "unknown"))}{fact("Partner program link", link(b["partner_url"]))}
@@ -391,16 +411,19 @@ for t, r in TAX.items():
     write(f"tags/{t}/index.html", layout(2, f"{r['label']}: {r['facet']} tag | {NAME}" if r["facet"] != "function" else f"{r['label']}: directory and examples | {NAME}", f"{r['definition']} {n} entries in the directory.", body, f"/tags/{t}/", itemlist(mb, 2) if mb else None, noindex=not idx), indexed=idx)
 # ---------- owners ----------
 def owner_boards(oid):
-    ids = list(dict.fromkeys(h["board_id"] for h in HOLD if h["owner_id"] == oid and h["board_id"] and h["relation"] != "former"))
+    ids = list(dict.fromkeys([h["board_id"] for h in HOLD if h["owner_id"] == oid and h["board_id"] and h["relation"] != "former"] + [i for i, o in PARENT_OWNER.items() if o == oid]))
     return [b for i in ids for b in boards if b["id"] == i]
+def owner_lede(o, ncur, nb):
+    if ncur: return f'has {ncur} HR holdings recorded here, including {nb} job boards in this directory. Ownership is shown with the relationship, stake and year where a source states them.'
+    return f'is recorded as the parent of {nb} entries in this directory. No profile or holdings research has been done for it yet. The parent shown comes from each entry\'s own record, so check the entry page for its source.'
 def holding_li(h):
     nm = f'<a href="{e(h["holding_url"])}" rel="noopener nofollow" target="_blank">{e(h["holding_name"])}</a>' if h["holding_url"] else e(h["holding_name"])
     return f'<li><strong>{nm}</strong> <span class="muted small">{e(hold_phrase(h))}. Source: <a href="{e(h["source_url"])}" rel="noopener nofollow" target="_blank">{e(h["source_title"] or "page")}</a>{" (secondary source)" if "wikipedia.org" in h["source_url"] or "wikidata.org" in h["source_url"] else ""}, checked {e(h["accessed"])}</span><div class="quote">{e(h["quote"])}</div></li>'
 owner_rows = []
 for oid, o in OWNERS.items():
     hs = [h for h in HOLD if h["owner_id"] == oid]
-    if not hs: continue
     ob = owner_boards(oid); nb = len(ob)
+    if not hs and not ob: continue
     cur = [h for h in hs if h["relation"] != "former"]; former = [h for h in hs if h["relation"] == "former"]
     others = [h for h in cur if not (h["board_id"] and any(b["id"] == h["board_id"] for b in boards))]
     facts_o = OWNER_FACTS.get(oid, {})
@@ -423,13 +446,13 @@ for oid, o in OWNERS.items():
         if items: sections += f'<h2>{e(CAT_LABEL[cat])}</h2><ul class="holdings">' + "".join(holding_li(h) for h in items) + "</ul>"
     if former: sections += "<h2>Formerly owned</h2><ul class=\"holdings\">" + "".join(holding_li(h) for h in former) + "</ul>"
     body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">Owners</a> / {e(o["name"])}</nav><h1>{e(o["name"])}: HR holdings</h1>'
-            f'<p class="lede">{e(o["name"])}{" (" + e(country(o["country"])) + ")" if o["country"] else ""} has {len(cur)} HR holdings recorded here, including {nb} job boards in this directory. Ownership is shown with the relationship, stake and year where a source states them.</p>'
+            f'<p class="lede">{e(o["name"])}{" (" + e(country(o["country"])) + ")" if o["country"] else ""} {owner_lede(o, len(cur), nb)}</p>'
             + profile_html + (f'<h2>Job boards in this directory</h2>' + table(ob, "../../") if ob else "") + sections
             + f'<p class="muted small">Each holding is cited to a page and quote. Ownership changes often, so check the date. {("Owner website: " + e(o["url"])) if o["url"] else ""}</p>')
     ld = {"@context": "https://schema.org", "@type": "Organization", "name": o["name"], **({"url": o["url"]} if o["url"] else {}),
           **({"foundingDate": facts_o["founded"]["value"]} if facts_o.get("founded") else {}),
           **({"address": {"@type": "PostalAddress", "addressCountry": facts_o["hq_country"]["value"].replace("UK", "GB")}} if facts_o.get("hq_country") else {})}
-    idx = len(cur) >= 3
+    idx = len(cur) >= 3 or bool(facts_o)
     write(f"owners/{oid}/index.html", layout(2, f"{o['name']}: job boards and other HR businesses owned | {NAME}",
         f"What {o['name']} owns in the HR space: {nb} job boards in this directory plus staffing, HR technology and other holdings, with cited sources.", body, f"/owners/{oid}/", ld, noindex=not idx), indexed=idx)
     owner_rows.append((oid, o, len(cur), nb))

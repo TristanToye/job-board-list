@@ -13,7 +13,7 @@ OWN_WORDS = re.compile(r"\b(subsidiar\w*|owned|owns|own|acquir\w*|acquisition|ac
 STRONG_RELATIONS = {"subsidiary", "majority-stake", "minority-stake", "joint-venture"}
 REFERENCE = {"wikipedia.org", "wikidata.org"}
 BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]
-OCOLS = ["id", "name", "url", "country"]
+OCOLS = ["id", "name", "url", "country", "aliases"]
 HCOLS = ["owner_id", "holding_name", "holding_url", "board_id", "relation", "stake", "since", "category", "source_url", "source_title", "quote", "quote_check", "accessed"]
 
 def slug(s): return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
@@ -77,7 +77,7 @@ def main(argv):
             name = clean(o.get("name"), 80); oid = owner_id(name)
             if not name or not oid or bad(json.dumps(o)): rej.append(("owner", name, "missing or disallowed")); continue
             ourl = clean(o.get("url"), 200); odom = regdom(host(ourl))
-            if oid not in owners: owners[oid] = {"id": oid, "name": name, "url": ourl, "country": clean(o.get("country"), 2).upper()}; stats["owners"] += 1
+            if oid not in owners: owners[oid] = {"id": oid, "name": name, "url": ourl, "country": clean(o.get("country"), 2).upper(), "aliases": ""}; stats["owners"] += 1
             if d["mode"] == "owner-profile":
                 for f in o.get("facts", []):
                     fact = clean(f.get("fact"), 20); val = clean(f.get("value"), 120)
