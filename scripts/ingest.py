@@ -156,7 +156,7 @@ def main(argv):
                 v = b[field]
                 if field == "hq_country": v = (norm_codes(v) or [""])[0]
                 elif field == "founded":
-                    v = str(v).strip(); v = v if re.fullmatch(r"(19|20)\d\d", v) else ""
+                    v = str(v).strip(); v = v if re.fullmatch(r"(19|20)\d\d", v) and v in " ".join(x["quote"] for x in good.get("existence", [])) else ""  # the year must appear in the quote that supports it
                 elif field == "languages_supported": v = ";".join(norm_langs(v))
                 elif field == "primary_language": v = (norm_langs(v) or [""])[0]
                 elif field == "ingest_methods": v = ";".join(clean(x, 80) for x in (v if isinstance(v, list) else str(v).split(";")) if x)

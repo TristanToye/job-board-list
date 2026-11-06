@@ -47,9 +47,9 @@
  "review": {
   "board_id": "egon-zehnder",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-  "note": "Language menu confirmed; /about-us states operating in 37 countries but no headquarters or parent.",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Region and language menu verified on /newsroom, /de, /cn with English, Deutsch, 中文, 日本語. Main page language is English.",
   "method": "fetch"
  },
  "owners": [],
@@ -69,6 +69,22 @@
    "title": "Homepage language menu",
    "accessed": "2026-11-06",
    "quote": "You are switching to an alternate language version of the Egon Zehnder website.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.egonzehnder.com/newsroom",
+   "title": "Newsroom region menu",
+   "accessed": "2026-11-06",
+   "quote": "English",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.egonzehnder.com/de",
+   "title": "Region menu",
+   "accessed": "2026-11-06",
+   "quote": "Deutsch",
    "quote_check": "ok"
   }
  ]

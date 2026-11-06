@@ -42,10 +42,10 @@
  "review": {
   "board_id": "prospects",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
-  "note": "Homepage states employer advertising prices and a registered office in Bristol, not a headquarters; no API or partner program stated.",
-  "method": "mixed"
+  "outcome": "not-stated",
+  "fields_not_found": "founded;business_model",
+  "note": "About us page gives a Bristol address and says Prospects is part of Jisc, but no founding year. Employer advertising shows 'Prices from £370' with no statement of whether it is per advert, subscription or other, so business_model is not rec",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],

@@ -11,7 +11,7 @@ First Advantage is an HR technology vendor, focused on background screening tech
 - Partner program: yes
 - Prominence: #93,572 globally, tier Established
 - Tags: ATS integration, HR and recruiting technology, Partner program, Technology
-- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: headquarters, owner, pricing and business model, API access.
+- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: headquarters, owner, API access.
 - Data status: partly verified against its own site
 
 ## Quick answers
@@ -23,6 +23,8 @@ First Advantage is an HR technology vendor, focused on background screening tech
 - [First Advantage homepage](https://fadv.com/) (Existence and description, checked 2026-11-06): "Background screening technology designed to help you move faster, mitigate risk, and create a better experience."
 - [Partner program](https://fadv.com/partners/) (Partner program, checked 2026-11-06): "Join our partner network and grow with First Advantage."
 - [Homepage](https://fadv.com) (How jobs get in, checked 2026-11-06): "100+ ATS and HCM integrated partners"
+- [About First Advantage | Global Screening Leader](https://fadv.com/about-us/) (Existence and description, checked 2026-11-06): "Founded in 2003,"
+- [Global Background Checks & Screenings | First Advantage](https://fadv.com) (Languages, checked 2026-11-06): "Choose Your Region & Language."
 
 Canonical page: https://jobboardlist.com/boards/first-advantage/
 Last updated: 2026-11-06

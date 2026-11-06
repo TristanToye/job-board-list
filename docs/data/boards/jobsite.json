@@ -39,10 +39,10 @@
  "review": {
   "board_id": "jobsite",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;api_status",
-  "note": "About page names StepStone as parent; homepage and employers page returned HTTP 503.",
-  "method": "fetch"
+  "outcome": "unreachable",
+  "fields_not_found": "hq_country;founded;business_model;partner_program",
+  "note": "WebFetch returned HTTP 503 for the homepage and /about-us. /recruiters returned HTTP 200 with an empty body in WebFetch; browse.js returned status 200 with an empty text and no links, not blocked. No facts could be quoted.",
+  "method": "mixed"
  },
  "owners": [
   {

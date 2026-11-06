@@ -43,9 +43,9 @@
  "review": {
   "board_id": "manpowergroup",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;business_model;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage shows English as the only language option; no headquarters, pricing, API or partner statement found. /en/about-us returned HTTP 404.",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;founded",
+  "note": "Read about, leadership, investors and home pages. The site says it operates in 75 countries and territories and mentions brands operating for over 70 years, but states no headquarters location or founding year.",
   "method": "fetch"
  },
  "owners": [],

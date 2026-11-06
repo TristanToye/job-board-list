@@ -41,9 +41,9 @@
  "review": {
   "board_id": "kelly-services",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage read by fetch and browser states none of the missing facts; the about page returned HTTP 404.",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country",
+  "note": "Founded 1946 verified from Our story page. Our story page says 'Headquartered in Troy, Michigan' but states no country, so hq_country is not recorded. About Kelly page gives no HQ. Investor relations page returned 403 on fetch and browser; ",
   "method": "mixed"
  },
  "owners": [],
@@ -55,6 +55,14 @@
    "title": "Kelly Services",
    "accessed": "2026-11-06",
    "quote": "We deliver the people, strategy, and solutions to turn high-stakes challenges into high-impact results.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.kellyservices.com/about-kelly/our-story/",
+   "title": "Our story | Kelly Services",
+   "accessed": "2026-11-06",
+   "quote": "1946: William Russell Kelly created the staffing industry, founding Russell Kelly Office Service in Detroit, Michigan.",
    "quote_check": "ok"
   }
  ]

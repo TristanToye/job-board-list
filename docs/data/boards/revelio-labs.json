@@ -42,8 +42,8 @@
   "board_id": "revelio-labs",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;business_model;partner_program;ingest_methods",
-  "note": "Homepage states flexible APIs exist; no headquarters, pricing model or partner program stated, and /developers returned HTTP 404.",
+  "fields_not_found": "hq_country;founded",
+  "note": "Business model from pricing page: Terminal starts at $1,250 per month, with an annual commitment (annual commitment is from the FAQ and not separately quoted), plus quote-based enterprise data and API plans and a free Terminal trial. Compan",
   "method": "fetch"
  },
  "owners": [],
@@ -63,6 +63,14 @@
    "title": "Homepage",
    "accessed": "2026-11-06",
    "quote": "Access global workforce data through flexible APIs built to integrate directly into your models, applications, and workflows.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.reveliolabs.com/pricing",
+   "title": "Workforce Data Pricing | Revelio Labs",
+   "accessed": "2026-11-06",
+   "quote": "Revelio Terminal starts at $1,250 per month.",
    "quote_check": "ok"
   }
  ]

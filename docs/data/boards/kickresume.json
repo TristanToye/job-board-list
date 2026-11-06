@@ -42,8 +42,8 @@
   "board_id": "kickresume",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-  "note": "Footer language selector found; no employer pricing, API, parent or headquarters country stated on homepage.",
+  "fields_not_found": "founded;business_model;partner_program",
+  "note": "HQ Bratislava and language list found on About page. No founding year. Pricing pages (/en/pricing/) show plans for job seekers only (yearly $96, quarterly $54, free unless paid customization options), no employer pricing, so business_model ",
   "method": "fetch"
  },
  "owners": [],
@@ -55,6 +55,14 @@
    "title": "Kickresume",
    "accessed": "2026-11-06",
    "quote": "Build a professional resume online in minutes with Kickresume's free resume builder.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.kickresume.com/en/about/",
+   "title": "About Us",
+   "accessed": "2026-11-06",
+   "quote": "We're a small, passionate team based in Bratislava, Slovakia.",
    "quote_check": "ok"
   }
  ]

@@ -20,7 +20,7 @@
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
- "partner_url": "",
+ "partner_url": "https://www.topresume.com/partnerships",
  "ingest_methods": [],
  "notes": "",
  "confidence": "partially-verified",
@@ -41,9 +41,9 @@
  "review": {
   "board_id": "topresume",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;parent;languages;business_model;partner_program;ingest_methods",
-  "note": "Homepage covers job-seeker services and a footer Partnerships link with no details; /about-us and /employers returned HTTP 404.",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded;business_model",
+  "note": "Partnerships page describes an incentive program for job seekers referral and commission; join form only, no joining steps. About page says part of the Career.io family but no HQ or founding year. Plans page shows job-seeker pricing only (b",
   "method": "fetch"
  },
  "owners": [],
@@ -55,6 +55,14 @@
    "title": "TopResume",
    "accessed": "2026-11-06",
    "quote": "Land more interviews and get hired faster with a professional resume that highlights your full potential.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.topresume.com/partnerships",
+   "title": "Partnerships",
+   "accessed": "2026-11-06",
+   "quote": "Our programs incentivize you for helping us reach job seekers who can benefit from our expert resume-writing services.",
    "quote_check": "ok"
   }
  ]

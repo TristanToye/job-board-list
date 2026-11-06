@@ -42,9 +42,9 @@
  "review": {
   "board_id": "taskrabbit",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
-  "note": "Homepage footer partner link found; about page and homepage state no headquarters, parent or language options; no API stated.",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;founded;parent",
+  "note": "Read /about, /press, /blog/partner-lp/ and the homepage footer. None states founding year, HQ or parent. IKEA appears only as a furniture assembly partner.",
   "method": "fetch"
  },
  "owners": [],

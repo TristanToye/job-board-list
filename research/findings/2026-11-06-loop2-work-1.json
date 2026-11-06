@@ -1,0 +1,417 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 2,
+ "boards": [
+  {
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "sources": [
+    {
+     "field": "hq_country",
+     "value": "SK",
+     "url": "https://www.kickresume.com/en/about/",
+     "title": "About Us",
+     "quote": "We're a small, passionate team based in Bratislava, Slovakia.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "value": "primary en; supported en, sk, es, de, pt, it",
+     "url": "https://www.kickresume.com/en/about/",
+     "title": "About Us",
+     "quote": "English (current), Slovensky, Español, Deutsch, Português, Italiano",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "sources": [
+    {
+     "field": "partner_program",
+     "value": "yes",
+     "url": "https://www.topresume.com/partnerships",
+     "title": "Partnerships",
+     "quote": "Our programs incentivize you for helping us reach job seekers who can benefit from our expert resume-writing services.",
+     "check": "ok"
+    }
+   ],
+   "partner_url": "https://www.topresume.com/partnerships"
+  },
+  {
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "api_status": "on-request",
+   "api_docs_url": "https://lightcast.io/our-data/api/menu",
+   "sources": [
+    {
+     "field": "api_status",
+     "value": "on-request",
+     "url": "https://lightcast.io/our-data/api/menu",
+     "title": "Data Delivery API menu",
+     "quote": "Reach out to a member of our team to discuss how Lightcast data could be integrated at your organization.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "sources": [
+    {
+     "field": "hq_country",
+     "value": "DE",
+     "url": "https://www.jobware.de/impressum",
+     "title": "Impressum",
+     "quote": "Registergericht: AG Paderborn, HRB 2772",
+     "check": "ok"
+    },
+    {
+     "field": "founded",
+     "value": "1996",
+     "url": "https://www.jobware.de/ueber-uns",
+     "title": "Über uns",
+     "quote": "Am 1. Mai 1996 gründet er in Paderborn den ersten deutschen Online-Stellenmarkt.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "JazzHR",
+   "url": "https://www.jazzhr.com",
+   "sources": [
+    {
+     "field": "business_model",
+     "value": "subscription, billed yearly; add-ons billed on usage",
+     "url": "https://www.jazzhr.com/pricing",
+     "title": "Pricing",
+     "quote": "Save up to 24% by paying yearly",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "value": "Hero plan $1,000/yr billed annually",
+     "url": "https://www.jazzhr.com/pricing",
+     "title": "Pricing",
+     "quote": "$1,000/yr billed annually",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "value": "add-ons usage-based",
+     "url": "https://www.jazzhr.com/pricing",
+     "title": "Pricing",
+     "quote": "certain add-on features or functionalities within JazzHR are billed based on how much you use them",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded",
+    "business_model",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "HQ Bratislava and language list found on About page. No founding year. Pricing pages (/en/pricing/) show plans for job seekers only (yearly $96, quarterly $54, free unless paid customization options), no employer pricing, so business_model left not-found. Affiliates footer link exists but its target is an external form on form.typeform.com titled Kickresume Partner Program Sign Up, not on the entry domain, so partner_program not-found. Language URLs were not captured; the list comes from the About page text."
+  },
+  {
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "founded",
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "Partnerships page describes an incentive program for job seekers referral and commission; join form only, no joining steps. About page says part of the Career.io family but no HQ or founding year. Plans page shows job-seeker pricing only (billed monthly, cancel anytime), no employer pricing."
+  },
+  {
+   "name": "Jobsite",
+   "url": "https://www.jobsite.co.uk",
+   "outcome": "unreachable",
+   "fields_not_found": [
+    "hq_country",
+    "founded",
+    "business_model",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "WebFetch returned HTTP 503 for the homepage and /about-us. /recruiters returned HTTP 200 with an empty body in WebFetch; browse.js returned status 200 with an empty text and no links, not blocked. No facts could be quoted."
+  },
+  {
+   "name": "Lightcast",
+   "url": "https://lightcast.io",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "Menu page says to reach out to the team for integration, which was taken as on-request. The page does not literally say key or feed, so this is a judgement from the quote. Docs at docs.lightcast.dev/apis/ state no access rules, and that domain is not the entry domain, so it is not cited. About, press room and homepage state no HQ, founding year or owner (only over 25 years of experience and offices in several countries)."
+  },
+  {
+   "name": "Jobware",
+   "url": "https://www.jobware.de/",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Impressum names the registry court AG Paderborn and the Paderborn address, so hq_country DE is taken from the registry court. Ueber uns gives 1 May 1996 for the first German online job market, founded in Paderborn; the page does not name a parent for the operating company, and the parent (Medien Union, Ludwigshafen) was not requested."
+  },
+  {
+   "name": "JazzHR",
+   "url": "https://www.jazzhr.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Pricing page gives yearly billing with a discount, a Hero plan at $1,000/yr billed annually, and usage-billed add-ons."
+  },
+  {
+   "name": "VelvetJobs",
+   "url": "https://www.velvetjobs.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "About page says Based in Los Angeles, but names no country, so hq_country was not recorded from the city alone. No founding year on About or homepage. Footer copyright is VelvetJobs 2026 only."
+  },
+  {
+   "name": "LHH",
+   "url": "https://www.lhh.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "Our presence, newsroom and About pages give no global HQ, HQ country or founding year. About says over 50 years of expertise, which is not a year. Newsroom page content was truncated in the fetch."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Kickresume",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.kickresume.com/en/about/",
+    "https://www.kickresume.com/en/press/",
+    "https://www.kickresume.com/"
+   ]
+  },
+  {
+   "name": "Kickresume",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.kickresume.com/en/about/",
+    "https://www.kickresume.com/en/press/",
+    "https://www.kickresume.com/"
+   ]
+  },
+  {
+   "name": "Kickresume",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.kickresume.com/en/about/"
+   ]
+  },
+  {
+   "name": "Kickresume",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.kickresume.com/en/pricing/"
+   ]
+  },
+  {
+   "name": "Kickresume",
+   "field": "partner_program",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.kickresume.com/en/press/",
+    "https://www.kickresume.com/",
+    "https://form.typeform.com/to/lr6p9OUR"
+   ]
+  },
+  {
+   "name": "TopResume",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.topresume.com/about",
+    "https://www.topresume.com/press",
+    "https://www.topresume.com/"
+   ]
+  },
+  {
+   "name": "TopResume",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.topresume.com/about",
+    "https://www.topresume.com/press",
+    "https://www.topresume.com/"
+   ]
+  },
+  {
+   "name": "TopResume",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.topresume.com/plans"
+   ]
+  },
+  {
+   "name": "TopResume",
+   "field": "partner_program",
+   "outcome": "found",
+   "pages": [
+    "https://www.topresume.com/partnerships"
+   ]
+  },
+  {
+   "name": "Jobsite",
+   "field": "hq_country",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.jobsite.co.uk/",
+    "https://www.jobsite.co.uk/about-us",
+    "https://www.jobsite.co.uk/recruiters"
+   ]
+  },
+  {
+   "name": "Jobsite",
+   "field": "founded",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.jobsite.co.uk/",
+    "https://www.jobsite.co.uk/about-us"
+   ]
+  },
+  {
+   "name": "Jobsite",
+   "field": "business_model",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.jobsite.co.uk/recruiters"
+   ]
+  },
+  {
+   "name": "Jobsite",
+   "field": "partner_program",
+   "outcome": "blocked",
+   "pages": [
+    "https://www.jobsite.co.uk/"
+   ]
+  },
+  {
+   "name": "Lightcast",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://lightcast.io/about",
+    "https://lightcast.io/pressroom",
+    "https://lightcast.io/"
+   ]
+  },
+  {
+   "name": "Lightcast",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://lightcast.io/about",
+    "https://lightcast.io/pressroom",
+    "https://lightcast.io/"
+   ]
+  },
+  {
+   "name": "Lightcast",
+   "field": "api_status",
+   "outcome": "found",
+   "pages": [
+    "https://lightcast.io/our-data/api/menu",
+    "https://docs.lightcast.dev/apis/"
+   ]
+  },
+  {
+   "name": "Jobware",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.jobware.de/impressum"
+   ]
+  },
+  {
+   "name": "Jobware",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.jobware.de/ueber-uns"
+   ]
+  },
+  {
+   "name": "JazzHR",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://www.jazzhr.com/pricing"
+   ]
+  },
+  {
+   "name": "VelvetJobs",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.velvetjobs.com/about",
+    "https://www.velvetjobs.com/"
+   ]
+  },
+  {
+   "name": "VelvetJobs",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.velvetjobs.com/about",
+    "https://www.velvetjobs.com/"
+   ]
+  },
+  {
+   "name": "LHH",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.lhh.com/en-us/about-us/our-presence",
+    "https://www.lhh.com/en-us/about-us/newsroom",
+    "https://www.lhh.com/en-us/about-us"
+   ]
+  },
+  {
+   "name": "LHH",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.lhh.com/en-us/about-us/our-presence",
+    "https://www.lhh.com/en-us/about-us/newsroom",
+    "https://www.lhh.com/en-us/about-us"
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Jobsite",
+   "url": "https://www.jobsite.co.uk",
+   "reason": "HTTP 503 on homepage and /about-us; /recruiters returned an empty body in both WebFetch and browse.js. Not a challenge page; treated as unreachable."
+  }
+ ]
+}

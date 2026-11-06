@@ -9556,10 +9556,10 @@
    "review": {
     "board_id": "prospects",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
-    "note": "Homepage states employer advertising prices and a registered office in Bristol, not a headquarters; no API or partner program stated.",
-    "method": "mixed"
+    "outcome": "not-stated",
+    "fields_not_found": "founded;business_model",
+    "note": "About us page gives a Bristol address and says Prospects is part of Jisc, but no founding year. Employer advertising shows 'Prices from £370' with no statement of whether it is per advert, subscription or other, so business_model is not rec",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -10506,10 +10506,10 @@
    "review": {
     "board_id": "jobware",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage and employer page read; none of the missing facts are stated.",
-    "method": "mixed"
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Impressum names the registry court AG Paderborn and the Paderborn address, so hq_country DE is taken from the registry court. Ueber uns gives 1 May 1996 for the first German online job market, founded in Paderborn; the page does not name a ",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -10521,6 +10521,22 @@
      "accessed": "2026-11-05",
      "quote": "Finde passende Stellenangebote nach Beruf, Standort oder spezifischer Rolle.",
      "quote_check": "unreachable"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.jobware.de/impressum",
+     "title": "Impressum",
+     "accessed": "2026-11-06",
+     "quote": "Registergericht: AG Paderborn, HRB 2772",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.jobware.de/ueber-uns",
+     "title": "Über uns",
+     "accessed": "2026-11-06",
+     "quote": "Am 1. Mai 1996 gründet er in Paderborn den ersten deutschen Online-Stellenmarkt.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -12947,7 +12963,7 @@
    "url": "https://www.almalaurea.it/",
    "domains": "",
    "type": "niche-board",
-   "hq_country": "",
+   "hq_country": "IT",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -12986,9 +13002,9 @@
     "board_id": "almalaurea",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage states parent Consorzio AlmaLaurea and IT/EN switcher; no address, pricing, API or partner program stated.",
-    "method": "mixed"
+    "fields_not_found": "founded;business_model",
+    "note": "Head office in Bologna, Italy and IT/EN switcher verified. Services page states no pricing or payment model; Trasparenza names the consortium but no founding year.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -13007,6 +13023,22 @@
      "title": "Homepage company statement",
      "accessed": "2026-11-06",
      "quote": "società interamente controllata dal Consorzio AlmaLaurea",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.almalaurea.it/chi-siamo/contatti",
+     "title": "Contatti",
+     "accessed": "2026-11-06",
+     "quote": "Indirizzo: Viale Masini 36, 40126 Bologna - Italia",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.almalaurea.it/chi-siamo/contatti",
+     "title": "Contatti",
+     "accessed": "2026-11-06",
+     "quote": "IT",
      "quote_check": "ok"
     }
    ]
@@ -17778,7 +17810,7 @@
    "parent": "",
    "business_model": "",
    "api_status": "unknown",
-   "api_docs_url": "",
+   "api_docs_url": "https://lightcast.io/our-data/api/menu",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
@@ -17802,10 +17834,10 @@
    "review": {
     "board_id": "lightcast",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage and partners page state no headquarters, pricing or formal partner program; /api and /developers returned HTTP 404; the API Status footer link is not an API statement.",
-    "method": "mixed"
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Menu page says to reach out to the team for integration, which was taken as on-request. The page does not literally say key or feed, so this is a judgement from the quote. Docs at docs.lightcast.dev/apis/ state no access rules, and that dom",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -17864,8 +17896,8 @@
     "board_id": "revelio-labs",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;business_model;partner_program;ingest_methods",
-    "note": "Homepage states flexible APIs exist; no headquarters, pricing model or partner program stated, and /developers returned HTTP 404.",
+    "fields_not_found": "hq_country;founded",
+    "note": "Business model from pricing page: Terminal starts at $1,250 per month, with an annual commitment (annual commitment is from the FAQ and not separately quoted), plus quote-based enterprise data and API plans and a free Terminal trial. Compan",
     "method": "fetch"
    },
    "owners": [],
@@ -17885,6 +17917,14 @@
      "title": "Homepage",
      "accessed": "2026-11-06",
      "quote": "Access global workforce data through flexible APIs built to integrate directly into your models, applications, and workflows.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.reveliolabs.com/pricing",
+     "title": "Workforce Data Pricing | Revelio Labs",
+     "accessed": "2026-11-06",
+     "quote": "Revelio Terminal starts at $1,250 per month.",
      "quote_check": "ok"
     }
    ]
@@ -18497,9 +18537,9 @@
    "review": {
     "board_id": "manpowergroup",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage shows English as the only language option; no headquarters, pricing, API or partner statement found. /en/about-us returned HTTP 404.",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded",
+    "note": "Read about, leadership, investors and home pages. The site says it operates in 75 countries and territories and mentions brands operating for over 70 years, but states no headquarters location or founding year.",
     "method": "fetch"
    },
    "owners": [],
@@ -18627,9 +18667,9 @@
    "review": {
     "board_id": "kelly-services",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage read by fetch and browser states none of the missing facts; the about page returned HTTP 404.",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Founded 1946 verified from Our story page. Our story page says 'Headquartered in Troy, Michigan' but states no country, so hq_country is not recorded. About Kelly page gives no HQ. Investor relations page returned 403 on fetch and browser; ",
     "method": "mixed"
    },
    "owners": [],
@@ -18641,6 +18681,14 @@
      "title": "Kelly Services",
      "accessed": "2026-11-06",
      "quote": "We deliver the people, strategy, and solutions to turn high-stakes challenges into high-impact results.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.kellyservices.com/about-kelly/our-story/",
+     "title": "Our story | Kelly Services",
+     "accessed": "2026-11-06",
+     "quote": "1946: William Russell Kelly created the staffing industry, founding Russell Kelly Office Service in Detroit, Michigan.",
      "quote_check": "ok"
     }
    ]
@@ -18657,8 +18705,10 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "specialist recruitment and workforce solutions",
    "segment": "",
@@ -18689,8 +18739,8 @@
     "board_id": "hays",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Region and language selector is present; the Polish footer names only a Warsaw-registered subsidiary and no employer pricing or API is stated.",
+    "fields_not_found": "hq_country;founded",
+    "note": "Parent verified from the haysplc.com group site, which is not on the hays.com domain; the hays.com footer links to Hays PLC. Language selector shows United States English; the list of other region and language options was read but not quote",
     "method": "fetch"
    },
    "owners": [],
@@ -18702,6 +18752,14 @@
      "title": "Hays",
      "accessed": "2026-11-06",
      "quote": "Connecting organizations and skilled professionals through specialist recruitment and workforce solutions.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.hays.com",
+     "title": "Hays home page region and language selector",
+     "accessed": "2026-11-06",
+     "quote": "United States English",
      "quote_check": "ok"
     }
    ]
@@ -18830,7 +18888,7 @@
    "domains": "",
    "type": "staffing",
    "hq_country": "IT",
-   "founded": "",
+   "founded": "1998",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -18868,9 +18926,9 @@
     "board_id": "gi-group-holding",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Footer states the Milan headquarters; country selector only, and no pricing, API or partner program stated on the pages read.",
-    "method": "mixed"
+    "fields_not_found": "languages",
+    "note": "Founding year verified from the home page ('Since 1998'). About page gives a Milan head office address and says Gi Group is part of Gi Group Holding, not recorded because the fields asked were founded and languages. Country and region selec",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -18889,6 +18947,14 @@
      "title": "Footer company details",
      "accessed": "2026-11-06",
      "quote": "Headquarter: Piazza IV Novembre, 5 - 20124 Milano",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.gigroup.com",
+     "title": "Gi Group home page",
+     "accessed": "2026-11-06",
+     "quote": "Since 1998, we’ve grown alongside people and organisations to create real value in work.",
      "quote_check": "ok"
     }
    ]
@@ -19286,8 +19352,8 @@
     "board_id": "russell-reynolds-associates",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage lists English, Chinese and Japanese options and a New York office; no headquarters statement, parent, pricing or API found. /en/about-us returned HTTP 404.",
+    "fields_not_found": "hq_country;partner_program",
+    "note": "Founded 1969: the year appears as the timeline heading above the quoted sentence, so the quote does not itself contain the year; check the history page. Languages from the language menu: English, Chinese, Japanese. HQ not labelled; the only",
     "method": "fetch"
    },
    "owners": [],
@@ -19307,6 +19373,22 @@
      "title": "Homepage language options",
      "accessed": "2026-11-06",
      "quote": "English | 中文(中国) | 日本語 (日本)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.russellreynolds.com/en/about/who-we-are/history",
+     "title": "Our History | Russell Reynolds Associates",
+     "accessed": "2026-11-06",
+     "quote": "Former banker Russell S. Reynolds, Jr. founds the firm in New York",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com/en/locations",
+     "title": "Office Locations | Russell Reynolds Associates",
+     "accessed": "2026-11-06",
+     "quote": "English 中文(中国) 日本語 (日本)",
      "quote_check": "ok"
     }
    ]
@@ -19493,9 +19575,9 @@
    "review": {
     "board_id": "egon-zehnder",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Language menu confirmed; /about-us states operating in 37 countries but no headquarters or parent.",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Region and language menu verified on /newsroom, /de, /cn with English, Deutsch, 中文, 日本語. Main page language is English.",
     "method": "fetch"
    },
    "owners": [],
@@ -19515,6 +19597,22 @@
      "title": "Homepage language menu",
      "accessed": "2026-11-06",
      "quote": "You are switching to an alternate language version of the Egon Zehnder website.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.egonzehnder.com/newsroom",
+     "title": "Newsroom region menu",
+     "accessed": "2026-11-06",
+     "quote": "English",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.egonzehnder.com/de",
+     "title": "Region menu",
+     "accessed": "2026-11-06",
+     "quote": "Deutsch",
      "quote_check": "ok"
     }
    ]
@@ -19803,9 +19901,9 @@
    "review": {
     "board_id": "taskrabbit",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
-    "note": "Homepage footer partner link found; about page and homepage state no headquarters, parent or language options; no API stated.",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;parent",
+    "note": "Read /about, /press, /blog/partner-lp/ and the homepage footer. None states founding year, HQ or parent. IKEA appears only as a furniture assembly partner.",
     "method": "fetch"
    },
    "owners": [],
@@ -20068,7 +20166,7 @@
    "url": "https://codeable.io",
    "domains": "",
    "type": "freelance-platform",
-   "hq_country": "",
+   "hq_country": "DK",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -20080,16 +20178,16 @@
    "niche": "WordPress freelance developer platform",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "Client deposits project cost into escrow; 17.5% fixed fee; hourly rate $80-$120 USD",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.codeable.io/partner-program/",
    "ingest_methods": [],
    "notes": "",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/codeable/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -20100,6 +20198,7 @@
    },
    "tags": [
     "freelance-platform",
+    "partner-program",
     "tech"
    ],
    "connections": [],
@@ -20107,8 +20206,8 @@
     "board_id": "codeable",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
-    "note": "Homepage menu lists a Partner program; no headquarters, languages or API for postings stated; /employers returned HTTP 404.",
+    "fields_not_found": "founded",
+    "note": "HQ taken from the company address and incorporation line on /team/. The /story/ page gives a launch sequence (joined 2012, launched a year later) but no explicit founding year, so founded is not recorded.",
     "method": "fetch"
    },
    "owners": [],
@@ -20120,6 +20219,30 @@
      "title": "Codeable homepage",
      "accessed": "2026-11-06",
      "quote": "Codeable is the only WordPress freelancer platform.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.codeable.io/team/",
+     "title": "Team",
+     "accessed": "2026-11-06",
+     "quote": "Codeable ApS, Holmegaardsvej 21, 2920 Charlottenlund.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.codeable.io/pricing/",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "You deposit the total cost of your project into a secure escrow system before the project work starts.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.codeable.io/partner-program/",
+     "title": "Partner program",
+     "accessed": "2026-11-06",
+     "quote": "Earn commissions or offer a discount for new clients you refer to us.",
      "quote_check": "ok"
     }
    ]
@@ -20671,7 +20794,7 @@
    "domains": "",
    "type": "hr-tech",
    "hq_country": "",
-   "founded": "",
+   "founded": "2013",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -20712,9 +20835,9 @@
     "board_id": "beamery",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;parent",
-    "note": "Partner program and ATS integrations stated; no public API mention found, /developers returned 404, and no headquarters, languages or pricing stated.",
-    "method": "mixed"
+    "fields_not_found": "hq_country;parent",
+    "note": "Founding year 2013 verified on /about-us/. Homepage footer gives copyright only. The London reference is the founding location, not a stated HQ.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -20741,6 +20864,14 @@
      "title": "Partners page",
      "accessed": "2026-11-06",
      "quote": "Our integration allows mutual customers to bidirectionally sync candidate and vacancy data in real-time between the Beamery CRM and Greenhouse ATS.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://beamery.com/about-us/",
+     "title": "About us",
+     "accessed": "2026-11-06",
+     "quote": "Beamery was founded in a London garage in 2013 by brothers Abakar and Sultan Saidov, and Michael Paterson",
      "quote_check": "ok"
     }
    ]
@@ -21000,8 +21131,8 @@
     "board_id": "first-advantage",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;business_model;api_status",
-    "note": "Homepage, partner page and language selector read; the site mentions flexible APIs without stating how to get access, and no headquarters, parent or pricing statement found. /about/ returned HTTP 404 and /developers/ returned HTTP 404.",
+    "fields_not_found": "hq_country;parent;api_status",
+    "note": "Founded 2003 and region/language menu verified. HQ and parent not stated on About Us or home page. API page (/api/) describes docs and a sandbox but states no access rule; /developers/ returned 404. api_status left unknown. Partner page (/p",
     "method": "fetch"
    },
    "owners": [],
@@ -21029,6 +21160,22 @@
      "title": "Homepage",
      "accessed": "2026-11-06",
      "quote": "100+ ATS and HCM integrated partners",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://fadv.com/about-us/",
+     "title": "About First Advantage | Global Screening Leader",
+     "accessed": "2026-11-06",
+     "quote": "Founded in 2003,",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://fadv.com",
+     "title": "Global Background Checks & Screenings | First Advantage",
+     "accessed": "2026-11-06",
+     "quote": "Choose Your Region & Language.",
      "quote_check": "ok"
     }
    ]
@@ -21078,10 +21225,10 @@
    "review": {
     "board_id": "eightfold-ai",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;parent;ingest_methods",
-    "note": "Partners page states partners work alongside teams to deploy the platform; homepage and footer state no headquarters, language options, pricing or API.",
-    "method": "mixed"
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded;parent",
+    "note": "Read the company, press and home pages. Only a copyright line with the year 2026 appears. No headquarters, founding year or parent company is stated.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -21148,9 +21295,9 @@
    "review": {
     "board_id": "harver",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
-    "note": "Integrations page confirms ATS partners; no headquarters, pricing, language options or API stated.",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founded 2015 verified from About Us. Only founded was requested; HQ and parent were checked on the newsroom and home pages and are not stated. 'Outmatch is now part of Harver' describes an acquisition, not a parent.",
     "method": "fetch"
    },
    "owners": [],
@@ -21170,6 +21317,14 @@
      "title": "Integrations page",
      "accessed": "2026-11-06",
      "quote": "That's why we partner with leading ATS and TM providers to make integration simple and seamless.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://harver.com/about-us/",
+     "title": "About Harver | Science-Backed Talent Decision Platform",
+     "accessed": "2026-11-06",
+     "quote": "Founded in 2015, Harver empowers talent teams to make better-informed hiring decisions using science and data.",
      "quote_check": "ok"
     }
    ]
@@ -21217,10 +21372,10 @@
    "review": {
     "board_id": "lhh",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage states the English language selector only; headquarters, pricing, API and partner program not stated.",
-    "method": "mixed"
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;founded",
+    "note": "Our presence, newsroom and About pages give no global HQ, HQ country or founding year. About says over 50 years of expertise, which is not a year. Newsroom page content was truncated in the fetch.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -21379,8 +21534,8 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://careerminds.com/global-alliance",
    "ingest_methods": [],
    "notes": "",
    "confidence": "partially-verified",
@@ -21395,15 +21550,16 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "outplacement"
+    "outplacement",
+    "partner-program"
    ],
    "connections": [],
    "review": {
     "board_id": "careerminds",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage and about page show a country selector and service coverage in 80+ languages; no headquarters, parent, site language options, API or partner program stated. Only a partnership invitation appears.",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded;languages;business_model",
+    "note": "Partner program verified (Global Alliance page, partner-with-us wording and speak-with-an-expert link). Packages page says pricing is available on request, with no prices or employer payment model. The site says it delivers services in 80 l",
     "method": "fetch"
    },
    "owners": [],
@@ -21415,6 +21571,14 @@
      "title": "Careerminds",
      "accessed": "2026-11-06",
      "quote": "Outplacement delivered in 100+ countries and 80+ languages",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://careerminds.com/global-alliance",
+     "title": "Global Alliance",
+     "accessed": "2026-11-06",
+     "quote": "Partner with us to bring outplacement to your clients",
      "quote_check": "ok"
     }
    ]
@@ -21641,8 +21805,8 @@
     "board_id": "velvetjobs",
     "reviewed": "2026-11-06",
     "outcome": "not-stated",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage read; no language, location, pricing, API or partner statement found. /pricing returned HTTP 404.",
+    "fields_not_found": "hq_country;founded",
+    "note": "About page says Based in Los Angeles, but names no country, so hq_country was not recorded from the city alone. No founding year on About or homepage. Footer copyright is VelvetJobs 2026 only.",
     "method": "fetch"
    },
    "owners": [],
@@ -21741,7 +21905,7 @@
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
-   "partner_url": "",
+   "partner_url": "https://www.topresume.com/partnerships",
    "ingest_methods": [],
    "notes": "",
    "confidence": "partially-verified",
@@ -21762,9 +21926,9 @@
    "review": {
     "board_id": "topresume",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;parent;languages;business_model;partner_program;ingest_methods",
-    "note": "Homepage covers job-seeker services and a footer Partnerships link with no details; /about-us and /employers returned HTTP 404.",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded;business_model",
+    "note": "Partnerships page describes an incentive program for job seekers referral and commission; join form only, no joining steps. About page says part of the Career.io family but no HQ or founding year. Plans page shows job-seeker pricing only (b",
     "method": "fetch"
    },
    "owners": [],
@@ -21776,6 +21940,14 @@
      "title": "TopResume",
      "accessed": "2026-11-06",
      "quote": "Land more interviews and get hired faster with a professional resume that highlights your full potential.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.topresume.com/partnerships",
+     "title": "Partnerships",
+     "accessed": "2026-11-06",
+     "quote": "Our programs incentivize you for helping us reach job seekers who can benefit from our expert resume-writing services.",
      "quote_check": "ok"
     }
    ]
@@ -21939,8 +22111,8 @@
     "board_id": "kickresume",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Footer language selector found; no employer pricing, API, parent or headquarters country stated on homepage.",
+    "fields_not_found": "founded;business_model;partner_program",
+    "note": "HQ Bratislava and language list found on About page. No founding year. Pricing pages (/en/pricing/) show plans for job seekers only (yearly $96, quarterly $54, free unless paid customization options), no employer pricing, so business_model ",
     "method": "fetch"
    },
    "owners": [],
@@ -21952,6 +22124,14 @@
      "title": "Kickresume",
      "accessed": "2026-11-06",
      "quote": "Build a professional resume online in minutes with Kickresume's free resume builder.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.kickresume.com/en/about/",
+     "title": "About Us",
+     "accessed": "2026-11-06",
+     "quote": "We're a small, passionate team based in Bratislava, Slovakia.",
      "quote_check": "ok"
     }
    ]
@@ -22169,8 +22349,8 @@
     "board_id": "novoresume",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage and pricing page read; footer gives a Copenhagen address and language options; pricing covers job seekers only.",
+    "fields_not_found": "",
+    "note": "Founded 2014 and language menu verified. Business model: the core builder is free and paid Pro is a one-time pass for job seekers; no employer pricing is shown, so this is a job seeker model, not how employers pay. Homepage FAQ calls it 'a ",
     "method": "fetch"
    },
    "owners": [],
@@ -22190,6 +22370,38 @@
      "title": "Homepage footer",
      "accessed": "2026-11-06",
      "quote": "Bredgade 45B, 1260 København",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://novoresume.com/about-us",
+     "title": "Find out the story behind Novorésumé team | Novorésumé",
+     "accessed": "2026-11-06",
+     "quote": "Novorésumé began in 2014 when Andrei, Cristian, and Stefan noticed a common problem among several of their contacts.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://novoresume.com",
+     "title": "Free Online Resume Builder | Used by 18M+ Job Seekers",
+     "accessed": "2026-11-06",
+     "quote": "Dansk, Deutsch, English UK, English US, Español",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://novoresume.com",
+     "title": "Free Online Resume Builder | Used by 18M+ Job Seekers",
+     "accessed": "2026-11-06",
+     "quote": "The core builder is free: create, edit, and download your resume with no credit card and no trial period.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://novoresume.com/pricing",
+     "title": "Pricing Plans | Novorésumé",
+     "accessed": "2026-11-06",
+     "quote": "One payment. Nothing to cancel.",
      "quote_check": "ok"
     }
    ]
@@ -22368,7 +22580,7 @@
    "niche": "applicant tracking system",
    "segment": "mid-market/enterprise",
    "parent": "",
-   "business_model": "",
+   "business_model": "Custom-priced plans based on hiring needs; no public prices shown",
    "api_status": "public-open",
    "api_docs_url": "https://developers.greenhouse.io/job-board.html",
    "partner_program": "yes",
@@ -22377,9 +22589,9 @@
     "Public job feed"
    ],
    "notes": "Public Job Board API at boards-api.greenhouse.io; Harvest API for private data. Write API: Harvest API (key). Reading jobs needs auth: no (read).",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/greenhouse/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -22488,10 +22700,42 @@
      "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "greenhouse",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Language menu verified on /de and /uk. Pricing is custom by plan with no public prices; the page does not use the word subscription.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.greenhouse.com/de",
+     "title": "Deutsch page language menu",
+     "accessed": "2026-11-06",
+     "quote": "English (US)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.greenhouse.com/uk",
+     "title": "UK page language menu",
+     "accessed": "2026-11-06",
+     "quote": "English (UK)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.greenhouse.com/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "Greenhouse pricing is customized based on your company’s hiring needs.",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "lever",
@@ -22683,7 +22927,7 @@
    "niche": "applicant tracking system",
    "segment": "startup/scale-up",
    "parent": "",
-   "business_model": "",
+   "business_model": "Subscription plans (Foundations, Plus, Enterprise); Foundations shown at $400 per month for up to 100 employees; Plus and Enterprise by sales contact",
    "api_status": "public-open",
    "api_docs_url": "https://developers.ashbyhq.com",
    "partner_program": "yes",
@@ -22692,9 +22936,9 @@
     "Public job feed"
    ],
    "notes": "Public job posting API. Write API: API key. Reading jobs needs auth: no (read).",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ashby/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -22707,7 +22951,8 @@
     "api-open",
     "ats",
     "partner-program",
-    "public-job-feed"
+    "public-job-feed",
+    "subscription"
    ],
    "connections": [
     {
@@ -22729,10 +22974,26 @@
      "quote": "Adway Social recruiting platform that auto-generates paid job ads on social media from your Ashby job postings."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "ashby",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Pricing page verified: plan-based pricing with a $400 per month Foundations price and sales-led Enterprise pricing.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.ashbyhq.com/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "Our pricing is based on company size, usage, and commitment.",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "workable",
@@ -23810,9 +24071,9 @@
     "Public job feed"
    ],
    "notes": "Write API: key. Reading jobs needs auth: key.",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jazzhr/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -23911,10 +24172,26 @@
      "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "jazzhr",
+    "reviewed": "2026-11-06",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Pricing page gives yearly billing with a discount, a Hero plan at $1,000/yr billed annually, and usage-billed add-ons.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.jazzhr.com/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "Save up to 24% by paying yearly",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "breezy",
@@ -23932,7 +24209,7 @@
    "niche": "applicant tracking system",
    "segment": "SMB",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "public-key",
    "api_docs_url": "https://developer.breezy.hr",
    "partner_program": "yes",
@@ -23941,9 +24218,9 @@
     "Public job feed"
    ],
    "notes": "Public /json endpoint per company. Write API: token. Reading jobs needs auth: partial.",
-   "confidence": "seed-unverified",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/breezy/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -23957,7 +24234,8 @@
     "ats",
     "partner-program",
     "public-job-feed",
-    "smb"
+    "smb",
+    "subscription"
    ],
    "connections": [
     {
@@ -23988,10 +24266,26 @@
      "quote": "Easily publish your roles on Reed.co.uk via your ATS."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "breezy",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded",
+    "note": "Business model verified from the pricing page: paid subscription plans, annual billing option, Breezy Intelligence add-on at $30 per 100,000 credits. No per-post or free posting option was stated. About page and home page do not state a fou",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://breezy.hr/pricing",
+     "title": "Breezy pricing",
+     "accessed": "2026-11-06",
+     "quote": "Paid plans start at $157 a month when you pay annually.",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "jobvite",
@@ -24338,7 +24632,14 @@
      "quote": "Easily publish your roles on Reed.co.uk via your ATS."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "pinpoint",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "business_model",
+    "note": "Request-pricing page says pricing is a custom quote after a call ('provide you with an accurate price'); no payment model (subscription, per post, free) is stated. /pricing returned 404. News page has no HQ, founding or parent facts.",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -27024,10 +27325,10 @@
    "review": {
     "board_id": "jobsite",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status",
-    "note": "About page names StepStone as parent; homepage and employers page returned HTTP 503.",
-    "method": "fetch"
+    "outcome": "unreachable",
+    "fields_not_found": "hq_country;founded;business_model;partner_program",
+    "note": "WebFetch returned HTTP 503 for the homepage and /about-us. /recruiters returned HTTP 200 with an empty body in WebFetch; browse.js returned status 200 with an empty text and no links, not blocked. No facts could be quoted.",
+    "method": "mixed"
    },
    "owners": [
     {

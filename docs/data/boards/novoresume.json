@@ -42,8 +42,8 @@
   "board_id": "novoresume",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage and pricing page read; footer gives a Copenhagen address and language options; pricing covers job seekers only.",
+  "fields_not_found": "",
+  "note": "Founded 2014 and language menu verified. Business model: the core builder is free and paid Pro is a one-time pass for job seekers; no employer pricing is shown, so this is a job seeker model, not how employers pay. Homepage FAQ calls it 'a ",
   "method": "fetch"
  },
  "owners": [],
@@ -63,6 +63,38 @@
    "title": "Homepage footer",
    "accessed": "2026-11-06",
    "quote": "Bredgade 45B, 1260 København",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://novoresume.com/about-us",
+   "title": "Find out the story behind Novorésumé team | Novorésumé",
+   "accessed": "2026-11-06",
+   "quote": "Novorésumé began in 2014 when Andrei, Cristian, and Stefan noticed a common problem among several of their contacts.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://novoresume.com",
+   "title": "Free Online Resume Builder | Used by 18M+ Job Seekers",
+   "accessed": "2026-11-06",
+   "quote": "Dansk, Deutsch, English UK, English US, Español",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://novoresume.com",
+   "title": "Free Online Resume Builder | Used by 18M+ Job Seekers",
+   "accessed": "2026-11-06",
+   "quote": "The core builder is free: create, edit, and download your resume with no credit card and no trial period.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://novoresume.com/pricing",
+   "title": "Pricing Plans | Novorésumé",
+   "accessed": "2026-11-06",
+   "quote": "One payment. Nothing to cancel.",
    "quote_check": "ok"
   }
  ]

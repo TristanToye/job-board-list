@@ -1,71 +1,342 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 2,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 2,
+ "boards": [
+  {
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "parent": "Hays plc",
+   "primary_language": "en",
+   "sources": [
     {
-      "name": "Hays", "url": "https://www.hays.com",
-      "parent": "Hays plc",
-      "primary_language": "en",
-      "sources": [
-        {"field": "parent", "url": "https://www.haysplc.com", "title": "Hays plc group site footer", "quote": "the HAYS \"Working for your tomorrow\" logo and Powering the world of work are trademarks of Hays plc."},
-        {"field": "languages", "url": "https://www.hays.com", "title": "Hays home page region and language selector", "quote": "United States English"}
-      ]
+     "field": "parent",
+     "url": "https://www.haysplc.com",
+     "title": "Hays plc group site footer",
+     "quote": "the HAYS \"Working for your tomorrow\" logo and Powering the world of work are trademarks of Hays plc.",
+     "check": "ok"
     },
     {
-      "name": "Careerminds", "url": "https://www.careerminds.com",
-      "partner_program": "yes",
-      "partner_url": "https://careerminds.com/global-alliance",
-      "sources": [
-        {"field": "partner_program", "url": "https://careerminds.com/global-alliance", "title": "Global Alliance", "quote": "Partner with us to bring outplacement to your clients"}
-      ]
-    },
-    {
-      "name": "Gi Group Holding", "url": "https://www.gigroup.com",
-      "founded": "1998",
-      "sources": [
-        {"field": "founded", "url": "https://www.gigroup.com", "title": "Gi Group home page", "quote": "Since 1998, we’ve grown alongside people and organisations to create real value in work."}
-      ]
-    },
-    {
-      "name": "Breezy HR", "url": "https://breezy.hr",
-      "business_model": "subscription",
-      "api_status": null,
-      "sources": [
-        {"field": "business_model", "url": "https://breezy.hr/pricing", "title": "Breezy pricing", "quote": "Paid plans start at $157 a month when you pay annually."}
-      ]
+     "field": "languages",
+     "url": "https://www.hays.com",
+     "title": "Hays home page region and language selector",
+     "quote": "United States English",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Hays", "url": "https://www.hays.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded"], "method": "fetch", "note": "Parent verified from the haysplc.com group site, which is not on the hays.com domain; the hays.com footer links to Hays PLC. Language selector shows United States English; the list of other region and language options was read but not quoted verbatim, so languages_supported was not recorded. No headquarters or founding year stated on about-us, leaders or home pages."},
-    {"name": "Careerminds", "url": "https://www.careerminds.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded", "languages", "business_model"], "method": "fetch", "note": "Partner program verified (Global Alliance page, partner-with-us wording and speak-with-an-expert link). Packages page says pricing is available on request, with no prices or employer payment model. The site says it delivers services in 80 languages but names no language list. About Us and home pages state no headquarters, founding year or owner."},
-    {"name": "Gi Group Holding", "url": "https://www.gigroup.com", "outcome": "partially-verified", "fields_not_found": ["languages"], "method": "fetch", "note": "Founding year verified from the home page ('Since 1998'). About page gives a Milan head office address and says Gi Group is part of Gi Group Holding, not recorded because the fields asked were founded and languages. Country and region selectors list country names only, with no language names."},
-    {"name": "Breezy HR", "url": "https://breezy.hr", "outcome": "partially-verified", "fields_not_found": ["founded"], "method": "fetch", "note": "Business model verified from the pricing page: paid subscription plans, annual billing option, Breezy Intelligence add-on at $30 per 100,000 credits. No per-post or free posting option was stated. About page and home page do not state a founding year."},
-    {"name": "Eightfold AI", "url": "https://eightfold.ai", "outcome": "not-stated", "fields_not_found": ["hq_country", "founded", "parent"], "method": "fetch", "note": "Read the company, press and home pages. Only a copyright line with the year 2026 appears. No headquarters, founding year or parent company is stated."},
-    {"name": "Prospects", "url": "https://www.prospects.ac.uk", "outcome": "not-stated", "fields_not_found": ["founded", "business_model"], "method": "fetch", "note": "About us page gives a Bristol address and says Prospects is part of Jisc, but no founding year. Employer advertising shows 'Prices from £370' with no statement of whether it is per advert, subscription or other, so business_model is not recorded. Press office page gives no founding year."},
-    {"name": "ManpowerGroup", "url": "https://www.manpowergroup.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "founded"], "method": "fetch", "note": "Read about, leadership, investors and home pages. The site says it operates in 75 countries and territories and mentions brands operating for over 70 years, but states no headquarters location or founding year."}
-  ],
-  "attempts": [
-    {"name": "Hays", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.hays.com/en-US/about-us", "https://www.hays.com/en-US/about-us/leaders", "https://www.hays.com/"]},
-    {"name": "Hays", "field": "founded", "outcome": "not-found", "pages": ["https://www.hays.com/en-US/about-us", "https://www.hays.com/en-US/about-us/leaders", "https://www.hays.com/"]},
-    {"name": "Hays", "field": "parent", "outcome": "found", "pages": ["https://www.haysplc.com"]},
-    {"name": "Hays", "field": "languages", "outcome": "found", "pages": ["https://www.hays.com/", "https://www.hays.com/en-US/about-us"]},
-    {"name": "Careerminds", "field": "hq_country", "outcome": "not-found", "pages": ["https://careerminds.com/about-us", "https://careerminds.com/"]},
-    {"name": "Careerminds", "field": "founded", "outcome": "not-found", "pages": ["https://careerminds.com/about-us", "https://careerminds.com/"]},
-    {"name": "Careerminds", "field": "languages", "outcome": "not-found", "pages": ["https://careerminds.com/global-capabilities", "https://careerminds.com/about-us"]},
-    {"name": "Careerminds", "field": "business_model", "outcome": "not-found", "pages": ["https://careerminds.com/packages"]},
-    {"name": "Careerminds", "field": "partner_program", "outcome": "found", "pages": ["https://careerminds.com/global-alliance"]},
-    {"name": "Gi Group Holding", "field": "founded", "outcome": "found", "pages": ["https://www.gigroup.com/", "https://www.gigroup.com/about-gi-group/"]},
-    {"name": "Gi Group Holding", "field": "languages", "outcome": "not-found", "pages": ["https://www.gigroup.com/contact-us/#countries", "https://www.gigroup.com/"]},
-    {"name": "Breezy HR", "field": "founded", "outcome": "not-found", "pages": ["https://breezy.hr/about", "https://breezy.hr/"]},
-    {"name": "Breezy HR", "field": "business_model", "outcome": "found", "pages": ["https://breezy.hr/pricing"]},
-    {"name": "Eightfold AI", "field": "hq_country", "outcome": "not-found", "pages": ["https://eightfold.ai/company/", "https://eightfold.ai/company/press/", "https://eightfold.ai"]},
-    {"name": "Eightfold AI", "field": "founded", "outcome": "not-found", "pages": ["https://eightfold.ai/company/", "https://eightfold.ai/company/press/", "https://eightfold.ai"]},
-    {"name": "Eightfold AI", "field": "parent", "outcome": "not-found", "pages": ["https://eightfold.ai/company/", "https://eightfold.ai/company/press/", "https://eightfold.ai"]},
-    {"name": "Prospects", "field": "founded", "outcome": "not-found", "pages": ["https://prospects.ac.uk/about-us", "https://prospects.ac.uk/prospects-press-office", "https://prospects.ac.uk/"]},
-    {"name": "Prospects", "field": "business_model", "outcome": "not-found", "pages": ["https://prospects.ac.uk/about-us", "https://prospects.ac.uk/"]},
-    {"name": "ManpowerGroup", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.manpowergroup.com/en/about", "https://www.manpowergroup.com/en/about/leadership", "https://www.manpowergroup.com/en/investors", "https://www.manpowergroup.com/"]},
-    {"name": "ManpowerGroup", "field": "founded", "outcome": "not-found", "pages": ["https://www.manpowergroup.com/en/about", "https://www.manpowergroup.com/en/about/leadership", "https://www.manpowergroup.com/en/investors", "https://www.manpowergroup.com/"]}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Careerminds",
+   "url": "https://www.careerminds.com",
+   "partner_program": "yes",
+   "partner_url": "https://careerminds.com/global-alliance",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://careerminds.com/global-alliance",
+     "title": "Global Alliance",
+     "quote": "Partner with us to bring outplacement to your clients",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "founded": "1998",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.gigroup.com",
+     "title": "Gi Group home page",
+     "quote": "Since 1998, we’ve grown alongside people and organisations to create real value in work.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Breezy HR",
+   "url": "https://breezy.hr",
+   "business_model": "subscription",
+   "api_status": null,
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://breezy.hr/pricing",
+     "title": "Breezy pricing",
+     "quote": "Paid plans start at $157 a month when you pay annually.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Hays",
+   "url": "https://www.hays.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "Parent verified from the haysplc.com group site, which is not on the hays.com domain; the hays.com footer links to Hays PLC. Language selector shows United States English; the list of other region and language options was read but not quoted verbatim, so languages_supported was not recorded. No headquarters or founding year stated on about-us, leaders or home pages."
+  },
+  {
+   "name": "Careerminds",
+   "url": "https://www.careerminds.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "founded",
+    "languages",
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "Partner program verified (Global Alliance page, partner-with-us wording and speak-with-an-expert link). Packages page says pricing is available on request, with no prices or employer payment model. The site says it delivers services in 80 languages but names no language list. About Us and home pages state no headquarters, founding year or owner."
+  },
+  {
+   "name": "Gi Group Holding",
+   "url": "https://www.gigroup.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages"
+   ],
+   "method": "fetch",
+   "note": "Founding year verified from the home page ('Since 1998'). About page gives a Milan head office address and says Gi Group is part of Gi Group Holding, not recorded because the fields asked were founded and languages. Country and region selectors list country names only, with no language names."
+  },
+  {
+   "name": "Breezy HR",
+   "url": "https://breezy.hr",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "Business model verified from the pricing page: paid subscription plans, annual billing option, Breezy Intelligence add-on at $30 per 100,000 credits. No per-post or free posting option was stated. About page and home page do not state a founding year."
+  },
+  {
+   "name": "Eightfold AI",
+   "url": "https://eightfold.ai",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "founded",
+    "parent"
+   ],
+   "method": "fetch",
+   "note": "Read the company, press and home pages. Only a copyright line with the year 2026 appears. No headquarters, founding year or parent company is stated."
+  },
+  {
+   "name": "Prospects",
+   "url": "https://www.prospects.ac.uk",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "founded",
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "About us page gives a Bristol address and says Prospects is part of Jisc, but no founding year. Employer advertising shows 'Prices from £370' with no statement of whether it is per advert, subscription or other, so business_model is not recorded. Press office page gives no founding year."
+  },
+  {
+   "name": "ManpowerGroup",
+   "url": "https://www.manpowergroup.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "Read about, leadership, investors and home pages. The site says it operates in 75 countries and territories and mentions brands operating for over 70 years, but states no headquarters location or founding year."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Hays",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.hays.com/en-US/about-us",
+    "https://www.hays.com/en-US/about-us/leaders",
+    "https://www.hays.com/"
+   ]
+  },
+  {
+   "name": "Hays",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.hays.com/en-US/about-us",
+    "https://www.hays.com/en-US/about-us/leaders",
+    "https://www.hays.com/"
+   ]
+  },
+  {
+   "name": "Hays",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.haysplc.com"
+   ]
+  },
+  {
+   "name": "Hays",
+   "field": "languages",
+   "outcome": "found",
+   "pages": [
+    "https://www.hays.com/",
+    "https://www.hays.com/en-US/about-us"
+   ]
+  },
+  {
+   "name": "Careerminds",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://careerminds.com/about-us",
+    "https://careerminds.com/"
+   ]
+  },
+  {
+   "name": "Careerminds",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://careerminds.com/about-us",
+    "https://careerminds.com/"
+   ]
+  },
+  {
+   "name": "Careerminds",
+   "field": "languages",
+   "outcome": "not-found",
+   "pages": [
+    "https://careerminds.com/global-capabilities",
+    "https://careerminds.com/about-us"
+   ]
+  },
+  {
+   "name": "Careerminds",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://careerminds.com/packages"
+   ]
+  },
+  {
+   "name": "Careerminds",
+   "field": "partner_program",
+   "outcome": "found",
+   "pages": [
+    "https://careerminds.com/global-alliance"
+   ]
+  },
+  {
+   "name": "Gi Group Holding",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.gigroup.com/",
+    "https://www.gigroup.com/about-gi-group/"
+   ]
+  },
+  {
+   "name": "Gi Group Holding",
+   "field": "languages",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.gigroup.com/contact-us/#countries",
+    "https://www.gigroup.com/"
+   ]
+  },
+  {
+   "name": "Breezy HR",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://breezy.hr/about",
+    "https://breezy.hr/"
+   ]
+  },
+  {
+   "name": "Breezy HR",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://breezy.hr/pricing"
+   ]
+  },
+  {
+   "name": "Eightfold AI",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://eightfold.ai/company/",
+    "https://eightfold.ai/company/press/",
+    "https://eightfold.ai"
+   ]
+  },
+  {
+   "name": "Eightfold AI",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://eightfold.ai/company/",
+    "https://eightfold.ai/company/press/",
+    "https://eightfold.ai"
+   ]
+  },
+  {
+   "name": "Eightfold AI",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://eightfold.ai/company/",
+    "https://eightfold.ai/company/press/",
+    "https://eightfold.ai"
+   ]
+  },
+  {
+   "name": "Prospects",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://prospects.ac.uk/about-us",
+    "https://prospects.ac.uk/prospects-press-office",
+    "https://prospects.ac.uk/"
+   ]
+  },
+  {
+   "name": "Prospects",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://prospects.ac.uk/about-us",
+    "https://prospects.ac.uk/"
+   ]
+  },
+  {
+   "name": "ManpowerGroup",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.manpowergroup.com/en/about",
+    "https://www.manpowergroup.com/en/about/leadership",
+    "https://www.manpowergroup.com/en/investors",
+    "https://www.manpowergroup.com/"
+   ]
+  },
+  {
+   "name": "ManpowerGroup",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.manpowergroup.com/en/about",
+    "https://www.manpowergroup.com/en/about/leadership",
+    "https://www.manpowergroup.com/en/investors",
+    "https://www.manpowergroup.com/"
+   ]
+  }
+ ],
+ "blocked": []
 }

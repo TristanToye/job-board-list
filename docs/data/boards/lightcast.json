@@ -18,7 +18,7 @@
  "parent": "",
  "business_model": "",
  "api_status": "unknown",
- "api_docs_url": "",
+ "api_docs_url": "https://lightcast.io/our-data/api/menu",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
@@ -42,10 +42,10 @@
  "review": {
   "board_id": "lightcast",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage and partners page state no headquarters, pricing or formal partner program; /api and /developers returned HTTP 404; the API Status footer link is not an API statement.",
-  "method": "mixed"
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded",
+  "note": "Menu page says to reach out to the team for integration, which was taken as on-request. The page does not literally say key or feed, so this is a judgement from the quote. Docs at docs.lightcast.dev/apis/ state no access rules, and that dom",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],

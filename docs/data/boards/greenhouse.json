@@ -14,7 +14,7 @@
  "niche": "applicant tracking system",
  "segment": "mid-market/enterprise",
  "parent": "",
- "business_model": "",
+ "business_model": "Custom-priced plans based on hiring needs; no public prices shown",
  "api_status": "public-open",
  "api_docs_url": "https://developers.greenhouse.io/job-board.html",
  "partner_program": "yes",
@@ -23,9 +23,9 @@
   "Public job feed"
  ],
  "notes": "Public Job Board API at boards-api.greenhouse.io; Harvest API for private data. Write API: Harvest API (key). Reading jobs needs auth: no (read).",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/greenhouse/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -134,8 +134,40 @@
    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "greenhouse",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Language menu verified on /de and /uk. Pricing is custom by plan with no public prices; the page does not use the word subscription.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "languages",
+   "url": "https://www.greenhouse.com/de",
+   "title": "Deutsch page language menu",
+   "accessed": "2026-11-06",
+   "quote": "English (US)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.greenhouse.com/uk",
+   "title": "UK page language menu",
+   "accessed": "2026-11-06",
+   "quote": "English (UK)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.greenhouse.com/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "Greenhouse pricing is customized based on your company’s hiring needs.",
+   "quote_check": "ok"
+  }
+ ]
 }

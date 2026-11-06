@@ -5,7 +5,7 @@
  "domains": "",
  "type": "staffing",
  "hq_country": "IT",
- "founded": "",
+ "founded": "1998",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -43,9 +43,9 @@
   "board_id": "gi-group-holding",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Footer states the Milan headquarters; country selector only, and no pricing, API or partner program stated on the pages read.",
-  "method": "mixed"
+  "fields_not_found": "languages",
+  "note": "Founding year verified from the home page ('Since 1998'). About page gives a Milan head office address and says Gi Group is part of Gi Group Holding, not recorded because the fields asked were founded and languages. Country and region selec",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
@@ -64,6 +64,14 @@
    "title": "Footer company details",
    "accessed": "2026-11-06",
    "quote": "Headquarter: Piazza IV Novembre, 5 - 20124 Milano",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.gigroup.com",
+   "title": "Gi Group home page",
+   "accessed": "2026-11-06",
+   "quote": "Since 1998, we’ve grown alongside people and organisations to create real value in work.",
    "quote_check": "ok"
   }
  ]

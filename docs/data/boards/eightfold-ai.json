@@ -43,10 +43,10 @@
  "review": {
   "board_id": "eightfold-ai",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;api_status;parent;ingest_methods",
-  "note": "Partners page states partners work alongside teams to deploy the platform; homepage and footer state no headquarters, language options, pricing or API.",
-  "method": "mixed"
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;founded;parent",
+  "note": "Read the company, press and home pages. Only a copyright line with the year 2026 appears. No headquarters, founding year or parent company is stated.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],

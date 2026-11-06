@@ -4,7 +4,7 @@
  "url": "https://www.almalaurea.it/",
  "domains": "",
  "type": "niche-board",
- "hq_country": "",
+ "hq_country": "IT",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -43,9 +43,9 @@
   "board_id": "almalaurea",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage states parent Consorzio AlmaLaurea and IT/EN switcher; no address, pricing, API or partner program stated.",
-  "method": "mixed"
+  "fields_not_found": "founded;business_model",
+  "note": "Head office in Bologna, Italy and IT/EN switcher verified. Services page states no pricing or payment model; Trasparenza names the consortium but no founding year.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
@@ -64,6 +64,22 @@
    "title": "Homepage company statement",
    "accessed": "2026-11-06",
    "quote": "società interamente controllata dal Consorzio AlmaLaurea",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.almalaurea.it/chi-siamo/contatti",
+   "title": "Contatti",
+   "accessed": "2026-11-06",
+   "quote": "Indirizzo: Viale Masini 36, 40126 Bologna - Italia",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.almalaurea.it/chi-siamo/contatti",
+   "title": "Contatti",
+   "accessed": "2026-11-06",
+   "quote": "IT",
    "quote_check": "ok"
   }
  ]

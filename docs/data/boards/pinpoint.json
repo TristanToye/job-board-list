@@ -277,7 +277,14 @@
    "quote": "Easily publish your roles on Reed.co.uk via your ATS."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "pinpoint",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "business_model",
+  "note": "Request-pricing page says pricing is a custom quote after a call ('provide you with an accurate price'); no payment model (subscription, per post, free) is stated. /pricing returned 404. News page has no HQ, founding or parent facts.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": []

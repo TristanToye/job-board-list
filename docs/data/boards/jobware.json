@@ -42,10 +42,10 @@
  "review": {
   "board_id": "jobware",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage and employer page read; none of the missing facts are stated.",
-  "method": "mixed"
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Impressum names the registry court AG Paderborn and the Paderborn address, so hq_country DE is taken from the registry court. Ueber uns gives 1 May 1996 for the first German online job market, founded in Paderborn; the page does not name a ",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
@@ -57,6 +57,22 @@
    "accessed": "2026-11-05",
    "quote": "Finde passende Stellenangebote nach Beruf, Standort oder spezifischer Rolle.",
    "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.jobware.de/impressum",
+   "title": "Impressum",
+   "accessed": "2026-11-06",
+   "quote": "Registergericht: AG Paderborn, HRB 2772",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.jobware.de/ueber-uns",
+   "title": "Über uns",
+   "accessed": "2026-11-06",
+   "quote": "Am 1. Mai 1996 gründet er in Paderborn den ersten deutschen Online-Stellenmarkt.",
+   "quote_check": "ok"
   }
  ]
 }

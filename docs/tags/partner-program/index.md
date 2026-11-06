@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 69 entries in the directory.
+Has a partner or integration program. 71 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -49,9 +49,11 @@ Has a partner or integration program. 69 entries in the directory.
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
+- [Codeable](https://jobboardlist.com/boards/codeable/): freelance-platform
 - [Phenom](https://jobboardlist.com/boards/phenom/): ats
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
+- [Careerminds](https://jobboardlist.com/boards/careerminds/): outplacement
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Partner-only API
 - [Jobijoba](https://jobboardlist.com/boards/jobijoba/): aggregator, API key on request

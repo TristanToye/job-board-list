@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 62 entries in the directory.
+Employers pay a recurring fee or plan. 64 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -16,8 +16,10 @@ Employers pay a recurring fee or plan. 62 entries in the directory.
 - [Rikunabi](https://jobboardlist.com/boards/rikunabi/): board, No known API
 - [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Partner-only API
 - [Cake (CakeResume)](https://jobboardlist.com/boards/cake-cakeresume/): board
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
+- [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
 - [Naukri](https://jobboardlist.com/boards/naukri/): board, Partner-only API
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API

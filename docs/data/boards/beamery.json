@@ -5,7 +5,7 @@
  "domains": "",
  "type": "hr-tech",
  "hq_country": "",
- "founded": "",
+ "founded": "2013",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -46,9 +46,9 @@
   "board_id": "beamery",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;parent",
-  "note": "Partner program and ATS integrations stated; no public API mention found, /developers returned 404, and no headquarters, languages or pricing stated.",
-  "method": "mixed"
+  "fields_not_found": "hq_country;parent",
+  "note": "Founding year 2013 verified on /about-us/. Homepage footer gives copyright only. The London reference is the founding location, not a stated HQ.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
@@ -75,6 +75,14 @@
    "title": "Partners page",
    "accessed": "2026-11-06",
    "quote": "Our integration allows mutual customers to bidirectionally sync candidate and vacancy data in real-time between the Beamery CRM and Greenhouse ATS.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://beamery.com/about-us/",
+   "title": "About us",
+   "accessed": "2026-11-06",
+   "quote": "Beamery was founded in a London garage in 2013 by brothers Abakar and Sultan Saidov, and Michael Paterson",
    "quote_check": "ok"
   }
  ]

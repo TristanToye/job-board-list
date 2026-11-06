@@ -14,7 +14,7 @@
  "niche": "applicant tracking system",
  "segment": "SMB",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "public-key",
  "api_docs_url": "https://developer.breezy.hr",
  "partner_program": "yes",
@@ -23,9 +23,9 @@
   "Public job feed"
  ],
  "notes": "Public /json endpoint per company. Write API: token. Reading jobs needs auth: partial.",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/breezy/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -39,7 +39,8 @@
   "ats",
   "partner-program",
   "public-job-feed",
-  "smb"
+  "smb",
+  "subscription"
  ],
  "connections": [
   {
@@ -70,8 +71,24 @@
    "quote": "Easily publish your roles on Reed.co.uk via your ATS."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "breezy",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded",
+  "note": "Business model verified from the pricing page: paid subscription plans, annual billing option, Breezy Intelligence add-on at $30 per 100,000 credits. No per-post or free posting option was stated. About page and home page do not state a fou",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "business_model",
+   "url": "https://breezy.hr/pricing",
+   "title": "Breezy pricing",
+   "accessed": "2026-11-06",
+   "quote": "Paid plans start at $157 a month when you pay annually.",
+   "quote_check": "ok"
+  }
+ ]
 }

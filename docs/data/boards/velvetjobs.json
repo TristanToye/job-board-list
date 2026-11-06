@@ -42,8 +42,8 @@
   "board_id": "velvetjobs",
   "reviewed": "2026-11-06",
   "outcome": "not-stated",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage read; no language, location, pricing, API or partner statement found. /pricing returned HTTP 404.",
+  "fields_not_found": "hq_country;founded",
+  "note": "About page says Based in Los Angeles, but names no country, so hq_country was not recorded from the city alone. No founding year on About or homepage. Footer copyright is VelvetJobs 2026 only.",
   "method": "fetch"
  },
  "owners": [],

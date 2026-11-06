@@ -10,8 +10,10 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "specialist recruitment and workforce solutions",
  "segment": "",
@@ -42,8 +44,8 @@
   "board_id": "hays",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-  "note": "Region and language selector is present; the Polish footer names only a Warsaw-registered subsidiary and no employer pricing or API is stated.",
+  "fields_not_found": "hq_country;founded",
+  "note": "Parent verified from the haysplc.com group site, which is not on the hays.com domain; the hays.com footer links to Hays PLC. Language selector shows United States English; the list of other region and language options was read but not quote",
   "method": "fetch"
  },
  "owners": [],
@@ -55,6 +57,14 @@
    "title": "Hays",
    "accessed": "2026-11-06",
    "quote": "Connecting organizations and skilled professionals through specialist recruitment and workforce solutions.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.hays.com",
+   "title": "Hays home page region and language selector",
+   "accessed": "2026-11-06",
+   "quote": "United States English",
    "quote_check": "ok"
   }
  ]

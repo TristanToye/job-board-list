@@ -19,8 +19,8 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://careerminds.com/global-alliance",
  "ingest_methods": [],
  "notes": "",
  "confidence": "partially-verified",
@@ -35,15 +35,16 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "outplacement"
+  "outplacement",
+  "partner-program"
  ],
  "connections": [],
  "review": {
   "board_id": "careerminds",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage and about page show a country selector and service coverage in 80+ languages; no headquarters, parent, site language options, API or partner program stated. Only a partnership invitation appears.",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded;languages;business_model",
+  "note": "Partner program verified (Global Alliance page, partner-with-us wording and speak-with-an-expert link). Packages page says pricing is available on request, with no prices or employer payment model. The site says it delivers services in 80 l",
   "method": "fetch"
  },
  "owners": [],
@@ -55,6 +56,14 @@
    "title": "Careerminds",
    "accessed": "2026-11-06",
    "quote": "Outplacement delivered in 100+ countries and 80+ languages",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://careerminds.com/global-alliance",
+   "title": "Global Alliance",
+   "accessed": "2026-11-06",
+   "quote": "Partner with us to bring outplacement to your clients",
    "quote_check": "ok"
   }
  ]

@@ -23,9 +23,9 @@
   "Public job feed"
  ],
  "notes": "Write API: key. Reading jobs needs auth: key.",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jazzhr/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -124,8 +124,24 @@
    "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "jazzhr",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Pricing page gives yearly billing with a discount, a Hero plan at $1,000/yr billed annually, and usage-billed add-ons.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "business_model",
+   "url": "https://www.jazzhr.com/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "Save up to 24% by paying yearly",
+   "quote_check": "ok"
+  }
+ ]
 }

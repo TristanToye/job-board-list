@@ -47,8 +47,8 @@
   "board_id": "first-advantage",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;business_model;api_status",
-  "note": "Homepage, partner page and language selector read; the site mentions flexible APIs without stating how to get access, and no headquarters, parent or pricing statement found. /about/ returned HTTP 404 and /developers/ returned HTTP 404.",
+  "fields_not_found": "hq_country;parent;api_status",
+  "note": "Founded 2003 and region/language menu verified. HQ and parent not stated on About Us or home page. API page (/api/) describes docs and a sandbox but states no access rule; /developers/ returned 404. api_status left unknown. Partner page (/p",
   "method": "fetch"
  },
  "owners": [],
@@ -76,6 +76,22 @@
    "title": "Homepage",
    "accessed": "2026-11-06",
    "quote": "100+ ATS and HCM integrated partners",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://fadv.com/about-us/",
+   "title": "About First Advantage | Global Screening Leader",
+   "accessed": "2026-11-06",
+   "quote": "Founded in 2003,",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://fadv.com",
+   "title": "Global Background Checks & Screenings | First Advantage",
+   "accessed": "2026-11-06",
+   "quote": "Choose Your Region & Language.",
    "quote_check": "ok"
   }
  ]

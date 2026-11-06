@@ -14,7 +14,7 @@
  "niche": "applicant tracking system",
  "segment": "startup/scale-up",
  "parent": "",
- "business_model": "",
+ "business_model": "Subscription plans (Foundations, Plus, Enterprise); Foundations shown at $400 per month for up to 100 employees; Plus and Enterprise by sales contact",
  "api_status": "public-open",
  "api_docs_url": "https://developers.ashbyhq.com",
  "partner_program": "yes",
@@ -23,9 +23,9 @@
   "Public job feed"
  ],
  "notes": "Public job posting API. Write API: API key. Reading jobs needs auth: no (read).",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/ashby/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -38,7 +38,8 @@
   "api-open",
   "ats",
   "partner-program",
-  "public-job-feed"
+  "public-job-feed",
+  "subscription"
  ],
  "connections": [
   {
@@ -60,8 +61,24 @@
    "quote": "Adway Social recruiting platform that auto-generates paid job ads on social media from your Ashby job postings."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "ashby",
+  "reviewed": "2026-11-06",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Pricing page verified: plan-based pricing with a $400 per month Foundations price and sales-led Enterprise pricing.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "business_model",
+   "url": "https://www.ashbyhq.com/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "Our pricing is based on company size, usage, and commitment.",
+   "quote_check": "ok"
+  }
+ ]
 }
