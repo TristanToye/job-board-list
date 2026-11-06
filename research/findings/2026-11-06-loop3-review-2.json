@@ -1,0 +1,149 @@
+{
+  "round": 3,
+  "orders": [
+    {
+      "id": "o-net",
+      "name": "O*NET",
+      "url": "https://www.onetonline.org",
+      "likelihood": {"founded": "low", "parent": "high", "languages": "low", "business_model": "none", "partner_program": "low"},
+      "try_pages": ["https://www.onetcenter.org/overview.html", "https://www.onetonline.org/help/online/"],
+      "reason": "Site text says sponsored by the U.S. Department of Labor and links dol.gov and doleta.gov. About this Site footer link seen. Web Services is a data access route, not a partner program. Free public resource, so business model does not apply.",
+      "flags": ["Record parent is blank, but the review found the Department of Labor sponsor on the overview page; record and review disagree.", "Recorded api_docs_url is under /help/onet/webservices while the Web Services link seen points to services.onetcenter.org."]
+    },
+    {
+      "id": "toptal",
+      "name": "Toptal",
+      "url": "https://www.toptal.com",
+      "likelihood": {"hq_country": "medium", "parent": "medium", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.toptal.com/about", "https://www.toptal.com/clients", "https://www.toptal.com/press-center", "https://www.toptal.com/why"],
+      "reason": "About Us and Clients links seen; an About page usually states headquarters and ownership. Clients page may describe engagement terms. No API, Partners or Pricing link in nav or footer.",
+      "flags": []
+    },
+    {
+      "id": "workday",
+      "name": "Workday Recruiting",
+      "url": "https://www.workday.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "medium", "business_model": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.workday.com/en-us/company/about-workday/our-story.html", "https://investor.workday.com/home/default.aspx", "https://www.workday.com/en-us/choose-country-region.html", "https://developer.workday.com/about"],
+      "reason": "Our Story link seen, and the review found the founders named there. Investor Relations link seen for ownership questions. Region chooser seen for languages. No pricing link.",
+      "flags": []
+    },
+    {
+      "id": "australian-bureau-of-statistics",
+      "name": "Australian Bureau of Statistics",
+      "url": "https://www.abs.gov.au",
+      "likelihood": {"languages": "low", "business_model": "none", "api_status": "medium", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://dataexplorer.abs.gov.au/", "https://www.abs.gov.au/statistics/consultancy-services"],
+      "reason": "Data explorer and Request data links seen. A statistics agency often documents its data API, but no API link appears in nav or footer. No language switcher. Free government statistics, so business model does not apply.",
+      "flags": []
+    },
+    {
+      "id": "99designs",
+      "name": "99designs",
+      "url": "https://www.99designs.com",
+      "likelihood": {"languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://99designs.com/pricing", "https://99designs.com/featured-partners", "https://99designs.com/about"],
+      "reason": "Pricing link and Espanol language switcher seen. Featured partners page lists design service vendors rather than a partner program. No Developers or API link.",
+      "flags": ["Languages and business_model are marked found in attempts but are still listed as missing.", "Featured partners page lists service providers, so it should not be read as a partner program."]
+    },
+    {
+      "id": "intoo",
+      "name": "INTOO",
+      "url": "https://www.intoo.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "high", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.intoo.com/us/about/", "https://www.intoo.com/us/solutions/outplacement/outplacement-pricing/", "https://www.gigroupholding.com/"],
+      "reason": "About link and footer Company section seen. Outplacement Pricing link seen. Footer logo links to Gi Group Holding.",
+      "flags": ["Footer logo links to Gi Group Holding, but parent is blank in the record."]
+    },
+    {
+      "id": "impact-group",
+      "name": "IMPACT Group",
+      "url": "https://www.impactgrouphr.com",
+      "likelihood": {"hq_country": "medium", "founded": "high", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://impactgrouphr.com/about/history/", "https://impactgrouphr.com/about/", "https://impactgrouphr.com/contact/"],
+      "reason": "Company History link seen, which should give the founding. About and Contact links seen for location. No pricing, Partners or Developers link.",
+      "flags": ["Record URL is www.impactgrouphr.com while the site's links use impactgrouphr.com; confirm the canonical domain."]
+    },
+    {
+      "id": "robert-half",
+      "name": "Robert Half",
+      "url": "https://www.roberthalf.com",
+      "likelihood": {"languages": "high", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.roberthalf.com/us/en/hire-talent/partner", "https://www.roberthalf.com/us/en/locations"],
+      "reason": "Country and language switcher seen in the footer with many language versions. No pricing, Developers or API link. Hire-talent page may describe how clients engage.",
+      "flags": ["Languages is listed as missing, though attempts found it on the locations page."]
+    },
+    {
+      "id": "caterer-com",
+      "name": "Caterer.com",
+      "url": "https://www.caterer.com",
+      "likelihood": {"hq_country": "none", "founded": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 503 on this attempt and on the two earlier fetches. No page was readable, so no further attempts.",
+      "flags": []
+    },
+    {
+      "id": "welcome-to-the-jungle",
+      "name": "Welcome to the Jungle",
+      "url": "https://www.welcometothejungle.com",
+      "likelihood": {"founded": "high", "parent": "high", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://about.welcometothejungle.com/newsroom#explore-section", "https://about.welcometothejungle.com/", "https://solutions.welcometothejungle.com/en/pricing"],
+      "reason": "About and Press links seen; founding and publisher were already found on these pages. No Partners or Developers link. Employer pricing page seen.",
+      "flags": ["Founded and parent are marked found in attempts but are still listed as missing.", "Languages recorded as fr, en, es, cs, sk, but the switcher seen shows only Francais and English (US/UK)."]
+    },
+    {
+      "id": "randstad",
+      "name": "Randstad",
+      "url": "https://www.randstad.com",
+      "likelihood": {"founded": "medium", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.randstad.com/about-randstad/company-profile/", "https://www.randstad.com/randstad-at-a-glance/", "https://www.randstad.com/find-randstad-in-your-country/"],
+      "reason": "Company profile and About links seen; founding may appear there. Footer gives the registered office in Diemen. No API, Pricing or Partners link.",
+      "flags": ["hq_country NL comes from the registered office in Diemen, which the page does not call a headquarters."]
+    },
+    {
+      "id": "hirevue",
+      "name": "HireVue",
+      "url": "https://www.hirevue.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low"},
+      "try_pages": ["https://www.hirevue.com/about", "https://www.hirevue.com/press-release", "https://www.hirevue.com/platform/integrations"],
+      "reason": "About and Press links seen; the About page usually covers headquarters and founding. No pricing, Developers or API link.",
+      "flags": []
+    },
+    {
+      "id": "lavoro-gov-it-ministry-of-labour",
+      "name": "lavoro.gov.it (Ministry of Labour)",
+      "url": "https://www.lavoro.gov.it/",
+      "likelihood": {"hq_country": "low", "founded": "low", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.lavoro.gov.it/ministro-e-ministero/Pagine/default"],
+      "reason": "Only the Minister and Ministry link is in the nav. /about returned 404, and there is no About, API or language link. Government service, so business model does not apply.",
+      "flags": []
+    },
+    {
+      "id": "zarplata-ru",
+      "name": "Zarplata.ru",
+      "url": "https://zarplata.ru/",
+      "likelihood": {"founded": "medium", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://pr.zarplata.ru/?utm_source=zarplata.ru&utm_medium=referral&utm_campaign=from_footer_new", "https://zarplata.ru/zp_rules?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=main"],
+      "reason": "Footer links to a media and partners site and to the terms page, which names the operating company. No Tariffs, Pricing or API link. No language selector.",
+      "flags": ["Parent HeadHunter Group is not named in the visible page text; the operating company is LLC Hedhunter (HeadHunter LLC), so the parent comes from the record only."]
+    },
+    {
+      "id": "national-career-service",
+      "name": "National Career Service",
+      "url": "https://www.ncs.gov.in",
+      "likelihood": {"founded": "medium", "languages": "low", "business_model": "none", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.ncs.gov.in/about-us", "https://www.ncs.gov.in/about-ncsc-da"],
+      "reason": "About us link seen in the footer, which may give the launch year. Services are free, so an employer business model does not apply. No API, Partners or language link.",
+      "flags": []
+    },
+    {
+      "id": "charityjob",
+      "name": "CharityJob",
+      "url": "https://www.charityjob.co.uk",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "languages": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Homepage fetch showed no navigation or footer links that match. Only a link to CharityConnect, a related site, which may name the owner. No own-site page was seen beyond the homepage.",
+      "flags": []
+    }
+  ]
+}

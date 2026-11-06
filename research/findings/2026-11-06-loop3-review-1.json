@@ -1,0 +1,149 @@
+{
+  "round": 3,
+  "orders": [
+    {
+      "id": "u-s-bureau-of-labor-statistics",
+      "name": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov",
+      "likelihood": {"founded": "none", "languages": "low", "business_model": "none", "partner_program": "none"},
+      "try_pages": [],
+      "reason": "Founded is already recorded in the review note (1884 from About BLS). No Partners or Pricing link on the homepage, and a statistics agency has no business model to state.",
+      "flags": ["founded: still listed as missing, but the review note says 1884 was found on https://www.bls.gov/about-bls/home.htm; the record may need updating"]
+    },
+    {
+      "id": "workable",
+      "name": "Workable",
+      "url": "https://www.workable.com",
+      "likelihood": {"founded": "none", "parent": "low", "languages": "low", "business_model": "none"},
+      "try_pages": [],
+      "reason": "Founded (2012) and business model (pricing page) were both already found in the review. No About, Partners or language link was seen on the homepage, so parent and languages are unlikely to be easy to find.",
+      "flags": ["founded and business_model are still listed as missing although the review found 2012 and the pricing page", "hq_country is recorded as GR, but the homepage JSON-LD lists Norwood, Massachusetts first, then Marousi, Greece and London"]
+    },
+    {
+      "id": "korn-ferry",
+      "name": "Korn Ferry",
+      "url": "https://www.kornferry.com",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.kornferry.com/about-us", "https://www.kornferry.com/about-us/leadership-team"],
+      "reason": "About Us is the only relevant page linked. The review already read it with no HQ, parent or founding statement. No Developers, API or Pricing link is on the homepage.",
+      "flags": ["type is recruiting-services, a search firm rather than a hiring platform; check that it fits the directory"]
+    },
+    {
+      "id": "governmentjobs-com",
+      "name": "GovernmentJobs.com",
+      "url": "https://www.governmentjobs.com/",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.governmentjobs.com/home/applicationguide"],
+      "reason": "The footer About section has only help, company info, policy and accessibility links. No Developers, API, Partners or Pricing link is on the homepage, so these fields are unlikely to be stated publicly.",
+      "flags": []
+    },
+    {
+      "id": "the-adecco-group",
+      "name": "The Adecco Group",
+      "url": "https://www.adecco.com",
+      "likelihood": {"languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.adecco.com/employers/who-we-are"],
+      "reason": "The homepage has no language menu, Developers, API, Partners or Pricing link. The only related link is Who we are, which is an employer page rather than a company or product page.",
+      "flags": ["entry URL is adecco.com, but the group pages the review read are on adeccogroup.com; the record should note which domain is the primary source"]
+    },
+    {
+      "id": "criteria",
+      "name": "Criteria",
+      "url": "https://criteriacorp.com",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "medium", "languages": "low", "business_model": "high", "api_status": "medium", "partner_program": "high", "ingest_methods": "medium"},
+      "try_pages": ["https://criteriacorp.com/about-us", "https://criteriacorp.com/plans-and-pricing", "https://criteriacorp.com/integrations-and-partners", "https://criteriacorp.com/science/research-development-partners"],
+      "reason": "The Company menu links About Us, Pricing and Integrations and Partners, all seen on the homepage. No Developers or API link is shown, so the integrations page is the best guess for API and ingest details.",
+      "flags": []
+    },
+    {
+      "id": "right-management",
+      "name": "Right Management",
+      "url": "https://www.right.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "high", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.manpowergroup.com/"],
+      "reason": "The homepage links Learn More About ManpowerGroup, and a Global (English) selector is visible. No About, Developers, API or Pricing page is linked, so the other fields are unlikely to be easy to find.",
+      "flags": ["parent is empty, but the homepage links to ManpowerGroup; check whether ManpowerGroup should be recorded as parent"]
+    },
+    {
+      "id": "resumeble",
+      "name": "Resumeble",
+      "url": "https://resumeble.com",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "medium", "languages": "low", "business_model": "high", "api_status": "high", "partner_program": "high", "ingest_methods": "medium"},
+      "try_pages": ["https://resumeble.com/about-us", "https://resumeble.com/partner-with-us", "https://resumeble.com/resume-packages", "https://resumeble.com/api"],
+      "reason": "The homepage links About us, Partnerships, a resume-packages page with pricing, and an API link in the footer. Each of these likely covers one of the missing fields.",
+      "flags": []
+    },
+    {
+      "id": "nomis",
+      "name": "Nomis",
+      "url": "https://www.nomisweb.co.uk",
+      "likelihood": {"hq_country": "medium", "founded": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.nomisweb.co.uk/api"],
+      "reason": "The footer API link goes to the page the review already read, which gave no key requirement. No About, Partners or Pricing link is on the homepage.",
+      "flags": []
+    },
+    {
+      "id": "nijobs",
+      "name": "NIJobs",
+      "url": "https://www.nijobs.com",
+      "likelihood": {"hq_country": "none", "founded": "none", "languages": "none", "business_model": "none", "api_status": "none", "partner_program": "none", "ingest_methods": "none"},
+      "try_pages": [],
+      "reason": "The site returned HTTP 503 on the review's attempts and again on this check, so no page could be read.",
+      "flags": ["site returned HTTP 503 again on this check; the entry may be stale or the site may be down"]
+    },
+    {
+      "id": "clearancejobs",
+      "name": "ClearanceJobs",
+      "url": "https://www.clearancejobs.com",
+      "likelihood": {"hq_country": "medium", "founded": "none", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://about.clearancejobs.com"],
+      "reason": "The About us link goes to a company page that may state headquarters. The homepage already gives the founding year, so no further search is needed for founded.",
+      "flags": ["founded: still missing, but the homepage Why ClearanceJobs section says Founded in 2002"]
+    },
+    {
+      "id": "challenger-gray-christmas",
+      "name": "Challenger, Gray & Christmas",
+      "url": "https://www.challengergray.com",
+      "likelihood": {"founded": "high", "parent": "medium", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.challengergray.com/about-us/", "https://www.challengergray.com/our-team/"],
+      "reason": "The About menu links About Us and Our Team, which the review did not read. The founding year and any parent statement are likely there.",
+      "flags": []
+    },
+    {
+      "id": "checkr",
+      "name": "Checkr",
+      "url": "https://checkr.com",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "medium", "languages": "low", "business_model": "high", "api_status": "high"},
+      "try_pages": ["https://checkr.com/company", "https://checkr.com/pricing", "https://docs.checkr.com"],
+      "reason": "The homepage links About us, Pricing and developer documentation. The company page should state headquarters and founding, and the pricing page should state the business model.",
+      "flags": []
+    },
+    {
+      "id": "lemon-io",
+      "name": "Lemon.io",
+      "url": "https://lemon.io",
+      "likelihood": {"founded": "high", "parent": "medium", "languages": "none", "api_status": "high", "ingest_methods": "medium"},
+      "try_pages": ["https://lemon.io/about-us/", "https://docs.lemon.io", "https://docs.lemon.io/lemon.io-mcp"],
+      "reason": "The About link and the docs.lemon.io documentation links were seen but not read. The language menu shows English and Deutsch, which matches the record.",
+      "flags": ["languages: the record uses the key languages_supported, while the schema field is languages; the English and Deutsch menu already matches en;de", "partner_program: the review's /partners URL returned 404; the partner page seen here is https://lemon.io/partnership/"]
+    },
+    {
+      "id": "codility",
+      "name": "Codility",
+      "url": "https://www.codility.com",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "medium", "languages": "low", "api_status": "low", "partner_program": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://www.codility.com/about/", "https://www.codility.com/partners/", "https://www.codility.com/pricing/"],
+      "reason": "The homepage links About, Partners, Pricing and Press. The About page should state headquarters and founding, and the Partners page may cover the partner program.",
+      "flags": ["api_status: the review says the pricing page states API facts, yet api_status is still listed as missing"]
+    },
+    {
+      "id": "kimeta",
+      "name": "kimeta",
+      "url": "https://www.kimeta.de/",
+      "likelihood": {"hq_country": "high", "founded": "high", "parent": "medium", "languages": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "medium"},
+      "try_pages": ["https://www.kimeta.de/StaticPage/kimeta", "https://www.kimeta.de/StaticPage/Presse"],
+      "reason": "The Uber uns (About) page and the Presse page are linked from the homepage. These are likely to state headquarters, founding and how job listings are gathered.",
+      "flags": []
+    }
+  ]
+}
