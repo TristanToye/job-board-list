@@ -8023,13 +8023,13 @@
    "region": "APAC",
    "niche": "nonprofit",
    "parent": "",
-   "business_model": "",
+   "business_model": "job posts, bundles and banner ads (no prices on the board's domain)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Homepage says the site offers job posts, bundles and banner ads, with posting details on a separate page that was not read. No prices, language options, API, or ATS partner program found. The partner page describes advertising partnerships through a media kit. The Shopify footer credit names the website platform, not the operator. /pages/pricing returned HTTP 404.",
+   "notes": "Homepage says the site offers job posts, bundles and banner ads, with posting details on a separate page that was not read. No prices, language options, API, or ATS partner program found. The partner page describes advertising partnerships through a media kit. The Shopify footer credit names the website platform, not the operator. /pages/pricing returned HTTP 404. Posting prices (A$135 per 30-day listing) are shown on probonoaustralia.niceboard.co, a third-party domain, so they are not used as a source. Partner page covers media and advertising partnerships only.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/pro-bono-australia-jobs/",
    "indexable": false,
@@ -8045,7 +8045,14 @@
     "job-board",
     "nonprofit"
    ],
-   "review": null,
+   "review": {
+    "board_id": "pro-bono-australia-jobs",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage states job posts, bundles and banner ads; prices are only on a third-party posting domain.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -8192,7 +8199,14 @@
     "graduates-students",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "internshala",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+    "note": "Homepage, employer and plans pages read; pricing confirmed, no HQ, language, API or partner statement found.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9099,7 +9113,7 @@
    "name": "JobServe",
    "url": "http://www.jobserve.com",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "UK",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -9111,17 +9125,17 @@
    "languages_supported": [],
    "region": "Europe",
    "niche": "general",
-   "parent": "",
-   "business_model": "",
+   "parent": "Aspire Media Group",
+   "business_model": "pay per post or credits",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
-   "confidence": "listed-only",
+   "notes": "Homepage fetch returned an empty body, so the browser reader was used. Prices shown are in USD on the US site. No language options, API or partner program found.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobserve/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -9132,9 +9146,17 @@
    },
    "tags": [
     "general",
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
-   "review": null,
+   "review": {
+    "board_id": "jobserve",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;api_status;partner_program;ingest_methods",
+    "note": "Fetch returned an empty body; browser reader confirmed UK headquarters, Aspire Media Group parent and per-post prices.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -9145,6 +9167,30 @@
      "accessed": "2026-11-05",
      "quote": "",
      "quote_check": ""
+    },
+    {
+     "field": "existence",
+     "url": "https://www.jobserve.com/us/en/content/about/the-company.htm",
+     "title": "About Us",
+     "accessed": "2026-11-06",
+     "quote": "Headquartered in Essex, United Kingdom, JobServe also has primary offices",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.jobserve.com/us/en/Job-Search/",
+     "title": "Site footer",
+     "accessed": "2026-11-06",
+     "quote": "JobServe is a registered trademark of JobServe Ltd. Part of the Aspire Media Group.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jobserve.com/us/en/employers/products",
+     "title": "Our Products",
+     "accessed": "2026-11-06",
+     "quote": "Option 1: Post a job 7 days for $75 30 days for $240",
+     "quote_check": "ok"
     }
    ]
   },
@@ -9908,7 +9954,14 @@
     "job-board",
     "tech"
    ],
-   "review": null,
+   "review": {
+    "board_id": "green",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and FAQ read; the only company line names Atrae, Inc. as operator, and no employer terms are shown.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10865,14 +10918,14 @@
    "languages_supported": [],
    "region": "Europe",
    "niche": "public-sector",
-   "parent": "",
+   "parent": "EDUMAV GROUP s.r.l.",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Parent quote came from fetch output; the browser text did not include the footer, so verify the wording before publishing. Footer gives a registered office in Napoli, but no country is stated, so hq_country is left out. No pricing, API or language options found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/concorsando/",
    "indexable": false,
@@ -10888,7 +10941,14 @@
     "job-board",
     "public-sector"
    ],
-   "review": null,
+   "review": {
+    "board_id": "concorsando",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Footer names EDUMAV GROUP as parent (fetch output only, not in browser text); no country, pricing, API or language options stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10898,6 +10958,14 @@
      "title": "Concorsando homepage",
      "accessed": "2026-11-05",
      "quote": "Il Tuo Alleato nei Concorsi Pubblici",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.concorsando.it/",
+     "title": "Site footer",
+     "accessed": "2026-11-06",
+     "quote": "Concorsando s.r.l. è una società controllata dal gruppo EDUMAV GROUP s.r.l.",
      "quote_check": "ok"
     }
    ]
@@ -11755,15 +11823,15 @@
    "languages_supported": [],
    "region": "Europe",
    "niche": "",
-   "parent": "",
+   "parent": "CleverConnect",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "notes": "Recruiter section links to a recruiter page without stating fees. No language options or API found.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/meteojob/",
    "indexable": false,
    "prominence": {
@@ -11777,7 +11845,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "meteojob",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Footer states Le Groupe CleverConnect; no fees, language options or API shown on the homepage.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -11788,6 +11863,14 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.meteojob.com/",
+     "title": "Site footer",
+     "accessed": "2026-11-06",
+     "quote": "Le Groupe CleverConnect",
+     "quote_check": "ok"
     }
    ]
   },
@@ -12752,8 +12835,12 @@
    "countries_served": [
     "LV"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "lv",
+   "languages_supported": [
+    "lv",
+    "en",
+    "ru"
+   ],
    "region": "Global",
    "niche": "",
    "parent": "",
@@ -12763,8 +12850,8 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "notes": "Browser reader timed out on the first run and loaded on retry. The language flags are read from fetch output (image alt text), not from the browser text. The employer link Pakalpojumi un cenas shows no prices on the homepage.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cvmarket-lv/",
    "indexable": false,
    "prominence": {
@@ -12778,7 +12865,14 @@
    "tags": [
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "cvmarket-lv",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;parent;api_status;partner_program;ingest_methods",
+    "note": "Browser reader timed out once, then loaded; language flags confirmed from fetch output and no prices shown on the homepage.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -12789,6 +12883,14 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.cvmarket.lv/",
+     "title": "Header and footer language flags",
+     "accessed": "2026-11-06",
+     "quote": "Language - EN",
+     "quote_check": "unreachable"
     }
    ]
   },
@@ -13674,14 +13776,14 @@
    "region": "Global",
    "niche": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "free job posting for employers",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "notes": "Freelancers pay for PRO or PRO+ subscriptions per the prices page at https://freelancer.nl/abonnementen-prijzen, which is a freelancer-side fee and not an employer fee. Copyright names Freelancer Services Benelux; no parent or country is stated.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/freelancer-nl/",
    "indexable": false,
    "prominence": {
@@ -13693,9 +13795,17 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "free-to-post",
     "job-board"
    ],
-   "review": null,
+   "review": {
+    "board_id": "freelancer-nl",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+    "note": "Homepage states free job posting for employers; no country, parent, language options or API stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -13706,6 +13816,14 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "business_model",
+     "url": "https://freelancer.nl/",
+     "title": "Homepage",
+     "accessed": "2026-11-06",
+     "quote": "Plaats gratis jouw opdracht en kom binnen 24 uur in contact met freelancers",
+     "quote_check": "ok"
     }
    ]
   },
@@ -15738,7 +15856,14 @@
     "lmi",
     "trades-labour"
    ],
-   "review": null,
+   "review": {
+    "board_id": "burning-glass-institute",
+    "reviewed": "2026-11-06",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and about page read; it describes itself as a nonprofit research lab with no pricing, API or language options.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -17650,21 +17775,26 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr"
+   ],
    "region": "Global",
    "niche": "background screening",
-   "parent": "",
+   "parent": "First Advantage",
    "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "api_status": "on-request",
+   "api_docs_url": "https://apidocs.sterlingcheck.app/",
+   "partner_program": "yes",
+   "partner_url": "https://www.sterlingcheck.com/resources/integrations/",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Background-screening vendor rather than a job board; its integrations are for screening orders. Homepage says the company is now First Advantage. No public pricing found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/sterling/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -17674,9 +17804,19 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "hr-tech"
+    "api-on-request",
+    "ats-integration",
+    "hr-tech",
+    "partner-program"
    ],
-   "review": null,
+   "review": {
+    "board_id": "sterling",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model",
+    "note": "Parent, API request process, partner integrations and Canada French option confirmed; no pricing or headquarters country stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -17686,6 +17826,54 @@
      "title": "Sterling homepage",
      "accessed": "2026-11-06",
      "quote": "Order the same Sterling checks through First Advantage.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.sterlingcheck.com/",
+     "title": "Homepage banner",
+     "accessed": "2026-11-06",
+     "quote": "Sterling is now a First Advantage company.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.sterlingcheck.com/",
+     "title": "Header country menu",
+     "accessed": "2026-11-06",
+     "quote": "Canada - FR",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.sterlingcheck.com/services/api/",
+     "title": "Sterling API",
+     "accessed": "2026-11-06",
+     "quote": "First, review developer documentation, and then request a developer key.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.sterlingcheck.com/",
+     "title": "Homepage resources menu",
+     "accessed": "2026-11-06",
+     "quote": "For Developers API Documentation",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.sterlingcheck.com/resources/integrations/",
+     "title": "Integrations",
+     "accessed": "2026-11-06",
+     "quote": "Partner with an industry leader offering flexible integration options to easily connect with your HR system.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.sterlingcheck.com/resources/integrations/",
+     "title": "Integrations",
+     "accessed": "2026-11-06",
+     "quote": "hundreds of easy-to-use, flexible ATS/HCM integrations",
      "quote_check": "ok"
     }
    ]

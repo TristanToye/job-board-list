@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 64 entries in the directory.
+Has a partner or integration program. 65 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -36,6 +36,7 @@ Has a partner or integration program. 64 entries in the directory.
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Partner-only API
 - [Jobijoba](https://jobboardlist.com/boards/jobijoba/): aggregator, API key on request
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Partner-only API
+- [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 - [Banco Nacional de Empregos](https://jobboardlist.com/boards/banco-nacional-de-empregos/): board
 - [Textkernel](https://jobboardlist.com/boards/textkernel/): lmi
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API

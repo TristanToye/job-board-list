@@ -57,7 +57,7 @@
 - [Kforce](https://jobboardlist.com/boards/kforce/): staffing, Small tier
 - [Burning Glass Institute](https://jobboardlist.com/boards/burning-glass-institute/): lmi, Small tier
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech, Small tier
-- [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, Small tier
+- [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, Small tier, API key on request
 - [freelance.de](https://jobboardlist.com/boards/freelance-de/): freelance-platform, Small tier
 - [Allegis Group](https://jobboardlist.com/boards/allegis-group/): staffing, Small tier
 - [Right Management](https://jobboardlist.com/boards/right-management/): outplacement, Small tier

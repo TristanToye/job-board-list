@@ -9,21 +9,26 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr"
+ ],
  "region": "Global",
  "niche": "background screening",
- "parent": "",
+ "parent": "First Advantage",
  "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "api_status": "on-request",
+ "api_docs_url": "https://apidocs.sterlingcheck.app/",
+ "partner_program": "yes",
+ "partner_url": "https://www.sterlingcheck.com/resources/integrations/",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Background-screening vendor rather than a job board; its integrations are for screening orders. Homepage says the company is now First Advantage. No public pricing found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/sterling/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -33,9 +38,19 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "hr-tech"
+  "api-on-request",
+  "ats-integration",
+  "hr-tech",
+  "partner-program"
  ],
- "review": null,
+ "review": {
+  "board_id": "sterling",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model",
+  "note": "Parent, API request process, partner integrations and Canada French option confirmed; no pricing or headquarters country stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -45,6 +60,54 @@
    "title": "Sterling homepage",
    "accessed": "2026-11-06",
    "quote": "Order the same Sterling checks through First Advantage.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.sterlingcheck.com/",
+   "title": "Homepage banner",
+   "accessed": "2026-11-06",
+   "quote": "Sterling is now a First Advantage company.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.sterlingcheck.com/",
+   "title": "Header country menu",
+   "accessed": "2026-11-06",
+   "quote": "Canada - FR",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.sterlingcheck.com/services/api/",
+   "title": "Sterling API",
+   "accessed": "2026-11-06",
+   "quote": "First, review developer documentation, and then request a developer key.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.sterlingcheck.com/",
+   "title": "Homepage resources menu",
+   "accessed": "2026-11-06",
+   "quote": "For Developers API Documentation",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.sterlingcheck.com/resources/integrations/",
+   "title": "Integrations",
+   "accessed": "2026-11-06",
+   "quote": "Partner with an industry leader offering flexible integration options to easily connect with your HR system.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.sterlingcheck.com/resources/integrations/",
+   "title": "Integrations",
+   "accessed": "2026-11-06",
+   "quote": "hundreds of easy-to-use, flexible ATS/HCM integrations",
    "quote_check": "ok"
   }
  ]

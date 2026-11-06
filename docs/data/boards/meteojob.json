@@ -13,15 +13,15 @@
  "languages_supported": [],
  "region": "Europe",
  "niche": "",
- "parent": "",
+ "parent": "CleverConnect",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Recruiter section links to a recruiter page without stating fees. No language options or API found.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/meteojob/",
  "indexable": false,
  "prominence": {
@@ -35,7 +35,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "meteojob",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Footer states Le Groupe CleverConnect; no fees, language options or API shown on the homepage.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +53,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.meteojob.com/",
+   "title": "Site footer",
+   "accessed": "2026-11-06",
+   "quote": "Le Groupe CleverConnect",
+   "quote_check": "ok"
   }
  ]
 }

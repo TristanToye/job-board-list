@@ -12,14 +12,14 @@
  "region": "Global",
  "niche": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free job posting for employers",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Freelancers pay for PRO or PRO+ subscriptions per the prices page at https://freelancer.nl/abonnementen-prijzen, which is a freelancer-side fee and not an employer fee. Copyright names Freelancer Services Benelux; no parent or country is stated.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/freelancer-nl/",
  "indexable": false,
  "prominence": {
@@ -31,9 +31,17 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "free-to-post",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "freelancer-nl",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+  "note": "Homepage states free job posting for employers; no country, parent, language options or API stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -44,6 +52,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "business_model",
+   "url": "https://freelancer.nl/",
+   "title": "Homepage",
+   "accessed": "2026-11-06",
+   "quote": "Plaats gratis jouw opdracht en kom binnen 24 uur in contact met freelancers",
+   "quote_check": "ok"
   }
  ]
 }

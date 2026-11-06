@@ -37,7 +37,14 @@
   "graduates-students",
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "internshala",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+  "note": "Homepage, employer and plans pages read; pricing confirmed, no HQ, language, API or partner statement found.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

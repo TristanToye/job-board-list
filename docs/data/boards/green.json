@@ -36,7 +36,14 @@
   "job-board",
   "tech"
  ],
- "review": null,
+ "review": {
+  "board_id": "green",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage and FAQ read; the only company line names Atrae, Inc. as operator, and no employer terms are shown.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

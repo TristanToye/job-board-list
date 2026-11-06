@@ -36,7 +36,14 @@
   "lmi",
   "trades-labour"
  ],
- "review": null,
+ "review": {
+  "board_id": "burning-glass-institute",
+  "reviewed": "2026-11-06",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage and about page read; it describes itself as a nonprofit research lab with no pricing, API or language options.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

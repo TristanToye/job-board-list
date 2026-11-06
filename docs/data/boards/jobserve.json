@@ -3,7 +3,7 @@
  "name": "JobServe",
  "url": "http://www.jobserve.com",
  "type": "board",
- "hq_country": "",
+ "hq_country": "UK",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -15,17 +15,17 @@
  "languages_supported": [],
  "region": "Europe",
  "niche": "general",
- "parent": "",
- "business_model": "",
+ "parent": "Aspire Media Group",
+ "business_model": "pay per post or credits",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "listed-only",
+ "notes": "Homepage fetch returned an empty body, so the browser reader was used. Prices shown are in USD on the US site. No language options, API or partner program found.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobserve/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -36,9 +36,17 @@
  },
  "tags": [
   "general",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
- "review": null,
+ "review": {
+  "board_id": "jobserve",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;api_status;partner_program;ingest_methods",
+  "note": "Fetch returned an empty body; browser reader confirmed UK headquarters, Aspire Media Group parent and per-post prices.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +57,30 @@
    "accessed": "2026-11-05",
    "quote": "",
    "quote_check": ""
+  },
+  {
+   "field": "existence",
+   "url": "https://www.jobserve.com/us/en/content/about/the-company.htm",
+   "title": "About Us",
+   "accessed": "2026-11-06",
+   "quote": "Headquartered in Essex, United Kingdom, JobServe also has primary offices",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.jobserve.com/us/en/Job-Search/",
+   "title": "Site footer",
+   "accessed": "2026-11-06",
+   "quote": "JobServe is a registered trademark of JobServe Ltd. Part of the Aspire Media Group.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.jobserve.com/us/en/employers/products",
+   "title": "Our Products",
+   "accessed": "2026-11-06",
+   "quote": "Option 1: Post a job 7 days for $75 30 days for $240",
+   "quote_check": "ok"
   }
  ]
 }

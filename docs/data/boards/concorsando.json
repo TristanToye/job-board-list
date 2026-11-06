@@ -13,14 +13,14 @@
  "languages_supported": [],
  "region": "Europe",
  "niche": "public-sector",
- "parent": "",
+ "parent": "EDUMAV GROUP s.r.l.",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Parent quote came from fetch output; the browser text did not include the footer, so verify the wording before publishing. Footer gives a registered office in Napoli, but no country is stated, so hq_country is left out. No pricing, API or language options found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/concorsando/",
  "indexable": false,
@@ -36,7 +36,14 @@
   "job-board",
   "public-sector"
  ],
- "review": null,
+ "review": {
+  "board_id": "concorsando",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Footer names EDUMAV GROUP as parent (fetch output only, not in browser text); no country, pricing, API or language options stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +53,14 @@
    "title": "Concorsando homepage",
    "accessed": "2026-11-05",
    "quote": "Il Tuo Alleato nei Concorsi Pubblici",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.concorsando.it/",
+   "title": "Site footer",
+   "accessed": "2026-11-06",
+   "quote": "Concorsando s.r.l. è una società controllata dal gruppo EDUMAV GROUP s.r.l.",
    "quote_check": "ok"
   }
  ]

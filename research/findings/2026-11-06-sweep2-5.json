@@ -1,0 +1,362 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Internshala",
+   "url": "https://internshala.com",
+   "business_model": "free plan with paid subscription plans",
+   "notes": "Copyright line names Scholiverse Educare Private Limited as the operating entity; no parent is stated. No language options, API or partner program found on the homepage, employer or plans pages.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://internshala.com/employer-subscription/",
+     "title": "Plans and Pricing",
+     "quote": "Free plan 1 listing per month Post for free",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Pro Bono Australia Jobs",
+   "url": "https://www.probonoaustralia.com.au/",
+   "business_model": "job posts, bundles and banner ads (no prices on the board's domain)",
+   "notes": "Posting prices (A$135 per 30-day listing) are shown on probonoaustralia.niceboard.co, a third-party domain, so they are not used as a source. Partner page covers media and advertising partnerships only.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.probonoaustralia.com.au/",
+     "title": "Homepage",
+     "quote": "Reach passionate professionals who care about making a difference with job posts, bundles, and banner ads to suit your needs.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "JobServe",
+   "url": "http://www.jobserve.com",
+   "hq_country": "GB",
+   "parent": "Aspire Media Group",
+   "business_model": "pay per post or credits",
+   "notes": "Homepage fetch returned an empty body, so the browser reader was used. Prices shown are in USD on the US site. No language options, API or partner program found.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobserve.com/us/en/content/about/the-company.htm",
+     "title": "About Us",
+     "quote": "Headquartered in Essex, United Kingdom, JobServe also has primary offices",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.jobserve.com/us/en/Job-Search/",
+     "title": "Site footer",
+     "quote": "JobServe is a registered trademark of JobServe Ltd. Part of the Aspire Media Group.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jobserve.com/us/en/employers/products",
+     "title": "Our Products",
+     "quote": "Option 1: Post a job 7 days for $75 30 days for $240",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Green",
+   "url": "https://www.green-japan.com/",
+   "notes": "Japanese-language site. The copyright line names Atrae, Inc. as operator, not stated as parent. The FAQ says job seekers use all features free; employer terms are not shown on the pages read.",
+   "sources": []
+  },
+  {
+   "name": "Concorsando",
+   "url": "https://www.concorsando.it/",
+   "parent": "EDUMAV GROUP s.r.l.",
+   "notes": "Parent quote came from fetch output; the browser text did not include the footer, so verify the wording before publishing. Footer gives a registered office in Napoli, but no country is stated, so hq_country is left out. No pricing, API or language options found.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.concorsando.it/",
+     "title": "Site footer",
+     "quote": "Concorsando s.r.l. è una società controllata dal gruppo EDUMAV GROUP s.r.l.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Meteojob",
+   "url": "https://www.meteojob.com/",
+   "parent": "CleverConnect",
+   "notes": "Recruiter section links to a recruiter page without stating fees. No language options or API found.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.meteojob.com/",
+     "title": "Site footer",
+     "quote": "Le Groupe CleverConnect",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CVMarket.lv",
+   "url": "https://www.cvmarket.lv/",
+   "primary_language": "lv",
+   "languages_supported": [
+    "lv",
+    "en",
+    "ru"
+   ],
+   "notes": "Browser reader timed out on the first run and loaded on retry. The language flags are read from fetch output (image alt text), not from the browser text. The employer link Pakalpojumi un cenas shows no prices on the homepage.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.cvmarket.lv/",
+     "title": "Header and footer language flags",
+     "quote": "Language - EN",
+     "check": "unreachable"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.cvmarket.lv/",
+     "title": "Header and footer language flags",
+     "quote": "Language - RU",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "Freelancer.nl",
+   "url": "https://freelancer.nl/",
+   "business_model": "free job posting for employers",
+   "notes": "Freelancers pay for PRO or PRO+ subscriptions per the prices page at https://freelancer.nl/abonnementen-prijzen, which is a freelancer-side fee and not an employer fee. Copyright names Freelancer Services Benelux; no parent or country is stated.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://freelancer.nl/",
+     "title": "Homepage",
+     "quote": "Plaats gratis jouw opdracht en kom binnen 24 uur in contact met freelancers",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Burning Glass Institute",
+   "url": "https://www.burningglassinstitute.org",
+   "notes": "Describes itself as a nonprofit research and action lab, not a job board. No country, parent, pricing, language options or API found on the homepage or about page.",
+   "sources": []
+  },
+  {
+   "name": "Sterling",
+   "url": "https://www.sterlingcheck.com",
+   "parent": "First Advantage",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr"
+   ],
+   "api_status": "on-request",
+   "api_docs_url": "https://apidocs.sterlingcheck.app/",
+   "partner_program": "yes",
+   "partner_url": "https://www.sterlingcheck.com/resources/integrations/",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Background-screening vendor rather than a job board; its integrations are for screening orders. Homepage says the company is now First Advantage. No public pricing found.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.sterlingcheck.com/",
+     "title": "Homepage banner",
+     "quote": "Sterling is now a First Advantage company.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.sterlingcheck.com/",
+     "title": "Header country menu",
+     "quote": "Canada - FR",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.sterlingcheck.com/services/api/",
+     "title": "Sterling API",
+     "quote": "First, review developer documentation, and then request a developer key.",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.sterlingcheck.com/",
+     "title": "Homepage resources menu",
+     "quote": "For Developers API Documentation",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.sterlingcheck.com/resources/integrations/",
+     "title": "Integrations",
+     "quote": "Partner with an industry leader offering flexible integration options to easily connect with your HR system.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.sterlingcheck.com/resources/integrations/",
+     "title": "Integrations",
+     "quote": "hundreds of easy-to-use, flexible ATS/HCM integrations",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Internshala",
+   "url": "https://internshala.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage, employer and plans pages read; pricing confirmed, no HQ, language, API or partner statement found."
+  },
+  {
+   "name": "Pro Bono Australia Jobs",
+   "url": "https://www.probonoaustralia.com.au/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage states job posts, bundles and banner ads; prices are only on a third-party posting domain."
+  },
+  {
+   "name": "JobServe",
+   "url": "http://www.jobserve.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Fetch returned an empty body; browser reader confirmed UK headquarters, Aspire Media Group parent and per-post prices."
+  },
+  {
+   "name": "Green",
+   "url": "https://www.green-japan.com/",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage and FAQ read; the only company line names Atrae, Inc. as operator, and no employer terms are shown."
+  },
+  {
+   "name": "Concorsando",
+   "url": "https://www.concorsando.it/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Footer names EDUMAV GROUP as parent (fetch output only, not in browser text); no country, pricing, API or language options stated."
+  },
+  {
+   "name": "Meteojob",
+   "url": "https://www.meteojob.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Footer states Le Groupe CleverConnect; no fees, language options or API shown on the homepage."
+  },
+  {
+   "name": "CVMarket.lv",
+   "url": "https://www.cvmarket.lv/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Browser reader timed out once, then loaded; language flags confirmed from fetch output and no prices shown on the homepage."
+  },
+  {
+   "name": "Freelancer.nl",
+   "url": "https://freelancer.nl/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage states free job posting for employers; no country, parent, language options or API stated."
+  },
+  {
+   "name": "Burning Glass Institute",
+   "url": "https://www.burningglassinstitute.org",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage and about page read; it describes itself as a nonprofit research lab with no pricing, API or language options."
+  },
+  {
+   "name": "Sterling",
+   "url": "https://www.sterlingcheck.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model"
+   ],
+   "method": "mixed",
+   "note": "Parent, API request process, partner integrations and Canada French option confirmed; no pricing or headquarters country stated."
+  }
+ ],
+ "blocked": []
+}

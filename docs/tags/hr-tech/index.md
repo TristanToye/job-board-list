@@ -12,6 +12,6 @@ Software for sourcing 11 entries in the directory.
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
 - [Criteria](https://jobboardlist.com/boards/criteria/): hr-tech
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech
-- [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech
+- [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 
 Canonical page: https://jobboardlist.com/tags/hr-tech/

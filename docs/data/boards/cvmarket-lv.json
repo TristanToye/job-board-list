@@ -9,8 +9,12 @@
  "countries_served": [
   "LV"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "lv",
+ "languages_supported": [
+  "lv",
+  "en",
+  "ru"
+ ],
  "region": "Global",
  "niche": "",
  "parent": "",
@@ -20,8 +24,8 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Browser reader timed out on the first run and loaded on retry. The language flags are read from fetch output (image alt text), not from the browser text. The employer link Pakalpojumi un cenas shows no prices on the homepage.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cvmarket-lv/",
  "indexable": false,
  "prominence": {
@@ -35,7 +39,14 @@
  "tags": [
   "job-board"
  ],
- "review": null,
+ "review": {
+  "board_id": "cvmarket-lv",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;parent;api_status;partner_program;ingest_methods",
+  "note": "Browser reader timed out once, then loaded; language flags confirmed from fetch output and no prices shown on the homepage.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -46,6 +57,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.cvmarket.lv/",
+   "title": "Header and footer language flags",
+   "accessed": "2026-11-06",
+   "quote": "Language - EN",
+   "quote_check": "unreachable"
   }
  ]
 }

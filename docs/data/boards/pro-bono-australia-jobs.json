@@ -14,13 +14,13 @@
  "region": "APAC",
  "niche": "nonprofit",
  "parent": "",
- "business_model": "",
+ "business_model": "job posts, bundles and banner ads (no prices on the board's domain)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Homepage says the site offers job posts, bundles and banner ads, with posting details on a separate page that was not read. No prices, language options, API, or ATS partner program found. The partner page describes advertising partnerships through a media kit. The Shopify footer credit names the website platform, not the operator. /pages/pricing returned HTTP 404.",
+ "notes": "Homepage says the site offers job posts, bundles and banner ads, with posting details on a separate page that was not read. No prices, language options, API, or ATS partner program found. The partner page describes advertising partnerships through a media kit. The Shopify footer credit names the website platform, not the operator. /pages/pricing returned HTTP 404. Posting prices (A$135 per 30-day listing) are shown on probonoaustralia.niceboard.co, a third-party domain, so they are not used as a source. Partner page covers media and advertising partnerships only.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/pro-bono-australia-jobs/",
  "indexable": false,
@@ -36,7 +36,14 @@
   "job-board",
   "nonprofit"
  ],
- "review": null,
+ "review": {
+  "board_id": "pro-bono-australia-jobs",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage states job posts, bundles and banner ads; prices are only on a third-party posting domain.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
