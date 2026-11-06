@@ -1,0 +1,84 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "round": 4,
+  "boards": [
+    {
+      "name": "Lanbide",
+      "url": "https://www.lanbide.euskadi.eus/",
+      "parent": "Servicio Público Vasco de Empleo",
+      "languages": {
+        "primary_language": "es",
+        "languages_supported": ["es", "eu"]
+      },
+      "sources": [
+        {"field": "parent", "url": "https://www.lanbide.euskadi.eus/inicio/", "title": "Lanbide homepage (news notice heading)", "quote": "RESOLUCIÓN del director general de Lanbide- Servicio Público Vasco de Empleo"},
+        {"field": "languages", "url": "https://www.lanbide.euskadi.eus/inicio/", "title": "Lanbide homepage (primary language, Spanish page)", "quote": "Trabajamos por tu empleo"},
+        {"field": "languages", "url": "https://www.lanbide.euskadi.eus/inicio/", "title": "Lanbide homepage (language menu)", "quote": "EUSKARA"}
+      ]
+    },
+    {
+      "name": "JobTeaser",
+      "url": "https://www.jobteaser.com/fr",
+      "hq_country": "FR",
+      "founded": "2008",
+      "languages": {
+        "primary_language": "fr",
+        "languages_supported": ["fr", "en", "de", "es", "nl"]
+      },
+      "sources": [
+        {"field": "hq_country", "url": "https://press.jobteaser.com/", "title": "JobTeaser press contact address", "quote": "19 Rue Blanche 75009 Paris 9 France"},
+        {"field": "founded", "url": "https://press.jobteaser.com/", "title": "JobTeaser press, About JobTeaser", "quote": "L'entreprise a été créé en 2008 à partir du constat"},
+        {"field": "languages", "url": "https://www.jobteaser.com/fr/corporate/a-propos", "title": "A propos JobTeaser (primary language)", "quote": "LANGUE SÉLECTIONNÉE : FRANÇAIS"},
+        {"field": "languages", "url": "https://www.jobteaser.com/fr/corporate/a-propos", "title": "A propos JobTeaser (language menu)", "quote": "Français English Deutsch Español Nederlands"}
+      ]
+    },
+    {
+      "name": "GaijinPot Jobs",
+      "url": "https://www.gaijinpot.com/jobs/",
+      "parent": "GPlusMedia Inc.",
+      "sources": [
+        {"field": "parent", "url": "https://www.gaijinpot.com/about", "title": "About GaijinPot (site footer copyright line)", "quote": "© 2026 GPlusMedia Inc."}
+      ]
+    },
+    {
+      "name": "Cutshort",
+      "url": "https://cutshort.io",
+      "sources": []
+    },
+    {
+      "name": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk",
+      "sources": []
+    }
+  ],
+  "reviews": [
+    {"name": "Lanbide", "url": "https://www.lanbide.euskadi.eus/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded"], "method": "mixed", "note": "Parent and languages verified from homepage. Headquarters and founding year not stated on the pages read (homepage, Basque homepage, contact page)."},
+    {"name": "JobTeaser", "url": "https://www.jobteaser.com/fr", "outcome": "partially-verified", "fields_not_found": ["parent", "business_model"], "method": "mixed", "note": "Headquarters address, founding year and languages verified from press and about pages. No owner company stated. Recruiter page read but shows no prices (packs not priced in text read)."},
+    {"name": "GaijinPot Jobs", "url": "https://www.gaijinpot.com/jobs/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded", "business_model"], "method": "mixed", "note": "Owner verified from footer copyright on about page. Employer page returned a reCAPTCHA challenge (blocked), so business model was not read. Headquarters and founding year not stated on the about page."},
+    {"name": "Cutshort", "url": "https://cutshort.io", "outcome": "not-stated", "fields_not_found": ["hq_country", "founded", "ingest_methods"], "method": "mixed", "note": "About page and sourcing article read. No headquarters, founding year or job/profile ingest method stated. The API and MCP pages describe employer sourcing access, not how jobs enter the platform; that page was not read in full."},
+    {"name": "Office for National Statistics", "url": "https://www.ons.gov.uk", "outcome": "not-stated", "fields_not_found": ["hq_country"], "method": "mixed", "note": "About and contact pages read. Office locations listed (Newport, Titchfield, London, Darlington, Manchester, Edinburgh, Belfast) but no headquarters stated."}
+  ],
+  "attempts": [
+    {"name": "Lanbide", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.lanbide.euskadi.eus/inicio/", "https://www.lanbide.euskadi.eus/arreta/weblan00-content/eu/", "https://www.lanbide.euskadi.eus/te-atendemos/weblan00-content/es/"]},
+    {"name": "Lanbide", "field": "founded", "outcome": "not-found", "pages": ["https://www.lanbide.euskadi.eus/inicio/", "https://www.lanbide.euskadi.eus/arreta/weblan00-content/eu/", "https://www.lanbide.euskadi.eus/te-atendemos/weblan00-content/es/"]},
+    {"name": "Lanbide", "field": "parent", "outcome": "found", "pages": ["https://www.lanbide.euskadi.eus/inicio/"]},
+    {"name": "Lanbide", "field": "languages", "outcome": "found", "pages": ["https://www.lanbide.euskadi.eus/inicio/", "https://www.lanbide.euskadi.eus/arreta/weblan00-content/eu/"]},
+    {"name": "JobTeaser", "field": "hq_country", "outcome": "found", "pages": ["https://press.jobteaser.com/"]},
+    {"name": "JobTeaser", "field": "founded", "outcome": "found", "pages": ["https://press.jobteaser.com/", "https://www.jobteaser.com/fr/corporate/a-propos"]},
+    {"name": "JobTeaser", "field": "parent", "outcome": "not-found", "pages": ["https://www.jobteaser.com/fr/corporate/a-propos", "https://press.jobteaser.com/"]},
+    {"name": "JobTeaser", "field": "languages", "outcome": "found", "pages": ["https://www.jobteaser.com/fr/corporate/a-propos"]},
+    {"name": "JobTeaser", "field": "business_model", "outcome": "not-found", "pages": ["https://www.jobteaser.com/fr/corporate/recruteurs"]},
+    {"name": "GaijinPot Jobs", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.gaijinpot.com/about"]},
+    {"name": "GaijinPot Jobs", "field": "founded", "outcome": "not-found", "pages": ["https://www.gaijinpot.com/about"]},
+    {"name": "GaijinPot Jobs", "field": "parent", "outcome": "found", "pages": ["https://www.gaijinpot.com/about"]},
+    {"name": "GaijinPot Jobs", "field": "business_model", "outcome": "blocked", "pages": ["https://jobs.gaijinpot.com/employer"]},
+    {"name": "Cutshort", "field": "hq_country", "outcome": "not-found", "pages": ["https://cutshort.io/about", "https://cutshort.io/how-to-source-talent-using-claude"]},
+    {"name": "Cutshort", "field": "founded", "outcome": "not-found", "pages": ["https://cutshort.io/about"]},
+    {"name": "Cutshort", "field": "ingest_methods", "outcome": "not-found", "pages": ["https://cutshort.io/about", "https://cutshort.io/how-to-source-talent-using-claude"]},
+    {"name": "Office for National Statistics", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.ons.gov.uk/aboutus", "https://www.ons.gov.uk/aboutus/contactus"]}
+  ],
+  "blocked": [
+    {"name": "GaijinPot Jobs", "url": "https://jobs.gaijinpot.com/employer", "field": "business_model", "note": "reCAPTCHA challenge page; browse.js reported blocked=true. Not used as a source."}
+  ]
+}
