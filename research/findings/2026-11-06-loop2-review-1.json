@@ -1,0 +1,149 @@
+{
+  "round": 2,
+  "orders": [
+    {
+      "id": "greenhouse",
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.com",
+      "likelihood": {"founded": "low", "parent": "low", "languages": "high", "business_model": "high"},
+      "try_pages": ["https://www.greenhouse.com/pricing", "https://www.greenhouse.com/uk", "https://www.greenhouse.com/de", "https://www.greenhouse.com/press"],
+      "reason": "Header and footer link to Pricing; language menu lists English (US), English (UK) and Deutsch. /company and the homepage state no founding year, HQ or parent; investors TPG Growth and The Rise Fund are named but not as parent.",
+      "flags": []
+    },
+    {
+      "id": "personio",
+      "name": "Personio",
+      "url": "https://www.personio.com",
+      "likelihood": {"founded": "low", "parent": "low", "languages": "low", "business_model": "low"},
+      "try_pages": [],
+      "reason": "Homepage returned HTTP 429 on two attempts, so no links were read. Ratings are unverified defaults, not based on anything seen on the site.",
+      "flags": []
+    },
+    {
+      "id": "jazzhr",
+      "name": "JazzHR",
+      "url": "https://www.jazzhr.com",
+      "likelihood": {"founded": "low", "parent": "low", "languages": "low", "business_model": "high"},
+      "try_pages": ["https://www.jazzhr.com/pricing"],
+      "reason": "Header and footer link to Pricing. No language selector. About Employ page states no founding year, HQ or parent.",
+      "flags": ["Parent is blank, but the footer names Employ Inc. as trademark holder and links to About Employ; the site does not say Employ Inc. is the parent."]
+    },
+    {
+      "id": "pinpoint",
+      "name": "Pinpoint",
+      "url": "https://www.pinpointhq.com",
+      "likelihood": {"founded": "low", "parent": "low", "languages": "low", "business_model": "high"},
+      "try_pages": ["https://www.pinpointhq.com/request-pricing", "https://www.pinpointhq.com/news/"],
+      "reason": "Header and footer link to Request pricing. No language selector; the UK and US links are landing pages. About us was already read and gives no founding year, HQ or parent.",
+      "flags": ["Record api_status is public-key with developers.pinpointhq.com, but the homepage links no Developers or API page; the body only says there is an open API."]
+    },
+    {
+      "id": "hays",
+      "name": "Hays",
+      "url": "https://www.hays.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "high", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.haysplc.com", "https://www.hays.com/en-US/about-us", "https://www.hays.com/en-US/about-us/leaders"],
+      "reason": "Footer links to Hays PLC (haysplc.com) and the copyright reads Copyright Hays Plc 2026. Header shows a region and language dropdown (United States - English, with others). About Us page is linked and not yet read.",
+      "flags": ["Parent is blank, but the footer links to Hays PLC and the copyright is Hays Plc; the review recorded no parent."]
+    },
+    {
+      "id": "egon-zehnder",
+      "name": "Egon Zehnder",
+      "url": "https://www.egonzehnder.com",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.egonzehnder.com/de", "https://www.egonzehnder.com/cn", "https://www.egonzehnder.com/jp", "https://www.egonzehnder.com/newsroom"],
+      "reason": "Region menu links English, Deutsch, 中文 and 日本語. About Us was already read and gives offices and countries but no HQ or parent. No Developers, API, Pricing or Investors links.",
+      "flags": ["languages is listed as missing, but the record already has languages_supported en;de;zh;ja, which matches the language menu."]
+    },
+    {
+      "id": "kickresume",
+      "name": "Kickresume",
+      "url": "https://www.kickresume.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "medium", "ingest_methods": "low"},
+      "try_pages": ["https://www.kickresume.com/en/about/", "https://www.kickresume.com/en/press/", "https://www.kickresume.com/en/pricing/", "https://form.typeform.com/to/lr6p9OUR"],
+      "reason": "Footer shows a language list (English, Slovensky, Espanol, Deutsch, Portugues, Italiano); the link targets are '#' in the capture, so the list is seen but not the URLs. Pricing link seen. About Us and Media/Press are linked and not read. Affiliates form link seen.",
+      "flags": []
+    },
+    {
+      "id": "novoresume",
+      "name": "Novoresume",
+      "url": "https://www.novoresume.com",
+      "likelihood": {"founded": "medium", "parent": "low", "languages": "high", "business_model": "high", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://novoresume.com/about-us", "https://novoresume.com/page/media-kit"],
+      "reason": "Language selector seen (Dansk, Deutsch, English UK, English US, Espanol). Pricing link seen. About Us is linked and not yet read. Copenhagen address in footer matches the recorded DK.",
+      "flags": []
+    },
+    {
+      "id": "prospects",
+      "name": "Prospects",
+      "url": "https://www.prospects.ac.uk",
+      "likelihood": {"hq_country": "low", "founded": "medium", "languages": "low", "business_model": "medium", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://prospects.ac.uk/about-us", "https://prospects.ac.uk/prospects-press-office"],
+      "reason": "Footer links to About us and Press office, which are not yet read. The review says employer advertising prices are on the homepage, but no pricing link appeared in the link list I read. Homepage names a registered office in Bristol, not an HQ. Jisc parent is confirmed on the page.",
+      "flags": []
+    },
+    {
+      "id": "gi-group-holding",
+      "name": "Gi Group Holding",
+      "url": "https://www.gigroup.com",
+      "likelihood": {"founded": "high", "parent": "low", "languages": "high", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.gigroup.com/about-gi-group/", "https://www.gigroup.com/contact-us/#countries"],
+      "reason": "Homepage text says 'Since 1998' and links About Gi Group. Country and region selectors seen with links to country sites. No pricing, API or partner program links.",
+      "flags": ["Parent is blank; the entry is GI GROUP HOLDING S.p.A. itself, so a parent may not apply."]
+    },
+    {
+      "id": "topresume",
+      "name": "TopResume",
+      "url": "https://www.topresume.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "high", "api_status": "low", "partner_program": "high", "ingest_methods": "low"},
+      "try_pages": ["https://www.topresume.com/about", "https://www.topresume.com/press", "https://www.topresume.com/partnerships", "https://www.topresume.com/plans"],
+      "reason": "Footer links to About, Press Room, Partnerships (the review noted it had no details) and plans. The review tried /about-us, but the footer link is /about, which was not read. No language selector.",
+      "flags": []
+    },
+    {
+      "id": "lightcast",
+      "name": "Lightcast",
+      "url": "https://lightcast.io",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "low", "api_status": "high", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://lightcast.io/about", "https://lightcast.io/pressroom", "https://lightcast.io/our-data/api/menu"],
+      "reason": "Footer links to About Lightcast and Press Room. Homepage card links Data Delivery to /our-data/api/menu, which is a real API page, though the review tried /api and /developers (404). Developer link under Analyst Platform goes to analyst.lightcast.io.",
+      "flags": []
+    },
+    {
+      "id": "kwork",
+      "name": "Kwork",
+      "url": "https://www.kwork.com",
+      "likelihood": {"hq_country": "low", "founded": "low", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": [],
+      "reason": "Homepage capture shows only category and sign-up links, with no footer or company links. /api returned 404 earlier. Nothing seen points at the missing facts.",
+      "flags": []
+    },
+    {
+      "id": "velvetjobs",
+      "name": "VelvetJobs",
+      "url": "https://www.velvetjobs.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "partner_program": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.velvetjobs.com/about"],
+      "reason": "Footer links to About, which is not yet read. /pricing returned 404 earlier. No language or region selector seen.",
+      "flags": []
+    },
+    {
+      "id": "taskrabbit",
+      "name": "TaskRabbit",
+      "url": "https://www.taskrabbit.com",
+      "likelihood": {"hq_country": "medium", "founded": "medium", "parent": "medium", "languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://www.taskrabbit.com/about", "https://www.taskrabbit.com/press", "https://www.taskrabbit.com/blog/partner-lp/"],
+      "reason": "Footer links to About Us and Press, neither of which is yet read. Partner with Taskrabbit link seen. No pricing or language selector seen.",
+      "flags": []
+    },
+    {
+      "id": "harver",
+      "name": "Harver",
+      "url": "https://harver.com",
+      "likelihood": {"hq_country": "low", "founded": "high", "parent": "low", "languages": "low", "business_model": "low", "api_status": "low", "ingest_methods": "low"},
+      "try_pages": ["https://harver.com/about-us/", "https://harver.com/newsroom/"],
+      "reason": "About Us page says 'Founded in 2015', which the record lacks. Footer copyright is Harver B.V., with no HQ stated. Banner says Outmatch is now part of Harver, which does not name a parent.",
+      "flags": []
+    }
+  ]
+}
