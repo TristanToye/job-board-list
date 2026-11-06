@@ -31,7 +31,7 @@
 - [Kelly Services](https://jobboardlist.com/boards/kelly-services/): staffing, Established tier
 - [Spencer Stuart](https://jobboardlist.com/boards/spencer-stuart/): recruiting-services, Established tier
 - [Enhancv](https://jobboardlist.com/boards/enhancv/): career-services, Established tier
-- [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, Established tier
+- [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, Established tier, API key on request
 - [Heidrick & Struggles](https://jobboardlist.com/boards/heidrick-struggles/): recruiting-services, Established tier
 - [Lightcast](https://jobboardlist.com/boards/lightcast/): lmi, Established tier
 - [Russell Reynolds Associates](https://jobboardlist.com/boards/russell-reynolds-associates/): recruiting-services, Established tier

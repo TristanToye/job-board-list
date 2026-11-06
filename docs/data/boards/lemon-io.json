@@ -5,7 +5,7 @@
  "domains": "",
  "type": "freelance-platform",
  "hq_country": "US",
- "founded": "",
+ "founded": "2015",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -49,7 +49,7 @@
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
   "fields_not_found": "parent;api_status;ingest_methods",
-  "note": "Homepage, pricing and address read; the homepage links an MCP documentation page at docs.lemon.io, which was not read, and no API access model was stated. /partners returned HTTP 404.",
+  "note": "Founding year 2015 quoted from About page. About page calls the company Independent, but that word alone is not a usable quote, so parent not recorded. Docs pages describe an MCP connector (mcp.lemon.io, no account needed) and chat-based re",
   "method": "fetch"
  },
  "owners": [],
@@ -93,6 +93,14 @@
    "title": "Homepage",
    "accessed": "2026-11-06",
    "quote": "Partner program",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://lemon.io/about-us/",
+   "title": "About us",
+   "accessed": "2026-11-06",
+   "quote": "We started in 2015 and have spent a decade learning what predicts a great engineering hire",
    "quote_check": "ok"
   }
  ]

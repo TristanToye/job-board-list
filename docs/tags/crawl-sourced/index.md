@@ -1,6 +1,6 @@
 # Crawl sourced
 
-Collects jobs by crawling employer sites. 6 entries in the directory.
+Collects jobs by crawling employer sites. 7 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
@@ -8,5 +8,6 @@ Collects jobs by crawling employer sites. 6 entries in the directory.
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
+- [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
 
 Canonical page: https://jobboardlist.com/tags/crawl-sourced/

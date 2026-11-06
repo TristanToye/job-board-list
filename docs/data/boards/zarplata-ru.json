@@ -39,10 +39,10 @@
  "review": {
   "board_id": "zarplata-ru",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "languages;business_model;partner_program;ingest_methods",
-  "note": "Operating company and Moscow address stated on the terms page. No language options or employer pricing found.",
-  "method": "browser"
+  "outcome": "not-stated",
+  "fields_not_found": "founded;partner_program",
+  "note": "Terms page names the operating company, ООО Хэдхантер, but no founding year appears on the pages read. The partners page is a media and advertising contact page with no partner program described. Browser reader used on pages that did not ne",
+  "method": "mixed"
  },
  "owners": [
   {

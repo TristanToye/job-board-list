@@ -1,17 +1,17 @@
 # HireVue
 
-HireVue is an HR technology vendor, focused on video interviewing and skills assessment.
+HireVue is an HR technology vendor, focused on video interviewing and skills assessment. It was founded in 2004.
 
 - Website: https://www.hirevue.com
 - Headquarters: not recorded
-- Founded: not recorded
+- Founded: 2004
 - Owner: not recorded
 - Languages: not recorded
 - API status: API status unknown
 - Partner program: yes
 - Prominence: #25,537 globally, tier Established
 - Tags: ATS integration, HR and recruiting technology, Partner program
-- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: headquarters, languages, pricing and business model, API access, owner.
+- Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: headquarters.
 - Data status: partly verified against its own site
 
 ## Quick answers
@@ -23,6 +23,7 @@ HireVue is an HR technology vendor, focused on video interviewing and skills ass
 - [HireVue homepage](https://www.hirevue.com/) (Existence and description, checked 2026-11-06): "AI hiring technology to reveal proven skills and capabilities"
 - [Homepage integrations](https://www.hirevue.com) (How jobs get in, checked 2026-11-06): "integrates with many leading applicant tracking systems (ATS) and HR platforms"
 - [Integrations page](https://www.hirevue.com/integrations) (Partner program, checked 2026-11-06): "Certified Integration Partner Program"
+- [About](https://www.hirevue.com/about) (Existence and description, checked 2026-11-06): "Hirevue was founded in 2004 based on the idea that people are more than bullets on a resume."
 
 Canonical page: https://jobboardlist.com/boards/hirevue/
 Last updated: 2026-11-06

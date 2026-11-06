@@ -16,7 +16,7 @@
  "region": "North America",
  "niche": "occupation database and job analysis",
  "segment": "",
- "parent": "",
+ "parent": "U.S. Department of Labor",
  "business_model": "",
  "api_status": "public-key",
  "api_docs_url": "https://www.onetonline.org/help/onet/webservices",
@@ -26,7 +26,7 @@
  "notes": "Homepage says the site is sponsored by the U.S. Department of Labor. Web Services page describes sign-up for an account and a REST API with documentation. No fees or languages stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/o-net/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -43,9 +43,9 @@
  "review": {
   "board_id": "o-net",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;ingest_methods",
-  "note": "Sponsor recorded as parent from overview page. The Department of Labor program page redirected to dol.gov (another domain), which was not followed. Headquarters not stated. Web Services API is a data access route for developers, not a job i",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Parent taken from the onetonline.org help page. The onetcenter.org overview also names the Department of Labor sponsorship but is a different domain, so it was not used as a source.",
   "method": "fetch"
  },
  "owners": [],
@@ -65,6 +65,14 @@
    "title": "O*NET Web Services",
    "accessed": "2026-11-06",
    "quote": "Sign up for O*NET Web Services to get started!",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.onetonline.org/help/online/",
+   "title": "Help",
+   "accessed": "2026-11-06",
+   "quote": "Both applications were developed for the U.S. Department of Labor by the National Center for O*NET Development.",
    "quote_check": "ok"
   }
  ]

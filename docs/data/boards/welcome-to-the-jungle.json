@@ -5,7 +5,7 @@
  "domains": "",
  "type": "board+employer-brand",
  "hq_country": "FR",
- "founded": "",
+ "founded": "2015",
  "markets": "FR;EU;global",
  "countries_served": [
   "FR"
@@ -21,7 +21,7 @@
  "region": "Europe",
  "niche": "tech/startup",
  "segment": "",
- "parent": "",
+ "parent": "Otta Technology Ltd",
  "business_model": "subscription, packages",
  "api_status": "partner-only",
  "api_docs_url": "",
@@ -53,8 +53,8 @@
   "reviewed": "2026-11-06",
   "outcome": "verified",
   "fields_not_found": "",
-  "note": "Founding year from newsroom press item; the homepage text 'doing since 2015' was also seen. Publisher and trading name from the About site footer.",
-  "method": "fetch"
+  "note": "Founding year taken from the About page sentence 'doing since 2015'. Parent is the trading-name entity Otta Technology Ltd as named in the site footer text; the site names it as the operating company, not a holding company.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -105,6 +105,14 @@
    "title": "About Welcome to the Jungle",
    "accessed": "2026-11-06",
    "quote": "published by Welcome to the Jungle, the trading name of Otta Technology Ltd.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://about.welcometothejungle.com/",
+   "title": "About Welcome to the Jungle",
+   "accessed": "2026-11-06",
+   "quote": "Welcome to the Jungle has been doing since 2015.",
    "quote_check": "ok"
   }
  ]

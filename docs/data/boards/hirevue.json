@@ -5,7 +5,7 @@
  "domains": "",
  "type": "hr-tech",
  "hq_country": "",
- "founded": "",
+ "founded": "2004",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -46,9 +46,9 @@
   "board_id": "hirevue",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;api_status;parent",
-  "note": "Homepage and integrations page state ATS integrations and a Certified Integration Partner Program; no headquarters, pricing or API stated.",
-  "method": "mixed"
+  "fields_not_found": "hq_country",
+  "note": "Founding year 2004 quoted from About page. About, press release and integrations pages give no headquarters location and footer shows only a copyright line.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],
@@ -75,6 +75,14 @@
    "title": "Integrations page",
    "accessed": "2026-11-06",
    "quote": "Certified Integration Partner Program",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.hirevue.com/about",
+   "title": "About",
+   "accessed": "2026-11-06",
+   "quote": "Hirevue was founded in 2004 based on the idea that people are more than bullets on a resume.",
    "quote_check": "ok"
   }
  ]

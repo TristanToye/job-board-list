@@ -16,9 +16,9 @@
  "niche": "background screening",
  "segment": "",
  "parent": "",
- "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
+ "business_model": "per report",
+ "api_status": "on-request",
+ "api_docs_url": "https://docs.checkr.com",
  "partner_program": "yes",
  "partner_url": "https://checkr.com/partners",
  "ingest_methods": [
@@ -37,6 +37,7 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "api-on-request",
   "ats-integration",
   "hr-tech",
   "partner-program"
@@ -46,8 +47,8 @@
   "board_id": "checkr",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;business_model;api_status",
-  "note": "Partners page describes ATS integrations and a partner developer guide link; developers page states no key process; no headquarters or language options stated.",
+  "fields_not_found": "hq_country;founded;parent",
+  "note": "Read pricing and API docs. Company, homepage, about and privacy pages gave no HQ, founding or parent. The privacy page lists a contact address in San Francisco that is not labelled as headquarters, so hq_country was not recorded. Terms page",
   "method": "fetch"
  },
  "owners": [],
@@ -75,6 +76,22 @@
    "title": "Partners page",
    "accessed": "2026-11-06",
    "quote": "Learn how the Checkr and Greenhouse partnership can optimize the background check process",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://checkr.com/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "No commitments or contracts, billed per verification.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://docs.checkr.com",
+   "title": "API documentation",
+   "accessed": "2026-11-06",
+   "quote": "Before gaining access to the Checkr APIs and Dashboard, you must be properly credentialed to request background checks.",
    "quote_check": "ok"
   }
  ]

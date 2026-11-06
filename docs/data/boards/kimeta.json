@@ -4,7 +4,7 @@
  "url": "https://www.kimeta.de/",
  "domains": "",
  "type": "aggregator",
- "hq_country": "",
+ "hq_country": "DE",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -21,11 +21,13 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
+ "ingest_methods": [
+  "crawl"
+ ],
  "notes": "Employer page lists prices excluding VAT, with flatrate terms of 1 or 3 months and up to 20 percent term discount. No API, XML feed, ATS integration or partner program mentioned on the employer page. Parent and headquarters not stated on the pages read; Impressum and Über uns were not read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/kimeta/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,13 +37,21 @@
   "list_date": "2026-11-06"
  },
  "tags": [
+  "crawl-sourced",
   "general",
   "job-aggregator",
   "pay-per-post",
   "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "kimeta",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "founded;parent",
+  "note": "Impressum gives the registered seat (kimeta GmbH, Darmstadt). DE is inferred from the GmbH form and the Darmstadt address, not from a stated country. Press page names shareholders (Madsack 2011, KfW 2009) but no parent company. Ingest metho",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -59,6 +69,22 @@
    "title": "Employer product prices",
    "accessed": "2026-11-05",
    "quote": "Alle Preise zzgl. Mehrwertsteuer.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.kimeta.de/StaticPage/Impressum",
+   "title": "Impressum",
+   "accessed": "2026-11-06",
+   "quote": "kimeta GmbH Mina-Rees-Straße 8 64295 Darmstadt",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.kimeta.de/StaticPage/kimeta",
+   "title": "kimeta",
+   "accessed": "2026-11-06",
+   "quote": "kimeta sucht im Netz nach Stellenanzeigen.",
    "quote_check": "ok"
   }
  ]

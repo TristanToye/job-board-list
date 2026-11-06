@@ -15,7 +15,7 @@
  "region": "Global",
  "niche": "career management and talent development",
  "segment": "",
- "parent": "",
+ "parent": "ManpowerGroup",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
@@ -38,7 +38,14 @@
   "outplacement"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "right-management",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded",
+  "note": "Home, contact and solutions pages read in raw text. Parent (ManpowerGroup) and English language shown. No headquarters or founding year on the pages. The try_pages listed manpowergroup.com, a different domain, so it was not used as a source",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +55,14 @@
    "title": "Right Management",
    "accessed": "2026-11-06",
    "quote": "We power careers so individuals grow and organizations thrive.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.right.com/",
+   "title": "Right Management home",
+   "accessed": "2026-11-06",
+   "quote": "As part of ManpowerGroup, Right Management combines global scale with local care",
    "quote_check": "ok"
   }
  ]

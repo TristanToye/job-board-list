@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 71 entries in the directory.
+Has a partner or integration program. 73 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -40,7 +40,7 @@ Has a partner or integration program. 71 entries in the directory.
 - [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
-- [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech
+- [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, API key on request
 - [Employment Hero](https://jobboardlist.com/boards/employment-hero/): hr-tech
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Rezi](https://jobboardlist.com/boards/rezi/): career-services, Self-serve API key
@@ -53,6 +53,7 @@ Has a partner or integration program. 71 entries in the directory.
 - [Phenom](https://jobboardlist.com/boards/phenom/): ats
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
+- [Codility](https://jobboardlist.com/boards/codility/): hr-tech
 - [Careerminds](https://jobboardlist.com/boards/careerminds/): outplacement
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Partner-only API
@@ -65,6 +66,7 @@ Has a partner or integration program. 71 entries in the directory.
 - [CareerJunction](https://jobboardlist.com/boards/careerjunction/): board
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
+- [Resumeble](https://jobboardlist.com/boards/resumeble/): career-services
 - [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key

@@ -19,8 +19,8 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://resumeble.com/partner-with-us",
  "ingest_methods": [],
  "notes": "",
  "confidence": "partially-verified",
@@ -35,10 +35,18 @@
   "list_date": "2026-11-06"
  },
  "tags": [
-  "career-services"
+  "career-services",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "resumeble",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded;parent;business_model;ingest_methods",
+  "note": "Affiliate program found on partner page. /api returns 404 and the footer has no API or developer link, so api_status recorded as none-known. The about page gives no year, HQ or parent. Package prices (Standard $157.00 up to Elite Boardroom ",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +56,14 @@
    "title": "Resumeble",
    "accessed": "2026-11-06",
    "quote": "Expert resume writing services from certified professional writers",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://resumeble.com/partner-with-us",
+   "title": "Partner with us",
+   "accessed": "2026-11-06",
+   "quote": "Upon approval, you'll gain exclusive access to your affiliate dashboard",
    "quote_check": "ok"
   }
  ]

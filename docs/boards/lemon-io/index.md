@@ -1,10 +1,10 @@
 # Lemon.io
 
-Lemon.io is a freelance marketplace based in United States, focused on freelance developer marketplace.
+Lemon.io is a freelance marketplace based in United States, focused on freelance developer marketplace. It was founded in 2015.
 
 - Website: https://lemon.io
 - Headquarters: United States
-- Founded: not recorded
+- Founded: 2015
 - Owner: not recorded
 - Languages: English, German
 - API status: API status unknown
@@ -27,6 +27,7 @@ Lemon.io is a freelance marketplace based in United States, focused on freelance
 - [Homepage language options](https://lemon.io) (Languages, checked 2026-11-06): "English | Deutsch"
 - [Pricing](https://lemon.io/pricing) (Business model and pricing, checked 2026-11-06): "Lemon.io operates on a prepaid subscription model, so you pay for the developer's working hours ahead of time."
 - [Homepage](https://lemon.io) (Partner program, checked 2026-11-06): "Partner program"
+- [About us](https://lemon.io/about-us/) (Existence and description, checked 2026-11-06): "We started in 2015 and have spent a decade learning what predicts a great engineering hire"
 
 Canonical page: https://jobboardlist.com/boards/lemon-io/
 Last updated: 2026-11-06

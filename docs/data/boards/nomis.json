@@ -43,10 +43,10 @@
  "review": {
   "board_id": "nomis",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
-  "note": "Homepage states ONS as provider and API page documents the RESTful API; no key requirement, languages, address or partner program stated.",
-  "method": "mixed"
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country",
+  "note": "The /api URL redirects to /api/v01/help, which was read. The page shows ONS and Crown Copyright logos and links but no sentence stating the operator or the country. Homepage has no About, Partners or Pricing link per scout.",
+  "method": "fetch"
  },
  "owners": [],
  "scale": [],

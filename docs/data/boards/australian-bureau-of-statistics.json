@@ -42,10 +42,10 @@
  "review": {
   "board_id": "australian-bureau-of-statistics",
   "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;founded;parent",
-  "note": "About page gives only a description of the agency. Welcome page and homepage state none of the three fields. The corporate-information guess returned 404. Browser run not needed.",
-  "method": "fetch"
+  "outcome": "partially-verified",
+  "fields_not_found": "api_status",
+  "note": "Data Explorer user guide says users can automatically generate Application Programming Interface calls to pull data, so an API exists, but no page states whether a key is needed, so api_status is unknown. Data Explorer home page and consult",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

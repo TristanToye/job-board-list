@@ -44,9 +44,9 @@
  "review": {
   "board_id": "toptal",
   "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Founding year 2010 from the Press Center page via the fetch tool. The headless reader was blocked by a Cloudflare 403 on both press-center and about, so the fact comes from the fetch tool output only.",
+  "outcome": "blocked",
+  "fields_not_found": "hq_country;parent;business_model",
+  "note": "Headless reader returned 403 with blocked true for /about, /clients and /why. The fetch tool returned summaries only, without verbatim quotes, so no facts recorded.",
   "method": "mixed"
  },
  "owners": [],

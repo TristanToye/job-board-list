@@ -1,0 +1,331 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 3,
+ "boards": [
+  {
+   "name": "Criteria",
+   "url": "https://criteriacorp.com",
+   "founded": "2006",
+   "parent": "Sumeru Equity Partners",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://criteriacorp.com/about-us",
+     "title": "Company",
+     "quote": "2006 Founded to Rethink Hiring",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://criteriacorp.com/about-us",
+     "title": "Company",
+     "quote": "Criteria receives a majority growth investment from Sumeru Equity Partners,",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://criteriacorp.com/integrations-and-partners",
+     "title": "Technology Integrations & Partnerships",
+     "quote": "Our API technology makes it easy to integrate Criteria with the ATS or HRIS platform of your choice.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "founded": "2009",
+   "partner_program": "yes",
+   "partner_url": "https://www.codility.com/partners/",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.codility.com/about/",
+     "title": "About Codility",
+     "quote": "Codility was founded in 2009 to answer a question: can this engineer do the work?",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.codility.com/partners/",
+     "title": "Codility Partners: Resell and Integrate Skills Assessment",
+     "quote": "Five ways to partner with Codility",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Welcome to the Jungle",
+   "url": "https://www.welcometothejungle.com",
+   "founded": "2015",
+   "parent": "Otta Technology Ltd",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://about.welcometothejungle.com/",
+     "title": "About Welcome to the Jungle",
+     "quote": "Welcome to the Jungle has been doing since 2015.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://about.welcometothejungle.com/",
+     "title": "About Welcome to the Jungle",
+     "quote": "Welcome to the Jungle, the trading name of Otta Technology Ltd.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "IMPACT Group",
+   "url": "https://www.impactgrouphr.com",
+   "founded": "1988",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://impactgrouphr.com/about/history/",
+     "title": "Company History | IMPACT Group",
+     "quote": "IMPACT Group was founded in 1988 on a mission to empower individuals to grow great careers",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "founded": "1960",
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.randstad.com/about-randstad/company-profile/",
+     "title": "Company profile | Randstad",
+     "quote": "Randstad was founded in 1960 and is headquartered in Diemen, the Netherlands.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Criteria",
+   "url": "https://criteriacorp.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "partner_program",
+    "api_status"
+   ],
+   "method": "mixed",
+   "note": "Founding year 2006 and majority investor Sumeru Equity Partners found on About page. The About page lists a USA office address but does not label a headquarters. Pricing is by request only, with no model stated. Integrations page mentions an API but no developer key or docs. Partner program not stated."
+  },
+  {
+   "name": "Codility",
+   "url": "https://www.codility.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "Founding year 2009 and a partner program at /partners/ found. About page and homepage state no headquarters country or owner."
+  },
+  {
+   "name": "Welcome to the Jungle",
+   "url": "https://www.welcometothejungle.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Founding year taken from the About page sentence 'doing since 2015'. Parent is the trading-name entity Otta Technology Ltd as named in the site footer text; the site names it as the operating company, not a holding company."
+  },
+  {
+   "name": "IMPACT Group",
+   "url": "https://www.impactgrouphr.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country"
+   ],
+   "method": "mixed",
+   "note": "Founding year 1988 found on History page. Contact page shows a US street address and +1 phone, but no headquarters country is stated."
+  },
+  {
+   "name": "Zarplata.ru",
+   "url": "https://zarplata.ru/",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "founded",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Terms page names the operating company, ООО Хэдхантер, but no founding year appears on the pages read. The partners page is a media and advertising contact page with no partner program described. Browser reader used on pages that did not need it; no blocks."
+  },
+  {
+   "name": "Randstad",
+   "url": "https://www.randstad.com",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Founding year 1960 stated on the company profile page."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Criteria",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://criteriacorp.com/about-us"
+   ]
+  },
+  {
+   "name": "Criteria",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://criteriacorp.com/about-us"
+   ]
+  },
+  {
+   "name": "Criteria",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://criteriacorp.com/about-us"
+   ]
+  },
+  {
+   "name": "Criteria",
+   "field": "business_model",
+   "outcome": "not-found",
+   "pages": [
+    "https://criteriacorp.com/plans-and-pricing"
+   ]
+  },
+  {
+   "name": "Criteria",
+   "field": "api_status",
+   "outcome": "not-found",
+   "pages": [
+    "https://criteriacorp.com/integrations-and-partners",
+    "https://criteriacorp.com/about-us"
+   ]
+  },
+  {
+   "name": "Criteria",
+   "field": "partner_program",
+   "outcome": "not-found",
+   "pages": [
+    "https://criteriacorp.com/integrations-and-partners",
+    "https://criteriacorp.com/plans-and-pricing"
+   ]
+  },
+  {
+   "name": "Criteria",
+   "field": "ingest_methods",
+   "outcome": "found",
+   "pages": [
+    "https://criteriacorp.com/integrations-and-partners"
+   ]
+  },
+  {
+   "name": "Codility",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.codility.com/about/",
+    "https://www.codility.com/"
+   ]
+  },
+  {
+   "name": "Codility",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.codility.com/about/"
+   ]
+  },
+  {
+   "name": "Codility",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.codility.com/about/",
+    "https://www.codility.com/"
+   ]
+  },
+  {
+   "name": "Codility",
+   "field": "partner_program",
+   "outcome": "found",
+   "pages": [
+    "https://www.codility.com/partners/"
+   ]
+  },
+  {
+   "name": "Welcome to the Jungle",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://about.welcometothejungle.com/",
+    "https://about.welcometothejungle.com/newsroom#explore-section"
+   ]
+  },
+  {
+   "name": "Welcome to the Jungle",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://about.welcometothejungle.com/",
+    "https://about.welcometothejungle.com/newsroom#explore-section"
+   ]
+  },
+  {
+   "name": "IMPACT Group",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://impactgrouphr.com/about/",
+    "https://impactgrouphr.com/contact/"
+   ]
+  },
+  {
+   "name": "IMPACT Group",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://impactgrouphr.com/about/history/"
+   ]
+  },
+  {
+   "name": "Zarplata.ru",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://zarplata.ru/zp_rules?from=footer_new&hhtmFromLabel=footer_new&hhtmFrom=main",
+    "https://zarplata.ru/",
+    "https://pr.zarplata.ru/?utm_source=zarplata.ru&utm_medium=referral&utm_campaign=from_footer_new"
+   ]
+  },
+  {
+   "name": "Zarplata.ru",
+   "field": "partner_program",
+   "outcome": "not-found",
+   "pages": [
+    "https://pr.zarplata.ru/?utm_source=zarplata.ru&utm_medium=referral&utm_campaign=from_footer_new"
+   ]
+  },
+  {
+   "name": "Randstad",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.randstad.com/about-randstad/company-profile/"
+   ]
+  }
+ ],
+ "blocked": []
+}

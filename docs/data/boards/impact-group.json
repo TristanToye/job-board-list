@@ -5,7 +5,7 @@
  "domains": "",
  "type": "outplacement",
  "hq_country": "",
- "founded": "",
+ "founded": "1988",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -38,7 +38,14 @@
   "outplacement"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "impact-group",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country",
+  "note": "Founding year 1988 found on History page. Contact page shows a US street address and +1 phone, but no headquarters country is stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +55,14 @@
    "title": "IMPACT Group",
    "accessed": "2026-11-06",
    "quote": "Our coaches deliver services in 100+ countries and 25 languages.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://impactgrouphr.com/about/history/",
+   "title": "Company History | IMPACT Group",
+   "accessed": "2026-11-06",
+   "quote": "IMPACT Group was founded in 1988 on a mission to empower individuals to grow great careers",
    "quote_check": "ok"
   }
  ]

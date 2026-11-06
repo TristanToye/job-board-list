@@ -1,11 +1,11 @@
 # Welcome to the Jungle
 
-Welcome to the Jungle is a board and employer brand based in France, focused on tech/startup.
+Welcome to the Jungle is a board and employer brand based in France, focused on tech/startup. It was founded in 2015.
 
 - Website: https://www.welcometothejungle.com
 - Headquarters: France
-- Founded: not recorded
-- Owner: not recorded
+- Founded: 2015
+- Owner: Otta Technology Ltd
 - Languages: French, English, Spanish, Czech, Slovak
 - API status: Partner-only API
 - Partner program: unknown
@@ -15,6 +15,8 @@ Welcome to the Jungle is a board and employer brand based in France, focused on 
 - Data status: partly verified against its own site
 
 ## Quick answers
+
+**Who owns Welcome to the Jungle?** This directory records the parent of Welcome to the Jungle as Otta Technology Ltd.
 
 **Does Welcome to the Jungle have an API?** According to this directory, Welcome to the Jungle restricts programmatic access to approved partners.
 
@@ -30,6 +32,7 @@ Welcome to the Jungle is a board and employer brand based in France, focused on 
 - [Offer page](https://solutions.welcometothejungle.com/notre-offre) (How jobs get in, checked 2026-11-05): "ou intégrez-le facilement à votre ATS existant."
 - [Newsroom](https://about.welcometothejungle.com/newsroom#explore-section) (Existence and description, checked 2026-11-06): "Founded in France in 2015"
 - [About Welcome to the Jungle](https://about.welcometothejungle.com/) (Ownership, checked 2026-11-06): "published by Welcome to the Jungle, the trading name of Otta Technology Ltd."
+- [About Welcome to the Jungle](https://about.welcometothejungle.com/) (Existence and description, checked 2026-11-06): "Welcome to the Jungle has been doing since 2015."
 
 Canonical page: https://jobboardlist.com/boards/welcome-to-the-jungle/
 Last updated: 2026-11-06

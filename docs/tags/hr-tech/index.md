@@ -4,7 +4,7 @@ Software for sourcing 14 entries in the directory.
 
 - [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
 - [HireVue](https://jobboardlist.com/boards/hirevue/): hr-tech
-- [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech
+- [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, API key on request
 - [Employment Hero](https://jobboardlist.com/boards/employment-hero/): hr-tech
 - [Beamery](https://jobboardlist.com/boards/beamery/): hr-tech
 - [Gem](https://jobboardlist.com/boards/gem/): hr-tech

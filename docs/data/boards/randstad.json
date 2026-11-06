@@ -5,7 +5,7 @@
  "domains": "",
  "type": "staffing",
  "hq_country": "NL",
- "founded": "",
+ "founded": "1960",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -42,10 +42,10 @@
  "review": {
   "board_id": "randstad",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Footer states a registered office in Diemen, The Netherlands; no language, pricing, API or partner program stated.",
-  "method": "fetch"
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Founding year 1960 stated on the company profile page.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -64,6 +64,14 @@
    "title": "Homepage footer registered office",
    "accessed": "2026-11-06",
    "quote": "Registered office: Diemermere 25, 1112 TC Diemen, The Netherlands.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.randstad.com/about-randstad/company-profile/",
+   "title": "Company profile | Randstad",
+   "accessed": "2026-11-06",
+   "quote": "Randstad was founded in 1960 and is headquartered in Diemen, the Netherlands.",
    "quote_check": "ok"
   }
  ]

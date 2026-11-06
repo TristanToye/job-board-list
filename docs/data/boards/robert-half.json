@@ -41,10 +41,10 @@
  "review": {
   "board_id": "robert-half",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;founded;parent;partner_program",
-  "note": "Languages found from the country and language list. No headquarters or founding year stated on pages read. Protiviti is named as a subsidiary, not a parent. The partner URL page describes working with clients, not a partner program.",
-  "method": "fetch"
+  "outcome": "not-stated",
+  "fields_not_found": "languages",
+  "note": "Raw text of the locations, homepage and hire-talent partner pages has no language or country selector. The fetch tool summary listed a footer selector that does not appear in raw text, so no quote recorded.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

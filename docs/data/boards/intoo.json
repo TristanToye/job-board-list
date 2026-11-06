@@ -15,8 +15,8 @@
  "region": "Global",
  "niche": "outplacement and career transition",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Gi Group Holding",
+ "business_model": "per-program fee; US list prices from $600 (3-month) to $3750 (6-month), volume and custom quotes by call",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -38,7 +38,14 @@
   "outplacement"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "intoo",
+  "reviewed": "2026-11-06",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded",
+  "note": "About page gives a Los Angeles office address under Careers, not labelled as headquarters, so not recorded. The fetch tool summary showed a 2012 founding sentence that is not in the raw text, so not recorded. Parent and per-program pricing ",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +55,22 @@
    "title": "INTOO",
    "accessed": "2026-11-06",
    "quote": "Accelerate the path to meaningful employment for employees impacted by layoffs.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.intoo.com/us/about/",
+   "title": "INTOO About",
+   "accessed": "2026-11-06",
+   "quote": "INTOO is the career development and outplacement flagship for Gi Group Holding",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.intoo.com/us/solutions/outplacement/outplacement-pricing/",
+   "title": "Outplacement Pricing & Plans",
+   "accessed": "2026-11-06",
+   "quote": "SMB pricing below reflects per-program rates for the U.S.",
    "quote_check": "ok"
   }
  ]

@@ -3565,7 +3565,7 @@
    "domains": "",
    "type": "board+employer-brand",
    "hq_country": "FR",
-   "founded": "",
+   "founded": "2015",
    "markets": "FR;EU;global",
    "countries_served": [
     "FR"
@@ -3581,7 +3581,7 @@
    "region": "Europe",
    "niche": "tech/startup",
    "segment": "",
-   "parent": "",
+   "parent": "Otta Technology Ltd",
    "business_model": "subscription, packages",
    "api_status": "partner-only",
    "api_docs_url": "",
@@ -3613,8 +3613,8 @@
     "reviewed": "2026-11-06",
     "outcome": "verified",
     "fields_not_found": "",
-    "note": "Founding year from newsroom press item; the homepage text 'doing since 2015' was also seen. Publisher and trading name from the About site footer.",
-    "method": "fetch"
+    "note": "Founding year taken from the About page sentence 'doing since 2015'. Parent is the trading-name entity Otta Technology Ltd as named in the site footer text; the site names it as the operating company, not a holding company.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -3665,6 +3665,14 @@
      "title": "About Welcome to the Jungle",
      "accessed": "2026-11-06",
      "quote": "published by Welcome to the Jungle, the trading name of Otta Technology Ltd.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://about.welcometothejungle.com/",
+     "title": "About Welcome to the Jungle",
+     "accessed": "2026-11-06",
+     "quote": "Welcome to the Jungle has been doing since 2015.",
      "quote_check": "ok"
     }
    ]
@@ -10153,9 +10161,9 @@
    "review": {
     "board_id": "national-career-service",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage states services are free of cost, but no employer business model, languages, API, partner or ingest method.",
+    "outcome": "not-stated",
+    "fields_not_found": "founded",
+    "note": "About pages read. They name the Ministry of Labour & Employment as the initiative owner but give no launch or founding year.",
     "method": "fetch"
    },
    "owners": [],
@@ -10546,7 +10554,7 @@
    "url": "https://www.kimeta.de/",
    "domains": "",
    "type": "aggregator",
-   "hq_country": "",
+   "hq_country": "DE",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -10563,11 +10571,13 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
+   "ingest_methods": [
+    "crawl"
+   ],
    "notes": "Employer page lists prices excluding VAT, with flatrate terms of 1 or 3 months and up to 20 percent term discount. No API, XML feed, ATS integration or partner program mentioned on the employer page. Parent and headquarters not stated on the pages read; Impressum and Über uns were not read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/kimeta/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -10577,13 +10587,21 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "crawl-sourced",
     "general",
     "job-aggregator",
     "pay-per-post",
     "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "kimeta",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "founded;parent",
+    "note": "Impressum gives the registered seat (kimeta GmbH, Darmstadt). DE is inferred from the GmbH form and the Darmstadt address, not from a stated country. Press page names shareholders (Madsack 2011, KfW 2009) but no parent company. Ingest metho",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -10601,6 +10619,22 @@
      "title": "Employer product prices",
      "accessed": "2026-11-05",
      "quote": "Alle Preise zzgl. Mehrwertsteuer.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.kimeta.de/StaticPage/Impressum",
+     "title": "Impressum",
+     "accessed": "2026-11-06",
+     "quote": "kimeta GmbH Mina-Rees-Straße 8 64295 Darmstadt",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.kimeta.de/StaticPage/kimeta",
+     "title": "kimeta",
+     "accessed": "2026-11-06",
+     "quote": "kimeta sucht im Netz nach Stellenanzeigen.",
      "quote_check": "ok"
     }
    ]
@@ -17737,7 +17771,7 @@
    "region": "North America",
    "niche": "occupation database and job analysis",
    "segment": "",
-   "parent": "",
+   "parent": "U.S. Department of Labor",
    "business_model": "",
    "api_status": "public-key",
    "api_docs_url": "https://www.onetonline.org/help/onet/webservices",
@@ -17747,7 +17781,7 @@
    "notes": "Homepage says the site is sponsored by the U.S. Department of Labor. Web Services page describes sign-up for an account and a REST API with documentation. No fees or languages stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/o-net/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -17764,9 +17798,9 @@
    "review": {
     "board_id": "o-net",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;ingest_methods",
-    "note": "Sponsor recorded as parent from overview page. The Department of Labor program page redirected to dol.gov (another domain), which was not followed. Headquarters not stated. Web Services API is a data access route for developers, not a job i",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Parent taken from the onetonline.org help page. The onetcenter.org overview also names the Department of Labor sponsorship but is a different domain, so it was not used as a source.",
     "method": "fetch"
    },
    "owners": [],
@@ -17786,6 +17820,14 @@
      "title": "O*NET Web Services",
      "accessed": "2026-11-06",
      "quote": "Sign up for O*NET Web Services to get started!",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.onetonline.org/help/online/",
+     "title": "Help",
+     "accessed": "2026-11-06",
+     "quote": "Both applications were developed for the U.S. Department of Labor by the National Center for O*NET Development.",
      "quote_check": "ok"
     }
    ]
@@ -17974,10 +18016,10 @@
    "review": {
     "board_id": "nomis",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;partner_program;ingest_methods",
-    "note": "Homepage states ONS as provider and API page documents the RESTful API; no key requirement, languages, address or partner program stated.",
-    "method": "mixed"
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country",
+    "note": "The /api URL redirects to /api/v01/help, which was read. The page shows ONS and Crown Copyright logos and links but no sentence stating the operator or the country. Homepage has no About, Partners or Pricing link per scout.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -18052,10 +18094,10 @@
    "review": {
     "board_id": "australian-bureau-of-statistics",
     "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;founded;parent",
-    "note": "About page gives only a description of the agency. Welcome page and homepage state none of the three fields. The corporate-information guess returned 404. Browser run not needed.",
-    "method": "fetch"
+    "outcome": "partially-verified",
+    "fields_not_found": "api_status",
+    "note": "Data Explorer user guide says users can automatically generate Application Programming Interface calls to pull data, so an API exists, but no page states whether a key is needed, so api_status is unknown. Data Explorer home page and consult",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -18359,7 +18401,7 @@
    "domains": "",
    "type": "staffing",
    "hq_country": "NL",
-   "founded": "",
+   "founded": "1960",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -18396,10 +18438,10 @@
    "review": {
     "board_id": "randstad",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Footer states a registered office in Diemen, The Netherlands; no language, pricing, API or partner program stated.",
-    "method": "fetch"
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Founding year 1960 stated on the company profile page.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -18418,6 +18460,14 @@
      "title": "Homepage footer registered office",
      "accessed": "2026-11-06",
      "quote": "Registered office: Diemermere 25, 1112 TC Diemen, The Netherlands.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.randstad.com/about-randstad/company-profile/",
+     "title": "Company profile | Randstad",
+     "accessed": "2026-11-06",
+     "quote": "Randstad was founded in 1960 and is headquartered in Diemen, the Netherlands.",
      "quote_check": "ok"
     }
    ]
@@ -18606,10 +18656,10 @@
    "review": {
     "board_id": "robert-half",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;founded;parent;partner_program",
-    "note": "Languages found from the country and language list. No headquarters or founding year stated on pages read. Protiviti is named as a subsidiary, not a parent. The partner URL page describes working with clients, not a partner program.",
-    "method": "fetch"
+    "outcome": "not-stated",
+    "fields_not_found": "languages",
+    "note": "Raw text of the locations, homepage and hire-talent partner pages has no language or country selector. The fetch tool summary listed a footer selector that does not appear in raw text, so no quote recorded.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -19770,9 +19820,9 @@
    "review": {
     "board_id": "toptal",
     "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Founding year 2010 from the Press Center page via the fetch tool. The headless reader was blocked by a Cloudflare 403 on both press-center and about, so the fact comes from the fetch tool output only.",
+    "outcome": "blocked",
+    "fields_not_found": "hq_country;parent;business_model",
+    "note": "Headless reader returned 403 with blocked true for /about, /clients and /why. The fetch tool returned summaries only, without verbatim quotes, so no facts recorded.",
     "method": "mixed"
    },
    "owners": [],
@@ -20008,13 +20058,16 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "es"
+   ],
    "region": "Global",
    "niche": "freelance design marketplace",
    "segment": "",
    "parent": "Vista",
-   "business_model": "",
+   "business_model": "per contest package, fixed price (Bronze US$249, Silver US$399, Gold US$799, Platinum US$1,050)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -20023,7 +20076,7 @@
    "notes": "Footer language switcher lists English and Spanish. Pricing page shows fixed packages for design contests, not employer job posting prices. Headquarters and API not stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/99designs/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -20040,9 +20093,9 @@
    "review": {
     "board_id": "99designs",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;founded",
-    "note": "Business model is per-contest fixed packages with USD prices on pricing page. The About page gives 'Since 2008' for the community, which is not stated as a founding year, so founded was not recorded. Featured partners are design service ven",
+    "outcome": "verified",
+    "fields_not_found": "",
+    "note": "Language menu shows English and español. Pricing page lists four fixed contest packages. Employers pay per contest package, not a subscription. Partner and About pages were not needed for these fields.",
     "method": "fetch"
    },
    "owners": [],
@@ -20078,6 +20131,22 @@
      "title": "Home",
      "accessed": "2026-11-06",
      "quote": "español",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://99designs.com/about",
+     "title": "About",
+     "accessed": "2026-11-06",
+     "quote": "English",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://99designs.com/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "We have 4 fixed packages to suit your budget. Prices exclude Sales Tax.",
      "quote_check": "ok"
     }
    ]
@@ -20254,7 +20323,7 @@
    "domains": "",
    "type": "freelance-platform",
    "hq_country": "US",
-   "founded": "",
+   "founded": "2015",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -20298,7 +20367,7 @@
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
     "fields_not_found": "parent;api_status;ingest_methods",
-    "note": "Homepage, pricing and address read; the homepage links an MCP documentation page at docs.lemon.io, which was not read, and no API access model was stated. /partners returned HTTP 404.",
+    "note": "Founding year 2015 quoted from About page. About page calls the company Independent, but that word alone is not a usable quote, so parent not recorded. Docs pages describe an MCP connector (mcp.lemon.io, no account needed) and chat-based re",
     "method": "fetch"
    },
    "owners": [],
@@ -20342,6 +20411,14 @@
      "title": "Homepage",
      "accessed": "2026-11-06",
      "quote": "Partner program",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://lemon.io/about-us/",
+     "title": "About us",
+     "accessed": "2026-11-06",
+     "quote": "We started in 2015 and have spent a decade learning what predicts a great engineering hire",
      "quote_check": "ok"
     }
    ]
@@ -20562,7 +20639,7 @@
    "domains": "",
    "type": "hr-tech",
    "hq_country": "",
-   "founded": "",
+   "founded": "2004",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -20603,9 +20680,9 @@
     "board_id": "hirevue",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;parent",
-    "note": "Homepage and integrations page state ATS integrations and a Certified Integration Partner Program; no headquarters, pricing or API stated.",
-    "method": "mixed"
+    "fields_not_found": "hq_country",
+    "note": "Founding year 2004 quoted from About page. About, press release and integrations pages give no headquarters location and footer shows only a copyright line.",
+    "method": "fetch"
    },
    "owners": [],
    "scale": [],
@@ -20632,6 +20709,14 @@
      "title": "Integrations page",
      "accessed": "2026-11-06",
      "quote": "Certified Integration Partner Program",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.hirevue.com/about",
+     "title": "About",
+     "accessed": "2026-11-06",
+     "quote": "Hirevue was founded in 2004 based on the idea that people are more than bullets on a resume.",
      "quote_check": "ok"
     }
    ]
@@ -20894,9 +20979,9 @@
    "niche": "background screening",
    "segment": "",
    "parent": "",
-   "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
+   "business_model": "per report",
+   "api_status": "on-request",
+   "api_docs_url": "https://docs.checkr.com",
    "partner_program": "yes",
    "partner_url": "https://checkr.com/partners",
    "ingest_methods": [
@@ -20915,6 +21000,7 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "api-on-request",
     "ats-integration",
     "hr-tech",
     "partner-program"
@@ -20924,8 +21010,8 @@
     "board_id": "checkr",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status",
-    "note": "Partners page describes ATS integrations and a partner developer guide link; developers page states no key process; no headquarters or language options stated.",
+    "fields_not_found": "hq_country;founded;parent",
+    "note": "Read pricing and API docs. Company, homepage, about and privacy pages gave no HQ, founding or parent. The privacy page lists a contact address in San Francisco that is not labelled as headquarters, so hq_country was not recorded. Terms page",
     "method": "fetch"
    },
    "owners": [],
@@ -20954,6 +21040,22 @@
      "accessed": "2026-11-06",
      "quote": "Learn how the Checkr and Greenhouse partnership can optimize the background check process",
      "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://checkr.com/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-06",
+     "quote": "No commitments or contracts, billed per verification.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://docs.checkr.com",
+     "title": "API documentation",
+     "accessed": "2026-11-06",
+     "quote": "Before gaining access to the Checkr APIs and Dashboard, you must be properly credentialed to request background checks.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -20964,7 +21066,7 @@
    "domains": "",
    "type": "hr-tech",
    "hq_country": "",
-   "founded": "",
+   "founded": "2006",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -20980,8 +21082,10 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Site says: \"Criteria receives a majority growth investment from Sumeru Equity Partners,\"",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/criteria/",
    "indexable": false,
@@ -20994,10 +21098,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
+    "ats-integration",
     "hr-tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "criteria",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;partner_program;api_status",
+    "note": "Founding year 2006 and majority investor Sumeru Equity Partners found on About page. The About page lists a USA office address but does not label a headquarters. Pricing is by request only, with no model stated. Integrations page mentions a",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -21007,6 +21119,30 @@
      "title": "Criteria homepage",
      "accessed": "2026-11-06",
      "quote": "Criteria turns those signals into more confident hiring decisions.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://criteriacorp.com/about-us",
+     "title": "Company",
+     "accessed": "2026-11-06",
+     "quote": "2006 Founded to Rethink Hiring",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://criteriacorp.com/about-us",
+     "title": "Company",
+     "accessed": "2026-11-06",
+     "quote": "Criteria receives a majority growth investment from Sumeru Equity Partners,",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://criteriacorp.com/integrations-and-partners",
+     "title": "Technology Integrations & Partnerships",
+     "accessed": "2026-11-06",
+     "quote": "Our API technology makes it easy to integrate Criteria with the ATS or HRIS platform of your choice.",
      "quote_check": "ok"
     }
    ]
@@ -21018,7 +21154,7 @@
    "domains": "",
    "type": "hr-tech",
    "hq_country": "",
-   "founded": "",
+   "founded": "2009",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -21032,13 +21168,13 @@
    "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.codility.com/partners/",
    "ingest_methods": [],
    "notes": "Pricing page sells pack-based plans; no prices appear in the quoted text. Full API is listed only in the comparison table, and it is included in Enterprise plans. The /partners/ page returned HTTP 500.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/codility/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -21049,6 +21185,7 @@
    },
    "tags": [
     "hr-tech",
+    "partner-program",
     "subscription",
     "tech"
    ],
@@ -21057,9 +21194,9 @@
     "board_id": "codility",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;partner_program;ingest_methods",
-    "note": "Pricing page and comparison table state plan and API facts; /partners/ returned HTTP 500 and no headquarters stated.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;parent",
+    "note": "Founding year 2009 and a partner program at /partners/ found. About page and homepage state no headquarters country or owner.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -21078,6 +21215,22 @@
      "title": "Pricing page",
      "accessed": "2026-11-06",
      "quote": "Online plans are bought by card, in annual or monthly packs of invites.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.codility.com/about/",
+     "title": "About Codility",
+     "accessed": "2026-11-06",
+     "quote": "Codility was founded in 2009 to answer a question: can this engineer do the work?",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.codility.com/partners/",
+     "title": "Codility Partners: Resell and Integrate Skills Assessment",
+     "accessed": "2026-11-06",
+     "quote": "Five ways to partner with Codility",
      "quote_check": "ok"
     }
    ]
@@ -21476,8 +21629,8 @@
    "region": "Global",
    "niche": "outplacement and career transition",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "Gi Group Holding",
+   "business_model": "per-program fee; US list prices from $600 (3-month) to $3750 (6-month), volume and custom quotes by call",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -21499,7 +21652,14 @@
     "outplacement"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "intoo",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "About page gives a Los Angeles office address under Careers, not labelled as headquarters, so not recorded. The fetch tool summary showed a 2012 founding sentence that is not in the raw text, so not recorded. Parent and per-program pricing ",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -21509,6 +21669,22 @@
      "title": "INTOO",
      "accessed": "2026-11-06",
      "quote": "Accelerate the path to meaningful employment for employees impacted by layoffs.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.intoo.com/us/about/",
+     "title": "INTOO About",
+     "accessed": "2026-11-06",
+     "quote": "INTOO is the career development and outplacement flagship for Gi Group Holding",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.intoo.com/us/solutions/outplacement/outplacement-pricing/",
+     "title": "Outplacement Pricing & Plans",
+     "accessed": "2026-11-06",
+     "quote": "SMB pricing below reflects per-program rates for the U.S.",
      "quote_check": "ok"
     }
    ]
@@ -21600,7 +21776,7 @@
    "region": "Global",
    "niche": "career management and talent development",
    "segment": "",
-   "parent": "",
+   "parent": "ManpowerGroup",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
@@ -21623,7 +21799,14 @@
     "outplacement"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "right-management",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded",
+    "note": "Home, contact and solutions pages read in raw text. Parent (ManpowerGroup) and English language shown. No headquarters or founding year on the pages. The try_pages listed manpowergroup.com, a different domain, so it was not used as a source",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -21633,6 +21816,14 @@
      "title": "Right Management",
      "accessed": "2026-11-06",
      "quote": "We power careers so individuals grow and organizations thrive.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.right.com/",
+     "title": "Right Management home",
+     "accessed": "2026-11-06",
+     "quote": "As part of ManpowerGroup, Right Management combines global scale with local care",
      "quote_check": "ok"
     }
    ]
@@ -21644,7 +21835,7 @@
    "domains": "",
    "type": "outplacement",
    "hq_country": "US",
-   "founded": "",
+   "founded": "1966",
    "markets": "",
    "countries_served": [
     "US",
@@ -21682,8 +21873,8 @@
     "board_id": "challenger-gray-christmas",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Footer lists Chicago as headquarters; no parent, languages, pricing or API stated.",
+    "fields_not_found": "parent",
+    "note": "The founding quote names a founder called James and does not name the firm, so founded 1966 is partially verified. Our Team page gave no founding year or parent. Footer copyright year is not a founding statement.",
     "method": "fetch"
    },
    "owners": [],
@@ -21704,6 +21895,14 @@
      "accessed": "2026-11-06",
      "quote": "Chicago | Headquarters",
      "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.challengergray.com/about-us/",
+     "title": "About Us",
+     "accessed": "2026-11-06",
+     "quote": "James founded the first outplacement firm in the U.S. in 1966 to provide career transition services.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -21714,7 +21913,7 @@
    "domains": "",
    "type": "outplacement",
    "hq_country": "",
-   "founded": "",
+   "founded": "1988",
    "markets": "",
    "countries_served": [
     "ZZ"
@@ -21747,7 +21946,14 @@
     "outplacement"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "impact-group",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Founding year 1988 found on History page. Contact page shows a US street address and +1 phone, but no headquarters country is stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -21757,6 +21963,14 @@
      "title": "IMPACT Group",
      "accessed": "2026-11-06",
      "quote": "Our coaches deliver services in 100+ countries and 25 languages.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://impactgrouphr.com/about/history/",
+     "title": "Company History | IMPACT Group",
+     "accessed": "2026-11-06",
+     "quote": "IMPACT Group was founded in 1988 on a mission to empower individuals to grow great careers",
      "quote_check": "ok"
     }
    ]
@@ -22034,8 +22248,8 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://resumeble.com/partner-with-us",
    "ingest_methods": [],
    "notes": "",
    "confidence": "partially-verified",
@@ -22050,10 +22264,18 @@
     "list_date": "2026-11-06"
    },
    "tags": [
-    "career-services"
+    "career-services",
+    "partner-program"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "resumeble",
+    "reviewed": "2026-11-06",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded;parent;business_model;ingest_methods",
+    "note": "Affiliate program found on partner page. /api returns 404 and the footer has no API or developer link, so api_status recorded as none-known. The about page gives no year, HQ or parent. Package prices (Standard $157.00 up to Elite Boardroom ",
+    "method": "fetch"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -22063,6 +22285,14 @@
      "title": "Resumeble",
      "accessed": "2026-11-06",
      "quote": "Expert resume writing services from certified professional writers",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://resumeble.com/partner-with-us",
+     "title": "Partner with us",
+     "accessed": "2026-11-06",
+     "quote": "Upon approval, you'll gain exclusive access to your affiliate dashboard",
      "quote_check": "ok"
     }
    ]
@@ -23748,8 +23978,8 @@
     "board_id": "workday",
     "reviewed": "2026-11-06",
     "outcome": "partially-verified",
-    "fields_not_found": "founded;parent",
-    "note": "Our Story says Workday was founded by Aneel Bhusri and Dave Duffield, and a summary gives 2005, but the year was not in a quotable sentence; the captured quote was cut off before the year, so founded is not recorded. No parent or owner name",
+    "fields_not_found": "founded",
+    "note": "Region chooser lists 12 language options, primary English. Our Story page names the founders Aneel Bhusri and Dave Duffield and its timeline places the founding in 2005, but the entry copied word for word does not contain the year, so found",
     "method": "fetch"
    },
    "owners": [],
@@ -26570,10 +26800,10 @@
    "review": {
     "board_id": "clearancejobs",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
-    "note": "Footer states it is a DHI service; employer pages show a demo request and no prices.",
-    "method": "fetch"
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country",
+    "note": "About and homepage raw text give founding (2002) and DHI service footer but no headquarters location.",
+    "method": "mixed"
    },
    "owners": [
     {
@@ -26647,10 +26877,10 @@
    "review": {
     "board_id": "zarplata-ru",
     "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "languages;business_model;partner_program;ingest_methods",
-    "note": "Operating company and Moscow address stated on the terms page. No language options or employer pricing found.",
-    "method": "browser"
+    "outcome": "not-stated",
+    "fields_not_found": "founded;partner_program",
+    "note": "Terms page names the operating company, ООО Хэдхантер, but no founding year appears on the pages read. The partners page is a media and advertising contact page with no partner program described. Browser reader used on pages that did not ne",
+    "method": "mixed"
    },
    "owners": [
     {

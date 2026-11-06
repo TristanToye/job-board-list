@@ -5,7 +5,7 @@
  "domains": "",
  "type": "hr-tech",
  "hq_country": "",
- "founded": "",
+ "founded": "2009",
  "markets": "",
  "countries_served": [
   "ZZ"
@@ -19,13 +19,13 @@
  "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.codility.com/partners/",
  "ingest_methods": [],
  "notes": "Pricing page sells pack-based plans; no prices appear in the quoted text. Full API is listed only in the comparison table, and it is included in Enterprise plans. The /partners/ page returned HTTP 500.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/codility/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -36,6 +36,7 @@
  },
  "tags": [
   "hr-tech",
+  "partner-program",
   "subscription",
   "tech"
  ],
@@ -44,9 +45,9 @@
   "board_id": "codility",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;partner_program;ingest_methods",
-  "note": "Pricing page and comparison table state plan and API facts; /partners/ returned HTTP 500 and no headquarters stated.",
-  "method": "fetch"
+  "fields_not_found": "hq_country;parent",
+  "note": "Founding year 2009 and a partner program at /partners/ found. About page and homepage state no headquarters country or owner.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -65,6 +66,22 @@
    "title": "Pricing page",
    "accessed": "2026-11-06",
    "quote": "Online plans are bought by card, in annual or monthly packs of invites.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.codility.com/about/",
+   "title": "About Codility",
+   "accessed": "2026-11-06",
+   "quote": "Codility was founded in 2009 to answer a question: can this engineer do the work?",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.codility.com/partners/",
+   "title": "Codility Partners: Resell and Integrate Skills Assessment",
+   "accessed": "2026-11-06",
+   "quote": "Five ways to partner with Codility",
    "quote_check": "ok"
   }
  ]

@@ -10,13 +10,16 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "es"
+ ],
  "region": "Global",
  "niche": "freelance design marketplace",
  "segment": "",
  "parent": "Vista",
- "business_model": "",
+ "business_model": "per contest package, fixed price (Bronze US$249, Silver US$399, Gold US$799, Platinum US$1,050)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -25,7 +28,7 @@
  "notes": "Footer language switcher lists English and Spanish. Pricing page shows fixed packages for design contests, not employer job posting prices. Headquarters and API not stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/99designs/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -42,9 +45,9 @@
  "review": {
   "board_id": "99designs",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;founded",
-  "note": "Business model is per-contest fixed packages with USD prices on pricing page. The About page gives 'Since 2008' for the community, which is not stated as a founding year, so founded was not recorded. Featured partners are design service ven",
+  "outcome": "verified",
+  "fields_not_found": "",
+  "note": "Language menu shows English and español. Pricing page lists four fixed contest packages. Employers pay per contest package, not a subscription. Partner and About pages were not needed for these fields.",
   "method": "fetch"
  },
  "owners": [],
@@ -80,6 +83,22 @@
    "title": "Home",
    "accessed": "2026-11-06",
    "quote": "español",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://99designs.com/about",
+   "title": "About",
+   "accessed": "2026-11-06",
+   "quote": "English",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://99designs.com/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-06",
+   "quote": "We have 4 fixed packages to suit your budget. Prices exclude Sales Tax.",
    "quote_check": "ok"
   }
  ]

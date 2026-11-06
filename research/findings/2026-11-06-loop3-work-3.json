@@ -1,88 +1,296 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "round": 3,
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "round": 3,
+ "boards": [
+  {
+   "name": "Checkr",
+   "url": "https://checkr.com",
+   "hq_country": null,
+   "founded": null,
+   "parent": null,
+   "business_model": "per report",
+   "api_status": "on-request",
+   "api_docs_url": "https://docs.checkr.com",
+   "sources": [
     {
-      "name": "Checkr",
-      "url": "https://checkr.com",
-      "hq_country": null,
-      "founded": null,
-      "parent": null,
-      "business_model": "per report",
-      "api_status": "on-request",
-      "api_docs_url": "https://docs.checkr.com",
-      "sources": [
-        {"field": "business_model", "url": "https://checkr.com/pricing", "title": "Pricing", "quote": "No commitments or contracts, billed per verification."},
-        {"field": "api_status", "url": "https://docs.checkr.com", "title": "API documentation", "quote": "Before gaining access to the Checkr APIs and Dashboard, you must be properly credentialed to request background checks."}
-      ]
+     "field": "business_model",
+     "url": "https://checkr.com/pricing",
+     "title": "Pricing",
+     "quote": "No commitments or contracts, billed per verification.",
+     "check": "ok"
     },
     {
-      "name": "kimeta",
-      "url": "https://www.kimeta.de/",
-      "hq_country": "DE",
-      "founded": null,
-      "parent": null,
-      "ingest_methods": ["crawl"],
-      "sources": [
-        {"field": "hq_country", "url": "https://www.kimeta.de/StaticPage/Impressum", "title": "Impressum", "quote": "kimeta GmbH Mina-Rees-Straße 8 64295 Darmstadt"},
-        {"field": "ingest_methods", "url": "https://www.kimeta.de/StaticPage/kimeta", "title": "kimeta", "quote": "kimeta sucht im Netz nach Stellenanzeigen."}
-      ]
-    },
-    {
-      "name": "Challenger, Gray & Christmas",
-      "url": "https://www.challengergray.com",
-      "hq_country": null,
-      "founded": "1966",
-      "parent": null,
-      "sources": [
-        {"field": "founded", "url": "https://www.challengergray.com/about-us/", "title": "About Us", "quote": "James founded the first outplacement firm in the U.S. in 1966 to provide career transition services."}
-      ]
-    },
-    {
-      "name": "O*NET",
-      "url": "https://www.onetonline.org",
-      "parent": "U.S. Department of Labor",
-      "sources": [
-        {"field": "parent", "url": "https://www.onetonline.org/help/online/", "title": "Help", "quote": "Both applications were developed for the U.S. Department of Labor by the National Center for O*NET Development."}
-      ]
-    },
-    {
-      "name": "Nomis",
-      "url": "https://www.nomisweb.co.uk",
-      "hq_country": null,
-      "sources": []
-    },
-    {
-      "name": "National Career Service",
-      "url": "https://www.ncs.gov.in",
-      "founded": null,
-      "sources": []
+     "field": "api_status",
+     "url": "https://docs.checkr.com",
+     "title": "API documentation",
+     "quote": "Before gaining access to the Checkr APIs and Dashboard, you must be properly credentialed to request background checks.",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Checkr", "url": "https://checkr.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded", "parent"], "method": "fetch", "note": "Read pricing and API docs. Company, homepage, about and privacy pages gave no HQ, founding or parent. The privacy page lists a contact address in San Francisco that is not labelled as headquarters, so hq_country was not recorded. Terms page returned 404. api_status set to on-request because production access needs credentialing and enablement by Checkr."},
-    {"name": "kimeta", "url": "https://www.kimeta.de/", "outcome": "partially-verified", "fields_not_found": ["founded", "parent"], "method": "fetch", "note": "Impressum gives the registered seat (kimeta GmbH, Darmstadt). DE is inferred from the GmbH form and the Darmstadt address, not from a stated country. Press page names shareholders (Madsack 2011, KfW 2009) but no parent company. Ingest method from the About page: the site says it searches the web for job ads."},
-    {"name": "Challenger, Gray & Christmas", "url": "https://www.challengergray.com", "outcome": "partially-verified", "fields_not_found": ["parent"], "method": "fetch", "note": "The founding quote names a founder called James and does not name the firm, so founded 1966 is partially verified. Our Team page gave no founding year or parent. Footer copyright year is not a founding statement."},
-    {"name": "O*NET", "url": "https://www.onetonline.org", "outcome": "verified", "fields_not_found": [], "method": "fetch", "note": "Parent taken from the onetonline.org help page. The onetcenter.org overview also names the Department of Labor sponsorship but is a different domain, so it was not used as a source."},
-    {"name": "Nomis", "url": "https://www.nomisweb.co.uk", "outcome": "not-stated", "fields_not_found": ["hq_country"], "method": "fetch", "note": "The /api URL redirects to /api/v01/help, which was read. The page shows ONS and Crown Copyright logos and links but no sentence stating the operator or the country. Homepage has no About, Partners or Pricing link per scout."},
-    {"name": "National Career Service", "url": "https://www.ncs.gov.in", "outcome": "not-stated", "fields_not_found": ["founded"], "method": "fetch", "note": "About pages read. They name the Ministry of Labour & Employment as the initiative owner but give no launch or founding year."}
-  ],
-  "attempts": [
-    {"name": "Checkr", "field": "hq_country", "outcome": "not-found", "pages": ["https://checkr.com/company", "https://checkr.com", "https://checkr.com/about", "https://checkr.com/privacy"]},
-    {"name": "Checkr", "field": "founded", "outcome": "not-found", "pages": ["https://checkr.com/company", "https://checkr.com", "https://checkr.com/about"]},
-    {"name": "Checkr", "field": "parent", "outcome": "not-found", "pages": ["https://checkr.com/company", "https://checkr.com/about", "https://checkr.com/privacy"]},
-    {"name": "Checkr", "field": "business_model", "outcome": "found", "pages": ["https://checkr.com/pricing"]},
-    {"name": "Checkr", "field": "api_status", "outcome": "found", "pages": ["https://docs.checkr.com"]},
-    {"name": "kimeta", "field": "hq_country", "outcome": "found", "pages": ["https://www.kimeta.de/StaticPage/Impressum", "https://www.kimeta.de/StaticPage/kimeta", "https://www.kimeta.de/StaticPage/Presse"]},
-    {"name": "kimeta", "field": "founded", "outcome": "not-found", "pages": ["https://www.kimeta.de/StaticPage/kimeta", "https://www.kimeta.de/StaticPage/Presse", "https://www.kimeta.de/StaticPage/Impressum"]},
-    {"name": "kimeta", "field": "parent", "outcome": "not-found", "pages": ["https://www.kimeta.de/StaticPage/kimeta", "https://www.kimeta.de/StaticPage/Presse", "https://www.kimeta.de/StaticPage/Impressum"]},
-    {"name": "kimeta", "field": "ingest_methods", "outcome": "found", "pages": ["https://www.kimeta.de/StaticPage/kimeta", "https://www.kimeta.de/StaticPage/Presse"]},
-    {"name": "Challenger, Gray & Christmas", "field": "founded", "outcome": "found", "pages": ["https://www.challengergray.com/about-us/", "https://www.challengergray.com/our-team/"]},
-    {"name": "Challenger, Gray & Christmas", "field": "parent", "outcome": "not-found", "pages": ["https://www.challengergray.com/about-us/", "https://www.challengergray.com/our-team/"]},
-    {"name": "O*NET", "field": "parent", "outcome": "found", "pages": ["https://www.onetonline.org/help/online/"]},
-    {"name": "Nomis", "field": "hq_country", "outcome": "not-found", "pages": ["https://www.nomisweb.co.uk/api/v01/help"]},
-    {"name": "National Career Service", "field": "founded", "outcome": "not-found", "pages": ["https://www.ncs.gov.in/about-us", "https://www.ncs.gov.in/about-ncsc-da"]}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "kimeta",
+   "url": "https://www.kimeta.de/",
+   "hq_country": "DE",
+   "founded": null,
+   "parent": null,
+   "ingest_methods": [
+    "crawl"
+   ],
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.kimeta.de/StaticPage/Impressum",
+     "title": "Impressum",
+     "quote": "kimeta GmbH Mina-Rees-Straße 8 64295 Darmstadt",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.kimeta.de/StaticPage/kimeta",
+     "title": "kimeta",
+     "quote": "kimeta sucht im Netz nach Stellenanzeigen.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Challenger, Gray & Christmas",
+   "url": "https://www.challengergray.com",
+   "hq_country": null,
+   "founded": "1966",
+   "parent": null,
+   "sources": [
+    {
+     "field": "founded",
+     "url": "https://www.challengergray.com/about-us/",
+     "title": "About Us",
+     "quote": "James founded the first outplacement firm in the U.S. in 1966 to provide career transition services.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "parent": "U.S. Department of Labor",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.onetonline.org/help/online/",
+     "title": "Help",
+     "quote": "Both applications were developed for the U.S. Department of Labor by the National Center for O*NET Development.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "hq_country": null,
+   "sources": []
+  },
+  {
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "founded": null,
+   "sources": []
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Checkr",
+   "url": "https://checkr.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "founded",
+    "parent"
+   ],
+   "method": "fetch",
+   "note": "Read pricing and API docs. Company, homepage, about and privacy pages gave no HQ, founding or parent. The privacy page lists a contact address in San Francisco that is not labelled as headquarters, so hq_country was not recorded. Terms page returned 404. api_status set to on-request because production access needs credentialing and enablement by Checkr."
+  },
+  {
+   "name": "kimeta",
+   "url": "https://www.kimeta.de/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "founded",
+    "parent"
+   ],
+   "method": "fetch",
+   "note": "Impressum gives the registered seat (kimeta GmbH, Darmstadt). DE is inferred from the GmbH form and the Darmstadt address, not from a stated country. Press page names shareholders (Madsack 2011, KfW 2009) but no parent company. Ingest method from the About page: the site says it searches the web for job ads."
+  },
+  {
+   "name": "Challenger, Gray & Christmas",
+   "url": "https://www.challengergray.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent"
+   ],
+   "method": "fetch",
+   "note": "The founding quote names a founder called James and does not name the firm, so founded 1966 is partially verified. Our Team page gave no founding year or parent. Footer copyright year is not a founding statement."
+  },
+  {
+   "name": "O*NET",
+   "url": "https://www.onetonline.org",
+   "outcome": "verified",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Parent taken from the onetonline.org help page. The onetcenter.org overview also names the Department of Labor sponsorship but is a different domain, so it was not used as a source."
+  },
+  {
+   "name": "Nomis",
+   "url": "https://www.nomisweb.co.uk",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country"
+   ],
+   "method": "fetch",
+   "note": "The /api URL redirects to /api/v01/help, which was read. The page shows ONS and Crown Copyright logos and links but no sentence stating the operator or the country. Homepage has no About, Partners or Pricing link per scout."
+  },
+  {
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "founded"
+   ],
+   "method": "fetch",
+   "note": "About pages read. They name the Ministry of Labour & Employment as the initiative owner but give no launch or founding year."
+  }
+ ],
+ "attempts": [
+  {
+   "name": "Checkr",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://checkr.com/company",
+    "https://checkr.com",
+    "https://checkr.com/about",
+    "https://checkr.com/privacy"
+   ]
+  },
+  {
+   "name": "Checkr",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://checkr.com/company",
+    "https://checkr.com",
+    "https://checkr.com/about"
+   ]
+  },
+  {
+   "name": "Checkr",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://checkr.com/company",
+    "https://checkr.com/about",
+    "https://checkr.com/privacy"
+   ]
+  },
+  {
+   "name": "Checkr",
+   "field": "business_model",
+   "outcome": "found",
+   "pages": [
+    "https://checkr.com/pricing"
+   ]
+  },
+  {
+   "name": "Checkr",
+   "field": "api_status",
+   "outcome": "found",
+   "pages": [
+    "https://docs.checkr.com"
+   ]
+  },
+  {
+   "name": "kimeta",
+   "field": "hq_country",
+   "outcome": "found",
+   "pages": [
+    "https://www.kimeta.de/StaticPage/Impressum",
+    "https://www.kimeta.de/StaticPage/kimeta",
+    "https://www.kimeta.de/StaticPage/Presse"
+   ]
+  },
+  {
+   "name": "kimeta",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.kimeta.de/StaticPage/kimeta",
+    "https://www.kimeta.de/StaticPage/Presse",
+    "https://www.kimeta.de/StaticPage/Impressum"
+   ]
+  },
+  {
+   "name": "kimeta",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.kimeta.de/StaticPage/kimeta",
+    "https://www.kimeta.de/StaticPage/Presse",
+    "https://www.kimeta.de/StaticPage/Impressum"
+   ]
+  },
+  {
+   "name": "kimeta",
+   "field": "ingest_methods",
+   "outcome": "found",
+   "pages": [
+    "https://www.kimeta.de/StaticPage/kimeta",
+    "https://www.kimeta.de/StaticPage/Presse"
+   ]
+  },
+  {
+   "name": "Challenger, Gray & Christmas",
+   "field": "founded",
+   "outcome": "found",
+   "pages": [
+    "https://www.challengergray.com/about-us/",
+    "https://www.challengergray.com/our-team/"
+   ]
+  },
+  {
+   "name": "Challenger, Gray & Christmas",
+   "field": "parent",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.challengergray.com/about-us/",
+    "https://www.challengergray.com/our-team/"
+   ]
+  },
+  {
+   "name": "O*NET",
+   "field": "parent",
+   "outcome": "found",
+   "pages": [
+    "https://www.onetonline.org/help/online/"
+   ]
+  },
+  {
+   "name": "Nomis",
+   "field": "hq_country",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.nomisweb.co.uk/api/v01/help"
+   ]
+  },
+  {
+   "name": "National Career Service",
+   "field": "founded",
+   "outcome": "not-found",
+   "pages": [
+    "https://www.ncs.gov.in/about-us",
+    "https://www.ncs.gov.in/about-ncsc-da"
+   ]
+  }
+ ],
+ "blocked": []
 }

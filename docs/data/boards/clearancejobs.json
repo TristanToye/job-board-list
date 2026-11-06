@@ -39,10 +39,10 @@
  "review": {
   "board_id": "clearancejobs",
   "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
-  "note": "Footer states it is a DHI service; employer pages show a demo request and no prices.",
-  "method": "fetch"
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country",
+  "note": "About and homepage raw text give founding (2002) and DHI service footer but no headquarters location.",
+  "method": "mixed"
  },
  "owners": [
   {

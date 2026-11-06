@@ -5,7 +5,7 @@
  "domains": "",
  "type": "outplacement",
  "hq_country": "US",
- "founded": "",
+ "founded": "1966",
  "markets": "",
  "countries_served": [
   "US",
@@ -43,8 +43,8 @@
   "board_id": "challenger-gray-christmas",
   "reviewed": "2026-11-06",
   "outcome": "partially-verified",
-  "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Footer lists Chicago as headquarters; no parent, languages, pricing or API stated.",
+  "fields_not_found": "parent",
+  "note": "The founding quote names a founder called James and does not name the firm, so founded 1966 is partially verified. Our Team page gave no founding year or parent. Footer copyright year is not a founding statement.",
   "method": "fetch"
  },
  "owners": [],
@@ -64,6 +64,14 @@
    "title": "Homepage footer locations",
    "accessed": "2026-11-06",
    "quote": "Chicago | Headquarters",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.challengergray.com/about-us/",
+   "title": "About Us",
+   "accessed": "2026-11-06",
+   "quote": "James founded the first outplacement firm in the U.S. in 1966 to provide career transition services.",
    "quote_check": "ok"
   }
  ]
