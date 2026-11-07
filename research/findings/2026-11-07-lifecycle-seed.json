@@ -1,0 +1,43 @@
+{
+ "mode": "lifecycle",
+ "country": "ZZ",
+ "round": 0,
+ "events": [
+  {
+   "name": "Spherion",
+   "status": "acquired",
+   "year": "2011",
+   "successor": "Randstad",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+    "title": "Randstad Holding - Wikipedia",
+    "quote": "In September 2011, Randstad acquired Spherion for $770 million.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Vedior",
+   "status": "acquired",
+   "year": "2008",
+   "successor": "Randstad",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+    "title": "Randstad Holding - Wikipedia",
+    "quote": "In 2008, Randstad acquired Vedior for €3.3 billion and scaled up across Europe.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Torc",
+   "status": "acquired",
+   "year": "2024",
+   "successor": "Randstad",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Randstad_Holding",
+    "title": "Randstad Holding - Wikipedia",
+    "quote": "In 2024, Randstad acquired Torc, an AI-powered talent marketplace, to enhance its digital engineering delivery.",
+    "check": "ok"
+   }
+  }
+ ]
+}

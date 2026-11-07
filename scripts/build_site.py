@@ -88,6 +88,13 @@ def review_text(b):
          "not-stated": "The board's own pages were read, but they do not state" + (f": {nf}." if nf else " the missing facts."), "blocked": "Could not verify: the site blocks automated access, so these facts remain as recorded.",
          "unreachable": "Could not verify: the site could not be reached.", "closed": "The site appears to have closed or been replaced."}[rv["outcome"]]
     return f'Reviewed {rv["reviewed"]}. {t}' + (f' {rv["note"]}' if rv["note"] and rv["outcome"] in ("blocked", "unreachable", "closed") else "")
+LIFE = load("lifecycle.csv") if (ROOT/"data"/"lifecycle.csv").exists() else []
+LIFE_BY = {r["board_id"]: r for r in LIFE if r["board_id"]}
+LIFE_VERB = {"closed": "Closed", "acquired": "Acquired", "merged": "Merged", "rebranded": "Rebranded"}
+def life_text(r):
+    s = r["status"]; y = f' in {r["year"]}' if r["year"] else ""
+    succ = f' by {r["successor_name"]}' if r["successor_name"] and s in ("acquired", "merged") else (f' as {r["successor_name"]}' if r["successor_name"] and s == "rebranded" else "")
+    return {"closed": f'Closed{y}', "acquired": f'Acquired{succ}{y}', "merged": f'Merged{succ}{y}', "rebranded": f'Rebranded{succ}{y}'}[s]
 OWNERS = {r["id"]: r for r in load("owners.csv")} if (ROOT/"data"/"owners.csv").exists() else {}
 HOLD = load("ownership.csv") if (ROOT/"data"/"ownership.csv").exists() else []
 OWNER_FACTS = collections.defaultdict(dict)
@@ -141,7 +148,7 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="",
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     nav = (f'<a href="{r}">Directory</a><a href="{r}ecosystem/">Ecosystem</a><a href="{r}tags/">Types</a><a href="{r}rankings/">Rankings</a><a href="{r}owners/">Owners</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
-           f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
+           f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}closed/">Closed</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <!-- Google tag (gtag.js) -->
@@ -212,7 +219,7 @@ def prom_cell(b):
 def row(b, r):
     search = " ".join([b["name"], b["type"], b["hq_country"], country(b["hq_country"]), b["markets"], b["region"], b["niche"], " ".join(lang(c) for c in langs_of(b)), b["parent"], b["ingest_methods"]]).lower()
     return (f'<tr data-search="{e(search)}" data-region="{e(b["region"])}" data-type="{e(b["type"])}" data-api="{e(b["api_status"])}" data-partner="{e(b["partner_program"])}" data-lang="{e(" ".join(langs_of(b)))}" data-name="{e(b["name"].lower())}" data-tier="{e(prom(b)["tier"])}" data-rank="{skey(b)}" data-tags="{e(" ".join(tags_of("board", b["id"])))}">'
-            f'<td><div class="namecell">{icon(b, r)}<div><a href="{board_url(b,r)}"><strong>{e(b["name"])}</strong></a><div class="muted small">{e(b["niche"])}</div>{"".join(f'<span class="tag">{e(TAX[t]["label"])}</span>' for t in tags_of("board", b["id"], "function")[:2])}</div></div></td>'
+            f'<td><div class="namecell">{icon(b, r)}<div><a href="{board_url(b,r)}"><strong>{e(b["name"])}</strong></a>{f' <span class="badge warn" title="{e(life_text(LIFE_BY[b["id"]]))}">{e(LIFE_VERB[LIFE_BY[b["id"]]["status"]])}</span>' if b["id"] in LIFE_BY else ""}<div class="muted small">{e(b["niche"])}</div>{"".join(f'<span class="tag">{e(TAX[t]["label"])}</span>' for t in tags_of("board", b["id"], "function")[:2])}</div></div></td>'
             f'<td>{prom_cell(b)}</td><td>{e(type_label(b))}</td><td>{e(country(b["hq_country"]) or "Not recorded")}</td><td>{e(lang(b["primary_language"]) or "Not recorded")}</td>'
             f'<td>{api_badge(b["api_status"])}</td><td>{e(b["partner_program"] or "unknown")}</td></tr>')
 
@@ -267,6 +274,11 @@ write("index.html", layout(0, f"{NAME}: job boards, aggregators and ATS systems 
   home_body, "/", [dataset, site_ld]))
 
 # ---------- board pages ----------
+def life_banner(b, r):
+    lf = LIFE_BY.get(b["id"])
+    if not lf: return ""
+    sc = f' See <a href="{r}boards/{e(lf["successor_id"])}/">{e(lf["successor_name"])}</a>.' if lf["successor_id"] and lf["successor_id"] in {x["id"] for x in boards} else ""
+    return f'<p class="notice"><strong>{e(life_text(lf))}.</strong> This entry is kept for reference and may no longer operate as a separate service.{sc} <a href="{e(lf["source_url"])}" rel="noopener nofollow" target="_blank">Source</a>. <a href="{r}closed/">All closed, acquired and merged entries</a>.</p>'
 def fact(k, v): return f"<dt>{e(k)}</dt><dd>{v}</dd>"
 for b in boards:
     r = "../../"
@@ -324,7 +336,7 @@ for b in boards:
     checked_on = max((x["accessed"] for x in srcs), default="")
     body = f"""<nav class="crumbs"><a href="{r}">Directory</a> / <a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a> / {e(b["name"])}</nav>
 <div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is {article(tdesc(b))} {e(tdesc(b))}{" based in " + e(country(b["hq_country"])) if b["hq_country"] else ""}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
-<p>{api_badge(b["api_status"])} {conf_badge(b["confidence"])}</p>
+{life_banner(b, r)}<p>{api_badge(b["api_status"])} {conf_badge(b["confidence"])}</p>
 <dl class="facts">{fact("Website", link(b["url"]))}{fact("Type", e(type_label(b)))}{fact("Review", e(review_text(b))) if review_text(b) else ""}{fact("Tags", tag_html) if tag_html else ""}{fact("Last checked", e(checked_on)) if checked_on else ""}{fact("Founded", e(b["founded"])) if b["founded"] else ""}{fact("Headquarters", f'<a href="{r}countries/{slug(country(b["hq_country"]))}/">{e(country(b["hq_country"]))}</a>' if b["hq_country"] else '<span class="muted">Not recorded</span>')}
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
 {fact("Primary language", f'<a href="{r}languages/{slug(lang(b["primary_language"]))}/">{e(lang(b["primary_language"]))}</a>' if b["primary_language"] else '<span class="muted">Not recorded</span>')}{fact("Languages supported", "".join(f'<a class="chip" href="{r}languages/{slug(lang(c))}/">{e(lang(c))}</a>' for c in langs_of(b)) or '<span class="muted">Not recorded</span>')}
@@ -466,7 +478,7 @@ write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}"
 shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js"); shutil.copy(ROOT/"site_src"/"eco.js", OUT/"assets"/"eco.js")
 if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", OUT/"assets"/"logos", dirs_exist_ok=True)
 (OUT/"downloads").mkdir(exist_ok=True)
-for n in ("job_boards.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv","reviews.csv","relationships.csv","languages.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
+for n in ("job_boards.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv","reviews.csv","relationships.csv","languages.csv","lifecycle.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/".nojekyll").write_text("")
 # ---------- tags ----------
@@ -600,6 +612,23 @@ md_eco = ("# The hiring ecosystem map\n\nDocumented connections between applican
           + f'\n\nCanonical page: {BASE}/ecosystem/\n')
 write("ecosystem/index.html", layout(1, f"The hiring ecosystem map: how ATS systems, distribution platforms and job boards connect | {NAME}",
     f"Documented connections between applicant tracking systems, job distribution platforms and job boards: who sends jobs to whom, with a source for every link.", eco_body, "/ecosystem/", itemlist([by_id[i] for i, _ in deg_all.most_common(30) if i in by_id], 1), noindex=len(REL) < 10, md=len(REL) >= 10), indexed=len(REL) >= 10, md=md_eco, kind="tag")
+# ---------- closed, acquired and merged ----------
+def life_li(lf):
+    nm = f'<a href="../boards/{e(lf["board_id"])}/"><strong>{e(lf["name"])}</strong></a>' if lf["board_id"] in by_id else f'<strong>{e(lf["name"])}</strong>'
+    sc = f'<a href="../boards/{e(lf["successor_id"])}/">{e(lf["successor_name"])}</a>' if lf["successor_id"] in by_id else e(lf["successor_name"])
+    what = {"closed": "Closed", "acquired": "Acquired by", "merged": "Merged into", "rebranded": "Rebranded as"}[lf["status"]]
+    return (f'<li>{nm} <span class="badge warn">{e(LIFE_VERB[lf["status"]])}</span> <span class="muted small">{e(lf["year"])}</span>'
+            f'<div class="small">{e(what)}{" " + sc if lf["successor_name"] and lf["status"] != "closed" else ""}. {e(lf["note"])} <a href="{e(lf["source_url"])}" rel="noopener nofollow" target="_blank">Source</a></div></li>')
+life_sorted = sorted(LIFE, key=lambda x: (x["year"] or "0000", x["name"].lower()), reverse=True)
+life_groups = "".join(f'<h2>{e(LIFE_VERB[s])} ({n})</h2><ul class="plain lifelist">' + "".join(life_li(x) for x in life_sorted if x["status"] == s) + "</ul>"
+                      for s in ("acquired", "merged", "rebranded", "closed") for n in [sum(1 for x in LIFE if x["status"] == s)] if n)
+md_life = ("# Closed, acquired and merged job boards and HR services\n\nEntries that no longer operate independently, each with a cited source.\n\n"
+           + "\n".join(f'- {x["name"]}: {life_text(x)}. {x["note"]} Source: {x["source_url"]}' for x in life_sorted) + f'\n\nCanonical page: {BASE}/closed/\n')
+write("closed/index.html", layout(1, f"Closed, acquired and merged job boards and HR services | {NAME}",
+  f"{len(LIFE)} job boards, staffing firms and HR services that closed, were acquired, merged or rebranded, with the year and a source for each.",
+  f'<h1>Closed, acquired and merged</h1><p class="lede">Job boards, staffing firms and hiring tools that no longer operate on their own: shut down, bought, merged or renamed. {len(LIFE)} so far, each with a cited source. Where an entry is also in the directory, its page carries a notice.</p>'
+  f'{life_groups}<p class="muted small">Missing one? A closure or deal only appears here with a source that states it. <a href="../about/">How this directory is built</a>.</p>',
+  "/closed/", None, noindex=len(LIFE) < 3, md=len(LIFE) >= 3), indexed=len(LIFE) >= 3, md=md_life, kind="tag")
 # ---------- rankings ----------
 comparable = sorted([b for b in boards if prom(b)["group"] == 0], key=skey)
 rk_rows = "".join(f'<tr><td>{i}</td><td><div class="namecell">{icon(b, "../")}<a href="../boards/{b["id"]}/"><strong>{e(b["name"])}</strong></a></div></td><td><span class="badge tier-{e(prom(b)["tier"])}">{e(prom(b)["tier"])}</span> <span class="muted small">#{prom(b)["g"]:,}</span></td><td>{e(b["type"])}</td><td>{e(b["region"])}</td></tr>' for i, b in enumerate(comparable[:60], 1))
@@ -624,6 +653,7 @@ def board_json(b):
     return d
 allj = [board_json(b) for b in boards]
 (OUT/"data"/"boards.json").write_text(json.dumps({"generated": TODAY, "count": len(allj), "boards": allj}, indent=1, ensure_ascii=False), encoding="utf-8")
+(OUT/"data"/"lifecycle.json").write_text(json.dumps({"generated": TODAY, "count": len(LIFE), "events": LIFE}, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/"data"/"relationships.json").write_text(json.dumps({"generated": TODAY, "count": len(REL), "relationships": REL}, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/"data"/"taxonomy.json").write_text(json.dumps({"generated": TODAY, "tags": list(TAX.values())}, indent=1, ensure_ascii=False), encoding="utf-8")
 (OUT/"data"/"owners.json").write_text(json.dumps({"generated": TODAY, "owners": [{**o, "profile": {k: {"value": f["value"], "source": f["source_url"], "quote": f["quote"]} for k, f in OWNER_FACTS.get(oid, {}).items()}, "holdings": [h for h in HOLD if h["owner_id"] == oid]} for oid, o in OWNERS.items()]}, indent=1, ensure_ascii=False), encoding="utf-8")
@@ -648,14 +678,14 @@ Notes for readers and models: facts are attributed to this directory and carry t
 - [Directory home]({BASE}/): searchable table with filters for type, focus, API access, language and prominence
 - [Types of job sites, explained]({BASE}/tags/): definitions and lists for job boards, aggregators, ATS, staffing, outplacement and labour market information
 - [The hiring ecosystem map]({BASE}/ecosystem/): documented connections between ATS systems, distribution platforms and boards\n- [Largest job boards by web link popularity]({BASE}/rankings/)
-- [Who owns the job boards]({BASE}/owners/): parent companies with profiles and holdings
+- [Closed, acquired and merged]({BASE}/closed/): sites and companies that no longer operate independently\n- [Who owns the job boards]({BASE}/owners/): parent companies with profiles and holdings
 - [Job boards by country]({BASE}/countries/)
 - [Methodology and how to cite]({BASE}/about/)
 
 ## Data
 - [All entries as JSON with sources]({BASE}/data/boards.json)
 - [Owners and holdings as JSON]({BASE}/data/owners.json)
-- [Taxonomy as JSON]({BASE}/data/taxonomy.json)\n- [Documented connections as JSON]({BASE}/data/relationships.json)
+- [Taxonomy as JSON]({BASE}/data/taxonomy.json)\n- [Documented connections as JSON]({BASE}/data/relationships.json)\n- [Closed, acquired and merged entries as JSON]({BASE}/data/lifecycle.json)
 - [Entries as CSV]({BASE}/downloads/job_boards.csv)
 - [Sources as CSV]({BASE}/downloads/sources.csv)
 
