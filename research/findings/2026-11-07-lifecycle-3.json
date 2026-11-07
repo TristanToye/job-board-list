@@ -1,0 +1,177 @@
+{
+ "mode": "lifecycle",
+ "country": "ZZ",
+ "round": 0,
+ "events": [
+  {
+   "name": "Stack Overflow Jobs",
+   "id": "",
+   "url": "https://stackoverflow.com/jobs",
+   "type": "board",
+   "country": "ZZ",
+   "status": "closed",
+   "year": "2022",
+   "successor": "",
+   "note": "Stack Overflow Jobs and Developer Story were discontinued on March 31, 2022, with no successor job board.",
+   "source": {
+    "url": "https://hackajob.com/talent/blog/the-end-of-stack-overflow-jobs-heres-what-it-means-for-you/",
+    "title": "The end of Stack Overflow Jobs: here's what it means for you - hackajob",
+    "accessed": "2026-11-07",
+    "quote": "On March 31, 2022, we will discontinue Stack Overflow Jobs and Developer Story."
+   }
+  },
+  {
+   "name": "GitHub Jobs",
+   "id": "",
+   "url": "https://jobs.github.com",
+   "type": "board",
+   "country": "ZZ",
+   "status": "closed",
+   "year": "2021",
+   "successor": "",
+   "note": "GitHub announced the deprecation of GitHub Jobs in April 2021 and sunset the site on August 19, 2021.",
+   "source": {
+    "url": "https://github.blog/changelog/2021-04-19-deprecation-notice-github-jobs-site/",
+    "title": "Deprecation notice: GitHub Jobs site - GitHub Changelog",
+    "accessed": "2026-11-07",
+    "quote": "Today we are announcing the deprecation of GitHub Jobs and, on August 19th, will sunset the site entirely."
+   }
+  },
+  {
+   "name": "Hired",
+   "id": "",
+   "url": "https://hired.com",
+   "type": "board",
+   "country": "ZZ",
+   "status": "acquired",
+   "year": "2020",
+   "successor": "Vettery",
+   "note": "Vettery acquired the Hired job marketplace in November 2020.",
+   "source": {
+    "url": "https://techcrunch.com/2020/11/23/vettery-acquires-hired/",
+    "title": "Vettery acquires Hired - TechCrunch",
+    "accessed": "2026-11-07",
+    "quote": "Two large job search and recruiting platforms are coming together, with Vettery acquiring Hired."
+   }
+  },
+  {
+   "name": "Workopolis",
+   "id": "workopolis",
+   "url": "https://www.workopolis.com",
+   "type": "board",
+   "country": "CA",
+   "status": "acquired",
+   "year": "2018",
+   "successor": "Indeed",
+   "note": "Indeed, owned by Recruit Holdings, bought Workopolis in 2018; the site now works as a white-label portal for Indeed postings. Sources differ on the month.",
+   "source": {
+    "url": "https://www.ere.net/articles/details-of-indeeds-acquisition-of-workopolis",
+    "title": "Details of Indeed's acquisition of Workopolis - ERE",
+    "accessed": "2026-11-07",
+    "quote": "Indeed announced it had purchased Workopolis, a well-known job board in Canada on April 4"
+   }
+  },
+  {
+   "name": "Oracle Taleo",
+   "id": "taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "type": "ats",
+   "country": "US",
+   "status": "acquired",
+   "year": "2012",
+   "successor": "Oracle",
+   "note": "Oracle acquired Taleo, a talent acquisition software vendor, in 2012; the Taleo name remains an Oracle product.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Taleo",
+    "title": "Taleo - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "On February 9, 2012, Oracle Corporation acquired Taleo Corporation for $1.9 billion."
+   }
+  },
+  {
+   "name": "Monster Worldwide",
+   "id": "monster",
+   "url": "https://www.monster.com",
+   "type": "board",
+   "country": "US",
+   "status": "acquired",
+   "year": "2016",
+   "successor": "Randstad",
+   "note": "Randstad completed its acquisition of Monster Worldwide on November 1, 2016; Monster continued as a separate brand. The current CSV owner is recorded differently and was not rechecked here.",
+   "source": {
+    "url": "https://www.randstad.com/press/2016/randstad-completes-acquisition-monster-worldwide-to-accelerate-its-digital-human/",
+    "title": "Randstad completes acquisition of Monster Worldwide - Randstad press release",
+    "accessed": "2026-11-07",
+    "quote": "it has completed its acquisition of Monster Worldwide, Inc."
+   }
+  },
+  {
+   "name": "Jobr",
+   "id": "",
+   "url": "https://www.jobr.com",
+   "type": "app",
+   "country": "US",
+   "status": "acquired",
+   "year": "2016",
+   "successor": "Monster",
+   "note": "Monster.com acquired the San Francisco job search app Jobr in June 2016.",
+   "source": {
+    "url": "https://techcrunch.com/2016/06/08/monster-snaps-up-tinder-for-jobs-app-jobr/",
+    "title": "Monster snaps up 'Tinder for jobs' app, Jobr - TechCrunch",
+    "accessed": "2026-11-07",
+    "quote": "Monster.com announced this morning it has acquired the San Francisco-based startup Jobr"
+   }
+  },
+  {
+   "name": "Glassdoor",
+   "id": "glassdoor",
+   "url": "https://www.glassdoor.com",
+   "type": "board",
+   "country": "US",
+   "status": "acquired",
+   "year": "2018",
+   "successor": "Recruit Holdings",
+   "note": "Recruit Holdings completed its acquisition of Glassdoor on June 21, 2018; Glassdoor kept operating as a separate unit.",
+   "source": {
+    "url": "https://prnewswire.com/news-releases/recruit-holdings-announces-completion-of-glassdoor-acquisition-300669980.html",
+    "title": "Recruit Holdings announces completion of Glassdoor acquisition - PR Newswire",
+    "accessed": "2026-11-07",
+    "quote": "Recruit Holdings Co., Ltd. today announced it has completed its previously announced acquisition of Glassdoor."
+   }
+  },
+  {
+   "name": "SimplyHired",
+   "id": "simplyhired",
+   "url": "https://www.simplyhired.com",
+   "type": "aggregator",
+   "country": "US",
+   "status": "acquired",
+   "year": "2016",
+   "successor": "Recruit Holdings",
+   "note": "Recruit Holdings acquired the assets of Simply Hired on July 1, 2016; the site kept running as a job search destination.",
+   "source": {
+    "url": "https://techcrunch.com/2016/07/01/indeed-owner-recruit-holdings-confirms-acquisition-of-simply-hired",
+    "title": "Indeed owner Recruit Holdings confirms acquisition of Simply Hired - TechCrunch",
+    "accessed": "2026-11-07",
+    "quote": "Recruit Holdings Co., Ltd. hereby announces that it has acquired the assets of Simply Hired, effective today."
+   }
+  },
+  {
+   "name": "Google Hire",
+   "id": "",
+   "url": "https://hire.google.com",
+   "type": "ats",
+   "country": "US",
+   "status": "closed",
+   "year": "2020",
+   "successor": "",
+   "note": "Google announced in August 2019 that Google Hire would stop running on September 1, 2020, citing a shift in priorities.",
+   "source": {
+    "url": "https://www.cnbc.com/2019/08/27/google-shuts-down-hire-the-product-it-acquired-with-diane-greene.html",
+    "title": "Google shuts down Hire, the product it acquired with Diane Greene - CNBC",
+    "accessed": "2026-11-07",
+    "quote": "On Tuesday the company informed Hire administrators that it would stop running the service on Sept. 1, 2020."
+   }
+  }
+ ]
+}
