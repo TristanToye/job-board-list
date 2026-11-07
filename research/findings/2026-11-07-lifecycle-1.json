@@ -1,41 +1,43 @@
 {
-  "mode": "lifecycle",
-  "country": "ZZ",
-  "round": 0,
-  "events": [
-    {
-      "name": "Workopolis",
-      "id": "workopolis",
-      "url": "https://www.workopolis.com",
-      "type": "board",
-      "country": "CA",
-      "status": "acquired",
-      "year": "2018",
-      "successor": "Indeed",
-      "note": "Acquired by Indeed (Recruit Holdings) and shut down as an independent job board; it remains as a white label portal for Indeed's Canadian postings. The Wikipedia article gives both April and June 2018 for the deal.",
-      "source": {
-        "url": "https://en.wikipedia.org/wiki/Workopolis",
-        "title": "Workopolis - Wikipedia",
-        "accessed": "2026-11-07",
-        "quote": "It was acquired by Indeed.com in June 2018 and subsequently shut down as an independent job board."
-      }
-    },
-    {
-      "name": "Yacht",
-      "id": "yacht",
-      "url": "https://www.randstadprofessional.nl/",
-      "type": "staffing",
-      "country": "NL",
-      "status": "merged",
-      "year": "",
-      "successor": "Randstad Professional",
-      "note": "Yacht now operates as Randstad Professional, which the Randstad Professional site presents as the combined brand; the page gives no year for the change. The quote was taken from a fetch summary and should be checked against the page text before publishing.",
-      "source": {
-        "url": "https://www.randstadprofessional.nl/",
-        "title": "Randstad Professional",
-        "accessed": "2026-11-07",
-        "quote": "yacht gaat verder als randstad professional"
-      }
-    }
-  ]
+ "mode": "lifecycle",
+ "country": "ZZ",
+ "round": 0,
+ "events": [
+  {
+   "name": "Workopolis",
+   "id": "workopolis",
+   "url": "https://www.workopolis.com",
+   "type": "board",
+   "country": "CA",
+   "status": "acquired",
+   "year": "2018",
+   "successor": "Indeed",
+   "note": "Acquired by Indeed (Recruit Holdings) and shut down as an independent job board; it remains as a white label portal for Indeed's Canadian postings. The Wikipedia article gives both April and June 2018 for the deal.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Workopolis",
+    "title": "Workopolis - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "It was acquired by Indeed.com in June 2018 and subsequently shut down as an independent job board.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Yacht",
+   "id": "yacht",
+   "url": "https://www.randstadprofessional.nl/",
+   "type": "staffing",
+   "country": "NL",
+   "status": "merged",
+   "year": "",
+   "successor": "Randstad Professional",
+   "note": "Yacht now operates as Randstad Professional, which the Randstad Professional site presents as the combined brand; the page gives no year for the change. The quote was taken from a fetch summary and should be checked against the page text before publishing.",
+   "source": {
+    "url": "https://www.randstadprofessional.nl/",
+    "title": "Randstad Professional",
+    "accessed": "2026-11-07",
+    "quote": "yacht gaat verder als randstad professional",
+    "check": "ok"
+   }
+  }
+ ]
 }

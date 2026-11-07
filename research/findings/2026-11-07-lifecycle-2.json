@@ -1,0 +1,295 @@
+{
+ "mode": "lifecycle",
+ "country": "ZZ",
+ "round": 0,
+ "events": [
+  {
+   "name": "Glassdoor",
+   "id": "glassdoor",
+   "url": "https://www.glassdoor.com",
+   "type": "board",
+   "country": "US",
+   "status": "acquired",
+   "year": "2018",
+   "successor": "Recruit Holdings",
+   "note": "Employer review and job site bought by Recruit Holdings, the owner of Indeed, for US$1.2 billion.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Glassdoor",
+    "title": "Glassdoor - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "In 2018, the company was acquired by the Japanese company Recruit Holdings (owner of Indeed) for US$1.2 billion.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Indeed",
+   "id": "indeed",
+   "url": "https://www.indeed.com",
+   "type": "aggregator",
+   "country": "US",
+   "status": "acquired",
+   "year": "2012",
+   "successor": "Recruit Holdings",
+   "note": "Job search site acquired by Japan-based Recruit Co. Ltd. and run as an independent operating unit.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Indeed",
+    "title": "Indeed - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "On October 1, 2012, Indeed was acquired by Japan-based Recruit Co. Ltd., becoming an independent operating unit.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Monster",
+   "id": "monster",
+   "url": "https://www.monster.com",
+   "type": "board",
+   "country": "US",
+   "status": "merged",
+   "year": "2024",
+   "successor": "CareerBuilder",
+   "note": "Job board merged with CareerBuilder in 2024, with Apollo-managed funds becoming majority owner; Randstad had bought Monster.com in 2016.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Randstad_(company)",
+    "title": "Randstad (company) - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "In September 2024, Monster.com merged with CareerBuilder.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "CareerBuilder",
+   "id": "careerbuilder",
+   "url": "https://www.careerbuilder.com",
+   "type": "board",
+   "country": "US",
+   "status": "acquired",
+   "year": "2017",
+   "successor": "Apollo Global Management",
+   "note": "Job board bought by private-equity firm Apollo Global Management, later merged with Monster.com in 2024.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/CareerBuilder",
+    "title": "CareerBuilder - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "In June 2017, CareerBuilder was purchased by the private-equity firm Apollo Global Management",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Taleo",
+   "id": "taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "type": "ats",
+   "country": "US",
+   "status": "acquired",
+   "year": "2012",
+   "successor": "Oracle",
+   "note": "Recruiting and talent software vendor acquired by Oracle Corporation for $1.9 billion.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Taleo",
+    "title": "Taleo - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "On February 9, 2012, Oracle Corporation acquired Taleo Corporation for $1.9 billion.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "SuccessFactors",
+   "id": "successfactors",
+   "url": "https://www.successfactors.com",
+   "type": "ats",
+   "country": "DE",
+   "status": "acquired",
+   "year": "2012",
+   "successor": "SAP",
+   "note": "HR and recruiting software vendor acquired by SAP; the acquisition was completed in February 2012.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/SuccessFactors",
+    "title": "SuccessFactors - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "The acquisition was completed on February 16, 2012.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Jobvite",
+   "id": "jobvite",
+   "url": "https://www.jobvite.com",
+   "type": "ats",
+   "country": "US",
+   "status": "merged",
+   "year": "2021",
+   "successor": "JazzHR",
+   "note": "Applicant tracking vendor purchased by K1 Investment Management and merged with JazzHR and NXTThing RPO.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Jobvite",
+    "title": "Jobvite - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "In April 2021, K1 Investment Management purchased and merged Jobvite with JazzHR and NXTThing RPO.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Hired",
+   "id": "",
+   "url": "https://hired.com",
+   "type": "board",
+   "country": "US",
+   "status": "acquired",
+   "year": "2020",
+   "successor": "Vettery",
+   "note": "Tech recruitment marketplace acquired by Vettery, which was part of the Adecco Group.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Hired_(company)",
+    "title": "Hired (company) - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "In November 2020, Vettery acquired the technology recruitment platform Hired.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Vettery",
+   "id": "",
+   "url": "https://vettery.com",
+   "type": "board",
+   "country": "US",
+   "status": "acquired",
+   "year": "2018",
+   "successor": "Adecco Group",
+   "note": "Recruitment marketplace startup acquired by the Adecco Group for $100 million USD.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Adecco",
+    "title": "Adecco - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "The Adecco Group acquired Vettery, a recruitment marketplace startup, for $100 million USD in February 2018.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "SimplyHired",
+   "id": "simplyhired",
+   "url": "https://www.simplyhired.com",
+   "type": "aggregator",
+   "country": "US",
+   "status": "acquired",
+   "year": "2016",
+   "successor": "Recruit Holdings",
+   "note": "Job search site purchased by Recruit Holdings, a competitor of Indeed in the same group.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/SimplyHired",
+    "title": "SimplyHired - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "In 2016, Recruit Holdings Co., Ltd. purchased Simply Hired.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Workopolis",
+   "id": "workopolis",
+   "url": "https://www.workopolis.com",
+   "type": "board",
+   "country": "CA",
+   "status": "acquired",
+   "year": "2018",
+   "successor": "Recruit Holdings",
+   "note": "Canadian job board purchased by Recruit Holdings, owner of Indeed. The Wikipedia lead gives June 2018 for the same deal, so the month is unresolved.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Workopolis",
+    "title": "Workopolis - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "Recruit Holdings, owners of Indeed purchased Workopolis in April 2018.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "OCC Mundial",
+   "id": "occ-mundial",
+   "url": "https://www.occ.com.mx",
+   "type": "board",
+   "country": "MX",
+   "status": "acquired",
+   "year": "2024",
+   "successor": "Red Arbor",
+   "note": "Mexican job board sold by SEEK to Barcelona-based Red Arbor, which operates job boards in the region.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Seek_(company)",
+    "title": "Seek (company) - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "SEEK sold its holdings in the Latin American job-boards OCC (Mexico) and Catho (Brazil)",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Catho",
+   "id": "catho",
+   "url": "https://www.catho.com.br",
+   "type": "board",
+   "country": "BR",
+   "status": "acquired",
+   "year": "2024",
+   "successor": "Red Arbor",
+   "note": "Brazilian job board sold by SEEK to Barcelona-based Red Arbor, which operates job boards in the region.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Seek_(company)",
+    "title": "Seek (company) - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "SEEK sold its holdings in the Latin American job-boards OCC (Mexico) and Catho (Brazil)",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Identified",
+   "id": "",
+   "url": "",
+   "type": "board",
+   "country": "US",
+   "status": "acquired",
+   "year": "2014",
+   "successor": "Workday",
+   "note": "Recruiting startup acquired by Workday along with its artificial intelligence technology.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Workday,_Inc.",
+    "title": "Workday, Inc. - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "Workday acquired the startup Identified and its artificial intelligence",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "7S Group",
+   "id": "",
+   "url": "",
+   "type": "staffing",
+   "country": "DE",
+   "status": "acquired",
+   "year": "2015",
+   "successor": "ManpowerGroup",
+   "note": "German HR services firm acquired by ManpowerGroup for $140.4 million.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/ManpowerGroup",
+    "title": "ManpowerGroup - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "On September 3, 2015, ManpowerGroup acquired 7S Group GmbH, a German HR services firm, for $140.4 million.",
+    "check": "ok"
+   }
+  },
+  {
+   "name": "Programmed Maintenance",
+   "id": "",
+   "url": "",
+   "type": "staffing",
+   "country": "AU",
+   "status": "acquired",
+   "year": "2017",
+   "successor": "Persol",
+   "note": "Australian labour hire company acquired by Persol for $778M.",
+   "source": {
+    "url": "https://en.wikipedia.org/wiki/Persol_Holdings",
+    "title": "Persol Holdings - Wikipedia",
+    "accessed": "2026-11-07",
+    "quote": "In October 2017, it acquired the Australian labour hire company Programmed Maintenance for $778M.",
+    "check": "ok"
+   }
+  }
+ ]
+}

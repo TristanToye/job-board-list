@@ -93,7 +93,7 @@ LIFE_BY = {r["board_id"]: r for r in LIFE if r["board_id"]}
 LIFE_VERB = {"closed": "Closed", "acquired": "Acquired", "merged": "Merged", "rebranded": "Rebranded"}
 def life_text(r):
     s = r["status"]; y = f' in {r["year"]}' if r["year"] else ""
-    succ = f' by {r["successor_name"]}' if r["successor_name"] and s in ("acquired", "merged") else (f' as {r["successor_name"]}' if r["successor_name"] and s == "rebranded" else "")
+    succ = f' {"by" if s == "acquired" else "with"} {r["successor_name"]}' if r["successor_name"] and s in ("acquired", "merged") else (f' as {r["successor_name"]}' if r["successor_name"] and s == "rebranded" else "")
     return {"closed": f'Closed{y}', "acquired": f'Acquired{succ}{y}', "merged": f'Merged{succ}{y}', "rebranded": f'Rebranded{succ}{y}'}[s]
 OWNERS = {r["id"]: r for r in load("owners.csv")} if (ROOT/"data"/"owners.csv").exists() else {}
 HOLD = load("ownership.csv") if (ROOT/"data"/"ownership.csv").exists() else []
@@ -616,7 +616,7 @@ write("ecosystem/index.html", layout(1, f"The hiring ecosystem map: how ATS syst
 def life_li(lf):
     nm = f'<a href="../boards/{e(lf["board_id"])}/"><strong>{e(lf["name"])}</strong></a>' if lf["board_id"] in by_id else f'<strong>{e(lf["name"])}</strong>'
     sc = f'<a href="../boards/{e(lf["successor_id"])}/">{e(lf["successor_name"])}</a>' if lf["successor_id"] in by_id else e(lf["successor_name"])
-    what = {"closed": "Closed", "acquired": "Acquired by", "merged": "Merged into", "rebranded": "Rebranded as"}[lf["status"]]
+    what = {"closed": "Closed", "acquired": "Acquired by", "merged": "Merged with", "rebranded": "Rebranded as"}[lf["status"]]
     return (f'<li>{nm} <span class="badge warn">{e(LIFE_VERB[lf["status"]])}</span> <span class="muted small">{e(lf["year"])}</span>'
             f'<div class="small">{e(what)}{" " + sc if lf["successor_name"] and lf["status"] != "closed" else ""}. {e(lf["note"])} <a href="{e(lf["source_url"])}" rel="noopener nofollow" target="_blank">Source</a></div></li>')
 life_sorted = sorted(LIFE, key=lambda x: (x["year"] or "0000", x["name"].lower()), reverse=True)
