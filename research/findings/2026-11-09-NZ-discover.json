@@ -1,0 +1,127 @@
+{
+  "mode": "discover",
+  "country": "NZ",
+  "boards": [
+    {
+      "name": "Trade Me Jobs",
+      "url": "https://www.trademe.co.nz/a/jobs",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.trademe.co.nz/a/jobs", "title": "Trade Me Jobs homepage", "quote": "Trade Me Jobs is one of the biggest job portals in NZ and we help millions of Kiwi along their career journey."}
+      ]
+    },
+    {
+      "name": "jobs.govt.nz",
+      "url": "https://jobs.govt.nz/",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://jobs.govt.nz/", "title": "jobs.govt.nz homepage", "quote": "Find a job in our Public Service"}
+      ]
+    },
+    {
+      "name": "MSD Find Jobs (MyMSD)",
+      "url": "https://new.my.msd.govt.nz/en/jobs.html",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://new.my.msd.govt.nz/en/jobs.html", "title": "MSD Find Jobs page", "quote": "Search for jobs that suit you and apply online."}
+      ]
+    },
+    {
+      "name": "Education Gazette",
+      "url": "https://gazette.education.govt.nz/",
+      "type": "government",
+      "niche": "education",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://gazette.education.govt.nz/", "title": "Education Gazette homepage", "quote": "Find teaching and education jobs across New Zealand."}
+      ]
+    },
+    {
+      "name": "Te Whatu Ora Careers portal",
+      "url": "https://jobs.tewhatuora.govt.nz",
+      "type": "government",
+      "niche": "healthcare",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://jobs.tewhatuora.govt.nz/", "title": "Te Whatu Ora Careers portal landing page", "quote": "To be able to use the Te Whatu Ora Careers portal, you'll need to enable javascript on your browser."}
+      ]
+    },
+    {
+      "name": "Student Job Search",
+      "url": "https://www.sjs.co.nz/",
+      "type": "niche-board",
+      "niche": "students",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.sjs.co.nz/", "title": "Student Job Search homepage", "quote": "Student Job Search is a charity connecting students with work so they can earn, stay in study and build their future."}
+      ]
+    },
+    {
+      "name": "Jobs for Mums",
+      "url": "https://www.jobsformums.co.nz/",
+      "type": "niche-board",
+      "niche": "flexible-work",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobsformums.co.nz/", "title": "Jobs for Mums homepage", "quote": "Jobs for Mums is a job board with the mission of driving better outcomes for both businesses and families."}
+      ]
+    },
+    {
+      "name": "Seasonal Jobs in New Zealand",
+      "url": "https://seasonaljobs.co.nz/",
+      "type": "niche-board",
+      "niche": "seasonal",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://seasonaljobs.co.nz/", "title": "Seasonal Jobs in New Zealand homepage", "quote": "This seasonal work website has compiled many job and employment opportunities from all over New Zealand and from many industries, like fruit picking and hospitality."}
+      ]
+    },
+    {
+      "name": "mahi.co.nz",
+      "url": "https://www.mahi.co.nz/",
+      "type": "niche-board",
+      "niche": "maori",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.mahi.co.nz/", "title": "mahi.co.nz homepage", "quote": "We specialise in opportunities that require skills or experience in Māoritanga, Te Reo and Tikanga Māori."}
+      ]
+    },
+    {
+      "name": "Māori & Pacific Jobs",
+      "url": "https://maoripacificjobs.co.nz/",
+      "type": "niche-board",
+      "niche": "maori-pacific",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://maoripacificjobs.co.nz/", "title": "Māori & Pacific Jobs homepage", "quote": "the world's first Māori and Pacific job board."}
+      ]
+    },
+    {
+      "name": "Kumara Vine",
+      "url": "https://www.kumaravine.com/",
+      "type": "niche-board",
+      "niche": "maori-pacific",
+      "countries_served": ["NZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.kumaravine.com/", "title": "Kumara Vine homepage", "quote": "promote Māori and Pasifika success"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "JOBSPACE", "url": "https://jobspace.co.nz", "reason": "HTTP 403"},
+    {"name": "GrabJobs", "url": "https://grabjobs.co", "reason": "HTTP 403 (two attempts)"}
+  ],
+  "queue": [
+    {"name": "Jora", "url": "https://www.jora.com", "reason": "Named in NZ roundups and a library page as a NZ job search engine; www.jora.com redirects to au.jora.com, au.jora.com/nz returned HTTP 404 and nz.jora.com returned HTTP 403"},
+    {"name": "ZEIL", "url": "https://www.zeil.com", "reason": "Named on the Work and Income job search page; homepage fetch returned HTTP 405"},
+    {"name": "Workbridge", "url": "https://workbridge.co.nz", "reason": "Homepage read; disability employment service with an enrol-for-vacancies page, but no job listings seen, so board status not confirmed"},
+    {"name": "Summer of Tech", "url": "https://www.summeroftech.co.nz", "reason": "Homepage read; tech graduate programme with employer and student sign-in, no vacancy listings seen, so not treated as a board"},
+    {"name": "Jobtome", "url": "https://www.jobtome.com", "reason": "Named in a NZ search roundup; homepage redirects to us.jobtome.com, NZ coverage not verified"}
+  ]
+}
