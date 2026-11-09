@@ -22,6 +22,7 @@ cands = []
 for b in load("job_boards.csv"):
     if not b["url"] or b["name"] in queued: continue
     rv = reviews.get(b["id"])
+    if "--unreviewed" in sys.argv and rv: continue
     if rv and (today - datetime.date.fromisoformat(rv["reviewed"])).days < skip: continue
     miss = [k for k, empty in (("hq_country", not b["hq_country"]), ("languages", not b["primary_language"]), ("business_model", not b["business_model"]),
             ("api_status", b["api_status"] == "unknown"), ("partner_program", b["partner_program"] == "unknown"), ("parent", not b["parent"]), ("ingest_methods", not b["ingest_methods"])) if empty]
