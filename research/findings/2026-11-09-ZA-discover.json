@@ -1,0 +1,138 @@
+{
+  "mode": "discover",
+  "country": "ZA",
+  "boards": [
+    {
+      "name": "OfferZen",
+      "url": "https://www.offerzen.com",
+      "type": "niche-board",
+      "niche": "tech",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://www.offerzen.com", "title": "OfferZen homepage", "quote": "OfferZen is South Africa's largest tech talent marketplace, connecting top tech talent to the best opportunities"}
+      ]
+    },
+    {
+      "name": "JobsSouthAfrica",
+      "url": "https://www.jobssouthafrica.co.za",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobssouthafrica.co.za", "title": "JobsSouthAfrica homepage", "quote": "South Africa's trusted job board connecting job seekers with employers across all nine provinces."}
+      ]
+    },
+    {
+      "name": "Allzajobs",
+      "url": "https://www.allzajobs.com",
+      "type": "aggregator",
+      "niche": "general",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://www.allzajobs.com", "title": "Allzajobs.com homepage", "quote": "South African Jobs Search Engine"}
+      ]
+    },
+    {
+      "name": "JobMail",
+      "url": "https://www.jobmail.co.za",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobmail.co.za", "title": "Job Mail homepage", "quote": "Job Mail is the perfect place to browse for jobs in South Africa and abroad."}
+      ]
+    },
+    {
+      "name": "MyJobMag",
+      "url": "https://www.myjobmag.co.za",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://www.myjobmag.co.za", "title": "MyJobMag homepage", "quote": "That is where MyJobMag comes in; to make sure you never miss a job."}
+      ]
+    },
+    {
+      "name": "CazVid",
+      "url": "https://cazvid.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://cazvid.com", "title": "CazVid homepage", "quote": "Search public job posts, filter by role, location, and language, and apply with one tap using your video resume."}
+      ]
+    },
+    {
+      "name": "Salt Recruitment Jobs",
+      "url": "https://welovesalt.com/za/jobs",
+      "type": "board",
+      "niche": "digital, creative, marketing, sales and tech",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://welovesalt.com/za/jobs", "title": "Salt jobs South Africa page", "quote": "Explore top digital, creative, marketing, sales, and tech roles across South Africa."}
+      ]
+    },
+    {
+      "name": "WhatJobs",
+      "url": "https://en-za.whatjobs.com",
+      "type": "aggregator",
+      "niche": "general",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://en-za.whatjobs.com", "title": "WhatJobs South Africa homepage", "quote": "Apply for jobs and get noticed."}
+      ]
+    },
+    {
+      "name": "Employment Services of South Africa (ESSA)",
+      "url": "https://essa.labour.gov.za",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://essa.labour.gov.za", "title": "ESSA application redirect page", "quote": "Please wait while you are directed to the ESSA Application page."}
+      ]
+    },
+    {
+      "name": "Bizcommunity Jobs",
+      "url": "https://www.bizcommunity.com/JobsOffered/196/1/bjs-merge/rw-1.html",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://www.bizcommunity.com/JobsOffered/196/1/bjs-merge/rw-1.html", "title": "Bizcommunity jobs page", "quote": "Advertise your job vacancies."}
+      ]
+    },
+    {
+      "name": "ShiftMate",
+      "url": "https://shiftmate.co.za",
+      "type": "board",
+      "niche": "call centre",
+      "countries_served": ["ZA"],
+      "sources": [
+        {"field": "existence", "url": "https://shiftmate.co.za", "title": "ShiftMate homepage", "quote": "ShiftMate is a South African company that uses AI to find, assess, support and train better call centre agents."}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "SA Gov Jobs", "url": "https://sagovjobs.co.za", "reason": "HTTP 503"},
+    {"name": "Gumtree", "url": "https://www.gumtree.co.za", "reason": "HTTP 403"},
+    {"name": "MyBroadband Jobs", "url": "https://www.mybroadband.co.za/jobs", "reason": "HTTP 403"},
+    {"name": "DPSA Public Service Vacancy Circular", "url": "https://www.dpsa.gov.za", "reason": "HTTP 403"},
+    {"name": "BestJobs", "url": "https://www.bestjobs.co.za", "reason": "HTTP 503"},
+    {"name": "Jobvine", "url": "https://www.jobvine.co.za", "reason": "HTTP 403"},
+    {"name": "Careers Portal", "url": "https://www.careersportal.co.za", "reason": "HTTP 403"},
+    {"name": "GrabJobs", "url": "https://www.grabjobs.co", "reason": "HTTP 403"},
+    {"name": "Tshepo 1 Million", "url": "https://www.tshepo.mobi", "reason": "HTTP 503"},
+    {"name": "YES4Youth", "url": "https://yes4youth.co.za", "reason": "HTTP 503"},
+    {"name": "Prosple South Africa", "url": "https://www.prosple.com/za", "reason": "HTTP 503"},
+    {"name": "Jobcentre", "url": "https://www.jobcentre.co.za", "reason": "DNS error (EAI_AGAIN)"},
+    {"name": "All-ITJobs", "url": "https://www.all-itjobs.com", "reason": "DNS error (ENOTFOUND)"}
+  ],
+  "queue": [
+    {"name": "SA Youth (Harambee)", "url": "https://www.sayouth.org.za", "reason": "Named on harambee.co.za; SA Youth homepage not opened and operator not confirmed on pages read"},
+    {"name": "RecruitAGraduate (RAG Talent)", "url": "https://rag-talent.co.za/recruitagraduate", "reason": "Page read describes a graduate recruitment agency; job board function not confirmed"},
+    {"name": "Idibu", "url": "https://idibu.com/network/countries/zaf", "reason": "Network page read, but no self-description found for the site itself"},
+    {"name": "Executive Placements", "url": "", "reason": "Named on the Idibu South Africa network page; site not opened"},
+    {"name": "Jobs.co.za", "url": "", "reason": "Named in a third-party review; site not opened and no domain confirmed"}
+  ]
+}
