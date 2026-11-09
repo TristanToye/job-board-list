@@ -1,0 +1,103 @@
+{
+  "mode": "discover",
+  "country": "AT",
+  "boards": [
+    {
+      "name": "karriere.at",
+      "url": "https://www.karriere.at",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["AT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.karriere.at", "title": "karriere.at: Jobs - Jobsuche - Jobbörse - Stellenangebote", "quote": "Finde den perfekten Job für dich und dein Potential."},
+        {"field": "listed_by", "url": "https://www.manatal.com/de/blog/job-sites-austria", "title": "Die 18 besten Jobbörsen in Österreich für Personalvermittler im Jahr 2026", "quote": "Die Plattform ist für die allgemeine Personalbeschaffung in verschiedenen Branchen geeignet."}
+      ]
+    },
+    {
+      "name": "alle jobs (AMS public job search)",
+      "url": "https://jobs.ams.at",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["AT"],
+      "sources": [
+        {"field": "existence", "url": "https://jobs.ams.at", "title": "alle jobs - die Stellensuche des AMS", "quote": "alle jobs - die Stellensuche des AMS"}
+      ]
+    },
+    {
+      "name": "jobs.at",
+      "url": "https://www.jobs.at",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["AT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobs.at", "title": "jobs.at homepage", "quote": "Deine Jobbörse in Österreich"}
+      ]
+    },
+    {
+      "name": "hokify",
+      "url": "https://www.hokify.at",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["AT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.hokify.at", "title": "hokify homepage", "quote": "Wir erleichtern deine Jobsuche und zeigen dir Stellenangebote, die zu dir passen!"}
+      ]
+    },
+    {
+      "name": "meinjob.at",
+      "url": "https://meinjob.at",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["AT"],
+      "sources": [
+        {"field": "existence", "url": "https://meinjob.at", "title": "meinjob.at homepage", "quote": "Einfach und sicher den besten Job finden!"}
+      ]
+    },
+    {
+      "name": "absolventen.at",
+      "url": "https://www.absolventen.at",
+      "type": "niche-board",
+      "niche": "graduates",
+      "countries_served": ["AT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.absolventen.at/jobs", "title": "absolventen.at Jobs page", "quote": "Ob Berufseinsteiger oder Berufserfahrene, absolventen.at ist das Portal für Jobs aller AbsolventInnen in Österreich."}
+      ]
+    },
+    {
+      "name": "tirolerjobs.at",
+      "url": "https://www.tirolerjobs.at",
+      "type": "board",
+      "niche": "regional (Tyrol)",
+      "countries_served": ["AT"],
+      "sources": [
+        {"field": "existence", "url": "https://www.tirolerjobs.at", "title": "tirolerjobs.at homepage", "quote": "dem regionalen Jobportal für das Land im Westen Österreichs"}
+      ]
+    },
+    {
+      "name": "Jobs in Wien",
+      "url": "http://jobsinvienna.com/",
+      "type": "niche-board",
+      "niche": "english-speaking jobs in Vienna",
+      "countries_served": ["AT"],
+      "sources": [
+        {"field": "existence", "url": "http://jobsinvienna.com/", "title": "Jobs in Vienna homepage", "quote": "English and German speaking jobs Vienna"},
+        {"field": "listed_by", "url": "https://www.manatal.com/de/blog/job-sites-austria", "title": "Die 18 besten Jobbörsen in Österreich für Personalvermittler im Jahr 2026", "quote": "Jobs in Wien richten sich an englischsprachige und internationale Fachkräfte in Österreichs Hauptstadt."}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "jobmensa", "url": "https://www.jobmensa.at", "reason": "HTTP 503"},
+    {"name": "JobScout24", "url": "https://www.jobscout24.at", "reason": "HTTP 503"},
+    {"name": "Brutkasten", "url": "https://brutkasten.com", "reason": "HTTP 403"}
+  ],
+  "queue": [
+    {"name": "AMS Job Room", "url": "https://jobroom.ams.or.at", "reason": "Named in a roundup (manatal); domain redirects to ams.at, not a job board page"},
+    {"name": "Yourfirm", "url": "https://www.yourfirm.de", "reason": "Named in roundups (manatal, join); homepage could not be fetched by the tool"},
+    {"name": "Jobswype", "url": "https://b2b.jobswype.com/de_AT/", "reason": "Named in a roundup (manatal); homepage not read"},
+    {"name": "JobCheck", "url": "https://www.jobcheck.de", "reason": "Named in a roundup (join) as DACH-wide; homepage fetch returned empty content"},
+    {"name": "Relocate.me", "url": "", "reason": "Named in a roundup (join); homepage not read"},
+    {"name": "Gastrojobs", "url": "https://www.gastrojobs.de/", "reason": "Named in roundups (manatal, join) as a hospitality niche; no Austria-specific evidence seen; homepage not read"},
+    {"name": "ÖH Jobbörse (Austrian student union)", "url": "", "reason": "Named on oesterreich.gv.at job board list with no description; homepage not read"},
+    {"name": "Jobbörsen der Fachhochschulen", "url": "", "reason": "Group entry on oesterreich.gv.at job board list; individual boards not read"}
+  ]
+}
