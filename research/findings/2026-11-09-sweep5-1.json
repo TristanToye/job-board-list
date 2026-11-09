@@ -1,0 +1,100 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "karriere.at",
+      "url": "https://www.karriere.at",
+      "hq_country": "AT",
+      "business_model": "per post",
+      "notes": "Imprint lists offices in Linz and Wien, Austria; the imprint does not say which is the head office. Employer ad products start at EUR 949 per ad (Standard, 30 days). No language switcher, developer, API or partner page was found in the pages read.",
+      "sources": [
+        {"field": "existence", "url": "https://www.karriere.at/impressum", "title": "Impressum & Kontakt", "quote": "A-4020 Linz"},
+        {"field": "business_model", "url": "https://business.karriere.at/produkte/stelleninserate", "title": "Stelleninserate", "quote": "ab€ 949 pro Stelleninserat"}
+      ]
+    },
+    {
+      "name": "Jobbnorge",
+      "url": "https://jobbnorge.no",
+      "primary_language": "nb",
+      "languages_supported": ["nb", "en", "nn", "se"],
+      "notes": "Language menu lists Norsk Bokmål, English, Norsk Nynorsk and Sámegiella (mapped to se, Northern Sami). Footer names Grade Jobbnorge AS with a Norwegian org. number. No prices, API or partner page was found in the pages read.",
+      "sources": [
+        {"field": "languages", "url": "https://www.jobbnorge.no/search", "title": "Language menu", "quote": "Norsk Bokmål English Norsk Nynorsk Sámegiella"}
+      ]
+    },
+    {
+      "name": "JobScout24",
+      "url": "https://www.jobscout24.ch",
+      "languages_supported": ["de", "fr", "en"],
+      "business_model": "free with paid visibility options",
+      "notes": "Employer page offers free job posting with optional paid visibility options. Footer carries the copyright line of JobCloud, which the page does not describe as a parent. No API, partner or headquarters statement was found in the pages read.",
+      "sources": [
+        {"field": "languages", "url": "https://b2b.jobscout24.ch/en-recruiter-publish-job-ad", "title": "Employer page language switcher", "quote": "DE FR EN"},
+        {"field": "business_model", "url": "https://b2b.jobscout24.ch/en-recruiter-publish-job-ad", "title": "Employer page", "quote": "Publish it for free and boost its visibility with paid options whenever you need them."}
+      ]
+    },
+    {
+      "name": "Valtiolle.fi",
+      "url": "https://www.valtiolle.fi",
+      "hq_country": "FI",
+      "primary_language": "fi",
+      "languages_supported": ["fi", "sv", "en"],
+      "notes": "Finnish state job search service. Home page links a Swedish and an English version. The privacy notice gives a Helsinki visiting address for the controller. No pricing, API or partner page was found in the pages read.",
+      "sources": [
+        {"field": "existence", "url": "https://valtiolle.fi/fi/tietosuojaselosteet/", "title": "Tietosuojaselosteet (privacy notice)", "quote": "Käyntiosoite: Lintulahdenkuja 4, 00530 Helsinki"},
+        {"field": "languages", "url": "https://www.valtiolle.fi/", "title": "Home page", "quote": "Valtiolle.fi on Suomen valtion työnhakupalvelu."},
+        {"field": "languages", "url": "https://www.valtiolle.fi/", "title": "Home page language links", "quote": "Jobbannonser på svenska"},
+        {"field": "languages", "url": "https://www.valtiolle.fi/", "title": "Home page language links", "quote": "Jobs in English"}
+      ]
+    },
+    {
+      "name": "Tes Jobs",
+      "url": "https://www.tes.com/jobs",
+      "hq_country": "GB",
+      "business_model": "subscription",
+      "notes": "Jobs page footer states Tes Global Ltd is registered in England with its registered office in Sheffield; this is the registered office, not a stated head office. Advertise page describes a subscription for unlimited job adverts. No API or partner page was found in the pages read.",
+      "sources": [
+        {"field": "existence", "url": "https://www.tes.com/jobs", "title": "Footer company registration", "quote": "with its registered office at Building 3, St Paul's Place, Norfolk Street, Sheffield, S1 2JE"},
+        {"field": "business_model", "url": "https://www.tes.com/for-schools/job-advertising", "title": "Advertise a job", "quote": "Subscribe and unlock unlimited job adverts, premium features to speed up your recruitment search"}
+      ]
+    },
+    {
+      "name": "KarieR.co",
+      "url": "https://karier.co/no/",
+      "ingest_methods": ["crawl"],
+      "notes": "About page says listings are indexed from employer career sites and verified ATS systems, and that employers cannot buy higher ranking. No pricing, owner, headquarters or API page was found in the pages read.",
+      "sources": [
+        {"field": "ingest_methods", "url": "https://karier.co/no/about", "title": "Om KarieR.co", "quote": "Vi indekserer disse primærkildene regelmessig"}
+      ]
+    },
+    {
+      "name": "Seasonal Jobs in New Zealand",
+      "url": "https://seasonaljobs.co.nz/",
+      "notes": "Footer names Create a Moment Ltd as the operator (\"by Create a Moment Ltd.\"). The employer post-a-job page requires sign-in and shows no prices. The about page calls the site a free service for job seekers. No API, partner or headquarters statement was found in the pages read.",
+      "sources": []
+    },
+    {
+      "name": "HireDoc",
+      "url": "https://hiredoc.com",
+      "hq_country": "PL",
+      "business_model": "free for 90 days",
+      "notes": "Privacy page names ZnanyLekarz sp. z o.o. with its seat in Warsaw as operator and controller. Add-listing page offers a 90-day free listing. No language list, parent, API or partner page was found in the pages read.",
+      "sources": [
+        {"field": "existence", "url": "https://hiredoc.com/pl/polityka-prywatnosci", "title": "Polityka prywatności", "quote": "z siedzibą pod adresem ul. Kolejowa 5/7/, 01-217 Warszawa"},
+        {"field": "business_model", "url": "https://hiredoc.com/pl/add", "title": "Dodaj ogłoszenie", "quote": "Dodaj ogłoszenie na 90 dni za darmo"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "karriere.at", "url": "https://www.karriere.at", "outcome": "partially-verified", "fields_not_found": ["languages", "parent", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Imprint lists Austrian offices; employer pricing page shows ad prices; no language switcher, developer or partner page found."},
+    {"name": "Jobbnorge", "url": "https://jobbnorge.no", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Language menu lists four options; no prices, headquarters, API or partner page found in the pages read."},
+    {"name": "JobScout24", "url": "https://www.jobscout24.ch", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Language switcher shows DE, FR and EN; employer page states free posting with paid options; no API, partner or headquarters statement found."},
+    {"name": "Valtiolle.fi", "url": "https://www.valtiolle.fi", "outcome": "partially-verified", "fields_not_found": ["parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Home page links Swedish and English versions; privacy notice gives a Helsinki address; no pricing, API or partner page found."},
+    {"name": "Tes Jobs", "url": "https://www.tes.com/jobs", "outcome": "partially-verified", "fields_not_found": ["languages", "parent", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Advertise page describes a subscription; jobs page footer gives the Tes Global Ltd registered office; no API or partner page found."},
+    {"name": "KarieR.co", "url": "https://karier.co/no/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent"], "method": "browser", "note": "About page describes indexing of employer sources and no paid placement; no pricing, owner, headquarters or API page found."},
+    {"name": "Seasonal Jobs in New Zealand", "url": "https://seasonaljobs.co.nz/", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "browser", "note": "Footer names Create a Moment Ltd as operator; employer post page requires sign-in; no pricing, headquarters, API or partner statement found."},
+    {"name": "HireDoc", "url": "https://hiredoc.com", "outcome": "partially-verified", "fields_not_found": ["languages", "parent", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Privacy page names ZnanyLekarz sp. z o.o. in Warsaw; add-listing page offers 90 days free; no API or partner page found."}
+  ],
+  "blocked": []
+}
