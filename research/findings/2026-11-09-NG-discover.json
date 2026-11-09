@@ -1,0 +1,51 @@
+{
+  "mode": "discover",
+  "country": "NG",
+  "boards": [
+    {
+      "name": "HotNigerianJobs",
+      "url": "https://www.hotnigerianjobs.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["NG"],
+      "sources": [
+        {"field": "existence", "url": "https://www.hotnigerianjobs.com", "title": "HotNigerianJobs homepage", "quote": "Get Latest Nigerian Jobs Alert!"}
+      ]
+    },
+    {
+      "name": "Jobnow Nigeria",
+      "url": "https://jobnow.ng",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["NG"],
+      "sources": [
+        {"field": "existence", "url": "https://jobnow.ng", "title": "Jobnow Nigeria homepage", "quote": "Jobnow Nigeria, your premier career gateway for top-tier employment"}
+      ]
+    },
+    {
+      "name": "Jobgurus.com.ng",
+      "url": "https://www.jobgurus.com.ng",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["NG"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobgurus.com.ng", "title": "Jobgurus.com.ng homepage", "quote": "Search thousands of jobs in Nigeria."}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Federal Civil Service Commission vacancy portal", "url": "https://vacancy.fedcivilservice.gov.ng", "reason": "HTTP 503"},
+    {"name": "NYSC Jobs", "url": "https://www.nyscjobs.org", "reason": "HTTP 503"},
+    {"name": "Fuzu", "url": "https://www.fuzu.com", "reason": "HTTP 403"},
+    {"name": "Jobberlad", "url": "https://www.jobberlad.com", "reason": "DNS error (getaddrinfo EAI_AGAIN)"},
+    {"name": "CareerPointNG", "url": "https://www.careerpointng.com", "reason": "DNS error (getaddrinfo ENOTFOUND)"},
+    {"name": "GetAJobNGs", "url": "https://www.getajobngs.com", "reason": "DNS error (getaddrinfo ENOTFOUND)"}
+  ],
+  "queue": [
+    {"name": "Job List Nigeria", "url": "https://www.joblistnigeria.com", "reason": "Named in several Nigerian roundups; homepage fetch timed out on two attempts"},
+    {"name": "JustJobs", "url": "https://justjobs.info", "reason": "Named in roundups; justjobsng.com redirects here; fetch was rate-limited by the safety check, so the page was not read"},
+    {"name": "Naijahire", "url": "https://www.naijahire.com", "reason": "Named in a vendor roundup; the domain redirects to a parked domain-sale page, so the board was not confirmed"},
+    {"name": "Profolio", "url": "https://www.profolio.ng", "reason": "Named in search results for healthcare jobs; homepage is a CV and career service with no postings shown, so it is not confirmed as a job board"},
+    {"name": "JobzMall", "url": "https://www.jobzmall.com", "reason": "Homepage read but Nigeria focus is not shown on the page read; countries served not confirmed"}
+  ]
+}
