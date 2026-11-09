@@ -1,91 +1,302 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "cy"
+   ],
+   "notes": "Government statistics office; its careers site (careers.ons.gov.uk) lists its own vacancies. No employer pricing, API, partner or parent company stated on the pages read.",
+   "sources": [
     {
-      "name": "Office for National Statistics",
-      "url": "https://www.ons.gov.uk",
-      "primary_language": "en",
-      "languages_supported": ["en", "cy"],
-      "notes": "Government statistics office; its careers site (careers.ons.gov.uk) lists its own vacancies. No employer pricing, API, partner or parent company stated on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.ons.gov.uk", "title": "Homepage language switcher", "quote": "English (EN) | Cymraeg (CY)"},
-        {"field": "existence", "url": "https://www.ons.gov.uk/aboutus", "title": "About us", "quote": "We are the UK’s largest independent producer of official statistics"}
-      ]
+     "field": "languages",
+     "url": "https://www.ons.gov.uk",
+     "title": "Homepage language switcher",
+     "quote": "English (EN) | Cymraeg (CY)",
+     "check": "ok"
     },
     {
-      "name": "Expats.cz Jobs",
-      "url": "https://www.expats.cz",
-      "business_model": "pay per post",
-      "notes": "Job posts are bought as credits: Basic job 1 credit, Premium job 2 credits, 1 credit listed at 3,000 CZK + DPH. Footer names Howlings s.r.o. as copyright holder; no parent company stated. No API, partner program or ingest method stated on the pages read.",
-      "sources": [
-        {"field": "hq_country", "url": "https://www.expats.cz/about-us", "title": "About us footer address", "quote": "Expats.cz, Vítkova 244/8, Praha 8, 186 00 Czech Republic."},
-        {"field": "business_model", "url": "https://www.expats.cz/czech-news/article/expats-cz-jobs", "title": "Expats.cz Job Credits", "quote": "Premium jobs require 2 credits, while Basic jobs require 1."},
-        {"field": "business_model", "url": "https://www.expats.cz/czech-news/article/expats-cz-jobs", "title": "Expats.cz Job Credits", "quote": "1 credit : 3,000 CZK + DPH"},
-        {"field": "existence", "url": "https://www.expats.cz", "title": "Homepage footer", "quote": "© 2001 - 2026 Howlings s.r.o. All rights reserved."}
-      ]
-    },
-    {
-      "name": "CVMarket.lv",
-      "url": "https://www.cvmarket.lv/",
-      "business_model": "pay per post",
-      "ingest_methods": ["manual posting"],
-      "notes": "Latvian job board. Single job ad priced from 160 EUR (2 weeks) or 180 EUR (1 month) plus VAT. Contact page gives a Riga address. Language switcher options other than LV were not captured in the browser reader. Parent company and API not stated on the pages read; the about page returned HTTP 502 and was not retried.",
-      "sources": [
-        {"field": "hq_country", "url": "https://www.cvmarket.lv/kontakti", "title": "Contact page", "quote": "Skanstes iela 25, Rīga, LV-1013, Latvija"},
-        {"field": "business_model", "url": "https://www.cvmarket.lv/pakalpojumi", "title": "Services and prices for employers", "quote": "Viens sludinājums uz 2 nedēļām - sākot no 160€ + PVN"},
-        {"field": "business_model", "url": "https://www.cvmarket.lv/pakalpojumi", "title": "Services and prices for employers", "quote": "Viens sludinājums uz 1 mēnesi - sākot no 180€ + PVN"},
-        {"field": "ingest_methods", "url": "https://www.cvmarket.lv/", "title": "Homepage header", "quote": "Publicēt sludinājumu"}
-      ]
-    },
-    {
-      "name": "Phenom",
-      "url": "https://www.phenom.com",
-      "partner_program": "yes",
-      "partner_url": "https://www.phenom.com/marketplace",
-      "notes": "HR technology vendor (talent intelligence platform), not a standalone job board. Footer links to a partner marketplace with partner tiers. Headquarters, language options, API and parent company not stated on the pages read.",
-      "sources": [
-        {"field": "partner_program", "url": "https://www.phenom.com/marketplace", "title": "Phenom Partner Marketplace", "quote": "Join our growing partner ecosystem"},
-        {"field": "partner_program", "url": "https://www.phenom.com/marketplace", "title": "Phenom Partner Marketplace", "quote": "Become a partner"},
-        {"field": "existence", "url": "https://www.phenom.com", "title": "Homepage footer", "quote": "© 2026 Phenom People, Inc. All Rights Reserved."}
-      ]
-    },
-    {
-      "name": "Heidrick & Struggles",
-      "url": "https://www.heidrick.com",
-      "primary_language": "en",
-      "languages_supported": ["en"],
-      "notes": "Executive search firm; its careers page links to its own open positions on a Workday site. Only English appears in the language switcher. No pricing, API, partner program or parent company stated.",
-      "sources": [
-        {"field": "hq_country", "url": "https://www.heidrick.com/en/about-us", "title": "About us footer", "quote": "Heidrick & Struggles International, Inc. • 233 South Wacker Drive Willis Tower • Suite 4900 • Chicago, IL 60606-6303"},
-        {"field": "languages", "url": "https://www.heidrick.com", "title": "Homepage language switcher", "quote": "English"}
-      ]
-    },
-    {
-      "name": "IMPACT Group",
-      "url": "https://www.impactgrouphr.com",
-      "hq_country": "US",
-      "notes": "Coaching, relocation and outplacement firm, not a job board. Contact page lists a Saint Louis, MO office. Language switcher, parent company, employer pricing and API not stated on the pages read.",
-      "sources": [
-        {"field": "hq_country", "url": "https://impactgrouphr.com/contact/", "title": "Contact us", "quote": "Saint Louis, MO 63141"}
-      ]
-    },
-    {
-      "name": "Concorsando",
-      "url": "https://www.concorsando.it/",
-      "notes": "Italian public-competition preparation site with a listing blog. The homepage and its visible links state no headquarters, language options, employer pricing, API or partner program. No about or legal page was linked from the homepage.",
-      "sources": []
+     "field": "existence",
+     "url": "https://www.ons.gov.uk/aboutus",
+     "title": "About us",
+     "quote": "We are the UK’s largest independent producer of official statistics",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Office for National Statistics", "url": "https://www.ons.gov.uk", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "api_status", "partner_program", "ingest_methods", "parent"], "method": "browser", "note": "Homepage, about, contact and careers pages returned HTTP 200 and state languages but no employer pricing, API or partner program."},
-    {"name": "Snagajob", "url": "https://www.snagajob.com/", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "Browser reader returned HTTP 403 with a 'Just a moment...' challenge page and blocked=true."},
-    {"name": "Heidrick & Struggles", "url": "https://www.heidrick.com", "outcome": "partially-verified", "fields_not_found": ["business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "browser", "note": "Homepage, careers and about pages returned HTTP 200; they state a Chicago address and English only, with no pricing, API, partner or parent information."},
-    {"name": "Phenom", "url": "https://www.phenom.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "parent", "ingest_methods"], "method": "mixed", "note": "Homepage returned HTTP 200; the partner marketplace page it links to states a partner program. Its about page link was not captured."},
-    {"name": "Expats.cz Jobs", "url": "https://www.expats.cz", "outcome": "partially-verified", "fields_not_found": ["languages", "parent", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage, about, job credits and partners pages returned HTTP 200; they state a Prague address and credit-based pricing, with no API or job partner program."},
-    {"name": "CVMarket.lv", "url": "https://www.cvmarket.lv/", "outcome": "partially-verified", "fields_not_found": ["languages", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Homepage (after one browser timeout and one successful retry), services and prices, and contact pages returned HTTP 200; the about page returned HTTP 502 once and was not retried."},
-    {"name": "IMPACT Group", "url": "https://www.impactgrouphr.com", "outcome": "partially-verified", "fields_not_found": ["languages", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage, about and contact pages returned HTTP 200; contact page gives a US office and no job board pricing, API or partner program."},
-    {"name": "Concorsando", "url": "https://www.concorsando.it/", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "browser", "note": "Homepage returned HTTP 200; no about, legal, pricing or developer page is linked from it and it states none of the facts looked for."}
-  ],
-  "blocked": [{"name": "Snagajob", "url": "https://www.snagajob.com/", "reason": "HTTP 403 challenge page; browser reader returned blocked=true"}]
+   ]
+  },
+  {
+   "name": "Expats.cz Jobs",
+   "url": "https://www.expats.cz",
+   "business_model": "pay per post",
+   "notes": "Job posts are bought as credits: Basic job 1 credit, Premium job 2 credits, 1 credit listed at 3,000 CZK + DPH. Footer names Howlings s.r.o. as copyright holder; no parent company stated. No API, partner program or ingest method stated on the pages read.",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.expats.cz/about-us",
+     "title": "About us footer address",
+     "quote": "Expats.cz, Vítkova 244/8, Praha 8, 186 00 Czech Republic.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.expats.cz/czech-news/article/expats-cz-jobs",
+     "title": "Expats.cz Job Credits",
+     "quote": "Premium jobs require 2 credits, while Basic jobs require 1.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.expats.cz/czech-news/article/expats-cz-jobs",
+     "title": "Expats.cz Job Credits",
+     "quote": "1 credit : 3,000 CZK + DPH",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.expats.cz",
+     "title": "Homepage footer",
+     "quote": "© 2001 - 2026 Howlings s.r.o. All rights reserved.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CVMarket.lv",
+   "url": "https://www.cvmarket.lv/",
+   "business_model": "pay per post",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Latvian job board. Single job ad priced from 160 EUR (2 weeks) or 180 EUR (1 month) plus VAT. Contact page gives a Riga address. Language switcher options other than LV were not captured in the browser reader. Parent company and API not stated on the pages read; the about page returned HTTP 502 and was not retried.",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.cvmarket.lv/kontakti",
+     "title": "Contact page",
+     "quote": "Skanstes iela 25, Rīga, LV-1013, Latvija",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.cvmarket.lv/pakalpojumi",
+     "title": "Services and prices for employers",
+     "quote": "Viens sludinājums uz 2 nedēļām - sākot no 160€ + PVN",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.cvmarket.lv/pakalpojumi",
+     "title": "Services and prices for employers",
+     "quote": "Viens sludinājums uz 1 mēnesi - sākot no 180€ + PVN",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.cvmarket.lv/",
+     "title": "Homepage header",
+     "quote": "Publicēt sludinājumu",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Phenom",
+   "url": "https://www.phenom.com",
+   "partner_program": "yes",
+   "partner_url": "https://www.phenom.com/marketplace",
+   "notes": "HR technology vendor (talent intelligence platform), not a standalone job board. Footer links to a partner marketplace with partner tiers. Headquarters, language options, API and parent company not stated on the pages read.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://www.phenom.com/marketplace",
+     "title": "Phenom Partner Marketplace",
+     "quote": "Join our growing partner ecosystem",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.phenom.com/marketplace",
+     "title": "Phenom Partner Marketplace",
+     "quote": "Become a partner",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.phenom.com",
+     "title": "Homepage footer",
+     "quote": "© 2026 Phenom People, Inc. All Rights Reserved.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Heidrick & Struggles",
+   "url": "https://www.heidrick.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "notes": "Executive search firm; its careers page links to its own open positions on a Workday site. Only English appears in the language switcher. No pricing, API, partner program or parent company stated.",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.heidrick.com/en/about-us",
+     "title": "About us footer",
+     "quote": "Heidrick & Struggles International, Inc. • 233 South Wacker Drive Willis Tower • Suite 4900 • Chicago, IL 60606-6303",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.heidrick.com",
+     "title": "Homepage language switcher",
+     "quote": "English",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "IMPACT Group",
+   "url": "https://www.impactgrouphr.com",
+   "hq_country": "US",
+   "notes": "Coaching, relocation and outplacement firm, not a job board. Contact page lists a Saint Louis, MO office. Language switcher, parent company, employer pricing and API not stated on the pages read.",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://impactgrouphr.com/contact/",
+     "title": "Contact us",
+     "quote": "Saint Louis, MO 63141",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Concorsando",
+   "url": "https://www.concorsando.it/",
+   "notes": "Italian public-competition preparation site with a listing blog. The homepage and its visible links state no headquarters, language options, employer pricing, API or partner program. No about or legal page was linked from the homepage.",
+   "sources": []
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods",
+    "parent"
+   ],
+   "method": "browser",
+   "note": "Homepage, about, contact and careers pages returned HTTP 200 and state languages but no employer pricing, API or partner program."
+  },
+  {
+   "name": "Snagajob",
+   "url": "https://www.snagajob.com/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "Browser reader returned HTTP 403 with a 'Just a moment...' challenge page and blocked=true."
+  },
+  {
+   "name": "Heidrick & Struggles",
+   "url": "https://www.heidrick.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage, careers and about pages returned HTTP 200; they state a Chicago address and English only, with no pricing, API, partner or parent information."
+  },
+  {
+   "name": "Phenom",
+   "url": "https://www.phenom.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage returned HTTP 200; the partner marketplace page it links to states a partner program. Its about page link was not captured."
+  },
+  {
+   "name": "Expats.cz Jobs",
+   "url": "https://www.expats.cz",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage, about, job credits and partners pages returned HTTP 200; they state a Prague address and credit-based pricing, with no API or job partner program."
+  },
+  {
+   "name": "CVMarket.lv",
+   "url": "https://www.cvmarket.lv/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "parent",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage (after one browser timeout and one successful retry), services and prices, and contact pages returned HTTP 200; the about page returned HTTP 502 once and was not retried."
+  },
+  {
+   "name": "IMPACT Group",
+   "url": "https://www.impactgrouphr.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage, about and contact pages returned HTTP 200; contact page gives a US office and no job board pricing, API or partner program."
+  },
+  {
+   "name": "Concorsando",
+   "url": "https://www.concorsando.it/",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage returned HTTP 200; no about, legal, pricing or developer page is linked from it and it states none of the facts looked for."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Snagajob",
+   "url": "https://www.snagajob.com/",
+   "reason": "HTTP 403 challenge page; browser reader returned blocked=true"
+  }
+ ]
 }

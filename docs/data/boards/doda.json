@@ -43,11 +43,11 @@
  "connections": [],
  "review": {
   "board_id": "doda",
-  "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Japanese homepage names PERSOL CAREER CO., LTD.; no headquarters, parent, employer pricing or API stated.",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Browser reader returned blocked: true for https://www.doda.jp/ with no page text, so no facts were taken from it.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],

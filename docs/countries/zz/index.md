@@ -53,7 +53,7 @@
 - [Gi Group Holding](https://jobboardlist.com/boards/gi-group-holding/): staffing, Established tier
 - [Criteria](https://jobboardlist.com/boards/criteria/): hr-tech, Small tier
 - [Braintrust](https://jobboardlist.com/boards/braintrust/): freelance-platform, Small tier
-- [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform, Small tier
+- [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform, Small tier, API key on request
 - [Kforce](https://jobboardlist.com/boards/kforce/): staffing, Small tier
 - [Impactpool](https://jobboardlist.com/boards/impactpool/): niche-board, Small tier
 - [Burning Glass Institute](https://jobboardlist.com/boards/burning-glass-institute/): lmi, Small tier

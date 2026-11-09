@@ -29,7 +29,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Resume builder for job seekers; no employer job posting or employer pricing found. Pricing page lists candidate subscriptions (Yearly $8 / month, Quarterly $18 / month, Monthly $24 / month). Footer shows Terms, Privacy Policy and Cookie Settings; no API, developer or partner page linked.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/kickresume/",
  "indexable": false,
@@ -47,11 +47,11 @@
  "connections": [],
  "review": {
   "board_id": "kickresume",
-  "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "HQ in Bratislava, Slovakia and language menu read from the About page.",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Home, About and Pricing pages read (HTTP 200); they state an EU-based team in Bratislava and candidate subscriptions but no employer pricing, parent, API or partner program.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -78,6 +78,14 @@
    "title": "About Kickresume (language menu)",
    "accessed": "2026-11-06",
    "quote": "English Slovensky Español Deutsch Português Italiano",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.kickresume.com",
+   "title": "Homepage footer language menu",
+   "accessed": "2026-11-09",
+   "quote": "English",
    "quote_check": "ok"
   }
  ]

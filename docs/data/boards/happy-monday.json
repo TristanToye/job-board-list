@@ -16,16 +16,16 @@
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
- "api_status": "unknown",
+ "business_model": "paid job listings from 1799 UAH; employer profile from 6000 UAH per month",
+ "api_status": "public-key",
  "api_docs_url": "https://happymonday.ua/developers/api/v4",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Developer page links a job feed and API v4 documentation. API key or access requirements are not stated; other integration requests go by email to the product team. Prices not shown.",
+ "notes": "Developer page links a job feed and API v4 documentation. API key or access requirements are not stated; other integration requests go by email to the product team. Prices not shown. Ukrainian job platform. A public job feed (JSON and XML) needs no key and is rate limited to 30 requests per minute per IP. The API v4 needs a company key created in the company cabinet. Only Ukrainian language switch was seen. No partner program was stated. Prices shown on the employer services pag",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/happy-monday/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,16 +35,17 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "api-self-serve",
   "job-board"
  ],
  "connections": [],
  "review": {
   "board_id": "happy-monday",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;business_model;partner_program",
-  "note": "Homepage and developers page read; job feed and API documentation links stated; key requirements and prices not stated.",
-  "method": "fetch"
+  "fields_not_found": "hq_country;parent;partner_program",
+  "note": "Services page shows listing prices; developer pages document a public feed and API v4 with self-serve keys; no headquarters or parent stated.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -71,6 +72,38 @@
    "title": "Developer page",
    "accessed": "2026-11-06",
    "quote": "рекомендуємо дивитися документацію по актуальному API Happy Monday.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://happymonday.ua/services",
+   "title": "Services",
+   "accessed": "2026-11-09",
+   "quote": "Від 1799 грн",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://happymonday.ua/developers/api/v4",
+   "title": "API v4 documentation",
+   "accessed": "2026-11-09",
+   "quote": "Access to API is available only with active API key, which you can create or revoke at any time in company cabinet.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://happymonday.ua/developers/job-feed",
+   "title": "Public job feed",
+   "accessed": "2026-11-09",
+   "quote": "Без реєстрації і без API-ключа",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://happymonday.ua/developers",
+   "title": "Developers",
+   "accessed": "2026-11-09",
+   "quote": "Якщо ви представляєте компанію-роботодавця і хочете інтегрувати публікацію вакансій і отримання відгуків напряму через API",
    "quote_check": "ok"
   }
  ]

@@ -10,7 +10,7 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
+ "primary_language": "en",
  "languages_supported": [
   "en",
   "zh",
@@ -26,7 +26,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Homepage language options are English, Chinese (China) and Japanese. Page lists a New York office address but no headquarters statement, parent, pricing, API or partner program. About page returned HTTP 404.",
+ "notes": "Homepage language options are English, Chinese (China) and Japanese. Page lists a New York office address but no headquarters statement, parent, pricing, API or partner program. About page returned HTTP 404. The language switcher text shows only EN. Other options named in the fetch summary were not in the reader text, so none are recorded. The locations page gives a New York office address with no headquarters statement.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/russell-reynolds-associates/",
  "indexable": false,
@@ -45,11 +45,11 @@
  "connections": [],
  "review": {
   "board_id": "russell-reynolds-associates",
-  "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Language menu lists English, 中文(中国) and 日本語 (日本). Newsroom and zh-CN pages read. No Developers, API or Pricing link on the pages read.",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage, about and locations pages state English and a New York office address but no headquarters or parent.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -100,6 +100,14 @@
    "title": "Language menu",
    "accessed": "2026-11-06",
    "quote": "English",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.russellreynolds.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Your Leadership Challenges, Solved.",
    "quote_check": "ok"
   }
  ]

@@ -1,136 +1,452 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Cadremploi",
+   "url": "https://www.cadremploi.fr/",
+   "hq_country": "FR",
+   "parent": "Groupe Figaro",
+   "primary_language": "fr",
+   "business_model": "per post: 299€ HT for a 28-day listing (higher tiers 499€ and 699€ HT)",
+   "notes": "Legal notice names FIGARO CLASSIFIEDS (Paris) as the publisher. Footer shows the Groupe Figaro label. Prices are on the recruiter tariff page. No language switcher, API or partner page found in the links read.",
+   "sources": [
     {
-      "name": "Cadremploi",
-      "url": "https://www.cadremploi.fr/",
-      "hq_country": "FR",
-      "parent": "Groupe Figaro",
-      "primary_language": "fr",
-      "business_model": "per post: 299€ HT for a 28-day listing (higher tiers 499€ and 699€ HT)",
-      "notes": "Legal notice names FIGARO CLASSIFIEDS (Paris) as the publisher. Footer shows the Groupe Figaro label. Prices are on the recruiter tariff page. No language switcher, API or partner page found in the links read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.cadremploi.fr/emploi/legal/mentions-legales", "title": "Mentions légales", "quote": "dont le siège social 9 rue Caumartin, 75009 PARIS"},
-        {"field": "parent", "url": "https://www.cadremploi.fr/", "title": "Homepage footer", "quote": "Groupe Figaro"},
-        {"field": "parent", "url": "https://www.cadremploi.fr/emploi/legal/mentions-legales", "title": "Mentions légales", "quote": "Cadremploi.fr est édité et hébergé par la Société FIGARO CLASSIFIEDS"},
-        {"field": "languages", "url": "https://www.cadremploi.fr/emploi/a-propos", "title": "Qui sommes nous", "quote": "Cadremploi est LE site emploi dédié aux cadres en France."},
-        {"field": "business_model", "url": "https://espace-recruteurs.cadremploi.fr/recruteurs/tarifs", "title": "Tarifs des offres Cadremploi", "quote": "Diffusion 28 jours"},
-        {"field": "business_model", "url": "https://espace-recruteurs.cadremploi.fr/recruteurs/tarifs", "title": "Tarifs des offres Cadremploi", "quote": "Diffusez vos annonces auprès de 2M de cadres. Tous les prix sont HT, TVA 20% applicable."},
-        {"field": "ingest_methods", "url": "https://espace-recruteurs.cadremploi.fr/", "title": "Recruiter space", "quote": "Publiez votre première offre en moins de 5 minutes."}
-      ]
+     "field": "existence",
+     "url": "https://www.cadremploi.fr/emploi/legal/mentions-legales",
+     "title": "Mentions légales",
+     "quote": "dont le siège social 9 rue Caumartin, 75009 PARIS",
+     "check": "ok"
     },
     {
-      "name": "National Career Service",
-      "url": "https://www.ncs.gov.in",
-      "hq_country": "IN",
-      "parent": "Ministry of Labour and Employment, Government of India",
-      "primary_language": "en",
-      "languages_supported": ["en", "hi"],
-      "business_model": "free",
-      "notes": "Run by the Directorate General of Employment under the Ministry of Labour and Employment. The site states that it charges no fee. Employer posting is through a login-only employer area. No API or partner page was linked.",
-      "sources": [
-        {"field": "existence", "url": "https://ncs.gov.in/about-us", "title": "About us", "quote": "Shram Shakti Bhawan Rafi Marg, New Delhi-110001, India"},
-        {"field": "parent", "url": "https://ncs.gov.in/about-us", "title": "About us", "quote": "flagship initiative by the Ministry of Labour and Employment, Government of India."},
-        {"field": "languages", "url": "https://ncs.gov.in/about-us", "title": "About us language menu", "quote": "English | Hindi (हिन्दी)"},
-        {"field": "business_model", "url": "https://ncs.gov.in/", "title": "Homepage FAQ", "quote": "NCS does not charge any fee at any stage of registration, job application, or interview processing."},
-        {"field": "ingest_methods", "url": "https://ncs.gov.in/", "title": "Homepage", "quote": "Post New Jobs"}
-      ]
+     "field": "parent",
+     "url": "https://www.cadremploi.fr/",
+     "title": "Homepage footer",
+     "quote": "Groupe Figaro",
+     "check": "ok"
     },
     {
-      "name": "Kwork",
-      "url": "https://www.kwork.com",
-      "hq_country": "EE",
-      "primary_language": "en",
-      "notes": "Freelance service marketplace rather than a job board. Operator is KWORK Technologies OÜ in Tallinn. No employer pricing, language switcher, API or partner page found; the site links an affiliate program only.",
-      "sources": [
-        {"field": "existence", "url": "https://kwork.com/about", "title": "About Kwork", "quote": "Narva mnt 7,634, Estonia"},
-        {"field": "languages", "url": "https://www.kwork.com/", "title": "Homepage", "quote": "Buy affordable freelance services on the go"},
-        {"field": "ingest_methods", "url": "https://www.kwork.com/", "title": "Homepage", "quote": "listing their services in the Catalog"}
-      ]
+     "field": "parent",
+     "url": "https://www.cadremploi.fr/emploi/legal/mentions-legales",
+     "title": "Mentions légales",
+     "quote": "Cadremploi.fr est édité et hébergé par la Société FIGARO CLASSIFIEDS",
+     "check": "ok"
     },
     {
-      "name": "Le Forem",
-      "url": "https://www.leforem.be",
-      "hq_country": "BE",
-      "primary_language": "fr",
-      "business_model": "free",
-      "notes": "Public employment service of Wallonia. Employers can publish job offers free of charge on the site. No language switcher, API or partner program for job data found.",
-      "sources": [
-        {"field": "existence", "url": "https://www.leforem.be/conditions-d-utilisation.html", "title": "Mentions légales", "quote": "dont le siège est établi Boulevard Tirou 104 à 6000 Charleroi"},
-        {"field": "languages", "url": "https://www.leforem.be/conditions-d-utilisation.html", "title": "Mentions légales", "quote": "Le Forem est le service public wallon de l’emploi"},
-        {"field": "business_model", "url": "https://www.leforem.be/entreprises/recruter-en-autonomie.html", "title": "Recruter en autonomie", "quote": "déposez-les gratuitement sur notre site web."},
-        {"field": "ingest_methods", "url": "https://www.leforem.be/entreprises/recruter-en-autonomie.html", "title": "Recruter en autonomie", "quote": "Diffuser une offre d'emploi"}
-      ]
+     "field": "languages",
+     "url": "https://www.cadremploi.fr/emploi/a-propos",
+     "title": "Qui sommes nous",
+     "quote": "Cadremploi est LE site emploi dédié aux cadres en France.",
+     "check": "ok"
     },
     {
-      "name": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph",
-      "primary_language": "en",
-      "business_model": "subscription: free tier, paid monthly plans from $69 USD",
-      "notes": "Employer marketplace for hiring Filipino remote workers. Pricing page shows a free plan and monthly paid plans. No company address, language switcher, API or partner page found on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.onlinejobs.ph/", "title": "Homepage", "quote": "We’re the #1 marketplace for hiring Filipino remote talent."},
-        {"field": "business_model", "url": "https://www.onlinejobs.ph/pricing", "title": "Pricing", "quote": "$69 USD Monthly Up to 3 Job Posts per Month"},
-        {"field": "ingest_methods", "url": "https://www.onlinejobs.ph/", "title": "Homepage", "quote": "Post a job quickly and easily and let talent come to you."}
-      ]
+     "field": "business_model",
+     "url": "https://espace-recruteurs.cadremploi.fr/recruteurs/tarifs",
+     "title": "Tarifs des offres Cadremploi",
+     "quote": "Diffusion 28 jours",
+     "check": "ok"
     },
     {
-      "name": "CareerViet",
-      "url": "https://careerviet.vn",
-      "hq_country": "VN",
-      "primary_language": "vi",
-      "languages_supported": ["vi", "en"],
-      "notes": "Operated by Công Ty Cổ Phần Giải Pháp CareerViet per the homepage copyright line. Vietnamese site with an EN link. Employer product page shows no prices. Partner websites are listed on the homepage, but no partner program was found.",
-      "sources": [
-        {"field": "existence", "url": "https://careerviet.vn/vi/jobseekers/about", "title": "Về chúng tôi", "quote": "Trụ sở chính: Tầng 6, Tòa nhà VNO, 139 Pasteur, Phường Xuân Hoà, TP. Hồ Chí Minh, Việt Nam"},
-        {"field": "languages", "url": "https://careerviet.vn/vi/jobseekers/about", "title": "Về chúng tôi", "quote": "CareerViet.vn - Mạng việc làm quốc tế chuyên biệt cho người Việt tìm việc."},
-        {"field": "languages", "url": "https://careerviet.vn/", "title": "Homepage language menu", "quote": "EN"},
-        {"field": "ingest_methods", "url": "https://careerviet.vn/", "title": "Homepage", "quote": "ĐĂNG TIN TUYỂN DỤNG"}
-      ]
+     "field": "business_model",
+     "url": "https://espace-recruteurs.cadremploi.fr/recruteurs/tarifs",
+     "title": "Tarifs des offres Cadremploi",
+     "quote": "Diffusez vos annonces auprès de 2M de cadres. Tous les prix sont HT, TVA 20% applicable.",
+     "check": "ok"
     },
     {
-      "name": "WeLoveDevs",
-      "url": "https://welovedevs.com",
-      "hq_country": "FR",
-      "business_model": "free and subscription: a job ad can be posted free, or a subscription is available for the CVThèque",
-      "notes": "Legal notice names OUIRECRUIT SAS (Wasquehal, France) as the publisher. No parent company stated. Mixed English and French pages with no language switcher found. No API or partner program found.",
-      "sources": [
-        {"field": "existence", "url": "https://welovedevs.com/legal-notes/", "title": "Mentions Légales", "quote": "Adresse du siège social : 44 avenue de la Marne, 59290 Wasquehal."},
-        {"field": "business_model", "url": "https://welovedevs.com/recruteurs/recruter-un-developpeur", "title": "Recruter un developpeur", "quote": "vous pourrez diffuser une annonce gratuitement, ou souscrire à un abonnement"},
-        {"field": "ingest_methods", "url": "https://welovedevs.com/recruteurs/recruter-un-developpeur", "title": "Recruter un developpeur", "quote": "Poster des offres d'emploi"}
-      ]
-    },
-    {
-      "name": "SeekOut",
-      "url": "https://www.seekout.com",
-      "hq_country": "US",
-      "primary_language": "en",
-      "business_model": "subscription, per seat: from $149/mo (annual billing), custom pricing for sourcing and integration plans",
-      "partner_program": "yes",
-      "partner_url": "https://www.seekout.com/partners",
-      "api_status": "unknown",
-      "notes": "Recruiting SaaS. The MCP connector page says sign-in is used, with no API keys for standard use. The MCP docs link (docs.seekout.com) returned an HTTP 403 challenge page in the browser reader and was not retried. Houses an ATS integration partner page.",
-      "sources": [
-        {"field": "existence", "url": "https://www.seekout.com/about-us", "title": "About SeekOut", "quote": "Founded in Bellevue, WA"},
-        {"field": "languages", "url": "https://www.seekout.com/", "title": "Homepage", "quote": "Join 750+ customers who source, screen, and engage talent with SeekOut."},
-        {"field": "business_model", "url": "https://www.seekout.com/pricing", "title": "SeekOut Pricing", "quote": "Billed annually · Per-seat pricing adjusts with volume"},
-        {"field": "business_model", "url": "https://www.seekout.com/pricing", "title": "SeekOut Pricing", "quote": "$149/mo"},
-        {"field": "api_status", "url": "https://www.seekout.com/solutions/mcp", "title": "SeekOut MCP", "quote": "Sign in with your SeekOut account. No API keys needed for standard use."},
-        {"field": "partner_program", "url": "https://www.seekout.com/partners", "title": "SeekOut Partners", "quote": "Join our Referral Partner Program"},
-        {"field": "ingest_methods", "url": "https://www.seekout.com/partners", "title": "SeekOut Partners", "quote": "SeekOut integrates with the leading ATS, CRM and HCM solutions in the market today."}
-      ]
+     "field": "ingest_methods",
+     "url": "https://espace-recruteurs.cadremploi.fr/",
+     "title": "Recruiter space",
+     "quote": "Publiez votre première offre en moins de 5 minutes.",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Cadremploi", "url": "https://www.cadremploi.fr/", "outcome": "partially-verified", "fields_not_found": ["languages", "api_status", "partner_program"], "method": "browser", "note": "Homepage, legal notice, about, recruiter homepage and tariff pages read; no language options, API or partner page found."},
-    {"name": "National Career Service", "url": "https://www.ncs.gov.in", "outcome": "partially-verified", "fields_not_found": ["api_status", "partner_program"], "method": "browser", "note": "Homepage, about and terms pages read; language menu shows English and Hindi; no API or partner page linked."},
-    {"name": "Kwork", "url": "https://www.kwork.com", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "business_model", "api_status", "partner_program"], "method": "browser", "note": "Homepage and about page read; company address confirmed; no employer pricing, language switcher, API or partner page found."},
-    {"name": "Le Forem", "url": "https://www.leforem.be", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "api_status", "partner_program"], "method": "browser", "note": "Homepage, legal notice, about, employer and partners pages read; site is in French with no language switcher found; partner page covers institutional partners only."},
-    {"name": "OnlineJobs.ph", "url": "https://www.onlinejobs.ph", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program"], "method": "browser", "note": "Homepage, pricing and about pages read; pricing confirmed; no company address, language switcher, API or partner page found."},
-    {"name": "CareerViet", "url": "https://careerviet.vn", "outcome": "partially-verified", "fields_not_found": ["business_model", "parent", "api_status", "partner_program"], "method": "browser", "note": "Homepage, about and employer pages read; address and EN link confirmed; employer product page shows no prices."},
-    {"name": "WeLoveDevs", "url": "https://welovedevs.com", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "api_status", "partner_program"], "method": "browser", "note": "Homepage, legal notice and recruiter pages read; address and pricing confirmed; no language switcher or API found."},
-    {"name": "SeekOut", "url": "https://www.seekout.com", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "api_status"], "method": "browser", "note": "Homepage, pricing, partners, about and MCP pages read; docs.seekout.com returned an HTTP 403 challenge page in the browser reader and was not retried."}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "hq_country": "IN",
+   "parent": "Ministry of Labour and Employment, Government of India",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "hi"
+   ],
+   "business_model": "free",
+   "notes": "Run by the Directorate General of Employment under the Ministry of Labour and Employment. The site states that it charges no fee. Employer posting is through a login-only employer area. No API or partner page was linked.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://ncs.gov.in/about-us",
+     "title": "About us",
+     "quote": "Shram Shakti Bhawan Rafi Marg, New Delhi-110001, India",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://ncs.gov.in/about-us",
+     "title": "About us",
+     "quote": "flagship initiative by the Ministry of Labour and Employment, Government of India.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://ncs.gov.in/about-us",
+     "title": "About us language menu",
+     "quote": "English | Hindi (हिन्दी)",
+     "check": "mismatch"
+    },
+    {
+     "field": "business_model",
+     "url": "https://ncs.gov.in/",
+     "title": "Homepage FAQ",
+     "quote": "NCS does not charge any fee at any stage of registration, job application, or interview processing.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://ncs.gov.in/",
+     "title": "Homepage",
+     "quote": "Post New Jobs",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Kwork",
+   "url": "https://www.kwork.com",
+   "hq_country": "EE",
+   "primary_language": "en",
+   "notes": "Freelance service marketplace rather than a job board. Operator is KWORK Technologies OÜ in Tallinn. No employer pricing, language switcher, API or partner page found; the site links an affiliate program only.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://kwork.com/about",
+     "title": "About Kwork",
+     "quote": "Narva mnt 7,634, Estonia",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.kwork.com/",
+     "title": "Homepage",
+     "quote": "Buy affordable freelance services on the go",
+     "check": "mismatch"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.kwork.com/",
+     "title": "Homepage",
+     "quote": "listing their services in the Catalog",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Le Forem",
+   "url": "https://www.leforem.be",
+   "hq_country": "BE",
+   "primary_language": "fr",
+   "business_model": "free",
+   "notes": "Public employment service of Wallonia. Employers can publish job offers free of charge on the site. No language switcher, API or partner program for job data found.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.leforem.be/conditions-d-utilisation.html",
+     "title": "Mentions légales",
+     "quote": "dont le siège est établi Boulevard Tirou 104 à 6000 Charleroi",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.leforem.be/conditions-d-utilisation.html",
+     "title": "Mentions légales",
+     "quote": "Le Forem est le service public wallon de l’emploi",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.leforem.be/entreprises/recruter-en-autonomie.html",
+     "title": "Recruter en autonomie",
+     "quote": "déposez-les gratuitement sur notre site web.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.leforem.be/entreprises/recruter-en-autonomie.html",
+     "title": "Recruter en autonomie",
+     "quote": "Diffuser une offre d'emploi",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "OnlineJobs.ph",
+   "url": "https://www.onlinejobs.ph",
+   "primary_language": "en",
+   "business_model": "subscription: free tier, paid monthly plans from $69 USD",
+   "notes": "Employer marketplace for hiring Filipino remote workers. Pricing page shows a free plan and monthly paid plans. No company address, language switcher, API or partner page found on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.onlinejobs.ph/",
+     "title": "Homepage",
+     "quote": "We’re the #1 marketplace for hiring Filipino remote talent.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.onlinejobs.ph/pricing",
+     "title": "Pricing",
+     "quote": "$69 USD Monthly Up to 3 Job Posts per Month",
+     "check": "mismatch"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.onlinejobs.ph/",
+     "title": "Homepage",
+     "quote": "Post a job quickly and easily and let talent come to you.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CareerViet",
+   "url": "https://careerviet.vn",
+   "hq_country": "VN",
+   "primary_language": "vi",
+   "languages_supported": [
+    "vi",
+    "en"
+   ],
+   "notes": "Operated by Công Ty Cổ Phần Giải Pháp CareerViet per the homepage copyright line. Vietnamese site with an EN link. Employer product page shows no prices. Partner websites are listed on the homepage, but no partner program was found.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://careerviet.vn/vi/jobseekers/about",
+     "title": "Về chúng tôi",
+     "quote": "Trụ sở chính: Tầng 6, Tòa nhà VNO, 139 Pasteur, Phường Xuân Hoà, TP. Hồ Chí Minh, Việt Nam",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://careerviet.vn/vi/jobseekers/about",
+     "title": "Về chúng tôi",
+     "quote": "CareerViet.vn - Mạng việc làm quốc tế chuyên biệt cho người Việt tìm việc.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://careerviet.vn/",
+     "title": "Homepage language menu",
+     "quote": "EN",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://careerviet.vn/",
+     "title": "Homepage",
+     "quote": "ĐĂNG TIN TUYỂN DỤNG",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "WeLoveDevs",
+   "url": "https://welovedevs.com",
+   "hq_country": "FR",
+   "business_model": "free and subscription: a job ad can be posted free, or a subscription is available for the CVThèque",
+   "notes": "Legal notice names OUIRECRUIT SAS (Wasquehal, France) as the publisher. No parent company stated. Mixed English and French pages with no language switcher found. No API or partner program found.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://welovedevs.com/legal-notes/",
+     "title": "Mentions Légales",
+     "quote": "Adresse du siège social : 44 avenue de la Marne, 59290 Wasquehal.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://welovedevs.com/recruteurs/recruter-un-developpeur",
+     "title": "Recruter un developpeur",
+     "quote": "vous pourrez diffuser une annonce gratuitement, ou souscrire à un abonnement",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://welovedevs.com/recruteurs/recruter-un-developpeur",
+     "title": "Recruter un developpeur",
+     "quote": "Poster des offres d'emploi",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "SeekOut",
+   "url": "https://www.seekout.com",
+   "hq_country": "US",
+   "primary_language": "en",
+   "business_model": "subscription, per seat: from $149/mo (annual billing), custom pricing for sourcing and integration plans",
+   "partner_program": "yes",
+   "partner_url": "https://www.seekout.com/partners",
+   "api_status": "unknown",
+   "notes": "Recruiting SaaS. The MCP connector page says sign-in is used, with no API keys for standard use. The MCP docs link (docs.seekout.com) returned an HTTP 403 challenge page in the browser reader and was not retried. Houses an ATS integration partner page.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.seekout.com/about-us",
+     "title": "About SeekOut",
+     "quote": "Founded in Bellevue, WA",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.seekout.com/",
+     "title": "Homepage",
+     "quote": "Join 750+ customers who source, screen, and engage talent with SeekOut.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.seekout.com/pricing",
+     "title": "SeekOut Pricing",
+     "quote": "Billed annually · Per-seat pricing adjusts with volume",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.seekout.com/pricing",
+     "title": "SeekOut Pricing",
+     "quote": "$149/mo",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.seekout.com/solutions/mcp",
+     "title": "SeekOut MCP",
+     "quote": "Sign in with your SeekOut account. No API keys needed for standard use.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.seekout.com/partners",
+     "title": "SeekOut Partners",
+     "quote": "Join our Referral Partner Program",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.seekout.com/partners",
+     "title": "SeekOut Partners",
+     "quote": "SeekOut integrates with the leading ATS, CRM and HCM solutions in the market today.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Cadremploi",
+   "url": "https://www.cadremploi.fr/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, legal notice, about, recruiter homepage and tariff pages read; no language options, API or partner page found."
+  },
+  {
+   "name": "National Career Service",
+   "url": "https://www.ncs.gov.in",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, about and terms pages read; language menu shows English and Hindi; no API or partner page linked."
+  },
+  {
+   "name": "Kwork",
+   "url": "https://www.kwork.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage and about page read; company address confirmed; no employer pricing, language switcher, API or partner page found."
+  },
+  {
+   "name": "Le Forem",
+   "url": "https://www.leforem.be",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, legal notice, about, employer and partners pages read; site is in French with no language switcher found; partner page covers institutional partners only."
+  },
+  {
+   "name": "OnlineJobs.ph",
+   "url": "https://www.onlinejobs.ph",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, pricing and about pages read; pricing confirmed; no company address, language switcher, API or partner page found."
+  },
+  {
+   "name": "CareerViet",
+   "url": "https://careerviet.vn",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model",
+    "parent",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, about and employer pages read; address and EN link confirmed; employer product page shows no prices."
+  },
+  {
+   "name": "WeLoveDevs",
+   "url": "https://welovedevs.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, legal notice and recruiter pages read; address and pricing confirmed; no language switcher or API found."
+  },
+  {
+   "name": "SeekOut",
+   "url": "https://www.seekout.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "api_status"
+   ],
+   "method": "browser",
+   "note": "Homepage, pricing, partners, about and MCP pages read; docs.seekout.com returned an HTTP 403 challenge page in the browser reader and was not retried."
+  }
+ ],
+ "blocked": []
 }

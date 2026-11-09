@@ -1,6 +1,6 @@
 # Job boards in Netherlands
 
-17 job boards and related entries based in or serving Netherlands.
+19 job boards and related entries based in or serving Netherlands.
 
 - [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Large tier, Open API (no key)
 - [Randstad](https://jobboardlist.com/boards/randstad/): staffing, Established tier
@@ -11,7 +11,9 @@
 - [iAgora](https://jobboardlist.com/boards/iagora/): niche-board, Small tier
 - [MeesterBaan](https://jobboardlist.com/boards/meesterbaan/): niche-board, Small tier
 - [StudentJob NL](https://jobboardlist.com/boards/studentjob-nl/): niche-board, Small tier
+- [Randstad RiseSmart](https://jobboardlist.com/boards/randstad-risesmart/): outplacement, Small tier
 - [Werken bij de Overheid](https://jobboardlist.com/boards/werken-bij-de-overheid/): government, Small tier
+- [Yacht](https://jobboardlist.com/boards/yacht/): staffing, Small tier
 - [Zorgwerk](https://jobboardlist.com/boards/zorgwerk/): niche-board, Small tier
 - [Together Abroad](https://jobboardlist.com/boards/together-abroad/): niche-board, Small tier
 - [Randstad Digital](https://jobboardlist.com/boards/randstad-digital/): staffing, Small tier

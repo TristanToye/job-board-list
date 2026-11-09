@@ -28,7 +28,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Header language menu lists five languages. Footer shows only a copyright line; headquarters, parent and business model not stated. The /about-us page returned HTTP 404.",
+ "notes": "Header language menu lists five languages. Footer shows only a copyright line; headquarters, parent and business model not stated. The /about-us page returned HTTP 404. Language switcher lists English, Simplified Chinese, German, French (Quebec) and Japanese versions. The who-we-are and locations pages state no headquarters or parent.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/spencer-stuart/",
  "indexable": false,
@@ -47,11 +47,11 @@
  "connections": [],
  "review": {
   "board_id": "spencer-stuart",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
   "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-  "note": "Header lists five languages; no headquarters, parent, pricing, API or partner program stated.",
-  "method": "fetch"
+  "note": "Homepage language switcher lists five versions; who-we-are and locations pages state no headquarters or parent.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -70,6 +70,14 @@
    "title": "Homepage header language menu",
    "accessed": "2026-11-06",
    "quote": "English | 简体中文 | Deutsch | Français (Québec) | 日本語",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.spencerstuart.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Unlocking the Dynamic Board Advantage",
    "quote_check": "ok"
   }
  ]

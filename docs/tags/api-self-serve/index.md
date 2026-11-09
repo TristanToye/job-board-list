@@ -1,6 +1,6 @@
 # Self-serve API
 
-Provides a documented API with a self-serve key. 22 entries in the directory.
+Provides a documented API with a self-serve key. 23 entries in the directory.
 
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
@@ -19,6 +19,7 @@ Provides a documented API with a self-serve key. 22 entries in the directory.
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
+- [Happy Monday](https://jobboardlist.com/boards/happy-monday/): board, Self-serve API key
 - [Jobsuche (Bundesagentur fur Arbeit)](https://jobboardlist.com/boards/jobsuche-ba/): government, Self-serve API key
 - [France Travail](https://jobboardlist.com/boards/francetravail/): government, Self-serve API key
 - [The Muse](https://jobboardlist.com/boards/themuse/): board+employer-brand, Self-serve API key

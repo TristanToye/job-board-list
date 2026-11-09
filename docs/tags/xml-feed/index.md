@@ -1,6 +1,6 @@
 # XML feed
 
-Accepts or publishes jobs through XML feeds. 22 entries in the directory.
+Accepts or publishes jobs through XML feeds. 24 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -16,10 +16,12 @@ Accepts or publishes jobs through XML feeds. 22 entries in the directory.
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
 - [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
+- [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform, API key on request
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Partner-only API
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
 - [Jobs.ca](https://jobboardlist.com/boards/jobs-ca/): board, No known API
 - [JobMail](https://jobboardlist.com/boards/jobmail/): board
+- [Jobilize](https://jobboardlist.com/boards/jobilize/): board, API key on request
 - [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
 - [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API

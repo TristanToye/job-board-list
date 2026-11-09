@@ -28,7 +28,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Footer language list gives five languages. Employer text says posting is free and payment is due when a hire is made. Homepage and the about page (a placeholder) were read. No HQ, parent, API, partner or ingest information stated.",
+ "notes": "Footer language list gives five languages. Employer text says posting is free and payment is due when a hire is made. Homepage and the about page (a placeholder) were read. No HQ, parent, API, partner or ingest information stated. Homepage and language menu read. The employer posting page returned a security challenge in the browser reader and was not retried, so no API or partner information was checked there. Footer shows only a copyright line.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/thai-do/",
  "indexable": false,
@@ -46,11 +46,11 @@
  "connections": [],
  "review": {
   "board_id": "thai-do",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
-  "note": "Homepage read and about page is a placeholder; states five languages and free posting with payment on hire, but no HQ, parent, API or partner.",
-  "method": "fetch"
+  "fields_not_found": "hq_country;parent;partner_program;ingest_methods",
+  "note": "Language menu and free posting stated on the homepage; the employer posting page returned a 403 security challenge in the browser reader and was not retried.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -69,6 +69,14 @@
    "title": "Footer language list",
    "accessed": "2026-11-06",
    "quote": "ไทยEnglishРусский中文မြန်မာ",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://thai.do/",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-09",
+   "quote": "🇬🇧 EN English ภาษาอังกฤษ",
    "quote_check": "ok"
   }
  ]

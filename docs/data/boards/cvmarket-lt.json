@@ -42,11 +42,11 @@
  "connections": [],
  "review": {
   "board_id": "cvmarket-lt",
-  "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;business_model;api_status;partner_program;parent",
-  "note": "Homepage and English page read; language switcher and manual job entry stated, no prices, API, partner program or headquarters.",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Homepage read in fetch and browser; the browser reader returned blocked true for its employer posting and services pages, so no facts are recorded.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

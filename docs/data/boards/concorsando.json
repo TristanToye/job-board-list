@@ -41,11 +41,11 @@
  "connections": [],
  "review": {
   "board_id": "concorsando",
-  "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Footer names EDUMAV GROUP as parent (fetch output only, not in browser text); no country, pricing, API or language options stated.",
-  "method": "mixed"
+  "reviewed": "2026-11-09",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage returned HTTP 200; no about, legal, pricing or developer page is linked from it and it states none of the facts looked for.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],

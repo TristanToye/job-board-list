@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "58-58-com",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;parent;api_status;partner_program",
+  "note": "Homepage redirects to bj.58.com; it lists affiliates and posting links but no pricing amounts, parent, language switcher or API link.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

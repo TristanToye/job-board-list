@@ -1,120 +1,380 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Statistik Austria",
+   "url": "https://www.statistik.at",
+   "primary_language": "de",
+   "languages_supported": [
+    "de",
+    "en"
+   ],
+   "api_status": "unknown",
+   "notes": "Federal statistics office (Bundesanstalt Statistik Osterreich). Careers page lists job offers and is shown in German only. No developer or API page was identified on the site.",
+   "sources": [
     {
-      "name": "Statistik Austria",
-      "url": "https://www.statistik.at",
-      "primary_language": "de",
-      "languages_supported": ["de", "en"],
-      "api_status": "unknown",
-      "notes": "Federal statistics office (Bundesanstalt Statistik Osterreich). Careers page lists job offers and is shown in German only. No developer or API page was identified on the site.",
-      "sources": [
-        {"field": "hq_country", "url": "https://www.statistik.at/en/about-us/responsibilities-and-principles/legal-basis/legal-notice", "title": "Legal notice", "quote": "Bundesanstalt „Statistik Österreich“ is not responsible for the content of other websites."},
-        {"field": "languages", "url": "https://www.statistik.at/en/ueber-uns/karriere/jobangebote", "title": "Careers page", "quote": "The standard language \"German\" is displayed."},
-        {"field": "languages", "url": "https://www.statistik.at/en", "title": "Homepage language switch", "quote": "EN"}
-      ]
+     "field": "hq_country",
+     "url": "https://www.statistik.at/en/about-us/responsibilities-and-principles/legal-basis/legal-notice",
+     "title": "Legal notice",
+     "quote": "Bundesanstalt „Statistik Österreich“ is not responsible for the content of other websites.",
+     "check": "ok"
     },
     {
-      "name": "Työmarkkinatori",
-      "url": "https://tyomarkkinatori.fi",
-      "primary_language": "fi",
-      "languages_supported": ["fi", "sv", "en"],
-      "api_status": "on-request",
-      "api_docs_url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
-      "partner_program": "yes",
-      "partner_url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat",
-      "notes": "Public employment marketplace run by KEHA-keskus (footer: © KEHA-keskus). Two job-posting APIs: a management interface for posting jobs and a search interface. Access requires an application form and terms acceptance. Old interfaces are being retired in May 2027 per the page. Quotes are in Finnish.",
-      "sources": [
-        {"field": "languages", "url": "https://tyomarkkinatori.fi/henkiloasiakkaat", "title": "Language selector", "quote": "Valitse kieli. Välj språk. Choose language."},
-        {"field": "languages", "url": "https://tyomarkkinatori.fi/henkiloasiakkaat", "title": "Language menu", "quote": "Suomi (FI) | Svenska (SV) | English (EN)"},
-        {"field": "api_status", "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat", "title": "Job posting interfaces", "quote": "Rajapinnan käyttöönotto vaatii käyttöönottoilmoituksen ja käyttöehtojen hyväksymisen."},
-        {"field": "api_status", "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat", "title": "Job posting interfaces", "quote": "toimittaa tarvittavat tiedot KEHA-keskukselle käyttöönottoilmoitus-lomakkeella."},
-        {"field": "ingest_methods", "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat", "title": "Job posting interfaces", "quote": "Työmarkkinatori-palvelualustalla on kaksi työpaikkailmoituksiin liittyvää ohjelmallista rajapintaa (API)"},
-        {"field": "partner_program", "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat", "title": "Interfaces", "quote": "Ohjeita ja tukea yhteistyökumppaneille"}
-      ]
+     "field": "languages",
+     "url": "https://www.statistik.at/en/ueber-uns/karriere/jobangebote",
+     "title": "Careers page",
+     "quote": "The standard language \"German\" is displayed.",
+     "check": "ok"
     },
     {
-      "name": "Happy Monday",
-      "url": "https://happymonday.ua",
-      "primary_language": "uk",
-      "languages_supported": ["uk"],
-      "business_model": "paid job listings from 1799 UAH; employer profile from 6000 UAH per month",
-      "api_status": "public-key",
-      "api_docs_url": "https://happymonday.ua/developers/api/v4",
-      "notes": "Ukrainian job platform. A public job feed (JSON and XML) needs no key and is rate limited to 30 requests per minute per IP. The API v4 needs a company key created in the company cabinet. Only Ukrainian language switch was seen. No partner program was stated. Prices shown on the employer services page.",
-      "sources": [
-        {"field": "languages", "url": "https://happymonday.ua/", "title": "Homepage language switch", "quote": "Укр"},
-        {"field": "business_model", "url": "https://happymonday.ua/services", "title": "Services", "quote": "Розміщення вакансій"},
-        {"field": "business_model", "url": "https://happymonday.ua/services", "title": "Services", "quote": "Від 1799 грн"},
-        {"field": "api_status", "url": "https://happymonday.ua/developers/api/v4", "title": "API v4 documentation", "quote": "Access to API is available only with active API key, which you can create or revoke at any time in company cabinet."},
-        {"field": "api_status", "url": "https://happymonday.ua/developers/job-feed", "title": "Public job feed", "quote": "Без реєстрації і без API-ключа"},
-        {"field": "ingest_methods", "url": "https://happymonday.ua/developers", "title": "Developers", "quote": "Якщо ви представляєте компанію-роботодавця і хочете інтегрувати публікацію вакансій і отримання відгуків напряму через API"}
-      ]
-    },
-    {
-      "name": "Flexa",
-      "url": "https://flexa.careers/",
-      "hq_country": "GB",
-      "api_status": "unknown",
-      "notes": "Employer brand and job discovery site. Terms name Flexa Ltd as operator. No parent company, pricing or API page was stated on the pages checked.",
-      "sources": [
-        {"field": "hq_country", "url": "https://flexa.careers/terms", "title": "Terms and conditions", "quote": "is run and maintained by Flexa Ltd (Flexa), a company registered in England and Wales"},
-        {"field": "hq_country", "url": "https://flexa.careers/terms", "title": "Terms and conditions", "quote": "whose registered office is at Studio 41, Containerville"}
-      ]
-    },
-    {
-      "name": "Cia de Talentos",
-      "url": "https://www.ciadetalentos.com.br",
-      "primary_language": "pt",
-      "languages_supported": ["pt"],
-      "api_status": "unknown",
-      "notes": "Brazilian internship and trainee job board. Vacancies are linked to several external candidate systems (vagas.ciadetalentos.com.br, atsglobe, bettha). Employer page describes services, no prices stated. Only Portuguese was seen in the language switch.",
-      "sources": [
-        {"field": "languages", "url": "https://www.ciadetalentos.com.br/", "title": "Homepage language switch", "quote": "PT"},
-        {"field": "languages", "url": "https://www.ciadetalentos.com.br/empresa.html", "title": "Employer page", "quote": "países com atuação global"}
-      ]
-    },
-    {
-      "name": "Yacht",
-      "url": "https://www.randstadprofessional.nl/",
-      "primary_language": "nl",
-      "hq_country": "NL",
-      "parent": "Randstad N.V.",
-      "api_status": "unknown",
-      "notes": "Yacht continues under the Randstad Professional brand. The brand name is a registered trademark of Randstad N.V. Head office is in Diemen. No pricing, API or partner program was stated on the pages checked.",
-      "sources": [
-        {"field": "hq_country", "url": "https://www.randstadprofessional.nl/over-ons", "title": "Over ons", "quote": "hoofdkantoor Randstad Professional"},
-        {"field": "hq_country", "url": "https://www.randstadprofessional.nl/over-ons", "title": "Over ons", "quote": "1112TC Diemen"},
-        {"field": "parent", "url": "https://www.randstadprofessional.nl/over-ons", "title": "Over ons", "quote": "RANDSTAD PROFESSIONAL is een geregistreerd handelsmerk van Randstad N.V."},
-        {"field": "parent", "url": "https://www.randstadprofessional.nl/over-ons", "title": "Over ons", "quote": "bundelen Randstad en Yacht hun krachten en dienstverlening nog intensiever"},
-        {"field": "languages", "url": "https://www.randstadprofessional.nl/", "title": "Homepage", "quote": "vacature plaatsen"}
-      ]
-    },
-    {
-      "name": "TopResume",
-      "url": "https://www.topresume.com",
-      "api_status": "unknown",
-      "notes": "Resume-writing and career tools service aimed at job seekers, not an employer job board. Candidate plans are listed at 24.95 per month for the DIY tools and from 179 for resume writing. The plans page links to an api.topresume.com consultation endpoint, which is not a documented public API. The FAQ says TopResume is the world's largest resume-writing service. No headquarters, parent, language switch or employer pricing was found.",
-      "sources": []
-    },
-    {
-      "name": "Novoresume",
-      "url": "https://www.novoresume.com",
-      "api_status": "unknown",
-      "notes": "Resume builder aimed at job seekers, not an employer job board. Free plan and paid plans are offered to candidates. No headquarters, parent, language switch or employer pricing was found on the pages checked.",
-      "sources": []
+     "field": "languages",
+     "url": "https://www.statistik.at/en",
+     "title": "Homepage language switch",
+     "quote": "EN",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Statistik Austria", "url": "https://www.statistik.at", "outcome": "partially-verified", "fields_not_found": ["parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Legal notice names the federal Bundesanstalt Statistik Osterreich; careers page and homepage show language options; no developer or API page identified."},
-    {"name": "Työmarkkinatori", "url": "https://tyomarkkinatori.fi", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model"], "method": "browser", "note": "Language menu, job posting API access terms and partner page confirmed; operator footer reads KEHA-keskus; no headquarters or prices stated."},
-    {"name": "Happy Monday", "url": "https://happymonday.ua", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "partner_program"], "method": "browser", "note": "Services page shows listing prices; developer pages document a public feed and API v4 with self-serve keys; no headquarters or parent stated."},
-    {"name": "Flexa", "url": "https://flexa.careers/", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Terms name Flexa Ltd, registered in England and Wales; no parent, pricing, language switch or developer page found."},
-    {"name": "Cia de Talentos", "url": "https://www.ciadetalentos.com.br", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Only Portuguese language option seen; employer page lists services without prices; no headquarters or API stated."},
-    {"name": "Yacht", "url": "https://www.randstadprofessional.nl/", "outcome": "partially-verified", "fields_not_found": ["languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Over ons page names Randstad N.V. as owner and Diemen as head office; posting page shows no prices; no API or partner page found."},
-    {"name": "TopResume", "url": "https://www.topresume.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "parent", "ingest_methods"], "method": "browser", "note": "Homepage, FAQ and plans pages read; they state no headquarters, parent, language options, employer business model or API."},
-    {"name": "Novoresume", "url": "https://www.novoresume.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage and pricing page read; they state no headquarters, parent, language options or employer model. Footer and developer pages were not reachable from the homepage links."}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Työmarkkinatori",
+   "url": "https://tyomarkkinatori.fi",
+   "primary_language": "fi",
+   "languages_supported": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "api_status": "on-request",
+   "api_docs_url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
+   "partner_program": "yes",
+   "partner_url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat",
+   "notes": "Public employment marketplace run by KEHA-keskus (footer: © KEHA-keskus). Two job-posting APIs: a management interface for posting jobs and a search interface. Access requires an application form and terms acceptance. Old interfaces are being retired in May 2027 per the page. Quotes are in Finnish.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat",
+     "title": "Language selector",
+     "quote": "Valitse kieli. Välj språk. Choose language.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat",
+     "title": "Language menu",
+     "quote": "Suomi (FI) | Svenska (SV) | English (EN)",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
+     "title": "Job posting interfaces",
+     "quote": "Rajapinnan käyttöönotto vaatii käyttöönottoilmoituksen ja käyttöehtojen hyväksymisen.",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
+     "title": "Job posting interfaces",
+     "quote": "toimittaa tarvittavat tiedot KEHA-keskukselle käyttöönottoilmoitus-lomakkeella.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
+     "title": "Job posting interfaces",
+     "quote": "Työmarkkinatori-palvelualustalla on kaksi työpaikkailmoituksiin liittyvää ohjelmallista rajapintaa (API)",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat",
+     "title": "Interfaces",
+     "quote": "Ohjeita ja tukea yhteistyökumppaneille",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Happy Monday",
+   "url": "https://happymonday.ua",
+   "primary_language": "uk",
+   "languages_supported": [
+    "uk"
+   ],
+   "business_model": "paid job listings from 1799 UAH; employer profile from 6000 UAH per month",
+   "api_status": "public-key",
+   "api_docs_url": "https://happymonday.ua/developers/api/v4",
+   "notes": "Ukrainian job platform. A public job feed (JSON and XML) needs no key and is rate limited to 30 requests per minute per IP. The API v4 needs a company key created in the company cabinet. Only Ukrainian language switch was seen. No partner program was stated. Prices shown on the employer services page.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://happymonday.ua/",
+     "title": "Homepage language switch",
+     "quote": "Укр",
+     "check": "mismatch"
+    },
+    {
+     "field": "business_model",
+     "url": "https://happymonday.ua/services",
+     "title": "Services",
+     "quote": "Розміщення вакансій",
+     "check": "mismatch"
+    },
+    {
+     "field": "business_model",
+     "url": "https://happymonday.ua/services",
+     "title": "Services",
+     "quote": "Від 1799 грн",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://happymonday.ua/developers/api/v4",
+     "title": "API v4 documentation",
+     "quote": "Access to API is available only with active API key, which you can create or revoke at any time in company cabinet.",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://happymonday.ua/developers/job-feed",
+     "title": "Public job feed",
+     "quote": "Без реєстрації і без API-ключа",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://happymonday.ua/developers",
+     "title": "Developers",
+     "quote": "Якщо ви представляєте компанію-роботодавця і хочете інтегрувати публікацію вакансій і отримання відгуків напряму через API",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Flexa",
+   "url": "https://flexa.careers/",
+   "hq_country": "GB",
+   "api_status": "unknown",
+   "notes": "Employer brand and job discovery site. Terms name Flexa Ltd as operator. No parent company, pricing or API page was stated on the pages checked.",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://flexa.careers/terms",
+     "title": "Terms and conditions",
+     "quote": "is run and maintained by Flexa Ltd (Flexa), a company registered in England and Wales",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://flexa.careers/terms",
+     "title": "Terms and conditions",
+     "quote": "whose registered office is at Studio 41, Containerville",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Cia de Talentos",
+   "url": "https://www.ciadetalentos.com.br",
+   "primary_language": "pt",
+   "languages_supported": [
+    "pt"
+   ],
+   "api_status": "unknown",
+   "notes": "Brazilian internship and trainee job board. Vacancies are linked to several external candidate systems (vagas.ciadetalentos.com.br, atsglobe, bettha). Employer page describes services, no prices stated. Only Portuguese was seen in the language switch.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.ciadetalentos.com.br/",
+     "title": "Homepage language switch",
+     "quote": "PT",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.ciadetalentos.com.br/empresa.html",
+     "title": "Employer page",
+     "quote": "países com atuação global",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Yacht",
+   "url": "https://www.randstadprofessional.nl/",
+   "primary_language": "nl",
+   "hq_country": "NL",
+   "parent": "Randstad N.V.",
+   "api_status": "unknown",
+   "notes": "Yacht continues under the Randstad Professional brand. The brand name is a registered trademark of Randstad N.V. Head office is in Diemen. No pricing, API or partner program was stated on the pages checked.",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.randstadprofessional.nl/over-ons",
+     "title": "Over ons",
+     "quote": "hoofdkantoor Randstad Professional",
+     "check": "ok"
+    },
+    {
+     "field": "hq_country",
+     "url": "https://www.randstadprofessional.nl/over-ons",
+     "title": "Over ons",
+     "quote": "1112TC Diemen",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.randstadprofessional.nl/over-ons",
+     "title": "Over ons",
+     "quote": "RANDSTAD PROFESSIONAL is een geregistreerd handelsmerk van Randstad N.V.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.randstadprofessional.nl/over-ons",
+     "title": "Over ons",
+     "quote": "bundelen Randstad en Yacht hun krachten en dienstverlening nog intensiever",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.randstadprofessional.nl/",
+     "title": "Homepage",
+     "quote": "vacature plaatsen",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "api_status": "unknown",
+   "notes": "Resume-writing and career tools service aimed at job seekers, not an employer job board. Candidate plans are listed at 24.95 per month for the DIY tools and from 179 for resume writing. The plans page links to an api.topresume.com consultation endpoint, which is not a documented public API. The FAQ says TopResume is the world's largest resume-writing service. No headquarters, parent, language switch or employer pricing was found.",
+   "sources": []
+  },
+  {
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "api_status": "unknown",
+   "notes": "Resume builder aimed at job seekers, not an employer job board. Free plan and paid plans are offered to candidates. No headquarters, parent, language switch or employer pricing was found on the pages checked.",
+   "sources": []
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Statistik Austria",
+   "url": "https://www.statistik.at",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Legal notice names the federal Bundesanstalt Statistik Osterreich; careers page and homepage show language options; no developer or API page identified."
+  },
+  {
+   "name": "Työmarkkinatori",
+   "url": "https://tyomarkkinatori.fi",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model"
+   ],
+   "method": "browser",
+   "note": "Language menu, job posting API access terms and partner page confirmed; operator footer reads KEHA-keskus; no headquarters or prices stated."
+  },
+  {
+   "name": "Happy Monday",
+   "url": "https://happymonday.ua",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Services page shows listing prices; developer pages document a public feed and API v4 with self-serve keys; no headquarters or parent stated."
+  },
+  {
+   "name": "Flexa",
+   "url": "https://flexa.careers/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Terms name Flexa Ltd, registered in England and Wales; no parent, pricing, language switch or developer page found."
+  },
+  {
+   "name": "Cia de Talentos",
+   "url": "https://www.ciadetalentos.com.br",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Only Portuguese language option seen; employer page lists services without prices; no headquarters or API stated."
+  },
+  {
+   "name": "Yacht",
+   "url": "https://www.randstadprofessional.nl/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Over ons page names Randstad N.V. as owner and Diemen as head office; posting page shows no prices; no API or partner page found."
+  },
+  {
+   "name": "TopResume",
+   "url": "https://www.topresume.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage, FAQ and plans pages read; they state no headquarters, parent, language options, employer business model or API."
+  },
+  {
+   "name": "Novoresume",
+   "url": "https://www.novoresume.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage and pricing page read; they state no headquarters, parent, language options or employer model. Footer and developer pages were not reachable from the homepage links."
+  }
+ ],
+ "blocked": []
 }

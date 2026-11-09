@@ -4,7 +4,7 @@
  "url": "https://www.mycareersfuture.gov.sg",
  "domains": "",
  "type": "government",
- "hq_country": "",
+ "hq_country": "SG",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Site header states it is a Singapore Government Agency Website. Homepage text is only 'Loading...' in the fetch tool and browser reader; /about and /employers return a page-not-found message.",
+ "notes": "Site header states it is a Singapore Government Agency Website. Homepage text is only 'Loading...' in the fetch tool and browser reader; /about and /employers return a page-not-found message. Singapore government jobs portal. Only the homepage could be read in full; a retry of the browser reader returned a loading placeholder. Operating agency, languages, employer pricing and API were not found on the homepage.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/mycareersfuture/",
  "indexable": false,
@@ -46,8 +46,8 @@
   "board_id": "mycareersfuture",
   "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage shows only 'Loading...' in fetch and browser reader; /about and /employers return a page-not-found message.",
+  "fields_not_found": "languages;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage read (HTTP 200) with fetch and browser reader; only the government-agency line was stated, and the browser retry returned a loading placeholder.",
   "method": "mixed"
  },
  "owners": [],
@@ -65,6 +65,14 @@
    "field": "existence",
    "url": "https://www.mycareersfuture.gov.sg/about",
    "title": "Site header (about page)",
+   "accessed": "2026-11-09",
+   "quote": "A Singapore Government Agency Website",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.mycareersfuture.gov.sg",
+   "title": "Homepage",
    "accessed": "2026-11-09",
    "quote": "A Singapore Government Agency Website",
    "quote_check": "ok"

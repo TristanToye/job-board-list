@@ -1,98 +1,344 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "The Adecco Group",
+   "url": "https://www.adecco.com",
+   "hq_country": "CH",
+   "parent": "The Adecco Group",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "notes": "Employer pages state that Adecco is part of The Adecco Group and headquartered in Zurich. No pricing, API or partner page was found.",
+   "sources": [
     {
-      "name": "The Adecco Group",
-      "url": "https://www.adecco.com",
-      "hq_country": "CH",
-      "parent": "The Adecco Group",
-      "primary_language": "en",
-      "languages_supported": ["en"],
-      "notes": "Employer pages state that Adecco is part of The Adecco Group and headquartered in Zurich. No pricing, API or partner page was found.",
-      "sources": [
-        {"field": "languages", "url": "https://www.adecco.com/", "title": "Homepage", "quote": "Global (English)"},
-        {"field": "languages", "url": "https://www.adecco.com/", "title": "Homepage", "quote": "We are part of The Adecco Group, the world’s leading talent, technology and advisory company"},
-        {"field": "existence", "url": "https://www.adecco.com/employers/who-we-are", "title": "Who we are", "quote": "Adecco is part of The Adecco Group and headquartered in Zurich, Switzerland."},
-        {"field": "parent", "url": "https://www.adecco.com/employers/who-we-are", "title": "Who we are", "quote": "Adecco is part of The Adecco Group"}
-      ]
+     "field": "languages",
+     "url": "https://www.adecco.com/",
+     "title": "Homepage",
+     "quote": "Global (English)",
+     "check": "ok"
     },
     {
-      "name": "Russell Reynolds Associates",
-      "url": "https://www.russellreynolds.com",
-      "primary_language": "en",
-      "languages_supported": ["en"],
-      "notes": "The language switcher text shows only EN. Other options named in the fetch summary were not in the reader text, so none are recorded. The locations page gives a New York office address with no headquarters statement.",
-      "sources": [
-        {"field": "languages", "url": "https://www.russellreynolds.com/", "title": "Homepage", "quote": "Your Leadership Challenges, Solved."},
-        {"field": "languages", "url": "https://www.russellreynolds.com/", "title": "Language switcher", "quote": "EN"}
-      ]
+     "field": "languages",
+     "url": "https://www.adecco.com/",
+     "title": "Homepage",
+     "quote": "We are part of The Adecco Group, the world’s leading talent, technology and advisory company",
+     "check": "ok"
     },
     {
-      "name": "Spencer Stuart",
-      "url": "https://www.spencerstuart.com",
-      "primary_language": "en",
-      "languages_supported": ["en", "zh", "de", "fr", "ja"],
-      "notes": "Language switcher lists English, Simplified Chinese, German, French (Quebec) and Japanese versions. The who-we-are and locations pages state no headquarters or parent.",
-      "sources": [
-        {"field": "languages", "url": "https://www.spencerstuart.com/", "title": "Homepage", "quote": "Unlocking the Dynamic Board Advantage"},
-        {"field": "languages", "url": "https://www.spencerstuart.com/", "title": "Language switcher", "quote": "English"},
-        {"field": "languages", "url": "https://www.spencerstuart.com/", "title": "Language switcher", "quote": "简体中文"},
-        {"field": "languages", "url": "https://www.spencerstuart.com/", "title": "Language switcher", "quote": "Deutsch"},
-        {"field": "languages", "url": "https://www.spencerstuart.com/", "title": "Language switcher", "quote": "Français (Québec)"},
-        {"field": "languages", "url": "https://www.spencerstuart.com/", "title": "Language switcher", "quote": "日本語"}
-      ]
+     "field": "existence",
+     "url": "https://www.adecco.com/employers/who-we-are",
+     "title": "Who we are",
+     "quote": "Adecco is part of The Adecco Group and headquartered in Zurich, Switzerland.",
+     "check": "ok"
     },
     {
-      "name": "YoungCapital",
-      "url": "https://www.youngcapital.nl",
-      "primary_language": "nl",
-      "notes": "Site is in Dutch with no language switcher. The employer services page has a cost calculator but shows no prices.",
-      "sources": [
-        {"field": "languages", "url": "https://www.youngcapital.nl/", "title": "Homepage", "quote": "Schrijf je in als werkzoekende."}
-      ]
-    },
-    {
-      "name": "İŞKUR (Türkiye İş Kurumu)",
-      "url": "https://www.iskur.gov.tr",
-      "hq_country": "TR",
-      "primary_language": "tr",
-      "languages_supported": ["tr", "en"],
-      "ingest_methods": ["manual posting"],
-      "notes": "Switcher shows TR and EN. The homepage gives an Ankara address. Registered employers can post job ads through the online system. No fee, API or partner statement was found.",
-      "sources": [
-        {"field": "languages", "url": "https://www.iskur.gov.tr/", "title": "Homepage language switcher", "quote": "TR EN"},
-        {"field": "languages", "url": "https://www.iskur.gov.tr/", "title": "Homepage", "quote": "İş Bulmanın En İyi Yeri"},
-        {"field": "existence", "url": "https://www.iskur.gov.tr/", "title": "Homepage footer address", "quote": "Emniyet Mahallesi Mevlana Bulvarı (Konya Yolu) No:42 Yenimahalle / ANKARA"},
-        {"field": "ingest_methods", "url": "https://www.iskur.gov.tr/isveren/kayit/", "title": "Employer registration", "quote": "İş ilanı verebilir ve uygun gördükleri elemanları davet ederek eleman ihtiyacı süreçlerini tamamlayabilirler."}
-      ]
-    },
-    {
-      "name": "Allegis Group",
-      "url": "https://www.allegisgroup.com",
-      "primary_language": "en",
-      "languages_supported": ["en"],
-      "notes": "Language selector lists United States, EMEA and APAC English versions. The contact page names regional headquarters without a country.",
-      "sources": [
-        {"field": "languages", "url": "https://www.allegisgroup.com/", "title": "Homepage", "quote": "Our companies span virtually all industries and markets"},
-        {"field": "languages", "url": "https://www.allegisgroup.com/", "title": "Homepage language selector", "quote": "Language Selector"},
-        {"field": "languages", "url": "https://www.allegisgroup.com/", "title": "Homepage language selector", "quote": "EMEA - English"},
-        {"field": "languages", "url": "https://www.allegisgroup.com/", "title": "Homepage language selector", "quote": "APAC - English"}
-      ]
+     "field": "parent",
+     "url": "https://www.adecco.com/employers/who-we-are",
+     "title": "Who we are",
+     "quote": "Adecco is part of The Adecco Group",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "The Adecco Group", "url": "https://www.adecco.com", "outcome": "partially-verified", "fields_not_found": ["business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage, who-we-are and FAQ pages state the group parent and Zurich headquarters; no pricing, API or partner page was found."},
-    {"name": "Russell Reynolds Associates", "url": "https://www.russellreynolds.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage, about and locations pages state English and a New York office address but no headquarters or parent."},
-    {"name": "Spencer Stuart", "url": "https://www.spencerstuart.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage language switcher lists five versions; who-we-are and locations pages state no headquarters or parent."},
-    {"name": "YoungCapital", "url": "https://www.youngcapital.nl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Site is Dutch with no language switcher; employer services and about pages state no headquarters, parent, prices or API."},
-    {"name": "İŞKUR (Türkiye İş Kurumu)", "url": "https://www.iskur.gov.tr", "outcome": "partially-verified", "fields_not_found": ["parent", "business_model", "api_status", "partner_program"], "method": "mixed", "note": "Homepage, employer registration and English pages state TR and EN, an Ankara address and online job posting; no fees, API or partner page is linked."},
-    {"name": "CVMarket.lt", "url": "https://www.cvmarket.lt", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "Homepage read in fetch and browser; the browser reader returned blocked true for its employer posting and services pages, so no facts are recorded."},
-    {"name": "Pro Bono Australia Jobs", "url": "https://www.probonoaustralia.com.au/", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "Browser reader returned HTTP 502 with blocked true on the homepage; fetch read the page but no facts are recorded."},
-    {"name": "Allegis Group", "url": "https://www.allegisgroup.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Language selector and contact page state English versions and regional headquarters, but no country headquarters, parent, pricing or API."}
-  ],
-  "blocked": [
-    {"name": "CVMarket.lt", "url": "https://www.cvmarket.lt", "reason": "Browser reader returned blocked true for employer posting and services pages"},
-    {"name": "Pro Bono Australia Jobs", "url": "https://www.probonoaustralia.com.au/", "reason": "HTTP 502 with blocked true in the browser reader"}
-  ]
+   ]
+  },
+  {
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "notes": "The language switcher text shows only EN. Other options named in the fetch summary were not in the reader text, so none are recorded. The locations page gives a New York office address with no headquarters statement.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com/",
+     "title": "Homepage",
+     "quote": "Your Leadership Challenges, Solved.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com/",
+     "title": "Language switcher",
+     "quote": "EN",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Spencer Stuart",
+   "url": "https://www.spencerstuart.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "zh",
+    "de",
+    "fr",
+    "ja"
+   ],
+   "notes": "Language switcher lists English, Simplified Chinese, German, French (Quebec) and Japanese versions. The who-we-are and locations pages state no headquarters or parent.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.spencerstuart.com/",
+     "title": "Homepage",
+     "quote": "Unlocking the Dynamic Board Advantage",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.spencerstuart.com/",
+     "title": "Language switcher",
+     "quote": "English",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.spencerstuart.com/",
+     "title": "Language switcher",
+     "quote": "简体中文",
+     "check": "mismatch"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.spencerstuart.com/",
+     "title": "Language switcher",
+     "quote": "Deutsch",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.spencerstuart.com/",
+     "title": "Language switcher",
+     "quote": "Français (Québec)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.spencerstuart.com/",
+     "title": "Language switcher",
+     "quote": "日本語",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "YoungCapital",
+   "url": "https://www.youngcapital.nl",
+   "primary_language": "nl",
+   "notes": "Site is in Dutch with no language switcher. The employer services page has a cost calculator but shows no prices.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.youngcapital.nl/",
+     "title": "Homepage",
+     "quote": "Schrijf je in als werkzoekende.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "İŞKUR (Türkiye İş Kurumu)",
+   "url": "https://www.iskur.gov.tr",
+   "hq_country": "TR",
+   "primary_language": "tr",
+   "languages_supported": [
+    "tr",
+    "en"
+   ],
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Switcher shows TR and EN. The homepage gives an Ankara address. Registered employers can post job ads through the online system. No fee, API or partner statement was found.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.iskur.gov.tr/",
+     "title": "Homepage language switcher",
+     "quote": "TR EN",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.iskur.gov.tr/",
+     "title": "Homepage",
+     "quote": "İş Bulmanın En İyi Yeri",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.iskur.gov.tr/",
+     "title": "Homepage footer address",
+     "quote": "Emniyet Mahallesi Mevlana Bulvarı (Konya Yolu) No:42 Yenimahalle / ANKARA",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.iskur.gov.tr/isveren/kayit/",
+     "title": "Employer registration",
+     "quote": "İş ilanı verebilir ve uygun gördükleri elemanları davet ederek eleman ihtiyacı süreçlerini tamamlayabilirler.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Allegis Group",
+   "url": "https://www.allegisgroup.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "notes": "Language selector lists United States, EMEA and APAC English versions. The contact page names regional headquarters without a country.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.allegisgroup.com/",
+     "title": "Homepage",
+     "quote": "Our companies span virtually all industries and markets",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.allegisgroup.com/",
+     "title": "Homepage language selector",
+     "quote": "Language Selector",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.allegisgroup.com/",
+     "title": "Homepage language selector",
+     "quote": "EMEA - English",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.allegisgroup.com/",
+     "title": "Homepage language selector",
+     "quote": "APAC - English",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "The Adecco Group",
+   "url": "https://www.adecco.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage, who-we-are and FAQ pages state the group parent and Zurich headquarters; no pricing, API or partner page was found."
+  },
+  {
+   "name": "Russell Reynolds Associates",
+   "url": "https://www.russellreynolds.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage, about and locations pages state English and a New York office address but no headquarters or parent."
+  },
+  {
+   "name": "Spencer Stuart",
+   "url": "https://www.spencerstuart.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage language switcher lists five versions; who-we-are and locations pages state no headquarters or parent."
+  },
+  {
+   "name": "YoungCapital",
+   "url": "https://www.youngcapital.nl",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Site is Dutch with no language switcher; employer services and about pages state no headquarters, parent, prices or API."
+  },
+  {
+   "name": "İŞKUR (Türkiye İş Kurumu)",
+   "url": "https://www.iskur.gov.tr",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage, employer registration and English pages state TR and EN, an Ankara address and online job posting; no fees, API or partner page is linked."
+  },
+  {
+   "name": "CVMarket.lt",
+   "url": "https://www.cvmarket.lt",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Homepage read in fetch and browser; the browser reader returned blocked true for its employer posting and services pages, so no facts are recorded."
+  },
+  {
+   "name": "Pro Bono Australia Jobs",
+   "url": "https://www.probonoaustralia.com.au/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Browser reader returned HTTP 502 with blocked true on the homepage; fetch read the page but no facts are recorded."
+  },
+  {
+   "name": "Allegis Group",
+   "url": "https://www.allegisgroup.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Language selector and contact page state English versions and regional headquarters, but no country headquarters, parent, pricing or API."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "CVMarket.lt",
+   "url": "https://www.cvmarket.lt",
+   "reason": "Browser reader returned blocked true for employer posting and services pages"
+  },
+  {
+   "name": "Pro Bono Australia Jobs",
+   "url": "https://www.probonoaustralia.com.au/",
+   "reason": "HTTP 502 with blocked true in the browser reader"
+  }
+ ]
 }

@@ -834,3 +834,10 @@ STARTUPLAB Jobs,https://jobs.startuplab.no,ZZ,verification,"Browser reader block
 Offentliga Jobb,https://www.offentligajobb.se,ZZ,verification,"Browser reader status 500, blocked true, The URL you requested has been blocked",2026-11-09
 Jobly,https://www.jobly.fi,ZZ,verification,HTTP 403 with challenge page in the browser reader,2026-11-09
 OLX Portugal Emprego,https://www.olx.pt/emprego/,ZZ,verification,HTTP 405 with 'Let's confirm you are human' challenge in the browser reader,2026-11-09
+Snagajob,https://www.snagajob.com/,ZZ,verification,HTTP 403 challenge page; browser reader returned blocked=true,2026-11-09
+CVMarket.lt,https://www.cvmarket.lt,ZZ,verification,Browser reader returned blocked true for employer posting and services pages,2026-11-09
+Pro Bono Australia Jobs,https://www.probonoaustralia.com.au/,ZZ,verification,HTTP 502 with blocked true in the browser reader,2026-11-09
+Incruit,https://www.incruit.com,ZZ,verification,Employer product page https://recruiter.incruit.com/service/recruiterservice.asp?mm=0200 returned HTTP 502 with blocked true in the browser reader,2026-11-09
+CharityJob,https://www.charityjob.co.uk,ZZ,verification,HTTP 403 in fetch; Cloudflare verification page in the browser reader,2026-11-09
+VietnamWorks,https://www.vietnamworks.com,ZZ,verification,HTTP 403 with blocked true in the browser reader,2026-11-09
+doda,https://www.doda.jp/,ZZ,verification,Browser reader returned blocked: true,2026-11-09

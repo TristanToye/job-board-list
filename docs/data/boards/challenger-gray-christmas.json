@@ -41,11 +41,11 @@
  "connections": [],
  "review": {
   "board_id": "challenger-gray-christmas",
-  "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "parent",
-  "note": "The founding quote names a founder called James and does not name the firm, so founded 1966 is partially verified. Our Team page gave no founding year or parent. Footer copyright year is not a founding statement.",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Home and About pages read (HTTP 200); they give Chicago as headquarters city and no country, parent, language, pricing or API information.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

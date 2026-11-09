@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "incruit",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+  "note": "Homepage and About read; the employer product page returned HTTP 502 and blocked true in the browser reader, not retried.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

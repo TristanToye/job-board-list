@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Page is in French. States employers can post offers for free; no prices shown. Footer names StudentJob International as a YoungCapital subsidiary. No language switcher or API found.",
+ "notes": "Page is in French. States employers can post offers for free; no prices shown. Footer names StudentJob International as a YoungCapital subsidiary. No language switcher or API found. Footer names StudentJob International as operator and YoungCapital as parent. The employer page offers a free posting and paid premium offers. The partner page has unrendered template text only. No API or feed details found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/studentjob-fr/",
  "indexable": false,
@@ -42,11 +42,11 @@
  "connections": [],
  "review": {
   "board_id": "studentjob-fr",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
   "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
-  "note": "Homepage and footer read; parent company and free employer posting stated; no language switcher, API or headquarters found.",
-  "method": "fetch"
+  "note": "Footer states YoungCapital as parent; employer page shows free and premium postings; partner page has no rendered content.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -73,6 +73,22 @@
    "title": "Homepage",
    "accessed": "2026-11-06",
    "quote": "Postez une offre d'emploi gratuitement sur StudentJob dès aujourd'hui",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.studentjob.fr/",
+   "title": "Homepage footer",
+   "accessed": "2026-11-09",
+   "quote": "StudentJob International est une filiale de YoungCapital",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.studentjob.fr/offre-demploi-gratuitement",
+   "title": "Employer job posting page",
+   "accessed": "2026-11-09",
+   "quote": "Publiez une offre d'emploi gratuite et trouvez du personnel",
    "quote_check": "ok"
   }
  ]

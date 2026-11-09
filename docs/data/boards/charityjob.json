@@ -42,11 +42,11 @@
  "connections": [],
  "review": {
   "board_id": "charityjob",
-  "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
-  "note": "Recruiters page states per-advert pricing; /about returned HTTP 404 and no language switcher or API appears.",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 in fetch; browser reader returned a Cloudflare verification page.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

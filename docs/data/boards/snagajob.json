@@ -41,11 +41,11 @@
  "connections": [],
  "review": {
   "board_id": "snagajob",
-  "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage and employer pricing page read; no language, location, pricing or API statement found. /developers returned HTTP 404.",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Browser reader returned HTTP 403 with a 'Just a moment...' challenge page and blocked=true.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],

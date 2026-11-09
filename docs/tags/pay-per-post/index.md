@@ -1,12 +1,14 @@
 # Pay per post
 
-Employers pay for each job posting. 42 entries in the directory.
+Employers pay for each job posting. 45 entries in the directory.
 
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government
 - [Prospects](https://jobboardlist.com/boards/prospects/): niche-board
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [meinestadt.de](https://jobboardlist.com/boards/meinestadt-de/): board
+- [Expats.cz Jobs](https://jobboardlist.com/boards/expats-cz-jobs/): niche-board
+- [Cadremploi](https://jobboardlist.com/boards/cadremploi/): board
 - [The Hub](https://jobboardlist.com/boards/the-hub/): niche-board
 - [karriere.at](https://jobboardlist.com/boards/karriere-at/): board
 - [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
@@ -32,6 +34,7 @@ Employers pay for each job posting. 42 entries in the directory.
 - [Expresso Emprego](https://jobboardlist.com/boards/expresso-emprego/): board
 - [Medische Banenbank](https://jobboardlist.com/boards/medische-banenbank/): niche-board
 - [Gezondheidszorgbanen.nl](https://jobboardlist.com/boards/gezondheidszorgbanen-nl/): niche-board
+- [CVMarket.lv](https://jobboardlist.com/boards/cvmarket-lv/): board
 - [Goodwork Canada](https://jobboardlist.com/boards/goodwork-canada/): niche-board
 - [IamExpat Jobs](https://jobboardlist.com/boards/iamexpat-jobs/): niche-board
 - [Careers.Indigenous.Link](https://jobboardlist.com/boards/careers-indigenous-link/): niche-board, No known API

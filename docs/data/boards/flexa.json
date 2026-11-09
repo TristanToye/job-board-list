@@ -4,7 +4,7 @@
  "url": "https://flexa.careers/",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "UK",
  "founded": "2019",
  "markets": "",
  "countries_served": [],
@@ -22,10 +22,10 @@
  "ingest_methods": [
   "ATS integration"
  ],
- "notes": "Pricing page describes integration of candidate profiles with applicant tracking systems and lists ATS logos. Employer pricing, language options and headquarters are not stated on the pages read. The /about page returned 404.",
+ "notes": "Pricing page describes integration of candidate profiles with applicant tracking systems and lists ATS logos. Employer pricing, language options and headquarters are not stated on the pages read. The /about page returned 404. Employer brand and job discovery site. Terms name Flexa Ltd as operator. No parent company, pricing or API page was stated on the pages checked.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/flexa/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -41,11 +41,11 @@
  "connections": [],
  "review": {
   "board_id": "flexa",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent",
-  "note": "Homepage and pricing page read; ATS integration stated, nothing on headquarters, languages, pricing or API. /about returned 404.",
-  "method": "fetch"
+  "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Terms name Flexa Ltd, registered in England and Wales; no parent, pricing, language switch or developer page found.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -64,6 +64,14 @@
    "title": "Pricing page ATS section",
    "accessed": "2026-11-06",
    "quote": "Seamlessly integrate your Flexa profile with your ATS and consolidate your applications",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://flexa.careers/terms",
+   "title": "Terms and conditions",
+   "accessed": "2026-11-09",
+   "quote": "is run and maintained by Flexa Ltd (Flexa), a company registered in England and Wales",
    "quote_check": "ok"
   }
  ]

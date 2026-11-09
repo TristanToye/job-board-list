@@ -4,14 +4,17 @@
  "url": "https://www.echinacities.com",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "CN",
  "founded": "",
  "markets": "",
  "countries_served": [
   "CN"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "zh"
+ ],
  "region": "East Asia",
  "niche": "expat",
  "segment": "",
@@ -22,7 +25,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "About page gives a Beijing address without saying whether it is the headquarters or registered address. A repeat read of the same page later returned HTTP 403; the facts above come from the earlier successful read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/echinacities/",
  "indexable": false,
@@ -38,7 +41,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "echinacities",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "About page states an English-language site, English and 中文 options and a Beijing address; membership prices not shown.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +58,22 @@
    "title": "eChinacities homepage self-description",
    "accessed": "2026-11-09",
    "quote": "an English-language website that provides a comprehensive range of services and information for both international visitors and China-based expats.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.echinacities.com/about_us",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "Suite 701, Cyber Tower B, 2 Zhongguancun South Street, Haidian District, Beijing 100086",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.echinacities.com/about_us",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "eChinacities.com is an English-language website",
    "quote_check": "ok"
   }
  ]

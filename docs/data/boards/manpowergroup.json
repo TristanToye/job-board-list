@@ -10,7 +10,7 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
+ "primary_language": "en",
  "languages_supported": [
   "en"
  ],
@@ -24,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Homepage language selector shows only English. Homepage names brands Manpower, Experis and Talent Solutions. No headquarters, parent, pricing or API statement found; about page returned HTTP 404.",
+ "notes": "Homepage language selector shows only English. Homepage names brands Manpower, Experis and Talent Solutions. No headquarters, parent, pricing or API statement found; about page returned HTTP 404. Global workforce solutions company. The language selector shows only English. Headquarters, parent company, employer pricing, API and partner pages are not stated on the homepage, About, or Sitemap.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/manpowergroup/",
  "indexable": false,
@@ -42,11 +42,11 @@
  "connections": [],
  "review": {
   "board_id": "manpowergroup",
-  "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;founded",
-  "note": "Read about, leadership, investors and home pages. The site says it operates in 75 countries and territories and mentions brands operating for over 70 years, but states no headquarters location or founding year.",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage shows only an English language option; About and Sitemap state no headquarters, parent, pricing or API.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -64,6 +64,14 @@
    "url": "https://www.manpowergroup.com",
    "title": "Homepage language selector",
    "accessed": "2026-11-06",
+   "quote": "(English)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.manpowergroup.com/",
+   "title": "ManpowerGroup homepage",
+   "accessed": "2026-11-09",
    "quote": "(English)",
    "quote_check": "ok"
   }

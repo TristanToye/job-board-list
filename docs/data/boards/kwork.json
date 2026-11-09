@@ -4,7 +4,7 @@
  "url": "https://www.kwork.com",
  "domains": "",
  "type": "freelance-platform",
- "hq_country": "",
+ "hq_country": "EE",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Freelance service marketplace rather than a job board. Operator is KWORK Technologies OÜ in Tallinn. No employer pricing, language switcher, API or partner page found; the site links an affiliate program only.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/kwork/",
  "indexable": false,
@@ -41,11 +41,11 @@
  "connections": [],
  "review": {
   "board_id": "kwork",
-  "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "The For Sellers page states the fee model. The fee applies to sellers on completed orders, not to employers, so it describes the seller side of the marketplace.",
-  "method": "mixed"
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;languages;business_model;api_status;partner_program",
+  "note": "Homepage and about page read; company address confirmed; no employer pricing, language switcher, API or partner page found.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -64,6 +64,22 @@
    "title": "For Freelancers - Kwork",
    "accessed": "2026-11-06",
    "quote": "there are no paid accounts or subscriptions; we only charge a percentage fee for completed orders.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://kwork.com/about",
+   "title": "About Kwork",
+   "accessed": "2026-11-09",
+   "quote": "Narva mnt 7,634, Estonia",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.kwork.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "listing their services in the Catalog",
    "quote_check": "ok"
   }
  ]

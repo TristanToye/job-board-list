@@ -4,14 +4,16 @@
  "url": "https://www.lavoro.gov.it/",
  "domains": "",
  "type": "government",
- "hq_country": "",
+ "hq_country": "IT",
  "founded": "",
  "markets": "",
  "countries_served": [
   "IT"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "it",
+ "languages_supported": [
+  "it"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
@@ -22,10 +24,10 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Site names the Ministry of Labour and Social Policies as publisher. No language selector, employer pricing, API or partner program statement found on pages read.",
+ "notes": "Site names the Ministry of Labour and Social Policies as publisher. No language selector, employer pricing, API or partner program statement found on pages read. Italian Ministry of Labour and Social Policies. No language switcher found; the only language text is Italian. Open Data page lists dataset formats (XLS, CSV, XML/Atom, JSON, RDF/TTL) and does not mention an API.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/lavoro-gov-it-ministry-of-labour/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -44,10 +46,10 @@
  "connections": [],
  "review": {
   "board_id": "lavoro-gov-it-ministry-of-labour",
-  "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Italian only; no language menu seen.",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage, Il Ministero and Open Data pages read (HTTP 200); they state the ministry and Italian-language content but no employer model, API or partner program.",
   "method": "mixed"
  },
  "owners": [],
@@ -74,6 +76,14 @@
    "url": "https://www.lavoro.gov.it/stampa-e-media/Pagine/default",
    "title": "Stampa e media",
    "accessed": "2026-11-06",
+   "quote": "Salta al contenuto principale",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.lavoro.gov.it/",
+   "title": "Homepage skip link",
+   "accessed": "2026-11-09",
    "quote": "Salta al contenuto principale",
    "quote_check": "ok"
   }

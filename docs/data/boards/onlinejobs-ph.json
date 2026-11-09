@@ -10,8 +10,10 @@
  "countries_served": [
   "PH"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "SEA",
  "niche": "remote",
  "segment": "",
@@ -22,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Employer marketplace for hiring Filipino remote workers. Pricing page shows a free plan and monthly paid plans. No company address, language switcher, API or partner page found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/onlinejobs-ph/",
  "indexable": false,
@@ -39,7 +41,14 @@
   "remote"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "onlinejobs-ph",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+  "note": "Homepage, pricing and about pages read; pricing confirmed; no company address, language switcher, API or partner page found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,22 @@
    "title": "OnlineJobs.ph homepage",
    "accessed": "2026-11-09",
    "quote": "We're the #1 marketplace for hiring Filipino remote talent.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.onlinejobs.ph/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "We’re the #1 marketplace for hiring Filipino remote talent.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.onlinejobs.ph/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Post a job quickly and easily and let talent come to you.",
    "quote_check": "ok"
   }
  ]

@@ -19,16 +19,18 @@
  "niche": "tech",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free to post; flat fee per successful hire",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Tech job board for English-speaking roles in Japan. The employer page says posting is free and that a flat fee applies per hire. It states ATS integration. No API, developer or partner program page is linked; the 'Our Friends and Partners' heading introduces customer testimonials.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/japan-dev/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -38,17 +40,19 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "ats-integration",
+  "free-to-post",
   "job-board",
   "tech"
  ],
  "connections": [],
  "review": {
   "board_id": "japan-dev",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "business_model",
-  "note": "Languages found (English primary, Japanese option). Employer posting pages (/hire, /about, home) state no pricing or payment model.",
-  "method": "fetch"
+  "fields_not_found": "hq_country;parent;api_status;partner_program",
+  "note": "Homepage and employer pages state languages, free posting with a per-hire fee and ATS integration; no API or partner page and no headquarters.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -83,6 +87,22 @@
    "title": "About",
    "accessed": "2026-11-06",
    "quote": "we turn away 90% of companies that ask to post jobs on Japan Dev.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://japan-dev.com/hire",
+   "title": "Hire Top Tech Talent in Japan",
+   "accessed": "2026-11-09",
+   "quote": "Posting jobs is 100% free. Pay nothing until your first successful hire",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://japan-dev.com/hire",
+   "title": "Hire Top Tech Talent in Japan",
+   "accessed": "2026-11-09",
+   "quote": "Integrate directly with your existing ATS",
    "quote_check": "ok"
   }
  ]

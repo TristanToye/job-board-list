@@ -2,7 +2,7 @@
 
 6 job boards and related entries based in or serving Finland.
 
-- [Työmarkkinatori](https://jobboardlist.com/boards/ty-markkinatori/): government, Established tier
+- [Työmarkkinatori](https://jobboardlist.com/boards/ty-markkinatori/): government, Established tier, API key on request
 - [Duunitori](https://jobboardlist.com/boards/duunitori/): board, Established tier
 - [Jobly](https://jobboardlist.com/boards/jobly/): board, Small tier
 - [Kuntarekry](https://jobboardlist.com/boards/kuntarekry/): niche-board, Small tier

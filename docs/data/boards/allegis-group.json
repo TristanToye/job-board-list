@@ -24,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Staffing company site. Language selector lists regional English variants only. Headquarters, parent company and job-posting terms not stated on pages read. /about-us returned HTTP 404.",
+ "notes": "Staffing company site. Language selector lists regional English variants only. Headquarters, parent company and job-posting terms not stated on pages read. /about-us returned HTTP 404. Language selector lists United States, EMEA and APAC English versions. The contact page names regional headquarters without a country.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/allegis-group/",
  "indexable": false,
@@ -42,11 +42,11 @@
  "connections": [],
  "review": {
   "board_id": "allegis-group",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
   "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage language selector lists English variants only. Headquarters and parent not stated; /about-us returned HTTP 404.",
-  "method": "fetch"
+  "note": "Language selector and contact page state English versions and regional headquarters, but no country headquarters, parent, pricing or API.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -65,6 +65,14 @@
    "title": "Language selector",
    "accessed": "2026-11-06",
    "quote": "United States - English, EMEA - English, APAC - English",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.allegisgroup.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Our companies span virtually all industries and markets",
    "quote_check": "ok"
   }
  ]

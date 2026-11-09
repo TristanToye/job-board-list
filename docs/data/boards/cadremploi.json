@@ -4,19 +4,21 @@
  "url": "https://www.cadremploi.fr/",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "FR",
  "founded": "1990",
  "markets": "",
  "countries_served": [
   "FR"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "fr",
+ "languages_supported": [
+  "fr"
+ ],
  "region": "Europe",
  "niche": "",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Groupe Figaro",
+ "business_model": "per post: 299€ HT for a 28-day listing (higher tiers 499€ and 699€ HT)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -24,10 +26,10 @@
  "ingest_methods": [
   "manual posting"
  ],
- "notes": "Fetch tool could not reach the site; the browser reader loaded it without a block. The footer links Groupe Figaro, but the page does not state the relationship. Employer area offers posting a job; no prices or API are stated. Page is in French with no language selector shown.",
+ "notes": "Fetch tool could not reach the site; the browser reader loaded it without a block. The footer links Groupe Figaro, but the page does not state the relationship. Employer area offers posting a job; no prices or API are stated. Page is in French with no language selector shown. Legal notice names FIGARO CLASSIFIEDS (Paris) as the publisher. Footer shows the Groupe Figaro label. Prices are on the recruiter tariff page. No language switcher, API or partner page found in the links read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cadremploi/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -37,15 +39,16 @@
   "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
  "review": {
   "board_id": "cadremploi",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent",
-  "note": "Fetch tool could not reach the site; browser reader loaded the homepage, which states a job posting link but no prices, API or company facts.",
+  "fields_not_found": "languages;api_status;partner_program",
+  "note": "Homepage, legal notice, about, recruiter homepage and tariff pages read; no language options, API or partner page found.",
   "method": "browser"
  },
  "owners": [],
@@ -65,6 +68,46 @@
    "title": "Homepage employer link",
    "accessed": "2026-11-06",
    "quote": "Déposer une offre d'emploi",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.cadremploi.fr/emploi/legal/mentions-legales",
+   "title": "Mentions légales",
+   "accessed": "2026-11-09",
+   "quote": "dont le siège social 9 rue Caumartin, 75009 PARIS",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.cadremploi.fr/emploi/legal/mentions-legales",
+   "title": "Mentions légales",
+   "accessed": "2026-11-09",
+   "quote": "Cadremploi.fr est édité et hébergé par la Société FIGARO CLASSIFIEDS",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.cadremploi.fr/emploi/a-propos",
+   "title": "Qui sommes nous",
+   "accessed": "2026-11-09",
+   "quote": "Cadremploi est LE site emploi dédié aux cadres en France.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://espace-recruteurs.cadremploi.fr/recruteurs/tarifs",
+   "title": "Tarifs des offres Cadremploi",
+   "accessed": "2026-11-09",
+   "quote": "Diffusion 28 jours",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://espace-recruteurs.cadremploi.fr/",
+   "title": "Recruiter space",
+   "accessed": "2026-11-09",
+   "quote": "Publiez votre première offre en moins de 5 minutes.",
    "quote_check": "ok"
   }
  ]

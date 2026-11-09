@@ -4,7 +4,7 @@
  "url": "https://www.impactgrouphr.com",
  "domains": "",
  "type": "outplacement",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "1988",
  "markets": "",
  "countries_served": [
@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Coaching, relocation and outplacement firm, not a job board. Contact page lists a Saint Louis, MO office. Language switcher, parent company, employer pricing and API not stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/impact-group/",
  "indexable": false,
@@ -40,11 +40,11 @@
  "connections": [],
  "review": {
   "board_id": "impact-group",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country",
-  "note": "Founding year 1988 found on History page. Contact page shows a US street address and +1 phone, but no headquarters country is stated.",
-  "method": "mixed"
+  "fields_not_found": "languages;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage, about and contact pages returned HTTP 200; contact page gives a US office and no job board pricing, API or partner program.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -63,6 +63,14 @@
    "title": "Company History | IMPACT Group",
    "accessed": "2026-11-06",
    "quote": "IMPACT Group was founded in 1988 on a mission to empower individuals to grow great careers",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://impactgrouphr.com/contact/",
+   "title": "Contact us",
+   "accessed": "2026-11-09",
+   "quote": "Saint Louis, MO 63141",
    "quote_check": "ok"
   }
  ]

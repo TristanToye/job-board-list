@@ -9814,11 +9814,11 @@
    "connections": [],
    "review": {
     "board_id": "snagajob",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage and employer pricing page read; no language, location, pricing or API statement found. /developers returned HTTP 404.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Browser reader returned HTTP 403 with a 'Just a moment...' challenge page and blocked=true.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -10050,11 +10050,11 @@
    "connections": [],
    "review": {
     "board_id": "charityjob",
-    "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
-    "note": "Recruiters page states per-advert pricing; /about returned HTTP 404 and no language switcher or API appears.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 403 in fetch; browser reader returned a Cloudflare verification page.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -10480,10 +10480,10 @@
    "connections": [],
    "review": {
     "board_id": "pro-bono-australia-jobs",
-    "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage states job posts, bundles and banner ads; prices are only on a third-party posting domain.",
+    "reviewed": "2026-11-09",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Browser reader returned HTTP 502 with blocked true on the homepage; fetch read the page but no facts are recorded.",
     "method": "mixed"
    },
    "owners": [],
@@ -10533,16 +10533,16 @@
    "niche": "general",
    "segment": "",
    "parent": "Ministry of Labour & Employment, Government of India",
-   "business_model": "",
+   "business_model": "free",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Jobseeker-side statement: no fee is charged at any stage of registration, job application or interview processing. Employer posting model is not stated. No language switcher found. No API or data feed for job listings described; a downloadable 'NCS Meta Data' file is linked. Head office is given as Shram Shakti Bhawan, New Delhi.",
+   "notes": "Jobseeker-side statement: no fee is charged at any stage of registration, job application or interview processing. Employer posting model is not stated. No language switcher found. No API or data feed for job listings described; a downloadable 'NCS Meta Data' file is linked. Head office is given as Shram Shakti Bhawan, New Delhi. Run by the Directorate General of Employment under the Ministry of Labour and Employment. The site states that it charges no fee. Employer posting is through a login-only employer area. No API or partner page was linked.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/national-career-service/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -10552,6 +10552,7 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "free-to-post",
     "general",
     "government-operated",
     "government-service",
@@ -10561,11 +10562,11 @@
    "connections": [],
    "review": {
     "board_id": "national-career-service",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "partner_program",
-    "note": "Employer login and jobseeker list pages read. Placement organisation registration is described, but no partner programme or empanelment arrangement for employers is stated, so partner_program is left unknown. A fraud warning on the page men",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "api_status;partner_program",
+    "note": "Homepage, about and terms pages read; language menu shows English and Hindi; no API or partner page linked.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -10593,6 +10594,38 @@
      "accessed": "2026-11-05",
      "quote": "Shram Shakti Bhawan Rafi Marg, New Delhi-110001, India",
      "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://ncs.gov.in/about-us",
+     "title": "About us",
+     "accessed": "2026-11-09",
+     "quote": "Shram Shakti Bhawan Rafi Marg, New Delhi-110001, India",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://ncs.gov.in/about-us",
+     "title": "About us",
+     "accessed": "2026-11-09",
+     "quote": "flagship initiative by the Ministry of Labour and Employment, Government of India.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://ncs.gov.in/",
+     "title": "Homepage FAQ",
+     "accessed": "2026-11-09",
+     "quote": "NCS does not charge any fee at any stage of registration, job application, or interview processing.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://ncs.gov.in/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Post New Jobs",
+     "quote_check": "ok"
     }
    ]
   },
@@ -10619,8 +10652,10 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "Employer banner states posting is free. The employer page links to 'Plans and Pricing', but the plans page returned HTTP 404 and no fee details were read. No language switcher, API, or partner program found. The homepage phrase 'Proud partner of leading government bodies' is a section heading, not a partner program.",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Employer banner states posting is free. The employer page links to 'Plans and Pricing', but the plans page returned HTTP 404 and no fee details were read. No language switcher, API, or partner program found. The homepage phrase 'Proud partner of leading government bodies' is a section heading, not a partner program. Operating company named in footer is Scholiverse Educare Private Limited. Employer plans page lists a free plan and paid premium listing prices in INR. Homepage, employer, plans and footer read; no API, developer or partner page linked.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/internshala/",
    "indexable": false,
@@ -10640,10 +10675,10 @@
    "connections": [],
    "review": {
     "board_id": "internshala",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
-    "note": "Homepage, employer and plans pages read; pricing confirmed, no HQ, language, API or partner statement found.",
+    "fields_not_found": "hq_country;languages;parent;partner_program",
+    "note": "Employer plans and pricing stated; no headquarters or language options found on the pages read.",
     "method": "mixed"
    },
    "owners": [],
@@ -10671,6 +10706,30 @@
      "title": "Employer page",
      "accessed": "2026-11-05",
      "quote": "Post your internships and fresher jobs for free and attract qualified candidates",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://internshala.com/employer-subscription/",
+     "title": "Employer plans and pricing",
+     "accessed": "2026-11-09",
+     "quote": "Free plan 1 listing per month",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://internshala.com/employer",
+     "title": "Employer page",
+     "accessed": "2026-11-09",
+     "quote": "Post your internships and fresher jobs for free and attract qualified candidates",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://internshala.com/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-09",
+     "quote": "© Copyright 2026 Internshala (Scholiverse Educare Private Limited)",
      "quote_check": "ok"
     }
    ]
@@ -10756,14 +10815,17 @@
    "parent": "",
    "business_model": "subscription",
    "api_status": "on-request",
-   "api_docs_url": "",
+   "api_docs_url": "https://cutshort.io/a/devdocs",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "Pricing page lists a Freedom plan priced by company size, with unlimited job postings included. An Assisted model charges 8.33% of CTC on a successful hire. Free evaluation API keys can be generated after the account is approved. Footer link 'Find engineering talent via API/MCP' points to a page; /api returned HTTP 404 so no API documentation URL was recorded. No language switcher or partner program found.",
+   "ingest_methods": [
+    "ATS integrations",
+    "API"
+   ],
+   "notes": "Pricing page lists a Freedom plan priced by company size, with unlimited job postings included. An Assisted model charges 8.33% of CTC on a successful hire. Free evaluation API keys can be generated after the account is approved. Footer link 'Find engineering talent via API/MCP' points to a page; /api returned HTTP 404 so no API documentation URL was recorded. No language switcher or partner program found. Eval API keys are generated by approved employers in Settings. Production access is requested by email, and production keys add job posting. The pricing page describes Freedom plans and an Assisted model. No headquarters, parent, language switcher or partner program found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cutshort/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -10774,6 +10836,7 @@
    },
    "tags": [
     "api-on-request",
+    "ats-integration",
     "job-board",
     "subscription",
     "tech"
@@ -10781,10 +10844,10 @@
    "connections": [],
    "review": {
     "board_id": "cutshort",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;founded;ingest_methods",
-    "note": "About page and sourcing article read. No headquarters, founding year or job/profile ingest method stated. The API and MCP pages describe employer sourcing access, not how jobs enter the platform; that page was not read in full.",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;partner_program",
+    "note": "Pricing, developer docs, About and homepage read; API keys and pricing stated, no HQ or partner program.",
     "method": "mixed"
    },
    "owners": [],
@@ -10812,6 +10875,22 @@
      "title": "Pricing FAQ",
      "accessed": "2026-11-05",
      "quote": "You can generate eval API keys for free yourself after your account is approved.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://cutshort.io/a/devdocs",
+     "title": "Developer docs, getting API access",
+     "accessed": "2026-11-09",
+     "quote": "Eval keys are available immediately",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://cutshort.io/a/devdocs",
+     "title": "Developer docs, key types",
+     "accessed": "2026-11-09",
+     "quote": "adds job posting and candidate messaging",
      "quote_check": "ok"
     }
    ]
@@ -11548,7 +11627,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Page is in French. States employers can post offers for free; no prices shown. Footer names StudentJob International as a YoungCapital subsidiary. No language switcher or API found.",
+   "notes": "Page is in French. States employers can post offers for free; no prices shown. Footer names StudentJob International as a YoungCapital subsidiary. No language switcher or API found. Footer names StudentJob International as operator and YoungCapital as parent. The employer page offers a free posting and paid premium offers. The partner page has unrendered template text only. No API or feed details found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/studentjob-fr/",
    "indexable": false,
@@ -11568,11 +11647,11 @@
    "connections": [],
    "review": {
     "board_id": "studentjob-fr",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
     "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
-    "note": "Homepage and footer read; parent company and free employer posting stated; no language switcher, API or headquarters found.",
-    "method": "fetch"
+    "note": "Footer states YoungCapital as parent; employer page shows free and premium postings; partner page has no rendered content.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -11600,6 +11679,22 @@
      "accessed": "2026-11-06",
      "quote": "Postez une offre d'emploi gratuitement sur StudentJob dès aujourd'hui",
      "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.studentjob.fr/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-09",
+     "quote": "StudentJob International est une filiale de YoungCapital",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.studentjob.fr/offre-demploi-gratuitement",
+     "title": "Employer job posting page",
+     "accessed": "2026-11-09",
+     "quote": "Publiez une offre d'emploi gratuite et trouvez du personnel",
+     "quote_check": "ok"
     }
    ]
   },
@@ -11609,7 +11704,7 @@
    "url": "https://welovedevs.com",
    "domains": "",
    "type": "niche-board",
-   "hq_country": "",
+   "hq_country": "FR",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -11627,7 +11722,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Employer page says a job ad can be posted free, or a subscription can be taken for access to the CV library. No API, partner program or language options were stated on the pages read.",
+   "notes": "Employer page says a job ad can be posted free, or a subscription can be taken for access to the CV library. No API, partner program or language options were stated on the pages read. Legal notice names OUIRECRUIT SAS (Wasquehal, France) as the publisher. No parent company stated. Mixed English and French pages with no language switcher found. No API or partner program found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/welovedevs/",
    "indexable": false,
@@ -11648,11 +11743,11 @@
    "connections": [],
    "review": {
     "board_id": "welovedevs",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
-    "note": "Employer page states free posting or subscription; no HQ, language options, API or partner program stated.",
-    "method": "mixed"
+    "fields_not_found": "parent;languages;api_status;partner_program",
+    "note": "Homepage, legal notice and recruiter pages read; address and pricing confirmed; no language switcher or API found.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -11671,6 +11766,22 @@
      "title": "Employer page",
      "accessed": "2026-11-06",
      "quote": "vous pourrez diffuser une annonce gratuitement, ou souscrire à un abonnement",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://welovedevs.com/legal-notes/",
+     "title": "Mentions Légales",
+     "accessed": "2026-11-09",
+     "quote": "Adresse du siège social : 44 avenue de la Marne, 59290 Wasquehal.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://welovedevs.com/recruteurs/recruter-un-developpeur",
+     "title": "Recruter un developpeur",
+     "accessed": "2026-11-09",
+     "quote": "Poster des offres d'emploi",
      "quote_check": "ok"
     }
    ]
@@ -12043,28 +12154,30 @@
    "url": "https://www.trabajos.com/",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "ES",
    "founded": "",
    "markets": "",
    "countries_served": [
     "ES"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "es",
+   "languages_supported": [
+    "es"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
-   "parent": "",
+   "parent": "Hispavista",
    "business_model": "free unit posting; paid packs and flat-rate plans also offered",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Spanish job board. Homepage states it is a brand of Hispavista. No language switcher, headquarters, API or ingest method stated on pages read. Employer prices not shown.",
+   "notes": "Spanish job board. Homepage states it is a brand of Hispavista. No language switcher, headquarters, API or ingest method stated on pages read. Employer prices not shown. Legal notice names HispaVista, S.L. as operator in San Sebastián, Spain. Employer page describes free single postings, packs and a flat-rate unlimited plan; no prices shown in the text read. No language switcher seen.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/trabajos-com/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -12081,11 +12194,11 @@
    "connections": [],
    "review": {
     "board_id": "trabajos-com",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
-    "note": "Homepage states parent brand Hispavista; /empresas states free unit posting. No headquarters, language options, API or partner program stated.",
-    "method": "fetch"
+    "fields_not_found": "languages;partner_program;ingest_methods",
+    "note": "Operator, parent and employer posting model stated; no language switcher or partner program found.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -12112,6 +12225,38 @@
      "title": "Companies page",
      "accessed": "2026-11-06",
      "quote": "Publica gratis y contrata sólo si los candidatos te interesan. Sin riesgos.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.trabajos.com/aviso-legal/",
+     "title": "Aviso legal",
+     "accessed": "2026-11-09",
+     "quote": "HispaVista, S.L. con domicilio en San Sebastián, España",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.trabajos.com/quienes-somos/",
+     "title": "Quiénes somos",
+     "accessed": "2026-11-09",
+     "quote": "DESDE 1996, TRABAJOS.COM ES EL PORTAL DE EMPLEO PIONERO DE LA RED EN ESPAÑA",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.trabajos.com/empresas/",
+     "title": "Employer posting page",
+     "accessed": "2026-11-09",
+     "quote": "Publica gratis y contrata sólo si los candidatos te interesan.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.trabajos.com/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-09",
+     "quote": "Ayuda Aviso legal Condiciones de uso Política de cookies Política de privacidad",
      "quote_check": "ok"
     }
    ]
@@ -12235,7 +12380,7 @@
    "url": "https://www.ticjob.es/",
    "domains": "",
    "type": "niche-board",
-   "hq_country": "",
+   "hq_country": "ES",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -12257,7 +12402,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Language switcher lists esp, cat and eng. No headquarters, owner or employer pricing stated. The Fundacion Telefonica line describes a partnership, not ownership. About and legal pages guessed by URL returned 404.",
+   "notes": "Language switcher lists esp, cat and eng. No headquarters, owner or employer pricing stated. The Fundacion Telefonica line describes a partnership, not ownership. About and legal pages guessed by URL returned 404. IT job board. The legal page names ticjob, S.L. with registered office in Madrid. The recruiter page says ATS integration runs through an API, but no API documentation, access terms, employer prices or partner program were found. The 'Our partners' page lists training and technology partners. The fo",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ticjob/",
    "indexable": false,
@@ -12276,11 +12421,11 @@
    "connections": [],
    "review": {
     "board_id": "ticjob",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage read; language switcher stated; no pricing, owner, API or partner program found. Guessed about and legal URLs returned 404.",
-    "method": "fetch"
+    "fields_not_found": "parent;business_model;partner_program",
+    "note": "Legal page gives Madrid registered office and footer shows three languages; employer pricing and partner program are not stated.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -12299,6 +12444,30 @@
      "title": "Homepage language switcher",
      "accessed": "2026-11-06",
      "quote": "esp, cat, eng",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://ticjob.es/eng/disclaimer",
+     "title": "Conditions of Use",
+     "accessed": "2026-11-09",
+     "quote": "cuyo titular es ticjob, S.L., NIF B86141884, con domicilio social en Madrid",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://ticjob.es/eng/",
+     "title": "Search IT and Telecommunications Jobs",
+     "accessed": "2026-11-09",
+     "quote": "eng esp cat",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://ticjob.es/eng/recruiter",
+     "title": "Post jobs and search CV's",
+     "accessed": "2026-11-09",
+     "quote": "We integrate through our API so that you can publish your offers and receive applications from the same place.",
      "quote_check": "ok"
     }
    ]
@@ -12613,11 +12782,11 @@
    "connections": [],
    "review": {
     "board_id": "doda",
-    "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Japanese homepage names PERSOL CAREER CO., LTD.; no headquarters, parent, employer pricing or API stated.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Browser reader returned blocked: true for https://www.doda.jp/ with no page text, so no facts were taken from it.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -12786,16 +12955,18 @@
    "niche": "tech",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "free to post; flat fee per successful hire",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Tech job board for English-speaking roles in Japan. The employer page says posting is free and that a flat fee applies per hire. It states ATS integration. No API, developer or partner program page is linked; the 'Our Friends and Partners' heading introduces customer testimonials.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/japan-dev/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -12805,17 +12976,19 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "ats-integration",
+    "free-to-post",
     "job-board",
     "tech"
    ],
    "connections": [],
    "review": {
     "board_id": "japan-dev",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "business_model",
-    "note": "Languages found (English primary, Japanese option). Employer posting pages (/hire, /about, home) state no pricing or payment model.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;parent;api_status;partner_program",
+    "note": "Homepage and employer pages state languages, free posting with a per-hire fee and ATS integration; no API or partner page and no headquarters.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -12850,6 +13023,22 @@
      "title": "About",
      "accessed": "2026-11-06",
      "quote": "we turn away 90% of companies that ask to post jobs on Japan Dev.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://japan-dev.com/hire",
+     "title": "Hire Top Tech Talent in Japan",
+     "accessed": "2026-11-09",
+     "quote": "Posting jobs is 100% free. Pay nothing until your first successful hire",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://japan-dev.com/hire",
+     "title": "Hire Top Tech Talent in Japan",
+     "accessed": "2026-11-09",
+     "quote": "Integrate directly with your existing ATS",
      "quote_check": "ok"
     }
    ]
@@ -13004,8 +13193,10 @@
    "countries_served": [
     "BR"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "pt",
+   "languages_supported": [
+    "pt"
+   ],
    "region": "Latin America",
    "niche": "general",
    "segment": "",
@@ -13016,10 +13207,10 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Homepage gives a Sao Paulo street address; country inferred from the Sao Paulo/SP address. Operating entity named as Persona Assessoria Empresarial LTDA, parent not stated. Only the homepage was read.",
+   "notes": "Homepage gives a Sao Paulo street address; country inferred from the Sao Paulo/SP address. Operating entity named as Persona Assessoria Empresarial LTDA, parent not stated. Only the homepage was read. Brazilian job board. Footer names Persona Assessoria Empresarial LTDA as the operator (not stated as parent). Employer page offers free job posting; no paid plans, API or partner program found. No language switcher found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/empregos-com-br/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -13036,11 +13227,11 @@
    "connections": [],
    "review": {
     "board_id": "empregos-com-br",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "parent;languages;api_status;partner_program;ingest_methods",
-    "note": "Homepage states a Sao Paulo address and free job posting; no language switcher, parent, API or partner program on the homepage.",
-    "method": "fetch"
+    "fields_not_found": "parent;api_status;partner_program;ingest_methods",
+    "note": "Homepage, employer page and footer read (HTTP 200); they state a Sao Paulo address, free job posting and the operator name, but no parent, API or partner program.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -13067,6 +13258,22 @@
      "title": "Homepage employer posting",
      "accessed": "2026-11-06",
      "quote": "Anunciar vaga grátis",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.empregos.com.br",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Para candidatos Para empresas",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://b2b.empregos.com.br/empresas",
+     "title": "Employer job posting page",
+     "accessed": "2026-11-09",
+     "quote": "Anuncie vagas gratuitamente em todo o Brasil quantas vezes quiser",
      "quote_check": "ok"
     }
    ]
@@ -13240,7 +13447,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Homepage is Portuguese. The language control shows only PT, linking to /pt/, so no other languages were confirmed. No HQ, pricing, API or partner program was stated on the pages read.",
+   "notes": "Homepage is Portuguese. The language control shows only PT, linking to /pt/, so no other languages were confirmed. No HQ, pricing, API or partner program was stated on the pages read. Brazilian internship and trainee job board. Vacancies are linked to several external candidate systems (vagas.ciadetalentos.com.br, atsglobe, bettha). Employer page describes services, no prices stated. Only Portuguese was seen in the language switch.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cia-de-talentos/",
    "indexable": false,
@@ -13259,11 +13466,11 @@
    "connections": [],
    "review": {
     "board_id": "cia-de-talentos",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage is Portuguese with a PT-only language control; employer page states no pricing, API or partner program.",
-    "method": "mixed"
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Only Portuguese language option seen; employer page lists services without prices; no headquarters or API stated.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -13282,6 +13489,22 @@
      "title": "Homepage",
      "accessed": "2026-11-06",
      "quote": "Conectamos pessoas incríveis às empresas que vão transformar suas carreiras.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.ciadetalentos.com.br/",
+     "title": "Homepage language switch",
+     "accessed": "2026-11-09",
+     "quote": "PT",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.ciadetalentos.com.br/empresa.html",
+     "title": "Employer page",
+     "accessed": "2026-11-09",
+     "quote": "países com atuação global",
      "quote_check": "ok"
     }
    ]
@@ -13767,14 +13990,16 @@
    "url": "https://www.lavoro.gov.it/",
    "domains": "",
    "type": "government",
-   "hq_country": "",
+   "hq_country": "IT",
    "founded": "",
    "markets": "",
    "countries_served": [
     "IT"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "it",
+   "languages_supported": [
+    "it"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
@@ -13785,10 +14010,10 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Site names the Ministry of Labour and Social Policies as publisher. No language selector, employer pricing, API or partner program statement found on pages read.",
+   "notes": "Site names the Ministry of Labour and Social Policies as publisher. No language selector, employer pricing, API or partner program statement found on pages read. Italian Ministry of Labour and Social Policies. No language switcher found; the only language text is Italian. Open Data page lists dataset formats (XLS, CSV, XML/Atom, JSON, RDF/TTL) and does not mention an API.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/lavoro-gov-it-ministry-of-labour/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -13807,10 +14032,10 @@
    "connections": [],
    "review": {
     "board_id": "lavoro-gov-it-ministry-of-labour",
-    "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Italian only; no language menu seen.",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage, Il Ministero and Open Data pages read (HTTP 200); they state the ministry and Italian-language content but no employer model, API or partner program.",
     "method": "mixed"
    },
    "owners": [],
@@ -13837,6 +14062,14 @@
      "url": "https://www.lavoro.gov.it/stampa-e-media/Pagine/default",
      "title": "Stampa e media",
      "accessed": "2026-11-06",
+     "quote": "Salta al contenuto principale",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.lavoro.gov.it/",
+     "title": "Homepage skip link",
+     "accessed": "2026-11-09",
      "quote": "Salta al contenuto principale",
      "quote_check": "ok"
     }
@@ -14078,11 +14311,11 @@
    "connections": [],
    "review": {
     "board_id": "concorsando",
-    "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Footer names EDUMAV GROUP as parent (fetch output only, not in browser text); no country, pricing, API or language options stated.",
-    "method": "mixed"
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage returned HTTP 200; no about, legal, pricing or developer page is linked from it and it states none of the facts looked for.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -14543,19 +14776,21 @@
    "url": "https://www.cadremploi.fr/",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "FR",
    "founded": "1990",
    "markets": "",
    "countries_served": [
     "FR"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "fr",
+   "languages_supported": [
+    "fr"
+   ],
    "region": "Europe",
    "niche": "",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "Groupe Figaro",
+   "business_model": "per post: 299€ HT for a 28-day listing (higher tiers 499€ and 699€ HT)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -14563,10 +14798,10 @@
    "ingest_methods": [
     "manual posting"
    ],
-   "notes": "Fetch tool could not reach the site; the browser reader loaded it without a block. The footer links Groupe Figaro, but the page does not state the relationship. Employer area offers posting a job; no prices or API are stated. Page is in French with no language selector shown.",
+   "notes": "Fetch tool could not reach the site; the browser reader loaded it without a block. The footer links Groupe Figaro, but the page does not state the relationship. Employer area offers posting a job; no prices or API are stated. Page is in French with no language selector shown. Legal notice names FIGARO CLASSIFIEDS (Paris) as the publisher. Footer shows the Groupe Figaro label. Prices are on the recruiter tariff page. No language switcher, API or partner page found in the links read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cadremploi/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -14576,15 +14811,16 @@
     "list_date": "2026-11-09"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
    "review": {
     "board_id": "cadremploi",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent",
-    "note": "Fetch tool could not reach the site; browser reader loaded the homepage, which states a job posting link but no prices, API or company facts.",
+    "fields_not_found": "languages;api_status;partner_program",
+    "note": "Homepage, legal notice, about, recruiter homepage and tariff pages read; no language options, API or partner page found.",
     "method": "browser"
    },
    "owners": [],
@@ -14604,6 +14840,46 @@
      "title": "Homepage employer link",
      "accessed": "2026-11-06",
      "quote": "Déposer une offre d'emploi",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.cadremploi.fr/emploi/legal/mentions-legales",
+     "title": "Mentions légales",
+     "accessed": "2026-11-09",
+     "quote": "dont le siège social 9 rue Caumartin, 75009 PARIS",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.cadremploi.fr/emploi/legal/mentions-legales",
+     "title": "Mentions légales",
+     "accessed": "2026-11-09",
+     "quote": "Cadremploi.fr est édité et hébergé par la Société FIGARO CLASSIFIEDS",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.cadremploi.fr/emploi/a-propos",
+     "title": "Qui sommes nous",
+     "accessed": "2026-11-09",
+     "quote": "Cadremploi est LE site emploi dédié aux cadres en France.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://espace-recruteurs.cadremploi.fr/recruteurs/tarifs",
+     "title": "Tarifs des offres Cadremploi",
+     "accessed": "2026-11-09",
+     "quote": "Diffusion 28 jours",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://espace-recruteurs.cadremploi.fr/",
+     "title": "Recruiter space",
+     "accessed": "2026-11-09",
+     "quote": "Publiez votre première offre en moins de 5 minutes.",
      "quote_check": "ok"
     }
    ]
@@ -15030,14 +15306,16 @@
    "url": "https://www.meteojob.com/",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "FR",
    "founded": "2007",
    "markets": "",
    "countries_served": [
     "FR"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "fr",
+   "languages_supported": [
+    "fr"
+   ],
    "region": "Europe",
    "niche": "",
    "segment": "",
@@ -15047,11 +15325,13 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "Recruiter section links to a recruiter page without stating fees. No language options or API found.",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Recruiter section links to a recruiter page without stating fees. No language options or API found. French job board. Footer names Groupe CleverConnect. Employer site offers job posting with 'Publier une offre d’emploi'; no employer pricing, API or partner program found. No language switcher found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/meteojob/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -15066,10 +15346,10 @@
    "connections": [],
    "review": {
     "board_id": "meteojob",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Footer states Le Groupe CleverConnect; no fees, language options or API shown on the homepage.",
+    "fields_not_found": "business_model;api_status;partner_program",
+    "note": "Homepage and employer site read (HTTP 200); they state the French job site, parent Groupe CleverConnect and job posting, but no employer pricing, API or partner program.",
     "method": "mixed"
    },
    "owners": [],
@@ -15089,6 +15369,30 @@
      "title": "Site footer",
      "accessed": "2026-11-06",
      "quote": "Le Groupe CleverConnect",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.meteojob.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Offres d'Emploi dans toute la France",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.meteojob.com/",
+     "title": "Homepage skip link",
+     "accessed": "2026-11-09",
+     "quote": "Aller au contenu principal",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://recruteurs.meteojob.com/",
+     "title": "Employer site",
+     "accessed": "2026-11-09",
+     "quote": "Publier une offre d’emploi",
      "quote_check": "ok"
     }
    ]
@@ -15691,7 +15995,7 @@
    "url": "https://flexa.careers/",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "UK",
    "founded": "2019",
    "markets": "",
    "countries_served": [],
@@ -15709,10 +16013,10 @@
    "ingest_methods": [
     "ATS integration"
    ],
-   "notes": "Pricing page describes integration of candidate profiles with applicant tracking systems and lists ATS logos. Employer pricing, language options and headquarters are not stated on the pages read. The /about page returned 404.",
+   "notes": "Pricing page describes integration of candidate profiles with applicant tracking systems and lists ATS logos. Employer pricing, language options and headquarters are not stated on the pages read. The /about page returned 404. Employer brand and job discovery site. Terms name Flexa Ltd as operator. No parent company, pricing or API page was stated on the pages checked.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/flexa/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -15728,11 +16032,11 @@
    "connections": [],
    "review": {
     "board_id": "flexa",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent",
-    "note": "Homepage and pricing page read; ATS integration stated, nothing on headquarters, languages, pricing or API. /about returned 404.",
-    "method": "fetch"
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Terms name Flexa Ltd, registered in England and Wales; no parent, pricing, language switch or developer page found.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -15751,6 +16055,14 @@
      "title": "Pricing page ATS section",
      "accessed": "2026-11-06",
      "quote": "Seamlessly integrate your Flexa profile with your ATS and consolidate your applications",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://flexa.careers/terms",
+     "title": "Terms and conditions",
+     "accessed": "2026-11-09",
+     "quote": "is run and maintained by Flexa Ltd (Flexa), a company registered in England and Wales",
      "quote_check": "ok"
     }
    ]
@@ -15773,16 +16085,19 @@
    "niche": "",
    "segment": "",
    "parent": "",
-   "business_model": "",
-   "api_status": "unknown",
+   "business_model": "free employer posting via web interface; job boards and aggregators need separate contact",
+   "api_status": "on-request",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "ingest_methods": [
+    "manual posting (web interface)",
+    "XML/JSON job feed (on request)"
+   ],
+   "notes": "Job search engine with an employer posting interface. The posting FAQ says a job feed is set up through support on request. No API documentation URL, headquarters, parent company, language selector or partner program was found.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobilize/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -15792,16 +16107,19 @@
     "list_date": "2026-11-09"
    },
    "tags": [
-    "job-board"
+    "api-on-request",
+    "free-to-post",
+    "job-board",
+    "xml-feed"
    ],
    "connections": [],
    "review": {
     "board_id": "jobilize",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage read; it states no missing facts. /about and /pricing return HTTP 404.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;partner_program",
+    "note": "Posting FAQ states free employer posting and a job feed on request; About page states no headquarters or parent and there is no language selector.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -15813,6 +16131,30 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jobilize.com/public/how-to-post-jobs.xhtml",
+     "title": "How to post jobs",
+     "accessed": "2026-11-09",
+     "quote": "The free online web-based job posting interface is available for employers, and recruiters.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.jobilize.com/public/how-to-post-jobs.xhtml",
+     "title": "How to post jobs",
+     "accessed": "2026-11-09",
+     "quote": "Yes. for the technical details on how to integrate your job feed please contact Jobilize support via the Contact Form",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobilize.com/public/how-to-post-jobs.xhtml",
+     "title": "How to post jobs",
+     "accessed": "2026-11-09",
+     "quote": "Do you accept XML/JSON job feed?",
+     "quote_check": "ok"
     }
    ]
   },
@@ -16278,16 +16620,16 @@
    "niche": "",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Browser reader timed out on the first run and loaded on retry. The language flags are read from fetch output (image alt text), not from the browser text. The employer link Pakalpojumi un cenas shows no prices on the homepage.",
+   "notes": "Browser reader timed out on the first run and loaded on retry. The language flags are read from fetch output (image alt text), not from the browser text. The employer link Pakalpojumi un cenas shows no prices on the homepage. Latvian job board. Single job ad priced from 160 EUR (2 weeks) or 180 EUR (1 month) plus VAT. Contact page gives a Riga address. Language switcher options other than LV were not captured in the browser reader. Parent company and API not stated on the pages read; the about page returned HTTP 502 and ",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/cvmarket-lv/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -16297,15 +16639,16 @@
     "list_date": "2026-11-09"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
    "review": {
     "board_id": "cvmarket-lv",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;business_model;parent;api_status;partner_program;ingest_methods",
-    "note": "Browser reader timed out once, then loaded; language flags confirmed from fetch output and no prices shown on the homepage.",
+    "fields_not_found": "languages;parent;api_status;partner_program",
+    "note": "Homepage (after one browser timeout and one successful retry), services and prices, and contact pages returned HTTP 200; the about page returned HTTP 502 once and was not retried.",
     "method": "mixed"
    },
    "owners": [],
@@ -16326,6 +16669,22 @@
      "accessed": "2026-11-06",
      "quote": "Language - EN",
      "quote_check": "unreachable"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.cvmarket.lv/kontakti",
+     "title": "Contact page",
+     "accessed": "2026-11-09",
+     "quote": "Skanstes iela 25, Rīga, LV-1013, Latvija",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.cvmarket.lv/pakalpojumi",
+     "title": "Services and prices for employers",
+     "accessed": "2026-11-09",
+     "quote": "Viens sludinājums uz 2 nedēļām - sākot no 160€ + PVN",
+     "quote_check": "ok"
     }
    ]
   },
@@ -16373,11 +16732,11 @@
    "connections": [],
    "review": {
     "board_id": "cvmarket-lt",
-    "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;business_model;api_status;partner_program;parent",
-    "note": "Homepage and English page read; language switcher and manual job entry stated, no prices, API, partner program or headquarters.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Homepage read in fetch and browser; the browser reader returned blocked true for its employer posting and services pages, so no facts are recorded.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -16844,8 +17203,10 @@
    "countries_served": [
     "BR"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "pt",
+   "languages_supported": [
+    "pt"
+   ],
    "region": "Latin America",
    "niche": "",
    "segment": "",
@@ -16856,10 +17217,10 @@
    "partner_program": "yes",
    "partner_url": "https://www.bne.com.br/seja-parceiro",
    "ingest_methods": [],
-   "notes": "Employer sign-up is free and plan selection is offered, with no prices shown. Partner page offers BNE job ads for partner sites and an XML feed, with contact at parcerias@bne.com.br. No API found on the pages read. Service is described as Brazil-wide; headquarters not stated.",
+   "notes": "Employer sign-up is free and plan selection is offered, with no prices shown. Partner page offers BNE job ads for partner sites and an XML feed, with contact at parcerias@bne.com.br. No API found on the pages read. Service is described as Brazil-wide; headquarters not stated. The partner page offers BNE job XML to job sites on request by email. That feed runs from BNE to partner sites, so it is not a posting API. The plans page (/cia/escolha-de-planos) redirects to a login page, which was not used, so no prices are recorded. Footer names BNE - Banco Nacional de Empregos.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/banco-nacional-de-empregos/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -16875,11 +17236,11 @@
    "connections": [],
    "review": {
     "board_id": "banco-nacional-de-empregos",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;api_status;ingest_methods",
-    "note": "Homepage and partner page read; free employer sign-up and partner program stated; no API, parent, headquarters or prices found.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;languages;parent;business_model;ingest_methods",
+    "note": "Partner page read; the plans page redirects to a login page and was not used.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -16898,6 +17259,22 @@
      "title": "Partner page",
      "accessed": "2026-11-06",
      "quote": "Seja parceiro do BNE",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.bne.com.br/seja-parceiro",
+     "title": "Partner page heading",
+     "accessed": "2026-11-09",
+     "quote": "Seja parceiro do BNE",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.bne.com.br/seja-parceiro",
+     "title": "Partner page, job XML feed",
+     "accessed": "2026-11-09",
+     "quote": "Receba nossas vagas em XML para publicar no seu site.",
      "quote_check": "ok"
     }
    ]
@@ -17371,8 +17748,10 @@
    "countries_served": [
     "JP"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "ja",
+   "languages_supported": [
+    "ja"
+   ],
    "region": "East Asia",
    "niche": "",
    "segment": "",
@@ -17383,8 +17762,8 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
-   "confidence": "secondary-sourced",
+   "notes": "Japanese consulting-job agency site. Headquarters, parent company, pricing and API were not stated in the homepage text read. Fee wording in the FAQ was not present in the reader text, so no business model is recorded.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/myvision-consulting/",
    "indexable": false,
    "prominence": {
@@ -17401,10 +17780,10 @@
    "connections": [],
    "review": {
     "board_id": "myvision-consulting",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "About page states a Tokyo address; site is Japanese only; no fee, API or partner statement could be matched to a verbatim quote.",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage read (HTTP 200); Japanese-language page, with no headquarters, parent, fee, API or partner information in the text read.",
     "method": "mixed"
    },
    "owners": [],
@@ -17417,6 +17796,14 @@
      "accessed": "2026-11-05",
      "quote": "Wikidata: instance of employment website",
      "quote_check": "structured"
+    },
+    {
+     "field": "languages",
+     "url": "https://my-vision.co.jp/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "コンサル転職No.1エージェント",
+     "quote_check": "ok"
     }
    ]
   },
@@ -17461,10 +17848,10 @@
    "connections": [],
    "review": {
     "board_id": "freelancer-nl",
-    "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
-    "note": "Homepage states free job posting for employers; no country, parent, language options or API stated.",
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;parent;api_status;partner_program;ingest_methods",
+    "note": "Homepage and freelancer price page read; no employer pricing, language switcher, parent or API found.",
     "method": "mixed"
    },
    "owners": [],
@@ -18261,7 +18648,7 @@
    "url": "https://careerviet.vn",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "VN",
    "founded": "2004",
    "markets": "",
    "countries_served": [
@@ -18269,7 +18656,8 @@
    ],
    "primary_language": "vi",
    "languages_supported": [
-    "vi"
+    "vi",
+    "en"
    ],
    "region": "SEA",
    "niche": "",
@@ -18281,10 +18669,10 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Vietnamese job board. Head office address listed in Ho Chi Minh City. Copyright names the operating company; no parent stated. Employer payment terms not stated on pages read.",
+   "notes": "Vietnamese job board. Head office address listed in Ho Chi Minh City. Copyright names the operating company; no parent stated. Employer payment terms not stated on pages read. Operated by Công Ty Cổ Phần Giải Pháp CareerViet per the homepage copyright line. Vietnamese site with an EN link. Employer product page shows no prices. Partner websites are listed on the homepage, but no partner program was found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/careerviet/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -18299,11 +18687,11 @@
    "connections": [],
    "review": {
     "board_id": "careerviet",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage and /vi/gioi-thieu state a Ho Chi Minh City head office. No parent, employer pricing, API or ingest method stated; language options not quoted.",
-    "method": "fetch"
+    "fields_not_found": "business_model;parent;api_status;partner_program",
+    "note": "Homepage, about and employer pages read; address and EN link confirmed; employer product page shows no prices.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -18330,6 +18718,38 @@
      "title": "Homepage navigation",
      "accessed": "2026-11-06",
      "quote": "Đăng Tuyển Dụng",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://careerviet.vn/vi/jobseekers/about",
+     "title": "Về chúng tôi",
+     "accessed": "2026-11-09",
+     "quote": "Trụ sở chính: Tầng 6, Tòa nhà VNO, 139 Pasteur, Phường Xuân Hoà, TP. Hồ Chí Minh, Việt Nam",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://careerviet.vn/vi/jobseekers/about",
+     "title": "Về chúng tôi",
+     "accessed": "2026-11-09",
+     "quote": "CareerViet.vn - Mạng việc làm quốc tế chuyên biệt cho người Việt tìm việc.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://careerviet.vn/",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-09",
+     "quote": "EN",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://careerviet.vn/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "ĐĂNG TIN TUYỂN DỤNG",
      "quote_check": "ok"
     }
    ]
@@ -18425,7 +18845,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Footer language list gives five languages. Employer text says posting is free and payment is due when a hire is made. Homepage and the about page (a placeholder) were read. No HQ, parent, API, partner or ingest information stated.",
+   "notes": "Footer language list gives five languages. Employer text says posting is free and payment is due when a hire is made. Homepage and the about page (a placeholder) were read. No HQ, parent, API, partner or ingest information stated. Homepage and language menu read. The employer posting page returned a security challenge in the browser reader and was not retried, so no API or partner information was checked there. Footer shows only a copyright line.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/thai-do/",
    "indexable": false,
@@ -18443,11 +18863,11 @@
    "connections": [],
    "review": {
     "board_id": "thai-do",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
-    "note": "Homepage read and about page is a placeholder; states five languages and free posting with payment on hire, but no HQ, parent, API or partner.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;parent;partner_program;ingest_methods",
+    "note": "Language menu and free posting stated on the homepage; the employer posting page returned a 403 security challenge in the browser reader and was not retried.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -18466,6 +18886,14 @@
      "title": "Footer language list",
      "accessed": "2026-11-06",
      "quote": "ไทยEnglishРусский中文မြန်မာ",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://thai.do/",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-09",
+     "quote": "🇬🇧 EN English ภาษาอังกฤษ",
      "quote_check": "ok"
     }
    ]
@@ -18900,16 +19328,16 @@
    "niche": "",
    "segment": "",
    "parent": "",
-   "business_model": "",
-   "api_status": "unknown",
+   "business_model": "paid job listings from 1799 UAH; employer profile from 6000 UAH per month",
+   "api_status": "public-key",
    "api_docs_url": "https://happymonday.ua/developers/api/v4",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Developer page links a job feed and API v4 documentation. API key or access requirements are not stated; other integration requests go by email to the product team. Prices not shown.",
+   "notes": "Developer page links a job feed and API v4 documentation. API key or access requirements are not stated; other integration requests go by email to the product team. Prices not shown. Ukrainian job platform. A public job feed (JSON and XML) needs no key and is rate limited to 30 requests per minute per IP. The API v4 needs a company key created in the company cabinet. Only Ukrainian language switch was seen. No partner program was stated. Prices shown on the employer services pag",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/happy-monday/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -18919,16 +19347,17 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "api-self-serve",
     "job-board"
    ],
    "connections": [],
    "review": {
     "board_id": "happy-monday",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;business_model;partner_program",
-    "note": "Homepage and developers page read; job feed and API documentation links stated; key requirements and prices not stated.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;parent;partner_program",
+    "note": "Services page shows listing prices; developer pages document a public feed and API v4 with self-serve keys; no headquarters or parent stated.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -18955,6 +19384,38 @@
      "title": "Developer page",
      "accessed": "2026-11-06",
      "quote": "рекомендуємо дивитися документацію по актуальному API Happy Monday.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://happymonday.ua/services",
+     "title": "Services",
+     "accessed": "2026-11-09",
+     "quote": "Від 1799 грн",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://happymonday.ua/developers/api/v4",
+     "title": "API v4 documentation",
+     "accessed": "2026-11-09",
+     "quote": "Access to API is available only with active API key, which you can create or revoke at any time in company cabinet.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://happymonday.ua/developers/job-feed",
+     "title": "Public job feed",
+     "accessed": "2026-11-09",
+     "quote": "Без реєстрації і без API-ключа",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://happymonday.ua/developers",
+     "title": "Developers",
+     "accessed": "2026-11-09",
+     "quote": "Якщо ви представляєте компанію-роботодавця і хочете інтегрувати публікацію вакансій і отримання відгуків напряму через API",
      "quote_check": "ok"
     }
    ]
@@ -19430,7 +19891,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Homepage offers English and Cymraeg. The About page names the UK Statistics Authority as the body it serves as executive office. Contact page lists offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast; no headquarters is named. The /developers page returned 404.",
+   "notes": "Homepage offers English and Cymraeg. The About page names the UK Statistics Authority as the body it serves as executive office. Contact page lists offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast; no headquarters is named. The /developers page returned 404. Government statistics office; its careers site (careers.ons.gov.uk) lists its own vacancies. No employer pricing, API, partner or parent company stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/office-for-national-statistics/",
    "indexable": false,
@@ -19449,11 +19910,11 @@
    "connections": [],
    "review": {
     "board_id": "office-for-national-statistics",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "api_status",
-    "note": "Header, footer and navigation show no developers, API, open data or partners link. The /developers page returned 404. Partner pages were not read.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods;parent",
+    "note": "Homepage, about, contact and careers pages returned HTTP 200 and state languages but no employer pricing, API or partner program.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -19488,6 +19949,22 @@
      "title": "Office locations",
      "accessed": "2026-11-06",
      "quote": "Details of our offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.ons.gov.uk",
+     "title": "Homepage language switcher",
+     "accessed": "2026-11-09",
+     "quote": "English (EN) | Cymraeg (CY)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.ons.gov.uk/aboutus",
+     "title": "About us",
+     "accessed": "2026-11-09",
+     "quote": "We are the UK’s largest independent producer of official statistics",
      "quote_check": "ok"
     }
    ]
@@ -19904,7 +20381,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Header language switcher offers DE and EN. Open data is linked under Datenzugang, but no API is described; a guessed open-data URL returned 404. Austria is implied by content, not stated as headquarters.",
+   "notes": "Header language switcher offers DE and EN. Open data is linked under Datenzugang, but no API is described; a guessed open-data URL returned 404. Austria is implied by content, not stated as headquarters. Federal statistics office (Bundesanstalt Statistik Osterreich). Careers page lists job offers and is shown in German only. No developer or API page was identified on the site.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/statistics-austria/",
    "indexable": false,
@@ -19922,11 +20399,11 @@
    "connections": [],
    "review": {
     "board_id": "statistics-austria",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage states the operator and a DE/EN language switcher; no headquarters, API, job posting cost or partner program stated.",
-    "method": "fetch"
+    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Legal notice names the federal Bundesanstalt Statistik Osterreich; careers page and homepage show language options; no developer or API page identified.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -19945,6 +20422,30 @@
      "title": "Homepage language switcher",
      "accessed": "2026-11-06",
      "quote": "DE EN",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.statistik.at/en/about-us/responsibilities-and-principles/legal-basis/legal-notice",
+     "title": "Legal notice",
+     "accessed": "2026-11-09",
+     "quote": "Bundesanstalt „Statistik Österreich“ is not responsible for the content of other websites.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.statistik.at/en/ueber-uns/karriere/jobangebote",
+     "title": "Careers page",
+     "accessed": "2026-11-09",
+     "quote": "The standard language \"German\" is displayed.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.statistik.at/en",
+     "title": "Homepage language switch",
+     "accessed": "2026-11-09",
+     "quote": "EN",
      "quote_check": "ok"
     }
    ]
@@ -20202,8 +20703,10 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "general and specialist staffing and talent services",
    "segment": "",
@@ -20214,10 +20717,10 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Footer gives a registered office in The Netherlands; it is not labelled headquarters. Page offers a country selector, not a language switcher. The /about-us page returned HTTP 404.",
+   "notes": "Footer gives a registered office in The Netherlands; it is not labelled headquarters. Page offers a country selector, not a language switcher. The /about-us page returned HTTP 404. Registered office in the Netherlands per footer. Homepage and footer read; no language switcher, employer pricing, API or partner program found in the text read. Country websites are linked from the footer.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/randstad/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -20233,10 +20736,10 @@
    "connections": [],
    "review": {
     "board_id": "randstad",
-    "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Footer names Randstad N.V. as registered entity. The page names no separate owner above it, so parent is recorded as the registered entity. Fetch summary included formatting directions, which were ignored.",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;parent;business_model;partner_program;ingest_methods",
+    "note": "Homepage and footer state the Netherlands registered office; no language options, pricing or partner program in the text read.",
     "method": "mixed"
    },
    "owners": [],
@@ -20281,6 +20784,14 @@
      "accessed": "2026-11-06",
      "quote": "RANDSTAD, is a registered trademark of © Randstad N.V.",
      "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.randstad.com/",
+     "title": "Homepage text",
+     "accessed": "2026-11-09",
+     "quote": "Randstad is the world’s leading talent company and a partner of choice to clients.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -20290,14 +20801,16 @@
    "url": "https://www.adecco.com",
    "domains": "",
    "type": "staffing",
-   "hq_country": "",
+   "hq_country": "CH",
    "founded": "",
    "markets": "",
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "talent, technology and advisory services",
    "segment": "",
@@ -20308,10 +20821,10 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Homepage states the site is part of The Adecco Group. No language options, headquarters, pricing or API statement found on pages read.",
+   "notes": "Homepage states the site is part of The Adecco Group. No language options, headquarters, pricing or API statement found on pages read. Employer pages state that Adecco is part of The Adecco Group and headquartered in Zurich. No pricing, API or partner page was found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/the-adecco-group/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -20327,10 +20840,10 @@
    "connections": [],
    "review": {
     "board_id": "the-adecco-group",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;founded",
-    "note": "adecco.com homepage has no HQ or history. The group site adeccogroup.com (a different domain from the entry URL) was read on the homepage, our-group, about-us and investors pages, with no HQ or founding statement. The press release dateline",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage, who-we-are and FAQ pages state the group parent and Zurich headquarters; no pricing, API or partner page was found.",
     "method": "mixed"
    },
    "owners": [],
@@ -20351,6 +20864,30 @@
      "accessed": "2026-11-06",
      "quote": "We are part of The Adecco Group, the world's leading talent, technology and advisory company",
      "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.adecco.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Global (English)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.adecco.com/employers/who-we-are",
+     "title": "Who we are",
+     "accessed": "2026-11-09",
+     "quote": "Adecco is part of The Adecco Group and headquartered in Zurich, Switzerland.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.adecco.com/employers/who-we-are",
+     "title": "Who we are",
+     "accessed": "2026-11-09",
+     "quote": "Adecco is part of The Adecco Group",
+     "quote_check": "ok"
     }
    ]
   },
@@ -20366,7 +20903,7 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
+   "primary_language": "en",
    "languages_supported": [
     "en"
    ],
@@ -20380,7 +20917,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Homepage language selector shows only English. Homepage names brands Manpower, Experis and Talent Solutions. No headquarters, parent, pricing or API statement found; about page returned HTTP 404.",
+   "notes": "Homepage language selector shows only English. Homepage names brands Manpower, Experis and Talent Solutions. No headquarters, parent, pricing or API statement found; about page returned HTTP 404. Global workforce solutions company. The language selector shows only English. Headquarters, parent company, employer pricing, API and partner pages are not stated on the homepage, About, or Sitemap.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/manpowergroup/",
    "indexable": false,
@@ -20398,11 +20935,11 @@
    "connections": [],
    "review": {
     "board_id": "manpowergroup",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;founded",
-    "note": "Read about, leadership, investors and home pages. The site says it operates in 75 countries and territories and mentions brands operating for over 70 years, but states no headquarters location or founding year.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage shows only an English language option; About and Sitemap state no headquarters, parent, pricing or API.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -20420,6 +20957,14 @@
      "url": "https://www.manpowergroup.com",
      "title": "Homepage language selector",
      "accessed": "2026-11-06",
+     "quote": "(English)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.manpowergroup.com/",
+     "title": "ManpowerGroup homepage",
+     "accessed": "2026-11-09",
      "quote": "(English)",
      "quote_check": "ok"
     }
@@ -20799,7 +21344,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Footer gives the headquarters as Milano and the company as GI GROUP HOLDING S.p.A. The country is Italy from the Milan address and the Milan companies register named in the footer. Country selector only; no language options shown. No pricing, API or partner program was stated on the pages read.",
+   "notes": "Footer gives the headquarters as Milano and the company as GI GROUP HOLDING S.p.A. The country is Italy from the Milan address and the Milan companies register named in the footer. Country selector only; no language options shown. No pricing, API or partner program was stated on the pages read. Workforce solutions and staffing group. The About page gives the Milan headquarters of Gi Group Holding S.p.A. No employer pricing, API, partner program or job ingest method found on the homepage, About, For Employers, Contact or footer pages.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/gi-group-holding/",
    "indexable": false,
@@ -20818,11 +21363,11 @@
    "connections": [],
    "review": {
     "board_id": "gi-group-holding",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "parent",
-    "note": "Footer says GI GROUP HOLDING S.p.A. is With Sole Shareholder, but the shareholder is not named, so no parent recorded. Languages: English on main site, German on de subdomain; the country menu was not checked.",
-    "method": "mixed"
+    "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage, About, For Employers, Contact and footer pages state the Milan headquarters and parent but no pricing, API or partner page.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -20873,6 +21418,14 @@
      "title": "Gi Group",
      "accessed": "2026-11-06",
      "quote": "Gemeinsam finden wir den Job, der wirklich zu dir passt.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.gigroup.com/about-gi-group/",
+     "title": "About Gi Group",
+     "accessed": "2026-11-09",
+     "quote": "Headquarter: Piazza IV Novembre, 5 - 20124 Milano",
      "quote_check": "ok"
     }
    ]
@@ -20964,7 +21517,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Staffing company site. Language selector lists regional English variants only. Headquarters, parent company and job-posting terms not stated on pages read. /about-us returned HTTP 404.",
+   "notes": "Staffing company site. Language selector lists regional English variants only. Headquarters, parent company and job-posting terms not stated on pages read. /about-us returned HTTP 404. Language selector lists United States, EMEA and APAC English versions. The contact page names regional headquarters without a country.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/allegis-group/",
    "indexable": false,
@@ -20982,11 +21535,11 @@
    "connections": [],
    "review": {
     "board_id": "allegis-group",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
     "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage language selector lists English variants only. Headquarters and parent not stated; /about-us returned HTTP 404.",
-    "method": "fetch"
+    "note": "Language selector and contact page state English versions and regional headquarters, but no country headquarters, parent, pricing or API.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -21005,6 +21558,14 @@
      "title": "Language selector",
      "accessed": "2026-11-06",
      "quote": "United States - English, EMEA - English, APAC - English",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.allegisgroup.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Our companies span virtually all industries and markets",
      "quote_check": "ok"
     }
    ]
@@ -21052,10 +21613,10 @@
    "connections": [],
    "review": {
     "board_id": "korn-ferry",
-    "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country",
-    "note": "Founding year 1969 stated on Our Story page. Contact, leadership, and global offices pages do not name a headquarters country. Contact page needed the headless reader.",
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage, About, Global offices and Partnerships pages read; none state the missing facts.",
     "method": "mixed"
    },
    "owners": [],
@@ -21098,7 +21659,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Footer lists a Chicago address; it is not labeled headquarters. About page states the firm was founded in 1953. Parent not stated. No API or partner program found on pages read.",
+   "notes": "Footer lists a Chicago address; it is not labeled headquarters. About page states the firm was founded in 1953. Parent not stated. No API or partner program found on pages read. Executive search firm; its careers page links to its own open positions on a Workday site. Only English appears in the language switcher. No pricing, API, partner program or parent company stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/heidrick-struggles/",
    "indexable": false,
@@ -21117,11 +21678,11 @@
    "connections": [],
    "review": {
     "board_id": "heidrick-struggles",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage footer address and language selector and About page founding year found; no parent, pricing, API or partner program stated.",
-    "method": "fetch"
+    "fields_not_found": "business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage, careers and about pages returned HTTP 200; they state a Chicago address and English only, with no pricing, API, partner or parent information.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -21148,6 +21709,14 @@
      "title": "Homepage language selector",
      "accessed": "2026-11-06",
      "quote": "Select your language",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.heidrick.com/en/about-us",
+     "title": "About us footer",
+     "accessed": "2026-11-09",
+     "quote": "Heidrick & Struggles International, Inc. • 233 South Wacker Drive Willis Tower • Suite 4900 • Chicago, IL 60606-6303",
      "quote_check": "ok"
     }
    ]
@@ -21182,7 +21751,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Header language menu lists five languages. Footer shows only a copyright line; headquarters, parent and business model not stated. The /about-us page returned HTTP 404.",
+   "notes": "Header language menu lists five languages. Footer shows only a copyright line; headquarters, parent and business model not stated. The /about-us page returned HTTP 404. Language switcher lists English, Simplified Chinese, German, French (Quebec) and Japanese versions. The who-we-are and locations pages state no headquarters or parent.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/spencer-stuart/",
    "indexable": false,
@@ -21201,11 +21770,11 @@
    "connections": [],
    "review": {
     "board_id": "spencer-stuart",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
     "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Header lists five languages; no headquarters, parent, pricing, API or partner program stated.",
-    "method": "fetch"
+    "note": "Homepage language switcher lists five versions; who-we-are and locations pages state no headquarters or parent.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -21225,6 +21794,14 @@
      "accessed": "2026-11-06",
      "quote": "English | 简体中文 | Deutsch | Français (Québec) | 日本語",
      "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.spencerstuart.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Unlocking the Dynamic Board Advantage",
+     "quote_check": "ok"
     }
    ]
   },
@@ -21240,7 +21817,7 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
+   "primary_language": "en",
    "languages_supported": [
     "en",
     "zh",
@@ -21256,7 +21833,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Homepage language options are English, Chinese (China) and Japanese. Page lists a New York office address but no headquarters statement, parent, pricing, API or partner program. About page returned HTTP 404.",
+   "notes": "Homepage language options are English, Chinese (China) and Japanese. Page lists a New York office address but no headquarters statement, parent, pricing, API or partner program. About page returned HTTP 404. The language switcher text shows only EN. Other options named in the fetch summary were not in the reader text, so none are recorded. The locations page gives a New York office address with no headquarters statement.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/russell-reynolds-associates/",
    "indexable": false,
@@ -21275,11 +21852,11 @@
    "connections": [],
    "review": {
     "board_id": "russell-reynolds-associates",
-    "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Language menu lists English, 中文(中国) and 日本語 (日本). Newsroom and zh-CN pages read. No Developers, API or Pricing link on the pages read.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage, about and locations pages state English and a New York office address but no headquarters or parent.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -21331,6 +21908,14 @@
      "accessed": "2026-11-06",
      "quote": "English",
      "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.russellreynolds.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Your Leadership Challenges, Solved.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -21360,7 +21945,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Principal place of business given as New York, NY. Only EN appears in the header language selector.",
+   "notes": "Principal place of business given as New York, NY. Only EN appears in the header language selector. The principal place of business given is for Michael Page International Inc., the US entity. The page does not name a parent company; its Corporate site link goes to page.com. No language switcher found in the browser text, so no language codes are recorded. No employer pricing or API found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/michael-page/",
    "indexable": false,
@@ -21378,10 +21963,10 @@
    "connections": [],
    "review": {
     "board_id": "michael-page",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "business_model;api_status;partner_program;parent;ingest_methods",
-    "note": "Homepage states a principal place of business in New York and an EN-only language selector; no parent, pricing, API or partner program stated.",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "About page gives the US principal place of business; no parent, language list or employer pricing found.",
     "method": "mixed"
    },
    "owners": [],
@@ -21409,6 +21994,14 @@
      "title": "Header language selector",
      "accessed": "2026-11-06",
      "quote": "EN",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.michaelpage.com/about-us",
+     "title": "About us footer",
+     "accessed": "2026-11-09",
+     "quote": "Principal Place of Business: 1156 Avenue of the Americas, 5th Floor, New York, NY 10036, United States.",
      "quote_check": "ok"
     }
    ]
@@ -21532,11 +22125,11 @@
    "connections": [],
    "review": {
     "board_id": "egon-zehnder",
-    "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Language menu lists English, Deutsch, Chinese and Japanese. Homepage text is in English.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and imprint read; imprint gives a Berlin legal address but no headquarters, and no job-posting, API or partner details appear.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -21768,7 +22361,7 @@
    "url": "https://www.kwork.com",
    "domains": "",
    "type": "freelance-platform",
-   "hq_country": "",
+   "hq_country": "EE",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -21786,7 +22379,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Freelance service marketplace rather than a job board. Operator is KWORK Technologies OÜ in Tallinn. No employer pricing, language switcher, API or partner page found; the site links an affiliate program only.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/kwork/",
    "indexable": false,
@@ -21805,11 +22398,11 @@
    "connections": [],
    "review": {
     "board_id": "kwork",
-    "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "The For Sellers page states the fee model. The fee applies to sellers on completed orders, not to employers, so it describes the seller side of the marketplace.",
-    "method": "mixed"
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program",
+    "note": "Homepage and about page read; company address confirmed; no employer pricing, language switcher, API or partner page found.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -21829,6 +22422,22 @@
      "accessed": "2026-11-06",
      "quote": "there are no paid accounts or subscriptions; we only charge a percentage fee for completed orders.",
      "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://kwork.com/about",
+     "title": "About Kwork",
+     "accessed": "2026-11-09",
+     "quote": "Narva mnt 7,634, Estonia",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.kwork.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "listing their services in the Catalog",
+     "quote_check": "ok"
     }
    ]
   },
@@ -21844,8 +22453,10 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "local on-demand task and errand marketplace",
    "segment": "",
@@ -21854,12 +22465,12 @@
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "yes",
-   "partner_url": "",
+   "partner_url": "https://www.taskrabbit.com/blog/partner-lp/",
    "ingest_methods": [],
-   "notes": "Footer link text 'Partner with Taskrabbit' found; the linked partner page was not read, so no partner URL is recorded. Pricing shown is for customers booking taskers, not employer job posting. HQ, parent and languages not stated on pages read.",
+   "notes": "Footer link text 'Partner with Taskrabbit' found; the linked partner page was not read, so no partner URL is recorded. Pricing shown is for customers booking taskers, not employer job posting. HQ, parent and languages not stated on pages read. Task marketplace for home services; the homepage prices are for customer tasks, not employer job posting. Partner page describes retailer partnerships for assembly services, not job feeds. Careers link has no posting content in the text read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/taskrabbit/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -21875,11 +22486,11 @@
    "connections": [],
    "review": {
     "board_id": "taskrabbit",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "hq_country;founded;parent",
-    "note": "Read /about, /press, /blog/partner-lp/ and the homepage footer. None states founding year, HQ or parent. IKEA appears only as a furniture assembly partner.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;business_model;ingest_methods",
+    "note": "Retailer partner page states partnerships; homepage shows customer prices only and no employer posting terms.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -21898,6 +22509,30 @@
      "title": "Homepage footer link",
      "accessed": "2026-11-06",
      "quote": "Partner with Taskrabbit",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.taskrabbit.com/blog/partner-lp/",
+     "title": "Partner with Taskrabbit",
+     "accessed": "2026-11-09",
+     "quote": "Taskrabbit partners with leading retailers to provide assembly, mounting and installation services.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.taskrabbit.com/",
+     "title": "Homepage text",
+     "accessed": "2026-11-09",
+     "quote": "Book trusted help for home tasks",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.taskrabbit.com/blog/partner-lp/",
+     "title": "Partner page footer",
+     "accessed": "2026-11-09",
+     "quote": "Discover Services By City All Services Elite Taskers Help Company About Us Careers Press Taskrabbit for Good Partner With Us",
      "quote_check": "ok"
     }
    ]
@@ -21925,8 +22560,10 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "Pricing page lists three products with different pricing models. Pricing page states no API, partner program, or headquarters or parent. Homepage states no languages or ingest method. The about page returned HTTP 404.",
+   "ingest_methods": [
+    "ATS integration (AIR)"
+   ],
+   "notes": "Pricing page lists three products with different pricing models. Pricing page states no API, partner program, or headquarters or parent. Homepage states no languages or ingest method. The about page returned HTTP 404. AIR has no public per-interview price. Nexus is priced as a share of the savings it generates. No developer, API or partner page is linked from the homepage, pricing, about or AIR pages, and the footer lists none. No headquarters, parent or language switcher found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/braintrust/",
    "indexable": false,
@@ -21939,16 +22576,17 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "ats-integration",
     "freelance-platform"
    ],
    "connections": [],
    "review": {
     "board_id": "braintrust",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
-    "note": "Homepage and pricing page read; pricing stated per hire and per interview, while the about page returned HTTP 404 and no API or partner terms were stated.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+    "note": "Pricing, About, AIR and homepage read; pricing model stated, no developer, API or partner page linked.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -21967,6 +22605,14 @@
      "title": "Talent Marketplace pricing",
      "accessed": "2026-11-06",
      "quote": "you're only paying for the talent you hire",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.usebraintrust.com/pricing",
+     "title": "Pricing, integrations",
+     "accessed": "2026-11-09",
+     "quote": "Native ATS integrations (Greenhouse, Lever, Workday)",
      "quote_check": "ok"
     }
    ]
@@ -22112,15 +22758,19 @@
    "segment": "",
    "parent": "",
    "business_model": "free",
-   "api_status": "unknown",
+   "api_status": "on-request",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "Homepage says publishing a project is free and lists 0% commission fees. Footer gives a Nuremberg company location. No languages, parent, API or partner information found.",
+   "ingest_methods": [
+    "XML feed",
+    "JSON feed",
+    "ATS integration"
+   ],
+   "notes": "Homepage says publishing a project is free and lists 0% commission fees. Footer gives a Nuremberg company location. No languages, parent, API or partner information found. Legal information page gives the principal office in Nuremberg. Recruiter pricing page describes automated project import via XML or JSON, custom interfaces on request, and integrations with Broadbean and LogicMelon. No parent or language switcher found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/freelancermap/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -22130,17 +22780,20 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "api-on-request",
+    "ats-integration",
     "free-to-post",
-    "freelance-platform"
+    "freelance-platform",
+    "xml-feed"
    ],
    "connections": [],
    "review": {
     "board_id": "freelancermap",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "parent;languages;api_status;partner_program;ingest_methods",
-    "note": "Homepage read; Nuremberg company footer and free project publishing stated; no languages, API or partner information found.",
-    "method": "fetch"
+    "fields_not_found": "parent;languages;partner_program",
+    "note": "Legal page gives principal office in Nuremberg; recruiter pricing page shows monthly plans and XML or JSON import; no parent or language switcher found.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -22167,6 +22820,38 @@
      "title": "Homepage",
      "accessed": "2026-11-06",
      "quote": "Publish project for free now",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.freelancermap.com/legal-information.html",
+     "title": "Legal information",
+     "accessed": "2026-11-09",
+     "quote": "Principal office: Nuremberg",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.freelancermap.com/pricing/recruiter",
+     "title": "Prices and features for companies",
+     "accessed": "2026-11-09",
+     "quote": "€59.00 per month",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.freelancermap.com/pricing/recruiter",
+     "title": "Prices and features for companies",
+     "accessed": "2026-11-09",
+     "quote": "We'll set up a simple interface to import your projects regularly.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.freelancermap.com/pricing/recruiter",
+     "title": "Prices and features for companies",
+     "accessed": "2026-11-09",
+     "quote": "Enterprise members can automate the project import process via XML or JSON.",
      "quote_check": "ok"
     }
    ]
@@ -22689,7 +23374,7 @@
    "ingest_methods": [
     "ATS integration"
    ],
-   "notes": "Pricing page lists a Startup Program at $130 per month on yearly billing; enterprise pricing is custom. Homepage says Gem integrates with several ATS products.",
+   "notes": "Pricing page lists a Startup Program at $130 per month on yearly billing; enterprise pricing is custom. Homepage says Gem integrates with several ATS products. AI recruiting platform (ATS, CRM, sourcing). Pricing is custom by FTE count with a startup offer. The Integrations page on integrations.gem.com returned HTTP 403 to fetch and to the browser reader and was not read, so API and partner status could not be checked.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/gem/",
    "indexable": false,
@@ -22709,11 +23394,11 @@
    "connections": [],
    "review": {
     "board_id": "gem",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
-    "note": "Pricing page and homepage state subscription pricing and ATS integrations; no language switcher, headquarters or API program stated.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+    "note": "Pages state subscription pricing and native ATS integrations; integrations.gem.com returned HTTP 403 and was not read.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -22741,6 +23426,22 @@
      "accessed": "2026-11-06",
      "quote": "Gem integrates natively with Greenhouse, Workday, Lever, iCIMS, and more.",
      "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.gem.com/",
+     "title": "Home",
+     "accessed": "2026-11-09",
+     "quote": "starting as low as $135/month for the full platform",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.gem.com/",
+     "title": "Home",
+     "accessed": "2026-11-09",
+     "quote": "Gem integrates natively with Greenhouse, Workday, Lever, iCIMS, and more.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -22750,14 +23451,16 @@
    "url": "https://www.seekout.com",
    "domains": "",
    "type": "hr-tech",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "",
    "markets": "",
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "talent sourcing and recruiting intelligence",
    "segment": "",
@@ -22765,13 +23468,13 @@
    "business_model": "subscription (per seat)",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.seekout.com/partners",
    "ingest_methods": [],
-   "notes": "Pricing page lists per-seat pricing, a 14-day free trial and enterprise pricing by quote; no list prices are shown. ATS integration is a listed feature on some tiers. The homepage fetch returned embedded instructions, which were ignored. Language options, parent company and API status were not stated on the pages read.",
+   "notes": "Pricing page lists per-seat pricing, a 14-day free trial and enterprise pricing by quote; no list prices are shown. ATS integration is a listed feature on some tiers. The homepage fetch returned embedded instructions, which were ignored. Language options, parent company and API status were not stated on the pages read. Recruiting SaaS. The MCP connector page says sign-in is used, with no API keys for standard use. The MCP docs link (docs.seekout.com) returned an HTTP 403 challenge page in the browser reader and was not retried. Houses an ATS integration partner page.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/seekout/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -22782,16 +23485,17 @@
    },
    "tags": [
     "hr-tech",
+    "partner-program",
     "subscription"
    ],
    "connections": [],
    "review": {
     "board_id": "seekout",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
-    "note": "Homepage and pricing page read; per-seat pricing and ATS integration stated, no language options, parent or API status found.",
-    "method": "fetch"
+    "fields_not_found": "parent;languages;api_status",
+    "note": "Homepage, pricing, partners, about and MCP pages read; docs.seekout.com returned an HTTP 403 challenge page in the browser reader and was not retried.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -22810,6 +23514,46 @@
      "title": "Pricing page",
      "accessed": "2026-11-06",
      "quote": "Per-seat pricing adjusts with volume",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.seekout.com/about-us",
+     "title": "About SeekOut",
+     "accessed": "2026-11-09",
+     "quote": "Founded in Bellevue, WA",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.seekout.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Join 750+ customers who source, screen, and engage talent with SeekOut.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.seekout.com/solutions/mcp",
+     "title": "SeekOut MCP",
+     "accessed": "2026-11-09",
+     "quote": "Sign in with your SeekOut account. No API keys needed for standard use.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.seekout.com/partners",
+     "title": "SeekOut Partners",
+     "accessed": "2026-11-09",
+     "quote": "Join our Referral Partner Program",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.seekout.com/partners",
+     "title": "SeekOut Partners",
+     "accessed": "2026-11-09",
+     "quote": "SeekOut integrates with the leading ATS, CRM and HCM solutions in the market today.",
      "quote_check": "ok"
     }
    ]
@@ -23509,11 +24253,11 @@
    "connections": [],
    "review": {
     "board_id": "lhh",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "parent",
-    "note": "Our Story page states founding year 1967. No page states an owner. The Adecco Group appears only as a navigation link, which is not a stated parent.",
-    "method": "fetch"
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+    "note": "Our Presence page states it is an Adecco Group company; no HQ, pricing or API found.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -23542,14 +24286,16 @@
    "url": "https://www.randstadenterprise.com",
    "domains": "",
    "type": "outplacement",
-   "hq_country": "",
+   "hq_country": "NL",
    "founded": "",
    "markets": "",
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "outplacement and career transition",
    "segment": "",
@@ -23560,10 +24306,10 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "About page states it is part of Randstad N.V. No language options, pricing or developer pages were found on the pages read.",
+   "notes": "About page states it is part of Randstad N.V. No language options, pricing or developer pages were found on the pages read. The URL given is the Randstad Enterprise site, which describes Randstad RiseSmart as one of its delivery brands for talent development and transition. Parent and address are from the About and footer text. No employer pricing, API or partner program found in the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/randstad-risesmart/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -23578,11 +24324,11 @@
    "connections": [],
    "review": {
     "board_id": "randstad-risesmart",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
-    "note": "About page states it is part of Randstad N.V.; no language options, pricing or API pages found.",
-    "method": "fetch"
+    "fields_not_found": "languages;business_model;partner_program;ingest_methods",
+    "note": "Parent and Netherlands address stated on the Randstad Enterprise site; no pricing, language options or partner program found.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -23601,6 +24347,38 @@
      "title": "About us",
      "accessed": "2026-11-06",
      "quote": "Part of Randstad N.V.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.randstadenterprise.com/about-us/",
+     "title": "About Randstad Enterprise",
+     "accessed": "2026-11-09",
+     "quote": "Part of Randstad N.V., we combine unmatched talent data and market insights",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.randstadenterprise.com/about-us/",
+     "title": "Footer address",
+     "accessed": "2026-11-09",
+     "quote": "Randstad Enterprise, Diemermere 25, Diemen, 1112TC Amsterdam, Netherlands",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.randstadenterprise.com/",
+     "title": "Homepage text",
+     "accessed": "2026-11-09",
+     "quote": "Randstad Enterprise helps you unlock the true heartbeat of your organization",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.randstadenterprise.com/about-us/",
+     "title": "Footer links",
+     "accessed": "2026-11-09",
+     "quote": "careers at randstad enterprise suppliers RiseSmart access login for HR login for participants",
      "quote_check": "ok"
     }
    ]
@@ -23629,7 +24407,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Outplacement and career development firm for employers, not a job board. The pricing page shows four USD amounts from $600 to $3750 and offers custom quotes for other options. No headquarters, language selector, API, partner program or job ingest method was found. The homepage line 'Countries supported in 40+ languages' describes coaching services, not site languages.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/intoo/",
    "indexable": false,
@@ -23647,10 +24425,10 @@
    "connections": [],
    "review": {
     "board_id": "intoo",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;founded",
-    "note": "About page gives a Los Angeles office address under Careers, not labelled as headquarters, so not recorded. The fetch tool summary showed a 2012 founding sentence that is not in the raw text, so not recorded. Parent and per-program pricing ",
+    "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+    "note": "About page states it is a Gi Group Holding company and pricing page gives per-program rates; no headquarters, API or partner program stated.",
     "method": "mixed"
    },
    "owners": [],
@@ -23764,8 +24542,10 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "career management and talent development",
    "segment": "",
@@ -23776,7 +24556,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Career and outplacement services firm. Homepage states it is part of ManpowerGroup. Headquarters country, pricing, API and partner pages were not found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/right-management/",
    "indexable": false,
@@ -23794,10 +24574,10 @@
    "connections": [],
    "review": {
     "board_id": "right-management",
-    "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Language selector shows only Global (English). Single-language site.",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage read (HTTP 200); it states ManpowerGroup as parent and English locale, with no headquarters country, pricing, API or partner page found.",
     "method": "mixed"
    },
    "owners": [],
@@ -23825,6 +24605,22 @@
      "title": "Your Outplacement | Personalized Outplacement Starts with PowerSuite Next",
      "accessed": "2026-11-06",
      "quote": "Global (English)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.right.com",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "We’re proud to be part of ManpowerGroup",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.right.com",
+     "title": "Homepage locale selector",
+     "accessed": "2026-11-09",
+     "quote": "(English)",
      "quote_check": "ok"
     }
    ]
@@ -23872,11 +24668,11 @@
    "connections": [],
    "review": {
     "board_id": "challenger-gray-christmas",
-    "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "parent",
-    "note": "The founding quote names a founder called James and does not name the firm, so founded 1966 is partially verified. Our Team page gave no founding year or parent. Footer copyright year is not a founding statement.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Home and About pages read (HTTP 200); they give Chicago as headquarters city and no country, parent, language, pricing or API information.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -23913,7 +24709,7 @@
    "url": "https://www.impactgrouphr.com",
    "domains": "",
    "type": "outplacement",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "1988",
    "markets": "",
    "countries_served": [
@@ -23931,7 +24727,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Coaching, relocation and outplacement firm, not a job board. Contact page lists a Saint Louis, MO office. Language switcher, parent company, employer pricing and API not stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/impact-group/",
    "indexable": false,
@@ -23949,11 +24745,11 @@
    "connections": [],
    "review": {
     "board_id": "impact-group",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country",
-    "note": "Founding year 1988 found on History page. Contact page shows a US street address and +1 phone, but no headquarters country is stated.",
-    "method": "mixed"
+    "fields_not_found": "languages;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage, about and contact pages returned HTTP 200; contact page gives a US office and no job board pricing, API or partner program.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -23972,6 +24768,14 @@
      "title": "Company History | IMPACT Group",
      "accessed": "2026-11-06",
      "quote": "IMPACT Group was founded in 1988 on a mission to empower individuals to grow great careers",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://impactgrouphr.com/contact/",
+     "title": "Contact us",
+     "accessed": "2026-11-09",
+     "quote": "Saint Louis, MO 63141",
      "quote_check": "ok"
     }
    ]
@@ -24168,11 +24972,11 @@
    "connections": [],
    "review": {
     "board_id": "topresume",
-    "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Parent stated on the About page as part of the Career.io family.",
-    "method": "mixed"
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;parent;ingest_methods",
+    "note": "Homepage, FAQ and plans pages read; they state no headquarters, parent, language options, employer business model or API.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -24365,7 +25169,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Resume builder for job seekers; no employer job posting or employer pricing found. Pricing page lists candidate subscriptions (Yearly $8 / month, Quarterly $18 / month, Monthly $24 / month). Footer shows Terms, Privacy Policy and Cookie Settings; no API, developer or partner page linked.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/kickresume/",
    "indexable": false,
@@ -24383,11 +25187,11 @@
    "connections": [],
    "review": {
     "board_id": "kickresume",
-    "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "HQ in Bratislava, Slovakia and language menu read from the About page.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Home, About and Pricing pages read (HTTP 200); they state an EU-based team in Bratislava and candidate subscriptions but no employer pricing, parent, API or partner program.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -24414,6 +25218,14 @@
      "title": "About Kickresume (language menu)",
      "accessed": "2026-11-06",
      "quote": "English Slovensky Español Deutsch Português Italiano",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.kickresume.com",
+     "title": "Homepage footer language menu",
+     "accessed": "2026-11-09",
+     "quote": "English",
      "quote_check": "ok"
     }
    ]
@@ -24629,11 +25441,11 @@
    "connections": [],
    "review": {
     "board_id": "novoresume",
-    "reviewed": "2026-11-06",
-    "outcome": "partially-verified",
-    "fields_not_found": "",
-    "note": "Founded and business model quoted. Only English is confirmed for languages; a language menu was not in the raw page text, so other languages are not recorded.",
-    "method": "mixed"
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and pricing page read; they state no headquarters, parent, language options or employer model. Footer and developer pages were not reachable from the homepage links.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -27140,12 +27952,12 @@
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "yes",
-   "partner_url": "",
+   "partner_url": "https://www.phenom.com/marketplace",
    "ingest_methods": [],
-   "notes": "Career-site CMS + ATS. Write API: partner.",
-   "confidence": "seed-unverified",
+   "notes": "Career-site CMS + ATS. Write API: partner. HR technology vendor (talent intelligence platform), not a standalone job board. Footer links to a partner marketplace with partner tiers. Headquarters, language options, API and parent company not stated on the pages read.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/phenom/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -27162,15 +27974,32 @@
    "connections": [],
    "review": {
     "board_id": "phenom",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "founded;parent",
-    "note": "About page and homepage read. No founding year, parent or owner stated. Copyright line names Phenom People, Inc., which is the company itself.",
-    "method": "fetch"
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;parent;ingest_methods",
+    "note": "Homepage returned HTTP 200; the partner marketplace page it links to states a partner program. Its about page link was not captured.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://www.phenom.com/marketplace",
+     "title": "Phenom Partner Marketplace",
+     "accessed": "2026-11-09",
+     "quote": "Join our growing partner ecosystem",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.phenom.com",
+     "title": "Homepage footer",
+     "accessed": "2026-11-09",
+     "quote": "© 2026 Phenom People, Inc. All Rights Reserved.",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "employment-hero",
@@ -27618,12 +28447,14 @@
    "url": "https://www.randstadprofessional.nl/",
    "domains": "",
    "type": "staffing",
-   "hq_country": "",
+   "hq_country": "NL",
    "founded": "",
    "markets": "",
    "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "nl",
+   "languages_supported": [
+    "nl"
+   ],
    "region": "Global",
    "niche": "",
    "segment": "",
@@ -27634,10 +28465,10 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "According to its owner's page: \"This includes brands like Yacht (Netherlands) and Expectra (France).\" yacht.nl (301) redirects to this site, which states that Yacht is a former brand now operating as Randstad Professional. The same site is also listed as Randstad Professional. Headquarters address on the site is in Diemen, Netherlands. Parent is Randstad as stated by the site's Randstad reference. N Same site as the Yacht entry. Headquarters address is in Diemen, Netherlands. Parent is Randstad. No language switcher, pricing, API or partner program found on the homepage.",
+   "notes": "According to its owner's page: \"This includes brands like Yacht (Netherlands) and Expectra (France).\" yacht.nl (301) redirects to this site, which states that Yacht is a former brand now operating as Randstad Professional. The same site is also listed as Randstad Professional. Headquarters address on the site is in Diemen, Netherlands. Parent is Randstad as stated by the site's Randstad reference. N Same site as the Yacht entry. Headquarters address is in Diemen, Netherlands. Parent is Randstad. No language switcher, pricing, API or partner program found on the homepage. Yacht continues under the Randstad Professional brand. The brand name is a registered trademark of Randstad N.V. Head office is in Diemen. No pricing, API or partner program was stated on the pages checked.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/yacht/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -27652,11 +28483,11 @@
    "connections": [],
    "review": {
     "board_id": "yacht",
-    "reviewed": "2026-11-06",
+    "reviewed": "2026-11-09",
     "outcome": "partially-verified",
     "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage read; headquarters address and Randstad parent stated, no pricing, API or partner program on the homepage.",
-    "method": "fetch"
+    "note": "Over ons page names Randstad N.V. as owner and Diemen as head office; posting page shows no prices; no API or partner page found.",
+    "method": "browser"
    },
    "owners": [
     {
@@ -27693,6 +28524,30 @@
      "title": "Homepage",
      "accessed": "2026-11-06",
      "quote": "Randstad heeft de ambitie om wereldwijd het meest gelijkwaardige en gespecialiseerde talentbedrijf te zijn.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.randstadprofessional.nl/over-ons",
+     "title": "Over ons",
+     "accessed": "2026-11-09",
+     "quote": "hoofdkantoor Randstad Professional",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.randstadprofessional.nl/over-ons",
+     "title": "Over ons",
+     "accessed": "2026-11-09",
+     "quote": "RANDSTAD PROFESSIONAL is een geregistreerd handelsmerk van Randstad N.V.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.randstadprofessional.nl/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "vacature plaatsen",
      "quote_check": "ok"
     }
    ]
@@ -31417,7 +32272,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Dutch-language job board for young workers. The employer services page describes a one-off recruitment fee agreed in advance. The /over-ons page returned 404.",
+   "notes": "Dutch-language job board for young workers. The employer services page describes a one-off recruitment fee agreed in advance. The /over-ons page returned 404. Site is in Dutch with no language switcher. The employer services page has a cost calculator but shows no prices.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/youngcapital/",
    "indexable": false,
@@ -31438,9 +32293,9 @@
     "board_id": "youngcapital",
     "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;business_model;languages",
-    "note": "Homepage and employer services page read; /over-ons returned 404; no language switcher seen; API and partner pages not read.",
-    "method": "browser"
+    "fields_not_found": "hq_country;languages;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Site is Dutch with no language switcher; employer services and about pages state no headquarters, parent, prices or API.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -32884,7 +33739,7 @@
    "url": "https://www.praca.pl",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "PL",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -32904,10 +33759,10 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Employer ad packages are priced net in PLN. Four packages are listed at 649 to 1649 PLN net. No HQ, parent, API or partner program was stated on the pages read.",
+   "notes": "Employer ad packages are priced net in PLN. Four packages are listed at 649 to 1649 PLN net. No HQ, parent, API or partner program was stated on the pages read. Ad package prices are net (netto) in PLN, starting at 649 PLN for DUO FORCE. The privacy clause places the operating company's seat in Warsaw and the footer names Praca.pl Sp. z o.o. A free job widget is offered for other sites; it is an outbound display, not an API. No API, developer or partner pro",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/praca-pl/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -32926,9 +33781,9 @@
     "board_id": "praca-pl",
     "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
-    "note": "Homepage, services and employer pages read; ad prices stated, no developer or partner page linked.",
-    "method": "browser"
+    "fields_not_found": "languages;api_status;partner_program;parent",
+    "note": "Homepage, services, employer and widget pages read; ad prices and Warsaw seat stated, no API or language switcher.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -32955,6 +33810,22 @@
      "title": "Services and ad pricing",
      "accessed": "2026-11-09",
      "quote": "649 PLN (netto)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.praca.pl/nasze-uslugi",
+     "title": "Footer privacy clause",
+     "accessed": "2026-11-09",
+     "quote": "spółka z ograniczoną odpowiedzialnością z siedzibą w Warszawie",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.praca.pl/nasze-uslugi",
+     "title": "Services page",
+     "accessed": "2026-11-09",
+     "quote": "Dołącz do kilkudziesięciu tysięcy firm, które znalazły pracowników na Praca.pl.",
      "quote_check": "ok"
     }
    ]
@@ -34526,7 +35397,7 @@
    "url": "https://www.mycareersfuture.gov.sg",
    "domains": "",
    "type": "government",
-   "hq_country": "",
+   "hq_country": "SG",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -34544,7 +35415,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Site header states it is a Singapore Government Agency Website. Homepage text is only 'Loading...' in the fetch tool and browser reader; /about and /employers return a page-not-found message.",
+   "notes": "Site header states it is a Singapore Government Agency Website. Homepage text is only 'Loading...' in the fetch tool and browser reader; /about and /employers return a page-not-found message. Singapore government jobs portal. Only the homepage could be read in full; a retry of the browser reader returned a loading placeholder. Operating agency, languages, employer pricing and API were not found on the homepage.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/mycareersfuture/",
    "indexable": false,
@@ -34568,8 +35439,8 @@
     "board_id": "mycareersfuture",
     "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage shows only 'Loading...' in fetch and browser reader; /about and /employers return a page-not-found message.",
+    "fields_not_found": "languages;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage read (HTTP 200) with fetch and browser reader; only the government-agency line was stated, and the browser retry returned a loading placeholder.",
     "method": "mixed"
    },
    "owners": [],
@@ -34587,6 +35458,14 @@
      "field": "existence",
      "url": "https://www.mycareersfuture.gov.sg/about",
      "title": "Site header (about page)",
+     "accessed": "2026-11-09",
+     "quote": "A Singapore Government Agency Website",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.mycareersfuture.gov.sg",
+     "title": "Homepage",
      "accessed": "2026-11-09",
      "quote": "A Singapore Government Agency Website",
      "quote_check": "ok"
@@ -36318,7 +37197,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Imprint lists offices in Linz and Wien, Austria; the imprint does not say which is the head office. Employer ad products start at EUR 949 per ad (Standard, 30 days). No language switcher, developer, API or partner page was found in the pages read.",
+   "notes": "Imprint lists offices in Linz and Wien, Austria; the imprint does not say which is the head office. Employer ad products start at EUR 949 per ad (Standard, 30 days). No language switcher, developer, API or partner page was found in the pages read. Employer product page lists per-listing prices and an Always-on subscription. No API, partner, parent or headquarters details found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/karriere-at/",
    "indexable": false,
@@ -36340,9 +37219,9 @@
     "board_id": "karriere-at",
     "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "languages;parent;api_status;partner_program;ingest_methods",
-    "note": "Imprint lists Austrian offices; employer pricing page shows ad prices; no language switcher, developer or partner page found.",
-    "method": "browser"
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+    "note": "Employer product page states per-listing prices and an Always-on subscription; no headquarters, parent, language switcher or API found.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -36991,14 +37870,16 @@
    "url": "https://www.leforem.be",
    "domains": "",
    "type": "government",
-   "hq_country": "",
+   "hq_country": "BE",
    "founded": "",
    "markets": "",
    "countries_served": [
     "BE"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "fr",
+   "languages_supported": [
+    "fr"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
@@ -37011,10 +37892,10 @@
    "ingest_methods": [
     "manual posting"
    ],
-   "notes": "Employer page states online job posting is free. No language switcher or API page was found on the pages read.",
+   "notes": "Employer page states online job posting is free. No language switcher or API page was found on the pages read. Public employment service of Wallonia. Employers can publish job offers free of charge on the site. No language switcher, API or partner program for job data found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/le-forem/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -37036,8 +37917,8 @@
     "board_id": "le-forem",
     "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
-    "note": "Homepage and employer pages read; employer posting is stated as free; no language switcher or API page found.",
+    "fields_not_found": "parent;languages;api_status;partner_program",
+    "note": "Homepage, legal notice, about, employer and partners pages read; site is in French with no language switcher found; partner page covers institutional partners only.",
     "method": "browser"
    },
    "owners": [],
@@ -37073,6 +37954,38 @@
      "title": "Diffuser une offre d'emploi",
      "accessed": "2026-11-09",
      "quote": "Créer/gérer une offre d'emploi en ligne",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.leforem.be/conditions-d-utilisation.html",
+     "title": "Mentions légales",
+     "accessed": "2026-11-09",
+     "quote": "dont le siège est établi Boulevard Tirou 104 à 6000 Charleroi",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.leforem.be/conditions-d-utilisation.html",
+     "title": "Mentions légales",
+     "accessed": "2026-11-09",
+     "quote": "Le Forem est le service public wallon de l’emploi",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.leforem.be/entreprises/recruter-en-autonomie.html",
+     "title": "Recruter en autonomie",
+     "accessed": "2026-11-09",
+     "quote": "déposez-les gratuitement sur notre site web.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.leforem.be/entreprises/recruter-en-autonomie.html",
+     "title": "Recruter en autonomie",
+     "accessed": "2026-11-09",
+     "quote": "Diffuser une offre d'emploi",
      "quote_check": "ok"
     }
    ]
@@ -39388,7 +40301,7 @@
    "countries_served": [
     "FI"
    ],
-   "primary_language": "",
+   "primary_language": "fi",
    "languages_supported": [
     "fi",
     "sv",
@@ -39399,15 +40312,15 @@
    "segment": "",
    "parent": "",
    "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "api_status": "on-request",
+   "api_docs_url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
+   "partner_program": "yes",
+   "partner_url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat",
    "ingest_methods": [],
-   "notes": "Footer lists a Rajapinnat (interfaces) link, but its page could not be located, so no api_status is recorded. Homepage, English personal-customers page and footer read in the browser reader.",
+   "notes": "Footer lists a Rajapinnat (interfaces) link, but its page could not be located, so no api_status is recorded. Homepage, English personal-customers page and footer read in the browser reader. Public employment marketplace run by KEHA-keskus (footer: © KEHA-keskus). Two job-posting APIs: a management interface for posting jobs and a search interface. Access requires an application form and terms acceptance. Old interfaces are being retired in May 2027 per the page. Quotes are in Finnish.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ty-markkinatori/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -39417,10 +40330,12 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "api-on-request",
     "general",
     "government-operated",
     "government-service",
     "job-board",
+    "partner-program",
     "public-sector"
    ],
    "connections": [],
@@ -39428,8 +40343,8 @@
     "board_id": "ty-markkinatori",
     "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
-    "note": "Homepage and English page state three languages and the KEHA-keskus footer; the footer interfaces page was not found (404 on guessed paths).",
+    "fields_not_found": "hq_country;parent;business_model",
+    "note": "Language menu, job posting API access terms and partner page confirmed; operator footer reads KEHA-keskus; no headquarters or prices stated.",
     "method": "browser"
    },
    "owners": [],
@@ -39457,6 +40372,38 @@
      "title": "Language selector",
      "accessed": "2026-11-09",
      "quote": "English (EN)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat",
+     "title": "Language selector",
+     "accessed": "2026-11-09",
+     "quote": "Valitse kieli. Välj språk. Choose language.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
+     "title": "Job posting interfaces",
+     "accessed": "2026-11-09",
+     "quote": "Rajapinnan käyttöönotto vaatii käyttöönottoilmoituksen ja käyttöehtojen hyväksymisen.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
+     "title": "Job posting interfaces",
+     "accessed": "2026-11-09",
+     "quote": "Työmarkkinatori-palvelualustalla on kaksi työpaikkailmoituksiin liittyvää ohjelmallista rajapintaa (API)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat",
+     "title": "Interfaces",
+     "accessed": "2026-11-09",
+     "quote": "Ohjeita ja tukea yhteistyökumppaneille",
      "quote_check": "ok"
     }
    ]
@@ -39702,7 +40649,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Language menu lists Norsk Bokmål, English, Norsk Nynorsk and Sámegiella (mapped to se, Northern Sami). Footer names Grade Jobbnorge AS with a Norwegian org. number. No prices, API or partner page was found in the pages read.",
+   "notes": "Language menu lists Norsk Bokmål, English, Norsk Nynorsk and Sámegiella (mapped to se, Northern Sami). Footer names Grade Jobbnorge AS with a Norwegian org. number. No prices, API or partner page was found in the pages read. Footer names the operator as Grade Jobbnorge AS. Employer access is through a job admin portal linked as Arbeidsgiver. Homepage, job admin page and footer read; no API, developer or partner page linked.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobbnorge/",
    "indexable": false,
@@ -39723,9 +40670,9 @@
     "board_id": "jobbnorge",
     "reviewed": "2026-11-09",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
-    "note": "Language menu lists four options; no prices, headquarters, API or partner page found in the pages read.",
-    "method": "browser"
+    "fields_not_found": "hq_country;business_model;parent;partner_program;ingest_methods",
+    "note": "Language options and operator stated in the footer; no employer pricing or headquarters statement found.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -39744,6 +40691,30 @@
      "title": "Language menu",
      "accessed": "2026-11-09",
      "quote": "Norsk Bokmål English Norsk Nynorsk Sámegiella",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://jobbnorge.no/",
+     "title": "Language menu",
+     "accessed": "2026-11-09",
+     "quote": "Norsk Bokmål English Norsk Nynorsk Sámegiella",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://jobbnorge.no/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-09",
+     "quote": "© Grade Jobbnorge AS | Org.nr. 861 496 872",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://jobbnorge.no/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-09",
+     "quote": "Kundeservice Support Personvernerklæring Tilgjengelighet Hjelpesenter",
      "quote_check": "ok"
     }
    ]
@@ -40823,13 +41794,13 @@
    "niche": "English-speaking expats",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Job posts are bought as credits: Basic job 1 credit, Premium job 2 credits, 1 credit listed at 3,000 CZK + DPH. Footer names Howlings s.r.o. as copyright holder; no parent company stated. No API, partner program or ingest method stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/expats-cz-jobs/",
    "indexable": false,
@@ -40842,10 +41813,18 @@
     "list_date": "2026-11-09"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "expats-cz-jobs",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;parent;api_status;partner_program;ingest_methods",
+    "note": "Homepage, about, job credits and partners pages returned HTTP 200; they state a Prague address and credit-based pricing, with no API or job partner program.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -40855,6 +41834,30 @@
      "title": "Expats.cz English jobs page",
      "accessed": "2026-11-09",
      "quote": "Jobs in Prague and Czech Republic with English",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.expats.cz/about-us",
+     "title": "About us footer address",
+     "accessed": "2026-11-09",
+     "quote": "Expats.cz, Vítkova 244/8, Praha 8, 186 00 Czech Republic.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.expats.cz",
+     "title": "Homepage footer",
+     "accessed": "2026-11-09",
+     "quote": "© 2001 - 2026 Howlings s.r.o. All rights reserved.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.expats.cz/czech-news/article/expats-cz-jobs",
+     "title": "Expats.cz Job Credits",
+     "accessed": "2026-11-09",
+     "quote": "Premium jobs require 2 credits, while Basic jobs require 1.",
      "quote_check": "ok"
     }
    ]
@@ -41865,14 +42868,17 @@
    "url": "https://www.iskur.gov.tr",
    "domains": "",
    "type": "government",
-   "hq_country": "",
+   "hq_country": "TR",
    "founded": "",
    "markets": "",
    "countries_served": [
     "TR"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "tr",
+   "languages_supported": [
+    "tr",
+    "en"
+   ],
    "region": "Middle East",
    "niche": "general",
    "segment": "",
@@ -41882,11 +42888,13 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Switcher shows TR and EN. The homepage gives an Ankara address. Registered employers can post job ads through the online system. No fee, API or partner statement was found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/i-kur-t-rkiye-i-kurumu/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -41903,7 +42911,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "i-kur-t-rkiye-i-kurumu",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model;api_status;partner_program",
+    "note": "Homepage, employer registration and English pages state TR and EN, an Ankara address and online job posting; no fees, API or partner page is linked.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -41913,6 +42928,22 @@
      "title": "İŞKUR homepage",
      "accessed": "2026-11-09",
      "quote": "Binlerce ilan arasında size uygun işi bulmanın en iyi yolu",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.iskur.gov.tr/",
+     "title": "Homepage language switcher",
+     "accessed": "2026-11-09",
+     "quote": "TR EN",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.iskur.gov.tr/isveren/kayit/",
+     "title": "Employer registration",
+     "accessed": "2026-11-09",
+     "quote": "İş ilanı verebilir ve uygun gördükleri elemanları davet ederek eleman ihtiyacı süreçlerini tamamlayabilirler.",
      "quote_check": "ok"
     }
    ]
@@ -42180,7 +43211,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "incruit",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+    "note": "Homepage and About read; the employer product page returned HTTP 502 and blocked true in the browser reader, not retried.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -42345,7 +43383,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "58-58-com",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;parent;api_status;partner_program",
+    "note": "Homepage redirects to bj.58.com; it lists affiliates and posting links but no pricing amounts, parent, language switcher or API link.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -42420,14 +43465,17 @@
    "url": "https://www.echinacities.com",
    "domains": "",
    "type": "board",
-   "hq_country": "",
+   "hq_country": "CN",
    "founded": "",
    "markets": "",
    "countries_served": [
     "CN"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "zh"
+   ],
    "region": "East Asia",
    "niche": "expat",
    "segment": "",
@@ -42438,7 +43486,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "About page gives a Beijing address without saying whether it is the headquarters or registered address. A repeat read of the same page later returned HTTP 403; the facts above come from the earlier successful read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/echinacities/",
    "indexable": false,
@@ -42454,7 +43502,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "echinacities",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "About page states an English-language site, English and 中文 options and a Beijing address; membership prices not shown.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -42464,6 +43519,22 @@
      "title": "eChinacities homepage self-description",
      "accessed": "2026-11-09",
      "quote": "an English-language website that provides a comprehensive range of services and information for both international visitors and China-based expats.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.echinacities.com/about_us",
+     "title": "About us",
+     "accessed": "2026-11-09",
+     "quote": "Suite 701, Cyber Tower B, 2 Zhongguancun South Street, Haidian District, Beijing 100086",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.echinacities.com/about_us",
+     "title": "About us",
+     "accessed": "2026-11-09",
+     "quote": "eChinacities.com is an English-language website",
      "quote_check": "ok"
     }
    ]
@@ -43225,8 +44296,10 @@
    "countries_served": [
     "PH"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "SEA",
    "niche": "remote",
    "segment": "",
@@ -43237,7 +44310,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Employer marketplace for hiring Filipino remote workers. Pricing page shows a free plan and monthly paid plans. No company address, language switcher, API or partner page found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/onlinejobs-ph/",
    "indexable": false,
@@ -43254,7 +44327,14 @@
     "remote"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "onlinejobs-ph",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+    "note": "Homepage, pricing and about pages read; pricing confirmed; no company address, language switcher, API or partner page found.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -43264,6 +44344,22 @@
      "title": "OnlineJobs.ph homepage",
      "accessed": "2026-11-09",
      "quote": "We're the #1 marketplace for hiring Filipino remote talent.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.onlinejobs.ph/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "We’re the #1 marketplace for hiring Filipino remote talent.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.onlinejobs.ph/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Post a job quickly and easily and let talent come to you.",
      "quote_check": "ok"
     }
    ]
@@ -43654,7 +44750,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "vietnamworks",
+    "reviewed": "2026-11-09",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 403 with blocked true in the browser reader; not retried.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [

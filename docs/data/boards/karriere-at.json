@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Imprint lists offices in Linz and Wien, Austria; the imprint does not say which is the head office. Employer ad products start at EUR 949 per ad (Standard, 30 days). No language switcher, developer, API or partner page was found in the pages read.",
+ "notes": "Imprint lists offices in Linz and Wien, Austria; the imprint does not say which is the head office. Employer ad products start at EUR 949 per ad (Standard, 30 days). No language switcher, developer, API or partner page was found in the pages read. Employer product page lists per-listing prices and an Always-on subscription. No API, partner, parent or headquarters details found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/karriere-at/",
  "indexable": false,
@@ -44,9 +44,9 @@
   "board_id": "karriere-at",
   "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "languages;parent;api_status;partner_program;ingest_methods",
-  "note": "Imprint lists Austrian offices; employer pricing page shows ad prices; no language switcher, developer or partner page found.",
-  "method": "browser"
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+  "note": "Employer product page states per-listing prices and an Always-on subscription; no headquarters, parent, language switcher or API found.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

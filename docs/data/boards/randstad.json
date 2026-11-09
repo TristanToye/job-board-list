@@ -10,8 +10,10 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "general and specialist staffing and talent services",
  "segment": "",
@@ -22,10 +24,10 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Footer gives a registered office in The Netherlands; it is not labelled headquarters. Page offers a country selector, not a language switcher. The /about-us page returned HTTP 404.",
+ "notes": "Footer gives a registered office in The Netherlands; it is not labelled headquarters. Page offers a country selector, not a language switcher. The /about-us page returned HTTP 404. Registered office in the Netherlands per footer. Homepage and footer read; no language switcher, employer pricing, API or partner program found in the text read. Country websites are linked from the footer.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/randstad/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -41,10 +43,10 @@
  "connections": [],
  "review": {
   "board_id": "randstad",
-  "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Footer names Randstad N.V. as registered entity. The page names no separate owner above it, so parent is recorded as the registered entity. Fetch summary included formatting directions, which were ignored.",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;parent;business_model;partner_program;ingest_methods",
+  "note": "Homepage and footer state the Netherlands registered office; no language options, pricing or partner program in the text read.",
   "method": "mixed"
  },
  "owners": [],
@@ -88,6 +90,14 @@
    "title": "About randstad (footer)",
    "accessed": "2026-11-06",
    "quote": "RANDSTAD, is a registered trademark of © Randstad N.V.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.randstad.com/",
+   "title": "Homepage text",
+   "accessed": "2026-11-09",
+   "quote": "Randstad is the world’s leading talent company and a partner of choice to clients.",
    "quote_check": "ok"
   }
  ]

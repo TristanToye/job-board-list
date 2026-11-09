@@ -20,16 +20,16 @@
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "pay per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Browser reader timed out on the first run and loaded on retry. The language flags are read from fetch output (image alt text), not from the browser text. The employer link Pakalpojumi un cenas shows no prices on the homepage.",
+ "notes": "Browser reader timed out on the first run and loaded on retry. The language flags are read from fetch output (image alt text), not from the browser text. The employer link Pakalpojumi un cenas shows no prices on the homepage. Latvian job board. Single job ad priced from 160 EUR (2 weeks) or 180 EUR (1 month) plus VAT. Contact page gives a Riga address. Language switcher options other than LV were not captured in the browser reader. Parent company and API not stated on the pages read; the about page returned HTTP 502 and ",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cvmarket-lv/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -39,15 +39,16 @@
   "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
  "review": {
   "board_id": "cvmarket-lv",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;business_model;parent;api_status;partner_program;ingest_methods",
-  "note": "Browser reader timed out once, then loaded; language flags confirmed from fetch output and no prices shown on the homepage.",
+  "fields_not_found": "languages;parent;api_status;partner_program",
+  "note": "Homepage (after one browser timeout and one successful retry), services and prices, and contact pages returned HTTP 200; the about page returned HTTP 502 once and was not retried.",
   "method": "mixed"
  },
  "owners": [],
@@ -68,6 +69,22 @@
    "accessed": "2026-11-06",
    "quote": "Language - EN",
    "quote_check": "unreachable"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.cvmarket.lv/kontakti",
+   "title": "Contact page",
+   "accessed": "2026-11-09",
+   "quote": "Skanstes iela 25, Rīga, LV-1013, Latvija",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.cvmarket.lv/pakalpojumi",
+   "title": "Services and prices for employers",
+   "accessed": "2026-11-09",
+   "quote": "Viens sludinājums uz 2 nedēļām - sākot no 160€ + PVN",
+   "quote_check": "ok"
   }
  ]
 }

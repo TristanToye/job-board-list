@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 83 entries in the directory.
+Has a partner or integration program. 85 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -50,6 +50,7 @@ Has a partner or integration program. 83 entries in the directory.
 - [Beamery](https://jobboardlist.com/boards/beamery/): hr-tech
 - [Harver](https://jobboardlist.com/boards/harver/): hr-tech
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
+- [Työmarkkinatori](https://jobboardlist.com/boards/ty-markkinatori/): government, API key on request
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
 - [Codeable](https://jobboardlist.com/boards/codeable/): freelance-platform
@@ -63,6 +64,7 @@ Has a partner or integration program. 83 entries in the directory.
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Partner-only API
 - [Jobijoba](https://jobboardlist.com/boards/jobijoba/): aggregator, API key on request
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Partner-only API
+- [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 - [AgCareers](https://jobboardlist.com/boards/agcareers/): board
 - [Hotelcareer](https://jobboardlist.com/boards/hotelcareer/): board
@@ -80,7 +82,5 @@ Has a partner or integration program. 83 entries in the directory.
 - [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API
 - [XING Jobs](https://jobboardlist.com/boards/xing/): social-network+board, Partner-only API
 - [aitrainer.work](https://jobboardlist.com/boards/aitrainer-work/): board
-- [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
-- [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
 
 Canonical page: https://jobboardlist.com/tags/partner-program/

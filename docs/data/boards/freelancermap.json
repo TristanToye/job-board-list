@@ -17,15 +17,19 @@
  "segment": "",
  "parent": "",
  "business_model": "free",
- "api_status": "unknown",
+ "api_status": "on-request",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "Homepage says publishing a project is free and lists 0% commission fees. Footer gives a Nuremberg company location. No languages, parent, API or partner information found.",
+ "ingest_methods": [
+  "XML feed",
+  "JSON feed",
+  "ATS integration"
+ ],
+ "notes": "Homepage says publishing a project is free and lists 0% commission fees. Footer gives a Nuremberg company location. No languages, parent, API or partner information found. Legal information page gives the principal office in Nuremberg. Recruiter pricing page describes automated project import via XML or JSON, custom interfaces on request, and integrations with Broadbean and LogicMelon. No parent or language switcher found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/freelancermap/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,17 +39,20 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "api-on-request",
+  "ats-integration",
   "free-to-post",
-  "freelance-platform"
+  "freelance-platform",
+  "xml-feed"
  ],
  "connections": [],
  "review": {
   "board_id": "freelancermap",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "parent;languages;api_status;partner_program;ingest_methods",
-  "note": "Homepage read; Nuremberg company footer and free project publishing stated; no languages, API or partner information found.",
-  "method": "fetch"
+  "fields_not_found": "parent;languages;partner_program",
+  "note": "Legal page gives principal office in Nuremberg; recruiter pricing page shows monthly plans and XML or JSON import; no parent or language switcher found.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -72,6 +79,38 @@
    "title": "Homepage",
    "accessed": "2026-11-06",
    "quote": "Publish project for free now",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.freelancermap.com/legal-information.html",
+   "title": "Legal information",
+   "accessed": "2026-11-09",
+   "quote": "Principal office: Nuremberg",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.freelancermap.com/pricing/recruiter",
+   "title": "Prices and features for companies",
+   "accessed": "2026-11-09",
+   "quote": "€59.00 per month",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.freelancermap.com/pricing/recruiter",
+   "title": "Prices and features for companies",
+   "accessed": "2026-11-09",
+   "quote": "We'll set up a simple interface to import your projects regularly.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.freelancermap.com/pricing/recruiter",
+   "title": "Prices and features for companies",
+   "accessed": "2026-11-09",
+   "quote": "Enterprise members can automate the project import process via XML or JSON.",
    "quote_check": "ok"
   }
  ]

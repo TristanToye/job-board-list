@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Footer gives the headquarters as Milano and the company as GI GROUP HOLDING S.p.A. The country is Italy from the Milan address and the Milan companies register named in the footer. Country selector only; no language options shown. No pricing, API or partner program was stated on the pages read.",
+ "notes": "Footer gives the headquarters as Milano and the company as GI GROUP HOLDING S.p.A. The country is Italy from the Milan address and the Milan companies register named in the footer. Country selector only; no language options shown. No pricing, API or partner program was stated on the pages read. Workforce solutions and staffing group. The About page gives the Milan headquarters of Gi Group Holding S.p.A. No employer pricing, API, partner program or job ingest method found on the homepage, About, For Employers, Contact or footer pages.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/gi-group-holding/",
  "indexable": false,
@@ -41,11 +41,11 @@
  "connections": [],
  "review": {
   "board_id": "gi-group-holding",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "parent",
-  "note": "Footer says GI GROUP HOLDING S.p.A. is With Sole Shareholder, but the shareholder is not named, so no parent recorded. Languages: English on main site, German on de subdomain; the country menu was not checked.",
-  "method": "mixed"
+  "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage, About, For Employers, Contact and footer pages state the Milan headquarters and parent but no pricing, API or partner page.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -96,6 +96,14 @@
    "title": "Gi Group",
    "accessed": "2026-11-06",
    "quote": "Gemeinsam finden wir den Job, der wirklich zu dir passt.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.gigroup.com/about-gi-group/",
+   "title": "About Gi Group",
+   "accessed": "2026-11-09",
+   "quote": "Headquarter: Piazza IV Novembre, 5 - 20124 Milano",
    "quote_check": "ok"
   }
  ]

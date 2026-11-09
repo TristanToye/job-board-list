@@ -1,6 +1,6 @@
 # ATS integration
 
-Receives jobs from applicant tracking systems. 24 entries in the directory.
+Receives jobs from applicant tracking systems. 28 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
@@ -15,12 +15,16 @@ Receives jobs from applicant tracking systems. 24 entries in the directory.
 - [Harver](https://jobboardlist.com/boards/harver/): hr-tech
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
 - [Criteria](https://jobboardlist.com/boards/criteria/): hr-tech
+- [Braintrust](https://jobboardlist.com/boards/braintrust/): freelance-platform
+- [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform, API key on request
 - [Aplikuj.pl](https://jobboardlist.com/boards/aplikuj-pl/): board
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 - [MeesterBaan](https://jobboardlist.com/boards/meesterbaan/): niche-board
+- [Japan Dev](https://jobboardlist.com/boards/japan-dev/): niche-board
 - [Landing.jobs](https://jobboardlist.com/boards/landing-jobs/): niche-board
 - [Flexa](https://jobboardlist.com/boards/flexa/): board
 - [Student.be](https://jobboardlist.com/boards/student-be/): niche-board
+- [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [Healthcarejobs.ie](https://jobboardlist.com/boards/healthcarejobs-ie/): niche-board
 - [Jober.pl](https://jobboardlist.com/boards/jober-pl/): board

@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Outplacement and career development firm for employers, not a job board. The pricing page shows four USD amounts from $600 to $3750 and offers custom quotes for other options. No headquarters, language selector, API, partner program or job ingest method was found. The homepage line 'Countries supported in 40+ languages' describes coaching services, not site languages.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/intoo/",
  "indexable": false,
@@ -40,10 +40,10 @@
  "connections": [],
  "review": {
   "board_id": "intoo",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;founded",
-  "note": "About page gives a Los Angeles office address under Careers, not labelled as headquarters, so not recorded. The fetch tool summary showed a 2012 founding sentence that is not in the raw text, so not recorded. Parent and per-program pricing ",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+  "note": "About page states it is a Gi Group Holding company and pricing page gives per-program rates; no headquarters, API or partner program stated.",
   "method": "mixed"
  },
  "owners": [],

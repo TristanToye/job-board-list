@@ -21,8 +21,10 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "Pricing page lists three products with different pricing models. Pricing page states no API, partner program, or headquarters or parent. Homepage states no languages or ingest method. The about page returned HTTP 404.",
+ "ingest_methods": [
+  "ATS integration (AIR)"
+ ],
+ "notes": "Pricing page lists three products with different pricing models. Pricing page states no API, partner program, or headquarters or parent. Homepage states no languages or ingest method. The about page returned HTTP 404. AIR has no public per-interview price. Nexus is priced as a share of the savings it generates. No developer, API or partner page is linked from the homepage, pricing, about or AIR pages, and the footer lists none. No headquarters, parent or language switcher found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/braintrust/",
  "indexable": false,
@@ -35,16 +37,17 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "ats-integration",
   "freelance-platform"
  ],
  "connections": [],
  "review": {
   "board_id": "braintrust",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
-  "note": "Homepage and pricing page read; pricing stated per hire and per interview, while the about page returned HTTP 404 and no API or partner terms were stated.",
-  "method": "fetch"
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+  "note": "Pricing, About, AIR and homepage read; pricing model stated, no developer, API or partner page linked.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -63,6 +66,14 @@
    "title": "Talent Marketplace pricing",
    "accessed": "2026-11-06",
    "quote": "you're only paying for the talent you hire",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.usebraintrust.com/pricing",
+   "title": "Pricing, integrations",
+   "accessed": "2026-11-09",
+   "quote": "Native ATS integrations (Greenhouse, Lever, Workday)",
    "quote_check": "ok"
   }
  ]

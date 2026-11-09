@@ -10,8 +10,10 @@
  "countries_served": [
   "BR"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pt",
+ "languages_supported": [
+  "pt"
+ ],
  "region": "Latin America",
  "niche": "general",
  "segment": "",
@@ -22,10 +24,10 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Homepage gives a Sao Paulo street address; country inferred from the Sao Paulo/SP address. Operating entity named as Persona Assessoria Empresarial LTDA, parent not stated. Only the homepage was read.",
+ "notes": "Homepage gives a Sao Paulo street address; country inferred from the Sao Paulo/SP address. Operating entity named as Persona Assessoria Empresarial LTDA, parent not stated. Only the homepage was read. Brazilian job board. Footer names Persona Assessoria Empresarial LTDA as the operator (not stated as parent). Employer page offers free job posting; no paid plans, API or partner program found. No language switcher found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/empregos-com-br/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -42,11 +44,11 @@
  "connections": [],
  "review": {
   "board_id": "empregos-com-br",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "parent;languages;api_status;partner_program;ingest_methods",
-  "note": "Homepage states a Sao Paulo address and free job posting; no language switcher, parent, API or partner program on the homepage.",
-  "method": "fetch"
+  "fields_not_found": "parent;api_status;partner_program;ingest_methods",
+  "note": "Homepage, employer page and footer read (HTTP 200); they state a Sao Paulo address, free job posting and the operator name, but no parent, API or partner program.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -73,6 +75,22 @@
    "title": "Homepage employer posting",
    "accessed": "2026-11-06",
    "quote": "Anunciar vaga grátis",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.empregos.com.br",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Para candidatos Para empresas",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://b2b.empregos.com.br/empresas",
+   "title": "Employer job posting page",
+   "accessed": "2026-11-09",
+   "quote": "Anuncie vagas gratuitamente em todo o Brasil quantas vezes quiser",
    "quote_check": "ok"
   }
  ]

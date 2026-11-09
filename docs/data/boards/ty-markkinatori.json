@@ -10,7 +10,7 @@
  "countries_served": [
   "FI"
  ],
- "primary_language": "",
+ "primary_language": "fi",
  "languages_supported": [
   "fi",
   "sv",
@@ -21,15 +21,15 @@
  "segment": "",
  "parent": "",
  "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "api_status": "on-request",
+ "api_docs_url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
+ "partner_program": "yes",
+ "partner_url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat",
  "ingest_methods": [],
- "notes": "Footer lists a Rajapinnat (interfaces) link, but its page could not be located, so no api_status is recorded. Homepage, English personal-customers page and footer read in the browser reader.",
+ "notes": "Footer lists a Rajapinnat (interfaces) link, but its page could not be located, so no api_status is recorded. Homepage, English personal-customers page and footer read in the browser reader. Public employment marketplace run by KEHA-keskus (footer: © KEHA-keskus). Two job-posting APIs: a management interface for posting jobs and a search interface. Access requires an application form and terms acceptance. Old interfaces are being retired in May 2027 per the page. Quotes are in Finnish.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/ty-markkinatori/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -39,10 +39,12 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "api-on-request",
   "general",
   "government-operated",
   "government-service",
   "job-board",
+  "partner-program",
   "public-sector"
  ],
  "connections": [],
@@ -50,8 +52,8 @@
   "board_id": "ty-markkinatori",
   "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage and English page state three languages and the KEHA-keskus footer; the footer interfaces page was not found (404 on guessed paths).",
+  "fields_not_found": "hq_country;parent;business_model",
+  "note": "Language menu, job posting API access terms and partner page confirmed; operator footer reads KEHA-keskus; no headquarters or prices stated.",
   "method": "browser"
  },
  "owners": [],
@@ -79,6 +81,38 @@
    "title": "Language selector",
    "accessed": "2026-11-09",
    "quote": "English (EN)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://tyomarkkinatori.fi/henkiloasiakkaat",
+   "title": "Language selector",
+   "accessed": "2026-11-09",
+   "quote": "Valitse kieli. Välj språk. Choose language.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
+   "title": "Job posting interfaces",
+   "accessed": "2026-11-09",
+   "quote": "Rajapinnan käyttöönotto vaatii käyttöönottoilmoituksen ja käyttöehtojen hyväksymisen.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat/tyopaikkailmoitusten-rajapinnat",
+   "title": "Job posting interfaces",
+   "accessed": "2026-11-09",
+   "quote": "Työmarkkinatori-palvelualustalla on kaksi työpaikkailmoituksiin liittyvää ohjelmallista rajapintaa (API)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://tyomarkkinatori.fi/ohjeet-ja-tuki/rajapinnat",
+   "title": "Interfaces",
+   "accessed": "2026-11-09",
+   "quote": "Ohjeita ja tukea yhteistyökumppaneille",
    "quote_check": "ok"
   }
  ]

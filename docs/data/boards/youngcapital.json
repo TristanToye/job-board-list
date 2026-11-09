@@ -24,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Dutch-language job board for young workers. The employer services page describes a one-off recruitment fee agreed in advance. The /over-ons page returned 404.",
+ "notes": "Dutch-language job board for young workers. The employer services page describes a one-off recruitment fee agreed in advance. The /over-ons page returned 404. Site is in Dutch with no language switcher. The employer services page has a cost calculator but shows no prices.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/youngcapital/",
  "indexable": false,
@@ -45,9 +45,9 @@
   "board_id": "youngcapital",
   "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;business_model;languages",
-  "note": "Homepage and employer services page read; /over-ons returned 404; no language switcher seen; API and partner pages not read.",
-  "method": "browser"
+  "fields_not_found": "hq_country;languages;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Site is Dutch with no language switcher; employer services and about pages state no headquarters, parent, prices or API.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

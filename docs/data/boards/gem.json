@@ -24,7 +24,7 @@
  "ingest_methods": [
   "ATS integration"
  ],
- "notes": "Pricing page lists a Startup Program at $130 per month on yearly billing; enterprise pricing is custom. Homepage says Gem integrates with several ATS products.",
+ "notes": "Pricing page lists a Startup Program at $130 per month on yearly billing; enterprise pricing is custom. Homepage says Gem integrates with several ATS products. AI recruiting platform (ATS, CRM, sourcing). Pricing is custom by FTE count with a startup offer. The Integrations page on integrations.gem.com returned HTTP 403 to fetch and to the browser reader and was not read, so API and partner status could not be checked.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/gem/",
  "indexable": false,
@@ -44,11 +44,11 @@
  "connections": [],
  "review": {
   "board_id": "gem",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
-  "note": "Pricing page and homepage state subscription pricing and ATS integrations; no language switcher, headquarters or API program stated.",
-  "method": "fetch"
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+  "note": "Pages state subscription pricing and native ATS integrations; integrations.gem.com returned HTTP 403 and was not read.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -74,6 +74,22 @@
    "url": "https://www.gem.com",
    "title": "Homepage",
    "accessed": "2026-11-06",
+   "quote": "Gem integrates natively with Greenhouse, Workday, Lever, iCIMS, and more.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.gem.com/",
+   "title": "Home",
+   "accessed": "2026-11-09",
+   "quote": "starting as low as $135/month for the full platform",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.gem.com/",
+   "title": "Home",
+   "accessed": "2026-11-09",
    "quote": "Gem integrates natively with Greenhouse, Workday, Lever, iCIMS, and more.",
    "quote_check": "ok"
   }

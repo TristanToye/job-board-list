@@ -24,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Homepage is Portuguese. The language control shows only PT, linking to /pt/, so no other languages were confirmed. No HQ, pricing, API or partner program was stated on the pages read.",
+ "notes": "Homepage is Portuguese. The language control shows only PT, linking to /pt/, so no other languages were confirmed. No HQ, pricing, API or partner program was stated on the pages read. Brazilian internship and trainee job board. Vacancies are linked to several external candidate systems (vagas.ciadetalentos.com.br, atsglobe, bettha). Employer page describes services, no prices stated. Only Portuguese was seen in the language switch.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cia-de-talentos/",
  "indexable": false,
@@ -43,11 +43,11 @@
  "connections": [],
  "review": {
   "board_id": "cia-de-talentos",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage is Portuguese with a PT-only language control; employer page states no pricing, API or partner program.",
-  "method": "mixed"
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Only Portuguese language option seen; employer page lists services without prices; no headquarters or API stated.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -66,6 +66,22 @@
    "title": "Homepage",
    "accessed": "2026-11-06",
    "quote": "Conectamos pessoas incríveis às empresas que vão transformar suas carreiras.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.ciadetalentos.com.br/",
+   "title": "Homepage language switch",
+   "accessed": "2026-11-09",
+   "quote": "PT",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.ciadetalentos.com.br/empresa.html",
+   "title": "Employer page",
+   "accessed": "2026-11-09",
+   "quote": "países com atuação global",
    "quote_check": "ok"
   }
  ]

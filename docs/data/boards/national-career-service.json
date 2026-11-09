@@ -16,16 +16,16 @@
  "niche": "general",
  "segment": "",
  "parent": "Ministry of Labour & Employment, Government of India",
- "business_model": "",
+ "business_model": "free",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Jobseeker-side statement: no fee is charged at any stage of registration, job application or interview processing. Employer posting model is not stated. No language switcher found. No API or data feed for job listings described; a downloadable 'NCS Meta Data' file is linked. Head office is given as Shram Shakti Bhawan, New Delhi.",
+ "notes": "Jobseeker-side statement: no fee is charged at any stage of registration, job application or interview processing. Employer posting model is not stated. No language switcher found. No API or data feed for job listings described; a downloadable 'NCS Meta Data' file is linked. Head office is given as Shram Shakti Bhawan, New Delhi. Run by the Directorate General of Employment under the Ministry of Labour and Employment. The site states that it charges no fee. Employer posting is through a login-only employer area. No API or partner page was linked.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/national-career-service/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -35,6 +35,7 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "general",
   "government-operated",
   "government-service",
@@ -44,11 +45,11 @@
  "connections": [],
  "review": {
   "board_id": "national-career-service",
-  "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "partner_program",
-  "note": "Employer login and jobseeker list pages read. Placement organisation registration is described, but no partner programme or empanelment arrangement for employers is stated, so partner_program is left unknown. A fraud warning on the page men",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "api_status;partner_program",
+  "note": "Homepage, about and terms pages read; language menu shows English and Hindi; no API or partner page linked.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -75,6 +76,38 @@
    "title": "Homepage",
    "accessed": "2026-11-05",
    "quote": "Shram Shakti Bhawan Rafi Marg, New Delhi-110001, India",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://ncs.gov.in/about-us",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "Shram Shakti Bhawan Rafi Marg, New Delhi-110001, India",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://ncs.gov.in/about-us",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "flagship initiative by the Ministry of Labour and Employment, Government of India.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://ncs.gov.in/",
+   "title": "Homepage FAQ",
+   "accessed": "2026-11-09",
+   "quote": "NCS does not charge any fee at any stage of registration, job application, or interview processing.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://ncs.gov.in/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Post New Jobs",
    "quote_check": "ok"
   }
  ]

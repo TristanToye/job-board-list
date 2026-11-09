@@ -10,8 +10,10 @@
  "countries_served": [
   "JP"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "ja",
+ "languages_supported": [
+  "ja"
+ ],
  "region": "East Asia",
  "niche": "",
  "segment": "",
@@ -22,8 +24,8 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Japanese consulting-job agency site. Headquarters, parent company, pricing and API were not stated in the homepage text read. Fee wording in the FAQ was not present in the reader text, so no business model is recorded.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/myvision-consulting/",
  "indexable": false,
  "prominence": {
@@ -40,10 +42,10 @@
  "connections": [],
  "review": {
   "board_id": "myvision-consulting",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "About page states a Tokyo address; site is Japanese only; no fee, API or partner statement could be matched to a verbatim quote.",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage read (HTTP 200); Japanese-language page, with no headquarters, parent, fee, API or partner information in the text read.",
   "method": "mixed"
  },
  "owners": [],
@@ -56,6 +58,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://my-vision.co.jp/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "コンサル転職No.1エージェント",
+   "quote_check": "ok"
   }
  ]
 }

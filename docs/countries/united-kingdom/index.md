@@ -1,6 +1,6 @@
 # Job boards in United Kingdom
 
-18 job boards and related entries based in or serving United Kingdom.
+19 job boards and related entries based in or serving United Kingdom.
 
 - [Office for National Statistics](https://jobboardlist.com/boards/office-for-national-statistics/): lmi, Large tier
 - [Prospects](https://jobboardlist.com/boards/prospects/): niche-board, Established tier
@@ -13,6 +13,7 @@
 - [CharityJob](https://jobboardlist.com/boards/charityjob/): niche-board, Established tier
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board, Small tier
 - [iAgora](https://jobboardlist.com/boards/iagora/): niche-board, Small tier
+- [Flexa](https://jobboardlist.com/boards/flexa/): board, Small tier
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Small tier, Partner-only API
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [Find an Apprenticeship](https://jobboardlist.com/boards/find-an-apprenticeship/): government

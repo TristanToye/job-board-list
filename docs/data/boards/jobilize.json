@@ -16,16 +16,19 @@
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
- "api_status": "unknown",
+ "business_model": "free employer posting via web interface; job boards and aggregators need separate contact",
+ "api_status": "on-request",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "ingest_methods": [
+  "manual posting (web interface)",
+  "XML/JSON job feed (on request)"
+ ],
+ "notes": "Job search engine with an employer posting interface. The posting FAQ says a job feed is set up through support on request. No API documentation URL, headquarters, parent company, language selector or partner program was found.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobilize/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,16 +38,19 @@
   "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "api-on-request",
+  "free-to-post",
+  "job-board",
+  "xml-feed"
  ],
  "connections": [],
  "review": {
   "board_id": "jobilize",
-  "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage read; it states no missing facts. /about and /pricing return HTTP 404.",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;partner_program",
+  "note": "Posting FAQ states free employer posting and a job feed on request; About page states no headquarters or parent and there is no language selector.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -56,6 +62,30 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.jobilize.com/public/how-to-post-jobs.xhtml",
+   "title": "How to post jobs",
+   "accessed": "2026-11-09",
+   "quote": "The free online web-based job posting interface is available for employers, and recruiters.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.jobilize.com/public/how-to-post-jobs.xhtml",
+   "title": "How to post jobs",
+   "accessed": "2026-11-09",
+   "quote": "Yes. for the technical details on how to integrate your job feed please contact Jobilize support via the Contact Form",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobilize.com/public/how-to-post-jobs.xhtml",
+   "title": "How to post jobs",
+   "accessed": "2026-11-09",
+   "quote": "Do you accept XML/JSON job feed?",
+   "quote_check": "ok"
   }
  ]
 }

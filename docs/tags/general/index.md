@@ -46,7 +46,7 @@ Jobs across many occupations and industries. 204 entries in the directory.
 - [Incruit](https://jobboardlist.com/boards/incruit/): board
 - [Jobbnorge](https://jobboardlist.com/boards/jobbnorge/): board
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
-- [Työmarkkinatori](https://jobboardlist.com/boards/ty-markkinatori/): government
+- [Työmarkkinatori](https://jobboardlist.com/boards/ty-markkinatori/): government, API key on request
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
 - [GulfTalent](https://jobboardlist.com/boards/gulftalent/): board
 - [Le Forem](https://jobboardlist.com/boards/le-forem/): government

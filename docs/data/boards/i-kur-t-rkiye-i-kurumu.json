@@ -4,14 +4,17 @@
  "url": "https://www.iskur.gov.tr",
  "domains": "",
  "type": "government",
- "hq_country": "",
+ "hq_country": "TR",
  "founded": "",
  "markets": "",
  "countries_served": [
   "TR"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "tr",
+ "languages_supported": [
+  "tr",
+  "en"
+ ],
  "region": "Middle East",
  "niche": "general",
  "segment": "",
@@ -21,11 +24,13 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Switcher shows TR and EN. The homepage gives an Ankara address. Registered employers can post job ads through the online system. No fee, API or partner statement was found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/i-kur-t-rkiye-i-kurumu/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -42,7 +47,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "i-kur-t-rkiye-i-kurumu",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;business_model;api_status;partner_program",
+  "note": "Homepage, employer registration and English pages state TR and EN, an Ankara address and online job posting; no fees, API or partner page is linked.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +64,22 @@
    "title": "İŞKUR homepage",
    "accessed": "2026-11-09",
    "quote": "Binlerce ilan arasında size uygun işi bulmanın en iyi yolu",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.iskur.gov.tr/",
+   "title": "Homepage language switcher",
+   "accessed": "2026-11-09",
+   "quote": "TR EN",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.iskur.gov.tr/isveren/kayit/",
+   "title": "Employer registration",
+   "accessed": "2026-11-09",
+   "quote": "İş ilanı verebilir ve uygun gördükleri elemanları davet ederek eleman ihtiyacı süreçlerini tamamlayabilirler.",
    "quote_check": "ok"
   }
  ]

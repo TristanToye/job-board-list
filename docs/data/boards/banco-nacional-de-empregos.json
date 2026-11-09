@@ -10,8 +10,10 @@
  "countries_served": [
   "BR"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pt",
+ "languages_supported": [
+  "pt"
+ ],
  "region": "Latin America",
  "niche": "",
  "segment": "",
@@ -22,10 +24,10 @@
  "partner_program": "yes",
  "partner_url": "https://www.bne.com.br/seja-parceiro",
  "ingest_methods": [],
- "notes": "Employer sign-up is free and plan selection is offered, with no prices shown. Partner page offers BNE job ads for partner sites and an XML feed, with contact at parcerias@bne.com.br. No API found on the pages read. Service is described as Brazil-wide; headquarters not stated.",
+ "notes": "Employer sign-up is free and plan selection is offered, with no prices shown. Partner page offers BNE job ads for partner sites and an XML feed, with contact at parcerias@bne.com.br. No API found on the pages read. Service is described as Brazil-wide; headquarters not stated. The partner page offers BNE job XML to job sites on request by email. That feed runs from BNE to partner sites, so it is not a posting API. The plans page (/cia/escolha-de-planos) redirects to a login page, which was not used, so no prices are recorded. Footer names BNE - Banco Nacional de Empregos.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/banco-nacional-de-empregos/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -41,11 +43,11 @@
  "connections": [],
  "review": {
   "board_id": "banco-nacional-de-empregos",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;api_status;ingest_methods",
-  "note": "Homepage and partner page read; free employer sign-up and partner program stated; no API, parent, headquarters or prices found.",
-  "method": "fetch"
+  "fields_not_found": "hq_country;languages;parent;business_model;ingest_methods",
+  "note": "Partner page read; the plans page redirects to a login page and was not used.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -64,6 +66,22 @@
    "title": "Partner page",
    "accessed": "2026-11-06",
    "quote": "Seja parceiro do BNE",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.bne.com.br/seja-parceiro",
+   "title": "Partner page heading",
+   "accessed": "2026-11-09",
+   "quote": "Seja parceiro do BNE",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.bne.com.br/seja-parceiro",
+   "title": "Partner page, job XML feed",
+   "accessed": "2026-11-09",
+   "quote": "Receba nossas vagas em XML para publicar no seu site.",
    "quote_check": "ok"
   }
  ]

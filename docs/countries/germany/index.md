@@ -9,7 +9,7 @@
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Established tier, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [Jobware](https://jobboardlist.com/boards/jobware/): board, Established tier
-- [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform, Small tier
+- [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform, Small tier, API key on request
 - [iAgora](https://jobboardlist.com/boards/iagora/): niche-board, Small tier
 - [freelance.de](https://jobboardlist.com/boards/freelance-de/): freelance-platform, Small tier
 - [Hotelcareer](https://jobboardlist.com/boards/hotelcareer/): board, Small tier

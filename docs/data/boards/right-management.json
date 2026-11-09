@@ -10,8 +10,10 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "career management and talent development",
  "segment": "",
@@ -22,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Career and outplacement services firm. Homepage states it is part of ManpowerGroup. Headquarters country, pricing, API and partner pages were not found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/right-management/",
  "indexable": false,
@@ -40,10 +42,10 @@
  "connections": [],
  "review": {
   "board_id": "right-management",
-  "reviewed": "2026-11-06",
-  "outcome": "verified",
-  "fields_not_found": "",
-  "note": "Language selector shows only Global (English). Single-language site.",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage read (HTTP 200); it states ManpowerGroup as parent and English locale, with no headquarters country, pricing, API or partner page found.",
   "method": "mixed"
  },
  "owners": [],
@@ -71,6 +73,22 @@
    "title": "Your Outplacement | Personalized Outplacement Starts with PowerSuite Next",
    "accessed": "2026-11-06",
    "quote": "Global (English)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.right.com",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "We’re proud to be part of ManpowerGroup",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.right.com",
+   "title": "Homepage locale selector",
+   "accessed": "2026-11-09",
+   "quote": "(English)",
    "quote_check": "ok"
   }
  ]

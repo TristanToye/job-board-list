@@ -26,7 +26,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Homepage offers English and Cymraeg. The About page names the UK Statistics Authority as the body it serves as executive office. Contact page lists offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast; no headquarters is named. The /developers page returned 404.",
+ "notes": "Homepage offers English and Cymraeg. The About page names the UK Statistics Authority as the body it serves as executive office. Contact page lists offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast; no headquarters is named. The /developers page returned 404. Government statistics office; its careers site (careers.ons.gov.uk) lists its own vacancies. No employer pricing, API, partner or parent company stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/office-for-national-statistics/",
  "indexable": false,
@@ -45,11 +45,11 @@
  "connections": [],
  "review": {
   "board_id": "office-for-national-statistics",
-  "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "api_status",
-  "note": "Header, footer and navigation show no developers, API, open data or partners link. The /developers page returned 404. Partner pages were not read.",
-  "method": "fetch"
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods;parent",
+  "note": "Homepage, about, contact and careers pages returned HTTP 200 and state languages but no employer pricing, API or partner program.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -84,6 +84,22 @@
    "title": "Office locations",
    "accessed": "2026-11-06",
    "quote": "Details of our offices in Newport, Titchfield, London, Darlington, Manchester, Edinburgh and Belfast.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.ons.gov.uk",
+   "title": "Homepage language switcher",
+   "accessed": "2026-11-09",
+   "quote": "English (EN) | Cymraeg (CY)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.ons.gov.uk/aboutus",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "We are the UK’s largest independent producer of official statistics",
    "quote_check": "ok"
   }
  ]

@@ -1,104 +1,308 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Challenger, Gray & Christmas",
+   "url": "https://www.challengergray.com",
+   "notes": "Outplacement firm. Home and About pages list Chicago as headquarters city; no country, parent, language options, pricing, API or partner page found.",
+   "sources": []
+  },
+  {
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "hq_country": "IT",
+   "primary_language": "it",
+   "languages_supported": [
+    "it"
+   ],
+   "notes": "Italian Ministry of Labour and Social Policies. No language switcher found; the only language text is Italian. Open Data page lists dataset formats (XLS, CSV, XML/Atom, JSON, RDF/TTL) and does not mention an API.",
+   "sources": [
     {
-      "name": "Challenger, Gray & Christmas",
-      "url": "https://www.challengergray.com",
-      "notes": "Outplacement firm. Home and About pages list Chicago as headquarters city; no country, parent, language options, pricing, API or partner page found.",
-      "sources": []
+     "field": "existence",
+     "url": "https://www.lavoro.gov.it/",
+     "title": "Homepage government link",
+     "quote": "Vai al sito del Governo Italiano",
+     "check": "ok"
     },
     {
-      "name": "lavoro.gov.it (Ministry of Labour)",
-      "url": "https://www.lavoro.gov.it/",
-      "hq_country": "IT",
-      "primary_language": "it",
-      "languages_supported": ["it"],
-      "notes": "Italian Ministry of Labour and Social Policies. No language switcher found; the only language text is Italian. Open Data page lists dataset formats (XLS, CSV, XML/Atom, JSON, RDF/TTL) and does not mention an API.",
-      "sources": [
-        {"field": "existence", "url": "https://www.lavoro.gov.it/", "title": "Homepage government link", "quote": "Vai al sito del Governo Italiano"},
-        {"field": "languages", "url": "https://www.lavoro.gov.it/", "title": "Homepage skip link", "quote": "Salta al contenuto principale"}
-      ]
-    },
-    {
-      "name": "Kickresume",
-      "url": "https://www.kickresume.com",
-      "hq_country": "SK",
-      "primary_language": "en",
-      "languages_supported": ["en"],
-      "notes": "Resume builder for job seekers; no employer job posting or employer pricing found. Pricing page lists candidate subscriptions (Yearly $8 / month, Quarterly $18 / month, Monthly $24 / month). Footer shows Terms, Privacy Policy and Cookie Settings; no API, developer or partner page linked.",
-      "sources": [
-        {"field": "existence", "url": "https://www.kickresume.com/en/about/", "title": "About us", "quote": "We’re a small, passionate team based in Bratislava, Slovakia."},
-        {"field": "languages", "url": "https://www.kickresume.com", "title": "Homepage footer language menu", "quote": "English"}
-      ]
-    },
-    {
-      "name": "MyCareersFuture",
-      "url": "https://www.mycareersfuture.gov.sg",
-      "hq_country": "SG",
-      "notes": "Singapore government jobs portal. Only the homepage could be read in full; a retry of the browser reader returned a loading placeholder. Operating agency, languages, employer pricing and API were not found on the homepage.",
-      "sources": [
-        {"field": "existence", "url": "https://www.mycareersfuture.gov.sg", "title": "Homepage", "quote": "A Singapore Government Agency Website"}
-      ]
-    },
-    {
-      "name": "Meteojob",
-      "url": "https://www.meteojob.com/",
-      "hq_country": "FR",
-      "primary_language": "fr",
-      "languages_supported": ["fr"],
-      "ingest_methods": ["manual posting"],
-      "notes": "French job board. Footer names Groupe CleverConnect. Employer site offers job posting with 'Publier une offre d’emploi'; no employer pricing, API or partner program found. No language switcher found.",
-      "sources": [
-        {"field": "existence", "url": "https://www.meteojob.com/", "title": "Homepage", "quote": "Offres d'Emploi dans toute la France"},
-        {"field": "parent", "url": "https://www.meteojob.com/", "title": "Homepage footer", "quote": "Le Groupe CleverConnect"},
-        {"field": "languages", "url": "https://www.meteojob.com/", "title": "Homepage skip link", "quote": "Aller au contenu principal"},
-        {"field": "ingest_methods", "url": "https://recruteurs.meteojob.com/", "title": "Employer site", "quote": "Publier une offre d’emploi"}
-      ]
-    },
-    {
-      "name": "MyVision Consulting",
-      "url": "https://my-vision.co.jp/",
-      "primary_language": "ja",
-      "notes": "Japanese consulting-job agency site. Headquarters, parent company, pricing and API were not stated in the homepage text read. Fee wording in the FAQ was not present in the reader text, so no business model is recorded.",
-      "sources": [
-        {"field": "languages", "url": "https://my-vision.co.jp/", "title": "Homepage", "quote": "コンサル転職No.1エージェント"}
-      ]
-    },
-    {
-      "name": "Empregos.com.br",
-      "url": "https://www.empregos.com.br",
-      "hq_country": "BR",
-      "primary_language": "pt",
-      "languages_supported": ["pt"],
-      "business_model": "free",
-      "notes": "Brazilian job board. Footer names Persona Assessoria Empresarial LTDA as the operator (not stated as parent). Employer page offers free job posting; no paid plans, API or partner program found. No language switcher found.",
-      "sources": [
-        {"field": "existence", "url": "https://www.empregos.com.br", "title": "Homepage footer", "quote": "Avenida São Luís, nº 192, cjto. 8, Centro, São Paulo/SP"},
-        {"field": "languages", "url": "https://www.empregos.com.br", "title": "Homepage", "quote": "Para candidatos Para empresas"},
-        {"field": "business_model", "url": "https://b2b.empregos.com.br/empresas", "title": "Employer job posting page", "quote": "Anuncie vagas gratuitamente em todo o Brasil quantas vezes quiser"}
-      ]
-    },
-    {
-      "name": "Right Management",
-      "url": "https://www.right.com",
-      "primary_language": "en",
-      "notes": "Career and outplacement services firm. Homepage states it is part of ManpowerGroup. Headquarters country, pricing, API and partner pages were not found.",
-      "sources": [
-        {"field": "parent", "url": "https://www.right.com", "title": "Homepage", "quote": "We’re proud to be part of ManpowerGroup"},
-        {"field": "languages", "url": "https://www.right.com", "title": "Homepage locale selector", "quote": "(English)"}
-      ]
+     "field": "languages",
+     "url": "https://www.lavoro.gov.it/",
+     "title": "Homepage skip link",
+     "quote": "Salta al contenuto principale",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Challenger, Gray & Christmas", "url": "https://www.challengergray.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Home and About pages read (HTTP 200); they give Chicago as headquarters city and no country, parent, language, pricing or API information."},
-    {"name": "lavoro.gov.it (Ministry of Labour)", "url": "https://www.lavoro.gov.it/", "outcome": "partially-verified", "fields_not_found": ["business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage, Il Ministero and Open Data pages read (HTTP 200); they state the ministry and Italian-language content but no employer model, API or partner program."},
-    {"name": "Kickresume", "url": "https://www.kickresume.com", "outcome": "partially-verified", "fields_not_found": ["parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Home, About and Pricing pages read (HTTP 200); they state an EU-based team in Bratislava and candidate subscriptions but no employer pricing, parent, API or partner program."},
-    {"name": "MyCareersFuture", "url": "https://www.mycareersfuture.gov.sg", "outcome": "partially-verified", "fields_not_found": ["languages", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage read (HTTP 200) with fetch and browser reader; only the government-agency line was stated, and the browser retry returned a loading placeholder."},
-    {"name": "Meteojob", "url": "https://www.meteojob.com/", "outcome": "partially-verified", "fields_not_found": ["business_model", "api_status", "partner_program"], "method": "mixed", "note": "Homepage and employer site read (HTTP 200); they state the French job site, parent Groupe CleverConnect and job posting, but no employer pricing, API or partner program."},
-    {"name": "MyVision Consulting", "url": "https://my-vision.co.jp/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage read (HTTP 200); Japanese-language page, with no headquarters, parent, fee, API or partner information in the text read."},
-    {"name": "Empregos.com.br", "url": "https://www.empregos.com.br", "outcome": "partially-verified", "fields_not_found": ["parent", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage, employer page and footer read (HTTP 200); they state a Sao Paulo address, free job posting and the operator name, but no parent, API or partner program."},
-    {"name": "Right Management", "url": "https://www.right.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage read (HTTP 200); it states ManpowerGroup as parent and English locale, with no headquarters country, pricing, API or partner page found."}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "hq_country": "SK",
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
+   "notes": "Resume builder for job seekers; no employer job posting or employer pricing found. Pricing page lists candidate subscriptions (Yearly $8 / month, Quarterly $18 / month, Monthly $24 / month). Footer shows Terms, Privacy Policy and Cookie Settings; no API, developer or partner page linked.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kickresume.com/en/about/",
+     "title": "About us",
+     "quote": "We’re a small, passionate team based in Bratislava, Slovakia.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.kickresume.com",
+     "title": "Homepage footer language menu",
+     "quote": "English",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "MyCareersFuture",
+   "url": "https://www.mycareersfuture.gov.sg",
+   "hq_country": "SG",
+   "notes": "Singapore government jobs portal. Only the homepage could be read in full; a retry of the browser reader returned a loading placeholder. Operating agency, languages, employer pricing and API were not found on the homepage.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.mycareersfuture.gov.sg",
+     "title": "Homepage",
+     "quote": "A Singapore Government Agency Website",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Meteojob",
+   "url": "https://www.meteojob.com/",
+   "hq_country": "FR",
+   "primary_language": "fr",
+   "languages_supported": [
+    "fr"
+   ],
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "French job board. Footer names Groupe CleverConnect. Employer site offers job posting with 'Publier une offre d’emploi'; no employer pricing, API or partner program found. No language switcher found.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.meteojob.com/",
+     "title": "Homepage",
+     "quote": "Offres d'Emploi dans toute la France",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.meteojob.com/",
+     "title": "Homepage footer",
+     "quote": "Le Groupe CleverConnect",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.meteojob.com/",
+     "title": "Homepage skip link",
+     "quote": "Aller au contenu principal",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://recruteurs.meteojob.com/",
+     "title": "Employer site",
+     "quote": "Publier une offre d’emploi",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "MyVision Consulting",
+   "url": "https://my-vision.co.jp/",
+   "primary_language": "ja",
+   "notes": "Japanese consulting-job agency site. Headquarters, parent company, pricing and API were not stated in the homepage text read. Fee wording in the FAQ was not present in the reader text, so no business model is recorded.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://my-vision.co.jp/",
+     "title": "Homepage",
+     "quote": "コンサル転職No.1エージェント",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Empregos.com.br",
+   "url": "https://www.empregos.com.br",
+   "hq_country": "BR",
+   "primary_language": "pt",
+   "languages_supported": [
+    "pt"
+   ],
+   "business_model": "free",
+   "notes": "Brazilian job board. Footer names Persona Assessoria Empresarial LTDA as the operator (not stated as parent). Employer page offers free job posting; no paid plans, API or partner program found. No language switcher found.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.empregos.com.br",
+     "title": "Homepage footer",
+     "quote": "Avenida São Luís, nº 192, cjto. 8, Centro, São Paulo/SP",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.empregos.com.br",
+     "title": "Homepage",
+     "quote": "Para candidatos Para empresas",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://b2b.empregos.com.br/empresas",
+     "title": "Employer job posting page",
+     "quote": "Anuncie vagas gratuitamente em todo o Brasil quantas vezes quiser",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Right Management",
+   "url": "https://www.right.com",
+   "primary_language": "en",
+   "notes": "Career and outplacement services firm. Homepage states it is part of ManpowerGroup. Headquarters country, pricing, API and partner pages were not found.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.right.com",
+     "title": "Homepage",
+     "quote": "We’re proud to be part of ManpowerGroup",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.right.com",
+     "title": "Homepage locale selector",
+     "quote": "(English)",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Challenger, Gray & Christmas",
+   "url": "https://www.challengergray.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Home and About pages read (HTTP 200); they give Chicago as headquarters city and no country, parent, language, pricing or API information."
+  },
+  {
+   "name": "lavoro.gov.it (Ministry of Labour)",
+   "url": "https://www.lavoro.gov.it/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage, Il Ministero and Open Data pages read (HTTP 200); they state the ministry and Italian-language content but no employer model, API or partner program."
+  },
+  {
+   "name": "Kickresume",
+   "url": "https://www.kickresume.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Home, About and Pricing pages read (HTTP 200); they state an EU-based team in Bratislava and candidate subscriptions but no employer pricing, parent, API or partner program."
+  },
+  {
+   "name": "MyCareersFuture",
+   "url": "https://www.mycareersfuture.gov.sg",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage read (HTTP 200) with fetch and browser reader; only the government-agency line was stated, and the browser retry returned a loading placeholder."
+  },
+  {
+   "name": "Meteojob",
+   "url": "https://www.meteojob.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage and employer site read (HTTP 200); they state the French job site, parent Groupe CleverConnect and job posting, but no employer pricing, API or partner program."
+  },
+  {
+   "name": "MyVision Consulting",
+   "url": "https://my-vision.co.jp/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage read (HTTP 200); Japanese-language page, with no headquarters, parent, fee, API or partner information in the text read."
+  },
+  {
+   "name": "Empregos.com.br",
+   "url": "https://www.empregos.com.br",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage, employer page and footer read (HTTP 200); they state a Sao Paulo address, free job posting and the operator name, but no parent, API or partner program."
+  },
+  {
+   "name": "Right Management",
+   "url": "https://www.right.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage read (HTTP 200); it states ManpowerGroup as parent and English locale, with no headquarters country, pricing, API or partner page found."
+  }
+ ],
+ "blocked": []
 }

@@ -4,7 +4,7 @@
  "url": "https://careerviet.vn",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "VN",
  "founded": "2004",
  "markets": "",
  "countries_served": [
@@ -12,7 +12,8 @@
  ],
  "primary_language": "vi",
  "languages_supported": [
-  "vi"
+  "vi",
+  "en"
  ],
  "region": "SEA",
  "niche": "",
@@ -24,10 +25,10 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Vietnamese job board. Head office address listed in Ho Chi Minh City. Copyright names the operating company; no parent stated. Employer payment terms not stated on pages read.",
+ "notes": "Vietnamese job board. Head office address listed in Ho Chi Minh City. Copyright names the operating company; no parent stated. Employer payment terms not stated on pages read. Operated by Công Ty Cổ Phần Giải Pháp CareerViet per the homepage copyright line. Vietnamese site with an EN link. Employer product page shows no prices. Partner websites are listed on the homepage, but no partner program was found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/careerviet/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -42,11 +43,11 @@
  "connections": [],
  "review": {
   "board_id": "careerviet",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
-  "note": "Homepage and /vi/gioi-thieu state a Ho Chi Minh City head office. No parent, employer pricing, API or ingest method stated; language options not quoted.",
-  "method": "fetch"
+  "fields_not_found": "business_model;parent;api_status;partner_program",
+  "note": "Homepage, about and employer pages read; address and EN link confirmed; employer product page shows no prices.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -73,6 +74,38 @@
    "title": "Homepage navigation",
    "accessed": "2026-11-06",
    "quote": "Đăng Tuyển Dụng",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://careerviet.vn/vi/jobseekers/about",
+   "title": "Về chúng tôi",
+   "accessed": "2026-11-09",
+   "quote": "Trụ sở chính: Tầng 6, Tòa nhà VNO, 139 Pasteur, Phường Xuân Hoà, TP. Hồ Chí Minh, Việt Nam",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://careerviet.vn/vi/jobseekers/about",
+   "title": "Về chúng tôi",
+   "accessed": "2026-11-09",
+   "quote": "CareerViet.vn - Mạng việc làm quốc tế chuyên biệt cho người Việt tìm việc.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://careerviet.vn/",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-09",
+   "quote": "EN",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://careerviet.vn/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "ĐĂNG TIN TUYỂN DỤNG",
    "quote_check": "ok"
   }
  ]

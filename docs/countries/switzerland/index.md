@@ -1,7 +1,8 @@
 # Job boards in Switzerland
 
-13 job boards and related entries based in or serving Switzerland.
+14 job boards and related entries based in or serving Switzerland.
 
+- [The Adecco Group](https://jobboardlist.com/boards/the-adecco-group/): staffing, Large tier
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Established tier, Partner-only API
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [jobup.ch](https://jobboardlist.com/boards/jobup-ch/): board, Small tier

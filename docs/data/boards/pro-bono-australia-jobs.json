@@ -41,10 +41,10 @@
  "connections": [],
  "review": {
   "board_id": "pro-bono-australia-jobs",
-  "reviewed": "2026-11-06",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;api_status;partner_program;parent;ingest_methods",
-  "note": "Homepage states job posts, bundles and banner ads; prices are only on a third-party posting domain.",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Browser reader returned HTTP 502 with blocked true on the homepage; fetch read the page but no facts are recorded.",
   "method": "mixed"
  },
  "owners": [],

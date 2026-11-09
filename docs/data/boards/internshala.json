@@ -21,8 +21,10 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "Employer banner states posting is free. The employer page links to 'Plans and Pricing', but the plans page returned HTTP 404 and no fee details were read. No language switcher, API, or partner program found. The homepage phrase 'Proud partner of leading government bodies' is a section heading, not a partner program.",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Employer banner states posting is free. The employer page links to 'Plans and Pricing', but the plans page returned HTTP 404 and no fee details were read. No language switcher, API, or partner program found. The homepage phrase 'Proud partner of leading government bodies' is a section heading, not a partner program. Operating company named in footer is Scholiverse Educare Private Limited. Employer plans page lists a free plan and paid premium listing prices in INR. Homepage, employer, plans and footer read; no API, developer or partner page linked.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/internshala/",
  "indexable": false,
@@ -42,10 +44,10 @@
  "connections": [],
  "review": {
   "board_id": "internshala",
-  "reviewed": "2026-11-06",
+  "reviewed": "2026-11-09",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
-  "note": "Homepage, employer and plans pages read; pricing confirmed, no HQ, language, API or partner statement found.",
+  "fields_not_found": "hq_country;languages;parent;partner_program",
+  "note": "Employer plans and pricing stated; no headquarters or language options found on the pages read.",
   "method": "mixed"
  },
  "owners": [],
@@ -73,6 +75,30 @@
    "title": "Employer page",
    "accessed": "2026-11-05",
    "quote": "Post your internships and fresher jobs for free and attract qualified candidates",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://internshala.com/employer-subscription/",
+   "title": "Employer plans and pricing",
+   "accessed": "2026-11-09",
+   "quote": "Free plan 1 listing per month",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://internshala.com/employer",
+   "title": "Employer page",
+   "accessed": "2026-11-09",
+   "quote": "Post your internships and fresher jobs for free and attract qualified candidates",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://internshala.com/",
+   "title": "Homepage footer",
+   "accessed": "2026-11-09",
+   "quote": "© Copyright 2026 Internshala (Scholiverse Educare Private Limited)",
    "quote_check": "ok"
   }
  ]
