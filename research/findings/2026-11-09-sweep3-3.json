@@ -1,0 +1,97 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Hellowork",
+      "url": "https://www.hellowork.com",
+      "primary_language": "fr",
+      "business_model": "free tier and subscription",
+      "parent": "Advenn",
+      "notes": "Homepage footer lists sites of the Advenn group. Employer page lists a free tier for very small businesses and a monthly subscription. No language switcher found. Partner page linked from employer page was not read.",
+      "sources": [
+        {"field": "languages", "url": "https://www.hellowork.com", "title": "Homepage title", "quote": "Offres Emploi, Alerte mail, CV et Recrutement en France"},
+        {"field": "parent", "url": "https://www.hellowork.com", "title": "Homepage footer", "quote": "Les sites du groupe Advenn"},
+        {"field": "business_model", "url": "https://recruteur.hellowork.com/fr/", "title": "Employer pricing", "quote": "Diffusez vos offres d'emploi en illimité et sans engagement, dès 99€/mois."}
+      ]
+    },
+    {
+      "name": "Kalibrr",
+      "url": "https://www.kalibrr.com",
+      "primary_language": "en",
+      "languages_supported": ["en"],
+      "business_model": "subscription",
+      "notes": "Homepage redirects from http to https/home. Employer page shows a subscription renewal button and links to an employer pricing page, which was not read. No plan prices were quoted from the pages read.",
+      "sources": [
+        {"field": "languages", "url": "https://www.kalibrr.com", "title": "Homepage language menu", "quote": "EN"},
+        {"field": "business_model", "url": "https://www.kalibrr.com/employers", "title": "Employers page", "quote": "Renew Subscription"}
+      ]
+    },
+    {
+      "name": "Ninacare",
+      "url": "https://www.ninacare.it/",
+      "primary_language": "it",
+      "languages_supported": ["it", "en"],
+      "notes": "Footer names operator Senex Srl at Corso Mazzini 68, Bari, but no country is stated. Employer page states a 14-day free trial only, with no prices. No API or partner page found.",
+      "sources": [
+        {"field": "languages", "url": "https://www.ninacare.it/", "title": "Homepage language switcher", "quote": "English"},
+        {"field": "languages", "url": "https://www.ninacare.it/", "title": "Homepage navigation", "quote": "Per le aziende"}
+      ]
+    },
+    {
+      "name": "Dentalpost",
+      "url": "https://www.dentalpost.net",
+      "primary_language": "en",
+      "business_model": "subscription",
+      "notes": "Board redirects with HTTP 301 from dentalpost.com to dentalpost.net. Pricing page states a monthly job posting subscription with add-ons. No headquarters, parent or API information stated on pages read.",
+      "sources": [
+        {"field": "languages", "url": "https://www.dentalpost.net/", "title": "Homepage headline", "quote": "Find Jobs on the Largest Dental Employment Job Site in the USA."},
+        {"field": "business_model", "url": "https://www.dentalpost.net/dental-hiring-products/", "title": "Products and pricing", "quote": "The Job Posting Subscription is $259/month."}
+      ]
+    },
+    {
+      "name": "Remotli",
+      "url": "https://remotli.ch",
+      "primary_language": "en",
+      "business_model": "free posting with optional paid upgrades",
+      "api_status": "public-open",
+      "api_docs_url": "https://remotli.ch/docs/api",
+      "notes": "Standard posting is free. Optional Featured and Premium upgrades are paid, and the page says pricing may change after a test. Public job search needs no key. Account endpoints need a self-serve key created by a job seeker account.",
+      "sources": [
+        {"field": "languages", "url": "https://remotli.ch/post-a-job", "title": "Employer posting page", "quote": "Post free, or pay to stand out"},
+        {"field": "business_model", "url": "https://remotli.ch/post-a-job", "title": "Employer posting FAQ", "quote": "Featured (CHF 149) and Premium (CHF 299) are optional upgrades, paid by card through Stripe at submission"},
+        {"field": "api_status", "url": "https://remotli.ch/docs/api", "title": "API documentation", "quote": "The public search needs no key; the account endpoints act as the person whose key they carry."}
+      ]
+    },
+    {
+      "name": "GoGoJobs",
+      "url": "https://gogojobs.mo",
+      "primary_language": "zh",
+      "languages_supported": ["zh"],
+      "notes": "Homepage describes itself as a Macau job platform. Employer entrance links to employer.gogojobs.mo, which states no pricing. No language switcher found, only a zh-Hant path.",
+      "sources": [
+        {"field": "languages", "url": "https://gogojobs.mo", "title": "Homepage links", "quote": "/zh-Hant/jobs"}
+      ]
+    },
+    {
+      "name": "ZZPdock",
+      "url": "https://zzpdock.nl",
+      "primary_language": "nl",
+      "notes": "Site states it is a Dutch website. Footer shows Bomianso with a KvK number, but no parent is stated. Revenue description says it earns from intermediaries, not employers. No language switcher found.",
+      "sources": [
+        {"field": "languages", "url": "https://zzpdock.nl", "title": "Homepage description", "quote": "ZZPdock is een Nederlandse website"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Hellowork", "url": "https://www.hellowork.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Employer page states free and subscription pricing, footer names the Advenn group, no API page found."},
+    {"name": "Kalibrr", "url": "https://www.kalibrr.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage redirects to /home; employer pages read show subscription wording but no plan prices or API mention."},
+    {"name": "Ninacare", "url": "https://www.ninacare.it/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "parent", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage and employer page state languages and a demo booking, no prices and no country or API stated."},
+    {"name": "Dentalpost", "url": "https://www.dentalpost.net", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Site returned HTTP 301 from dentalpost.com to dentalpost.net. Pricing page states a $259/month subscription, no API or partner program mentioned."},
+    {"name": "Remotli", "url": "https://remotli.ch", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "partner_program", "ingest_methods"], "method": "fetch", "note": "Employer pricing and API docs read; footer says one-person project and no partner program or country of headquarters stated."},
+    {"name": "GoGoJobs", "url": "https://gogojobs.mo", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "fetch", "note": "Homepage and employer entrance read; employer page states no pricing and no API or partner mention found."},
+    {"name": "ZZPdock", "url": "https://zzpdock.nl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "fetch", "note": "Homepage states it is a Dutch website and lists a KvK number; no employer pricing, API or partner page linked."},
+    {"name": "Karmsakha", "url": "https://karmsakha.com", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "HTTP 403 Cloudflare security challenge in fetch and in the browser reader."}
+  ],
+  "blocked": [{"name": "Karmsakha", "url": "https://karmsakha.com", "reason": "HTTP 403 Cloudflare security challenge in fetch and in the browser reader"}]
+}
