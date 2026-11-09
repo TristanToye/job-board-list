@@ -1,0 +1,116 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "YoungCapital",
+      "url": "https://www.youngcapital.nl",
+      "primary_language": "nl",
+      "notes": "Dutch-language job board for young workers. The employer services page describes a one-off recruitment fee agreed in advance. The /over-ons page returned 404.",
+      "sources": [
+        {"field": "languages", "url": "https://www.youngcapital.nl/", "title": "Homepage", "quote": "Op zoek naar een baan, maar weet je nog niet precies wát je zoekt?"},
+        {"field": "business_model", "url": "https://www.youngcapital.nl/werkgevers/diensten", "title": "Employer services", "quote": "Jij betaalt een eenmalige fee die je op voorhand hebt afgesproken."}
+      ]
+    },
+    {
+      "name": "Gradireland",
+      "url": "https://gradireland.com",
+      "primary_language": "en",
+      "parent": "Group GTI",
+      "business_model": "subscription",
+      "notes": "Careers platform for students and graduates in Ireland. The About page describes it as a partnership between AHECS and Group GTI.",
+      "sources": [
+        {"field": "languages", "url": "https://gradireland.com/", "title": "Homepage", "quote": "Whether you're looking for careers advice from industry experts, or graduate jobs & schemes"},
+        {"field": "parent", "url": "https://gradireland.com/about-us", "title": "About us", "quote": "a partnership between the Association of Higher Education Career Services (AHECS) and Group GTI."},
+        {"field": "business_model", "url": "https://gradireland.com/about-us", "title": "About us", "quote": "Our team ensure you will get the most from your subscription"}
+      ]
+    },
+    {
+      "name": "MeesterBaan",
+      "url": "https://www.meesterbaan.nl",
+      "primary_language": "nl",
+      "business_model": "per post",
+      "ingest_methods": ["ATS integration"],
+      "notes": "Dutch job board for education vacancies. The tariffs page lists a fixed amount per vacancy and a subscription for schools. The integrations page describes ATS and HRM feeds.",
+      "sources": [
+        {"field": "languages", "url": "https://www.meesterbaan.nl/", "title": "Homepage", "quote": "Vind vacatures in de meest gezochte onderwijsfuncties"},
+        {"field": "business_model", "url": "https://werkgevers.meesterbaan.nl/tarieven", "title": "Tariffs", "quote": "Vast bedrag per vacature"},
+        {"field": "ingest_methods", "url": "https://werkgevers.meesterbaan.nl/integraties", "title": "Integrations", "quote": "Dankzij onze integraties worden vacatures automatisch vanuit uw eigen ATS/HRM systeem doorgeplaatst naar MeesterBaan."}
+      ]
+    },
+    {
+      "name": "Aplikuj.pl",
+      "url": "https://www.aplikuj.pl",
+      "primary_language": "pl",
+      "business_model": "per post and subscription",
+      "api_status": "unknown",
+      "ingest_methods": ["manual posting", "ATS integration"],
+      "notes": "Polish job board. The employer page lists single-post prices in zł net per post and a subscription option. It mentions an API heading but no API documentation or access terms were found on the pages read.",
+      "sources": [
+        {"field": "languages", "url": "https://www.aplikuj.pl/", "title": "Homepage", "quote": "Mamy dla Ciebie 39 889 ofert pracy"},
+        {"field": "business_model", "url": "https://www.aplikuj.pl/dla-pracodawcow", "title": "Employer pricing", "quote": "Pojedyncze ogłoszenia"},
+        {"field": "business_model", "url": "https://www.aplikuj.pl/dla-pracodawcow", "title": "Employer pricing", "quote": "Abonamenty i nolimit"},
+        {"field": "business_model", "url": "https://www.aplikuj.pl/dla-pracodawcow", "title": "Employer pricing", "quote": "599,00 zł netto / ogłoszenie"},
+        {"field": "api_status", "url": "https://www.aplikuj.pl/dla-pracodawcow", "title": "Employer page", "quote": "Twój system przez API"},
+        {"field": "ingest_methods", "url": "https://www.aplikuj.pl/", "title": "Homepage", "quote": "Dodaj ogłoszenie"},
+        {"field": "ingest_methods", "url": "https://www.aplikuj.pl/dla-pracodawcow", "title": "Employer page", "quote": "Możliwa jest również pełna obsługa i integracja z innymi systemami rekrutacyjnymi"}
+      ]
+    },
+    {
+      "name": "Academic Work",
+      "url": "https://www.academicwork.se",
+      "primary_language": "sv",
+      "parent": "Akind Group",
+      "notes": "Swedish recruitment and staffing site for young professionals. Job listings in English are offered on a separate page.",
+      "sources": [
+        {"field": "languages", "url": "https://www.academicwork.se/om-oss", "title": "About us", "quote": "Vi är ledande inom rekrytering och bemanning för talanger i början av deras karriär."},
+        {"field": "parent", "url": "https://www.academicwork.se/om-oss", "title": "About us", "quote": "Som en del av Akind Group kan vi göra större skillnad"},
+        {"field": "languages", "url": "https://www.academicwork.se/jobbsokande/for-international-and-english-speaking-applicants", "title": "English-speaking applicants", "quote": "Available jobs in English"}
+      ]
+    },
+    {
+      "name": "jobs.govt.nz",
+      "url": "https://jobs.govt.nz/",
+      "primary_language": "en",
+      "parent": "Te Kawa Mataaho Public Service Commission",
+      "notes": "Job portal for the New Zealand public service. Agencies use an agency login. No employer pricing was found on the homepage.",
+      "sources": [
+        {"field": "languages", "url": "https://jobs.govt.nz/", "title": "Homepage", "quote": "Our Public Service works together to make a meaningful difference for New Zealanders"},
+        {"field": "parent", "url": "https://jobs.govt.nz/", "title": "Homepage", "quote": "About Te Kawa Mataaho Public Service Commission"}
+      ]
+    },
+    {
+      "name": "Bizcommunity Jobs",
+      "url": "https://www.bizcommunity.com/JobsOffered/196/1/bjs-merge/rw-1.html",
+      "primary_language": "en",
+      "business_model": "subscription",
+      "notes": "Job listings page of Bizcommunity. The job posting page offers a monthly subscription.",
+      "sources": [
+        {"field": "languages", "url": "https://www.bizcommunity.com/JobsOffered/196/1/bjs-merge/rw-1.html", "title": "Jobs offered", "quote": "We are seeking a highly capable Data Engineer with strong experience in scalable data platforms"},
+        {"field": "business_model", "url": "https://www.bizcommunity.com/PostJob.aspx", "title": "Post a job", "quote": "Monthly subscription"}
+      ]
+    },
+    {
+      "name": "Portal del Empleo",
+      "url": "https://www.empleo.gob.mx",
+      "primary_language": "es",
+      "business_model": "free",
+      "notes": "Federal employment portal of Mexico. The homepage refers to the Servicio Nacional de Empleo.",
+      "sources": [
+        {"field": "languages", "url": "https://www.empleo.gob.mx/", "title": "Homepage", "quote": "Participa en nuestros talleres para"},
+        {"field": "business_model", "url": "https://www.empleo.gob.mx/", "title": "Homepage", "quote": "Publica vacantes gratis"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "YoungCapital", "url": "https://www.youngcapital.nl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "languages"], "method": "browser", "note": "Homepage and employer services page read; /over-ons returned 404; no language switcher seen; API and partner pages not read."},
+    {"name": "Gradireland", "url": "https://gradireland.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages"], "method": "browser", "note": "Homepage, employers and About pages read; no HQ or language switcher stated; API and partner pages not read."},
+    {"name": "MeesterBaan", "url": "https://www.meesterbaan.nl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages"], "method": "browser", "note": "Homepage, tariffs and integrations pages read; no HQ, parent or language switcher stated."},
+    {"name": "Aplikuj.pl", "url": "https://www.aplikuj.pl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "partner_program"], "method": "browser", "note": "Homepage and employer page read; API heading found but no API docs or key terms; no partner program stated."},
+    {"name": "Academic Work", "url": "https://www.academicwork.se", "outcome": "partially-verified", "fields_not_found": ["hq_country"], "method": "browser", "note": "Homepage, About and English-applicant pages read; employer pages not read."},
+    {"name": "jobs.govt.nz", "url": "https://jobs.govt.nz/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model"], "method": "browser", "note": "Homepage read; no HQ or employer pricing stated on it; other pages not read."},
+    {"name": "Bizcommunity Jobs", "url": "https://www.bizcommunity.com/JobsOffered/196/1/bjs-merge/rw-1.html", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent"], "method": "browser", "note": "Jobs page and post-a-job page read; no HQ or parent stated."},
+    {"name": "Portal del Empleo", "url": "https://www.empleo.gob.mx", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages"], "method": "browser", "note": "Homepage read; free posting stated; no HQ or language switcher stated."}
+  ],
+  "blocked": []
+}
