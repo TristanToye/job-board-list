@@ -21,6 +21,9 @@ for _a in load("attempts.csv"):
 import re as _re
 for _f in load("loop_flags.csv"):
     if _re.search(r"blocked|cloudflare|403|503|not readable|cannot be read|cannot be checked|unavailable|404|dead|gambling|no longer", _f["flag"], _re.I): _blk[_f["board_id"]] += 1
+_nf = collections.defaultdict(int)  # earlier loop attempts that found nothing: more of the same pages would likely fail again
+for _a in load("attempts.csv"):
+    if _a["outcome"] == "not-found": _nf[_a["board_id"]] += 1
 def weight(i):
     r = rank.get(i)
     if not r or not r["global_rank"]: return 1
@@ -35,6 +38,15 @@ for b in load("job_boards.csv"):
     if rv and (today - datetime.date.fromisoformat(rv["reviewed"])).days < skip: continue
     miss = [k for k, empty in (("hq_country", not b["hq_country"]), ("languages", not b["primary_language"]), ("business_model", not b["business_model"]),
             ("api_status", b["api_status"] == "unknown"), ("partner_program", b["partner_program"] == "unknown"), ("parent", not b["parent"]), ("ingest_methods", not b["ingest_methods"])) if empty]
+    if "--thin" in sys.argv:
+        # pages that stay noindex for lack of facts: fewer than 3 filled fields. Those one or two facts short gain the most from a pass.
+        INFO = ["hq_country", "founded", "parent", "business_model", "api_docs_url", "partner_url", "ingest_methods", "primary_language"]
+        nf = sum(1 for k in INFO if b.get(k)) + (b["api_status"] not in ("", "unknown")) + (b["partner_program"] in ("yes", "n/a"))
+        if nf >= 3 or b["confidence"] == "listed-only": continue
+        if rv and rv["outcome"] in ("blocked", "unreachable", "closed"): continue
+        if _nf.get(b["id"], 0) >= 4: continue
+        if miss: cands.append((weight(b["id"]) * len(miss) * (1.5 if nf == 2 else 1.25 if nf == 1 else 1.0), b, miss))
+        continue
     if miss: cands.append((weight(b["id"]) * len(miss), b, miss))
 cands.sort(key=lambda x: -x[0]); picked = cands[:top]
 out = pathlib.Path(ROOT / "research" / "findings")
