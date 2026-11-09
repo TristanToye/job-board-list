@@ -1,0 +1,134 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "The Hub",
+      "url": "https://thehub.io",
+      "parent": "Mesh Community",
+      "business_model": "pay per post",
+      "ingest_methods": ["import"],
+      "notes": "Per-job prices of €99 (Basic, 30 days), €330 (Pro, 45 days) and €1.100 (Max, 60 days). Mesh Community acquired The Hub in 2022. No headquarters, language options, API or partner program found on the pages read.",
+      "sources": [
+        {"field": "business_model", "url": "https://thehub.io/pricing", "title": "Pricing", "quote": "€99 per job 30 days of publication"},
+        {"field": "parent", "url": "https://thehub.io/about", "title": "About The Hub", "quote": "In 2022, Mesh Community acquired The Hub."},
+        {"field": "ingest_methods", "url": "https://thehub.io/startups/join", "title": "For startups", "quote": "Publish or import job posts to our startup-only job board"}
+      ]
+    },
+    {
+      "name": "Student.be",
+      "url": "https://www.student.be",
+      "primary_language": "nl",
+      "languages_supported": ["nl", "fr", "en"],
+      "business_model": "per post, subscription",
+      "api_status": "unknown",
+      "api_docs_url": "https://www.student.be/api-docs/",
+      "ingest_methods": ["API", "ATS integration", "manual posting"],
+      "notes": "Employer site shows NL, FR and EN; the main site footer shows only NL. Credits from €60 per vacancy (€30 each at 10 credits) or a licence from €104 per month. API V3 docs require a Bearer key but do not say how keys are issued. Headquarters and parent not stated.",
+      "sources": [
+        {"field": "languages", "url": "https://www.student.be/nl/", "title": "Homepage", "quote": "Ontdek de nieuwste studentenjobs, stages en startersfuncties in België."},
+        {"field": "languages", "url": "https://solutions.student.be/nl/employeurs", "title": "Employer site", "quote": "Plaats je vacatures in het Frans en Nederlands."},
+        {"field": "business_model", "url": "https://solutions.student.be/nl/employeurs", "title": "Prijzen (pricing)", "quote": "Betaal per vacature, wanneer jij iemand zoekt"},
+        {"field": "business_model", "url": "https://solutions.student.be/nl/employeurs", "title": "Prijzen (pricing)", "quote": "€104 / maand of €1.250 per jaar, excl. btw, jaarlijks gefactureerd"},
+        {"field": "api_status", "url": "https://www.student.be/api-docs/", "title": "Student.be API V3 Documentation", "quote": "All endpoints require a Bearer token in the Authorization header:"},
+        {"field": "ingest_methods", "url": "https://www.student.be/api-docs/", "title": "Student.be API V3 Documentation", "quote": "API for managing jobs and candidacies on Student.be."},
+        {"field": "ingest_methods", "url": "https://solutions.student.be/nl/employeurs", "title": "Employer site", "quote": "Koppel je bestaande rekruteringstools."}
+      ]
+    },
+    {
+      "name": "Jobnet",
+      "url": "https://jobnet.dk",
+      "hq_country": "DK",
+      "parent": "Styrelsen for Arbejdsmarked og Rekruttering",
+      "primary_language": "da",
+      "notes": "Job-seeker portal. The footer names the Danish employment agency and gives a Copenhagen address. No employer pricing, API, language options, partner program or ingest method found on the home, find-job, support or help pages read.",
+      "sources": [
+        {"field": "existence", "url": "https://jobnet.dk/", "title": "Homepage footer", "quote": "Styrelsen for Arbejdsmarked og Rekruttering Vermundsgade 38 2100 København Ø."},
+        {"field": "parent", "url": "https://jobnet.dk/", "title": "Homepage footer", "quote": "Styrelsen for Arbejdsmarked og Rekruttering Vermundsgade 38 2100 København Ø."},
+        {"field": "languages", "url": "https://jobnet.dk/", "title": "Homepage", "quote": "Find dit nye job"}
+      ]
+    },
+    {
+      "name": "Landing.jobs",
+      "url": "https://landing.jobs",
+      "parent": "Triveris Group",
+      "primary_language": "en",
+      "business_model": "subscription, plus hiring fee on some plans",
+      "ingest_methods": ["ATS integration", "manual posting"],
+      "notes": "Plans from €99 per month (Post Job Only) to €4.999 per month (Unlimited, no hiring fee). Sourcing and Scalability plans add hiring fees. The about page gives a Lisbon office address but does not label it headquarters. No API, language options or partner program found.",
+      "sources": [
+        {"field": "languages", "url": "https://landing.jobs/", "title": "Homepage", "quote": "Jobs and projects that actually fit your goals"},
+        {"field": "parent", "url": "https://landing.jobs/about/", "title": "Who we are", "quote": "Landing.Jobs became part of Triveris Group, a tech recruitment powerhouse with over 30 years of experience."},
+        {"field": "business_model", "url": "https://landing.jobs/business-pricing/", "title": "Pricing & Fees", "quote": "Self-service sourcing for small teams and early-stage startups."},
+        {"field": "business_model", "url": "https://landing.jobs/business-pricing/", "title": "Pricing & Fees", "quote": "Your all-in, no-limits plan. Unlimited jobs. Unlimited hires. Zero hiring fee."},
+        {"field": "ingest_methods", "url": "https://landing.jobs/business-job-board/", "title": "Job Board", "quote": "Plug Landing.Jobs into your existing ATS and keep everything aligned, updated, and running smoothly."},
+        {"field": "ingest_methods", "url": "https://landing.jobs/business-job-board/", "title": "Job Board", "quote": "Write a short prompt or post a job, and let AI do the heavy lifting."}
+      ]
+    },
+    {
+      "name": "Ras Al Khaimah Careers",
+      "url": "https://careers.rak.ae/",
+      "primary_language": "en",
+      "languages_supported": ["en", "ar"],
+      "notes": "Job portal listing jobs from employers in Ras Al Khaimah. The language menu offers English (United Kingdom) and Arabic. No employer pricing, API, parent company or ingest method stated on the home and contact pages read.",
+      "sources": [
+        {"field": "languages", "url": "https://careers.rak.ae/", "title": "Language menu", "quote": "English (United Kingdom)"},
+        {"field": "languages", "url": "https://careers.rak.ae/", "title": "Homepage", "quote": "عربي"}
+      ]
+    },
+    {
+      "name": "SAPO Emprego",
+      "url": "https://emprego.sapo.pt",
+      "parent": "MEO",
+      "primary_language": "pt",
+      "business_model": "free",
+      "api_status": "unknown",
+      "ingest_methods": ["API", "manual posting", "apply redirect"],
+      "notes": "Employers can publish free job ads; the page also mentions premium solutions without prices. The employer page says a free API exists for publishing ads, but the key or access route is not stated. SAPO's about page says it was bought by the former Portugal Telecom, now MEO. Headquarters, language options and partner program not found.",
+      "sources": [
+        {"field": "languages", "url": "https://emprego.sapo.pt/", "title": "Homepage", "quote": "Encontre o emprego certo"},
+        {"field": "business_model", "url": "https://emprego.sapo.pt/register/company", "title": "Registo de empresa", "quote": "Publique anúncios de emprego gratuitos"},
+        {"field": "api_status", "url": "https://emprego.sapo.pt/register/company", "title": "Registo de empresa", "quote": "Disponibilizamos uma API gratuita para que possa publicar anúncios de forma mais simples."},
+        {"field": "ingest_methods", "url": "https://emprego.sapo.pt/register/company", "title": "Registo de empresa", "quote": "Redireccione os Candidatos para o site da empresa."},
+        {"field": "parent", "url": "https://sobre.sapo.pt/", "title": "Sobre o SAPO (linked as SOBRE O SAPO in the emprego.sapo.pt footer)", "quote": "Sobretudo a partir da sua aquisição pela antiga Portugal Telecom, hoje MEO"}
+      ]
+    },
+    {
+      "name": "Kumara Vine",
+      "url": "https://www.kumaravine.com/",
+      "parent": "Tony Cutting Digital",
+      "primary_language": "en",
+      "business_model": "per post",
+      "notes": "Paid job advertising with five services and a pre-paid 20 job pack at 10% off. Prices are not shown in the text read. Owned and operated by Tony Cutting Digital. No API, partner program or language switcher found.",
+      "sources": [
+        {"field": "languages", "url": "https://www.kumaravine.com/about", "title": "About us", "quote": "Welcome to Kumara Vine, New Zealand's leading job website"},
+        {"field": "parent", "url": "https://www.kumaravine.com/about", "title": "About us", "quote": "The Kumara Vine is owned and operated by Tony Cutting Digital"},
+        {"field": "business_model", "url": "https://www.kumaravine.com/services", "title": "Services & pricing", "quote": "We also offer a pre-paid 20 Job Pack which provides a 10% discount on whichever service you choose to use."}
+      ]
+    },
+    {
+      "name": "Workey",
+      "url": "https://workey.se",
+      "parent": "Mikael Lindström enskild firma",
+      "primary_language": "sv",
+      "ingest_methods": ["crawl", "API", "manual posting"],
+      "notes": "Aggregator. The about page says it collects jobs with automatic crawlers, open APIs and direct publishing, which describes how jobs come in, not an API offered to employers. Operated by a sole proprietorship (enskild firma). Employer pricing not stated; the contact page only offers to explain advertising.",
+      "sources": [
+        {"field": "languages", "url": "https://workey.se/", "title": "Homepage", "quote": "Hitta ditt nästa jobb på workey.se!"},
+        {"field": "parent", "url": "https://workey.se/om", "title": "Om workey.se", "quote": "Workey.se drivs av Mikael Lindström enskild firma"},
+        {"field": "ingest_methods", "url": "https://workey.se/om", "title": "Om workey.se", "quote": "För att samla alla jobb på workey.se så används automatiska sökrobotar, öppna API:er samt även direkt publicering på webbplatsen."}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "The Hub", "url": "https://thehub.io", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "partner_program"], "method": "browser", "note": "Pricing, employer import and parent pages read in the browser reader; the /api path returned 404 and was not used as evidence."},
+    {"name": "Student.be", "url": "https://www.student.be", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "partner_program"], "method": "browser", "note": "Employer, pricing, API documentation and about pages read; the about page lists offices but no headquarters."},
+    {"name": "Jobnet", "url": "https://jobnet.dk", "outcome": "partially-verified", "fields_not_found": ["languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Home, find-job, support and help pages read in the browser reader; no employer, API or partner pages linked from them."},
+    {"name": "Landing.jobs", "url": "https://landing.jobs", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "partner_program"], "method": "browser", "note": "Home, pricing, job board and about pages read in the browser reader; no API or partner page linked."},
+    {"name": "Ras Al Khaimah Careers", "url": "https://careers.rak.ae/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Home and contact pages read in the browser reader; the page states no employer terms, API or parent company."},
+    {"name": "SAPO Emprego", "url": "https://emprego.sapo.pt", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "partner_program"], "method": "browser", "note": "Home, employer registration and SAPO about pages read in the browser reader; no language switcher found."},
+    {"name": "Kumara Vine", "url": "https://www.kumaravine.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Home, services and about pages read in the browser reader; prices are not in the text read."},
+    {"name": "Workey", "url": "https://workey.se", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program"], "method": "browser", "note": "Home, employer, about and contact pages read in the browser reader; no pricing or developer page found."}
+  ],
+  "blocked": []
+}
