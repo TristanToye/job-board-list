@@ -1,0 +1,61 @@
+{
+  "mode": "discover",
+  "country": "SA",
+  "boards": [
+    {
+      "name": "Mihnati",
+      "url": "https://www.mihnati.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["SA"],
+      "sources": [
+        {"field": "existence", "url": "https://www.mihnati.com", "title": "Mihnati homepage", "quote": "موقع التوظيف الأول في السعودية"}
+      ]
+    },
+    {
+      "name": "Akhtaboot",
+      "url": "https://www.akhtaboot.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["SA"],
+      "sources": [
+        {"field": "existence", "url": "https://www.akhtaboot.com", "title": "Akhtaboot homepage", "quote": "Akhtaboot is an online career network, serving the MENA Region."}
+      ]
+    },
+    {
+      "name": "Sabbar",
+      "url": "https://sabbar.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["SA"],
+      "sources": [
+        {"field": "existence", "url": "https://sabbar.com", "title": "Sabbar homepage", "quote": "أكبر وجهة للباحثين عن العمل والشركات للتوظيف في مختلف القطاعات"}
+      ]
+    },
+    {
+      "name": "Mustakbil",
+      "url": "https://sa.mustakbil.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["SA"],
+      "sources": [
+        {"field": "existence", "url": "https://sa.mustakbil.com", "title": "Mustakbil Saudi Arabia homepage", "quote": "Your gateway to top opportunities across Saudi Arabia and remote positions worldwide"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Tanqeeb", "url": "https://www.tanqeeb.com", "reason": "HTTP 403"},
+    {"name": "Expatriates.com", "url": "https://www.expatriates.com", "reason": "HTTP 403"},
+    {"name": "ZeroTax Jobs", "url": "https://www.zerotaxjobs.com", "reason": "HTTP 403"},
+    {"name": "Qiwa", "url": "https://qiwa.sa", "reason": "Returned a Request Rejected page instead of portal content"}
+  ],
+  "queue": [
+    {"name": "Mourjan", "url": "https://www.mourjan.com", "reason": "Homepage read; classifieds site with a /sa/ section, job listings for Saudi Arabia not confirmed"},
+    {"name": "Health eCareers", "url": "https://www.healthecareers.com", "reason": "Named in a roundup; fetch failed, homepage not read"},
+    {"name": "eFinancialCareers", "url": "https://www.efinancialcareers.com", "reason": "Homepage read; Saudi Arabia listings not confirmed on the page"},
+    {"name": "Laimoon", "url": "https://www.laimoon.com", "reason": "Homepage read; a training and course marketplace with a Saudi Arabia career page, not confirmed as a job board"},
+    {"name": "Qureos", "url": "https://www.qureos.com", "reason": "Named in roundups as a recruitment platform; homepage not read"},
+    {"name": "CareerBoom.ai", "url": "https://careerboom.ai", "reason": "Named in roundups as a meta-search tool; homepage not read"},
+    {"name": "Saudi Job Search", "url": "", "reason": "Named in a roundup; no homepage URL found or read"}
+  ]
+}

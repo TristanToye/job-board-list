@@ -1,0 +1,71 @@
+{
+  "mode": "discover",
+  "country": "TR",
+  "boards": [
+    {
+      "name": "Secretcv",
+      "url": "https://www.secretcv.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["TR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.secretcv.com/", "title": "Secretcv.com homepage", "quote": "Secretcv.com, TRCV İnsan Kaynakları ve Yönetim Danışmanlığı A.Ş.' ye ait bir iş ve eleman bulma sitesidir."}
+      ]
+    },
+    {
+      "name": "Eleman.net",
+      "url": "https://www.eleman.net",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["TR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.eleman.net/", "title": "Eleman.net homepage", "quote": "Aradığın iş ve aradığın eleman, eleman.net iş ilanları sitesinde."}
+      ]
+    },
+    {
+      "name": "İŞKUR (Türkiye İş Kurumu)",
+      "url": "https://www.iskur.gov.tr",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["TR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.iskur.gov.tr/", "title": "İŞKUR homepage", "quote": "Binlerce ilan arasında size uygun işi bulmanın en iyi yolu"}
+      ]
+    },
+    {
+      "name": "Youthall",
+      "url": "https://www.youthall.com",
+      "type": "board",
+      "niche": "graduates",
+      "countries_served": ["TR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.youthall.com/", "title": "Youthall homepage", "quote": "18-35 yaş aralığındaki öğrenciler, yeni mezunlar ve genç profesyoneller için tasarlanmıştır."}
+      ]
+    },
+    {
+      "name": "Toptalent",
+      "url": "https://toptalent.co",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["TR"],
+      "sources": [
+        {"field": "existence", "url": "https://toptalent.co/", "title": "Toptalent homepage", "quote": "Yeteneklerini keşfet, geliştir ve kariyerin için yeni fırsatlara ulaş."}
+      ]
+    },
+    {
+      "name": "TechCareer",
+      "url": "https://www.techcareer.net",
+      "type": "niche-board",
+      "niche": "tech",
+      "countries_served": ["TR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.techcareer.net/", "title": "TechCareer homepage", "quote": "Teknoloji iş ilanlarını keşfetmeye hemen başla!"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Kariyer.net", "url": "https://www.kariyer.net", "reason": "HTTP 403 on homepage (two attempts)"},
+    {"name": "Yenibiris", "url": "https://www.yenibiris.com", "reason": "HTTP 403 on homepage (two attempts)"}
+  ],
+  "queue": []
+}
