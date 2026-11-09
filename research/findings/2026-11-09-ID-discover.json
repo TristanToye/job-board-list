@@ -1,0 +1,113 @@
+{
+  "mode": "discover",
+  "country": "ID",
+  "boards": [
+    {
+      "name": "Karirhub (Kemnaker)",
+      "url": "https://karirhub.kemnaker.go.id",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["ID"],
+      "sources": [
+        {"field": "existence", "url": "https://karirhub.kemnaker.go.id", "title": "Karirhub homepage", "quote": "Platform rekruitmen gratis terbaik bagi perusahaan yang ter-integrasi dengan ekosistem ketenagakerjaan."}
+      ]
+    },
+    {
+      "name": "SIAPkerja (Kemnaker)",
+      "url": "https://siapkerja.kemnaker.go.id",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["ID"],
+      "sources": [
+        {"field": "existence", "url": "https://siapkerja.kemnaker.go.id", "title": "SIAPkerja page title", "quote": "SIAPkerja : Kementerian Ketenagakerjaan Republik Indonesia."}
+      ]
+    },
+    {
+      "name": "MagangHub (Kemnaker)",
+      "url": "https://maganghub.kemnaker.go.id",
+      "type": "government",
+      "niche": "graduates",
+      "countries_served": ["ID"],
+      "sources": [
+        {"field": "existence", "url": "https://maganghub.kemnaker.go.id", "title": "MagangHub homepage", "quote": "Platform resmi Kemnaker RI yang menghubungkan fresh graduate dengan 10K+ perusahaan terbaik."}
+      ]
+    },
+    {
+      "name": "Dealls",
+      "url": "https://dealls.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["ID"],
+      "sources": [
+        {"field": "existence", "url": "https://dealls.com", "title": "Dealls homepage", "quote": "Dealls adalah job portal dan website cari kerja #1 di Indonesia"}
+      ]
+    },
+    {
+      "name": "Jobindo",
+      "url": "https://www.jobindo.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["ID"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobindo.com", "title": "Jobindo homepage", "quote": "merupakan situs lowongan kerja terbaik dan terpercaya di Indonesia"}
+      ]
+    },
+    {
+      "name": "Karir.com",
+      "url": "https://www.karir.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["ID"],
+      "sources": [
+        {"field": "existence", "url": "https://www.karir.com", "title": "Karir.com homepage", "quote": "Situs Lowongan Kerja Indonesia | Karir.com"}
+      ]
+    },
+    {
+      "name": "KitaLulus",
+      "url": "https://www.kitalulus.com",
+      "type": "board",
+      "niche": "graduates",
+      "countries_served": ["ID"],
+      "sources": [
+        {"field": "existence", "url": "https://www.kitalulus.com", "title": "KitaLulus homepage", "quote": "KitaLulus adalah sebuah perusahaan rintisan dengan satu misi utama, yaitu meningkatkan kesejahteraan masyarakat"}
+      ]
+    },
+    {
+      "name": "Sribu",
+      "url": "https://www.sribu.com",
+      "type": "board",
+      "niche": "freelance",
+      "countries_served": ["ID"],
+      "sources": [
+        {"field": "existence", "url": "https://www.sribu.com", "title": "Sribu homepage", "quote": "Indonesian Online Freelancing Site, 200+ Job Categories"}
+      ]
+    },
+    {
+      "name": "Kerjabilitas",
+      "url": "https://www.kerjabilitas.com",
+      "type": "social-network+board",
+      "niche": "disability",
+      "countries_served": ["ID"],
+      "sources": [
+        {"field": "existence", "url": "https://www.kerjabilitas.com", "title": "Kerjabilitas homepage", "quote": "Kerjabilitas.com adalah sebuah jaringan sosial karir yang menghubungkan penyandang disabilitas"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Glints", "url": "https://glints.com", "reason": "HTTP 403 (two attempts)"},
+    {"name": "Loker.id", "url": "https://www.loker.id", "reason": "HTTP 403 (two attempts)"},
+    {"name": "Monster Indonesia", "url": "https://www.monster.co.id", "reason": "HTTP 403"},
+    {"name": "Jora Indonesia", "url": "https://id.jora.com", "reason": "HTTP 403"},
+    {"name": "Jobplanet", "url": "https://www.jobplanet.co.id", "reason": "DNS error: id.jobplanet.com did not resolve in this session"},
+    {"name": "JobLeads Indonesia", "url": "https://www.jobleads.com/id", "reason": "HTTP 403"},
+    {"name": "AdaKerja", "url": "https://www.adakerja.com", "reason": "HTTP 503"},
+    {"name": "Projects.co.id", "url": "https://www.projects.co.id", "reason": "HTTP 403"},
+    {"name": "UrbanHire", "url": "https://www.urbanhire.com", "reason": "HTTP 530"}
+  ],
+  "queue": [
+    {"name": "Dicoding Jobs", "url": "https://jobs.dicoding.com", "reason": "Named in a search result; fetch returned HTTP 405, homepage not read"},
+    {"name": "Tech in Asia Jobs", "url": "https://www.techinasia.com/jobs", "reason": "Named in a search result; fetch tool was rate-limited for this domain, homepage not read"},
+    {"name": "Fungsi.id", "url": "", "reason": "Named in an onrec directory listing; site not found in search and not read"},
+    {"name": "Hiredly", "url": "https://my.hiredly.com", "reason": "Named in a search result; homepage title names Malaysia and Indonesian coverage was not confirmed"}
+  ]
+}
