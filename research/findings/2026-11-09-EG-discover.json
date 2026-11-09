@@ -1,0 +1,43 @@
+{
+  "mode": "discover",
+  "country": "EG",
+  "boards": [
+    {
+      "name": "Wuzzuf",
+      "url": "https://wuzzuf.net",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["EG"],
+      "sources": [
+        {"field": "existence", "url": "https://wuzzuf.net/about-us", "title": "Wuzzuf about us", "quote": "WUZZUF is one of Egypt’s leading online recruitment platforms, operated by BasharSoft, a technology company founded in 2009"},
+        {"field": "listed_by", "url": "https://cairoscene.com/listicles/11-egyptian-websites-to-help-you-land-a-job", "title": "11 Egyptian websites to help you land a job", "quote": "Wuzzuf is the way to go if you’re looking for a fancypants professional gig."}
+      ]
+    },
+    {
+      "name": "Shaghalni (شغلني)",
+      "url": "https://www.shaghalni.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["EG"],
+      "sources": [
+        {"field": "existence", "url": "https://www.shaghalni.com", "title": "Shaghalni homepage", "quote": "منصة توظيف توفر وظائف شاغره ,وظائف اليوم, وظائف خاليه وفرص عمل فى مصر"},
+        {"field": "existence", "url": "https://www.shaghalni.com", "title": "Shaghalni homepage", "quote": "موقع شغلني ليس شركة توظيف ويقدم جميع خدماته لراغبي العمل مجاناً دون دفع أي رسوم."}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Forasna", "url": "https://www.forasna.com", "reason": "HTTP 403 on homepage; listing page https://forasna.com/وظائف-خالية?start=2500 also returned HTTP 403"},
+    {"name": "Tanqeeb", "url": "https://www.tanqeeb.com", "reason": "HTTP 403"},
+    {"name": "Wzayef", "url": "https://www.wzayef.com", "reason": "HTTP 503"},
+    {"name": "Qureos", "url": "https://www.qureos.com", "reason": "HTTP 403"},
+    {"name": "AcademicJobs (Egypt)", "url": "https://www.academicjobs.com/eg/job-board-rankings", "reason": "HTTP 403"},
+    {"name": "Dubizzle Egypt jobs", "url": "https://www.dubizzle.com.eg/jobs/", "reason": "HTTP 503 (Retry-After 3600) on two attempts"},
+    {"name": "Ministry of Labour (mol.gov.eg)", "url": "https://www.mol.gov.eg", "reason": "DNS error: getaddrinfo ENOTFOUND"}
+  ],
+  "queue": [
+    {"name": "Jobzella", "url": "https://www.jobzella.com", "reason": "Homepage read and describes a Middle East career site; no Egypt-specific statement on pages read. Named in Cairo Scene listicle."},
+    {"name": "Akhtaboot", "url": "https://www.akhtaboot.com", "reason": "Homepage read; describes MENA coverage with jobs in Jordan, Saudi Arabia, Qatar and UAE; no Egypt mention found. Listed in a Betterteam roundup that could not be opened."},
+    {"name": "Cantalop", "url": "", "reason": "Named in Cairo Scene listicle as a job search engine for Egypt, India and the Gulf. Domain redirects to a parked domain-sale page, so not confirmed as a live board."},
+    {"name": "Digital Egypt (digital.gov.eg)", "url": "https://digital.gov.eg", "reason": "Homepage read shows only the portal name; Ministry of Labor employment services not confirmed on the page read."}
+  ]
+}
