@@ -1,0 +1,107 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Gi Group Holding",
+      "url": "https://www.gigroup.com",
+      "hq_country": "IT",
+      "parent": "Gi Group Holding",
+      "notes": "Workforce solutions and staffing group. The About page gives the Milan headquarters of Gi Group Holding S.p.A. No employer pricing, API, partner program or job ingest method found on the homepage, About, For Employers, Contact or footer pages.",
+      "sources": [
+        {"field": "existence", "url": "https://www.gigroup.com/about-gi-group/", "title": "About Gi Group", "quote": "Headquarter: Piazza IV Novembre, 5 – 20124 Milano"},
+        {"field": "parent", "url": "https://www.gigroup.com/about-gi-group/", "title": "About Gi Group", "quote": "Gi Group is part of Gi Group Holding, one of the world’s leading providers of services for the evolution of the labour market."}
+      ]
+    },
+    {
+      "name": "Gem",
+      "url": "https://www.gem.com",
+      "business_model": "subscription, custom pricing by company size; startup offer from $135/month",
+      "ingest_methods": ["ATS integration"],
+      "notes": "AI recruiting platform (ATS, CRM, sourcing). Pricing is custom by FTE count with a startup offer. The Integrations page on integrations.gem.com returned HTTP 403 to fetch and to the browser reader and was not read, so API and partner status could not be checked.",
+      "sources": [
+        {"field": "business_model", "url": "https://www.gem.com/pricing", "title": "Pricing", "quote": "Based on your company's FTE count. Startups pricing available"},
+        {"field": "business_model", "url": "https://www.gem.com/", "title": "Home", "quote": "starting as low as $135/month for the full platform"},
+        {"field": "ingest_methods", "url": "https://www.gem.com/", "title": "Home", "quote": "Gem integrates natively with Greenhouse, Workday, Lever, iCIMS, and more."}
+      ]
+    },
+    {
+      "name": "ManpowerGroup",
+      "url": "https://www.manpowergroup.com",
+      "primary_language": "en",
+      "notes": "Global workforce solutions company. The language selector shows only English. Headquarters, parent company, employer pricing, API and partner pages are not stated on the homepage, About, or Sitemap.",
+      "sources": [
+        {"field": "languages", "url": "https://www.manpowergroup.com/", "title": "ManpowerGroup homepage", "quote": "(English)"}
+      ]
+    },
+    {
+      "name": "Japan Dev",
+      "url": "https://japan-dev.com/",
+      "primary_language": "en",
+      "languages_supported": ["en", "ja"],
+      "business_model": "free to post; flat fee per successful hire",
+      "ingest_methods": ["ATS integration"],
+      "notes": "Tech job board for English-speaking roles in Japan. The employer page says posting is free and that a flat fee applies per hire. It states ATS integration. No API, developer or partner program page is linked; the 'Our Friends and Partners' heading introduces customer testimonials.",
+      "sources": [
+        {"field": "primary_language", "url": "https://japan-dev.com/", "title": "Software Developer Jobs in Japan", "quote": "270 curated jobs in Japan for English-speaking software developers & tech folks."},
+        {"field": "languages", "url": "https://japan-dev.com/", "title": "Software Developer Jobs in Japan", "quote": "日本語"},
+        {"field": "business_model", "url": "https://japan-dev.com/hire", "title": "Hire Top Tech Talent in Japan", "quote": "Posting jobs is 100% free. Pay nothing until your first successful hire"},
+        {"field": "ingest_methods", "url": "https://japan-dev.com/hire", "title": "Hire Top Tech Talent in Japan", "quote": "Integrate directly with your existing ATS"}
+      ]
+    },
+    {
+      "name": "Jobilize",
+      "url": "https://www.jobilize.com/",
+      "api_status": "on-request",
+      "ingest_methods": ["manual posting (web interface)", "XML/JSON job feed (on request)"],
+      "business_model": "free employer posting via web interface; job boards and aggregators need separate contact",
+      "notes": "Job search engine with an employer posting interface. The posting FAQ says a job feed is set up through support on request. No API documentation URL, headquarters, parent company, language selector or partner program was found.",
+      "sources": [
+        {"field": "business_model", "url": "https://www.jobilize.com/public/how-to-post-jobs.xhtml", "title": "How to post jobs", "quote": "The free online web-based job posting interface is available for employers, and recruiters."},
+        {"field": "api_status", "url": "https://www.jobilize.com/public/how-to-post-jobs.xhtml", "title": "How to post jobs", "quote": "Yes. for the technical details on how to integrate your job feed please contact Jobilize support via the Contact Form"},
+        {"field": "ingest_methods", "url": "https://www.jobilize.com/public/how-to-post-jobs.xhtml", "title": "How to post jobs", "quote": "Do you accept XML/JSON job feed?"}
+      ]
+    },
+    {
+      "name": "Ticjob",
+      "url": "https://www.ticjob.es/",
+      "hq_country": "ES",
+      "primary_language": "es",
+      "languages_supported": ["en", "es", "ca"],
+      "api_status": "unknown",
+      "ingest_methods": ["ATS integration through API"],
+      "notes": "IT job board. The legal page names ticjob, S.L. with registered office in Madrid. The recruiter page says ATS integration runs through an API, but no API documentation, access terms, employer prices or partner program were found. The 'Our partners' page lists training and technology partners. The footer links to ticjob.co, which is not described.",
+      "sources": [
+        {"field": "existence", "url": "https://ticjob.es/eng/disclaimer", "title": "Conditions of Use", "quote": "cuyo titular es ticjob, S.L., NIF B86141884, con domicilio social en Madrid"},
+        {"field": "languages", "url": "https://ticjob.es/eng/", "title": "Search IT and Telecommunications Jobs", "quote": "eng esp cat"},
+        {"field": "languages", "url": "https://ticjob.es/eng/", "title": "Search IT and Telecommunications Jobs", "quote": "Mapa del empleo digital en España"},
+        {"field": "api_status", "url": "https://ticjob.es/eng/recruiter", "title": "Post jobs and search CV's", "quote": "We integrate through our API so that you can publish your offers and receive applications from the same place."}
+      ]
+    },
+    {
+      "name": "INTOO",
+      "url": "https://www.intoo.com",
+      "parent": "Gi Group Holding",
+      "business_model": "per program (outplacement services for employers, USD rates shown for US SMB)",
+      "notes": "Outplacement and career development firm for employers, not a job board. The pricing page shows four USD amounts from $600 to $3750 and offers custom quotes for other options. No headquarters, language selector, API, partner program or job ingest method was found. The homepage line 'Countries supported in 40+ languages' describes coaching services, not site languages.",
+      "sources": [
+        {"field": "parent", "url": "https://www.intoo.com/us/about/", "title": "About INTOO US", "quote": "A Gi Group Holding Company"},
+        {"field": "parent", "url": "https://www.intoo.com/us/about/", "title": "About INTOO US", "quote": "INTOO is the career development and outplacement flagship for Gi Group Holding"},
+        {"field": "business_model", "url": "https://www.intoo.com/us/solutions/outplacement/outplacement-pricing/", "title": "Outplacement Pricing", "quote": "SMB pricing below reflects per-program rates for the U.S."}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Gi Group Holding", "url": "https://www.gigroup.com", "outcome": "partially-verified", "fields_not_found": ["languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage, About, For Employers, Contact and footer pages state the Milan headquarters and parent but no pricing, API or partner page."},
+    {"name": "doda", "url": "https://www.doda.jp/", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "Browser reader returned blocked: true for https://www.doda.jp/ with no page text, so no facts were taken from it."},
+    {"name": "Gem", "url": "https://www.gem.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Pages state subscription pricing and native ATS integrations; integrations.gem.com returned HTTP 403 and was not read."},
+    {"name": "ManpowerGroup", "url": "https://www.manpowergroup.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage shows only an English language option; About and Sitemap state no headquarters, parent, pricing or API."},
+    {"name": "Japan Dev", "url": "https://japan-dev.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Homepage and employer pages state languages, free posting with a per-hire fee and ATS integration; no API or partner page and no headquarters."},
+    {"name": "Jobilize", "url": "https://www.jobilize.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "partner_program"], "method": "mixed", "note": "Posting FAQ states free employer posting and a job feed on request; About page states no headquarters or parent and there is no language selector."},
+    {"name": "Ticjob", "url": "https://www.ticjob.es/", "outcome": "partially-verified", "fields_not_found": ["parent", "business_model", "partner_program"], "method": "mixed", "note": "Legal page gives Madrid registered office and footer shows three languages; employer pricing and partner program are not stated."},
+    {"name": "INTOO", "url": "https://www.intoo.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "About page states it is a Gi Group Holding company and pricing page gives per-program rates; no headquarters, API or partner program stated."}
+  ],
+  "blocked": [
+    {"name": "doda", "url": "https://www.doda.jp/", "reason": "Browser reader returned blocked: true"}
+  ]
+}
