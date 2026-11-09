@@ -1,99 +1,202 @@
 {
-  "mode": "discover",
-  "country": "RO",
-  "boards": [
+ "mode": "discover",
+ "country": "RO",
+ "boards": [
+  {
+   "name": "BestJobs",
+   "url": "https://www.bestjobs.eu",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "RO"
+   ],
+   "sources": [
     {
-      "name": "BestJobs",
-      "url": "https://www.bestjobs.eu",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["RO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.bestjobs.eu/", "title": "Locuri de munca | Bestjobs.eu", "quote": "© 2026 BESTJOBS RECRUTARE SA"},
-        {"field": "listed_by", "url": "https://careerboom.ai/en/us/blog/tool-review/best-romania-job-platforms-2026", "title": "Best Romania job platforms 2026 (careerboom.ai)", "quote": "The platform feels more like a professional social network than a sterile job board."}
-      ]
+     "field": "existence",
+     "url": "https://www.bestjobs.eu/",
+     "title": "Locuri de munca | Bestjobs.eu",
+     "quote": "© 2026 BESTJOBS RECRUTARE SA",
+     "check": "ok"
     },
     {
-      "name": "Hipo.ro",
-      "url": "https://www.hipo.ro",
-      "type": "board",
-      "niche": "graduates",
-      "countries_served": ["RO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.hipo.ro/", "title": "Hipo.ro homepage", "quote": "Peste 5000 de Locuri de munca si Joburi pentru profesionisti, programe de internship pentru studenti si absolventi"},
-        {"field": "listed_by", "url": "https://careerboom.ai/en/us/blog/tool-review/best-romania-job-platforms-2026", "title": "Best Romania job platforms 2026 (careerboom.ai)", "quote": "the go-to platform for students, entry-level professionals, and the IT sector"}
-      ]
-    },
-    {
-      "name": "ANOFM (Romanian public employment service)",
-      "url": "https://www.anofm.ro",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["RO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.anofm.ro/", "title": "ANOFM homepage", "quote": "Agenția Națională pentru Ocuparea forței de Muncă vine în sprijinul cetățeanului cu programe și locuri de muncă."}
-      ]
-    },
-    {
-      "name": "OLX Jobs Romania",
-      "url": "https://www.olx.ro/locuri-de-munca/",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["RO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.olx.ro/locuri-de-munca/", "title": "OLX.ro locuri de munca", "quote": "Cum pot cauta locuri de munca pe OLX.ro?"},
-        {"field": "listed_by", "url": "https://careerboom.ai/en/us/blog/tool-review/best-romania-job-platforms-2026", "title": "Best Romania job platforms 2026 (careerboom.ai)", "quote": "the most visited site for roles in construction, logistics, retail, and hospitality"}
-      ]
-    },
-    {
-      "name": "Undelucram.ro",
-      "url": "https://www.undelucram.ro",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["RO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.undelucram.ro/", "title": "Undelucram.ro homepage", "quote": "Cea mai mare comunitate online dedicată angajaților din România"}
-      ]
-    },
-    {
-      "name": "Lucrezi.ro",
-      "url": "https://lucrezi.ro",
-      "type": "aggregator",
-      "niche": "general",
-      "countries_served": ["RO"],
-      "sources": [
-        {"field": "existence", "url": "https://lucrezi.ro/", "title": "Lucrezi.ro homepage", "quote": "Agregăm oferte de muncă de la portaluri partenere și alți parteneri, din surse publice și direct de la angajatori."}
-      ]
-    },
-    {
-      "name": "Myjob.ro",
-      "url": "https://www.myjob.ro",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["RO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.myjob.ro/", "title": "Locuri de munca - Myjob", "quote": "Copyright 2001 - 2026 Active Soft."}
-      ]
-    },
-    {
-      "name": "iAgora",
-      "url": "https://www.iagora.com",
-      "type": "niche-board",
-      "niche": "graduates and internships",
-      "countries_served": ["RO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.iagora.com/work/en/jobs-and-internships/it/romania", "title": "iAgora IT internships in Romania", "quote": "With up to 1.000 new internships/day, iAgora is the most active pool of internships in Europe."}
-      ]
+     "field": "listed_by",
+     "url": "https://careerboom.ai/en/us/blog/tool-review/best-romania-job-platforms-2026",
+     "title": "Best Romania job platforms 2026 (careerboom.ai)",
+     "quote": "The platform feels more like a professional social network than a sterile job board."
     }
-  ],
-  "blocked": [
-    {"name": "Carieranoua", "url": "https://www.carieranoua.ro", "reason": "DNS error (getaddrinfo ENOTFOUND)"},
-    {"name": "ITjobs.ro", "url": "https://www.itjobs.ro", "reason": "HTTP 503"},
-    {"name": "Joblulu.ro", "url": "https://www.joblulu.ro", "reason": "DNS error (getaddrinfo ENOTFOUND)"}
-  ],
-  "queue": [
-    {"name": "EURES (European Employment Services)", "url": "https://eures.europa.eu", "reason": "Romanian national labour market page read; portal homepage not read, and that page names no Romanian EURES partner"},
-    {"name": "Careerboom.ai", "url": "https://careerboom.ai", "reason": "Named in a roundup as an AI career tool newly active in Romania; homepage not read; may not be a job board"},
-    {"name": "Job Romania", "url": "", "reason": "Named in a search summary as a Romanian job ad site; homepage not identified or read"}
-  ]
+   ]
+  },
+  {
+   "name": "Hipo.ro",
+   "url": "https://www.hipo.ro",
+   "type": "board",
+   "niche": "graduates",
+   "countries_served": [
+    "RO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hipo.ro/",
+     "title": "Hipo.ro homepage",
+     "quote": "Peste 5000 de Locuri de munca si Joburi pentru profesionisti, programe de internship pentru studenti si absolventi",
+     "check": "ok"
+    },
+    {
+     "field": "listed_by",
+     "url": "https://careerboom.ai/en/us/blog/tool-review/best-romania-job-platforms-2026",
+     "title": "Best Romania job platforms 2026 (careerboom.ai)",
+     "quote": "the go-to platform for students, entry-level professionals, and the IT sector"
+    }
+   ]
+  },
+  {
+   "name": "ANOFM (Romanian public employment service)",
+   "url": "https://www.anofm.ro",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "RO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.anofm.ro/",
+     "title": "ANOFM homepage",
+     "quote": "Agenția Națională pentru Ocuparea forței de Muncă vine în sprijinul cetățeanului cu programe și locuri de muncă.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "OLX Jobs Romania",
+   "url": "https://www.olx.ro/locuri-de-munca/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "RO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.olx.ro/locuri-de-munca/",
+     "title": "OLX.ro locuri de munca",
+     "quote": "Cum pot cauta locuri de munca pe OLX.ro?",
+     "check": "unreachable"
+    },
+    {
+     "field": "listed_by",
+     "url": "https://careerboom.ai/en/us/blog/tool-review/best-romania-job-platforms-2026",
+     "title": "Best Romania job platforms 2026 (careerboom.ai)",
+     "quote": "the most visited site for roles in construction, logistics, retail, and hospitality"
+    }
+   ]
+  },
+  {
+   "name": "Undelucram.ro",
+   "url": "https://www.undelucram.ro",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "RO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.undelucram.ro/",
+     "title": "Undelucram.ro homepage",
+     "quote": "Cea mai mare comunitate online dedicată angajaților din România",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Lucrezi.ro",
+   "url": "https://lucrezi.ro",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "RO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://lucrezi.ro/",
+     "title": "Lucrezi.ro homepage",
+     "quote": "Agregăm oferte de muncă de la portaluri partenere și alți parteneri, din surse publice și direct de la angajatori.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Myjob.ro",
+   "url": "https://www.myjob.ro",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "RO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.myjob.ro/",
+     "title": "Locuri de munca - Myjob",
+     "quote": "Copyright 2001 - 2026 Active Soft.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "iAgora",
+   "url": "https://www.iagora.com",
+   "type": "niche-board",
+   "niche": "graduates and internships",
+   "countries_served": [
+    "RO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.iagora.com/work/en/jobs-and-internships/it/romania",
+     "title": "iAgora IT internships in Romania",
+     "quote": "With up to 1.000 new internships/day, iAgora is the most active pool of internships in Europe.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Carieranoua",
+   "url": "https://www.carieranoua.ro",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  },
+  {
+   "name": "ITjobs.ro",
+   "url": "https://www.itjobs.ro",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Joblulu.ro",
+   "url": "https://www.joblulu.ro",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  }
+ ],
+ "queue": [
+  {
+   "name": "EURES (European Employment Services)",
+   "url": "https://eures.europa.eu",
+   "reason": "Romanian national labour market page read; portal homepage not read, and that page names no Romanian EURES partner"
+  },
+  {
+   "name": "Careerboom.ai",
+   "url": "https://careerboom.ai",
+   "reason": "Named in a roundup as an AI career tool newly active in Romania; homepage not read; may not be a job board"
+  },
+  {
+   "name": "Job Romania",
+   "url": "",
+   "reason": "Named in a search summary as a Romanian job ad site; homepage not identified or read"
+  }
+ ]
 }

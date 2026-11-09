@@ -1,173 +1,402 @@
 {
-  "mode": "discover",
-  "country": "CN",
-  "boards": [
+ "mode": "discover",
+ "country": "CN",
+ "boards": [
+  {
+   "name": "猎聘 (Liepin)",
+   "url": "https://www.liepin.com",
+   "type": "board",
+   "niche": "professional",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
     {
-      "name": "猎聘 (Liepin)",
-      "url": "https://www.liepin.com",
-      "type": "board",
-      "niche": "professional",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.liepin.com", "title": "Liepin homepage", "quote": "【猎聘】-招聘_找工作_求职_企业招人平台"},
-        {"field": "existence", "url": "https://www.liepin.com", "title": "Liepin homepage employer links", "quote": "我是招聘方"}
-      ]
+     "field": "existence",
+     "url": "https://www.liepin.com",
+     "title": "Liepin homepage",
+     "quote": "【猎聘】-招聘_找工作_求职_企业招人平台",
+     "check": "mismatch"
     },
     {
-      "name": "58同城 (58.com)",
-      "url": "https://www.58.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://bj.58.com/", "title": "58.com Beijing homepage (redirect target of www.58.com)", "quote": "【58同城 58.com】北京分类信息 - 本地 免费 高效"},
-        {"field": "existence", "url": "https://bj.58.com/", "title": "58.com Beijing homepage job section", "quote": "北京招聘"}
-      ]
-    },
-    {
-      "name": "脉脉 (Maimai)",
-      "url": "https://www.maimai.cn",
-      "type": "social-network+board",
-      "niche": "professional",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.maimai.cn", "title": "Maimai homepage", "quote": "AI时代的求职招聘平台"},
-        {"field": "existence", "url": "https://www.maimai.cn", "title": "Maimai homepage employer section", "quote": "发布你的职位"}
-      ]
-    },
-    {
-      "name": "新华英才 (Xinhua Talent, chinahr.com)",
-      "url": "https://www.chinahr.com",
-      "type": "board",
-      "niche": "graduate",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.chinahr.com", "title": "Xinhua Talent homepage title", "quote": "新华英才招聘-大学生就业服务云平台"},
-        {"field": "existence", "url": "https://www.chinahr.com", "title": "Xinhua Talent homepage employer entrance", "quote": "企业入口"}
-      ]
-    },
-    {
-      "name": "应届生求职网 (Yingjiesheng)",
-      "url": "https://www.yingjiesheng.com",
-      "type": "niche-board",
-      "niche": "graduate",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.yingjiesheng.com", "title": "Yingjiesheng homepage title", "quote": "应届生求职APP"},
-        {"field": "existence", "url": "https://www.yingjiesheng.com", "title": "Yingjiesheng homepage sponsored employer listings", "quote": "主推企业"}
-      ]
-    },
-    {
-      "name": "国家大学生就业服务平台 (National College Student Employment Service Platform)",
-      "url": "https://www.ncss.cn",
-      "type": "government",
-      "niche": "graduate",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.ncss.cn", "title": "NCSS homepage heading", "quote": "国家大学生就业服务平台"},
-        {"field": "existence", "url": "https://www.ncss.cn", "title": "NCSS homepage footer", "quote": "版权所有：教育部学生服务与素质发展中心"}
-      ]
-    },
-    {
-      "name": "国聘 (iGuopin)",
-      "url": "https://www.iguopin.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.iguopin.com", "title": "iGuopin homepage heading", "quote": "国聘"},
-        {"field": "existence", "url": "https://www.iguopin.com", "title": "iGuopin homepage employer login", "quote": "用人单位登录/注册"}
-      ]
-    },
-    {
-      "name": "职友集 (JobUI)",
-      "url": "https://www.jobui.com",
-      "type": "directory",
-      "niche": "general",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.jobui.com", "title": "JobUI homepage self-description", "quote": "发现好公司，发现好客户"}
-      ]
-    },
-    {
-      "name": "牛客网 (Niuke)",
-      "url": "https://www.nowcoder.com",
-      "type": "niche-board",
-      "niche": "tech",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.nowcoder.com", "title": "Niuke homepage title", "quote": "找工作神器|笔试题库|面试经验|实习招聘内推"},
-        {"field": "existence", "url": "https://www.nowcoder.com", "title": "Niuke homepage navigation", "quote": "牛客企业服务"}
-      ]
-    },
-    {
-      "name": "丁香人才网 (DXY Talent Network)",
-      "url": "https://www.jobmd.cn",
-      "type": "niche-board",
-      "niche": "healthcare",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.jobmd.cn", "title": "DXY Talent Network homepage self-description", "quote": "丁香园旗下专业医疗行业招聘平台"},
-        {"field": "listed_by", "url": "https://www.dxy.cn/", "title": "Dingxiang Garden homepage career section", "quote": "丁香人才"}
-      ]
-    },
-    {
-      "name": "实习僧 (Shixiseng)",
-      "url": "https://www.shixiseng.com",
-      "type": "niche-board",
-      "niche": "graduate",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.shixiseng.com", "title": "Shixiseng homepage footer", "quote": "中国专注实习、校招垂直招聘平台"},
-        {"field": "existence", "url": "https://www.shixiseng.com", "title": "Shixiseng homepage employer entrance", "quote": "企业入口"}
-      ]
-    },
-    {
-      "name": "高校人才网 (高才网, gaoxiaojob.com)",
-      "url": "https://www.gaoxiaojob.com",
-      "type": "niche-board",
-      "niche": "academic",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.gaoxiaojob.com", "title": "Gaoxiaojob homepage title", "quote": "高校人才网|高才网_硕士博士高层次人才招聘服务平台"},
-        {"field": "existence", "url": "https://www.gaoxiaojob.com", "title": "Gaoxiaojob homepage unit center", "quote": "单位中心"}
-      ]
-    },
-    {
-      "name": "eChinacities",
-      "url": "https://www.echinacities.com",
-      "type": "board",
-      "niche": "expat",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.echinacities.com", "title": "eChinacities homepage self-description", "quote": "an English-language website that provides a comprehensive range of services and information for both international visitors and China-based expats."},
-        {"field": "existence", "url": "https://www.echinacities.com", "title": "eChinacities homepage recruiter section", "quote": "More than 20,000 recruiters use eChinacities.com to post job vacancies."}
-      ]
-    },
-    {
-      "name": "SmartShanghai (Work in Shanghai)",
-      "url": "https://www.smartshanghai.com/jobs",
-      "type": "board",
-      "niche": "expat",
-      "countries_served": ["CN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.smartshanghai.com/jobs", "title": "SmartShanghai Work in Shanghai page", "quote": "Jobs, gigs, co-working, and visa basics"},
-        {"field": "existence", "url": "https://www.smartshanghai.com/jobs", "title": "SmartShanghai Work in Shanghai page employer link", "quote": "List Your Job"}
-      ]
+     "field": "existence",
+     "url": "https://www.liepin.com",
+     "title": "Liepin homepage employer links",
+     "quote": "我是招聘方",
+     "check": "mismatch"
     }
-  ],
-  "blocked": [
-    {"name": "中国公共招聘网 (China Public Recruitment Website)", "url": "https://job.mohrss.gov.cn/", "reason": "HTTP 503 on two attempts (http and https)"},
-    {"name": "Lagou (拉勾网)", "url": "https://www.lagou.com/", "reason": "Access verification challenge page returned instead of homepage"},
-    {"name": "Yupao Zhipin (鱼泡直聘)", "url": "https://www.yupao.com/", "reason": "Access verification challenge page returned on two attempts"},
-    {"name": "Dianzhang Zhipin (店长直聘)", "url": "https://www.dianzhang.com/", "reason": "HTTP 503"},
-    {"name": "Dajie (大街网)", "url": "https://www.dajie.com/", "reason": "DNS lookup error (getaddrinfo EAI_AGAIN) on two attempts"},
-    {"name": "HireChina", "url": "https://www.hiredchina.com/", "reason": "HTTP 403 on two attempts"},
-    {"name": "NewChinaCareer", "url": "https://www.newchinacareer.com/", "reason": "HTTP 503"}
-  ],
-  "queue": [
-    {"name": "上海公共就业招聘新平台 (Shanghai public employment portal)", "url": "https://jobs.rsj.sh.gov.cn/", "reason": "Homepage returns only a redirect page; no listings or operator text readable"},
-    {"name": "Ganji (赶集网)", "url": "https://ganji.com/", "reason": "Homepage redirects to a login page; not followed"},
-    {"name": "中国就业网 (China Employment Network)", "url": "https://chinajob.mohrss.gov.cn/", "reason": "Read; appears to be a policy and training portal, job listings not confirmed"}
-  ]
+   ]
+  },
+  {
+   "name": "58同城 (58.com)",
+   "url": "https://www.58.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://bj.58.com/",
+     "title": "58.com Beijing homepage (redirect target of www.58.com)",
+     "quote": "【58同城 58.com】北京分类信息 - 本地 免费 高效",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://bj.58.com/",
+     "title": "58.com Beijing homepage job section",
+     "quote": "北京招聘",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "脉脉 (Maimai)",
+   "url": "https://www.maimai.cn",
+   "type": "social-network+board",
+   "niche": "professional",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.maimai.cn",
+     "title": "Maimai homepage",
+     "quote": "AI时代的求职招聘平台",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.maimai.cn",
+     "title": "Maimai homepage employer section",
+     "quote": "发布你的职位",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "新华英才 (Xinhua Talent, chinahr.com)",
+   "url": "https://www.chinahr.com",
+   "type": "board",
+   "niche": "graduate",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.chinahr.com",
+     "title": "Xinhua Talent homepage title",
+     "quote": "新华英才招聘-大学生就业服务云平台",
+     "check": "mismatch"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.chinahr.com",
+     "title": "Xinhua Talent homepage employer entrance",
+     "quote": "企业入口",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "应届生求职网 (Yingjiesheng)",
+   "url": "https://www.yingjiesheng.com",
+   "type": "niche-board",
+   "niche": "graduate",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.yingjiesheng.com",
+     "title": "Yingjiesheng homepage title",
+     "quote": "应届生求职APP",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.yingjiesheng.com",
+     "title": "Yingjiesheng homepage sponsored employer listings",
+     "quote": "主推企业",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "国家大学生就业服务平台 (National College Student Employment Service Platform)",
+   "url": "https://www.ncss.cn",
+   "type": "government",
+   "niche": "graduate",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.ncss.cn",
+     "title": "NCSS homepage heading",
+     "quote": "国家大学生就业服务平台",
+     "check": "mismatch"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.ncss.cn",
+     "title": "NCSS homepage footer",
+     "quote": "版权所有：教育部学生服务与素质发展中心",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "国聘 (iGuopin)",
+   "url": "https://www.iguopin.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.iguopin.com",
+     "title": "iGuopin homepage heading",
+     "quote": "国聘",
+     "check": "mismatch"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.iguopin.com",
+     "title": "iGuopin homepage employer login",
+     "quote": "用人单位登录/注册",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "职友集 (JobUI)",
+   "url": "https://www.jobui.com",
+   "type": "directory",
+   "niche": "general",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobui.com",
+     "title": "JobUI homepage self-description",
+     "quote": "发现好公司，发现好客户",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "牛客网 (Niuke)",
+   "url": "https://www.nowcoder.com",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.nowcoder.com",
+     "title": "Niuke homepage title",
+     "quote": "找工作神器|笔试题库|面试经验|实习招聘内推",
+     "check": "mismatch"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.nowcoder.com",
+     "title": "Niuke homepage navigation",
+     "quote": "牛客企业服务",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "丁香人才网 (DXY Talent Network)",
+   "url": "https://www.jobmd.cn",
+   "type": "niche-board",
+   "niche": "healthcare",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobmd.cn",
+     "title": "DXY Talent Network homepage self-description",
+     "quote": "丁香园旗下专业医疗行业招聘平台",
+     "check": "mismatch"
+    },
+    {
+     "field": "listed_by",
+     "url": "https://www.dxy.cn/",
+     "title": "Dingxiang Garden homepage career section",
+     "quote": "丁香人才"
+    }
+   ]
+  },
+  {
+   "name": "实习僧 (Shixiseng)",
+   "url": "https://www.shixiseng.com",
+   "type": "niche-board",
+   "niche": "graduate",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.shixiseng.com",
+     "title": "Shixiseng homepage footer",
+     "quote": "中国专注实习、校招垂直招聘平台",
+     "check": "mismatch"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.shixiseng.com",
+     "title": "Shixiseng homepage employer entrance",
+     "quote": "企业入口",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "高校人才网 (高才网, gaoxiaojob.com)",
+   "url": "https://www.gaoxiaojob.com",
+   "type": "niche-board",
+   "niche": "academic",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.gaoxiaojob.com",
+     "title": "Gaoxiaojob homepage title",
+     "quote": "高校人才网|高才网_硕士博士高层次人才招聘服务平台",
+     "check": "mismatch"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.gaoxiaojob.com",
+     "title": "Gaoxiaojob homepage unit center",
+     "quote": "单位中心",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "eChinacities",
+   "url": "https://www.echinacities.com",
+   "type": "board",
+   "niche": "expat",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.echinacities.com",
+     "title": "eChinacities homepage self-description",
+     "quote": "an English-language website that provides a comprehensive range of services and information for both international visitors and China-based expats.",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.echinacities.com",
+     "title": "eChinacities homepage recruiter section",
+     "quote": "More than 20,000 recruiters use eChinacities.com to post job vacancies.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "SmartShanghai (Work in Shanghai)",
+   "url": "https://www.smartshanghai.com/jobs",
+   "type": "board",
+   "niche": "expat",
+   "countries_served": [
+    "CN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.smartshanghai.com/jobs",
+     "title": "SmartShanghai Work in Shanghai page",
+     "quote": "Jobs, gigs, co-working, and visa basics",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.smartshanghai.com/jobs",
+     "title": "SmartShanghai Work in Shanghai page employer link",
+     "quote": "List Your Job",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "中国公共招聘网 (China Public Recruitment Website)",
+   "url": "https://job.mohrss.gov.cn/",
+   "reason": "HTTP 503 on two attempts (http and https)"
+  },
+  {
+   "name": "Lagou (拉勾网)",
+   "url": "https://www.lagou.com/",
+   "reason": "Access verification challenge page returned instead of homepage"
+  },
+  {
+   "name": "Yupao Zhipin (鱼泡直聘)",
+   "url": "https://www.yupao.com/",
+   "reason": "Access verification challenge page returned on two attempts"
+  },
+  {
+   "name": "Dianzhang Zhipin (店长直聘)",
+   "url": "https://www.dianzhang.com/",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Dajie (大街网)",
+   "url": "https://www.dajie.com/",
+   "reason": "DNS lookup error (getaddrinfo EAI_AGAIN) on two attempts"
+  },
+  {
+   "name": "HireChina",
+   "url": "https://www.hiredchina.com/",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "NewChinaCareer",
+   "url": "https://www.newchinacareer.com/",
+   "reason": "HTTP 503"
+  }
+ ],
+ "queue": [
+  {
+   "name": "上海公共就业招聘新平台 (Shanghai public employment portal)",
+   "url": "https://jobs.rsj.sh.gov.cn/",
+   "reason": "Homepage returns only a redirect page; no listings or operator text readable"
+  },
+  {
+   "name": "Ganji (赶集网)",
+   "url": "https://ganji.com/",
+   "reason": "Homepage redirects to a login page; not followed"
+  },
+  {
+   "name": "中国就业网 (China Employment Network)",
+   "url": "https://chinajob.mohrss.gov.cn/",
+   "reason": "Read; appears to be a policy and training portal, job listings not confirmed"
+  }
+ ]
 }
