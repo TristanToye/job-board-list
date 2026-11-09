@@ -1,0 +1,88 @@
+{
+  "mode": "discover",
+  "country": "MX",
+  "boards": [
+    {
+      "name": "Portal del Empleo",
+      "url": "https://www.empleo.gob.mx",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["MX"],
+      "sources": [
+        {"field": "existence", "url": "https://www.empleo.gob.mx/PortalDigital", "title": "Portal del Empleo page title", "quote": "Portal del Empleo"}
+      ]
+    },
+    {
+      "name": "Ferias de Empleo (STPS)",
+      "url": "https://ferias.empleo.gob.mx",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["MX"],
+      "sources": [
+        {"field": "existence", "url": "https://ferias.empleo.gob.mx/", "title": "Portal de ferias del empleo homepage", "quote": "Portal ferias del empleo, eventos a nivel nacional y ofertas de empleo"}
+      ]
+    },
+    {
+      "name": "Empleo Leon (Chambamodulo)",
+      "url": "https://empleo.leon.gob.mx",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["MX"],
+      "sources": [
+        {"field": "existence", "url": "https://empleo.leon.gob.mx/", "title": "Empleo Leon homepage", "quote": "Aquí podrás encontrar tu próximo reto profesional."}
+      ]
+    },
+    {
+      "name": "TopTrabajos",
+      "url": "https://www.toptrabajos.com/mx",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["MX"],
+      "sources": [
+        {"field": "existence", "url": "https://www.toptrabajos.com/mx", "title": "TopTrabajos Mexico page", "quote": "Descubre las mejores oportunidades laborales en México."},
+        {"field": "existence", "url": "https://www.toptrabajos.com/mx", "title": "TopTrabajos Mexico page", "quote": "La plataforma de carrera profesional de Latinoamérica."}
+      ]
+    },
+    {
+      "name": "Hireline",
+      "url": "https://hireline.io",
+      "type": "board",
+      "niche": "tech",
+      "countries_served": ["MX"],
+      "sources": [
+        {"field": "existence", "url": "https://hireline.io", "title": "Hireline homepage", "quote": "Portal Líder de Empleos de Tecnología en LATAM"},
+        {"field": "existence", "url": "https://hireline.io", "title": "Hireline country selector", "quote": "México"}
+      ]
+    },
+    {
+      "name": "BuscoJobs",
+      "url": "https://www.buscojobs.mx",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["MX"],
+      "sources": [
+        {"field": "existence", "url": "https://www.buscojobs.mx", "title": "BuscoJobs homepage", "quote": "Buscojobs es un portal de empleo cuyo propósito es ayudarte a encontrar trabajo."},
+        {"field": "existence", "url": "https://www.buscojobs.mx", "title": "BuscoJobs homepage footer", "quote": "México © 2026"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Workana", "url": "https://www.workana.com", "reason": "HTTP 403"},
+    {"name": "Jobomas", "url": "https://www.jobomas.com", "reason": "HTTP 403"},
+    {"name": "Jobisjob", "url": "https://www.jobisjob.com.mx", "reason": "HTTP 403"},
+    {"name": "Jora Mexico", "url": "https://mx.jora.com", "reason": "HTTP 403"},
+    {"name": "STyFE Ciudad de Mexico (Trabajo CDMX)", "url": "https://trabajo.cdmx.gob.mx", "reason": "HTTP 503"},
+    {"name": "Jobatus", "url": "https://www.jobatus.com", "reason": "DNS error (getaddrinfo ENOTFOUND)"},
+    {"name": "Chambatel", "url": "https://www.chambatel.com", "reason": "DNS error (getaddrinfo ENOTFOUND)"}
+  ],
+  "queue": [
+    {"name": "Opcionempleo", "url": "https://www.opcionempleo.com.mx", "reason": "Homepage returned a bot-check screen instead of the site; named in a roundup"},
+    {"name": "Universia Mexico", "url": "https://www.universia.net.mx", "reason": "Homepage returned HTTP 404 for the URL tried; named in a roundup"},
+    {"name": "Jora (Mexico page)", "url": "https://www.jora.com/Mexico", "reason": "Redirected to au.jora.com, which returned HTTP 404; Mexico page not read"},
+    {"name": "Trabajando.com (Mexico)", "url": "https://www.trabajando.com.mx", "reason": "Redirected to a tokenised subdomain that was not followed; named in a search result"},
+    {"name": "Talenteca", "url": "https://www.talenteca.com", "reason": "Homepage read but shows no Mexico reference, so country not confirmed; named in a roundup as a Mexican platform"},
+    {"name": "Sercanto", "url": "https://www.sercanto.com", "reason": "Homepage read but shows no Mexico reference; operator is an Italian company; named in a roundup as Mexico-focused"},
+    {"name": "iHispano", "url": "https://www.ihispano.com", "reason": "Homepage read but shows no Mexico reference; named in a roundup"},
+    {"name": "Empleon (Nuevo Leon)", "url": "https://empleon.nl.gob.mx", "reason": "Homepage read but does not describe itself as a job portal; purpose named only in press coverage"}
+  ]
+}
