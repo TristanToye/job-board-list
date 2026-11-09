@@ -1,0 +1,171 @@
+{
+  "mode": "discover",
+  "country": "DK",
+  "boards": [
+    {
+      "name": "Jobnet",
+      "url": "https://jobnet.dk",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://jobnet.dk/", "title": "Jobnet homepage", "quote": "Find dit nye job"}
+      ]
+    },
+    {
+      "name": "WorkInDenmark",
+      "url": "https://workindenmark.dk",
+      "type": "government",
+      "niche": "general (international candidates)",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://workindenmark.dk/", "title": "Workindenmark homepage", "quote": "Search among vacant positions from a wide range of Danish companies."}
+      ]
+    },
+    {
+      "name": "Jobsearch.dk",
+      "url": "https://www.jobsearch.dk",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobsearch.dk/rekruttering", "title": "Jobsearch.dk recruitment page", "quote": "Her kan du se deres profiler og kontakte de kandidater, der matcher dine behov."}
+      ]
+    },
+    {
+      "name": "DOI Jobs",
+      "url": "https://doi.dk",
+      "type": "board",
+      "niche": "public sector (municipal)",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://doi.dk/en/jobs", "title": "DOI Jobs page", "quote": "DOI Jobs provides you with a comprehensive overview of all available positions from all 98 Danish municipalities."}
+      ]
+    },
+    {
+      "name": "IT-jobbank (Computerworld it-jobbank)",
+      "url": "https://www.it-jobbank.dk",
+      "type": "niche-board",
+      "niche": "tech",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://www.it-jobbank.dk/", "title": "Computerworld it-jobbank homepage", "quote": "Computerworld it-jobbank kan hjælpe dig med at annoncere, finde og udvælge de rigtige profiler"}
+      ]
+    },
+    {
+      "name": "TechJob",
+      "url": "https://techjob.dk",
+      "type": "niche-board",
+      "niche": "tech and engineering",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://techjob.dk/", "title": "TechJob homepage", "quote": "TechJob - job i tech, IT og ingeniørbranchen"}
+      ]
+    },
+    {
+      "name": "The Hub",
+      "url": "https://thehub.io",
+      "type": "niche-board",
+      "niche": "startup and tech",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://thehub.io/", "title": "The Hub homepage", "quote": "We connect global talents with career opportunities in Nordic startups."}
+      ]
+    },
+    {
+      "name": "Akademikerjob.dk",
+      "url": "https://akademikerjob.dk",
+      "type": "niche-board",
+      "niche": "academics",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://akademikerjob.dk/", "title": "Akademikerjob.dk homepage", "quote": "Akademiker? Find dit nye job her"}
+      ]
+    },
+    {
+      "name": "job.dsr.dk",
+      "url": "https://job.dsr.dk",
+      "type": "niche-board",
+      "niche": "healthcare (nursing)",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://job.dsr.dk/", "title": "job.dsr.dk homepage", "quote": "På job.dsr.dk finder du jobopslag fra hele landet"}
+      ]
+    },
+    {
+      "name": "Sundhedsjobs.dk",
+      "url": "https://www.sundhedsjobs.dk",
+      "type": "niche-board",
+      "niche": "healthcare",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://www.sundhedsjobs.dk/in-english", "title": "Sundhedsjobs.dk English page", "quote": "The interest organisation Danish Regions operates Sundhedsjobs.dk for the five Danish regions."}
+      ]
+    },
+    {
+      "name": "Ufaglaertejobs.dk",
+      "url": "https://www.ufaglaertejobs.dk",
+      "type": "niche-board",
+      "niche": "unskilled and entry-level jobs",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://www.ufaglaertejobs.dk/", "title": "Ufaglaertejobs.dk homepage", "quote": "DK´s store portal for ufaglærte jobs!"}
+      ]
+    },
+    {
+      "name": "Jobscenen",
+      "url": "https://jobscenen.dmf.dk",
+      "type": "niche-board",
+      "niche": "arts and creative",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://jobscenen.dmf.dk/page/om-jobscenen", "title": "Jobscenen about page", "quote": "Danmarks eneste jobportal for kunstnere og kreative."}
+      ]
+    },
+    {
+      "name": "Sydjob",
+      "url": "https://www.sydjob.dk",
+      "type": "board",
+      "niche": "regional (Southern Denmark)",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "https://www.sydjob.dk/", "title": "Sydjob homepage", "quote": "914 job i Sønderjylland"}
+      ]
+    },
+    {
+      "name": "Jobs in Copenhagen",
+      "url": "http://jobsincopenhagen.com",
+      "type": "niche-board",
+      "niche": "English-speaking professionals",
+      "countries_served": ["DK"],
+      "sources": [
+        {"field": "existence", "url": "http://jobsincopenhagen.com/", "title": "Jobs in Copenhagen homepage", "quote": "a single, easy-to-use online job portal for recruiters"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Akademikernes Jobbank", "url": "https://jobbank.dk", "reason": "HTTP 403 on two attempts"},
+    {"name": "Studerendeonline", "url": "https://studerendeonline.dk", "reason": "HTTP 503, then HTTP 403 on retry"},
+    {"name": "Nyuddannet", "url": "https://nyuddannet.dk", "reason": "HTTP 403 on two attempts"},
+    {"name": "JobFinder (via ing.dk)", "url": "https://ing.dk/om-jobfinder", "reason": "HTTP 403 after redirect from info.jobfinder.dk"},
+    {"name": "DanishTech", "url": "https://startup.jobs/job-boards/danishtech", "reason": "HTTP 403"},
+    {"name": "Frivilligjob.dk", "url": "https://frivilligjob.dk", "reason": "HTTP 403"},
+    {"name": "DevJobsScanner", "url": "https://www.devjobsscanner.com", "reason": "HTTP 403"},
+    {"name": "Off-stillinger (Offentlige Stillinger)", "url": "http://www.off-stillinger.dk", "reason": "HTTP 503"},
+    {"name": "The Ground Up", "url": "https://www.thegroundup.dk", "reason": "HTTP 503"},
+    {"name": "RUC Job and Project Portal", "url": "https://karriere.ruc.dk/da/", "reason": "HTTP 503"},
+    {"name": "Jobdesk.dk", "url": "https://www.jobdesk.dk", "reason": "DNS error (getaddrinfo ENOTFOUND)"},
+    {"name": "StudentJob.dk", "url": "https://www.studentjob.dk", "reason": "DNS error (getaddrinfo ENOTFOUND)"}
+  ],
+  "queue": [
+    {"name": "Ofir Jobportal", "url": "https://www.ofir.dk", "reason": "Named in roundups; HTTP 410 on homepage and virksomhed page"},
+    {"name": "JobDanmark", "url": "https://jobdanmark.dk", "reason": "Named in roundups; HTTP 404 on for-virksomheder page"},
+    {"name": "ProfilJob (Jobted)", "url": "https://www.jobted.dk", "reason": "Named in a roundup; fetch returned empty content"},
+    {"name": "Job i Staten", "url": "https://www.job-i-staten.dk", "reason": "Redirects to the Jobnet job portal (job.jobnet.dk), so not counted separately"},
+    {"name": "Careerland", "url": "https://careerland.dk", "reason": "Redirects to JobTeaser (already in CSV)"},
+    {"name": "Graduateland", "url": "https://graduateland.com", "reason": "Homepage redirects to JobTeaser; no separate Graduateland page read"},
+    {"name": "EURES", "url": "https://eures.europa.eu", "reason": "Homepage read but it did not describe its job search"},
+    {"name": "Denmark Startup Jobs", "url": "", "reason": "Named only by a third-party directory; no official site confirmed"},
+    {"name": "Jobseeker.dk", "url": "https://www.jobseeker.com/app/jobs", "reason": "Named in a roundup, not read"}
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "eRecruiter",
+      "url": "https://www.erecruiter.pl",
+      "primary_language": "pl",
+      "languages_supported": ["pl", "en"],
+      "business_model": "subscription (monthly net prices)",
+      "api_status": "unknown",
+      "partner_program": "yes",
+      "partner_url": "https://erecruiter.pl/funkcje/hr-marketplace/",
+      "hq_country": "PL",
+      "parent": "Grupa Pracuj",
+      "ingest_methods": ["multiposting to job portals via integration", "career site integration"],
+      "notes": "Homepage and pages state PL and EN options, monthly prices from 249 zl net, membership of Grupa Pracuj and an API integration mention. API access terms are not stated.",
+      "sources": [
+        {"field": "existence", "url": "https://www.erecruiter.pl/", "title": "Footer contact address", "quote": "PROXIMO Office ul. Prosta 68, 00-838 Warszawa"},
+        {"field": "parent", "url": "https://erecruiter.pl/oferta/", "title": "Oferta page", "quote": "Jako spółka Grupy Pracuj jesteśmy zintegrowani z portalem Pracuj.pl."},
+        {"field": "languages", "url": "https://www.erecruiter.pl/", "title": "Homepage language switcher", "quote": "PL EN"},
+        {"field": "business_model", "url": "https://erecruiter.pl/oferta/", "title": "Oferta pricing", "quote": "Dla Ciebie i Twojej firmy już od 249 zł"},
+        {"field": "business_model", "url": "https://erecruiter.pl/oferta/", "title": "Oferta pricing note", "quote": "Ceny netto za miesiąc. Do podanych cen należy doliczyć podatek VAT 23%."},
+        {"field": "api_status", "url": "https://erecruiter.pl/oferta/", "title": "Oferta integrations", "quote": "eRecruiter umożliwia integrację za pomocą API z innymi narzędziami i systemami HR-owymi"},
+        {"field": "partner_program", "url": "https://erecruiter.pl/funkcje/hr-marketplace/", "title": "HR Marketplace page", "quote": "Zostań Partnerem"},
+        {"field": "ingest_methods", "url": "https://erecruiter.pl/oferta/", "title": "Oferta integrations", "quote": "Bezpośrednia integracja z portalami pracy i stroną Kariera"}
+      ]
+    },
+    {
+      "name": "Werken voor Nederland",
+      "url": "https://www.werkenvoornederland.nl",
+      "primary_language": "nl",
+      "parent": "Organisatie en Personeel Rijk (O&P Rijk)",
+      "notes": "Colofon names O&P Rijk as the platform operator. Homepage and colofon show Dutch content only, with no language switcher, prices, API or partner information.",
+      "sources": [
+        {"field": "parent", "url": "https://www.werkenvoornederland.nl/colofon", "title": "Colofon", "quote": "De site Werkenvoornederland.nl is een platform van Organisatie en Personeel Rijk (O&P Rijk)"},
+        {"field": "languages", "url": "https://www.werkenvoornederland.nl/", "title": "Homepage text", "quote": "Vind hier jouw baan bij de Rijksoverheid"}
+      ]
+    },
+    {
+      "name": "Gezondheidszorgbanen.nl",
+      "url": "https://www.gezondheidszorgbanen.nl",
+      "primary_language": "nl",
+      "business_model": "per post (rate card referred to, no prices shown in text)",
+      "hq_country": "NL",
+      "parent": "Medisch Contact",
+      "ingest_methods": ["manual posting via form"],
+      "notes": "Utrecht address and platform link to Medisch Contact are stated. The rate card is referred to but no prices appear in the text. No API or partner program is stated.",
+      "sources": [
+        {"field": "existence", "url": "https://www.gezondheidszorgbanen.nl/", "title": "Homepage contact address", "quote": "Mercatorlaan 1200 3528 BL Utrecht"},
+        {"field": "parent", "url": "https://www.gezondheidszorgbanen.nl/", "title": "Footer", "quote": "Gezondheidszorgbanen.nl is een platform van Medisch Contact"},
+        {"field": "business_model", "url": "https://www.gezondheidszorgbanen.nl/over-ons", "title": "Over ons, vacancy rates", "quote": "Tarieven voor vacatureplaatsingen, pakketten voor meerdere plaatsingen en mogelijkheden voor extra bereik."},
+        {"field": "ingest_methods", "url": "https://www.gezondheidszorgbanen.nl/over-ons", "title": "Over ons, posting", "quote": "Plaats u vacature via het formulier"},
+        {"field": "languages", "url": "https://www.gezondheidszorgbanen.nl/", "title": "Homepage text", "quote": "Op zoek naar zorgprofessionals?"}
+      ]
+    },
+    {
+      "name": "Just Join IT",
+      "url": "https://justjoin.it",
+      "notes": "Homepage and footer show the company name Just Join IT sp. z o.o. but no headquarters, parent, language switcher, pricing or API. The Employer Panel links to rocketjobs.com, a different domain, so it was not used.",
+      "sources": []
+    },
+    {
+      "name": "JobMail",
+      "url": "https://www.jobmail.co.za",
+      "primary_language": "en",
+      "business_model": "free or subscription (monthly accounts)",
+      "ingest_methods": ["manual posting", "XML feed"],
+      "notes": "Homepage and premium employer page state free posting, paid monthly accounts and an XML feed. The copyright line names Junk Mail Publishing (PTY) LTD, but the relationship is not described. No headquarters, language switcher, API or partner information is stated.",
+      "sources": [
+        {"field": "languages", "url": "https://www.jobmail.co.za/", "title": "Homepage text", "quote": "Search through 21,255 job vacancies on Job Mail."},
+        {"field": "business_model", "url": "https://www.jobmail.co.za/premium-employer-information", "title": "Premium employer information", "quote": "Job Mail offers employers and recruiters FREE or paid for recruitment solutions."},
+        {"field": "business_model", "url": "https://www.jobmail.co.za/premium-employer-information", "title": "Premium employer information, plans", "quote": "Starter (Monthly Account)"},
+        {"field": "ingest_methods", "url": "https://www.jobmail.co.za/premium-employer-information", "title": "Premium employer information", "quote": "XML Feed"},
+        {"field": "ingest_methods", "url": "https://www.jobmail.co.za/", "title": "Homepage", "quote": "Post a FREE Vacancy"}
+      ]
+    },
+    {
+      "name": "Ogłoszenia ngo.pl",
+      "url": "https://ogloszenia.ngo.pl",
+      "primary_language": "pl",
+      "languages_supported": ["pl", "en"],
+      "business_model": "free basic listing, paid featured listings",
+      "parent": "Stowarzyszenie Klon/Jawor",
+      "ingest_methods": ["manual posting via Dodaj ogłoszenie form"],
+      "notes": "Footer says the portal is run by Stowarzyszenie Klon/Jawor. Regular listings are free and featured listings are priced for 7, 14 or 30 days. An English link is in the footer. No headquarters, API or partner information is stated.",
+      "sources": [
+        {"field": "parent", "url": "https://ogloszenia.ngo.pl/", "title": "Footer", "quote": "Twój portal prowadzony przez Stowarzyszenie Klon/Jawor"},
+        {"field": "business_model", "url": "https://ogloszenia.ngo.pl/", "title": "Listing prices", "quote": "Dodanie tego ogłoszenia nic nie kosztuje."},
+        {"field": "business_model", "url": "https://ogloszenia.ngo.pl/", "title": "Listing price table", "quote": "Cena za 30 dni 0 zł 79 zł 259 zł 599 zł"},
+        {"field": "languages", "url": "https://ogloszenia.ngo.pl/", "title": "Footer English link", "quote": "English"},
+        {"field": "languages", "url": "https://ogloszenia.ngo.pl/", "title": "Homepage text", "quote": "Każdego dnia przybywa około 50 ogłoszeń."},
+        {"field": "ingest_methods", "url": "https://ogloszenia.ngo.pl/", "title": "Homepage button", "quote": "Dodaj ogłoszenie"}
+      ]
+    },
+    {
+      "name": "localgovernmentjobs.ie",
+      "url": "https://www.localgovernmentjobs.ie",
+      "primary_language": "en",
+      "languages_supported": ["en", "ga"],
+      "parent": "Local Government Management Agency",
+      "notes": "Contact page says the site is managed by the Local Government Management Agency. Header offers English and Gaeilge. No employer pricing, API or integration information was found on the pages read.",
+      "sources": [
+        {"field": "languages", "url": "https://www.localgovernmentjobs.ie/", "title": "Header language switcher", "quote": "English Gaeilge"},
+        {"field": "languages", "url": "https://www.localgovernmentjobs.ie/", "title": "Homepage text", "quote": "Local government is a great place to start and grow your career."},
+        {"field": "parent", "url": "https://www.localgovernmentjobs.ie/pages/Contact-Us", "title": "Contact Us", "quote": "The Local Government Jobs website is managed by the Local Government Management Agency"}
+      ]
+    },
+    {
+      "name": "TopTrabajos",
+      "url": "https://www.toptrabajos.com/mx",
+      "primary_language": "es",
+      "business_model": "free plan and paid monthly subscriptions",
+      "ingest_methods": ["job import with AI, limited per plan"],
+      "notes": "Homepage states a free plan and paid monthly plans, and the ATS page gives the Reclutadores price. The header shows Mexico as a region label, not a headquarters statement. The plans page lists job import with AI. No API or partner information was found.",
+      "sources": [
+        {"field": "languages", "url": "https://www.toptrabajos.com/mx", "title": "Homepage text", "quote": "Publica tus vacantes y llega a miles de candidatos en México."},
+        {"field": "business_model", "url": "https://www.toptrabajos.com/mx", "title": "Homepage, free plan", "quote": "Plan gratuito sin límite de tiempo para empezar a recibir candidatos."},
+        {"field": "business_model", "url": "https://www.toptrabajos.com/empresas/ats", "title": "ATS page, plan prices", "quote": "El plan Reclutadores cuesta $149.99/mes (o $1,548/año)"},
+        {"field": "ingest_methods", "url": "https://www.toptrabajos.com/empresas/planes", "title": "Plans comparison", "quote": "Importación y mejora de empleos con inteligencia artificial"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "eRecruiter", "url": "https://www.erecruiter.pl", "outcome": "partially-verified", "fields_not_found": ["api_status"], "method": "mixed", "note": "Pages state PL and EN options, monthly prices, Grupa Pracuj membership and an API integration mention, but not how API access is obtained."},
+    {"name": "Werken voor Nederland", "url": "https://www.werkenvoornederland.nl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Colofon names O&P Rijk as platform operator; homepage and colofon state no pricing, API, partner or language options."},
+    {"name": "Gezondheidszorgbanen.nl", "url": "https://www.gezondheidszorgbanen.nl", "outcome": "partially-verified", "fields_not_found": ["languages", "api_status", "partner_program"], "method": "mixed", "note": "Utrecht address, Medisch Contact platform link and per-post rate card are stated; no prices, API or partner program appear."},
+    {"name": "Just Join IT", "url": "https://justjoin.it", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage and footer state no headquarters, parent, language options, pricing or API; the employer pages sit on rocketjobs.com, a different domain."},
+    {"name": "JobMail", "url": "https://www.jobmail.co.za", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Free posting, paid monthly accounts and an XML feed are stated; no headquarters, language switcher, API or partner information."},
+    {"name": "Ogłoszenia ngo.pl", "url": "https://ogloszenia.ngo.pl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "api_status", "partner_program"], "method": "mixed", "note": "Operator, free and paid listing prices and an English footer link are stated; no headquarters, API or partner information."},
+    {"name": "localgovernmentjobs.ie", "url": "https://www.localgovernmentjobs.ie", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Language options and managing agency are stated; no headquarters, employer pricing, API or integration information on the pages read."},
+    {"name": "TopTrabajos", "url": "https://www.toptrabajos.com/mx", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Free and paid monthly plans and job import with AI are stated; no headquarters, language options, parent or API information."}
+  ],
+  "blocked": []
+}
