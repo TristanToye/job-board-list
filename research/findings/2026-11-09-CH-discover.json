@@ -1,0 +1,105 @@
+{
+  "mode": "discover",
+  "country": "CH",
+  "boards": [
+    {
+      "name": "jobup.ch",
+      "url": "https://www.jobup.ch",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["CH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobup.ch", "title": "jobup.ch homepage", "quote": "Bienvenue sur jobup.ch, la principale plateforme d'emploi pour la région francophone de Suisse."}
+      ]
+    },
+    {
+      "name": "JobScout24",
+      "url": "https://www.jobscout24.ch",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["CH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobscout24.ch", "title": "JobScout24 homepage", "quote": "Hier finden Sie sämtliche Stellenangebote für alle Regionen und Berufe der Schweiz."}
+      ]
+    },
+    {
+      "name": "Job-Room (arbeit.swiss)",
+      "url": "https://www.arbeit.swiss",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["CH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.arbeit.swiss", "title": "arbeit.swiss homepage", "quote": "Nutzen Sie die digitalen Angebote der ALV und öAV!"}
+      ]
+    },
+    {
+      "name": "jobwinner.ch",
+      "url": "https://www.jobwinner.ch",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["CH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobwinner.ch", "title": "jobwinner.ch homepage", "quote": "ein effizienter und zuverlässiger Stellenmarkt für Arbeitssuchende"}
+      ]
+    },
+    {
+      "name": "alpha.ch",
+      "url": "https://www.alpha.ch",
+      "type": "niche-board",
+      "niche": "professionals and executives",
+      "countries_served": ["CH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.alpha.ch", "title": "alpha.ch homepage", "quote": "Stellenangebote für Fach- und Führungskräfte"}
+      ]
+    },
+    {
+      "name": "ictjobs.ch",
+      "url": "https://www.ictjobs.ch",
+      "type": "niche-board",
+      "niche": "tech",
+      "countries_served": ["CH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.ictjobs.ch", "title": "ictjobs.ch homepage", "quote": "Die Jobplattform der Schweizer IT-Branche"}
+      ]
+    },
+    {
+      "name": "ICTcareer.ch",
+      "url": "https://www.ictcareer.ch",
+      "type": "niche-board",
+      "niche": "tech",
+      "countries_served": ["CH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.ictcareer.ch", "title": "ICTcareer.ch homepage", "quote": "Stellenangebote für Fachkräfte aus der Informatik"}
+      ]
+    },
+    {
+      "name": "medienjobs.ch",
+      "url": "https://www.medienjobs.ch",
+      "type": "niche-board",
+      "niche": "media and communications",
+      "countries_served": ["CH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.medienjobs.ch", "title": "medienjobs.ch homepage", "quote": "medienjobs.ch ist das spezialisierte Online-Jobportal für Fach- und Führungskräfte"}
+      ]
+    },
+    {
+      "name": "Remotli",
+      "url": "https://remotli.ch",
+      "type": "niche-board",
+      "niche": "remote",
+      "countries_served": ["CH"],
+      "sources": [
+        {"field": "existence", "url": "https://remotli.ch", "title": "Remotli homepage", "quote": "Remote-first and flexible roles from companies hiring in Switzerland."}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Indeed Switzerland", "url": "https://ch.indeed.com", "reason": "HTTP 403 (after redirect from www.indeed.ch)"},
+    {"name": "SwissDevJobs", "url": "https://www.swissdevjobs.ch", "reason": "HTTP 503"},
+    {"name": "Stellenanzeiger.ch", "url": "https://www.stellenanzeiger.ch", "reason": "HTTP 503"},
+    {"name": "Workpool Jobs", "url": "https://www.workpool-jobs.ch", "reason": "HTTP 403"}
+  ],
+  "queue": [
+    {"name": "students.ch", "url": "https://www.students.ch", "reason": "Named in a Swiss careers guide roundup; the fetch returned unrelated content, so the homepage was not confirmed"}
+  ]
+}
