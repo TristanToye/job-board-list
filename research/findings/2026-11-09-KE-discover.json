@@ -1,0 +1,79 @@
+{
+  "mode": "discover",
+  "country": "KE",
+  "boards": [
+    {
+      "name": "JobWeb Kenya",
+      "url": "https://jobwebkenya.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["KE"],
+      "sources": [
+        {"field": "existence", "url": "https://jobwebkenya.com", "title": "Jobweb Kenya homepage", "quote": "Current Jobs in Kenya 2026 - Latest Vacancies in Kenya | Jobweb Kenya"}
+      ]
+    },
+    {
+      "name": "Career Point Kenya",
+      "url": "https://www.careerpointkenya.co.ke",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["KE"],
+      "sources": [
+        {"field": "existence", "url": "https://www.careerpointkenya.co.ke", "title": "Career Point Kenya homepage", "quote": "Career Point Kenya is a leading jobsite in Kenya."}
+      ]
+    },
+    {
+      "name": "Public Service Commission of Kenya portal",
+      "url": "https://www.publicservice.go.ke",
+      "type": "government",
+      "niche": "public sector",
+      "countries_served": ["KE"],
+      "sources": [
+        {"field": "existence", "url": "https://www.publicservice.go.ke", "title": "Public Service Commission of Kenya homepage", "quote": "Join the ranks of success and explore a world of possibilities with our internship and job placement programs."}
+      ]
+    },
+    {
+      "name": "iAgora",
+      "url": "https://www.iagora.com/work/en/jobs-and-internships/kenya",
+      "type": "niche-board",
+      "niche": "graduates and internships",
+      "countries_served": ["KE"],
+      "sources": [
+        {"field": "existence", "url": "https://www.iagora.com/work/en/jobs-and-internships/kenya", "title": "iAgora jobs and internships in Kenya", "quote": "With up to 1.000 new internships/day, iAgora is the most active pool of internships in Europe."}
+      ]
+    },
+    {
+      "name": "Advance-Africa",
+      "url": "https://www.advance-africa.com",
+      "type": "niche-board",
+      "niche": "healthcare",
+      "countries_served": ["KE"],
+      "sources": [
+        {"field": "existence", "url": "https://www.advance-africa.com/Hospital-Jobs.html", "title": "Advance-Africa hospital jobs page", "quote": "Find doctor jobs, nurse jobs, hospital administration jobs and other healthcare careers and much more!"}
+      ]
+    },
+    {
+      "name": "Impactpool",
+      "url": "https://www.impactpool.org",
+      "type": "niche-board",
+      "niche": "international development and humanitarian",
+      "countries_served": ["ZZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.impactpool.org", "title": "Impactpool homepage", "quote": "Join the Impactpool community and find a role in the impact sector that matches your skills and expertise."}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Fuzu", "url": "https://www.fuzu.com", "reason": "HTTP 403 on two fetches"},
+    {"name": "ReliefWeb", "url": "https://reliefweb.int/jobs", "reason": "HTTP 403 on two fetches"},
+    {"name": "GeezJobs Kenya", "url": "https://ke.geezjobs.com", "reason": "HTTP 403 on two fetches"},
+    {"name": "Devex", "url": "https://www.devex.com/jobs", "reason": "HTTP 403"},
+    {"name": "Juakali", "url": "https://www.juakali.co.ke", "reason": "HTTP 503"},
+    {"name": "Kenya jobs.go.ke portal", "url": "https://jobs.go.ke", "reason": "DNS error (getaddrinfo ENOTFOUND); host not resolvable from this session"}
+  ],
+  "queue": [
+    {"name": "The Star classifieds jobs", "url": "https://www.the-star.co.ke/classifieds/jobs", "reason": "Named in search results; classifieds jobs page returned HTTP 404 on fetch"},
+    {"name": "UN Careers", "url": "https://careers.un.org", "reason": "Named in a roundup; homepage read but no Kenya vacancies or duty stations shown"},
+    {"name": "Kazi Mtaani", "url": "", "reason": "Named in a news roundup as a niche platform; it is a government youth programme, and the application portal could not be verified"}
+  ]
+}

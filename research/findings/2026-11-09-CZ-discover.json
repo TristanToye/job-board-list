@@ -1,0 +1,163 @@
+{
+  "mode": "discover",
+  "country": "CZ",
+  "boards": [
+    {
+      "name": "Jobs.cz",
+      "url": "https://www.jobs.cz",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://beta.jobs.cz/", "title": "Jobs.cz homepage (beta)", "quote": "největší kariérní portál v ČR."}
+      ]
+    },
+    {
+      "name": "Prace.cz",
+      "url": "https://www.prace.cz",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.prace.cz", "title": "Prace.cz homepage", "quote": "Prace.cz - volná pracovní místa, aktuální nabídka práce v ČR i v zahraničí"}
+      ]
+    },
+    {
+      "name": "JenPráce.cz",
+      "url": "https://www.jenprace.cz",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jenprace.cz", "title": "JenPráce.cz homepage", "quote": "nejoblíbenější místo, kde hledat práci a zaměstnance."}
+      ]
+    },
+    {
+      "name": "HitPrace.cz",
+      "url": "https://www.hitprace.cz",
+      "type": "aggregator",
+      "niche": "general",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.hitprace.cz", "title": "HitPrace.cz homepage", "quote": "HitPrace.cz agreguje pracovní nabídky od spolupracujících pracovních portálů a dalších partnerů, z veřejných zdrojů i přímo od zaměstnavatelů."}
+      ]
+    },
+    {
+      "name": "Pracomat.cz",
+      "url": "https://pracomat.cz",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://pracomat.cz", "title": "Pracomat.cz homepage", "quote": "Pomáháme vám rychle najít dobrou práci."}
+      ]
+    },
+    {
+      "name": "StartupJobs.cz",
+      "url": "https://www.startupjobs.cz",
+      "type": "niche-board",
+      "niche": "tech and startups",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.startupjobs.cz", "title": "StartupJobs.cz homepage", "quote": "Najděte si práci, která vás posune vpřed, ve firmách, které se chtějí posouvat."}
+      ]
+    },
+    {
+      "name": "Expats.cz Jobs",
+      "url": "https://www.expats.cz",
+      "type": "niche-board",
+      "niche": "English-speaking expats",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.expats.cz/jobs/offers/english", "title": "Expats.cz English jobs page", "quote": "Jobs in Prague and Czech Republic with English"}
+      ]
+    },
+    {
+      "name": "Úřad práce ČR vacancy listings (Jednotný portál MPSV)",
+      "url": "https://portal.gov.cz/sluzby-vs/zverejneni-volnych-pracovnich-mist-uradem-S14470",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://portal.gov.cz/sluzby-vs/zverejneni-volnych-pracovnich-mist-uradem-S14470", "title": "Zveřejnění volných pracovních míst úřadem (portal.gov.cz)", "quote": "Úřad práce ČR zveřejňuje volná pracovní místa (dále jen \"VPM\" na Jednotném portálu Ministerstva práce a sociálních věcí)."}
+      ]
+    },
+    {
+      "name": "e-zamestnani.cz",
+      "url": "https://www.e-zamestnani.cz",
+      "type": "niche-board",
+      "niche": "public sector",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.e-zamestnani.cz", "title": "e-zamestnani.cz homepage", "quote": "Nahlédněte do úřadů skrze jejich kariérní stránky!"}
+      ]
+    },
+    {
+      "name": "Práce za rohem",
+      "url": "https://www.pracezarohem.cz",
+      "type": "niche-board",
+      "niche": "local jobs and student brigades",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.pracezarohem.cz", "title": "Práce za rohem homepage", "quote": "Na Práci za rohem máš největší šanci najít si práci blízko domova a přestat dojíždět."}
+      ]
+    },
+    {
+      "name": "Dobrá práce.cz",
+      "url": "https://www.dobraprace.cz",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.dobraprace.cz", "title": "Dobrá práce.cz homepage", "quote": "Dobrá práce.cz je server zveřejňující nabídky práce."}
+      ]
+    },
+    {
+      "name": "Cocuma.cz",
+      "url": "https://www.cocuma.cz",
+      "type": "board",
+      "niche": "general (verified companies)",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.cocuma.cz", "title": "Cocuma.cz homepage", "quote": "Hledejte příležitosti ve firmách, které jsme pro vás prověřili"}
+      ]
+    },
+    {
+      "name": "Teamio",
+      "url": "https://cz.teamio.com",
+      "type": "multiposting",
+      "niche": "recruitment software (ATS)",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://cz.teamio.com/en/all-features", "title": "Teamio features page", "quote": "External advertising places are within reach in Teamio,"}
+      ]
+    },
+    {
+      "name": "Europe Language Jobs (Czech Republic)",
+      "url": "https://www.europelanguagejobs.com",
+      "type": "board",
+      "niche": "English speakers",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://www.europelanguagejobs.com/jobs-in-Czech-Republic-for-English-speakers", "title": "Europe Language Jobs, jobs in Czech Republic for English speakers", "quote": "We are the most trusted international job board, offering the best jobs in Czech Republic for English speakers"}
+      ]
+    },
+    {
+      "name": "Brnotechregion jobs",
+      "url": "https://brnotechregion.eu",
+      "type": "board",
+      "niche": "regional (Brno, South Moravia)",
+      "countries_served": ["CZ"],
+      "sources": [
+        {"field": "existence", "url": "https://brnotechregion.eu/en/jobs", "title": "Brnotechregion jobs page", "quote": "Discover work opportunities or contact the companies which interest you"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Profesia.cz", "url": "https://www.profesia.cz", "reason": "HTTP 403 on two attempts (one retry)"},
+    {"name": "Úřad práce ČR (uradprace.cz)", "url": "https://www.uradprace.cz", "reason": "HTTP 503"}
+  ],
+  "queue": [
+    {"name": "EURES (European Job Mobility Portal)", "url": "https://eures.europa.eu", "reason": "Named by Úřad práce pages and roundups as a route to Czech vacancies; homepage text was not readable in the fetch, so it was not added to boards"}
+  ]
+}
