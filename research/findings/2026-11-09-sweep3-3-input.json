@@ -2,8 +2,18 @@
  "country": "ZZ",
  "boards": [
   {
-   "name": "OCC Mundial",
-   "url": "https://www.occ.com.mx",
+   "name": "Hellowork",
+   "url": "https://www.hellowork.com",
+   "missing": [
+    "hq_country",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ]
+  },
+  {
+   "name": "Kalibrr",
+   "url": "https://www.kalibrr.com",
    "missing": [
     "api_status",
     "partner_program",
@@ -12,8 +22,8 @@
    ]
   },
   {
-   "name": "Z_GIS Geoinformatik Stellenb\u00f6rse",
-   "url": "https://www.plus.ac.at/geoinformatik/jobs/",
+   "name": "Ninacare",
+   "url": "https://www.ninacare.it/",
    "missing": [
     "hq_country",
     "languages",
@@ -25,18 +35,8 @@
    ]
   },
   {
-   "name": "Wanted",
-   "url": "https://www.wanted.co.kr",
-   "missing": [
-    "api_status",
-    "partner_program",
-    "parent",
-    "ingest_methods"
-   ]
-  },
-  {
-   "name": "ITJob.au",
-   "url": "https://www.itjob.au/",
+   "name": "Dentalpost",
+   "url": "https://www.dentalpost.com",
    "missing": [
     "hq_country",
     "languages",
@@ -48,8 +48,8 @@
    ]
   },
   {
-   "name": "Grapevine Jobs",
-   "url": "https://www.grapevinejobs.com.au",
+   "name": "KarmSakha",
+   "url": "https://karmsakha.com",
    "missing": [
     "hq_country",
     "languages",
@@ -61,8 +61,8 @@
    ]
   },
   {
-   "name": "arubai",
-   "url": "https://arubai.jp/",
+   "name": "Remotli",
+   "url": "https://remotli.ch",
    "missing": [
     "hq_country",
     "languages",
@@ -74,8 +74,8 @@
    ]
   },
   {
-   "name": "Yemplea",
-   "url": "https://yemplea.com",
+   "name": "GoGoJobs",
+   "url": "https://gogojobs.mo",
    "missing": [
     "hq_country",
     "languages",
@@ -87,8 +87,8 @@
    ]
   },
   {
-   "name": "Relomote",
-   "url": "https://relomote.com",
+   "name": "ZZPdock",
+   "url": "https://zzpdock.nl",
    "missing": [
     "hq_country",
     "languages",

@@ -12,8 +12,18 @@
    ]
   },
   {
-   "name": "Government E-Employment System",
-   "url": "https://eservices.mcs.gov.sa/Jadara3/(S(loocp4m5hffrcstzv5gtsuwp))/Users/Index.aspx",
+   "name": "Wanted",
+   "url": "https://www.wanted.co.kr",
+   "missing": [
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ]
+  },
+  {
+   "name": "iProgrammatori",
+   "url": "https://www.iprogrammatori.it/",
    "missing": [
     "hq_country",
     "languages",
@@ -25,27 +35,8 @@
    ]
   },
   {
-   "name": "BOSS Zhipin",
-   "url": "https://www.zhipin.com",
-   "missing": [
-    "partner_program",
-    "ingest_methods"
-   ]
-  },
-  {
-   "name": "CIEE",
-   "url": "https://portal.ciee.org.br",
-   "missing": [
-    "languages",
-    "business_model",
-    "api_status",
-    "parent",
-    "ingest_methods"
-   ]
-  },
-  {
-   "name": "Jobstoday Ltd.",
-   "url": "https://www.jobstoday.world/en/",
+   "name": "Atypical Advantage",
+   "url": "https://atypicaladvantage.in",
    "missing": [
     "hq_country",
     "languages",
@@ -57,8 +48,8 @@
    ]
   },
   {
-   "name": "Vieclam.net",
-   "url": "https://vieclam.net/",
+   "name": "Go Zambia Jobs",
+   "url": "https://gozambiajobs.com/",
    "missing": [
     "hq_country",
     "languages",
@@ -70,8 +61,8 @@
    ]
   },
   {
-   "name": "Maison de Talents",
-   "url": "https://maisondetalents.com",
+   "name": "Cloz",
+   "url": "https://cloz.uz/",
    "missing": [
     "hq_country",
     "languages",
@@ -83,8 +74,21 @@
    ]
   },
   {
-   "name": "Verde Talent",
-   "url": "https://verdetalent.com",
+   "name": "Turuncuis.com",
+   "url": "https://turuncuis.com",
+   "missing": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ]
+  },
+  {
+   "name": "BIB Job",
+   "url": "https://bib-job.com/",
    "missing": [
     "hq_country",
     "languages",

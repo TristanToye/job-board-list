@@ -2,29 +2,8 @@
  "country": "ZZ",
  "boards": [
   {
-   "name": "Hellowork",
-   "url": "https://www.hellowork.com",
-   "missing": [
-    "hq_country",
-    "api_status",
-    "partner_program",
-    "ingest_methods"
-   ]
-  },
-  {
-   "name": "Canadian Sport (SIRC)",
-   "url": "https://sirc.ca/",
-   "missing": [
-    "hq_country",
-    "business_model",
-    "api_status",
-    "partner_program",
-    "ingest_methods"
-   ]
-  },
-  {
-   "name": "Careers24",
-   "url": "https://www.careers24.com",
+   "name": "apna",
+   "url": "https://apna.co",
    "missing": [
     "api_status",
     "partner_program",
@@ -33,8 +12,19 @@
    ]
   },
   {
-   "name": "Lavoro Turismo",
-   "url": "https://www.lavoroturismo.it/",
+   "name": "CIEE",
+   "url": "https://portal.ciee.org.br",
+   "missing": [
+    "languages",
+    "business_model",
+    "api_status",
+    "parent",
+    "ingest_methods"
+   ]
+  },
+  {
+   "name": "Jobstoday Ltd.",
+   "url": "https://www.jobstoday.world/en/",
    "missing": [
     "hq_country",
     "languages",
@@ -46,8 +36,8 @@
    ]
   },
   {
-   "name": "Hanshek",
-   "url": "https://www.hanshek.com",
+   "name": "Vieclam.net",
+   "url": "https://vieclam.net/",
    "missing": [
     "hq_country",
     "languages",
@@ -59,8 +49,8 @@
    ]
   },
   {
-   "name": "TechGo",
-   "url": "https://tech-go.jp/",
+   "name": "Maison de Talents",
+   "url": "https://maisondetalents.com",
    "missing": [
     "hq_country",
     "languages",
@@ -72,8 +62,8 @@
    ]
   },
   {
-   "name": "Workinitiatives",
-   "url": "https://workinitiatives.com.au/",
+   "name": "Verde Talent",
+   "url": "https://verdetalent.com",
    "missing": [
     "hq_country",
     "languages",
@@ -85,8 +75,21 @@
    ]
   },
   {
-   "name": "EnRoute Jobs",
-   "url": "https://enroutejobs.com",
+   "name": "MakersJob",
+   "url": "https://makers-job.jp/",
+   "missing": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ]
+  },
+  {
+   "name": "Adcorp Holdings",
+   "url": "https://www.adcorpgroup.com",
    "missing": [
     "hq_country",
     "languages",
