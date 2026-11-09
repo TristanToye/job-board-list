@@ -1,0 +1,98 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "58同城 (58.com)",
+      "url": "https://www.58.com",
+      "ingest_methods": ["manual posting"],
+      "notes": "Homepage (redirects to bj.58.com) lists affiliated sites under 集团成员 but names no parent. No language switcher, developer or API link seen on the pages read.",
+      "sources": [
+        {"field": "ingest_methods", "url": "https://bj.58.com/", "title": "Homepage", "quote": "超燃招聘季我要招人"}
+      ]
+    },
+    {
+      "name": "CharityJob",
+      "url": "https://www.charityjob.co.uk",
+      "notes": "Fetch returned HTTP 403. The browser reader returned a Cloudflare security verification page and marked the site blocked.",
+      "sources": []
+    },
+    {
+      "name": "Egon Zehnder",
+      "url": "https://www.egonzehnder.com",
+      "notes": "Imprint lists an Egon Zehnder International GmbH address in Berlin but does not state a headquarters or parent. A language menu seen in a fetch summary did not appear in the browser reader text, so no languages are recorded.",
+      "sources": []
+    },
+    {
+      "name": "karriere.at",
+      "url": "https://www.karriere.at",
+      "business_model": "per post from €949 for a standard listing; always-on subscription available",
+      "notes": "Employer product page lists per-listing prices and an Always-on subscription. No API, partner, parent or headquarters details found on the pages read.",
+      "sources": [
+        {"field": "business_model", "url": "https://business.karriere.at/produkte/stelleninserate", "title": "Stelleninserate employer prices", "quote": "ab€ 949 pro Stelleninserat"},
+        {"field": "business_model", "url": "https://business.karriere.at/produkte/stelleninserate", "title": "Stelleninserate employer prices", "quote": "Das Always-on Abo bietet:"}
+      ]
+    },
+    {
+      "name": "eChinacities",
+      "url": "https://www.echinacities.com",
+      "hq_country": "CN",
+      "primary_language": "en",
+      "languages_supported": ["en", "zh"],
+      "notes": "About page gives a Beijing address without saying whether it is the headquarters or registered address. A repeat read of the same page later returned HTTP 403; the facts above come from the earlier successful read.",
+      "sources": [
+        {"field": "existence", "url": "https://www.echinacities.com/about_us", "title": "About us", "quote": "Suite 701, Cyber Tower B, 2 Zhongguancun South Street, Haidian District, Beijing 100086"},
+        {"field": "languages", "url": "https://www.echinacities.com/about_us", "title": "About us", "quote": "eChinacities.com is an English-language website"},
+        {"field": "languages", "url": "https://www.echinacities.com/about_us", "title": "About us header language links", "quote": "中文"}
+      ]
+    },
+    {
+      "name": "Freelancer.nl",
+      "url": "https://freelancer.nl/",
+      "notes": "Homepage and freelancer price page read. The price page covers freelancer subscriptions only. No employer pricing, language switcher, API or partner link found.",
+      "sources": []
+    },
+    {
+      "name": "StudentJob FR",
+      "url": "https://www.studentjob.fr",
+      "parent": "YoungCapital",
+      "business_model": "free basic job posting with paid premium offers",
+      "notes": "Footer names StudentJob International as operator and YoungCapital as parent. The employer page offers a free posting and paid premium offers. The partner page has unrendered template text only. No API or feed details found.",
+      "sources": [
+        {"field": "parent", "url": "https://www.studentjob.fr/", "title": "Homepage footer", "quote": "StudentJob International est une filiale de YoungCapital"},
+        {"field": "business_model", "url": "https://www.studentjob.fr/offre-demploi-gratuitement", "title": "Employer job posting page", "quote": "Publiez une offre d'emploi gratuite et trouvez du personnel"},
+        {"field": "business_model", "url": "https://www.studentjob.fr/offre-demploi-gratuitement", "title": "Employer job posting page", "quote": "Offre d'emploi Premium"}
+      ]
+    },
+    {
+      "name": "freelancermap",
+      "url": "https://www.freelancermap.com",
+      "hq_country": "DE",
+      "business_model": "subscription (Business €59.00 per month, Enterprise €89.00 per month) plus paid Featured Projects",
+      "api_status": "on-request",
+      "ingest_methods": ["XML feed", "JSON feed", "ATS integration"],
+      "notes": "Legal information page gives the principal office in Nuremberg. Recruiter pricing page describes automated project import via XML or JSON, custom interfaces on request, and integrations with Broadbean and LogicMelon. No parent or language switcher found.",
+      "sources": [
+        {"field": "existence", "url": "https://www.freelancermap.com/legal-information.html", "title": "Legal information", "quote": "Principal office: Nuremberg"},
+        {"field": "business_model", "url": "https://www.freelancermap.com/pricing/recruiter", "title": "Prices and features for companies", "quote": "€59.00 per month"},
+        {"field": "business_model", "url": "https://www.freelancermap.com/pricing/recruiter", "title": "Prices and features for companies", "quote": "A Featured Project starts at €58.50"},
+        {"field": "api_status", "url": "https://www.freelancermap.com/pricing/recruiter", "title": "Prices and features for companies", "quote": "We'll set up a simple interface to import your projects regularly."},
+        {"field": "ingest_methods", "url": "https://www.freelancermap.com/pricing/recruiter", "title": "Prices and features for companies", "quote": "Enterprise members can automate the project import process via XML or JSON."},
+        {"field": "ingest_methods", "url": "https://www.freelancermap.com/pricing/recruiter", "title": "Prices and features for companies", "quote": "We also support integrations with tools like Broadbean and LogicMelon"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "58同城 (58.com)", "url": "https://www.58.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Homepage redirects to bj.58.com; it lists affiliates and posting links but no pricing amounts, parent, language switcher or API link."},
+    {"name": "CharityJob", "url": "https://www.charityjob.co.uk", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 403 in fetch; browser reader returned a Cloudflare verification page."},
+    {"name": "Egon Zehnder", "url": "https://www.egonzehnder.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage and imprint read; imprint gives a Berlin legal address but no headquarters, and no job-posting, API or partner details appear."},
+    {"name": "karriere.at", "url": "https://www.karriere.at", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Employer product page states per-listing prices and an Always-on subscription; no headquarters, parent, language switcher or API found."},
+    {"name": "eChinacities", "url": "https://www.echinacities.com", "outcome": "partially-verified", "fields_not_found": ["parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "About page states an English-language site, English and 中文 options and a Beijing address; membership prices not shown."},
+    {"name": "Freelancer.nl", "url": "https://freelancer.nl/", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "parent", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage and freelancer price page read; no employer pricing, language switcher, parent or API found."},
+    {"name": "StudentJob FR", "url": "https://www.studentjob.fr", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Footer states YoungCapital as parent; employer page shows free and premium postings; partner page has no rendered content."},
+    {"name": "freelancermap", "url": "https://www.freelancermap.com", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "partner_program"], "method": "mixed", "note": "Legal page gives principal office in Nuremberg; recruiter pricing page shows monthly plans and XML or JSON import; no parent or language switcher found."}
+  ],
+  "blocked": [
+    {"name": "CharityJob", "url": "https://www.charityjob.co.uk", "reason": "HTTP 403 in fetch; Cloudflare verification page in the browser reader"}
+  ]
+}
