@@ -1,0 +1,118 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Le Forem",
+      "url": "https://www.leforem.be",
+      "primary_language": "fr",
+      "business_model": "free",
+      "ingest_methods": ["manual posting"],
+      "notes": "Employer page states online job posting is free. No language switcher or API page was found on the pages read.",
+      "sources": [
+        {"field": "languages", "url": "https://www.leforem.be", "title": "Homepage", "quote": "Trouvez un emploi parmi nos 34 857 offres"},
+        {"field": "business_model", "url": "https://www.leforem.be/entreprises/diffuser-offre-emploi.html", "title": "Diffuser une offre d'emploi", "quote": "Publiez votre offre d'emploi gratuitement en ligne"},
+        {"field": "ingest_methods", "url": "https://www.leforem.be/entreprises/diffuser-offre-emploi.html", "title": "Diffuser une offre d'emploi", "quote": "Créer/gérer une offre d'emploi en ligne"}
+      ]
+    },
+    {
+      "name": "Actiris",
+      "url": "https://www.actiris.brussels",
+      "primary_language": "fr",
+      "languages_supported": ["fr", "nl", "en"],
+      "ingest_methods": ["manual posting"],
+      "notes": "Employer page describes posting vacancies through My Actiris. No prices, parent company or API statement was found on the pages read.",
+      "sources": [
+        {"field": "languages", "url": "https://www.actiris.brussels/fr/citoyens/", "title": "Citizens homepage", "quote": "Trouvez un emploi parmi nos 26289 offres"},
+        {"field": "languages", "url": "https://www.actiris.brussels", "title": "Homepage language links", "quote": "Nl"},
+        {"field": "languages", "url": "https://www.actiris.brussels", "title": "Homepage language links", "quote": "En"},
+        {"field": "ingest_methods", "url": "https://www.actiris.brussels/fr/employeurs/", "title": "Employeurs", "quote": "Publiez votre offre d’emploi en quelques clics"}
+      ]
+    },
+    {
+      "name": "jobwinner.ch",
+      "url": "https://www.jobwinner.ch",
+      "hq_country": "CH",
+      "parent": "JobCloud AG",
+      "primary_language": "de",
+      "languages_supported": ["de", "fr", "en"],
+      "notes": "Imprint lists JobCloud AG headquarters in Zurich and says Jobwinner belongs to JobCloud. Business model, API and partner pages were not found on this domain.",
+      "sources": [
+        {"field": "existence", "url": "https://www.jobwinner.ch/de/content/impressum", "title": "Impressum", "quote": "Hauptsitz JobCloud AG Albisriederstrasse 253 CH-8047 Zürich"},
+        {"field": "parent", "url": "https://www.jobwinner.ch/de/content/impressum", "title": "Impressum", "quote": "Jobwinner gehört zu JobCloud, dem führenden digitalen Unternehmen im Schweizer Stellenmarkt."},
+        {"field": "languages", "url": "https://www.jobwinner.ch", "title": "Homepage", "quote": "Jobwinner.ch ist ein effizienter und zuverlässiger Stellenmarkt für Arbeitssuchende"},
+        {"field": "languages", "url": "https://www.jobwinner.ch", "title": "Homepage language switcher", "quote": "ENFRDE"}
+      ]
+    },
+    {
+      "name": "Expresso Emprego",
+      "url": "https://www.expressoemprego.pt",
+      "primary_language": "pt",
+      "business_model": "pay per post",
+      "ingest_methods": ["manual posting"],
+      "notes": "Contact page says a job ad must be paid for before the weekly edition deadline. No language switcher, prices or API page was found.",
+      "sources": [
+        {"field": "languages", "url": "https://empresas.expressoemprego.pt/", "title": "Employer page", "quote": "Pretende anunciar? Anuncie as suas ofertas de emprego e formação"},
+        {"field": "business_model", "url": "https://expressoemprego.pt/contatos", "title": "Contactos e Anunciar", "quote": "deve dar entrada nos serviços do EXPRESSO, assim como o pagamento do mesmo"},
+        {"field": "ingest_methods", "url": "https://empresas.expressoemprego.pt/", "title": "Employer page", "quote": "Anuncie as suas ofertas de emprego e formação"}
+      ]
+    },
+    {
+      "name": "Sheryan (Dubai Health Authority)",
+      "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities",
+      "primary_language": "en",
+      "languages_supported": ["en", "ar"],
+      "parent": "Dubai Health Authority",
+      "ingest_methods": ["manual posting"],
+      "notes": "Portal homepage describes health providers posting vacancies. No prices or API statement was found on the pages read.",
+      "sources": [
+        {"field": "languages", "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities", "title": "Opportunities", "quote": "Dedicated portal bridging the gap between Health Facilities and Talented Professionals in Dubai."},
+        {"field": "languages", "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities", "title": "Opportunities", "quote": "عربي"},
+        {"field": "parent", "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities", "title": "Opportunities", "quote": "Dubai Health Authority in Numbers"},
+        {"field": "ingest_methods", "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities", "title": "Opportunities", "quote": "Interface for Health Providers to post their job vacancies"}
+      ]
+    },
+    {
+      "name": "Kampanje Jobb",
+      "url": "https://jobb.kampanje.com",
+      "primary_language": "no",
+      "business_model": "paid job ad packages",
+      "notes": "Employer page describes job ad packages without prices. The company postal address is on the parent publisher's kampanje.com site, which was not used as a source.",
+      "sources": [
+        {"field": "languages", "url": "https://jobb.kampanje.com", "title": "Ledige stillinger", "quote": "Ledige stillinger i medie- og kommunikasjonsbransjen"},
+        {"field": "business_model", "url": "https://jobb.kampanje.com/jobb/onsker-du-a-annonsere-din-ledige-stilling/1025525", "title": "Annonser ledige stillinger", "quote": "Derfor inkluderer alle stillingspakkene våre alltid den samme brede og effektive distribusjonen"}
+      ]
+    },
+    {
+      "name": "Māori & Pacific Jobs",
+      "url": "https://maoripacificjobs.co.nz/",
+      "primary_language": "en",
+      "ingest_methods": ["manual posting"],
+      "notes": "Employer signup page says advertising starts after email verification. No prices, languages switcher or API page was found.",
+      "sources": [
+        {"field": "languages", "url": "https://maoripacificjobs.co.nz/", "title": "Homepage", "quote": "Māori & Pacific Jobs provides organisations with an option to advertise job roles"},
+        {"field": "ingest_methods", "url": "https://maoripacificjobs.co.nz/signup", "title": "Sign Up to Advertise", "quote": "you can start advertising immediately upon verification of your email address"}
+      ]
+    },
+    {
+      "name": "Jobmonitor",
+      "url": "https://se.jobmonitor.com",
+      "primary_language": "en",
+      "notes": "Homepage shows an English language menu and 8,525 open jobs. Contact page gives no employer pricing, parent company or API statement.",
+      "sources": [
+        {"field": "languages", "url": "https://se.jobmonitor.com", "title": "Homepage", "quote": "Find Your Dream Job in Sweden"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Le Forem", "url": "https://www.leforem.be", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program"], "method": "browser", "note": "Homepage and employer pages read; employer posting is stated as free; no language switcher or API page found."},
+    {"name": "Actiris", "url": "https://www.actiris.brussels", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program"], "method": "browser", "note": "Homepage, employer and partner pages read; language links found; no prices or API statement found."},
+    {"name": "jobwinner.ch", "url": "https://www.jobwinner.ch", "outcome": "partially-verified", "fields_not_found": ["business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage and imprint read; imprint states JobCloud AG headquarters in Zurich; employer link leads to the parent's site, which was not used."},
+    {"name": "Expresso Emprego", "url": "https://www.expressoemprego.pt", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program"], "method": "browser", "note": "Homepage, employer and contact pages read; paid ad placement stated; no language switcher or API page found."},
+    {"name": "Sheryan (Dubai Health Authority)", "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "api_status", "partner_program"], "method": "browser", "note": "Opportunities page read; an alternate facilities path returned no content; no prices or API statement found."},
+    {"name": "Kampanje Jobb", "url": "https://jobb.kampanje.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage and employer page read; ad packages stated without prices; headquarters address appears only on kampanje.com."},
+    {"name": "Māori & Pacific Jobs", "url": "https://maoripacificjobs.co.nz/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "parent", "api_status", "partner_program"], "method": "browser", "note": "Homepage and signup page read; no prices or API statement found."},
+    {"name": "Jobmonitor", "url": "https://se.jobmonitor.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage and contact page read; homepage shows an English menu; no employer pricing or API statement found."}
+  ],
+  "blocked": []
+}
