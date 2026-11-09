@@ -1,0 +1,123 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Randstad",
+      "url": "https://www.randstad.com",
+      "hq_country": "NL",
+      "primary_language": "en",
+      "api_status": "unknown",
+      "notes": "Registered office in the Netherlands per footer. Homepage and footer read; no language switcher, employer pricing, API or partner program found in the text read. Country websites are linked from the footer.",
+      "sources": [
+        {"field": "existence", "url": "https://www.randstad.com/", "title": "Homepage footer, registered office", "quote": "Registered in The Netherlands No: 33216172 Registered office: Diemermere 25, 1112 TC Diemen, The Netherlands."},
+        {"field": "languages", "url": "https://www.randstad.com/", "title": "Homepage text", "quote": "Randstad is the world’s leading talent company and a partner of choice to clients."}
+      ]
+    },
+    {
+      "name": "Internshala",
+      "url": "https://internshala.com",
+      "primary_language": "en",
+      "business_model": "free basic listing plus paid premium listings and plans",
+      "api_status": "none-known",
+      "ingest_methods": ["manual posting"],
+      "notes": "Operating company named in footer is Scholiverse Educare Private Limited. Employer plans page lists a free plan and paid premium listing prices in INR. Homepage, employer, plans and footer read; no API, developer or partner page linked.",
+      "sources": [
+        {"field": "business_model", "url": "https://internshala.com/employer-subscription/", "title": "Employer plans and pricing", "quote": "Free plan 1 listing per month"},
+        {"field": "business_model", "url": "https://internshala.com/employer-subscription/", "title": "Employer plans and pricing", "quote": "1 Premium Listing ₹2,999"},
+        {"field": "ingest_methods", "url": "https://internshala.com/employer", "title": "Employer page", "quote": "Post your internships and fresher jobs for free and attract qualified candidates"},
+        {"field": "api_status", "url": "https://internshala.com/", "title": "Homepage footer", "quote": "© Copyright 2026 Internshala (Scholiverse Educare Private Limited)"}
+      ]
+    },
+    {
+      "name": "TaskRabbit",
+      "url": "https://www.taskrabbit.com",
+      "primary_language": "en",
+      "api_status": "none-known",
+      "partner_program": "yes",
+      "partner_url": "https://www.taskrabbit.com/blog/partner-lp/",
+      "notes": "Task marketplace for home services; the homepage prices are for customer tasks, not employer job posting. Partner page describes retailer partnerships for assembly services, not job feeds. Careers link has no posting content in the text read.",
+      "sources": [
+        {"field": "partner_program", "url": "https://www.taskrabbit.com/blog/partner-lp/", "title": "Partner with Taskrabbit", "quote": "Taskrabbit partners with leading retailers to provide assembly, mounting and installation services."},
+        {"field": "languages", "url": "https://www.taskrabbit.com/", "title": "Homepage text", "quote": "Book trusted help for home tasks"},
+        {"field": "api_status", "url": "https://www.taskrabbit.com/blog/partner-lp/", "title": "Partner page footer", "quote": "Discover Services By City All Services Elite Taskers Help Company About Us Careers Press Taskrabbit for Good Partner With Us"}
+      ]
+    },
+    {
+      "name": "Jobbnorge",
+      "url": "https://jobbnorge.no",
+      "primary_language": "nb",
+      "languages_supported": ["nb", "en", "nn", "se"],
+      "api_status": "none-known",
+      "notes": "Footer names the operator as Grade Jobbnorge AS. Employer access is through a job admin portal linked as Arbeidsgiver. Homepage, job admin page and footer read; no API, developer or partner page linked.",
+      "sources": [
+        {"field": "languages", "url": "https://jobbnorge.no/", "title": "Language menu", "quote": "Norsk Bokmål English Norsk Nynorsk Sámegiella"},
+        {"field": "existence", "url": "https://jobbnorge.no/", "title": "Homepage footer", "quote": "© Grade Jobbnorge AS | Org.nr. 861 496 872"},
+        {"field": "api_status", "url": "https://jobbnorge.no/", "title": "Homepage footer", "quote": "Kundeservice Support Personvernerklæring Tilgjengelighet Hjelpesenter"}
+      ]
+    },
+    {
+      "name": "Thai.do",
+      "url": "https://thai.do",
+      "primary_language": "th",
+      "languages_supported": ["th", "en", "zh", "ru", "my"],
+      "business_model": "free job posting, payment due on hire",
+      "api_status": "unknown",
+      "notes": "Homepage and language menu read. The employer posting page returned a security challenge in the browser reader and was not retried, so no API or partner information was checked there. Footer shows only a copyright line.",
+      "sources": [
+        {"field": "languages", "url": "https://thai.do/", "title": "Homepage language menu", "quote": "ไทย ภาษาไทย"},
+        {"field": "languages", "url": "https://thai.do/", "title": "Homepage language menu", "quote": "🇬🇧 EN English ภาษาอังกฤษ"},
+        {"field": "languages", "url": "https://thai.do/", "title": "Homepage language menu", "quote": "🇨🇳 ZH 中文 ภาษาจีน"},
+        {"field": "languages", "url": "https://thai.do/", "title": "Homepage language menu", "quote": "🇷🇺 RU Русский ภาษารัสเซีย"},
+        {"field": "languages", "url": "https://thai.do/", "title": "Homepage language count", "quote": "5 ภาษา รองรับเต็มรูปแบบ"},
+        {"field": "business_model", "url": "https://thai.do/", "title": "Homepage employer posting", "quote": "ลงประกาศงานฟรี จ่ายเมื่อจ้าง"}
+      ]
+    },
+    {
+      "name": "Trabajos.com",
+      "url": "https://www.trabajos.com/",
+      "hq_country": "ES",
+      "parent": "Hispavista",
+      "primary_language": "es",
+      "business_model": "free single post, paid packs and flat-rate plan",
+      "api_status": "none-known",
+      "notes": "Legal notice names HispaVista, S.L. as operator in San Sebastián, Spain. Employer page describes free single postings, packs and a flat-rate unlimited plan; no prices shown in the text read. No language switcher seen.",
+      "sources": [
+        {"field": "existence", "url": "https://www.trabajos.com/aviso-legal/", "title": "Aviso legal", "quote": "HispaVista, S.L. con domicilio en San Sebastián, España"},
+        {"field": "parent", "url": "https://www.trabajos.com/", "title": "Homepage footer", "quote": "Trabajos.com es una marca de Hispavista"},
+        {"field": "languages", "url": "https://www.trabajos.com/quienes-somos/", "title": "Quiénes somos", "quote": "DESDE 1996, TRABAJOS.COM ES EL PORTAL DE EMPLEO PIONERO DE LA RED EN ESPAÑA"},
+        {"field": "business_model", "url": "https://www.trabajos.com/empresas/", "title": "Employer posting page", "quote": "Publica gratis y contrata sólo si los candidatos te interesan."},
+        {"field": "business_model", "url": "https://www.trabajos.com/empresas/", "title": "Employer posting page", "quote": "Tarifa Plana Publicación ILIMITADA de ofertas"},
+        {"field": "api_status", "url": "https://www.trabajos.com/", "title": "Homepage footer", "quote": "Ayuda Aviso legal Condiciones de uso Política de cookies Política de privacidad"}
+      ]
+    },
+    {
+      "name": "Randstad RiseSmart",
+      "url": "https://www.randstadenterprise.com",
+      "hq_country": "NL",
+      "parent": "Randstad N.V.",
+      "primary_language": "en",
+      "api_status": "none-known",
+      "notes": "The URL given is the Randstad Enterprise site, which describes Randstad RiseSmart as one of its delivery brands for talent development and transition. Parent and address are from the About and footer text. No employer pricing, API or partner program found in the pages read.",
+      "sources": [
+        {"field": "parent", "url": "https://www.randstadenterprise.com/about-us/", "title": "About Randstad Enterprise", "quote": "Part of Randstad N.V., we combine unmatched talent data and market insights"},
+        {"field": "existence", "url": "https://www.randstadenterprise.com/about-us/", "title": "Footer address", "quote": "Randstad Enterprise, Diemermere 25, Diemen, 1112TC Amsterdam, Netherlands"},
+        {"field": "languages", "url": "https://www.randstadenterprise.com/", "title": "Homepage text", "quote": "Randstad Enterprise helps you unlock the true heartbeat of your organization"},
+        {"field": "api_status", "url": "https://www.randstadenterprise.com/about-us/", "title": "Footer links", "quote": "careers at randstad enterprise suppliers RiseSmart access login for HR login for participants"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Randstad", "url": "https://www.randstad.com", "outcome": "partially-verified", "fields_not_found": ["languages", "parent", "business_model", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage and footer state the Netherlands registered office; no language options, pricing or partner program in the text read."},
+    {"name": "Internshala", "url": "https://internshala.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "partner_program"], "method": "mixed", "note": "Employer plans and pricing stated; no headquarters or language options found on the pages read."},
+    {"name": "TaskRabbit", "url": "https://www.taskrabbit.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "business_model", "ingest_methods"], "method": "mixed", "note": "Retailer partner page states partnerships; homepage shows customer prices only and no employer posting terms."},
+    {"name": "Jobbnorge", "url": "https://jobbnorge.no", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "parent", "partner_program", "ingest_methods"], "method": "mixed", "note": "Language options and operator stated in the footer; no employer pricing or headquarters statement found."},
+    {"name": "VietnamWorks", "url": "https://www.vietnamworks.com", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "HTTP 403 with blocked true in the browser reader; not retried."},
+    {"name": "Thai.do", "url": "https://thai.do", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "partner_program", "ingest_methods"], "method": "mixed", "note": "Language menu and free posting stated on the homepage; the employer posting page returned a 403 security challenge in the browser reader and was not retried."},
+    {"name": "Trabajos.com", "url": "https://www.trabajos.com/", "outcome": "partially-verified", "fields_not_found": ["languages", "partner_program", "ingest_methods"], "method": "mixed", "note": "Operator, parent and employer posting model stated; no language switcher or partner program found."},
+    {"name": "Randstad RiseSmart", "url": "https://www.randstadenterprise.com", "outcome": "partially-verified", "fields_not_found": ["languages", "business_model", "partner_program", "ingest_methods"], "method": "mixed", "note": "Parent and Netherlands address stated on the Randstad Enterprise site; no pricing, language options or partner program found."}
+  ],
+  "blocked": [
+    {"name": "VietnamWorks", "url": "https://www.vietnamworks.com", "reason": "HTTP 403 with blocked true in the browser reader"}
+  ]
+}
