@@ -1,59 +1,127 @@
 {
-  "mode": "discover",
-  "country": "PE",
-  "boards": [
+ "mode": "discover",
+ "country": "PE",
+ "boards": [
+  {
+   "name": "PeruTrabajos",
+   "url": "https://www.perutrabajos.com",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "PE"
+   ],
+   "sources": [
     {
-      "name": "PeruTrabajos",
-      "url": "https://www.perutrabajos.com",
-      "type": "aggregator",
-      "niche": "general",
-      "countries_served": ["PE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.perutrabajos.com", "title": "PeruTrabajos homepage", "quote": "Esta plataforma quiere ayudarte en esa tarea, reuniendo las convocatorias de instituciones del gobierno"}
-      ]
-    },
-    {
-      "name": "Portal Trabajo",
-      "url": "https://portaltrabajos.pe",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PE"],
-      "sources": [
-        {"field": "existence", "url": "https://portaltrabajos.pe", "title": "Portal Trabajo homepage", "quote": "Portaltrabajo es una marca registrada privada, que publica ofertas de empleo publico y privado confiable."}
-      ]
-    },
-    {
-      "name": "ConvocatoriasDeTrabajo",
-      "url": "https://www.convocatoriasdetrabajo.com",
-      "type": "aggregator",
-      "niche": "public sector",
-      "countries_served": ["PE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.convocatoriasdetrabajo.com", "title": "ConvocatoriasDeTrabajo homepage", "quote": "Centralizamos todos los empleos del estado peruano"}
-      ]
-    },
-    {
-      "name": "Job UDEP",
-      "url": "https://www.udep.edu.pe/publicaciones/jobudep/",
-      "type": "niche-board",
-      "niche": "graduates",
-      "countries_served": ["PE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.udep.edu.pe/publicaciones/jobudep/", "title": "Job UDEP page, Universidad de Piura", "quote": "Job UDEP es el portal de empleo a través del cual empresas de distintos sectores e industrias publican vacantes"}
-      ]
+     "field": "existence",
+     "url": "https://www.perutrabajos.com",
+     "title": "PeruTrabajos homepage",
+     "quote": "Esta plataforma quiere ayudarte en esa tarea, reuniendo las convocatorias de instituciones del gobierno",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Empleos Peru (Ministry of Labour)", "url": "https://www.empleosperu.gob.pe", "reason": "HTTP 503 on two attempts"},
-    {"name": "Talento Peru (SERVIR)", "url": "https://talentoperu.servir.gob.pe", "reason": "HTTP 503"},
-    {"name": "Laborum", "url": "https://www.laborum.pe", "reason": "HTTP 403"},
-    {"name": "Trabajando.com.pe", "url": "https://www.trabajando.com.pe", "reason": "DNS resolution failed (ENOTFOUND)"},
-    {"name": "OpcionEmpleo", "url": "https://www.opcionempleo.com.pe", "reason": "Bot verification challenge page returned instead of the homepage"},
-    {"name": "Universidad Norbert Wiener job bank", "url": "https://bolsalaboral.uwiener.edu.pe", "reason": "HTTP 503"}
-  ],
-  "queue": [
-    {"name": "Aptitus", "url": "https://aptitus.com", "reason": "Named in roundups; homepage redirects (301) to bumeran.com.pe, so the relationship is not stated and it was not catalogued separately"},
-    {"name": "iAgora", "url": "https://www.iagora.com", "reason": "Homepage describes European internship coverage and does not state Peru; Peru pages seen only in search results"},
-    {"name": "Remote.io Peru page", "url": "https://remote.io/peru", "reason": "Peru page returned only its title; operator and board details not read"}
-  ]
+   ]
+  },
+  {
+   "name": "Portal Trabajo",
+   "url": "https://portaltrabajos.pe",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://portaltrabajos.pe",
+     "title": "Portal Trabajo homepage",
+     "quote": "Portaltrabajo es una marca registrada privada, que publica ofertas de empleo publico y privado confiable.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "ConvocatoriasDeTrabajo",
+   "url": "https://www.convocatoriasdetrabajo.com",
+   "type": "aggregator",
+   "niche": "public sector",
+   "countries_served": [
+    "PE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.convocatoriasdetrabajo.com",
+     "title": "ConvocatoriasDeTrabajo homepage",
+     "quote": "Centralizamos todos los empleos del estado peruano",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Job UDEP",
+   "url": "https://www.udep.edu.pe/publicaciones/jobudep/",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "PE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.udep.edu.pe/publicaciones/jobudep/",
+     "title": "Job UDEP page, Universidad de Piura",
+     "quote": "Job UDEP es el portal de empleo a través del cual empresas de distintos sectores e industrias publican vacantes",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Empleos Peru (Ministry of Labour)",
+   "url": "https://www.empleosperu.gob.pe",
+   "reason": "HTTP 503 on two attempts"
+  },
+  {
+   "name": "Talento Peru (SERVIR)",
+   "url": "https://talentoperu.servir.gob.pe",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Laborum",
+   "url": "https://www.laborum.pe",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Trabajando.com.pe",
+   "url": "https://www.trabajando.com.pe",
+   "reason": "DNS resolution failed (ENOTFOUND)"
+  },
+  {
+   "name": "OpcionEmpleo",
+   "url": "https://www.opcionempleo.com.pe",
+   "reason": "Bot verification challenge page returned instead of the homepage"
+  },
+  {
+   "name": "Universidad Norbert Wiener job bank",
+   "url": "https://bolsalaboral.uwiener.edu.pe",
+   "reason": "HTTP 503"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Aptitus",
+   "url": "https://aptitus.com",
+   "reason": "Named in roundups; homepage redirects (301) to bumeran.com.pe, so the relationship is not stated and it was not catalogued separately"
+  },
+  {
+   "name": "iAgora",
+   "url": "https://www.iagora.com",
+   "reason": "Homepage describes European internship coverage and does not state Peru; Peru pages seen only in search results"
+  },
+  {
+   "name": "Remote.io Peru page",
+   "url": "https://remote.io/peru",
+   "reason": "Peru page returned only its title; operator and board details not read"
+  }
+ ]
 }

@@ -10,22 +10,26 @@
  "countries_served": [
   "AT"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "de",
+ "languages_supported": [
+  "de"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
+ "parent": "CAWG GmbH",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Operated by CM Classified Media GmbH, Vienna. Single job ads 159,00 to 259,00 EUR, packages 449,00 to 1.099,00 EUR per the products page. About page says the platform is part of the oe24 network. Platform credit reads Powered by Jobiqo. No API, partner or language switcher seen.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/meinjob-at/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -39,7 +43,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "meinjob-at",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;api_status;partner_program",
+  "note": "Homepage, employers, products, about and impressum pages read; no API, partner or language options found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +60,30 @@
    "title": "meinjob.at homepage",
    "accessed": "2026-11-09",
    "quote": "Einfach und sicher den besten Job finden!",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://meinjob.at/impressum",
+   "title": "Impressum",
+   "accessed": "2026-11-09",
+   "quote": "Die CM Classified Media GmbH steht zu 100% im Eigentum der CAWG GmbH.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://meinjob.at/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Einfach und sicher den besten Job finden!",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://meinjob.at/arbeitgeber",
+   "title": "Employer page",
+   "accessed": "2026-11-09",
+   "quote": "Posten Sie hier Ihre Jobangebote",
    "quote_check": "ok"
   }
  ]

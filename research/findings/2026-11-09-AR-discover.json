@@ -1,39 +1,89 @@
 {
-  "mode": "discover",
-  "country": "AR",
-  "boards": [
+ "mode": "discover",
+ "country": "AR",
+ "boards": [
+  {
+   "name": "Get on Board",
+   "url": "https://www.getonbrd.com",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [],
+   "sources": [
     {
-      "name": "Get on Board",
-      "url": "https://www.getonbrd.com",
-      "type": "niche-board",
-      "niche": "tech",
-      "countries_served": [],
-      "sources": [
-        {"field": "existence", "url": "https://www.getonbrd.com", "title": "Get on Board homepage", "quote": "Get on Board is the biggest tech and startup jobs community in Latin America."}
-      ]
-    },
-    {
-      "name": "Trabajo, Empleo y Seguridad Social (Argentina government)",
-      "url": "https://www.argentina.gob.ar/trabajo",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["AR"],
-      "sources": [
-        {"field": "existence", "url": "https://www.argentina.gob.ar/trabajo", "title": "Trabajo, Empleo y Seguridad Social, argentina.gob.ar", "quote": "Programas, herramientas, capacitaciones y lugares para encontrar empleo."}
-      ]
+     "field": "existence",
+     "url": "https://www.getonbrd.com",
+     "title": "Get on Board homepage",
+     "quote": "Get on Board is the biggest tech and startup jobs community in Latin America.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Portal Empleo", "url": "https://portalempleo.gob.ar", "reason": "HTTP 503 on two attempts"},
-    {"name": "AMIA Servicio de Empleo", "url": "https://www.amia.org.ar", "reason": "HTTP 403"},
-    {"name": "Opcionempleo", "url": "https://www.opcionempleo.com.ar", "reason": "Returned a security verification page instead of the homepage"},
-    {"name": "Laborum", "url": "https://www.laborum.com.ar", "reason": "HTTP 403"},
-    {"name": "Workana", "url": "https://www.workana.com", "reason": "HTTP 403"},
-    {"name": "Arlog Jobs", "url": "https://www.arlogjobs.com", "reason": "DNS resolution error (getaddrinfo ENOTFOUND)"},
-    {"name": "CIAI", "url": "https://www.ciai.org.ar", "reason": "DNS resolution error (getaddrinfo ENOTFOUND)"}
-  ],
-  "queue": [
-    {"name": "ZonaJobs", "url": "https://www.zonajobs.com.ar", "reason": "Named in several roundups; homepage returned no readable text on two fetches"},
-    {"name": "Empleos Clarin", "url": "", "reason": "Named in a roundup; fetch of clarin.com/empleos was refused by the fetch tool"}
-  ]
+   ]
+  },
+  {
+   "name": "Trabajo, Empleo y Seguridad Social (Argentina government)",
+   "url": "https://www.argentina.gob.ar/trabajo",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "AR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.argentina.gob.ar/trabajo",
+     "title": "Trabajo, Empleo y Seguridad Social, argentina.gob.ar",
+     "quote": "Programas, herramientas, capacitaciones y lugares para encontrar empleo.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Portal Empleo",
+   "url": "https://portalempleo.gob.ar",
+   "reason": "HTTP 503 on two attempts"
+  },
+  {
+   "name": "AMIA Servicio de Empleo",
+   "url": "https://www.amia.org.ar",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Opcionempleo",
+   "url": "https://www.opcionempleo.com.ar",
+   "reason": "Returned a security verification page instead of the homepage"
+  },
+  {
+   "name": "Laborum",
+   "url": "https://www.laborum.com.ar",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Workana",
+   "url": "https://www.workana.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Arlog Jobs",
+   "url": "https://www.arlogjobs.com",
+   "reason": "DNS resolution error (getaddrinfo ENOTFOUND)"
+  },
+  {
+   "name": "CIAI",
+   "url": "https://www.ciai.org.ar",
+   "reason": "DNS resolution error (getaddrinfo ENOTFOUND)"
+  }
+ ],
+ "queue": [
+  {
+   "name": "ZonaJobs",
+   "url": "https://www.zonajobs.com.ar",
+   "reason": "Named in several roundups; homepage returned no readable text on two fetches"
+  },
+  {
+   "name": "Empleos Clarin",
+   "url": "",
+   "reason": "Named in a roundup; fetch of clarin.com/empleos was refused by the fetch tool"
+  }
+ ]
 }

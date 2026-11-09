@@ -10,22 +10,26 @@
  "countries_served": [
   "AE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Middle East",
  "niche": "education",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Recruitment portal for teachers. Recruitment subscription with a one-time annual fee, amount not shown. Post uncapped job listings year-round. No API, partner or headquarters statement found in pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/teach-away/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -36,10 +40,18 @@
  },
  "tags": [
   "education",
-  "job-board"
+  "job-board",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "teach-away",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+  "note": "Homepage, recruitment, recruitment platform and Advanced Education Company pages read; no headquarters, parent or API statement found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +61,30 @@
    "title": "Teach in Dubai and UAE",
    "accessed": "2026-11-09",
    "quote": "Premium tax-free teaching opportunities in world-class international schools",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.teachaway.com/recruitment",
+   "title": "Recruitment",
+   "accessed": "2026-11-09",
+   "quote": "Over 60,000 candidates apply for roles on Teach Away each month.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.teachaway.com/recruitment/online-recruitment-software",
+   "title": "Recruitment platform",
+   "accessed": "2026-11-09",
+   "quote": "Sign up for our recruitment subscription and start recruiting faster and easier than ever before.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.teachaway.com/recruitment/online-recruitment-software",
+   "title": "Recruitment platform",
+   "accessed": "2026-11-09",
+   "quote": "Post uncapped job listings year-round",
    "quote_check": "ok"
   }
  ]

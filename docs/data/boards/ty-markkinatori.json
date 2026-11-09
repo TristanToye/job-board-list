@@ -11,7 +11,11 @@
   "FI"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "fi",
+  "sv",
+  "en"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
@@ -22,7 +26,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Footer lists a Rajapinnat (interfaces) link, but its page could not be located, so no api_status is recorded. Homepage, English personal-customers page and footer read in the browser reader.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/ty-markkinatori/",
  "indexable": false,
@@ -42,7 +46,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "ty-markkinatori",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage and English page state three languages and the KEHA-keskus footer; the footer interfaces page was not found (404 on guessed paths).",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +63,22 @@
    "title": "Työmarkkinatori homepage",
    "accessed": "2026-11-09",
    "quote": "Töiden ja tekijöiden kohtaamispaikka.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.tyomarkkinatori.fi",
+   "title": "Language selector",
+   "accessed": "2026-11-09",
+   "quote": "Suomi (FI)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.tyomarkkinatori.fi/en/personal-customers",
+   "title": "Language selector",
+   "accessed": "2026-11-09",
+   "quote": "English (EN)",
    "quote_check": "ok"
   }
  ]

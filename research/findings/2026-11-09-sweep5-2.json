@@ -1,112 +1,378 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "VDAB",
+   "url": "https://www.vdab.be",
+   "primary_language": "nl",
+   "business_model": "free basic listings with paid formulas",
+   "api_status": "on-request",
+   "api_docs_url": "https://extranet.vdab.be/api-center-excellence-coe",
+   "partner_program": "yes",
+   "partner_url": "https://extranet.vdab.be/",
+   "ingest_methods": [
+    "API",
+    "manual posting"
+   ],
+   "notes": "Dutch-language public employment service site. Employer page shows free posting and paid formulas, prices not shown. API Center page lists a Vacature Posting API and a request form. Language switcher options not seen in pages read.",
+   "sources": [
     {
-      "name": "VDAB",
-      "url": "https://www.vdab.be",
-      "primary_language": "nl",
-      "business_model": "free basic listings with paid formulas",
-      "api_status": "on-request",
-      "api_docs_url": "https://extranet.vdab.be/api-center-excellence-coe",
-      "partner_program": "yes",
-      "partner_url": "https://extranet.vdab.be/",
-      "ingest_methods": ["API", "manual posting"],
-      "notes": "Dutch-language public employment service site. Employer page shows free posting and paid formulas, prices not shown. API Center page lists a Vacature Posting API and a request form. Language switcher options not seen in pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.vdab.be/", "title": "VDAB homepage", "quote": "Welkom bij VDAB, vandaag zijn er 230.757 jobs"},
-        {"field": "business_model", "url": "https://werkgevers.vdab.be/", "title": "VDAB employers homepage", "quote": "Gratis en snel!"},
-        {"field": "business_model", "url": "https://werkgevers.vdab.be/", "title": "VDAB employers homepage", "quote": "Bekijk onze betalende formules"},
-        {"field": "api_status", "url": "https://extranet.vdab.be/api-center-excellence-coe", "title": "API Center of Excellence (CoE)", "quote": "VDAB biedt verschillende API's aan"},
-        {"field": "api_status", "url": "https://extranet.vdab.be/api-center-excellence-coe", "title": "API Center of Excellence (CoE)", "quote": "Vul vrijblijvend het aanvraagformulier in"},
-        {"field": "partner_program", "url": "https://www.vdab.be/vdab", "title": "Informatie over VDAB", "quote": "Samenwerken met VDAB: ontdek hoe je met ons kan samenwerken als partner."},
-        {"field": "partner_program", "url": "https://extranet.vdab.be/", "title": "VDAB Extranet homepage", "quote": "VDAB werkt samen met partners om zijn dienstverlening aan burgers te realiseren"},
-        {"field": "ingest_methods", "url": "https://extranet.vdab.be/api-center-excellence-coe", "title": "API Center of Excellence (CoE)", "quote": "Meld jij vacatures automatisch op vdab.be via de Vacature Posting API"},
-        {"field": "ingest_methods", "url": "https://werkgevers.vdab.be/", "title": "VDAB employers homepage", "quote": "Publiceer je vacatures"}
-      ]
+     "field": "languages",
+     "url": "https://www.vdab.be/",
+     "title": "VDAB homepage",
+     "quote": "Welkom bij VDAB, vandaag zijn er 230.757 jobs",
+     "check": "ok"
     },
     {
-      "name": "meinjob.at",
-      "url": "https://meinjob.at",
-      "hq_country": "AT",
-      "parent": "CAWG GmbH",
-      "primary_language": "de",
-      "business_model": "pay per post",
-      "ingest_methods": ["manual posting"],
-      "notes": "Operated by CM Classified Media GmbH, Vienna. Single job ads 159,00 to 259,00 EUR, packages 449,00 to 1.099,00 EUR per the products page. About page says the platform is part of the oe24 network. Platform credit reads Powered by Jobiqo. No API, partner or language switcher seen.",
-      "sources": [
-        {"field": "existence", "url": "https://meinjob.at/impressum", "title": "Impressum", "quote": "CM Classified Media GmbH 1010 Wien"},
-        {"field": "parent", "url": "https://meinjob.at/impressum", "title": "Impressum", "quote": "Die CM Classified Media GmbH steht zu 100% im Eigentum der CAWG GmbH."},
-        {"field": "languages", "url": "https://meinjob.at/", "title": "Homepage", "quote": "Einfach und sicher den besten Job finden!"},
-        {"field": "business_model", "url": "https://meinjob.at/produkte", "title": "Products and prices", "quote": "Einzelanzeige Basic / Einzelanzeige / 159,00 EUR"},
-        {"field": "ingest_methods", "url": "https://meinjob.at/arbeitgeber", "title": "Employer page", "quote": "Posten Sie hier Ihre Jobangebote"}
-      ]
+     "field": "business_model",
+     "url": "https://werkgevers.vdab.be/",
+     "title": "VDAB employers homepage",
+     "quote": "Gratis en snel!",
+     "check": "ok"
     },
     {
-      "name": "Job-Room (arbeit.swiss)",
-      "url": "https://www.arbeit.swiss",
-      "hq_country": "CH",
-      "parent": "State Secretariat for Economic Affairs (SECO)",
-      "primary_language": "en",
-      "languages_supported": ["de", "fr", "it", "en"],
-      "ingest_methods": ["manual posting"],
-      "notes": "Federal unemployment insurance and public employment service portal. Vacancies are registered on Job-Room. No developer, API or partner page linked from the pages read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.arbeit.swiss/en", "title": "Homepage", "quote": "Unemployment Insurance and public employment service in Switzerland"},
-        {"field": "parent", "url": "https://www.arbeit.swiss/en/impressum-en", "title": "Impressum", "quote": "State Secretariat for Economic Affairs SECO"},
-        {"field": "languages", "url": "https://www.arbeit.swiss/en", "title": "Homepage language menu", "quote": "DE / FR / IT / EN"},
-        {"field": "ingest_methods", "url": "https://www.arbeit.swiss/en/employers", "title": "Employers", "quote": "Vacancies? Use the Check-Up to check current registration requirement and register on Job-Room"}
-      ]
+     "field": "business_model",
+     "url": "https://werkgevers.vdab.be/",
+     "title": "VDAB employers homepage",
+     "quote": "Bekijk onze betalende formules",
+     "check": "ok"
     },
     {
-      "name": "Teach Away",
-      "url": "https://www.teachaway.com/teach-in-dubai-uae",
-      "primary_language": "en",
-      "business_model": "subscription",
-      "ingest_methods": ["manual posting"],
-      "notes": "Recruitment portal for teachers. Recruitment subscription with a one-time annual fee, amount not shown. Post uncapped job listings year-round. No API, partner or headquarters statement found in pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.teachaway.com/recruitment", "title": "Recruitment", "quote": "Over 60,000 candidates apply for roles on Teach Away each month."},
-        {"field": "business_model", "url": "https://www.teachaway.com/recruitment/online-recruitment-software", "title": "Recruitment platform", "quote": "Sign up for our recruitment subscription and start recruiting faster and easier than ever before."},
-        {"field": "business_model", "url": "https://www.teachaway.com/recruitment/online-recruitment-software", "title": "Recruitment platform", "quote": "One-time annual fee"},
-        {"field": "ingest_methods", "url": "https://www.teachaway.com/recruitment/online-recruitment-software", "title": "Recruitment platform", "quote": "Post uncapped job listings year-round"}
-      ]
+     "field": "api_status",
+     "url": "https://extranet.vdab.be/api-center-excellence-coe",
+     "title": "API Center of Excellence (CoE)",
+     "quote": "VDAB biedt verschillende API's aan",
+     "check": "ok"
     },
     {
-      "name": "Kuntarekry",
-      "url": "https://www.kuntarekry.fi",
-      "primary_language": "fi",
-      "notes": "Finnish job board for municipal and wellbeing-area employers. Homepage says the Kuntarekry service is produced by Talentech, which is not stated as a parent. No API, partner or pricing statement found in pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://kuntarekry.fi/", "title": "Homepage", "quote": "Kuntarekrystä löytyy tuhansia avoimia työpaikkoja kaikkialta Suomesta."}
-      ]
+     "field": "api_status",
+     "url": "https://extranet.vdab.be/api-center-excellence-coe",
+     "title": "API Center of Excellence (CoE)",
+     "quote": "Vul vrijblijvend het aanvraagformulier in",
+     "check": "ok"
     },
     {
-      "name": "mahi.co.nz",
-      "url": "https://www.mahi.co.nz/",
-      "hq_country": "NZ",
-      "primary_language": "en",
-      "business_model": "paid advertising, boost for additional fee, prices on enquiry",
-      "notes": "Maori-focused job board, 100% Maori owned per the recruiters page. Boosted listings cost an additional fee, prices on enquiry. Address in Napier. No API, partner or developer page found in pages read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.mahi.co.nz/recruiters", "title": "Recruiters and employers", "quote": "identified as a Māori business on the NZBN Register"},
-        {"field": "languages", "url": "https://www.mahi.co.nz/recruiters", "title": "Recruiters and employers", "quote": "We offer English to te reo Māori translation of your advertisement."},
-        {"field": "business_model", "url": "https://www.mahi.co.nz/recruiters", "title": "Recruiters and employers", "quote": "You can boost the profile of your advertisement for an additional fee."}
-      ]
+     "field": "partner_program",
+     "url": "https://www.vdab.be/vdab",
+     "title": "Informatie over VDAB",
+     "quote": "Samenwerken met VDAB: ontdek hoe je met ons kan samenwerken als partner.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://extranet.vdab.be/",
+     "title": "VDAB Extranet homepage",
+     "quote": "VDAB werkt samen met partners om zijn dienstverlening aan burgers te realiseren",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://extranet.vdab.be/api-center-excellence-coe",
+     "title": "API Center of Excellence (CoE)",
+     "quote": "Meld jij vacatures automatisch op vdab.be via de Vacature Posting API",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://werkgevers.vdab.be/",
+     "title": "VDAB employers homepage",
+     "quote": "Publiceer je vacatures",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "VDAB", "url": "https://www.vdab.be", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages"], "method": "browser", "note": "Homepage, employers, partner extranet, about and API Center pages read; no headquarters statement or language options found."},
-    {"name": "meinjob.at", "url": "https://meinjob.at", "outcome": "partially-verified", "fields_not_found": ["languages", "api_status", "partner_program"], "method": "browser", "note": "Homepage, employers, products, about and impressum pages read; no API, partner or language options found."},
-    {"name": "Job-Room (arbeit.swiss)", "url": "https://www.arbeit.swiss", "outcome": "partially-verified", "fields_not_found": ["business_model", "api_status", "partner_program"], "method": "browser", "note": "Homepage, employers and impressum pages read; no pricing, API or partner page linked."},
-    {"name": "Kuntarekry", "url": "https://www.kuntarekry.fi", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage and information page read; only the Finnish language and the Talentech service provider are stated."},
-    {"name": "Teach Away", "url": "https://www.teachaway.com/teach-in-dubai-uae", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program"], "method": "browser", "note": "Homepage, recruitment, recruitment platform and Advanced Education Company pages read; no headquarters, parent or API statement found."},
-    {"name": "STARTUPLAB Jobs", "url": "https://jobs.startuplab.no", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "Browser reader returned blocked true with no HTTP status."},
-    {"name": "mahi.co.nz", "url": "https://www.mahi.co.nz/", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage, recruiters and contact pages read; no API, partner, parent or language switcher found."},
-    {"name": "Offentliga Jobb", "url": "https://www.offentligajobb.se", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "Browser reader returned status 500 with blocked true and the page text The URL you requested has been blocked."}
-  ],
-  "blocked": [
-    {"name": "STARTUPLAB Jobs", "url": "https://jobs.startuplab.no", "reason": "Browser reader blocked true, no HTTP status"},
-    {"name": "Offentliga Jobb", "url": "https://www.offentligajobb.se", "reason": "Browser reader status 500, blocked true, The URL you requested has been blocked"}
-  ]
+   ]
+  },
+  {
+   "name": "meinjob.at",
+   "url": "https://meinjob.at",
+   "hq_country": "AT",
+   "parent": "CAWG GmbH",
+   "primary_language": "de",
+   "business_model": "pay per post",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Operated by CM Classified Media GmbH, Vienna. Single job ads 159,00 to 259,00 EUR, packages 449,00 to 1.099,00 EUR per the products page. About page says the platform is part of the oe24 network. Platform credit reads Powered by Jobiqo. No API, partner or language switcher seen.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://meinjob.at/impressum",
+     "title": "Impressum",
+     "quote": "CM Classified Media GmbH 1010 Wien",
+     "check": "mismatch"
+    },
+    {
+     "field": "parent",
+     "url": "https://meinjob.at/impressum",
+     "title": "Impressum",
+     "quote": "Die CM Classified Media GmbH steht zu 100% im Eigentum der CAWG GmbH.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://meinjob.at/",
+     "title": "Homepage",
+     "quote": "Einfach und sicher den besten Job finden!",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://meinjob.at/produkte",
+     "title": "Products and prices",
+     "quote": "Einzelanzeige Basic / Einzelanzeige / 159,00 EUR",
+     "check": "mismatch"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://meinjob.at/arbeitgeber",
+     "title": "Employer page",
+     "quote": "Posten Sie hier Ihre Jobangebote",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Job-Room (arbeit.swiss)",
+   "url": "https://www.arbeit.swiss",
+   "hq_country": "CH",
+   "parent": "State Secretariat for Economic Affairs (SECO)",
+   "primary_language": "en",
+   "languages_supported": [
+    "de",
+    "fr",
+    "it",
+    "en"
+   ],
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Federal unemployment insurance and public employment service portal. Vacancies are registered on Job-Room. No developer, API or partner page linked from the pages read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.arbeit.swiss/en",
+     "title": "Homepage",
+     "quote": "Unemployment Insurance and public employment service in Switzerland",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.arbeit.swiss/en/impressum-en",
+     "title": "Impressum",
+     "quote": "State Secretariat for Economic Affairs SECO",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.arbeit.swiss/en",
+     "title": "Homepage language menu",
+     "quote": "DE / FR / IT / EN",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.arbeit.swiss/en/employers",
+     "title": "Employers",
+     "quote": "Vacancies? Use the Check-Up to check current registration requirement and register on Job-Room",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Teach Away",
+   "url": "https://www.teachaway.com/teach-in-dubai-uae",
+   "primary_language": "en",
+   "business_model": "subscription",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Recruitment portal for teachers. Recruitment subscription with a one-time annual fee, amount not shown. Post uncapped job listings year-round. No API, partner or headquarters statement found in pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.teachaway.com/recruitment",
+     "title": "Recruitment",
+     "quote": "Over 60,000 candidates apply for roles on Teach Away each month.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.teachaway.com/recruitment/online-recruitment-software",
+     "title": "Recruitment platform",
+     "quote": "Sign up for our recruitment subscription and start recruiting faster and easier than ever before.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.teachaway.com/recruitment/online-recruitment-software",
+     "title": "Recruitment platform",
+     "quote": "One-time annual fee",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.teachaway.com/recruitment/online-recruitment-software",
+     "title": "Recruitment platform",
+     "quote": "Post uncapped job listings year-round",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Kuntarekry",
+   "url": "https://www.kuntarekry.fi",
+   "primary_language": "fi",
+   "notes": "Finnish job board for municipal and wellbeing-area employers. Homepage says the Kuntarekry service is produced by Talentech, which is not stated as a parent. No API, partner or pricing statement found in pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://kuntarekry.fi/",
+     "title": "Homepage",
+     "quote": "Kuntarekrystä löytyy tuhansia avoimia työpaikkoja kaikkialta Suomesta.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "mahi.co.nz",
+   "url": "https://www.mahi.co.nz/",
+   "hq_country": "NZ",
+   "primary_language": "en",
+   "business_model": "paid advertising, boost for additional fee, prices on enquiry",
+   "notes": "Maori-focused job board, 100% Maori owned per the recruiters page. Boosted listings cost an additional fee, prices on enquiry. Address in Napier. No API, partner or developer page found in pages read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.mahi.co.nz/recruiters",
+     "title": "Recruiters and employers",
+     "quote": "identified as a Māori business on the NZBN Register",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.mahi.co.nz/recruiters",
+     "title": "Recruiters and employers",
+     "quote": "We offer English to te reo Māori translation of your advertisement.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.mahi.co.nz/recruiters",
+     "title": "Recruiters and employers",
+     "quote": "You can boost the profile of your advertisement for an additional fee.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "VDAB",
+   "url": "https://www.vdab.be",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages"
+   ],
+   "method": "browser",
+   "note": "Homepage, employers, partner extranet, about and API Center pages read; no headquarters statement or language options found."
+  },
+  {
+   "name": "meinjob.at",
+   "url": "https://meinjob.at",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, employers, products, about and impressum pages read; no API, partner or language options found."
+  },
+  {
+   "name": "Job-Room (arbeit.swiss)",
+   "url": "https://www.arbeit.swiss",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, employers and impressum pages read; no pricing, API or partner page linked."
+  },
+  {
+   "name": "Kuntarekry",
+   "url": "https://www.kuntarekry.fi",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage and information page read; only the Finnish language and the Talentech service provider are stated."
+  },
+  {
+   "name": "Teach Away",
+   "url": "https://www.teachaway.com/teach-in-dubai-uae",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, recruitment, recruitment platform and Advanced Education Company pages read; no headquarters, parent or API statement found."
+  },
+  {
+   "name": "STARTUPLAB Jobs",
+   "url": "https://jobs.startuplab.no",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "Browser reader returned blocked true with no HTTP status."
+  },
+  {
+   "name": "mahi.co.nz",
+   "url": "https://www.mahi.co.nz/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage, recruiters and contact pages read; no API, partner, parent or language switcher found."
+  },
+  {
+   "name": "Offentliga Jobb",
+   "url": "https://www.offentligajobb.se",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "Browser reader returned status 500 with blocked true and the page text The URL you requested has been blocked."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "STARTUPLAB Jobs",
+   "url": "https://jobs.startuplab.no",
+   "reason": "Browser reader blocked true, no HTTP status"
+  },
+  {
+   "name": "Offentliga Jobb",
+   "url": "https://www.offentligajobb.se",
+   "reason": "Browser reader status 500, blocked true, The URL you requested has been blocked"
+  }
+ ]
 }

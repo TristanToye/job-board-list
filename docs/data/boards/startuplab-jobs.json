@@ -40,7 +40,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "startuplab-jobs",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Browser reader returned blocked true with no HTTP status.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

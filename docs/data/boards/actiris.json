@@ -10,8 +10,12 @@
  "countries_served": [
   "BE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "fr",
+ "languages_supported": [
+  "fr",
+  "nl",
+  "en"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
@@ -21,8 +25,10 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Employer page describes posting vacancies through My Actiris. No prices, parent company or API statement was found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/actiris/",
  "indexable": false,
@@ -42,7 +48,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "actiris",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program",
+  "note": "Homepage, employer and partner pages read; language links found; no prices or API statement found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -61,6 +74,22 @@
    "accessed": "2026-11-09",
    "quote": "",
    "quote_check": ""
+  },
+  {
+   "field": "languages",
+   "url": "https://www.actiris.brussels",
+   "title": "Homepage language links",
+   "accessed": "2026-11-09",
+   "quote": "Nl",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.actiris.brussels/fr/employeurs/",
+   "title": "Employeurs",
+   "accessed": "2026-11-09",
+   "quote": "Publiez votre offre d’emploi en quelques clics",
+   "quote_check": "ok"
   }
  ]
 }

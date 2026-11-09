@@ -10,22 +10,26 @@
  "countries_served": [
   "PT"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pt",
+ "languages_supported": [
+  "pt"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
+ "parent": "Instituto do Emprego e Formação Profissional (IEFP)",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Portal is owned by the IEFP. Employers can post directly on the portal or pre-register an offer by form, after which a technician completes it. No fees, language options or API found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/iefp-iefponline/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -42,7 +46,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "iefp-iefponline",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
+  "note": "Portal states it is owned by the IEFP and offers a posting form; no fees, language options or API found on the pages read.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +63,30 @@
    "title": "iefponline homepage",
    "accessed": "2026-11-09",
    "quote": "Serviço do IEFP que apresenta apoios dirigidos a cidadãos e empregadores.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://iefponline.iefp.pt/IEFP/navegacao/sobre2.jsp",
+   "title": "Sobre o Iefponline",
+   "accessed": "2026-11-09",
+   "quote": "é propriedade do Instituto do Emprego e Formação Profissional (IEFP).",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://iefponline.iefp.pt/IEFP/empregador/oferta/registar-ofertas-de-emprego.jsp",
+   "title": "Registar ofertas de emprego",
+   "accessed": "2026-11-09",
+   "quote": "Procura os trabalhadores para a sua empresa?",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://iefponline.iefp.pt/IEFP/empregador/oferta/registar-ofertas-de-emprego.jsp",
+   "title": "Registar ofertas de emprego",
+   "accessed": "2026-11-09",
+   "quote": "Diretamente no portal iefponline.",
    "quote_check": "ok"
   }
  ]

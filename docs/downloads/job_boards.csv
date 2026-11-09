@@ -396,28 +396,28 @@ jobs-govt-nz,jobs.govt.nz,https://jobs.govt.nz/,,government,,,,NZ,en,en,APAC,gen
 student-job-search,Student Job Search,https://www.sjs.co.nz/,,niche-board,,,,NZ,,,APAC,students,,,,unknown,,unknown,,,"Describes itself as a charity. The employer pages link to a Pricing page that was not read, so employer prices are not recorded. No API or partner program is mentioned on pages read. The /api, /developers and /partners paths returned 404.",partially-verified
 jobs-for-mums,Jobs for Mums,https://www.jobsformums.co.nz/,,niche-board,,,,NZ,,,APAC,flexible-work,,,,unknown,,yes,https://www.jobsformums.co.nz/partnerships-employer/,,"Employer page lists listing packages at $99, $129 and $299, plus services from $2,000 and from $30 per hour. Currency is shown only as $. Partnerships page offers partnership packages for employers and recruitment agencies. No API is mentioned. The /api and /developers paths returned 404.",partially-verified
 seasonal-jobs-in-new-zealand,Seasonal Jobs in New Zealand,https://seasonaljobs.co.nz/,,niche-board,,,,NZ,,,APAC,seasonal,,,,unknown,,unknown,,,,partially-verified
-mahi-co-nz,mahi.co.nz,https://www.mahi.co.nz/,,niche-board,,,,NZ,,,APAC,maori,,,,unknown,,unknown,,,,partially-verified
-m-ori-pacific-jobs,Māori & Pacific Jobs,https://maoripacificjobs.co.nz/,,niche-board,,,,NZ,,,APAC,maori-pacific,,,,unknown,,unknown,,,,partially-verified
-kumara-vine,Kumara Vine,https://www.kumaravine.com/,,niche-board,,,,NZ,,,APAC,maori-pacific,,,,unknown,,unknown,,,,partially-verified
+mahi-co-nz,mahi.co.nz,https://www.mahi.co.nz/,,niche-board,NZ,,,NZ,en,en,APAC,maori,,,"paid advertising, boost for additional fee, prices on enquiry",unknown,,unknown,,,"Maori-focused job board, 100% Maori owned per the recruiters page. Boosted listings cost an additional fee, prices on enquiry. Address in Napier. No API, partner or developer page found in pages read.",partially-verified
+m-ori-pacific-jobs,Māori & Pacific Jobs,https://maoripacificjobs.co.nz/,,niche-board,,,,NZ,en,en,APAC,maori-pacific,,,,unknown,,unknown,,manual posting,"Employer signup page says advertising starts after email verification. No prices, languages switcher or API page was found.",partially-verified
+kumara-vine,Kumara Vine,https://www.kumaravine.com/,,niche-board,,,,NZ,en,en,APAC,maori-pacific,,,per post,unknown,,unknown,,,"Paid job advertising with five services and a pre-paid 20 job pack at 10% off. Prices are not shown in the text read. Owned and operated by Tony Cutting Digital. No API, partner program or language switcher found.",partially-verified
 praca-pl,Praca.pl,https://www.praca.pl,,board,,,,PL,pl,pl,Europe,general,,,pay per post,unknown,,unknown,,,"Employer ad packages are priced net in PLN. Four packages are listed at 649 to 1649 PLN net. No HQ, parent, API or partner program was stated on the pages read.",partially-verified
 aplikuj-pl,Aplikuj.pl,https://www.aplikuj.pl,,board,,,,PL,pl,pl,Europe,general,,,per post and subscription,unknown,,unknown,,manual posting;ATS integration,Polish job board. The employer page lists single-post prices in zł net per post and a subscription option. It mentions an API heading but no API documentation or access terms were found on the pages read.,partially-verified
 olx-praca,OLX Praca,https://www.olx.pl/praca/,,board,,,,PL,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
 infopraca-pl,InfoPraca.pl,https://www.infopraca.pl,,board,,,,PL,pl,pl;en,Europe,general,,,pay per post,unknown,,unknown,,,"Job ads are sold in packages. The English company page lists a 21-day job offer at 450zł net, or 310zł in a promotion. No HQ, parent, API or partner program was stated on the pages read.",partially-verified
-szukam-pracy,Szukam Pracy,https://www.szukampracy.pl,,board,,,,PL,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-jober-pl,Jober.pl,https://www.jober.pl,,board,,,,PL,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+szukam-pracy,Szukam Pracy,https://www.szukampracy.pl,,board,,,,PL,pl,pl,Europe,general,,,"per listing package in zloty, net",unknown,,unknown,,manual posting,"Employers buy listing packages priced in zloty net, for example 65 zł for 15 days. The partner page lists partner job portals where listings are published. No API, company owner or language options found on the pages read.",partially-verified
+jober-pl,Jober.pl,https://www.jober.pl,,board,,,,PL,,,Europe,general,,,free posting with paid featured and renewal options,unknown,,unknown,,"recruiter ATS panel, manual posting","Posting is free. Paid packages are listed from 25 to 2000 PLN, and renewal costs 5 PLN. Parent company and API options were not stated on the pages read.",partially-verified
 just-join-it,Just Join IT,https://justjoin.it,,niche-board,,,,PL,,,Europe,tech,,,,unknown,,unknown,,,,partially-verified
 rocket-jobs,Rocket Jobs,https://rocketjobs.pl,,board,,,,PL,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
 erecruiter,eRecruiter,https://www.erecruiter.pl,,multiposting,PL,,,PL,pl,pl;en,Europe,general,,Grupa Pracuj,subscription (monthly net prices),unknown,,unknown,,multiposting to job portals via integration;career site integration,"Homepage and pages state PL and EN options, monthly prices from 249 zl net, membership of Grupa Pracuj and an API integration mention. API access terms are not stated.",partially-verified
-hiredoc,HireDoc,https://hiredoc.com,,niche-board,,,,PL;IT,,,Europe,healthcare,,,,unknown,,unknown,,,,partially-verified
+hiredoc,HireDoc,https://hiredoc.com,,niche-board,PL,,,PL;IT,,,Europe,healthcare,,,free for 90 days,unknown,,unknown,,,"Privacy page names ZnanyLekarz sp. z o.o. with its seat in Warsaw as operator and controller. Add-listing page offers a 90-day free listing. No language list, parent, API or partner page was found in the pages read.",partially-verified
 og-oszenia-ngo-pl,Ogłoszenia ngo.pl,https://ogloszenia.ngo.pl,,niche-board,,,,PL,pl,pl;en,Europe,nonprofit,,Stowarzyszenie Klon/Jawor,"free basic listing, paid featured listings",unknown,,unknown,,,"Footer says the portal is run by Stowarzyszenie Klon/Jawor. Regular listings are free and featured listings are priced for 7, 14 or 30 days. An English link is in the footer. No headquarters, API or partner information is stated.",partially-verified
 jobbsafari,Jobbsafari,https://www.jobbsafari.se,,board,,,,SE,sv,sv;en,Europe,general,,Duunitori Group,,unknown,,unknown,,,"Homepage lists JobbSafari AB in Stockholm (first of three offices, the others in Helsinki and Norway). The site states it is part of Duunitori Group. An 'In English' link points to an English employer page. No employer prices, API or partner program found on the homepage or employer page.",partially-verified
 ledigajobb,Ledigajobb,https://www.ledigajobb.se,,board,,,,SE,sv,sv,Europe,general,,,,unknown,,unknown,,,"Employer page shows paid packages priced from 3 900 kr to 16 900 kr. Site is in Swedish with no language selector. No API or partner program is mentioned. The /api, /developers and /partners paths returned 404. The /annonsera path returned 404.",partially-verified
 offentliga-jobb,Offentliga Jobb,https://www.offentligajobb.se,,niche-board,,,,SE,,,Europe,public sector,,,,unknown,,unknown,,,,partially-verified
-jobmonitor,Jobmonitor,https://se.jobmonitor.com,,board,,,,SE,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-workey,Workey,https://workey.se,,board,,,,SE,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+jobmonitor,Jobmonitor,https://se.jobmonitor.com,,board,,,,SE,en,en,Europe,general,,,,unknown,,unknown,,,"Homepage shows an English language menu and 8,525 open jobs. Contact page gives no employer pricing, parent company or API statement.",partially-verified
+workey,Workey,https://workey.se,,board,,,,SE,sv,sv,Europe,general,,,,unknown,,unknown,,crawl;API;manual posting,"Aggregator. The about page says it collects jobs with automatic crawlers, open APIs and direct publishing, which describes how jobs come in, not an API offered to employers. Operated by a sole proprietorship (enskild firma). Employer pricing not stated; the contact page only offers to explain advertising.",partially-verified
 academic-work,Academic Work,https://www.academicwork.se,,board,,,,SE,sv,sv,Europe,general,,Akind Group,,unknown,,unknown,,,Swedish recruitment and staffing site for young professionals. Job listings in English are offered on a separate page.,partially-verified
-jobs-in-stockholm,Jobs in Stockholm,https://jobsinstockholm.com,,niche-board,,,,SE,,,Europe,English-speaking professionals in Stockholm,,,,unknown,,unknown,,,,partially-verified
-studentjob-sweden,StudentJob Sweden,https://www.studentjob.se,,niche-board,,,,SE,,,Europe,students and graduates,,,,unknown,,unknown,,,,partially-verified
+jobs-in-stockholm,Jobs in Stockholm,https://jobsinstockholm.com,,niche-board,,,,SE,en,en,Europe,English-speaking professionals in Stockholm,,4Sight SPRL,"pay per ad, pay per click or yearly job slot subscription",unknown,,unknown,,,"Terms page names 4Sight SPRL as owner and operator, with registered office in Brussels. Prices are in euros excluding VAT. No API, partner programme or language options found on the pages read.",partially-verified
+studentjob-sweden,StudentJob Sweden,https://www.studentjob.se,,niche-board,,,,SE,,,Europe,students and graduates,,YoungCapital,free job ads,unknown,,unknown,,,"Homepage is in Swedish. Language selector, API and partner pages were not read.",partially-verified
 traineeguiden,Traineeguiden,https://www.traineeguiden.se,,niche-board,,,,SE,,,Europe,graduate and trainee programmes,,,,unknown,,unknown,,,,partially-verified
 mycareersfuture,MyCareersFuture,https://www.mycareersfuture.gov.sg,,government,,,,SG,,,SEA,general,,,,unknown,,unknown,,,Site header states it is a Singapore Government Agency Website. Homepage text is only 'Loading...' in the fetch tool and browser reader; /about and /employers return a page-not-found message.,partially-verified
 offerzen,OfferZen,https://www.offerzen.com,,niche-board,,,,ZA,en,en,Africa,tech,,,,unknown,,unknown,,,"Self-serve marketplace charges a 12.5 percent pay-per-hire fee. Embedded recruiting and contracting use custom fees. No HQ, parent, API or board partner program was stated on the pages read.",partially-verified
@@ -431,77 +431,160 @@ whatjobs,WhatJobs,https://en-za.whatjobs.com,,aggregator,,,,ZA,,,Africa,general,
 employment-services-of-south-africa-essa,Employment Services of South Africa (ESSA),https://essa.labour.gov.za,,government,,,,ZA,,,Africa,general,,,,unknown,,unknown,,,,partially-verified
 bizcommunity-jobs,Bizcommunity Jobs,https://www.bizcommunity.com/JobsOffered/196/1/bjs-merge/rw-1.html,,board,,,,ZA,en,en,Africa,general,,,,unknown,,unknown,,,Job listings page of Bizcommunity. The job posting page offers a monthly subscription.,partially-verified
 shiftmate,ShiftMate,https://shiftmate.co.za,,board,,,,ZA,,,Africa,call centre,,,,unknown,,unknown,,,,partially-verified
-dubizzle-jobs,Dubizzle Jobs,https://uae.dubizzle.com/jobs/,,board,,,,AE,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
+dubizzle-jobs,Dubizzle Jobs,https://uae.dubizzle.com/jobs/,,board,,,,AE,en,en,Middle East,general,,,,unknown,,unknown,,,"Homepage is in English. The About Us and job posting pages returned HTTP 404 in the browser reader, so employer, company and API facts could not be checked on any working page.",partially-verified
 the-talent-point,The Talent Point,https://www.thetalentpoint.ae/,,board,,,,AE,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
 talentmate,Talentmate,https://www.talentmate.com/,,board,,,,AE;SA;QA,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
 gulfjobs,GulfJobs,https://www.gulfjobs.com/,,board,,,,AE;BH;KW;OM;QA;SA,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
-dubai-careers,Dubai Careers,https://dubaicareers.ae/en/pages/default.aspx,,government,,,,AE,,,Middle East,public-sector,,,,unknown,,unknown,,,,partially-verified
+dubai-careers,Dubai Careers,https://dubaicareers.ae/en/pages/default.aspx,,government,,,,AE,,en;ar,Middle East,public-sector,,Government of Dubai,,unknown,,unknown,,,"Employer portal of the Dubai government. Business model, API and partner options were not stated on the pages read.",partially-verified
 uaejobs-ae,UAEJobs.ae,https://uaejobs.ae/,,aggregator,,,,AE,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
 jobxdubai,JobXDubai,https://jobxdubai.com/,,aggregator,,,,AE;SA,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
 uae-career,UAE Career,https://www.uaecareer.ae/,,board,,,,AE,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
-tes-jobs,Tes Jobs,https://www.tes.com/jobs,,niche-board,,,,AE,,,Middle East,education,,,,unknown,,unknown,,,,partially-verified
-teach-away,Teach Away,https://www.teachaway.com/teach-in-dubai-uae,,niche-board,,,,AE,,,Middle East,education,,,,unknown,,unknown,,,,partially-verified
+tes-jobs,Tes Jobs,https://www.tes.com/jobs,,niche-board,UK,,,AE,,,Middle East,education,,,subscription,unknown,,unknown,,,"Jobs page footer states Tes Global Ltd is registered in England with its registered office in Sheffield; this is the registered office, not a stated head office. Advertise page describes a subscription for unlimited job adverts. No API or partner page was found in the pages read.",partially-verified
+teach-away,Teach Away,https://www.teachaway.com/teach-in-dubai-uae,,niche-board,,,,AE,en,en,Middle East,education,,,subscription,unknown,,unknown,,manual posting,"Recruitment portal for teachers. Recruitment subscription with a one-time annual fee, amount not shown. Post uncapped job listings year-round. No API, partner or headquarters statement found in pages read.",partially-verified
 seekteachers,SeekTeachers,https://www.seekteachers.com/,,niche-board,,,,AE,,,Middle East,education,,,,unknown,,unknown,,,,partially-verified
 oliv,Oliv,https://oliv.com/ae-en/,,niche-board,,,,AE,,,Middle East,graduates,,,,unknown,,unknown,,,,partially-verified
-sheryan-dubai-health-authority,Sheryan (Dubai Health Authority),https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities,,government,,,,AE,,,Middle East,healthcare,,,,unknown,,unknown,,,,partially-verified
+sheryan-dubai-health-authority,Sheryan (Dubai Health Authority),https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities,,government,,,,AE,en,en;ar,Middle East,healthcare,,Dubai Health Authority,,unknown,,unknown,,manual posting,Portal homepage describes health providers posting vacancies. No prices or API statement was found on the pages read.,partially-verified
 sharjah-department-of-human-resources-job-seekers-service,Sharjah Department of Human Resources job seekers service,https://dhr.gov.ae/en/e-services/services-for-job-seekers,,government,,,,AE,,,Middle East,public-sector,,,,unknown,,unknown,,,,partially-verified
-ras-al-khaimah-careers,Ras Al Khaimah Careers,https://careers.rak.ae/,,government,,,,AE,,,Middle East,public-sector,,,,unknown,,unknown,,,,partially-verified
-karriere-at,karriere.at,https://www.karriere.at,,board,,,,AT,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-alle-jobs-ams-public-job-search,alle jobs (AMS public job search),https://jobs.ams.at,,government,,,,AT,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+ras-al-khaimah-careers,Ras Al Khaimah Careers,https://careers.rak.ae/,,government,,,,AE,en,en;ar,Middle East,public-sector,,,,unknown,,unknown,,,"Job portal listing jobs from employers in Ras Al Khaimah. The language menu offers English (United Kingdom) and Arabic. No employer pricing, API, parent company or ingest method stated on the home and contact pages read.",partially-verified
+karriere-at,karriere.at,https://www.karriere.at,,board,,,,AT,,,Europe,general,,,per post,unknown,,unknown,,,"Imprint lists offices in Linz and Wien, Austria; the imprint does not say which is the head office. Employer ad products start at EUR 949 per ad (Standard, 30 days). No language switcher, developer, API or partner page was found in the pages read.",partially-verified
+alle-jobs-ams-public-job-search,alle jobs (AMS public job search),https://jobs.ams.at,,government,,,,AT,de,de;en,Europe,general,,AMS Österreich,,unknown,,unknown,,crawl;API,"Public job search of AMS Österreich, free for job seekers. Per the AMS help page, listings come from a crawler and from an employer interface called HR-API. No public developer API page or employer pricing found.",partially-verified
 jobs-at,jobs.at,https://www.jobs.at,,board,,,,AT,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
 hokify,hokify,https://www.hokify.at,,board,,,,AT,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-meinjob-at,meinjob.at,https://meinjob.at,,board,,,,AT,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+meinjob-at,meinjob.at,https://meinjob.at,,board,,,,AT,de,de,Europe,general,,CAWG GmbH,,unknown,,unknown,,manual posting,"Operated by CM Classified Media GmbH, Vienna. Single job ads 159,00 to 259,00 EUR, packages 449,00 to 1.099,00 EUR per the products page. About page says the platform is part of the oe24 network. Platform credit reads Powered by Jobiqo. No API, partner or language switcher seen.",partially-verified
 absolventen-at,absolventen.at,https://www.absolventen.at,,niche-board,,,,AT,,,Europe,graduates,,,,unknown,,unknown,,,,partially-verified
 tirolerjobs-at,tirolerjobs.at,https://www.tirolerjobs.at,,board,,,,AT,,,Europe,regional (Tyrol),,,,unknown,,unknown,,,,partially-verified
 jobs-in-wien,Jobs in Wien,http://jobsinvienna.com/,,niche-board,,,,AT,,,Europe,english-speaking jobs in Vienna,,,,unknown,,unknown,,,,partially-verified
-vdab,VDAB,https://www.vdab.be,,government,,,,BE,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-le-forem,Le Forem,https://www.leforem.be,,government,,,,BE,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-actiris,Actiris,https://www.actiris.brussels,,government,,,,BE,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+vdab,VDAB,https://www.vdab.be,,government,,,,BE,nl,nl,Europe,general,,,free basic listings with paid formulas,on-request,https://extranet.vdab.be/api-center-excellence-coe,yes,https://extranet.vdab.be/,API;manual posting,"Dutch-language public employment service site. Employer page shows free posting and paid formulas, prices not shown. API Center page lists a Vacature Posting API and a request form. Language switcher options not seen in pages read.",partially-verified
+le-forem,Le Forem,https://www.leforem.be,,government,,,,BE,,,Europe,general,,,free,unknown,,unknown,,manual posting,Employer page states online job posting is free. No language switcher or API page was found on the pages read.,partially-verified
+actiris,Actiris,https://www.actiris.brussels,,government,,,,BE,fr,fr;nl;en,Europe,general,,,,unknown,,unknown,,manual posting,"Employer page describes posting vacancies through My Actiris. No prices, parent company or API statement was found on the pages read.",partially-verified
 talent-brussels,talent.brussels,https://www.talent.brussels,,government,,,,BE,,,Europe,public-sector,,,,unknown,,unknown,,,,partially-verified
-student-be,Student.be,https://www.student.be,,niche-board,,,,BE,,,Europe,graduates,,,,unknown,,unknown,,,,partially-verified
+student-be,Student.be,https://www.student.be,,niche-board,,,,BE,nl,nl;fr;en,Europe,graduates,,,"per post, subscription",unknown,https://www.student.be/api-docs/,unknown,,API;ATS integration;manual posting,"Employer site shows NL, FR and EN; the main site footer shows only NL. Credits from €60 per vacancy (€30 each at 10 credits) or a licence from €104 per month. API V3 docs require a Bearer key but do not say how keys are issued. Headquarters and parent not stated.",partially-verified
 studentjob-be,StudentJob.be,https://www.studentjob.be,,niche-board,,,,BE,,,Europe,students,,,,unknown,,unknown,,,,partially-verified
 techjobs-be,Techjobs.be,https://www.techjobs.be,,niche-board,,,,BE,,,Europe,tech,,,,unknown,,unknown,,,,partially-verified
 engineering-jobs-belgium,Engineering.jobs (Belgium),https://be.engineering.jobs,,niche-board,,,,BE,,,Europe,tech/engineering,,,,unknown,,unknown,,,,partially-verified
 brusselsjobs,BrusselsJobs,https://www.brusselsjobs.com,,niche-board,,,,BE,,,Europe,expat,,,,unknown,,unknown,,,,partially-verified
-xpatjobs,Xpatjobs,https://www.xpatjobs.com,,niche-board,,,,BE,,,Europe,expat,,,,unknown,,unknown,,,,partially-verified
+xpatjobs,Xpatjobs,https://www.xpatjobs.com,,niche-board,,,,BE,en,en,Europe,expat,,Armitage Global Ltd,per post and pay per click,unknown,,unknown,,,Owned and operated by Armitage Global Ltd per the about page. Single job posting priced in euros; the advertise page lists pay per click and an XML feed in its plan table. No registered office address found on the pages read.,partially-verified
 werkenindegezondheidszorg-be,Werkenindegezondheidszorg.be,https://www.werkenindegezondheidszorg.be,,niche-board,,,,BE,,,Europe,healthcare,,,,unknown,,unknown,,,,partially-verified
-jobup-ch,jobup.ch,https://www.jobup.ch,,board,,,,CH,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-jobscout24,JobScout24,https://www.jobscout24.ch,,board,,,,CH,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-job-room-arbeit-swiss,Job-Room (arbeit.swiss),https://www.arbeit.swiss,,government,,,,CH,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-jobwinner-ch,jobwinner.ch,https://www.jobwinner.ch,,board,,,,CH,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+jobup-ch,jobup.ch,https://www.jobup.ch,,board,,,,CH,,fr;en,Europe,general,,JobCloud SA,free posting with paid visibility options,unknown,,unknown,,manual posting in recruiter area,Recruiter pages show FR and EN language links. Primary language and headquarters are not stated. Owner taken from the about page.,partially-verified
+jobscout24,JobScout24,https://www.jobscout24.ch,,board,,,,CH,,de;fr;en,Europe,general,,,free with paid visibility options,unknown,,unknown,,,"Employer page offers free job posting with optional paid visibility options. Footer carries the copyright line of JobCloud, which the page does not describe as a parent. No API, partner or headquarters statement was found in the pages read.",partially-verified
+job-room-arbeit-swiss,Job-Room (arbeit.swiss),https://www.arbeit.swiss,,government,CH,,,CH,en,de;fr;it;en,Europe,general,,State Secretariat for Economic Affairs (SECO),,unknown,,unknown,,manual posting,"Federal unemployment insurance and public employment service portal. Vacancies are registered on Job-Room. No developer, API or partner page linked from the pages read.",partially-verified
+jobwinner-ch,jobwinner.ch,https://www.jobwinner.ch,,board,CH,,,CH,de,de;fr;en,Europe,general,,JobCloud AG,,unknown,,unknown,,,"Imprint lists JobCloud AG headquarters in Zurich and says Jobwinner belongs to JobCloud. Business model, API and partner pages were not found on this domain.",partially-verified
 alpha-ch,alpha.ch,https://www.alpha.ch,,niche-board,,,,CH,,,Europe,professionals and executives,,,,unknown,,unknown,,,,partially-verified
 ictjobs-ch,ictjobs.ch,https://www.ictjobs.ch,,niche-board,,,,CH,,,Europe,tech,,,,unknown,,unknown,,,,partially-verified
 ictcareer-ch,ICTcareer.ch,https://www.ictcareer.ch,,niche-board,,,,CH,,,Europe,tech,,,,unknown,,unknown,,,,partially-verified
 medienjobs-ch,medienjobs.ch,https://www.medienjobs.ch,,niche-board,,,,CH,,,Europe,media and communications,,,,unknown,,unknown,,,,partially-verified
-jobnet,Jobnet,https://jobnet.dk,,government,,,,DK,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-workindenmark,WorkInDenmark,https://workindenmark.dk,,government,,,,DK,,,Europe,general (international candidates),,,,unknown,,unknown,,,,partially-verified
+jobnet,Jobnet,https://jobnet.dk,,government,DK,,,DK,da,da,Europe,general,,Styrelsen for Arbejdsmarked og Rekruttering,,unknown,,unknown,,,"Job-seeker portal. The footer names the Danish employment agency and gives a Copenhagen address. No employer pricing, API, language options, partner program or ingest method found on the home, find-job, support or help pages read.",partially-verified
+workindenmark,WorkInDenmark,https://workindenmark.dk,,government,DK,,,DK,en,en;da,Europe,general (international candidates),,Danish Agency for Labour Market and Recruitment,free,unknown,,unknown,,,"Public employment service based in Odense, part of the EURES network. Its employer service is stated to be free of charge. No job posting API or partner programme found on the pages read.",partially-verified
 jobsearch-dk,Jobsearch.dk,https://www.jobsearch.dk,,board,,,,DK,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
 doi-jobs,DOI Jobs,https://doi.dk,,board,,,,DK,,,Europe,public sector (municipal),,,,unknown,,unknown,,,,partially-verified
 it-jobbank-computerworld-it-jobbank,IT-jobbank (Computerworld it-jobbank),https://www.it-jobbank.dk,,niche-board,,,,DK,,,Europe,tech,,,,unknown,,unknown,,,,partially-verified
 techjob,TechJob,https://techjob.dk,,niche-board,,,,DK,,,Europe,tech and engineering,,,,unknown,,unknown,,,,partially-verified
-the-hub,The Hub,https://thehub.io,,niche-board,,,,DK;NO,,,Europe,startup and tech,,,,unknown,,unknown,,,,partially-verified
+the-hub,The Hub,https://thehub.io,,niche-board,,,,DK;NO,,,Europe,startup and tech,,Mesh Community,pay per post,unknown,,unknown,,import,"Per-job prices of €99 (Basic, 30 days), €330 (Pro, 45 days) and €1.100 (Max, 60 days). Mesh Community acquired The Hub in 2022. No headquarters, language options, API or partner program found on the pages read.",partially-verified
 akademikerjob-dk,Akademikerjob.dk,https://akademikerjob.dk,,niche-board,,,,DK,,,Europe,academics,,,,unknown,,unknown,,,,partially-verified
-job-dsr-dk,job.dsr.dk,https://job.dsr.dk,,niche-board,,,,DK,,,Europe,healthcare (nursing),,,,unknown,,unknown,,,,partially-verified
+job-dsr-dk,job.dsr.dk,https://job.dsr.dk,,niche-board,,,,DK,,,Europe,healthcare (nursing),,Dansk Sygeplejeråd,,unknown,,unknown,,,"Operated by the Danish nurses union. Footer shows a Copenhagen postal address, which is not recorded as headquarters. No language selector, pricing or API pages were read.",partially-verified
 sundhedsjobs-dk,Sundhedsjobs.dk,https://www.sundhedsjobs.dk,,niche-board,,,,DK,,,Europe,healthcare,,,,unknown,,unknown,,,,partially-verified
 ufaglaertejobs-dk,Ufaglaertejobs.dk,https://www.ufaglaertejobs.dk,,niche-board,,,,DK,,,Europe,unskilled and entry-level jobs,,,,unknown,,unknown,,,,partially-verified
 jobscenen,Jobscenen,https://jobscenen.dmf.dk,,niche-board,,,,DK,,,Europe,arts and creative,,,,unknown,,unknown,,,,partially-verified
 sydjob,Sydjob,https://www.sydjob.dk,,board,,,,DK,,,Europe,regional (Southern Denmark),,,,unknown,,unknown,,,,partially-verified
 jobs-in-copenhagen,Jobs in Copenhagen,http://jobsincopenhagen.com,,niche-board,,,,DK,,,Europe,English-speaking professionals,,,,unknown,,unknown,,,,partially-verified
-duunitori,Duunitori,https://duunitori.fi,,board,,,,FI,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+duunitori,Duunitori,https://duunitori.fi,,board,FI,,,FI,fi,fi;en;sv,Europe,general,,,free basic listing or paid campaign per listing,unknown,,unknown,,manual posting,"Operator Duunitori Oy in Helsinki. Basic listing is free; paid campaigns run 30 days (14 days for the lowest level). Site offers Finnish, English and Swedish job listings.",partially-verified
 jobly,Jobly,https://www.jobly.fi,,board,,,,FI,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-ty-markkinatori,Työmarkkinatori,https://www.tyomarkkinatori.fi,,government,,,,FI,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-valtiolle-fi,Valtiolle.fi,https://www.valtiolle.fi,,government,,,,FI,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-kuntarekry,Kuntarekry,https://www.kuntarekry.fi,,niche-board,,,,FI,,,Europe,public sector,,,,unknown,,unknown,,,,partially-verified
+ty-markkinatori,Työmarkkinatori,https://www.tyomarkkinatori.fi,,government,,,,FI,,fi;sv;en,Europe,general,,,,unknown,,unknown,,,"Footer lists a Rajapinnat (interfaces) link, but its page could not be located, so no api_status is recorded. Homepage, English personal-customers page and footer read in the browser reader.",partially-verified
+valtiolle-fi,Valtiolle.fi,https://www.valtiolle.fi,,government,FI,,,FI,fi,fi;sv;en,Europe,general,,,,unknown,,unknown,,,"Finnish state job search service. Home page links a Swedish and an English version. The privacy notice gives a Helsinki visiting address for the controller. No pricing, API or partner page was found in the pages read.",partially-verified
+kuntarekry,Kuntarekry,https://www.kuntarekry.fi,,niche-board,,,,FI,fi,fi,Europe,public sector,,,,unknown,,unknown,,,"Finnish job board for municipal and wellbeing-area employers. Homepage says the Kuntarekry service is produced by Talentech, which is not stated as a parent. No API, partner or pricing statement found in pages read.",partially-verified
 jobcrawls,JobCrawls,https://www.jobcrawls.com,,aggregator,,,,FI,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-jobbnorge,Jobbnorge,https://jobbnorge.no,,board,,,,NO,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-karier-co,KarieR.co,https://karier.co/no/,,aggregator,,,,NO,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+jobbnorge,Jobbnorge,https://jobbnorge.no,,board,,,,NO,nb,nb;en;nn;se,Europe,general,,,,unknown,,unknown,,,"Language menu lists Norsk Bokmål, English, Norsk Nynorsk and Sámegiella (mapped to se, Northern Sami). Footer names Grade Jobbnorge AS with a Norwegian org. number. No prices, API or partner page was found in the pages read.",partially-verified
+karier-co,KarieR.co,https://karier.co/no/,,aggregator,,,,NO,,,Europe,general,,,,unknown,,unknown,,crawl,"About page says listings are indexed from employer career sites and verified ATS systems, and that employers cannot buy higher ranking. No pricing, owner, headquarters or API page was found in the pages read.",partially-verified
 tekjobb,Tekjobb,https://tekjobb.no,,niche-board,,,,NO,,,Europe,tech,,,,unknown,,unknown,,,,partially-verified
 startuplab-jobs,STARTUPLAB Jobs,https://jobs.startuplab.no,,niche-board,,,,NO,,,Europe,tech startups,,,,unknown,,unknown,,,,partially-verified
 remowork,RemoWork,https://remowork.life,,niche-board,,,,NO,,,Europe,remote,,,,unknown,,unknown,,,,partially-verified
-kampanje-jobb,Kampanje Jobb,https://jobb.kampanje.com,,niche-board,,,,NO,,,Europe,media and communications,,,,unknown,,unknown,,,,partially-verified
+kampanje-jobb,Kampanje Jobb,https://jobb.kampanje.com,,niche-board,,,,NO,no,no,Europe,media and communications,,,paid job ad packages,unknown,,unknown,,,"Employer page describes job ad packages without prices. The company postal address is on the parent publisher's kampanje.com site, which was not used as a source.",partially-verified
 jobsinoslo,Jobsinoslo,http://jobsinoslo.com,,niche-board,,,,NO,,,Europe,English-speaking professionals in Oslo,,,,unknown,,unknown,,,,partially-verified
-sapo-emprego,SAPO Emprego,https://emprego.sapo.pt,,board,,,,PT,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-expresso-emprego,Expresso Emprego,https://www.expressoemprego.pt,,board,,,,PT,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-iefp-iefponline,IEFP iefponline,https://iefponline.iefp.pt,,government,,,,PT,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+sapo-emprego,SAPO Emprego,https://emprego.sapo.pt,,board,,,,PT,pt,pt,Europe,general,,MEO,free,unknown,,unknown,,manual posting;apply redirect,"Employers can publish free job ads; the page also mentions premium solutions without prices. The employer page says a free API exists for publishing ads, but the key or access route is not stated. SAPO's about page says it was bought by the former Portugal Telecom, now MEO. Headquarters, language options and partner program not found.",partially-verified
+expresso-emprego,Expresso Emprego,https://www.expressoemprego.pt,,board,,,,PT,pt,pt,Europe,general,,,pay per post,unknown,,unknown,,manual posting,"Contact page says a job ad must be paid for before the weekly edition deadline. No language switcher, prices or API page was found.",partially-verified
+iefp-iefponline,IEFP iefponline,https://iefponline.iefp.pt,,government,,,,PT,pt,pt,Europe,general,,Instituto do Emprego e Formação Profissional (IEFP),,unknown,,unknown,,manual posting,"Portal is owned by the IEFP. Employers can post directly on the portal or pre-register an offer by form, after which a technician completes it. No fees, language options or API found on the pages read.",partially-verified
 olx-portugal-emprego,OLX Portugal Emprego,https://www.olx.pt/emprego/,,board,,,,PT,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
-landing-jobs,Landing.jobs,https://landing.jobs,,niche-board,,,,PT,,,Europe,tech,,,,unknown,,unknown,,,,partially-verified
+landing-jobs,Landing.jobs,https://landing.jobs,,niche-board,,,,PT,en,en,Europe,tech,,Triveris Group,"subscription, plus hiring fee on some plans",unknown,,unknown,,ATS integration;manual posting,"Plans from €99 per month (Post Job Only) to €4.999 per month (Unlimited, no hiring fee). Sourcing and Scalability plans add hiring fees. The about page gives a Lisbon office address but does not label it headquarters. No API, language options or partner program found.",partially-verified
+prace-cz,Prace.cz,https://www.prace.cz,,board,,,,CZ,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+jenpr-ce-cz,JenPráce.cz,https://www.jenprace.cz,,board,,,,CZ,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+hitprace-cz,HitPrace.cz,https://www.hitprace.cz,,aggregator,,,,CZ,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+pracomat-cz,Pracomat.cz,https://pracomat.cz,,board,,,,CZ,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+expats-cz-jobs,Expats.cz Jobs,https://www.expats.cz,,niche-board,,,,CZ,,,Europe,English-speaking expats,,,,unknown,,unknown,,,,partially-verified
+ad-pr-ce-r-vacancy-listings-jednotn-port-l-mpsv,Úřad práce ČR vacancy listings (Jednotný portál MPSV),https://portal.gov.cz/sluzby-vs/zverejneni-volnych-pracovnich-mist-uradem-S14470,,government,,,,CZ,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+e-zamestnani-cz,e-zamestnani.cz,https://www.e-zamestnani.cz,,niche-board,,,,CZ,,,Europe,public sector,,,,unknown,,unknown,,,,partially-verified
+pr-ce-za-rohem,Práce za rohem,https://www.pracezarohem.cz,,niche-board,,,,CZ,,,Europe,local jobs and student brigades,,,,unknown,,unknown,,,,partially-verified
+dobr-pr-ce-cz,Dobrá práce.cz,https://www.dobraprace.cz,,board,,,,CZ,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+cocuma-cz,Cocuma.cz,https://www.cocuma.cz,,board,,,,CZ,,,Europe,general (verified companies),,,,unknown,,unknown,,,,partially-verified
+teamio,Teamio,https://cz.teamio.com,,multiposting,,,,CZ,,,Europe,recruitment software (ATS),,,,unknown,,unknown,,,,partially-verified
+brnotechregion-jobs,Brnotechregion jobs,https://brnotechregion.eu,,board,,,,CZ,,,Europe,"regional (Brno, South Moravia)",,,,unknown,,unknown,,,,partially-verified
+bestjobs,BestJobs,https://www.bestjobs.eu,,board,,,,RO,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+hipo-ro,Hipo.ro,https://www.hipo.ro,,board,,,,RO,,,Europe,graduates,,,,unknown,,unknown,,,,partially-verified
+anofm-romanian-public-employment-service,ANOFM (Romanian public employment service),https://www.anofm.ro,,government,,,,RO,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+olx-jobs-romania,OLX Jobs Romania,https://www.olx.ro/locuri-de-munca/,,board,,,,RO,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+undelucram-ro,Undelucram.ro,https://www.undelucram.ro,,board,,,,RO,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+lucrezi-ro,Lucrezi.ro,https://lucrezi.ro,,aggregator,,,,RO,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+myjob-ro,Myjob.ro,https://www.myjob.ro,,board,,,,RO,,,Europe,general,,,,unknown,,unknown,,,,partially-verified
+iagora,iAgora,https://www.iagora.com,,niche-board,,,,RO;KE;CO;FR;US;DE;ES;SG;IT;UK;NL;BR;CL,,,Europe,graduates and internships,,,,unknown,,unknown,,,,partially-verified
+secretcv,Secretcv,https://www.secretcv.com,,board,,,,TR,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
+eleman-net,Eleman.net,https://www.eleman.net,,board,,,,TR,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
+i-kur-t-rkiye-i-kurumu,İŞKUR (Türkiye İş Kurumu),https://www.iskur.gov.tr,,government,,,,TR,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
+youthall,Youthall,https://www.youthall.com,,board,,,,TR,,,Middle East,graduates,,,,unknown,,unknown,,,,partially-verified
+toptalent,Toptalent,https://toptalent.co,,board,,,,TR,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
+techcareer,TechCareer,https://www.techcareer.net,,niche-board,,,,TR,,,Middle East,tech,,,,unknown,,unknown,,,,partially-verified
+public-institution-recruitment-information-system-job-alio-go-kr,Public Institution Recruitment Information System (job.alio.go.kr),https://job.alio.go.kr,,government,,,,KR,,,East Asia,public sector,,,,unknown,,unknown,,,,partially-verified
+incruit,Incruit,https://www.incruit.com,,board,,,,KR,,,East Asia,general,,,,unknown,,unknown,,,,partially-verified
+medicaljob,MedicalJob,https://www.medicaljob.co.kr,,niche-board,,,,KR,,,East Asia,healthcare,,,,unknown,,unknown,,,,partially-verified
+rallit,Rallit,https://www.rallit.com,,niche-board,,,,KR,,,East Asia,tech,,,,unknown,,unknown,,,,partially-verified
+58-58-com,58同城 (58.com),https://www.58.com,,board,,,,CN,,,East Asia,general,,,,unknown,,unknown,,,,partially-verified
+dxy-talent-network,丁香人才网 (DXY Talent Network),https://www.jobmd.cn,,niche-board,,,,CN,,,East Asia,healthcare,,,,unknown,,unknown,,,,listed-only
+echinacities,eChinacities,https://www.echinacities.com,,board,,,,CN,,,East Asia,expat,,,,unknown,,unknown,,,,partially-verified
+smartshanghai-work-in-shanghai,SmartShanghai (Work in Shanghai),https://www.smartshanghai.com/jobs,,board,,,,CN,,,East Asia,expat,,,,unknown,,unknown,,,,partially-verified
+karirhub-kemnaker,Karirhub (Kemnaker),https://karirhub.kemnaker.go.id,,government,,,,ID,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+dealls,Dealls,https://dealls.com,,board,,,,ID,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+jobindo,Jobindo,https://www.jobindo.com,,board,,,,ID,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+karir-com,Karir.com,https://www.karir.com,,board,,,,ID,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+kitalulus,KitaLulus,https://www.kitalulus.com,,board,,,,ID,,,SEA,graduates,,,,unknown,,unknown,,,,partially-verified
+sribu,Sribu,https://www.sribu.com,,board,,,,ID,,,SEA,freelance,,,,unknown,,unknown,,,,partially-verified
+kerjabilitas,Kerjabilitas,https://www.kerjabilitas.com,,social-network+board,,,,ID,,,SEA,disability,,,,unknown,,unknown,,,,partially-verified
+myfuturejobs,MYFutureJobs,https://myfuturejobs.gov.my,,government,,,,MY,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+hiredly,Hiredly,https://my.hiredly.com,,board,,,,MY,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+ajobthing,AJobThing,https://www.ajobthing.com,,board,,,,MY,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+doctor-jobs-today,Doctor Jobs Today,https://doctorjobs.today/my/,,niche-board,,,,MY;PH,,,SEA,healthcare,,,,unknown,,unknown,,,,partially-verified
+eduadvisor,EduAdvisor,https://eduadvisor.my,,niche-board,,,,MY,,,SEA,graduates,,,,unknown,,unknown,,,,partially-verified
+onlinejobs-ph,OnlineJobs.ph,https://www.onlinejobs.ph,,board,,,,PH,,,SEA,remote,,,,unknown,,unknown,,,,partially-verified
+mynimo,Mynimo,https://www.mynimo.com,,board,,,,PH,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+workabroad-ph,WorkAbroad.ph,https://www.workabroad.ph,,board,,,,PH,,,SEA,overseas employment,,,,unknown,,unknown,,,,partially-verified
+jobbkk,JobBKK,https://www.jobbkk.com,,board,,,,TH,,,SEA,general,,,,unknown,,unknown,,,,listed-only
+thaijob,ThaiJob,https://www.thaijob.com,,board,,,,TH,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+job-th,Job.th,https://www.jobth.com,,board,,,,TH,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+ajarn-com,Ajarn.com,https://ajarn.com,,board,,,,TH,,,SEA,education,,,,unknown,,unknown,,,,partially-verified
+vietnamworks,VietnamWorks,https://www.vietnamworks.com,,board,,,,VN,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+careerlink-vn,CareerLink.vn,https://www.careerlink.vn,,board,,,,VN,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+itviec,ITviec,https://itviec.com,,niche-board,,,,VN,,,SEA,tech,,,,unknown,,unknown,,,,partially-verified
+topdev,TopDev,https://topdev.vn,,board,,,,VN,,,SEA,general,,,,unknown,,unknown,,,,partially-verified
+akhtaboot,Akhtaboot,https://www.akhtaboot.com,,board,,,,SA,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
+mustakbil,Mustakbil,https://sa.mustakbil.com,,board,,,,SA,,,Middle East,general,,,,unknown,,unknown,,,,partially-verified
+wuzzuf,Wuzzuf,https://wuzzuf.net,,board,,,,EG,,,Africa,general,,,,unknown,,unknown,,,,partially-verified
+hotnigerianjobs,HotNigerianJobs,https://www.hotnigerianjobs.com,,board,,,,NG,,,Africa,general,,,,unknown,,unknown,,,,partially-verified
+jobnow-nigeria,Jobnow Nigeria,https://jobnow.ng,,board,,,,NG,,,Africa,general,,,,unknown,,unknown,,,,partially-verified
+jobgurus-com-ng,Jobgurus.com.ng,https://www.jobgurus.com.ng,,board,,,,NG,,,Africa,general,,,,unknown,,unknown,,,,partially-verified
+jobweb-kenya,JobWeb Kenya,https://jobwebkenya.com,,board,,,,KE,,,Africa,general,,,,unknown,,unknown,,,,partially-verified
+career-point-kenya,Career Point Kenya,https://www.careerpointkenya.co.ke,,board,,,,KE,,,Africa,general,,,,unknown,,unknown,,,,partially-verified
+public-service-commission-of-kenya-portal,Public Service Commission of Kenya portal,https://www.publicservice.go.ke,,government,,,,KE,,,Africa,public sector,,,,unknown,,unknown,,,,partially-verified
+advance-africa,Advance-Africa,https://www.advance-africa.com,,niche-board,,,,KE,,,Africa,healthcare,,,,unknown,,unknown,,,,partially-verified
+impactpool,Impactpool,https://www.impactpool.org,,niche-board,,,,ZZ;KE,,,Africa,international development and humanitarian,,,,unknown,,unknown,,,,partially-verified
+get-on-board,Get on Board,https://www.getonbrd.com,,niche-board,,,,AR;CO,,,Latin America,tech,,,,unknown,,unknown,,,,partially-verified
+trabajo-empleo-y-seguridad-social-argentina-government,"Trabajo, Empleo y Seguridad Social (Argentina government)",https://www.argentina.gob.ar/trabajo,,government,,,,AR,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+elempleo,Elempleo,https://www.elempleo.com,,board,,,,CO;CR,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+agencia-p-blica-de-empleo-del-sena,Agencia Pública de Empleo del SENA,https://ape.sena.edu.co,,government,,,,CO,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+sistema-de-informaci-n-del-servicio-de-empleo-spe,Sistema de Información del Servicio de Empleo (SPE),https://personas.serviciodeempleo.gov.co,,government,,,,CO,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+magneto-empleos,Magneto Empleos,https://www.magneto365.com/co,,board,,,,CO,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+aliadolaboral,AliadoLaboral,https://www.aliadolaboral.com,,board,,,,CO,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+latojobs,LATOjobs,https://www.latojobs.com,,board,,,,CO;AR;BR;MX;CL;PE;UY;EC;CR;BO,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+colombia-move,Colombia Move,https://colombiamove.com,,board,,,,CO,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+trabajando-com,Trabajando.com,https://www.trabajando.cl,,board,,,,CL,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+bolsa-nacional-de-empleo-bne,Bolsa Nacional de Empleo (BNE),https://www.bne.cl,,government,,,,CL,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+perutrabajos,PeruTrabajos,https://www.perutrabajos.com,,aggregator,,,,PE,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+portal-trabajo,Portal Trabajo,https://portaltrabajos.pe,,board,,,,PE,,,Latin America,general,,,,unknown,,unknown,,,,partially-verified
+convocatoriasdetrabajo,ConvocatoriasDeTrabajo,https://www.convocatoriasdetrabajo.com,,aggregator,,,,PE,,,Latin America,public sector,,,,unknown,,unknown,,,,partially-verified
+job-udep,Job UDEP,https://www.udep.edu.pe/publicaciones/jobudep/,,niche-board,,,,PE,,,Latin America,graduates,,,,unknown,,unknown,,,,partially-verified

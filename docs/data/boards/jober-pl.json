@@ -16,13 +16,15 @@
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free posting with paid featured and renewal options",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "recruiter ATS panel, manual posting"
+ ],
+ "notes": "Posting is free. Paid packages are listed from 25 to 2000 PLN, and renewal costs 5 PLN. Parent company and API options were not stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jober-pl/",
  "indexable": false,
@@ -35,11 +37,20 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "ats-integration",
+  "free-to-post",
   "general",
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jober-pl",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;parent",
+  "note": "Free posting, paid packages and the recruiter ATS panel are stated; owner, languages and API were not stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +60,22 @@
    "title": "Jober.pl homepage",
    "accessed": "2026-11-09",
    "quote": "Jober to portal pracy, który zawsze będzie darmowy",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.jober.pl",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "U nas dodawanie ofert zawsze było i będzie bezpłatne.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jober.pl",
+   "title": "Employers menu",
+   "accessed": "2026-11-09",
+   "quote": "Bezpłatny ATS - panel rekrutera",
    "quote_check": "ok"
   }
  ]

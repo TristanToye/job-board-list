@@ -11,18 +11,22 @@
   "CH"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "de",
+  "fr",
+  "en"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free with paid visibility options",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Employer page offers free job posting with optional paid visibility options. Footer carries the copyright line of JobCloud, which the page does not describe as a parent. No API, partner or headquarters statement was found in the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobscout24/",
  "indexable": false,
@@ -35,11 +39,19 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "general",
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobscout24",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
+  "note": "Language switcher shows DE, FR and EN; employer page states free posting with paid options; no API, partner or headquarters statement found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +61,22 @@
    "title": "JobScout24 homepage",
    "accessed": "2026-11-09",
    "quote": "Hier finden Sie sämtliche Stellenangebote für alle Regionen und Berufe der Schweiz.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://b2b.jobscout24.ch/en-recruiter-publish-job-ad",
+   "title": "Employer page language switcher",
+   "accessed": "2026-11-09",
+   "quote": "DE FR EN",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://b2b.jobscout24.ch/en-recruiter-publish-job-ad",
+   "title": "Employer page",
+   "accessed": "2026-11-09",
+   "quote": "Publish it for free and boost its visibility with paid options whenever you need them.",
    "quote_check": "ok"
   }
  ]

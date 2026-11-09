@@ -11,21 +11,26 @@
   "CH"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "fr",
+  "en"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "JobCloud SA",
+ "business_model": "free posting with paid visibility options",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting in recruiter area"
+ ],
+ "notes": "Recruiter pages show FR and EN language links. Primary language and headquarters are not stated. Owner taken from the about page.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobup-ch/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,11 +40,19 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "general",
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobup-ch",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;api_status;partner_program",
+  "note": "Owner, languages, free posting with paid options and recruiter posting are stated; headquarters and API were not stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +62,38 @@
    "title": "jobup.ch homepage",
    "accessed": "2026-11-09",
    "quote": "Bienvenue sur jobup.ch, la principale plateforme d'emploi pour la région francophone de Suisse.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad",
+   "title": "Recruiter page language links",
+   "accessed": "2026-11-09",
+   "quote": "FR",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.jobup.ch/en/about/",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "jobup.ch is owned by JobCloud SA, the leading digital company in the Swiss employment market.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad",
+   "title": "Recruiter landing page",
+   "accessed": "2026-11-09",
+   "quote": "start for free & pay when needed",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad",
+   "title": "Recruiter landing page",
+   "accessed": "2026-11-09",
+   "quote": "Create job ads thanks to AI-generated text proposals",
    "quote_check": "ok"
   }
  ]

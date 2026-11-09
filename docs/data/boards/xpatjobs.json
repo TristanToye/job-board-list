@@ -10,22 +10,24 @@
  "countries_served": [
   "BE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Europe",
  "niche": "expat",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Armitage Global Ltd",
+ "business_model": "per post and pay per click",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Owned and operated by Armitage Global Ltd per the about page. Single job posting priced in euros; the advertise page lists pay per click and an XML feed in its plan table. No registered office address found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/xpatjobs/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,10 +37,19 @@
   "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-click",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "xpatjobs",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;partner_program;api_status",
+  "note": "Homepage, about, contact and advertise pages state the owner and prices; no headquarters address, language switcher or partner programme found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +59,30 @@
    "title": "Xpatjobs homepage",
    "accessed": "2026-11-09",
    "quote": "We specialise in jobs for English speaking expats and multilingual vacancies.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.xpatjobs.com/contact/about",
+   "title": "About Us",
+   "accessed": "2026-11-09",
+   "quote": "XpatJobs is owned and operated by Armitage Global Ltd.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.xpatjobs.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "We specialise in jobs for English speaking expats and multilingual vacancies.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.xpatjobs.com/agent",
+   "title": "Advertise your vacancy",
+   "accessed": "2026-11-09",
+   "quote": "Single job posting €199",
    "quote_check": "ok"
   }
  ]

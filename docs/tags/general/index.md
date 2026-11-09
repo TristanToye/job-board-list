@@ -1,6 +1,6 @@
 # General
 
-Jobs across many occupations and industries. 151 entries in the directory.
+Jobs across many occupations and industries. 204 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -11,6 +11,7 @@ Jobs across many occupations and industries. 151 entries in the directory.
 - [Freelancer.com](https://jobboardlist.com/boards/freelancer-com/): freelance-platform
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
+- [58同城 (58.com)](https://jobboardlist.com/boards/58-58-com/): board
 - [BOSS Zhipin](https://jobboardlist.com/boards/boss-zhipin/): board+chat, No known API
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
 - [SimplyHired](https://jobboardlist.com/boards/simplyhired/): aggregator
@@ -34,13 +35,15 @@ Jobs across many occupations and industries. 151 entries in the directory.
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
-- [VDAB](https://jobboardlist.com/boards/vdab/): government
+- [VDAB](https://jobboardlist.com/boards/vdab/): government, API key on request
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
+- [İŞKUR (Türkiye İş Kurumu)](https://jobboardlist.com/boards/i-kur-t-rkiye-i-kurumu/): government
 - [karriere.at](https://jobboardlist.com/boards/karriere-at/): board
 - [eRecruiter](https://jobboardlist.com/boards/erecruiter/): multiposting
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
 - [Catho](https://jobboardlist.com/boards/catho/): board
+- [Incruit](https://jobboardlist.com/boards/incruit/): board
 - [Jobbnorge](https://jobboardlist.com/boards/jobbnorge/): board
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
 - [Työmarkkinatori](https://jobboardlist.com/boards/ty-markkinatori/): government
@@ -55,7 +58,9 @@ Jobs across many occupations and industries. 151 entries in the directory.
 - [OCC Mundial](https://jobboardlist.com/boards/occ-mundial/): board
 - [Eluta](https://jobboardlist.com/boards/eluta/): aggregator
 - [MyCareersFuture](https://jobboardlist.com/boards/mycareersfuture/): government
+- [VietnamWorks](https://jobboardlist.com/boards/vietnamworks/): board
 - [Duunitori](https://jobboardlist.com/boards/duunitori/): board
+- [ANOFM (Romanian public employment service)](https://jobboardlist.com/boards/anofm-romanian-public-employment-service/): government
 - [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
 - [jobup.ch](https://jobboardlist.com/boards/jobup-ch/): board
 - [Job-Room (arbeit.swiss)](https://jobboardlist.com/boards/job-room-arbeit-swiss/): government
@@ -63,24 +68,19 @@ Jobs across many occupations and industries. 151 entries in the directory.
 - [foundit](https://jobboardlist.com/boards/foundit/): board
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Partner-only API
 - [PNet](https://jobboardlist.com/boards/pnet/): board
+- [Elempleo](https://jobboardlist.com/boards/elempleo/): board
 - [Jobboom](https://jobboardlist.com/boards/jobboom/): board
 - [WorkInDenmark](https://jobboardlist.com/boards/workindenmark/): government
 - [Jobijoba](https://jobboardlist.com/boards/jobijoba/): aggregator, API key on request
+- [Trabajando.com](https://jobboardlist.com/boards/trabajando-com/): board
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Partner-only API
 - [Workforce Australia](https://jobboardlist.com/boards/workforce-australia/): government
 - [Jobberman](https://jobboardlist.com/boards/jobberman/): board
+- [Prace.cz](https://jobboardlist.com/boards/prace-cz/): board
 - [Aplikuj.pl](https://jobboardlist.com/boards/aplikuj-pl/): board
 - [CareerBeacon](https://jobboardlist.com/boards/careerbeacon/): board
 - [JobScout24](https://jobboardlist.com/boards/jobscout24/): board
 - [Actiris](https://jobboardlist.com/boards/actiris/): government
 - [Jobnet](https://jobboardlist.com/boards/jobnet/): government
-- [Kalibrr](https://jobboardlist.com/boards/kalibrr/): board
-- [Rozee.pk](https://jobboardlist.com/boards/rozee-pk/): board
-- [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
-- [Careers24](https://jobboardlist.com/boards/careers24/): board
-- [Trabajos.com](https://jobboardlist.com/boards/trabajos-com/): board
-- [Jobly](https://jobboardlist.com/boards/jobly/): board
-- [Academic Work](https://jobboardlist.com/boards/academic-work/): board
-- [Rocket Jobs](https://jobboardlist.com/boards/rocket-jobs/): board
 
 Canonical page: https://jobboardlist.com/tags/general/

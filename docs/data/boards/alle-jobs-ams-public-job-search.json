@@ -10,22 +10,28 @@
  "countries_served": [
   "AT"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "de",
+ "languages_supported": [
+  "de",
+  "en"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
+ "parent": "AMS Österreich",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "crawl",
+  "API"
+ ],
+ "notes": "Public job search of AMS Österreich, free for job seekers. Per the AMS help page, listings come from a crawler and from an employer interface called HR-API. No public developer API page or employer pricing found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/alle-jobs-ams-public-job-search/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -35,6 +41,7 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "crawl-sourced",
   "general",
   "government-operated",
   "government-service",
@@ -42,7 +49,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "alle-jobs-ams-public-job-search",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program",
+  "note": "AMS help page states the operator, an English version and the crawler and HR-API intake; no employer pricing, public API docs or partner programme found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +66,38 @@
    "title": "alle jobs - die Stellensuche des AMS",
    "accessed": "2026-11-09",
    "quote": "alle jobs - die Stellensuche des AMS",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe",
+   "title": "AMS job search help",
+   "accessed": "2026-11-09",
+   "quote": "© 2026 AMS Österreich",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://jobs.ams.at/public/emps/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Jobs in folgenden Bereichen finden",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe",
+   "title": "AMS job search help",
+   "accessed": "2026-11-09",
+   "quote": "English Version",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe",
+   "title": "AMS job search help",
+   "accessed": "2026-11-09",
+   "quote": "durch einen sogenannten Crawler aus dem Internet extrahiert und gesammelt",
    "quote_check": "ok"
   }
  ]

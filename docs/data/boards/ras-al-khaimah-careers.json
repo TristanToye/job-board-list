@@ -10,8 +10,11 @@
  "countries_served": [
   "AE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "ar"
+ ],
  "region": "Middle East",
  "niche": "public-sector",
  "segment": "",
@@ -22,7 +25,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Job portal listing jobs from employers in Ras Al Khaimah. The language menu offers English (United Kingdom) and Arabic. No employer pricing, API, parent company or ingest method stated on the home and contact pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/ras-al-khaimah-careers/",
  "indexable": false,
@@ -41,7 +44,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "ras-al-khaimah-careers",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Home and contact pages read in the browser reader; the page states no employer terms, API or parent company.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -51,6 +61,14 @@
    "title": "Ras Al Khaimah careers homepage",
    "accessed": "2026-11-09",
    "quote": "Stay updated with latest job offering from all employers in Ras Al Khaimah.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://careers.rak.ae/",
+   "title": "Language menu",
+   "accessed": "2026-11-09",
+   "quote": "English (United Kingdom)",
    "quote_check": "ok"
   }
  ]

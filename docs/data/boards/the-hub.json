@@ -16,17 +16,19 @@
  "region": "Europe",
  "niche": "startup and tech",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Mesh Community",
+ "business_model": "pay per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "import"
+ ],
+ "notes": "Per-job prices of €99 (Basic, 30 days), €330 (Pro, 45 days) and €1.100 (Max, 60 days). Mesh Community acquired The Hub in 2022. No headquarters, language options, API or partner program found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/the-hub/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -37,11 +39,19 @@
  },
  "tags": [
   "job-board",
+  "pay-per-post",
   "startup",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "the-hub",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program",
+  "note": "Pricing, employer import and parent pages read in the browser reader; the /api path returned 404 and was not used as evidence.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -51,6 +61,30 @@
    "title": "The Hub homepage",
    "accessed": "2026-11-09",
    "quote": "We connect global talents with career opportunities in Nordic startups.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://thehub.io/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-09",
+   "quote": "€99 per job 30 days of publication",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://thehub.io/about",
+   "title": "About The Hub",
+   "accessed": "2026-11-09",
+   "quote": "In 2022, Mesh Community acquired The Hub.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://thehub.io/startups/join",
+   "title": "For startups",
+   "accessed": "2026-11-09",
+   "quote": "Publish or import job posts to our startup-only job board",
    "quote_check": "ok"
   }
  ]

@@ -10,8 +10,10 @@
  "countries_served": [
   "SE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "sv",
+ "languages_supported": [
+  "sv"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
@@ -21,8 +23,12 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "crawl",
+  "API",
+  "manual posting"
+ ],
+ "notes": "Aggregator. The about page says it collects jobs with automatic crawlers, open APIs and direct publishing, which describes how jobs come in, not an API offered to employers. Operated by a sole proprietorship (enskild firma). Employer pricing not stated; the contact page only offers to explain advertising.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/workey/",
  "indexable": false,
@@ -35,11 +41,19 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "crawl-sourced",
   "general",
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "workey",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program",
+  "note": "Home, employer, about and contact pages read in the browser reader; no pricing or developer page found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +63,30 @@
    "title": "Workey homepage",
    "accessed": "2026-11-09",
    "quote": "Workey.se's uppdrag är att göra det enkelt och snabbt att hitta de mest intressanta jobben.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://workey.se/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Hitta ditt nästa jobb på workey.se!",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://workey.se/om",
+   "title": "Om workey.se",
+   "accessed": "2026-11-09",
+   "quote": "Workey.se drivs av Mikael Lindström enskild firma",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://workey.se/om",
+   "title": "Om workey.se",
+   "accessed": "2026-11-09",
+   "quote": "För att samla alla jobb på workey.se så används automatiska sökrobotar, öppna API:er samt även direkt publicering på webbplatsen.",
    "quote_check": "ok"
   }
  ]

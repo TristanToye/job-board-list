@@ -15,14 +15,14 @@
  "region": "Europe",
  "niche": "students and graduates",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "YoungCapital",
+ "business_model": "free job ads",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage is in Swedish. Language selector, API and partner pages were not read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/studentjob-sweden/",
  "indexable": false,
@@ -35,11 +35,19 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "graduates-students",
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "studentjob-sweden",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+  "note": "Parent YoungCapital and free job ads are stated; language selector and API pages were not read.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +57,22 @@
    "title": "StudentJob Sweden homepage",
    "accessed": "2026-11-09",
    "quote": "Vi har ett brett utbud av lediga jobb i hela Sverige.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.studentjob.se",
+   "title": "Footer",
+   "accessed": "2026-11-09",
+   "quote": "StudentJob International är ett dotterbolag till YoungCapital",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.studentjob.se",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Ladda upp en gratis jobbannons på StudentJob idag",
    "quote_check": "ok"
   }
  ]

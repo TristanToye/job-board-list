@@ -10,8 +10,10 @@
  "countries_served": [
   "AE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Middle East",
  "niche": "general",
  "segment": "",
@@ -22,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage is in English. The About Us and job posting pages returned HTTP 404 in the browser reader, so employer, company and API facts could not be checked on any working page.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/dubizzle-jobs/",
  "indexable": false,
@@ -39,7 +41,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "dubizzle-jobs",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;parent;api_status;partner_program;ingest_methods",
+  "note": "Homepage is in English; the About Us and job posting pages returned HTTP 404 in the browser reader, so employer and company facts were not confirmed.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,14 @@
    "title": "Jobs in UAE | Dubizzle UAE",
    "accessed": "2026-11-09",
    "quote": "Job hunting made easy with dubizzle.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://uae.dubizzle.com/jobs/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "80% of the recruiters hire candidates with CV",
    "quote_check": "ok"
   }
  ]

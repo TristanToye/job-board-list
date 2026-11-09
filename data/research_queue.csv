@@ -651,3 +651,186 @@ OLX Praca,https://www.olx.pl/praca/,ZZ,verification,"Human verification challeng
 publicjobs.ie,https://publicjobs.ie,ZZ,verification,HTTP 403 'Web Page Blocked' in browser reader,2026-11-09
 WhatJobs,https://en-za.whatjobs.com,ZZ,verification,HTTP 403 in fetch; Cloudflare security challenge in browser reader,2026-11-09
 BuscoJobs,https://www.buscojobs.mx,ZZ,verification,HTTP 403 in fetch and in browser reader,2026-11-09
+Profesia.cz,https://www.profesia.cz,CZ,verification,HTTP 403 on two attempts (one retry),2026-11-09
+Úřad práce ČR (uradprace.cz),https://www.uradprace.cz,CZ,verification,HTTP 503,2026-11-09
+EURES (European Job Mobility Portal),https://eures.europa.eu,CZ,verification,"Named by Úřad práce pages and roundups as a route to Czech vacancies; homepage text was not readable in the fetch, so it was not added to boards",2026-11-09
+Carieranoua,https://www.carieranoua.ro,RO,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+ITjobs.ro,https://www.itjobs.ro,RO,verification,HTTP 503,2026-11-09
+Joblulu.ro,https://www.joblulu.ro,RO,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+EURES (European Employment Services),https://eures.europa.eu,RO,verification,"Romanian national labour market page read; portal homepage not read, and that page names no Romanian EURES partner",2026-11-09
+Careerboom.ai,https://careerboom.ai,RO,verification,Named in a roundup as an AI career tool newly active in Romania; homepage not read; may not be a job board,2026-11-09
+Job Romania,,RO,verification,Named in a search summary as a Romanian job ad site; homepage not identified or read,2026-11-09
+Kariyer.net,https://www.kariyer.net,TR,verification,HTTP 403 on homepage (two attempts),2026-11-09
+Yenibiris,https://www.yenibiris.com,TR,verification,HTTP 403 on homepage (two attempts),2026-11-09
+Jobplanet,https://www.jobplanet.co.kr,KR,verification,HTTP 403,2026-11-09
+Catch,https://www.catch.co.kr,KR,verification,HTTP 403,2026-11-09
+Rocketpunch,https://www.rocketpunch.com,KR,verification,HTTP 403,2026-11-09
+The Teams,https://www.theteams.kr,KR,verification,HTTP 403,2026-11-09
+Seoulstart,https://seoulstart.com,KR,verification,HTTP 429,2026-11-09
+Nurse Job (nursejob.co.kr),https://www.nursejob.co.kr,KR,verification,HTTP 503,2026-11-09
+Cleaneye Job Plus,https://job.cleaneye.go.kr,KR,verification,HTTP 503,2026-11-09
+Nara Ilteo (gojobs.go.kr),https://www.gojobs.go.kr,KR,verification,Homepage returned only the title; operator and job posting function not confirmed,2026-11-09
+National Civil Service Recruitment System (gongmuwon.gosi.kr),https://gongmuwon.gosi.kr,KR,verification,Homepage returned only the title 인사혁신처; public job postings not confirmed,2026-11-09
+Groupby,https://groupby.kr/blog,KR,verification,groupby.careers redirected to a blog; job board not confirmed,2026-11-09
+WorknPlay,,KR,verification,Named in a search result for English-language Seoul postings; homepage not read,2026-11-09
+Seoul Global Center job listings,,KR,verification,Named in a search result for English-language Seoul postings; homepage not read,2026-11-09
+中国公共招聘网 (China Public Recruitment Website),https://job.mohrss.gov.cn/,CN,verification,HTTP 503 on two attempts (http and https),2026-11-09
+Lagou (拉勾网),https://www.lagou.com/,CN,verification,Access verification challenge page returned instead of homepage,2026-11-09
+Yupao Zhipin (鱼泡直聘),https://www.yupao.com/,CN,verification,Access verification challenge page returned on two attempts,2026-11-09
+Dianzhang Zhipin (店长直聘),https://www.dianzhang.com/,CN,verification,HTTP 503,2026-11-09
+Dajie (大街网),https://www.dajie.com/,CN,verification,DNS lookup error (getaddrinfo EAI_AGAIN) on two attempts,2026-11-09
+HireChina,https://www.hiredchina.com/,CN,verification,HTTP 403 on two attempts,2026-11-09
+NewChinaCareer,https://www.newchinacareer.com/,CN,verification,HTTP 503,2026-11-09
+上海公共就业招聘新平台 (Shanghai public employment portal),https://jobs.rsj.sh.gov.cn/,CN,verification,Homepage returns only a redirect page; no listings or operator text readable,2026-11-09
+Ganji (赶集网),https://ganji.com/,CN,verification,Homepage redirects to a login page; not followed,2026-11-09
+中国就业网 (China Employment Network),https://chinajob.mohrss.gov.cn/,CN,verification,"Read; appears to be a policy and training portal, job listings not confirmed",2026-11-09
+Glints,https://glints.com,ID,verification,HTTP 403 (two attempts),2026-11-09
+Loker.id,https://www.loker.id,ID,verification,HTTP 403 (two attempts),2026-11-09
+Monster Indonesia,https://www.monster.co.id,ID,verification,HTTP 403,2026-11-09
+Jora Indonesia,https://id.jora.com,ID,verification,HTTP 403,2026-11-09
+Jobplanet,https://www.jobplanet.co.id,ID,verification,DNS error: id.jobplanet.com did not resolve in this session,2026-11-09
+JobLeads Indonesia,https://www.jobleads.com/id,ID,verification,HTTP 403,2026-11-09
+AdaKerja,https://www.adakerja.com,ID,verification,HTTP 503,2026-11-09
+Projects.co.id,https://www.projects.co.id,ID,verification,HTTP 403,2026-11-09
+UrbanHire,https://www.urbanhire.com,ID,verification,HTTP 530,2026-11-09
+Dicoding Jobs,https://jobs.dicoding.com,ID,verification,"Named in a search result; fetch returned HTTP 405, homepage not read",2026-11-09
+Tech in Asia Jobs,https://www.techinasia.com/jobs,ID,verification,"Named in a search result; fetch tool was rate-limited for this domain, homepage not read",2026-11-09
+Fungsi.id,,ID,verification,Named in an onrec directory listing; site not found in search and not read,2026-11-09
+Hiredly,https://my.hiredly.com,ID,verification,Named in a search result; homepage title names Malaysia and Indonesian coverage was not confirmed,2026-11-09
+Maukerja,https://www.maukerja.my,MY,verification,HTTP 403 on two attempts,2026-11-09
+Glints,https://www.glints.com/my,MY,verification,HTTP 403 on two attempts,2026-11-09
+Ricebowl,https://ricebowl.my,MY,verification,HTTP 403 on two attempts,2026-11-09
+GrabJobs,https://grabjobs.co,MY,verification,HTTP 403,2026-11-09
+Jobstore,https://www.jobstore.com/my/,MY,verification,HTTP 403,2026-11-09
+JobLeads Malaysia,https://www.jobleads.com/my/,MY,verification,HTTP 403,2026-11-09
+JobCentral Malaysia,https://www.jobcentral.com.my,MY,verification,DNS error (ENOTFOUND),2026-11-09
+WhatJobs Malaysia,https://en-my.whatjobs.com/,MY,verification,Homepage read but no descriptive text or operator stated; only a job-alert line was found,2026-11-09
+iAgora,https://www.iagora.com/,MY,verification,"Homepage read and Malaysia is listed as a market, but no verbatim quote was captured for that claim; Europe-focused internship board",2026-11-09
+Jora Malaysia,https://www.jora.com/j/jobs-in-malaysia,MY,verification,Redirects to an Australian domain (au.jora.com); not verified as a Malaysia board,2026-11-09
+WOBB,https://www.wobb.co/,MY,verification,Redirects to my.hiredly.com; relationship not verified,2026-11-09
+CakeResume,https://www.cakeresume.com/,MY,verification,"Redirects to cake.me, which was not fetched; Malaysia coverage not verified",2026-11-09
+MMU CareerConnect,https://careerconnect.mmu.edu.my/find-jobs,MY,verification,University career portal named in search results; homepage not read,2026-11-09
+JobsMalaysia,,MY,verification,Named in search results as a Ministry of Human Resources job-matching service; domain not confirmed,2026-11-09
+PhilJobNet,https://philjobnet.gov.ph,PH,verification,HTTP 403 on two attempts,2026-11-09
+Bossjob,https://www.bossjob.ph,PH,verification,HTTP 403 on two attempts,2026-11-09
+BestJobs.ph,https://www.bestjobs.ph,PH,verification,HTTP 503 on two attempts,2026-11-09
+JobYoda,https://www.jobyoda.com,PH,verification,HTTP 503 on two attempts,2026-11-09
+GrabJobs,https://grabjobs.co,PH,verification,HTTP 403,2026-11-09
+Outsourcely,https://www.outsourcely.com,PH,verification,DNS error (getaddrinfo EAI_AGAIN),2026-11-09
+Jora Philippines,https://ph.jora.com,PH,verification,"HTTP 403. www.jora.com redirects to au.jora.com, which was not followed",2026-11-09
+Oh! Jobs.ph,https://ohjobs.ph,PH,verification,"Named in a Betterteam roundup; homepage fetch rate-limited by the safety check, so not read",2026-11-09
+Hubstaff Talent,https://talent.hubstaff.com/country/philippines,PH,verification,"Named in several roundups as a remote talent directory; page fetch rate-limited by the safety check, so not read",2026-11-09
+Blognone Jobs,https://www.blognone.com/jobs,TH,verification,HTTP 403,2026-11-09
+GrabJobs,https://grabjobs.co,TH,verification,HTTP 403 (two attempts),2026-11-09
+Glints,https://glints.com,TH,verification,HTTP 403,2026-11-09
+Thai Department of Employment job portal (ไทยมีงานทำ),,TH,verification,"Named in search results as the Department of Employment portal, domain not confirmed on a page read. www.smartjob.doe.go.th did not resolve (DNS). doe.go.th fetch timed out. thailand.go.th article ret",2026-11-09
+Workventure,https://www.workventure.com,TH,verification,"Named in Workello roundup. Homepage read but contained only logo images, no description or Thailand statement.",2026-11-09
+TribeHired,https://www.tribehired.com,TH,verification,"Named in Techsauce roundup. Homepage read, but Thailand is not stated on the page and it describes a matched-role service.",2026-11-09
+GetLinks,https://www.getlinks.co,TH,verification,Named in Techsauce roundup. Homepage returned HTTP 404.,2026-11-09
+Laimoon Thailand free job posting,https://providers.laimoon.com/thailand/free-job-posting-site,TH,verification,Named in Workello roundup. Page returned HTTP 404.,2026-11-09
+Fastwork,http://www.fastwork.co,TH,verification,Named in Techsauce roundup. Not opened.,2026-11-09
+TopCV,https://www.topcv.vn,VN,verification,HTTP 403 (two attempts),2026-11-09
+National Job Exchange (vieclam.gov.vn),https://vieclam.gov.vn,VN,verification,HTTP 503 (two attempts),2026-11-09
+CareerBuilder.vn,https://careerbuilder.vn,VN,verification,HTTP 503,2026-11-09
+Vieclam24h,https://vieclam24h.vn,VN,verification,HTTP 403,2026-11-09
+Glints Vietnam,https://glints.com/vn/en,VN,verification,HTTP 403,2026-11-09
+Hanoi Job Information Portal,https://congvieclam.hanoi.gov.vn,VN,verification,HTTP 503,2026-11-09
+GrabJobs,https://grabjobs.co,VN,verification,HTTP 403,2026-11-09
+Viec Lam Tot,https://www.vieclamtot.com,VN,verification,Fetch safety check rate-limited; page not read,2026-11-09
+JobsVietnam,https://www.jobsvietnam.com,VN,verification,Fetch safety check rate-limited; page not read,2026-11-09
+Vietnam Teaching Jobs,https://www.vietnamteachingjobs.com,VN,verification,Fetch safety check rate-limited; page not read,2026-11-09
+Mustakbil Vietnam,https://vn.mustakbil.com,VN,verification,Fetch safety check rate-limited; page not read,2026-11-09
+TimViecNhanh,https://timviecnhanh.com,VN,verification,Fetch safety check rate-limited; page not read,2026-11-09
+Ho Chi Minh City Employment Service Center portal,,VN,verification,Named in news reports; official site not found in search results,2026-11-09
+Lydia JobTech,,VN,verification,Named in a search roundup of Vietnam tech-talent platforms; homepage not read,2026-11-09
+iAgora,https://www.iagora.com/work/en/jobs/vietnam,VN,verification,"Vietnam graduate listings page read, but site describes itself as Europe-focused; Vietnam coverage not confirmed",2026-11-09
+Tanqeeb,https://www.tanqeeb.com,SA,verification,HTTP 403,2026-11-09
+Expatriates.com,https://www.expatriates.com,SA,verification,HTTP 403,2026-11-09
+ZeroTax Jobs,https://www.zerotaxjobs.com,SA,verification,HTTP 403,2026-11-09
+Qiwa,https://qiwa.sa,SA,verification,Returned a Request Rejected page instead of portal content,2026-11-09
+Mourjan,https://www.mourjan.com,SA,verification,"Homepage read; classifieds site with a /sa/ section, job listings for Saudi Arabia not confirmed",2026-11-09
+Health eCareers,https://www.healthecareers.com,SA,verification,"Named in a roundup; fetch failed, homepage not read",2026-11-09
+eFinancialCareers,https://www.efinancialcareers.com,SA,verification,Homepage read; Saudi Arabia listings not confirmed on the page,2026-11-09
+Laimoon,https://www.laimoon.com,SA,verification,"Homepage read; a training and course marketplace with a Saudi Arabia career page, not confirmed as a job board",2026-11-09
+Qureos,https://www.qureos.com,SA,verification,Named in roundups as a recruitment platform; homepage not read,2026-11-09
+CareerBoom.ai,https://careerboom.ai,SA,verification,Named in roundups as a meta-search tool; homepage not read,2026-11-09
+Saudi Job Search,,SA,verification,Named in a roundup; no homepage URL found or read,2026-11-09
+Forasna,https://www.forasna.com,EG,verification,HTTP 403 on homepage; listing page https://forasna.com/وظائف-خالية?start=2500 also returned HTTP 403,2026-11-09
+Tanqeeb,https://www.tanqeeb.com,EG,verification,HTTP 403,2026-11-09
+Wzayef,https://www.wzayef.com,EG,verification,HTTP 503,2026-11-09
+Qureos,https://www.qureos.com,EG,verification,HTTP 403,2026-11-09
+AcademicJobs (Egypt),https://www.academicjobs.com/eg/job-board-rankings,EG,verification,HTTP 403,2026-11-09
+Dubizzle Egypt jobs,https://www.dubizzle.com.eg/jobs/,EG,verification,HTTP 503 (Retry-After 3600) on two attempts,2026-11-09
+Ministry of Labour (mol.gov.eg),https://www.mol.gov.eg,EG,verification,DNS error: getaddrinfo ENOTFOUND,2026-11-09
+Jobzella,https://www.jobzella.com,EG,verification,Homepage read and describes a Middle East career site; no Egypt-specific statement on pages read. Named in Cairo Scene listicle.,2026-11-09
+Akhtaboot,https://www.akhtaboot.com,EG,verification,"Homepage read; describes MENA coverage with jobs in Jordan, Saudi Arabia, Qatar and UAE; no Egypt mention found. Listed in a Betterteam roundup that could not be opened.",2026-11-09
+Cantalop,,EG,verification,"Named in Cairo Scene listicle as a job search engine for Egypt, India and the Gulf. Domain redirects to a parked domain-sale page, so not confirmed as a live board.",2026-11-09
+Digital Egypt (digital.gov.eg),https://digital.gov.eg,EG,verification,Homepage read shows only the portal name; Ministry of Labor employment services not confirmed on the page read.,2026-11-09
+Federal Civil Service Commission vacancy portal,https://vacancy.fedcivilservice.gov.ng,NG,verification,HTTP 503,2026-11-09
+NYSC Jobs,https://www.nyscjobs.org,NG,verification,HTTP 503,2026-11-09
+Fuzu,https://www.fuzu.com,NG,verification,HTTP 403,2026-11-09
+Jobberlad,https://www.jobberlad.com,NG,verification,DNS error (getaddrinfo EAI_AGAIN),2026-11-09
+CareerPointNG,https://www.careerpointng.com,NG,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+GetAJobNGs,https://www.getajobngs.com,NG,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+Job List Nigeria,https://www.joblistnigeria.com,NG,verification,Named in several Nigerian roundups; homepage fetch timed out on two attempts,2026-11-09
+JustJobs,https://justjobs.info,NG,verification,"Named in roundups; justjobsng.com redirects here; fetch was rate-limited by the safety check, so the page was not read",2026-11-09
+Naijahire,https://www.naijahire.com,NG,verification,"Named in a vendor roundup; the domain redirects to a parked domain-sale page, so the board was not confirmed",2026-11-09
+Profolio,https://www.profolio.ng,NG,verification,"Named in search results for healthcare jobs; homepage is a CV and career service with no postings shown, so it is not confirmed as a job board",2026-11-09
+JobzMall,https://www.jobzmall.com,NG,verification,Homepage read but Nigeria focus is not shown on the page read; countries served not confirmed,2026-11-09
+Fuzu,https://www.fuzu.com,KE,verification,HTTP 403 on two fetches,2026-11-09
+ReliefWeb,https://reliefweb.int/jobs,KE,verification,HTTP 403 on two fetches,2026-11-09
+GeezJobs Kenya,https://ke.geezjobs.com,KE,verification,HTTP 403 on two fetches,2026-11-09
+Devex,https://www.devex.com/jobs,KE,verification,HTTP 403,2026-11-09
+Juakali,https://www.juakali.co.ke,KE,verification,HTTP 503,2026-11-09
+Kenya jobs.go.ke portal,https://jobs.go.ke,KE,verification,DNS error (getaddrinfo ENOTFOUND); host not resolvable from this session,2026-11-09
+The Star classifieds jobs,https://www.the-star.co.ke/classifieds/jobs,KE,verification,Named in search results; classifieds jobs page returned HTTP 404 on fetch,2026-11-09
+UN Careers,https://careers.un.org,KE,verification,Named in a roundup; homepage read but no Kenya vacancies or duty stations shown,2026-11-09
+Kazi Mtaani,,KE,verification,"Named in a news roundup as a niche platform; it is a government youth programme, and the application portal could not be verified",2026-11-09
+Portal Empleo,https://portalempleo.gob.ar,AR,verification,HTTP 503 on two attempts,2026-11-09
+AMIA Servicio de Empleo,https://www.amia.org.ar,AR,verification,HTTP 403,2026-11-09
+Opcionempleo,https://www.opcionempleo.com.ar,AR,verification,Returned a security verification page instead of the homepage,2026-11-09
+Laborum,https://www.laborum.com.ar,AR,verification,HTTP 403,2026-11-09
+Workana,https://www.workana.com,AR,verification,HTTP 403,2026-11-09
+Arlog Jobs,https://www.arlogjobs.com,AR,verification,DNS resolution error (getaddrinfo ENOTFOUND),2026-11-09
+CIAI,https://www.ciai.org.ar,AR,verification,DNS resolution error (getaddrinfo ENOTFOUND),2026-11-09
+ZonaJobs,https://www.zonajobs.com.ar,AR,verification,Named in several roundups; homepage returned no readable text on two fetches,2026-11-09
+Empleos Clarin,,AR,verification,Named in a roundup; fetch of clarin.com/empleos was refused by the fetch tool,2026-11-09
+Jobomas,https://www.jobomas.com,CO,verification,HTTP 403 (two attempts),2026-11-09
+Servicio Público de Empleo (serviciodeempleo.gov.co),https://www.serviciodeempleo.gov.co,CO,verification,HTTP 503 (two attempts),2026-11-09
+Bolsa Única de Empleo (buscadordeempleo.gov.co),https://www.buscadordeempleo.gov.co,CO,verification,HTTP 503 (two attempts),2026-11-09
+CNSC SIMO,https://simo.cnsc.gov.co,CO,verification,HTTP 503 (two attempts),2026-11-09
+Universia Colombia,https://www.universia.net.co,CO,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+Trabajo Remoto,https://www.trabajoremoto.co,CO,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+Bogotá Agencia Distrital de Empleo (bogotatrabajo.gov.co),https://bogotatrabajo.gov.co,CO,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+Workana,https://www.workana.com,CO,verification,HTTP 403,2026-11-09
+AcciónTrabajo,https://www.acciontrabajo.com,CO,verification,HTTP 403,2026-11-09
+Opción Empleo,https://www.opcionempleo.com.co,CO,verification,Named in roundups; homepage returned a bot-verification page with no site content,2026-11-09
+Empleate,https://www.empleate.com,CO,verification,Named in a roundup; homepage returned HTTP 405 and was not retried,2026-11-09
+Cafam,https://www.cafam.com.co,CO,verification,Named in roundups; homepage returned a browser verification page with no site content,2026-11-09
+Colsubsidio Agencia de Empleo,https://www.colsubsidio.com/empleo,CO,verification,Employment agency page read; vacancy links appear to list Colsubsidio's own openings and SPE affiliation is not stated,2026-11-09
+Comfama employment service,https://www.comfama.com,CO,verification,"Caja de compensación page read; employment section is a sub-service, not a standalone board",2026-11-09
+Comfenalco Valle Delagente Agencia de Empleo,https://www.comfenalcovalle.com.co,CO,verification,Caja de compensación page read; agency does not describe posting vacancies publicly on the page read,2026-11-09
+Chiletrabajos,https://www.chiletrabajos.cl,CL,verification,HTTP 503 on two attempts,2026-11-09
+Laborum,https://www.laborum.cl,CL,verification,HTTP 403,2026-11-09
+Empleos Públicos,https://www.empleospublicos.cl,CL,verification,HTTP 403,2026-11-09
+Workana,https://www.workana.com,CL,verification,HTTP 403,2026-11-09
+Yapo,https://www.yapo.cl,CL,verification,HTTP 403,2026-11-09
+Opcionempleo,https://www.opcionempleo.cl,CL,verification,Returned a bot-verification page instead of site content,2026-11-09
+Servicio Civil,https://www.serviciocivil.gob.cl,CL,verification,HTTP 503,2026-11-09
+Get on Board,https://www.getonbrd.com,CL,verification,"Homepage read, but Chile coverage is not stated on the page read; described as a Latin America tech jobs community",2026-11-09
+Reqlut,https://www.reqlut.com,CL,verification,"Homepage read; Chile shown only through a listings path and Chilean partner institutions, not stated in text",2026-11-09
+Remotejob,https://www.remotejob.com,CL,verification,Named in Chile roundups; homepage redirected to a mirror host (ww19.remotejob.com) that was not followed,2026-11-09
+Jobatus,https://www.jobatus.com,CL,verification,Named in a Chile roundup; DNS lookup failed (ENOTFOUND),2026-11-09
+Empleos Peru (Ministry of Labour),https://www.empleosperu.gob.pe,PE,verification,HTTP 503 on two attempts,2026-11-09
+Talento Peru (SERVIR),https://talentoperu.servir.gob.pe,PE,verification,HTTP 503,2026-11-09
+Laborum,https://www.laborum.pe,PE,verification,HTTP 403,2026-11-09
+Trabajando.com.pe,https://www.trabajando.com.pe,PE,verification,DNS resolution failed (ENOTFOUND),2026-11-09
+OpcionEmpleo,https://www.opcionempleo.com.pe,PE,verification,Bot verification challenge page returned instead of the homepage,2026-11-09
+Universidad Norbert Wiener job bank,https://bolsalaboral.uwiener.edu.pe,PE,verification,HTTP 503,2026-11-09
+Aptitus,https://aptitus.com,PE,verification,"Named in roundups; homepage redirects (301) to bumeran.com.pe, so the relationship is not stated and it was not catalogued separately",2026-11-09
+iAgora,https://www.iagora.com,PE,verification,Homepage describes European internship coverage and does not state Peru; Peru pages seen only in search results,2026-11-09
+Remote.io Peru page,https://remote.io/peru,PE,verification,Peru page returned only its title; operator and board details not read,2026-11-09
+STARTUPLAB Jobs,https://jobs.startuplab.no,ZZ,verification,"Browser reader blocked true, no HTTP status",2026-11-09
+Offentliga Jobb,https://www.offentligajobb.se,ZZ,verification,"Browser reader status 500, blocked true, The URL you requested has been blocked",2026-11-09
+Jobly,https://www.jobly.fi,ZZ,verification,HTTP 403 with challenge page in the browser reader,2026-11-09
+OLX Portugal Emprego,https://www.olx.pt/emprego/,ZZ,verification,HTTP 405 with 'Let's confirm you are human' challenge in the browser reader,2026-11-09

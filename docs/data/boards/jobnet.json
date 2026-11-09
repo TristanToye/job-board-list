@@ -4,28 +4,30 @@
  "url": "https://jobnet.dk",
  "domains": "",
  "type": "government",
- "hq_country": "",
+ "hq_country": "DK",
  "founded": "",
  "markets": "",
  "countries_served": [
   "DK"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "da",
+ "languages_supported": [
+  "da"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
+ "parent": "Styrelsen for Arbejdsmarked og Rekruttering",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Job-seeker portal. The footer names the Danish employment agency and gives a Copenhagen address. No employer pricing, API, language options, partner program or ingest method found on the home, find-job, support or help pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobnet/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -42,7 +44,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobnet",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Home, find-job, support and help pages read in the browser reader; no employer, API or partner pages linked from them.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -50,6 +59,22 @@
    "field": "existence",
    "url": "https://jobnet.dk/",
    "title": "Jobnet homepage",
+   "accessed": "2026-11-09",
+   "quote": "Find dit nye job",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://jobnet.dk/",
+   "title": "Homepage footer",
+   "accessed": "2026-11-09",
+   "quote": "Styrelsen for Arbejdsmarked og Rekruttering Vermundsgade 38 2100 København Ø.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://jobnet.dk/",
+   "title": "Homepage",
    "accessed": "2026-11-09",
    "quote": "Find dit nye job",
    "quote_check": "ok"

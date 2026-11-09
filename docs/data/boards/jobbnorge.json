@@ -10,8 +10,13 @@
  "countries_served": [
   "NO"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nb",
+ "languages_supported": [
+  "nb",
+  "en",
+  "nn",
+  "se"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
@@ -22,7 +27,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Language menu lists Norsk Bokmål, English, Norsk Nynorsk and Sámegiella (mapped to se, Northern Sami). Footer names Grade Jobbnorge AS with a Norwegian org. number. No prices, API or partner page was found in the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobbnorge/",
  "indexable": false,
@@ -39,7 +44,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobbnorge",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Language menu lists four options; no prices, headquarters, API or partner page found in the pages read.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +61,14 @@
    "title": "Jobbnorge job search page",
    "accessed": "2026-11-09",
    "quote": "In our job search you will find vacancies within the desired category, geographical location or industry.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.jobbnorge.no/search",
+   "title": "Language menu",
+   "accessed": "2026-11-09",
+   "quote": "Norsk Bokmål English Norsk Nynorsk Sámegiella",
    "quote_check": "ok"
   }
  ]

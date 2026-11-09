@@ -10,22 +10,30 @@
  "countries_served": [
   "BE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nl",
+ "languages_supported": [
+  "nl",
+  "fr",
+  "en"
+ ],
  "region": "Europe",
  "niche": "graduates",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post, subscription",
  "api_status": "unknown",
- "api_docs_url": "",
+ "api_docs_url": "https://www.student.be/api-docs/",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "API",
+  "ATS integration",
+  "manual posting"
+ ],
+ "notes": "Employer site shows NL, FR and EN; the main site footer shows only NL. Credits from €60 per vacancy (€30 each at 10 credits) or a licence from €104 per month. API V3 docs require a Bearer key but do not say how keys are issued. Headquarters and parent not stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/student-be/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,11 +43,21 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "ats-integration",
   "graduates-students",
-  "job-board"
+  "job-board",
+  "pay-per-post",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "student-be",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;partner_program",
+  "note": "Employer, pricing, API documentation and about pages read; the about page lists offices but no headquarters.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +67,54 @@
    "title": "Student.be homepage",
    "accessed": "2026-11-09",
    "quote": "Studentenjob, stage, startersjob of kot",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.student.be/nl/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Ontdek de nieuwste studentenjobs, stages en startersfuncties in België.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://solutions.student.be/nl/employeurs",
+   "title": "Employer site",
+   "accessed": "2026-11-09",
+   "quote": "Plaats je vacatures in het Frans en Nederlands.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://solutions.student.be/nl/employeurs",
+   "title": "Prijzen (pricing)",
+   "accessed": "2026-11-09",
+   "quote": "Betaal per vacature, wanneer jij iemand zoekt",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.student.be/api-docs/",
+   "title": "Student.be API V3 Documentation",
+   "accessed": "2026-11-09",
+   "quote": "All endpoints require a Bearer token in the Authorization header:",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.student.be/api-docs/",
+   "title": "Student.be API V3 Documentation",
+   "accessed": "2026-11-09",
+   "quote": "API for managing jobs and candidacies on Student.be.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://solutions.student.be/nl/employeurs",
+   "title": "Employer site",
+   "accessed": "2026-11-09",
+   "quote": "Koppel je bestaande rekruteringstools.",
    "quote_check": "ok"
   }
  ]

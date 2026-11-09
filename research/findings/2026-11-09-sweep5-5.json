@@ -1,138 +1,474 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Duunitori",
+   "url": "https://duunitori.fi",
+   "hq_country": "FI",
+   "primary_language": "fi",
+   "languages_supported": [
+    "fi",
+    "en",
+    "sv"
+   ],
+   "business_model": "free basic listing or paid campaign per listing",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Operator Duunitori Oy in Helsinki. Basic listing is free; paid campaigns run 30 days (14 days for the lowest level). Site offers Finnish, English and Swedish job listings.",
+   "sources": [
     {
-      "name": "Duunitori",
-      "url": "https://duunitori.fi",
-      "hq_country": "FI",
-      "primary_language": "fi",
-      "languages_supported": ["fi", "en", "sv"],
-      "business_model": "free basic listing or paid campaign per listing",
-      "ingest_methods": ["manual posting"],
-      "notes": "Operator Duunitori Oy in Helsinki. Basic listing is free; paid campaigns run 30 days (14 days for the lowest level). Site offers Finnish, English and Swedish job listings.",
-      "sources": [
-        {"field": "existence", "url": "https://duunitori.fi/rekrytointi/yritys", "title": "Company and contact details", "quote": "Duunitori Oy Toinen linja 7, 00530 Helsinki, Finland"},
-        {"field": "languages", "url": "https://duunitori.fi/rekrytointi/rekrytoimassa", "title": "Employers page language links", "quote": "Jobs in English Jobb på svenska"},
-        {"field": "languages", "url": "https://duunitori.fi/rekrytointi/rekrytoimassa", "title": "Employers page", "quote": "Duunitori™ on Suomen suurin työnhakukone ja uudenaikainen rekrytointimedia."},
-        {"field": "business_model", "url": "https://duunitori.fi/tyopaikkailmoitus", "title": "Job posting levels", "quote": "Ilmainen 0 € Valitse"},
-        {"field": "business_model", "url": "https://duunitori.fi/tyopaikkailmoitus", "title": "Job posting levels", "quote": "Peruskampanja 995 € + ALV 25,5%"},
-        {"field": "ingest_methods", "url": "https://duunitori.fi/rekrytointi/palvelut/tyopaikkailmoitus", "title": "Job posting service page", "quote": "Pääset julkaisemaan ilmoituskampanjan tai maksuttoman perusilmoituksen kätevästi lomakkeella."}
-      ]
+     "field": "existence",
+     "url": "https://duunitori.fi/rekrytointi/yritys",
+     "title": "Company and contact details",
+     "quote": "Duunitori Oy Toinen linja 7, 00530 Helsinki, Finland",
+     "check": "ok"
     },
     {
-      "name": "Xpatjobs",
-      "url": "https://www.xpatjobs.com",
-      "primary_language": "en",
-      "business_model": "per post and pay per click",
-      "parent": "Armitage Global Ltd",
-      "ingest_methods": ["XML feed"],
-      "notes": "Owned and operated by Armitage Global Ltd per the about page. Single job posting priced in euros; the advertise page lists pay per click and an XML feed in its plan table. No registered office address found on the pages read.",
-      "sources": [
-        {"field": "parent", "url": "https://www.xpatjobs.com/contact/about", "title": "About Us", "quote": "XpatJobs is owned and operated by Armitage Global Ltd."},
-        {"field": "languages", "url": "https://www.xpatjobs.com/", "title": "Homepage", "quote": "We specialise in jobs for English speaking expats and multilingual vacancies."},
-        {"field": "business_model", "url": "https://www.xpatjobs.com/agent", "title": "Advertise your vacancy", "quote": "Single job posting €199"},
-        {"field": "business_model", "url": "https://www.xpatjobs.com/agent", "title": "Advertise your vacancy", "quote": "Price Per Click"},
-        {"field": "ingest_methods", "url": "https://www.xpatjobs.com/agent", "title": "Advertise your vacancy", "quote": "XML Feed"}
-      ]
+     "field": "languages",
+     "url": "https://duunitori.fi/rekrytointi/rekrytoimassa",
+     "title": "Employers page language links",
+     "quote": "Jobs in English Jobb på svenska",
+     "check": "ok"
     },
     {
-      "name": "WorkInDenmark",
-      "url": "https://workindenmark.dk",
-      "hq_country": "DK",
-      "parent": "Danish Agency for Labour Market and Recruitment",
-      "primary_language": "en",
-      "languages_supported": ["en", "da"],
-      "business_model": "free",
-      "notes": "Public employment service based in Odense, part of the EURES network. Its employer service is stated to be free of charge. No job posting API or partner programme found on the pages read.",
-      "sources": [
-        {"field": "existence", "url": "https://workindenmark.dk/for-employers", "title": "For employers footer", "quote": "Lerchesgade 35, 5000 Odense C"},
-        {"field": "parent", "url": "https://workindenmark.dk/about-workindenmark-eures", "title": "About Workindenmark", "quote": "Workindenmark is a public employment service under the Danish Agency for Labour Market and Recruitment and part of the European Employment Services (EURES)."},
-        {"field": "business_model", "url": "https://workindenmark.dk/for-employers", "title": "For employers", "quote": "Workindenmark is a public and free of charge service for Danish companies"},
-        {"field": "languages", "url": "https://workindenmark.dk/for-employers", "title": "For employers footer", "quote": "WAS English"},
-        {"field": "languages", "url": "https://workindenmark.dk/", "title": "Homepage", "quote": "TIL ARBEJDSGIVERE"}
-      ]
+     "field": "languages",
+     "url": "https://duunitori.fi/rekrytointi/rekrytoimassa",
+     "title": "Employers page",
+     "quote": "Duunitori™ on Suomen suurin työnhakukone ja uudenaikainen rekrytointimedia.",
+     "check": "ok"
     },
     {
-      "name": "Dubizzle Jobs",
-      "url": "https://uae.dubizzle.com/jobs/",
-      "primary_language": "en",
-      "notes": "Homepage is in English. The About Us and job posting pages returned HTTP 404 in the browser reader, so employer, company and API facts could not be checked on any working page.",
-      "sources": [
-        {"field": "languages", "url": "https://uae.dubizzle.com/jobs/", "title": "Homepage", "quote": "80% of the recruiters hire candidates with CV"}
-      ]
+     "field": "business_model",
+     "url": "https://duunitori.fi/tyopaikkailmoitus",
+     "title": "Job posting levels",
+     "quote": "Ilmainen 0 € Valitse",
+     "check": "ok"
     },
     {
-      "name": "alle jobs (AMS public job search)",
-      "url": "https://jobs.ams.at",
-      "primary_language": "de",
-      "languages_supported": ["de", "en"],
-      "parent": "AMS Österreich",
-      "ingest_methods": ["crawl", "API"],
-      "notes": "Public job search of AMS Österreich, free for job seekers. Per the AMS help page, listings come from a crawler and from an employer interface called HR-API. No public developer API page or employer pricing found.",
-      "sources": [
-        {"field": "parent", "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe", "title": "AMS job search help", "quote": "© 2026 AMS Österreich"},
-        {"field": "languages", "url": "https://jobs.ams.at/public/emps/", "title": "Homepage", "quote": "Jobs in folgenden Bereichen finden"},
-        {"field": "languages", "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe", "title": "AMS job search help", "quote": "English Version"},
-        {"field": "ingest_methods", "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe", "title": "AMS job search help", "quote": "durch einen sogenannten Crawler aus dem Internet extrahiert und gesammelt"},
-        {"field": "ingest_methods", "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe", "title": "AMS job search help", "quote": "automatisiert über die elektronische Schnittstelle HR-API an das"}
-      ]
+     "field": "business_model",
+     "url": "https://duunitori.fi/tyopaikkailmoitus",
+     "title": "Job posting levels",
+     "quote": "Peruskampanja 995 € + ALV 25,5%",
+     "check": "ok"
     },
     {
-      "name": "IEFP iefponline",
-      "url": "https://iefponline.iefp.pt",
-      "primary_language": "pt",
-      "parent": "Instituto do Emprego e Formação Profissional (IEFP)",
-      "ingest_methods": ["manual posting"],
-      "notes": "Portal is owned by the IEFP. Employers can post directly on the portal or pre-register an offer by form, after which a technician completes it. No fees, language options or API found on the pages read.",
-      "sources": [
-        {"field": "parent", "url": "https://iefponline.iefp.pt/IEFP/navegacao/sobre2.jsp", "title": "Sobre o Iefponline", "quote": "é propriedade do Instituto do Emprego e Formação Profissional (IEFP)."},
-        {"field": "languages", "url": "https://iefponline.iefp.pt/IEFP/empregador/oferta/registar-ofertas-de-emprego.jsp", "title": "Registar ofertas de emprego", "quote": "Procura os trabalhadores para a sua empresa?"},
-        {"field": "ingest_methods", "url": "https://iefponline.iefp.pt/IEFP/empregador/oferta/registar-ofertas-de-emprego.jsp", "title": "Registar ofertas de emprego", "quote": "Diretamente no portal iefponline."},
-        {"field": "ingest_methods", "url": "https://iefponline.iefp.pt/IEFP/empregador/oferta/registar-ofertas-de-emprego.jsp", "title": "Registar ofertas de emprego", "quote": "Fazer o pré-registo de oferta através do formulário disponível."}
-      ]
-    },
-    {
-      "name": "Szukam Pracy",
-      "url": "https://www.szukampracy.pl",
-      "primary_language": "pl",
-      "business_model": "per listing package in zloty, net",
-      "ingest_methods": ["manual posting"],
-      "notes": "Employers buy listing packages priced in zloty net, for example 65 zł for 15 days. The partner page lists partner job portals where listings are published. No API, company owner or language options found on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://szukampracy.pl/dla-pracodawcy", "title": "For employers", "quote": "Publikuj ogłoszenia o pracę na szukampracy.pl i ponad 25 portalach partnerskich."},
-        {"field": "business_model", "url": "https://szukampracy.pl/dla-pracodawcy", "title": "For employers", "quote": "Dodaj ogłoszenie za 65 zł netto i zacznij rekrutować już dziś."},
-        {"field": "business_model", "url": "https://szukampracy.pl/partnerzy", "title": "Partner portals", "quote": "15 DNIOWA PUBLIKACJA OFERTY 65,00 zł netto"},
-        {"field": "ingest_methods", "url": "https://szukampracy.pl/dla-pracodawcy", "title": "For employers", "quote": "DODAJ OFERTĘ PRACY"}
-      ]
-    },
-    {
-      "name": "Jobs in Stockholm",
-      "url": "https://jobsinstockholm.com",
-      "hq_country": "BE",
-      "parent": "4Sight SPRL",
-      "primary_language": "en",
-      "business_model": "pay per ad, pay per click or yearly job slot subscription",
-      "notes": "Terms page names 4Sight SPRL as owner and operator, with registered office in Brussels. Prices are in euros excluding VAT. No API, partner programme or language options found on the pages read.",
-      "sources": [
-        {"field": "existence", "url": "https://jobsinstockholm.com/legal/terms-and-conditions", "title": "Terms and conditions", "quote": "The Website is owned and operated by 4Sight SPRL with registered office at 231 Avenue Louise, 1050 Brussels, Belgium"},
-        {"field": "parent", "url": "https://jobsinstockholm.com/legal/terms-and-conditions", "title": "Terms and conditions", "quote": "The Website is owned and operated by 4Sight SPRL with registered office at 231 Avenue Louise, 1050 Brussels, Belgium"},
-        {"field": "languages", "url": "https://jobsinstockholm.com/recruiters/network", "title": "Network", "quote": "for which English is the main working language"},
-        {"field": "business_model", "url": "https://jobsinstockholm.com/recruiters/pricing", "title": "Pricing", "quote": "Base price 250,00 € + VAT"},
-        {"field": "business_model", "url": "https://jobsinstockholm.com/recruiters/pricing", "title": "Pricing", "quote": "In this case, you only pay for the visibility that you get"},
-        {"field": "business_model", "url": "https://jobsinstockholm.com/recruiters/pricing", "title": "Pricing", "quote": "Job Slot subscription"}
-      ]
+     "field": "ingest_methods",
+     "url": "https://duunitori.fi/rekrytointi/palvelut/tyopaikkailmoitus",
+     "title": "Job posting service page",
+     "quote": "Pääset julkaisemaan ilmoituskampanjan tai maksuttoman perusilmoituksen kätevästi lomakkeella.",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Duunitori", "url": "https://duunitori.fi", "outcome": "partially-verified", "fields_not_found": ["parent", "partner_program", "api_status"], "method": "browser", "note": "Employer, company and posting pages state the Helsinki address, language links and listing prices; no parent, partner programme or API mention found on those pages."},
-    {"name": "Xpatjobs", "url": "https://www.xpatjobs.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "partner_program", "api_status"], "method": "browser", "note": "Homepage, about, contact and advertise pages state the owner and prices; no headquarters address, language switcher or partner programme found."},
-    {"name": "WorkInDenmark", "url": "https://workindenmark.dk", "outcome": "partially-verified", "fields_not_found": ["api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage, about and employer pages state the Odense address, parent agency and free employer service; no posting API or partner programme found."},
-    {"name": "Dubizzle Jobs", "url": "https://uae.dubizzle.com/jobs/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "parent", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage is in English; the About Us and job posting pages returned HTTP 404 in the browser reader, so employer and company facts were not confirmed."},
-    {"name": "alle jobs (AMS public job search)", "url": "https://jobs.ams.at", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "api_status", "partner_program"], "method": "browser", "note": "AMS help page states the operator, an English version and the crawler and HR-API intake; no employer pricing, public API docs or partner programme found."},
-    {"name": "IEFP iefponline", "url": "https://iefponline.iefp.pt", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program"], "method": "browser", "note": "Portal states it is owned by the IEFP and offers a posting form; no fees, language options or API found on the pages read."},
-    {"name": "Szukam Pracy", "url": "https://www.szukampracy.pl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program"], "method": "browser", "note": "Employer and partner pages state zloty listing prices and a posting button; no company owner, language options or API found."},
-    {"name": "Jobs in Stockholm", "url": "https://jobsinstockholm.com", "outcome": "partially-verified", "fields_not_found": ["languages", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Terms page names the owner and Brussels office and pricing page lists prices; no API, partner programme or language switcher found."}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Xpatjobs",
+   "url": "https://www.xpatjobs.com",
+   "primary_language": "en",
+   "business_model": "per post and pay per click",
+   "parent": "Armitage Global Ltd",
+   "ingest_methods": [
+    "XML feed"
+   ],
+   "notes": "Owned and operated by Armitage Global Ltd per the about page. Single job posting priced in euros; the advertise page lists pay per click and an XML feed in its plan table. No registered office address found on the pages read.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.xpatjobs.com/contact/about",
+     "title": "About Us",
+     "quote": "XpatJobs is owned and operated by Armitage Global Ltd.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.xpatjobs.com/",
+     "title": "Homepage",
+     "quote": "We specialise in jobs for English speaking expats and multilingual vacancies.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.xpatjobs.com/agent",
+     "title": "Advertise your vacancy",
+     "quote": "Single job posting €199",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.xpatjobs.com/agent",
+     "title": "Advertise your vacancy",
+     "quote": "Price Per Click",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.xpatjobs.com/agent",
+     "title": "Advertise your vacancy",
+     "quote": "XML Feed",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "WorkInDenmark",
+   "url": "https://workindenmark.dk",
+   "hq_country": "DK",
+   "parent": "Danish Agency for Labour Market and Recruitment",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "da"
+   ],
+   "business_model": "free",
+   "notes": "Public employment service based in Odense, part of the EURES network. Its employer service is stated to be free of charge. No job posting API or partner programme found on the pages read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://workindenmark.dk/for-employers",
+     "title": "For employers footer",
+     "quote": "Lerchesgade 35, 5000 Odense C",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://workindenmark.dk/about-workindenmark-eures",
+     "title": "About Workindenmark",
+     "quote": "Workindenmark is a public employment service under the Danish Agency for Labour Market and Recruitment and part of the European Employment Services (EURES).",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://workindenmark.dk/for-employers",
+     "title": "For employers",
+     "quote": "Workindenmark is a public and free of charge service for Danish companies",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://workindenmark.dk/for-employers",
+     "title": "For employers footer",
+     "quote": "WAS English",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://workindenmark.dk/",
+     "title": "Homepage",
+     "quote": "TIL ARBEJDSGIVERE",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Dubizzle Jobs",
+   "url": "https://uae.dubizzle.com/jobs/",
+   "primary_language": "en",
+   "notes": "Homepage is in English. The About Us and job posting pages returned HTTP 404 in the browser reader, so employer, company and API facts could not be checked on any working page.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://uae.dubizzle.com/jobs/",
+     "title": "Homepage",
+     "quote": "80% of the recruiters hire candidates with CV",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "alle jobs (AMS public job search)",
+   "url": "https://jobs.ams.at",
+   "primary_language": "de",
+   "languages_supported": [
+    "de",
+    "en"
+   ],
+   "parent": "AMS Österreich",
+   "ingest_methods": [
+    "crawl",
+    "API"
+   ],
+   "notes": "Public job search of AMS Österreich, free for job seekers. Per the AMS help page, listings come from a crawler and from an employer interface called HR-API. No public developer API page or employer pricing found.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe",
+     "title": "AMS job search help",
+     "quote": "© 2026 AMS Österreich",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://jobs.ams.at/public/emps/",
+     "title": "Homepage",
+     "quote": "Jobs in folgenden Bereichen finden",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe",
+     "title": "AMS job search help",
+     "quote": "English Version",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe",
+     "title": "AMS job search help",
+     "quote": "durch einen sogenannten Crawler aus dem Internet extrahiert und gesammelt",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil/ams-jobsuche-hilfe",
+     "title": "AMS job search help",
+     "quote": "automatisiert über die elektronische Schnittstelle HR-API an das",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "IEFP iefponline",
+   "url": "https://iefponline.iefp.pt",
+   "primary_language": "pt",
+   "parent": "Instituto do Emprego e Formação Profissional (IEFP)",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Portal is owned by the IEFP. Employers can post directly on the portal or pre-register an offer by form, after which a technician completes it. No fees, language options or API found on the pages read.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://iefponline.iefp.pt/IEFP/navegacao/sobre2.jsp",
+     "title": "Sobre o Iefponline",
+     "quote": "é propriedade do Instituto do Emprego e Formação Profissional (IEFP).",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://iefponline.iefp.pt/IEFP/empregador/oferta/registar-ofertas-de-emprego.jsp",
+     "title": "Registar ofertas de emprego",
+     "quote": "Procura os trabalhadores para a sua empresa?",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://iefponline.iefp.pt/IEFP/empregador/oferta/registar-ofertas-de-emprego.jsp",
+     "title": "Registar ofertas de emprego",
+     "quote": "Diretamente no portal iefponline.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://iefponline.iefp.pt/IEFP/empregador/oferta/registar-ofertas-de-emprego.jsp",
+     "title": "Registar ofertas de emprego",
+     "quote": "Fazer o pré-registo de oferta através do formulário disponível.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Szukam Pracy",
+   "url": "https://www.szukampracy.pl",
+   "primary_language": "pl",
+   "business_model": "per listing package in zloty, net",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Employers buy listing packages priced in zloty net, for example 65 zł for 15 days. The partner page lists partner job portals where listings are published. No API, company owner or language options found on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://szukampracy.pl/dla-pracodawcy",
+     "title": "For employers",
+     "quote": "Publikuj ogłoszenia o pracę na szukampracy.pl i ponad 25 portalach partnerskich.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://szukampracy.pl/dla-pracodawcy",
+     "title": "For employers",
+     "quote": "Dodaj ogłoszenie za 65 zł netto i zacznij rekrutować już dziś.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://szukampracy.pl/partnerzy",
+     "title": "Partner portals",
+     "quote": "15 DNIOWA PUBLIKACJA OFERTY 65,00 zł netto",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://szukampracy.pl/dla-pracodawcy",
+     "title": "For employers",
+     "quote": "DODAJ OFERTĘ PRACY",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobs in Stockholm",
+   "url": "https://jobsinstockholm.com",
+   "hq_country": "BE",
+   "parent": "4Sight SPRL",
+   "primary_language": "en",
+   "business_model": "pay per ad, pay per click or yearly job slot subscription",
+   "notes": "Terms page names 4Sight SPRL as owner and operator, with registered office in Brussels. Prices are in euros excluding VAT. No API, partner programme or language options found on the pages read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobsinstockholm.com/legal/terms-and-conditions",
+     "title": "Terms and conditions",
+     "quote": "The Website is owned and operated by 4Sight SPRL with registered office at 231 Avenue Louise, 1050 Brussels, Belgium",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://jobsinstockholm.com/legal/terms-and-conditions",
+     "title": "Terms and conditions",
+     "quote": "The Website is owned and operated by 4Sight SPRL with registered office at 231 Avenue Louise, 1050 Brussels, Belgium",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://jobsinstockholm.com/recruiters/network",
+     "title": "Network",
+     "quote": "for which English is the main working language",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://jobsinstockholm.com/recruiters/pricing",
+     "title": "Pricing",
+     "quote": "Base price 250,00 € + VAT",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://jobsinstockholm.com/recruiters/pricing",
+     "title": "Pricing",
+     "quote": "In this case, you only pay for the visibility that you get",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://jobsinstockholm.com/recruiters/pricing",
+     "title": "Pricing",
+     "quote": "Job Slot subscription",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Duunitori",
+   "url": "https://duunitori.fi",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "partner_program",
+    "api_status"
+   ],
+   "method": "browser",
+   "note": "Employer, company and posting pages state the Helsinki address, language links and listing prices; no parent, partner programme or API mention found on those pages."
+  },
+  {
+   "name": "Xpatjobs",
+   "url": "https://www.xpatjobs.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "partner_program",
+    "api_status"
+   ],
+   "method": "browser",
+   "note": "Homepage, about, contact and advertise pages state the owner and prices; no headquarters address, language switcher or partner programme found."
+  },
+  {
+   "name": "WorkInDenmark",
+   "url": "https://workindenmark.dk",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage, about and employer pages state the Odense address, parent agency and free employer service; no posting API or partner programme found."
+  },
+  {
+   "name": "Dubizzle Jobs",
+   "url": "https://uae.dubizzle.com/jobs/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage is in English; the About Us and job posting pages returned HTTP 404 in the browser reader, so employer and company facts were not confirmed."
+  },
+  {
+   "name": "alle jobs (AMS public job search)",
+   "url": "https://jobs.ams.at",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "AMS help page states the operator, an English version and the crawler and HR-API intake; no employer pricing, public API docs or partner programme found."
+  },
+  {
+   "name": "IEFP iefponline",
+   "url": "https://iefponline.iefp.pt",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Portal states it is owned by the IEFP and offers a posting form; no fees, language options or API found on the pages read."
+  },
+  {
+   "name": "Szukam Pracy",
+   "url": "https://www.szukampracy.pl",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Employer and partner pages state zloty listing prices and a posting button; no company owner, language options or API found."
+  },
+  {
+   "name": "Jobs in Stockholm",
+   "url": "https://jobsinstockholm.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Terms page names the owner and Brussels office and pricing page lists prices; no API, partner programme or language switcher found."
+  }
+ ],
+ "blocked": []
 }

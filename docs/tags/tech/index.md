@@ -1,6 +1,6 @@
 # Technology
 
-Software 41 entries in the directory.
+Software 46 entries in the directory.
 
 - [Toptal](https://jobboardlist.com/boards/toptal/): freelance-platform
 - [The Adecco Group](https://jobboardlist.com/boards/the-adecco-group/): staffing
@@ -20,6 +20,8 @@ Software 41 entries in the directory.
 - [Japan Dev](https://jobboardlist.com/boards/japan-dev/): niche-board
 - [Tecnoempleo](https://jobboardlist.com/boards/tecnoempleo/): niche-board
 - [Landing.jobs](https://jobboardlist.com/boards/landing-jobs/): niche-board
+- [ITviec](https://jobboardlist.com/boards/itviec/): niche-board
+- [Get on Board](https://jobboardlist.com/boards/get-on-board/): niche-board
 - [OfferZen](https://jobboardlist.com/boards/offerzen/): niche-board
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
 - [Berlin Startup Jobs](https://jobboardlist.com/boards/berlin-startup-jobs/): niche-board
@@ -30,6 +32,7 @@ Software 41 entries in the directory.
 - [Hacker News Who is hiring](https://jobboardlist.com/boards/hn-whoishiring/): community, Open API (no key)
 - [Salt Recruitment Jobs](https://jobboardlist.com/boards/salt-recruitment-jobs/): board
 - [STARTUPLAB Jobs](https://jobboardlist.com/boards/startuplab-jobs/): niche-board
+- [Teamio](https://jobboardlist.com/boards/teamio/): multiposting
 - [Engineering.jobs (Belgium)](https://jobboardlist.com/boards/engineering-jobs-belgium/): niche-board
 - [Hireline](https://jobboardlist.com/boards/hireline/): board
 - [ICTcareer.ch](https://jobboardlist.com/boards/ictcareer-ch/): niche-board
@@ -40,6 +43,8 @@ Software 41 entries in the directory.
 - [ITJob.au](https://jobboardlist.com/boards/itjob-au/): niche-board
 - [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
 - [ProgramaThor](https://jobboardlist.com/boards/programathor/): niche-board
+- [Rallit](https://jobboardlist.com/boards/rallit/): niche-board
+- [TechCareer](https://jobboardlist.com/boards/techcareer/): niche-board
 - [TechJob](https://jobboardlist.com/boards/techjob/): niche-board
 - [Techjobs.be](https://jobboardlist.com/boards/techjobs-be/): niche-board
 - [Tekjobb](https://jobboardlist.com/boards/tekjobb/): niche-board

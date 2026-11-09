@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "olx-portugal-emprego",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 405 with a 'Let's confirm you are human' challenge in the browser reader; not retried.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

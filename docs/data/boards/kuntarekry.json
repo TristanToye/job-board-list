@@ -10,8 +10,10 @@
  "countries_served": [
   "FI"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "fi",
+ "languages_supported": [
+  "fi"
+ ],
  "region": "Europe",
  "niche": "public sector",
  "segment": "",
@@ -22,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Finnish job board for municipal and wellbeing-area employers. Homepage says the Kuntarekry service is produced by Talentech, which is not stated as a parent. No API, partner or pricing statement found in pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/kuntarekry/",
  "indexable": false,
@@ -39,7 +41,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "kuntarekry",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage and information page read; only the Finnish language and the Talentech service provider are stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,14 @@
    "title": "Kuntarekry homepage",
    "accessed": "2026-11-09",
    "quote": "Kuntarekry-palvelun tuottaa Talentech.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://kuntarekry.fi/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Kuntarekrystä löytyy tuhansia avoimia työpaikkoja kaikkialta Suomesta.",
    "quote_check": "ok"
   }
  ]

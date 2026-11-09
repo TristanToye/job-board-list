@@ -15,14 +15,14 @@
  "region": "Europe",
  "niche": "healthcare (nursing)",
  "segment": "",
- "parent": "",
+ "parent": "Dansk Sygeplejeråd",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Operated by the Danish nurses union. Footer shows a Copenhagen postal address, which is not recorded as headquarters. No language selector, pricing or API pages were read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/job-dsr-dk/",
  "indexable": false,
@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "job-dsr-dk",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Parent Dansk Sygeplejeråd is stated; the other facts were not stated on the homepage and about page.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,14 @@
    "title": "job.dsr.dk homepage",
    "accessed": "2026-11-09",
    "quote": "På job.dsr.dk finder du jobopslag fra hele landet",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://job.dsr.dk/om-virksomheden/",
+   "title": "Om DSR",
+   "accessed": "2026-11-09",
+   "quote": "Dansk Sygeplejeråd (DSR) er fagforeningen for sygeplejersker.",
    "quote_check": "ok"
   }
  ]

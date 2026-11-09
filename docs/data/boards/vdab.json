@@ -10,22 +10,27 @@
  "countries_served": [
   "BE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nl",
+ "languages_supported": [
+  "nl"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "business_model": "free basic listings with paid formulas",
+ "api_status": "on-request",
+ "api_docs_url": "https://extranet.vdab.be/api-center-excellence-coe",
+ "partner_program": "yes",
+ "partner_url": "https://extranet.vdab.be/",
+ "ingest_methods": [
+  "API",
+  "manual posting"
+ ],
+ "notes": "Dutch-language public employment service site. Employer page shows free posting and paid formulas, prices not shown. API Center page lists a Vacature Posting API and a request form. Language switcher options not seen in pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/vdab/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -35,14 +40,24 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "api-on-request",
+  "free-to-post",
   "general",
   "government-operated",
   "government-service",
   "job-board",
+  "partner-program",
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "vdab",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages",
+  "note": "Homepage, employers, partner extranet, about and API Center pages read; no headquarters statement or language options found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -61,6 +76,62 @@
    "accessed": "2026-11-09",
    "quote": "",
    "quote_check": ""
+  },
+  {
+   "field": "languages",
+   "url": "https://www.vdab.be/",
+   "title": "VDAB homepage",
+   "accessed": "2026-11-09",
+   "quote": "Welkom bij VDAB, vandaag zijn er 230.757 jobs",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://werkgevers.vdab.be/",
+   "title": "VDAB employers homepage",
+   "accessed": "2026-11-09",
+   "quote": "Gratis en snel!",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://extranet.vdab.be/api-center-excellence-coe",
+   "title": "API Center of Excellence (CoE)",
+   "accessed": "2026-11-09",
+   "quote": "VDAB biedt verschillende API's aan",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.vdab.be/vdab",
+   "title": "Informatie over VDAB",
+   "accessed": "2026-11-09",
+   "quote": "Samenwerken met VDAB: ontdek hoe je met ons kan samenwerken als partner.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://extranet.vdab.be/",
+   "title": "VDAB Extranet homepage",
+   "accessed": "2026-11-09",
+   "quote": "VDAB werkt samen met partners om zijn dienstverlening aan burgers te realiseren",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://extranet.vdab.be/api-center-excellence-coe",
+   "title": "API Center of Excellence (CoE)",
+   "accessed": "2026-11-09",
+   "quote": "Meld jij vacatures automatisch op vdab.be via de Vacature Posting API",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://werkgevers.vdab.be/",
+   "title": "VDAB employers homepage",
+   "accessed": "2026-11-09",
+   "quote": "Publiceer je vacatures",
+   "quote_check": "ok"
   }
  ]
 }

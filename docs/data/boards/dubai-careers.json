@@ -11,18 +11,21 @@
   "AE"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "en",
+  "ar"
+ ],
  "region": "Middle East",
  "niche": "public-sector",
  "segment": "",
- "parent": "",
+ "parent": "Government of Dubai",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Employer portal of the Dubai government. Business model, API and partner options were not stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/dubai-careers/",
  "indexable": false,
@@ -41,7 +44,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "dubai-careers",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+  "note": "Government of Dubai portal with English and Arabic language links; no employer pricing or API stated on pages read.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -51,6 +61,22 @@
    "title": "Dubai Careers home",
    "accessed": "2026-11-09",
    "quote": "Download Dubai Careers and be able to access, search and apply for jobs from 45+ entities and much more to come.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://dubaicareers.ae/en/employers/pages/default.aspx",
+   "title": "Employers page",
+   "accessed": "2026-11-09",
+   "quote": "Employers | Dubai Careers",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://dubaicareers.ae/en/employers/pages/default.aspx",
+   "title": "Footer copyright",
+   "accessed": "2026-11-09",
+   "quote": "@2026 Smart Dubai Government Est, Government Of Dubai.",
    "quote_check": "ok"
   }
  ]

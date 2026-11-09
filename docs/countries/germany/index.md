@@ -1,6 +1,6 @@
 # Job boards in Germany
 
-21 job boards and related entries based in or serving Germany.
+22 job boards and related entries based in or serving Germany.
 
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board, Large tier
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Established tier, Partner-only API
@@ -10,6 +10,7 @@
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [Jobware](https://jobboardlist.com/boards/jobware/): board, Established tier
 - [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform, Small tier
+- [iAgora](https://jobboardlist.com/boards/iagora/): niche-board, Small tier
 - [freelance.de](https://jobboardlist.com/boards/freelance-de/): freelance-platform, Small tier
 - [Hotelcareer](https://jobboardlist.com/boards/hotelcareer/): board, Small tier
 - [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator, Small tier

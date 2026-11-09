@@ -10,8 +10,10 @@
  "countries_served": [
   "NZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "APAC",
  "niche": "maori-pacific",
  "segment": "",
@@ -21,8 +23,10 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Employer signup page says advertising starts after email verification. No prices, languages switcher or API page was found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/m-ori-pacific-jobs/",
  "indexable": false,
@@ -38,7 +42,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "m-ori-pacific-jobs",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;parent;api_status;partner_program",
+  "note": "Homepage and signup page read; no prices or API statement found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +59,22 @@
    "title": "Māori & Pacific Jobs homepage",
    "accessed": "2026-11-09",
    "quote": "the world's first Māori and Pacific job board.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://maoripacificjobs.co.nz/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Māori & Pacific Jobs provides organisations with an option to advertise job roles",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://maoripacificjobs.co.nz/signup",
+   "title": "Sign Up to Advertise",
+   "accessed": "2026-11-09",
+   "quote": "you can start advertising immediately upon verification of your email address",
    "quote_check": "ok"
   }
  ]

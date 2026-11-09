@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 82 entries in the directory.
+Has a partner or integration program. 83 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -41,6 +41,7 @@ Has a partner or integration program. 82 entries in the directory.
 - [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [TopResume](https://jobboardlist.com/boards/topresume/): career-services
+- [VDAB](https://jobboardlist.com/boards/vdab/): government, API key on request
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, API key on request
 - [Employment Hero](https://jobboardlist.com/boards/employment-hero/): hr-tech
@@ -81,6 +82,5 @@ Has a partner or integration program. 82 entries in the directory.
 - [aitrainer.work](https://jobboardlist.com/boards/aitrainer-work/): board
 - [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
-- [Jobs for Mums](https://jobboardlist.com/boards/jobs-for-mums/): niche-board
 
 Canonical page: https://jobboardlist.com/tags/partner-program/

@@ -1,6 +1,6 @@
 # ATS integration
 
-Receives jobs from applicant tracking systems. 21 entries in the directory.
+Receives jobs from applicant tracking systems. 24 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
@@ -18,9 +18,12 @@ Receives jobs from applicant tracking systems. 21 entries in the directory.
 - [Aplikuj.pl](https://jobboardlist.com/boards/aplikuj-pl/): board
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 - [MeesterBaan](https://jobboardlist.com/boards/meesterbaan/): niche-board
+- [Landing.jobs](https://jobboardlist.com/boards/landing-jobs/): niche-board
 - [Flexa](https://jobboardlist.com/boards/flexa/): board
+- [Student.be](https://jobboardlist.com/boards/student-be/): niche-board
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [Healthcarejobs.ie](https://jobboardlist.com/boards/healthcarejobs-ie/): niche-board
+- [Jober.pl](https://jobboardlist.com/boards/jober-pl/): board
 - [Jobstoday Ltd.](https://jobboardlist.com/boards/jobstoday-ltd/): board
 - [RGF Staffing B.V.](https://jobboardlist.com/boards/rgf-staffing-b-v/): staffing
 

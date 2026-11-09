@@ -21,8 +21,10 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "crawl"
+ ],
+ "notes": "About page says listings are indexed from employer career sites and verified ATS systems, and that employers cannot buy higher ranking. No pricing, owner, headquarters or API page was found in the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/karier-co/",
  "indexable": false,
@@ -35,11 +37,19 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "crawl-sourced",
   "general",
   "job-aggregator"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "karier-co",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent",
+  "note": "About page describes indexing of employer sources and no paid placement; no pricing, owner, headquarters or API page found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +59,14 @@
    "title": "KarieR.co Norwegian homepage",
    "accessed": "2026-11-09",
    "quote": "Fortsett søknaden hos den opprinnelige kilden.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://karier.co/no/about",
+   "title": "Om KarieR.co",
+   "accessed": "2026-11-09",
+   "quote": "Vi indekserer disse primærkildene regelmessig",
    "quote_check": "ok"
   }
  ]

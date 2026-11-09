@@ -1,95 +1,328 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Työmarkkinatori",
+   "url": "https://www.tyomarkkinatori.fi",
+   "languages_supported": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "parent": "KEHA-keskus",
+   "notes": "Footer lists a Rajapinnat (interfaces) link, but its page could not be located, so no api_status is recorded. Homepage, English personal-customers page and footer read in the browser reader.",
+   "sources": [
     {
-      "name": "Työmarkkinatori",
-      "url": "https://www.tyomarkkinatori.fi",
-      "languages_supported": ["fi", "sv", "en"],
-      "parent": "KEHA-keskus",
-      "notes": "Footer lists a Rajapinnat (interfaces) link, but its page could not be located, so no api_status is recorded. Homepage, English personal-customers page and footer read in the browser reader.",
-      "sources": [
-        {"field": "languages", "url": "https://www.tyomarkkinatori.fi", "title": "Language selector", "quote": "Suomi (FI)"},
-        {"field": "languages", "url": "https://www.tyomarkkinatori.fi", "title": "Language selector", "quote": "Svenska (SV)"},
-        {"field": "languages", "url": "https://www.tyomarkkinatori.fi/en/personal-customers", "title": "Language selector", "quote": "English (EN)"},
-        {"field": "parent", "url": "https://www.tyomarkkinatori.fi", "title": "Footer copyright", "quote": "© KEHA-keskus"}
-      ]
+     "field": "languages",
+     "url": "https://www.tyomarkkinatori.fi",
+     "title": "Language selector",
+     "quote": "Suomi (FI)",
+     "check": "ok"
     },
     {
-      "name": "jobup.ch",
-      "url": "https://www.jobup.ch",
-      "languages_supported": ["fr", "en"],
-      "business_model": "free posting with paid visibility options",
-      "parent": "JobCloud SA",
-      "ingest_methods": ["manual posting in recruiter area"],
-      "notes": "Recruiter pages show FR and EN language links. Primary language and headquarters are not stated. Owner taken from the about page.",
-      "sources": [
-        {"field": "languages", "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad", "title": "Recruiter page language links", "quote": "FR"},
-        {"field": "languages", "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad", "title": "Recruiter page language links", "quote": "EN"},
-        {"field": "parent", "url": "https://www.jobup.ch/en/about/", "title": "About us", "quote": "jobup.ch is owned by JobCloud SA, the leading digital company in the Swiss employment market."},
-        {"field": "business_model", "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad", "title": "Recruiter landing page", "quote": "start for free & pay when needed"},
-        {"field": "ingest_methods", "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad", "title": "Recruiter landing page", "quote": "Create job ads thanks to AI-generated text proposals"}
-      ]
+     "field": "languages",
+     "url": "https://www.tyomarkkinatori.fi",
+     "title": "Language selector",
+     "quote": "Svenska (SV)",
+     "check": "ok"
     },
     {
-      "name": "Dubai Careers",
-      "url": "https://dubaicareers.ae/en/pages/default.aspx",
-      "languages_supported": ["en", "ar"],
-      "parent": "Government of Dubai",
-      "notes": "Employer portal of the Dubai government. Business model, API and partner options were not stated on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://dubaicareers.ae/en/employers/pages/default.aspx", "title": "Employers page", "quote": "Employers | Dubai Careers"},
-        {"field": "languages", "url": "https://dubaicareers.ae/en/employers/pages/default.aspx", "title": "Language selector", "quote": "عربي"},
-        {"field": "parent", "url": "https://dubaicareers.ae/en/employers/pages/default.aspx", "title": "Footer copyright", "quote": "@2026 Smart Dubai Government Est, Government Of Dubai."}
-      ]
+     "field": "languages",
+     "url": "https://www.tyomarkkinatori.fi/en/personal-customers",
+     "title": "Language selector",
+     "quote": "English (EN)",
+     "check": "ok"
     },
     {
-      "name": "job.dsr.dk",
-      "url": "https://job.dsr.dk",
-      "parent": "Dansk Sygeplejeråd",
-      "notes": "Operated by the Danish nurses union. Footer shows a Copenhagen postal address, which is not recorded as headquarters. No language selector, pricing or API pages were read.",
-      "sources": [
-        {"field": "parent", "url": "https://job.dsr.dk/om-virksomheden/", "title": "Om DSR", "quote": "Dansk Sygeplejeråd (DSR) er fagforeningen for sygeplejersker."},
-        {"field": "parent", "url": "https://job.dsr.dk/om-virksomheden/", "title": "Om DSR", "quote": "DSR driver jobportalen job.dsr.dk"}
-      ]
-    },
-    {
-      "name": "Jober.pl",
-      "url": "https://www.jober.pl",
-      "business_model": "free posting with paid featured and renewal options",
-      "ingest_methods": ["recruiter ATS panel, manual posting"],
-      "notes": "Posting is free. Paid packages are listed from 25 to 2000 PLN, and renewal costs 5 PLN. Parent company and API options were not stated on the pages read.",
-      "sources": [
-        {"field": "business_model", "url": "https://www.jober.pl", "title": "Homepage", "quote": "U nas dodawanie ofert zawsze było i będzie bezpłatne."},
-        {"field": "business_model", "url": "https://www.jober.pl", "title": "Homepage", "quote": "Pobieramy jedynie opłaty za wyróżnienia i odnawianie ofert."},
-        {"field": "business_model", "url": "https://www.jober.pl", "title": "Homepage", "quote": "dostępne pakiety: od 25 do 2000 PLN"},
-        {"field": "ingest_methods", "url": "https://www.jober.pl", "title": "Employers menu", "quote": "Bezpłatny ATS - panel rekrutera"}
-      ]
-    },
-    {
-      "name": "StudentJob Sweden",
-      "url": "https://www.studentjob.se",
-      "parent": "YoungCapital",
-      "business_model": "free job ads",
-      "notes": "Homepage is in Swedish. Language selector, API and partner pages were not read.",
-      "sources": [
-        {"field": "parent", "url": "https://www.studentjob.se", "title": "Footer", "quote": "StudentJob International är ett dotterbolag till YoungCapital"},
-        {"field": "business_model", "url": "https://www.studentjob.se", "title": "Homepage", "quote": "Ladda upp en gratis jobbannons på StudentJob idag"}
-      ]
+     "field": "parent",
+     "url": "https://www.tyomarkkinatori.fi",
+     "title": "Footer copyright",
+     "quote": "© KEHA-keskus",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Työmarkkinatori", "url": "https://www.tyomarkkinatori.fi", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage and English page state three languages and the KEHA-keskus footer; the footer interfaces page was not found (404 on guessed paths)."},
-    {"name": "jobup.ch", "url": "https://www.jobup.ch", "outcome": "partially-verified", "fields_not_found": ["hq_country", "api_status", "partner_program"], "method": "browser", "note": "Owner, languages, free posting with paid options and recruiter posting are stated; headquarters and API were not stated."},
-    {"name": "Jobly", "url": "https://www.jobly.fi", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 403 with a 'Just a moment...' challenge in the browser reader; not retried."},
-    {"name": "Dubai Careers", "url": "https://dubaicareers.ae/en/pages/default.aspx", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Government of Dubai portal with English and Arabic language links; no employer pricing or API stated on pages read."},
-    {"name": "job.dsr.dk", "url": "https://job.dsr.dk", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Parent Dansk Sygeplejeråd is stated; the other facts were not stated on the homepage and about page."},
-    {"name": "OLX Portugal Emprego", "url": "https://www.olx.pt/emprego/", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "HTTP 405 with a 'Let's confirm you are human' challenge in the browser reader; not retried."},
-    {"name": "Jober.pl", "url": "https://www.jober.pl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "partner_program", "parent"], "method": "browser", "note": "Free posting, paid packages and the recruiter ATS panel are stated; owner, languages and API were not stated."},
-    {"name": "StudentJob Sweden", "url": "https://www.studentjob.se", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Parent YoungCapital and free job ads are stated; language selector and API pages were not read."}
-  ],
-  "blocked": [
-    {"name": "Jobly", "url": "https://www.jobly.fi", "reason": "HTTP 403 with challenge page in the browser reader"},
-    {"name": "OLX Portugal Emprego", "url": "https://www.olx.pt/emprego/", "reason": "HTTP 405 with 'Let's confirm you are human' challenge in the browser reader"}
-  ]
+   ]
+  },
+  {
+   "name": "jobup.ch",
+   "url": "https://www.jobup.ch",
+   "languages_supported": [
+    "fr",
+    "en"
+   ],
+   "business_model": "free posting with paid visibility options",
+   "parent": "JobCloud SA",
+   "ingest_methods": [
+    "manual posting in recruiter area"
+   ],
+   "notes": "Recruiter pages show FR and EN language links. Primary language and headquarters are not stated. Owner taken from the about page.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad",
+     "title": "Recruiter page language links",
+     "quote": "FR",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad",
+     "title": "Recruiter page language links",
+     "quote": "EN",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.jobup.ch/en/about/",
+     "title": "About us",
+     "quote": "jobup.ch is owned by JobCloud SA, the leading digital company in the Swiss employment market.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad",
+     "title": "Recruiter landing page",
+     "quote": "start for free & pay when needed",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://b2b.jobup.ch/en-recruiter-publish-job-ad",
+     "title": "Recruiter landing page",
+     "quote": "Create job ads thanks to AI-generated text proposals",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Dubai Careers",
+   "url": "https://dubaicareers.ae/en/pages/default.aspx",
+   "languages_supported": [
+    "en",
+    "ar"
+   ],
+   "parent": "Government of Dubai",
+   "notes": "Employer portal of the Dubai government. Business model, API and partner options were not stated on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://dubaicareers.ae/en/employers/pages/default.aspx",
+     "title": "Employers page",
+     "quote": "Employers | Dubai Careers",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://dubaicareers.ae/en/employers/pages/default.aspx",
+     "title": "Language selector",
+     "quote": "عربي",
+     "check": "mismatch"
+    },
+    {
+     "field": "parent",
+     "url": "https://dubaicareers.ae/en/employers/pages/default.aspx",
+     "title": "Footer copyright",
+     "quote": "@2026 Smart Dubai Government Est, Government Of Dubai.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "job.dsr.dk",
+   "url": "https://job.dsr.dk",
+   "parent": "Dansk Sygeplejeråd",
+   "notes": "Operated by the Danish nurses union. Footer shows a Copenhagen postal address, which is not recorded as headquarters. No language selector, pricing or API pages were read.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://job.dsr.dk/om-virksomheden/",
+     "title": "Om DSR",
+     "quote": "Dansk Sygeplejeråd (DSR) er fagforeningen for sygeplejersker.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://job.dsr.dk/om-virksomheden/",
+     "title": "Om DSR",
+     "quote": "DSR driver jobportalen job.dsr.dk",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jober.pl",
+   "url": "https://www.jober.pl",
+   "business_model": "free posting with paid featured and renewal options",
+   "ingest_methods": [
+    "recruiter ATS panel, manual posting"
+   ],
+   "notes": "Posting is free. Paid packages are listed from 25 to 2000 PLN, and renewal costs 5 PLN. Parent company and API options were not stated on the pages read.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.jober.pl",
+     "title": "Homepage",
+     "quote": "U nas dodawanie ofert zawsze było i będzie bezpłatne.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jober.pl",
+     "title": "Homepage",
+     "quote": "Pobieramy jedynie opłaty za wyróżnienia i odnawianie ofert.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jober.pl",
+     "title": "Homepage",
+     "quote": "dostępne pakiety: od 25 do 2000 PLN",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jober.pl",
+     "title": "Employers menu",
+     "quote": "Bezpłatny ATS - panel rekrutera",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "StudentJob Sweden",
+   "url": "https://www.studentjob.se",
+   "parent": "YoungCapital",
+   "business_model": "free job ads",
+   "notes": "Homepage is in Swedish. Language selector, API and partner pages were not read.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.studentjob.se",
+     "title": "Footer",
+     "quote": "StudentJob International är ett dotterbolag till YoungCapital",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.studentjob.se",
+     "title": "Homepage",
+     "quote": "Ladda upp en gratis jobbannons på StudentJob idag",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Työmarkkinatori",
+   "url": "https://www.tyomarkkinatori.fi",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage and English page state three languages and the KEHA-keskus footer; the footer interfaces page was not found (404 on guessed paths)."
+  },
+  {
+   "name": "jobup.ch",
+   "url": "https://www.jobup.ch",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Owner, languages, free posting with paid options and recruiter posting are stated; headquarters and API were not stated."
+  },
+  {
+   "name": "Jobly",
+   "url": "https://www.jobly.fi",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HTTP 403 with a 'Just a moment...' challenge in the browser reader; not retried."
+  },
+  {
+   "name": "Dubai Careers",
+   "url": "https://dubaicareers.ae/en/pages/default.aspx",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Government of Dubai portal with English and Arabic language links; no employer pricing or API stated on pages read."
+  },
+  {
+   "name": "job.dsr.dk",
+   "url": "https://job.dsr.dk",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Parent Dansk Sygeplejeråd is stated; the other facts were not stated on the homepage and about page."
+  },
+  {
+   "name": "OLX Portugal Emprego",
+   "url": "https://www.olx.pt/emprego/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "HTTP 405 with a 'Let's confirm you are human' challenge in the browser reader; not retried."
+  },
+  {
+   "name": "Jober.pl",
+   "url": "https://www.jober.pl",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program",
+    "parent"
+   ],
+   "method": "browser",
+   "note": "Free posting, paid packages and the recruiter ATS panel are stated; owner, languages and API were not stated."
+  },
+  {
+   "name": "StudentJob Sweden",
+   "url": "https://www.studentjob.se",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Parent YoungCapital and free job ads are stated; language selector and API pages were not read."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Jobly",
+   "url": "https://www.jobly.fi",
+   "reason": "HTTP 403 with challenge page in the browser reader"
+  },
+  {
+   "name": "OLX Portugal Emprego",
+   "url": "https://www.olx.pt/emprego/",
+   "reason": "HTTP 405 with 'Let's confirm you are human' challenge in the browser reader"
+  }
+ ]
 }

@@ -1,15 +1,18 @@
 # Pay per post
 
-Employers pay for each job posting. 34 entries in the directory.
+Employers pay for each job posting. 42 entries in the directory.
 
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government
 - [Prospects](https://jobboardlist.com/boards/prospects/): niche-board
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [meinestadt.de](https://jobboardlist.com/boards/meinestadt-de/): board
+- [The Hub](https://jobboardlist.com/boards/the-hub/): niche-board
+- [karriere.at](https://jobboardlist.com/boards/karriere-at/): board
 - [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
 - [CharityJob](https://jobboardlist.com/boards/charityjob/): niche-board
 - [Praca.pl](https://jobboardlist.com/boards/praca-pl/): board
+- [Duunitori](https://jobboardlist.com/boards/duunitori/): board
 - [Profession.hu](https://jobboardlist.com/boards/profession-hu/): board
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board
 - [Aplikuj.pl](https://jobboardlist.com/boards/aplikuj-pl/): board
@@ -19,11 +22,14 @@ Employers pay for each job posting. 34 entries in the directory.
 - [MeesterBaan](https://jobboardlist.com/boards/meesterbaan/): niche-board
 - [Turijobs](https://jobboardlist.com/boards/turijobs/): board
 - [StudentJob NL](https://jobboardlist.com/boards/studentjob-nl/): niche-board
+- [Student.be](https://jobboardlist.com/boards/student-be/): niche-board
 - [InfoPraca.pl](https://jobboardlist.com/boards/infopraca-pl/): board
 - [Werken bij de Overheid](https://jobboardlist.com/boards/werken-bij-de-overheid/): government
 - [ApplyToEducation](https://jobboardlist.com/boards/applytoeducation/): board
 - [Berlin Startup Jobs](https://jobboardlist.com/boards/berlin-startup-jobs/): niche-board
 - [Recruit Ireland](https://jobboardlist.com/boards/recruit-ireland/): board
+- [Xpatjobs](https://jobboardlist.com/boards/xpatjobs/): niche-board
+- [Expresso Emprego](https://jobboardlist.com/boards/expresso-emprego/): board
 - [Medische Banenbank](https://jobboardlist.com/boards/medische-banenbank/): niche-board
 - [Gezondheidszorgbanen.nl](https://jobboardlist.com/boards/gezondheidszorgbanen-nl/): niche-board
 - [Goodwork Canada](https://jobboardlist.com/boards/goodwork-canada/): niche-board
@@ -34,6 +40,8 @@ Employers pay for each job posting. 34 entries in the directory.
 - [Go Zambia Jobs](https://jobboardlist.com/boards/go-zambia-jobs/): board
 - [Healthcarejobs.ie](https://jobboardlist.com/boards/healthcarejobs-ie/): niche-board
 - [JobAlert](https://jobboardlist.com/boards/jobalert/): aggregator
+- [Kumara Vine](https://jobboardlist.com/boards/kumara-vine/): niche-board
+- [Szukam Pracy](https://jobboardlist.com/boards/szukam-pracy/): board
 - [Verde Talent](https://jobboardlist.com/boards/verde-talent/): board
 - [Yakka](https://jobboardlist.com/boards/yakka/): niche-board, No known API
 

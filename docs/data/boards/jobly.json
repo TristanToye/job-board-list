@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobly",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 with a 'Just a moment...' challenge in the browser reader; not retried.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

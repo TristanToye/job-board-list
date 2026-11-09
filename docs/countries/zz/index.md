@@ -1,6 +1,6 @@
 # Job boards in ZZ
 
-72 job boards and related entries based in or serving ZZ.
+73 job boards and related entries based in or serving ZZ.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier, Open API (no key)
@@ -55,6 +55,7 @@
 - [Braintrust](https://jobboardlist.com/boards/braintrust/): freelance-platform, Small tier
 - [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform, Small tier
 - [Kforce](https://jobboardlist.com/boards/kforce/): staffing, Small tier
+- [Impactpool](https://jobboardlist.com/boards/impactpool/): niche-board, Small tier
 - [Burning Glass Institute](https://jobboardlist.com/boards/burning-glass-institute/): lmi, Small tier
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech, Small tier
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, Small tier, API key on request

@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 85 entries in the directory.
+Employers pay a recurring fee or plan. 91 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -60,7 +60,9 @@ Employers pay a recurring fee or plan. 85 entries in the directory.
 - [Kalibrr](https://jobboardlist.com/boards/kalibrr/): board
 - [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
 - [Careers24](https://jobboardlist.com/boards/careers24/): board
+- [Landing.jobs](https://jobboardlist.com/boards/landing-jobs/): niche-board
 - [Gradireland](https://jobboardlist.com/boards/gradireland/): niche-board
+- [Student.be](https://jobboardlist.com/boards/student-be/): niche-board
 - [BrighterMonday](https://jobboardlist.com/boards/brightermonday/): board
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
@@ -75,12 +77,10 @@ Employers pay a recurring fee or plan. 85 entries in the directory.
 - [Kleinanzeigen](https://jobboardlist.com/boards/kleinanzeigen/): board
 - [FINN.no Jobs](https://jobboardlist.com/boards/finn-no/): classifieds+board, Partner-only API
 - [JOBTOPGUN](https://jobboardlist.com/boards/jobtopgun/): board
+- [Kampanje Jobb](https://jobboardlist.com/boards/kampanje-jobb/): niche-board
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
+- [Teach Away](https://jobboardlist.com/boards/teach-away/): niche-board
+- [Tes Jobs](https://jobboardlist.com/boards/tes-jobs/): niche-board
 - [Workeer](https://jobboardlist.com/boards/workeer/): board
-- [XING Jobs](https://jobboardlist.com/boards/xing/): social-network+board, Partner-only API
-- [Cloz](https://jobboardlist.com/boards/cloz/): board
-- [EnRoute Jobs](https://jobboardlist.com/boards/enroute-jobs/): board
-- [Go Zambia Jobs](https://jobboardlist.com/boards/go-zambia-jobs/): board
-- [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
 
 Canonical page: https://jobboardlist.com/tags/subscription/

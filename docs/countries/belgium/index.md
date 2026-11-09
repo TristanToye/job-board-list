@@ -2,7 +2,7 @@
 
 14 job boards and related entries based in or serving Belgium.
 
-- [VDAB](https://jobboardlist.com/boards/vdab/): government, Established tier
+- [VDAB](https://jobboardlist.com/boards/vdab/): government, Established tier, API key on request
 - [Jobat](https://jobboardlist.com/boards/jobat/): board, Established tier
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [Le Forem](https://jobboardlist.com/boards/le-forem/): government, Established tier

@@ -1,65 +1,157 @@
 {
-  "mode": "discover",
-  "country": "VN",
-  "boards": [
+ "mode": "discover",
+ "country": "VN",
+ "boards": [
+  {
+   "name": "VietnamWorks",
+   "url": "https://www.vietnamworks.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "VN"
+   ],
+   "sources": [
     {
-      "name": "VietnamWorks",
-      "url": "https://www.vietnamworks.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["VN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.vietnamworks.com", "title": "VietnamWorks homepage title", "quote": "Nền tảng Việc làm chất lượng & Tuyển dụng hiệu quả, nhanh chóng - VietnamWorks"}
-      ]
-    },
-    {
-      "name": "CareerLink.vn",
-      "url": "https://www.careerlink.vn",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["VN"],
-      "sources": [
-        {"field": "existence", "url": "https://www.careerlink.vn", "title": "CareerLink.vn homepage", "quote": "Tuyển dụng, tìm kiếm việc làm trực tuyến tại CareerLink.vn"}
-      ]
-    },
-    {
-      "name": "ITviec",
-      "url": "https://itviec.com",
-      "type": "niche-board",
-      "niche": "tech",
-      "countries_served": ["VN"],
-      "sources": [
-        {"field": "existence", "url": "https://itviec.com", "title": "ITviec site page", "quote": "Top IT Jobs for You."}
-      ]
-    },
-    {
-      "name": "TopDev",
-      "url": "https://topdev.vn",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["VN"],
-      "sources": [
-        {"field": "existence", "url": "https://topdev.vn", "title": "TopDev homepage", "quote": "Thêm hàng ngàn cơ hội việc làm đa ngành hấp dẫn."}
-      ]
+     "field": "existence",
+     "url": "https://www.vietnamworks.com",
+     "title": "VietnamWorks homepage title",
+     "quote": "Nền tảng Việc làm chất lượng & Tuyển dụng hiệu quả, nhanh chóng - VietnamWorks",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "TopCV", "url": "https://www.topcv.vn", "reason": "HTTP 403 (two attempts)"},
-    {"name": "National Job Exchange (vieclam.gov.vn)", "url": "https://vieclam.gov.vn", "reason": "HTTP 503 (two attempts)"},
-    {"name": "CareerBuilder.vn", "url": "https://careerbuilder.vn", "reason": "HTTP 503"},
-    {"name": "Vieclam24h", "url": "https://vieclam24h.vn", "reason": "HTTP 403"},
-    {"name": "Glints Vietnam", "url": "https://glints.com/vn/en", "reason": "HTTP 403"},
-    {"name": "Hanoi Job Information Portal", "url": "https://congvieclam.hanoi.gov.vn", "reason": "HTTP 503"},
-    {"name": "GrabJobs", "url": "https://grabjobs.co", "reason": "HTTP 403"},
-    {"name": "Viec Lam Tot", "url": "https://www.vieclamtot.com", "reason": "Fetch safety check rate-limited; page not read"},
-    {"name": "JobsVietnam", "url": "https://www.jobsvietnam.com", "reason": "Fetch safety check rate-limited; page not read"},
-    {"name": "Vietnam Teaching Jobs", "url": "https://www.vietnamteachingjobs.com", "reason": "Fetch safety check rate-limited; page not read"},
-    {"name": "Mustakbil Vietnam", "url": "https://vn.mustakbil.com", "reason": "Fetch safety check rate-limited; page not read"},
-    {"name": "TimViecNhanh", "url": "https://timviecnhanh.com", "reason": "Fetch safety check rate-limited; page not read"}
-  ],
-  "queue": [
-    {"name": "Ho Chi Minh City Employment Service Center portal", "url": "", "reason": "Named in news reports; official site not found in search results"},
-    {"name": "Lydia JobTech", "url": "", "reason": "Named in a search roundup of Vietnam tech-talent platforms; homepage not read"},
-    {"name": "iAgora", "url": "https://www.iagora.com/work/en/jobs/vietnam", "reason": "Vietnam graduate listings page read, but site describes itself as Europe-focused; Vietnam coverage not confirmed"}
-  ]
+   ]
+  },
+  {
+   "name": "CareerLink.vn",
+   "url": "https://www.careerlink.vn",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "VN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.careerlink.vn",
+     "title": "CareerLink.vn homepage",
+     "quote": "Tuyển dụng, tìm kiếm việc làm trực tuyến tại CareerLink.vn",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "ITviec",
+   "url": "https://itviec.com",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "VN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://itviec.com",
+     "title": "ITviec site page",
+     "quote": "Top IT Jobs for You.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "TopDev",
+   "url": "https://topdev.vn",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "VN"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://topdev.vn",
+     "title": "TopDev homepage",
+     "quote": "Thêm hàng ngàn cơ hội việc làm đa ngành hấp dẫn.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "TopCV",
+   "url": "https://www.topcv.vn",
+   "reason": "HTTP 403 (two attempts)"
+  },
+  {
+   "name": "National Job Exchange (vieclam.gov.vn)",
+   "url": "https://vieclam.gov.vn",
+   "reason": "HTTP 503 (two attempts)"
+  },
+  {
+   "name": "CareerBuilder.vn",
+   "url": "https://careerbuilder.vn",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Vieclam24h",
+   "url": "https://vieclam24h.vn",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Glints Vietnam",
+   "url": "https://glints.com/vn/en",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Hanoi Job Information Portal",
+   "url": "https://congvieclam.hanoi.gov.vn",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "GrabJobs",
+   "url": "https://grabjobs.co",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Viec Lam Tot",
+   "url": "https://www.vieclamtot.com",
+   "reason": "Fetch safety check rate-limited; page not read"
+  },
+  {
+   "name": "JobsVietnam",
+   "url": "https://www.jobsvietnam.com",
+   "reason": "Fetch safety check rate-limited; page not read"
+  },
+  {
+   "name": "Vietnam Teaching Jobs",
+   "url": "https://www.vietnamteachingjobs.com",
+   "reason": "Fetch safety check rate-limited; page not read"
+  },
+  {
+   "name": "Mustakbil Vietnam",
+   "url": "https://vn.mustakbil.com",
+   "reason": "Fetch safety check rate-limited; page not read"
+  },
+  {
+   "name": "TimViecNhanh",
+   "url": "https://timviecnhanh.com",
+   "reason": "Fetch safety check rate-limited; page not read"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Ho Chi Minh City Employment Service Center portal",
+   "url": "",
+   "reason": "Named in news reports; official site not found in search results"
+  },
+  {
+   "name": "Lydia JobTech",
+   "url": "",
+   "reason": "Named in a search roundup of Vietnam tech-talent platforms; homepage not read"
+  },
+  {
+   "name": "iAgora",
+   "url": "https://www.iagora.com/work/en/jobs/vietnam",
+   "reason": "Vietnam graduate listings page read, but site describes itself as Europe-focused; Vietnam coverage not confirmed"
+  }
+ ]
 }

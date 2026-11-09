@@ -10,22 +10,27 @@
  "countries_served": [
   "PT"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pt",
+ "languages_supported": [
+  "pt"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "MEO",
+ "business_model": "free",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting",
+  "apply redirect"
+ ],
+ "notes": "Employers can publish free job ads; the page also mentions premium solutions without prices. The employer page says a free API exists for publishing ads, but the key or access route is not stated. SAPO's about page says it was bought by the former Portugal Telecom, now MEO. Headquarters, language options and partner program not found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/sapo-emprego/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -35,11 +40,20 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "apply-integration",
+  "free-to-post",
   "general",
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "sapo-emprego",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;partner_program",
+  "note": "Home, employer registration and SAPO about pages read in the browser reader; no language switcher found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +63,46 @@
    "title": "SAPO Emprego homepage",
    "accessed": "2026-11-09",
    "quote": "Encontre o emprego certo",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://emprego.sapo.pt/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Encontre o emprego certo",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://emprego.sapo.pt/register/company",
+   "title": "Registo de empresa",
+   "accessed": "2026-11-09",
+   "quote": "Publique anúncios de emprego gratuitos",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://emprego.sapo.pt/register/company",
+   "title": "Registo de empresa",
+   "accessed": "2026-11-09",
+   "quote": "Disponibilizamos uma API gratuita para que possa publicar anúncios de forma mais simples.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://emprego.sapo.pt/register/company",
+   "title": "Registo de empresa",
+   "accessed": "2026-11-09",
+   "quote": "Redireccione os Candidatos para o site da empresa.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://sobre.sapo.pt/",
+   "title": "Sobre o SAPO (linked as SOBRE O SAPO in the emprego.sapo.pt footer)",
+   "accessed": "2026-11-09",
+   "quote": "Sobretudo a partir da sua aquisição pela antiga Portugal Telecom, hoje MEO",
    "quote_check": "ok"
   }
  ]

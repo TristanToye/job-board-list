@@ -1,12 +1,13 @@
 # Job boards in France
 
-14 job boards and related entries based in or serving France.
+15 job boards and related entries based in or serving France.
 
 - [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Large tier, Partner-only API
 - [Hellowork](https://jobboardlist.com/boards/hellowork/): board, Established tier
 - [Cadremploi](https://jobboardlist.com/boards/cadremploi/): board, Established tier
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Established tier, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
+- [iAgora](https://jobboardlist.com/boards/iagora/): niche-board, Small tier
 - [Jobijoba](https://jobboardlist.com/boards/jobijoba/): aggregator, Small tier, API key on request
 - [Meteojob](https://jobboardlist.com/boards/meteojob/): board, Small tier
 - [StudentJob FR](https://jobboardlist.com/boards/studentjob-fr/): niche-board, Small tier

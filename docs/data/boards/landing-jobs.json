@@ -10,22 +10,27 @@
  "countries_served": [
   "PT"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Europe",
  "niche": "tech",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Triveris Group",
+ "business_model": "subscription, plus hiring fee on some plans",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "ATS integration",
+  "manual posting"
+ ],
+ "notes": "Plans from €99 per month (Post Job Only) to €4.999 per month (Unlimited, no hiring fee). Sourcing and Scalability plans add hiring fees. The about page gives a Lisbon office address but does not label it headquarters. No API, language options or partner program found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/landing-jobs/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,11 +40,20 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "ats-integration",
   "job-board",
+  "subscription",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "landing-jobs",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program",
+  "note": "Home, pricing, job board and about pages read in the browser reader; no API or partner page linked.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +63,38 @@
    "title": "Landing.jobs homepage title",
    "accessed": "2026-11-09",
    "quote": "Find Tech Jobs in Europe",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://landing.jobs/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Jobs and projects that actually fit your goals",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://landing.jobs/about/",
+   "title": "Who we are",
+   "accessed": "2026-11-09",
+   "quote": "Landing.Jobs became part of Triveris Group, a tech recruitment powerhouse with over 30 years of experience.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://landing.jobs/business-pricing/",
+   "title": "Pricing & Fees",
+   "accessed": "2026-11-09",
+   "quote": "Self-service sourcing for small teams and early-stage startups.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://landing.jobs/business-job-board/",
+   "title": "Job Board",
+   "accessed": "2026-11-09",
+   "quote": "Plug Landing.Jobs into your existing ATS and keep everything aligned, updated, and running smoothly.",
    "quote_check": "ok"
   }
  ]

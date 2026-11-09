@@ -10,19 +10,21 @@
  "countries_served": [
   "NZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "APAC",
  "niche": "maori-pacific",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Paid job advertising with five services and a pre-paid 20 job pack at 10% off. Prices are not shown in the text read. Owned and operated by Tony Cutting Digital. No API, partner program or language switcher found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/kumara-vine/",
  "indexable": false,
@@ -35,10 +37,18 @@
   "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "kumara-vine",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+  "note": "Home, services and about pages read in the browser reader; prices are not in the text read.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +58,30 @@
    "title": "Kumara Vine homepage",
    "accessed": "2026-11-09",
    "quote": "promote Māori and Pasifika success",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.kumaravine.com/about",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "Welcome to Kumara Vine, New Zealand's leading job website",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.kumaravine.com/about",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "The Kumara Vine is owned and operated by Tony Cutting Digital",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.kumaravine.com/services",
+   "title": "Services & pricing",
+   "accessed": "2026-11-09",
+   "quote": "We also offer a pre-paid 20 Job Pack which provides a 10% discount on whichever service you choose to use.",
    "quote_check": "ok"
   }
  ]

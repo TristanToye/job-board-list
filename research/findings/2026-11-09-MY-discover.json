@@ -1,74 +1,170 @@
 {
-  "mode": "discover",
-  "country": "MY",
-  "boards": [
+ "mode": "discover",
+ "country": "MY",
+ "boards": [
+  {
+   "name": "MYFutureJobs",
+   "url": "https://myfuturejobs.gov.my",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "MY"
+   ],
+   "sources": [
     {
-      "name": "MYFutureJobs",
-      "url": "https://myfuturejobs.gov.my",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["MY"],
-      "sources": [
-        {"field": "existence", "url": "https://myfuturejobs.gov.my/", "title": "MYFutureJobs homepage", "quote": "Your Career Starts Here"}
-      ]
-    },
-    {
-      "name": "Hiredly",
-      "url": "https://my.hiredly.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["MY"],
-      "sources": [
-        {"field": "existence", "url": "https://my.hiredly.com/", "title": "Hiredly Malaysia homepage", "quote": "Find Jobs in Malaysia | Vacancies & Career Opportunities - Hiredly"}
-      ]
-    },
-    {
-      "name": "AJobThing",
-      "url": "https://www.ajobthing.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["MY"],
-      "sources": [
-        {"field": "existence", "url": "https://www.ajobthing.com/", "title": "AJobThing homepage", "quote": "Best Job Posting, Recruitment & Hiring Platform in Malaysia"}
-      ]
-    },
-    {
-      "name": "Doctor Jobs Today",
-      "url": "https://doctorjobs.today/my/",
-      "type": "niche-board",
-      "niche": "healthcare",
-      "countries_served": ["MY"],
-      "sources": [
-        {"field": "existence", "url": "https://doctorjobs.today/my/", "title": "Doctor Jobs Today Malaysia page", "quote": "Join Doctor Jobs Today by Docquity, a specialized job portal exclusively crafted for Healthcare Professionals."}
-      ]
-    },
-    {
-      "name": "EduAdvisor",
-      "url": "https://eduadvisor.my",
-      "type": "niche-board",
-      "niche": "graduates",
-      "countries_served": ["MY"],
-      "sources": [
-        {"field": "existence", "url": "https://eduadvisor.my/fresh-graduate-jobs", "title": "EduAdvisor fresh graduate jobs page", "quote": "Compare Top Fresh Graduate Jobs in Malaysia"}
-      ]
+     "field": "existence",
+     "url": "https://myfuturejobs.gov.my/",
+     "title": "MYFutureJobs homepage",
+     "quote": "Your Career Starts Here",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Maukerja", "url": "https://www.maukerja.my", "reason": "HTTP 403 on two attempts"},
-    {"name": "Glints", "url": "https://www.glints.com/my", "reason": "HTTP 403 on two attempts"},
-    {"name": "Ricebowl", "url": "https://ricebowl.my", "reason": "HTTP 403 on two attempts"},
-    {"name": "GrabJobs", "url": "https://grabjobs.co", "reason": "HTTP 403"},
-    {"name": "Jobstore", "url": "https://www.jobstore.com/my/", "reason": "HTTP 403"},
-    {"name": "JobLeads Malaysia", "url": "https://www.jobleads.com/my/", "reason": "HTTP 403"},
-    {"name": "JobCentral Malaysia", "url": "https://www.jobcentral.com.my", "reason": "DNS error (ENOTFOUND)"}
-  ],
-  "queue": [
-    {"name": "WhatJobs Malaysia", "url": "https://en-my.whatjobs.com/", "reason": "Homepage read but no descriptive text or operator stated; only a job-alert line was found"},
-    {"name": "iAgora", "url": "https://www.iagora.com/", "reason": "Homepage read and Malaysia is listed as a market, but no verbatim quote was captured for that claim; Europe-focused internship board"},
-    {"name": "Jora Malaysia", "url": "https://www.jora.com/j/jobs-in-malaysia", "reason": "Redirects to an Australian domain (au.jora.com); not verified as a Malaysia board"},
-    {"name": "WOBB", "url": "https://www.wobb.co/", "reason": "Redirects to my.hiredly.com; relationship not verified"},
-    {"name": "CakeResume", "url": "https://www.cakeresume.com/", "reason": "Redirects to cake.me, which was not fetched; Malaysia coverage not verified"},
-    {"name": "MMU CareerConnect", "url": "https://careerconnect.mmu.edu.my/find-jobs", "reason": "University career portal named in search results; homepage not read"},
-    {"name": "JobsMalaysia", "url": "", "reason": "Named in search results as a Ministry of Human Resources job-matching service; domain not confirmed"}
-  ]
+   ]
+  },
+  {
+   "name": "Hiredly",
+   "url": "https://my.hiredly.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "MY"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://my.hiredly.com/",
+     "title": "Hiredly Malaysia homepage",
+     "quote": "Find Jobs in Malaysia | Vacancies & Career Opportunities - Hiredly",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "AJobThing",
+   "url": "https://www.ajobthing.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "MY"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.ajobthing.com/",
+     "title": "AJobThing homepage",
+     "quote": "Best Job Posting, Recruitment & Hiring Platform in Malaysia",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Doctor Jobs Today",
+   "url": "https://doctorjobs.today/my/",
+   "type": "niche-board",
+   "niche": "healthcare",
+   "countries_served": [
+    "MY"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://doctorjobs.today/my/",
+     "title": "Doctor Jobs Today Malaysia page",
+     "quote": "Join Doctor Jobs Today by Docquity, a specialized job portal exclusively crafted for Healthcare Professionals.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "EduAdvisor",
+   "url": "https://eduadvisor.my",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "MY"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://eduadvisor.my/fresh-graduate-jobs",
+     "title": "EduAdvisor fresh graduate jobs page",
+     "quote": "Compare Top Fresh Graduate Jobs in Malaysia",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Maukerja",
+   "url": "https://www.maukerja.my",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Glints",
+   "url": "https://www.glints.com/my",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Ricebowl",
+   "url": "https://ricebowl.my",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "GrabJobs",
+   "url": "https://grabjobs.co",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Jobstore",
+   "url": "https://www.jobstore.com/my/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "JobLeads Malaysia",
+   "url": "https://www.jobleads.com/my/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "JobCentral Malaysia",
+   "url": "https://www.jobcentral.com.my",
+   "reason": "DNS error (ENOTFOUND)"
+  }
+ ],
+ "queue": [
+  {
+   "name": "WhatJobs Malaysia",
+   "url": "https://en-my.whatjobs.com/",
+   "reason": "Homepage read but no descriptive text or operator stated; only a job-alert line was found"
+  },
+  {
+   "name": "iAgora",
+   "url": "https://www.iagora.com/",
+   "reason": "Homepage read and Malaysia is listed as a market, but no verbatim quote was captured for that claim; Europe-focused internship board"
+  },
+  {
+   "name": "Jora Malaysia",
+   "url": "https://www.jora.com/j/jobs-in-malaysia",
+   "reason": "Redirects to an Australian domain (au.jora.com); not verified as a Malaysia board"
+  },
+  {
+   "name": "WOBB",
+   "url": "https://www.wobb.co/",
+   "reason": "Redirects to my.hiredly.com; relationship not verified"
+  },
+  {
+   "name": "CakeResume",
+   "url": "https://www.cakeresume.com/",
+   "reason": "Redirects to cake.me, which was not fetched; Malaysia coverage not verified"
+  },
+  {
+   "name": "MMU CareerConnect",
+   "url": "https://careerconnect.mmu.edu.my/find-jobs",
+   "reason": "University career portal named in search results; homepage not read"
+  },
+  {
+   "name": "JobsMalaysia",
+   "url": "",
+   "reason": "Named in search results as a Ministry of Human Resources job-matching service; domain not confirmed"
+  }
+ ]
 }

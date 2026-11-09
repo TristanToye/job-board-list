@@ -1,125 +1,303 @@
 {
-  "mode": "discover",
-  "country": "CO",
-  "boards": [
+ "mode": "discover",
+ "country": "CO",
+ "boards": [
+  {
+   "name": "Elempleo",
+   "url": "https://www.elempleo.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "CO",
+    "CR"
+   ],
+   "sources": [
     {
-      "name": "Elempleo",
-      "url": "https://www.elempleo.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["CO", "CR"],
-      "sources": [
-        {"field": "existence", "url": "https://www.elempleo.com", "title": "Ofertas de Empleos, Trabajos y Vacantes en Latinoamérica", "quote": "Publica o aplica a las mejores oportunidades de empleo en Latinoamérica."}      ]
-    },
-    {
-      "name": "Agencia Pública de Empleo del SENA",
-      "url": "https://ape.sena.edu.co",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["CO"],
-      "sources": [
-        {"field": "existence", "url": "https://ape.sena.edu.co", "title": "SENA informa | Incidente de seguridad en la Agencia Pública de Empleo", "quote": "Los servicios de la APE son gratuitos."}
-      ]
-    },
-    {
-      "name": "Sistema de Información del Servicio de Empleo (SPE)",
-      "url": "https://personas.serviciodeempleo.gov.co",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["CO"],
-      "sources": [
-        {"field": "existence", "url": "https://personas.serviciodeempleo.gov.co", "title": "SISTEMA DE INFORMACIÓN DEL SERVICIO DE EMPLEO", "quote": "Usted está ingresando como BUSCADOR DE EMPLEO"}
-      ]
-    },
-    {
-      "name": "Magneto Empleos",
-      "url": "https://www.magneto365.com/co",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["CO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.magneto365.com/co", "title": "Portal empleo Magneto", "quote": "El portal de empleo con las mejores ofertas laborales en Colombia."}
-      ]
-    },
-    {
-      "name": "Get on Board",
-      "url": "https://www.getonbrd.com",
-      "type": "niche-board",
-      "niche": "tech",
-      "countries_served": ["CO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.getonbrd.com", "title": "Curated tech jobs in Latin America", "quote": "Get on Board is the biggest tech and startup jobs community in Latin America."}
-      ]
-    },
-    {
-      "name": "AliadoLaboral",
-      "url": "https://www.aliadolaboral.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["CO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.aliadolaboral.com", "title": "Buscar Trabajo - Ofertas de Empleo - Colombia - Aliadolaboral", "quote": "Regístrate y encuentra las mejores ofertas de empleo."},
-        {"field": "existence", "url": "https://www.aliadolaboral.com", "title": "Buscar Trabajo - Ofertas de Empleo - Colombia - Aliadolaboral", "quote": "Vinculado a la red de prestadores del Servicio Público de Empleo."}
-      ]
-    },
-    {
-      "name": "Un Mejor Empleo",
-      "url": "https://www.unmejorempleo.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["CO", "MX", "ES", "CR", "SV", "GT", "HN", "PA", "AR", "CL", "EC", "PE", "VE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.unmejorempleo.com", "title": "Un Mejor Empleo homepage", "quote": "12,994 Ofertas de Empleo activas en Iberoamérica"}
-      ]
-    },
-    {
-      "name": "iAgora",
-      "url": "https://www.iagora.com",
-      "type": "niche-board",
-      "niche": "graduates",
-      "countries_served": ["CO", "FR", "US", "DE", "ES", "SG", "IT", "GB", "NL", "BR"],
-      "sources": [
-        {"field": "existence", "url": "https://www.iagora.com", "title": "All the internships, internationally | iAgora.com", "quote": "The #1 European board for internships abroad."}
-      ]
-    },
-    {
-      "name": "LATOjobs",
-      "url": "https://www.latojobs.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["CO", "AR", "BR", "MX", "CL", "PE", "UY", "EC", "CR", "BO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.latojobs.com", "title": "LATOjobs", "quote": "LATOjobs is the leading job board for LATAM jobs."}
-      ]
-    },
-    {
-      "name": "Colombia Move",
-      "url": "https://colombiamove.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["CO"],
-      "sources": [
-        {"field": "existence", "url": "https://colombiamove.com", "title": "Colombia Move homepage", "quote": "marketplace gratis de empleos, servicios, vivienda y clasificados en Colombia."}
-      ]
+     "field": "existence",
+     "url": "https://www.elempleo.com",
+     "title": "Ofertas de Empleos, Trabajos y Vacantes en Latinoamérica",
+     "quote": "Publica o aplica a las mejores oportunidades de empleo en Latinoamérica.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Jobomas", "url": "https://www.jobomas.com", "reason": "HTTP 403 (two attempts)"},
-    {"name": "Servicio Público de Empleo (serviciodeempleo.gov.co)", "url": "https://www.serviciodeempleo.gov.co", "reason": "HTTP 503 (two attempts)"},
-    {"name": "Bolsa Única de Empleo (buscadordeempleo.gov.co)", "url": "https://www.buscadordeempleo.gov.co", "reason": "HTTP 503 (two attempts)"},
-    {"name": "CNSC SIMO", "url": "https://simo.cnsc.gov.co", "reason": "HTTP 503 (two attempts)"},
-    {"name": "Universia Colombia", "url": "https://www.universia.net.co", "reason": "DNS error (getaddrinfo ENOTFOUND)"},
-    {"name": "Trabajo Remoto", "url": "https://www.trabajoremoto.co", "reason": "DNS error (getaddrinfo ENOTFOUND)"},
-    {"name": "Bogotá Agencia Distrital de Empleo (bogotatrabajo.gov.co)", "url": "https://bogotatrabajo.gov.co", "reason": "DNS error (getaddrinfo ENOTFOUND)"},
-    {"name": "Workana", "url": "https://www.workana.com", "reason": "HTTP 403"},
-    {"name": "AcciónTrabajo", "url": "https://www.acciontrabajo.com", "reason": "HTTP 403"}
-  ],
-  "queue": [
-    {"name": "Opción Empleo", "url": "https://www.opcionempleo.com.co", "reason": "Named in roundups; homepage returned a bot-verification page with no site content"},
-    {"name": "Empleate", "url": "https://www.empleate.com", "reason": "Named in a roundup; homepage returned HTTP 405 and was not retried"},
-    {"name": "Cafam", "url": "https://www.cafam.com.co", "reason": "Named in roundups; homepage returned a browser verification page with no site content"},
-    {"name": "Colsubsidio Agencia de Empleo", "url": "https://www.colsubsidio.com/empleo", "reason": "Employment agency page read; vacancy links appear to list Colsubsidio's own openings and SPE affiliation is not stated"},
-    {"name": "Comfama employment service", "url": "https://www.comfama.com", "reason": "Caja de compensación page read; employment section is a sub-service, not a standalone board"},
-    {"name": "Comfenalco Valle Delagente Agencia de Empleo", "url": "https://www.comfenalcovalle.com.co", "reason": "Caja de compensación page read; agency does not describe posting vacancies publicly on the page read"}
-  ]
+   ]
+  },
+  {
+   "name": "Agencia Pública de Empleo del SENA",
+   "url": "https://ape.sena.edu.co",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "CO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://ape.sena.edu.co",
+     "title": "SENA informa | Incidente de seguridad en la Agencia Pública de Empleo",
+     "quote": "Los servicios de la APE son gratuitos.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Sistema de Información del Servicio de Empleo (SPE)",
+   "url": "https://personas.serviciodeempleo.gov.co",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "CO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://personas.serviciodeempleo.gov.co",
+     "title": "SISTEMA DE INFORMACIÓN DEL SERVICIO DE EMPLEO",
+     "quote": "Usted está ingresando como BUSCADOR DE EMPLEO",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Magneto Empleos",
+   "url": "https://www.magneto365.com/co",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "CO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.magneto365.com/co",
+     "title": "Portal empleo Magneto",
+     "quote": "El portal de empleo con las mejores ofertas laborales en Colombia.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Get on Board",
+   "url": "https://www.getonbrd.com",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "CO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.getonbrd.com",
+     "title": "Curated tech jobs in Latin America",
+     "quote": "Get on Board is the biggest tech and startup jobs community in Latin America.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "AliadoLaboral",
+   "url": "https://www.aliadolaboral.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "CO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.aliadolaboral.com",
+     "title": "Buscar Trabajo - Ofertas de Empleo - Colombia - Aliadolaboral",
+     "quote": "Regístrate y encuentra las mejores ofertas de empleo.",
+     "check": "mismatch"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.aliadolaboral.com",
+     "title": "Buscar Trabajo - Ofertas de Empleo - Colombia - Aliadolaboral",
+     "quote": "Vinculado a la red de prestadores del Servicio Público de Empleo.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Un Mejor Empleo",
+   "url": "https://www.unmejorempleo.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "CO",
+    "MX",
+    "ES",
+    "CR",
+    "SV",
+    "GT",
+    "HN",
+    "PA",
+    "AR",
+    "CL",
+    "EC",
+    "PE",
+    "VE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.unmejorempleo.com",
+     "title": "Un Mejor Empleo homepage",
+     "quote": "12,994 Ofertas de Empleo activas en Iberoamérica",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "iAgora",
+   "url": "https://www.iagora.com",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "CO",
+    "FR",
+    "US",
+    "DE",
+    "ES",
+    "SG",
+    "IT",
+    "GB",
+    "NL",
+    "BR"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.iagora.com",
+     "title": "All the internships, internationally | iAgora.com",
+     "quote": "The #1 European board for internships abroad.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "LATOjobs",
+   "url": "https://www.latojobs.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "CO",
+    "AR",
+    "BR",
+    "MX",
+    "CL",
+    "PE",
+    "UY",
+    "EC",
+    "CR",
+    "BO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.latojobs.com",
+     "title": "LATOjobs",
+     "quote": "LATOjobs is the leading job board for LATAM jobs.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Colombia Move",
+   "url": "https://colombiamove.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "CO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://colombiamove.com",
+     "title": "Colombia Move homepage",
+     "quote": "marketplace gratis de empleos, servicios, vivienda y clasificados en Colombia.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Jobomas",
+   "url": "https://www.jobomas.com",
+   "reason": "HTTP 403 (two attempts)"
+  },
+  {
+   "name": "Servicio Público de Empleo (serviciodeempleo.gov.co)",
+   "url": "https://www.serviciodeempleo.gov.co",
+   "reason": "HTTP 503 (two attempts)"
+  },
+  {
+   "name": "Bolsa Única de Empleo (buscadordeempleo.gov.co)",
+   "url": "https://www.buscadordeempleo.gov.co",
+   "reason": "HTTP 503 (two attempts)"
+  },
+  {
+   "name": "CNSC SIMO",
+   "url": "https://simo.cnsc.gov.co",
+   "reason": "HTTP 503 (two attempts)"
+  },
+  {
+   "name": "Universia Colombia",
+   "url": "https://www.universia.net.co",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  },
+  {
+   "name": "Trabajo Remoto",
+   "url": "https://www.trabajoremoto.co",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  },
+  {
+   "name": "Bogotá Agencia Distrital de Empleo (bogotatrabajo.gov.co)",
+   "url": "https://bogotatrabajo.gov.co",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  },
+  {
+   "name": "Workana",
+   "url": "https://www.workana.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "AcciónTrabajo",
+   "url": "https://www.acciontrabajo.com",
+   "reason": "HTTP 403"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Opción Empleo",
+   "url": "https://www.opcionempleo.com.co",
+   "reason": "Named in roundups; homepage returned a bot-verification page with no site content"
+  },
+  {
+   "name": "Empleate",
+   "url": "https://www.empleate.com",
+   "reason": "Named in a roundup; homepage returned HTTP 405 and was not retried"
+  },
+  {
+   "name": "Cafam",
+   "url": "https://www.cafam.com.co",
+   "reason": "Named in roundups; homepage returned a browser verification page with no site content"
+  },
+  {
+   "name": "Colsubsidio Agencia de Empleo",
+   "url": "https://www.colsubsidio.com/empleo",
+   "reason": "Employment agency page read; vacancy links appear to list Colsubsidio's own openings and SPE affiliation is not stated"
+  },
+  {
+   "name": "Comfama employment service",
+   "url": "https://www.comfama.com",
+   "reason": "Caja de compensación page read; employment section is a sub-service, not a standalone board"
+  },
+  {
+   "name": "Comfenalco Valle Delagente Agencia de Empleo",
+   "url": "https://www.comfenalcovalle.com.co",
+   "reason": "Caja de compensación page read; agency does not describe posting vacancies publicly on the page read"
+  }
+ ]
 }

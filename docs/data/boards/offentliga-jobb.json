@@ -39,7 +39,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "offentliga-jobb",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Browser reader returned status 500 with blocked true and the page text The URL you requested has been blocked.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

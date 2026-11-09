@@ -10,22 +10,26 @@
  "countries_served": [
   "PL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pl",
+ "languages_supported": [
+  "pl"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per listing package in zloty, net",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Employers buy listing packages priced in zloty net, for example 65 zł for 15 days. The partner page lists partner job portals where listings are published. No API, company owner or language options found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/szukam-pracy/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
@@ -36,10 +40,18 @@
  },
  "tags": [
   "general",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "szukam-pracy",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+  "note": "Employer and partner pages state zloty listing prices and a posting button; no company owner, language options or API found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +61,38 @@
    "title": "Szukam Pracy homepage",
    "accessed": "2026-11-09",
    "quote": "Największy portal z ofertami pracy w Polsce.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://szukampracy.pl/dla-pracodawcy",
+   "title": "For employers",
+   "accessed": "2026-11-09",
+   "quote": "Publikuj ogłoszenia o pracę na szukampracy.pl i ponad 25 portalach partnerskich.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://szukampracy.pl/dla-pracodawcy",
+   "title": "For employers",
+   "accessed": "2026-11-09",
+   "quote": "Dodaj ogłoszenie za 65 zł netto i zacznij rekrutować już dziś.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://szukampracy.pl/partnerzy",
+   "title": "Partner portals",
+   "accessed": "2026-11-09",
+   "quote": "15 DNIOWA PUBLIKACJA OFERTY 65,00 zł netto",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://szukampracy.pl/dla-pracodawcy",
+   "title": "For employers",
+   "accessed": "2026-11-09",
+   "quote": "DODAJ OFERTĘ PRACY",
    "quote_check": "ok"
   }
  ]

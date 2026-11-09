@@ -16,13 +16,13 @@
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Imprint lists offices in Linz and Wien, Austria; the imprint does not say which is the head office. Employer ad products start at EUR 949 per ad (Standard, 30 days). No language switcher, developer, API or partner page was found in the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/karriere-at/",
  "indexable": false,
@@ -36,10 +36,18 @@
  },
  "tags": [
   "general",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "karriere-at",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;parent;api_status;partner_program;ingest_methods",
+  "note": "Imprint lists Austrian offices; employer pricing page shows ad prices; no language switcher, developer or partner page found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -58,6 +66,14 @@
    "accessed": "2026-11-09",
    "quote": "",
    "quote_check": ""
+  },
+  {
+   "field": "business_model",
+   "url": "https://business.karriere.at/produkte/stelleninserate",
+   "title": "Stelleninserate",
+   "accessed": "2026-11-09",
+   "quote": "ab€ 949 pro Stelleninserat",
+   "quote_check": "ok"
   }
  ]
 }

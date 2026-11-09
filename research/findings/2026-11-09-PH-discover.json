@@ -1,59 +1,127 @@
 {
-  "mode": "discover",
-  "country": "PH",
-  "boards": [
+ "mode": "discover",
+ "country": "PH",
+ "boards": [
+  {
+   "name": "OnlineJobs.ph",
+   "url": "https://www.onlinejobs.ph",
+   "type": "board",
+   "niche": "remote",
+   "countries_served": [
+    "PH"
+   ],
+   "sources": [
     {
-      "name": "OnlineJobs.ph",
-      "url": "https://www.onlinejobs.ph",
-      "type": "board",
-      "niche": "remote",
-      "countries_served": ["PH"],
-      "sources": [
-        {"field": "existence", "url": "https://www.onlinejobs.ph/", "title": "OnlineJobs.ph homepage", "quote": "We're the #1 marketplace for hiring Filipino remote talent."}
-      ]
-    },
-    {
-      "name": "Mynimo",
-      "url": "https://www.mynimo.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PH"],
-      "sources": [
-        {"field": "existence", "url": "https://www.mynimo.com", "title": "Mynimo homepage", "quote": "Cebu's Job Website."}
-      ]
-    },
-    {
-      "name": "Doctor Jobs Today",
-      "url": "https://doctorjobs.today/ph/for-employers/",
-      "type": "niche-board",
-      "niche": "healthcare",
-      "countries_served": ["PH"],
-      "sources": [
-        {"field": "existence", "url": "https://doctorjobs.today/ph/for-employers/", "title": "Doctor Jobs Today employers page", "quote": "we launched Doctor Jobs Today as the region's first dedicated job portal for Healthcare Professionals."}
-      ]
-    },
-    {
-      "name": "WorkAbroad.ph",
-      "url": "https://www.workabroad.ph",
-      "type": "board",
-      "niche": "overseas employment",
-      "countries_served": ["PH"],
-      "sources": [
-        {"field": "existence", "url": "https://www.workabroad.ph/", "title": "WorkAbroad.ph homepage", "quote": "Connecting Filipinos to safe jobs abroad!"}
-      ]
+     "field": "existence",
+     "url": "https://www.onlinejobs.ph/",
+     "title": "OnlineJobs.ph homepage",
+     "quote": "We're the #1 marketplace for hiring Filipino remote talent.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "PhilJobNet", "url": "https://philjobnet.gov.ph", "reason": "HTTP 403 on two attempts"},
-    {"name": "Bossjob", "url": "https://www.bossjob.ph", "reason": "HTTP 403 on two attempts"},
-    {"name": "BestJobs.ph", "url": "https://www.bestjobs.ph", "reason": "HTTP 503 on two attempts"},
-    {"name": "JobYoda", "url": "https://www.jobyoda.com", "reason": "HTTP 503 on two attempts"},
-    {"name": "GrabJobs", "url": "https://grabjobs.co", "reason": "HTTP 403"},
-    {"name": "Outsourcely", "url": "https://www.outsourcely.com", "reason": "DNS error (getaddrinfo EAI_AGAIN)"},
-    {"name": "Jora Philippines", "url": "https://ph.jora.com", "reason": "HTTP 403. www.jora.com redirects to au.jora.com, which was not followed"}
-  ],
-  "queue": [
-    {"name": "Oh! Jobs.ph", "url": "https://ohjobs.ph", "reason": "Named in a Betterteam roundup; homepage fetch rate-limited by the safety check, so not read"},
-    {"name": "Hubstaff Talent", "url": "https://talent.hubstaff.com/country/philippines", "reason": "Named in several roundups as a remote talent directory; page fetch rate-limited by the safety check, so not read"}
-  ]
+   ]
+  },
+  {
+   "name": "Mynimo",
+   "url": "https://www.mynimo.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PH"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.mynimo.com",
+     "title": "Mynimo homepage",
+     "quote": "Cebu's Job Website.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Doctor Jobs Today",
+   "url": "https://doctorjobs.today/ph/for-employers/",
+   "type": "niche-board",
+   "niche": "healthcare",
+   "countries_served": [
+    "PH"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://doctorjobs.today/ph/for-employers/",
+     "title": "Doctor Jobs Today employers page",
+     "quote": "we launched Doctor Jobs Today as the region's first dedicated job portal for Healthcare Professionals.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "WorkAbroad.ph",
+   "url": "https://www.workabroad.ph",
+   "type": "board",
+   "niche": "overseas employment",
+   "countries_served": [
+    "PH"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.workabroad.ph/",
+     "title": "WorkAbroad.ph homepage",
+     "quote": "Connecting Filipinos to safe jobs abroad!",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "PhilJobNet",
+   "url": "https://philjobnet.gov.ph",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Bossjob",
+   "url": "https://www.bossjob.ph",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "BestJobs.ph",
+   "url": "https://www.bestjobs.ph",
+   "reason": "HTTP 503 on two attempts"
+  },
+  {
+   "name": "JobYoda",
+   "url": "https://www.jobyoda.com",
+   "reason": "HTTP 503 on two attempts"
+  },
+  {
+   "name": "GrabJobs",
+   "url": "https://grabjobs.co",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Outsourcely",
+   "url": "https://www.outsourcely.com",
+   "reason": "DNS error (getaddrinfo EAI_AGAIN)"
+  },
+  {
+   "name": "Jora Philippines",
+   "url": "https://ph.jora.com",
+   "reason": "HTTP 403. www.jora.com redirects to au.jora.com, which was not followed"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Oh! Jobs.ph",
+   "url": "https://ohjobs.ph",
+   "reason": "Named in a Betterteam roundup; homepage fetch rate-limited by the safety check, so not read"
+  },
+  {
+   "name": "Hubstaff Talent",
+   "url": "https://talent.hubstaff.com/country/philippines",
+   "reason": "Named in several roundups as a remote talent directory; page fetch rate-limited by the safety check, so not read"
+  }
+ ]
 }

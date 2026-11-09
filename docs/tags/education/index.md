@@ -1,11 +1,12 @@
 # Education
 
-Teaching 13 entries in the directory.
+Teaching 14 entries in the directory.
 
 - [HigherEdJobs](https://jobboardlist.com/boards/higheredjobs/): niche-board
 - [AcademicTransfer](https://jobboardlist.com/boards/academictransfer/): niche-board
 - [MeesterBaan](https://jobboardlist.com/boards/meesterbaan/): niche-board
 - [ApplyToEducation](https://jobboardlist.com/boards/applytoeducation/): board
+- [Ajarn.com](https://jobboardlist.com/boards/ajarn-com/): board
 - [Education Canada](https://jobboardlist.com/boards/education-canada/): niche-board
 - [ESL Cafe](https://jobboardlist.com/boards/esl-cafe/): niche-board
 - [Teach Away](https://jobboardlist.com/boards/teach-away/): niche-board

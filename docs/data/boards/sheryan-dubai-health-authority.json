@@ -10,22 +10,27 @@
  "countries_served": [
   "AE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "ar"
+ ],
  "region": "Middle East",
  "niche": "healthcare",
  "segment": "",
- "parent": "",
+ "parent": "Dubai Health Authority",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Portal homepage describes health providers posting vacancies. No prices or API statement was found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/sheryan-dubai-health-authority/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -42,7 +47,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "sheryan-dubai-health-authority",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program",
+  "note": "Opportunities page read; an alternate facilities path returned no content; no prices or API statement found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +64,30 @@
    "title": "Sheryan opportunities",
    "accessed": "2026-11-09",
    "quote": "Dedicated portal bridging the gap between Health Facilities and Talented Professionals in Dubai.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities",
+   "title": "Opportunities",
+   "accessed": "2026-11-09",
+   "quote": "Dedicated portal bridging the gap between Health Facilities and Talented Professionals in Dubai.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities",
+   "title": "Opportunities",
+   "accessed": "2026-11-09",
+   "quote": "Dubai Health Authority in Numbers",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities",
+   "title": "Opportunities",
+   "accessed": "2026-11-09",
+   "quote": "Interface for Health Providers to post their job vacancies",
    "quote_check": "ok"
   }
  ]

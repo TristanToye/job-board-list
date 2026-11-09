@@ -16,13 +16,15 @@
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Employer page states online job posting is free. No language switcher or API page was found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/le-forem/",
  "indexable": false,
@@ -35,6 +37,7 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "general",
   "government-operated",
   "government-service",
@@ -42,7 +45,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "le-forem",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+  "note": "Homepage and employer pages read; employer posting is stated as free; no language switcher or API page found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -61,6 +71,22 @@
    "accessed": "2026-11-09",
    "quote": "",
    "quote_check": ""
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.leforem.be/entreprises/diffuser-offre-emploi.html",
+   "title": "Diffuser une offre d'emploi",
+   "accessed": "2026-11-09",
+   "quote": "Publiez votre offre d'emploi gratuitement en ligne",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.leforem.be/entreprises/diffuser-offre-emploi.html",
+   "title": "Diffuser une offre d'emploi",
+   "accessed": "2026-11-09",
+   "quote": "Créer/gérer une offre d'emploi en ligne",
+   "quote_check": "ok"
   }
  ]
 }
