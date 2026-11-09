@@ -1,0 +1,73 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "ITJob.au",
+      "url": "https://www.itjob.au/",
+      "primary_language": "en",
+      "languages_supported": ["en"],
+      "business_model": "free basic listing, paid promoted (AUD 37) and featured (AUD 57) listings",
+      "notes": "Homepage and pricing page are in English. No language switcher, parent company or headquarters country was stated. The /api and /partners paths returned 404.",
+      "sources": [
+        {"field": "languages", "url": "https://www.itjob.au/", "title": "Homepage tagline", "quote": "The IT job site made for IT professionals in Australia"},
+        {"field": "business_model", "url": "https://www.itjob.au/pricing", "title": "Pricing", "quote": "Basic Free Post a Job Promoted $37 AUD Post a Job Featured $57 AUD"},
+        {"field": "ingest_methods", "url": "https://www.itjob.au/", "title": "Homepage", "quote": "Post a job for free"}
+      ]
+    },
+    {
+      "name": "Grapevine Jobs",
+      "url": "https://www.grapevinejobs.com.au",
+      "primary_language": "en",
+      "languages_supported": ["en"],
+      "business_model": "per post (Basic Ad $50, Prime Ad $120, plus GST)",
+      "notes": "Homepage and pricing page are in English. No language switcher, parent company or headquarters country was stated. Fetch returned 403 and the browser reader returned 200. The /api path returned 403 in the browser reader and was not retried. The /partners path redirected to a page-unavailable page.",
+      "sources": [
+        {"field": "languages", "url": "https://www.grapevinejobs.com.au", "title": "Homepage description", "quote": "Australia's dedicated job board for the creative industries."},
+        {"field": "business_model", "url": "https://www.grapevinejobs.com.au/pricing", "title": "Pricing", "quote": "Basic Ad: $50 $50 (+GST) Post Basic Job Prime Ad: $120"},
+        {"field": "ingest_methods", "url": "https://www.grapevinejobs.com.au", "title": "Homepage", "quote": "Post a Job"}
+      ]
+    },
+    {
+      "name": "Yemplea",
+      "url": "https://yemplea.com",
+      "primary_language": "en",
+      "languages_supported": ["en", "es"],
+      "business_model": "free",
+      "notes": "Homepage offers an ES and EN language switcher and states free use for workers and companies. No headquarters country, parent company or API was stated. The /api and /partners paths returned 404.",
+      "sources": [
+        {"field": "languages", "url": "https://yemplea.com/", "title": "Homepage language switcher", "quote": "ES EN"},
+        {"field": "business_model", "url": "https://yemplea.com/", "title": "Homepage", "quote": "Free for workers and companies"},
+        {"field": "ingest_methods", "url": "https://yemplea.com/", "title": "Homepage", "quote": "Post an offer in 5 minutes."}
+      ]
+    },
+    {
+      "name": "BuildJob",
+      "url": "https://build-job.jp/",
+      "primary_language": "ja",
+      "languages_supported": ["ja"],
+      "business_model": "referral fee paid by hiring companies (free for job seekers)",
+      "notes": "Site is a Japanese construction-industry recruitment agency. Footer gives a Tokyo address for 株式会社MyVision. No language switcher or parent company was stated. The /partner path returned 404.",
+      "sources": [
+        {"field": "existence", "url": "https://build-job.jp/", "title": "Homepage footer address", "quote": "〒105-6924 東京都港区虎ノ門4-1-1 神谷町トラストタワー 24階"},
+        {"field": "languages", "url": "https://build-job.jp/", "title": "Homepage", "quote": "ビルドジョブは、建設業界に特化した転職エージェントサービスです。"},
+        {"field": "business_model", "url": "https://build-job.jp/", "title": "Homepage FAQ", "quote": "求人を紹介している企業様からいただく紹介手数料により事業が成り立っています"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "BOSS Zhipin", "url": "https://www.zhipin.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "mixed", "note": "Fetch returned Chinese page text with a Beijing address, but the browser reader returned an empty page, so no quote could be checked word for word."},
+    {"name": "ITJob.au", "url": "https://www.itjob.au/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Pricing and English-only site confirmed; headquarters, parent and API not stated, and /api and /partners returned 404."},
+    {"name": "Grapevine Jobs", "url": "https://www.grapevinejobs.com.au", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Pricing confirmed; fetch returned 403, browser reader returned 200; /api returned 403 in the browser reader."},
+    {"name": "arubai", "url": "https://arubai.jp/", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 403 from CloudFront in fetch and in the browser reader."},
+    {"name": "Yemplea", "url": "https://yemplea.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Language switcher and free-use statement confirmed; headquarters, parent and API not stated, and /api and /partners returned 404."},
+    {"name": "Relomote", "url": "https://relomote.com", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 403 in fetch and a Cloudflare verification challenge in the browser reader."},
+    {"name": "BuildJob", "url": "https://build-job.jp/", "outcome": "partially-verified", "fields_not_found": ["parent", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Tokyo address, Japanese-only site and referral-fee model confirmed; parent and API not stated, and /partner returned 404."},
+    {"name": "Bayt", "url": "https://www.bayt.com", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 403 in fetch and a Cloudflare security challenge in the browser reader."}
+  ],
+  "blocked": [
+    {"name": "arubai", "url": "https://arubai.jp/", "reason": "HTTP 403 (CloudFront) in fetch and browser reader"},
+    {"name": "Relomote", "url": "https://relomote.com", "reason": "HTTP 403 in fetch; Cloudflare challenge in browser reader"},
+    {"name": "Bayt", "url": "https://www.bayt.com", "reason": "HTTP 403 in fetch; Cloudflare challenge in browser reader"}
+  ]
+}

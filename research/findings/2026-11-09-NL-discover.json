@@ -1,0 +1,150 @@
+{
+  "mode": "discover",
+  "country": "NL",
+  "boards": [
+    {
+      "name": "Werken voor Nederland",
+      "url": "https://www.werkenvoornederland.nl",
+      "type": "government",
+      "niche": "government",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.werkenvoornederland.nl/", "title": "Werken voor Nederland homepage", "quote": "Bekijk onze vacatures, stages en startersmogelijkheden."}
+      ]
+    },
+    {
+      "name": "Werken bij de Overheid",
+      "url": "https://www.werkenbijdeoverheid.nl",
+      "type": "government",
+      "niche": "government",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.werkenbijdeoverheid.nl/", "title": "WerkenbijdeOverheid.nl homepage", "quote": "Hét startpunt van jouw carrière bij de overheid."}
+      ]
+    },
+    {
+      "name": "YoungCapital",
+      "url": "https://www.youngcapital.nl",
+      "type": "niche-board",
+      "niche": "graduates and young professionals",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.youngcapital.nl/", "title": "YoungCapital homepage", "quote": "Work needs young energy"}
+      ]
+    },
+    {
+      "name": "StudentJob NL",
+      "url": "https://www.studentjob.nl",
+      "type": "niche-board",
+      "niche": "students",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.studentjob.nl/", "title": "StudentJob.nl homepage", "quote": "Ga snel aan de slag en vind de leukste vacatures."}
+      ]
+    },
+    {
+      "name": "AcademicTransfer",
+      "url": "https://www.academictransfer.com",
+      "type": "niche-board",
+      "niche": "academic and research",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.academictransfer.com/", "title": "AcademicTransfer homepage", "quote": "Ontdek jouw carrièrestap in de wetenschap."}
+      ]
+    },
+    {
+      "name": "MeesterBaan",
+      "url": "https://www.meesterbaan.nl",
+      "type": "niche-board",
+      "niche": "education",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.meesterbaan.nl/", "title": "MeesterBaan homepage", "quote": "De leukste baan begint voor de klas"}
+      ]
+    },
+    {
+      "name": "Zorgwerk",
+      "url": "https://www.zorgwerk.nl",
+      "type": "niche-board",
+      "niche": "healthcare and welfare",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.zorgwerk.nl/", "title": "Zorgwerk homepage", "quote": "Zorgwerk is het platform dat je dagelijks helpt bij het vinden van de fijnste diensten en opdrachten."}
+      ]
+    },
+    {
+      "name": "Gezondheidszorgbanen.nl",
+      "url": "https://www.gezondheidszorgbanen.nl",
+      "type": "niche-board",
+      "niche": "healthcare",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.gezondheidszorgbanen.nl/", "title": "Gezondheidszorg banen homepage", "quote": "Op zoek naar zorgprofessionals? Bij ons vindt u ze."}
+      ]
+    },
+    {
+      "name": "Medische Banenbank",
+      "url": "https://www.medischebanenbank.nl",
+      "type": "niche-board",
+      "niche": "healthcare and welfare",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.medischebanenbank.nl/", "title": "Medische banenbank homepage", "quote": "Plaats jouw vacatures op een krachtig netwerk van partnersites"}
+      ]
+    },
+    {
+      "name": "MediVacature",
+      "url": "https://www.medivacature.nl",
+      "type": "niche-board",
+      "niche": "healthcare and welfare",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.medivacature.nl/", "title": "MediVacature.nl homepage", "quote": "Vacatures in zorg en welzijn"}
+      ]
+    },
+    {
+      "name": "Together Abroad",
+      "url": "https://www.togetherabroad.nl",
+      "type": "niche-board",
+      "niche": "international professionals",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.togetherabroad.nl/", "title": "Together Abroad homepage", "quote": "We help international talents To find jobs in The Netherlands"}
+      ]
+    },
+    {
+      "name": "IamExpat Jobs",
+      "url": "https://www.iamexpat.nl/career",
+      "type": "niche-board",
+      "niche": "expats and internationals",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.iamexpat.nl/career", "title": "IamExpat career page", "quote": "Search jobs for internationals in the Netherlands"}
+      ]
+    },
+    {
+      "name": "Expatica Netherlands Jobs",
+      "url": "https://www.expatica.com/nl/jobs/",
+      "type": "aggregator",
+      "niche": "expats and internationals",
+      "countries_served": ["NL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.expatica.com/nl/jobs/", "title": "Expatica Netherlands job search page", "quote": "Find a job"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Werkzoeken.nl", "url": "https://www.werkzoeken.nl", "reason": "HTTP 403 on two attempts"},
+    {"name": "Jobbird", "url": "https://www.jobbird.nl", "reason": "HTTP 503 on two attempts"},
+    {"name": "Onderwijs.nl", "url": "https://www.onderwijs.nl", "reason": "HTTP 503 on two attempts"},
+    {"name": "Stagemarkt", "url": "https://www.stagemarkt.nl", "reason": "HTTP 503 on two attempts"},
+    {"name": "Vacatures.nl", "url": "https://www.vacatures.nl", "reason": "DNS error (EAI_AGAIN) on two attempts"},
+    {"name": "Undercover Recruiting", "url": "https://www.undercover-recruiting.nl", "reason": "DNS error (host did not resolve from this session)"}
+  ],
+  "queue": [
+    {"name": "Nationale Vacaturebank", "url": "https://www.nationalevacaturebank.nl", "reason": "Named in several Dutch roundups; fetch tool could not access the homepage on two attempts, so not read"},
+    {"name": "Intermediair", "url": "https://www.intermediair.nl", "reason": "Named in Dutch directory listings; fetch tool could not access the homepage, so not read"},
+    {"name": "werk.nl (UWV)", "url": "https://www.werk.nl", "reason": "Named as the UWV vacancy portal in roundups; public URLs redirect to a login page, which was not followed"},
+    {"name": "Jobfeed (Market IQ)", "url": "https://www.jobfeed.nl", "reason": "Named in roundups as a Dutch vacancy data source; homepage returned only a login page, so no description was read"}
+  ]
+}
