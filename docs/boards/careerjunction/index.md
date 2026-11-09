@@ -18,7 +18,7 @@ CareerJunction is a job board.
 
 **Who owns CareerJunction?** According to this directory, CareerJunction is owned by The Stepstone Group (brand).
 
-**How large is CareerJunction?** CareerJunction ranks #343,744 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is CareerJunction?** CareerJunction ranks #343,744 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

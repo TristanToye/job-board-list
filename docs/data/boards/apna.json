@@ -35,7 +35,7 @@
   "global_rank": 218451,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "freemium",
@@ -44,7 +44,14 @@
   "trades-labour"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "apna",
+  "reviewed": "2026-11-09",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage states no headquarters, parent, languages, pricing or API; pricing, partner, employer and developer pages returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

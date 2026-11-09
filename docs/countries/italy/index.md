@@ -1,6 +1,6 @@
 # Job boards in Italy
 
-18 job boards and related entries based in or serving Italy.
+19 job boards and related entries based in or serving Italy.
 
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, Large tier, API key on request
 - [lavoro.gov.it (Ministry of Labour)](https://jobboardlist.com/boards/lavoro-gov-it-ministry-of-labour/): government, Established tier
@@ -20,5 +20,6 @@
 - [Ninacare](https://jobboardlist.com/boards/ninacare/): niche-board
 - [Lavoro Turismo](https://jobboardlist.com/boards/lavoro-turismo/): niche-board
 - [aitrainer.work](https://jobboardlist.com/boards/aitrainer-work/): board
+- [HireDoc](https://jobboardlist.com/boards/hiredoc/): niche-board
 
 Canonical page: https://jobboardlist.com/countries/italy/

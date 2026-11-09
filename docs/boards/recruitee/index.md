@@ -20,7 +20,7 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 
 **Does Recruitee have an API?** According to this directory, Recruitee has an open API or feed that does not require approval. Documentation: https://docs.recruitee.com.
 
-**How large is Recruitee?** Recruitee ranks #5,796 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Recruitee?** Recruitee ranks #5,796 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

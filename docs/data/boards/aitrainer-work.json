@@ -19,26 +19,34 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://aitrainer.work/partners",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Single role listings from $49 or $99, one-time payment for 30 days, paid via Stripe. Also offers job listing syndication, referral placements, and advertising. Homepage lists a job feed for your site and an MCP server, with no access or key terms stated. Site is run by founder Pietro Romeo; no parent company named.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/aitrainer-work/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "aitrainer-work",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;ingest_methods",
+  "note": "Single-role pricing and partner listing confirmed; no interface language options, address or parent company stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +57,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://aitrainer.work/partners",
+   "title": "Hiring partners",
+   "accessed": "2026-11-09",
+   "quote": "We list your open roles on the board and keep them current as you open and close them.",
+   "quote_check": "ok"
   }
  ]
 }

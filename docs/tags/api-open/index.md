@@ -1,6 +1,6 @@
 # Open API
 
-Provides an API or feed that needs no approval. 16 entries in the directory.
+Provides an API or feed that needs no approval. 17 entries in the directory.
 
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Open API (no key)
 - [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
@@ -18,5 +18,6 @@ Provides an API or feed that needs no approval. 16 entries in the directory.
 - [Google for Jobs](https://jobboardlist.com/boards/google-jobs/): search-aggregator, Open API (no key)
 - [Hacker News Who is hiring](https://jobboardlist.com/boards/hn-whoishiring/): community, Open API (no key)
 - [JobTech (Arbetsformedlingen)](https://jobboardlist.com/boards/arbetsformedlingen/): government, Open API (no key)
+- [Remotli](https://jobboardlist.com/boards/remotli/): board, Open API (no key)
 
 Canonical page: https://jobboardlist.com/tags/api-open/

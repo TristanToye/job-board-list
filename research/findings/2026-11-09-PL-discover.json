@@ -1,147 +1,366 @@
 {
-  "mode": "discover",
-  "country": "PL",
-  "boards": [
+ "mode": "discover",
+ "country": "PL",
+ "boards": [
+  {
+   "name": "Praca.pl",
+   "url": "https://www.praca.pl",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PL"
+   ],
+   "sources": [
     {
-      "name": "Praca.pl",
-      "url": "https://www.praca.pl",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PL"],
-      "sources": [
-        {"field": "existence", "url": "https://www.praca.pl/", "title": "Praca.pl homepage", "quote": "Aktualne ogłoszenia o pracę od zweryfikowanych pracodawców publikujących u nas od lat."},
-        {"field": "existence", "url": "https://www.praca.pl/", "title": "Praca.pl homepage", "quote": "Copyright © 2003 - 2026 Praca.pl Sp. z o.o."}
-      ]
+     "field": "existence",
+     "url": "https://www.praca.pl/",
+     "title": "Praca.pl homepage",
+     "quote": "Aktualne ogłoszenia o pracę od zweryfikowanych pracodawców publikujących u nas od lat.",
+     "check": "ok"
     },
     {
-      "name": "Aplikuj.pl",
-      "url": "https://www.aplikuj.pl",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PL"],
-      "sources": [
-        {"field": "existence", "url": "https://www.aplikuj.pl/", "title": "Aplikuj.pl homepage", "quote": "Przeglądaj aktualne oferty pracy, stwórz atrakcyjne CV i korzystaj z setek porad naszych ekspertów."},
-        {"field": "existence", "url": "https://www.aplikuj.pl/", "title": "Aplikuj.pl homepage", "quote": "Mamy dla Ciebie 39 889 ofert pracy."}
-      ]
-    },
-    {
-      "name": "OLX Praca",
-      "url": "https://www.olx.pl/praca/",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PL"],
-      "sources": [
-        {"field": "existence", "url": "https://www.olx.pl/praca/", "title": "OLX Praca job section", "quote": "Na OLX każdego dnia publikowane są nowe oferty pracy z całej Polski"},
-        {"field": "existence", "url": "https://www.olx.pl/praca/", "title": "OLX Praca job section", "quote": "Oferujemy szeroki wybór ofert pracy w różnych branżach i lokalizacjach"}
-      ]
-    },
-    {
-      "name": "InfoPraca.pl",
-      "url": "https://www.infopraca.pl",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PL"],
-      "sources": [
-        {"field": "existence", "url": "https://www.infopraca.pl/", "title": "infoPraca.pl homepage", "quote": "infoPraca.pl zapewnia dostęp do nowoczesnych narzędzi rekrutacyjnych i wyszukiwania pracy online"},
-        {"field": "existence", "url": "https://www.infopraca.pl/", "title": "infoPraca.pl homepage", "quote": "Lista ofert i eksport CSV zaraz po opłaceniu."}
-      ]
-    },
-    {
-      "name": "Szukam Pracy",
-      "url": "https://www.szukampracy.pl",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PL"],
-      "sources": [
-        {"field": "existence", "url": "https://www.szukampracy.pl/", "title": "Szukam Pracy homepage", "quote": "Największy portal z ofertami pracy w Polsce."},
-        {"field": "existence", "url": "https://www.szukampracy.pl/", "title": "Szukam Pracy homepage", "quote": "10 000+ Aktywnych ofert"}
-      ]
-    },
-    {
-      "name": "Jober.pl",
-      "url": "https://www.jober.pl",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PL"],
-      "sources": [
-        {"field": "existence", "url": "https://www.jober.pl/", "title": "Jober.pl homepage", "quote": "Jober to portal pracy, który zawsze będzie darmowy"},
-        {"field": "existence", "url": "https://www.jober.pl/", "title": "Jober.pl homepage", "quote": "U nas dodawanie ofert zawsze było i będzie bezpłatne."}
-      ]
-    },
-    {
-      "name": "Just Join IT",
-      "url": "https://justjoin.it",
-      "type": "niche-board",
-      "niche": "tech",
-      "countries_served": ["PL"],
-      "sources": [
-        {"field": "existence", "url": "https://justjoin.it/", "title": "Just Join IT homepage", "quote": "#1 Job Board for tech industry in Europe."},
-        {"field": "existence", "url": "https://justjoin.it/", "title": "Just Join IT homepage", "quote": "© 2026 Just Join IT sp. z o.o."}
-      ]
-    },
-    {
-      "name": "Rocket Jobs",
-      "url": "https://rocketjobs.pl",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PL"],
-      "sources": [
-        {"field": "existence", "url": "https://rocketjobs.pl/", "title": "Rocket Jobs homepage", "quote": "Dzięki naszej technologii dopasowania, rekruterzy znajdą Cię w oparciu o Twoje umiejętności i doświadczenie."},
-        {"field": "existence", "url": "https://rocketjobs.pl/", "title": "Rocket Jobs homepage", "quote": "© 2026 Just Join IT sp. z o.o."}
-      ]
-    },
-    {
-      "name": "eRecruiter",
-      "url": "https://www.erecruiter.pl",
-      "type": "multiposting",
-      "niche": "general",
-      "countries_served": ["PL"],
-      "sources": [
-        {"field": "existence", "url": "https://www.erecruiter.pl/", "title": "eRecruiter homepage", "quote": "Z łatwością opublikujesz ogłoszenia na 30 portalach (m.in. Pracuj.pl i OLX) z jednego miejsca."},
-        {"field": "existence", "url": "https://www.erecruiter.pl/", "title": "eRecruiter homepage", "quote": "Poznaj nowoczesne narzędzie do planowania, prowadzenia i automatyzacji rekrutacji, które wybrało ponad 2 400 firm."}
-      ]
-    },
-    {
-      "name": "HireDoc",
-      "url": "https://hiredoc.com",
-      "type": "niche-board",
-      "niche": "healthcare",
-      "countries_served": ["PL", "IT"],
-      "sources": [
-        {"field": "existence", "url": "https://hiredoc.com/", "title": "HireDoc homepage", "quote": "HireDoc brings together current job offers from clinics, hospitals and medical centres"},
-        {"field": "existence", "url": "https://hiredoc.com/", "title": "HireDoc homepage", "quote": "Choose your country to browse offers by specialty and city, compare pay and working arrangements."}
-      ]
-    },
-    {
-      "name": "Ogłoszenia ngo.pl",
-      "url": "https://ogloszenia.ngo.pl",
-      "type": "niche-board",
-      "niche": "nonprofit",
-      "countries_served": ["PL"],
-      "sources": [
-        {"field": "existence", "url": "https://ogloszenia.ngo.pl/", "title": "Ogłoszenia ngo.pl homepage", "quote": "Ogłoszenia ngo.pl odnotowują co miesiąc ponad 470 000 odsłon"},
-        {"field": "existence", "url": "https://ogloszenia.ngo.pl/", "title": "Ogłoszenia ngo.pl homepage", "quote": "Cennik brutto"}
-      ]
+     "field": "existence",
+     "url": "https://www.praca.pl/",
+     "title": "Praca.pl homepage",
+     "quote": "Copyright © 2003 - 2026 Praca.pl Sp. z o.o.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "GoWork.pl", "url": "https://www.gowork.pl", "reason": "HTTP 403 on two attempts"},
-    {"name": "Bulldogjob", "url": "https://bulldogjob.pl", "reason": "HTTP 403 on two attempts"},
-    {"name": "The Protocol", "url": "https://theprotocol.it", "reason": "HTTP 403"},
-    {"name": "SolidJobs", "url": "https://solidjobs.pl", "reason": "HTTP 403"},
-    {"name": "GoldenLine", "url": "https://www.goldenline.pl", "reason": "HTTP 503 on two attempts"},
-    {"name": "MP OnLine job section (Medycyna Praktyczna)", "url": "https://www.mp.pl/praca/", "reason": "HTTP 403"},
-    {"name": "Trojmiasto.pl jobs", "url": "https://www.trojmiasto.pl/praca/", "reason": "HTTP 403"},
-    {"name": "pracawpolsce.gov.pl", "url": "https://www.pracawpolsce.gov.pl", "reason": "HTTP 503"},
-    {"name": "Kariera.pl", "url": "https://www.kariera.pl", "reason": "HTTP 503"},
-    {"name": "HRlink.pl", "url": "https://hrlink.pl", "reason": "HTTP 503"}
-  ],
-  "queue": [
-    {"name": "NoFluffJobs", "url": "https://nofluffjobs.com", "reason": "Named in roundups as a Polish tech board; fetch failed on two attempts with a tool error, not read"},
-    {"name": "praca.gov.pl (public employment service portal)", "url": "https://www.praca.gov.pl", "reason": "Fetched but no page text was returned; operator and offer description not read"},
-    {"name": "ePraca (oferty.praca.gov.pl)", "url": "https://oferty.praca.gov.pl", "reason": "Returned only the title ePraca; no description, operator or offer count read"},
-    {"name": "Gazeta Praca", "url": "https://www.gazetapraca.pl", "reason": "Homepage states it is a demonstration site (Witryna o charakterze pokazowym); not treated as a live board"},
-    {"name": "Absolwent.pl", "url": "https://absolwent.pl", "reason": "Redirects (302) to a premium.pl shop page that was not read"},
-    {"name": "EURES", "url": "https://eures.europa.eu", "reason": "Opened; EU-wide portal run by the European Labour Authority. The page read does not mention Poland, so not listed as a Polish board"}
-  ]
+   ]
+  },
+  {
+   "name": "Aplikuj.pl",
+   "url": "https://www.aplikuj.pl",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PL"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.aplikuj.pl/",
+     "title": "Aplikuj.pl homepage",
+     "quote": "Przeglądaj aktualne oferty pracy, stwórz atrakcyjne CV i korzystaj z setek porad naszych ekspertów.",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.aplikuj.pl/",
+     "title": "Aplikuj.pl homepage",
+     "quote": "Mamy dla Ciebie 39 889 ofert pracy.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "OLX Praca",
+   "url": "https://www.olx.pl/praca/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PL"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.olx.pl/praca/",
+     "title": "OLX Praca job section",
+     "quote": "Na OLX każdego dnia publikowane są nowe oferty pracy z całej Polski",
+     "check": "unreachable"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.olx.pl/praca/",
+     "title": "OLX Praca job section",
+     "quote": "Oferujemy szeroki wybór ofert pracy w różnych branżach i lokalizacjach",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "InfoPraca.pl",
+   "url": "https://www.infopraca.pl",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PL"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.infopraca.pl/",
+     "title": "infoPraca.pl homepage",
+     "quote": "infoPraca.pl zapewnia dostęp do nowoczesnych narzędzi rekrutacyjnych i wyszukiwania pracy online",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.infopraca.pl/",
+     "title": "infoPraca.pl homepage",
+     "quote": "Lista ofert i eksport CSV zaraz po opłaceniu.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Szukam Pracy",
+   "url": "https://www.szukampracy.pl",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PL"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.szukampracy.pl/",
+     "title": "Szukam Pracy homepage",
+     "quote": "Największy portal z ofertami pracy w Polsce.",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.szukampracy.pl/",
+     "title": "Szukam Pracy homepage",
+     "quote": "10 000+ Aktywnych ofert",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jober.pl",
+   "url": "https://www.jober.pl",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PL"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jober.pl/",
+     "title": "Jober.pl homepage",
+     "quote": "Jober to portal pracy, który zawsze będzie darmowy",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.jober.pl/",
+     "title": "Jober.pl homepage",
+     "quote": "U nas dodawanie ofert zawsze było i będzie bezpłatne.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Just Join IT",
+   "url": "https://justjoin.it",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "PL"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://justjoin.it/",
+     "title": "Just Join IT homepage",
+     "quote": "#1 Job Board for tech industry in Europe.",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://justjoin.it/",
+     "title": "Just Join IT homepage",
+     "quote": "© 2026 Just Join IT sp. z o.o.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Rocket Jobs",
+   "url": "https://rocketjobs.pl",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PL"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://rocketjobs.pl/",
+     "title": "Rocket Jobs homepage",
+     "quote": "Dzięki naszej technologii dopasowania, rekruterzy znajdą Cię w oparciu o Twoje umiejętności i doświadczenie.",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://rocketjobs.pl/",
+     "title": "Rocket Jobs homepage",
+     "quote": "© 2026 Just Join IT sp. z o.o.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "eRecruiter",
+   "url": "https://www.erecruiter.pl",
+   "type": "multiposting",
+   "niche": "general",
+   "countries_served": [
+    "PL"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.erecruiter.pl/",
+     "title": "eRecruiter homepage",
+     "quote": "Z łatwością opublikujesz ogłoszenia na 30 portalach (m.in. Pracuj.pl i OLX) z jednego miejsca.",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.erecruiter.pl/",
+     "title": "eRecruiter homepage",
+     "quote": "Poznaj nowoczesne narzędzie do planowania, prowadzenia i automatyzacji rekrutacji, które wybrało ponad 2 400 firm.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "HireDoc",
+   "url": "https://hiredoc.com",
+   "type": "niche-board",
+   "niche": "healthcare",
+   "countries_served": [
+    "PL",
+    "IT"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://hiredoc.com/",
+     "title": "HireDoc homepage",
+     "quote": "HireDoc brings together current job offers from clinics, hospitals and medical centres",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://hiredoc.com/",
+     "title": "HireDoc homepage",
+     "quote": "Choose your country to browse offers by specialty and city, compare pay and working arrangements.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ogłoszenia ngo.pl",
+   "url": "https://ogloszenia.ngo.pl",
+   "type": "niche-board",
+   "niche": "nonprofit",
+   "countries_served": [
+    "PL"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://ogloszenia.ngo.pl/",
+     "title": "Ogłoszenia ngo.pl homepage",
+     "quote": "Ogłoszenia ngo.pl odnotowują co miesiąc ponad 470 000 odsłon",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://ogloszenia.ngo.pl/",
+     "title": "Ogłoszenia ngo.pl homepage",
+     "quote": "Cennik brutto",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "GoWork.pl",
+   "url": "https://www.gowork.pl",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Bulldogjob",
+   "url": "https://bulldogjob.pl",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "The Protocol",
+   "url": "https://theprotocol.it",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "SolidJobs",
+   "url": "https://solidjobs.pl",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "GoldenLine",
+   "url": "https://www.goldenline.pl",
+   "reason": "HTTP 503 on two attempts"
+  },
+  {
+   "name": "MP OnLine job section (Medycyna Praktyczna)",
+   "url": "https://www.mp.pl/praca/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Trojmiasto.pl jobs",
+   "url": "https://www.trojmiasto.pl/praca/",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "pracawpolsce.gov.pl",
+   "url": "https://www.pracawpolsce.gov.pl",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "Kariera.pl",
+   "url": "https://www.kariera.pl",
+   "reason": "HTTP 503"
+  },
+  {
+   "name": "HRlink.pl",
+   "url": "https://hrlink.pl",
+   "reason": "HTTP 503"
+  }
+ ],
+ "queue": [
+  {
+   "name": "NoFluffJobs",
+   "url": "https://nofluffjobs.com",
+   "reason": "Named in roundups as a Polish tech board; fetch failed on two attempts with a tool error, not read"
+  },
+  {
+   "name": "praca.gov.pl (public employment service portal)",
+   "url": "https://www.praca.gov.pl",
+   "reason": "Fetched but no page text was returned; operator and offer description not read"
+  },
+  {
+   "name": "ePraca (oferty.praca.gov.pl)",
+   "url": "https://oferty.praca.gov.pl",
+   "reason": "Returned only the title ePraca; no description, operator or offer count read"
+  },
+  {
+   "name": "Gazeta Praca",
+   "url": "https://www.gazetapraca.pl",
+   "reason": "Homepage states it is a demonstration site (Witryna o charakterze pokazowym); not treated as a live board"
+  },
+  {
+   "name": "Absolwent.pl",
+   "url": "https://absolwent.pl",
+   "reason": "Redirects (302) to a premium.pl shop page that was not read"
+  },
+  {
+   "name": "EURES",
+   "url": "https://eures.europa.eu",
+   "reason": "Opened; EU-wide portal run by the European Labour Authority. The page read does not mention Poland, so not listed as a Polish board"
+  }
+ ]
 }

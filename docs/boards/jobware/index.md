@@ -18,7 +18,7 @@ Jobware is a job board. It was founded in 1996.
 
 **Who owns Jobware?** This directory records the parent of Jobware as Medien Union.
 
-**How large is Jobware?** Jobware ranks #77,998 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jobware?** Jobware ranks #77,998 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

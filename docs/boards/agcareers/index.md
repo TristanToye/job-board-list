@@ -18,7 +18,7 @@ AgCareers is a job board based in Canada, focused on agriculture. It was founded
 
 **Which languages does AgCareers support?** This directory records AgCareers as supporting English.
 
-**How large is AgCareers?** AgCareers ranks #224,664 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is AgCareers?** AgCareers ranks #224,664 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does AgCareers connect to?** According to this directory, AgCareers integrates with Job Bank.
 

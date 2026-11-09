@@ -1,6 +1,6 @@
 # Free to post
 
-Employers can post jobs without paying. 31 entries in the directory.
+Employers can post jobs without paying. 36 entries in the directory.
 
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
@@ -32,6 +32,11 @@ Employers can post jobs without paying. 31 entries in the directory.
 - [Cerco&Trovo](https://jobboardlist.com/boards/cerco-trovo/): board
 - [Connect Nonprofit Jobs](https://jobboardlist.com/boards/connect-jobs/): niche-board, No known API
 - [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
+- [Jobstoday Ltd.](https://jobboardlist.com/boards/jobstoday-ltd/): board
+- [Maison de Talents](https://jobboardlist.com/boards/maison-de-talents/): board
+- [Remotli](https://jobboardlist.com/boards/remotli/): board, Open API (no key)
 - [Trovolavoro](https://jobboardlist.com/boards/trovolavoro/): board
+- [Vieclam.net](https://jobboardlist.com/boards/vieclam-net/): board
+- [Yemplea](https://jobboardlist.com/boards/yemplea/): board
 
 Canonical page: https://jobboardlist.com/tags/free-to-post/

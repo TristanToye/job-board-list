@@ -22,17 +22,17 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "seed-unverified",
+ "notes": "Homepage redirects from http to https/home. Employer page shows a subscription renewal button and links to an employer pricing page, which was not read. No plan prices were quoted from the pages read.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/kalibrr/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
   "global_rank": 221820,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "general",
@@ -40,8 +40,24 @@
   "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "kalibrr",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
+  "note": "Homepage redirects to /home; employer pages read show subscription wording but no plan prices or API mention.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "languages",
+   "url": "https://www.kalibrr.com",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-09",
+   "quote": "EN",
+   "quote_check": "ok"
+  }
+ ]
 }

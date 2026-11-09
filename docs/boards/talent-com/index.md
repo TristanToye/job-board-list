@@ -19,7 +19,7 @@ Talent.com is a job aggregator based in Canada.
 
 **Which languages does Talent.com support?** This directory records Talent.com as supporting English, French, Spanish, German, Italian, Portuguese, Dutch, Polish.
 
-**How large is Talent.com?** Talent.com ranks #16,777 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Talent.com?** Talent.com ranks #16,777 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **How many jobs does Talent.com list?** Talent.com reports 35,000,000 jobs available on its own site (as of 2026-11-05).
 

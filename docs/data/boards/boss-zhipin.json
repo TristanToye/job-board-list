@@ -32,7 +32,7 @@
   "global_rank": 6148,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "general",
@@ -40,7 +40,14 @@
   "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "boss-zhipin",
+  "reviewed": "2026-11-09",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Fetch returned Chinese page text with a Beijing address, but the browser reader returned an empty page, so no quote could be checked word for word.",
+  "method": "mixed"
+ },
  "owners": [
   {
    "id": "kanzhun",

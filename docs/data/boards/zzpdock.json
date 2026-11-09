@@ -8,8 +8,10 @@
  "founded": "2026",
  "markets": "",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nl",
+ "languages_supported": [
+  "nl"
+ ],
  "region": "Global",
  "niche": "",
  "segment": "",
@@ -20,8 +22,8 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Site states it is a Dutch website. Footer shows Bomianso with a KvK number, but no parent is stated. Revenue description says it earns from intermediaries, not employers. No language switcher found.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/zzpdock/",
  "indexable": false,
  "prominence": {
@@ -30,13 +32,20 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "zzpdock",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage states it is a Dutch website and lists a KvK number; no employer pricing, API or partner page linked.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -47,6 +56,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://zzpdock.nl",
+   "title": "Homepage description",
+   "accessed": "2026-11-09",
+   "quote": "ZZPdock is een Nederlandse website",
+   "quote_check": "ok"
   }
  ]
 }

@@ -10,35 +10,45 @@
  "countries_served": [
   "UZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "uz",
+ "languages_supported": [
+  "uz"
+ ],
  "region": "Eastern Europe/CIS",
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "ATS page lists a free plan and a paid monthly plan, plus a per-candidate-contact price. Only one language option is shown. No API or partner page found.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cloz/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "cloz",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
+  "note": "ATS page states free and paid plans. Homepage shows one language option. Footer is a copyright line only.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +59,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://cloz.uz/",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-09",
+   "quote": "uz",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://cloz.uz/employer/ats",
+   "title": "ATS pricing",
+   "accessed": "2026-11-09",
+   "quote": "Oyiga 450 000 so'm",
+   "quote_check": "ok"
   }
  ]
 }

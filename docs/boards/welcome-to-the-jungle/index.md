@@ -22,7 +22,7 @@ Welcome to the Jungle is a board and employer brand based in France, focused on 
 
 **Which languages does Welcome to the Jungle support?** This directory records Welcome to the Jungle as supporting French, English, Spanish, Czech, Slovak.
 
-**How large is Welcome to the Jungle?** Welcome to the Jungle ranks #8,604 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Welcome to the Jungle?** Welcome to the Jungle ranks #8,604 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

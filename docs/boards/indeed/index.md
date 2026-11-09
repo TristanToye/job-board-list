@@ -21,7 +21,7 @@ Indeed is an aggregator and board based in United States. It was founded in 2004
 
 **Which languages does Indeed support?** This directory records Indeed as supporting English, Spanish, French, German, Italian, Portuguese, Dutch, Polish, Swedish, Danish, Norwegian, Finnish, Japanese, Korean, Chinese, Arabic, Turkish.
 
-**How large is Indeed?** Indeed ranks #340 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Major tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Indeed?** Indeed ranks #340 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Major tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Indeed connect to?** According to this directory, Indeed receives jobs from Broadbean, Workable, Greenhouse; integrates with Oracle Recruiting Cloud, JazzHR, Pinpoint, Job Bank, Appcast, Lever.
 

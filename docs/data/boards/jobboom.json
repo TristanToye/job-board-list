@@ -35,7 +35,7 @@
   "global_rank": 146396,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "general",
@@ -52,7 +52,14 @@
    "quote": "TalentEgg ZipRecruiter AgCareers CareersInFood.com CivicJobs.ca Jobboom JobsMedia ApplyToEducation"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "jobboom",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 in fetch and in the browser reader, which showed a Cloudflare security verification page.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

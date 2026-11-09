@@ -8,8 +8,10 @@
  "founded": "2020",
  "markets": "",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "",
  "segment": "",
@@ -20,8 +22,8 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Homepage and pricing page are in English. No language switcher, parent company or headquarters country was stated. Fetch returned 403 and the browser reader returned 200. The /api path returned 403 in the browser reader and was not retried. The /partners path redirected to a page-unavailable page.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/grapevine-jobs/",
  "indexable": false,
  "prominence": {
@@ -30,13 +32,20 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "grapevine-jobs",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+  "note": "Pricing confirmed; fetch returned 403, browser reader returned 200; /api returned 403 in the browser reader.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -47,6 +56,22 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.grapevinejobs.com.au",
+   "title": "Homepage description",
+   "accessed": "2026-11-09",
+   "quote": "Australia's dedicated job board for the creative industries.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.grapevinejobs.com.au",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Post a Job",
+   "quote_check": "ok"
   }
  ]
 }

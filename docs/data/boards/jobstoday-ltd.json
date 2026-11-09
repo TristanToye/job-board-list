@@ -14,29 +14,43 @@
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free job posting; pay per application, click, interview or hire; homepage also lists subscription plans",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "ingest_methods": [
+  "XML feed",
+  "ATS integration"
+ ],
+ "notes": "Homepage lists a 'Recruiter Pro' plan at EUR 89.99 a month, while the employer page says 'No subscriptions.' Employer page names Bullhorn and SAP HCM integrations and a Harvest API, but no public API documentation was found (/en/api returned HTTP 404). Language selector links were seen (en, es, pl, de) but no verbatim quote was captured.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobstoday-ltd/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
   "global_rank": null,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "ats-integration",
+  "free-to-post",
+  "job-board",
+  "subscription",
+  "xml-feed"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobstoday-ltd",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+  "note": "Pricing and XML feed or ATS integrations stated; homepage and employer page conflict on subscriptions; /en/api returned HTTP 404 and no headquarters or parent is stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -47,6 +61,30 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.jobstoday.world/en/",
+   "title": "Homepage job posting offer",
+   "accessed": "2026-11-09",
+   "quote": "Unlimited job posts, with 5 ATS screened applications free on every job.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.jobstoday.world/en/for-employers/",
+   "title": "Employer pricing",
+   "accessed": "2026-11-09",
+   "quote": "No subscriptions. No setup fees. Start hiring without risk.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobstoday.world/en/for-employers/",
+   "title": "Employer integrations",
+   "accessed": "2026-11-09",
+   "quote": "Import and update your jobs instantly via XML feed, no manual effort needed.",
+   "quote_check": "ok"
   }
  ]
 }

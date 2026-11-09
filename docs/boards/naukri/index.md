@@ -22,7 +22,7 @@ Naukri is a job board based in India. It was founded in 1997.
 
 **Which languages does Naukri support?** This directory records Naukri as supporting English.
 
-**How large is Naukri?** Naukri ranks #14,987 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Naukri?** Naukri ranks #14,987 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Naukri connect to?** According to this directory, Naukri integrates with Pinpoint.
 

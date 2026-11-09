@@ -18,7 +18,7 @@ Ashby is an applicant tracking system based in United States, focused on applica
 
 **Does Ashby have an API?** According to this directory, Ashby has an open API or feed that does not require approval. Documentation: https://developers.ashbyhq.com.
 
-**How large is Ashby?** Ashby ranks #10,735 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Ashby?** Ashby ranks #10,735 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Ashby connect to?** According to this directory, Ashby integrates with AJINGA, Adway.
 

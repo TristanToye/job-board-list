@@ -18,7 +18,7 @@ Prospects is a niche job board based in United Kingdom, focused on graduates.
 
 **Who owns Prospects?** This directory records the parent of Prospects as Jisc.
 
-**How large is Prospects?** Prospects ranks #11,371 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Prospects?** Prospects ranks #11,371 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -16,14 +16,14 @@
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post, subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Pricing page lists one-off adverts and monthly recruiter plans with prices. Enterprise plans have no listed price. No language options or API links on the pages read.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/go-zambia-jobs/",
  "indexable": false,
  "prominence": {
@@ -32,13 +32,22 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-post",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "go-zambia-jobs",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+  "note": "Pricing page lists advert and subscription prices. Homepage has no language options and no API or partner links.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "business_model",
+   "url": "https://gozambiajobs.com/pricing",
+   "title": "Pricing page",
+   "accessed": "2026-11-09",
+   "quote": "K500 per month",
+   "quote_check": "ok"
   }
  ]
 }

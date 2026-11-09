@@ -1,6 +1,6 @@
 # Pay per post
 
-Employers pay for each job posting. 18 entries in the directory.
+Employers pay for each job posting. 22 entries in the directory.
 
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government
@@ -19,6 +19,10 @@ Employers pay for each job posting. 18 entries in the directory.
 - [Berlin Startup Jobs](https://jobboardlist.com/boards/berlin-startup-jobs/): niche-board
 - [Goodwork Canada](https://jobboardlist.com/boards/goodwork-canada/): niche-board
 - [Careers.Indigenous.Link](https://jobboardlist.com/boards/careers-indigenous-link/): niche-board, No known API
+- [CuratorSearch](https://jobboardlist.com/boards/curatorsearch/): board
+- [Gippslander](https://jobboardlist.com/boards/gippslander/): board
+- [Go Zambia Jobs](https://jobboardlist.com/boards/go-zambia-jobs/): board
+- [Verde Talent](https://jobboardlist.com/boards/verde-talent/): board
 - [Yakka](https://jobboardlist.com/boards/yakka/): niche-board, No known API
 
 Canonical page: https://jobboardlist.com/tags/pay-per-post/

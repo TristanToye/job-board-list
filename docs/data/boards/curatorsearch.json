@@ -11,34 +11,46 @@
   "DE"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "de",
+  "fr",
+  "nl"
+ ],
  "region": "Europe",
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "pay per post",
  "api_status": "unknown",
- "api_docs_url": "",
+ "api_docs_url": "https://curatorsearch.com/developers",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Single job listing costs 100 euros for 30 days, invoice available on request. Public API page says no key needed for the MCP server; the JSON API page does not state whether a key is required. Full feed requires a keyed partner feed requested by email. Homepage also shows a 5 euro per month offer whose audience is not stated.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/curatorsearch/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "curatorsearch",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;ingest_methods",
+  "note": "Language options, pricing, API and partner feed confirmed; headquarters and parent not stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +61,30 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://curatorsearch.com/",
+   "title": "Language filter, German",
+   "accessed": "2026-11-09",
+   "quote": "Auf Deutsch (83)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://curatorsearch.com/post-a-job",
+   "title": "Post a job pricing",
+   "accessed": "2026-11-09",
+   "quote": "€100 for 30 days.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://curatorsearch.com/developers",
+   "title": "Developer docs",
+   "accessed": "2026-11-09",
+   "quote": "no key needed",
+   "quote_check": "ok"
   }
  ]
 }

@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 78 entries in the directory.
+Has a partner or integration program. 80 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -77,8 +77,10 @@ Has a partner or integration program. 78 entries in the directory.
 - [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
 - [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API
 - [XING Jobs](https://jobboardlist.com/boards/xing/): social-network+board, Partner-only API
+- [aitrainer.work](https://jobboardlist.com/boards/aitrainer-work/): board
 - [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
 - [Thrive Career Wellness](https://jobboardlist.com/boards/thrive-career-wellness/): outplacement
+- [Workinitiatives](https://jobboardlist.com/boards/workinitiatives/): board
 
 Canonical page: https://jobboardlist.com/tags/partner-program/

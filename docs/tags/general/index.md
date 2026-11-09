@@ -1,6 +1,6 @@
 # General
 
-Jobs across many occupations and industries. 88 entries in the directory.
+Jobs across many occupations and industries. 118 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -35,6 +35,7 @@ Jobs across many occupations and industries. 88 entries in the directory.
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
+- [eRecruiter](https://jobboardlist.com/boards/erecruiter/): multiposting
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
 - [Catho](https://jobboardlist.com/boards/catho/): board
@@ -42,11 +43,13 @@ Jobs across many occupations and industries. 88 entries in the directory.
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
 - [GulfTalent](https://jobboardlist.com/boards/gulftalent/): board
 - [National Career Service](https://jobboardlist.com/boards/national-career-service/): government
+- [Praca.pl](https://jobboardlist.com/boards/praca-pl/): board
 - [NaukriGulf](https://jobboardlist.com/boards/naukrigulf/): board
 - [Jobware](https://jobboardlist.com/boards/jobware/): board
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
 - [OCC Mundial](https://jobboardlist.com/boards/occ-mundial/): board
 - [Eluta](https://jobboardlist.com/boards/eluta/): aggregator
+- [MyCareersFuture](https://jobboardlist.com/boards/mycareersfuture/): government
 - [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board
 - [foundit](https://jobboardlist.com/boards/foundit/): board
@@ -57,30 +60,27 @@ Jobs across many occupations and industries. 88 entries in the directory.
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Partner-only API
 - [Workforce Australia](https://jobboardlist.com/boards/workforce-australia/): government
 - [Jobberman](https://jobboardlist.com/boards/jobberman/): board
+- [Aplikuj.pl](https://jobboardlist.com/boards/aplikuj-pl/): board
 - [CareerBeacon](https://jobboardlist.com/boards/careerbeacon/): board
 - [Kalibrr](https://jobboardlist.com/boards/kalibrr/): board
 - [Rozee.pk](https://jobboardlist.com/boards/rozee-pk/): board
 - [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
 - [Careers24](https://jobboardlist.com/boards/careers24/): board
 - [Trabajos.com](https://jobboardlist.com/boards/trabajos-com/): board
+- [Academic Work](https://jobboardlist.com/boards/academic-work/): board
+- [Rocket Jobs](https://jobboardlist.com/boards/rocket-jobs/): board
 - [Empregos.com.br](https://jobboardlist.com/boards/empregos-com-br/): board
 - [Wow Jobs](https://jobboardlist.com/boards/wow-jobs/): aggregator
 - [BrighterMonday](https://jobboardlist.com/boards/brightermonday/): board
 - [Trampos](https://jobboardlist.com/boards/trampos/): board
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
+- [InfoPraca.pl](https://jobboardlist.com/boards/infopraca-pl/): board
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
+- [Jobbsafari](https://jobboardlist.com/boards/jobbsafari/): board
+- [Recruit Ireland](https://jobboardlist.com/boards/recruit-ireland/): board
+- [Ledigajobb](https://jobboardlist.com/boards/ledigajobb/): board
 - [Jobs.ca](https://jobboardlist.com/boards/jobs-ca/): board, No known API
 - [Bumeran](https://jobboardlist.com/boards/bumeran/): board
-- [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API
-- [Jobsuche (Bundesagentur fur Arbeit)](https://jobboardlist.com/boards/jobsuche-ba/): government, Self-serve API key
-- [France Travail](https://jobboardlist.com/boards/francetravail/): government, Self-serve API key
-- [Wantedly](https://jobboardlist.com/boards/wantedly/): social-network+board
-- [Find an Apprenticeship](https://jobboardlist.com/boards/find-an-apprenticeship/): government
-- [FINN.no Jobs](https://jobboardlist.com/boards/finn-no/): classifieds+board, Partner-only API
-- [Google for Jobs](https://jobboardlist.com/boards/google-jobs/): search-aggregator, Open API (no key)
-- [Jobtoday](https://jobboardlist.com/boards/jobtoday/): aggregator
-- [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
-- [Arbeidsplassen (NAV)](https://jobboardlist.com/boards/nav-arbeidsplassen/): government, Self-serve API key
-- [Sistema Nacional de Emprego (SINE)](https://jobboardlist.com/boards/sistema-nacional-de-emprego-sine/): government
+- [JobMail](https://jobboardlist.com/boards/jobmail/): board
 
 Canonical page: https://jobboardlist.com/tags/general/

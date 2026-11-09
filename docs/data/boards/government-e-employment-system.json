@@ -32,13 +32,20 @@
   "global_rank": 622044,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "government-e-employment-system",
+  "reviewed": "2026-11-09",
+  "outcome": "unreachable",
+  "fields_not_found": "",
+  "note": "DNS lookup failed (getaddrinfo ENOTFOUND) for eservices.mcs.gov.sa; the host may need to be allowed in the session network settings.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

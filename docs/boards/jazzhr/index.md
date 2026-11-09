@@ -20,7 +20,7 @@ JazzHR is an applicant tracking system based in United States, focused on applic
 
 **Does JazzHR have an API?** According to this directory, JazzHR offers an API you can use with a self-serve key. Documentation: https://www.jazzhr.com/api.
 
-**How large is JazzHR?** JazzHR ranks #64,985 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is JazzHR?** JazzHR ranks #64,985 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does JazzHR connect to?** According to this directory, JazzHR sends jobs to Talent.com; integrates with Indeed, LinkedIn, ZipRecruiter, VONQ, Idealist, RemotePOC and others.
 

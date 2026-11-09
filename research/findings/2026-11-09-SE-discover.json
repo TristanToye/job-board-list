@@ -1,105 +1,197 @@
 {
-  "mode": "discover",
-  "country": "SE",
-  "boards": [
+ "mode": "discover",
+ "country": "SE",
+ "boards": [
+  {
+   "name": "Jobbsafari",
+   "url": "https://www.jobbsafari.se",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "SE"
+   ],
+   "sources": [
     {
-      "name": "Jobbsafari",
-      "url": "https://www.jobbsafari.se",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["SE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.jobbsafari.se", "title": "JobbSafari homepage", "quote": "JobbSafari är din guide genom arbetslivet"}
-      ]
-    },
-    {
-      "name": "Ledigajobb",
-      "url": "https://www.ledigajobb.se",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["SE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.ledigajobb.se", "title": "Ledigajobb homepage", "quote": "Tusentals lediga jobb på samma ställe."}
-      ]
-    },
-    {
-      "name": "Offentliga Jobb",
-      "url": "https://www.offentligajobb.se",
-      "type": "niche-board",
-      "niche": "public sector",
-      "countries_served": ["SE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.offentligajobb.se", "title": "Offentliga Jobb homepage", "quote": "Med Offentliga Jobb kan du snabbt och enkelt hitta lediga jobb."}
-      ]
-    },
-    {
-      "name": "Jobmonitor",
-      "url": "https://se.jobmonitor.com",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["SE"],
-      "sources": [
-        {"field": "existence", "url": "https://se.jobmonitor.com", "title": "Jobmonitor Sweden homepage", "quote": "Pålitlig jobbportal sedan 1998."}
-      ]
-    },
-    {
-      "name": "Workey",
-      "url": "https://workey.se",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["SE"],
-      "sources": [
-        {"field": "existence", "url": "https://workey.se", "title": "Workey homepage", "quote": "Workey.se's uppdrag är att göra det enkelt och snabbt att hitta de mest intressanta jobben."}
-      ]
-    },
-    {
-      "name": "Academic Work",
-      "url": "https://www.academicwork.se",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["SE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.academicwork.se", "title": "Academic Work Sweden homepage", "quote": "Vi bemannar och rekryterar till organisationer, och leder er framåt genom en ständigt skiftande omvärld."}
-      ]
-    },
-    {
-      "name": "Jobs in Stockholm",
-      "url": "https://jobsinstockholm.com",
-      "type": "niche-board",
-      "niche": "English-speaking professionals in Stockholm",
-      "countries_served": ["SE"],
-      "sources": [
-        {"field": "existence", "url": "https://jobsinstockholm.com", "title": "Jobs in Stockholm homepage", "quote": "Jobs in Stockholm - Sweden - for English Speaking Professionals"}
-      ]
-    },
-    {
-      "name": "StudentJob Sweden",
-      "url": "https://www.studentjob.se",
-      "type": "niche-board",
-      "niche": "students and graduates",
-      "countries_served": ["SE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.studentjob.se", "title": "StudentJob Sweden homepage", "quote": "Vi har ett brett utbud av lediga jobb i hela Sverige."}
-      ]
-    },
-    {
-      "name": "Traineeguiden",
-      "url": "https://www.traineeguiden.se",
-      "type": "niche-board",
-      "niche": "graduate and trainee programmes",
-      "countries_served": ["SE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.traineeguiden.se", "title": "Traineeguiden homepage", "quote": "Traineeguiden.se är startpunkten för studenter och young professionals som är intresserade av trainee- och graduateprogram."}
-      ]
+     "field": "existence",
+     "url": "https://www.jobbsafari.se",
+     "title": "JobbSafari homepage",
+     "quote": "JobbSafari är din guide genom arbetslivet",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Blocket", "url": "https://www.blocket.se", "reason": "WebFetch refused the page: domain safety check rate-limited on first attempt, then fetch error on a second attempt. Not retried further."}
-  ],
-  "queue": [
-    {"name": "Monster Sweden", "url": "https://www.monster.com/se/", "reason": "Named in search results. monster.se redirects to monster.com/se/, which was not fetched"},
-    {"name": "Metrojobb", "url": "https://www.metrojobb.se", "reason": "Homepage read, but it shows only a notice that a new website is coming soon. No operator, pricing or listings confirmed"},
-    {"name": "NetJobs", "url": "https://www.netjobs.se", "reason": "Named in search results as a network of specialist job sites. netjobs.se redirects to karriarguiden.se, which does not name NetJobs"},
-    {"name": "EURES", "url": "https://eures.europa.eu", "reason": "EU job portal with Swedish relevance. Homepage read, but only the title and a language selector were returned"}
-  ]
+   ]
+  },
+  {
+   "name": "Ledigajobb",
+   "url": "https://www.ledigajobb.se",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "SE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.ledigajobb.se",
+     "title": "Ledigajobb homepage",
+     "quote": "Tusentals lediga jobb på samma ställe.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Offentliga Jobb",
+   "url": "https://www.offentligajobb.se",
+   "type": "niche-board",
+   "niche": "public sector",
+   "countries_served": [
+    "SE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.offentligajobb.se",
+     "title": "Offentliga Jobb homepage",
+     "quote": "Med Offentliga Jobb kan du snabbt och enkelt hitta lediga jobb.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobmonitor",
+   "url": "https://se.jobmonitor.com",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "SE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://se.jobmonitor.com",
+     "title": "Jobmonitor Sweden homepage",
+     "quote": "Pålitlig jobbportal sedan 1998.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Workey",
+   "url": "https://workey.se",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "SE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://workey.se",
+     "title": "Workey homepage",
+     "quote": "Workey.se's uppdrag är att göra det enkelt och snabbt att hitta de mest intressanta jobben.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Academic Work",
+   "url": "https://www.academicwork.se",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "SE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.academicwork.se",
+     "title": "Academic Work Sweden homepage",
+     "quote": "Vi bemannar och rekryterar till organisationer, och leder er framåt genom en ständigt skiftande omvärld.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobs in Stockholm",
+   "url": "https://jobsinstockholm.com",
+   "type": "niche-board",
+   "niche": "English-speaking professionals in Stockholm",
+   "countries_served": [
+    "SE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobsinstockholm.com",
+     "title": "Jobs in Stockholm homepage",
+     "quote": "Jobs in Stockholm - Sweden - for English Speaking Professionals",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "StudentJob Sweden",
+   "url": "https://www.studentjob.se",
+   "type": "niche-board",
+   "niche": "students and graduates",
+   "countries_served": [
+    "SE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.studentjob.se",
+     "title": "StudentJob Sweden homepage",
+     "quote": "Vi har ett brett utbud av lediga jobb i hela Sverige.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Traineeguiden",
+   "url": "https://www.traineeguiden.se",
+   "type": "niche-board",
+   "niche": "graduate and trainee programmes",
+   "countries_served": [
+    "SE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.traineeguiden.se",
+     "title": "Traineeguiden homepage",
+     "quote": "Traineeguiden.se är startpunkten för studenter och young professionals som är intresserade av trainee- och graduateprogram.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Blocket",
+   "url": "https://www.blocket.se",
+   "reason": "WebFetch refused the page: domain safety check rate-limited on first attempt, then fetch error on a second attempt. Not retried further."
+  }
+ ],
+ "queue": [
+  {
+   "name": "Monster Sweden",
+   "url": "https://www.monster.com/se/",
+   "reason": "Named in search results. monster.se redirects to monster.com/se/, which was not fetched"
+  },
+  {
+   "name": "Metrojobb",
+   "url": "https://www.metrojobb.se",
+   "reason": "Homepage read, but it shows only a notice that a new website is coming soon. No operator, pricing or listings confirmed"
+  },
+  {
+   "name": "NetJobs",
+   "url": "https://www.netjobs.se",
+   "reason": "Named in search results as a network of specialist job sites. netjobs.se redirects to karriarguiden.se, which does not name NetJobs"
+  },
+  {
+   "name": "EURES",
+   "url": "https://eures.europa.eu",
+   "reason": "EU job portal with Swedish relevance. Homepage read, but only the title and a language selector were returned"
+  }
+ ]
 }

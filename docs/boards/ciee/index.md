@@ -11,6 +11,7 @@ CIEE is a niche job board based in Brazil, focused on graduates. It was founded 
 - Partner program: yes
 - Prominence: Not comparable
 - Tags: Graduates and students, Job board, Partner program
+- Review: Reviewed 2026-11-09. Some facts checked against the board's own site. Not stated there: headquarters, languages, pricing and business model, API access, owner, how jobs get in.
 - Data status: partly verified against its own site
 
 ## Quick answers

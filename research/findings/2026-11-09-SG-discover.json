@@ -1,29 +1,75 @@
 {
-  "mode": "discover",
-  "country": "SG",
-  "boards": [
+ "mode": "discover",
+ "country": "SG",
+ "boards": [
+  {
+   "name": "MyCareersFuture",
+   "url": "https://www.mycareersfuture.gov.sg",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "SG"
+   ],
+   "sources": [
     {
-      "name": "MyCareersFuture",
-      "url": "https://www.mycareersfuture.gov.sg",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["SG"],
-      "sources": [
-        {"field": "existence", "url": "https://www.mycareersfuture.gov.sg/llms.txt", "title": "MyCareersFuture llms.txt", "quote": "An online job portal for Singapore Citizens and Singapore Permanent Residents"},
-        {"field": "existence", "url": "https://www.mycareersfuture.gov.sg/llms.txt", "title": "MyCareersFuture llms.txt", "quote": "developed by Skills and Workforce Development Agency (SWDA) in collaboration with GovTech."}
-      ]
+     "field": "existence",
+     "url": "https://www.mycareersfuture.gov.sg/llms.txt",
+     "title": "MyCareersFuture llms.txt",
+     "quote": "An online job portal for Singapore Citizens and Singapore Permanent Residents",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.mycareersfuture.gov.sg/llms.txt",
+     "title": "MyCareersFuture llms.txt",
+     "quote": "developed by Skills and Workforce Development Agency (SWDA) in collaboration with GovTech.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Glints", "url": "https://www.glints.com", "reason": "HTTP 403"},
-    {"name": "NodeFlair", "url": "https://nodeflair.com", "reason": "HTTP 403"},
-    {"name": "GrabJobs", "url": "https://grabjobs.co", "reason": "HTTP 403"},
-    {"name": "JobsCentral", "url": "https://www.jobscentral.com.sg", "reason": "HTTP 403"},
-    {"name": "Tech Hiring (Singapore government tech portal)", "url": "https://techhiring.open.gov.sg", "reason": "DNS error: getaddrinfo ENOTFOUND (host does not resolve from this session)"}
-  ],
-  "queue": [
-    {"name": "FastJobs", "url": "", "reason": "Named in SG roundups (WebSearch snippets); homepage fetch failed with a tool error and was not retried"},
-    {"name": "STJobs", "url": "", "reason": "Named in SG roundups (WebSearch snippets); homepage fetch failed with a tool error and was not retried"},
-    {"name": "Hiredly", "url": "https://hiredly.com", "reason": "Named in SG roundup search results; homepage redirects to my.hiredly.com, which was not read because the safety check was rate-limited"}
-  ]
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Glints",
+   "url": "https://www.glints.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "NodeFlair",
+   "url": "https://nodeflair.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "GrabJobs",
+   "url": "https://grabjobs.co",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "JobsCentral",
+   "url": "https://www.jobscentral.com.sg",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Tech Hiring (Singapore government tech portal)",
+   "url": "https://techhiring.open.gov.sg",
+   "reason": "DNS error: getaddrinfo ENOTFOUND (host does not resolve from this session)"
+  }
+ ],
+ "queue": [
+  {
+   "name": "FastJobs",
+   "url": "",
+   "reason": "Named in SG roundups (WebSearch snippets); homepage fetch failed with a tool error and was not retried"
+  },
+  {
+   "name": "STJobs",
+   "url": "",
+   "reason": "Named in SG roundups (WebSearch snippets); homepage fetch failed with a tool error and was not retried"
+  },
+  {
+   "name": "Hiredly",
+   "url": "https://hiredly.com",
+   "reason": "Named in SG roundup search results; homepage redirects to my.hiredly.com, which was not read because the safety check was rate-limited"
+  }
+ ]
 }

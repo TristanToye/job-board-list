@@ -1,6 +1,6 @@
 # XML feed
 
-Accepts or publishes jobs through XML feeds. 20 entries in the directory.
+Accepts or publishes jobs through XML feeds. 21 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -22,5 +22,6 @@ Accepts or publishes jobs through XML feeds. 20 entries in the directory.
 - [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
 - [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
+- [Jobstoday Ltd.](https://jobboardlist.com/boards/jobstoday-ltd/): board
 
 Canonical page: https://jobboardlist.com/tags/xml-feed/

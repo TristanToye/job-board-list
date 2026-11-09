@@ -10,8 +10,10 @@
  "countries_served": [
   "AU"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "APAC",
  "niche": "tech",
  "segment": "",
@@ -22,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Employer pricing page lists plans but shows no prices on the page read. No language switcher, operator, API, or partner info found. Pages /about and /employers returned HTTP 404.",
+ "notes": "Employer pricing page lists plans but shows no prices on the page read. No language switcher, operator, API, or partner info found. Pages /about and /employers returned HTTP 404. Homepage and pricing page are in English. No language switcher, parent company or headquarters country was stated. The /api and /partners paths returned 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/itjob-au/",
  "indexable": false,
@@ -32,14 +34,21 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "itjob-au",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program",
+  "note": "Pricing and English-only site confirmed; headquarters, parent and API not stated, and /api and /partners returned 404.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -57,6 +66,22 @@
    "title": "Employer pricing",
    "accessed": "2026-11-05",
    "quote": "Choose a plan to post jobs and access employer features.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.itjob.au/",
+   "title": "Homepage tagline",
+   "accessed": "2026-11-09",
+   "quote": "The IT job site made for IT professionals in Australia",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.itjob.au/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Post a job for free",
    "quote_check": "ok"
   }
  ]

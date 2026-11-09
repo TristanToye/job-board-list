@@ -1,101 +1,316 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "apna",
+   "url": "https://apna.co",
+   "notes": "Homepage shows a 'Post job' button and copyright 'Apna | All rights reserved'. No headquarters, parent, language options, pricing, API or partner information stated. /pricing, /partners, /employers and /developers returned HTTP 404.",
+   "sources": []
+  },
+  {
+   "name": "CIEE",
+   "url": "https://portal.ciee.org.br",
+   "partner_program": "yes",
+   "partner_url": "https://portal.ciee.org.br/quero-ser-parceiro",
+   "notes": "Partner program is for educational institutions, not for job-posting integrations. Employer page ('Contrate com o CIEE') shows no prices or business model. No headquarters, parent, language selector or API found.",
+   "sources": [
     {
-      "name": "apna",
-      "url": "https://apna.co",
-      "notes": "Homepage shows a 'Post job' button and copyright 'Apna | All rights reserved'. No headquarters, parent, language options, pricing, API or partner information stated. /pricing, /partners, /employers and /developers returned HTTP 404.",
-      "sources": []
-    },
-    {
-      "name": "CIEE",
-      "url": "https://portal.ciee.org.br",
-      "partner_program": "yes",
-      "partner_url": "https://portal.ciee.org.br/quero-ser-parceiro",
-      "notes": "Partner program is for educational institutions, not for job-posting integrations. Employer page ('Contrate com o CIEE') shows no prices or business model. No headquarters, parent, language selector or API found.",
-      "sources": [
-        {"field": "partner_program", "url": "https://portal.ciee.org.br/quero-ser-parceiro", "title": "Partner page for institutions", "quote": "Sua Instituição de Ensino pode ser parceira"}
-      ]
-    },
-    {
-      "name": "Jobstoday Ltd.",
-      "url": "https://www.jobstoday.world/en/",
-      "business_model": "free job posting; pay per application, click, interview or hire; homepage also lists subscription plans",
-      "api_status": "unknown",
-      "ingest_methods": ["XML feed", "ATS integration"],
-      "notes": "Homepage lists a 'Recruiter Pro' plan at EUR 89.99 a month, while the employer page says 'No subscriptions.' Employer page names Bullhorn and SAP HCM integrations and a Harvest API, but no public API documentation was found (/en/api returned HTTP 404). Language selector links were seen (en, es, pl, de) but no verbatim quote was captured.",
-      "sources": [
-        {"field": "business_model", "url": "https://www.jobstoday.world/en/", "title": "Homepage job posting offer", "quote": "Unlimited job posts, with 5 ATS screened applications free on every job."},
-        {"field": "business_model", "url": "https://www.jobstoday.world/en/for-employers/", "title": "Employer pricing", "quote": "No subscriptions. No setup fees. Start hiring without risk."},
-        {"field": "business_model", "url": "https://www.jobstoday.world/en/for-employers/", "title": "Employer pricing", "quote": "Pay only for verified, matching applications, nothing else."},
-        {"field": "ingest_methods", "url": "https://www.jobstoday.world/en/for-employers/", "title": "Employer integrations", "quote": "Import and update your jobs instantly via XML feed, no manual effort needed."},
-        {"field": "ingest_methods", "url": "https://www.jobstoday.world/en/for-employers/", "title": "Employer integrations", "quote": "ATS sync, candidate & job data, real-time pipeline updates."}
-      ]
-    },
-    {
-      "name": "Vieclam.net",
-      "url": "https://vieclam.net/",
-      "hq_country": "VN",
-      "parent": "Công ty Cổ phần Định Anh",
-      "business_model": "free basic job posting; paid per-post packages and paid add-ons (prices in images, not in text)",
-      "notes": "Homepage gives the head office address in Ho Chi Minh City. Describes Vieclam.net as a product of Công ty Cổ phần Định Anh. Price list says prices are updated for 10/2026 and include VAT, but the amounts are not in the page text. No API, developer, partner or language options found.",
-      "sources": [
-        {"field": "existence", "url": "https://vieclam.net/", "title": "Head office address", "quote": "Thành phố Hồ Chí Minh, Việt Nam."},
-        {"field": "parent", "url": "https://vieclam.net/", "title": "About Vieclam.net", "quote": "Vieclam.net là một sản phẩm mới của Công ty Cổ phần Định Anh"},
-        {"field": "business_model", "url": "https://vieclam.net/dang-tin", "title": "Post a job", "quote": "Hoàn toàn miễn phí"},
-        {"field": "business_model", "url": "https://vieclam.net/wiki/bang-gia-dich-vu-vieclamnet", "title": "Service price list", "quote": "Vieclam.net cung cấp 3 lựa chọn gói đăng tuyển tối ưu theo nhu cầu của quý khách từ cơ bản đến cao cấp."}
-      ]
-    },
-    {
-      "name": "Maison de Talents",
-      "url": "https://maisondetalents.com",
-      "partner_program": "yes",
-      "partner_url": "https://maisondetalents.com/for-agencies",
-      "business_model": "free up to 3 postings a month; one-time payment per extra posting credit; per-use boosts; no subscription",
-      "notes": "Partner page is for recruitment agencies. Employer page states the free allowance and one-time purchases, with prices on the separate pricing page (not read). Footer gives a Korean business registration number, but no headquarters country is stated. No API or developer page found.",
-      "sources": [
-        {"field": "business_model", "url": "https://maisondetalents.com/for-companies", "title": "Employer services", "quote": "매월 3건까지 무료로 등록하실 수 있어요."},
-        {"field": "business_model", "url": "https://maisondetalents.com/for-companies", "title": "Employer services", "quote": "더 필요할 때만 공고 등록권을 1회 결제하시면 됩니다(구독 아님)."},
-        {"field": "partner_program", "url": "https://maisondetalents.com/for-companies", "title": "Agency partnership link", "quote": "채용대행사 제휴 안내·문의"}
-      ]
-    },
-    {
-      "name": "Verde Talent",
-      "url": "https://verdetalent.com",
-      "business_model": "per post: from $100 for one post; packs of 5 and 10 posts at lower per-post prices",
-      "notes": "Homepage shows per-post prices and pack pricing. Pricing page returned HTTP 404 and partner page returned HTTP 404. No headquarters, parent, language options, API or ingest information stated.",
-      "sources": [
-        {"field": "business_model", "url": "https://verdetalent.com", "title": "Homepage pricing", "quote": "Job postings · From $100"},
-        {"field": "business_model", "url": "https://verdetalent.com", "title": "Homepage pricing", "quote": "Pack posts run 30 days each and can be used any time within 12 months."}
-      ]
-    },
-    {
-      "name": "MakersJob",
-      "url": "https://makers-job.jp/",
-      "hq_country": "JP",
-      "notes": "Footer names the operator 株式会社MyVision and gives a Tokyo address. Footer lists group services, but no parent company is named. Homepage has no pricing, language options, API or partner information. /company/, /corporate/, /partner/ and /for-company/ all returned HTTP 404.",
-      "sources": [
-        {"field": "existence", "url": "https://makers-job.jp/", "title": "Footer address", "quote": "東京都港区虎ノ門4-1-1 神谷町トラストタワー 24階"},
-        {"field": "existence", "url": "https://makers-job.jp/", "title": "Footer operator", "quote": "株式会社MyVision"}
-      ]
-    },
-    {
-      "name": "Adcorp Holdings",
-      "url": "https://www.adcorpgroup.com",
-      "notes": "Homepage states the group operates throughout South Africa and Australia, with a Gallo Manor address and a +27 phone number. No headquarters country is explicitly stated. Footer reads 'Copyright © Adcorp Holdings Limited'. No pricing, language options, API or partner information found. /connect/ is a contact page and /employers/ returned HTTP 404.",
-      "sources": []
+     "field": "partner_program",
+     "url": "https://portal.ciee.org.br/quero-ser-parceiro",
+     "title": "Partner page for institutions",
+     "quote": "Sua Instituição de Ensino pode ser parceira",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "apna", "url": "https://apna.co", "outcome": "not-stated", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage states no headquarters, parent, languages, pricing or API; pricing, partner, employer and developer pages returned HTTP 404."},
-    {"name": "CIEE", "url": "https://portal.ciee.org.br", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "parent", "ingest_methods"], "method": "fetch", "note": "Partner program for educational institutions confirmed; employer page shows no pricing and no API or headquarters is stated."},
-    {"name": "Jobstoday Ltd.", "url": "https://www.jobstoday.world/en/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program"], "method": "fetch", "note": "Pricing and XML feed or ATS integrations stated; homepage and employer page conflict on subscriptions; /en/api returned HTTP 404 and no headquarters or parent is stated."},
-    {"name": "Vieclam.net", "url": "https://vieclam.net/", "outcome": "partially-verified", "fields_not_found": ["languages", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Head office, operator and free posting confirmed; price amounts are in images, and no language options, API or partner program is stated."},
-    {"name": "Maison de Talents", "url": "https://maisondetalents.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "ingest_methods"], "method": "fetch", "note": "Free allowance, one-time purchases and agency partnership stated; no headquarters country, languages or API found."},
-    {"name": "Verde Talent", "url": "https://verdetalent.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Per-post pricing confirmed on homepage; pricing and partner pages returned HTTP 404 and no headquarters, language or API is stated."},
-    {"name": "MakersJob", "url": "https://makers-job.jp/", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Operator and Tokyo address confirmed in footer; no parent, pricing, language options, API or partner information found, and the company, corporate, partner and employer pages returned HTTP 404."},
-    {"name": "Adcorp Holdings", "url": "https://www.adcorpgroup.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Homepage and contact page state no headquarters country, parent, pricing, languages, API or partner program; /employers/ returned HTTP 404."}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Jobstoday Ltd.",
+   "url": "https://www.jobstoday.world/en/",
+   "business_model": "free job posting; pay per application, click, interview or hire; homepage also lists subscription plans",
+   "api_status": "unknown",
+   "ingest_methods": [
+    "XML feed",
+    "ATS integration"
+   ],
+   "notes": "Homepage lists a 'Recruiter Pro' plan at EUR 89.99 a month, while the employer page says 'No subscriptions.' Employer page names Bullhorn and SAP HCM integrations and a Harvest API, but no public API documentation was found (/en/api returned HTTP 404). Language selector links were seen (en, es, pl, de) but no verbatim quote was captured.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.jobstoday.world/en/",
+     "title": "Homepage job posting offer",
+     "quote": "Unlimited job posts, with 5 ATS screened applications free on every job.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jobstoday.world/en/for-employers/",
+     "title": "Employer pricing",
+     "quote": "No subscriptions. No setup fees. Start hiring without risk.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jobstoday.world/en/for-employers/",
+     "title": "Employer pricing",
+     "quote": "Pay only for verified, matching applications, nothing else.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobstoday.world/en/for-employers/",
+     "title": "Employer integrations",
+     "quote": "Import and update your jobs instantly via XML feed, no manual effort needed.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobstoday.world/en/for-employers/",
+     "title": "Employer integrations",
+     "quote": "ATS sync, candidate & job data, real-time pipeline updates.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Vieclam.net",
+   "url": "https://vieclam.net/",
+   "hq_country": "VN",
+   "parent": "Công ty Cổ phần Định Anh",
+   "business_model": "free basic job posting; paid per-post packages and paid add-ons (prices in images, not in text)",
+   "notes": "Homepage gives the head office address in Ho Chi Minh City. Describes Vieclam.net as a product of Công ty Cổ phần Định Anh. Price list says prices are updated for 10/2026 and include VAT, but the amounts are not in the page text. No API, developer, partner or language options found.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://vieclam.net/",
+     "title": "Head office address",
+     "quote": "Thành phố Hồ Chí Minh, Việt Nam.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://vieclam.net/",
+     "title": "About Vieclam.net",
+     "quote": "Vieclam.net là một sản phẩm mới của Công ty Cổ phần Định Anh",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://vieclam.net/dang-tin",
+     "title": "Post a job",
+     "quote": "Hoàn toàn miễn phí",
+     "check": "mismatch"
+    },
+    {
+     "field": "business_model",
+     "url": "https://vieclam.net/wiki/bang-gia-dich-vu-vieclamnet",
+     "title": "Service price list",
+     "quote": "Vieclam.net cung cấp 3 lựa chọn gói đăng tuyển tối ưu theo nhu cầu của quý khách từ cơ bản đến cao cấp.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Maison de Talents",
+   "url": "https://maisondetalents.com",
+   "partner_program": "yes",
+   "partner_url": "https://maisondetalents.com/for-agencies",
+   "business_model": "free up to 3 postings a month; one-time payment per extra posting credit; per-use boosts; no subscription",
+   "notes": "Partner page is for recruitment agencies. Employer page states the free allowance and one-time purchases, with prices on the separate pricing page (not read). Footer gives a Korean business registration number, but no headquarters country is stated. No API or developer page found.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://maisondetalents.com/for-companies",
+     "title": "Employer services",
+     "quote": "매월 3건까지 무료로 등록하실 수 있어요.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://maisondetalents.com/for-companies",
+     "title": "Employer services",
+     "quote": "더 필요할 때만 공고 등록권을 1회 결제하시면 됩니다(구독 아님).",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://maisondetalents.com/for-companies",
+     "title": "Agency partnership link",
+     "quote": "채용대행사 제휴 안내·문의",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Verde Talent",
+   "url": "https://verdetalent.com",
+   "business_model": "per post: from $100 for one post; packs of 5 and 10 posts at lower per-post prices",
+   "notes": "Homepage shows per-post prices and pack pricing. Pricing page returned HTTP 404 and partner page returned HTTP 404. No headquarters, parent, language options, API or ingest information stated.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://verdetalent.com",
+     "title": "Homepage pricing",
+     "quote": "Job postings · From $100",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://verdetalent.com",
+     "title": "Homepage pricing",
+     "quote": "Pack posts run 30 days each and can be used any time within 12 months.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "MakersJob",
+   "url": "https://makers-job.jp/",
+   "hq_country": "JP",
+   "notes": "Footer names the operator 株式会社MyVision and gives a Tokyo address. Footer lists group services, but no parent company is named. Homepage has no pricing, language options, API or partner information. /company/, /corporate/, /partner/ and /for-company/ all returned HTTP 404.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://makers-job.jp/",
+     "title": "Footer address",
+     "quote": "東京都港区虎ノ門4-1-1 神谷町トラストタワー 24階",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://makers-job.jp/",
+     "title": "Footer operator",
+     "quote": "株式会社MyVision",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Adcorp Holdings",
+   "url": "https://www.adcorpgroup.com",
+   "notes": "Homepage states the group operates throughout South Africa and Australia, with a Gallo Manor address and a +27 phone number. No headquarters country is explicitly stated. Footer reads 'Copyright © Adcorp Holdings Limited'. No pricing, language options, API or partner information found. /connect/ is a contact page and /employers/ returned HTTP 404.",
+   "sources": []
+  }
+ ],
+ "reviews": [
+  {
+   "name": "apna",
+   "url": "https://apna.co",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage states no headquarters, parent, languages, pricing or API; pricing, partner, employer and developer pages returned HTTP 404."
+  },
+  {
+   "name": "CIEE",
+   "url": "https://portal.ciee.org.br",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Partner program for educational institutions confirmed; employer page shows no pricing and no API or headquarters is stated."
+  },
+  {
+   "name": "Jobstoday Ltd.",
+   "url": "https://www.jobstoday.world/en/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "fetch",
+   "note": "Pricing and XML feed or ATS integrations stated; homepage and employer page conflict on subscriptions; /en/api returned HTTP 404 and no headquarters or parent is stated."
+  },
+  {
+   "name": "Vieclam.net",
+   "url": "https://vieclam.net/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Head office, operator and free posting confirmed; price amounts are in images, and no language options, API or partner program is stated."
+  },
+  {
+   "name": "Maison de Talents",
+   "url": "https://maisondetalents.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Free allowance, one-time purchases and agency partnership stated; no headquarters country, languages or API found."
+  },
+  {
+   "name": "Verde Talent",
+   "url": "https://verdetalent.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Per-post pricing confirmed on homepage; pricing and partner pages returned HTTP 404 and no headquarters, language or API is stated."
+  },
+  {
+   "name": "MakersJob",
+   "url": "https://makers-job.jp/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Operator and Tokyo address confirmed in footer; no parent, pricing, language options, API or partner information found, and the company, corporate, partner and employer pages returned HTTP 404."
+  },
+  {
+   "name": "Adcorp Holdings",
+   "url": "https://www.adcorpgroup.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and contact page state no headquarters country, parent, pricing, languages, API or partner program; /employers/ returned HTTP 404."
+  }
+ ],
+ "blocked": []
 }

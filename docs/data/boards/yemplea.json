@@ -10,35 +10,46 @@
  "countries_served": [
   "ES"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "es"
+ ],
  "region": "Europe",
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Homepage offers an ES and EN language switcher and states free use for workers and companies. No headquarters country, parent company or API was stated. The /api and /partners paths returned 404.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/yemplea/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "yemplea",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program",
+  "note": "Language switcher and free-use statement confirmed; headquarters, parent and API not stated, and /api and /partners returned 404.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +60,30 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://yemplea.com/",
+   "title": "Homepage language switcher",
+   "accessed": "2026-11-09",
+   "quote": "ES EN",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://yemplea.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Free for workers and companies",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://yemplea.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Post an offer in 5 minutes.",
+   "quote_check": "ok"
   }
  ]
 }

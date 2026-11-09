@@ -16,14 +16,14 @@
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "pay per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Employer prices shown per job including GST: Standard $49 (30 days), Featured $89 (45 days). Partner plan $599 a year. Employer profile free. Checkout via Stripe. No API or feed mentioned on the pages read.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/gippslander/",
  "indexable": false,
  "prominence": {
@@ -32,13 +32,21 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "gippslander",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+  "note": "Pricing confirmed from the pricing page; no language options, country, parent or API stated on pages read.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +57,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "business_model",
+   "url": "https://gippslander.com.au/partner",
+   "title": "Partner plan",
+   "accessed": "2026-11-09",
+   "quote": "$599 a year · Next: secure checkout with Stripe",
+   "quote_check": "ok"
   }
  ]
 }

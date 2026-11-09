@@ -22,7 +22,7 @@ iCIMS is an applicant tracking system based in United States, focused on applica
 
 **Which languages does iCIMS support?** This directory records iCIMS as supporting English, French.
 
-**How large is iCIMS?** iCIMS ranks #3,808 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is iCIMS?** iCIMS ranks #3,808 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does iCIMS connect to?** According to this directory, iCIMS sends jobs to Talent.com; integrates with LinkedIn, Joveo, Broadbean.
 

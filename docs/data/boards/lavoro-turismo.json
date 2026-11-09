@@ -32,14 +32,21 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "hospitality-tourism",
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "lavoro-turismo",
+  "reviewed": "2026-11-09",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage read but truncated; it names services and an employer area but no company, country, pricing or API details. /chi-siamo returned only its title.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

@@ -18,7 +18,7 @@ freelance.de is a freelance marketplace, focused on freelancer and project platf
 
 **Which languages does freelance.de support?** This directory records freelance.de as supporting German.
 
-**How large is freelance.de?** freelance.de ranks #202,761 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is freelance.de?** freelance.de ranks #202,761 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

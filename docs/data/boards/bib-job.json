@@ -32,13 +32,20 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "bib-job",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Fetch returned only the page title, so the homepage was read in the browser reader. No employer pricing, API or partner information on the homepage.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

@@ -30,13 +30,20 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "relomote",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 in fetch and a Cloudflare verification challenge in the browser reader.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

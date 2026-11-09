@@ -20,7 +20,7 @@ Wellfound is a niche job board based in United States, focused on startup.
 
 **Which languages does Wellfound support?** This directory records Wellfound as supporting English.
 
-**How large is Wellfound?** Wellfound ranks #7,078 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Wellfound?** Wellfound ranks #7,078 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

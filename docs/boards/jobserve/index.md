@@ -18,7 +18,7 @@ JobServe is a job board based in United Kingdom.
 
 **Who owns JobServe?** This directory records the parent of JobServe as Aspire Media Group.
 
-**How large is JobServe?** JobServe ranks #126,934 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is JobServe?** JobServe ranks #126,934 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -4,7 +4,7 @@
  "url": "https://www.iprogrammatori.it/",
  "domains": "",
  "type": "niche-board",
- "hq_country": "",
+ "hq_country": "IT",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Legal seat stated as Milan. No language options, employer pricing, API or partner page found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/iprogrammatori/",
  "indexable": false,
@@ -32,14 +32,21 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "iprogrammatori",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage states the legal seat in Milan. /pricing and /api return HTTP 404. Only an RSS link is present.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

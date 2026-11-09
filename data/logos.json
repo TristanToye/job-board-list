@@ -19,15 +19,25 @@
   "host": "jobpostings.alberta.ca",
   "size": 120
  },
+ "academic-work": {
+  "file": "academic-work.png",
+  "host": "academicwork.se",
+  "size": 128
+ },
+ "academictransfer": {
+  "file": "academictransfer.png",
+  "host": "academictransfer.com",
+  "size": 48
+ },
  "adcorp-holdings": {
   "file": "adcorp-holdings.png",
   "host": "adcorpgroup.com",
   "size": 128
  },
  "adzuna": {
-  "error": "HTTP Error 404: Not Found",
-  "file": null,
-  "host": "adzuna.com"
+  "file": "adzuna.png",
+  "host": "adzuna.com",
+  "size": 128
  },
  "agcareers": {
   "error": "too small 16x16",
@@ -54,10 +64,20 @@
   "file": null,
   "host": "allstarjobs.ca"
  },
+ "allzajobs": {
+  "error": "too small 16x16",
+  "file": null,
+  "host": "allzajobs.com"
+ },
  "almalaurea": {
   "file": "almalaurea.png",
   "host": "almalaurea.it",
   "size": 48
+ },
+ "aplikuj-pl": {
+  "file": "aplikuj-pl.png",
+  "host": "aplikuj.pl",
+  "size": 128
  },
  "apna": {
   "file": "apna.png",
@@ -154,6 +174,11 @@
   "host": "bib-job.com",
   "size": 64
  },
+ "bizcommunity-jobs": {
+  "file": "bizcommunity-jobs.png",
+  "host": "bizcommunity.com",
+  "size": 128
+ },
  "boss-zhipin": {
   "file": "boss-zhipin.png",
   "host": "zhipin.com",
@@ -199,6 +224,11 @@
   "host": "burningglassinstitute.org",
   "size": 128
  },
+ "buscojobs": {
+  "file": "buscojobs.png",
+  "host": "buscojobs.mx",
+  "size": 48
+ },
  "cadremploi": {
   "error": "too small 16x16",
   "file": null,
@@ -235,9 +265,9 @@
   "size": 128
  },
  "careerjunction": {
-  "error": "HTTP Error 404: Not Found",
-  "file": null,
-  "host": "careerjunction.co.za"
+  "file": "careerjunction.png",
+  "host": "careerjunction.co.za",
+  "size": 48
  },
  "careerminds": {
   "file": "careerminds.png",
@@ -278,6 +308,11 @@
   "file": "catho.png",
   "host": "catho.com.br",
   "size": 32
+ },
+ "cazvid": {
+  "file": "cazvid.png",
+  "host": "cazvid.com",
+  "size": 128
  },
  "cerco-trovo": {
   "file": "cerco-trovo.png",
@@ -429,6 +464,11 @@
   "host": "educationcanada.com",
   "size": 128
  },
+ "educationposts-ie": {
+  "file": "educationposts-ie.png",
+  "host": "educationposts.ie",
+  "size": 32
+ },
  "egon-zehnder": {
   "file": "egon-zehnder.png",
   "host": "egonzehnder.com",
@@ -454,10 +494,20 @@
   "host": "eluta.ca",
   "size": 32
  },
+ "empleo-leon-chambamodulo": {
+  "file": "empleo-leon-chambamodulo.png",
+  "host": "empleo.leon.gob.mx",
+  "size": 32
+ },
  "employment-hero": {
   "file": "employment-hero.png",
   "host": "employmenthero.com",
   "size": 128
+ },
+ "employment-services-of-south-africa-essa": {
+  "error": "HTTP Error 404: Not Found",
+  "file": null,
+  "host": "essa.labour.gov.za"
  },
  "empregos-com-br": {
   "file": "empregos-com-br.png",
@@ -474,6 +524,11 @@
   "host": "enroutejobs.com",
   "size": 128
  },
+ "erecruiter": {
+  "file": "erecruiter.png",
+  "host": "erecruiter.pl",
+  "size": 128
+ },
  "esl-cafe": {
   "error": "too small 16x16",
   "file": null,
@@ -482,6 +537,11 @@
  "eurostat": {
   "file": "eurostat.png",
   "host": "ec.europa.eu",
+  "size": 128
+ },
+ "expatica-netherlands-jobs": {
+  "file": "expatica-netherlands-jobs.png",
+  "host": "expatica.com",
   "size": 128
  },
  "expectra": {
@@ -574,6 +634,11 @@
   "file": null,
   "host": "gem.com"
  },
+ "gezondheidszorgbanen-nl": {
+  "file": "gezondheidszorgbanen-nl.png",
+  "host": "gezondheidszorgbanen.nl",
+  "size": 48
+ },
  "gi-group-holding": {
   "file": "gi-group-holding.png",
   "host": "gigroup.com",
@@ -624,6 +689,11 @@
   "host": "gradconnection.com",
   "size": 32
  },
+ "gradireland": {
+  "file": "gradireland.png",
+  "host": "gradireland.com",
+  "size": 128
+ },
  "grapevine-jobs": {
   "file": "grapevine-jobs.png",
   "host": "grapevinejobs.com.au",
@@ -669,6 +739,11 @@
   "host": "hays.com",
   "size": 64
  },
+ "healthcarejobs-ie": {
+  "file": "healthcarejobs-ie.png",
+  "host": "healthcarejobs.ie",
+  "size": 128
+ },
  "heidrick-struggles": {
   "file": "heidrick-struggles.png",
   "host": "heidrick.com",
@@ -699,6 +774,16 @@
   "host": "himalayas.app",
   "size": 128
  },
+ "hiredoc": {
+  "file": "hiredoc.png",
+  "host": "hiredoc.com",
+  "size": 32
+ },
+ "hireline": {
+  "file": "hireline.png",
+  "host": "hireline.io",
+  "size": 128
+ },
  "hireremote-ph": {
   "error": "HTTP Error 404: Not Found",
   "file": null,
@@ -727,6 +812,11 @@
  "hudson-rpo": {
   "file": "hudson-rpo.png",
   "host": "hudsontalent.com",
+  "size": 128
+ },
+ "iamexpat-jobs": {
+  "file": "iamexpat-jobs.png",
+  "host": "iamexpat.nl",
   "size": 128
  },
  "icims": {
@@ -779,6 +869,11 @@
   "host": "infojobs.net",
   "size": 128
  },
+ "infopraca-pl": {
+  "file": "infopraca-pl.png",
+  "host": "infopraca.pl",
+  "size": 128
+ },
  "internshala": {
   "file": "internshala.png",
   "host": "internshala.com",
@@ -824,6 +919,11 @@
   "host": "jazzhr.com",
   "size": 128
  },
+ "jobalert": {
+  "file": "jobalert.png",
+  "host": "jobalert.ie",
+  "size": 128
+ },
  "jobat": {
   "error": "too small 16x16",
   "file": null,
@@ -843,6 +943,16 @@
   "error": "too small 16x16",
   "file": null,
   "host": "jobboom.com"
+ },
+ "jobbsafari": {
+  "file": "jobbsafari.png",
+  "host": "jobbsafari.se",
+  "size": 128
+ },
+ "jober-pl": {
+  "file": "jober-pl.png",
+  "host": "jober.pl",
+  "size": 128
  },
  "jobg8": {
   "error": "HTTP Error 404: Not Found",
@@ -874,6 +984,16 @@
   "file": null,
   "host": "jobkorea.co.kr"
  },
+ "jobmail": {
+  "file": "jobmail.png",
+  "host": "jobmail.co.za",
+  "size": 128
+ },
+ "jobmonitor": {
+  "error": "too small 16x16",
+  "file": null,
+  "host": "se.jobmonitor.com"
+ },
  "jobrapido": {
   "file": "jobrapido.png",
   "host": "jobrapido.com",
@@ -889,10 +1009,25 @@
   "host": "jobs.ch",
   "size": 128
  },
+ "jobs-for-mums": {
+  "file": "jobs-for-mums.png",
+  "host": "jobsformums.co.nz",
+  "size": 59
+ },
+ "jobs-govt-nz": {
+  "error": "too small 16x16",
+  "file": null,
+  "host": "jobs.govt.nz"
+ },
  "jobs-ie": {
   "error": "no url",
   "file": null,
   "host": ""
+ },
+ "jobs-in-stockholm": {
+  "error": "too small 16x16",
+  "file": null,
+  "host": "jobsinstockholm.com"
  },
  "jobs-pl": {
   "file": "jobs-pl.png",
@@ -928,6 +1063,11 @@
   "error": "no url",
   "file": null,
   "host": ""
+ },
+ "jobssouthafrica": {
+  "file": "jobssouthafrica.png",
+  "host": "jobssouthafrica.co.za",
+  "size": 128
  },
  "jobstoday-ltd": {
   "file": "jobstoday-ltd.png",
@@ -984,6 +1124,11 @@
   "file": null,
   "host": "joveo.com"
  },
+ "just-join-it": {
+  "file": "just-join-it.png",
+  "host": "justjoin.it",
+  "size": 96
+ },
  "kalaydo": {
   "error": "too small 16x16",
   "file": null,
@@ -1029,6 +1174,11 @@
   "host": "kornferry.com",
   "size": 128
  },
+ "kumara-vine": {
+  "file": "kumara-vine.png",
+  "host": "kumaravine.com",
+  "size": 100
+ },
  "kwork": {
   "file": "kwork.png",
   "host": "kwork.com",
@@ -1047,6 +1197,11 @@
  "lavoro-turismo": {
   "file": "lavoro-turismo.png",
   "host": "lavoroturismo.it",
+  "size": 128
+ },
+ "ledigajobb": {
+  "file": "ledigajobb.png",
+  "host": "ledigajobb.se",
   "size": 128
  },
  "lemon-io": {
@@ -1074,10 +1229,25 @@
   "host": "linkedin.com",
   "size": 64
  },
+ "localgovernmentjobs-ie": {
+  "error": "too small 16x16",
+  "file": null,
+  "host": "localgovernmentjobs.ie"
+ },
+ "m-ori-pacific-jobs": {
+  "file": "m-ori-pacific-jobs.png",
+  "host": "maoripacificjobs.co.nz",
+  "size": 128
+ },
  "magnet": {
   "file": "magnet.png",
   "host": "magnet.today",
   "size": 128
+ },
+ "mahi-co-nz": {
+  "file": "mahi-co-nz.png",
+  "host": "mahi.co.nz",
+  "size": 54
  },
  "maison-de-talents": {
   "file": "maison-de-talents.png",
@@ -1109,6 +1279,16 @@
   "host": "mediabistro.com",
   "size": 128
  },
+ "medische-banenbank": {
+  "file": "medische-banenbank.png",
+  "host": "medischebanenbank.nl",
+  "size": 128
+ },
+ "meesterbaan": {
+  "file": "meesterbaan.png",
+  "host": "meesterbaan.nl",
+  "size": 128
+ },
  "meinestadt-de": {
   "file": "meinestadt-de.png",
   "host": "meinestadt.de",
@@ -1132,6 +1312,16 @@
  "monster": {
   "file": "monster.png",
   "host": "monster.com",
+  "size": 128
+ },
+ "mycareersfuture": {
+  "file": "mycareersfuture.png",
+  "host": "mycareersfuture.gov.sg",
+  "size": 128
+ },
+ "myjobmag": {
+  "file": "myjobmag.png",
+  "host": "myjobmag.co.za",
   "size": 128
  },
  "mynavi": {
@@ -1219,10 +1409,30 @@
   "host": "occ.com.mx",
   "size": 96
  },
+ "offentliga-jobb": {
+  "error": "too small 16x16",
+  "file": null,
+  "host": "offentligajobb.se"
+ },
+ "offerzen": {
+  "file": "offerzen.png",
+  "host": "offerzen.com",
+  "size": 128
+ },
  "office-for-national-statistics": {
   "file": "office-for-national-statistics.png",
   "host": "ons.gov.uk",
   "size": 32
+ },
+ "og-oszenia-ngo-pl": {
+  "file": "og-oszenia-ngo-pl.png",
+  "host": "ogloszenia.ngo.pl",
+  "size": 128
+ },
+ "olx-praca": {
+  "file": "olx-praca.png",
+  "host": "olx.pl",
+  "size": 128
  },
  "on-gojobs": {
   "error": "HTTP Error 404: Not Found",
@@ -1264,6 +1474,16 @@
   "file": null,
   "host": "pnet.co.za"
  },
+ "portal-del-empleo": {
+  "error": "too small 28x30",
+  "file": null,
+  "host": "empleo.gob.mx"
+ },
+ "praca-pl": {
+  "file": "praca-pl.png",
+  "host": "praca.pl",
+  "size": 128
+ },
  "pracuj": {
   "file": "pracuj.png",
   "host": "pracuj.pl",
@@ -1288,6 +1508,11 @@
   "file": "prospects.png",
   "host": "prospects.ac.uk",
   "size": 128
+ },
+ "publicjobs-ie": {
+  "file": "publicjobs-ie.png",
+  "host": "publicjobs.ie",
+  "size": 70
  },
  "randstad": {
   "file": "randstad.png",
@@ -1327,6 +1552,11 @@
  "recruit-group": {
   "file": "recruit-group.png",
   "host": "recruit-holdings.com",
+  "size": 128
+ },
+ "recruit-ireland": {
+  "file": "recruit-ireland.png",
+  "host": "recruitireland.com",
   "size": 128
  },
  "recruit-staffing-co-ltd": {
@@ -1419,6 +1649,11 @@
   "host": "roberthalf.com",
   "size": 48
  },
+ "rocket-jobs": {
+  "file": "rocket-jobs.png",
+  "host": "rocketjobs.pl",
+  "size": 96
+ },
  "rozee-pk": {
   "file": "rozee-pk.png",
   "host": "rozee.pk",
@@ -1429,9 +1664,19 @@
   "host": "russellreynolds.com",
   "size": 32
  },
+ "salt-recruitment-jobs": {
+  "file": "salt-recruitment-jobs.png",
+  "host": "welovesalt.com",
+  "size": 128
+ },
  "saramin": {
   "file": "saramin.png",
   "host": "saramin.co.kr",
+  "size": 48
+ },
+ "seasonal-jobs-in-new-zealand": {
+  "file": "seasonal-jobs-in-new-zealand.png",
+  "host": "seasonaljobs.co.nz",
   "size": 48
  },
  "seek": {
@@ -1453,6 +1698,11 @@
   "file": "sepe-servicio-p-blico-de-empleo-estatal.png",
   "host": "sepe.es",
   "size": 32
+ },
+ "shiftmate": {
+  "file": "shiftmate.png",
+  "host": "shiftmate.co.za",
+  "size": 128
  },
  "simplyhired": {
   "file": "simplyhired.png",
@@ -1519,6 +1769,11 @@
   "host": "sterlingcheck.com",
   "size": 128
  },
+ "student-job-search": {
+  "file": "student-job-search.png",
+  "host": "sjs.co.nz",
+  "size": 128
+ },
  "studentjob-es": {
   "file": "studentjob-es.png",
   "host": "studentjob.es",
@@ -1527,6 +1782,16 @@
  "studentjob-fr": {
   "file": "studentjob-fr.png",
   "host": "studentjob.fr",
+  "size": 128
+ },
+ "studentjob-nl": {
+  "file": "studentjob-nl.png",
+  "host": "studentjob.nl",
+  "size": 128
+ },
+ "studentjob-sweden": {
+  "file": "studentjob-sweden.png",
+  "host": "studentjob.se",
   "size": 128
  },
  "subito": {
@@ -1538,6 +1803,11 @@
   "file": "successfactors.png",
   "host": "successfactors.com",
   "size": 128
+ },
+ "szukam-pracy": {
+  "error": "too small 16x16",
+  "file": null,
+  "host": "szukampracy.pl"
  },
  "talent-com": {
   "file": "talent-com.png",
@@ -1604,6 +1874,11 @@
   "host": "csicompanies.com",
   "size": 96
  },
+ "the-wheel": {
+  "file": "the-wheel.png",
+  "host": "wheel.ie",
+  "size": 128
+ },
  "themuse": {
   "file": "themuse.png",
   "host": "themuse.com",
@@ -1619,6 +1894,11 @@
   "file": null,
   "host": "ticjob.es"
  },
+ "together-abroad": {
+  "error": "too small 16x16",
+  "file": null,
+  "host": "togetherabroad.nl"
+ },
  "topresume": {
   "file": "topresume.png",
   "host": "topresume.com",
@@ -1627,6 +1907,11 @@
  "toptal": {
   "file": "toptal.png",
   "host": "toptal.com",
+  "size": 128
+ },
+ "toptrabajos": {
+  "file": "toptrabajos.png",
+  "host": "toptrabajos.com",
   "size": 128
  },
  "torc": {
@@ -1653,6 +1938,16 @@
   "error": "too small 16x16",
   "file": null,
   "host": "trabajos.com"
+ },
+ "trade-me-jobs": {
+  "file": "trade-me-jobs.png",
+  "host": "trademe.co.nz",
+  "size": 128
+ },
+ "traineeguiden": {
+  "file": "traineeguiden.png",
+  "host": "traineeguiden.se",
+  "size": 128
  },
  "trampos": {
   "error": "HTTP Error 404: Not Found",
@@ -1754,9 +2049,24 @@
   "host": "welovedevs.com",
   "size": 128
  },
+ "werken-bij-de-overheid": {
+  "file": "werken-bij-de-overheid.png",
+  "host": "werkenbijdeoverheid.nl",
+  "size": 48
+ },
+ "werken-voor-nederland": {
+  "error": "too small 16x16",
+  "file": null,
+  "host": "werkenvoornederland.nl"
+ },
  "weworkremotely": {
   "file": "weworkremotely.png",
   "host": "weworkremotely.com",
+  "size": 128
+ },
+ "whatjobs": {
+  "file": "whatjobs.png",
+  "host": "en-za.whatjobs.com",
   "size": 128
  },
  "workable": {
@@ -1772,6 +2082,11 @@
  "workeer": {
   "file": "workeer.png",
   "host": "workeer.de",
+  "size": 128
+ },
+ "workey": {
+  "file": "workey.png",
+  "host": "workey.se",
   "size": 128
  },
  "workforce-australia": {
@@ -1819,6 +2134,11 @@
   "host": "yemplea.com",
   "size": 64
  },
+ "youngcapital": {
+  "file": "youngcapital.png",
+  "host": "youngcapital.nl",
+  "size": 128
+ },
  "yourcareergroup": {
   "error": "no url",
   "file": null,
@@ -1847,6 +2167,11 @@
  "ziprecruiter": {
   "file": "ziprecruiter.png",
   "host": "ziprecruiter.com",
+  "size": 128
+ },
+ "zorgwerk": {
+  "file": "zorgwerk.png",
+  "host": "zorgwerk.nl",
   "size": 128
  },
  "zzpdock": {

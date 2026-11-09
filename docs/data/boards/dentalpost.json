@@ -30,13 +30,20 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "dentalpost",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+  "note": "Site returned HTTP 301 from dentalpost.com to dentalpost.net. Pricing page states a $259/month subscription, no API or partner program mentioned.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

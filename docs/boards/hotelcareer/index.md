@@ -20,7 +20,7 @@ Hotelcareer is a job board based in Germany.
 
 **Which languages does Hotelcareer support?** This directory records Hotelcareer as supporting German, English, French.
 
-**How large is Hotelcareer?** Hotelcareer ranks #228,012 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Hotelcareer?** Hotelcareer ranks #228,012 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

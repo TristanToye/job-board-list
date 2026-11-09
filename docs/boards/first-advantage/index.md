@@ -18,7 +18,7 @@ First Advantage is an HR technology vendor based in United States, focused on ba
 
 **Which languages does First Advantage support?** This directory records First Advantage as supporting English, Japanese, Korean, Chinese, Spanish, Portuguese.
 
-**How large is First Advantage?** First Advantage ranks #93,572 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is First Advantage?** First Advantage ranks #93,572 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -6,6 +6,6 @@
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [freelance.de](https://jobboardlist.com/boards/freelance-de/): freelance-platform, Small tier
 - [Trovolavoro](https://jobboardlist.com/boards/trovolavoro/): board
-- [Remotli](https://jobboardlist.com/boards/remotli/): board
+- [Remotli](https://jobboardlist.com/boards/remotli/): board, Open API (no key)
 
 Canonical page: https://jobboardlist.com/countries/switzerland/

@@ -16,29 +16,40 @@
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free tier (3 live jobs), subscription from $79/mo, candidate contact credits",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Employer prices shown: Scout $79/mo, Growth $199/mo, Scale $499/mo, billed monthly or yearly. Paid featured listings and credit packs are also shown. /api, /developers and /partners return HTTP 404. Footer has no API or partner link.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/enroute-jobs/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "freemium",
+  "job-board",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "enroute-jobs",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;partner_program",
+  "note": "Homepage read in the browser reader (HTTP 200); employer pricing confirmed. /api, /developers and /partners return HTTP 404 and no language switcher was found.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +60,30 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "business_model",
+   "url": "https://enroutejobs.com/employers",
+   "title": "Employer pricing",
+   "accessed": "2026-11-09",
+   "quote": "Up to 3 live jobs free, no card.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://enroutejobs.com/",
+   "title": "Homepage footer links",
+   "accessed": "2026-11-09",
+   "quote": "Pricing Post a job Help Center Contact Terms Privacy",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://enroutejobs.com/",
+   "title": "Homepage listing review",
+   "accessed": "2026-11-09",
+   "quote": "Someone here read every listing before it went live.",
+   "quote_check": "ok"
   }
  ]
 }

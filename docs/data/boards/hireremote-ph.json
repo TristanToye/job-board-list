@@ -32,13 +32,20 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "hireremote-ph",
+  "reviewed": "2026-11-09",
+  "outcome": "unreachable",
+  "fields_not_found": "",
+  "note": "Homepage returned HTTP 404 Not Found on two fetch attempts, so no pages could be read.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

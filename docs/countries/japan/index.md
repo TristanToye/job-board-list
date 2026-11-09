@@ -1,6 +1,6 @@
 # Job boards in Japan
 
-13 job boards and related entries based in or serving Japan.
+14 job boards and related entries based in or serving Japan.
 
 - [Rikunabi](https://jobboardlist.com/boards/rikunabi/): board, Large tier, No known API
 - [doda](https://jobboardlist.com/boards/doda/): board, Established tier
@@ -15,5 +15,6 @@
 - [Recruit Group](https://jobboardlist.com/boards/recruit-group/): staffing
 - [arubai](https://jobboardlist.com/boards/arubai/): board
 - [TechGo](https://jobboardlist.com/boards/techgo/): board
+- [MakersJob](https://jobboardlist.com/boards/makersjob/): board
 
 Canonical page: https://jobboardlist.com/countries/japan/

@@ -20,8 +20,8 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Site is a Japanese construction-industry recruitment agency. Footer gives a Tokyo address for 株式会社MyVision. No language switcher or parent company was stated. The /partner path returned 404.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/buildjob/",
  "indexable": false,
  "prominence": {
@@ -30,13 +30,20 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "buildjob",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;api_status;partner_program;ingest_methods",
+  "note": "Tokyo address, Japanese-only site and referral-fee model confirmed; parent and API not stated, and /partner returned 404.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -47,6 +54,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "existence",
+   "url": "https://build-job.jp/",
+   "title": "Homepage footer address",
+   "accessed": "2026-11-09",
+   "quote": "〒105-6924 東京都港区虎ノ門4-1-1 神谷町トラストタワー 24階",
+   "quote_check": "ok"
   }
  ]
 }

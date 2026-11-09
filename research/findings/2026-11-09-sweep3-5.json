@@ -1,71 +1,236 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Gippslander",
+   "url": "https://gippslander.com.au",
+   "business_model": "pay per post",
+   "notes": "Employer prices shown per job including GST: Standard $49 (30 days), Featured $89 (45 days). Partner plan $599 a year. Employer profile free. Checkout via Stripe. No API or feed mentioned on the pages read.",
+   "sources": [
     {
-      "name": "Gippslander",
-      "url": "https://gippslander.com.au",
-      "business_model": "pay per post",
-      "notes": "Employer prices shown per job including GST: Standard $49 (30 days), Featured $89 (45 days). Partner plan $599 a year. Employer profile free. Checkout via Stripe. No API or feed mentioned on the pages read.",
-      "sources": [
-        {"field": "business_model", "url": "https://gippslander.com.au/pricing", "title": "Employer pricing", "quote": "$49per job · inc. GST"},
-        {"field": "business_model", "url": "https://gippslander.com.au/partner", "title": "Partner plan", "quote": "$599 a year · Next: secure checkout with Stripe"}
-      ]
+     "field": "business_model",
+     "url": "https://gippslander.com.au/pricing",
+     "title": "Employer pricing",
+     "quote": "$49per job · inc. GST",
+     "check": "mismatch"
     },
     {
-      "name": "CuratorSearch",
-      "url": "https://curatorsearch.com",
-      "languages_supported": ["de", "fr", "nl"],
-      "business_model": "pay per post",
-      "api_status": "public-open",
-      "api_docs_url": "https://curatorsearch.com/developers",
-      "partner_program": "yes",
-      "partner_url": "https://curatorsearch.com/developers",
-      "notes": "Single job listing costs 100 euros for 30 days, invoice available on request. Public API page says no key needed for the MCP server; the JSON API page does not state whether a key is required. Full feed requires a keyed partner feed requested by email. Homepage also shows a 5 euro per month offer whose audience is not stated.",
-      "sources": [
-        {"field": "languages", "url": "https://curatorsearch.com/", "title": "Language filter, German", "quote": "Auf Deutsch (83)"},
-        {"field": "languages", "url": "https://curatorsearch.com/", "title": "Language filter, French", "quote": "En français (4)"},
-        {"field": "languages", "url": "https://curatorsearch.com/", "title": "Language filter, Dutch", "quote": "In het Nederlands (23)"},
-        {"field": "business_model", "url": "https://curatorsearch.com/post-a-job", "title": "Post a job pricing", "quote": "€100 for 30 days."},
-        {"field": "api_status", "url": "https://curatorsearch.com/developers", "title": "Developer docs", "quote": "no key needed"},
-        {"field": "partner_program", "url": "https://curatorsearch.com/developers", "title": "Developer docs, partner feed", "quote": "email support@curatorsearch.com with the subject \"Partner Feed.\""}
-      ]
-    },
-    {
-      "name": "aitrainer.work",
-      "url": "https://aitrainer.work",
-      "business_model": "pay per post",
-      "api_status": "unknown",
-      "partner_program": "yes",
-      "partner_url": "https://aitrainer.work/partners",
-      "notes": "Single role listings from $49 or $99, one-time payment for 30 days, paid via Stripe. Also offers job listing syndication, referral placements, and advertising. Homepage lists a job feed for your site and an MCP server, with no access or key terms stated. Site is run by founder Pietro Romeo; no parent company named.",
-      "sources": [
-        {"field": "business_model", "url": "https://aitrainer.work/hire", "title": "Single role pricing", "quote": "$49 one-time"},
-        {"field": "partner_program", "url": "https://aitrainer.work/partners", "title": "Hiring partners", "quote": "We list your open roles on the board and keep them current as you open and close them."}
-      ]
-    },
-    {
-      "name": "TwinPro",
-      "url": "https://twin-pro.jp/",
-      "parent": "MyVision, Inc.",
-      "notes": "Career agency for accounting and finance professionals. Footer names MyVision, Inc. as copyright holder and lists five group services. The relationship is not described as parent or subsidiary. Employer posting, pricing, API and partner terms not described on pages read.",
-      "sources": [
-        {"field": "parent", "url": "https://twin-pro.jp/", "title": "Footer copyright", "quote": "© MyVision, Inc. All Rights Reserved."}
-      ]
+     "field": "business_model",
+     "url": "https://gippslander.com.au/partner",
+     "title": "Partner plan",
+     "quote": "$599 a year · Next: secure checkout with Stripe",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Jobboom", "url": "https://www.jobboom.com", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "HTTP 403 in fetch and in the browser reader, which showed a Cloudflare security verification page."},
-    {"name": "Careers24", "url": "https://www.careers24.com", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "HTTP 403 in fetch and in the browser reader, which showed a Cloudflare block page."},
-    {"name": "HireRemote.ph", "url": "https://hireremote.ph", "outcome": "unreachable", "fields_not_found": [], "method": "fetch", "note": "Homepage returned HTTP 404 Not Found on two fetch attempts, so no pages could be read."},
-    {"name": "Teamlyzer", "url": "https://pt.teamlyzer.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "fetch", "note": "Homepage and plans pages read; no language switcher, no prices, no API and no parent stated. Companies pages returned HTTP 404."},
-    {"name": "Gippslander", "url": "https://gippslander.com.au", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Pricing confirmed from the pricing page; no language options, country, parent or API stated on pages read."},
-    {"name": "CuratorSearch", "url": "https://curatorsearch.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "ingest_methods"], "method": "fetch", "note": "Language options, pricing, API and partner feed confirmed; headquarters and parent not stated."},
-    {"name": "aitrainer.work", "url": "https://aitrainer.work", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "ingest_methods"], "method": "fetch", "note": "Single-role pricing and partner listing confirmed; no interface language options, address or parent company stated."},
-    {"name": "TwinPro", "url": "https://twin-pro.jp/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Footer copyright holder MyVision, Inc. confirmed; address, language options, employer pricing and API pages not stated (api and partner pages returned HTTP 404)."}
-  ],
-  "blocked": [
-    {"name": "Jobboom", "url": "https://www.jobboom.com", "reason": "HTTP 403 in fetch and browser reader (Cloudflare security verification)"},
-    {"name": "Careers24", "url": "https://www.careers24.com", "reason": "HTTP 403 in fetch and browser reader (Cloudflare block)"}
-  ]
+   ]
+  },
+  {
+   "name": "CuratorSearch",
+   "url": "https://curatorsearch.com",
+   "languages_supported": [
+    "de",
+    "fr",
+    "nl"
+   ],
+   "business_model": "pay per post",
+   "api_status": "public-open",
+   "api_docs_url": "https://curatorsearch.com/developers",
+   "partner_program": "yes",
+   "partner_url": "https://curatorsearch.com/developers",
+   "notes": "Single job listing costs 100 euros for 30 days, invoice available on request. Public API page says no key needed for the MCP server; the JSON API page does not state whether a key is required. Full feed requires a keyed partner feed requested by email. Homepage also shows a 5 euro per month offer whose audience is not stated.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://curatorsearch.com/",
+     "title": "Language filter, German",
+     "quote": "Auf Deutsch (83)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://curatorsearch.com/",
+     "title": "Language filter, French",
+     "quote": "En français (4)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://curatorsearch.com/",
+     "title": "Language filter, Dutch",
+     "quote": "In het Nederlands (23)",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://curatorsearch.com/post-a-job",
+     "title": "Post a job pricing",
+     "quote": "€100 for 30 days.",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://curatorsearch.com/developers",
+     "title": "Developer docs",
+     "quote": "no key needed",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://curatorsearch.com/developers",
+     "title": "Developer docs, partner feed",
+     "quote": "email support@curatorsearch.com with the subject \"Partner Feed.\"",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "aitrainer.work",
+   "url": "https://aitrainer.work",
+   "business_model": "pay per post",
+   "api_status": "unknown",
+   "partner_program": "yes",
+   "partner_url": "https://aitrainer.work/partners",
+   "notes": "Single role listings from $49 or $99, one-time payment for 30 days, paid via Stripe. Also offers job listing syndication, referral placements, and advertising. Homepage lists a job feed for your site and an MCP server, with no access or key terms stated. Site is run by founder Pietro Romeo; no parent company named.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://aitrainer.work/hire",
+     "title": "Single role pricing",
+     "quote": "$49 one-time",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://aitrainer.work/partners",
+     "title": "Hiring partners",
+     "quote": "We list your open roles on the board and keep them current as you open and close them.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "TwinPro",
+   "url": "https://twin-pro.jp/",
+   "parent": "MyVision, Inc.",
+   "notes": "Career agency for accounting and finance professionals. Footer names MyVision, Inc. as copyright holder and lists five group services. The relationship is not described as parent or subsidiary. Employer posting, pricing, API and partner terms not described on pages read.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://twin-pro.jp/",
+     "title": "Footer copyright",
+     "quote": "© MyVision, Inc. All Rights Reserved.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Jobboom",
+   "url": "https://www.jobboom.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "HTTP 403 in fetch and in the browser reader, which showed a Cloudflare security verification page."
+  },
+  {
+   "name": "Careers24",
+   "url": "https://www.careers24.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "HTTP 403 in fetch and in the browser reader, which showed a Cloudflare block page."
+  },
+  {
+   "name": "HireRemote.ph",
+   "url": "https://hireremote.ph",
+   "outcome": "unreachable",
+   "fields_not_found": [],
+   "method": "fetch",
+   "note": "Homepage returned HTTP 404 Not Found on two fetch attempts, so no pages could be read."
+  },
+  {
+   "name": "Teamlyzer",
+   "url": "https://pt.teamlyzer.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage and plans pages read; no language switcher, no prices, no API and no parent stated. Companies pages returned HTTP 404."
+  },
+  {
+   "name": "Gippslander",
+   "url": "https://gippslander.com.au",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Pricing confirmed from the pricing page; no language options, country, parent or API stated on pages read."
+  },
+  {
+   "name": "CuratorSearch",
+   "url": "https://curatorsearch.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Language options, pricing, API and partner feed confirmed; headquarters and parent not stated."
+  },
+  {
+   "name": "aitrainer.work",
+   "url": "https://aitrainer.work",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Single-role pricing and partner listing confirmed; no interface language options, address or parent company stated."
+  },
+  {
+   "name": "TwinPro",
+   "url": "https://twin-pro.jp/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Footer copyright holder MyVision, Inc. confirmed; address, language options, employer pricing and API pages not stated (api and partner pages returned HTTP 404)."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Jobboom",
+   "url": "https://www.jobboom.com",
+   "reason": "HTTP 403 in fetch and browser reader (Cloudflare security verification)"
+  },
+  {
+   "name": "Careers24",
+   "url": "https://www.careers24.com",
+   "reason": "HTTP 403 in fetch and browser reader (Cloudflare block)"
+  }
+ ]
 }

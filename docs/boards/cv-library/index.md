@@ -21,7 +21,7 @@ CV-Library is a job board based in United Kingdom. It was founded in 2000.
 
 **Which languages does CV-Library support?** This directory records CV-Library as supporting English.
 
-**How large is CV-Library?** CV-Library ranks #37,351 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is CV-Library?** CV-Library ranks #37,351 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does CV-Library connect to?** According to this directory, CV-Library integrates with Pinpoint.
 

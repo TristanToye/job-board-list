@@ -20,7 +20,7 @@ JobKorea is a job board based in South Korea.
 
 **Which languages does JobKorea support?** This directory records JobKorea as supporting Korean.
 
-**How large is JobKorea?** JobKorea ranks #25,154 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is JobKorea?** JobKorea ranks #25,154 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

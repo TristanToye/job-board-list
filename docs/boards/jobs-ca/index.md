@@ -19,7 +19,7 @@ Jobs.ca is a job board based in Canada, focused on general (network of sector an
 
 **Which languages does Jobs.ca support?** This directory records Jobs.ca as supporting English, French.
 
-**How large is Jobs.ca?** Jobs.ca ranks #595,315 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jobs.ca?** Jobs.ca ranks #595,315 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **How many jobs does Jobs.ca list?** Jobs.ca reports 547,787 active jobs on its own site (as of 2026-11-06).
 

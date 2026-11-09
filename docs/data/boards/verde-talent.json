@@ -16,14 +16,14 @@
  "niche": "",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post: from $100 for one post; packs of 5 and 10 posts at lower per-post prices",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Homepage shows per-post prices and pack pricing. Pricing page returned HTTP 404 and partner page returned HTTP 404. No headquarters, parent, language options, API or ingest information stated.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/verde-talent/",
  "indexable": false,
  "prominence": {
@@ -32,13 +32,21 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "verde-talent",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+  "note": "Per-post pricing confirmed on homepage; pricing and partner pages returned HTTP 404 and no headquarters, language or API is stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +57,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "business_model",
+   "url": "https://verdetalent.com",
+   "title": "Homepage pricing",
+   "accessed": "2026-11-09",
+   "quote": "Job postings · From $100",
+   "quote_check": "ok"
   }
  ]
 }

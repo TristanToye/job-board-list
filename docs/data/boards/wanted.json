@@ -34,7 +34,7 @@
   "global_rank": 156486,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board",
@@ -42,7 +42,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "wanted",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "HTTP 403 CloudFront request block in fetch and in the browser reader.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": []

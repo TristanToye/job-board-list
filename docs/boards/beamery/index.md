@@ -16,7 +16,7 @@ Beamery is an HR technology vendor, focused on talent lifecycle and workforce in
 
 ## Quick answers
 
-**How large is Beamery?** Beamery ranks #56,127 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Beamery?** Beamery ranks #56,127 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -18,7 +18,7 @@ Employment Hero is an HR technology vendor.
 
 **Who owns Employment Hero?** According to this directory, Employment Hero is owned by SEEK Limited (minority stake).
 
-**How large is Employment Hero?** Employment Hero ranks #41,844 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Employment Hero?** Employment Hero ranks #41,844 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

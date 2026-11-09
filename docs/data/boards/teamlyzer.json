@@ -30,13 +30,20 @@
   "global_rank": null,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "teamlyzer",
+  "reviewed": "2026-11-09",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage and plans pages read; no language switcher, no prices, no API and no parent stated. Companies pages returned HTTP 404.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

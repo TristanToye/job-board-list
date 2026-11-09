@@ -18,7 +18,7 @@ ApplyToEducation is a job board based in Canada, focused on education.
 
 **Which languages does ApplyToEducation support?** This directory records ApplyToEducation as supporting English.
 
-**How large is ApplyToEducation?** ApplyToEducation ranks #481,821 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is ApplyToEducation?** ApplyToEducation ranks #481,821 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does ApplyToEducation connect to?** According to this directory, ApplyToEducation integrates with Job Bank.
 

@@ -20,7 +20,7 @@ Rippling Recruiting is an applicant tracking system based in United States, focu
 
 **Does Rippling Recruiting have an API?** According to this directory, Rippling Recruiting offers an API you can use with a self-serve key. Documentation: https://developer.rippling.com/.
 
-**How large is Rippling Recruiting?** Rippling Recruiting ranks #12,584 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Rippling Recruiting?** Rippling Recruiting ranks #12,584 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

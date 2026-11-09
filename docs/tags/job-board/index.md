@@ -1,6 +1,6 @@
 # Job board
 
-A site where employers post jobs and candidates search and apply. 237 entries in the directory.
+A site where employers post jobs and candidates search and apply. 297 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -61,26 +61,26 @@ A site where employers post jobs and candidates search and apply. 237 entries in
 - [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
 - [National Career Service](https://jobboardlist.com/boards/national-career-service/): government
 - [CharityJob](https://jobboardlist.com/boards/charityjob/): niche-board
+- [Praca.pl](https://jobboardlist.com/boards/praca-pl/): board
 - [NaukriGulf](https://jobboardlist.com/boards/naukrigulf/): board
 - [Jobware](https://jobboardlist.com/boards/jobware/): board
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
 - [bdjobs.com](https://jobboardlist.com/boards/bdjobs-com/): board
 - [Himalayas](https://jobboardlist.com/boards/himalayas/): niche-board, Open API (no key)
 - [OCC Mundial](https://jobboardlist.com/boards/occ-mundial/): board
+- [YoungCapital](https://jobboardlist.com/boards/youngcapital/): niche-board
+- [MyCareersFuture](https://jobboardlist.com/boards/mycareersfuture/): government
 - [AlmaLaurea](https://jobboardlist.com/boards/almalaurea/): niche-board
 - [IrishJobs](https://jobboardlist.com/boards/irishjobs/): board
+- [AcademicTransfer](https://jobboardlist.com/boards/academictransfer/): niche-board
 - [Caterer.com](https://jobboardlist.com/boards/caterer-com/): board
 - [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
 - [TalentEgg](https://jobboardlist.com/boards/talentegg/): board
+- [Werken voor Nederland](https://jobboardlist.com/boards/werken-voor-nederland/): government
 - [eJobs](https://jobboardlist.com/boards/ejobs/): board
 - [Pro Bono Australia Jobs](https://jobboardlist.com/boards/pro-bono-australia-jobs/): niche-board
 - [Profession.hu](https://jobboardlist.com/boards/profession-hu/): board
 - [Canadian Sport (SIRC)](https://jobboardlist.com/boards/sirc-canadian-sport/): niche-board
 - [JobServe](https://jobboardlist.com/boards/jobserve/): board
-- [foundit](https://jobboardlist.com/boards/foundit/): board
-- [Daijob.com](https://jobboardlist.com/boards/daijob-com/): board
-- [Green](https://jobboardlist.com/boards/green/): niche-board
-- [PNet](https://jobboardlist.com/boards/pnet/): board
-- [CareerViet](https://jobboardlist.com/boards/careerviet/): board
 
 Canonical page: https://jobboardlist.com/tags/job-board/

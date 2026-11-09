@@ -18,7 +18,7 @@ Mediabistro is a job board. It was founded in 1999.
 
 **Who owns Mediabistro?** This directory records the parent of Mediabistro as CognoGroup, Inc..
 
-**How large is Mediabistro?** Mediabistro ranks #7,599 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Mediabistro?** Mediabistro ranks #7,599 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

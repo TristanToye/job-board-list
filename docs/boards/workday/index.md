@@ -18,7 +18,7 @@ Workday Recruiting is an applicant tracking system based in United States, focus
 
 **Does Workday Recruiting have an API?** According to this directory, Workday Recruiting has no publicly documented API that we could find.
 
-**How large is Workday Recruiting?** Workday Recruiting ranks #4,634 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Workday Recruiting?** Workday Recruiting ranks #4,634 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Workday Recruiting connect to?** According to this directory, Workday Recruiting sends jobs to Reed; integrates with Joveo.
 

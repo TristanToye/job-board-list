@@ -11,6 +11,7 @@ BOSS Zhipin is a board and chat based in China. It was founded in 2014.
 - Partner program: unknown
 - Prominence: #6,148 globally, tier Large
 - Tags: General, Job board, Subscription
+- Review: Reviewed 2026-11-09. The board's own pages were read, but they do not state: headquarters, languages, pricing and business model, API access, partner program, owner, how jobs get in.
 - Data status: secondary sources only
 
 ## Quick answers
@@ -21,7 +22,7 @@ BOSS Zhipin is a board and chat based in China. It was founded in 2014.
 
 **Which languages does BOSS Zhipin support?** This directory records BOSS Zhipin as supporting Chinese.
 
-**How large is BOSS Zhipin?** BOSS Zhipin ranks #6,148 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is BOSS Zhipin?** BOSS Zhipin ranks #6,148 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

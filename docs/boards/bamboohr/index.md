@@ -18,7 +18,7 @@ BambooHR is an applicant tracking system based in United States, focused on appl
 
 **Does BambooHR have an API?** According to this directory, BambooHR offers an API you can use with a self-serve key. Documentation: https://documentation.bamboohr.com.
 
-**How large is BambooHR?** BambooHR ranks #3,235 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is BambooHR?** BambooHR ranks #3,235 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

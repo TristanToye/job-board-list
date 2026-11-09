@@ -1,60 +1,202 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "iProgrammatori",
+   "url": "https://www.iprogrammatori.it/",
+   "hq_country": "IT",
+   "notes": "Legal seat stated as Milan. No language options, employer pricing, API or partner page found on the pages read.",
+   "sources": [
     {
-      "name": "iProgrammatori",
-      "url": "https://www.iprogrammatori.it/",
-      "hq_country": "IT",
-      "notes": "Legal seat stated as Milan. No language options, employer pricing, API or partner page found on the pages read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.iprogrammatori.it/", "title": "Homepage footer legal seat", "quote": "Sede Legale: Via Simone d'Orsenigo, 18 - 20135 Milano"}
-      ]
-    },
-    {
-      "name": "Go Zambia Jobs",
-      "url": "https://gozambiajobs.com/",
-      "business_model": "per post, subscription",
-      "notes": "Pricing page lists one-off adverts and monthly recruiter plans with prices. Enterprise plans have no listed price. No language options or API links on the pages read.",
-      "sources": [
-        {"field": "business_model", "url": "https://gozambiajobs.com/pricing", "title": "Pricing page", "quote": "K500 One-off"},
-        {"field": "business_model", "url": "https://gozambiajobs.com/pricing", "title": "Pricing page", "quote": "K500 per month"}
-      ]
-    },
-    {
-      "name": "Cloz",
-      "url": "https://cloz.uz/",
-      "primary_language": "uz",
-      "languages_supported": ["uz"],
-      "business_model": "subscription",
-      "notes": "ATS page lists a free plan and a paid monthly plan, plus a per-candidate-contact price. Only one language option is shown. No API or partner page found.",
-      "sources": [
-        {"field": "languages", "url": "https://cloz.uz/", "title": "Homepage language menu", "quote": "uz"},
-        {"field": "business_model", "url": "https://cloz.uz/employer/ats", "title": "ATS pricing", "quote": "Oyiga 450 000 so'm"}
-      ]
-    },
-    {
-      "name": "BIB Job",
-      "url": "https://bib-job.com/",
-      "hq_country": "MM",
-      "notes": "Footer gives a Yangon address. Job seekers are told they pay nothing. Homepage only was read; no employer pricing, API or partner page was checked.",
-      "sources": [
-        {"field": "existence", "url": "https://bib-job.com/", "title": "Homepage footer address", "quote": "ပုဇွန်တောင်မြို့နယ်၊ ရန်ကုန်မြို့။"}
-      ]
+     "field": "existence",
+     "url": "https://www.iprogrammatori.it/",
+     "title": "Homepage footer legal seat",
+     "quote": "Sede Legale: Via Simone d'Orsenigo, 18 - 20135 Milano",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "GulfTalent", "url": "https://www.gulftalent.com", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 403 Cloudflare security verification in fetch and in the browser reader."},
-    {"name": "Wanted", "url": "https://www.wanted.co.kr", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 403 CloudFront request block in fetch and in the browser reader."},
-    {"name": "iProgrammatori", "url": "https://www.iprogrammatori.it/", "outcome": "partially-verified", "fields_not_found": ["languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "fetch", "note": "Homepage states the legal seat in Milan. /pricing and /api return HTTP 404. Only an RSS link is present."},
-    {"name": "Atypical Advantage", "url": "https://atypicaladvantage.in", "outcome": "not-stated", "fields_not_found": ["hq_country", "parent", "languages", "business_model"], "method": "fetch", "note": "Homepage, pricing and about pages list three offices and the copyright holder Atypical Platform Pvt. Ltd, with no headquarters or parent stated. The Start Hiring page was not read."},
-    {"name": "Go Zambia Jobs", "url": "https://gozambiajobs.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Pricing page lists advert and subscription prices. Homepage has no language options and no API or partner links."},
-    {"name": "Cloz", "url": "https://cloz.uz/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "ATS page states free and paid plans. Homepage shows one language option. Footer is a copyright line only."},
-    {"name": "Turuncuis.com", "url": "https://turuncuis.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Pricing page says paid prices are not yet set and quotes the free listing per employer. No language switcher. Footer names the operator REMNA Muhendislik, which is not stated as a parent."},
-    {"name": "BIB Job", "url": "https://bib-job.com/", "outcome": "partially-verified", "fields_not_found": ["languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "mixed", "note": "Fetch returned only the page title, so the homepage was read in the browser reader. No employer pricing, API or partner information on the homepage."}
-  ],
-  "blocked": [
-    {"name": "GulfTalent", "url": "https://www.gulftalent.com", "reason": "HTTP 403 Cloudflare security verification in fetch and in the browser reader"},
-    {"name": "Wanted", "url": "https://www.wanted.co.kr", "reason": "HTTP 403 CloudFront request block in fetch and in the browser reader"}
-  ]
+   ]
+  },
+  {
+   "name": "Go Zambia Jobs",
+   "url": "https://gozambiajobs.com/",
+   "business_model": "per post, subscription",
+   "notes": "Pricing page lists one-off adverts and monthly recruiter plans with prices. Enterprise plans have no listed price. No language options or API links on the pages read.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://gozambiajobs.com/pricing",
+     "title": "Pricing page",
+     "quote": "K500 One-off",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://gozambiajobs.com/pricing",
+     "title": "Pricing page",
+     "quote": "K500 per month",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Cloz",
+   "url": "https://cloz.uz/",
+   "primary_language": "uz",
+   "languages_supported": [
+    "uz"
+   ],
+   "business_model": "subscription",
+   "notes": "ATS page lists a free plan and a paid monthly plan, plus a per-candidate-contact price. Only one language option is shown. No API or partner page found.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://cloz.uz/",
+     "title": "Homepage language menu",
+     "quote": "uz",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://cloz.uz/employer/ats",
+     "title": "ATS pricing",
+     "quote": "Oyiga 450 000 so'm",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "BIB Job",
+   "url": "https://bib-job.com/",
+   "hq_country": "MM",
+   "notes": "Footer gives a Yangon address. Job seekers are told they pay nothing. Homepage only was read; no employer pricing, API or partner page was checked.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://bib-job.com/",
+     "title": "Homepage footer address",
+     "quote": "ပုဇွန်တောင်မြို့နယ်၊ ရန်ကုန်မြို့။",
+     "check": "mismatch"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "GulfTalent",
+   "url": "https://www.gulftalent.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HTTP 403 Cloudflare security verification in fetch and in the browser reader."
+  },
+  {
+   "name": "Wanted",
+   "url": "https://www.wanted.co.kr",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HTTP 403 CloudFront request block in fetch and in the browser reader."
+  },
+  {
+   "name": "iProgrammatori",
+   "url": "https://www.iprogrammatori.it/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Homepage states the legal seat in Milan. /pricing and /api return HTTP 404. Only an RSS link is present."
+  },
+  {
+   "name": "Atypical Advantage",
+   "url": "https://atypicaladvantage.in",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "method": "fetch",
+   "note": "Homepage, pricing and about pages list three offices and the copyright holder Atypical Platform Pvt. Ltd, with no headquarters or parent stated. The Start Hiring page was not read."
+  },
+  {
+   "name": "Go Zambia Jobs",
+   "url": "https://gozambiajobs.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Pricing page lists advert and subscription prices. Homepage has no language options and no API or partner links."
+  },
+  {
+   "name": "Cloz",
+   "url": "https://cloz.uz/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "ATS page states free and paid plans. Homepage shows one language option. Footer is a copyright line only."
+  },
+  {
+   "name": "Turuncuis.com",
+   "url": "https://turuncuis.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "fetch",
+   "note": "Pricing page says paid prices are not yet set and quotes the free listing per employer. No language switcher. Footer names the operator REMNA Muhendislik, which is not stated as a parent."
+  },
+  {
+   "name": "BIB Job",
+   "url": "https://bib-job.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Fetch returned only the page title, so the homepage was read in the browser reader. No employer pricing, API or partner information on the homepage."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "GulfTalent",
+   "url": "https://www.gulftalent.com",
+   "reason": "HTTP 403 Cloudflare security verification in fetch and in the browser reader"
+  },
+  {
+   "name": "Wanted",
+   "url": "https://www.wanted.co.kr",
+   "reason": "HTTP 403 CloudFront request block in fetch and in the browser reader"
+  }
+ ]
 }

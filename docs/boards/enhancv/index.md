@@ -18,7 +18,7 @@ Enhancv is a career services provider based in BG, focused on AI resume builder.
 
 **Which languages does Enhancv support?** This directory records Enhancv as supporting English, Czech, Danish, Dutch, Finnish, French, German, Italian, Norwegian, Polish, Portuguese, Spanish, Swedish.
 
-**How large is Enhancv?** Enhancv ranks #34,089 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Enhancv?** Enhancv ranks #34,089 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

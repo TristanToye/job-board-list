@@ -4,7 +4,7 @@
  "url": "https://vieclam.net/",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "VN",
  "founded": "2023",
  "markets": "",
  "countries_served": [],
@@ -13,30 +13,39 @@
  "region": "Global",
  "niche": "",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Công ty Cổ phần Định Anh",
+ "business_model": "free basic job posting; paid per-post packages and paid add-ons (prices in images, not in text)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "notes": "Homepage gives the head office address in Ho Chi Minh City. Describes Vieclam.net as a product of Công ty Cổ phần Định Anh. Price list says prices are updated for 10/2026 and include VAT, but the amounts are not in the page text. No API, developer, partner or language options found.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/vieclam-net/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "free-to-post",
+  "job-board",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "vieclam-net",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;api_status;partner_program;ingest_methods",
+  "note": "Head office, operator and free posting confirmed; price amounts are in images, and no language options, API or partner program is stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -47,6 +56,30 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "existence",
+   "url": "https://vieclam.net/",
+   "title": "Head office address",
+   "accessed": "2026-11-09",
+   "quote": "Thành phố Hồ Chí Minh, Việt Nam.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://vieclam.net/",
+   "title": "About Vieclam.net",
+   "accessed": "2026-11-09",
+   "quote": "Vieclam.net là một sản phẩm mới của Công ty Cổ phần Định Anh",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://vieclam.net/wiki/bang-gia-dich-vu-vieclamnet",
+   "title": "Service price list",
+   "accessed": "2026-11-09",
+   "quote": "Vieclam.net cung cấp 3 lựa chọn gói đăng tuyển tối ưu theo nhu cầu của quý khách từ cơ bản đến cao cấp.",
+   "quote_check": "ok"
   }
  ]
 }

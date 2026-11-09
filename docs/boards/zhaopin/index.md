@@ -20,7 +20,7 @@ Zhaopin is a job board based in China.
 
 **Which languages does Zhaopin support?** This directory records Zhaopin as supporting Chinese.
 
-**How large is Zhaopin?** Zhaopin ranks #3,441 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Zhaopin?** Zhaopin ranks #3,441 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

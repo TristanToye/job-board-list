@@ -22,7 +22,7 @@
  "partner_program": "yes",
  "partner_url": "https://portal.ciee.org.br/quero-ser-parceiro",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Partner program is for educational institutions, not for job-posting integrations. Employer page ('Contrate com o CIEE') shows no prices or business model. No headquarters, parent, language selector or API found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/ciee/",
  "indexable": true,
@@ -32,7 +32,7 @@
   "global_rank": 50459,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "graduates-students",
@@ -40,7 +40,14 @@
   "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "ciee",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;parent;ingest_methods",
+  "note": "Partner program for educational institutions confirmed; employer page shows no pricing and no API or headquarters is stated.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [

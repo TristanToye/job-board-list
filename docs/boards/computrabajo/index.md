@@ -20,7 +20,7 @@ Computrabajo is a job board based in Colombia.
 
 **Which languages does Computrabajo support?** This directory records Computrabajo as supporting Spanish, Portuguese.
 
-**How large is Computrabajo?** Computrabajo ranks #48,457 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Computrabajo?** Computrabajo ranks #48,457 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

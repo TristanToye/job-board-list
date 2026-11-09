@@ -18,7 +18,7 @@ Cake (CakeResume) is a job board based in Taiwan. It was founded in 2016.
 
 **Which languages does Cake (CakeResume) support?** This directory records Cake (CakeResume) as supporting English, Chinese, Vietnamese, Indonesian, Japanese.
 
-**How large is Cake (CakeResume)?** Cake (CakeResume) ranks #10,237 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Cake (CakeResume)?** Cake (CakeResume) ranks #10,237 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -21,7 +21,7 @@ InfoJobs is a job board based in Spain. It was founded in 1998.
 
 **Which languages does InfoJobs support?** This directory records InfoJobs as supporting Spanish, Catalan, Italian.
 
-**How large is InfoJobs?** InfoJobs ranks #15,838 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is InfoJobs?** InfoJobs ranks #15,838 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

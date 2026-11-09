@@ -4,7 +4,7 @@
  "url": "https://workinitiatives.com.au/",
  "domains": "",
  "type": "board",
- "hq_country": "",
+ "hq_country": "AU",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -19,26 +19,36 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
+ "partner_program": "yes",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
- "confidence": "secondary-sourced",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Legal entity is Philled Pty Ltd, trading as Workinitiatives. Homepage has a Products & prices link and a partner button, but no prices or partner URL are shown. Post a job links to hire.workinaus.com.au.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/workinitiatives/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "workinitiatives",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;languages;business_model;api_status",
+  "note": "Pages state the legal name, a Sydney address, a partner button and a post-a-job link; no prices, language options or API found.",
+  "method": "fetch"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +59,30 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "existence",
+   "url": "https://workinitiatives.com.au/about-us/",
+   "title": "About us address",
+   "accessed": "2026-11-09",
+   "quote": "Level 27, Tower One, 100 Barangaroo Avenue, Barangaroo, Sydney, NSW 2000.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://workinitiatives.com.au/",
+   "title": "Homepage partner button",
+   "accessed": "2026-11-09",
+   "quote": "Become a partner",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://workinitiatives.com.au/",
+   "title": "Footer employer link",
+   "accessed": "2026-11-09",
+   "quote": "Post a job",
+   "quote_check": "ok"
   }
  ]
 }

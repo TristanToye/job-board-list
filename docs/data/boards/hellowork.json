@@ -24,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Footer reads Les sites du groupe Advenn; the Corporate section also lists Hellowork Group. Headquarters not stated. No language switcher on the homepage. The recruiter site advertises ATS-connected solutions and integrations; no API or XML feed named. Developer pages were not read.",
+ "notes": "Footer reads Les sites du groupe Advenn; the Corporate section also lists Hellowork Group. Headquarters not stated. No language switcher on the homepage. The recruiter site advertises ATS-connected solutions and integrations; no API or XML feed named. Developer pages were not read. Homepage footer lists sites of the Advenn group. Employer page lists a free tier for very small businesses and a monthly subscription. No language switcher found. Partner page linked from employer page was not read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/hellowork/",
  "indexable": true,
@@ -34,7 +34,7 @@
   "global_rank": 17388,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-06"
+  "list_date": "2026-11-09"
  },
  "tags": [
   "freemium",
@@ -43,7 +43,14 @@
   "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "hellowork",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+  "note": "Employer page states free and subscription pricing, footer names the Advenn group, no API page found.",
+  "method": "fetch"
+ },
  "owners": [
   {
    "id": "advenn",
@@ -104,6 +111,14 @@
    "accessed": "2026-11-05",
    "quote": "Wikidata: instance of employment website",
    "quote_check": "structured"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.hellowork.com",
+   "title": "Homepage title",
+   "accessed": "2026-11-09",
+   "quote": "Offres Emploi, Alerte mail, CV et Recrutement en France",
+   "quote_check": "ok"
   }
  ]
 }

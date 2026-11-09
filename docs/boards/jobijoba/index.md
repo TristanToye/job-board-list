@@ -20,7 +20,7 @@ Jobijoba is a job aggregator.
 
 **Which languages does Jobijoba support?** This directory records Jobijoba as supporting French.
 
-**How large is Jobijoba?** Jobijoba ranks #149,209 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jobijoba?** Jobijoba ranks #149,209 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

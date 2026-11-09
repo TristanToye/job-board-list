@@ -16,7 +16,7 @@ HireVue is an HR technology vendor, focused on video interviewing and skills ass
 
 ## Quick answers
 
-**How large is HireVue?** HireVue ranks #25,537 among all websites by web link popularity (Majestic Million, 2026-11-06), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is HireVue?** HireVue ranks #25,537 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

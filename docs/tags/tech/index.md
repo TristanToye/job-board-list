@@ -1,6 +1,6 @@
 # Technology
 
-Software 27 entries in the directory.
+Software 31 entries in the directory.
 
 - [Toptal](https://jobboardlist.com/boards/toptal/): freelance-platform
 - [The Adecco Group](https://jobboardlist.com/boards/the-adecco-group/): staffing
@@ -14,9 +14,11 @@ Software 27 entries in the directory.
 - [Kforce](https://jobboardlist.com/boards/kforce/): staffing
 - [Green](https://jobboardlist.com/boards/green/): niche-board
 - [Wanted](https://jobboardlist.com/boards/wanted/): board
+- [Just Join IT](https://jobboardlist.com/boards/just-join-it/): niche-board
 - [Arbeitnow](https://jobboardlist.com/boards/arbeitnow/): niche-board, Open API (no key)
 - [Japan Dev](https://jobboardlist.com/boards/japan-dev/): niche-board
 - [Tecnoempleo](https://jobboardlist.com/boards/tecnoempleo/): niche-board
+- [OfferZen](https://jobboardlist.com/boards/offerzen/): niche-board
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
 - [Berlin Startup Jobs](https://jobboardlist.com/boards/berlin-startup-jobs/): niche-board
 - [Hirist](https://jobboardlist.com/boards/hirist/): niche-board
@@ -24,6 +26,8 @@ Software 27 entries in the directory.
 - [Ticjob](https://jobboardlist.com/boards/ticjob/): niche-board
 - [Built In](https://jobboardlist.com/boards/built-in/): board
 - [Hacker News Who is hiring](https://jobboardlist.com/boards/hn-whoishiring/): community, Open API (no key)
+- [Salt Recruitment Jobs](https://jobboardlist.com/boards/salt-recruitment-jobs/): board
+- [Hireline](https://jobboardlist.com/boards/hireline/): board
 - [International IT Jobs](https://jobboardlist.com/boards/iitjobs/): board
 - [iProgrammatori](https://jobboardlist.com/boards/iprogrammatori/): niche-board
 - [ITJob.au](https://jobboardlist.com/boards/itjob-au/): niche-board
