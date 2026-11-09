@@ -1,0 +1,96 @@
+{
+  "mode": "discover",
+  "country": "IE",
+  "boards": [
+    {
+      "name": "publicjobs.ie",
+      "url": "https://publicjobs.ie",
+      "type": "government",
+      "niche": "public sector",
+      "countries_served": ["IE"],
+      "sources": [
+        {"field": "existence", "url": "https://publicjobs.ie/en/about-us", "title": "About Us | publicjobs.ie", "quote": "We, publicjobs, we are the centralised provider of recruitment, assessment and selection services"}
+      ]
+    },
+    {
+      "name": "localgovernmentjobs.ie",
+      "url": "https://www.localgovernmentjobs.ie",
+      "type": "government",
+      "niche": "local government",
+      "countries_served": ["IE"],
+      "sources": [
+        {"field": "existence", "url": "https://www.localgovernmentjobs.ie", "title": "localgovernmentjobs.ie homepage", "quote": "Find out more about the local authorities and regional assemblies recruiting on this site"}
+      ]
+    },
+    {
+      "name": "Recruit Ireland",
+      "url": "https://www.recruitireland.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["IE"],
+      "sources": [
+        {"field": "existence", "url": "https://www.recruitireland.com", "title": "Recruit Ireland homepage", "quote": "Recruit Ireland offers you the support, advice and resources you need to succeed."}
+      ]
+    },
+    {
+      "name": "JobAlert",
+      "url": "https://www.jobalert.ie",
+      "type": "aggregator",
+      "niche": "general",
+      "countries_served": ["IE"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobalert.ie", "title": "JobAlert homepage", "quote": "JobAlert | #1 Irish Owned Jobs Site"}
+      ]
+    },
+    {
+      "name": "Gradireland",
+      "url": "https://gradireland.com",
+      "type": "niche-board",
+      "niche": "graduates",
+      "countries_served": ["IE"],
+      "sources": [
+        {"field": "existence", "url": "https://gradireland.com/about-us", "title": "About us | gradireland", "quote": "gradireland is the leading careers platform for students and graduates in Ireland."}
+      ]
+    },
+    {
+      "name": "Healthcarejobs.ie",
+      "url": "https://www.healthcarejobs.ie",
+      "type": "niche-board",
+      "niche": "healthcare",
+      "countries_served": ["IE"],
+      "sources": [
+        {"field": "existence", "url": "https://www.healthcarejobs.ie", "title": "Healthcarejobs.ie homepage", "quote": "Healthcarejobs.ie connects healthcare professionals in Ireland with opportunities across the full spectrum of the sector"}
+      ]
+    },
+    {
+      "name": "EducationPosts.ie",
+      "url": "https://educationposts.ie",
+      "type": "niche-board",
+      "niche": "education",
+      "countries_served": ["IE"],
+      "sources": [
+        {"field": "existence", "url": "https://educationposts.ie", "title": "EducationPosts.ie homepage", "quote": "EducationPosts.ie is Ireland's longest established and most widely used website dedicated to education recruitment."}
+      ]
+    },
+    {
+      "name": "The Wheel",
+      "url": "https://www.wheel.ie",
+      "type": "niche-board",
+      "niche": "nonprofit",
+      "countries_served": ["IE"],
+      "sources": [
+        {"field": "existence", "url": "https://www.wheel.ie", "title": "The Wheel homepage", "quote": "Free jobs posting"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "JobsIreland (Department of Social Protection)", "url": "https://www.jobsireland.ie", "reason": "HTTP 403"},
+    {"name": "Leisure Jobs Ireland", "url": "https://www.leisurejobs.com/jobs/ireland/", "reason": "HTTP 403"},
+    {"name": "Ireland Employment Hub", "url": "https://www.hirebase.org/company/ireland-employment-hub", "reason": "HTTP 403"},
+    {"name": "Hostjobs Ireland", "url": "https://www.hostjobs.ie", "reason": "DNS error (getaddrinfo ENOTFOUND)"}
+  ],
+  "queue": [
+    {"name": "Staffroom.ie", "url": "https://www.staffroom.ie", "reason": "Named in a Department of Education answer; homepage returned no readable content"},
+    {"name": "EU Remote Jobs", "url": "https://euremotejobs.com", "reason": "Named in a Grow Remote Jobs newsletter; homepage returned no readable content"}
+  ]
+}

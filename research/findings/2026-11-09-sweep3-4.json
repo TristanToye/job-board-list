@@ -1,0 +1,69 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "TechGo",
+      "url": "https://tech-go.jp/",
+      "hq_country": "JP",
+      "primary_language": "ja",
+      "notes": "Operator is 株式会社MyVision (MyVision Inc.), Tokyo, per the footer. Page is Japanese; no language switcher found. /company/ returned HTTP 404.",
+      "sources": [
+        {"field": "existence", "url": "https://tech-go.jp/", "title": "Footer company address", "quote": "株式会社MyVision〒105-6924 東京都港区虎ノ門4-1-1 神谷町トラストタワー 24階"},
+        {"field": "languages", "url": "https://tech-go.jp/", "title": "Homepage text", "quote": "テックゴーはITエンジニアの転職支援に特化した転職エージェントです。"}
+      ]
+    },
+    {
+      "name": "Workinitiatives",
+      "url": "https://workinitiatives.com.au/",
+      "hq_country": "AU",
+      "partner_program": "yes",
+      "ingest_methods": ["manual posting"],
+      "notes": "Legal entity is Philled Pty Ltd, trading as Workinitiatives. Homepage has a Products & prices link and a partner button, but no prices or partner URL are shown. Post a job links to hire.workinaus.com.au.",
+      "sources": [
+        {"field": "existence", "url": "https://workinitiatives.com.au/about-us/", "title": "About us address", "quote": "Level 27, Tower One, 100 Barangaroo Avenue, Barangaroo, Sydney, NSW 2000."},
+        {"field": "partner_program", "url": "https://workinitiatives.com.au/", "title": "Homepage partner button", "quote": "Become a partner"},
+        {"field": "ingest_methods", "url": "https://workinitiatives.com.au/", "title": "Footer employer link", "quote": "Post a job"}
+      ]
+    },
+    {
+      "name": "EnRoute Jobs",
+      "url": "https://enroutejobs.com",
+      "business_model": "free tier (3 live jobs), subscription from $79/mo, candidate contact credits",
+      "api_status": "none-known",
+      "ingest_methods": ["manual posting"],
+      "notes": "Employer prices shown: Scout $79/mo, Growth $199/mo, Scale $499/mo, billed monthly or yearly. Paid featured listings and credit packs are also shown. /api, /developers and /partners return HTTP 404. Footer has no API or partner link.",
+      "sources": [
+        {"field": "business_model", "url": "https://enroutejobs.com/employers", "title": "Employer pricing", "quote": "Up to 3 live jobs free, no card."},
+        {"field": "business_model", "url": "https://enroutejobs.com/employers", "title": "Employer subscription plans", "quote": "Plans are billed monthly, or yearly for two months free."},
+        {"field": "business_model", "url": "https://enroutejobs.com/employers", "title": "Employer plan price", "quote": "$79/mo"},
+        {"field": "api_status", "url": "https://enroutejobs.com/", "title": "Homepage footer links", "quote": "Pricing Post a job Help Center Contact Terms Privacy"},
+        {"field": "ingest_methods", "url": "https://enroutejobs.com/", "title": "Homepage listing review", "quote": "Someone here read every listing before it went live."},
+        {"field": "ingest_methods", "url": "https://enroutejobs.com/", "title": "Footer employer link", "quote": "Post a job"}
+      ]
+    },
+    {
+      "name": "NextTechCareer",
+      "url": "https://nexttechcareer.com",
+      "ingest_methods": ["crawl"],
+      "notes": "Homepage describes listings as processed through an AI extraction pipeline, mapped here to crawl. No legal entity, headquarters, employer pricing, language options, API or partner program is stated.",
+      "sources": [
+        {"field": "ingest_methods", "url": "https://nexttechcareer.com", "title": "Homepage listings description", "quote": "Fresh listings processed through our continuous AI extraction pipeline."}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Government E-Employment System", "url": "https://eservices.mcs.gov.sa/Jadara3/(S(loocp4m5hffrcstzv5gtsuwp))/Users/Index.aspx", "outcome": "unreachable", "fields_not_found": [], "method": "fetch", "note": "DNS lookup failed (getaddrinfo ENOTFOUND) for eservices.mcs.gov.sa; the host may need to be allowed in the session network settings."},
+    {"name": "BrighterMonday", "url": "https://www.brightermonday.co.ke", "outcome": "blocked", "fields_not_found": [], "method": "fetch", "note": "HTTP 503 on the first fetch. One retry returned page content, which is not used here; listed as blocked under the 503 rule."},
+    {"name": "Lavoro Turismo", "url": "https://www.lavoroturismo.it/", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "fetch", "note": "Homepage read but truncated; it names services and an employer area but no company, country, pricing or API details. /chi-siamo returned only its title."},
+    {"name": "Hanshek", "url": "https://www.hanshek.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "fetch", "note": "Homepage and about page state only a copyright line and a tagline; no headquarters, pricing, API or partner details."},
+    {"name": "TechGo", "url": "https://tech-go.jp/", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "fetch", "note": "Footer gives a Tokyo operator address; no language switcher, employer pricing, API or partner page found. /company/ returned HTTP 404."},
+    {"name": "Workinitiatives", "url": "https://workinitiatives.com.au/", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "business_model", "api_status"], "method": "fetch", "note": "Pages state the legal name, a Sydney address, a partner button and a post-a-job link; no prices, language options or API found."},
+    {"name": "EnRoute Jobs", "url": "https://enroutejobs.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "partner_program"], "method": "mixed", "note": "Homepage read in the browser reader (HTTP 200); employer pricing confirmed. /api, /developers and /partners return HTTP 404 and no language switcher was found."},
+    {"name": "NextTechCareer", "url": "https://nexttechcareer.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent"], "method": "fetch", "note": "Homepage states an AI extraction pipeline and a copyright line only; no operator, employer pricing, language, API or partner details."}
+  ],
+  "blocked": [
+    {"name": "Government E-Employment System", "url": "https://eservices.mcs.gov.sa/Jadara3/(S(loocp4m5hffrcstzv5gtsuwp))/Users/Index.aspx", "reason": "DNS error (getaddrinfo ENOTFOUND)"},
+    {"name": "BrighterMonday", "url": "https://www.brightermonday.co.ke", "reason": "HTTP 503 on fetch"}
+  ]
+}
