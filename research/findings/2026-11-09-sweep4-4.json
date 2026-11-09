@@ -1,0 +1,89 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg",
+      "notes": "Site header states it is a Singapore Government Agency Website. Homepage text is only 'Loading...' in the fetch tool and browser reader; /about and /employers return a page-not-found message.",
+      "sources": [
+        {"field": "existence", "url": "https://www.mycareersfuture.gov.sg/about", "title": "Site header (about page)", "quote": "A Singapore Government Agency Website"}
+      ]
+    },
+    {
+      "name": "Werken bij de Overheid",
+      "url": "https://www.werkenbijdeoverheid.nl",
+      "business_model": "per post",
+      "notes": "Over deze site says posting costs are per vacancy placement, with no amounts shown. Only government organisations may post. No headquarters, parent, language options or API stated.",
+      "sources": [
+        {"field": "business_model", "url": "https://www.werkenbijdeoverheid.nl/over-deze-site", "title": "Over deze site", "quote": "Gegarandeerd een groot bereik tegen aantrekkelijke kosten per vacatureplaatsing."},
+        {"field": "business_model", "url": "https://www.werkenbijdeoverheid.nl/over-deze-site", "title": "Over deze site", "quote": "Alleen overheidsorganisaties kunnen vacatures en stages plaatsen op deze website."}
+      ]
+    },
+    {
+      "name": "Medische Banenbank",
+      "url": "https://www.medischebanenbank.nl",
+      "business_model": "per post (packages from € 410)",
+      "notes": "Homepage states it is part of BSL Media & Learning, and the footer says BSL Media & Learning is part of Springer Nature. Employer page shows placements from € 410 and a flat rate for multiple placements.",
+      "sources": [
+        {"field": "parent", "url": "https://www.medischebanenbank.nl", "title": "Homepage about text", "quote": "Medische banenbank is onderdeel van BSL Media & Learning"},
+        {"field": "parent", "url": "https://www.medischebanenbank.nl", "title": "Footer copyright", "quote": "© BSL Media & Learning, onderdeel van Springer Nature"},
+        {"field": "business_model", "url": "https://www.medischebanenbank.nl/voor-werkgevers/", "title": "Voor werkgevers", "quote": "Al vanaf € 410,-"}
+      ]
+    },
+    {
+      "name": "Rocket Jobs",
+      "url": "https://rocketjobs.pl",
+      "notes": "Homepage and employer profiles page state no headquarters, parent, pricing, API or language options. The employer posting link points to rocketjobs.com, which is outside this board's domain and was not read.",
+      "sources": []
+    },
+    {
+      "name": "IamExpat Jobs",
+      "url": "https://www.iamexpat.nl/career",
+      "business_model": "pay per job",
+      "notes": "Hiring page offers pay per job with packages for all needs. No headquarters, parent, language options or API stated on the pages read.",
+      "sources": [
+        {"field": "business_model", "url": "https://www.iamexpat.nl/career/hiring-expats-netherlands", "title": "Recruit international employees in the Netherlands", "quote": "Pay per job"},
+        {"field": "business_model", "url": "https://www.iamexpat.nl/career/hiring-expats-netherlands", "title": "Recruit international employees in the Netherlands", "quote": "Packages for all needs"}
+      ]
+    },
+    {
+      "name": "Salt Recruitment Jobs",
+      "url": "https://welovesalt.com/za/jobs",
+      "notes": "Homepage, Meet Salt and Find Talent pages state no headquarters, parent, pricing, API or language options.",
+      "sources": []
+    },
+    {
+      "name": "JobAlert",
+      "url": "https://www.jobalert.ie",
+      "business_model": "pay per post (job credits)",
+      "notes": "Job credits are bought per posting at €149+ VAT and the page says there are no subscriptions. No headquarters, parent, language options or API stated on the pages read.",
+      "sources": [
+        {"field": "business_model", "url": "https://www.jobalert.ie/post-job/packages", "title": "Job Credits", "quote": "€149+ VAT"},
+        {"field": "business_model", "url": "https://www.jobalert.ie/post-job/packages", "title": "Job Credits", "quote": "No hidden fees or subscriptions."}
+      ]
+    },
+    {
+      "name": "Hireline",
+      "url": "https://hireline.io",
+      "business_model": "staffing service (month-to-month arrangement)",
+      "notes": "Footer address is in Querétaro, Mexico. Homepage says the company was founded in 2014 in Mexico and offers a staffing service. No job posting pricing, parent, language options or API stated.",
+      "sources": [
+        {"field": "existence", "url": "https://hireline.io", "title": "Footer address", "quote": "Col.Centro, Querétaro, Mex."},
+        {"field": "existence", "url": "https://hireline.io", "title": "Homepage about text", "quote": "Founded in 2014 in Mexico, our platform now serves over 500 companies"},
+        {"field": "business_model", "url": "https://hireline.io", "title": "Homepage staffing offer", "quote": "risk-free, month-to-month arrangement"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "MyCareersFuture", "url": "https://www.mycareersfuture.gov.sg", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage shows only 'Loading...' in fetch and browser reader; /about and /employers return a page-not-found message."},
+    {"name": "Werken bij de Overheid", "url": "https://www.werkenbijdeoverheid.nl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Over deze site states per-vacancy costs without amounts; no headquarters, language options or API stated."},
+    {"name": "Medische Banenbank", "url": "https://www.medischebanenbank.nl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage states parent company BSL Media & Learning; employer page shows placements from € 410."},
+    {"name": "Rocket Jobs", "url": "https://rocketjobs.pl", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "browser", "note": "Homepage and employer profiles page state none of the facts looked for."},
+    {"name": "IamExpat Jobs", "url": "https://www.iamexpat.nl/career", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Hiring page states pay per job; no headquarters, language options or API stated on pages read."},
+    {"name": "Salt Recruitment Jobs", "url": "https://welovesalt.com/za/jobs", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "browser", "note": "Homepage, Meet Salt and Find Talent pages state none of the facts looked for."},
+    {"name": "JobAlert", "url": "https://www.jobalert.ie", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Packages page states job credits at €149+ VAT with no subscriptions; no headquarters or API stated."},
+    {"name": "Hireline", "url": "https://hireline.io", "outcome": "partially-verified", "fields_not_found": ["parent", "languages", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Footer address is in Querétaro, Mexico; offers a month-to-month staffing service; no job posting pricing or API stated."}
+  ],
+  "blocked": []
+}
