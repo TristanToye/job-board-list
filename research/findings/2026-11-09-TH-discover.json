@@ -1,0 +1,72 @@
+{
+  "mode": "discover",
+  "country": "TH",
+  "boards": [
+    {
+      "name": "JobThai",
+      "url": "https://www.jobthai.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["TH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobthai.com/en", "title": "JobThai English home page", "quote": "The Most Convenient Site to Search and Apply Jobs in Thailand."}
+      ]
+    },
+    {
+      "name": "JobBKK",
+      "url": "https://www.jobbkk.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["TH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobbkk.com", "title": "JOBBKK home page", "quote": "แพลตฟอร์มหางานด่วนที่คนหางานกว่า 1,388,389 คนเลือกใช้"},
+        {"field": "listed_by", "url": "https://workello.com/thailand-job-boards", "title": "Top 11 Thailand Job Boards for Discovering Local Experts", "quote": "we reviewed 11 Thailand job boards worth considering."}
+      ]
+    },
+    {
+      "name": "ThaiJob",
+      "url": "https://www.thaijob.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["TH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.thaijob.com/en/employer/", "title": "ThaiJob employer page", "quote": "over 11 years of service, reaching 100,000+ jobseekers nationwide."},
+        {"field": "listed_by", "url": "https://workello.com/thailand-job-boards", "title": "Top 11 Thailand Job Boards for Discovering Local Experts", "quote": "we reviewed 11 Thailand job boards worth considering."}
+      ]
+    },
+    {
+      "name": "Job.th",
+      "url": "https://www.jobth.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["TH"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobth.com/price.php", "title": "JobTH pricing page", "quote": "โฆษณาตำแหน่งงาน และ หาพนักงานกับเรา ง่าย สะดวก รวดเร็วด้วยประสบการณ์มากกว่า 16 ปีบนเว็บไซต์หางาน สมัครงาน"},
+        {"field": "listed_by", "url": "https://workello.com/thailand-job-boards", "title": "Top 11 Thailand Job Boards for Discovering Local Experts", "quote": "we reviewed 11 Thailand job boards worth considering."}
+      ]
+    },
+    {
+      "name": "Ajarn.com",
+      "url": "https://ajarn.com",
+      "type": "board",
+      "niche": "education",
+      "countries_served": ["TH"],
+      "sources": [
+        {"field": "existence", "url": "https://ajarn.com/recruitment", "title": "Ajarn.com recruitment page", "quote": "Ajarn.com © 1999-2026 Ajarndigital Partnership."}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Blognone Jobs", "url": "https://www.blognone.com/jobs", "reason": "HTTP 403"},
+    {"name": "GrabJobs", "url": "https://grabjobs.co", "reason": "HTTP 403 (two attempts)"},
+    {"name": "Glints", "url": "https://glints.com", "reason": "HTTP 403"}
+  ],
+  "queue": [
+    {"name": "Thai Department of Employment job portal (ไทยมีงานทำ)", "url": "", "reason": "Named in search results as the Department of Employment portal, domain not confirmed on a page read. www.smartjob.doe.go.th did not resolve (DNS). doe.go.th fetch timed out. thailand.go.th article returned empty content."},
+    {"name": "Workventure", "url": "https://www.workventure.com", "reason": "Named in Workello roundup. Homepage read but contained only logo images, no description or Thailand statement."},
+    {"name": "TribeHired", "url": "https://www.tribehired.com", "reason": "Named in Techsauce roundup. Homepage read, but Thailand is not stated on the page and it describes a matched-role service."},
+    {"name": "GetLinks", "url": "https://www.getlinks.co", "reason": "Named in Techsauce roundup. Homepage returned HTTP 404."},
+    {"name": "Laimoon Thailand free job posting", "url": "https://providers.laimoon.com/thailand/free-job-posting-site", "reason": "Named in Workello roundup. Page returned HTTP 404."},
+    {"name": "Fastwork", "url": "http://www.fastwork.co", "reason": "Named in Techsauce roundup. Not opened."}
+  ]
+}

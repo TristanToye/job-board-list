@@ -1,0 +1,51 @@
+{
+  "mode": "discover",
+  "country": "CL",
+  "boards": [
+    {
+      "name": "Trabajando.com",
+      "url": "https://www.trabajando.cl",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["CL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.trabajando.cl/", "title": "Trabajando.com homepage", "quote": "El portal de trabajo para todas las etapas de tu vida laboral."}
+      ]
+    },
+    {
+      "name": "Bolsa Nacional de Empleo (BNE)",
+      "url": "https://www.bne.cl",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["CL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.bne.cl/", "title": "BNE homepage", "quote": "Estamos probando una nueva forma de buscar empleo en todo Chile."}
+      ]
+    },
+    {
+      "name": "iAgora",
+      "url": "https://www.iagora.com",
+      "type": "niche-board",
+      "niche": "graduates",
+      "countries_served": ["CL"],
+      "sources": [
+        {"field": "existence", "url": "https://www.iagora.com/work/es/empleos/chile", "title": "iAgora Chile jobs page", "quote": "Con hasta 1.000 nuevas prácticas universitarias al día, iAgora es la web de prácticas universitarias más activa de Europa."}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Chiletrabajos", "url": "https://www.chiletrabajos.cl", "reason": "HTTP 503 on two attempts"},
+    {"name": "Laborum", "url": "https://www.laborum.cl", "reason": "HTTP 403"},
+    {"name": "Empleos Públicos", "url": "https://www.empleospublicos.cl", "reason": "HTTP 403"},
+    {"name": "Workana", "url": "https://www.workana.com", "reason": "HTTP 403"},
+    {"name": "Yapo", "url": "https://www.yapo.cl", "reason": "HTTP 403"},
+    {"name": "Opcionempleo", "url": "https://www.opcionempleo.cl", "reason": "Returned a bot-verification page instead of site content"},
+    {"name": "Servicio Civil", "url": "https://www.serviciocivil.gob.cl", "reason": "HTTP 503"}
+  ],
+  "queue": [
+    {"name": "Get on Board", "url": "https://www.getonbrd.com", "reason": "Homepage read, but Chile coverage is not stated on the page read; described as a Latin America tech jobs community"},
+    {"name": "Reqlut", "url": "https://www.reqlut.com", "reason": "Homepage read; Chile shown only through a listings path and Chilean partner institutions, not stated in text"},
+    {"name": "Remotejob", "url": "https://www.remotejob.com", "reason": "Named in Chile roundups; homepage redirected to a mirror host (ww19.remotejob.com) that was not followed"},
+    {"name": "Jobatus", "url": "https://www.jobatus.com", "reason": "Named in a Chile roundup; DNS lookup failed (ENOTFOUND)"}
+  ]
+}
