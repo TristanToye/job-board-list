@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Site header states it is a Singapore Government Agency Website. Homepage text is only 'Loading...' in the fetch tool and browser reader; /about and /employers return a page-not-found message.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/mycareersfuture/",
  "indexable": false,
@@ -42,7 +42,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "mycareersfuture",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage shows only 'Loading...' in fetch and browser reader; /about and /employers return a page-not-found message.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +59,14 @@
    "title": "MyCareersFuture llms.txt",
    "accessed": "2026-11-09",
    "quote": "An online job portal for Singapore Citizens and Singapore Permanent Residents",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.mycareersfuture.gov.sg/about",
+   "title": "Site header (about page)",
+   "accessed": "2026-11-09",
+   "quote": "A Singapore Government Agency Website",
    "quote_check": "ok"
   }
  ]

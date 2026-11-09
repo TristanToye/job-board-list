@@ -8,7 +8,8 @@
  "founded": "",
  "markets": "",
  "countries_served": [
-  "ZZ"
+  "ZZ",
+  "NO"
  ],
  "primary_language": "en",
  "languages_supported": [
@@ -123,6 +124,14 @@
    "title": "Eurostat about us (language selector)",
    "accessed": "2026-11-06",
    "quote": "Select your language.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://euraxess.ec.europa.eu/jobs/search?keywords=Oslo",
+   "title": "EURAXESS job search",
+   "accessed": "2026-11-09",
+   "quote": "Explore thousands of job vacancies, funding opportunities, and hosting positions available across Europe and beyond.",
    "quote_check": "ok"
   }
  ]

@@ -10,19 +10,21 @@
  "countries_served": [
   "SE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "sv",
+ "languages_supported": [
+  "sv"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
+ "parent": "Akind Group",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Swedish recruitment and staffing site for young professionals. Job listings in English are offered on a separate page.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/academic-work/",
  "indexable": false,
@@ -39,7 +41,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "academic-work",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country",
+  "note": "Homepage, About and English-applicant pages read; employer pages not read.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,30 @@
    "title": "Academic Work Sweden homepage",
    "accessed": "2026-11-09",
    "quote": "Vi bemannar och rekryterar till organisationer, och leder er framåt genom en ständigt skiftande omvärld.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.academicwork.se/om-oss",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "Vi är ledande inom rekrytering och bemanning för talanger i början av deras karriär.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.academicwork.se/jobbsokande/for-international-and-english-speaking-applicants",
+   "title": "English-speaking applicants",
+   "accessed": "2026-11-09",
+   "quote": "Available jobs in English",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.academicwork.se/om-oss",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "Som en del av Akind Group kan vi göra större skillnad",
    "quote_check": "ok"
   }
  ]

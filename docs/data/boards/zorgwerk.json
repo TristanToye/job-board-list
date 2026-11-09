@@ -4,14 +4,16 @@
  "url": "https://www.zorgwerk.nl",
  "domains": "",
  "type": "niche-board",
- "hq_country": "",
+ "hq_country": "NL",
  "founded": "",
  "markets": "",
  "countries_served": [
   "NL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nl",
+ "languages_supported": [
+  "nl"
+ ],
  "region": "Europe",
  "niche": "healthcare and welfare",
  "segment": "",
@@ -19,13 +21,15 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.zorgwerk.nl/platform-partners",
+ "ingest_methods": [
+  "API"
+ ],
+ "notes": "Staffing platform for care and childcare work. An API link to the Nedap Ons and Intus Inplanning roster systems is described, with a contact request for details. No parent or employer pricing was stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/zorgwerk/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -36,10 +40,18 @@
  },
  "tags": [
   "healthcare",
-  "job-board"
+  "job-board",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "zorgwerk",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;business_model;languages",
+  "note": "Homepage, API integration and partner pages read; partner program and Rotterdam postal address stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +61,38 @@
    "title": "Zorgwerk homepage",
    "accessed": "2026-11-09",
    "quote": "Zorgwerk is het platform dat je dagelijks helpt bij het vinden van de fijnste diensten en opdrachten.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.zorgwerk.nl/platform-partners",
+   "title": "Partner platform page",
+   "accessed": "2026-11-09",
+   "quote": "Postbus 21366 3001 AJ Rotterdam",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.zorgwerk.nl/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Doorgaan naar inhoud",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.zorgwerk.nl/platform-partners",
+   "title": "Partner platform page",
+   "accessed": "2026-11-09",
+   "quote": "Word partner van Zorgwerk en krijg toegang",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.zorgwerk.nl/koppeling-api",
+   "title": "API integrations",
+   "accessed": "2026-11-09",
+   "quote": "De API-koppeling zorgt voor het ophalen van flexaanvragen",
    "quote_check": "ok"
   }
  ]

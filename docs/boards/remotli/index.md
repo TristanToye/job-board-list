@@ -1,6 +1,6 @@
 # Remotli
 
-Remotli is a job board. It was founded in 2026.
+Remotli is a job board, focused on remote. It was founded in 2026.
 
 - Website: https://remotli.ch
 - Headquarters: not recorded
@@ -10,7 +10,7 @@ Remotli is a job board. It was founded in 2026.
 - API status: Open API (no key) (https://remotli.ch/docs/api)
 - Partner program: unknown
 - Prominence: Not in top 1M
-- Tags: Open API, Free to post, Job board
+- Tags: Open API, Free to post, Job board, Remote
 - Review: Reviewed 2026-11-09. Some facts checked against the board's own site. Not stated there: headquarters, languages, owner, partner program, how jobs get in.
 - Data status: partly verified against its own site
 
@@ -26,6 +26,7 @@ Remotli is a job board. It was founded in 2026.
 - [Employer posting page](https://remotli.ch/post-a-job) (Languages, checked 2026-11-09): "Post free, or pay to stand out"
 - [Employer posting FAQ](https://remotli.ch/post-a-job) (Business model and pricing, checked 2026-11-09): "Featured (CHF 149) and Premium (CHF 299) are optional upgrades, paid by card through Stripe at submission"
 - [API documentation](https://remotli.ch/docs/api) (API access, checked 2026-11-09): "The public search needs no key; the account endpoints act as the person whose key they carry."
+- [Remotli homepage](https://remotli.ch) (Existence and description, checked 2026-11-09): "Remote-first and flexible roles from companies hiring in Switzerland."
 
 Canonical page: https://jobboardlist.com/boards/remotli/
 Last updated: 2026-11-09

@@ -4,28 +4,34 @@
  "url": "https://www.erecruiter.pl",
  "domains": "",
  "type": "multiposting",
- "hq_country": "",
+ "hq_country": "PL",
  "founded": "",
  "markets": "",
  "countries_served": [
   "PL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pl",
+ "languages_supported": [
+  "pl",
+  "en"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Grupa Pracuj",
+ "business_model": "subscription (monthly net prices)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "multiposting to job portals via integration",
+  "career site integration"
+ ],
+ "notes": "Homepage and pages state PL and EN options, monthly prices from 249 zl net, membership of Grupa Pracuj and an API integration mention. API access terms are not stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/erecruiter/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -36,10 +42,18 @@
  },
  "tags": [
   "general",
-  "job-distribution"
+  "job-distribution",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "erecruiter",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "api_status",
+  "note": "Pages state PL and EN options, monthly prices, Grupa Pracuj membership and an API integration mention, but not how API access is obtained.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +63,46 @@
    "title": "eRecruiter homepage",
    "accessed": "2026-11-09",
    "quote": "Z łatwością opublikujesz ogłoszenia na 30 portalach (m.in. Pracuj.pl i OLX) z jednego miejsca.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://erecruiter.pl/oferta/",
+   "title": "Oferta page",
+   "accessed": "2026-11-09",
+   "quote": "Jako spółka Grupy Pracuj jesteśmy zintegrowani z portalem Pracuj.pl.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.erecruiter.pl/",
+   "title": "Homepage language switcher",
+   "accessed": "2026-11-09",
+   "quote": "PL EN",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://erecruiter.pl/oferta/",
+   "title": "Oferta pricing",
+   "accessed": "2026-11-09",
+   "quote": "Dla Ciebie i Twojej firmy już od 249 zł",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://erecruiter.pl/oferta/",
+   "title": "Oferta integrations",
+   "accessed": "2026-11-09",
+   "quote": "eRecruiter umożliwia integrację za pomocą API z innymi narzędziami i systemami HR-owymi",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://erecruiter.pl/oferta/",
+   "title": "Oferta integrations",
+   "accessed": "2026-11-09",
+   "quote": "Bezpośrednia integracja z portalami pracy i stroną Kariera",
    "quote_check": "ok"
   }
  ]

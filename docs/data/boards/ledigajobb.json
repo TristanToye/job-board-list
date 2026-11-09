@@ -10,8 +10,10 @@
  "countries_served": [
   "SE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "sv",
+ "languages_supported": [
+  "sv"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
@@ -22,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Employer page shows paid packages priced from 3 900 kr to 16 900 kr. Site is in Swedish with no language selector. No API or partner program is mentioned. The /api, /developers and /partners paths returned 404. The /annonsera path returned 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/ledigajobb/",
  "indexable": false,
@@ -39,7 +41,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "ledigajobb",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;partner_program",
+  "note": "Employer ad page shows paid packages from 3 900 kr; site is Swedish with no language selector; no headquarters, parent or partner program stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,22 @@
    "title": "Ledigajobb homepage",
    "accessed": "2026-11-09",
    "quote": "Tusentals lediga jobb på samma ställe.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.ledigajobb.se/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Sök bland 64 236 lediga jobb",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://ledigajobb.se/rekrytera/annonsera-jobb",
+   "title": "Employer ad page",
+   "accessed": "2026-11-09",
+   "quote": "Lägg upp annons",
    "quote_check": "ok"
   }
  ]

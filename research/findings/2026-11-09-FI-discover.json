@@ -1,76 +1,148 @@
 {
-  "mode": "discover",
-  "country": "FI",
-  "boards": [
+ "mode": "discover",
+ "country": "FI",
+ "boards": [
+  {
+   "name": "Duunitori",
+   "url": "https://duunitori.fi",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "FI"
+   ],
+   "sources": [
     {
-      "name": "Duunitori",
-      "url": "https://duunitori.fi",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["FI"],
-      "sources": [
-        {"field": "existence", "url": "https://duunitori.fi", "title": "Duunitori homepage", "quote": "Duunitori™ on Suomen suurin työnhakukone ja uudenaikainen rekrytointimedia."}
-      ]
-    },
-    {
-      "name": "Jobly",
-      "url": "https://www.jobly.fi",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["FI"],
-      "sources": [
-        {"field": "existence", "url": "https://www.jobly.fi", "title": "Jobly homepage", "quote": "Joblysta löydät avoimet työpaikat kaikilta aloilta ja paikkakunnilta,"}
-      ]
-    },
-    {
-      "name": "Työmarkkinatori",
-      "url": "https://www.tyomarkkinatori.fi",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["FI"],
-      "sources": [
-        {"field": "existence", "url": "https://www.tyomarkkinatori.fi", "title": "Työmarkkinatori homepage", "quote": "Töiden ja tekijöiden kohtaamispaikka."}
-      ]
-    },
-    {
-      "name": "Valtiolle.fi",
-      "url": "https://www.valtiolle.fi",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["FI"],
-      "sources": [
-        {"field": "existence", "url": "https://www.valtiolle.fi", "title": "Valtiolle.fi homepage", "quote": "Valtiolle.fi on Suomen valtion työnhakupalvelu."}
-      ]
-    },
-    {
-      "name": "Kuntarekry",
-      "url": "https://www.kuntarekry.fi",
-      "type": "niche-board",
-      "niche": "public sector",
-      "countries_served": ["FI"],
-      "sources": [
-        {"field": "existence", "url": "https://www.kuntarekry.fi", "title": "Kuntarekry homepage", "quote": "Kuntarekry-palvelun tuottaa Talentech."}
-      ]
-    },
-    {
-      "name": "JobCrawls",
-      "url": "https://www.jobcrawls.com",
-      "type": "aggregator",
-      "niche": "general",
-      "countries_served": ["FI"],
-      "sources": [
-        {"field": "existence", "url": "https://www.jobcrawls.com", "title": "JobCrawls homepage", "quote": "JobCrawls is a job search engine for Finland."}
-      ]
+     "field": "existence",
+     "url": "https://duunitori.fi",
+     "title": "Duunitori homepage",
+     "quote": "Duunitori™ on Suomen suurin työnhakukone ja uudenaikainen rekrytointimedia.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "devjobsscanner", "url": "https://www.devjobsscanner.com", "reason": "HTTP 403"},
-    {"name": "StudentJob Finland", "url": "https://www.studentjob.fi", "reason": "DNS error (getaddrinfo ENOTFOUND)"}
-  ],
-  "queue": [
-    {"name": "Aarresaari", "url": "https://www.aarresaari.net", "reason": "Homepage describes a Finnish university career services network; job listings reportedly run via JobTeaser. Not confirmed as a board."},
-    {"name": "EURES", "url": "https://eures.europa.eu", "reason": "Homepage read, but no description of the portal was found on the page; Finnish vacancy portal not confirmed"},
-    {"name": "Work in Finland", "url": "https://www.workinfinland.com", "reason": "Named in a roundup; the workinfinland.fi redirect to workinfinland.com was not followed, so purpose not read"},
-    {"name": "Oikotie Työpaikat", "url": "https://tyopaikat.oikotie.fi", "reason": "Homepage states Oikotie Työpaikat has closed; not listed as an active board"}
-  ]
+   ]
+  },
+  {
+   "name": "Jobly",
+   "url": "https://www.jobly.fi",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "FI"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobly.fi",
+     "title": "Jobly homepage",
+     "quote": "Joblysta löydät avoimet työpaikat kaikilta aloilta ja paikkakunnilta,",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "Työmarkkinatori",
+   "url": "https://www.tyomarkkinatori.fi",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "FI"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.tyomarkkinatori.fi",
+     "title": "Työmarkkinatori homepage",
+     "quote": "Töiden ja tekijöiden kohtaamispaikka.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Valtiolle.fi",
+   "url": "https://www.valtiolle.fi",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "FI"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.valtiolle.fi",
+     "title": "Valtiolle.fi homepage",
+     "quote": "Valtiolle.fi on Suomen valtion työnhakupalvelu.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Kuntarekry",
+   "url": "https://www.kuntarekry.fi",
+   "type": "niche-board",
+   "niche": "public sector",
+   "countries_served": [
+    "FI"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kuntarekry.fi",
+     "title": "Kuntarekry homepage",
+     "quote": "Kuntarekry-palvelun tuottaa Talentech.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "JobCrawls",
+   "url": "https://www.jobcrawls.com",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "FI"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobcrawls.com",
+     "title": "JobCrawls homepage",
+     "quote": "JobCrawls is a job search engine for Finland.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "devjobsscanner",
+   "url": "https://www.devjobsscanner.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "StudentJob Finland",
+   "url": "https://www.studentjob.fi",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Aarresaari",
+   "url": "https://www.aarresaari.net",
+   "reason": "Homepage describes a Finnish university career services network; job listings reportedly run via JobTeaser. Not confirmed as a board."
+  },
+  {
+   "name": "EURES",
+   "url": "https://eures.europa.eu",
+   "reason": "Homepage read, but no description of the portal was found on the page; Finnish vacancy portal not confirmed"
+  },
+  {
+   "name": "Work in Finland",
+   "url": "https://www.workinfinland.com",
+   "reason": "Named in a roundup; the workinfinland.fi redirect to workinfinland.com was not followed, so purpose not read"
+  },
+  {
+   "name": "Oikotie Työpaikat",
+   "url": "https://tyopaikat.oikotie.fi",
+   "reason": "Homepage states Oikotie Työpaikat has closed; not listed as an active board"
+  }
+ ]
 }

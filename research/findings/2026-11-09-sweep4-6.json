@@ -1,101 +1,297 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Recruit Ireland",
+   "url": "https://www.recruitireland.com",
+   "parent": "The Irish Times",
+   "business_model": "pay per post",
+   "api_status": "none-known",
+   "notes": "Employer page lists a regular job post at EUR 249 and an executive job post at EUR 950. Homepage footer and nav show no API or partner program. The /api, /developers and /partners paths returned 404.",
+   "sources": [
     {
-      "name": "Recruit Ireland",
-      "url": "https://www.recruitireland.com",
-      "parent": "The Irish Times",
-      "business_model": "pay per post",
-      "api_status": "none-known",
-      "notes": "Employer page lists a regular job post at EUR 249 and an executive job post at EUR 950. Homepage footer and nav show no API or partner program. The /api, /developers and /partners paths returned 404.",
-      "sources": [
-        {"field": "parent", "url": "https://www.recruitireland.com/employer", "title": "Employer page", "quote": "As part of The Irish Times media group, we can advertise your jobs across our multiple websites"},
-        {"field": "business_model", "url": "https://www.recruitireland.com/employer", "title": "Employer page", "quote": "Post a Regular Job for €249"},
-        {"field": "ingest_methods", "url": "https://www.recruitireland.com", "title": "Homepage", "quote": "Post a job"}
-      ]
+     "field": "parent",
+     "url": "https://www.recruitireland.com/employer",
+     "title": "Employer page",
+     "quote": "As part of The Irish Times media group, we can advertise your jobs across our multiple websites",
+     "check": "ok"
     },
     {
-      "name": "AcademicTransfer",
-      "url": "https://www.academictransfer.com",
-      "languages_supported": ["nl", "en"],
-      "api_status": "none-known",
-      "notes": "Language menu offers Nederlands and EN. Employer pricing is not stated on the pages read. Homepage and employer pages show no API or partner program. The /api, /developers and /partners paths returned 404.",
-      "sources": [
-        {"field": "languages", "url": "https://www.academictransfer.com/", "title": "Homepage language menu", "quote": "Nederlands"},
-        {"field": "ingest_methods", "url": "https://www.academictransfer.com/", "title": "Homepage", "quote": "Post a job"}
-      ]
+     "field": "business_model",
+     "url": "https://www.recruitireland.com/employer",
+     "title": "Employer page",
+     "quote": "Post a Regular Job for €249",
+     "check": "ok"
     },
     {
-      "name": "Student Job Search",
-      "url": "https://www.sjs.co.nz/",
-      "api_status": "none-known",
-      "notes": "Describes itself as a charity. The employer pages link to a Pricing page that was not read, so employer prices are not recorded. No API or partner program is mentioned on pages read. The /api, /developers and /partners paths returned 404.",
-      "sources": [
-        {"field": "ingest_methods", "url": "https://www.sjs.co.nz/", "title": "Homepage", "quote": "List a job"}
-      ]
-    },
-    {
-      "name": "Ledigajobb",
-      "url": "https://www.ledigajobb.se",
-      "primary_language": "sv",
-      "business_model": "paid ad packages (3 900 kr to 16 900 kr)",
-      "api_status": "none-known",
-      "notes": "Employer page shows paid packages priced from 3 900 kr to 16 900 kr. Site is in Swedish with no language selector. No API or partner program is mentioned. The /api, /developers and /partners paths returned 404. The /annonsera path returned 404.",
-      "sources": [
-        {"field": "languages", "url": "https://www.ledigajobb.se/", "title": "Homepage", "quote": "Sök bland 64 236 lediga jobb"},
-        {"field": "business_model", "url": "https://ledigajobb.se/rekrytera/annonsera-jobb", "title": "Employer ad page", "quote": "Hitta rätt paket för din rekrytering 3 900 kr 6 900 kr 11 900 kr"},
-        {"field": "ingest_methods", "url": "https://ledigajobb.se/rekrytera/annonsera-jobb", "title": "Employer ad page", "quote": "Lägg upp annons"}
-      ]
-    },
-    {
-      "name": "Trade Me Jobs",
-      "url": "https://www.trademe.co.nz/a/jobs",
-      "notes": "The headless browser reader returned an empty text body for this page and for /a/jobs/advertisers-advice, with status 200 and no block flag. Fetch summaries show a List a job option and a footer naming Trade Me Limited, with no pricing, API, partner or language statements. No quotes could be taken from the browser reader, so no facts are recorded."
-    },
-    {
-      "name": "Employment Services of South Africa (ESSA)",
-      "url": "https://essa.labour.gov.za",
-      "notes": "The homepage redirects to /EssaOnline/, which states only that the user is being directed to the ESSA Application page. No facts are recorded."
-    },
-    {
-      "name": "EducationPosts.ie",
-      "url": "https://educationposts.ie",
-      "primary_language": "en",
-      "languages_supported": ["en", "ga"],
-      "parent": "IPPN (Irish Primary Principals' Network)",
-      "api_status": "none-known",
-      "notes": "Site offers English and Gaeilge. Copyright holder is IPPN. The about page gives the registered address as Glounthaune, Co. Cork, which is not stated as headquarters. Employer pricing is not stated on the pages read. No API or partner program is mentioned. The /api, /developers and /partners paths returned 404.",
-      "sources": [
-        {"field": "languages", "url": "https://educationposts.ie/?lang=en", "title": "Homepage language menu", "quote": "English Gaeilge"},
-        {"field": "parent", "url": "https://educationposts.ie/page/about_ippn", "title": "About IPPN", "quote": "The Irish Primary Principals' Network, trading as IPPN Limited, is a company limited by guarantee not having a share capital"},
-        {"field": "ingest_methods", "url": "https://educationposts.ie/", "title": "Homepage", "quote": "Advertise a Job Post"}
-      ]
-    },
-    {
-      "name": "Jobs for Mums",
-      "url": "https://www.jobsformums.co.nz/",
-      "business_model": "pay per post",
-      "partner_program": "yes",
-      "partner_url": "https://www.jobsformums.co.nz/partnerships-employer/",
-      "api_status": "none-known",
-      "notes": "Employer page lists listing packages at $99, $129 and $299, plus services from $2,000 and from $30 per hour. Currency is shown only as $. Partnerships page offers partnership packages for employers and recruitment agencies. No API is mentioned. The /api and /developers paths returned 404.",
-      "sources": [
-        {"field": "business_model", "url": "https://www.jobsformums.co.nz/employers/", "title": "Employer pricing", "quote": "$99 Post Standard Listing $129 Post Premium Listing $299 Post Boosted Listing"},
-        {"field": "partner_program", "url": "https://www.jobsformums.co.nz/partnerships-employer/", "title": "Partnerships", "quote": "Choose the partnership that aligns with your goals"},
-        {"field": "ingest_methods", "url": "https://www.jobsformums.co.nz/", "title": "Homepage", "quote": "POST A JOB NOW"}
-      ]
+     "field": "ingest_methods",
+     "url": "https://www.recruitireland.com",
+     "title": "Homepage",
+     "quote": "Post a job",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Recruit Ireland", "url": "https://www.recruitireland.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "partner_program"], "method": "mixed", "note": "Employer and about pages state Irish Times group ownership and post prices; no headquarters, language options or partner program stated."},
-    {"name": "AcademicTransfer", "url": "https://www.academictransfer.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "parent", "partner_program"], "method": "mixed", "note": "Homepage shows Nederlands and EN language options and a Post a job link; no pricing, parent or partner program stated on pages read."},
-    {"name": "Student Job Search", "url": "https://www.sjs.co.nz/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "parent", "partner_program"], "method": "mixed", "note": "Homepage and employer pages show a List a job option; Pricing page linked but not read; no headquarters or partner program stated."},
-    {"name": "Ledigajobb", "url": "https://www.ledigajobb.se", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "partner_program"], "method": "mixed", "note": "Employer ad page shows paid packages from 3 900 kr; site is Swedish with no language selector; no headquarters, parent or partner program stated."},
-    {"name": "Trade Me Jobs", "url": "https://www.trademe.co.nz/a/jobs", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "mixed", "note": "Browser reader returned empty text (status 200, not flagged as blocked); fetch summaries state none of the looked-for facts, so no quotes were recorded."},
-    {"name": "Employment Services of South Africa (ESSA)", "url": "https://essa.labour.gov.za", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "mixed", "note": "Homepage redirects to /EssaOnline/, which states only that the user is being directed to the application page."},
-    {"name": "EducationPosts.ie", "url": "https://educationposts.ie", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "partner_program"], "method": "mixed", "note": "Site states English and Gaeilge options and IPPN as copyright holder; no employer pricing, headquarters or partner program stated."},
-    {"name": "Jobs for Mums", "url": "https://www.jobsformums.co.nz/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent"], "method": "mixed", "note": "Employer page states listing prices and partnerships page exists; footer shows Auckland New Zealand but no headquarters statement; no language options or parent stated."}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "AcademicTransfer",
+   "url": "https://www.academictransfer.com",
+   "languages_supported": [
+    "nl",
+    "en"
+   ],
+   "api_status": "none-known",
+   "notes": "Language menu offers Nederlands and EN. Employer pricing is not stated on the pages read. Homepage and employer pages show no API or partner program. The /api, /developers and /partners paths returned 404.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.academictransfer.com/",
+     "title": "Homepage language menu",
+     "quote": "Nederlands",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.academictransfer.com/",
+     "title": "Homepage",
+     "quote": "Post a job",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Student Job Search",
+   "url": "https://www.sjs.co.nz/",
+   "api_status": "none-known",
+   "notes": "Describes itself as a charity. The employer pages link to a Pricing page that was not read, so employer prices are not recorded. No API or partner program is mentioned on pages read. The /api, /developers and /partners paths returned 404.",
+   "sources": [
+    {
+     "field": "ingest_methods",
+     "url": "https://www.sjs.co.nz/",
+     "title": "Homepage",
+     "quote": "List a job",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ledigajobb",
+   "url": "https://www.ledigajobb.se",
+   "primary_language": "sv",
+   "business_model": "paid ad packages (3 900 kr to 16 900 kr)",
+   "api_status": "none-known",
+   "notes": "Employer page shows paid packages priced from 3 900 kr to 16 900 kr. Site is in Swedish with no language selector. No API or partner program is mentioned. The /api, /developers and /partners paths returned 404. The /annonsera path returned 404.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.ledigajobb.se/",
+     "title": "Homepage",
+     "quote": "Sök bland 64 236 lediga jobb",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://ledigajobb.se/rekrytera/annonsera-jobb",
+     "title": "Employer ad page",
+     "quote": "Hitta rätt paket för din rekrytering 3 900 kr 6 900 kr 11 900 kr",
+     "check": "mismatch"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://ledigajobb.se/rekrytera/annonsera-jobb",
+     "title": "Employer ad page",
+     "quote": "Lägg upp annons",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Trade Me Jobs",
+   "url": "https://www.trademe.co.nz/a/jobs",
+   "notes": "The headless browser reader returned an empty text body for this page and for /a/jobs/advertisers-advice, with status 200 and no block flag. Fetch summaries show a List a job option and a footer naming Trade Me Limited, with no pricing, API, partner or language statements. No quotes could be taken from the browser reader, so no facts are recorded."
+  },
+  {
+   "name": "Employment Services of South Africa (ESSA)",
+   "url": "https://essa.labour.gov.za",
+   "notes": "The homepage redirects to /EssaOnline/, which states only that the user is being directed to the ESSA Application page. No facts are recorded."
+  },
+  {
+   "name": "EducationPosts.ie",
+   "url": "https://educationposts.ie",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "ga"
+   ],
+   "parent": "IPPN (Irish Primary Principals' Network)",
+   "api_status": "none-known",
+   "notes": "Site offers English and Gaeilge. Copyright holder is IPPN. The about page gives the registered address as Glounthaune, Co. Cork, which is not stated as headquarters. Employer pricing is not stated on the pages read. No API or partner program is mentioned. The /api, /developers and /partners paths returned 404.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://educationposts.ie/?lang=en",
+     "title": "Homepage language menu",
+     "quote": "English Gaeilge",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://educationposts.ie/page/about_ippn",
+     "title": "About IPPN",
+     "quote": "The Irish Primary Principals' Network, trading as IPPN Limited, is a company limited by guarantee not having a share capital",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://educationposts.ie/",
+     "title": "Homepage",
+     "quote": "Advertise a Job Post",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobs for Mums",
+   "url": "https://www.jobsformums.co.nz/",
+   "business_model": "pay per post",
+   "partner_program": "yes",
+   "partner_url": "https://www.jobsformums.co.nz/partnerships-employer/",
+   "api_status": "none-known",
+   "notes": "Employer page lists listing packages at $99, $129 and $299, plus services from $2,000 and from $30 per hour. Currency is shown only as $. Partnerships page offers partnership packages for employers and recruitment agencies. No API is mentioned. The /api and /developers paths returned 404.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.jobsformums.co.nz/employers/",
+     "title": "Employer pricing",
+     "quote": "$99 Post Standard Listing $129 Post Premium Listing $299 Post Boosted Listing",
+     "check": "mismatch"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.jobsformums.co.nz/partnerships-employer/",
+     "title": "Partnerships",
+     "quote": "Choose the partnership that aligns with your goals",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobsformums.co.nz/",
+     "title": "Homepage",
+     "quote": "POST A JOB NOW",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Recruit Ireland",
+   "url": "https://www.recruitireland.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Employer and about pages state Irish Times group ownership and post prices; no headquarters, language options or partner program stated."
+  },
+  {
+   "name": "AcademicTransfer",
+   "url": "https://www.academictransfer.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "parent",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage shows Nederlands and EN language options and a Post a job link; no pricing, parent or partner program stated on pages read."
+  },
+  {
+   "name": "Student Job Search",
+   "url": "https://www.sjs.co.nz/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "parent",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage and employer pages show a List a job option; Pricing page linked but not read; no headquarters or partner program stated."
+  },
+  {
+   "name": "Ledigajobb",
+   "url": "https://www.ledigajobb.se",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Employer ad page shows paid packages from 3 900 kr; site is Swedish with no language selector; no headquarters, parent or partner program stated."
+  },
+  {
+   "name": "Trade Me Jobs",
+   "url": "https://www.trademe.co.nz/a/jobs",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Browser reader returned empty text (status 200, not flagged as blocked); fetch summaries state none of the looked-for facts, so no quotes were recorded."
+  },
+  {
+   "name": "Employment Services of South Africa (ESSA)",
+   "url": "https://essa.labour.gov.za",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage redirects to /EssaOnline/, which states only that the user is being directed to the application page."
+  },
+  {
+   "name": "EducationPosts.ie",
+   "url": "https://educationposts.ie",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Site states English and Gaeilge options and IPPN as copyright holder; no employer pricing, headquarters or partner program stated."
+  },
+  {
+   "name": "Jobs for Mums",
+   "url": "https://www.jobsformums.co.nz/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "parent"
+   ],
+   "method": "mixed",
+   "note": "Employer page states listing prices and partnerships page exists; footer shows Auckland New Zealand but no headquarters statement; no language options or parent stated."
+  }
+ ],
+ "blocked": []
 }

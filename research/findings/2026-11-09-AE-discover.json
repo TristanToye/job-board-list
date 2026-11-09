@@ -1,168 +1,328 @@
 {
-  "mode": "discover",
-  "country": "AE",
-  "boards": [
+ "mode": "discover",
+ "country": "AE",
+ "boards": [
+  {
+   "name": "Dubizzle Jobs",
+   "url": "https://uae.dubizzle.com/jobs/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
     {
-      "name": "Dubizzle Jobs",
-      "url": "https://uae.dubizzle.com/jobs/",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://uae.dubizzle.com/jobs/", "title": "Jobs in UAE | Dubizzle UAE", "quote": "Job hunting made easy with dubizzle."}
-      ]
-    },
-    {
-      "name": "The Talent Point",
-      "url": "https://www.thetalentpoint.ae/",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.thetalentpoint.ae/", "title": "The Talent Point homepage", "quote": "Discover the Leading Job Platform in Dubai and all over the UAE"}
-      ]
-    },
-    {
-      "name": "Talentmate",
-      "url": "https://www.talentmate.com/",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["AE", "SA", "QA"],
-      "sources": [
-        {"field": "existence", "url": "https://www.talentmate.com/", "title": "Talentmate homepage", "quote": "The job portal for the UAE and the Gulf."}
-      ]
-    },
-    {
-      "name": "GulfJobs",
-      "url": "https://www.gulfjobs.com/",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["AE", "BH", "KW", "OM", "QA", "SA"],
-      "sources": [
-        {"field": "existence", "url": "https://www.gulfjobs.com/", "title": "GulfJobs homepage", "quote": "Reach thousands of active employers & recruiters across UAE, Saudi Arabia, Qatar, Kuwait, Oman & Bahrain."}
-      ]
-    },
-    {
-      "name": "Dubai Careers",
-      "url": "https://dubaicareers.ae/en/pages/default.aspx",
-      "type": "government",
-      "niche": "public-sector",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://dubaicareers.ae/en/pages/default.aspx", "title": "Dubai Careers home", "quote": "Download Dubai Careers and be able to access, search and apply for jobs from 45+ entities and much more to come."}
-      ]
-    },
-    {
-      "name": "UAEJobs.ae",
-      "url": "https://uaejobs.ae/",
-      "type": "aggregator",
-      "niche": "general",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://uaejobs.ae/", "title": "UAEJobs.ae homepage", "quote": "Job listings from right across the UAE"}
-      ]
-    },
-    {
-      "name": "JobXDubai",
-      "url": "https://jobxdubai.com/",
-      "type": "aggregator",
-      "niche": "general",
-      "countries_served": ["AE", "SA"],
-      "sources": [
-        {"field": "existence", "url": "https://jobxdubai.com/", "title": "JobXDubai homepage", "quote": "an AI job-search copilot built for the UAE and Saudi Arabia"}
-      ]
-    },
-    {
-      "name": "UAE Career",
-      "url": "https://www.uaecareer.ae/",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.uaecareer.ae/", "title": "UAE Career homepage", "quote": "an independent job information website, not a recruiter or government agency."}
-      ]
-    },
-    {
-      "name": "Tes Jobs",
-      "url": "https://www.tes.com/jobs",
-      "type": "niche-board",
-      "niche": "education",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.tes.com/jobs/browse/secondary-united-arab-emirates", "title": "Secondary teaching and education jobs in United Arab Emirates", "quote": "Search 458 Secondary teaching and education jobs in United Arab Emirates."}
-      ]
-    },
-    {
-      "name": "Teach Away",
-      "url": "https://www.teachaway.com/teach-in-dubai-uae",
-      "type": "niche-board",
-      "niche": "education",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.teachaway.com/teach-in-dubai-uae", "title": "Teach in Dubai and UAE", "quote": "Premium tax-free teaching opportunities in world-class international schools"}
-      ]
-    },
-    {
-      "name": "SeekTeachers",
-      "url": "https://www.seekteachers.com/",
-      "type": "niche-board",
-      "niche": "education",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.seekteachers.com/", "title": "SeekTeachers homepage", "quote": "International schools jobs"}
-      ]
-    },
-    {
-      "name": "Oliv",
-      "url": "https://oliv.com/ae-en/",
-      "type": "niche-board",
-      "niche": "graduates",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://oliv.com/ae-en/", "title": "Find Internships & Fresh Graduate Jobs in UAE", "quote": "Find Internships & Fresh Graduate Jobs in UAE"}
-      ]
-    },
-    {
-      "name": "Sheryan (Dubai Health Authority)",
-      "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities",
-      "type": "government",
-      "niche": "healthcare",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities", "title": "Sheryan opportunities", "quote": "Dedicated portal bridging the gap between Health Facilities and Talented Professionals in Dubai."}
-      ]
-    },
-    {
-      "name": "Sharjah Department of Human Resources job seekers service",
-      "url": "https://dhr.gov.ae/en/e-services/services-for-job-seekers",
-      "type": "government",
-      "niche": "public-sector",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://dhr.gov.ae/en/e-services/services-for-job-seekers", "title": "Services for job seekers, Sharjah DHR", "quote": "Government of Sharjah, Department of Human Resources."}
-      ]
-    },
-    {
-      "name": "Ras Al Khaimah Careers",
-      "url": "https://careers.rak.ae/",
-      "type": "government",
-      "niche": "public-sector",
-      "countries_served": ["AE"],
-      "sources": [
-        {"field": "existence", "url": "https://careers.rak.ae/", "title": "Ras Al Khaimah careers homepage", "quote": "Stay updated with latest job offering from all employers in Ras Al Khaimah."}
-      ]
+     "field": "existence",
+     "url": "https://uae.dubizzle.com/jobs/",
+     "title": "Jobs in UAE | Dubizzle UAE",
+     "quote": "Job hunting made easy with dubizzle.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Nafis", "url": "https://www.nafis.ae", "reason": "DNS error (getaddrinfo ENOTFOUND); host not reachable from this session"},
-    {"name": "Tanqeeb UAE", "url": "https://uae.tanqeeb.com/", "reason": "HTTP 403 on two attempts"},
-    {"name": "Jobsora UAE", "url": "https://ae.jobsora.com/", "reason": "HTTP 403 on two attempts"},
-    {"name": "Vacancies.ae", "url": "https://www.vacancies.ae/", "reason": "HTTP 503 on two attempts"},
-    {"name": "Jobs Aggregator UAE", "url": "https://www.jobsaggregator.com/AE/", "reason": "HTTP 503 on two attempts"}
-  ],
-  "queue": [
-    {"name": "Abu Dhabi Government job portal (TAMM)", "url": "https://www.tamm.abudhabi/en/life-events/individual/Discover-Emirati-Benefits/Work-Employment/ApplytoaJobVacancy", "reason": "Named on the u.ae government jobs page; the fetch failed with a parse error, so the page was not confirmed"},
-    {"name": "UAE Federal Government job portal (IRecruitment)", "url": "https://www.fahr.gov.ae", "reason": "Named on the u.ae page and linked from FAHR; the portal URL returned an Oracle error page, so the portal was not confirmed"},
-    {"name": "Kawader (Ajman government jobs)", "url": "https://www.ajmanhrd.gov.ae/kawader/home", "reason": "Named on the u.ae page; the homepage was read but showed only its title, so its purpose was not confirmed"}
-  ]
+   ]
+  },
+  {
+   "name": "The Talent Point",
+   "url": "https://www.thetalentpoint.ae/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.thetalentpoint.ae/",
+     "title": "The Talent Point homepage",
+     "quote": "Discover the Leading Job Platform in Dubai and all over the UAE",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Talentmate",
+   "url": "https://www.talentmate.com/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "AE",
+    "SA",
+    "QA"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.talentmate.com/",
+     "title": "Talentmate homepage",
+     "quote": "The job portal for the UAE and the Gulf.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "GulfJobs",
+   "url": "https://www.gulfjobs.com/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "AE",
+    "BH",
+    "KW",
+    "OM",
+    "QA",
+    "SA"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.gulfjobs.com/",
+     "title": "GulfJobs homepage",
+     "quote": "Reach thousands of active employers & recruiters across UAE, Saudi Arabia, Qatar, Kuwait, Oman & Bahrain.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Dubai Careers",
+   "url": "https://dubaicareers.ae/en/pages/default.aspx",
+   "type": "government",
+   "niche": "public-sector",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://dubaicareers.ae/en/pages/default.aspx",
+     "title": "Dubai Careers home",
+     "quote": "Download Dubai Careers and be able to access, search and apply for jobs from 45+ entities and much more to come.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "UAEJobs.ae",
+   "url": "https://uaejobs.ae/",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://uaejobs.ae/",
+     "title": "UAEJobs.ae homepage",
+     "quote": "Job listings from right across the UAE",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "JobXDubai",
+   "url": "https://jobxdubai.com/",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "AE",
+    "SA"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobxdubai.com/",
+     "title": "JobXDubai homepage",
+     "quote": "an AI job-search copilot built for the UAE and Saudi Arabia",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "UAE Career",
+   "url": "https://www.uaecareer.ae/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.uaecareer.ae/",
+     "title": "UAE Career homepage",
+     "quote": "an independent job information website, not a recruiter or government agency.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Tes Jobs",
+   "url": "https://www.tes.com/jobs",
+   "type": "niche-board",
+   "niche": "education",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.tes.com/jobs/browse/secondary-united-arab-emirates",
+     "title": "Secondary teaching and education jobs in United Arab Emirates",
+     "quote": "Search 458 Secondary teaching and education jobs in United Arab Emirates.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Teach Away",
+   "url": "https://www.teachaway.com/teach-in-dubai-uae",
+   "type": "niche-board",
+   "niche": "education",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.teachaway.com/teach-in-dubai-uae",
+     "title": "Teach in Dubai and UAE",
+     "quote": "Premium tax-free teaching opportunities in world-class international schools",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "SeekTeachers",
+   "url": "https://www.seekteachers.com/",
+   "type": "niche-board",
+   "niche": "education",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.seekteachers.com/",
+     "title": "SeekTeachers homepage",
+     "quote": "International schools jobs",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Oliv",
+   "url": "https://oliv.com/ae-en/",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://oliv.com/ae-en/",
+     "title": "Find Internships & Fresh Graduate Jobs in UAE",
+     "quote": "Find Internships & Fresh Graduate Jobs in UAE",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Sheryan (Dubai Health Authority)",
+   "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities",
+   "type": "government",
+   "niche": "healthcare",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities",
+     "title": "Sheryan opportunities",
+     "quote": "Dedicated portal bridging the gap between Health Facilities and Talented Professionals in Dubai.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Sharjah Department of Human Resources job seekers service",
+   "url": "https://dhr.gov.ae/en/e-services/services-for-job-seekers",
+   "type": "government",
+   "niche": "public-sector",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://dhr.gov.ae/en/e-services/services-for-job-seekers",
+     "title": "Services for job seekers, Sharjah DHR",
+     "quote": "Government of Sharjah, Department of Human Resources.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ras Al Khaimah Careers",
+   "url": "https://careers.rak.ae/",
+   "type": "government",
+   "niche": "public-sector",
+   "countries_served": [
+    "AE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://careers.rak.ae/",
+     "title": "Ras Al Khaimah careers homepage",
+     "quote": "Stay updated with latest job offering from all employers in Ras Al Khaimah.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Nafis",
+   "url": "https://www.nafis.ae",
+   "reason": "DNS error (getaddrinfo ENOTFOUND); host not reachable from this session"
+  },
+  {
+   "name": "Tanqeeb UAE",
+   "url": "https://uae.tanqeeb.com/",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Jobsora UAE",
+   "url": "https://ae.jobsora.com/",
+   "reason": "HTTP 403 on two attempts"
+  },
+  {
+   "name": "Vacancies.ae",
+   "url": "https://www.vacancies.ae/",
+   "reason": "HTTP 503 on two attempts"
+  },
+  {
+   "name": "Jobs Aggregator UAE",
+   "url": "https://www.jobsaggregator.com/AE/",
+   "reason": "HTTP 503 on two attempts"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Abu Dhabi Government job portal (TAMM)",
+   "url": "https://www.tamm.abudhabi/en/life-events/individual/Discover-Emirati-Benefits/Work-Employment/ApplytoaJobVacancy",
+   "reason": "Named on the u.ae government jobs page; the fetch failed with a parse error, so the page was not confirmed"
+  },
+  {
+   "name": "UAE Federal Government job portal (IRecruitment)",
+   "url": "https://www.fahr.gov.ae",
+   "reason": "Named on the u.ae page and linked from FAHR; the portal URL returned an Oracle error page, so the portal was not confirmed"
+  },
+  {
+   "name": "Kawader (Ajman government jobs)",
+   "url": "https://www.ajmanhrd.gov.ae/kawader/home",
+   "reason": "Named on the u.ae page; the homepage was read but showed only its title, so its purpose was not confirmed"
+  }
+ ]
 }

@@ -42,7 +42,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "employment-services-of-south-africa-essa",
+  "reviewed": "2026-11-09",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Homepage redirects to /EssaOnline/, which states only that the user is being directed to the application page.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

@@ -16,13 +16,13 @@
  "niche": "tech",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "staffing service (month-to-month arrangement)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Footer address is in Querétaro, Mexico. Homepage says the company was founded in 2014 in Mexico and offers a staffing service. No job posting pricing, parent, language options or API stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/hireline/",
  "indexable": false,
@@ -39,7 +39,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "hireline",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;languages;api_status;partner_program;ingest_methods",
+  "note": "Footer address is in Querétaro, Mexico; offers a month-to-month staffing service; no job posting pricing or API stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,14 @@
    "title": "Hireline homepage",
    "accessed": "2026-11-09",
    "quote": "Portal Líder de Empleos de Tecnología en LATAM",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://hireline.io",
+   "title": "Homepage staffing offer",
+   "accessed": "2026-11-09",
+   "quote": "risk-free, month-to-month arrangement",
    "quote_check": "ok"
   }
  ]

@@ -10,22 +10,24 @@
  "countries_served": [
   "IE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Europe",
  "niche": "graduates",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Group GTI",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Careers platform for students and graduates in Ireland. The About page describes it as a partnership between AHECS and Group GTI.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/gradireland/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -36,10 +38,18 @@
  },
  "tags": [
   "graduates-students",
-  "job-board"
+  "job-board",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "gradireland",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages",
+  "note": "Homepage, employers and About pages read; no HQ or language switcher stated; API and partner pages not read.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +59,30 @@
    "title": "About us | gradireland",
    "accessed": "2026-11-09",
    "quote": "gradireland is the leading careers platform for students and graduates in Ireland.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://gradireland.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Whether you're looking for careers advice from industry experts, or graduate jobs & schemes",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://gradireland.com/about-us",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "a partnership between the Association of Higher Education Career Services (AHECS) and Group GTI.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://gradireland.com/about-us",
+   "title": "About us",
+   "accessed": "2026-11-09",
+   "quote": "Our team ensure you will get the most from your subscription",
    "quote_check": "ok"
   }
  ]

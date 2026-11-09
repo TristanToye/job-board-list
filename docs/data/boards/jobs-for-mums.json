@@ -19,10 +19,10 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.jobsformums.co.nz/partnerships-employer/",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Employer page lists listing packages at $99, $129 and $299, plus services from $2,000 and from $30 per hour. Currency is shown only as $. Partnerships page offers partnership packages for employers and recruitment agencies. No API is mentioned. The /api and /developers paths returned 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobs-for-mums/",
  "indexable": false,
@@ -35,10 +35,18 @@
   "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobs-for-mums",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent",
+  "note": "Employer page states listing prices and partnerships page exists; footer shows Auckland New Zealand but no headquarters statement; no language options or parent stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +56,22 @@
    "title": "Jobs for Mums homepage",
    "accessed": "2026-11-09",
    "quote": "Jobs for Mums is a job board with the mission of driving better outcomes for both businesses and families.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.jobsformums.co.nz/partnerships-employer/",
+   "title": "Partnerships",
+   "accessed": "2026-11-09",
+   "quote": "Choose the partnership that aligns with your goals",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobsformums.co.nz/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "POST A JOB NOW",
    "quote_check": "ok"
   }
  ]

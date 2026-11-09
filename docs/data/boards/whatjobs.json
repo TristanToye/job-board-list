@@ -39,7 +39,14 @@
   "job-aggregator"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "whatjobs",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Fetch returned HTTP 403; browser reader returned a Cloudflare 'Performing security verification' challenge with blocked true.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

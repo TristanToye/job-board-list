@@ -10,19 +10,21 @@
  "countries_served": [
   "NZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "APAC",
  "niche": "general",
  "segment": "",
- "parent": "",
+ "parent": "Te Kawa Mataaho Public Service Commission",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Job portal for the New Zealand public service. Agencies use an agency login. No employer pricing was found on the homepage.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobs-govt-nz/",
  "indexable": false,
@@ -42,7 +44,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobs-govt-nz",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model",
+  "note": "Homepage read; no HQ or employer pricing stated on it; other pages not read.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -76,6 +85,22 @@
    "title": "Te Whatu Ora Careers portal landing page",
    "accessed": "2026-11-09",
    "quote": "To be able to use the Te Whatu Ora Careers portal, you'll need to enable javascript on your browser.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://jobs.govt.nz/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Our Public Service works together to make a meaningful difference for New Zealanders",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://jobs.govt.nz/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "About Te Kawa Mataaho Public Service Commission",
    "quote_check": "ok"
   }
  ]

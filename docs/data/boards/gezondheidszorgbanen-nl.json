@@ -4,28 +4,30 @@
  "url": "https://www.gezondheidszorgbanen.nl",
  "domains": "",
  "type": "niche-board",
- "hq_country": "",
+ "hq_country": "NL",
  "founded": "",
  "markets": "",
  "countries_served": [
   "NL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nl",
+ "languages_supported": [
+  "nl"
+ ],
  "region": "Europe",
  "niche": "healthcare",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Medisch Contact",
+ "business_model": "per post (rate card referred to, no prices shown in text)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Utrecht address and platform link to Medisch Contact are stated. The rate card is referred to but no prices appear in the text. No API or partner program is stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/gezondheidszorgbanen-nl/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -36,10 +38,18 @@
  },
  "tags": [
   "healthcare",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "gezondheidszorgbanen-nl",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;api_status;partner_program",
+  "note": "Utrecht address, Medisch Contact platform link and per-post rate card are stated; no prices, API or partner program appear.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +59,30 @@
    "title": "Gezondheidszorg banen homepage",
    "accessed": "2026-11-09",
    "quote": "Op zoek naar zorgprofessionals? Bij ons vindt u ze.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.gezondheidszorgbanen.nl/",
+   "title": "Footer",
+   "accessed": "2026-11-09",
+   "quote": "Gezondheidszorgbanen.nl is een platform van Medisch Contact",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.gezondheidszorgbanen.nl/over-ons",
+   "title": "Over ons, vacancy rates",
+   "accessed": "2026-11-09",
+   "quote": "Tarieven voor vacatureplaatsingen, pakketten voor meerdere plaatsingen en mogelijkheden voor extra bereik.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.gezondheidszorgbanen.nl/",
+   "title": "Homepage text",
+   "accessed": "2026-11-09",
+   "quote": "Op zoek naar zorgprofessionals?",
    "quote_check": "ok"
   }
  ]

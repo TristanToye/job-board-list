@@ -573,3 +573,81 @@ Karmsakha,https://karmsakha.com,ZZ,verification,HTTP 403 Cloudflare security cha
 Government E-Employment System,https://eservices.mcs.gov.sa/Jadara3/(S(loocp4m5hffrcstzv5gtsuwp))/Users/Index.aspx,ZZ,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
 BrighterMonday,https://www.brightermonday.co.ke,ZZ,verification,HTTP 503 on fetch,2026-11-09
 Careers24,https://www.careers24.com,ZZ,verification,HTTP 403 in fetch and browser reader (Cloudflare block),2026-11-09
+Nafis,https://www.nafis.ae,AE,verification,DNS error (getaddrinfo ENOTFOUND); host not reachable from this session,2026-11-09
+Tanqeeb UAE,https://uae.tanqeeb.com/,AE,verification,HTTP 403 on two attempts,2026-11-09
+Jobsora UAE,https://ae.jobsora.com/,AE,verification,HTTP 403 on two attempts,2026-11-09
+Vacancies.ae,https://www.vacancies.ae/,AE,verification,HTTP 503 on two attempts,2026-11-09
+Jobs Aggregator UAE,https://www.jobsaggregator.com/AE/,AE,verification,HTTP 503 on two attempts,2026-11-09
+Abu Dhabi Government job portal (TAMM),https://www.tamm.abudhabi/en/life-events/individual/Discover-Emirati-Benefits/Work-Employment/ApplytoaJobVacancy,AE,verification,"Named on the u.ae government jobs page; the fetch failed with a parse error, so the page was not confirmed",2026-11-09
+UAE Federal Government job portal (IRecruitment),https://www.fahr.gov.ae,AE,verification,"Named on the u.ae page and linked from FAHR; the portal URL returned an Oracle error page, so the portal was not confirmed",2026-11-09
+Kawader (Ajman government jobs),https://www.ajmanhrd.gov.ae/kawader/home,AE,verification,"Named on the u.ae page; the homepage was read but showed only its title, so its purpose was not confirmed",2026-11-09
+jobmensa,https://www.jobmensa.at,AT,verification,HTTP 503,2026-11-09
+JobScout24,https://www.jobscout24.at,AT,verification,HTTP 503,2026-11-09
+Brutkasten,https://brutkasten.com,AT,verification,HTTP 403,2026-11-09
+AMS Job Room,https://jobroom.ams.or.at,AT,verification,"Named in a roundup (manatal); domain redirects to ams.at, not a job board page",2026-11-09
+Yourfirm,https://www.yourfirm.de,AT,verification,"Named in roundups (manatal, join); homepage could not be fetched by the tool",2026-11-09
+Jobswype,https://b2b.jobswype.com/de_AT/,AT,verification,Named in a roundup (manatal); homepage not read,2026-11-09
+JobCheck,https://www.jobcheck.de,AT,verification,Named in a roundup (join) as DACH-wide; homepage fetch returned empty content,2026-11-09
+Relocate.me,,AT,verification,Named in a roundup (join); homepage not read,2026-11-09
+Gastrojobs,https://www.gastrojobs.de/,AT,verification,"Named in roundups (manatal, join) as a hospitality niche; no Austria-specific evidence seen; homepage not read",2026-11-09
+ÖH Jobbörse (Austrian student union),,AT,verification,Named on oesterreich.gv.at job board list with no description; homepage not read,2026-11-09
+Jobbörsen der Fachhochschulen,,AT,verification,Group entry on oesterreich.gv.at job board list; individual boards not read,2026-11-09
+ADG,https://www.adg.be,BE,verification,HTTP 403 (two attempts),2026-11-09
+Zorgjobs.be,https://www.zorgjobs.be,BE,verification,HTTP 403 (two attempts),2026-11-09
+Learn4good,https://www.learn4good.com,BE,verification,HTTP 403,2026-11-09
+Optioncarriere Belgium,https://www.optioncarriere.be,BE,verification,Bot-check page returned instead of the site; /be path on optioncarriere.com returned HTTP 404,2026-11-09
+References,https://www.references.be,BE,verification,"Named in roundups (Duo for a Job, Profile Group FAQ); homepage fetch failed on three attempts",2026-11-09
+Beljob,https://www.beljob.be,BE,verification,"Homepage read but it does not state what the platform is; only a tagline was found, so type is unverified",2026-11-09
+EURES,https://eures.europa.eu,BE,verification,"Named in roundups as the European Job Mobility Portal; EU-wide, homepage not read",2026-11-09
+Indeed Switzerland,https://ch.indeed.com,CH,verification,HTTP 403 (after redirect from www.indeed.ch),2026-11-09
+SwissDevJobs,https://www.swissdevjobs.ch,CH,verification,HTTP 503,2026-11-09
+Stellenanzeiger.ch,https://www.stellenanzeiger.ch,CH,verification,HTTP 503,2026-11-09
+Workpool Jobs,https://www.workpool-jobs.ch,CH,verification,HTTP 403,2026-11-09
+students.ch,https://www.students.ch,CH,verification,"Named in a Swiss careers guide roundup; the fetch returned unrelated content, so the homepage was not confirmed",2026-11-09
+Akademikernes Jobbank,https://jobbank.dk,DK,verification,HTTP 403 on two attempts,2026-11-09
+Studerendeonline,https://studerendeonline.dk,DK,verification,"HTTP 503, then HTTP 403 on retry",2026-11-09
+Nyuddannet,https://nyuddannet.dk,DK,verification,HTTP 403 on two attempts,2026-11-09
+JobFinder (via ing.dk),https://ing.dk/om-jobfinder,DK,verification,HTTP 403 after redirect from info.jobfinder.dk,2026-11-09
+DanishTech,https://startup.jobs/job-boards/danishtech,DK,verification,HTTP 403,2026-11-09
+Frivilligjob.dk,https://frivilligjob.dk,DK,verification,HTTP 403,2026-11-09
+DevJobsScanner,https://www.devjobsscanner.com,DK,verification,HTTP 403,2026-11-09
+Off-stillinger (Offentlige Stillinger),http://www.off-stillinger.dk,DK,verification,HTTP 503,2026-11-09
+The Ground Up,https://www.thegroundup.dk,DK,verification,HTTP 503,2026-11-09
+RUC Job and Project Portal,https://karriere.ruc.dk/da/,DK,verification,HTTP 503,2026-11-09
+Jobdesk.dk,https://www.jobdesk.dk,DK,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+StudentJob.dk,https://www.studentjob.dk,DK,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+Ofir Jobportal,https://www.ofir.dk,DK,verification,Named in roundups; HTTP 410 on homepage and virksomhed page,2026-11-09
+JobDanmark,https://jobdanmark.dk,DK,verification,Named in roundups; HTTP 404 on for-virksomheder page,2026-11-09
+ProfilJob (Jobted),https://www.jobted.dk,DK,verification,Named in a roundup; fetch returned empty content,2026-11-09
+Job i Staten,https://www.job-i-staten.dk,DK,verification,"Redirects to the Jobnet job portal (job.jobnet.dk), so not counted separately",2026-11-09
+Careerland,https://careerland.dk,DK,verification,Redirects to JobTeaser (already in CSV),2026-11-09
+Graduateland,https://graduateland.com,DK,verification,Homepage redirects to JobTeaser; no separate Graduateland page read,2026-11-09
+EURES,https://eures.europa.eu,DK,verification,Homepage read but it did not describe its job search,2026-11-09
+Denmark Startup Jobs,,DK,verification,Named only by a third-party directory; no official site confirmed,2026-11-09
+Jobseeker.dk,https://www.jobseeker.com/app/jobs,DK,verification,"Named in a roundup, not read",2026-11-09
+devjobsscanner,https://www.devjobsscanner.com,FI,verification,HTTP 403,2026-11-09
+StudentJob Finland,https://www.studentjob.fi,FI,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+Aarresaari,https://www.aarresaari.net,FI,verification,Homepage describes a Finnish university career services network; job listings reportedly run via JobTeaser. Not confirmed as a board.,2026-11-09
+EURES,https://eures.europa.eu,FI,verification,"Homepage read, but no description of the portal was found on the page; Finnish vacancy portal not confirmed",2026-11-09
+Work in Finland,https://www.workinfinland.com,FI,verification,"Named in a roundup; the workinfinland.fi redirect to workinfinland.com was not followed, so purpose not read",2026-11-09
+Oikotie Työpaikat,https://tyopaikat.oikotie.fi,FI,verification,Homepage states Oikotie Työpaikat has closed; not listed as an active board,2026-11-09
+Karrierestart,https://karrierestart.no,NO,verification,"HTTP 403 on two requests (one subpage, one retry on the homepage)",2026-11-09
+DevJobsScanner,https://www.devjobsscanner.com,NO,verification,HTTP 403,2026-11-09
+Startup.jobs,https://startup.jobs/locations/norway/startups,NO,verification,HTTP 403,2026-11-09
+AcademicJobs,https://www.academicjobs.com/en-no/about-us,NO,verification,HTTP 403,2026-11-09
+AcademicPositions,https://academicpositions.com/no,NO,verification,HTTP 403,2026-11-09
+Life in Norway job vacancies,https://www.lifeinnorway.net/job-vacancies/,NO,verification,HTTP 503,2026-11-09
+Teknojobb,https://www.teknojobb.no,NO,verification,"Named in a search result as a Norwegian IT jobs portal; homepage returned HTTP 525 on two attempts, so it was not read",2026-11-09
+Net-Empregos,https://www.net-empregos.com,PT,verification,HTTP 503 on two attempts,2026-11-09
+Alerta Emprego,https://www.alertaemprego.pt,PT,verification,HTTP 403 on the URL tried; URL not confirmed by a roundup page,2026-11-09
+EnglishJobs.pt,https://www.englishjobs.pt,PT,verification,DNS error (getaddrinfo ENOTFOUND),2026-11-09
+Bolsa de Emprego Público (BEP),https://www.bep.gov.pt,PT,verification,Redirects to a login page on sgu.gov.pt; public listings not read and no login attempted,2026-11-09
+Universia Emprego,,PT,verification,Named in search results; universia.pt returned HTTP 404 and no working homepage was found,2026-11-09
+Trabalhar.pt,https://www.trabalhar.pt,PT,verification,"Named in a Leiden University list; domain shows a for-sale page, not a job board",2026-11-09
+Jobsin Network (Jobsinlisbon),http://jobsinlisbon.com/,PT,verification,"Homepage read, but Portugal coverage and job listings not shown on the page",2026-11-09
+Newcareernetwork.pt,https://newcareernetwork.pt,PT,verification,Homepage read; shows no individual listings and no employer posting details; operated by Sonae SGPS,2026-11-09
+iAgora,https://www.iagora.com,PT,verification,"Homepage read; Portugal section seen only in search results, not on the pages read",2026-11-09
+OLX Praca,https://www.olx.pl/praca/,ZZ,verification,"Human verification challenge, HTTP 405, in browser reader",2026-11-09
+publicjobs.ie,https://publicjobs.ie,ZZ,verification,HTTP 403 'Web Page Blocked' in browser reader,2026-11-09
+WhatJobs,https://en-za.whatjobs.com,ZZ,verification,HTTP 403 in fetch; Cloudflare security challenge in browser reader,2026-11-09
+BuscoJobs,https://www.buscojobs.mx,ZZ,verification,HTTP 403 in fetch and in browser reader,2026-11-09

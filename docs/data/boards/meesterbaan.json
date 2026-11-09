@@ -10,22 +10,26 @@
  "countries_served": [
   "NL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nl",
+ "languages_supported": [
+  "nl"
+ ],
  "region": "Europe",
  "niche": "education",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Dutch job board for education vacancies. The tariffs page lists a fixed amount per vacancy and a subscription for schools. The integrations page describes ATS and HRM feeds.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/meesterbaan/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,11 +39,20 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "ats-integration",
   "education",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "meesterbaan",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages",
+  "note": "Homepage, tariffs and integrations pages read; no HQ, parent or language switcher stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +62,30 @@
    "title": "MeesterBaan homepage",
    "accessed": "2026-11-09",
    "quote": "De leukste baan begint voor de klas",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.meesterbaan.nl/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Vind vacatures in de meest gezochte onderwijsfuncties",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://werkgevers.meesterbaan.nl/tarieven",
+   "title": "Tariffs",
+   "accessed": "2026-11-09",
+   "quote": "Vast bedrag per vacature",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://werkgevers.meesterbaan.nl/integraties",
+   "title": "Integrations",
+   "accessed": "2026-11-09",
+   "quote": "Dankzij onze integraties worden vacatures automatisch vanuit uw eigen ATS/HRM systeem doorgeplaatst naar MeesterBaan.",
    "quote_check": "ok"
   }
  ]

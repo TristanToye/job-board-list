@@ -1,131 +1,268 @@
 {
-  "mode": "discover",
-  "country": "BE",
-  "boards": [
+ "mode": "discover",
+ "country": "BE",
+ "boards": [
+  {
+   "name": "VDAB",
+   "url": "https://www.vdab.be",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
     {
-      "name": "VDAB",
-      "url": "https://www.vdab.be",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.vdab.be", "title": "VDAB homepage", "quote": "Zoek snel en gemakkelijk een job en scoor met je sollicitatie."},
-        {"field": "listed_by", "url": "https://www.duoforajob.be/en/actualite/5-best-websites-for-job-search-in-belgium", "title": "Duo for a Job: 5 best websites for job search in Belgium", "quote": "The VDAB is the public employment service for Flanders, with Dutch as the official language."}
-      ]
+     "field": "existence",
+     "url": "https://www.vdab.be",
+     "title": "VDAB homepage",
+     "quote": "Zoek snel en gemakkelijk een job en scoor met je sollicitatie.",
+     "check": "ok"
     },
     {
-      "name": "Le Forem",
-      "url": "https://www.leforem.be",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.leforem.be", "title": "Le Forem homepage", "quote": "Découvrez une sélection d’offres d’emploi dans différents secteurs en Wallonie."},
-        {"field": "listed_by", "url": "https://www.duoforajob.be/en/actualite/5-best-websites-for-job-search-in-belgium", "title": "Duo for a Job: 5 best websites for job search in Belgium", "quote": "Le Forem represents the public employment service for the Walloon Region, operating mainly in French."}
-      ]
-    },
-    {
-      "name": "Actiris",
-      "url": "https://www.actiris.brussels",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.actiris.brussels", "title": "Actiris citizens page", "quote": "Inscris-toi dès maintenant pour accéder à nos services et mettre toutes les chances de ton côté pour trouver un job."},
-        {"field": "listed_by", "url": "https://www.duoforajob.be/en/actualite/5-best-websites-for-job-search-in-belgium", "title": "Duo for a Job: 5 best websites for job search in Belgium", "quote": "ACTIRIS, the public employment service for the Brussels-Capital Region, operates in French and Dutch."}
-      ]
-    },
-    {
-      "name": "talent.brussels",
-      "url": "https://www.talent.brussels",
-      "type": "government",
-      "niche": "public-sector",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.talent.brussels", "title": "talent.brussels homepage", "quote": "Trouvez un emploi porteur de sens au service de la Région de Bruxelles-Capitale"}
-      ]
-    },
-    {
-      "name": "Student.be",
-      "url": "https://www.student.be",
-      "type": "niche-board",
-      "niche": "graduates",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.student.be", "title": "Student.be homepage", "quote": "Studentenjob, stage, startersjob of kot"}
-      ]
-    },
-    {
-      "name": "StudentJob.be",
-      "url": "https://www.studentjob.be",
-      "type": "niche-board",
-      "niche": "students",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.studentjob.be", "title": "StudentJob.be homepage", "quote": "Op zoek naar een leuke bijbaan? Bekijk ons actuele vacature overzicht voor een bijbaan bij jou in de buurt."}
-      ]
-    },
-    {
-      "name": "Techjobs.be",
-      "url": "https://www.techjobs.be",
-      "type": "niche-board",
-      "niche": "tech",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.techjobs.be", "title": "Techjobs.be homepage", "quote": "Bringing together IT professionals"}
-      ]
-    },
-    {
-      "name": "Engineering.jobs (Belgium)",
-      "url": "https://be.engineering.jobs",
-      "type": "niche-board",
-      "niche": "tech/engineering",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://be.engineering.jobs", "title": "Engineering.jobs Belgium homepage", "quote": "Engineering.jobs is dé gespecialiseerde jobsite voor ingenieurs, technici en IT-talent in België, Nederland en Frankrijk."}
-      ]
-    },
-    {
-      "name": "BrusselsJobs",
-      "url": "https://www.brusselsjobs.com",
-      "type": "niche-board",
-      "niche": "expat",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.brusselsjobs.com", "title": "BrusselsJobs homepage", "quote": "Find Jobs in Brussels for expats, experts and English speakers"}
-      ]
-    },
-    {
-      "name": "Xpatjobs",
-      "url": "https://www.xpatjobs.com",
-      "type": "niche-board",
-      "niche": "expat",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.xpatjobs.com", "title": "Xpatjobs homepage", "quote": "We specialise in jobs for English speaking expats and multilingual vacancies."},
-        {"field": "existence", "url": "https://www.xpatjobs.com", "title": "Xpatjobs homepage country selector", "quote": "Jobs in Belgium"}
-      ]
-    },
-    {
-      "name": "Werkenindegezondheidszorg.be",
-      "url": "https://www.werkenindegezondheidszorg.be",
-      "type": "niche-board",
-      "niche": "healthcare",
-      "countries_served": ["BE"],
-      "sources": [
-        {"field": "existence", "url": "https://www.werkenindegezondheidszorg.be", "title": "Werkenindegezondheidszorg.be homepage", "quote": "Werkenindegezondheidszorg.be biedt vacatures aan voor mensen die werk zoeken in de zorg."}
-      ]
+     "field": "listed_by",
+     "url": "https://www.duoforajob.be/en/actualite/5-best-websites-for-job-search-in-belgium",
+     "title": "Duo for a Job: 5 best websites for job search in Belgium",
+     "quote": "The VDAB is the public employment service for Flanders, with Dutch as the official language."
     }
-  ],
-  "blocked": [
-    {"name": "ADG", "url": "https://www.adg.be", "reason": "HTTP 403 (two attempts)"},
-    {"name": "Zorgjobs.be", "url": "https://www.zorgjobs.be", "reason": "HTTP 403 (two attempts)"},
-    {"name": "Learn4good", "url": "https://www.learn4good.com", "reason": "HTTP 403"},
-    {"name": "Optioncarriere Belgium", "url": "https://www.optioncarriere.be", "reason": "Bot-check page returned instead of the site; /be path on optioncarriere.com returned HTTP 404"}
-  ],
-  "queue": [
-    {"name": "References", "url": "https://www.references.be", "reason": "Named in roundups (Duo for a Job, Profile Group FAQ); homepage fetch failed on three attempts"},
-    {"name": "Beljob", "url": "https://www.beljob.be", "reason": "Homepage read but it does not state what the platform is; only a tagline was found, so type is unverified"},
-    {"name": "EURES", "url": "https://eures.europa.eu", "reason": "Named in roundups as the European Job Mobility Portal; EU-wide, homepage not read"}
-  ]
+   ]
+  },
+  {
+   "name": "Le Forem",
+   "url": "https://www.leforem.be",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.leforem.be",
+     "title": "Le Forem homepage",
+     "quote": "Découvrez une sélection d’offres d’emploi dans différents secteurs en Wallonie.",
+     "check": "ok"
+    },
+    {
+     "field": "listed_by",
+     "url": "https://www.duoforajob.be/en/actualite/5-best-websites-for-job-search-in-belgium",
+     "title": "Duo for a Job: 5 best websites for job search in Belgium",
+     "quote": "Le Forem represents the public employment service for the Walloon Region, operating mainly in French."
+    }
+   ]
+  },
+  {
+   "name": "Actiris",
+   "url": "https://www.actiris.brussels",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.actiris.brussels",
+     "title": "Actiris citizens page",
+     "quote": "Inscris-toi dès maintenant pour accéder à nos services et mettre toutes les chances de ton côté pour trouver un job.",
+     "check": "ok"
+    },
+    {
+     "field": "listed_by",
+     "url": "https://www.duoforajob.be/en/actualite/5-best-websites-for-job-search-in-belgium",
+     "title": "Duo for a Job: 5 best websites for job search in Belgium",
+     "quote": "ACTIRIS, the public employment service for the Brussels-Capital Region, operates in French and Dutch."
+    }
+   ]
+  },
+  {
+   "name": "talent.brussels",
+   "url": "https://www.talent.brussels",
+   "type": "government",
+   "niche": "public-sector",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.talent.brussels",
+     "title": "talent.brussels homepage",
+     "quote": "Trouvez un emploi porteur de sens au service de la Région de Bruxelles-Capitale",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Student.be",
+   "url": "https://www.student.be",
+   "type": "niche-board",
+   "niche": "graduates",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.student.be",
+     "title": "Student.be homepage",
+     "quote": "Studentenjob, stage, startersjob of kot",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "StudentJob.be",
+   "url": "https://www.studentjob.be",
+   "type": "niche-board",
+   "niche": "students",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.studentjob.be",
+     "title": "StudentJob.be homepage",
+     "quote": "Op zoek naar een leuke bijbaan? Bekijk ons actuele vacature overzicht voor een bijbaan bij jou in de buurt.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Techjobs.be",
+   "url": "https://www.techjobs.be",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.techjobs.be",
+     "title": "Techjobs.be homepage",
+     "quote": "Bringing together IT professionals",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Engineering.jobs (Belgium)",
+   "url": "https://be.engineering.jobs",
+   "type": "niche-board",
+   "niche": "tech/engineering",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://be.engineering.jobs",
+     "title": "Engineering.jobs Belgium homepage",
+     "quote": "Engineering.jobs is dé gespecialiseerde jobsite voor ingenieurs, technici en IT-talent in België, Nederland en Frankrijk.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "BrusselsJobs",
+   "url": "https://www.brusselsjobs.com",
+   "type": "niche-board",
+   "niche": "expat",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.brusselsjobs.com",
+     "title": "BrusselsJobs homepage",
+     "quote": "Find Jobs in Brussels for expats, experts and English speakers",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Xpatjobs",
+   "url": "https://www.xpatjobs.com",
+   "type": "niche-board",
+   "niche": "expat",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.xpatjobs.com",
+     "title": "Xpatjobs homepage",
+     "quote": "We specialise in jobs for English speaking expats and multilingual vacancies.",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.xpatjobs.com",
+     "title": "Xpatjobs homepage country selector",
+     "quote": "Jobs in Belgium",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Werkenindegezondheidszorg.be",
+   "url": "https://www.werkenindegezondheidszorg.be",
+   "type": "niche-board",
+   "niche": "healthcare",
+   "countries_served": [
+    "BE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.werkenindegezondheidszorg.be",
+     "title": "Werkenindegezondheidszorg.be homepage",
+     "quote": "Werkenindegezondheidszorg.be biedt vacatures aan voor mensen die werk zoeken in de zorg.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "ADG",
+   "url": "https://www.adg.be",
+   "reason": "HTTP 403 (two attempts)"
+  },
+  {
+   "name": "Zorgjobs.be",
+   "url": "https://www.zorgjobs.be",
+   "reason": "HTTP 403 (two attempts)"
+  },
+  {
+   "name": "Learn4good",
+   "url": "https://www.learn4good.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Optioncarriere Belgium",
+   "url": "https://www.optioncarriere.be",
+   "reason": "Bot-check page returned instead of the site; /be path on optioncarriere.com returned HTTP 404"
+  }
+ ],
+ "queue": [
+  {
+   "name": "References",
+   "url": "https://www.references.be",
+   "reason": "Named in roundups (Duo for a Job, Profile Group FAQ); homepage fetch failed on three attempts"
+  },
+  {
+   "name": "Beljob",
+   "url": "https://www.beljob.be",
+   "reason": "Homepage read but it does not state what the platform is; only a tagline was found, so type is unverified"
+  },
+  {
+   "name": "EURES",
+   "url": "https://eures.europa.eu",
+   "reason": "Named in roundups as the European Job Mobility Portal; EU-wide, homepage not read"
+  }
+ ]
 }

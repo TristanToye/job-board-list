@@ -10,19 +10,21 @@
  "countries_served": [
   "MX"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "es",
+ "languages_supported": [
+  "es"
+ ],
  "region": "Latin America",
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Federal employment portal of Mexico. The homepage refers to the Servicio Nacional de Empleo.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/portal-del-empleo/",
  "indexable": false,
@@ -35,6 +37,7 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "general",
   "government-operated",
   "government-service",
@@ -42,7 +45,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "portal-del-empleo",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages",
+  "note": "Homepage read; free posting stated; no HQ or language switcher stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -60,6 +70,22 @@
    "title": "Portal de ferias del empleo homepage",
    "accessed": "2026-11-09",
    "quote": "Portal ferias del empleo, eventos a nivel nacional y ofertas de empleo",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.empleo.gob.mx/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Participa en nuestros talleres para",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.empleo.gob.mx/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Publica vacantes gratis",
    "quote_check": "ok"
   }
  ]

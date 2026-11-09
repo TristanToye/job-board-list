@@ -1,90 +1,188 @@
 {
-  "mode": "discover",
-  "country": "PT",
-  "boards": [
+ "mode": "discover",
+ "country": "PT",
+ "boards": [
+  {
+   "name": "SAPO Emprego",
+   "url": "https://emprego.sapo.pt",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PT"
+   ],
+   "sources": [
     {
-      "name": "SAPO Emprego",
-      "url": "https://emprego.sapo.pt",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PT"],
-      "sources": [
-        {"field": "existence", "url": "https://emprego.sapo.pt", "title": "SAPO Emprego homepage", "quote": "Encontre o emprego certo"}
-      ]
-    },
-    {
-      "name": "Expresso Emprego",
-      "url": "https://www.expressoemprego.pt",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PT"],
-      "sources": [
-        {"field": "existence", "url": "https://www.expressoemprego.pt", "title": "Expresso Emprego homepage title", "quote": "A sua Carreira é o nosso Trabalho"},
-        {"field": "existence", "url": "https://www.expressoemprego.pt", "title": "Expresso Emprego homepage footer", "quote": "©2026 EXPRESSO EMPREGO."}
-      ]
-    },
-    {
-      "name": "IEFP iefponline",
-      "url": "https://iefponline.iefp.pt",
-      "type": "government",
-      "niche": "general",
-      "countries_served": ["PT"],
-      "sources": [
-        {"field": "existence", "url": "https://iefponline.iefp.pt", "title": "iefponline homepage", "quote": "Serviço do IEFP que apresenta apoios dirigidos a cidadãos e empregadores."}
-      ]
-    },
-    {
-      "name": "OLX Portugal Emprego",
-      "url": "https://www.olx.pt/emprego/",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PT"],
-      "sources": [
-        {"field": "existence", "url": "https://www.olx.pt/emprego/", "title": "OLX Portugal jobs section page", "quote": "Ofertas de Emprego em Portugal | OLX Portugal"}
-      ]
-    },
-    {
-      "name": "ITJobs.pt",
-      "url": "https://www.itjobs.pt",
-      "type": "niche-board",
-      "niche": "tech",
-      "countries_served": ["PT"],
-      "sources": [
-        {"field": "existence", "url": "https://www.itjobs.pt", "title": "ITJobs.pt homepage", "quote": "Plataforma de recrutamento e carreira em tecnologia: ofertas de emprego, formação e eventos"}
-      ]
-    },
-    {
-      "name": "Landing.jobs",
-      "url": "https://landing.jobs",
-      "type": "niche-board",
-      "niche": "tech",
-      "countries_served": ["PT"],
-      "sources": [
-        {"field": "existence", "url": "https://landing.jobs", "title": "Landing.jobs homepage title", "quote": "Find Tech Jobs in Europe"}
-      ]
-    },
-    {
-      "name": "Europe Language Jobs (Portugal)",
-      "url": "https://www.europelanguagejobs.com/jobs-in-Portugal-for-English-speakers",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["PT"],
-      "sources": [
-        {"field": "existence", "url": "https://www.europelanguagejobs.com/jobs-in-Portugal-for-English-speakers", "title": "Europe Language Jobs Portugal page", "quote": "We are the most trusted international job board, offering the best jobs in Portugal for English speakers at top companies!"}
-      ]
+     "field": "existence",
+     "url": "https://emprego.sapo.pt",
+     "title": "SAPO Emprego homepage",
+     "quote": "Encontre o emprego certo",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Net-Empregos", "url": "https://www.net-empregos.com", "reason": "HTTP 503 on two attempts"},
-    {"name": "Alerta Emprego", "url": "https://www.alertaemprego.pt", "reason": "HTTP 403 on the URL tried; URL not confirmed by a roundup page"},
-    {"name": "EnglishJobs.pt", "url": "https://www.englishjobs.pt", "reason": "DNS error (getaddrinfo ENOTFOUND)"}
-  ],
-  "queue": [
-    {"name": "Bolsa de Emprego Público (BEP)", "url": "https://www.bep.gov.pt", "reason": "Redirects to a login page on sgu.gov.pt; public listings not read and no login attempted"},
-    {"name": "Universia Emprego", "url": "", "reason": "Named in search results; universia.pt returned HTTP 404 and no working homepage was found"},
-    {"name": "Trabalhar.pt", "url": "https://www.trabalhar.pt", "reason": "Named in a Leiden University list; domain shows a for-sale page, not a job board"},
-    {"name": "Jobsin Network (Jobsinlisbon)", "url": "http://jobsinlisbon.com/", "reason": "Homepage read, but Portugal coverage and job listings not shown on the page"},
-    {"name": "Newcareernetwork.pt", "url": "https://newcareernetwork.pt", "reason": "Homepage read; shows no individual listings and no employer posting details; operated by Sonae SGPS"},
-    {"name": "iAgora", "url": "https://www.iagora.com", "reason": "Homepage read; Portugal section seen only in search results, not on the pages read"}
-  ]
+   ]
+  },
+  {
+   "name": "Expresso Emprego",
+   "url": "https://www.expressoemprego.pt",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PT"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.expressoemprego.pt",
+     "title": "Expresso Emprego homepage title",
+     "quote": "A sua Carreira é o nosso Trabalho",
+     "check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.expressoemprego.pt",
+     "title": "Expresso Emprego homepage footer",
+     "quote": "©2026 EXPRESSO EMPREGO.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "IEFP iefponline",
+   "url": "https://iefponline.iefp.pt",
+   "type": "government",
+   "niche": "general",
+   "countries_served": [
+    "PT"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://iefponline.iefp.pt",
+     "title": "iefponline homepage",
+     "quote": "Serviço do IEFP que apresenta apoios dirigidos a cidadãos e empregadores.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "OLX Portugal Emprego",
+   "url": "https://www.olx.pt/emprego/",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PT"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.olx.pt/emprego/",
+     "title": "OLX Portugal jobs section page",
+     "quote": "Ofertas de Emprego em Portugal | OLX Portugal",
+     "check": "unreachable"
+    }
+   ]
+  },
+  {
+   "name": "ITJobs.pt",
+   "url": "https://www.itjobs.pt",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "PT"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.itjobs.pt",
+     "title": "ITJobs.pt homepage",
+     "quote": "Plataforma de recrutamento e carreira em tecnologia: ofertas de emprego, formação e eventos",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Landing.jobs",
+   "url": "https://landing.jobs",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "PT"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://landing.jobs",
+     "title": "Landing.jobs homepage title",
+     "quote": "Find Tech Jobs in Europe",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Europe Language Jobs (Portugal)",
+   "url": "https://www.europelanguagejobs.com/jobs-in-Portugal-for-English-speakers",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "PT"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.europelanguagejobs.com/jobs-in-Portugal-for-English-speakers",
+     "title": "Europe Language Jobs Portugal page",
+     "quote": "We are the most trusted international job board, offering the best jobs in Portugal for English speakers at top companies!",
+     "check": "mismatch"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Net-Empregos",
+   "url": "https://www.net-empregos.com",
+   "reason": "HTTP 503 on two attempts"
+  },
+  {
+   "name": "Alerta Emprego",
+   "url": "https://www.alertaemprego.pt",
+   "reason": "HTTP 403 on the URL tried; URL not confirmed by a roundup page"
+  },
+  {
+   "name": "EnglishJobs.pt",
+   "url": "https://www.englishjobs.pt",
+   "reason": "DNS error (getaddrinfo ENOTFOUND)"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Bolsa de Emprego Público (BEP)",
+   "url": "https://www.bep.gov.pt",
+   "reason": "Redirects to a login page on sgu.gov.pt; public listings not read and no login attempted"
+  },
+  {
+   "name": "Universia Emprego",
+   "url": "",
+   "reason": "Named in search results; universia.pt returned HTTP 404 and no working homepage was found"
+  },
+  {
+   "name": "Trabalhar.pt",
+   "url": "https://www.trabalhar.pt",
+   "reason": "Named in a Leiden University list; domain shows a for-sale page, not a job board"
+  },
+  {
+   "name": "Jobsin Network (Jobsinlisbon)",
+   "url": "http://jobsinlisbon.com/",
+   "reason": "Homepage read, but Portugal coverage and job listings not shown on the page"
+  },
+  {
+   "name": "Newcareernetwork.pt",
+   "url": "https://newcareernetwork.pt",
+   "reason": "Homepage read; shows no individual listings and no employer posting details; operated by Sonae SGPS"
+  },
+  {
+   "name": "iAgora",
+   "url": "https://www.iagora.com",
+   "reason": "Homepage read; Portugal section seen only in search results, not on the pages read"
+  }
+ ]
 }

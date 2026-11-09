@@ -41,7 +41,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "publicjobs-ie",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Browser reader returned HTTP 403 'Web Page Blocked'. The fetch tool was not run first, because the browser reader was run first in error.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

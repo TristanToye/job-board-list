@@ -10,22 +10,27 @@
  "countries_served": [
   "PL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pl",
+ "languages_supported": [
+  "pl"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post and subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting",
+  "ATS integration"
+ ],
+ "notes": "Polish job board. The employer page lists single-post prices in zł net per post and a subscription option. It mentions an API heading but no API documentation or access terms were found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/aplikuj-pl/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,11 +40,21 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "ats-integration",
   "general",
-  "job-board"
+  "job-board",
+  "pay-per-post",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "aplikuj-pl",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;partner_program",
+  "note": "Homepage and employer page read; API heading found but no API docs or key terms; no partner program stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +64,38 @@
    "title": "Aplikuj.pl homepage",
    "accessed": "2026-11-09",
    "quote": "Przeglądaj aktualne oferty pracy, stwórz atrakcyjne CV i korzystaj z setek porad naszych ekspertów.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.aplikuj.pl/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Mamy dla Ciebie 39 889 ofert pracy",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.aplikuj.pl/dla-pracodawcow",
+   "title": "Employer pricing",
+   "accessed": "2026-11-09",
+   "quote": "Abonamenty i nolimit",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.aplikuj.pl/dla-pracodawcow",
+   "title": "Employer page",
+   "accessed": "2026-11-09",
+   "quote": "Twój system przez API",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.aplikuj.pl/dla-pracodawcow",
+   "title": "Employer page",
+   "accessed": "2026-11-09",
+   "quote": "Możliwa jest również pełna obsługa i integracja z innymi systemami rekrutacyjnymi",
    "quote_check": "ok"
   }
  ]

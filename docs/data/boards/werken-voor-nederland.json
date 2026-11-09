@@ -10,19 +10,21 @@
  "countries_served": [
   "NL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nl",
+ "languages_supported": [
+  "nl"
+ ],
  "region": "Europe",
  "niche": "government",
  "segment": "",
- "parent": "",
+ "parent": "Organisatie en Personeel Rijk (O&P Rijk)",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Colofon names O&P Rijk as the platform operator. Homepage and colofon show Dutch content only, with no language switcher, prices, API or partner information.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/werken-voor-nederland/",
  "indexable": false,
@@ -41,7 +43,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "werken-voor-nederland",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Colofon names O&P Rijk as platform operator; homepage and colofon state no pricing, API, partner or language options.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -51,6 +60,22 @@
    "title": "Werken voor Nederland homepage",
    "accessed": "2026-11-09",
    "quote": "Bekijk onze vacatures, stages en startersmogelijkheden.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.werkenvoornederland.nl/colofon",
+   "title": "Colofon",
+   "accessed": "2026-11-09",
+   "quote": "De site Werkenvoornederland.nl is een platform van Organisatie en Personeel Rijk (O&P Rijk)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.werkenvoornederland.nl/",
+   "title": "Homepage text",
+   "accessed": "2026-11-09",
+   "quote": "Vind hier jouw baan bij de Rijksoverheid",
    "quote_check": "ok"
   }
  ]

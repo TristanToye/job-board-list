@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-09",
- "count": 432,
+ "count": 506,
  "boards": [
   {
    "id": "indeed",
@@ -17867,7 +17867,7 @@
     "en"
    ],
    "region": "Europe",
-   "niche": "",
+   "niche": "remote",
    "segment": "",
    "parent": "",
    "business_model": "free posting with optional paid upgrades",
@@ -17891,7 +17891,8 @@
    "tags": [
     "api-open",
     "free-to-post",
-    "job-board"
+    "job-board",
+    "remote"
    ],
    "connections": [],
    "review": {
@@ -17935,6 +17936,14 @@
      "title": "API documentation",
      "accessed": "2026-11-09",
      "quote": "The public search needs no key; the account endpoints act as the person whose key they carry.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://remotli.ch",
+     "title": "Remotli homepage",
+     "accessed": "2026-11-09",
+     "quote": "Remote-first and flexible roles from companies hiring in Switzerland.",
      "quote_check": "ok"
     }
    ]
@@ -19265,7 +19274,8 @@
    "founded": "",
    "markets": "",
    "countries_served": [
-    "ZZ"
+    "ZZ",
+    "NO"
    ],
    "primary_language": "en",
    "languages_supported": [
@@ -19380,6 +19390,14 @@
      "title": "Eurostat about us (language selector)",
      "accessed": "2026-11-06",
      "quote": "Select your language.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://euraxess.ec.europa.eu/jobs/search?keywords=Oslo",
+     "title": "EURAXESS job search",
+     "accessed": "2026-11-09",
+     "quote": "Explore thousands of job vacancies, funding opportunities, and hosting positions available across Europe and beyond.",
      "quote_check": "ok"
     }
    ]
@@ -21407,8 +21425,10 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "recruitment process outsourcing (RPO)",
    "segment": "",
@@ -21419,7 +21439,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Recruitment outsourcing firm rather than a job board. The pages read describe talent services. No HQ, parent, API or partner program was stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/hudson-rpo/",
    "indexable": false,
@@ -21435,7 +21455,14 @@
     "recruiting-services"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "hudson-rpo",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and about pages read; services firm, no job board terms stated.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -21445,6 +21472,14 @@
      "title": "Hudson Talent Solutions",
      "accessed": "2026-11-06",
      "quote": "Hudson Talent Solutions supports organizations hiring across multiple regions including the Americas, EMEA, and APAC.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://hudsontalent.com/about/",
+     "title": "About",
+     "accessed": "2026-11-09",
+     "quote": "Hudson Talent Solutions is a global talent solutions partner",
      "quote_check": "ok"
     }
    ]
@@ -30153,7 +30188,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "publicjobs-ie",
+    "reviewed": "2026-11-09",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Browser reader returned HTTP 403 'Web Page Blocked'. The fetch tool was not run first, because the browser reader was run first in error.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30179,19 +30221,22 @@
    "countries_served": [
     "IE"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "ga"
+   ],
    "region": "Europe",
    "niche": "local government",
    "segment": "",
-   "parent": "",
+   "parent": "Local Government Management Agency",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Contact page says the site is managed by the Local Government Management Agency. Header offers English and Gaeilge. No employer pricing, API or integration information was found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/localgovernmentjobs-ie/",
    "indexable": false,
@@ -30210,7 +30255,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "localgovernmentjobs-ie",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+    "note": "Language options and managing agency are stated; no headquarters, employer pricing, API or integration information on the pages read.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30220,6 +30272,22 @@
      "title": "localgovernmentjobs.ie homepage",
      "accessed": "2026-11-09",
      "quote": "Find out more about the local authorities and regional assemblies recruiting on this site",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.localgovernmentjobs.ie/",
+     "title": "Header language switcher",
+     "accessed": "2026-11-09",
+     "quote": "English Gaeilge",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.localgovernmentjobs.ie/pages/Contact-Us",
+     "title": "Contact Us",
+     "accessed": "2026-11-09",
+     "quote": "The Local Government Jobs website is managed by the Local Government Management Agency",
      "quote_check": "ok"
     }
    ]
@@ -30241,14 +30309,14 @@
    "region": "Europe",
    "niche": "general",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "The Irish Times",
+   "business_model": "pay per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Employer page lists a regular job post at EUR 249 and an executive job post at EUR 950. Homepage footer and nav show no API or partner program. The /api, /developers and /partners paths returned 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/recruit-ireland/",
    "indexable": false,
@@ -30262,10 +30330,18 @@
    },
    "tags": [
     "general",
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "recruit-ireland",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;partner_program",
+    "note": "Employer and about pages state Irish Times group ownership and post prices; no headquarters, language options or partner program stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30275,6 +30351,30 @@
      "title": "Recruit Ireland homepage",
      "accessed": "2026-11-09",
      "quote": "Recruit Ireland offers you the support, advice and resources you need to succeed.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.recruitireland.com/employer",
+     "title": "Employer page",
+     "accessed": "2026-11-09",
+     "quote": "As part of The Irish Times media group, we can advertise your jobs across our multiple websites",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.recruitireland.com/employer",
+     "title": "Employer page",
+     "accessed": "2026-11-09",
+     "quote": "Post a Regular Job for €249",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.recruitireland.com",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Post a job",
      "quote_check": "ok"
     }
    ]
@@ -30297,13 +30397,13 @@
    "niche": "general",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per post (job credits)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Job credits are bought per posting at €149+ VAT and the page says there are no subscriptions. No headquarters, parent, language options or API stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobalert/",
    "indexable": false,
@@ -30317,10 +30417,18 @@
    },
    "tags": [
     "general",
-    "job-aggregator"
+    "job-aggregator",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobalert",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+    "note": "Packages page states job credits at €149+ VAT with no subscriptions; no headquarters or API stated.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30330,6 +30438,14 @@
      "title": "JobAlert homepage",
      "accessed": "2026-11-09",
      "quote": "JobAlert | #1 Irish Owned Jobs Site",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jobalert.ie/post-job/packages",
+     "title": "Job Credits",
+     "accessed": "2026-11-09",
+     "quote": "No hidden fees or subscriptions.",
      "quote_check": "ok"
     }
    ]
@@ -30346,22 +30462,24 @@
    "countries_served": [
     "IE"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Europe",
    "niche": "graduates",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "Group GTI",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Careers platform for students and graduates in Ireland. The About page describes it as a partnership between AHECS and Group GTI.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/gradireland/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -30372,10 +30490,18 @@
    },
    "tags": [
     "graduates-students",
-    "job-board"
+    "job-board",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "gradireland",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages",
+    "note": "Homepage, employers and About pages read; no HQ or language switcher stated; API and partner pages not read.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30385,6 +30511,30 @@
      "title": "About us | gradireland",
      "accessed": "2026-11-09",
      "quote": "gradireland is the leading careers platform for students and graduates in Ireland.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://gradireland.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Whether you're looking for careers advice from industry experts, or graduate jobs & schemes",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://gradireland.com/about-us",
+     "title": "About us",
+     "accessed": "2026-11-09",
+     "quote": "a partnership between the Association of Higher Education Career Services (AHECS) and Group GTI.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://gradireland.com/about-us",
+     "title": "About us",
+     "accessed": "2026-11-09",
+     "quote": "Our team ensure you will get the most from your subscription",
      "quote_check": "ok"
     }
    ]
@@ -30401,22 +30551,26 @@
    "countries_served": [
     "IE"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Europe",
    "niche": "healthcare",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "Niche Jobs Ltd",
+   "business_model": "per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Parent company address is in the United Kingdom (Hailsham, East Sussex). Products page shows single job ads at EUR 295 (Bronze), EUR 495 (Silver) and EUR 595 (Gold), a basic 10-job bundle at EUR 750, and a multiple-job account with automated posting and ATS option on request. No language switcher, API or partner program found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/healthcarejobs-ie/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not in top 1M",
@@ -30426,11 +30580,20 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "ats-integration",
     "healthcare",
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "healthcarejobs-ie",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;api_status;partner_program",
+    "note": "Homepage and products page read; parent company, UK address and per-job prices confirmed. No language switcher, API or partner program found.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30440,6 +30603,46 @@
      "title": "Healthcarejobs.ie homepage",
      "accessed": "2026-11-09",
      "quote": "Healthcarejobs.ie connects healthcare professionals in Ireland with opportunities across the full spectrum of the sector",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.healthcarejobs.ie/products",
+     "title": "Products page company address",
+     "accessed": "2026-11-09",
+     "quote": "Niche Jobs Ltd 30-34 North Street Hailsham East Sussex BN27 1DW United Kingdom",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.healthcarejobs.ie/products",
+     "title": "Products page company address",
+     "accessed": "2026-11-09",
+     "quote": "Healthcarejobs.ie belongs to: Niche Jobs Ltd",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.healthcarejobs.ie/",
+     "title": "Homepage about text",
+     "accessed": "2026-11-09",
+     "quote": "Healthcarejobs.ie is Ireland's longest running independent job board for in healthcare.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.healthcarejobs.ie/products",
+     "title": "Products page bulk offer",
+     "accessed": "2026-11-09",
+     "quote": "Save 60% when you buy in bulk.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.healthcarejobs.ie/products",
+     "title": "Products page multiple job ad option",
+     "accessed": "2026-11-09",
+     "quote": "Automated job posting, ATS, Multiposters",
      "quote_check": "ok"
     }
    ]
@@ -30456,19 +30659,22 @@
    "countries_served": [
     "IE"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "ga"
+   ],
    "region": "Europe",
    "niche": "education",
    "segment": "",
-   "parent": "",
+   "parent": "IPPN (Irish Primary Principals' Network)",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site offers English and Gaeilge. Copyright holder is IPPN. The about page gives the registered address as Glounthaune, Co. Cork, which is not stated as headquarters. Employer pricing is not stated on the pages read. No API or partner program is mentioned. The /api, /developers and /partners paths returned 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/educationposts-ie/",
    "indexable": false,
@@ -30485,7 +30691,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "educationposts-ie",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;partner_program",
+    "note": "Site states English and Gaeilge options and IPPN as copyright holder; no employer pricing, headquarters or partner program stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30495,6 +30708,30 @@
      "title": "EducationPosts.ie homepage",
      "accessed": "2026-11-09",
      "quote": "EducationPosts.ie is Ireland's longest established and most widely used website dedicated to education recruitment.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://educationposts.ie/?lang=en",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-09",
+     "quote": "English Gaeilge",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://educationposts.ie/page/about_ippn",
+     "title": "About IPPN",
+     "accessed": "2026-11-09",
+     "quote": "The Irish Primary Principals' Network, trading as IPPN Limited, is a company limited by guarantee not having a share capital",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://educationposts.ie/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Advertise a Job Post",
      "quote_check": "ok"
     }
    ]
@@ -30511,22 +30748,26 @@
    "countries_served": [
     "IE"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Europe",
    "niche": "nonprofit",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "free for members",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Jobs board lists paid and voluntary roles. Posting is free for members. No HQ, parent, API or partner program was stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/the-wheel/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -30536,11 +30777,19 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "free-to-post",
     "job-board",
     "nonprofit"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "the-wheel",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+    "note": "Homepage, jobs board and about pages read; free member posting stated, no HQ or API.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30550,6 +30799,30 @@
      "title": "The Wheel homepage",
      "accessed": "2026-11-09",
      "quote": "Free jobs posting",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.wheel.ie/jobs-board/",
+     "title": "Jobs board",
+     "accessed": "2026-11-09",
+     "quote": "Browse paid and voluntary positions in Ireland’s non-profit sector",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.wheel.ie/jobs-board/",
+     "title": "Jobs board",
+     "accessed": "2026-11-09",
+     "quote": "Post a job for free (only for members of The Wheel).",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.wheel.ie/jobs-board/",
+     "title": "Jobs board",
+     "accessed": "2026-11-09",
+     "quote": "Post a job for free (only for members of The Wheel).",
      "quote_check": "ok"
     }
    ]
@@ -30566,19 +30839,21 @@
    "countries_served": [
     "MX"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "es",
+   "languages_supported": [
+    "es"
+   ],
    "region": "Latin America",
    "niche": "general",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "free",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Federal employment portal of Mexico. The homepage refers to the Servicio Nacional de Empleo.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/portal-del-empleo/",
    "indexable": false,
@@ -30591,6 +30866,7 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "free-to-post",
     "general",
     "government-operated",
     "government-service",
@@ -30598,7 +30874,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "portal-del-empleo",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages",
+    "note": "Homepage read; free posting stated; no HQ or language switcher stated.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30617,6 +30900,22 @@
      "accessed": "2026-11-09",
      "quote": "Portal ferias del empleo, eventos a nivel nacional y ofertas de empleo",
      "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.empleo.gob.mx/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Participa en nuestros talleres para",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.empleo.gob.mx/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Publica vacantes gratis",
+     "quote_check": "ok"
     }
    ]
   },
@@ -30632,8 +30931,10 @@
    "countries_served": [
     "MX"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "es",
+   "languages_supported": [
+    "es"
+   ],
    "region": "Latin America",
    "niche": "general",
    "segment": "",
@@ -30643,8 +30944,10 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Municipal job bank run by Presidencia Municipal de León. The company registration page shows no fee. The country is not stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/empleo-leon-chambamodulo/",
    "indexable": false,
@@ -30664,7 +30967,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "empleo-leon-chambamodulo",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program",
+    "note": "Homepage and company registration pages read; manual vacancy posting and Spanish stated, no fees or country.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30674,6 +30984,22 @@
      "title": "Empleo Leon homepage",
      "accessed": "2026-11-09",
      "quote": "Aquí podrás encontrar tu próximo reto profesional.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://empleo.leon.gob.mx/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Bienvenido a la Bolsa de Empleo",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://empleo.leon.gob.mx/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "PUBLICA VACANTES: Promueve fácilmente tu oferta de trabajo.",
      "quote_check": "ok"
     }
    ]
@@ -30690,22 +31016,26 @@
    "countries_served": [
     "MX"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "es",
+   "languages_supported": [
+    "es"
+   ],
    "region": "Latin America",
    "niche": "general",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "free plan and paid monthly subscriptions",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "job import with AI, limited per plan"
+   ],
+   "notes": "Homepage states a free plan and paid monthly plans, and the ATS page gives the Reclutadores price. The header shows Mexico as a region label, not a headquarters statement. The plans page lists job import with AI. No API or partner information was found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/toptrabajos/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not in top 1M",
@@ -30715,11 +31045,20 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "free-to-post",
     "general",
-    "job-board"
+    "job-board",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "toptrabajos",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+    "note": "Free and paid monthly plans and job import with AI are stated; no headquarters, language options, parent or API information.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30729,6 +31068,38 @@
      "title": "TopTrabajos Mexico page",
      "accessed": "2026-11-09",
      "quote": "Descubre las mejores oportunidades laborales en México.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.toptrabajos.com/mx",
+     "title": "Homepage text",
+     "accessed": "2026-11-09",
+     "quote": "Publica tus vacantes y llega a miles de candidatos en México.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.toptrabajos.com/mx",
+     "title": "Homepage, free plan",
+     "accessed": "2026-11-09",
+     "quote": "Plan gratuito sin límite de tiempo para empezar a recibir candidatos.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.toptrabajos.com/empresas/ats",
+     "title": "ATS page, plan prices",
+     "accessed": "2026-11-09",
+     "quote": "El plan Reclutadores cuesta $149.99/mes (o $1,548/año)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.toptrabajos.com/empresas/planes",
+     "title": "Plans comparison",
+     "accessed": "2026-11-09",
+     "quote": "Importación y mejora de empleos con inteligencia artificial",
      "quote_check": "ok"
     }
    ]
@@ -30751,13 +31122,13 @@
    "niche": "tech",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "staffing service (month-to-month arrangement)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Footer address is in Querétaro, Mexico. Homepage says the company was founded in 2014 in Mexico and offers a staffing service. No job posting pricing, parent, language options or API stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/hireline/",
    "indexable": false,
@@ -30774,7 +31145,14 @@
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "hireline",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;api_status;partner_program;ingest_methods",
+    "note": "Footer address is in Querétaro, Mexico; offers a month-to-month staffing service; no job posting pricing or API stated.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30784,6 +31162,14 @@
      "title": "Hireline homepage",
      "accessed": "2026-11-09",
      "quote": "Portal Líder de Empleos de Tecnología en LATAM",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://hireline.io",
+     "title": "Homepage staffing offer",
+     "accessed": "2026-11-09",
+     "quote": "risk-free, month-to-month arrangement",
      "quote_check": "ok"
     }
    ]
@@ -30829,7 +31215,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "buscojobs",
+    "reviewed": "2026-11-09",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Fetch returned HTTP 403; browser reader returned HTTP 403 Forbidden with blocked true.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30855,19 +31248,21 @@
    "countries_served": [
     "NL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "nl",
+   "languages_supported": [
+    "nl"
+   ],
    "region": "Europe",
    "niche": "government",
    "segment": "",
-   "parent": "",
+   "parent": "Organisatie en Personeel Rijk (O&P Rijk)",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Colofon names O&P Rijk as the platform operator. Homepage and colofon show Dutch content only, with no language switcher, prices, API or partner information.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/werken-voor-nederland/",
    "indexable": false,
@@ -30886,7 +31281,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "werken-voor-nederland",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Colofon names O&P Rijk as platform operator; homepage and colofon state no pricing, API, partner or language options.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30896,6 +31298,22 @@
      "title": "Werken voor Nederland homepage",
      "accessed": "2026-11-09",
      "quote": "Bekijk onze vacatures, stages en startersmogelijkheden.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.werkenvoornederland.nl/colofon",
+     "title": "Colofon",
+     "accessed": "2026-11-09",
+     "quote": "De site Werkenvoornederland.nl is een platform van Organisatie en Personeel Rijk (O&P Rijk)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.werkenvoornederland.nl/",
+     "title": "Homepage text",
+     "accessed": "2026-11-09",
+     "quote": "Vind hier jouw baan bij de Rijksoverheid",
      "quote_check": "ok"
     }
    ]
@@ -30918,13 +31336,13 @@
    "niche": "government",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Over deze site says posting costs are per vacancy placement, with no amounts shown. Only government organisations may post. No headquarters, parent, language options or API stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/werken-bij-de-overheid/",
    "indexable": false,
@@ -30940,10 +31358,18 @@
     "government-operated",
     "government-service",
     "job-board",
+    "pay-per-post",
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "werken-bij-de-overheid",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+    "note": "Over deze site states per-vacancy costs without amounts; no headquarters, language options or API stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -30953,6 +31379,14 @@
      "title": "WerkenbijdeOverheid.nl homepage",
      "accessed": "2026-11-09",
      "quote": "Hét startpunt van jouw carrière bij de overheid.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.werkenbijdeoverheid.nl/over-deze-site",
+     "title": "Over deze site",
+     "accessed": "2026-11-09",
+     "quote": "Gegarandeerd een groot bereik tegen aantrekkelijke kosten per vacatureplaatsing.",
      "quote_check": "ok"
     }
    ]
@@ -30969,8 +31403,10 @@
    "countries_served": [
     "NL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "nl",
+   "languages_supported": [
+    "nl"
+   ],
    "region": "Europe",
    "niche": "graduates and young professionals",
    "segment": "",
@@ -30981,7 +31417,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Dutch-language job board for young workers. The employer services page describes a one-off recruitment fee agreed in advance. The /over-ons page returned 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/youngcapital/",
    "indexable": false,
@@ -30998,7 +31434,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "youngcapital",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;languages",
+    "note": "Homepage and employer services page read; /over-ons returned 404; no language switcher seen; API and partner pages not read.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31008,6 +31451,22 @@
      "title": "YoungCapital homepage",
      "accessed": "2026-11-09",
      "quote": "Work needs young energy",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.youngcapital.nl/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Op zoek naar een baan, maar weet je nog niet precies wát je zoekt?",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.youngcapital.nl/werkgevers/diensten",
+     "title": "Employer services",
+     "accessed": "2026-11-09",
+     "quote": "Jij betaalt een eenmalige fee die je op voorhand hebt afgesproken.",
      "quote_check": "ok"
     }
    ]
@@ -31024,22 +31483,26 @@
    "countries_served": [
     "NL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "nl",
+   "languages_supported": [
+    "nl"
+   ],
    "region": "Europe",
    "niche": "students",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "YoungCapital",
+   "business_model": "per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Parent stated in footer. Employer page lists 30-day vacancy prices of EUR 199 (Premium) and EUR 398 (Top Premium), and a free first vacancy for new customers. No language switcher found; the 'International' menu links to country sites. Developer/API and partner pages were not read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/studentjob-nl/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -31050,10 +31513,18 @@
    },
    "tags": [
     "graduates-students",
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "studentjob-nl",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;api_status;partner_program",
+    "note": "Homepage, employer page and footer read; prices and parent stated. No language switcher or HQ stated. Developer/API and partner pages not read.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31063,6 +31534,38 @@
      "title": "StudentJob.nl homepage",
      "accessed": "2026-11-09",
      "quote": "Ga snel aan de slag en vind de leukste vacatures.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.studentjob.nl/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-09",
+     "quote": "StudentJob.nl is onderdeel van YoungCapital",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.studentjob.nl/personeel-gezocht",
+     "title": "Employer page",
+     "accessed": "2026-11-09",
+     "quote": "Jong en gemotiveerd personeel vind je via StudentJob",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.studentjob.nl/personeel-gezocht",
+     "title": "Employer page pricing",
+     "accessed": "2026-11-09",
+     "quote": "Premium Vacature Regionaal Nationaal € 199 30 dagen",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.studentjob.nl/personeel-gezocht",
+     "title": "Employer page",
+     "accessed": "2026-11-09",
+     "quote": "Op onze website kun je snel en gemakkelijk vacatures plaatsen.",
      "quote_check": "ok"
     }
    ]
@@ -31080,7 +31583,10 @@
     "NL"
    ],
    "primary_language": "",
-   "languages_supported": [],
+   "languages_supported": [
+    "nl",
+    "en"
+   ],
    "region": "Europe",
    "niche": "academic and research",
    "segment": "",
@@ -31091,7 +31597,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Language menu offers Nederlands and EN. Employer pricing is not stated on the pages read. Homepage and employer pages show no API or partner program. The /api, /developers and /partners paths returned 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/academictransfer/",
    "indexable": false,
@@ -31108,7 +31614,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "academictransfer",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;parent;partner_program",
+    "note": "Homepage shows Nederlands and EN language options and a Post a job link; no pricing, parent or partner program stated on pages read.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31118,6 +31631,22 @@
      "title": "AcademicTransfer homepage",
      "accessed": "2026-11-09",
      "quote": "Ontdek jouw carrièrestap in de wetenschap.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.academictransfer.com/",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-09",
+     "quote": "Nederlands",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.academictransfer.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Post a job",
      "quote_check": "ok"
     }
    ]
@@ -31134,22 +31663,26 @@
    "countries_served": [
     "NL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "nl",
+   "languages_supported": [
+    "nl"
+   ],
    "region": "Europe",
    "niche": "education",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Dutch job board for education vacancies. The tariffs page lists a fixed amount per vacancy and a subscription for schools. The integrations page describes ATS and HRM feeds.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/meesterbaan/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -31159,11 +31692,20 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "ats-integration",
     "education",
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "meesterbaan",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages",
+    "note": "Homepage, tariffs and integrations pages read; no HQ, parent or language switcher stated.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31174,6 +31716,30 @@
      "accessed": "2026-11-09",
      "quote": "De leukste baan begint voor de klas",
      "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.meesterbaan.nl/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Vind vacatures in de meest gezochte onderwijsfuncties",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://werkgevers.meesterbaan.nl/tarieven",
+     "title": "Tariffs",
+     "accessed": "2026-11-09",
+     "quote": "Vast bedrag per vacature",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://werkgevers.meesterbaan.nl/integraties",
+     "title": "Integrations",
+     "accessed": "2026-11-09",
+     "quote": "Dankzij onze integraties worden vacatures automatisch vanuit uw eigen ATS/HRM systeem doorgeplaatst naar MeesterBaan.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -31183,14 +31749,16 @@
    "url": "https://www.zorgwerk.nl",
    "domains": "",
    "type": "niche-board",
-   "hq_country": "",
+   "hq_country": "NL",
    "founded": "",
    "markets": "",
    "countries_served": [
     "NL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "nl",
+   "languages_supported": [
+    "nl"
+   ],
    "region": "Europe",
    "niche": "healthcare and welfare",
    "segment": "",
@@ -31198,13 +31766,15 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.zorgwerk.nl/platform-partners",
+   "ingest_methods": [
+    "API"
+   ],
+   "notes": "Staffing platform for care and childcare work. An API link to the Nedap Ons and Intus Inplanning roster systems is described, with a contact request for details. No parent or employer pricing was stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/zorgwerk/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -31215,10 +31785,18 @@
    },
    "tags": [
     "healthcare",
-    "job-board"
+    "job-board",
+    "partner-program"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "zorgwerk",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;business_model;languages",
+    "note": "Homepage, API integration and partner pages read; partner program and Rotterdam postal address stated.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31229,6 +31807,38 @@
      "accessed": "2026-11-09",
      "quote": "Zorgwerk is het platform dat je dagelijks helpt bij het vinden van de fijnste diensten en opdrachten.",
      "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.zorgwerk.nl/platform-partners",
+     "title": "Partner platform page",
+     "accessed": "2026-11-09",
+     "quote": "Postbus 21366 3001 AJ Rotterdam",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.zorgwerk.nl/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Doorgaan naar inhoud",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.zorgwerk.nl/platform-partners",
+     "title": "Partner platform page",
+     "accessed": "2026-11-09",
+     "quote": "Word partner van Zorgwerk en krijg toegang",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.zorgwerk.nl/koppeling-api",
+     "title": "API integrations",
+     "accessed": "2026-11-09",
+     "quote": "De API-koppeling zorgt voor het ophalen van flexaanvragen",
+     "quote_check": "ok"
     }
    ]
   },
@@ -31238,28 +31848,30 @@
    "url": "https://www.gezondheidszorgbanen.nl",
    "domains": "",
    "type": "niche-board",
-   "hq_country": "",
+   "hq_country": "NL",
    "founded": "",
    "markets": "",
    "countries_served": [
     "NL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "nl",
+   "languages_supported": [
+    "nl"
+   ],
    "region": "Europe",
    "niche": "healthcare",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "Medisch Contact",
+   "business_model": "per post (rate card referred to, no prices shown in text)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Utrecht address and platform link to Medisch Contact are stated. The rate card is referred to but no prices appear in the text. No API or partner program is stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/gezondheidszorgbanen-nl/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -31270,10 +31882,18 @@
    },
    "tags": [
     "healthcare",
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "gezondheidszorgbanen-nl",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;api_status;partner_program",
+    "note": "Utrecht address, Medisch Contact platform link and per-post rate card are stated; no prices, API or partner program appear.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31283,6 +31903,30 @@
      "title": "Gezondheidszorg banen homepage",
      "accessed": "2026-11-09",
      "quote": "Op zoek naar zorgprofessionals? Bij ons vindt u ze.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.gezondheidszorgbanen.nl/",
+     "title": "Footer",
+     "accessed": "2026-11-09",
+     "quote": "Gezondheidszorgbanen.nl is een platform van Medisch Contact",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.gezondheidszorgbanen.nl/over-ons",
+     "title": "Over ons, vacancy rates",
+     "accessed": "2026-11-09",
+     "quote": "Tarieven voor vacatureplaatsingen, pakketten voor meerdere plaatsingen en mogelijkheden voor extra bereik.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.gezondheidszorgbanen.nl/",
+     "title": "Homepage text",
+     "accessed": "2026-11-09",
+     "quote": "Op zoek naar zorgprofessionals?",
      "quote_check": "ok"
     }
    ]
@@ -31305,13 +31949,13 @@
    "niche": "healthcare and welfare",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "per post (packages from € 410)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage states it is part of BSL Media & Learning, and the footer says BSL Media & Learning is part of Springer Nature. Employer page shows placements from € 410 and a flat rate for multiple placements.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/medische-banenbank/",
    "indexable": false,
@@ -31325,10 +31969,19 @@
    },
    "tags": [
     "healthcare",
-    "job-board"
+    "job-board",
+    "pay-per-post",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "medische-banenbank",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+    "note": "Homepage states parent company BSL Media & Learning; employer page shows placements from € 410.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31338,6 +31991,22 @@
      "title": "Medische banenbank homepage",
      "accessed": "2026-11-09",
      "quote": "Plaats jouw vacatures op een krachtig netwerk van partnersites",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.medischebanenbank.nl",
+     "title": "Homepage about text",
+     "accessed": "2026-11-09",
+     "quote": "Medische banenbank is onderdeel van BSL Media & Learning",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.medischebanenbank.nl/voor-werkgevers/",
+     "title": "Voor werkgevers",
+     "accessed": "2026-11-09",
+     "quote": "Al vanaf € 410,-",
      "quote_check": "ok"
     }
    ]
@@ -31354,8 +32023,10 @@
    "countries_served": [
     "NL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Europe",
    "niche": "international professionals",
    "segment": "",
@@ -31365,8 +32036,10 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Homepage footer shows the company name with no address or parent. Employer page offers job posting and CV database access, with no prices shown. No language switcher text found on the homepage. Developer/API and partner pages were not read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/together-abroad/",
    "indexable": false,
@@ -31382,7 +32055,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "together-abroad",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program",
+    "note": "Homepage and employer page read; no address, parent, language options or employer prices stated. Developer/API and partner pages not read.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31392,6 +32072,22 @@
      "title": "Together Abroad homepage",
      "accessed": "2026-11-09",
      "quote": "We help international talents To find jobs in The Netherlands",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.togetherabroad.nl/employer-hr-netherlands.html",
+     "title": "Employer page",
+     "accessed": "2026-11-09",
+     "quote": "We help employers to attract global talent.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.togetherabroad.nl/employer-hr-netherlands.html",
+     "title": "Employer page job posting",
+     "accessed": "2026-11-09",
+     "quote": "Post your jobs with us and take advantage of our powerful marketing tools to attract the best candidates for your company.",
      "quote_check": "ok"
     }
    ]
@@ -31414,13 +32110,13 @@
    "niche": "expats and internationals",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per job",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Hiring page offers pay per job with packages for all needs. No headquarters, parent, language options or API stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/iamexpat-jobs/",
    "indexable": false,
@@ -31433,10 +32129,18 @@
     "list_date": "2026-11-09"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "iamexpat-jobs",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+    "note": "Hiring page states pay per job; no headquarters, language options or API stated on pages read.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31446,6 +32150,14 @@
      "title": "IamExpat career page",
      "accessed": "2026-11-09",
      "quote": "Search jobs for internationals in the Netherlands",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.iamexpat.nl/career/hiring-expats-netherlands",
+     "title": "Recruit international employees in the Netherlands",
+     "accessed": "2026-11-09",
+     "quote": "Pay per job",
      "quote_check": "ok"
     }
    ]
@@ -31462,8 +32174,13 @@
    "countries_served": [
     "NL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr",
+    "pt",
+    "zh"
+   ],
    "region": "Europe",
    "niche": "expats and internationals",
    "segment": "",
@@ -31474,7 +32191,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Advertising packages are sold, but no prices are shown. Listings on the jobs page link out to third-party sites (Adzuna and Jooble affiliate links), and the page does not state how listings are sourced. Language list comes from the network switcher on the jobs page, which lists country and language variants of Expatica.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/expatica-netherlands-jobs/",
    "indexable": false,
@@ -31490,7 +32207,14 @@
     "job-aggregator"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "expatica-netherlands-jobs",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Jobs and advertise pages read; English content and language variants confirmed. No headquarters, parent, prices or listing method stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31500,6 +32224,22 @@
      "title": "Expatica Netherlands job search page",
      "accessed": "2026-11-09",
      "quote": "Find a job",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.expatica.com/advertise-with-expatica/",
+     "title": "Advertise page",
+     "accessed": "2026-11-09",
+     "quote": "We publish English-language content that is easy to digest",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.expatica.com/nl/jobs/",
+     "title": "Jobs page language switcher",
+     "accessed": "2026-11-09",
+     "quote": "Canada (Français)",
      "quote_check": "ok"
     }
    ]
@@ -31545,7 +32285,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "trade-me-jobs",
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Browser reader returned empty text (status 200, not flagged as blocked); fetch summaries state none of the looked-for facts, so no quotes were recorded.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31571,19 +32318,21 @@
    "countries_served": [
     "NZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "APAC",
    "niche": "general",
    "segment": "",
-   "parent": "",
+   "parent": "Te Kawa Mataaho Public Service Commission",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Job portal for the New Zealand public service. Agencies use an agency login. No employer pricing was found on the homepage.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobs-govt-nz/",
    "indexable": false,
@@ -31603,7 +32352,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobs-govt-nz",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model",
+    "note": "Homepage read; no HQ or employer pricing stated on it; other pages not read.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31638,6 +32394,22 @@
      "accessed": "2026-11-09",
      "quote": "To be able to use the Te Whatu Ora Careers portal, you'll need to enable javascript on your browser.",
      "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://jobs.govt.nz/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Our Public Service works together to make a meaningful difference for New Zealanders",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://jobs.govt.nz/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "About Te Kawa Mataaho Public Service Commission",
+     "quote_check": "ok"
     }
    ]
   },
@@ -31665,7 +32437,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Describes itself as a charity. The employer pages link to a Pricing page that was not read, so employer prices are not recorded. No API or partner program is mentioned on pages read. The /api, /developers and /partners paths returned 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/student-job-search/",
    "indexable": false,
@@ -31682,7 +32454,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "student-job-search",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;parent;partner_program",
+    "note": "Homepage and employer pages show a List a job option; Pricing page linked but not read; no headquarters or partner program stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31692,6 +32471,14 @@
      "title": "Student Job Search homepage",
      "accessed": "2026-11-09",
      "quote": "Student Job Search is a charity connecting students with work so they can earn, stay in study and build their future.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.sjs.co.nz/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "List a job",
      "quote_check": "ok"
     }
    ]
@@ -31717,10 +32504,10 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.jobsformums.co.nz/partnerships-employer/",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Employer page lists listing packages at $99, $129 and $299, plus services from $2,000 and from $30 per hour. Currency is shown only as $. Partnerships page offers partnership packages for employers and recruitment agencies. No API is mentioned. The /api and /developers paths returned 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobs-for-mums/",
    "indexable": false,
@@ -31733,10 +32520,18 @@
     "list_date": "2026-11-09"
    },
    "tags": [
-    "job-board"
+    "job-board",
+    "partner-program"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobs-for-mums",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent",
+    "note": "Employer page states listing prices and partnerships page exists; footer shows Auckland New Zealand but no headquarters statement; no language options or parent stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -31746,6 +32541,22 @@
      "title": "Jobs for Mums homepage",
      "accessed": "2026-11-09",
      "quote": "Jobs for Mums is a job board with the mission of driving better outcomes for both businesses and families.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.jobsformums.co.nz/partnerships-employer/",
+     "title": "Partnerships",
+     "accessed": "2026-11-09",
+     "quote": "Choose the partnership that aligns with your goals",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobsformums.co.nz/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "POST A JOB NOW",
      "quote_check": "ok"
     }
    ]
@@ -31978,19 +32789,21 @@
    "countries_served": [
     "PL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "pl",
+   "languages_supported": [
+    "pl"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Employer ad packages are priced net in PLN. Four packages are listed at 649 to 1649 PLN net. No HQ, parent, API or partner program was stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/praca-pl/",
    "indexable": false,
@@ -32004,10 +32817,18 @@
    },
    "tags": [
     "general",
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "praca-pl",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+    "note": "Homepage, services and employer pages read; ad prices stated, no developer or partner page linked.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32017,6 +32838,22 @@
      "title": "Praca.pl homepage",
      "accessed": "2026-11-09",
      "quote": "Aktualne ogłoszenia o pracę od zweryfikowanych pracodawców publikujących u nas od lat.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.praca.pl/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Praca. I kropka.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.praca.pl/nasze-uslugi",
+     "title": "Services and ad pricing",
+     "accessed": "2026-11-09",
+     "quote": "649 PLN (netto)",
      "quote_check": "ok"
     }
    ]
@@ -32033,22 +32870,27 @@
    "countries_served": [
     "PL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "pl",
+   "languages_supported": [
+    "pl"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "per post and subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "manual posting",
+    "ATS integration"
+   ],
+   "notes": "Polish job board. The employer page lists single-post prices in zł net per post and a subscription option. It mentions an API heading but no API documentation or access terms were found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/aplikuj-pl/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -32058,11 +32900,21 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "ats-integration",
     "general",
-    "job-board"
+    "job-board",
+    "pay-per-post",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "aplikuj-pl",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;partner_program",
+    "note": "Homepage and employer page read; API heading found but no API docs or key terms; no partner program stated.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32072,6 +32924,38 @@
      "title": "Aplikuj.pl homepage",
      "accessed": "2026-11-09",
      "quote": "Przeglądaj aktualne oferty pracy, stwórz atrakcyjne CV i korzystaj z setek porad naszych ekspertów.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.aplikuj.pl/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Mamy dla Ciebie 39 889 ofert pracy",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.aplikuj.pl/dla-pracodawcow",
+     "title": "Employer pricing",
+     "accessed": "2026-11-09",
+     "quote": "Abonamenty i nolimit",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.aplikuj.pl/dla-pracodawcow",
+     "title": "Employer page",
+     "accessed": "2026-11-09",
+     "quote": "Twój system przez API",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.aplikuj.pl/dla-pracodawcow",
+     "title": "Employer page",
+     "accessed": "2026-11-09",
+     "quote": "Możliwa jest również pełna obsługa i integracja z innymi systemami rekrutacyjnymi",
      "quote_check": "ok"
     }
    ]
@@ -32117,7 +33001,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "olx-praca",
+    "reviewed": "2026-11-09",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Browser reader returned a human verification challenge with status 405 and blocked true.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32143,19 +33034,22 @@
    "countries_served": [
     "PL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "pl",
+   "languages_supported": [
+    "pl",
+    "en"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per post",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Job ads are sold in packages. The English company page lists a 21-day job offer at 450zł net, or 310zł in a promotion. No HQ, parent, API or partner program was stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/infopraca-pl/",
    "indexable": false,
@@ -32169,10 +33063,18 @@
    },
    "tags": [
     "general",
-    "job-board"
+    "job-board",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "infopraca-pl",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
+    "note": "Homepage, employer and JobBox pages read; package prices and English pages stated.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32182,6 +33084,30 @@
      "title": "infoPraca.pl homepage",
      "accessed": "2026-11-09",
      "quote": "infoPraca.pl zapewnia dostęp do nowoczesnych narzędzi rekrutacyjnych i wyszukiwania pracy online",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.infopraca.pl/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Praca Warszawa",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.infopraca.pl/en/company?language=en",
+     "title": "English employer page",
+     "accessed": "2026-11-09",
+     "quote": "Choose a package of at least 10 job ads.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.infopraca.pl/en/company?language=en",
+     "title": "English employer page",
+     "accessed": "2026-11-09",
+     "quote": "450zł 310zł /net",
      "quote_check": "ok"
     }
    ]
@@ -32337,7 +33263,14 @@
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "just-join-it",
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;parent;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage and footer state no headquarters, parent, language options, pricing or API; the employer pages sit on rocketjobs.com, a different domain.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32392,7 +33325,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "rocket-jobs",
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage and employer profiles page state none of the facts looked for.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32412,28 +33352,34 @@
    "url": "https://www.erecruiter.pl",
    "domains": "",
    "type": "multiposting",
-   "hq_country": "",
+   "hq_country": "PL",
    "founded": "",
    "markets": "",
    "countries_served": [
     "PL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "pl",
+   "languages_supported": [
+    "pl",
+    "en"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "Grupa Pracuj",
+   "business_model": "subscription (monthly net prices)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "multiposting to job portals via integration",
+    "career site integration"
+   ],
+   "notes": "Homepage and pages state PL and EN options, monthly prices from 249 zl net, membership of Grupa Pracuj and an API integration mention. API access terms are not stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/erecruiter/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -32444,10 +33390,18 @@
    },
    "tags": [
     "general",
-    "job-distribution"
+    "job-distribution",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "erecruiter",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "api_status",
+    "note": "Pages state PL and EN options, monthly prices, Grupa Pracuj membership and an API integration mention, but not how API access is obtained.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32457,6 +33411,46 @@
      "title": "eRecruiter homepage",
      "accessed": "2026-11-09",
      "quote": "Z łatwością opublikujesz ogłoszenia na 30 portalach (m.in. Pracuj.pl i OLX) z jednego miejsca.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://erecruiter.pl/oferta/",
+     "title": "Oferta page",
+     "accessed": "2026-11-09",
+     "quote": "Jako spółka Grupy Pracuj jesteśmy zintegrowani z portalem Pracuj.pl.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.erecruiter.pl/",
+     "title": "Homepage language switcher",
+     "accessed": "2026-11-09",
+     "quote": "PL EN",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://erecruiter.pl/oferta/",
+     "title": "Oferta pricing",
+     "accessed": "2026-11-09",
+     "quote": "Dla Ciebie i Twojej firmy już od 249 zł",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://erecruiter.pl/oferta/",
+     "title": "Oferta integrations",
+     "accessed": "2026-11-09",
+     "quote": "eRecruiter umożliwia integrację za pomocą API z innymi narzędziami i systemami HR-owymi",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://erecruiter.pl/oferta/",
+     "title": "Oferta integrations",
+     "accessed": "2026-11-09",
+     "quote": "Bezpośrednia integracja z portalami pracy i stroną Kariera",
      "quote_check": "ok"
     }
    ]
@@ -32529,22 +33523,25 @@
    "countries_served": [
     "PL"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "pl",
+   "languages_supported": [
+    "pl",
+    "en"
+   ],
    "region": "Europe",
    "niche": "nonprofit",
    "segment": "",
-   "parent": "",
-   "business_model": "",
+   "parent": "Stowarzyszenie Klon/Jawor",
+   "business_model": "free basic listing, paid featured listings",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Footer says the portal is run by Stowarzyszenie Klon/Jawor. Regular listings are free and featured listings are priced for 7, 14 or 30 days. An English link is in the footer. No headquarters, API or partner information is stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/og-oszenia-ngo-pl/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not comparable",
@@ -32554,11 +33551,19 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "free-to-post",
     "job-board",
     "nonprofit"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "og-oszenia-ngo-pl",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;api_status;partner_program",
+    "note": "Operator, free and paid listing prices and an English footer link are stated; no headquarters, API or partner information.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32568,6 +33573,30 @@
      "title": "Ogłoszenia ngo.pl homepage",
      "accessed": "2026-11-09",
      "quote": "Ogłoszenia ngo.pl odnotowują co miesiąc ponad 470 000 odsłon",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://ogloszenia.ngo.pl/",
+     "title": "Footer",
+     "accessed": "2026-11-09",
+     "quote": "Twój portal prowadzony przez Stowarzyszenie Klon/Jawor",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://ogloszenia.ngo.pl/",
+     "title": "Listing prices",
+     "accessed": "2026-11-09",
+     "quote": "Dodanie tego ogłoszenia nic nie kosztuje.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://ogloszenia.ngo.pl/",
+     "title": "Footer English link",
+     "accessed": "2026-11-09",
+     "quote": "English",
      "quote_check": "ok"
     }
    ]
@@ -32584,19 +33613,22 @@
    "countries_served": [
     "SE"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "sv",
+   "languages_supported": [
+    "sv",
+    "en"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
-   "parent": "",
+   "parent": "Duunitori Group",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Homepage lists JobbSafari AB in Stockholm (first of three offices, the others in Helsinki and Norway). The site states it is part of Duunitori Group. An 'In English' link points to an English employer page. No employer prices, API or partner program found on the homepage or employer page.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobbsafari/",
    "indexable": false,
@@ -32613,7 +33645,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobbsafari",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "business_model;api_status;partner_program",
+    "note": "Homepage and employer page read; Stockholm office, Duunitori Group parent and English link confirmed. No employer prices stated. Developer/API and partner pages not read.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32623,6 +33662,38 @@
      "title": "JobbSafari homepage",
      "accessed": "2026-11-09",
      "quote": "JobbSafari är din guide genom arbetslivet",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.jobbsafari.se/",
+     "title": "Homepage footer office address",
+     "accessed": "2026-11-09",
+     "quote": "JobbSafari AB Grev Turegatan 11A 114 46 Stockholm, Sweden",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.jobbsafari.se/",
+     "title": "Homepage about text",
+     "accessed": "2026-11-09",
+     "quote": "JobbSafari är en del av Duunitori Group",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.jobbsafari.se/",
+     "title": "Homepage title",
+     "accessed": "2026-11-09",
+     "quote": "Sök bland över 76 380 lediga jobb",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://jobbsafari.se/for-arbetsgivare",
+     "title": "Employer page language link",
+     "accessed": "2026-11-09",
+     "quote": "In English",
      "quote_check": "ok"
     }
    ]
@@ -32639,8 +33710,10 @@
    "countries_served": [
     "SE"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "sv",
+   "languages_supported": [
+    "sv"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
@@ -32651,7 +33724,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Employer page shows paid packages priced from 3 900 kr to 16 900 kr. Site is in Swedish with no language selector. No API or partner program is mentioned. The /api, /developers and /partners paths returned 404. The /annonsera path returned 404.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ledigajobb/",
    "indexable": false,
@@ -32668,7 +33741,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "ledigajobb",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;partner_program",
+    "note": "Employer ad page shows paid packages from 3 900 kr; site is Swedish with no language selector; no headquarters, parent or partner program stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32678,6 +33758,22 @@
      "title": "Ledigajobb homepage",
      "accessed": "2026-11-09",
      "quote": "Tusentals lediga jobb på samma ställe.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.ledigajobb.se/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Sök bland 64 236 lediga jobb",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://ledigajobb.se/rekrytera/annonsera-jobb",
+     "title": "Employer ad page",
+     "accessed": "2026-11-09",
+     "quote": "Lägg upp annons",
      "quote_check": "ok"
     }
    ]
@@ -32859,19 +33955,21 @@
    "countries_served": [
     "SE"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "sv",
+   "languages_supported": [
+    "sv"
+   ],
    "region": "Europe",
    "niche": "general",
    "segment": "",
-   "parent": "",
+   "parent": "Akind Group",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Swedish recruitment and staffing site for young professionals. Job listings in English are offered on a separate page.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/academic-work/",
    "indexable": false,
@@ -32888,7 +33986,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "academic-work",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country",
+    "note": "Homepage, About and English-applicant pages read; employer pages not read.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -32898,6 +34003,30 @@
      "title": "Academic Work Sweden homepage",
      "accessed": "2026-11-09",
      "quote": "Vi bemannar och rekryterar till organisationer, och leder er framåt genom en ständigt skiftande omvärld.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.academicwork.se/om-oss",
+     "title": "About us",
+     "accessed": "2026-11-09",
+     "quote": "Vi är ledande inom rekrytering och bemanning för talanger i början av deras karriär.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.academicwork.se/jobbsokande/for-international-and-english-speaking-applicants",
+     "title": "English-speaking applicants",
+     "accessed": "2026-11-09",
+     "quote": "Available jobs in English",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.academicwork.se/om-oss",
+     "title": "About us",
+     "accessed": "2026-11-09",
+     "quote": "Som en del av Akind Group kan vi göra större skillnad",
      "quote_check": "ok"
     }
    ]
@@ -33090,7 +34219,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site header states it is a Singapore Government Agency Website. Homepage text is only 'Loading...' in the fetch tool and browser reader; /about and /employers return a page-not-found message.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/mycareersfuture/",
    "indexable": false,
@@ -33110,7 +34239,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "mycareersfuture",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage shows only 'Loading...' in fetch and browser reader; /about and /employers return a page-not-found message.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -33120,6 +34256,14 @@
      "title": "MyCareersFuture llms.txt",
      "accessed": "2026-11-09",
      "quote": "An online job portal for Singapore Citizens and Singapore Permanent Residents",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.mycareersfuture.gov.sg/about",
+     "title": "Site header (about page)",
+     "accessed": "2026-11-09",
+     "quote": "A Singapore Government Agency Website",
      "quote_check": "ok"
     }
    ]
@@ -33136,8 +34280,10 @@
    "countries_served": [
     "ZA"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Africa",
    "niche": "tech",
    "segment": "",
@@ -33148,7 +34294,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Self-serve marketplace charges a 12.5 percent pay-per-hire fee. Embedded recruiting and contracting use custom fees. No HQ, parent, API or board partner program was stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/offerzen/",
    "indexable": false,
@@ -33165,7 +34311,14 @@
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "offerzen",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+    "note": "Homepage, pricing and partners pages read; pay-per-hire fee stated, partners page lists vendor perks only.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -33175,6 +34328,14 @@
      "title": "OfferZen homepage",
      "accessed": "2026-11-09",
      "quote": "OfferZen is South Africa's largest tech talent marketplace, connecting top tech talent to the best opportunities",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.offerzen.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "OfferZen is South Africa’s largest tech talent marketplace",
      "quote_check": "ok"
     }
    ]
@@ -33301,22 +34462,27 @@
    "countries_served": [
     "ZA"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Africa",
    "niche": "general",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "free or subscription (monthly accounts)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "manual posting",
+    "XML feed"
+   ],
+   "notes": "Homepage and premium employer page state free posting, paid monthly accounts and an XML feed. The copyright line names Junk Mail Publishing (PTY) LTD, but the relationship is not described. No headquarters, language switcher, API or partner information is stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobmail/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -33326,11 +34492,21 @@
     "list_date": "2026-11-09"
    },
    "tags": [
+    "free-to-post",
     "general",
-    "job-board"
+    "job-board",
+    "subscription",
+    "xml-feed"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobmail",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+    "note": "Free posting, paid monthly accounts and an XML feed are stated; no headquarters, language switcher, API or partner information.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -33340,6 +34516,30 @@
      "title": "Job Mail homepage",
      "accessed": "2026-11-09",
      "quote": "Job Mail is the perfect place to browse for jobs in South Africa and abroad.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.jobmail.co.za/",
+     "title": "Homepage text",
+     "accessed": "2026-11-09",
+     "quote": "Search through 21,255 job vacancies on Job Mail.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jobmail.co.za/premium-employer-information",
+     "title": "Premium employer information",
+     "accessed": "2026-11-09",
+     "quote": "Job Mail offers employers and recruiters FREE or paid for recruitment solutions.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobmail.co.za/",
+     "title": "Homepage",
+     "accessed": "2026-11-09",
+     "quote": "Post a FREE Vacancy",
      "quote_check": "ok"
     }
    ]
@@ -33496,7 +34696,14 @@
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "salt-recruitment-jobs",
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage, Meet Salt and Find Talent pages state none of the facts looked for.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -33551,7 +34758,14 @@
     "job-aggregator"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "whatjobs",
+    "reviewed": "2026-11-09",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Fetch returned HTTP 403; browser reader returned a Cloudflare 'Performing security verification' challenge with blocked true.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -33609,7 +34823,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "employment-services-of-south-africa-essa",
+    "reviewed": "2026-11-09",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+    "note": "Homepage redirects to /EssaOnline/, which states only that the user is being directed to the application page.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -33635,8 +34856,10 @@
    "countries_served": [
     "ZA"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Africa",
    "niche": "general",
    "segment": "",
@@ -33647,7 +34870,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Job listings page of Bizcommunity. The job posting page offers a monthly subscription.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/bizcommunity-jobs/",
    "indexable": false,
@@ -33664,7 +34887,14 @@
     "job-board"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "bizcommunity-jobs",
+    "reviewed": "2026-11-09",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent",
+    "note": "Jobs page and post-a-job page read; no HQ or parent stated.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -33674,6 +34904,14 @@
      "title": "Bizcommunity jobs page",
      "accessed": "2026-11-09",
      "quote": "Advertise your job vacancies.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.bizcommunity.com/JobsOffered/196/1/bjs-merge/rw-1.html",
+     "title": "Jobs offered",
+     "accessed": "2026-11-09",
+     "quote": "We are seeking a highly capable Data Engineer with strong experience in scalable data platforms",
      "quote_check": "ok"
     }
    ]
@@ -33728,6 +34966,4162 @@
      "title": "ShiftMate homepage",
      "accessed": "2026-11-09",
      "quote": "ShiftMate is a South African company that uses AI to find, assess, support and train better call centre agents.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "dubizzle-jobs",
+   "name": "Dubizzle Jobs",
+   "url": "https://uae.dubizzle.com/jobs/",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/dubizzle-jobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 31354,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://uae.dubizzle.com/jobs/",
+     "title": "Jobs in UAE | Dubizzle UAE",
+     "accessed": "2026-11-09",
+     "quote": "Job hunting made easy with dubizzle.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "the-talent-point",
+   "name": "The Talent Point",
+   "url": "https://www.thetalentpoint.ae/",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/the-talent-point/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.thetalentpoint.ae/",
+     "title": "The Talent Point homepage",
+     "accessed": "2026-11-09",
+     "quote": "Discover the Leading Job Platform in Dubai and all over the UAE",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "talentmate",
+   "name": "Talentmate",
+   "url": "https://www.talentmate.com/",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE",
+    "SA",
+    "QA"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/talentmate/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.talentmate.com/",
+     "title": "Talentmate homepage",
+     "accessed": "2026-11-09",
+     "quote": "The job portal for the UAE and the Gulf.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "gulfjobs",
+   "name": "GulfJobs",
+   "url": "https://www.gulfjobs.com/",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE",
+    "BH",
+    "KW",
+    "OM",
+    "QA",
+    "SA"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/gulfjobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.gulfjobs.com/",
+     "title": "GulfJobs homepage",
+     "accessed": "2026-11-09",
+     "quote": "Reach thousands of active employers & recruiters across UAE, Saudi Arabia, Qatar, Kuwait, Oman & Bahrain.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "dubai-careers",
+   "name": "Dubai Careers",
+   "url": "https://dubaicareers.ae/en/pages/default.aspx",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "public-sector",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/dubai-careers/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 394714,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://dubaicareers.ae/en/pages/default.aspx",
+     "title": "Dubai Careers home",
+     "accessed": "2026-11-09",
+     "quote": "Download Dubai Careers and be able to access, search and apply for jobs from 45+ entities and much more to come.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "uaejobs-ae",
+   "name": "UAEJobs.ae",
+   "url": "https://uaejobs.ae/",
+   "domains": "",
+   "type": "aggregator",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/uaejobs-ae/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-aggregator"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://uaejobs.ae/",
+     "title": "UAEJobs.ae homepage",
+     "accessed": "2026-11-09",
+     "quote": "Job listings from right across the UAE",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobxdubai",
+   "name": "JobXDubai",
+   "url": "https://jobxdubai.com/",
+   "domains": "",
+   "type": "aggregator",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE",
+    "SA"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobxdubai/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-aggregator"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobxdubai.com/",
+     "title": "JobXDubai homepage",
+     "accessed": "2026-11-09",
+     "quote": "an AI job-search copilot built for the UAE and Saudi Arabia",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "uae-career",
+   "name": "UAE Career",
+   "url": "https://www.uaecareer.ae/",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/uae-career/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.uaecareer.ae/",
+     "title": "UAE Career homepage",
+     "accessed": "2026-11-09",
+     "quote": "an independent job information website, not a recruiter or government agency.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "tes-jobs",
+   "name": "Tes Jobs",
+   "url": "https://www.tes.com/jobs",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "education",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/tes-jobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 7307,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "education",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.tes.com/jobs/browse/secondary-united-arab-emirates",
+     "title": "Secondary teaching and education jobs in United Arab Emirates",
+     "accessed": "2026-11-09",
+     "quote": "Search 458 Secondary teaching and education jobs in United Arab Emirates.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "teach-away",
+   "name": "Teach Away",
+   "url": "https://www.teachaway.com/teach-in-dubai-uae",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "education",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/teach-away/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 90226,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "education",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.teachaway.com/teach-in-dubai-uae",
+     "title": "Teach in Dubai and UAE",
+     "accessed": "2026-11-09",
+     "quote": "Premium tax-free teaching opportunities in world-class international schools",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "seekteachers",
+   "name": "SeekTeachers",
+   "url": "https://www.seekteachers.com/",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "education",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/seekteachers/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "education",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.seekteachers.com/",
+     "title": "SeekTeachers homepage",
+     "accessed": "2026-11-09",
+     "quote": "International schools jobs",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "oliv",
+   "name": "Oliv",
+   "url": "https://oliv.com/ae-en/",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "graduates",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/oliv/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://oliv.com/ae-en/",
+     "title": "Find Internships & Fresh Graduate Jobs in UAE",
+     "accessed": "2026-11-09",
+     "quote": "Find Internships & Fresh Graduate Jobs in UAE",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "sheryan-dubai-health-authority",
+   "name": "Sheryan (Dubai Health Authority)",
+   "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "healthcare",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/sheryan-dubai-health-authority/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 43052,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "healthcare",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/opportunities",
+     "title": "Sheryan opportunities",
+     "accessed": "2026-11-09",
+     "quote": "Dedicated portal bridging the gap between Health Facilities and Talented Professionals in Dubai.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "sharjah-department-of-human-resources-job-seekers-service",
+   "name": "Sharjah Department of Human Resources job seekers service",
+   "url": "https://dhr.gov.ae/en/e-services/services-for-job-seekers",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "public-sector",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/sharjah-department-of-human-resources-job-seekers-service/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://dhr.gov.ae/en/e-services/services-for-job-seekers",
+     "title": "Services for job seekers, Sharjah DHR",
+     "accessed": "2026-11-09",
+     "quote": "Government of Sharjah, Department of Human Resources.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "ras-al-khaimah-careers",
+   "name": "Ras Al Khaimah Careers",
+   "url": "https://careers.rak.ae/",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Middle East",
+   "niche": "public-sector",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/ras-al-khaimah-careers/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 147233,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://careers.rak.ae/",
+     "title": "Ras Al Khaimah careers homepage",
+     "accessed": "2026-11-09",
+     "quote": "Stay updated with latest job offering from all employers in Ras Al Khaimah.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "karriere-at",
+   "name": "karriere.at",
+   "url": "https://www.karriere.at",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/karriere-at/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 46872,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.karriere.at",
+     "title": "karriere.at: Jobs - Jobsuche - Jobbörse - Stellenangebote",
+     "accessed": "2026-11-09",
+     "quote": "Finde den perfekten Job für dich und dein Potential.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "listed_by",
+     "url": "https://www.manatal.com/de/blog/job-sites-austria",
+     "title": "Die 18 besten Jobbörsen in Österreich für Personalvermittler im Jahr 2026",
+     "accessed": "2026-11-09",
+     "quote": "",
+     "quote_check": ""
+    }
+   ]
+  },
+  {
+   "id": "alle-jobs-ams-public-job-search",
+   "name": "alle jobs (AMS public job search)",
+   "url": "https://jobs.ams.at",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/alle-jobs-ams-public-job-search/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 26475,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobs.ams.at",
+     "title": "alle jobs - die Stellensuche des AMS",
+     "accessed": "2026-11-09",
+     "quote": "alle jobs - die Stellensuche des AMS",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobs-at",
+   "name": "jobs.at",
+   "url": "https://www.jobs.at",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobs-at/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobs.at",
+     "title": "jobs.at homepage",
+     "accessed": "2026-11-09",
+     "quote": "Deine Jobbörse in Österreich",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "hokify",
+   "name": "hokify",
+   "url": "https://www.hokify.at",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/hokify/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hokify.at",
+     "title": "hokify homepage",
+     "accessed": "2026-11-09",
+     "quote": "Wir erleichtern deine Jobsuche und zeigen dir Stellenangebote, die zu dir passen!",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "meinjob-at",
+   "name": "meinjob.at",
+   "url": "https://meinjob.at",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/meinjob-at/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 990140,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://meinjob.at",
+     "title": "meinjob.at homepage",
+     "accessed": "2026-11-09",
+     "quote": "Einfach und sicher den besten Job finden!",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "absolventen-at",
+   "name": "absolventen.at",
+   "url": "https://www.absolventen.at",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "graduates",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/absolventen-at/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.absolventen.at/jobs",
+     "title": "absolventen.at Jobs page",
+     "accessed": "2026-11-09",
+     "quote": "Ob Berufseinsteiger oder Berufserfahrene, absolventen.at ist das Portal für Jobs aller AbsolventInnen in Österreich.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "tirolerjobs-at",
+   "name": "tirolerjobs.at",
+   "url": "https://www.tirolerjobs.at",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "regional (Tyrol)",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/tirolerjobs-at/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.tirolerjobs.at",
+     "title": "tirolerjobs.at homepage",
+     "accessed": "2026-11-09",
+     "quote": "dem regionalen Jobportal für das Land im Westen Österreichs",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobs-in-wien",
+   "name": "Jobs in Wien",
+   "url": "http://jobsinvienna.com/",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "AT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "english-speaking jobs in Vienna",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobs-in-wien/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "http://jobsinvienna.com/",
+     "title": "Jobs in Vienna homepage",
+     "accessed": "2026-11-09",
+     "quote": "English and German speaking jobs Vienna",
+     "quote_check": "ok"
+    },
+    {
+     "field": "listed_by",
+     "url": "https://www.manatal.com/de/blog/job-sites-austria",
+     "title": "Die 18 besten Jobbörsen in Österreich für Personalvermittler im Jahr 2026",
+     "accessed": "2026-11-09",
+     "quote": "",
+     "quote_check": ""
+    }
+   ]
+  },
+  {
+   "id": "vdab",
+   "name": "VDAB",
+   "url": "https://www.vdab.be",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/vdab/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 33639,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.vdab.be",
+     "title": "VDAB homepage",
+     "accessed": "2026-11-09",
+     "quote": "Zoek snel en gemakkelijk een job en scoor met je sollicitatie.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "listed_by",
+     "url": "https://www.duoforajob.be/en/actualite/5-best-websites-for-job-search-in-belgium",
+     "title": "Duo for a Job: 5 best websites for job search in Belgium",
+     "accessed": "2026-11-09",
+     "quote": "",
+     "quote_check": ""
+    }
+   ]
+  },
+  {
+   "id": "le-forem",
+   "name": "Le Forem",
+   "url": "https://www.leforem.be",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/le-forem/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 70653,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.leforem.be",
+     "title": "Le Forem homepage",
+     "accessed": "2026-11-09",
+     "quote": "Découvrez une sélection d’offres d’emploi dans différents secteurs en Wallonie.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "listed_by",
+     "url": "https://www.duoforajob.be/en/actualite/5-best-websites-for-job-search-in-belgium",
+     "title": "Duo for a Job: 5 best websites for job search in Belgium",
+     "accessed": "2026-11-09",
+     "quote": "",
+     "quote_check": ""
+    }
+   ]
+  },
+  {
+   "id": "actiris",
+   "name": "Actiris",
+   "url": "https://www.actiris.brussels",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/actiris/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 186309,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.actiris.brussels",
+     "title": "Actiris citizens page",
+     "accessed": "2026-11-09",
+     "quote": "Inscris-toi dès maintenant pour accéder à nos services et mettre toutes les chances de ton côté pour trouver un job.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "listed_by",
+     "url": "https://www.duoforajob.be/en/actualite/5-best-websites-for-job-search-in-belgium",
+     "title": "Duo for a Job: 5 best websites for job search in Belgium",
+     "accessed": "2026-11-09",
+     "quote": "",
+     "quote_check": ""
+    }
+   ]
+  },
+  {
+   "id": "talent-brussels",
+   "name": "talent.brussels",
+   "url": "https://www.talent.brussels",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "public-sector",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/talent-brussels/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.talent.brussels",
+     "title": "talent.brussels homepage",
+     "accessed": "2026-11-09",
+     "quote": "Trouvez un emploi porteur de sens au service de la Région de Bruxelles-Capitale",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "student-be",
+   "name": "Student.be",
+   "url": "https://www.student.be",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "graduates",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/student-be/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 362889,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.student.be",
+     "title": "Student.be homepage",
+     "accessed": "2026-11-09",
+     "quote": "Studentenjob, stage, startersjob of kot",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "studentjob-be",
+   "name": "StudentJob.be",
+   "url": "https://www.studentjob.be",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "students",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/studentjob-be/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "graduates-students",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.studentjob.be",
+     "title": "StudentJob.be homepage",
+     "accessed": "2026-11-09",
+     "quote": "Op zoek naar een leuke bijbaan? Bekijk ons actuele vacature overzicht voor een bijbaan bij jou in de buurt.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "techjobs-be",
+   "name": "Techjobs.be",
+   "url": "https://www.techjobs.be",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "tech",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/techjobs-be/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.techjobs.be",
+     "title": "Techjobs.be homepage",
+     "accessed": "2026-11-09",
+     "quote": "Bringing together IT professionals",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "engineering-jobs-belgium",
+   "name": "Engineering.jobs (Belgium)",
+   "url": "https://be.engineering.jobs",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "tech/engineering",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/engineering-jobs-belgium/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "engineering",
+    "job-board",
+    "tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://be.engineering.jobs",
+     "title": "Engineering.jobs Belgium homepage",
+     "accessed": "2026-11-09",
+     "quote": "Engineering.jobs is dé gespecialiseerde jobsite voor ingenieurs, technici en IT-talent in België, Nederland en Frankrijk.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "brusselsjobs",
+   "name": "BrusselsJobs",
+   "url": "https://www.brusselsjobs.com",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "expat",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/brusselsjobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.brusselsjobs.com",
+     "title": "BrusselsJobs homepage",
+     "accessed": "2026-11-09",
+     "quote": "Find Jobs in Brussels for expats, experts and English speakers",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "xpatjobs",
+   "name": "Xpatjobs",
+   "url": "https://www.xpatjobs.com",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "expat",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/xpatjobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 536451,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.xpatjobs.com",
+     "title": "Xpatjobs homepage",
+     "accessed": "2026-11-09",
+     "quote": "We specialise in jobs for English speaking expats and multilingual vacancies.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "werkenindegezondheidszorg-be",
+   "name": "Werkenindegezondheidszorg.be",
+   "url": "https://www.werkenindegezondheidszorg.be",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "BE"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "healthcare",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/werkenindegezondheidszorg-be/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "healthcare",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.werkenindegezondheidszorg.be",
+     "title": "Werkenindegezondheidszorg.be homepage",
+     "accessed": "2026-11-09",
+     "quote": "Werkenindegezondheidszorg.be biedt vacatures aan voor mensen die werk zoeken in de zorg.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobup-ch",
+   "name": "jobup.ch",
+   "url": "https://www.jobup.ch",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "CH"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobup-ch/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 118891,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobup.ch",
+     "title": "jobup.ch homepage",
+     "accessed": "2026-11-09",
+     "quote": "Bienvenue sur jobup.ch, la principale plateforme d'emploi pour la région francophone de Suisse.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobscout24",
+   "name": "JobScout24",
+   "url": "https://www.jobscout24.ch",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "CH"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobscout24/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 185161,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobscout24.ch",
+     "title": "JobScout24 homepage",
+     "accessed": "2026-11-09",
+     "quote": "Hier finden Sie sämtliche Stellenangebote für alle Regionen und Berufe der Schweiz.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "job-room-arbeit-swiss",
+   "name": "Job-Room (arbeit.swiss)",
+   "url": "https://www.arbeit.swiss",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "CH"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/job-room-arbeit-swiss/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 125372,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.arbeit.swiss",
+     "title": "arbeit.swiss homepage",
+     "accessed": "2026-11-09",
+     "quote": "Nutzen Sie die digitalen Angebote der ALV und öAV!",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobwinner-ch",
+   "name": "jobwinner.ch",
+   "url": "https://www.jobwinner.ch",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "CH"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobwinner-ch/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 826679,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobwinner.ch",
+     "title": "jobwinner.ch homepage",
+     "accessed": "2026-11-09",
+     "quote": "ein effizienter und zuverlässiger Stellenmarkt für Arbeitssuchende",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "alpha-ch",
+   "name": "alpha.ch",
+   "url": "https://www.alpha.ch",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "CH"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "professionals and executives",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/alpha-ch/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "executive",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.alpha.ch",
+     "title": "alpha.ch homepage",
+     "accessed": "2026-11-09",
+     "quote": "Stellenangebote für Fach- und Führungskräfte",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "ictjobs-ch",
+   "name": "ictjobs.ch",
+   "url": "https://www.ictjobs.ch",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "CH"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "tech",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/ictjobs-ch/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.ictjobs.ch",
+     "title": "ictjobs.ch homepage",
+     "accessed": "2026-11-09",
+     "quote": "Die Jobplattform der Schweizer IT-Branche",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "ictcareer-ch",
+   "name": "ICTcareer.ch",
+   "url": "https://www.ictcareer.ch",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "CH"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "tech",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/ictcareer-ch/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.ictcareer.ch",
+     "title": "ICTcareer.ch homepage",
+     "accessed": "2026-11-09",
+     "quote": "Stellenangebote für Fachkräfte aus der Informatik",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "medienjobs-ch",
+   "name": "medienjobs.ch",
+   "url": "https://www.medienjobs.ch",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "CH"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "media and communications",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/medienjobs-ch/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "creative-media",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.medienjobs.ch",
+     "title": "medienjobs.ch homepage",
+     "accessed": "2026-11-09",
+     "quote": "medienjobs.ch ist das spezialisierte Online-Jobportal für Fach- und Führungskräfte",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobnet",
+   "name": "Jobnet",
+   "url": "https://jobnet.dk",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobnet/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 190397,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobnet.dk/",
+     "title": "Jobnet homepage",
+     "accessed": "2026-11-09",
+     "quote": "Find dit nye job",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "workindenmark",
+   "name": "WorkInDenmark",
+   "url": "https://workindenmark.dk",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general (international candidates)",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/workindenmark/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 146680,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://workindenmark.dk/",
+     "title": "Workindenmark homepage",
+     "accessed": "2026-11-09",
+     "quote": "Search among vacant positions from a wide range of Danish companies.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobsearch-dk",
+   "name": "Jobsearch.dk",
+   "url": "https://www.jobsearch.dk",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobsearch-dk/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobsearch.dk/rekruttering",
+     "title": "Jobsearch.dk recruitment page",
+     "accessed": "2026-11-09",
+     "quote": "Her kan du se deres profiler og kontakte de kandidater, der matcher dine behov.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "doi-jobs",
+   "name": "DOI Jobs",
+   "url": "https://doi.dk",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "public sector (municipal)",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/doi-jobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://doi.dk/en/jobs",
+     "title": "DOI Jobs page",
+     "accessed": "2026-11-09",
+     "quote": "DOI Jobs provides you with a comprehensive overview of all available positions from all 98 Danish municipalities.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "it-jobbank-computerworld-it-jobbank",
+   "name": "IT-jobbank (Computerworld it-jobbank)",
+   "url": "https://www.it-jobbank.dk",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "tech",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/it-jobbank-computerworld-it-jobbank/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.it-jobbank.dk/",
+     "title": "Computerworld it-jobbank homepage",
+     "accessed": "2026-11-09",
+     "quote": "Computerworld it-jobbank kan hjælpe dig med at annoncere, finde og udvælge de rigtige profiler",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "techjob",
+   "name": "TechJob",
+   "url": "https://techjob.dk",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "tech and engineering",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/techjob/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "engineering",
+    "job-board",
+    "tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://techjob.dk/",
+     "title": "TechJob homepage",
+     "accessed": "2026-11-09",
+     "quote": "TechJob - job i tech, IT og ingeniørbranchen",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "the-hub",
+   "name": "The Hub",
+   "url": "https://thehub.io",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK",
+    "NO"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "startup and tech",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/the-hub/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 43748,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "startup",
+    "tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://thehub.io/",
+     "title": "The Hub homepage",
+     "accessed": "2026-11-09",
+     "quote": "We connect global talents with career opportunities in Nordic startups.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "akademikerjob-dk",
+   "name": "Akademikerjob.dk",
+   "url": "https://akademikerjob.dk",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "academics",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/akademikerjob-dk/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "education",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://akademikerjob.dk/",
+     "title": "Akademikerjob.dk homepage",
+     "accessed": "2026-11-09",
+     "quote": "Akademiker? Find dit nye job her",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "job-dsr-dk",
+   "name": "job.dsr.dk",
+   "url": "https://job.dsr.dk",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "healthcare (nursing)",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/job-dsr-dk/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 292622,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "healthcare",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://job.dsr.dk/",
+     "title": "job.dsr.dk homepage",
+     "accessed": "2026-11-09",
+     "quote": "På job.dsr.dk finder du jobopslag fra hele landet",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "sundhedsjobs-dk",
+   "name": "Sundhedsjobs.dk",
+   "url": "https://www.sundhedsjobs.dk",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "healthcare",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/sundhedsjobs-dk/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "healthcare",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.sundhedsjobs.dk/in-english",
+     "title": "Sundhedsjobs.dk English page",
+     "accessed": "2026-11-09",
+     "quote": "The interest organisation Danish Regions operates Sundhedsjobs.dk for the five Danish regions.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "ufaglaertejobs-dk",
+   "name": "Ufaglaertejobs.dk",
+   "url": "https://www.ufaglaertejobs.dk",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "unskilled and entry-level jobs",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/ufaglaertejobs-dk/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.ufaglaertejobs.dk/",
+     "title": "Ufaglaertejobs.dk homepage",
+     "accessed": "2026-11-09",
+     "quote": "DK´s store portal for ufaglærte jobs!",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobscenen",
+   "name": "Jobscenen",
+   "url": "https://jobscenen.dmf.dk",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "arts and creative",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobscenen/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "creative-media",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobscenen.dmf.dk/page/om-jobscenen",
+     "title": "Jobscenen about page",
+     "accessed": "2026-11-09",
+     "quote": "Danmarks eneste jobportal for kunstnere og kreative.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "sydjob",
+   "name": "Sydjob",
+   "url": "https://www.sydjob.dk",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "regional (Southern Denmark)",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/sydjob/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.sydjob.dk/",
+     "title": "Sydjob homepage",
+     "accessed": "2026-11-09",
+     "quote": "914 job i Sønderjylland",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobs-in-copenhagen",
+   "name": "Jobs in Copenhagen",
+   "url": "http://jobsincopenhagen.com",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "DK"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "English-speaking professionals",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobs-in-copenhagen/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "http://jobsincopenhagen.com/",
+     "title": "Jobs in Copenhagen homepage",
+     "accessed": "2026-11-09",
+     "quote": "a single, easy-to-use online job portal for recruiters",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "duunitori",
+   "name": "Duunitori",
+   "url": "https://duunitori.fi",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "FI"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/duunitori/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 99058,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://duunitori.fi",
+     "title": "Duunitori homepage",
+     "accessed": "2026-11-09",
+     "quote": "Duunitori™ on Suomen suurin työnhakukone ja uudenaikainen rekrytointimedia.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobly",
+   "name": "Jobly",
+   "url": "https://www.jobly.fi",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "FI"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobly/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 329277,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobly.fi",
+     "title": "Jobly homepage",
+     "accessed": "2026-11-09",
+     "quote": "Joblysta löydät avoimet työpaikat kaikilta aloilta ja paikkakunnilta,",
+     "quote_check": "unreachable"
+    }
+   ]
+  },
+  {
+   "id": "ty-markkinatori",
+   "name": "Työmarkkinatori",
+   "url": "https://www.tyomarkkinatori.fi",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "FI"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/ty-markkinatori/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 60196,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.tyomarkkinatori.fi",
+     "title": "Työmarkkinatori homepage",
+     "accessed": "2026-11-09",
+     "quote": "Töiden ja tekijöiden kohtaamispaikka.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "valtiolle-fi",
+   "name": "Valtiolle.fi",
+   "url": "https://www.valtiolle.fi",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "FI"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/valtiolle-fi/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 560482,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.valtiolle.fi",
+     "title": "Valtiolle.fi homepage",
+     "accessed": "2026-11-09",
+     "quote": "Valtiolle.fi on Suomen valtion työnhakupalvelu.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "kuntarekry",
+   "name": "Kuntarekry",
+   "url": "https://www.kuntarekry.fi",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "FI"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "public sector",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/kuntarekry/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 337684,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.kuntarekry.fi",
+     "title": "Kuntarekry homepage",
+     "accessed": "2026-11-09",
+     "quote": "Kuntarekry-palvelun tuottaa Talentech.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobcrawls",
+   "name": "JobCrawls",
+   "url": "https://www.jobcrawls.com",
+   "domains": "",
+   "type": "aggregator",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "FI"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobcrawls/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-aggregator"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobcrawls.com",
+     "title": "JobCrawls homepage",
+     "accessed": "2026-11-09",
+     "quote": "JobCrawls is a job search engine for Finland.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobbnorge",
+   "name": "Jobbnorge",
+   "url": "https://jobbnorge.no",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "NO"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobbnorge/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 58846,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobbnorge.no/search/en",
+     "title": "Jobbnorge job search page",
+     "accessed": "2026-11-09",
+     "quote": "In our job search you will find vacancies within the desired category, geographical location or industry.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "karier-co",
+   "name": "KarieR.co",
+   "url": "https://karier.co/no/",
+   "domains": "",
+   "type": "aggregator",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "NO"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/karier-co/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 811886,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-aggregator"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://karier.co/no/",
+     "title": "KarieR.co Norwegian homepage",
+     "accessed": "2026-11-09",
+     "quote": "Fortsett søknaden hos den opprinnelige kilden.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "tekjobb",
+   "name": "Tekjobb",
+   "url": "https://tekjobb.no",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "NO"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "tech",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/tekjobb/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://tekjobb.no/",
+     "title": "Tekjobb homepage",
+     "accessed": "2026-11-09",
+     "quote": "Tekjobb er jobbportalen der høyt utdannede ingeniører og teknologer møter attraktive teknologibedrifter.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "startuplab-jobs",
+   "name": "STARTUPLAB Jobs",
+   "url": "https://jobs.startuplab.no",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "NO"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "tech startups",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/startuplab-jobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 552429,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "startup",
+    "tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobs.startuplab.no/",
+     "title": "STARTUPLAB jobs homepage",
+     "accessed": "2026-11-09",
+     "quote": "Work for Norway's most exciting tech startups.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "remowork",
+   "name": "RemoWork",
+   "url": "https://remowork.life",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "NO"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "remote",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/remowork/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "remote"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://remowork.life/remote-jobs-in/norway",
+     "title": "RemoWork Norway remote jobs page",
+     "accessed": "2026-11-09",
+     "quote": "The calm remote-work platform: quality roles, real talent, no spam.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "kampanje-jobb",
+   "name": "Kampanje Jobb",
+   "url": "https://jobb.kampanje.com",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "NO"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "media and communications",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/kampanje-jobb/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 146587,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "creative-media",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobb.kampanje.com/",
+     "title": "Kampanje job listings page",
+     "accessed": "2026-11-09",
+     "quote": "Ledige stillinger i medie- og kommunikasjonsbransjen.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobsinoslo",
+   "name": "Jobsinoslo",
+   "url": "http://jobsinoslo.com",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "NO"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "English-speaking professionals in Oslo",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobsinoslo/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "http://jobsinoslo.com/",
+     "title": "Jobsinoslo homepage",
+     "accessed": "2026-11-09",
+     "quote": "a single, easy-to-use online job portal for recruiters looking to fill in positions",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "sapo-emprego",
+   "name": "SAPO Emprego",
+   "url": "https://emprego.sapo.pt",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "PT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/sapo-emprego/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 2015,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://emprego.sapo.pt",
+     "title": "SAPO Emprego homepage",
+     "accessed": "2026-11-09",
+     "quote": "Encontre o emprego certo",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "expresso-emprego",
+   "name": "Expresso Emprego",
+   "url": "https://www.expressoemprego.pt",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "PT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/expresso-emprego/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 652611,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.expressoemprego.pt",
+     "title": "Expresso Emprego homepage title",
+     "accessed": "2026-11-09",
+     "quote": "A sua Carreira é o nosso Trabalho",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "iefp-iefponline",
+   "name": "IEFP iefponline",
+   "url": "https://iefponline.iefp.pt",
+   "domains": "",
+   "type": "government",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "PT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/iefp-iefponline/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 49468,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "government-operated",
+    "government-service",
+    "job-board",
+    "public-sector"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://iefponline.iefp.pt",
+     "title": "iefponline homepage",
+     "accessed": "2026-11-09",
+     "quote": "Serviço do IEFP que apresenta apoios dirigidos a cidadãos e empregadores.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "olx-portugal-emprego",
+   "name": "OLX Portugal Emprego",
+   "url": "https://www.olx.pt/emprego/",
+   "domains": "",
+   "type": "board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "PT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "general",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/olx-portugal-emprego/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not comparable",
+    "global_rank": 74228,
+    "scope": "section",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "general",
+    "job-board"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.olx.pt/emprego/",
+     "title": "OLX Portugal jobs section page",
+     "accessed": "2026-11-09",
+     "quote": "Ofertas de Emprego em Portugal | OLX Portugal",
+     "quote_check": "unreachable"
+    }
+   ]
+  },
+  {
+   "id": "landing-jobs",
+   "name": "Landing.jobs",
+   "url": "https://landing.jobs",
+   "domains": "",
+   "type": "niche-board",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "PT"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "tech",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/landing-jobs/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 282159,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-09"
+   },
+   "tags": [
+    "job-board",
+    "tech"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://landing.jobs",
+     "title": "Landing.jobs homepage title",
+     "accessed": "2026-11-09",
+     "quote": "Find Tech Jobs in Europe",
      "quote_check": "ok"
     }
    ]

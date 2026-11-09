@@ -10,19 +10,21 @@
  "countries_served": [
   "PL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pl",
+ "languages_supported": [
+  "pl"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "pay per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Employer ad packages are priced net in PLN. Four packages are listed at 649 to 1649 PLN net. No HQ, parent, API or partner program was stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/praca-pl/",
  "indexable": false,
@@ -36,10 +38,18 @@
  },
  "tags": [
   "general",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "praca-pl",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+  "note": "Homepage, services and employer pages read; ad prices stated, no developer or partner page linked.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +59,22 @@
    "title": "Praca.pl homepage",
    "accessed": "2026-11-09",
    "quote": "Aktualne ogłoszenia o pracę od zweryfikowanych pracodawców publikujących u nas od lat.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.praca.pl/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Praca. I kropka.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.praca.pl/nasze-uslugi",
+   "title": "Services and ad pricing",
+   "accessed": "2026-11-09",
+   "quote": "649 PLN (netto)",
    "quote_check": "ok"
   }
  ]

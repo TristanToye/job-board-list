@@ -10,22 +10,26 @@
  "countries_served": [
   "IE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Europe",
  "niche": "nonprofit",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free for members",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Jobs board lists paid and voluntary roles. Posting is free for members. No HQ, parent, API or partner program was stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/the-wheel/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,11 +39,19 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "job-board",
   "nonprofit"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "the-wheel",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+  "note": "Homepage, jobs board and about pages read; free member posting stated, no HQ or API.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +61,30 @@
    "title": "The Wheel homepage",
    "accessed": "2026-11-09",
    "quote": "Free jobs posting",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.wheel.ie/jobs-board/",
+   "title": "Jobs board",
+   "accessed": "2026-11-09",
+   "quote": "Browse paid and voluntary positions in Ireland’s non-profit sector",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.wheel.ie/jobs-board/",
+   "title": "Jobs board",
+   "accessed": "2026-11-09",
+   "quote": "Post a job for free (only for members of The Wheel).",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.wheel.ie/jobs-board/",
+   "title": "Jobs board",
+   "accessed": "2026-11-09",
+   "quote": "Post a job for free (only for members of The Wheel).",
    "quote_check": "ok"
   }
  ]

@@ -10,22 +10,26 @@
  "countries_served": [
   "IE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Europe",
  "niche": "healthcare",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Niche Jobs Ltd",
+ "business_model": "per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Parent company address is in the United Kingdom (Hailsham, East Sussex). Products page shows single job ads at EUR 295 (Bronze), EUR 495 (Silver) and EUR 595 (Gold), a basic 10-job bundle at EUR 750, and a multiple-job account with automated posting and ATS option on request. No language switcher, API or partner program found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/healthcarejobs-ie/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
@@ -35,11 +39,20 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "ats-integration",
   "healthcare",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "healthcarejobs-ie",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;api_status;partner_program",
+  "note": "Homepage and products page read; parent company, UK address and per-job prices confirmed. No language switcher, API or partner program found.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +62,46 @@
    "title": "Healthcarejobs.ie homepage",
    "accessed": "2026-11-09",
    "quote": "Healthcarejobs.ie connects healthcare professionals in Ireland with opportunities across the full spectrum of the sector",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.healthcarejobs.ie/products",
+   "title": "Products page company address",
+   "accessed": "2026-11-09",
+   "quote": "Niche Jobs Ltd 30-34 North Street Hailsham East Sussex BN27 1DW United Kingdom",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.healthcarejobs.ie/products",
+   "title": "Products page company address",
+   "accessed": "2026-11-09",
+   "quote": "Healthcarejobs.ie belongs to: Niche Jobs Ltd",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.healthcarejobs.ie/",
+   "title": "Homepage about text",
+   "accessed": "2026-11-09",
+   "quote": "Healthcarejobs.ie is Ireland's longest running independent job board for in healthcare.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.healthcarejobs.ie/products",
+   "title": "Products page bulk offer",
+   "accessed": "2026-11-09",
+   "quote": "Save 60% when you buy in bulk.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.healthcarejobs.ie/products",
+   "title": "Products page multiple job ad option",
+   "accessed": "2026-11-09",
+   "quote": "Automated job posting, ATS, Multiposters",
    "quote_check": "ok"
   }
  ]

@@ -1,12 +1,13 @@
 # Technology
 
-Software 31 entries in the directory.
+Software 41 entries in the directory.
 
 - [Toptal](https://jobboardlist.com/boards/toptal/): freelance-platform
 - [The Adecco Group](https://jobboardlist.com/boards/the-adecco-group/): staffing
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Partner-only API
 - [Resume Genius](https://jobboardlist.com/boards/resume-genius/): career-services
+- [The Hub](https://jobboardlist.com/boards/the-hub/): niche-board
 - [Codeable](https://jobboardlist.com/boards/codeable/): freelance-platform
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
 - [Codility](https://jobboardlist.com/boards/codility/): hr-tech, API key on request
@@ -18,6 +19,7 @@ Software 31 entries in the directory.
 - [Arbeitnow](https://jobboardlist.com/boards/arbeitnow/): niche-board, Open API (no key)
 - [Japan Dev](https://jobboardlist.com/boards/japan-dev/): niche-board
 - [Tecnoempleo](https://jobboardlist.com/boards/tecnoempleo/): niche-board
+- [Landing.jobs](https://jobboardlist.com/boards/landing-jobs/): niche-board
 - [OfferZen](https://jobboardlist.com/boards/offerzen/): niche-board
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
 - [Berlin Startup Jobs](https://jobboardlist.com/boards/berlin-startup-jobs/): niche-board
@@ -27,11 +29,19 @@ Software 31 entries in the directory.
 - [Built In](https://jobboardlist.com/boards/built-in/): board
 - [Hacker News Who is hiring](https://jobboardlist.com/boards/hn-whoishiring/): community, Open API (no key)
 - [Salt Recruitment Jobs](https://jobboardlist.com/boards/salt-recruitment-jobs/): board
+- [STARTUPLAB Jobs](https://jobboardlist.com/boards/startuplab-jobs/): niche-board
+- [Engineering.jobs (Belgium)](https://jobboardlist.com/boards/engineering-jobs-belgium/): niche-board
 - [Hireline](https://jobboardlist.com/boards/hireline/): board
+- [ICTcareer.ch](https://jobboardlist.com/boards/ictcareer-ch/): niche-board
+- [ictjobs.ch](https://jobboardlist.com/boards/ictjobs-ch/): niche-board
 - [International IT Jobs](https://jobboardlist.com/boards/iitjobs/): board
 - [iProgrammatori](https://jobboardlist.com/boards/iprogrammatori/): niche-board
+- [IT-jobbank (Computerworld it-jobbank)](https://jobboardlist.com/boards/it-jobbank-computerworld-it-jobbank/): niche-board
 - [ITJob.au](https://jobboardlist.com/boards/itjob-au/): niche-board
 - [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
 - [ProgramaThor](https://jobboardlist.com/boards/programathor/): niche-board
+- [TechJob](https://jobboardlist.com/boards/techjob/): niche-board
+- [Techjobs.be](https://jobboardlist.com/boards/techjobs-be/): niche-board
+- [Tekjobb](https://jobboardlist.com/boards/tekjobb/): niche-board
 
 Canonical page: https://jobboardlist.com/tags/tech/

@@ -28,6 +28,7 @@ Eurostat is a labour market information source, focused on European Union statis
 - [About us](https://ec.europa.eu/eurostat/web/main/about-us) (Languages, checked 2026-11-06): "español"
 - [API - Getting started](https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started) (API access, checked 2026-11-06): "Statistics API is a REST web service for data query focused on supporting Eurostat Visualisations Tools and open for public use."
 - [Eurostat about us (language selector)](https://ec.europa.eu/eurostat/en/about-us) (Languages, checked 2026-11-06): "Select your language."
+- [EURAXESS job search](https://euraxess.ec.europa.eu/jobs/search?keywords=Oslo) (Existence and description, checked 2026-11-09): "Explore thousands of job vacancies, funding opportunities, and hosting positions available across Europe and beyond."
 
 Canonical page: https://jobboardlist.com/boards/eurostat/
-Last updated: 2026-11-06
+Last updated: 2026-11-09

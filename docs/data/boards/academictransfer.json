@@ -11,7 +11,10 @@
   "NL"
  ],
  "primary_language": "",
- "languages_supported": [],
+ "languages_supported": [
+  "nl",
+  "en"
+ ],
  "region": "Europe",
  "niche": "academic and research",
  "segment": "",
@@ -22,7 +25,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Language menu offers Nederlands and EN. Employer pricing is not stated on the pages read. Homepage and employer pages show no API or partner program. The /api, /developers and /partners paths returned 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/academictransfer/",
  "indexable": false,
@@ -39,7 +42,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "academictransfer",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;parent;partner_program",
+  "note": "Homepage shows Nederlands and EN language options and a Post a job link; no pricing, parent or partner program stated on pages read.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +59,22 @@
    "title": "AcademicTransfer homepage",
    "accessed": "2026-11-09",
    "quote": "Ontdek jouw carrièrestap in de wetenschap.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.academictransfer.com/",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-09",
+   "quote": "Nederlands",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.academictransfer.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Post a job",
    "quote_check": "ok"
   }
  ]

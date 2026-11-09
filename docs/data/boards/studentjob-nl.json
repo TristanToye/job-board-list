@@ -10,22 +10,26 @@
  "countries_served": [
   "NL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nl",
+ "languages_supported": [
+  "nl"
+ ],
  "region": "Europe",
  "niche": "students",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "YoungCapital",
+ "business_model": "per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Parent stated in footer. Employer page lists 30-day vacancy prices of EUR 199 (Premium) and EUR 398 (Top Premium), and a free first vacancy for new customers. No language switcher found; the 'International' menu links to country sites. Developer/API and partner pages were not read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/studentjob-nl/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -36,10 +40,18 @@
  },
  "tags": [
   "graduates-students",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "studentjob-nl",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program",
+  "note": "Homepage, employer page and footer read; prices and parent stated. No language switcher or HQ stated. Developer/API and partner pages not read.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +61,38 @@
    "title": "StudentJob.nl homepage",
    "accessed": "2026-11-09",
    "quote": "Ga snel aan de slag en vind de leukste vacatures.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.studentjob.nl/",
+   "title": "Homepage footer",
+   "accessed": "2026-11-09",
+   "quote": "StudentJob.nl is onderdeel van YoungCapital",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.studentjob.nl/personeel-gezocht",
+   "title": "Employer page",
+   "accessed": "2026-11-09",
+   "quote": "Jong en gemotiveerd personeel vind je via StudentJob",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.studentjob.nl/personeel-gezocht",
+   "title": "Employer page pricing",
+   "accessed": "2026-11-09",
+   "quote": "Premium Vacature Regionaal Nationaal € 199 30 dagen",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.studentjob.nl/personeel-gezocht",
+   "title": "Employer page",
+   "accessed": "2026-11-09",
+   "quote": "Op onze website kun je snel en gemakkelijk vacatures plaatsen.",
    "quote_check": "ok"
   }
  ]

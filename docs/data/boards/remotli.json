@@ -15,7 +15,7 @@
   "en"
  ],
  "region": "Europe",
- "niche": "",
+ "niche": "remote",
  "segment": "",
  "parent": "",
  "business_model": "free posting with optional paid upgrades",
@@ -39,7 +39,8 @@
  "tags": [
   "api-open",
   "free-to-post",
-  "job-board"
+  "job-board",
+  "remote"
  ],
  "connections": [],
  "review": {
@@ -83,6 +84,14 @@
    "title": "API documentation",
    "accessed": "2026-11-09",
    "quote": "The public search needs no key; the account endpoints act as the person whose key they carry.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://remotli.ch",
+   "title": "Remotli homepage",
+   "accessed": "2026-11-09",
+   "quote": "Remote-first and flexible roles from companies hiring in Switzerland.",
    "quote_check": "ok"
   }
  ]

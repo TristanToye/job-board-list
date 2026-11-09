@@ -1,104 +1,325 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Praca.pl",
+   "url": "https://www.praca.pl",
+   "primary_language": "pl",
+   "business_model": "pay per post",
+   "notes": "Employer ad packages are priced net in PLN. Four packages are listed at 649 to 1649 PLN net. No HQ, parent, API or partner program was stated on the pages read.",
+   "sources": [
     {
-      "name": "Praca.pl",
-      "url": "https://www.praca.pl",
-      "primary_language": "pl",
-      "business_model": "pay per post",
-      "notes": "Employer ad packages are priced net in PLN. Four packages are listed at 649 to 1649 PLN net. No HQ, parent, API or partner program was stated on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.praca.pl/", "title": "Homepage", "quote": "Praca. I kropka."},
-        {"field": "business_model", "url": "https://www.praca.pl/nasze-uslugi", "title": "Services and ad pricing", "quote": "649 PLN (netto)"},
-        {"field": "business_model", "url": "https://www.praca.pl/nasze-uslugi", "title": "Services and ad pricing", "quote": "Dołącz do kilkudziesięciu tysięcy firm, które znalazły pracowników na Praca.pl."}
-      ]
+     "field": "languages",
+     "url": "https://www.praca.pl/",
+     "title": "Homepage",
+     "quote": "Praca. I kropka.",
+     "check": "ok"
     },
     {
-      "name": "The Wheel",
-      "url": "https://www.wheel.ie",
-      "primary_language": "en",
-      "business_model": "free for members",
-      "ingest_methods": ["manual posting"],
-      "notes": "Jobs board lists paid and voluntary roles. Posting is free for members. No HQ, parent, API or partner program was stated on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.wheel.ie/jobs-board/", "title": "Jobs board", "quote": "Browse paid and voluntary positions in Ireland’s non-profit sector"},
-        {"field": "business_model", "url": "https://www.wheel.ie/jobs-board/", "title": "Jobs board", "quote": "Post a job for free (only for members of The Wheel)."},
-        {"field": "ingest_methods", "url": "https://www.wheel.ie/jobs-board/", "title": "Jobs board", "quote": "Post a job for free (only for members of The Wheel)."}
-      ]
+     "field": "business_model",
+     "url": "https://www.praca.pl/nasze-uslugi",
+     "title": "Services and ad pricing",
+     "quote": "649 PLN (netto)",
+     "check": "ok"
     },
     {
-      "name": "Zorgwerk",
-      "url": "https://www.zorgwerk.nl",
-      "hq_country": "NL",
-      "primary_language": "nl",
-      "partner_program": "yes",
-      "partner_url": "https://www.zorgwerk.nl/platform-partners",
-      "ingest_methods": ["API"],
-      "notes": "Staffing platform for care and childcare work. An API link to the Nedap Ons and Intus Inplanning roster systems is described, with a contact request for details. No parent or employer pricing was stated on the pages read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.zorgwerk.nl/platform-partners", "title": "Partner platform page", "quote": "Postbus 21366 3001 AJ Rotterdam"},
-        {"field": "languages", "url": "https://www.zorgwerk.nl/", "title": "Homepage", "quote": "Doorgaan naar inhoud"},
-        {"field": "partner_program", "url": "https://www.zorgwerk.nl/platform-partners", "title": "Partner platform page", "quote": "Word partner van Zorgwerk en krijg toegang"},
-        {"field": "ingest_methods", "url": "https://www.zorgwerk.nl/koppeling-api", "title": "API integrations", "quote": "De API-koppeling zorgt voor het ophalen van flexaanvragen"}
-      ]
-    },
-    {
-      "name": "InfoPraca.pl",
-      "url": "https://www.infopraca.pl",
-      "primary_language": "pl",
-      "languages_supported": ["pl", "en"],
-      "business_model": "pay per post",
-      "notes": "Job ads are sold in packages. The English company page lists a 21-day job offer at 450zł net, or 310zł in a promotion. No HQ, parent, API or partner program was stated on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.infopraca.pl/", "title": "Homepage", "quote": "Praca Warszawa"},
-        {"field": "languages", "url": "https://www.infopraca.pl/en/company?language=en", "title": "English employer page", "quote": "Choose a package of at least 10 job ads."},
-        {"field": "business_model", "url": "https://www.infopraca.pl/en/company?language=en", "title": "English employer page", "quote": "450zł 310zł /net"}
-      ]
-    },
-    {
-      "name": "OfferZen",
-      "url": "https://www.offerzen.com",
-      "primary_language": "en",
-      "business_model": "pay per hire",
-      "notes": "Self-serve marketplace charges a 12.5 percent pay-per-hire fee. Embedded recruiting and contracting use custom fees. No HQ, parent, API or board partner program was stated on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.offerzen.com/", "title": "Homepage", "quote": "OfferZen is South Africa’s largest tech talent marketplace"},
-        {"field": "business_model", "url": "https://www.offerzen.com/hire-developers/pricing", "title": "Pricing", "quote": "12.5% Pay-per-hire"}
-      ]
-    },
-    {
-      "name": "Hudson RPO",
-      "url": "https://hudsontalent.com",
-      "primary_language": "en",
-      "notes": "Recruitment outsourcing firm rather than a job board. The pages read describe talent services. No HQ, parent, API or partner program was stated.",
-      "sources": [
-        {"field": "languages", "url": "https://hudsontalent.com/about/", "title": "About", "quote": "Hudson Talent Solutions is a global talent solutions partner"}
-      ]
-    },
-    {
-      "name": "Empleo Leon (Chambamodulo)",
-      "url": "https://empleo.leon.gob.mx",
-      "primary_language": "es",
-      "ingest_methods": ["manual posting"],
-      "notes": "Municipal job bank run by Presidencia Municipal de León. The company registration page shows no fee. The country is not stated on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://empleo.leon.gob.mx/", "title": "Homepage", "quote": "Bienvenido a la Bolsa de Empleo"},
-        {"field": "ingest_methods", "url": "https://empleo.leon.gob.mx/", "title": "Homepage", "quote": "PUBLICA VACANTES: Promueve fácilmente tu oferta de trabajo."}
-      ]
+     "field": "business_model",
+     "url": "https://www.praca.pl/nasze-uslugi",
+     "title": "Services and ad pricing",
+     "quote": "Dołącz do kilkudziesięciu tysięcy firm, które znalazły pracowników na Praca.pl.",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Praca.pl", "url": "https://www.praca.pl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program"], "method": "browser", "note": "Homepage, services and employer pages read; ad prices stated, no developer or partner page linked."},
-    {"name": "The Wheel", "url": "https://www.wheel.ie", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program"], "method": "browser", "note": "Homepage, jobs board and about pages read; free member posting stated, no HQ or API."},
-    {"name": "Zorgwerk", "url": "https://www.zorgwerk.nl", "outcome": "partially-verified", "fields_not_found": ["parent", "business_model", "languages"], "method": "browser", "note": "Homepage, API integration and partner pages read; partner program and Rotterdam postal address stated."},
-    {"name": "InfoPraca.pl", "url": "https://www.infopraca.pl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage, employer and JobBox pages read; package prices and English pages stated."},
-    {"name": "OfferZen", "url": "https://www.offerzen.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage, pricing and partners pages read; pay-per-hire fee stated, partners page lists vendor perks only."},
-    {"name": "Hudson RPO", "url": "https://hudsontalent.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage and about pages read; services firm, no job board terms stated."},
-    {"name": "Empleo Leon (Chambamodulo)", "url": "https://empleo.leon.gob.mx", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program"], "method": "browser", "note": "Homepage and company registration pages read; manual vacancy posting and Spanish stated, no fees or country."},
-    {"name": "OLX Praca", "url": "https://www.olx.pl/praca/", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "Browser reader returned a human verification challenge with status 405 and blocked true."}
-  ],
-  "blocked": [
-    {"name": "OLX Praca", "url": "https://www.olx.pl/praca/", "reason": "Human verification challenge, HTTP 405, in browser reader"}
-  ]
+   ]
+  },
+  {
+   "name": "The Wheel",
+   "url": "https://www.wheel.ie",
+   "primary_language": "en",
+   "business_model": "free for members",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Jobs board lists paid and voluntary roles. Posting is free for members. No HQ, parent, API or partner program was stated on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.wheel.ie/jobs-board/",
+     "title": "Jobs board",
+     "quote": "Browse paid and voluntary positions in Ireland’s non-profit sector",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.wheel.ie/jobs-board/",
+     "title": "Jobs board",
+     "quote": "Post a job for free (only for members of The Wheel).",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.wheel.ie/jobs-board/",
+     "title": "Jobs board",
+     "quote": "Post a job for free (only for members of The Wheel).",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Zorgwerk",
+   "url": "https://www.zorgwerk.nl",
+   "hq_country": "NL",
+   "primary_language": "nl",
+   "partner_program": "yes",
+   "partner_url": "https://www.zorgwerk.nl/platform-partners",
+   "ingest_methods": [
+    "API"
+   ],
+   "notes": "Staffing platform for care and childcare work. An API link to the Nedap Ons and Intus Inplanning roster systems is described, with a contact request for details. No parent or employer pricing was stated on the pages read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.zorgwerk.nl/platform-partners",
+     "title": "Partner platform page",
+     "quote": "Postbus 21366 3001 AJ Rotterdam",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.zorgwerk.nl/",
+     "title": "Homepage",
+     "quote": "Doorgaan naar inhoud",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.zorgwerk.nl/platform-partners",
+     "title": "Partner platform page",
+     "quote": "Word partner van Zorgwerk en krijg toegang",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.zorgwerk.nl/koppeling-api",
+     "title": "API integrations",
+     "quote": "De API-koppeling zorgt voor het ophalen van flexaanvragen",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "InfoPraca.pl",
+   "url": "https://www.infopraca.pl",
+   "primary_language": "pl",
+   "languages_supported": [
+    "pl",
+    "en"
+   ],
+   "business_model": "pay per post",
+   "notes": "Job ads are sold in packages. The English company page lists a 21-day job offer at 450zł net, or 310zł in a promotion. No HQ, parent, API or partner program was stated on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.infopraca.pl/",
+     "title": "Homepage",
+     "quote": "Praca Warszawa",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.infopraca.pl/en/company?language=en",
+     "title": "English employer page",
+     "quote": "Choose a package of at least 10 job ads.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.infopraca.pl/en/company?language=en",
+     "title": "English employer page",
+     "quote": "450zł 310zł /net",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "OfferZen",
+   "url": "https://www.offerzen.com",
+   "primary_language": "en",
+   "business_model": "pay per hire",
+   "notes": "Self-serve marketplace charges a 12.5 percent pay-per-hire fee. Embedded recruiting and contracting use custom fees. No HQ, parent, API or board partner program was stated on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.offerzen.com/",
+     "title": "Homepage",
+     "quote": "OfferZen is South Africa’s largest tech talent marketplace",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.offerzen.com/hire-developers/pricing",
+     "title": "Pricing",
+     "quote": "12.5% Pay-per-hire",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Hudson RPO",
+   "url": "https://hudsontalent.com",
+   "primary_language": "en",
+   "notes": "Recruitment outsourcing firm rather than a job board. The pages read describe talent services. No HQ, parent, API or partner program was stated.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://hudsontalent.com/about/",
+     "title": "About",
+     "quote": "Hudson Talent Solutions is a global talent solutions partner",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Empleo Leon (Chambamodulo)",
+   "url": "https://empleo.leon.gob.mx",
+   "primary_language": "es",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Municipal job bank run by Presidencia Municipal de León. The company registration page shows no fee. The country is not stated on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://empleo.leon.gob.mx/",
+     "title": "Homepage",
+     "quote": "Bienvenido a la Bolsa de Empleo",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://empleo.leon.gob.mx/",
+     "title": "Homepage",
+     "quote": "PUBLICA VACANTES: Promueve fácilmente tu oferta de trabajo.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Praca.pl",
+   "url": "https://www.praca.pl",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, services and employer pages read; ad prices stated, no developer or partner page linked."
+  },
+  {
+   "name": "The Wheel",
+   "url": "https://www.wheel.ie",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, jobs board and about pages read; free member posting stated, no HQ or API."
+  },
+  {
+   "name": "Zorgwerk",
+   "url": "https://www.zorgwerk.nl",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "business_model",
+    "languages"
+   ],
+   "method": "browser",
+   "note": "Homepage, API integration and partner pages read; partner program and Rotterdam postal address stated."
+  },
+  {
+   "name": "InfoPraca.pl",
+   "url": "https://www.infopraca.pl",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage, employer and JobBox pages read; package prices and English pages stated."
+  },
+  {
+   "name": "OfferZen",
+   "url": "https://www.offerzen.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage, pricing and partners pages read; pay-per-hire fee stated, partners page lists vendor perks only."
+  },
+  {
+   "name": "Hudson RPO",
+   "url": "https://hudsontalent.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage and about pages read; services firm, no job board terms stated."
+  },
+  {
+   "name": "Empleo Leon (Chambamodulo)",
+   "url": "https://empleo.leon.gob.mx",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage and company registration pages read; manual vacancy posting and Spanish stated, no fees or country."
+  },
+  {
+   "name": "OLX Praca",
+   "url": "https://www.olx.pl/praca/",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "Browser reader returned a human verification challenge with status 405 and blocked true."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "OLX Praca",
+   "url": "https://www.olx.pl/praca/",
+   "reason": "Human verification challenge, HTTP 405, in browser reader"
+  }
+ ]
 }

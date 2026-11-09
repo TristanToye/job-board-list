@@ -16,13 +16,13 @@
  "niche": "healthcare and welfare",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post (packages from € 410)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Homepage states it is part of BSL Media & Learning, and the footer says BSL Media & Learning is part of Springer Nature. Employer page shows placements from € 410 and a flat rate for multiple placements.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/medische-banenbank/",
  "indexable": false,
@@ -36,10 +36,19 @@
  },
  "tags": [
   "healthcare",
-  "job-board"
+  "job-board",
+  "pay-per-post",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "medische-banenbank",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;partner_program;ingest_methods",
+  "note": "Homepage states parent company BSL Media & Learning; employer page shows placements from € 410.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,22 @@
    "title": "Medische banenbank homepage",
    "accessed": "2026-11-09",
    "quote": "Plaats jouw vacatures op een krachtig netwerk van partnersites",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.medischebanenbank.nl",
+   "title": "Homepage about text",
+   "accessed": "2026-11-09",
+   "quote": "Medische banenbank is onderdeel van BSL Media & Learning",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.medischebanenbank.nl/voor-werkgevers/",
+   "title": "Voor werkgevers",
+   "accessed": "2026-11-09",
+   "quote": "Al vanaf € 410,-",
    "quote_check": "ok"
   }
  ]

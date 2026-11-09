@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "olx-praca",
+  "reviewed": "2026-11-09",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Browser reader returned a human verification challenge with status 405 and blocked true.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

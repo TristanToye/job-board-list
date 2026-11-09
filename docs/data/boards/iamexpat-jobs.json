@@ -16,13 +16,13 @@
  "niche": "expats and internationals",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "pay per job",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Hiring page offers pay per job with packages for all needs. No headquarters, parent, language options or API stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/iamexpat-jobs/",
  "indexable": false,
@@ -35,10 +35,18 @@
   "list_date": "2026-11-09"
  },
  "tags": [
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "iamexpat-jobs",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+  "note": "Hiring page states pay per job; no headquarters, language options or API stated on pages read.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +56,14 @@
    "title": "IamExpat career page",
    "accessed": "2026-11-09",
    "quote": "Search jobs for internationals in the Netherlands",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.iamexpat.nl/career/hiring-expats-netherlands",
+   "title": "Recruit international employees in the Netherlands",
+   "accessed": "2026-11-09",
+   "quote": "Pay per job",
    "quote_check": "ok"
   }
  ]

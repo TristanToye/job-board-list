@@ -10,8 +10,10 @@
  "countries_served": [
   "NL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "nl",
+ "languages_supported": [
+  "nl"
+ ],
  "region": "Europe",
  "niche": "graduates and young professionals",
  "segment": "",
@@ -22,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Dutch-language job board for young workers. The employer services page describes a one-off recruitment fee agreed in advance. The /over-ons page returned 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/youngcapital/",
  "indexable": false,
@@ -39,7 +41,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "youngcapital",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;languages",
+  "note": "Homepage and employer services page read; /over-ons returned 404; no language switcher seen; API and partner pages not read.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,22 @@
    "title": "YoungCapital homepage",
    "accessed": "2026-11-09",
    "quote": "Work needs young energy",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.youngcapital.nl/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Op zoek naar een baan, maar weet je nog niet precies wát je zoekt?",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.youngcapital.nl/werkgevers/diensten",
+   "title": "Employer services",
+   "accessed": "2026-11-09",
+   "quote": "Jij betaalt een eenmalige fee die je op voorhand hebt afgesproken.",
    "quote_check": "ok"
   }
  ]

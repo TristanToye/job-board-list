@@ -10,19 +10,22 @@
  "countries_served": [
   "IE"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "ga"
+ ],
  "region": "Europe",
  "niche": "education",
  "segment": "",
- "parent": "",
+ "parent": "IPPN (Irish Primary Principals' Network)",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Site offers English and Gaeilge. Copyright holder is IPPN. The about page gives the registered address as Glounthaune, Co. Cork, which is not stated as headquarters. Employer pricing is not stated on the pages read. No API or partner program is mentioned. The /api, /developers and /partners paths returned 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/educationposts-ie/",
  "indexable": false,
@@ -39,7 +42,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "educationposts-ie",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;partner_program",
+  "note": "Site states English and Gaeilge options and IPPN as copyright holder; no employer pricing, headquarters or partner program stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +59,30 @@
    "title": "EducationPosts.ie homepage",
    "accessed": "2026-11-09",
    "quote": "EducationPosts.ie is Ireland's longest established and most widely used website dedicated to education recruitment.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://educationposts.ie/?lang=en",
+   "title": "Homepage language menu",
+   "accessed": "2026-11-09",
+   "quote": "English Gaeilge",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://educationposts.ie/page/about_ippn",
+   "title": "About IPPN",
+   "accessed": "2026-11-09",
+   "quote": "The Irish Primary Principals' Network, trading as IPPN Limited, is a company limited by guarantee not having a share capital",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://educationposts.ie/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Advertise a Job Post",
    "quote_check": "ok"
   }
  ]

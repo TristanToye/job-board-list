@@ -10,8 +10,10 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "recruitment process outsourcing (RPO)",
  "segment": "",
@@ -22,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Recruitment outsourcing firm rather than a job board. The pages read describe talent services. No HQ, parent, API or partner program was stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/hudson-rpo/",
  "indexable": false,
@@ -38,7 +40,14 @@
   "recruiting-services"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "hudson-rpo",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage and about pages read; services firm, no job board terms stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +57,14 @@
    "title": "Hudson Talent Solutions",
    "accessed": "2026-11-06",
    "quote": "Hudson Talent Solutions supports organizations hiring across multiple regions including the Americas, EMEA, and APAC.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://hudsontalent.com/about/",
+   "title": "About",
+   "accessed": "2026-11-09",
+   "quote": "Hudson Talent Solutions is a global talent solutions partner",
    "quote_check": "ok"
   }
  ]

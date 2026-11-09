@@ -10,8 +10,10 @@
  "countries_served": [
   "ZA"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Africa",
  "niche": "tech",
  "segment": "",
@@ -22,7 +24,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Self-serve marketplace charges a 12.5 percent pay-per-hire fee. Embedded recruiting and contracting use custom fees. No HQ, parent, API or board partner program was stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/offerzen/",
  "indexable": false,
@@ -39,7 +41,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "offerzen",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+  "note": "Homepage, pricing and partners pages read; pay-per-hire fee stated, partners page lists vendor perks only.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +58,14 @@
    "title": "OfferZen homepage",
    "accessed": "2026-11-09",
    "quote": "OfferZen is South Africa's largest tech talent marketplace, connecting top tech talent to the best opportunities",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.offerzen.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "OfferZen is South Africa’s largest tech talent marketplace",
    "quote_check": "ok"
   }
  ]

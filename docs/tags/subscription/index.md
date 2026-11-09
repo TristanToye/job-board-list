@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 79 entries in the directory.
+Employers pay a recurring fee or plan. 85 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -37,6 +37,7 @@ Employers pay a recurring fee or plan. 79 entries in the directory.
 - [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [Employment Hero](https://jobboardlist.com/boards/employment-hero/): hr-tech
+- [eRecruiter](https://jobboardlist.com/boards/erecruiter/): multiposting
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
 - [Catho](https://jobboardlist.com/boards/catho/): board
@@ -55,16 +56,20 @@ Employers pay a recurring fee or plan. 79 entries in the directory.
 - [Wanted](https://jobboardlist.com/boards/wanted/): board
 - [Jobberman](https://jobboardlist.com/boards/jobberman/): board
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech
+- [Aplikuj.pl](https://jobboardlist.com/boards/aplikuj-pl/): board
 - [Kalibrr](https://jobboardlist.com/boards/kalibrr/): board
 - [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
 - [Careers24](https://jobboardlist.com/boards/careers24/): board
+- [Gradireland](https://jobboardlist.com/boards/gradireland/): niche-board
 - [BrighterMonday](https://jobboardlist.com/boards/brightermonday/): board
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
 - [ApplyToEducation](https://jobboardlist.com/boards/applytoeducation/): board
 - [Jobs.ca](https://jobboardlist.com/boards/jobs-ca/): board, No known API
 - [Bumeran](https://jobboardlist.com/boards/bumeran/): board
+- [JobMail](https://jobboardlist.com/boards/jobmail/): board
 - [WeLoveDevs](https://jobboardlist.com/boards/welovedevs/): niche-board
+- [Medische Banenbank](https://jobboardlist.com/boards/medische-banenbank/): niche-board
 - [Mynavi](https://jobboardlist.com/boards/mynavi/): board, No known API
 - [The Muse](https://jobboardlist.com/boards/themuse/): board+employer-brand, Self-serve API key
 - [Kleinanzeigen](https://jobboardlist.com/boards/kleinanzeigen/): board
@@ -77,9 +82,5 @@ Employers pay a recurring fee or plan. 79 entries in the directory.
 - [EnRoute Jobs](https://jobboardlist.com/boards/enroute-jobs/): board
 - [Go Zambia Jobs](https://jobboardlist.com/boards/go-zambia-jobs/): board
 - [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
-- [Jobstoday Ltd.](https://jobboardlist.com/boards/jobstoday-ltd/): board
-- [Maison de Talents](https://jobboardlist.com/boards/maison-de-talents/): board
-- [Trovolavoro](https://jobboardlist.com/boards/trovolavoro/): board
-- [Vieclam.net](https://jobboardlist.com/boards/vieclam-net/): board
 
 Canonical page: https://jobboardlist.com/tags/subscription/

@@ -10,19 +10,22 @@
  "countries_served": [
   "PL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pl",
+ "languages_supported": [
+  "pl",
+  "en"
+ ],
  "region": "Europe",
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "pay per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Job ads are sold in packages. The English company page lists a 21-day job offer at 450zł net, or 310zł in a promotion. No HQ, parent, API or partner program was stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/infopraca-pl/",
  "indexable": false,
@@ -36,10 +39,18 @@
  },
  "tags": [
   "general",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "infopraca-pl",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
+  "note": "Homepage, employer and JobBox pages read; package prices and English pages stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +60,30 @@
    "title": "infoPraca.pl homepage",
    "accessed": "2026-11-09",
    "quote": "infoPraca.pl zapewnia dostęp do nowoczesnych narzędzi rekrutacyjnych i wyszukiwania pracy online",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.infopraca.pl/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Praca Warszawa",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.infopraca.pl/en/company?language=en",
+   "title": "English employer page",
+   "accessed": "2026-11-09",
+   "quote": "Choose a package of at least 10 job ads.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.infopraca.pl/en/company?language=en",
+   "title": "English employer page",
+   "accessed": "2026-11-09",
+   "quote": "450zł 310zł /net",
    "quote_check": "ok"
   }
  ]

@@ -10,8 +10,13 @@
  "countries_served": [
   "NL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "fr",
+  "pt",
+  "zh"
+ ],
  "region": "Europe",
  "niche": "expats and internationals",
  "segment": "",
@@ -22,7 +27,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Advertising packages are sold, but no prices are shown. Listings on the jobs page link out to third-party sites (Adzuna and Jooble affiliate links), and the page does not state how listings are sourced. Language list comes from the network switcher on the jobs page, which lists country and language variants of Expatica.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/expatica-netherlands-jobs/",
  "indexable": false,
@@ -38,7 +43,14 @@
   "job-aggregator"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "expatica-netherlands-jobs",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Jobs and advertise pages read; English content and language variants confirmed. No headquarters, parent, prices or listing method stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +60,22 @@
    "title": "Expatica Netherlands job search page",
    "accessed": "2026-11-09",
    "quote": "Find a job",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.expatica.com/advertise-with-expatica/",
+   "title": "Advertise page",
+   "accessed": "2026-11-09",
+   "quote": "We publish English-language content that is easy to digest",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.expatica.com/nl/jobs/",
+   "title": "Jobs page language switcher",
+   "accessed": "2026-11-09",
+   "quote": "Canada (Français)",
    "quote_check": "ok"
   }
  ]

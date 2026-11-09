@@ -10,8 +10,10 @@
  "countries_served": [
   "MX"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "es",
+ "languages_supported": [
+  "es"
+ ],
  "region": "Latin America",
  "niche": "general",
  "segment": "",
@@ -21,8 +23,10 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting"
+ ],
+ "notes": "Municipal job bank run by Presidencia Municipal de León. The company registration page shows no fee. The country is not stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/empleo-leon-chambamodulo/",
  "indexable": false,
@@ -42,7 +46,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "empleo-leon-chambamodulo",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program",
+  "note": "Homepage and company registration pages read; manual vacancy posting and Spanish stated, no fees or country.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +63,22 @@
    "title": "Empleo Leon homepage",
    "accessed": "2026-11-09",
    "quote": "Aquí podrás encontrar tu próximo reto profesional.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://empleo.leon.gob.mx/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Bienvenido a la Bolsa de Empleo",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://empleo.leon.gob.mx/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "PUBLICA VACANTES: Promueve fácilmente tu oferta de trabajo.",
    "quote_check": "ok"
   }
  ]

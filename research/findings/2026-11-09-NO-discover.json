@@ -1,127 +1,243 @@
 {
-  "mode": "discover",
-  "country": "NO",
-  "boards": [
+ "mode": "discover",
+ "country": "NO",
+ "boards": [
+  {
+   "name": "Jobbnorge",
+   "url": "https://jobbnorge.no",
+   "type": "board",
+   "niche": "general",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
     {
-      "name": "Jobbnorge",
-      "url": "https://jobbnorge.no",
-      "type": "board",
-      "niche": "general",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "https://jobbnorge.no/search/en", "title": "Jobbnorge job search page", "quote": "In our job search you will find vacancies within the desired category, geographical location or industry."}
-      ]
-    },
-    {
-      "name": "EURAXESS",
-      "url": "https://euraxess.ec.europa.eu/jobs/search?keywords=Oslo",
-      "type": "board",
-      "niche": "research",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "https://euraxess.ec.europa.eu/jobs/search?keywords=Oslo", "title": "EURAXESS job search", "quote": "Explore thousands of job vacancies, funding opportunities, and hosting positions available across Europe and beyond."}
-      ]
-    },
-    {
-      "name": "KarieR.co",
-      "url": "https://karier.co/no/",
-      "type": "aggregator",
-      "niche": "general",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "https://karier.co/no/", "title": "KarieR.co Norwegian homepage", "quote": "Fortsett søknaden hos den opprinnelige kilden."}
-      ]
-    },
-    {
-      "name": "Jobgether",
-      "url": "https://jobgether.com/remote-jobs/norway/10",
-      "type": "aggregator",
-      "niche": "remote",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "https://jobgether.com/remote-jobs/norway/10", "title": "Jobgether Norway remote jobs page", "quote": "Jobgether is a remote-first job platform listing live remote, hybrid and on-site job opportunities from companies worldwide"}
-      ]
-    },
-    {
-      "name": "Tekjobb",
-      "url": "https://tekjobb.no",
-      "type": "niche-board",
-      "niche": "tech",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "https://tekjobb.no/", "title": "Tekjobb homepage", "quote": "Tekjobb er jobbportalen der høyt utdannede ingeniører og teknologer møter attraktive teknologibedrifter."}
-      ]
-    },
-    {
-      "name": "CW Stilling (Computerworld)",
-      "url": "https://www.cw.no/stilling",
-      "type": "niche-board",
-      "niche": "tech",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "https://www.cw.no/stilling", "title": "CW Stilling job section", "quote": "LEDIGE STILLINGER"}
-      ]
-    },
-    {
-      "name": "STARTUPLAB Jobs",
-      "url": "https://jobs.startuplab.no",
-      "type": "niche-board",
-      "niche": "tech startups",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "https://jobs.startuplab.no/", "title": "STARTUPLAB jobs homepage", "quote": "Work for Norway's most exciting tech startups."}
-      ]
-    },
-    {
-      "name": "The Hub",
-      "url": "https://thehub.io",
-      "type": "niche-board",
-      "niche": "startups",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "https://thehub.io/", "title": "The Hub homepage", "quote": "We connect global talents with career opportunities in Nordic startups."}
-      ]
-    },
-    {
-      "name": "RemoWork",
-      "url": "https://remowork.life",
-      "type": "niche-board",
-      "niche": "remote",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "https://remowork.life/remote-jobs-in/norway", "title": "RemoWork Norway remote jobs page", "quote": "The calm remote-work platform: quality roles, real talent, no spam."}
-      ]
-    },
-    {
-      "name": "Kampanje Jobb",
-      "url": "https://jobb.kampanje.com",
-      "type": "niche-board",
-      "niche": "media and communications",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "https://jobb.kampanje.com/", "title": "Kampanje job listings page", "quote": "Ledige stillinger i medie- og kommunikasjonsbransjen."}
-      ]
-    },
-    {
-      "name": "Jobsinoslo",
-      "url": "http://jobsinoslo.com",
-      "type": "niche-board",
-      "niche": "English-speaking professionals in Oslo",
-      "countries_served": ["NO"],
-      "sources": [
-        {"field": "existence", "url": "http://jobsinoslo.com/", "title": "Jobsinoslo homepage", "quote": "a single, easy-to-use online job portal for recruiters looking to fill in positions"}
-      ]
+     "field": "existence",
+     "url": "https://jobbnorge.no/search/en",
+     "title": "Jobbnorge job search page",
+     "quote": "In our job search you will find vacancies within the desired category, geographical location or industry.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "Karrierestart", "url": "https://karrierestart.no", "reason": "HTTP 403 on two requests (one subpage, one retry on the homepage)"},
-    {"name": "DevJobsScanner", "url": "https://www.devjobsscanner.com", "reason": "HTTP 403"},
-    {"name": "Startup.jobs", "url": "https://startup.jobs/locations/norway/startups", "reason": "HTTP 403"},
-    {"name": "AcademicJobs", "url": "https://www.academicjobs.com/en-no/about-us", "reason": "HTTP 403"},
-    {"name": "AcademicPositions", "url": "https://academicpositions.com/no", "reason": "HTTP 403"},
-    {"name": "Life in Norway job vacancies", "url": "https://www.lifeinnorway.net/job-vacancies/", "reason": "HTTP 503"}
-  ],
-  "queue": [
-    {"name": "Teknojobb", "url": "https://www.teknojobb.no", "reason": "Named in a search result as a Norwegian IT jobs portal; homepage returned HTTP 525 on two attempts, so it was not read"}
-  ]
+   ]
+  },
+  {
+   "name": "EURAXESS",
+   "url": "https://euraxess.ec.europa.eu/jobs/search?keywords=Oslo",
+   "type": "board",
+   "niche": "research",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://euraxess.ec.europa.eu/jobs/search?keywords=Oslo",
+     "title": "EURAXESS job search",
+     "quote": "Explore thousands of job vacancies, funding opportunities, and hosting positions available across Europe and beyond.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "KarieR.co",
+   "url": "https://karier.co/no/",
+   "type": "aggregator",
+   "niche": "general",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://karier.co/no/",
+     "title": "KarieR.co Norwegian homepage",
+     "quote": "Fortsett søknaden hos den opprinnelige kilden.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobgether",
+   "url": "https://jobgether.com/remote-jobs/norway/10",
+   "type": "aggregator",
+   "niche": "remote",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobgether.com/remote-jobs/norway/10",
+     "title": "Jobgether Norway remote jobs page",
+     "quote": "Jobgether is a remote-first job platform listing live remote, hybrid and on-site job opportunities from companies worldwide",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Tekjobb",
+   "url": "https://tekjobb.no",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://tekjobb.no/",
+     "title": "Tekjobb homepage",
+     "quote": "Tekjobb er jobbportalen der høyt utdannede ingeniører og teknologer møter attraktive teknologibedrifter.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CW Stilling (Computerworld)",
+   "url": "https://www.cw.no/stilling",
+   "type": "niche-board",
+   "niche": "tech",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.cw.no/stilling",
+     "title": "CW Stilling job section",
+     "quote": "LEDIGE STILLINGER",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "STARTUPLAB Jobs",
+   "url": "https://jobs.startuplab.no",
+   "type": "niche-board",
+   "niche": "tech startups",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobs.startuplab.no/",
+     "title": "STARTUPLAB jobs homepage",
+     "quote": "Work for Norway's most exciting tech startups.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Hub",
+   "url": "https://thehub.io",
+   "type": "niche-board",
+   "niche": "startups",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://thehub.io/",
+     "title": "The Hub homepage",
+     "quote": "We connect global talents with career opportunities in Nordic startups.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "RemoWork",
+   "url": "https://remowork.life",
+   "type": "niche-board",
+   "niche": "remote",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://remowork.life/remote-jobs-in/norway",
+     "title": "RemoWork Norway remote jobs page",
+     "quote": "The calm remote-work platform: quality roles, real talent, no spam.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Kampanje Jobb",
+   "url": "https://jobb.kampanje.com",
+   "type": "niche-board",
+   "niche": "media and communications",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobb.kampanje.com/",
+     "title": "Kampanje job listings page",
+     "quote": "Ledige stillinger i medie- og kommunikasjonsbransjen.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobsinoslo",
+   "url": "http://jobsinoslo.com",
+   "type": "niche-board",
+   "niche": "English-speaking professionals in Oslo",
+   "countries_served": [
+    "NO"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "http://jobsinoslo.com/",
+     "title": "Jobsinoslo homepage",
+     "quote": "a single, easy-to-use online job portal for recruiters looking to fill in positions",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Karrierestart",
+   "url": "https://karrierestart.no",
+   "reason": "HTTP 403 on two requests (one subpage, one retry on the homepage)"
+  },
+  {
+   "name": "DevJobsScanner",
+   "url": "https://www.devjobsscanner.com",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Startup.jobs",
+   "url": "https://startup.jobs/locations/norway/startups",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "AcademicJobs",
+   "url": "https://www.academicjobs.com/en-no/about-us",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "AcademicPositions",
+   "url": "https://academicpositions.com/no",
+   "reason": "HTTP 403"
+  },
+  {
+   "name": "Life in Norway job vacancies",
+   "url": "https://www.lifeinnorway.net/job-vacancies/",
+   "reason": "HTTP 503"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Teknojobb",
+   "url": "https://www.teknojobb.no",
+   "reason": "Named in a search result as a Norwegian IT jobs portal; homepage returned HTTP 525 on two attempts, so it was not read"
+  }
+ ]
 }

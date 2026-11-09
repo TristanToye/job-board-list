@@ -10,22 +10,25 @@
  "countries_served": [
   "PL"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "pl",
+ "languages_supported": [
+  "pl",
+  "en"
+ ],
  "region": "Europe",
  "niche": "nonprofit",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "Stowarzyszenie Klon/Jawor",
+ "business_model": "free basic listing, paid featured listings",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Footer says the portal is run by Stowarzyszenie Klon/Jawor. Regular listings are free and featured listings are priced for 7, 14 or 30 days. An English link is in the footer. No headquarters, API or partner information is stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/og-oszenia-ngo-pl/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -35,11 +38,19 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "job-board",
   "nonprofit"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "og-oszenia-ngo-pl",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;api_status;partner_program",
+  "note": "Operator, free and paid listing prices and an English footer link are stated; no headquarters, API or partner information.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +60,30 @@
    "title": "Ogłoszenia ngo.pl homepage",
    "accessed": "2026-11-09",
    "quote": "Ogłoszenia ngo.pl odnotowują co miesiąc ponad 470 000 odsłon",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://ogloszenia.ngo.pl/",
+   "title": "Footer",
+   "accessed": "2026-11-09",
+   "quote": "Twój portal prowadzony przez Stowarzyszenie Klon/Jawor",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://ogloszenia.ngo.pl/",
+   "title": "Listing prices",
+   "accessed": "2026-11-09",
+   "quote": "Dodanie tego ogłoszenia nic nie kosztuje.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://ogloszenia.ngo.pl/",
+   "title": "Footer English link",
+   "accessed": "2026-11-09",
+   "quote": "English",
    "quote_check": "ok"
   }
  ]

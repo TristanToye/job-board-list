@@ -16,13 +16,13 @@
  "niche": "government",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Over deze site says posting costs are per vacancy placement, with no amounts shown. Only government organisations may post. No headquarters, parent, language options or API stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/werken-bij-de-overheid/",
  "indexable": false,
@@ -38,10 +38,18 @@
   "government-operated",
   "government-service",
   "job-board",
+  "pay-per-post",
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "werken-bij-de-overheid",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program;ingest_methods",
+  "note": "Over deze site states per-vacancy costs without amounts; no headquarters, language options or API stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -51,6 +59,14 @@
    "title": "WerkenbijdeOverheid.nl homepage",
    "accessed": "2026-11-09",
    "quote": "Hét startpunt van jouw carrière bij de overheid.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.werkenbijdeoverheid.nl/over-deze-site",
+   "title": "Over deze site",
+   "accessed": "2026-11-09",
+   "quote": "Gegarandeerd een groot bereik tegen aantrekkelijke kosten per vacatureplaatsing.",
    "quote_check": "ok"
   }
  ]

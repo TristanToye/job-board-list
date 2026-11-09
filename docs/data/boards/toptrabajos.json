@@ -10,22 +10,26 @@
  "countries_served": [
   "MX"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "es",
+ "languages_supported": [
+  "es"
+ ],
  "region": "Latin America",
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free plan and paid monthly subscriptions",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "job import with AI, limited per plan"
+ ],
+ "notes": "Homepage states a free plan and paid monthly plans, and the ATS page gives the Reclutadores price. The header shows Mexico as a region label, not a headquarters statement. The plans page lists job import with AI. No API or partner information was found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/toptrabajos/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
@@ -35,11 +39,20 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "general",
-  "job-board"
+  "job-board",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "toptrabajos",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+  "note": "Free and paid monthly plans and job import with AI are stated; no headquarters, language options, parent or API information.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +62,38 @@
    "title": "TopTrabajos Mexico page",
    "accessed": "2026-11-09",
    "quote": "Descubre las mejores oportunidades laborales en México.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.toptrabajos.com/mx",
+   "title": "Homepage text",
+   "accessed": "2026-11-09",
+   "quote": "Publica tus vacantes y llega a miles de candidatos en México.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.toptrabajos.com/mx",
+   "title": "Homepage, free plan",
+   "accessed": "2026-11-09",
+   "quote": "Plan gratuito sin límite de tiempo para empezar a recibir candidatos.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.toptrabajos.com/empresas/ats",
+   "title": "ATS page, plan prices",
+   "accessed": "2026-11-09",
+   "quote": "El plan Reclutadores cuesta $149.99/mes (o $1,548/año)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.toptrabajos.com/empresas/planes",
+   "title": "Plans comparison",
+   "accessed": "2026-11-09",
+   "quote": "Importación y mejora de empleos con inteligencia artificial",
    "quote_check": "ok"
   }
  ]

@@ -1,6 +1,6 @@
 # Free to post
 
-Employers can post jobs without paying. 36 entries in the directory.
+Employers can post jobs without paying. 41 entries in the directory.
 
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
@@ -19,7 +19,9 @@ Employers can post jobs without paying. 36 entries in the directory.
 - [Torre.ai](https://jobboardlist.com/boards/torre-ai/): board
 - [StudentJob FR](https://jobboardlist.com/boards/studentjob-fr/): niche-board
 - [Freelancer.nl](https://jobboardlist.com/boards/freelancer-nl/): board
+- [The Wheel](https://jobboardlist.com/boards/the-wheel/): niche-board
 - [StudentJob ES](https://jobboardlist.com/boards/studentjob-es/): niche-board
+- [JobMail](https://jobboardlist.com/boards/jobmail/): board
 - [WeLoveDevs](https://jobboardlist.com/boards/welovedevs/): niche-board
 - [Jobsuche (Bundesagentur fur Arbeit)](https://jobboardlist.com/boards/jobsuche-ba/): government, Self-serve API key
 - [France Travail](https://jobboardlist.com/boards/francetravail/): government, Self-serve API key
@@ -28,13 +30,16 @@ Employers can post jobs without paying. 36 entries in the directory.
 - [Hacker News Who is hiring](https://jobboardlist.com/boards/hn-whoishiring/): community, Open API (no key)
 - [Jobtoday](https://jobboardlist.com/boards/jobtoday/): aggregator
 - [Arbeidsplassen (NAV)](https://jobboardlist.com/boards/nav-arbeidsplassen/): government, Self-serve API key
+- [Ogłoszenia ngo.pl](https://jobboardlist.com/boards/og-oszenia-ngo-pl/): niche-board
 - [JobTech (Arbetsformedlingen)](https://jobboardlist.com/boards/arbetsformedlingen/): government, Open API (no key)
 - [Cerco&Trovo](https://jobboardlist.com/boards/cerco-trovo/): board
 - [Connect Nonprofit Jobs](https://jobboardlist.com/boards/connect-jobs/): niche-board, No known API
 - [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [Jobstoday Ltd.](https://jobboardlist.com/boards/jobstoday-ltd/): board
 - [Maison de Talents](https://jobboardlist.com/boards/maison-de-talents/): board
+- [Portal del Empleo](https://jobboardlist.com/boards/portal-del-empleo/): government
 - [Remotli](https://jobboardlist.com/boards/remotli/): board, Open API (no key)
+- [TopTrabajos](https://jobboardlist.com/boards/toptrabajos/): board
 - [Trovolavoro](https://jobboardlist.com/boards/trovolavoro/): board
 - [Vieclam.net](https://jobboardlist.com/boards/vieclam-net/): board
 - [Yemplea](https://jobboardlist.com/boards/yemplea/): board

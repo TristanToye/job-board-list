@@ -1,113 +1,356 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "StudentJob NL",
+   "url": "https://www.studentjob.nl",
+   "hq_country": null,
+   "parent": "YoungCapital",
+   "primary_language": "nl",
+   "languages_supported": null,
+   "business_model": "per post",
+   "api_status": null,
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Parent stated in footer. Employer page lists 30-day vacancy prices of EUR 199 (Premium) and EUR 398 (Top Premium), and a free first vacancy for new customers. No language switcher found; the 'International' menu links to country sites. Developer/API and partner pages were not read.",
+   "sources": [
     {
-      "name": "StudentJob NL",
-      "url": "https://www.studentjob.nl",
-      "hq_country": null,
-      "parent": "YoungCapital",
-      "primary_language": "nl",
-      "languages_supported": null,
-      "business_model": "per post",
-      "api_status": null,
-      "ingest_methods": ["manual posting"],
-      "notes": "Parent stated in footer. Employer page lists 30-day vacancy prices of EUR 199 (Premium) and EUR 398 (Top Premium), and a free first vacancy for new customers. No language switcher found; the 'International' menu links to country sites. Developer/API and partner pages were not read.",
-      "sources": [
-        {"field": "parent", "url": "https://www.studentjob.nl/", "title": "Homepage footer", "quote": "StudentJob.nl is onderdeel van YoungCapital"},
-        {"field": "languages", "url": "https://www.studentjob.nl/personeel-gezocht", "title": "Employer page", "quote": "Jong en gemotiveerd personeel vind je via StudentJob"},
-        {"field": "business_model", "url": "https://www.studentjob.nl/personeel-gezocht", "title": "Employer page pricing", "quote": "Premium Vacature Regionaal Nationaal € 199 30 dagen"},
-        {"field": "business_model", "url": "https://www.studentjob.nl/personeel-gezocht", "title": "Employer page free vacancy", "quote": "Gratis vacature plaatsen voor nieuwe klanten."},
-        {"field": "ingest_methods", "url": "https://www.studentjob.nl/personeel-gezocht", "title": "Employer page", "quote": "Op onze website kun je snel en gemakkelijk vacatures plaatsen."}
-      ]
+     "field": "parent",
+     "url": "https://www.studentjob.nl/",
+     "title": "Homepage footer",
+     "quote": "StudentJob.nl is onderdeel van YoungCapital",
+     "check": "ok"
     },
     {
-      "name": "Together Abroad",
-      "url": "https://www.togetherabroad.nl",
-      "hq_country": null,
-      "parent": null,
-      "primary_language": "en",
-      "languages_supported": null,
-      "business_model": null,
-      "api_status": null,
-      "ingest_methods": ["manual posting"],
-      "notes": "Homepage footer shows the company name with no address or parent. Employer page offers job posting and CV database access, with no prices shown. No language switcher text found on the homepage. Developer/API and partner pages were not read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.togetherabroad.nl/employer-hr-netherlands.html", "title": "Employer page", "quote": "We help employers to attract global talent."},
-        {"field": "ingest_methods", "url": "https://www.togetherabroad.nl/employer-hr-netherlands.html", "title": "Employer page job posting", "quote": "Post your jobs with us and take advantage of our powerful marketing tools to attract the best candidates for your company."}
-      ]
+     "field": "languages",
+     "url": "https://www.studentjob.nl/personeel-gezocht",
+     "title": "Employer page",
+     "quote": "Jong en gemotiveerd personeel vind je via StudentJob",
+     "check": "ok"
     },
     {
-      "name": "Jobbsafari",
-      "url": "https://www.jobbsafari.se",
-      "hq_country": "SE",
-      "parent": "Duunitori Group",
-      "primary_language": "sv",
-      "languages_supported": ["sv", "en"],
-      "business_model": null,
-      "api_status": null,
-      "ingest_methods": ["manual posting"],
-      "notes": "Homepage lists JobbSafari AB in Stockholm (first of three offices, the others in Helsinki and Norway). The site states it is part of Duunitori Group. An 'In English' link points to an English employer page. No employer prices, API or partner program found on the homepage or employer page.",
-      "sources": [
-        {"field": "existence", "url": "https://www.jobbsafari.se/", "title": "Homepage footer office address", "quote": "JobbSafari AB Grev Turegatan 11A 114 46 Stockholm, Sweden"},
-        {"field": "parent", "url": "https://www.jobbsafari.se/", "title": "Homepage about text", "quote": "JobbSafari är en del av Duunitori Group"},
-        {"field": "languages", "url": "https://www.jobbsafari.se/", "title": "Homepage title", "quote": "Sök bland över 76 380 lediga jobb"},
-        {"field": "languages", "url": "https://jobbsafari.se/for-arbetsgivare", "title": "Employer page language link", "quote": "In English"},
-        {"field": "ingest_methods", "url": "https://jobbsafari.se/for-arbetsgivare", "title": "Employer page create ad link", "quote": "Skapa annons"}
-      ]
+     "field": "business_model",
+     "url": "https://www.studentjob.nl/personeel-gezocht",
+     "title": "Employer page pricing",
+     "quote": "Premium Vacature Regionaal Nationaal € 199 30 dagen",
+     "check": "ok"
     },
     {
-      "name": "Expatica Netherlands Jobs",
-      "url": "https://www.expatica.com/nl/jobs/",
-      "hq_country": null,
-      "parent": null,
-      "primary_language": "en",
-      "languages_supported": ["en", "fr", "pt", "zh"],
-      "business_model": null,
-      "api_status": null,
-      "ingest_methods": null,
-      "notes": "Advertising packages are sold, but no prices are shown. Listings on the jobs page link out to third-party sites (Adzuna and Jooble affiliate links), and the page does not state how listings are sourced. Language list comes from the network switcher on the jobs page, which lists country and language variants of Expatica.",
-      "sources": [
-        {"field": "languages", "url": "https://www.expatica.com/advertise-with-expatica/", "title": "Advertise page", "quote": "We publish English-language content that is easy to digest"},
-        {"field": "languages", "url": "https://www.expatica.com/nl/jobs/", "title": "Jobs page language switcher", "quote": "Canada (Français)"},
-        {"field": "languages", "url": "https://www.expatica.com/nl/jobs/", "title": "Jobs page language switcher", "quote": "Estados Unidos (Português)"},
-        {"field": "languages", "url": "https://www.expatica.com/nl/jobs/", "title": "Jobs page language switcher", "quote": "全球站"}
-      ]
+     "field": "business_model",
+     "url": "https://www.studentjob.nl/personeel-gezocht",
+     "title": "Employer page free vacancy",
+     "quote": "Gratis vacature plaatsen voor nieuwe klanten.",
+     "check": "ok"
     },
     {
-      "name": "Healthcarejobs.ie",
-      "url": "https://www.healthcarejobs.ie",
-      "hq_country": "GB",
-      "parent": "Niche Jobs Ltd",
-      "primary_language": "en",
-      "languages_supported": null,
-      "business_model": "per post",
-      "api_status": null,
-      "ingest_methods": ["ATS integration"],
-      "notes": "Parent company address is in the United Kingdom (Hailsham, East Sussex). Products page shows single job ads at EUR 295 (Bronze), EUR 495 (Silver) and EUR 595 (Gold), a basic 10-job bundle at EUR 750, and a multiple-job account with automated posting and ATS option on request. No language switcher, API or partner program found.",
-      "sources": [
-        {"field": "existence", "url": "https://www.healthcarejobs.ie/products", "title": "Products page company address", "quote": "Niche Jobs Ltd 30-34 North Street Hailsham East Sussex BN27 1DW United Kingdom"},
-        {"field": "parent", "url": "https://www.healthcarejobs.ie/products", "title": "Products page company address", "quote": "Healthcarejobs.ie belongs to: Niche Jobs Ltd"},
-        {"field": "languages", "url": "https://www.healthcarejobs.ie/", "title": "Homepage about text", "quote": "Healthcarejobs.ie is Ireland's longest running independent job board for in healthcare."},
-        {"field": "business_model", "url": "https://www.healthcarejobs.ie/products", "title": "Products page single job price", "quote": "€ 295.00"},
-        {"field": "business_model", "url": "https://www.healthcarejobs.ie/products", "title": "Products page bulk offer", "quote": "Save 60% when you buy in bulk."},
-        {"field": "ingest_methods", "url": "https://www.healthcarejobs.ie/products", "title": "Products page multiple job ad option", "quote": "Automated job posting, ATS, Multiposters"}
-      ]
+     "field": "ingest_methods",
+     "url": "https://www.studentjob.nl/personeel-gezocht",
+     "title": "Employer page",
+     "quote": "Op onze website kun je snel en gemakkelijk vacatures plaatsen.",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "publicjobs.ie", "url": "https://publicjobs.ie", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "Browser reader returned HTTP 403 'Web Page Blocked'. The fetch tool was not run first, because the browser reader was run first in error."},
-    {"name": "StudentJob NL", "url": "https://www.studentjob.nl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "partner_program"], "method": "mixed", "note": "Homepage, employer page and footer read; prices and parent stated. No language switcher or HQ stated. Developer/API and partner pages not read."},
-    {"name": "Together Abroad", "url": "https://www.togetherabroad.nl", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status", "partner_program"], "method": "mixed", "note": "Homepage and employer page read; no address, parent, language options or employer prices stated. Developer/API and partner pages not read."},
-    {"name": "Jobbsafari", "url": "https://www.jobbsafari.se", "outcome": "partially-verified", "fields_not_found": ["business_model", "api_status", "partner_program"], "method": "mixed", "note": "Homepage and employer page read; Stockholm office, Duunitori Group parent and English link confirmed. No employer prices stated. Developer/API and partner pages not read."},
-    {"name": "Expatica Netherlands Jobs", "url": "https://www.expatica.com/nl/jobs/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "mixed", "note": "Jobs and advertise pages read; English content and language variants confirmed. No headquarters, parent, prices or listing method stated."},
-    {"name": "Healthcarejobs.ie", "url": "https://www.healthcarejobs.ie", "outcome": "partially-verified", "fields_not_found": ["languages", "api_status", "partner_program"], "method": "mixed", "note": "Homepage and products page read; parent company, UK address and per-job prices confirmed. No language switcher, API or partner program found."},
-    {"name": "WhatJobs", "url": "https://en-za.whatjobs.com", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "Fetch returned HTTP 403; browser reader returned a Cloudflare 'Performing security verification' challenge with blocked true."},
-    {"name": "BuscoJobs", "url": "https://www.buscojobs.mx", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "Fetch returned HTTP 403; browser reader returned HTTP 403 Forbidden with blocked true."}
-  ],
-  "blocked": [
-    {"name": "publicjobs.ie", "url": "https://publicjobs.ie", "reason": "HTTP 403 'Web Page Blocked' in browser reader"},
-    {"name": "WhatJobs", "url": "https://en-za.whatjobs.com", "reason": "HTTP 403 in fetch; Cloudflare security challenge in browser reader"},
-    {"name": "BuscoJobs", "url": "https://www.buscojobs.mx", "reason": "HTTP 403 in fetch and in browser reader"}
-  ]
+   ]
+  },
+  {
+   "name": "Together Abroad",
+   "url": "https://www.togetherabroad.nl",
+   "hq_country": null,
+   "parent": null,
+   "primary_language": "en",
+   "languages_supported": null,
+   "business_model": null,
+   "api_status": null,
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Homepage footer shows the company name with no address or parent. Employer page offers job posting and CV database access, with no prices shown. No language switcher text found on the homepage. Developer/API and partner pages were not read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.togetherabroad.nl/employer-hr-netherlands.html",
+     "title": "Employer page",
+     "quote": "We help employers to attract global talent.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.togetherabroad.nl/employer-hr-netherlands.html",
+     "title": "Employer page job posting",
+     "quote": "Post your jobs with us and take advantage of our powerful marketing tools to attract the best candidates for your company.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobbsafari",
+   "url": "https://www.jobbsafari.se",
+   "hq_country": "SE",
+   "parent": "Duunitori Group",
+   "primary_language": "sv",
+   "languages_supported": [
+    "sv",
+    "en"
+   ],
+   "business_model": null,
+   "api_status": null,
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "Homepage lists JobbSafari AB in Stockholm (first of three offices, the others in Helsinki and Norway). The site states it is part of Duunitori Group. An 'In English' link points to an English employer page. No employer prices, API or partner program found on the homepage or employer page.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobbsafari.se/",
+     "title": "Homepage footer office address",
+     "quote": "JobbSafari AB Grev Turegatan 11A 114 46 Stockholm, Sweden",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.jobbsafari.se/",
+     "title": "Homepage about text",
+     "quote": "JobbSafari är en del av Duunitori Group",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.jobbsafari.se/",
+     "title": "Homepage title",
+     "quote": "Sök bland över 76 380 lediga jobb",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://jobbsafari.se/for-arbetsgivare",
+     "title": "Employer page language link",
+     "quote": "In English",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://jobbsafari.se/for-arbetsgivare",
+     "title": "Employer page create ad link",
+     "quote": "Skapa annons",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Expatica Netherlands Jobs",
+   "url": "https://www.expatica.com/nl/jobs/",
+   "hq_country": null,
+   "parent": null,
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr",
+    "pt",
+    "zh"
+   ],
+   "business_model": null,
+   "api_status": null,
+   "ingest_methods": null,
+   "notes": "Advertising packages are sold, but no prices are shown. Listings on the jobs page link out to third-party sites (Adzuna and Jooble affiliate links), and the page does not state how listings are sourced. Language list comes from the network switcher on the jobs page, which lists country and language variants of Expatica.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.expatica.com/advertise-with-expatica/",
+     "title": "Advertise page",
+     "quote": "We publish English-language content that is easy to digest",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.expatica.com/nl/jobs/",
+     "title": "Jobs page language switcher",
+     "quote": "Canada (Français)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.expatica.com/nl/jobs/",
+     "title": "Jobs page language switcher",
+     "quote": "Estados Unidos (Português)",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.expatica.com/nl/jobs/",
+     "title": "Jobs page language switcher",
+     "quote": "全球站",
+     "check": "mismatch"
+    }
+   ]
+  },
+  {
+   "name": "Healthcarejobs.ie",
+   "url": "https://www.healthcarejobs.ie",
+   "hq_country": "GB",
+   "parent": "Niche Jobs Ltd",
+   "primary_language": "en",
+   "languages_supported": null,
+   "business_model": "per post",
+   "api_status": null,
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Parent company address is in the United Kingdom (Hailsham, East Sussex). Products page shows single job ads at EUR 295 (Bronze), EUR 495 (Silver) and EUR 595 (Gold), a basic 10-job bundle at EUR 750, and a multiple-job account with automated posting and ATS option on request. No language switcher, API or partner program found.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.healthcarejobs.ie/products",
+     "title": "Products page company address",
+     "quote": "Niche Jobs Ltd 30-34 North Street Hailsham East Sussex BN27 1DW United Kingdom",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.healthcarejobs.ie/products",
+     "title": "Products page company address",
+     "quote": "Healthcarejobs.ie belongs to: Niche Jobs Ltd",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.healthcarejobs.ie/",
+     "title": "Homepage about text",
+     "quote": "Healthcarejobs.ie is Ireland's longest running independent job board for in healthcare.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.healthcarejobs.ie/products",
+     "title": "Products page single job price",
+     "quote": "€ 295.00",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.healthcarejobs.ie/products",
+     "title": "Products page bulk offer",
+     "quote": "Save 60% when you buy in bulk.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.healthcarejobs.ie/products",
+     "title": "Products page multiple job ad option",
+     "quote": "Automated job posting, ATS, Multiposters",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "publicjobs.ie",
+   "url": "https://publicjobs.ie",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "Browser reader returned HTTP 403 'Web Page Blocked'. The fetch tool was not run first, because the browser reader was run first in error."
+  },
+  {
+   "name": "StudentJob NL",
+   "url": "https://www.studentjob.nl",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage, employer page and footer read; prices and parent stated. No language switcher or HQ stated. Developer/API and partner pages not read."
+  },
+  {
+   "name": "Together Abroad",
+   "url": "https://www.togetherabroad.nl",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage and employer page read; no address, parent, language options or employer prices stated. Developer/API and partner pages not read."
+  },
+  {
+   "name": "Jobbsafari",
+   "url": "https://www.jobbsafari.se",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage and employer page read; Stockholm office, Duunitori Group parent and English link confirmed. No employer prices stated. Developer/API and partner pages not read."
+  },
+  {
+   "name": "Expatica Netherlands Jobs",
+   "url": "https://www.expatica.com/nl/jobs/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Jobs and advertise pages read; English content and language variants confirmed. No headquarters, parent, prices or listing method stated."
+  },
+  {
+   "name": "Healthcarejobs.ie",
+   "url": "https://www.healthcarejobs.ie",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage and products page read; parent company, UK address and per-job prices confirmed. No language switcher, API or partner program found."
+  },
+  {
+   "name": "WhatJobs",
+   "url": "https://en-za.whatjobs.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Fetch returned HTTP 403; browser reader returned a Cloudflare 'Performing security verification' challenge with blocked true."
+  },
+  {
+   "name": "BuscoJobs",
+   "url": "https://www.buscojobs.mx",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "Fetch returned HTTP 403; browser reader returned HTTP 403 Forbidden with blocked true."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "publicjobs.ie",
+   "url": "https://publicjobs.ie",
+   "reason": "HTTP 403 'Web Page Blocked' in browser reader"
+  },
+  {
+   "name": "WhatJobs",
+   "url": "https://en-za.whatjobs.com",
+   "reason": "HTTP 403 in fetch; Cloudflare security challenge in browser reader"
+  },
+  {
+   "name": "BuscoJobs",
+   "url": "https://www.buscojobs.mx",
+   "reason": "HTTP 403 in fetch and in browser reader"
+  }
+ ]
 }

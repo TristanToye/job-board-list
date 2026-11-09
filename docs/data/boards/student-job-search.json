@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Describes itself as a charity. The employer pages link to a Pricing page that was not read, so employer prices are not recorded. No API or partner program is mentioned on pages read. The /api, /developers and /partners paths returned 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/student-job-search/",
  "indexable": false,
@@ -39,7 +39,14 @@
   "job-board"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "student-job-search",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;parent;partner_program",
+  "note": "Homepage and employer pages show a List a job option; Pricing page linked but not read; no headquarters or partner program stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,14 @@
    "title": "Student Job Search homepage",
    "accessed": "2026-11-09",
    "quote": "Student Job Search is a charity connecting students with work so they can earn, stay in study and build their future.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.sjs.co.nz/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "List a job",
    "quote_check": "ok"
   }
  ]

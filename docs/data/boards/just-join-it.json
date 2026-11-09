@@ -39,7 +39,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "just-join-it",
+  "reviewed": "2026-11-09",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage and footer state no headquarters, parent, language options, pricing or API; the employer pages sit on rocketjobs.com, a different domain.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

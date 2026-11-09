@@ -9,5 +9,6 @@ Jesteśmy wiodącą europejską platformą HR Tech (own description, https://www
 ## Entries in this directory
 
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/) (board)
+- [eRecruiter](https://jobboardlist.com/boards/erecruiter/) (multiposting)
 
 Canonical page: https://jobboardlist.com/owners/grupa-pracuj/

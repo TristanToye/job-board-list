@@ -1,6 +1,6 @@
 # Job board
 
-A site where employers post jobs and candidates search and apply. 297 entries in the directory.
+A site where employers post jobs and candidates search and apply. 367 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -46,18 +46,24 @@ A site where employers post jobs and candidates search and apply. 297 entries in
 - [HigherEdJobs](https://jobboardlist.com/boards/higheredjobs/): niche-board
 - [Cadremploi](https://jobboardlist.com/boards/cadremploi/): board
 - [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
+- [VDAB](https://jobboardlist.com/boards/vdab/): government
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [ClearanceJobs](https://jobboardlist.com/boards/clearancejobs/): board
 - [mandy.com](https://jobboardlist.com/boards/mandy-com/): board
+- [The Hub](https://jobboardlist.com/boards/the-hub/): niche-board
 - [Remotive](https://jobboardlist.com/boards/remotive/): niche-board, Open API (no key)
+- [karriere.at](https://jobboardlist.com/boards/karriere-at/): board
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
 - [Zarplata.ru](https://jobboardlist.com/boards/zarplata-ru/): board
 - [Catho](https://jobboardlist.com/boards/catho/): board
 - [Internshala](https://jobboardlist.com/boards/internshala/): niche-board
 - [Jobsite](https://jobboardlist.com/boards/jobsite/): board
+- [Jobbnorge](https://jobboardlist.com/boards/jobbnorge/): board
 - [Jobat](https://jobboardlist.com/boards/jobat/): board
+- [Työmarkkinatori](https://jobboardlist.com/boards/ty-markkinatori/): government
 - [GulfTalent](https://jobboardlist.com/boards/gulftalent/): board
+- [Le Forem](https://jobboardlist.com/boards/le-forem/): government
 - [CharityVillage](https://jobboardlist.com/boards/charityvillage/): niche-board, No known API
 - [National Career Service](https://jobboardlist.com/boards/national-career-service/): government
 - [CharityJob](https://jobboardlist.com/boards/charityjob/): niche-board
@@ -71,16 +77,10 @@ A site where employers post jobs and candidates search and apply. 297 entries in
 - [YoungCapital](https://jobboardlist.com/boards/youngcapital/): niche-board
 - [MyCareersFuture](https://jobboardlist.com/boards/mycareersfuture/): government
 - [AlmaLaurea](https://jobboardlist.com/boards/almalaurea/): niche-board
+- [Duunitori](https://jobboardlist.com/boards/duunitori/): board
 - [IrishJobs](https://jobboardlist.com/boards/irishjobs/): board
 - [AcademicTransfer](https://jobboardlist.com/boards/academictransfer/): niche-board
 - [Caterer.com](https://jobboardlist.com/boards/caterer-com/): board
 - [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
-- [TalentEgg](https://jobboardlist.com/boards/talentegg/): board
-- [Werken voor Nederland](https://jobboardlist.com/boards/werken-voor-nederland/): government
-- [eJobs](https://jobboardlist.com/boards/ejobs/): board
-- [Pro Bono Australia Jobs](https://jobboardlist.com/boards/pro-bono-australia-jobs/): niche-board
-- [Profession.hu](https://jobboardlist.com/boards/profession-hu/): board
-- [Canadian Sport (SIRC)](https://jobboardlist.com/boards/sirc-canadian-sport/): niche-board
-- [JobServe](https://jobboardlist.com/boards/jobserve/): board
 
 Canonical page: https://jobboardlist.com/tags/job-board/

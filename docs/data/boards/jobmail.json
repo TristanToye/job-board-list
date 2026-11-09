@@ -10,22 +10,27 @@
  "countries_served": [
   "ZA"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Africa",
  "niche": "general",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free or subscription (monthly accounts)",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "manual posting",
+  "XML feed"
+ ],
+ "notes": "Homepage and premium employer page state free posting, paid monthly accounts and an XML feed. The copyright line names Junk Mail Publishing (PTY) LTD, but the relationship is not described. No headquarters, language switcher, API or partner information is stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobmail/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,11 +40,21 @@
   "list_date": "2026-11-09"
  },
  "tags": [
+  "free-to-post",
   "general",
-  "job-board"
+  "job-board",
+  "subscription",
+  "xml-feed"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobmail",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+  "note": "Free posting, paid monthly accounts and an XML feed are stated; no headquarters, language switcher, API or partner information.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +64,30 @@
    "title": "Job Mail homepage",
    "accessed": "2026-11-09",
    "quote": "Job Mail is the perfect place to browse for jobs in South Africa and abroad.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.jobmail.co.za/",
+   "title": "Homepage text",
+   "accessed": "2026-11-09",
+   "quote": "Search through 21,255 job vacancies on Job Mail.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.jobmail.co.za/premium-employer-information",
+   "title": "Premium employer information",
+   "accessed": "2026-11-09",
+   "quote": "Job Mail offers employers and recruiters FREE or paid for recruitment solutions.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobmail.co.za/",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Post a FREE Vacancy",
    "quote_check": "ok"
   }
  ]

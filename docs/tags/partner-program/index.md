@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 80 entries in the directory.
+Has a partner or integration program. 82 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -71,6 +71,7 @@ Has a partner or integration program. 80 entries in the directory.
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [Resumeble](https://jobboardlist.com/boards/resumeble/): career-services
+- [Zorgwerk](https://jobboardlist.com/boards/zorgwerk/): niche-board
 - [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API
 - [CIEE](https://jobboardlist.com/boards/ciee/): niche-board
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
@@ -80,7 +81,6 @@ Has a partner or integration program. 80 entries in the directory.
 - [aitrainer.work](https://jobboardlist.com/boards/aitrainer-work/): board
 - [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
-- [Thrive Career Wellness](https://jobboardlist.com/boards/thrive-career-wellness/): outplacement
-- [Workinitiatives](https://jobboardlist.com/boards/workinitiatives/): board
+- [Jobs for Mums](https://jobboardlist.com/boards/jobs-for-mums/): niche-board
 
 Canonical page: https://jobboardlist.com/tags/partner-program/

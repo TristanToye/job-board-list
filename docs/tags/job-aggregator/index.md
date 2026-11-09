@@ -1,6 +1,6 @@
 # Job aggregator
 
-A search engine that collects listings from many sources and links candidates to them. 18 entries in the directory.
+A search engine that collects listings from many sources and links candidates to them. 22 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
@@ -17,8 +17,12 @@ A search engine that collects listings from many sources and links candidates to
 - [Expatica Netherlands Jobs](https://jobboardlist.com/boards/expatica-netherlands-jobs/): aggregator
 - [Google for Jobs](https://jobboardlist.com/boards/google-jobs/): search-aggregator, Open API (no key)
 - [Jobtoday](https://jobboardlist.com/boards/jobtoday/): aggregator
+- [KarieR.co](https://jobboardlist.com/boards/karier-co/): aggregator
 - [WhatJobs](https://jobboardlist.com/boards/whatjobs/): aggregator
 - [Allzajobs](https://jobboardlist.com/boards/allzajobs/): aggregator
 - [JobAlert](https://jobboardlist.com/boards/jobalert/): aggregator
+- [JobCrawls](https://jobboardlist.com/boards/jobcrawls/): aggregator
+- [JobXDubai](https://jobboardlist.com/boards/jobxdubai/): aggregator
+- [UAEJobs.ae](https://jobboardlist.com/boards/uaejobs-ae/): aggregator
 
 Canonical page: https://jobboardlist.com/tags/job-aggregator/

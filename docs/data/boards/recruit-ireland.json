@@ -15,14 +15,14 @@
  "region": "Europe",
  "niche": "general",
  "segment": "",
- "parent": "",
- "business_model": "",
+ "parent": "The Irish Times",
+ "business_model": "pay per post",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Employer page lists a regular job post at EUR 249 and an executive job post at EUR 950. Homepage footer and nav show no API or partner program. The /api, /developers and /partners paths returned 404.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/recruit-ireland/",
  "indexable": false,
@@ -36,10 +36,18 @@
  },
  "tags": [
   "general",
-  "job-board"
+  "job-board",
+  "pay-per-post"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "recruit-ireland",
+  "reviewed": "2026-11-09",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;partner_program",
+  "note": "Employer and about pages state Irish Times group ownership and post prices; no headquarters, language options or partner program stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +57,30 @@
    "title": "Recruit Ireland homepage",
    "accessed": "2026-11-09",
    "quote": "Recruit Ireland offers you the support, advice and resources you need to succeed.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.recruitireland.com/employer",
+   "title": "Employer page",
+   "accessed": "2026-11-09",
+   "quote": "As part of The Irish Times media group, we can advertise your jobs across our multiple websites",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.recruitireland.com/employer",
+   "title": "Employer page",
+   "accessed": "2026-11-09",
+   "quote": "Post a Regular Job for €249",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.recruitireland.com",
+   "title": "Homepage",
+   "accessed": "2026-11-09",
+   "quote": "Post a job",
    "quote_check": "ok"
   }
  ]
