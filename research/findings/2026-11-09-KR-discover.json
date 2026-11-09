@@ -1,0 +1,122 @@
+{
+  "mode": "discover",
+  "country": "KR",
+  "boards": [
+    {
+      "name": "Work24 (Employment Information Portal, Ministry of Employment and Labor)",
+      "url": "https://www.work24.go.kr",
+      "type": "government",
+      "niche": "general",
+      "countries_served": ["KR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.work24.go.kr", "title": "Work24 homepage", "quote": "이 누리집은 고용노동부와 고용노동부 산하기관 한국고용정보원의 누리집 입니다."}
+      ]
+    },
+    {
+      "name": "Public Institution Recruitment Information System (job.alio.go.kr)",
+      "url": "https://job.alio.go.kr",
+      "type": "government",
+      "niche": "public sector",
+      "countries_served": ["KR"],
+      "sources": [
+        {"field": "existence", "url": "https://job.alio.go.kr", "title": "job.alio.go.kr homepage title", "quote": "기획재정부 | 공공기관 채용정보 시스템"}
+      ]
+    },
+    {
+      "name": "Albamon",
+      "url": "https://www.albamon.com",
+      "type": "board",
+      "niche": "part-time",
+      "countries_served": ["KR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.albamon.com", "title": "Albamon homepage title", "quote": "세상의 모든 알바! 일자리 & 아르바이트 구인 구직 사이트"}
+      ]
+    },
+    {
+      "name": "Alba Cheonguk",
+      "url": "https://www.alba.co.kr",
+      "type": "board",
+      "niche": "part-time",
+      "countries_served": ["KR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.alba.co.kr", "title": "Alba Cheonguk homepage meta description", "quote": "알바 채용, 아르바이트, 지역·동네, 직종별, 주말, 단기, 청소년, 대학생, 알바스토리, 최저시급, 근로계약서 작성 안내"}
+      ]
+    },
+    {
+      "name": "Incruit",
+      "url": "https://www.incruit.com",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["KR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.incruit.com", "title": "Incruit homepage footer", "quote": "Copyright © 1998~2026 Incruit Corporation. All rights reserved."}
+      ]
+    },
+    {
+      "name": "Linkareer",
+      "url": "https://linkareer.com",
+      "type": "niche-board",
+      "niche": "students and new graduates",
+      "countries_served": ["KR"],
+      "sources": [
+        {"field": "existence", "url": "https://linkareer.com", "title": "Linkareer homepage title", "quote": "대외활동 공모전 대학생 인턴 대기업 채용정보"}
+      ]
+    },
+    {
+      "name": "Remember (career recruitment platform)",
+      "url": "https://www.rememberapp.co.kr",
+      "type": "board",
+      "niche": "experienced hires and executive search",
+      "countries_served": ["KR"],
+      "sources": [
+        {"field": "existence", "url": "https://career.rememberapp.co.kr/job/postings", "title": "Remember career job postings page title", "quote": "리멤버 - 경력직 채용 플랫폼 | 헤드헌팅, 스카우트, 이직"}
+      ]
+    },
+    {
+      "name": "Jobda",
+      "url": "https://jobda.im",
+      "type": "board",
+      "niche": "general",
+      "countries_served": ["KR"],
+      "sources": [
+        {"field": "existence", "url": "https://jobda.im", "title": "Jobda homepage title", "quote": "잡다 ㅣ 역량검사만으로 취업되는 매칭 플랫폼"}
+      ]
+    },
+    {
+      "name": "MedicalJob",
+      "url": "https://www.medicaljob.co.kr",
+      "type": "niche-board",
+      "niche": "healthcare",
+      "countries_served": ["KR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.medicaljob.co.kr", "title": "MedicalJob homepage footer", "quote": "All rights reserved."}
+      ]
+    },
+    {
+      "name": "Rallit",
+      "url": "https://www.rallit.com",
+      "type": "niche-board",
+      "niche": "tech",
+      "countries_served": ["KR"],
+      "sources": [
+        {"field": "existence", "url": "https://www.rallit.com", "title": "Rallit homepage title", "quote": "IT 인재 채용 플랫폼 - 랠릿"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Jobplanet", "url": "https://www.jobplanet.co.kr", "reason": "HTTP 403"},
+    {"name": "Catch", "url": "https://www.catch.co.kr", "reason": "HTTP 403"},
+    {"name": "Rocketpunch", "url": "https://www.rocketpunch.com", "reason": "HTTP 403"},
+    {"name": "The Teams", "url": "https://www.theteams.kr", "reason": "HTTP 403"},
+    {"name": "Seoulstart", "url": "https://seoulstart.com", "reason": "HTTP 429"},
+    {"name": "Nurse Job (nursejob.co.kr)", "url": "https://www.nursejob.co.kr", "reason": "HTTP 503"},
+    {"name": "Cleaneye Job Plus", "url": "https://job.cleaneye.go.kr", "reason": "HTTP 503"}
+  ],
+  "queue": [
+    {"name": "Nara Ilteo (gojobs.go.kr)", "url": "https://www.gojobs.go.kr", "reason": "Homepage returned only the title; operator and job posting function not confirmed"},
+    {"name": "National Civil Service Recruitment System (gongmuwon.gosi.kr)", "url": "https://gongmuwon.gosi.kr", "reason": "Homepage returned only the title 인사혁신처; public job postings not confirmed"},
+    {"name": "Groupby", "url": "https://groupby.kr/blog", "reason": "groupby.careers redirected to a blog; job board not confirmed"},
+    {"name": "WorknPlay", "url": "", "reason": "Named in a search result for English-language Seoul postings; homepage not read"},
+    {"name": "Seoul Global Center job listings", "url": "", "reason": "Named in a search result for English-language Seoul postings; homepage not read"}
+  ]
+}
