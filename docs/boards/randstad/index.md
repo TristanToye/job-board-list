@@ -18,7 +18,7 @@ Randstad is a staffing agency based in Netherlands, focused on general and speci
 
 **Which languages does Randstad support?** This directory records Randstad as supporting English.
 
-**How large is Randstad?** Randstad ranks #22,715 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Randstad?** Randstad ranks #22,715 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

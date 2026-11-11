@@ -1,6 +1,6 @@
 # Job boards in Germany
 
-22 job boards and related entries based in or serving Germany.
+23 job boards and related entries based in or serving Germany.
 
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board, Large tier
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Established tier, Partner-only API
@@ -24,5 +24,6 @@
 - [XING Jobs](https://jobboardlist.com/boards/xing/): social-network+board, Partner-only API
 - [Workeer](https://jobboardlist.com/boards/workeer/): board
 - [CuratorSearch](https://jobboardlist.com/boards/curatorsearch/): board
+- [Jobdigger](https://jobboardlist.com/boards/jobdigger/): feed-aggregator
 
 Canonical page: https://jobboardlist.com/countries/germany/

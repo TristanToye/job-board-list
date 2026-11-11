@@ -20,7 +20,7 @@ Xpatjobs is a niche job board, focused on expat.
 
 **Which languages does Xpatjobs support?** This directory records Xpatjobs as supporting English.
 
-**How large is Xpatjobs?** Xpatjobs ranks #536,451 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Xpatjobs?** Xpatjobs ranks #536,451 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

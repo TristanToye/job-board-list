@@ -1,6 +1,6 @@
 # Job boards in Canada
 
-48 job boards and related entries based in or serving Canada.
+49 job boards and related entries based in or serving Canada.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Large tier, Partner-only API
@@ -50,5 +50,6 @@
 - [Canada Jobs](https://jobboardlist.com/boards/canada-jobs/): board
 - [JobShark](https://jobboardlist.com/boards/jobshark/): board
 - [Thrive Career Wellness](https://jobboardlist.com/boards/thrive-career-wellness/): outplacement
+- [hireDiverse](https://jobboardlist.com/boards/hirediverse/): multiposting
 
 Canonical page: https://jobboardlist.com/countries/canada/

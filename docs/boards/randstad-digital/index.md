@@ -20,7 +20,7 @@ Randstad Digital is a staffing agency based in Netherlands.
 
 **Which languages does Randstad Digital support?** This directory records Randstad Digital as supporting English, French, German.
 
-**How large is Randstad Digital?** Randstad Digital ranks #803,483 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Randstad Digital?** Randstad Digital ranks #803,483 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

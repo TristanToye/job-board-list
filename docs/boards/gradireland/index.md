@@ -20,7 +20,7 @@ Gradireland is a niche job board, focused on graduates.
 
 **Which languages does Gradireland support?** This directory records Gradireland as supporting English.
 
-**How large is Gradireland?** Gradireland ranks #336,145 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Gradireland?** Gradireland ranks #336,145 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

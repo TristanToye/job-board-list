@@ -20,7 +20,7 @@ AlmaLaurea is a niche job board based in Italy, focused on graduates. It was fou
 
 **Which languages does AlmaLaurea support?** This directory records AlmaLaurea as supporting Italian, English.
 
-**How large is AlmaLaurea?** AlmaLaurea ranks #96,070 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is AlmaLaurea?** AlmaLaurea ranks #96,070 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

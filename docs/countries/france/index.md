@@ -1,6 +1,6 @@
 # Job boards in France
 
-15 job boards and related entries based in or serving France.
+16 job boards and related entries based in or serving France.
 
 - [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Large tier, Partner-only API
 - [Hellowork](https://jobboardlist.com/boards/hellowork/): board, Established tier
@@ -17,5 +17,6 @@
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [JobTeaser](https://jobboardlist.com/boards/jobteaser/): niche-board
 - [Experteer](https://jobboardlist.com/boards/experteer/): niche-board
+- [Jobdigger](https://jobboardlist.com/boards/jobdigger/): feed-aggregator
 
 Canonical page: https://jobboardlist.com/countries/france/

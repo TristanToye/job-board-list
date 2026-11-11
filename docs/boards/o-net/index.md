@@ -20,7 +20,7 @@ O*NET is a labour market information source, focused on occupation database and 
 
 **Does O*NET have an API?** According to this directory, O*NET offers an API you can use with a self-serve key. Documentation: https://www.onetonline.org/help/onet/webservices.
 
-**How large is O*NET?** O*NET ranks #8,445 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is O*NET?** O*NET ranks #8,445 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

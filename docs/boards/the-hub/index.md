@@ -18,7 +18,7 @@ The Hub is a niche job board, focused on startup and tech.
 
 **Who owns The Hub?** This directory records the parent of The Hub as Mesh Community.
 
-**How large is The Hub?** The Hub ranks #43,748 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is The Hub?** The Hub ranks #43,748 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

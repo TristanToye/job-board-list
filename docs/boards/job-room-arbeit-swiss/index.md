@@ -20,7 +20,7 @@ Job-Room (arbeit.swiss) is a government job site based in Switzerland.
 
 **Which languages does Job-Room (arbeit.swiss) support?** This directory records Job-Room (arbeit.swiss) as supporting English, German, French, Italian.
 
-**How large is Job-Room (arbeit.swiss)?** Job-Room (arbeit.swiss) ranks #125,372 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Job-Room (arbeit.swiss)?** Job-Room (arbeit.swiss) ranks #125,372 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

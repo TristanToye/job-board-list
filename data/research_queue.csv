@@ -841,3 +841,53 @@ Incruit,https://www.incruit.com,ZZ,verification,Employer product page https://re
 CharityJob,https://www.charityjob.co.uk,ZZ,verification,HTTP 403 in fetch; Cloudflare verification page in the browser reader,2026-11-09
 VietnamWorks,https://www.vietnamworks.com,ZZ,verification,HTTP 403 with blocked true in the browser reader,2026-11-09
 doda,https://www.doda.jp/,ZZ,verification,Browser reader returned blocked: true,2026-11-09
+Betterteam,https://www.betterteam.com/ca/post-to-multiple-job-boards,ZZ,verification,HTTP 403 security challenge page,2026-11-11
+Jobcase,https://www.jobcase.com,ZZ,verification,HTTP 403 security challenge page,2026-11-11
+JobAdX,https://www.jobadx.com,ZZ,verification,Redirected to a verification page instead of the homepage,2026-11-11
+OneClick Recruitment,https://www.oneclickrecruitment.com,ZZ,verification,HTTP 502 upstream request failed,2026-11-11
+DE Amplify,https://www.deamplify.com,ZZ,verification,Named as a managed programmatic job advertising platform in a roundup; homepage redirected to a lander with no readable text,2026-11-11
+Joblift,https://www.joblift.de,ZZ,verification,HTTP 403 (CloudFront block page),2026-11-11
+trusted.de,https://trusted.de/multiposting,ZZ,verification,HTTP 403 bot verification page,2026-11-11
+in-recruiting,https://www.inrecruiting.com,ZZ,verification,HTTP 403 bot verification page,2026-11-11
+Jobsora,https://www.jobsora.com,ZZ,verification,HTTP 403 bot verification page,2026-11-11
+JobAdX,https://jobadx.com,ZZ,verification,Verification interstitial did not clear on the one attempt,2026-11-11
+Mitula,https://www.mitula.co.uk,ZZ,verification,HTTP 401 access denied,2026-11-11
+eRecruit (Ireland),https://www.erecruit.ie,ZZ,verification,Connection failed (net::ERR_TUNNEL_CONNECTION_FAILED). Named in a roundup as an Irish multiposting tool; may or may not be the same organisation as eRecruiter in the CSV,2026-11-11
+Matchwork,https://www.matchwork.com,ZZ,verification,Connection failed (net::ERR_TUNNEL_CONNECTION_FAILED). Named in a search result as a European publisher feed destination,2026-11-11
+JobSplice,https://jobsplice.com,ZZ,verification,"Homepage and about page read: XML job feed management platform, founded by the team behind Broadbean. Region of operation not stated on pages read, so UK, Irish or European scope not confirmed",2026-11-11
+VacancySoft,https://www.vacancysoft.com,ZZ,verification,Homepage read: offers vacancy email alerts and data. Feed aggregation role and coverage not stated on the page read,2026-11-11
+Trovit,https://www.trovit.co.uk,ZZ,verification,"Homepage read: classified search engine covering property, jobs, cars and products. Job-only scope and publisher feed terms not confirmed on pages read",2026-11-11
+ClearedJobs.net,https://www.clearedjobs.net,ZZ,verification,HTTP 403 (Cloudflare security challenge) on homepage,2026-11-11
+Geographic Solutions,https://www.geographicsolutions.com,ZZ,verification,HTTP 403 on homepage,2026-11-11
+DCI Consulting,,ZZ,verification,Named in a search result as selling a mandatory-listing product; homepage not read,2026-11-11
+Jobstore,https://www.jobstore.my,ZZ,verification,HTTP 403 (Cloudflare security check) on 2026-11-11; redirected to jobstore.com,2026-11-11
+GrabJobs,https://www.grabjobs.co,ZZ,verification,HTTP 403 (Cloudflare security check) on 2026-11-11,2026-11-11
+Jora,https://www.jora.com,ZZ,verification,HTTP 403 (Cloudflare security check) on 2026-11-11; redirected to au.jora.com,2026-11-11
+ZonaJobs,https://www.zonajobs.com.ar,ZZ,verification,HTTP 403 (Cloudflare block page) on 2026-11-11,2026-11-11
+Fuzu,https://fuzu.com,ZZ,verification,HTTP 403 (Cloudflare security check) on 2026-11-11,2026-11-11
+Glints,https://glints.com,ZZ,verification,HTTP 403 (captcha challenge) on 2026-11-11,2026-11-11
+Jobaroo,https://www.jobaroo.com,ZZ,verification,Connection tunnel failed on 2026-11-11,2026-11-11
+Kenoby,https://www.kenoby.com,ZZ,verification,Connection tunnel failed on 2026-11-11,2026-11-11
+Jobcaster,https://www.jobcaster.com,ZZ,verification,Domain returned a parked-domain Access Denied page on 2026-11-11; the organisation's own site was not reached,2026-11-11
+idibu,https://www.idibu.com,ZZ,verification,"Homepage read and it describes job distribution to job boards, but headquarters and operating country are not stated on pages read, so class fit is not confirmed",2026-11-11
+JobSplice,https://jobsplice.com,ZZ,verification,"About page read and it describes XML job feed distribution, but headquarters and operating country are not stated on pages read, so class fit is not confirmed",2026-11-11
+Supportfinity,https://supportfinity.com,ZZ,verification,"Homepage read and it describes distributing jobs to job boards, but headquarters and operating country are not stated on pages read, so class fit is not confirmed",2026-11-11
+JobAdder,https://jobadder.com,ZZ,verification,"Homepage read and states HQ in Australia, but the pages read describe it as a recruitment software platform and do not show job distribution to boards, so it was not listed as a multiposter",2026-11-11
+Lensa,,,board,Named on an integrations page: Named as a job site partner in an Appcast testimonial (appcast.io/partners/jobsites/); relation not stated as publish or,2026-11-11
+Broadbean partner list pages 2 and 3,https://www.broadbean.com/partners/,,board,"Named on an integrations page: Partner list is paginated (1, 2, 3); only page 1 was read",2026-11-11
+Broadbean job boards pages 2 to 109,https://job-boards.broadbean.com/us/boards/,,board,"Named on an integrations page: Job board directory has 2,701 boards over 109 pages; only page 1 was read",2026-11-11
+ACCA Careers,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Ability Jobs,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+About.me,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Absolventa + Trainee-Gefluester,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Academic Keys,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Accountancy Age,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Accountants Daily,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Accounting Jobs Today,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Inhire.io,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Jobs.cz,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Jobzyn,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Jopwell,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Profesia.sk,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+Workcules Inc,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11
+avua,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-11

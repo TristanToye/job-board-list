@@ -23,19 +23,19 @@
   "Public job feed"
  ],
  "notes": "Public XML job feed. Write API: OAuth. Reading jobs needs auth: no (XML feed).",
- "confidence": "seed-unverified",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/personio/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
   "global_rank": 15455,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-09"
+  "list_date": "2026-11-11"
  },
  "tags": [
-  "api-open",
+  "api-self-serve",
   "ats",
   "partner-program",
   "public-job-feed",

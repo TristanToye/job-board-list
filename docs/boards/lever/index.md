@@ -10,7 +10,7 @@ Lever is an applicant tracking system based in United States, focused on applica
 - API status: Self-serve API key (https://github.com/lever/postings-api)
 - Partner program: yes
 - Prominence: #3,942 globally, tier Large
-- Tags: Open API, Applicant tracking system, Mid-market, Partner program, Public job feed
+- Tags: Self-serve API, Applicant tracking system, Mid-market, Partner program, Public job feed
 - Review: Reviewed 2026-11-11. Some facts checked against the board's own site. Not stated there: headquarters, languages, API access.
 - Data status: partly verified against its own site
 
@@ -30,7 +30,7 @@ Lever is an applicant tracking system based in United States, focused on applica
 
 **Does Lever have an API?** According to this directory, Lever offers an API you can use with a self-serve key. Documentation: https://github.com/lever/postings-api.
 
-**How large is Lever?** Lever ranks #3,942 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Lever?** Lever ranks #3,942 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Lever connect to?** According to this directory, Lever sends jobs to Reed; integrates with Indeed, LinkedIn, AcquireROI, Appcast, Bandana, Boostie and others.
 

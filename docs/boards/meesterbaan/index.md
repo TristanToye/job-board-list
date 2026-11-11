@@ -18,7 +18,7 @@ MeesterBaan is a niche job board, focused on education.
 
 **Which languages does MeesterBaan support?** This directory records MeesterBaan as supporting Dutch.
 
-**How large is MeesterBaan?** MeesterBaan ranks #233,743 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is MeesterBaan?** MeesterBaan ranks #233,743 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

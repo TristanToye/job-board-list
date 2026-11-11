@@ -1,6 +1,6 @@
 # Job boards in Netherlands
 
-19 job boards and related entries based in or serving Netherlands.
+20 job boards and related entries based in or serving Netherlands.
 
 - [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Large tier, Self-serve API key
 - [Randstad](https://jobboardlist.com/boards/randstad/): staffing, Established tier
@@ -21,5 +21,6 @@
 - [Gezondheidszorgbanen.nl](https://jobboardlist.com/boards/gezondheidszorgbanen-nl/): niche-board, Small tier
 - [IamExpat Jobs](https://jobboardlist.com/boards/iamexpat-jobs/): niche-board
 - [Expatica Netherlands Jobs](https://jobboardlist.com/boards/expatica-netherlands-jobs/): aggregator
+- [Jobdigger](https://jobboardlist.com/boards/jobdigger/): feed-aggregator
 
 Canonical page: https://jobboardlist.com/countries/netherlands/

@@ -27,7 +27,7 @@ Adzuna is a job aggregator based in United Kingdom. It was founded in 2011.
 
 **Which languages does Adzuna support?** This directory records Adzuna as supporting English, German, French, Dutch, Polish, Portuguese, Spanish, Italian.
 
-**How large is Adzuna?** Adzuna ranks #66,808 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Adzuna?** Adzuna ranks #66,808 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Adzuna connect to?** According to this directory, Adzuna receives jobs from Workable; integrates with Pinpoint, Teamtailor.
 

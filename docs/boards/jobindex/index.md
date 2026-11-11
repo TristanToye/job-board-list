@@ -19,7 +19,7 @@ Jobindex is a job board based in Denmark. It was founded in 1996.
 
 **Which languages does Jobindex support?** This directory records Jobindex as supporting Danish, English.
 
-**How large is Jobindex?** Jobindex ranks #78,809 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jobindex?** Jobindex ranks #78,809 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

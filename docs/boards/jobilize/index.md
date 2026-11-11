@@ -18,7 +18,7 @@ Jobilize is a job board. It was founded in 2019.
 
 **Does Jobilize have an API?** According to this directory, Jobilize issues API keys or feeds on request.
 
-**How large is Jobilize?** Jobilize ranks #860,671 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jobilize?** Jobilize ranks #860,671 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

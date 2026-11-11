@@ -20,7 +20,7 @@ lavoro.gov.it (Ministry of Labour) is a government job site based in Italy.
 
 **Which languages does lavoro.gov.it (Ministry of Labour) support?** This directory records lavoro.gov.it (Ministry of Labour) as supporting Italian.
 
-**How large is lavoro.gov.it (Ministry of Labour)?** lavoro.gov.it (Ministry of Labour) ranks #10,811 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is lavoro.gov.it (Ministry of Labour)?** lavoro.gov.it (Ministry of Labour) ranks #10,811 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

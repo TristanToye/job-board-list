@@ -1,6 +1,6 @@
 # Job boards in United States
 
-57 job boards and related entries based in or serving United States.
+61 job boards and related entries based in or serving United States.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier, Open API (no key)
@@ -46,8 +46,11 @@
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech, Small tier
 - [Work at a Startup](https://jobboardlist.com/boards/yc-waas/): niche-board, Small tier, No known API
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Small tier, Partner-only API
+- [DirectEmployers Association](https://jobboardlist.com/boards/directemployers-association/): multiposting, Small tier
 - [IMPACT Group](https://jobboardlist.com/boards/impact-group/): outplacement, Small tier
 - [Jobilize](https://jobboardlist.com/boards/jobilize/): board, Small tier, API key on request
+- [Circa](https://jobboardlist.com/boards/circa/): multiposting, Small tier
+- [CareerCircle](https://jobboardlist.com/boards/careercircle/): niche-board, Small tier
 - [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API
 - [Zippia](https://jobboardlist.com/boards/zippia/): board
 - [Built In](https://jobboardlist.com/boards/built-in/): board
@@ -59,5 +62,6 @@
 - [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
 - [Verde Talent](https://jobboardlist.com/boards/verde-talent/): board
 - [EnRoute Jobs](https://jobboardlist.com/boards/enroute-jobs/): board
+- [HR Unlimited](https://jobboardlist.com/boards/hr-unlimited/): multiposting
 
 Canonical page: https://jobboardlist.com/countries/united-states/

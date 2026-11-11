@@ -20,7 +20,7 @@ jobwinner.ch is a job board based in Switzerland.
 
 **Which languages does jobwinner.ch support?** This directory records jobwinner.ch as supporting German, French, English.
 
-**How large is jobwinner.ch?** jobwinner.ch ranks #826,679 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is jobwinner.ch?** jobwinner.ch ranks #826,679 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

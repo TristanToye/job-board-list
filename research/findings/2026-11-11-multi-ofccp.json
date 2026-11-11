@@ -1,54 +1,104 @@
 {
-  "mode": "discover",
-  "country": "ZZ",
-  "boards": [
+ "mode": "discover",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "DirectEmployers Association",
+   "url": "https://directemployers.org",
+   "type": "multiposting",
+   "niche": "OFCCP compliance and recruitment marketing for employers",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
     {
-      "name": "DirectEmployers Association",
-      "url": "https://directemployers.org",
-      "type": "multiposting",
-      "niche": "OFCCP compliance and recruitment marketing for employers",
-      "countries_served": ["US"],
-      "sources": [
-        {"field": "existence", "url": "https://directemployers.org", "title": "Home • DirectEmployers Association One-stop Shop Solutions", "quote": "Scalable one-stop shop solutions for OFCCP compliance and recruitment marketing challenges large and small."}
-      ]
-    },
-    {
-      "name": "Circa",
-      "url": "https://circaworks.com",
-      "type": "multiposting",
-      "niche": "inclusive recruiting software with DEIB job boards and OFCCP compliance tools",
-      "countries_served": ["US"],
-      "sources": [
-        {"field": "existence", "url": "https://circaworks.com", "title": "Diversity Recruiting Software & OFCCP Compliance Tools", "quote": "Transform your talent acquisition with Mitratech, your trusted partner in inclusive recruiting software and OFCCP-compliant outreach management."}
-      ]
-    },
-    {
-      "name": "HR Unlimited",
-      "url": "https://www.hrunlimitedinc.com",
-      "type": "multiposting",
-      "niche": "VEVRAA and ESDS job posting compliance for federal contractors",
-      "countries_served": ["US"],
-      "sources": [
-        {"field": "existence", "url": "https://www.hrunlimitedinc.com/talent-management-and-compliance-tools/", "title": "Talent Management and Compliance Tools", "quote": "Meet VEVRAA job posting requirements with ease"}
-      ]
-    },
-    {
-      "name": "CareerCircle",
-      "url": "https://www.careercircle.com",
-      "type": "niche-board",
-      "niche": "job board and outreach for disability, veteran and military spouse candidates",
-      "countries_served": ["US"],
-      "sources": [
-        {"field": "existence", "url": "https://www.careercircle.com/", "title": "Where Skills Go To Work", "quote": "We bridge the gap between skilled individuals and leading organizations"},
-        {"field": "compliance", "url": "https://www.careercircle.com/employer-solutions/disability-hiring", "title": "CareerCircle", "quote": "Our reporting suite provides candidate engagement reports, ATS tracking, and job visibility data you can use directly in OFCCP compliance audits"}
-      ]
+     "field": "existence",
+     "url": "https://directemployers.org",
+     "title": "Home • DirectEmployers Association One-stop Shop Solutions",
+     "quote": "Scalable one-stop shop solutions for OFCCP compliance and recruitment marketing challenges large and small.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
-    {"name": "ClearedJobs.net", "url": "https://www.clearedjobs.net", "reason": "HTTP 403 (Cloudflare security challenge) on homepage"},
-    {"name": "Geographic Solutions", "url": "https://www.geographicsolutions.com", "reason": "HTTP 403 on homepage"}
-  ],
-  "queue": [
-    {"name": "DCI Consulting", "url": "", "reason": "Named in a search result as selling a mandatory-listing product; homepage not read"}
-  ]
+   ]
+  },
+  {
+   "name": "Circa",
+   "url": "https://circaworks.com",
+   "type": "multiposting",
+   "niche": "inclusive recruiting software with DEIB job boards and OFCCP compliance tools",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://circaworks.com",
+     "title": "Diversity Recruiting Software & OFCCP Compliance Tools",
+     "quote": "Transform your talent acquisition with Mitratech, your trusted partner in inclusive recruiting software and OFCCP-compliant outreach management.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "HR Unlimited",
+   "url": "https://www.hrunlimitedinc.com",
+   "type": "multiposting",
+   "niche": "VEVRAA and ESDS job posting compliance for federal contractors",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hrunlimitedinc.com/talent-management-and-compliance-tools/",
+     "title": "Talent Management and Compliance Tools",
+     "quote": "Meet VEVRAA job posting requirements with ease",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CareerCircle",
+   "url": "https://www.careercircle.com",
+   "type": "niche-board",
+   "niche": "job board and outreach for disability, veteran and military spouse candidates",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.careercircle.com/",
+     "title": "Where Skills Go To Work",
+     "quote": "We bridge the gap between skilled individuals and leading organizations",
+     "check": "ok"
+    },
+    {
+     "field": "compliance",
+     "url": "https://www.careercircle.com/employer-solutions/disability-hiring",
+     "title": "CareerCircle",
+     "quote": "Our reporting suite provides candidate engagement reports, ATS tracking, and job visibility data you can use directly in OFCCP compliance audits",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "ClearedJobs.net",
+   "url": "https://www.clearedjobs.net",
+   "reason": "HTTP 403 (Cloudflare security challenge) on homepage"
+  },
+  {
+   "name": "Geographic Solutions",
+   "url": "https://www.geographicsolutions.com",
+   "reason": "HTTP 403 on homepage"
+  }
+ ],
+ "queue": [
+  {
+   "name": "DCI Consulting",
+   "url": "",
+   "reason": "Named in a search result as selling a mandatory-listing product; homepage not read"
+  }
+ ]
 }

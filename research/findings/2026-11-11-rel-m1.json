@@ -1,36 +1,348 @@
 {
-  "mode": "relationships",
-  "edges": [
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "iCIMS", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "Bullhorn", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "Greenhouse", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "Workday", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "Avionte", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "SAP SuccessFactors", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "Salesforce", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "SmartRecruiters", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "Oracle Recruiting Cloud", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "Cornerstone OnDemand", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Joveo", "from_url": "https://www.joveo.com", "to": "Darwinbox", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.joveo.com/partners/ats-integrations/", "title": "ATS Partnerships and Seamless Integrations - Joveo", "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "Avature", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.broadbean.com/partners/", "title": "Our Partners Expanding Hiring Capabilities | Broadbean", "quote": "Avature ATS redefines the user experience for candidates, recruiters and hiring managers."}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "TalentSoft", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.broadbean.com/partners/", "title": "Our Partners Expanding Hiring Capabilities | Broadbean", "quote": "TalentSoft Companies of all sizes, from small or medium-sized enterprises (SME) to multinationals"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "Ciphr", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.broadbean.com/partners/", "title": "Our Partners Expanding Hiring Capabilities | Broadbean", "quote": "CIPHR is a specialist provider of SaaS HR software, payroll, recruitment and learning solutions"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "iCIMS", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.broadbean.com/partners/", "title": "Our Partners Expanding Hiring Capabilities | Broadbean", "quote": "iCIMS A NEW WAY TO MANAGE THE END-TO-END HIRING LIFECYCLE"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "TribePad", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.broadbean.com/partners/", "title": "Our Partners Expanding Hiring Capabilities | Broadbean", "quote": "TribePad Recruitment management software that delivers the best talent."}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "Bullhorn", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.broadbean.com/partners/", "title": "Our Partners Expanding Hiring Capabilities | Broadbean", "quote": "Bullhorn Powers Your Staffing Business from Start to Finish"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "Academic Keys", "to_url": "", "relation": "integrates-with", "source": {"url": "https://job-boards.broadbean.com/us/boards/", "title": "Job Boards - Broadbean", "quote": "Academic Keys Academic Positions v2 EMEA"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "Accountancy Age", "to_url": "", "relation": "integrates-with", "source": {"url": "https://job-boards.broadbean.com/us/boards/", "title": "Job Boards - Broadbean", "quote": "Accountancy Age EMEA, APAC, AMER"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "Accountants Daily", "to_url": "", "relation": "integrates-with", "source": {"url": "https://job-boards.broadbean.com/us/boards/", "title": "Job Boards - Broadbean", "quote": "Accountants Daily APAC"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "Accounting Jobs Today", "to_url": "", "relation": "integrates-with", "source": {"url": "https://job-boards.broadbean.com/us/boards/", "title": "Job Boards - Broadbean", "quote": "Accounting Jobs Today EMEA, AMER"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "ACCA Careers", "to_url": "", "relation": "integrates-with", "source": {"url": "https://job-boards.broadbean.com/us/boards/", "title": "Job Boards - Broadbean", "quote": "ACCA Careers EMEA, APAC, AMER"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "About.me", "to_url": "", "relation": "integrates-with", "source": {"url": "https://job-boards.broadbean.com/us/boards/", "title": "Job Boards - Broadbean", "quote": "About.me EMEA, AMER"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "Ability Jobs", "to_url": "", "relation": "integrates-with", "source": {"url": "https://job-boards.broadbean.com/us/boards/", "title": "Job Boards - Broadbean", "quote": "Ability Jobs AMER"}},
-    {"from": "Broadbean", "from_url": "https://www.broadbean.com", "to": "Absolventa + Trainee-Gefluester", "to_url": "", "relation": "integrates-with", "source": {"url": "https://job-boards.broadbean.com/us/boards/", "title": "Job Boards - Broadbean", "quote": "Absolventa + Trainee-Gefluester EMEA"}}
-  ],
-  "blocked": [],
-  "queue": [
-    {"name": "Lensa", "url": "", "reason": "Named as a job site partner in an Appcast testimonial (appcast.io/partners/jobsites/); relation not stated as publish or integration and site not read"},
-    {"name": "Broadbean partner list pages 2 and 3", "url": "https://www.broadbean.com/partners/", "reason": "Partner list is paginated (1, 2, 3); only page 1 was read"},
-    {"name": "Broadbean job boards pages 2 to 109", "url": "https://job-boards.broadbean.com/us/boards/", "reason": "Job board directory has 2,701 boards over 109 pages; only page 1 was read"}
-  ]
+ "mode": "relationships",
+ "edges": [
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "iCIMS",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "Bullhorn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "Greenhouse",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "Workday",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "Avionte",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "SAP SuccessFactors",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "Salesforce",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "SmartRecruiters",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "Oracle Recruiting Cloud",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "Cornerstone OnDemand",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Joveo",
+   "from_url": "https://www.joveo.com",
+   "to": "Darwinbox",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.joveo.com/partners/ats-integrations/",
+    "title": "ATS Partnerships and Seamless Integrations - Joveo",
+    "quote": "ATS INTEGRATIONS iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters Oracle Recruiting Cloud Cornerstone OnDemand Darwinbox",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "Avature",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.broadbean.com/partners/",
+    "title": "Our Partners Expanding Hiring Capabilities | Broadbean",
+    "quote": "Avature ATS redefines the user experience for candidates, recruiters and hiring managers.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "TalentSoft",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.broadbean.com/partners/",
+    "title": "Our Partners Expanding Hiring Capabilities | Broadbean",
+    "quote": "TalentSoft Companies of all sizes, from small or medium-sized enterprises (SME) to multinationals",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "Ciphr",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.broadbean.com/partners/",
+    "title": "Our Partners Expanding Hiring Capabilities | Broadbean",
+    "quote": "CIPHR is a specialist provider of SaaS HR software, payroll, recruitment and learning solutions",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "iCIMS",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.broadbean.com/partners/",
+    "title": "Our Partners Expanding Hiring Capabilities | Broadbean",
+    "quote": "iCIMS A NEW WAY TO MANAGE THE END-TO-END HIRING LIFECYCLE",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "TribePad",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.broadbean.com/partners/",
+    "title": "Our Partners Expanding Hiring Capabilities | Broadbean",
+    "quote": "TribePad Recruitment management software that delivers the best talent.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "Bullhorn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.broadbean.com/partners/",
+    "title": "Our Partners Expanding Hiring Capabilities | Broadbean",
+    "quote": "Bullhorn Powers Your Staffing Business from Start to Finish",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "Academic Keys",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://job-boards.broadbean.com/us/boards/",
+    "title": "Job Boards - Broadbean",
+    "quote": "Academic Keys Academic Positions v2 EMEA",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "Accountancy Age",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://job-boards.broadbean.com/us/boards/",
+    "title": "Job Boards - Broadbean",
+    "quote": "Accountancy Age EMEA, APAC, AMER",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "Accountants Daily",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://job-boards.broadbean.com/us/boards/",
+    "title": "Job Boards - Broadbean",
+    "quote": "Accountants Daily APAC",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "Accounting Jobs Today",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://job-boards.broadbean.com/us/boards/",
+    "title": "Job Boards - Broadbean",
+    "quote": "Accounting Jobs Today EMEA, AMER",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "ACCA Careers",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://job-boards.broadbean.com/us/boards/",
+    "title": "Job Boards - Broadbean",
+    "quote": "ACCA Careers EMEA, APAC, AMER",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "About.me",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://job-boards.broadbean.com/us/boards/",
+    "title": "Job Boards - Broadbean",
+    "quote": "About.me EMEA, AMER",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "Ability Jobs",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://job-boards.broadbean.com/us/boards/",
+    "title": "Job Boards - Broadbean",
+    "quote": "Ability Jobs AMER",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Broadbean",
+   "from_url": "https://www.broadbean.com",
+   "to": "Absolventa + Trainee-Gefluester",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://job-boards.broadbean.com/us/boards/",
+    "title": "Job Boards - Broadbean",
+    "quote": "Absolventa + Trainee-Gefluester EMEA",
+    "check": "ok"
+   }
+  }
+ ],
+ "blocked": [],
+ "queue": [
+  {
+   "name": "Lensa",
+   "url": "",
+   "reason": "Named as a job site partner in an Appcast testimonial (appcast.io/partners/jobsites/); relation not stated as publish or integration and site not read"
+  },
+  {
+   "name": "Broadbean partner list pages 2 and 3",
+   "url": "https://www.broadbean.com/partners/",
+   "reason": "Partner list is paginated (1, 2, 3); only page 1 was read"
+  },
+  {
+   "name": "Broadbean job boards pages 2 to 109",
+   "url": "https://job-boards.broadbean.com/us/boards/",
+   "reason": "Job board directory has 2,701 boards over 109 pages; only page 1 was read"
+  }
+ ]
 }

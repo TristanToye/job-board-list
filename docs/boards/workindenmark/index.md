@@ -20,7 +20,7 @@ WorkInDenmark is a government job site based in Denmark, focused on general (int
 
 **Which languages does WorkInDenmark support?** This directory records WorkInDenmark as supporting English, Danish.
 
-**How large is WorkInDenmark?** WorkInDenmark ranks #146,680 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is WorkInDenmark?** WorkInDenmark ranks #146,680 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

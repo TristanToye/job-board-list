@@ -18,7 +18,7 @@ Codility is an HR technology vendor, focused on coding tests and technical inter
 
 **Does Codility have an API?** According to this directory, Codility issues API keys or feeds on request. Documentation: https://www.codility.com/partners/.
 
-**How large is Codility?** Codility ranks #79,835 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Codility?** Codility ranks #79,835 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

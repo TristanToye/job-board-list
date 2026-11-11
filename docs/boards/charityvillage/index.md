@@ -20,7 +20,7 @@ CharityVillage is a niche job board based in Canada, focused on nonprofit and ch
 
 **Which languages does CharityVillage support?** This directory records CharityVillage as supporting English.
 
-**How large is CharityVillage?** CharityVillage ranks #71,818 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is CharityVillage?** CharityVillage ranks #71,818 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **What scale does CharityVillage report?** CharityVillage reports 170,000 charitable and nonprofit organizations served on its own site (as of 2026-11-06).
 

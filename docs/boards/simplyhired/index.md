@@ -19,7 +19,7 @@ SimplyHired is a job aggregator based in United States. It was founded in 2003.
 
 **Which languages does SimplyHired support?** This directory records SimplyHired as supporting English.
 
-**How large is SimplyHired?** SimplyHired ranks #9,831 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is SimplyHired?** SimplyHired ranks #9,831 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

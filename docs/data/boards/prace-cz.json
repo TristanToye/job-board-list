@@ -32,13 +32,23 @@
   "global_rank": 161849,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-09"
+  "list_date": "2026-11-11"
  },
  "tags": [
   "general",
   "job-board"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Teamio",
+   "from_id": "teamio",
+   "to": "Prace.cz",
+   "to_id": "prace-cz",
+   "source": "https://cz.teamio.com/ziskejte-dostatek-uchazecu/",
+   "quote": "Na největší a nejznámější české pracovní portály Jobs.cz a Prace.cz vede z Teamia samozřejmě přímá cesta."
+  }
+ ],
  "review": null,
  "owners": [],
  "scale": [],

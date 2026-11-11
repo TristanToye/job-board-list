@@ -38,14 +38,24 @@
   "global_rank": 47385,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-09"
+  "list_date": "2026-11-11"
  },
  "tags": [
   "general",
   "job-distribution",
   "subscription"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "eRecruiter",
+   "from_id": "erecruiter",
+   "to": "Inhire.io",
+   "to_id": "",
+   "source": "https://erecruiter.pl/funkcje/hr-marketplace/",
+   "quote": "Inhire.io to platforma rekrutacyjna dedykowana kandydatom IT."
+  }
+ ],
  "review": {
   "board_id": "erecruiter",
   "reviewed": "2026-11-09",

@@ -18,7 +18,7 @@ freelancermap is a freelance marketplace based in Germany, focused on freelance 
 
 **Does freelancermap have an API?** According to this directory, freelancermap issues API keys or feeds on request.
 
-**How large is freelancermap?** freelancermap ranks #114,998 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is freelancermap?** freelancermap ranks #114,998 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

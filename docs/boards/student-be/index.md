@@ -18,7 +18,7 @@ Student.be is a niche job board, focused on graduates.
 
 **Which languages does Student.be support?** This directory records Student.be as supporting Dutch, French, English.
 
-**How large is Student.be?** Student.be ranks #362,889 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Student.be?** Student.be ranks #362,889 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

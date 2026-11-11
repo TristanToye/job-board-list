@@ -20,7 +20,7 @@ Jobvite is an applicant tracking system based in United States, focused on appli
 
 **Does Jobvite have an API?** According to this directory, Jobvite offers an API you can use with a self-serve key.
 
-**How large is Jobvite?** Jobvite ranks #9,463 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jobvite?** Jobvite ranks #9,463 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

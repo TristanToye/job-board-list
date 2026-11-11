@@ -18,7 +18,7 @@ Cutshort is a niche job board, focused on tech.
 
 **Does Cutshort have an API?** According to this directory, Cutshort issues API keys or feeds on request. Documentation: https://cutshort.io/a/devdocs.
 
-**How large is Cutshort?** Cutshort ranks #481,409 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Cutshort?** Cutshort ranks #481,409 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

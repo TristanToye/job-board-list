@@ -20,7 +20,7 @@ U.S. Bureau of Labor Statistics is a labour market information source based in U
 
 **Does U.S. Bureau of Labor Statistics have an API?** According to this directory, U.S. Bureau of Labor Statistics has an open API or feed that does not require approval. Documentation: https://www.bls.gov/developers/home.htm.
 
-**How large is U.S. Bureau of Labor Statistics?** U.S. Bureau of Labor Statistics ranks #455 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Major tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is U.S. Bureau of Labor Statistics?** U.S. Bureau of Labor Statistics ranks #455 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Major tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -18,7 +18,7 @@
 
 **Which languages does İŞKUR (Türkiye İş Kurumu) support?** This directory records İŞKUR (Türkiye İş Kurumu) as supporting Turkish, English.
 
-**How large is İŞKUR (Türkiye İş Kurumu)?** İŞKUR (Türkiye İş Kurumu) ranks #39,078 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is İŞKUR (Türkiye İş Kurumu)?** İŞKUR (Türkiye İş Kurumu) ranks #39,078 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

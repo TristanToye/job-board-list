@@ -20,7 +20,7 @@ Gezondheidszorgbanen.nl is a niche job board based in Netherlands, focused on he
 
 **Which languages does Gezondheidszorgbanen.nl support?** This directory records Gezondheidszorgbanen.nl as supporting Dutch.
 
-**How large is Gezondheidszorgbanen.nl?** Gezondheidszorgbanen.nl ranks #916,915 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Gezondheidszorgbanen.nl?** Gezondheidszorgbanen.nl ranks #916,915 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

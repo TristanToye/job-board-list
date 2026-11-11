@@ -1,6 +1,6 @@
 # Technology
 
-Software 46 entries in the directory.
+Software 50 entries in the directory.
 
 - [Toptal](https://jobboardlist.com/boards/toptal/): freelance-platform
 - [The Adecco Group](https://jobboardlist.com/boards/the-adecco-group/): staffing
@@ -27,6 +27,8 @@ Software 46 entries in the directory.
 - [Berlin Startup Jobs](https://jobboardlist.com/boards/berlin-startup-jobs/): niche-board
 - [Hirist](https://jobboardlist.com/boards/hirist/): niche-board
 - [WeLoveDevs](https://jobboardlist.com/boards/welovedevs/): niche-board
+- [Jobiqo](https://jobboardlist.com/boards/jobiqo/): programmatic-distribution
+- [Circa](https://jobboardlist.com/boards/circa/): multiposting
 - [Ticjob](https://jobboardlist.com/boards/ticjob/): niche-board
 - [Built In](https://jobboardlist.com/boards/built-in/): board
 - [Hacker News Who is hiring](https://jobboardlist.com/boards/hn-whoishiring/): community, Open API (no key)
@@ -42,11 +44,13 @@ Software 46 entries in the directory.
 - [IT-jobbank (Computerworld it-jobbank)](https://jobboardlist.com/boards/it-jobbank-computerworld-it-jobbank/): niche-board
 - [ITJob.au](https://jobboardlist.com/boards/itjob-au/): niche-board
 - [ITjobs.ca](https://jobboardlist.com/boards/itjobs-ca/): niche-board, No known API
+- [Postings.com](https://jobboardlist.com/boards/postings-com/): multiposting
 - [ProgramaThor](https://jobboardlist.com/boards/programathor/): niche-board
 - [Rallit](https://jobboardlist.com/boards/rallit/): niche-board
 - [TechCareer](https://jobboardlist.com/boards/techcareer/): niche-board
 - [TechJob](https://jobboardlist.com/boards/techjob/): niche-board
 - [Techjobs.be](https://jobboardlist.com/boards/techjobs-be/): niche-board
 - [Tekjobb](https://jobboardlist.com/boards/tekjobb/): niche-board
+- [Vacancy Poster](https://jobboardlist.com/boards/vacancy-poster/): multiposting
 
 Canonical page: https://jobboardlist.com/tags/tech/

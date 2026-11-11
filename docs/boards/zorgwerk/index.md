@@ -18,7 +18,7 @@ Zorgwerk is a niche job board based in Netherlands, focused on healthcare and we
 
 **Which languages does Zorgwerk support?** This directory records Zorgwerk as supporting Dutch.
 
-**How large is Zorgwerk?** Zorgwerk ranks #523,875 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Zorgwerk?** Zorgwerk ranks #523,875 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

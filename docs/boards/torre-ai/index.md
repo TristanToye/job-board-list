@@ -18,7 +18,7 @@ Torre.ai is a job board. It was founded in 2019.
 
 **Which languages does Torre.ai support?** This directory records Torre.ai as supporting English, Spanish.
 
-**How large is Torre.ai?** Torre.ai ranks #372,572 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Torre.ai?** Torre.ai ranks #372,572 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

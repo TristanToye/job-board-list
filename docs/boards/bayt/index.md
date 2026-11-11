@@ -18,7 +18,7 @@ Bayt is a job board based in United Arab Emirates. It was founded in 2000.
 
 **Which languages does Bayt support?** This directory records Bayt as supporting English, Arabic.
 
-**How large is Bayt?** Bayt ranks #23,784 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Bayt?** Bayt ranks #23,784 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

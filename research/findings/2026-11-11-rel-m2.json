@@ -1,35 +1,327 @@
 {
-  "mode": "relationships",
-  "edges": [
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Indeed", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Indeed helps millions of job seekers and employers find the right fit for them every day."}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "LinkedIn", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "LinkedIn The world's largest professional network with more than 1 billion members worldwide."}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "AcquireROI", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "AcquireROI makes job advertising easy."}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Appcast", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Appcast Optimize recruitment marketing using data, technology and our world-class expertise"}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Bandana", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Bandana is the fastest growing and most trusted job board in the US built for modern recruiting."}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Boostie", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Boostie A talent marketing platform that makes it easy for hiring teams to promote, capture and convert more quality applicants."}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Give a Grad a Go", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Advertise your jobs to millions of diverse graduates in the UK, Australia & beyond."}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Handshake", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Handshake Recruit smarter, not harder. Need to hire now? Place your job in front of qualified candidates where they are already browsing."}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Jobbytime", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Jobbytime An AI-Powered Job Board with AI Auto Apply option"}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "JOIN", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "JOIN Job Boards & Aggregators"}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Jopwell", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Jopwell Job Boards & Aggregators"}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Jobzyn", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Jobzyn Land Your Dream Job"}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Purpose Jobs", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Purpose Jobs The #1 destination to recruit talent in the Midwest"}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Sensiply", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Sensiply is a modern hiring platform that helps employers connect with the right candidates faster."}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "avua", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "avua Your AI Hiring Platform"}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Workcules Inc", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "Workcules Inc Powering Hiring through our Human-Re-Sourcing platform!"}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "VONQ", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "VONQ offers end-to-end recruitment marketing solutions including job distribution tools."}},
-    {"from": "Lever", "from_url": "https://www.lever.co", "to": "Joveo", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.lever.co/marketplace", "title": "Partner Marketplace", "quote": "The Joveo End-to-end platform connects the dots between programmatic distribution, career sites/candidate journey, and building talent communities for candidate re-engagement."}},
-    {"from": "Teamio", "from_url": "https://cz.teamio.com", "to": "Jobs.cz", "to_url": "https://www.jobs.cz/", "relation": "sends-jobs-to", "source": {"url": "https://cz.teamio.com/ziskejte-dostatek-uchazecu/", "title": "Získejte dostatek uchazečů", "quote": "Na největší a nejznámější české pracovní portály Jobs.cz a Prace.cz vede z Teamia samozřejmě přímá cesta."}},
-    {"from": "Teamio", "from_url": "https://cz.teamio.com", "to": "Prace.cz", "to_url": "https://www.prace.cz/", "relation": "sends-jobs-to", "source": {"url": "https://cz.teamio.com/ziskejte-dostatek-uchazecu/", "title": "Získejte dostatek uchazečů", "quote": "Na největší a nejznámější české pracovní portály Jobs.cz a Prace.cz vede z Teamia samozřejmě přímá cesta."}},
-    {"from": "Teamio", "from_url": "https://cz.teamio.com", "to": "Profesia.sk", "to_url": "https://www.profesia.sk/", "relation": "sends-jobs-to", "source": {"url": "https://cz.teamio.com/ziskejte-dostatek-uchazecu/", "title": "Získejte dostatek uchazečů", "quote": "Víte, že můžete inzerovat třeba i na slovenské Profesia.sk?"}},
-    {"from": "eRecruiter", "from_url": "https://www.erecruiter.pl", "to": "Inhire.io", "to_url": "", "relation": "integrates-with", "source": {"url": "https://erecruiter.pl/funkcje/hr-marketplace/", "title": "HR Marketplace", "quote": "Inhire.io to platforma rekrutacyjna dedykowana kandydatom IT."}},
-    {"from": "Oracle Taleo", "from_url": "https://www.oracle.com/human-capital-management/taleo/", "to": "LinkedIn", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.oracle.com/human-capital-management/taleo/", "title": "Taleo", "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings and innovative integrations with LinkedIn."}}
-  ],
-  "blocked": [
-    {"name": "SmartRecruiters", "url": "https://www.smartrecruiters.com/recruiting-software/marketplace/", "reason": "HTTP 403; browser reader reported blocked"},
-    {"name": "SmartRecruiters", "url": "https://www.smartrecruiters.com/recruiting-software/job-posting/", "reason": "HTTP 403; browser reader reported blocked"},
-    {"name": "SmartRecruiters", "url": "https://marketplace.smartrecruiters.com/", "reason": "HTTP 403; browser reader reported blocked"},
-    {"name": "Greenhouse", "url": "https://integrations.greenhouse.com/", "reason": "HTTP 403; browser reader reported blocked (security verification page)"}
-  ],
-  "queue": []
+ "mode": "relationships",
+ "edges": [
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Indeed helps millions of job seekers and employers find the right fit for them every day.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "LinkedIn The world's largest professional network with more than 1 billion members worldwide.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "AcquireROI",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "AcquireROI makes job advertising easy.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Appcast",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Appcast Optimize recruitment marketing using data, technology and our world-class expertise",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Bandana",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Bandana is the fastest growing and most trusted job board in the US built for modern recruiting.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Boostie",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Boostie A talent marketing platform that makes it easy for hiring teams to promote, capture and convert more quality applicants.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Give a Grad a Go",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Advertise your jobs to millions of diverse graduates in the UK, Australia & beyond.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Handshake",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Handshake Recruit smarter, not harder. Need to hire now? Place your job in front of qualified candidates where they are already browsing.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Jobbytime",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Jobbytime An AI-Powered Job Board with AI Auto Apply option",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "JOIN",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "JOIN Job Boards & Aggregators",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Jopwell",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Jopwell Job Boards & Aggregators",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Jobzyn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Jobzyn Land Your Dream Job",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Purpose Jobs",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Purpose Jobs The #1 destination to recruit talent in the Midwest",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Sensiply",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Sensiply is a modern hiring platform that helps employers connect with the right candidates faster.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "avua",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "avua Your AI Hiring Platform",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Workcules Inc",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "Workcules Inc Powering Hiring through our Human-Re-Sourcing platform!",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "VONQ",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "VONQ offers end-to-end recruitment marketing solutions including job distribution tools.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Lever",
+   "from_url": "https://www.lever.co",
+   "to": "Joveo",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.lever.co/marketplace",
+    "title": "Partner Marketplace",
+    "quote": "The Joveo End-to-end platform connects the dots between programmatic distribution, career sites/candidate journey, and building talent communities for candidate re-engagement.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamio",
+   "from_url": "https://cz.teamio.com",
+   "to": "Jobs.cz",
+   "to_url": "https://www.jobs.cz/",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://cz.teamio.com/ziskejte-dostatek-uchazecu/",
+    "title": "Získejte dostatek uchazečů",
+    "quote": "Na největší a nejznámější české pracovní portály Jobs.cz a Prace.cz vede z Teamia samozřejmě přímá cesta.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamio",
+   "from_url": "https://cz.teamio.com",
+   "to": "Prace.cz",
+   "to_url": "https://www.prace.cz/",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://cz.teamio.com/ziskejte-dostatek-uchazecu/",
+    "title": "Získejte dostatek uchazečů",
+    "quote": "Na největší a nejznámější české pracovní portály Jobs.cz a Prace.cz vede z Teamia samozřejmě přímá cesta.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamio",
+   "from_url": "https://cz.teamio.com",
+   "to": "Profesia.sk",
+   "to_url": "https://www.profesia.sk/",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://cz.teamio.com/ziskejte-dostatek-uchazecu/",
+    "title": "Získejte dostatek uchazečů",
+    "quote": "Víte, že můžete inzerovat třeba i na slovenské Profesia.sk?",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "eRecruiter",
+   "from_url": "https://www.erecruiter.pl",
+   "to": "Inhire.io",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://erecruiter.pl/funkcje/hr-marketplace/",
+    "title": "HR Marketplace",
+    "quote": "Inhire.io to platforma rekrutacyjna dedykowana kandydatom IT.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Oracle Taleo",
+   "from_url": "https://www.oracle.com/human-capital-management/taleo/",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.oracle.com/human-capital-management/taleo/",
+    "title": "Taleo",
+    "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings and innovative integrations with LinkedIn.",
+    "check": "ok"
+   }
+  }
+ ],
+ "blocked": [
+  {
+   "name": "SmartRecruiters",
+   "url": "https://www.smartrecruiters.com/recruiting-software/marketplace/",
+   "reason": "HTTP 403; browser reader reported blocked"
+  },
+  {
+   "name": "SmartRecruiters",
+   "url": "https://www.smartrecruiters.com/recruiting-software/job-posting/",
+   "reason": "HTTP 403; browser reader reported blocked"
+  },
+  {
+   "name": "SmartRecruiters",
+   "url": "https://marketplace.smartrecruiters.com/",
+   "reason": "HTTP 403; browser reader reported blocked"
+  },
+  {
+   "name": "Greenhouse",
+   "url": "https://integrations.greenhouse.com/",
+   "reason": "HTTP 403; browser reader reported blocked (security verification page)"
+  }
+ ],
+ "queue": []
 }

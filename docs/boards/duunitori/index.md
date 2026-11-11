@@ -18,7 +18,7 @@ Duunitori is a job board based in Finland.
 
 **Which languages does Duunitori support?** This directory records Duunitori as supporting Finnish, English, Swedish.
 
-**How large is Duunitori?** Duunitori ranks #99,058 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Duunitori?** Duunitori ranks #99,058 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -18,7 +18,7 @@ Expresso Emprego is a job board.
 
 **Which languages does Expresso Emprego support?** This directory records Expresso Emprego as supporting Portuguese.
 
-**How large is Expresso Emprego?** Expresso Emprego ranks #652,611 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Expresso Emprego?** Expresso Emprego ranks #652,611 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

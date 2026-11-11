@@ -20,7 +20,7 @@
 
 **Which languages does 99designs support?** This directory records 99designs as supporting English, Spanish.
 
-**How large is 99designs?** 99designs ranks #5,858 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is 99designs?** 99designs ranks #5,858 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

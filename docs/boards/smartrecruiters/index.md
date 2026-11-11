@@ -10,7 +10,7 @@ SmartRecruiters is an applicant tracking system based in Poland, focused on appl
 - API status: Self-serve API key (https://developers.smartrecruiters.com)
 - Partner program: yes
 - Prominence: #4,305 globally, tier Large
-- Tags: Open API, Applicant tracking system, Enterprise, Partner program, Public job feed
+- Tags: Self-serve API, Applicant tracking system, Enterprise, Partner program, Public job feed
 - Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: founding year, pricing and business model.
 - Data status: partly verified against its own site
 
@@ -30,7 +30,7 @@ SmartRecruiters is an applicant tracking system based in Poland, focused on appl
 
 **Which languages does SmartRecruiters support?** This directory records SmartRecruiters as supporting English, German, French.
 
-**How large is SmartRecruiters?** SmartRecruiters ranks #4,305 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is SmartRecruiters?** SmartRecruiters ranks #4,305 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does SmartRecruiters connect to?** According to this directory, SmartRecruiters integrates with Careerjet, Joveo, VONQ.
 

@@ -18,7 +18,7 @@ Aplikuj.pl is a job board.
 
 **Which languages does Aplikuj.pl support?** This directory records Aplikuj.pl as supporting Polish.
 
-**How large is Aplikuj.pl?** Aplikuj.pl ranks #172,868 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Aplikuj.pl?** Aplikuj.pl ranks #172,868 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

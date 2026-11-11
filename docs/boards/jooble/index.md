@@ -19,7 +19,7 @@ Jooble is a job aggregator based in Ukraine. It was founded in 2006.
 
 **Which languages does Jooble support?** This directory records Jooble as supporting English, Ukrainian, Polish, German, French, Spanish, Portuguese, Italian, Turkish.
 
-**How large is Jooble?** Jooble ranks #2,772 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jooble?** Jooble ranks #2,772 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Jooble connect to?** According to this directory, Jooble receives jobs from Workable; integrates with Pinpoint.
 

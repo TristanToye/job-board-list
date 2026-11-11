@@ -1,6 +1,6 @@
 # Job boards in Belgium
 
-14 job boards and related entries based in or serving Belgium.
+15 job boards and related entries based in or serving Belgium.
 
 - [VDAB](https://jobboardlist.com/boards/vdab/): government, Established tier, API key on request
 - [Jobat](https://jobboardlist.com/boards/jobat/): board, Established tier
@@ -16,5 +16,6 @@
 - [Engineering.jobs (Belgium)](https://jobboardlist.com/boards/engineering-jobs-belgium/): niche-board
 - [BrusselsJobs](https://jobboardlist.com/boards/brusselsjobs/): niche-board
 - [Werkenindegezondheidszorg.be](https://jobboardlist.com/boards/werkenindegezondheidszorg-be/): niche-board
+- [Jobdigger](https://jobboardlist.com/boards/jobdigger/): feed-aggregator
 
 Canonical page: https://jobboardlist.com/countries/belgium/

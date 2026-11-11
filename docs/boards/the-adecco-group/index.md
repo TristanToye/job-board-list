@@ -20,7 +20,7 @@ The Adecco Group is a staffing agency based in Switzerland, focused on talent, t
 
 **Which languages does The Adecco Group support?** This directory records The Adecco Group as supporting English.
 
-**How large is The Adecco Group?** The Adecco Group ranks #4,756 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is The Adecco Group?** The Adecco Group ranks #4,756 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # Job boards in United Kingdom
 
-19 job boards and related entries based in or serving United Kingdom.
+20 job boards and related entries based in or serving United Kingdom.
 
 - [Office for National Statistics](https://jobboardlist.com/boards/office-for-national-statistics/): lmi, Large tier
 - [Prospects](https://jobboardlist.com/boards/prospects/): niche-board, Established tier
@@ -21,5 +21,6 @@
 - [JobG8](https://jobboardlist.com/boards/jobg8/): feed-aggregator, Partner-only API
 - [Niche Jobs](https://jobboardlist.com/boards/niche-jobs/): niche-board
 - [Hanshek](https://jobboardlist.com/boards/hanshek/): board
+- [Career Poster](https://jobboardlist.com/boards/career-poster/): multiposting
 
 Canonical page: https://jobboardlist.com/countries/united-kingdom/

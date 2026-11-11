@@ -1,6 +1,6 @@
 # Trades and labour
 
-Trades 11 entries in the directory.
+Trades 12 entries in the directory.
 
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Open API (no key)
 - [Office for National Statistics](https://jobboardlist.com/boards/office-for-national-statistics/): lmi
@@ -12,6 +12,7 @@ Trades 11 entries in the directory.
 - [Textkernel](https://jobboardlist.com/boards/textkernel/): lmi
 - [Eurostat](https://jobboardlist.com/boards/eurostat/): lmi
 - [Japan Institute for Labour Policy and Training](https://jobboardlist.com/boards/japan-institute-for-labour-policy-and-training/): lmi
+- [Jobdigger](https://jobboardlist.com/boards/jobdigger/): feed-aggregator
 - [Yakka](https://jobboardlist.com/boards/yakka/): niche-board, No known API
 
 Canonical page: https://jobboardlist.com/tags/trades-labour/

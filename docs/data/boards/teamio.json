@@ -32,13 +32,41 @@
   "global_rank": 513641,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-09"
+  "list_date": "2026-11-11"
  },
  "tags": [
   "job-distribution",
   "tech"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Teamio",
+   "from_id": "teamio",
+   "to": "Jobs.cz",
+   "to_id": "",
+   "source": "https://cz.teamio.com/ziskejte-dostatek-uchazecu/",
+   "quote": "Na největší a nejznámější české pracovní portály Jobs.cz a Prace.cz vede z Teamia samozřejmě přímá cesta."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Teamio",
+   "from_id": "teamio",
+   "to": "Prace.cz",
+   "to_id": "prace-cz",
+   "source": "https://cz.teamio.com/ziskejte-dostatek-uchazecu/",
+   "quote": "Na největší a nejznámější české pracovní portály Jobs.cz a Prace.cz vede z Teamia samozřejmě přímá cesta."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Teamio",
+   "from_id": "teamio",
+   "to": "Profesia.sk",
+   "to_id": "",
+   "source": "https://cz.teamio.com/ziskejte-dostatek-uchazecu/",
+   "quote": "Víte, že můžete inzerovat třeba i na slovenské Profesia.sk?"
+  }
+ ],
  "review": null,
  "owners": [],
  "scale": [],

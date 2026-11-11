@@ -541,7 +541,7 @@ for t, r in TAX.items():
     if t == "ats-integration":
         _grp = collections.defaultdict(list)
         for _r in REL:
-            if _r["relation"] in ("sends-jobs-to", "integrates-with") and _r["from_id"] in by_id and by_id[_r["from_id"]]["type"] in ("ats", "multiposting", "distribution"): _grp[_r["from_id"]].append(_r)
+            if _r["relation"] in ("sends-jobs-to", "integrates-with") and _r["from_id"] in by_id and by_id[_r["from_id"]]["type"] in ("ats", "multiposting", "programmatic-distribution", "feed-aggregator", "distribution"): _grp[_r["from_id"]].append(_r)
         if _grp:
             body += '<h2>Documented connections by ATS and distribution platform</h2><p class="muted small">Each link is stated on the platform\'s own pages. The <a href="../../ecosystem/">ecosystem map</a> shows the same data as a matrix.</p>'
             for _f, _rs in sorted(_grp.items(), key=lambda kv: -len(kv[1])):

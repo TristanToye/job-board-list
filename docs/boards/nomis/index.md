@@ -20,7 +20,7 @@ Nomis is a labour market information source, focused on UK labour market statist
 
 **Does Nomis have an API?** According to this directory, Nomis has an open API or feed that does not require approval. Documentation: https://www.nomisweb.co.uk/api.
 
-**How large is Nomis?** Nomis ranks #63,671 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Nomis?** Nomis ranks #63,671 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

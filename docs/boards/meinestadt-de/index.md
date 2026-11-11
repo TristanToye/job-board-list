@@ -18,7 +18,7 @@ meinestadt.de is a job board based in Germany.
 
 **Who owns meinestadt.de?** According to this directory, meinestadt.de is owned by The Stepstone Group (brand).
 
-**How large is meinestadt.de?** meinestadt.de ranks #14,459 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is meinestadt.de?** meinestadt.de ranks #14,459 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

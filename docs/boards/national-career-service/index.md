@@ -18,7 +18,7 @@ National Career Service is a government job site based in India.
 
 **Who owns National Career Service?** This directory records the parent of National Career Service as Ministry of Labour & Employment, Government of India.
 
-**How large is National Career Service?** National Career Service ranks #76,320 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is National Career Service?** National Career Service ranks #76,320 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

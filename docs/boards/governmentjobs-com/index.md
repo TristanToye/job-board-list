@@ -18,7 +18,7 @@ GovernmentJobs.com is a government job site based in United States, focused on g
 
 **Who owns GovernmentJobs.com?** This directory records the parent of GovernmentJobs.com as Governmentjobs.com, Inc. (DBA NEOGOV).
 
-**How large is GovernmentJobs.com?** GovernmentJobs.com ranks #8,572 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is GovernmentJobs.com?** GovernmentJobs.com ranks #8,572 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

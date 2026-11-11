@@ -18,7 +18,7 @@ Idealist is a niche job board based in United States, focused on nonprofit. It w
 
 **Which languages does Idealist support?** This directory records Idealist as supporting English, Spanish.
 
-**How large is Idealist?** Idealist ranks #4,265 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Idealist?** Idealist ranks #4,265 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Idealist connect to?** According to this directory, Idealist integrates with JazzHR.
 

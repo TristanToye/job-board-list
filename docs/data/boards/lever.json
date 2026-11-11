@@ -32,10 +32,10 @@
   "global_rank": 3942,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-09"
+  "list_date": "2026-11-11"
  },
  "tags": [
-  "api-open",
+  "api-self-serve",
   "ats",
   "mid-market",
   "partner-program",
@@ -158,6 +158,60 @@
    "to_id": "",
    "source": "https://www.lever.co/integrations",
    "quote": "VONQ VONQ offers end-to-end recruitment marketing solutions including job distribution tools."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "JOIN",
+   "to_id": "join",
+   "source": "https://www.lever.co/marketplace",
+   "quote": "JOIN Job Boards & Aggregators"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Jopwell",
+   "to_id": "",
+   "source": "https://www.lever.co/marketplace",
+   "quote": "Jopwell Job Boards & Aggregators"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Jobzyn",
+   "to_id": "",
+   "source": "https://www.lever.co/marketplace",
+   "quote": "Jobzyn Land Your Dream Job"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "avua",
+   "to_id": "",
+   "source": "https://www.lever.co/marketplace",
+   "quote": "avua Your AI Hiring Platform"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Workcules Inc",
+   "to_id": "",
+   "source": "https://www.lever.co/marketplace",
+   "quote": "Workcules Inc Powering Hiring through our Human-Re-Sourcing platform!"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Lever",
+   "from_id": "lever",
+   "to": "Joveo",
+   "to_id": "joveo",
+   "source": "https://www.lever.co/marketplace",
+   "quote": "The Joveo End-to-end platform connects the dots between programmatic distribution, career sites/candidate journey, and building talent communities for candidate re-engagement."
   }
  ],
  "review": {
