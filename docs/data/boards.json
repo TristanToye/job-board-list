@@ -25860,6 +25860,14 @@
      "accessed": "2026-11-06",
      "quote": "Greenhouse pricing is customized based on your company’s hiring needs.",
      "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://developers.greenhouse.io/job-board.html",
+     "title": "Introduction - Job Board API | Greenhouse",
+     "accessed": "2026-11-11",
+     "quote": "Job Board data is publicly available, so authentication is not required for any GET endpoints.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -25880,7 +25888,7 @@
    "segment": "mid-market",
    "parent": "Employ Inc.",
    "business_model": "custom quote",
-   "api_status": "public-open",
+   "api_status": "public-key",
    "api_docs_url": "https://github.com/lever/postings-api",
    "partner_program": "yes",
    "partner_url": "https://www.lever.co/partners",
@@ -26059,6 +26067,14 @@
      "accessed": "2026-11-11",
      "quote": "Build an integration, reach new customers, and become part of the hiring workflow teams rely on every day.",
      "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://hire.lever.co/developer/documentation",
+     "title": "Lever Developer",
+     "accessed": "2026-11-11",
+     "quote": "Authenticate to the Lever API via basic auth by providing an API key as the username and leaving the password blank.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -26079,7 +26095,7 @@
    "segment": "startup/scale-up",
    "parent": "",
    "business_model": "Subscription plans (Foundations, Plus, Enterprise); Foundations shown at $400 per month for up to 100 employees; Plus and Enterprise by sales contact",
-   "api_status": "public-open",
+   "api_status": "public-key",
    "api_docs_url": "https://developers.ashbyhq.com",
    "partner_program": "yes",
    "partner_url": "",
@@ -26142,6 +26158,14 @@
      "title": "Pricing",
      "accessed": "2026-11-06",
      "quote": "Our pricing is based on company size, usage, and commitment.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://developers.ashbyhq.com/reference/authentication",
+     "title": "Authentication",
+     "accessed": "2026-11-11",
+     "quote": "Use HTTP Basic Auth to authenticate with our API. You must send your API key with every request.",
      "quote_check": "ok"
     }
    ]
@@ -26424,7 +26448,7 @@
    "segment": "enterprise",
    "parent": "SAP",
    "business_model": "",
-   "api_status": "public-open",
+   "api_status": "public-key",
    "api_docs_url": "https://developers.smartrecruiters.com",
    "partner_program": "yes",
    "partner_url": "",
@@ -26505,6 +26529,14 @@
      "accessed": "2026-11-06",
      "quote": "Deutsch",
      "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://developers.smartrecruiters.com/docs/authentication-api-key",
+     "title": "API Key",
+     "accessed": "2026-11-11",
+     "quote": "include the API key in the header of the request as X-SmartToken 'your-api-key-value'",
+     "quote_check": "ok"
     }
    ]
   },
@@ -26525,7 +26557,7 @@
    "segment": "SMB/mid-market",
    "parent": "Tellent",
    "business_model": "subscription",
-   "api_status": "public-open",
+   "api_status": "public-key",
    "api_docs_url": "https://docs.recruitee.com",
    "partner_program": "yes",
    "partner_url": "",
@@ -26571,6 +26603,14 @@
      "title": "Pricing",
      "accessed": "2026-11-06",
      "quote": "Our subscriptions are tiered based on the plan you choose",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://docs.recruitee.com/reference/getting-started",
+     "title": "Getting Started",
+     "accessed": "2026-11-11",
+     "quote": "needs to authenticate first with a header Authorization: Bearer <token>",
      "quote_check": "ok"
     }
    ]
@@ -26741,7 +26781,7 @@
    "segment": "SMB (DACH)",
    "parent": "",
    "business_model": "",
-   "api_status": "public-open",
+   "api_status": "public-key",
    "api_docs_url": "https://developer.personio.de",
    "partner_program": "yes",
    "partner_url": "",
@@ -26778,7 +26818,16 @@
    },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "https://developer.personio.de/docs/getting-started-with-the-personio-api",
+     "title": "Get started with Personio API",
+     "accessed": "2026-11-11",
+     "quote": "you will need to generate API credentials (client_id and client_secret)",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "bamboohr",

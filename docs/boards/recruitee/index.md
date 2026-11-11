@@ -7,7 +7,7 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 - Founded: not recorded
 - Owner: Tellent
 - Languages: not recorded
-- API status: Open API (no key) (https://docs.recruitee.com)
+- API status: Self-serve API key (https://docs.recruitee.com)
 - Partner program: yes
 - Prominence: #5,796 globally, tier Large
 - Tags: Open API, Applicant tracking system, Mid-market, Partner program, Public job feed, Small business, Subscription
@@ -28,7 +28,7 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 
 **Who owns Recruitee?** This directory records the parent of Recruitee as Tellent.
 
-**Does Recruitee have an API?** According to this directory, Recruitee has an open API or feed that does not require approval. Documentation: https://docs.recruitee.com.
+**Does Recruitee have an API?** According to this directory, Recruitee offers an API you can use with a self-serve key. Documentation: https://docs.recruitee.com.
 
 **How large is Recruitee?** Recruitee ranks #5,796 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
@@ -37,6 +37,7 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 ## Sources
 
 - [Pricing](https://recruitee.com/pricing) (Business model and pricing, checked 2026-11-06): "Our subscriptions are tiered based on the plan you choose"
+- [Getting Started](https://docs.recruitee.com/reference/getting-started) (API access, checked 2026-11-11): "needs to authenticate first with a header Authorization: Bearer <token>"
 
 Canonical page: https://jobboardlist.com/boards/recruitee/
-Last updated: 2026-11-06
+Last updated: 2026-11-11

@@ -464,9 +464,13 @@ def _conn_target(x): return f'<a href="../../boards/{e(x["to_id"])}/">{e(x["to_n
 def _names(sts): return [a["name"] for a in sorted(ats, key=lambda x: x["name"].lower()) if a["api_status"] in sts and a["confidence"] != "seed-unverified"]  # only entries checked against their own site
 _open, _key, _req, _partner = _names(("public-open",)), _names(("public-key",)), _names(("on-request",)), _names(("partner-only",))
 def _lst(v): return ", ".join(v[:-1]) + " and " + v[-1] if len(v) > 1 else (v[0] if v else "none yet")
-ats_faq = [("Which ATS have a public API for job postings?", f'According to the platforms checked so far, {_lst(_open)} publish job data openly without a key, and {_lst(_key)} offer an API you can use with a self-serve key. Check each platform for what its API covers.'),
-           ("Which ATS APIs need a partnership or approval?", f'{_lst(_partner)} restrict API access to approved partners' + (f', and {_lst(_req)} issue access on request.' if _req else ".")),
-           ("Which ATS publish an open job feed without a key?", f'{_lst(_open)}. Job boards and aggregators use these to pull an employer\'s open roles without a commercial agreement.')]
+def _v(v, one, many): return one if len(v) == 1 else many
+def _lead(v, one, many): return f"{_lst(v)} {_v(v, one, many)}"
+_q1 = "According to the platforms checked so far, " + (f'{_lead(_open, "publishes", "publish")} job data openly without a key' if _open else "none publish job data openly without a key")
+_q1 += (f', and {_lead(_key, "offers", "offer")} an API you can use with a self-serve key.' if _key else ".") + " Check each platform for what its API covers."
+_q2 = (f'{_lead(_partner, "restricts", "restrict")} API access to approved partners' + (f', and {_lead(_req, "issues", "issue")} access on request.' if _req else ".")) if _partner else (f'None of the platforms checked so far restricts API access to approved partners. {_lead(_req, "issues", "issue")} access on request.' if _req else "None of the platforms checked so far restricts API access to approved partners.")
+_q3 = (f'{_lst(_open)}. Job boards and aggregators can use {_v(_open, "this feed", "these feeds")} to pull an employer\'s open roles without a commercial agreement.' if _open else "None of the platforms checked so far documents a keyless job feed.")
+ats_faq = [("Which ATS have a public API for job postings?", _q1), ("Which ATS APIs need a partnership or approval?", _q2), ("Which ATS publish an open job feed without a key?", _q3)]
 def _ats_cell(a, k):
     d = API_DET.get(a["id"], {}).get(k)
     return f'{e(d["value"])} <a class="muted small" href="{e(d["source_url"])}" rel="noopener nofollow" target="_blank">source</a>' if d else '<span class="muted small">Not yet documented</span>'

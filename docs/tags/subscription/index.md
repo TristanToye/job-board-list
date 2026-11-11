@@ -9,7 +9,7 @@ Employers pay a recurring fee or plan. 91 entries in the directory.
 - [Zhaopin](https://jobboardlist.com/boards/zhaopin/): board, No known API
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
 - [BOSS Zhipin](https://jobboardlist.com/boards/boss-zhipin/): board+chat, No known API
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [Mediabistro](https://jobboardlist.com/boards/mediabistro/): board
@@ -18,7 +18,7 @@ Employers pay a recurring fee or plan. 91 entries in the directory.
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government
 - [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Partner-only API
 - [Cake (CakeResume)](https://jobboardlist.com/boards/cake-cakeresume/): board
-- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Self-serve API key
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key

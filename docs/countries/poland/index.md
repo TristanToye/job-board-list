@@ -2,7 +2,7 @@
 
 15 job boards and related entries based in or serving Poland.
 
-- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Large tier, Open API (no key)
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Large tier, Self-serve API key
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Established tier, Partner-only API
 - [eRecruiter](https://jobboardlist.com/boards/erecruiter/): multiposting, Established tier
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key

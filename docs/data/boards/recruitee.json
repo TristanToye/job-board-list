@@ -15,7 +15,7 @@
  "segment": "SMB/mid-market",
  "parent": "Tellent",
  "business_model": "subscription",
- "api_status": "public-open",
+ "api_status": "public-key",
  "api_docs_url": "https://docs.recruitee.com",
  "partner_program": "yes",
  "partner_url": "",
@@ -61,6 +61,14 @@
    "title": "Pricing",
    "accessed": "2026-11-06",
    "quote": "Our subscriptions are tiered based on the plan you choose",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://docs.recruitee.com/reference/getting-started",
+   "title": "Getting Started",
+   "accessed": "2026-11-11",
+   "quote": "needs to authenticate first with a header Authorization: Bearer <token>",
    "quote_check": "ok"
   }
  ]

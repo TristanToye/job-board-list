@@ -1442,3 +1442,9 @@ pinpoint,api_status,https://developers.pinpointhq.com/docs/authentication,Authen
 pinpoint,business_model,https://www.pinpointhq.com/request-pricing,Request pricing,2026-11-11,See the product and get pricing,ok
 pinpoint,partner_program,https://www.pinpointhq.com/partner-with-us,Partner with us,2026-11-11,Join our referral or integration partner program and access benefits for you and your customers.,ok
 icims,api_status,https://developer-community.icims.com/getting-started/integrating-icims,Integrating with ICIMS,2026-11-11,It is important to note you do not have to be a partner with ICIMS to build an integration.,ok
+greenhouse,api_status,https://developers.greenhouse.io/job-board.html,Introduction - Job Board API | Greenhouse,2026-11-11,"Job Board data is publicly available, so authentication is not required for any GET endpoints.",ok
+lever,api_status,https://hire.lever.co/developer/documentation,Lever Developer,2026-11-11,Authenticate to the Lever API via basic auth by providing an API key as the username and leaving the password blank.,ok
+ashby,api_status,https://developers.ashbyhq.com/reference/authentication,Authentication,2026-11-11,Use HTTP Basic Auth to authenticate with our API. You must send your API key with every request.,ok
+smartrecruiters,api_status,https://developers.smartrecruiters.com/docs/authentication-api-key,API Key,2026-11-11,include the API key in the header of the request as X-SmartToken 'your-api-key-value',ok
+recruitee,api_status,https://docs.recruitee.com/reference/getting-started,Getting Started,2026-11-11,needs to authenticate first with a header Authorization: Bearer <token>,ok
+personio,api_status,https://developer.personio.de/docs/getting-started-with-the-personio-api,Get started with Personio API,2026-11-11,you will need to generate API credentials (client_id and client_secret),ok

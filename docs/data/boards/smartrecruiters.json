@@ -19,7 +19,7 @@
  "segment": "enterprise",
  "parent": "SAP",
  "business_model": "",
- "api_status": "public-open",
+ "api_status": "public-key",
  "api_docs_url": "https://developers.smartrecruiters.com",
  "partner_program": "yes",
  "partner_url": "",
@@ -99,6 +99,14 @@
    "title": "Pricing language menu",
    "accessed": "2026-11-06",
    "quote": "Deutsch",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://developers.smartrecruiters.com/docs/authentication-api-key",
+   "title": "API Key",
+   "accessed": "2026-11-11",
+   "quote": "include the API key in the header of the request as X-SmartToken 'your-api-key-value'",
    "quote_check": "ok"
   }
  ]

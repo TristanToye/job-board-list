@@ -7,7 +7,7 @@ SmartRecruiters is an applicant tracking system based in Poland, focused on appl
 - Founded: not recorded
 - Owner: SAP
 - Languages: English, German, French
-- API status: Open API (no key) (https://developers.smartrecruiters.com)
+- API status: Self-serve API key (https://developers.smartrecruiters.com)
 - Partner program: yes
 - Prominence: #4,305 globally, tier Large
 - Tags: Open API, Applicant tracking system, Enterprise, Partner program, Public job feed
@@ -26,7 +26,7 @@ SmartRecruiters is an applicant tracking system based in Poland, focused on appl
 
 **Who owns SmartRecruiters?** This directory records the parent of SmartRecruiters as SAP.
 
-**Does SmartRecruiters have an API?** According to this directory, SmartRecruiters has an open API or feed that does not require approval. Documentation: https://developers.smartrecruiters.com.
+**Does SmartRecruiters have an API?** According to this directory, SmartRecruiters offers an API you can use with a self-serve key. Documentation: https://developers.smartrecruiters.com.
 
 **Which languages does SmartRecruiters support?** This directory records SmartRecruiters as supporting English, German, French.
 
@@ -40,6 +40,7 @@ SmartRecruiters is an applicant tracking system based in Poland, focused on appl
 
 - [About Us](https://www.smartrecruiters.com/about-us/) (Ownership, checked 2026-11-06): "SmartRecruiters, an SAP company, has reaffirmed its commitment"
 - [Pricing language menu](https://www.smartrecruiters.com/pricing/) (Languages, checked 2026-11-06): "Deutsch"
+- [API Key](https://developers.smartrecruiters.com/docs/authentication-api-key) (API access, checked 2026-11-11): "include the API key in the header of the request as X-SmartToken 'your-api-key-value'"
 
 Canonical page: https://jobboardlist.com/boards/smartrecruiters/
-Last updated: 2026-11-06
+Last updated: 2026-11-11

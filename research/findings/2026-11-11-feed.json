@@ -1,0 +1,108 @@
+{
+ "mode": "api-details",
+ "country": "ZZ",
+ "round": 0,
+ "entries": [
+  {
+   "id": "lever",
+   "name": "Lever",
+   "api_docs_url": "https://github.com/lever/postings-api",
+   "facts": []
+  },
+  {
+   "id": "ashby",
+   "name": "Ashby",
+   "api_docs_url": "https://developers.ashbyhq.com",
+   "facts": []
+  },
+  {
+   "id": "recruitee",
+   "name": "Recruitee",
+   "api_docs_url": "https://docs.recruitee.com",
+   "facts": []
+  },
+  {
+   "id": "smartrecruiters",
+   "name": "SmartRecruiters",
+   "api_docs_url": "https://developers.smartrecruiters.com",
+   "facts": []
+  },
+  {
+   "id": "personio",
+   "name": "Personio",
+   "api_docs_url": "https://developer.personio.de",
+   "facts": []
+  },
+  {
+   "id": "workable",
+   "name": "Workable",
+   "api_docs_url": "https://workable.readme.io",
+   "facts": []
+  },
+  {
+   "id": "teamtailor",
+   "name": "Teamtailor",
+   "api_docs_url": "https://docs.teamtailor.com",
+   "facts": []
+  },
+  {
+   "id": "bamboohr",
+   "name": "BambooHR",
+   "api_docs_url": "https://documentation.bamboohr.com",
+   "facts": []
+  },
+  {
+   "id": "breezy",
+   "name": "Breezy HR",
+   "api_docs_url": "https://developer.breezy.hr",
+   "facts": []
+  },
+  {
+   "id": "jazzhr",
+   "name": "JazzHR",
+   "api_docs_url": "https://www.jazzhr.com/api",
+   "facts": []
+  },
+  {
+   "id": "jobvite",
+   "name": "Jobvite",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "rippling",
+   "name": "Rippling Recruiting",
+   "api_docs_url": "https://developer.rippling.com/",
+   "facts": []
+  },
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "api_docs_url": "https://developers.greenhouse.io/job-board.html",
+   "facts": [
+    {
+     "field": "feed",
+     "value": "JSON endpoint per job board: GET https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs; no authentication required for GET endpoints",
+     "source": {
+      "url": "https://developers.greenhouse.io/job-board.html",
+      "title": "Introduction – Job Board API | Greenhouse",
+      "accessed": "2026-11-11",
+      "quote": "Job Board data is publicly available, so authentication is not required for any GET endpoints.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "No authentication for GET endpoints; only the application POST endpoint uses Basic Auth",
+     "source": {
+      "url": "https://developers.greenhouse.io/job-board.html",
+      "title": "Introduction – Job Board API | Greenhouse",
+      "accessed": "2026-11-11",
+      "quote": "Only the application submission endpoint (POST https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs/{id}) requires Basic Auth.",
+      "check": "ok"
+     }
+    }
+   ]
+  }
+ ]
+}

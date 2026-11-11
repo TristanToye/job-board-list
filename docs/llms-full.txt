@@ -402,7 +402,7 @@ Ashby is an applicant tracking system based in United States, focused on applica
 - Founded: not recorded
 - Owner: not recorded
 - Languages: not recorded
-- API status: Open API (no key) (https://developers.ashbyhq.com)
+- API status: Self-serve API key (https://developers.ashbyhq.com)
 - Partner program: yes
 - Prominence: #10,735 globally, tier Established
 - Tags: Open API, Applicant tracking system, Partner program, Public job feed, Subscription
@@ -418,7 +418,7 @@ Ashby is an applicant tracking system based in United States, focused on applica
 
 ## Quick answers
 
-**Does Ashby have an API?** According to this directory, Ashby has an open API or feed that does not require approval. Documentation: https://developers.ashbyhq.com.
+**Does Ashby have an API?** According to this directory, Ashby offers an API you can use with a self-serve key. Documentation: https://developers.ashbyhq.com.
 
 **How large is Ashby?** Ashby ranks #10,735 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
@@ -429,9 +429,10 @@ Ashby is an applicant tracking system based in United States, focused on applica
 ## Sources
 
 - [Pricing](https://www.ashbyhq.com/pricing) (Business model and pricing, checked 2026-11-06): "Our pricing is based on company size, usage, and commitment."
+- [Authentication](https://developers.ashbyhq.com/reference/authentication) (API access, checked 2026-11-11): "Use HTTP Basic Auth to authenticate with our API. You must send your API key with every request."
 
 Canonical page: https://jobboardlist.com/boards/ashby/
-Last updated: 2026-11-06
+Last updated: 2026-11-11
 
 ---
 
@@ -2207,6 +2208,7 @@ Greenhouse is an applicant tracking system based in United States, focused on ap
 
 ## How API access works
 
+- Public job feed: JSON endpoint per job board: GET https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs; no authentication required for GET endpoints (https://developers.greenhouse.io/job-board.html)
 - How to get access: Read endpoints are public and need no key (https://docs.greenhouse.io/job-board.html#introduction)
 - Authentication: HTTP Basic auth with the Job Board API key, required only for application POST (https://docs.greenhouse.io/job-board.html#introduction)
 - Data formats: JSON representation of offices, departments and published jobs (https://docs.greenhouse.io/job-board.html#introduction)
@@ -2227,9 +2229,10 @@ Greenhouse is an applicant tracking system based in United States, focused on ap
 - [Deutsch page language menu](https://www.greenhouse.com/de) (Languages, checked 2026-11-06): "English (US)"
 - [UK page language menu](https://www.greenhouse.com/uk) (Languages, checked 2026-11-06): "English (UK)"
 - [Pricing](https://www.greenhouse.com/pricing) (Business model and pricing, checked 2026-11-06): "Greenhouse pricing is customized based on your company’s hiring needs."
+- [Introduction - Job Board API | Greenhouse](https://developers.greenhouse.io/job-board.html) (API access, checked 2026-11-11): "Job Board data is publicly available, so authentication is not required for any GET endpoints."
 
 Canonical page: https://jobboardlist.com/boards/greenhouse/
-Last updated: 2026-11-06
+Last updated: 2026-11-11
 
 ---
 
@@ -3907,7 +3910,7 @@ Lever is an applicant tracking system based in United States, focused on applica
 - Founded: not recorded
 - Owner: Employ Inc.
 - Languages: not recorded
-- API status: Open API (no key) (https://github.com/lever/postings-api)
+- API status: Self-serve API key (https://github.com/lever/postings-api)
 - Partner program: yes
 - Prominence: #3,942 globally, tier Large
 - Tags: Open API, Applicant tracking system, Mid-market, Partner program, Public job feed
@@ -3928,7 +3931,7 @@ Lever is an applicant tracking system based in United States, focused on applica
 
 **Who owns Lever?** This directory records the parent of Lever as Employ Inc..
 
-**Does Lever have an API?** According to this directory, Lever has an open API or feed that does not require approval. Documentation: https://github.com/lever/postings-api.
+**Does Lever have an API?** According to this directory, Lever offers an API you can use with a self-serve key. Documentation: https://github.com/lever/postings-api.
 
 **How large is Lever?** Lever ranks #3,942 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
@@ -3941,6 +3944,7 @@ Lever is an applicant tracking system based in United States, focused on applica
 - [About Employ (footer)](https://www.lever.co/about/) (Ownership, checked 2026-11-11): "Employ, JazzHR, Lever, and Jobvite are registered trademarks of Employ, Inc."
 - [Pricing](https://www.lever.co/pricing) (Business model and pricing, checked 2026-11-11): "To get Lever pricing, you’ll need to contact Lever directly for a custom quote."
 - [Partner program](https://www.lever.co/partners) (Partner program, checked 2026-11-11): "Build an integration, reach new customers, and become part of the hiring workflow teams rely on every day."
+- [Lever Developer](https://hire.lever.co/developer/documentation) (API access, checked 2026-11-11): "Authenticate to the Lever API via basic auth by providing an API key as the username and leaving the password blank."
 
 Canonical page: https://jobboardlist.com/boards/lever/
 Last updated: 2026-11-11
@@ -4840,7 +4844,7 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 - Founded: not recorded
 - Owner: Tellent
 - Languages: not recorded
-- API status: Open API (no key) (https://docs.recruitee.com)
+- API status: Self-serve API key (https://docs.recruitee.com)
 - Partner program: yes
 - Prominence: #5,796 globally, tier Large
 - Tags: Open API, Applicant tracking system, Mid-market, Partner program, Public job feed, Small business, Subscription
@@ -4861,7 +4865,7 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 
 **Who owns Recruitee?** This directory records the parent of Recruitee as Tellent.
 
-**Does Recruitee have an API?** According to this directory, Recruitee has an open API or feed that does not require approval. Documentation: https://docs.recruitee.com.
+**Does Recruitee have an API?** According to this directory, Recruitee offers an API you can use with a self-serve key. Documentation: https://docs.recruitee.com.
 
 **How large is Recruitee?** Recruitee ranks #5,796 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
@@ -4870,9 +4874,10 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 ## Sources
 
 - [Pricing](https://recruitee.com/pricing) (Business model and pricing, checked 2026-11-06): "Our subscriptions are tiered based on the plan you choose"
+- [Getting Started](https://docs.recruitee.com/reference/getting-started) (API access, checked 2026-11-11): "needs to authenticate first with a header Authorization: Bearer <token>"
 
 Canonical page: https://jobboardlist.com/boards/recruitee/
-Last updated: 2026-11-06
+Last updated: 2026-11-11
 
 ---
 
@@ -5264,7 +5269,7 @@ SmartRecruiters is an applicant tracking system based in Poland, focused on appl
 - Founded: not recorded
 - Owner: SAP
 - Languages: English, German, French
-- API status: Open API (no key) (https://developers.smartrecruiters.com)
+- API status: Self-serve API key (https://developers.smartrecruiters.com)
 - Partner program: yes
 - Prominence: #4,305 globally, tier Large
 - Tags: Open API, Applicant tracking system, Enterprise, Partner program, Public job feed
@@ -5283,7 +5288,7 @@ SmartRecruiters is an applicant tracking system based in Poland, focused on appl
 
 **Who owns SmartRecruiters?** This directory records the parent of SmartRecruiters as SAP.
 
-**Does SmartRecruiters have an API?** According to this directory, SmartRecruiters has an open API or feed that does not require approval. Documentation: https://developers.smartrecruiters.com.
+**Does SmartRecruiters have an API?** According to this directory, SmartRecruiters offers an API you can use with a self-serve key. Documentation: https://developers.smartrecruiters.com.
 
 **Which languages does SmartRecruiters support?** This directory records SmartRecruiters as supporting English, German, French.
 
@@ -5297,9 +5302,10 @@ SmartRecruiters is an applicant tracking system based in Poland, focused on appl
 
 - [About Us](https://www.smartrecruiters.com/about-us/) (Ownership, checked 2026-11-06): "SmartRecruiters, an SAP company, has reaffirmed its commitment"
 - [Pricing language menu](https://www.smartrecruiters.com/pricing/) (Languages, checked 2026-11-06): "Deutsch"
+- [API Key](https://developers.smartrecruiters.com/docs/authentication-api-key) (API access, checked 2026-11-11): "include the API key in the header of the request as X-SmartToken 'your-api-key-value'"
 
 Canonical page: https://jobboardlist.com/boards/smartrecruiters/
-Last updated: 2026-11-06
+Last updated: 2026-11-11
 
 ---
 
@@ -7666,12 +7672,12 @@ Canonical page: https://jobboardlist.com/tags/api-on-request/
 Provides an API or feed that needs no approval. 17 entries in the directory.
 
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Open API (no key)
-- [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
-- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
-- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Self-serve API key
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Self-serve API key
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Self-serve API key
 - [We Work Remotely](https://jobboardlist.com/boards/weworkremotely/): niche-board, Open API (no key)
-- [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Self-serve API key
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [Remote OK](https://jobboardlist.com/boards/remoteok/): niche-board, Open API (no key)
 - [Remotive](https://jobboardlist.com/boards/remotive/): niche-board, Open API (no key)
@@ -7814,16 +7820,16 @@ Software employers use to manage hiring and publish their jobs. 21 entries in th
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
 - [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
-- [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
-- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Self-serve API key
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Self-serve API key
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
-- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Self-serve API key
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Self-serve API key
-- [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Self-serve API key
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
 - [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
@@ -7920,7 +7926,7 @@ Canonical page: https://jobboardlist.com/tags/education/
 Aimed at large enterprises. 9 entries in the directory.
 
 - [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
-- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Self-serve API key
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
@@ -8513,9 +8519,9 @@ Canonical page: https://jobboardlist.com/tags/lmi/
 
 Aimed at mid-sized companies. 7 entries in the directory.
 
-- [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Self-serve API key
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Self-serve API key
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
@@ -8571,24 +8577,24 @@ Has a partner or integration program. 85 entries in the directory.
 - [HeadHunter (hh.ru)](https://jobboardlist.com/boards/hh-ru/): board, Self-serve API key
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
 - [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
-- [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Self-serve API key
 - [Idealist](https://jobboardlist.com/boards/idealist/): niche-board
-- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Self-serve API key
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
 - [99designs](https://jobboardlist.com/boards/99designs/): freelance-platform
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
-- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Self-serve API key
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Self-serve API key
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
 - [TaskRabbit](https://jobboardlist.com/boards/taskrabbit/): freelance-platform
-- [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Self-serve API key
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
@@ -8761,14 +8767,14 @@ Publishes a public job feed or API for customers' postings. 15 entries in the di
 
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
-- [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
-- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Self-serve API key
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Self-serve API key
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
-- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Self-serve API key
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
-- [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Self-serve API key
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
@@ -8891,10 +8897,10 @@ Aimed at small businesses. 8 entries in the directory.
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Self-serve API key
-- [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Self-serve API key
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 
 Canonical page: https://jobboardlist.com/tags/smb/
@@ -8962,7 +8968,7 @@ Employers pay a recurring fee or plan. 91 entries in the directory.
 - [Zhaopin](https://jobboardlist.com/boards/zhaopin/): board, No known API
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
 - [BOSS Zhipin](https://jobboardlist.com/boards/boss-zhipin/): board+chat, No known API
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [Mediabistro](https://jobboardlist.com/boards/mediabistro/): board
@@ -8971,7 +8977,7 @@ Employers pay a recurring fee or plan. 91 entries in the directory.
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government
 - [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Partner-only API
 - [Cake (CakeResume)](https://jobboardlist.com/boards/cake-cakeresume/): board
-- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Self-serve API key
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
@@ -9449,7 +9455,7 @@ Canonical page: https://jobboardlist.com/countries/france/
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board, Large tier
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Established tier, Partner-only API
 - [meinestadt.de](https://jobboardlist.com/boards/meinestadt-de/): board, Established tier
-- [Personio](https://jobboardlist.com/boards/personio/): ats, Established tier, Open API (no key)
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Established tier, Self-serve API key
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Established tier, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [Jobware](https://jobboardlist.com/boards/jobware/): board, Established tier
@@ -9634,7 +9640,7 @@ Canonical page: https://jobboardlist.com/countries/mexico/
 
 19 job boards and related entries based in or serving Netherlands.
 
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Large tier, Open API (no key)
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Large tier, Self-serve API key
 - [Randstad](https://jobboardlist.com/boards/randstad/): staffing, Established tier
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
 - [YoungCapital](https://jobboardlist.com/boards/youngcapital/): niche-board, Established tier
@@ -9745,7 +9751,7 @@ Canonical page: https://jobboardlist.com/countries/philippines/
 
 15 job boards and related entries based in or serving Poland.
 
-- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Large tier, Open API (no key)
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Large tier, Self-serve API key
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Established tier, Partner-only API
 - [eRecruiter](https://jobboardlist.com/boards/erecruiter/): multiposting, Established tier
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Established tier, Self-serve API key
@@ -10045,7 +10051,7 @@ Canonical page: https://jobboardlist.com/countries/united-kingdom/
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board, Large tier
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Large tier, Partner-only API
 - [iCIMS](https://jobboardlist.com/boards/icims/): ats, Large tier, API key on request
-- [Lever](https://jobboardlist.com/boards/lever/): ats, Large tier, Open API (no key)
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Large tier, Self-serve API key
 - [Idealist](https://jobboardlist.com/boards/idealist/): niche-board, Large tier
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, Large tier, No known API
 - [USAJOBS](https://jobboardlist.com/boards/usajobs/): government, Large tier, Self-serve API key
@@ -10056,7 +10062,7 @@ Canonical page: https://jobboardlist.com/countries/united-kingdom/
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government, Large tier
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Large tier, Self-serve API key
 - [SimplyHired](https://jobboardlist.com/boards/simplyhired/): aggregator, Large tier
-- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Established tier, Open API (no key)
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Established tier, Self-serve API key
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Established tier, Partner-only API
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Established tier, Self-serve API key
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Established tier, Self-serve API key

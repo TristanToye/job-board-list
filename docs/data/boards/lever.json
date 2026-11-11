@@ -15,7 +15,7 @@
  "segment": "mid-market",
  "parent": "Employ Inc.",
  "business_model": "custom quote",
- "api_status": "public-open",
+ "api_status": "public-key",
  "api_docs_url": "https://github.com/lever/postings-api",
  "partner_program": "yes",
  "partner_url": "https://www.lever.co/partners",
@@ -193,6 +193,14 @@
    "title": "Partner program",
    "accessed": "2026-11-11",
    "quote": "Build an integration, reach new customers, and become part of the hiring workflow teams rely on every day.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://hire.lever.co/developer/documentation",
+   "title": "Lever Developer",
+   "accessed": "2026-11-11",
+   "quote": "Authenticate to the Lever API via basic auth by providing an API key as the username and leaving the password blank.",
    "quote_check": "ok"
   }
  ]

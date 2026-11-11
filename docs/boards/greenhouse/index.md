@@ -16,6 +16,7 @@ Greenhouse is an applicant tracking system based in United States, focused on ap
 
 ## How API access works
 
+- Public job feed: JSON endpoint per job board: GET https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs; no authentication required for GET endpoints (https://developers.greenhouse.io/job-board.html)
 - How to get access: Read endpoints are public and need no key (https://docs.greenhouse.io/job-board.html#introduction)
 - Authentication: HTTP Basic auth with the Job Board API key, required only for application POST (https://docs.greenhouse.io/job-board.html#introduction)
 - Data formats: JSON representation of offices, departments and published jobs (https://docs.greenhouse.io/job-board.html#introduction)
@@ -36,6 +37,7 @@ Greenhouse is an applicant tracking system based in United States, focused on ap
 - [Deutsch page language menu](https://www.greenhouse.com/de) (Languages, checked 2026-11-06): "English (US)"
 - [UK page language menu](https://www.greenhouse.com/uk) (Languages, checked 2026-11-06): "English (UK)"
 - [Pricing](https://www.greenhouse.com/pricing) (Business model and pricing, checked 2026-11-06): "Greenhouse pricing is customized based on your company’s hiring needs."
+- [Introduction - Job Board API | Greenhouse](https://developers.greenhouse.io/job-board.html) (API access, checked 2026-11-11): "Job Board data is publicly available, so authentication is not required for any GET endpoints."
 
 Canonical page: https://jobboardlist.com/boards/greenhouse/
-Last updated: 2026-11-06
+Last updated: 2026-11-11

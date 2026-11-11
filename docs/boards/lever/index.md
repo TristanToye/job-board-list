@@ -7,7 +7,7 @@ Lever is an applicant tracking system based in United States, focused on applica
 - Founded: not recorded
 - Owner: Employ Inc.
 - Languages: not recorded
-- API status: Open API (no key) (https://github.com/lever/postings-api)
+- API status: Self-serve API key (https://github.com/lever/postings-api)
 - Partner program: yes
 - Prominence: #3,942 globally, tier Large
 - Tags: Open API, Applicant tracking system, Mid-market, Partner program, Public job feed
@@ -28,7 +28,7 @@ Lever is an applicant tracking system based in United States, focused on applica
 
 **Who owns Lever?** This directory records the parent of Lever as Employ Inc..
 
-**Does Lever have an API?** According to this directory, Lever has an open API or feed that does not require approval. Documentation: https://github.com/lever/postings-api.
+**Does Lever have an API?** According to this directory, Lever offers an API you can use with a self-serve key. Documentation: https://github.com/lever/postings-api.
 
 **How large is Lever?** Lever ranks #3,942 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
@@ -41,6 +41,7 @@ Lever is an applicant tracking system based in United States, focused on applica
 - [About Employ (footer)](https://www.lever.co/about/) (Ownership, checked 2026-11-11): "Employ, JazzHR, Lever, and Jobvite are registered trademarks of Employ, Inc."
 - [Pricing](https://www.lever.co/pricing) (Business model and pricing, checked 2026-11-11): "To get Lever pricing, you’ll need to contact Lever directly for a custom quote."
 - [Partner program](https://www.lever.co/partners) (Partner program, checked 2026-11-11): "Build an integration, reach new customers, and become part of the hiring workflow teams rely on every day."
+- [Lever Developer](https://hire.lever.co/developer/documentation) (API access, checked 2026-11-11): "Authenticate to the Lever API via basic auth by providing an API key as the username and leaving the password blank."
 
 Canonical page: https://jobboardlist.com/boards/lever/
 Last updated: 2026-11-11

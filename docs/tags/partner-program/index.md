@@ -10,24 +10,24 @@ Has a partner or integration program. 85 entries in the directory.
 - [HeadHunter (hh.ru)](https://jobboardlist.com/boards/hh-ru/): board, Self-serve API key
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
 - [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
-- [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Self-serve API key
 - [Idealist](https://jobboardlist.com/boards/idealist/): niche-board
-- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Self-serve API key
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
 - [99designs](https://jobboardlist.com/boards/99designs/): freelance-platform
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
-- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Self-serve API key
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Self-serve API key
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
 - [TaskRabbit](https://jobboardlist.com/boards/taskrabbit/): freelance-platform
-- [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Self-serve API key
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API

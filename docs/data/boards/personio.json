@@ -15,7 +15,7 @@
  "segment": "SMB (DACH)",
  "parent": "",
  "business_model": "",
- "api_status": "public-open",
+ "api_status": "public-key",
  "api_docs_url": "https://developer.personio.de",
  "partner_program": "yes",
  "partner_url": "",
@@ -52,5 +52,14 @@
  },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "api_status",
+   "url": "https://developer.personio.de/docs/getting-started-with-the-personio-api",
+   "title": "Get started with Personio API",
+   "accessed": "2026-11-11",
+   "quote": "you will need to generate API credentials (client_id and client_secret)",
+   "quote_check": "ok"
+  }
+ ]
 }

@@ -3,12 +3,12 @@
 Provides an API or feed that needs no approval. 17 entries in the directory.
 
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Open API (no key)
-- [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
-- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
-- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Open API (no key)
-- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Open API (no key)
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Self-serve API key
+- [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Self-serve API key
+- [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Self-serve API key
 - [We Work Remotely](https://jobboardlist.com/boards/weworkremotely/): niche-board, Open API (no key)
-- [Personio](https://jobboardlist.com/boards/personio/): ats, Open API (no key)
+- [Personio](https://jobboardlist.com/boards/personio/): ats, Self-serve API key
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [Remote OK](https://jobboardlist.com/boards/remoteok/): niche-board, Open API (no key)
 - [Remotive](https://jobboardlist.com/boards/remotive/): niche-board, Open API (no key)

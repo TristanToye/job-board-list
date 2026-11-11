@@ -9,7 +9,7 @@
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board, Large tier
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Large tier, Partner-only API
 - [iCIMS](https://jobboardlist.com/boards/icims/): ats, Large tier, API key on request
-- [Lever](https://jobboardlist.com/boards/lever/): ats, Large tier, Open API (no key)
+- [Lever](https://jobboardlist.com/boards/lever/): ats, Large tier, Self-serve API key
 - [Idealist](https://jobboardlist.com/boards/idealist/): niche-board, Large tier
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, Large tier, No known API
 - [USAJOBS](https://jobboardlist.com/boards/usajobs/): government, Large tier, Self-serve API key
@@ -20,7 +20,7 @@
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government, Large tier
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Large tier, Self-serve API key
 - [SimplyHired](https://jobboardlist.com/boards/simplyhired/): aggregator, Large tier
-- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Established tier, Open API (no key)
+- [Ashby](https://jobboardlist.com/boards/ashby/): ats, Established tier, Self-serve API key
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Established tier, Partner-only API
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Established tier, Self-serve API key
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Established tier, Self-serve API key
