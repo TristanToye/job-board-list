@@ -1,0 +1,124 @@
+{
+  "mode": "discover",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "JOIN",
+      "url": "https://join.com",
+      "type": "multiposting",
+      "niche": "applicant tracking with job board multiposting",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://join.com/en", "title": "Join: the ATS for SMB hiring", "quote": "The all-in-one ATS for SMB hiring."},
+        {"field": "distribution", "url": "https://join.com/en", "title": "Join: the ATS for SMB hiring", "quote": "Access to over 250+ premium job platforms."}
+      ]
+    },
+    {
+      "name": "Talroo",
+      "url": "https://www.talroo.com",
+      "type": "programmatic-distribution",
+      "niche": "programmatic job advertising for frontline hiring",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.talroo.com", "title": "Talroo: Reinventing Job Advertising for Frontline Workers", "quote": "Reinventing Job Advertising for Frontline Workers"},
+        {"field": "distribution", "url": "https://www.talroo.com", "title": "Talroo: Reinventing Job Advertising for Frontline Workers", "quote": "promotes them to job seekers across Jobs2Careers, ReadySetHire, EssentialWorkerJobs, and other channels outside the big job boards."}
+      ]
+    },
+    {
+      "name": "JobTarget",
+      "url": "https://www.jobtarget.com",
+      "type": "multiposting",
+      "niche": "recruitment advertising and job distribution",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobtarget.com", "title": "JobTarget Makes Hiring Happen", "quote": "JobTarget helps you cut through the noise to reach and convert the best candidates."},
+        {"field": "distribution", "url": "https://www.jobtarget.com", "title": "JobTarget Makes Hiring Happen", "quote": "streamlining distribution to 25,000+ job boards from one central dashboard"}
+      ]
+    },
+    {
+      "name": "Idibu",
+      "url": "https://www.idibu.com",
+      "type": "multiposting",
+      "niche": "job distribution for recruitment agencies",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.idibu.com", "title": "idibu: Job Distribution that Works Seamlessly with your CRM", "quote": "Job distribution and response management at the touch of a button"}
+      ]
+    },
+    {
+      "name": "Vacancy Poster",
+      "url": "https://www.vacancyposter.com",
+      "type": "multiposting",
+      "niche": "job distribution for employers and recruitment software",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.vacancyposter.com", "title": "Multi-Posting Job Posting Software | Vacancy Poster", "quote": "Multi-Posting Job Posting Software"},
+        {"field": "distribution", "url": "https://www.vacancyposter.com", "title": "Multi-Posting Job Posting Software | Vacancy Poster", "quote": "one connection to every board that matters"}
+      ]
+    },
+    {
+      "name": "Postings.com",
+      "url": "https://www.postings.com",
+      "type": "multiposting",
+      "niche": "job posting software with career sites and candidate management",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.postings.com", "title": "Postings - Job Posting Software - Custom Career Pages", "quote": "Job Posting Software - Custom Career Pages"},
+        {"field": "distribution", "url": "https://www.postings.com", "title": "Postings - Job Posting Software - Custom Career Pages", "quote": "Create and Distribute Job Postings"}
+      ]
+    },
+    {
+      "name": "hireDiverse",
+      "url": "https://www.hirediverse.ca",
+      "type": "multiposting",
+      "niche": "inclusive recruitment and employment equity job distribution",
+      "countries_served": ["CA"],
+      "sources": [
+        {"field": "existence", "url": "https://www.hirediverse.ca", "title": "Inclusive Recruitment & Employment Equity | hireDiverse", "quote": "hireDiverse helps Canadian employers reach underrepresented talent, strengthen inclusive recruitment outreach, and document their efforts through automated job distribution and employment equity reporting."}
+      ]
+    },
+    {
+      "name": "PandoLogic",
+      "url": "https://pandologic.com",
+      "type": "programmatic-distribution",
+      "niche": "programmatic recruitment advertising with AI",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://pandologic.com", "title": "Programmatic Recruitment Software Powered by AI | Pandologic", "quote": "Programmatic Recruitment Software Powered by AI"},
+        {"field": "programmatic", "url": "https://pandologic.com", "title": "Programmatic Recruitment Software Powered by AI | Pandologic", "quote": "leverages the best of programmatic technology with conversational AI"}
+      ]
+    },
+    {
+      "name": "DirectEmployers Association",
+      "url": "https://directemployers.org",
+      "type": "multiposting",
+      "niche": "job distribution and recruitment solutions for employers",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://directemployers.org", "title": "Home • DirectEmployers Association One-stop Shop Solutions", "quote": "DirectEmployers Association One-stop Shop Solutions"},
+        {"field": "distribution", "url": "https://directemployers.org", "title": "Home • DirectEmployers Association One-stop Shop Solutions", "quote": "custom job distribution for companies with up to five jobs"}
+      ]
+    },
+    {
+      "name": "Radancy",
+      "url": "https://www.radancy.com",
+      "type": "programmatic-distribution",
+      "niche": "talent acquisition platform with programmatic ad optimisation",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.radancy.com", "title": "Radancy | The Talent Acquisition Platform powered by Agentic AI", "quote": "The Talent Acquisition Platform powered by Agentic AI"},
+        {"field": "programmatic", "url": "https://www.radancy.com", "title": "Radancy | The Talent Acquisition Platform powered by Agentic AI", "quote": "Optimize programmatic ad spend."}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Betterteam", "url": "https://www.betterteam.com/ca/post-to-multiple-job-boards", "reason": "HTTP 403 security challenge page"},
+    {"name": "WhatJobs", "url": "https://www.whatjobs.com/ats", "reason": "HTTP 403 security challenge page"},
+    {"name": "Jobcase", "url": "https://www.jobcase.com", "reason": "HTTP 403 security challenge page"},
+    {"name": "JobAdX", "url": "https://www.jobadx.com", "reason": "Redirected to a verification page instead of the homepage"},
+    {"name": "OneClick Recruitment", "url": "https://www.oneclickrecruitment.com", "reason": "HTTP 502 upstream request failed"}
+  ],
+  "queue": [
+    {"name": "DE Amplify", "url": "https://www.deamplify.com", "reason": "Named as a managed programmatic job advertising platform in a roundup; homepage redirected to a lander with no readable text"}
+  ]
+}
