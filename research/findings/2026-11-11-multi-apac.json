@@ -1,0 +1,34 @@
+{
+  "mode": "discover",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Moka ATS (MokaHR)",
+      "url": "https://www.mokahr.io",
+      "type": "multiposting",
+      "niche": "AI-native ATS with job syndication for Southeast Asia",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.mokahr.io/", "title": "Moka AI | AI-native ATS", "quote": "Moka AI is an AI-native applicant tracking system trusted by 1,000,000 HR professionals worldwide."},
+        {"field": "existence", "url": "https://www.mokahr.io/myblog/job-postings-syndication-mokahr-ai-ats-streamlined-hiring/", "title": "Job Postings & Syndication Made Easy with MokaHR", "quote": "Moka Eva puts jobs on over 100 job boards."}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Jobstore", "url": "https://www.jobstore.my", "reason": "HTTP 403 (Cloudflare security check) on 2026-11-11; redirected to jobstore.com"},
+    {"name": "GrabJobs", "url": "https://www.grabjobs.co", "reason": "HTTP 403 (Cloudflare security check) on 2026-11-11"},
+    {"name": "Jora", "url": "https://www.jora.com", "reason": "HTTP 403 (Cloudflare security check) on 2026-11-11; redirected to au.jora.com"},
+    {"name": "ZonaJobs", "url": "https://www.zonajobs.com.ar", "reason": "HTTP 403 (Cloudflare block page) on 2026-11-11"},
+    {"name": "Fuzu", "url": "https://fuzu.com", "reason": "HTTP 403 (Cloudflare security check) on 2026-11-11"},
+    {"name": "Glints", "url": "https://glints.com", "reason": "HTTP 403 (captcha challenge) on 2026-11-11"},
+    {"name": "Jobaroo", "url": "https://www.jobaroo.com", "reason": "Connection tunnel failed on 2026-11-11"},
+    {"name": "Kenoby", "url": "https://www.kenoby.com", "reason": "Connection tunnel failed on 2026-11-11"},
+    {"name": "Jobcaster", "url": "https://www.jobcaster.com", "reason": "Domain returned a parked-domain Access Denied page on 2026-11-11; the organisation's own site was not reached"}
+  ],
+  "queue": [
+    {"name": "idibu", "url": "https://www.idibu.com", "reason": "Homepage read and it describes job distribution to job boards, but headquarters and operating country are not stated on pages read, so class fit is not confirmed"},
+    {"name": "JobSplice", "url": "https://jobsplice.com", "reason": "About page read and it describes XML job feed distribution, but headquarters and operating country are not stated on pages read, so class fit is not confirmed"},
+    {"name": "Supportfinity", "url": "https://supportfinity.com", "reason": "Homepage read and it describes distributing jobs to job boards, but headquarters and operating country are not stated on pages read, so class fit is not confirmed"},
+    {"name": "JobAdder", "url": "https://jobadder.com", "reason": "Homepage read and states HQ in Australia, but the pages read describe it as a recruitment software platform and do not show job distribution to boards, so it was not listed as a multiposter"}
+  ]
+}
