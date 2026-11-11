@@ -1,0 +1,359 @@
+{
+ "mode": "api-details",
+ "country": "ZZ",
+ "round": 0,
+ "entries": [
+  {
+   "id": "teamtailor",
+   "name": "Teamtailor",
+   "api_docs_url": "https://docs.teamtailor.com",
+   "facts": [
+    {
+     "field": "access",
+     "value": "API keys created and managed in the Teamtailor account settings",
+     "source": {
+      "url": "https://docs.teamtailor.com",
+      "title": "Teamtailor API",
+      "accessed": "2026-11-11",
+      "quote": "Manage your API keys.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "API key sent in the Authorization header as a token",
+     "source": {
+      "url": "https://docs.teamtailor.com",
+      "title": "Teamtailor API",
+      "accessed": "2026-11-11",
+      "quote": "Authentication is performed by passing the api key in the Authorization header.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "formats",
+     "value": "JSON API specification",
+     "source": {
+      "url": "https://docs.teamtailor.com",
+      "title": "Teamtailor API",
+      "accessed": "2026-11-11",
+      "quote": "The Teamtailor API follows the JSON API Specification.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "API keys carry public, internal, read, write or admin permission levels",
+     "source": {
+      "url": "https://docs.teamtailor.com",
+      "title": "Teamtailor API",
+      "accessed": "2026-11-11",
+      "quote": "Your api keys might have different scopes and permissions.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "limits",
+     "value": "Bucket of 50 requests every 10 seconds; HTTP 429 when exceeded",
+     "source": {
+      "url": "https://docs.teamtailor.com",
+      "title": "Teamtailor API",
+      "accessed": "2026-11-11",
+      "quote": "You get a bucket of 50 requests every 10 seconds.",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "icims",
+   "name": "iCIMS",
+   "api_docs_url": "https://developer.icims.com",
+   "facts": [
+    {
+     "field": "access",
+     "value": "Not required to be an iCIMS partner to build an integration",
+     "source": {
+      "url": "https://developer-community.icims.com/getting-started/integrating-icims",
+      "title": "Integrating with ICIMS",
+      "accessed": "2026-11-11",
+      "quote": "It is important to note you do not have to be a partner with ICIMS to build an integration.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "approval",
+     "value": "Marketplace integrations are reviewed by the ICIMS Developer Support Team, which says whether they are approved or rejected",
+     "source": {
+      "url": "https://developer-community.icims.com/getting-started/integrating-icims",
+      "title": "Integrating with ICIMS",
+      "accessed": "2026-11-11",
+      "quote": "ICIMS Developer Support Team, who will notify you if it has been approved or rejected.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "sandbox",
+     "value": "Sandbox environment set up after integration approval, for developing, testing and validating the integration",
+     "source": {
+      "url": "https://developer-community.icims.com/getting-started/integrating-icims",
+      "title": "Integrating with ICIMS",
+      "accessed": "2026-11-11",
+      "quote": "set up a sandbox environment for the exclusive purpose of developing, testing and validating your integration",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "formats",
+     "value": "REST API",
+     "source": {
+      "url": "https://developer-community.icims.com/getting-started/integrating-icims",
+      "title": "Integrating with ICIMS",
+      "accessed": "2026-11-11",
+      "quote": "use the REST API and read/write to standard fields",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "Reads and writes the standard fields of the ATS data models an integration uses",
+     "source": {
+      "url": "https://developer-community.icims.com/getting-started/integrating-icims",
+      "title": "Integrating with ICIMS",
+      "accessed": "2026-11-11",
+      "quote": "determine the fields that your integration will read from and write to",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jobvite",
+   "name": "Jobvite",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "bamboohr",
+   "name": "BambooHR",
+   "api_docs_url": "https://documentation.bamboohr.com",
+   "facts": [
+    {
+     "field": "access",
+     "value": "Free developer portal account, where applications are registered for a client ID and secret",
+     "source": {
+      "url": "https://documentation.bamboohr.com/docs/getting-started",
+      "title": "Getting Started With The API",
+      "accessed": "2026-11-11",
+      "quote": "Create a free account at BambooHR's developer portal.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "API key sent over HTTP Basic authentication; OAuth authorization flow for registered applications",
+     "source": {
+      "url": "https://documentation.bamboohr.com/docs/getting-started",
+      "title": "Getting Started With The API",
+      "accessed": "2026-11-11",
+      "quote": "At the HTTP level, the API key is sent over HTTP Basic Authentication.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "formats",
+     "value": "RESTful HTTPS API",
+     "source": {
+      "url": "https://documentation.bamboohr.com/docs/getting-started",
+      "title": "Getting Started With The API",
+      "accessed": "2026-11-11",
+      "quote": "The BambooHR API is a RESTful Internet protocol",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "Employee data and reports; each request sees only what the API user's permissions allow",
+     "source": {
+      "url": "https://documentation.bamboohr.com/docs/getting-started",
+      "title": "Getting Started With The API",
+      "accessed": "2026-11-11",
+      "quote": "The API can be used to manipulate employee data and to generate reports in several formats.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "sandbox",
+     "value": "Test BambooHR account to develop against",
+     "source": {
+      "url": "https://documentation.bamboohr.com/docs/getting-started",
+      "title": "Getting Started With The API",
+      "accessed": "2026-11-11",
+      "quote": "Create a test BambooHR account to develop against",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "personio",
+   "name": "Personio",
+   "api_docs_url": "https://developer.personio.de",
+   "facts": [
+    {
+     "field": "access",
+     "value": "API credentials created in Marketplace under Connected integrations",
+     "source": {
+      "url": "https://developer.personio.de/docs/getting-started-with-the-personio-api",
+      "title": "Get started with Personio API",
+      "accessed": "2026-11-11",
+      "quote": "by clicking Create custom integration in Marketplace > Connected integrations",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "client_id and client_secret credentials; recruiting access token is predefined per account",
+     "source": {
+      "url": "https://developer.personio.de/docs/getting-started-with-the-personio-api",
+      "title": "Get started with Personio API",
+      "accessed": "2026-11-11",
+      "quote": "you will need to generate API credentials (client_id and client_secret)",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "Employee, attendance, absence, recruiting, custom report and webhook endpoints",
+     "source": {
+      "url": "https://developer.personio.de/docs/getting-started-with-the-personio-api",
+      "title": "Get started with Personio API",
+      "accessed": "2026-11-11",
+      "quote": "The Employee endpoint supports both GET, POST, and PATCH for system and custom employee attributes.",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jazzhr",
+   "name": "JazzHR",
+   "api_docs_url": "https://www.jazzhr.com/api",
+   "facts": []
+  },
+  {
+   "id": "breezy",
+   "name": "Breezy HR",
+   "api_docs_url": "https://developer.breezy.hr",
+   "facts": [
+    {
+     "field": "access",
+     "value": "Personal API key created from the API Keys tab in the Breezy account",
+     "source": {
+      "url": "https://developer.breezy.hr/reference/authorization",
+      "title": "Authentication",
+      "accessed": "2026-11-11",
+      "quote": "Click Create API Key and give it a name",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "Personal Access Token in the Authorization header; session tokens from the signin endpoint also supported",
+     "source": {
+      "url": "https://developer.breezy.hr/reference/authorization",
+      "title": "Authentication",
+      "accessed": "2026-11-11",
+      "quote": "Personal Access Tokens (PATs) are recommended for integrations and automated workflows.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "Subset of the functionality used by the Breezy HR website, including positions, candidates and webhooks",
+     "source": {
+      "url": "https://developer.breezy.hr",
+      "title": "Welcome",
+      "accessed": "2026-11-11",
+      "quote": "aim to provide a subset of the functionality used by the Breezy HR website",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "limits",
+     "value": "100 requests per 60-second interval for each authentication token",
+     "source": {
+      "url": "https://developer.breezy.hr/reference/rate-limiting",
+      "title": "Rate Limiting",
+      "accessed": "2026-11-11",
+      "quote": "Within each 60 second interval, we allow 100 requests to be performed",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rippling",
+   "name": "Rippling Recruiting",
+   "api_docs_url": "https://developer.rippling.com/",
+   "facts": [
+    {
+     "field": "access",
+     "value": "API tokens created by a user, inheriting that user's permissions and selected scopes",
+     "source": {
+      "url": "https://developer.rippling.com/documentation/rest-api",
+      "title": "Rippling REST API",
+      "accessed": "2026-11-11",
+      "quote": "Tokens inherit the creator's permissions and selected scopes.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "Bearer token",
+     "source": {
+      "url": "https://developer.rippling.com/documentation/rest-api",
+      "title": "Rippling REST API",
+      "accessed": "2026-11-11",
+      "quote": "Authenticate requests with bearer tokens.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "Talent endpoints for recruiting, headcount planning, performance and compensation bands; access set by OAuth scopes",
+     "source": {
+      "url": "https://developer.rippling.com/documentation/rest-api",
+      "title": "Rippling REST API",
+      "accessed": "2026-11-11",
+      "quote": "Talent - Recruiting, headcount planning, performance, and compensation bands.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "limits",
+     "value": "600 requests per 10 seconds with an API token, counted per token per endpoint path",
+     "source": {
+      "url": "https://developer.rippling.com/documentation/rest-api/essentials/api-limits",
+      "title": "API usage and rate limits",
+      "accessed": "2026-11-11",
+      "quote": "600 requests per 10 seconds, counted per token per endpoint path.",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "oracle-recruiting",
+   "name": "Oracle Recruiting Cloud",
+   "api_docs_url": "https://docs.oracle.com/en/cloud/saas/talent-management/",
+   "facts": []
+  },
+  {
+   "id": "workday",
+   "name": "Workday Recruiting",
+   "api_docs_url": "",
+   "facts": []
+  }
+ ]
+}
