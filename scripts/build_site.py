@@ -95,6 +95,15 @@ def life_text(r):
     s = r["status"]; y = f' in {r["year"]}' if r["year"] else ""
     succ = f' {"by" if s == "acquired" else "with"} {r["successor_name"]}' if r["successor_name"] and s in ("acquired", "merged") else (f' as {r["successor_name"]}' if r["successor_name"] and s == "rebranded" else "")
     return {"closed": f'Closed{y}', "acquired": f'Acquired{succ}{y}', "merged": f'Merged{succ}{y}', "rebranded": f'Rebranded{succ}{y}'}[s]
+API_DET = collections.defaultdict(dict)
+for _d in (load("api_details.csv") if (ROOT/"data"/"api_details.csv").exists() else []): API_DET[_d["board_id"]][_d["field"]] = _d
+API_DET_LABEL = {"access": "How to get access", "auth": "Authentication", "formats": "Data formats", "scope": "What it covers", "limits": "Rate limits", "cost": "Cost", "approval": "Approval", "sandbox": "Test environment"}
+API_DET_ORDER = ["access", "approval", "auth", "formats", "scope", "limits", "cost", "sandbox"]
+def api_det_block(b, r):
+    d = API_DET.get(b["id"])
+    if not d: return ""
+    rows_ = "".join(f'<dt>{e(API_DET_LABEL[k])}</dt><dd>{e(d[k]["value"])} <a class="muted small" href="{e(d[k]["source_url"])}" rel="noopener nofollow" target="_blank">source</a></dd>' for k in API_DET_ORDER if k in d)
+    return f'<h2>How API access works</h2><dl class="facts">{rows_}</dl><p class="muted small">Each line is taken from the platform\'s own documentation or site, checked {e(max(x["accessed"] for x in d.values()))}. <a href="{r}api/">All API access levels explained</a>.</p>'
 OWNERS = {r["id"]: r for r in load("owners.csv")} if (ROOT/"data"/"owners.csv").exists() else {}
 HOLD = load("ownership.csv") if (ROOT/"data"/"ownership.csv").exists() else []
 OWNER_FACTS = collections.defaultdict(dict)
@@ -327,6 +336,10 @@ for b in boards:
         _sn = [other_name(rr, sd) for rr, sd in groups[0][1][:6]]; _rn = [other_name(rr, sd) for rr, sd in groups[1][1][:6]]; _in = [other_name(rr, sd) for rr, sd in groups[2][1][:6]]
         _bits = ([f'sends jobs to {", ".join(_sn)}' + (" and others" if len(groups[0][1]) > 6 else "")] if _sn else []) + ([f'receives jobs from {", ".join(_rn)}' + (" and others" if len(groups[1][1]) > 6 else "")] if _rn else []) + ([f'integrates with {", ".join(_in)}' + (" and others" if len(groups[2][1]) > 6 else "")] if _in else [])
         faq.append((f"Which platforms does {qn} connect to?", f'According to this directory, {qn} ' + "; ".join(_bits) + "."))
+    _ad = API_DET.get(b["id"])
+    if _ad and ("access" in _ad or "auth" in _ad):
+        _bits = [f'access works like this: {_ad["access"]["value"]}' if "access" in _ad else "", f'requests authenticate with {_ad["auth"]["value"]}' if "auth" in _ad else ""]
+        faq.append((f"How do you get API access to {qn}?", f'According to {qn}\'s own documentation, ' + "; ".join(x for x in _bits if x) + "."))
     faq_html = '<section class="faq"><h2>Quick answers</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in faq) + "</section>"
     mod_date = max([x["accessed"] for x in srcs if x.get("accessed")], default=TODAY)
     sources_html = ""
@@ -347,6 +360,7 @@ for b in boards:
 {fact("How jobs get in", chips(split(b["ingest_methods"])))}</dl>
 {f'<h2>Notes</h2><p>{e(b["notes"])}</p>' if b["notes"] else ""}
 <p class="muted small">{e(b["name"])} and its logo are trademarks of their respective owners. Icons are shown for identification only and do not imply affiliation or endorsement.</p>
+{api_det_block(b, r)}
 {prom_html}
 {faq_html}
 {conn_html}
@@ -375,6 +389,7 @@ for b in boards:
         ("Languages", ", ".join(lang(c) for c in langs_of(b)) or "not recorded"), ("API status", API_LABEL.get(b["api_status"], b["api_status"]) + (f' ({b["api_docs_url"]})' if b["api_docs_url"] else "")),
         ("Partner program", b["partner_program"] or "unknown"), ("Prominence", (f'#{p["g"]:,} globally, tier {p["tier"]}' if p["group"] == 0 else p["label"])),
         ("Tags", ", ".join(TAX[t]["label"] for t in tags_of("board", b["id"])) or "none"), ("Review", review_text(b)), ("Data status", {"partially-verified": "partly verified against its own site", "secondary-sourced": "secondary sources only", "listed-only": "listed by another directory only"}.get(b["confidence"], "unverified"))] if v)
+        + ("\n\n## How API access works\n\n" + "\n".join(f'- {API_DET_LABEL[k]}: {API_DET[b["id"]][k]["value"]} ({API_DET[b["id"]][k]["source_url"]})' for k in API_DET_ORDER if k in API_DET[b["id"]]) if API_DET.get(b["id"]) else "")
         + "\n\n## Quick answers\n\n" + "\n\n".join(f"**{q}** {a}" for q, a in faq[1:])
         + ("\n\n## Sources\n\n" + "\n".join(f'- [{x["title"] or x["url"]}]({x["url"]}) ({FIELD_LABEL.get(x["field"], x["field"])}, checked {x["accessed"]})' + (f': "{x["quote"]}"' if x.get("quote") else "") for x in srcs) if srcs else "")
         + f'\n\nCanonical page: {BASE}/boards/{b["id"]}/\nLast updated: {mod_date}\n')
@@ -445,10 +460,26 @@ for c, v in by_lang.items():
         f"{len(v)} job boards and aggregators supporting {lang(c)}, with API access and partner program details.", body, f"/languages/{slug(lang(c))}/", itemlist(v, 2), noindex=len(v) < 3), indexed=len(v) >= 3)
 
 # ---------- ATS ----------
+def _conn_target(x): return f'<a href="../../boards/{e(x["to_id"])}/">{e(x["to_name"])}</a>' if x["to_id"] else e(x["to_name"])
+def _names(sts): return [a["name"] for a in sorted(ats, key=lambda x: x["name"].lower()) if a["api_status"] in sts and a["confidence"] != "seed-unverified"]  # only entries checked against their own site
+_open, _key, _req, _partner = _names(("public-open",)), _names(("public-key",)), _names(("on-request",)), _names(("partner-only",))
+def _lst(v): return ", ".join(v[:-1]) + " and " + v[-1] if len(v) > 1 else (v[0] if v else "none yet")
+ats_faq = [("Which ATS have a public API for job postings?", f'According to the platforms checked so far, {_lst(_open)} publish job data openly without a key, and {_lst(_key)} offer an API you can use with a self-serve key. Check each platform for what its API covers.'),
+           ("Which ATS APIs need a partnership or approval?", f'{_lst(_partner)} restrict API access to approved partners' + (f', and {_lst(_req)} issue access on request.' if _req else ".")),
+           ("Which ATS publish an open job feed without a key?", f'{_lst(_open)}. Job boards and aggregators use these to pull an employer\'s open roles without a commercial agreement.')]
+def _ats_cell(a, k):
+    d = API_DET.get(a["id"], {}).get(k)
+    return f'{e(d["value"])} <a class="muted small" href="{e(d["source_url"])}" rel="noopener nofollow" target="_blank">source</a>' if d else '<span class="muted small">Not yet documented</span>'
+_order = {"public-open": 0, "public-key": 1, "on-request": 2, "partner-only": 3, "none-known": 4, "unknown": 5}
+ats_guide = ('<h2>Which ATS have a public API for job postings?</h2><div class="tablewrap"><table class="apitable"><thead><tr><th>ATS</th><th>API access</th><th>How to get access</th><th>Authentication</th><th>Data formats</th><th>Docs</th></tr></thead><tbody>'
+    + "".join(f'<tr><td><a href="../boards/{e(a["id"])}/"><strong>{e(a["name"])}</strong></a>{" " + conf_badge(a["confidence"]) if a["confidence"] == "seed-unverified" else ""}</td><td>{api_badge(a["api_status"])}</td><td>{_ats_cell(a, "access")}</td><td>{_ats_cell(a, "auth")}</td><td>{_ats_cell(a, "formats")}</td><td>{link(a["api_docs_url"], "Docs") if a["api_docs_url"] else "<span class=\"muted small\">Not recorded</span>"}</td></tr>'
+              for a in sorted(ats, key=lambda x: (_order.get(x["api_status"], 9), x["name"].lower())))
+    + '</tbody></table></div><p class="muted small">Access levels are explained on the <a href="../api/">API access page</a>. Detail columns fill in as each platform\'s documentation is read and cited.</p>'
+    + '<section class="faq"><h2>Quick answers</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in ats_faq) + '</section><h2>All applicant tracking systems</h2>')
 write("ats/index.html", layout(1, f"Applicant tracking systems: job feeds, APIs and partner programs | {NAME}",
   f"{len(ats)} applicant tracking systems compared by public job feed, API access, partner programs, owners and customer segment.",
-  f'<h1>Applicant tracking systems</h1><p class="lede">Which ATS platforms expose public job feeds, which need keys, and which run partner marketplaces, with owners and customer segments. These systems are where most employers publish their jobs from, so their openness decides how jobs reach boards.</p>' + table(sorted(ats, key=lambda b: b["name"].lower()), "../")
-  + '<p class="muted small">ATS systems are part of the main directory, so filter by Type: Applicant tracking system on the home page, or see <a href="../tags/ats/">the tag page</a>.</p>', "/ats/", itemlist(ats, 1)), mod=TODAY)
+  f'<h1>Applicant tracking systems</h1><p class="lede">Which ATS platforms expose public job feeds, which need keys, and which run partner marketplaces, with owners and customer segments. These systems are where most employers publish their jobs from, so their openness decides how jobs reach boards.</p>' + ats_guide + table(sorted(ats, key=lambda b: b["name"].lower()), "../")
+  + '<p class="muted small">ATS systems are part of the main directory, so filter by Type: Applicant tracking system on the home page, or see <a href="../tags/ats/">the tag page</a>.</p>', "/ats/", [itemlist(ats, 1), {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in ats_faq]}]), mod=TODAY)
 for a in ats:  # old addresses keep working
     p_ = OUT / "ats" / a["id"]; p_.mkdir(parents=True, exist_ok=True)
     (p_ / "index.html").write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(a["name"])}</title><meta name="robots" content="noindex"><link rel="canonical" href="{e(BASE)}/boards/{e(a["id"])}/"><meta http-equiv="refresh" content="0; url=../../boards/{e(a["id"])}/"></head><body><a href="../../boards/{e(a["id"])}/">{e(a["name"])}</a></body></html>', encoding="utf-8")
@@ -503,7 +534,17 @@ for t, r in TAX.items():
     n = len(mb) + len(ma); idx = n >= 3
     md_t = (f'# {r["label"]}\n\n{r["definition"]} {n} entries in the directory.\n\n' + "\n".join(f'- [{b["name"]}]({BASE}/boards/{b["id"]}/): {b["type"]}' + (f', {API_LABEL[b["api_status"]]}' if b["api_status"] != "unknown" else "") for b in sorted(mb, key=skey)[:80])
             + ("\n\n## Applicant tracking systems\n\n" + "\n".join(f'- [{a["name"]}]({BASE}/ats/{a["id"]}/): {a["vendor"]}, {a["segment"]}' for a in ma) if ma else "") + f'\n\nCanonical page: {BASE}/tags/{t}/\n')
-    write(f"tags/{t}/index.html", layout(2, f"{r['label']}: {r['facet']} tag | {NAME}" if r["facet"] != "function" else f"{r['label']}: directory and examples | {NAME}", f"{r['definition']} {n} entries in the directory.", body, f"/tags/{t}/", itemlist(mb, 2) if mb else None, noindex=not idx, md=idx), indexed=idx, md=md_t, kind="tag")
+    if t == "ats-integration":
+        _grp = collections.defaultdict(list)
+        for _r in REL:
+            if _r["relation"] in ("sends-jobs-to", "integrates-with") and _r["from_id"] in by_id and by_id[_r["from_id"]]["type"] in ("ats", "multiposting", "distribution"): _grp[_r["from_id"]].append(_r)
+        if _grp:
+            body += '<h2>Documented connections by ATS and distribution platform</h2><p class="muted small">Each link is stated on the platform\'s own pages. The <a href="../../ecosystem/">ecosystem map</a> shows the same data as a matrix.</p>'
+            for _f, _rs in sorted(_grp.items(), key=lambda kv: -len(kv[1])):
+                body += f'<h3><a href="../../boards/{e(_f)}/">{e(by_id[_f]["name"])}</a></h3><ul class="conn">' + "".join(f'<li>{_conn_target(x)} <a class="muted small" href="{e(x["source_url"])}" rel="noopener nofollow" target="_blank">source</a></li>' for x in _rs[:25]) + "</ul>"
+    _TTL = {"ats-integration": "ATS and job board integrations: which platforms connect and how"}
+    _ttl = _TTL.get(t) or {"integration": f"{r['label']}: job boards and platforms that offer it", "focus": f"{r['label']} job boards and platforms", "model": f"{r['label']}: job boards by business model", "segment": f"{r['label']} hiring platforms", "operator": f"{r['label']}: who runs these job sites"}.get(r["facet"])
+    write(f"tags/{t}/index.html", layout(2, f"{_ttl} | {NAME}" if _ttl else f"{r['label']}: directory and examples | {NAME}", f"{r['definition']} {n} entries in the directory.", body, f"/tags/{t}/", itemlist(mb, 2) if mb else None, noindex=not idx, md=idx), indexed=idx, md=md_t, kind="tag")
 # ---------- owners ----------
 def owner_boards(oid):
     ids = list(dict.fromkeys([h["board_id"] for h in HOLD if h["owner_id"] == oid and h["board_id"] and h["relation"] != "former"] + [i for i, o in PARENT_OWNER.items() if o == oid]))
