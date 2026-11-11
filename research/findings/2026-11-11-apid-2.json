@@ -1,0 +1,401 @@
+{
+ "mode": "api-details",
+ "country": "ZZ",
+ "round": 0,
+ "entries": [
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "api_docs_url": "https://developers.greenhouse.io/job-board.html",
+   "facts": [
+    {
+     "field": "access",
+     "value": "Read endpoints are public and need no key",
+     "source": {
+      "url": "https://docs.greenhouse.io/job-board.html#introduction",
+      "title": "Introduction – Job Board API | Greenhouse",
+      "accessed": "2026-11-11",
+      "quote": "Job Board data is publicly available, so authentication is not required for any GET endpoints.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "HTTP Basic auth with the Job Board API key, required only for application POST",
+     "source": {
+      "url": "https://docs.greenhouse.io/job-board.html#introduction",
+      "title": "Introduction – Job Board API | Greenhouse",
+      "accessed": "2026-11-11",
+      "quote": "requires Basic Auth. The Job Board API Key must be Base64 encoded before it can be used to post applications.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "formats",
+     "value": "JSON representation of offices, departments and published jobs",
+     "source": {
+      "url": "https://docs.greenhouse.io/job-board.html#introduction",
+      "title": "Introduction – Job Board API | Greenhouse",
+      "accessed": "2026-11-11",
+      "quote": "you will have easy access to a simple JSON representation of your company's offices, departments, and published jobs",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "Published jobs, offices and departments, plus application submission by POST",
+     "source": {
+      "url": "https://docs.greenhouse.io/job-board.html#introduction",
+      "title": "Introduction – Job Board API | Greenhouse",
+      "accessed": "2026-11-11",
+      "quote": "have a POST method which can be used to build your own online job application form",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "lever",
+   "name": "Lever",
+   "api_docs_url": "https://hire.lever.co/developer/documentation",
+   "facts": [
+    {
+     "field": "access",
+     "value": "API keys are created by the customer in Lever Settings",
+     "source": {
+      "url": "https://hire.lever.co/developer/documentation",
+      "title": "Lever Developer",
+      "accessed": "2026-11-11",
+      "quote": "Create and manage your API keys from the Integrations and API page in Settings of your Lever account, on the API Credentials tab.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "API key sent as the basic auth username with a blank password",
+     "source": {
+      "url": "https://hire.lever.co/developer/documentation",
+      "title": "Lever Developer",
+      "accessed": "2026-11-11",
+      "quote": "Authenticate to the Lever API via basic auth by providing an API key as the username and leaving the password blank.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "formats",
+     "value": "JSON over HTTPS",
+     "source": {
+      "url": "https://hire.lever.co/developer/documentation",
+      "title": "Lever Developer",
+      "accessed": "2026-11-11",
+      "quote": "All data is sent and received as JSON over HTTPS, using the Unicode UTF-8 text encoding.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "List endpoints for opportunities, users and postings, plus webhooks",
+     "source": {
+      "url": "https://hire.lever.co/developer/documentation",
+      "title": "Lever Developer",
+      "accessed": "2026-11-11",
+      "quote": "All resources with a list endpoint (opportunities, users, postings) have pagination support.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "limits",
+     "value": "10 requests per second per API key by default, with bursts to 20",
+     "source": {
+      "url": "https://hire.lever.co/developer/documentation",
+      "title": "Lever Developer",
+      "accessed": "2026-11-11",
+      "quote": "By default, we allow a steady state number of 10 requests/second per API key.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "approval",
+     "value": "OAuth apps must be registered through the partner integration program",
+     "source": {
+      "url": "https://hire.lever.co/developer/documentation",
+      "title": "Lever Developer",
+      "accessed": "2026-11-11",
+      "quote": "OAuth is part of our partner integration program, and apps must be registered.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "sandbox",
+     "value": "Partner sandbox account and sandbox API base URL",
+     "source": {
+      "url": "https://hire.lever.co/developer/partner",
+      "title": "Lever Developer",
+      "accessed": "2026-11-11",
+      "quote": "While you are building with a sandbox account you will be making calls to the sandbox API",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ashby",
+   "name": "Ashby",
+   "api_docs_url": "https://developers.ashbyhq.com",
+   "facts": [
+    {
+     "field": "access",
+     "value": "Dedicated partner feed is provisioned by Ashby on request",
+     "source": {
+      "url": "https://developers.ashbyhq.com/docs/dedicated-partner-job-feeds",
+      "title": "Dedicated Partner Job Feeds",
+      "accessed": "2026-11-11",
+      "quote": "If you are interested in obtaining a dedicated feed, contact integrations@ashbyhq.com",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "API key as HTTP Basic auth username with a blank password",
+     "source": {
+      "url": "https://developers.ashbyhq.com/reference/authentication",
+      "title": "Authentication",
+      "accessed": "2026-11-11",
+      "quote": "Use HTTP Basic Auth to authenticate with our API. You must send your API key with every request.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "formats",
+     "value": "RPC-style API where most endpoints are POST requests with JSON bodies",
+     "source": {
+      "url": "https://developers.ashbyhq.com/reference/introduction",
+      "title": "Introduction",
+      "accessed": "2026-11-11",
+      "quote": "The Ashby API is an RPC-style API, where endpoints follow the form /CATEGORY.method.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "Published job postings of opted-in customers delivered in a partner feed",
+     "source": {
+      "url": "https://developers.ashbyhq.com/docs/dedicated-partner-job-feeds",
+      "title": "Dedicated Partner Job Feeds",
+      "accessed": "2026-11-11",
+      "quote": "all of their published job postings will be published to the feed for the partner to ingest.",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "workable",
+   "name": "Workable",
+   "api_docs_url": "https://workable.readme.io",
+   "facts": [
+    {
+     "field": "access",
+     "value": "Account owners generate an API access token in their Workable account",
+     "source": {
+      "url": "https://workable.readme.io/reference/generate-an-access-token",
+      "title": "Getting started",
+      "accessed": "2026-11-11",
+      "quote": "This guide shows how to generate an API access token for your Workable account.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "Bearer token in the Authorization header; Partner Token for official integrations",
+     "source": {
+      "url": "https://workable.readme.io/reference/partner-token",
+      "title": "Partner Token",
+      "accessed": "2026-11-11",
+      "quote": "The Partner Token is an authorization token used specifically for an integration.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "Recruiting and HR data through the API",
+     "source": {
+      "url": "https://workable.readme.io/reference/generate-an-access-token",
+      "title": "Getting started",
+      "accessed": "2026-11-11",
+      "quote": "We provide you with an API that gives you full control over your data.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "limits",
+     "value": "Rate limits applied in 10-second intervals",
+     "source": {
+      "url": "https://workable.readme.io/reference/rate-limits",
+      "title": "Rate limiting",
+      "accessed": "2026-11-11",
+      "quote": "Rate limits are divided into 10 seconds intervals and fall into the following categories",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "approval",
+     "value": "Partner Token requires applying to become an official partner",
+     "source": {
+      "url": "https://workable.readme.io/reference/partner-token",
+      "title": "Partner Token",
+      "accessed": "2026-11-11",
+      "quote": "You can apply to become an official partner here.",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "smartrecruiters",
+   "name": "SmartRecruiters",
+   "api_docs_url": "https://developers.smartrecruiters.com",
+   "facts": [
+    {
+     "field": "access",
+     "value": "Customers create API credentials in the Credential Manager",
+     "source": {
+      "url": "https://developers.smartrecruiters.com/docs/authentication",
+      "title": "Authentication",
+      "accessed": "2026-11-11",
+      "quote": "If you are a SmartRecruiters customer, you can create, view, and manage your API credentials in the Credential Manager.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "API key sent in the X-SmartToken header",
+     "source": {
+      "url": "https://developers.smartrecruiters.com/docs/authentication-api-key",
+      "title": "API Key",
+      "accessed": "2026-11-11",
+      "quote": "include the API key in the header of the request as X-SmartToken 'your-api-key-value'",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "formats",
+     "value": "REST endpoints",
+     "source": {
+      "url": "https://developers.smartrecruiters.com/docs/partners-job-board-api",
+      "title": "Job Board API",
+      "accessed": "2026-11-11",
+      "quote": "can be managed using the REST endpoints",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "Job posting details for purchased job board postings",
+     "source": {
+      "url": "https://developers.smartrecruiters.com/docs/partners-job-board-api",
+      "title": "Job Board API",
+      "accessed": "2026-11-11",
+      "quote": "The Job Board API allows job board partners to retrieve all the job posting details needed to complete the delivery of these job posting services",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "limits",
+     "value": "Up to 10 requests per second for most endpoints",
+     "source": {
+      "url": "https://developers.smartrecruiters.com/docs/rate-limiting",
+      "title": "Rate Limiting",
+      "accessed": "2026-11-11",
+      "quote": "For most endpoints, SmartAPIs allow up to 10 requests per second",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "recruitee",
+   "name": "Recruitee",
+   "api_docs_url": "https://docs.recruitee.com",
+   "facts": [
+    {
+     "field": "access",
+     "value": "Self-serve: each user generates an API token in Settings > Apps and plugins",
+     "source": {
+      "url": "https://docs.recruitee.com/reference/getting-started",
+      "title": "Getting Started",
+      "accessed": "2026-11-11",
+      "quote": "To start, go to token settings. You can find them in Settings > Apps and plugins.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "Bearer API token in the Authorization header for the ATS API",
+     "source": {
+      "url": "https://docs.recruitee.com/reference/getting-started",
+      "title": "Getting Started",
+      "accessed": "2026-11-11",
+      "quote": "needs to authenticate first with a header Authorization: Bearer <token>",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "formats",
+     "value": "XML offers feed generated per job board",
+     "source": {
+      "url": "https://docs.recruitee.com/docs/feed",
+      "title": "Feed documentation",
+      "accessed": "2026-11-11",
+      "quote": "Feed is available as XML file and is generated per job board.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "View company jobs and add candidates to jobs through the Careers Site API",
+     "source": {
+      "url": "https://docs.recruitee.com/reference/intro-to-careers-site-api",
+      "title": "Intro to Careers Site API",
+      "accessed": "2026-11-11",
+      "quote": "The Recruitee Careers Site API allows to view company’s jobs and add new candidates to jobs from candidate perspective.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "limits",
+     "value": "1000 requests per minute per API token",
+     "source": {
+      "url": "https://docs.recruitee.com/reference/getting-started",
+      "title": "Getting Started",
+      "accessed": "2026-11-11",
+      "quote": "Rate limit is set to 1000 requests per minute per API token.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "approval",
+     "value": "Registration form before development; extra terms may apply before wider rollout",
+     "source": {
+      "url": "https://docs.recruitee.com/reference/integration-partners",
+      "title": "🧩 Integration partners",
+      "accessed": "2026-11-11",
+      "quote": "Fill out the registration form before starting development",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "sandbox",
+     "value": "Release Candidate environment for developing partner integrations",
+     "source": {
+      "url": "https://docs.recruitee.com/reference/integration-partners",
+      "title": "🧩 Integration partners",
+      "accessed": "2026-11-11",
+      "quote": "This API documentation points to the development Release Candidate (RC) environment.",
+      "check": "ok"
+     }
+    }
+   ]
+  }
+ ]
+}
