@@ -1,0 +1,72 @@
+{
+  "mode": "discover",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Career Poster",
+      "url": "https://careerposter.co.uk",
+      "type": "multiposting",
+      "niche": "job advert multiposting for UK employers",
+      "countries_served": ["GB"],
+      "sources": [
+        {"field": "existence", "url": "https://careerposter.co.uk/", "title": "Career Poster - Advertise on Multiple Job Boards from £145", "quote": "Post your job vacancies across 200+ job boards with free & optional applicant tracking, AI recruitment tools and UK support included."}
+      ]
+    },
+    {
+      "name": "Join",
+      "url": "https://join.com",
+      "type": "multiposting",
+      "niche": "ATS with multiposting to job boards",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://join.com/en", "title": "Join: the ATS for SMB hiring", "quote": "Access to over 250+ premium job platforms."},
+        {"field": "service", "url": "https://join.com/de/funktionen/multiposting", "title": "Multiposting: eine Stelle auf 250+ Jobbörsen", "quote": "Einmal veröffentlichen, live auf 10+ organischen und 250+ kostenpflichtigen Jobbörsen."}
+      ]
+    },
+    {
+      "name": "Jobdigger",
+      "url": "https://www.jobdigger.nl",
+      "type": "feed-aggregator",
+      "niche": "vacancy data aggregation for intermediaries and labour market analysis",
+      "countries_served": ["NL", "BE", "FR", "DE"],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobdigger.nl/", "title": "Waardevol inzicht door slim gebruik van arbeidsmarktdata - Jobdigger", "quote": "Jobdigger Insights biedt intermediairs vacaturedata voor leadgeneratie, betrouwbaar en actueel inzicht in wat er op de arbeidsmarkt speelt"}
+      ]
+    },
+    {
+      "name": "VONQ",
+      "url": "https://www.vonq.com",
+      "type": "programmatic-distribution",
+      "niche": "talent attraction and programmatic recruitment advertising",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.vonq.com/", "title": "Home - VONQ", "quote": "EQO runs your entire top-of-funnel as one connected agentic workflow"}
+      ]
+    },
+    {
+      "name": "Jobiqo",
+      "url": "https://www.jobiqo.com",
+      "type": "programmatic-distribution",
+      "niche": "job board software with programmatic job advertising",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobiqo.com/", "title": "Leading Job Board Software and Recruitment Marketing Automation - Jobiqo", "quote": "programmatic job advertising services (Jobiqo AIR)"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "Joblift", "url": "https://www.joblift.de", "reason": "HTTP 403 (CloudFront block page)"},
+    {"name": "trusted.de", "url": "https://trusted.de/multiposting", "reason": "HTTP 403 bot verification page"},
+    {"name": "in-recruiting", "url": "https://www.inrecruiting.com", "reason": "HTTP 403 bot verification page"},
+    {"name": "Jobsora", "url": "https://www.jobsora.com", "reason": "HTTP 403 bot verification page"},
+    {"name": "JobAdX", "url": "https://jobadx.com", "reason": "Verification interstitial did not clear on the one attempt"},
+    {"name": "Mitula", "url": "https://www.mitula.co.uk", "reason": "HTTP 401 access denied"},
+    {"name": "eRecruit (Ireland)", "url": "https://www.erecruit.ie", "reason": "Connection failed (net::ERR_TUNNEL_CONNECTION_FAILED). Named in a roundup as an Irish multiposting tool; may or may not be the same organisation as eRecruiter in the CSV"},
+    {"name": "Matchwork", "url": "https://www.matchwork.com", "reason": "Connection failed (net::ERR_TUNNEL_CONNECTION_FAILED). Named in a search result as a European publisher feed destination"}
+  ],
+  "queue": [
+    {"name": "JobSplice", "url": "https://jobsplice.com", "reason": "Homepage and about page read: XML job feed management platform, founded by the team behind Broadbean. Region of operation not stated on pages read, so UK, Irish or European scope not confirmed"},
+    {"name": "VacancySoft", "url": "https://www.vacancysoft.com", "reason": "Homepage read: offers vacancy email alerts and data. Feed aggregation role and coverage not stated on the page read"},
+    {"name": "Trovit", "url": "https://www.trovit.co.uk", "reason": "Homepage read: classified search engine covering property, jobs, cars and products. Job-only scope and publisher feed terms not confirmed on pages read"}
+  ]
+}
