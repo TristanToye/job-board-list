@@ -1,56 +1,162 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Lever",
+   "url": "https://www.lever.co",
+   "business_model": "custom quote",
+   "partner_program": "yes",
+   "partner_url": "https://www.lever.co/partners",
+   "notes": "Parent Employ Inc. is named in the site footer. Pricing is by custom quote on request. Partner program page lists integration partnerships. No language options or own-domain API page found.",
+   "sources": [
     {
-      "name": "Lever",
-      "url": "https://www.lever.co",
-      "business_model": "custom quote",
-      "partner_program": "yes",
-      "partner_url": "https://www.lever.co/partners",
-      "notes": "Parent Employ Inc. is named in the site footer. Pricing is by custom quote on request. Partner program page lists integration partnerships. No language options or own-domain API page found.",
-      "sources": [
-        {"field": "parent", "url": "https://www.lever.co/about/", "title": "About Employ (footer)", "quote": "Employ, JazzHR, Lever, and Jobvite are registered trademarks of Employ, Inc."},
-        {"field": "business_model", "url": "https://www.lever.co/pricing", "title": "Pricing", "quote": "To get Lever pricing, you’ll need to contact Lever directly for a custom quote."},
-        {"field": "partner_program", "url": "https://www.lever.co/partners", "title": "Partner program", "quote": "Build an integration, reach new customers, and become part of the hiring workflow teams rely on every day."}
-      ]
+     "field": "parent",
+     "url": "https://www.lever.co/about/",
+     "title": "About Employ (footer)",
+     "quote": "Employ, JazzHR, Lever, and Jobvite are registered trademarks of Employ, Inc.",
+     "check": "ok"
     },
     {
-      "name": "Oracle Taleo",
-      "url": "https://www.oracle.com/human-capital-management/taleo/",
-      "partner_program": "yes",
-      "partner_url": "https://www.oracle.com/partner/",
-      "notes": "Product page describes an Oracle partner network with more than 200 Taleo-certified offerings. Partner page describes the program as flexible. No pricing, API or language options found on the pages read.",
-      "sources": [
-        {"field": "partner_program", "url": "https://www.oracle.com/human-capital-management/taleo/", "title": "Taleo product page, certified partner ecosystem", "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings and innovative integrations with LinkedIn."},
-        {"field": "partner_program", "url": "https://www.oracle.com/partner/", "title": "Partner program", "quote": "Our partner program gives you choice and flexibility so you can tailor it to best meet your needs."}
-      ]
+     "field": "business_model",
+     "url": "https://www.lever.co/pricing",
+     "title": "Pricing",
+     "quote": "To get Lever pricing, you’ll need to contact Lever directly for a custom quote.",
+     "check": "ok"
     },
     {
-      "name": "Pinpoint",
-      "url": "https://www.pinpointhq.com",
-      "business_model": "quote on request",
-      "api_status": "public-key",
-      "api_docs_url": "https://developers.pinpointhq.com/docs/authentication",
-      "partner_program": "yes",
-      "partner_url": "https://www.pinpointhq.com/partner-with-us",
-      "notes": "Developer docs say the API uses a key generated in account settings. Pricing is by request. Partner page describes referral and integration partnership programs.",
-      "sources": [
-        {"field": "api_status", "url": "https://developers.pinpointhq.com/docs/authentication", "title": "Authentication", "quote": "The Pinpoint API uses an API key to authenticate requests."},
-        {"field": "business_model", "url": "https://www.pinpointhq.com/request-pricing", "title": "Request pricing", "quote": "See the product and get pricing"},
-        {"field": "partner_program", "url": "https://www.pinpointhq.com/partner-with-us", "title": "Partner with us", "quote": "Join our referral or integration partner program and access benefits for you and your customers."}
-      ]
+     "field": "partner_program",
+     "url": "https://www.lever.co/partners",
+     "title": "Partner program",
+     "quote": "Build an integration, reach new customers, and become part of the hiring workflow teams rely on every day.",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Lever", "url": "https://www.lever.co", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status"], "method": "browser", "note": "Pages state Employ Inc. as parent, custom-quote pricing and a partner program; no language options or own-domain API page found."},
-    {"name": "Personio", "url": "https://www.personio.com", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "HTTP 429 with blocked true in the browser reader on the homepage and pricing page."},
-    {"name": "Oracle Taleo", "url": "https://www.oracle.com/human-capital-management/taleo/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status"], "method": "browser", "note": "Oracle product page states an Oracle partner network; no pricing, API, parent or language options found on the pages read."},
-    {"name": "SAP SuccessFactors Recruiting", "url": "https://www.successfactors.com", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "Redirects to sap.com, where the browser reader returns HTTP 403 Access Denied with blocked true."},
-    {"name": "Pinpoint", "url": "https://www.pinpointhq.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "ingest_methods"], "method": "browser", "note": "Developer docs state API key access and the site states a partner program; no HQ, parent or language options found."}
-  ],
-  "blocked": [
-    {"name": "Personio", "url": "https://www.personio.com", "reason": "HTTP 429, blocked true in the browser reader"},
-    {"name": "SAP SuccessFactors Recruiting", "url": "https://www.successfactors.com", "reason": "Redirects to sap.com, HTTP 403 Access Denied, blocked true in the browser reader"}
-  ]
+   ]
+  },
+  {
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "partner_program": "yes",
+   "partner_url": "https://www.oracle.com/partner/",
+   "notes": "Product page describes an Oracle partner network with more than 200 Taleo-certified offerings. Partner page describes the program as flexible. No pricing, API or language options found on the pages read.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo product page, certified partner ecosystem",
+     "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings and innovative integrations with LinkedIn.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.oracle.com/partner/",
+     "title": "Partner program",
+     "quote": "Our partner program gives you choice and flexibility so you can tailor it to best meet your needs.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Pinpoint",
+   "url": "https://www.pinpointhq.com",
+   "business_model": "quote on request",
+   "api_status": "public-key",
+   "api_docs_url": "https://developers.pinpointhq.com/docs/authentication",
+   "partner_program": "yes",
+   "partner_url": "https://www.pinpointhq.com/partner-with-us",
+   "notes": "Developer docs say the API uses a key generated in account settings. Pricing is by request. Partner page describes referral and integration partnership programs.",
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "https://developers.pinpointhq.com/docs/authentication",
+     "title": "Authentication",
+     "quote": "The Pinpoint API uses an API key to authenticate requests.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.pinpointhq.com/request-pricing",
+     "title": "Request pricing",
+     "quote": "See the product and get pricing",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.pinpointhq.com/partner-with-us",
+     "title": "Partner with us",
+     "quote": "Join our referral or integration partner program and access benefits for you and your customers.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Lever",
+   "url": "https://www.lever.co",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status"
+   ],
+   "method": "browser",
+   "note": "Pages state Employ Inc. as parent, custom-quote pricing and a partner program; no language options or own-domain API page found."
+  },
+  {
+   "name": "Personio",
+   "url": "https://www.personio.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "HTTP 429 with blocked true in the browser reader on the homepage and pricing page."
+  },
+  {
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "method": "browser",
+   "note": "Oracle product page states an Oracle partner network; no pricing, API, parent or language options found on the pages read."
+  },
+  {
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "Redirects to sap.com, where the browser reader returns HTTP 403 Access Denied with blocked true."
+  },
+  {
+   "name": "Pinpoint",
+   "url": "https://www.pinpointhq.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Developer docs state API key access and the site states a partner program; no HQ, parent or language options found."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Personio",
+   "url": "https://www.personio.com",
+   "reason": "HTTP 429, blocked true in the browser reader"
+  },
+  {
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "reason": "Redirects to sap.com, HTTP 403 Access Denied, blocked true in the browser reader"
+  }
+ ]
 }

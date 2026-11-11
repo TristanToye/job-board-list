@@ -6,7 +6,7 @@ is on a domain tied to the entry (its site, its other domains, its API docs or p
 import csv, json, pathlib, re, sys, datetime, urllib.parse, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent; DATA = ROOT / "data"; TODAY = datetime.date.today().isoformat()
-FIELDS = {"access", "auth", "formats", "scope", "limits", "cost", "approval", "sandbox"}
+FIELDS = {"access", "auth", "formats", "scope", "limits", "cost", "approval", "sandbox", "feed"}
 BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]
 COLS = ["board_id", "field", "value", "source_url", "source_title", "quote", "quote_check", "accessed"]
 def host(u):

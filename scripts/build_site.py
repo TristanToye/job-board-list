@@ -97,13 +97,13 @@ def life_text(r):
     return {"closed": f'Closed{y}', "acquired": f'Acquired{succ}{y}', "merged": f'Merged{succ}{y}', "rebranded": f'Rebranded{succ}{y}'}[s]
 API_DET = collections.defaultdict(dict)
 for _d in (load("api_details.csv") if (ROOT/"data"/"api_details.csv").exists() else []): API_DET[_d["board_id"]][_d["field"]] = _d
-API_DET_LABEL = {"access": "How to get access", "auth": "Authentication", "formats": "Data formats", "scope": "What it covers", "limits": "Rate limits", "cost": "Cost", "approval": "Approval", "sandbox": "Test environment"}
-API_DET_ORDER = ["access", "approval", "auth", "formats", "scope", "limits", "cost", "sandbox"]
+API_DET_LABEL = {"feed": "Public job feed", "access": "How to get access", "auth": "Authentication", "formats": "Data formats", "scope": "What it covers", "limits": "Rate limits", "cost": "Cost", "approval": "Approval", "sandbox": "Test environment"}
+API_DET_ORDER = ["feed", "access", "approval", "auth", "formats", "scope", "limits", "cost", "sandbox"]
 def api_det_block(b, r):
     d = API_DET.get(b["id"])
     if not d: return ""
     rows_ = "".join(f'<dt>{e(API_DET_LABEL[k])}</dt><dd>{e(d[k]["value"])} <a class="muted small" href="{e(d[k]["source_url"])}" rel="noopener nofollow" target="_blank">source</a></dd>' for k in API_DET_ORDER if k in d)
-    return f'<h2>How API access works</h2><dl class="facts">{rows_}</dl><p class="muted small">Each line is taken from the platform\'s own documentation or site, checked {e(max(x["accessed"] for x in d.values()))}. <a href="{r}api/">All API access levels explained</a>.</p>'
+    return f'<h2>How API access works</h2><dl class="facts">{rows_}</dl><p class="muted small">These lines describe the API as the platform documents it. The access level above is about how openly its job data can be read. Each line is taken from the platform\'s own documentation or site, checked {e(max(x["accessed"] for x in d.values()))}. <a href="{r}api/">All API access levels explained</a>.</p>'
 OWNERS = {r["id"]: r for r in load("owners.csv")} if (ROOT/"data"/"owners.csv").exists() else {}
 HOLD = load("ownership.csv") if (ROOT/"data"/"ownership.csv").exists() else []
 OWNER_FACTS = collections.defaultdict(dict)

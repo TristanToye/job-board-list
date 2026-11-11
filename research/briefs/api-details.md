@@ -20,6 +20,7 @@ Allowed `field` values, one fact per field at most, only if the page states it:
 - `cost`: whether API access costs extra or is included in a plan
 - `approval`: any review process or waiting time for access
 - `sandbox`: a test or sandbox environment
+- `feed`: a public job feed or endpoint that lists an employer's open jobs without logging in or using a key (state the form: JSON endpoint, XML feed, careers-page embed). Only record it if the documentation says no authentication is needed.
 
 Rules:
 - Every fact needs a quote of 3 to 30 words copied exactly from a page you read that states it. No quote, no fact. Never fill a field from memory or from what is typical for such platforms.
