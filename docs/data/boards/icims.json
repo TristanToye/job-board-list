@@ -18,7 +18,7 @@
  "segment": "enterprise",
  "parent": "Vista Equity Partners",
  "business_model": "",
- "api_status": "partner-only",
+ "api_status": "on-request",
  "api_docs_url": "https://developer.icims.com",
  "partner_program": "yes",
  "partner_url": "",
@@ -36,7 +36,7 @@
   "list_date": "2026-11-09"
  },
  "tags": [
-  "api-partner-only",
+  "api-on-request",
   "ats",
   "enterprise",
   "partner-program"
@@ -112,6 +112,14 @@
    "title": "Homepage language menu",
    "accessed": "2026-11-06",
    "quote": "UK",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://developer-community.icims.com/getting-started/integrating-icims",
+   "title": "Integrating with ICIMS",
+   "accessed": "2026-11-11",
+   "quote": "It is important to note you do not have to be a partner with ICIMS to build an integration.",
    "quote_check": "ok"
   }
  ]

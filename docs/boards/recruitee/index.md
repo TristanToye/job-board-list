@@ -14,6 +14,16 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 - Review: Reviewed 2026-11-06. Checked against the board's own site.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Self-serve: each user generates an API token in Settings > Apps and plugins (https://docs.recruitee.com/reference/getting-started)
+- Approval: Registration form before development; extra terms may apply before wider rollout (https://docs.recruitee.com/reference/integration-partners)
+- Authentication: Bearer API token in the Authorization header for the ATS API (https://docs.recruitee.com/reference/getting-started)
+- Data formats: XML offers feed generated per job board (https://docs.recruitee.com/docs/feed)
+- What it covers: View company jobs and add candidates to jobs through the Careers Site API (https://docs.recruitee.com/reference/intro-to-careers-site-api)
+- Rate limits: 1000 requests per minute per API token (https://docs.recruitee.com/reference/getting-started)
+- Test environment: Release Candidate environment for developing partner integrations (https://docs.recruitee.com/reference/integration-partners)
+
 ## Quick answers
 
 **Who owns Recruitee?** This directory records the parent of Recruitee as Tellent.
@@ -21,6 +31,8 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 **Does Recruitee have an API?** According to this directory, Recruitee has an open API or feed that does not require approval. Documentation: https://docs.recruitee.com.
 
 **How large is Recruitee?** Recruitee ranks #5,796 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**How do you get API access to Recruitee?** According to Recruitee's own documentation, access works like this: Self-serve: each user generates an API token in Settings > Apps and plugins; requests authenticate with Bearer API token in the Authorization header for the ATS API.
 
 ## Sources
 

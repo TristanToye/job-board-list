@@ -14,6 +14,14 @@ Teamtailor is an applicant tracking system based in Sweden, focused on applicant
 - Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: founding year.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: API keys created and managed in the Teamtailor account settings (https://docs.teamtailor.com)
+- Authentication: API key sent in the Authorization header as a token (https://docs.teamtailor.com)
+- Data formats: JSON API specification (https://docs.teamtailor.com)
+- What it covers: API keys carry public, internal, read, write or admin permission levels (https://docs.teamtailor.com)
+- Rate limits: Bucket of 50 requests every 10 seconds; HTTP 429 when exceeded (https://docs.teamtailor.com)
+
 ## Quick answers
 
 **Does Teamtailor have an API?** According to this directory, Teamtailor offers an API you can use with a self-serve key. Documentation: https://docs.teamtailor.com.
@@ -23,6 +31,8 @@ Teamtailor is an applicant tracking system based in Sweden, focused on applicant
 **How large is Teamtailor?** Teamtailor ranks #4,573 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Teamtailor connect to?** According to this directory, Teamtailor sends jobs to Reed, Asfored, B4work Global; integrates with 50Plus-Jobs, Adzuna, Agefiph, #jenesuisPASunCV, Arbetsförmedlingen.
+
+**How do you get API access to Teamtailor?** According to Teamtailor's own documentation, access works like this: API keys created and managed in the Teamtailor account settings; requests authenticate with API key sent in the Authorization header as a token.
 
 ## Sources
 

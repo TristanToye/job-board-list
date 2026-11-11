@@ -14,6 +14,13 @@ Greenhouse is an applicant tracking system based in United States, focused on ap
 - Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: owner.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Read endpoints are public and need no key (https://docs.greenhouse.io/job-board.html#introduction)
+- Authentication: HTTP Basic auth with the Job Board API key, required only for application POST (https://docs.greenhouse.io/job-board.html#introduction)
+- Data formats: JSON representation of offices, departments and published jobs (https://docs.greenhouse.io/job-board.html#introduction)
+- What it covers: Published jobs, offices and departments, plus application submission by POST (https://docs.greenhouse.io/job-board.html#introduction)
+
 ## Quick answers
 
 **Does Greenhouse have an API?** According to this directory, Greenhouse has an open API or feed that does not require approval. Documentation: https://developers.greenhouse.io/job-board.html.
@@ -21,6 +28,8 @@ Greenhouse is an applicant tracking system based in United States, focused on ap
 **How large is Greenhouse?** Greenhouse ranks #20,456 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Greenhouse connect to?** According to this directory, Greenhouse sends jobs to Talent.com, Appcast, Arbeitnow, Indeed, LinkedIn, Monster and others; integrates with Joveo.
+
+**How do you get API access to Greenhouse?** According to Greenhouse's own documentation, access works like this: Read endpoints are public and need no key; requests authenticate with HTTP Basic auth with the Job Board API key, required only for application POST.
 
 ## Sources
 

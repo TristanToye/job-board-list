@@ -8,7 +8,7 @@
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Large tier, Self-serve API key
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board, Large tier
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Large tier, Partner-only API
-- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Large tier, Partner-only API
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Large tier, API key on request
 - [Lever](https://jobboardlist.com/boards/lever/): ats, Large tier, Open API (no key)
 - [Idealist](https://jobboardlist.com/boards/idealist/): niche-board, Large tier
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, Large tier, No known API

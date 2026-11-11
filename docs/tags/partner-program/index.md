@@ -9,7 +9,7 @@ Has a partner or integration program. 85 entries in the directory.
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
 - [HeadHunter (hh.ru)](https://jobboardlist.com/boards/hh-ru/): board, Self-serve API key
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
-- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
 - [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
 - [Idealist](https://jobboardlist.com/boards/idealist/): niche-board
 - [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)

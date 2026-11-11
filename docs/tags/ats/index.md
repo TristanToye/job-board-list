@@ -4,7 +4,7 @@ Software employers use to manage hiring and publish their jobs. 21 entries in th
 
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
-- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
 - [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
 - [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key

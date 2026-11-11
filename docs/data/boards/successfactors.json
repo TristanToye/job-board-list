@@ -44,11 +44,11 @@
  "connections": [],
  "review": {
   "board_id": "successfactors",
-  "reviewed": "2026-11-06",
-  "outcome": "unreachable",
-  "fields_not_found": "parent",
-  "note": "Homepage returns 301 to sap.com/products/hcm.html, a different host. That page was not used as a source, since facts must come from the entity's own domain.",
-  "method": "fetch"
+  "reviewed": "2026-11-11",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Redirects to sap.com, where the browser reader returns HTTP 403 Access Denied with blocked true.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],

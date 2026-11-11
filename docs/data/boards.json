@@ -25879,18 +25879,18 @@
    "niche": "applicant tracking system",
    "segment": "mid-market",
    "parent": "Employ Inc.",
-   "business_model": "",
+   "business_model": "custom quote",
    "api_status": "public-open",
    "api_docs_url": "https://github.com/lever/postings-api",
    "partner_program": "yes",
-   "partner_url": "",
+   "partner_url": "https://www.lever.co/partners",
    "ingest_methods": [
     "Public job feed"
    ],
-   "notes": "Postings API api.lever.co/v0/postings/{site}. Write API: API key. Reading jobs needs auth: no (read).",
-   "confidence": "seed-unverified",
+   "notes": "Postings API api.lever.co/v0/postings/{site}. Write API: API key. Reading jobs needs auth: no (read). Parent Employ Inc. is named in the site footer. Pricing is by custom quote on request. Partner program page lists integration partnerships. No language options or own-domain API page found.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/lever/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Large",
     "label": "Large",
@@ -26027,15 +26027,40 @@
    ],
    "review": {
     "board_id": "lever",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "founded;business_model",
-    "note": "Pricing page says pricing is available upon request and scales with team size, with no plan type or prices, so business_model is not recorded. No founding year on lever.co. The employinc.com company page is a different domain and states Sin",
-    "method": "fetch"
+    "reviewed": "2026-11-11",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;api_status",
+    "note": "Pages state Employ Inc. as parent, custom-quote pricing and a partner program; no language options or own-domain API page found.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.lever.co/about/",
+     "title": "About Employ (footer)",
+     "accessed": "2026-11-11",
+     "quote": "Employ, JazzHR, Lever, and Jobvite are registered trademarks of Employ, Inc.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.lever.co/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-11",
+     "quote": "To get Lever pricing, you’ll need to contact Lever directly for a custom quote.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.lever.co/partners",
+     "title": "Partner program",
+     "accessed": "2026-11-11",
+     "quote": "Build an integration, reach new customers, and become part of the hiring workflow teams rely on every day.",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "ashby",
@@ -26745,11 +26770,11 @@
    "connections": [],
    "review": {
     "board_id": "personio",
-    "reviewed": "2026-11-06",
-    "outcome": "unreachable",
-    "fields_not_found": "founded;languages;business_model",
-    "note": "Homepage and About Us page both returned HTTP 429 Too Many Requests to the fetch tool. No page content was read. Not retried with the browser reader, since the response is rate limiting rather than a challenge.",
-    "method": "fetch"
+    "reviewed": "2026-11-11",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 429 with blocked true in the browser reader on the homepage and pricing page.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -26929,7 +26954,7 @@
    "segment": "enterprise",
    "parent": "Vista Equity Partners",
    "business_model": "",
-   "api_status": "partner-only",
+   "api_status": "on-request",
    "api_docs_url": "https://developer.icims.com",
    "partner_program": "yes",
    "partner_url": "",
@@ -26947,7 +26972,7 @@
     "list_date": "2026-11-09"
    },
    "tags": [
-    "api-partner-only",
+    "api-on-request",
     "ats",
     "enterprise",
     "partner-program"
@@ -27024,6 +27049,14 @@
      "accessed": "2026-11-06",
      "quote": "UK",
      "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://developer-community.icims.com/getting-started/integrating-icims",
+     "title": "Integrating with ICIMS",
+     "accessed": "2026-11-11",
+     "quote": "It is important to note you do not have to be a partner with ICIMS to build an integration.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -27093,11 +27126,11 @@
    "api_status": "public-key",
    "api_docs_url": "https://docs.oracle.com/en/cloud/saas/talent-management/",
    "partner_program": "yes",
-   "partner_url": "",
+   "partner_url": "https://www.oracle.com/partner/",
    "ingest_methods": [
     "Public job feed"
    ],
-   "notes": "Public requisition REST resources on career sites. Write API: OAuth. Reading jobs needs auth: partial.",
+   "notes": "Public requisition REST resources on career sites. Write API: OAuth. Reading jobs needs auth: partial. Product page describes an Oracle partner network with more than 200 Taleo-certified offerings. Partner page describes the program as flexible. No pricing, API or language options found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/oracle-recruiting/",
    "indexable": true,
@@ -27147,10 +27180,10 @@
    ],
    "review": {
     "board_id": "oracle-recruiting",
-    "reviewed": "2026-11-06",
-    "outcome": "verified",
-    "fields_not_found": "",
-    "note": "Fetch tool returned 403; headless reader loaded the page. Owner shown as Oracle (copyright line and product text).",
+    "reviewed": "2026-11-11",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+    "note": "Oracle product page states an Oracle partner network; no pricing, API, parent or language options found on the pages read.",
     "method": "browser"
    },
    "owners": [],
@@ -27170,6 +27203,22 @@
      "title": "Taleo",
      "accessed": "2026-11-06",
      "quote": "© 2026 Oracle",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo product page, certified partner ecosystem",
+     "accessed": "2026-11-11",
+     "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings and innovative integrations with LinkedIn.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.oracle.com/partner/",
+     "title": "Partner program",
+     "accessed": "2026-11-11",
+     "quote": "Our partner program gives you choice and flexibility so you can tailor it to best meet your needs.",
      "quote_check": "ok"
     }
    ]
@@ -27220,11 +27269,11 @@
    "connections": [],
    "review": {
     "board_id": "successfactors",
-    "reviewed": "2026-11-06",
-    "outcome": "unreachable",
-    "fields_not_found": "parent",
-    "note": "Homepage returns 301 to sap.com/products/hcm.html, a different host. That page was not used as a source, since facts must come from the entity's own domain.",
-    "method": "fetch"
+    "reviewed": "2026-11-11",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Redirects to sap.com, where the browser reader returns HTTP 403 Access Denied with blocked true.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -27570,18 +27619,18 @@
    "niche": "applicant tracking system",
    "segment": "mid-market",
    "parent": "",
-   "business_model": "",
+   "business_model": "quote on request",
    "api_status": "public-key",
-   "api_docs_url": "https://developers.pinpointhq.com",
+   "api_docs_url": "https://developers.pinpointhq.com/docs/authentication",
    "partner_program": "yes",
-   "partner_url": "",
+   "partner_url": "https://www.pinpointhq.com/partner-with-us",
    "ingest_methods": [
     "Public job feed"
    ],
-   "notes": "Write API: key. Reading jobs needs auth: key.",
-   "confidence": "seed-unverified",
+   "notes": "Write API: key. Reading jobs needs auth: key. Developer docs say the API uses a key generated in account settings. Pricing is by request. Partner page describes referral and integration partnership programs.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/pinpoint/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -27835,15 +27884,40 @@
    ],
    "review": {
     "board_id": "pinpoint",
-    "reviewed": "2026-11-06",
-    "outcome": "not-stated",
-    "fields_not_found": "parent",
-    "note": "About us, news, and homepage read. No statement of an owning or parent company; copyright line names only Pinpoint.",
-    "method": "fetch"
+    "reviewed": "2026-11-11",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;ingest_methods",
+    "note": "Developer docs state API key access and the site states a partner program; no HQ, parent or language options found.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "https://developers.pinpointhq.com/docs/authentication",
+     "title": "Authentication",
+     "accessed": "2026-11-11",
+     "quote": "The Pinpoint API uses an API key to authenticate requests.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.pinpointhq.com/request-pricing",
+     "title": "Request pricing",
+     "accessed": "2026-11-11",
+     "quote": "See the product and get pricing",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.pinpointhq.com/partner-with-us",
+     "title": "Partner with us",
+     "accessed": "2026-11-11",
+     "quote": "Join our referral or integration partner program and access benefits for you and your customers.",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "rippling",

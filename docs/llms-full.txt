@@ -30,7 +30,7 @@ Notes for readers and models: facts are attributed to this directory and carry t
 
 ---
 
-The following is the Markdown of the main pages (190 entries, 19 owners, 47 types and 46 countries).
+The following is the Markdown of the main pages (192 entries, 19 owners, 47 types and 46 countries).
 
 ---
 
@@ -119,6 +119,14 @@ Adzuna is a job aggregator based in United Kingdom. It was founded in 2011.
 - Tags: Self-serve API, Crawl sourced, General, Job aggregator, Partner program, Pay per click, XML feed
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Register to receive an app_key and app_id (https://developer.adzuna.com/overview)
+- Authentication: app_id and app_key passed as query parameters (https://developer.adzuna.com/overview)
+- Data formats: RESTful API returning JSON, JSONP or XML (https://developer.adzuna.com/overview)
+- What it covers: Search job ads and employment data (https://developer.adzuna.com/overview)
+- Test environment: Interactive endpoint documentation with a playground for test calls (https://developer.adzuna.com/docs/search)
+
 ## Quick answers
 
 **Does Adzuna have an API?** According to this directory, Adzuna offers an API you can use with a self-serve key. Documentation: https://developer.adzuna.com.
@@ -128,6 +136,8 @@ Adzuna is a job aggregator based in United Kingdom. It was founded in 2011.
 **How large is Adzuna?** Adzuna ranks #66,808 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Adzuna connect to?** According to this directory, Adzuna receives jobs from Workable; integrates with Pinpoint, Teamtailor.
+
+**How do you get API access to Adzuna?** According to Adzuna's own documentation, access works like this: Register to receive an app_key and app_id; requests authenticate with app_id and app_key passed as query parameters.
 
 ## Sources
 
@@ -399,6 +409,13 @@ Ashby is an applicant tracking system based in United States, focused on applica
 - Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: founding year.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Dedicated partner feed is provisioned by Ashby on request (https://developers.ashbyhq.com/docs/dedicated-partner-job-feeds)
+- Authentication: API key as HTTP Basic auth username with a blank password (https://developers.ashbyhq.com/reference/authentication)
+- Data formats: RPC-style API where most endpoints are POST requests with JSON bodies (https://developers.ashbyhq.com/reference/introduction)
+- What it covers: Published job postings of opted-in customers delivered in a partner feed (https://developers.ashbyhq.com/docs/dedicated-partner-job-feeds)
+
 ## Quick answers
 
 **Does Ashby have an API?** According to this directory, Ashby has an open API or feed that does not require approval. Documentation: https://developers.ashbyhq.com.
@@ -406,6 +423,8 @@ Ashby is an applicant tracking system based in United States, focused on applica
 **How large is Ashby?** Ashby ranks #10,735 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Ashby connect to?** According to this directory, Ashby integrates with AJINGA, Adway.
+
+**How do you get API access to Ashby?** According to Ashby's own documentation, access works like this: Dedicated partner feed is provisioned by Ashby on request; requests authenticate with API key as HTTP Basic auth username with a blank password.
 
 ## Sources
 
@@ -432,11 +451,21 @@ BambooHR is an applicant tracking system based in United States, focused on appl
 - Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: owner.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Free developer portal account, where applications are registered for a client ID and secret (https://documentation.bamboohr.com/docs/getting-started)
+- Authentication: API key sent over HTTP Basic authentication; OAuth authorization flow for registered applications (https://documentation.bamboohr.com/docs/getting-started)
+- Data formats: RESTful HTTPS API (https://documentation.bamboohr.com/docs/getting-started)
+- What it covers: Employee data and reports; each request sees only what the API user's permissions allow (https://documentation.bamboohr.com/docs/getting-started)
+- Test environment: Test BambooHR account to develop against (https://documentation.bamboohr.com/docs/getting-started)
+
 ## Quick answers
 
 **Does BambooHR have an API?** According to this directory, BambooHR offers an API you can use with a self-serve key. Documentation: https://documentation.bamboohr.com.
 
 **How large is BambooHR?** BambooHR ranks #3,235 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**How do you get API access to BambooHR?** According to BambooHR's own documentation, access works like this: Free developer portal account, where applications are registered for a client ID and secret; requests authenticate with API key sent over HTTP Basic authentication; OAuth authorization flow for registered applications.
 
 ## Sources
 
@@ -665,6 +694,13 @@ Breezy HR is an applicant tracking system based in United States, focused on app
 - Review: Reviewed 2026-11-06. Could not verify: the site blocks automated access, so these facts remain as recorded. breezy.hr returned a CloudFront 403 challenge to the browser reader, so the entry is recorded as blocked. Lead only, not a sourced fact: ltgplc.com/trust-center (off-domain) lists Breezy HR among Learning Technologies Group entities, which 
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Personal API key created from the API Keys tab in the Breezy account (https://developer.breezy.hr/reference/authorization)
+- Authentication: Personal Access Token in the Authorization header; session tokens from the signin endpoint also supported (https://developer.breezy.hr/reference/authorization)
+- What it covers: Subset of the functionality used by the Breezy HR website, including positions, candidates and webhooks (https://developer.breezy.hr)
+- Rate limits: 100 requests per 60-second interval for each authentication token (https://developer.breezy.hr/reference/rate-limiting)
+
 ## Quick answers
 
 **Does Breezy HR have an API?** According to this directory, Breezy HR offers an API you can use with a self-serve key. Documentation: https://developer.breezy.hr.
@@ -672,6 +708,8 @@ Breezy HR is an applicant tracking system based in United States, focused on app
 **How large is Breezy HR?** Breezy HR ranks #11,990 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Breezy HR connect to?** According to this directory, Breezy HR sends jobs to Talent.com, Reed; integrates with Careerjet.
+
+**How do you get API access to Breezy HR?** According to Breezy HR's own documentation, access works like this: Personal API key created from the API Keys tab in the Breezy account; requests authenticate with Personal Access Token in the Authorization header; session tokens from the signin endpoint also supported.
 
 ## Sources
 
@@ -2167,6 +2205,13 @@ Greenhouse is an applicant tracking system based in United States, focused on ap
 - Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: owner.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Read endpoints are public and need no key (https://docs.greenhouse.io/job-board.html#introduction)
+- Authentication: HTTP Basic auth with the Job Board API key, required only for application POST (https://docs.greenhouse.io/job-board.html#introduction)
+- Data formats: JSON representation of offices, departments and published jobs (https://docs.greenhouse.io/job-board.html#introduction)
+- What it covers: Published jobs, offices and departments, plus application submission by POST (https://docs.greenhouse.io/job-board.html#introduction)
+
 ## Quick answers
 
 **Does Greenhouse have an API?** According to this directory, Greenhouse has an open API or feed that does not require approval. Documentation: https://developers.greenhouse.io/job-board.html.
@@ -2174,6 +2219,8 @@ Greenhouse is an applicant tracking system based in United States, focused on ap
 **How large is Greenhouse?** Greenhouse ranks #20,456 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Greenhouse connect to?** According to this directory, Greenhouse sends jobs to Talent.com, Appcast, Arbeitnow, Indeed, LinkedIn, Monster and others; integrates with Joveo.
+
+**How do you get API access to Greenhouse?** According to Greenhouse's own documentation, access works like this: Read endpoints are public and need no key; requests authenticate with HTTP Basic auth with the Job Board API key, required only for application POST.
 
 ## Sources
 
@@ -2480,18 +2527,26 @@ iCIMS is an applicant tracking system based in United States, focused on applica
 - Founded: not recorded
 - Owner: Vista Equity Partners
 - Languages: English, French
-- API status: Partner-only API (https://developer.icims.com)
+- API status: API key on request (https://developer.icims.com)
 - Partner program: yes
 - Prominence: #3,808 globally, tier Large
-- Tags: Partner-only API, Applicant tracking system, Enterprise, Partner program
+- Tags: API on request, Applicant tracking system, Enterprise, Partner program
 - Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: founding year.
 - Data status: partly verified against its own site
+
+## How API access works
+
+- How to get access: Not required to be an iCIMS partner to build an integration (https://developer-community.icims.com/getting-started/integrating-icims)
+- Approval: Marketplace integrations are reviewed by the ICIMS Developer Support Team, which says whether they are approved or rejected (https://developer-community.icims.com/getting-started/integrating-icims)
+- Data formats: REST API (https://developer-community.icims.com/getting-started/integrating-icims)
+- What it covers: Reads and writes the standard fields of the ATS data models an integration uses (https://developer-community.icims.com/getting-started/integrating-icims)
+- Test environment: Sandbox environment set up after integration approval, for developing, testing and validating the integration (https://developer-community.icims.com/getting-started/integrating-icims)
 
 ## Quick answers
 
 **Who owns iCIMS?** This directory records the parent of iCIMS as Vista Equity Partners.
 
-**Does iCIMS have an API?** According to this directory, iCIMS restricts programmatic access to approved partners. Documentation: https://developer.icims.com.
+**Does iCIMS have an API?** According to this directory, iCIMS issues API keys or feeds on request. Documentation: https://developer.icims.com.
 
 **Which languages does iCIMS support?** This directory records iCIMS as supporting English, French.
 
@@ -2499,14 +2554,17 @@ iCIMS is an applicant tracking system based in United States, focused on applica
 
 **Which platforms does iCIMS connect to?** According to this directory, iCIMS sends jobs to Talent.com; integrates with LinkedIn, Joveo, Broadbean.
 
+**How do you get API access to iCIMS?** According to iCIMS's own documentation, access works like this: Not required to be an iCIMS partner to build an integration.
+
 ## Sources
 
 - [Vista Equity Partners and iCIMS](https://www.icims.com/company/vista-equity-partners-and-icims/) (Ownership, checked 2026-11-06): "Vista Equity Partners invested in iCIMS in August 2018"
 - [About iCIMS](https://www.icims.com/company/) (Ownership, checked 2026-11-06): "Partnered with leading investing firm Vista Equity Partners"
 - [Homepage language menu](https://www.icims.com/) (Languages, checked 2026-11-06): "UK"
+- [Integrating with ICIMS](https://developer-community.icims.com/getting-started/integrating-icims) (API access, checked 2026-11-11): "It is important to note you do not have to be a partner with ICIMS to build an integration."
 
 Canonical page: https://jobboardlist.com/boards/icims/
-Last updated: 2026-11-06
+Last updated: 2026-11-11
 
 ---
 
@@ -2851,6 +2909,13 @@ Job Bank is a government job site based in Canada.
 - Tags: API on request, Free to post, General, Government operated, Public employment service, Job board, Partner program, Public sector, XML feed
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Request access to the XML feed of job postings (https://www.jobbank.gc.ca/network)
+- Approval: Feed requests must meet listed conditions (https://www.jobbank.gc.ca/network)
+- Data formats: XML feed of job postings (https://www.jobbank.gc.ca/network)
+- What it covers: Shares Job Bank postings with other job boards via feed (https://www.jobbank.gc.ca/network)
+
 ## Quick answers
 
 **Who owns Job Bank?** This directory records the parent of Job Bank as Government of Canada.
@@ -2862,6 +2927,8 @@ Job Bank is a government job site based in Canada.
 **How many jobs does Job Bank list?** Job Bank reports 55,000 jobs advertised per month on its own site (as of 2026-11-05).
 
 **Which platforms does Job Bank connect to?** According to this directory, Job Bank integrates with CareerBeacon, Google, Indeed, Jobillico, LinkedIn, Magnet and others.
+
+**How do you get API access to Job Bank?** According to Job Bank's own documentation, access works like this: Request access to the XML feed of job postings.
 
 ## Sources
 
@@ -3350,6 +3417,11 @@ Jobsuche (Bundesagentur fur Arbeit) is a government job site based in Germany.
 - Tags: Self-serve API, Free to post, General, Government operated, Public employment service, Job board, Public sector
 - Data status: partly verified against its own site
 
+## How API access works
+
+- Authentication: clientId sent in X-API-Key header on GET requests (https://jobsuche.api.bund.dev/)
+- What it covers: Search job listings, get job details and employer logos (https://jobsuche.api.bund.dev/)
+
 ## Quick answers
 
 **Who owns Jobsuche (Bundesagentur fur Arbeit)?** This directory records the parent of Jobsuche (Bundesagentur fur Arbeit) as Federal Employment Agency.
@@ -3357,6 +3429,8 @@ Jobsuche (Bundesagentur fur Arbeit) is a government job site based in Germany.
 **Does Jobsuche (Bundesagentur fur Arbeit) have an API?** According to this directory, Jobsuche (Bundesagentur fur Arbeit) offers an API you can use with a self-serve key. Documentation: https://jobsuche.api.bund.dev.
 
 **Which languages does Jobsuche (Bundesagentur fur Arbeit) support?** This directory records Jobsuche (Bundesagentur fur Arbeit) as supporting German, English.
+
+**How do you get API access to Jobsuche (Bundesagentur fur Arbeit)?** According to Jobsuche (Bundesagentur fur Arbeit)'s own documentation, requests authenticate with clientId sent in X-API-Key header on GET requests.
 
 ## Sources
 
@@ -3821,6 +3895,55 @@ Lemon.io is a freelance marketplace based in United States, focused on freelance
 
 Canonical page: https://jobboardlist.com/boards/lemon-io/
 Last updated: 2026-11-06
+
+---
+
+# Lever
+
+Lever is an applicant tracking system based in United States, focused on applicant tracking system.
+
+- Website: https://www.lever.co
+- Headquarters: United States
+- Founded: not recorded
+- Owner: Employ Inc.
+- Languages: not recorded
+- API status: Open API (no key) (https://github.com/lever/postings-api)
+- Partner program: yes
+- Prominence: #3,942 globally, tier Large
+- Tags: Open API, Applicant tracking system, Mid-market, Partner program, Public job feed
+- Review: Reviewed 2026-11-11. Some facts checked against the board's own site. Not stated there: headquarters, languages, API access.
+- Data status: partly verified against its own site
+
+## How API access works
+
+- How to get access: API keys are created by the customer in Lever Settings (https://hire.lever.co/developer/documentation)
+- Approval: OAuth apps must be registered through the partner integration program (https://hire.lever.co/developer/documentation)
+- Authentication: API key sent as the basic auth username with a blank password (https://hire.lever.co/developer/documentation)
+- Data formats: JSON over HTTPS (https://hire.lever.co/developer/documentation)
+- What it covers: List endpoints for opportunities, users and postings, plus webhooks (https://hire.lever.co/developer/documentation)
+- Rate limits: 10 requests per second per API key by default, with bursts to 20 (https://hire.lever.co/developer/documentation)
+- Test environment: Partner sandbox account and sandbox API base URL (https://hire.lever.co/developer/partner)
+
+## Quick answers
+
+**Who owns Lever?** This directory records the parent of Lever as Employ Inc..
+
+**Does Lever have an API?** According to this directory, Lever has an open API or feed that does not require approval. Documentation: https://github.com/lever/postings-api.
+
+**How large is Lever?** Lever ranks #3,942 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**Which platforms does Lever connect to?** According to this directory, Lever sends jobs to Reed; integrates with Indeed, LinkedIn, AcquireROI, Appcast, Bandana, Boostie and others.
+
+**How do you get API access to Lever?** According to Lever's own documentation, access works like this: API keys are created by the customer in Lever Settings; requests authenticate with API key sent as the basic auth username with a blank password.
+
+## Sources
+
+- [About Employ (footer)](https://www.lever.co/about/) (Ownership, checked 2026-11-11): "Employ, JazzHR, Lever, and Jobvite are registered trademarks of Employ, Inc."
+- [Pricing](https://www.lever.co/pricing) (Business model and pricing, checked 2026-11-11): "To get Lever pricing, you’ll need to contact Lever directly for a custom quote."
+- [Partner program](https://www.lever.co/partners) (Partner program, checked 2026-11-11): "Build an integration, reach new customers, and become part of the hiring workflow teams rely on every day."
+
+Canonical page: https://jobboardlist.com/boards/lever/
+Last updated: 2026-11-11
 
 ---
 
@@ -4375,7 +4498,7 @@ Oracle Recruiting Cloud is an applicant tracking system based in United States, 
 - Partner program: yes
 - Prominence: Not comparable
 - Tags: Self-serve API, Applicant tracking system, Enterprise, Partner program, Public job feed
-- Review: Reviewed 2026-11-06. Checked against the board's own site.
+- Review: Reviewed 2026-11-11. Some facts checked against the board's own site. Not stated there: headquarters, owner, languages, pricing and business model, API access.
 - Data status: partly verified against its own site
 
 ## Quick answers
@@ -4390,9 +4513,11 @@ Oracle Recruiting Cloud is an applicant tracking system based in United States, 
 
 - [Oracle Recruiting Cloud (footer)](https://www.oracle.com/human-capital-management/recruiting/) (Ownership, checked 2026-11-06): "© 2026 Oracle Privacy / Do Not Sell My Info"
 - [Taleo](https://www.oracle.com/human-capital-management/taleo/) (Ownership, checked 2026-11-06): "© 2026 Oracle"
+- [Taleo product page, certified partner ecosystem](https://www.oracle.com/human-capital-management/taleo/) (Partner program, checked 2026-11-11): "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings and innovative integrations with LinkedIn."
+- [Partner program](https://www.oracle.com/partner/) (Partner program, checked 2026-11-11): "Our partner program gives you choice and flexibility so you can tailor it to best meet your needs."
 
 Canonical page: https://jobboardlist.com/boards/oracle-recruiting/
-Last updated: 2026-11-06
+Last updated: 2026-11-11
 
 ---
 
@@ -4423,6 +4548,41 @@ Phenom is an applicant tracking system based in United States, focused on applic
 
 Canonical page: https://jobboardlist.com/boards/phenom/
 Last updated: 2026-11-09
+
+---
+
+# Pinpoint
+
+Pinpoint is an applicant tracking system based in United Kingdom, focused on applicant tracking system.
+
+- Website: https://www.pinpointhq.com
+- Headquarters: United Kingdom
+- Founded: not recorded
+- Owner: not recorded
+- Languages: not recorded
+- API status: Self-serve API key (https://developers.pinpointhq.com/docs/authentication)
+- Partner program: yes
+- Prominence: #30,125 globally, tier Established
+- Tags: Self-serve API, Applicant tracking system, Mid-market, Partner program, Public job feed
+- Review: Reviewed 2026-11-11. Some facts checked against the board's own site. Not stated there: headquarters, owner, languages, how jobs get in.
+- Data status: partly verified against its own site
+
+## Quick answers
+
+**Does Pinpoint have an API?** According to this directory, Pinpoint offers an API you can use with a self-serve key. Documentation: https://developers.pinpointhq.com/docs/authentication.
+
+**How large is Pinpoint?** Pinpoint ranks #30,125 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**Which platforms does Pinpoint connect to?** According to this directory, Pinpoint sends jobs to Reed; integrates with LinkedIn, Leisurejobs, Indeed, Glassdoor, WISE, Careers In Compliance and others.
+
+## Sources
+
+- [Authentication](https://developers.pinpointhq.com/docs/authentication) (API access, checked 2026-11-11): "The Pinpoint API uses an API key to authenticate requests."
+- [Request pricing](https://www.pinpointhq.com/request-pricing) (Business model and pricing, checked 2026-11-11): "See the product and get pricing"
+- [Partner with us](https://www.pinpointhq.com/partner-with-us) (Partner program, checked 2026-11-11): "Join our referral or integration partner program and access benefits for you and your customers."
+
+Canonical page: https://jobboardlist.com/boards/pinpoint/
+Last updated: 2026-11-11
 
 ---
 
@@ -4687,6 +4847,16 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 - Review: Reviewed 2026-11-06. Checked against the board's own site.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Self-serve: each user generates an API token in Settings > Apps and plugins (https://docs.recruitee.com/reference/getting-started)
+- Approval: Registration form before development; extra terms may apply before wider rollout (https://docs.recruitee.com/reference/integration-partners)
+- Authentication: Bearer API token in the Authorization header for the ATS API (https://docs.recruitee.com/reference/getting-started)
+- Data formats: XML offers feed generated per job board (https://docs.recruitee.com/docs/feed)
+- What it covers: View company jobs and add candidates to jobs through the Careers Site API (https://docs.recruitee.com/reference/intro-to-careers-site-api)
+- Rate limits: 1000 requests per minute per API token (https://docs.recruitee.com/reference/getting-started)
+- Test environment: Release Candidate environment for developing partner integrations (https://docs.recruitee.com/reference/integration-partners)
+
 ## Quick answers
 
 **Who owns Recruitee?** This directory records the parent of Recruitee as Tellent.
@@ -4694,6 +4864,8 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 **Does Recruitee have an API?** According to this directory, Recruitee has an open API or feed that does not require approval. Documentation: https://docs.recruitee.com.
 
 **How large is Recruitee?** Recruitee ranks #5,796 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**How do you get API access to Recruitee?** According to Recruitee's own documentation, access works like this: Self-serve: each user generates an API token in Settings > Apps and plugins; requests authenticate with Bearer API token in the Authorization header for the ATS API.
 
 ## Sources
 
@@ -4719,6 +4891,15 @@ Reed is a job board based in United Kingdom. It was founded in 1960.
 - Tags: Self-serve API, General, Job board, Partner program, Subscription
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Sign up online for a reed.co.uk API key (https://www.reed.co.uk/developers/Jobseeker)
+- Authentication: API key sent as HTTP basic auth username, password empty (https://www.reed.co.uk/developers/Jobseeker)
+- Data formats: RESTful HTTP methods with JSON payloads (https://www.reed.co.uk/api/documentation/)
+- What it covers: Search jobs on reed.co.uk and get job details (https://www.reed.co.uk/developers/Jobseeker)
+- Rate limits: Default 2,000 requests per hour (https://www.reed.co.uk/api/documentation/)
+- Test environment: Staging and production environments (https://www.reed.co.uk/api/documentation/)
+
 ## Quick answers
 
 **Who owns Reed?** This directory records the parent of Reed as Reed family.
@@ -4730,6 +4911,8 @@ Reed is a job board based in United Kingdom. It was founded in 1960.
 **How large is Reed?** Reed ranks #13,306 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Reed connect to?** According to this directory, Reed receives jobs from Logic Melon, JobAdder, Fire Fish Software, Jobtrain, Teamtailor, Workable and others; integrates with Pinpoint.
+
+**How do you get API access to Reed?** According to Reed's own documentation, access works like this: Sign up online for a reed.co.uk API key; requests authenticate with API key sent as HTTP basic auth username, password empty.
 
 ## Sources
 
@@ -4829,6 +5012,13 @@ Rippling Recruiting is an applicant tracking system based in United States, focu
 - Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: founding year, how jobs get in.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: API tokens created by a user, inheriting that user's permissions and selected scopes (https://developer.rippling.com/documentation/rest-api)
+- Authentication: Bearer token (https://developer.rippling.com/documentation/rest-api)
+- What it covers: Talent endpoints for recruiting, headcount planning, performance and compensation bands; access set by OAuth scopes (https://developer.rippling.com/documentation/rest-api)
+- Rate limits: 600 requests per 10 seconds with an API token, counted per token per endpoint path (https://developer.rippling.com/documentation/rest-api/essentials/api-limits)
+
 ## Quick answers
 
 **Who owns Rippling Recruiting?** This directory records the parent of Rippling Recruiting as Rippling People Center Inc..
@@ -4836,6 +5026,8 @@ Rippling Recruiting is an applicant tracking system based in United States, focu
 **Does Rippling Recruiting have an API?** According to this directory, Rippling Recruiting offers an API you can use with a self-serve key. Documentation: https://developer.rippling.com/.
 
 **How large is Rippling Recruiting?** Rippling Recruiting ranks #12,584 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**How do you get API access to Rippling Recruiting?** According to Rippling Recruiting's own documentation, access works like this: API tokens created by a user, inheriting that user's permissions and selected scopes; requests authenticate with Bearer token.
 
 ## Sources
 
@@ -5079,6 +5271,14 @@ SmartRecruiters is an applicant tracking system based in Poland, focused on appl
 - Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: founding year, pricing and business model.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Customers create API credentials in the Credential Manager (https://developers.smartrecruiters.com/docs/authentication)
+- Authentication: API key sent in the X-SmartToken header (https://developers.smartrecruiters.com/docs/authentication-api-key)
+- Data formats: REST endpoints (https://developers.smartrecruiters.com/docs/partners-job-board-api)
+- What it covers: Job posting details for purchased job board postings (https://developers.smartrecruiters.com/docs/partners-job-board-api)
+- Rate limits: Up to 10 requests per second for most endpoints (https://developers.smartrecruiters.com/docs/rate-limiting)
+
 ## Quick answers
 
 **Who owns SmartRecruiters?** This directory records the parent of SmartRecruiters as SAP.
@@ -5090,6 +5290,8 @@ SmartRecruiters is an applicant tracking system based in Poland, focused on appl
 **How large is SmartRecruiters?** SmartRecruiters ranks #4,305 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does SmartRecruiters connect to?** According to this directory, SmartRecruiters integrates with Careerjet, Joveo, VONQ.
+
+**How do you get API access to SmartRecruiters?** According to SmartRecruiters's own documentation, access works like this: Customers create API credentials in the Credential Manager; requests authenticate with API key sent in the X-SmartToken header.
 
 ## Sources
 
@@ -5447,6 +5649,14 @@ Teamtailor is an applicant tracking system based in Sweden, focused on applicant
 - Review: Reviewed 2026-11-06. Some facts checked against the board's own site. Not stated there: founding year.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: API keys created and managed in the Teamtailor account settings (https://docs.teamtailor.com)
+- Authentication: API key sent in the Authorization header as a token (https://docs.teamtailor.com)
+- Data formats: JSON API specification (https://docs.teamtailor.com)
+- What it covers: API keys carry public, internal, read, write or admin permission levels (https://docs.teamtailor.com)
+- Rate limits: Bucket of 50 requests every 10 seconds; HTTP 429 when exceeded (https://docs.teamtailor.com)
+
 ## Quick answers
 
 **Does Teamtailor have an API?** According to this directory, Teamtailor offers an API you can use with a self-serve key. Documentation: https://docs.teamtailor.com.
@@ -5456,6 +5666,8 @@ Teamtailor is an applicant tracking system based in Sweden, focused on applicant
 **How large is Teamtailor?** Teamtailor ranks #4,573 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Teamtailor connect to?** According to this directory, Teamtailor sends jobs to Reed, Asfored, B4work Global; integrates with 50Plus-Jobs, Adzuna, Agefiph, #jenesuisPASunCV, Arbetsförmedlingen.
+
+**How do you get API access to Teamtailor?** According to Teamtailor's own documentation, access works like this: API keys created and managed in the Teamtailor account settings; requests authenticate with API key sent in the Authorization header as a token.
 
 ## Sources
 
@@ -6258,6 +6470,14 @@ Workable is an applicant tracking system based in Greece, focused on applicant t
 - Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: founding year.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Account owners generate an API access token in their Workable account (https://workable.readme.io/reference/generate-an-access-token)
+- Approval: Partner Token requires applying to become an official partner (https://workable.readme.io/reference/partner-token)
+- Authentication: Bearer token in the Authorization header; Partner Token for official integrations (https://workable.readme.io/reference/partner-token)
+- What it covers: Recruiting and HR data through the API (https://workable.readme.io/reference/generate-an-access-token)
+- Rate limits: Rate limits applied in 10-second intervals (https://workable.readme.io/reference/rate-limits)
+
 ## Quick answers
 
 **Does Workable have an API?** According to this directory, Workable offers an API you can use with a self-serve key. Documentation: https://workable.readme.io.
@@ -6265,6 +6485,8 @@ Workable is an applicant tracking system based in Greece, focused on applicant t
 **How large is Workable?** Workable ranks #3,142 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Workable connect to?** According to this directory, Workable sends jobs to Reed, Indeed, Glassdoor, LinkedIn, X job board, Adzuna and others.
+
+**How do you get API access to Workable?** According to Workable's own documentation, access works like this: Account owners generate an API access token in their Workable account; requests authenticate with Bearer token in the Authorization header; Partner Token for official integrations.
 
 ## Sources
 
@@ -7419,9 +7641,10 @@ Canonical page: https://jobboardlist.com/ecosystem/
 
 # API on request
 
-Issues API keys or feeds after a request form or review. 12 entries in the directory.
+Issues API keys or feeds after a request form or review. 13 entries in the directory.
 
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
 - [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, API key on request
 - [VDAB](https://jobboardlist.com/boards/vdab/): government, API key on request
 - [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, API key on request
@@ -7466,12 +7689,11 @@ Canonical page: https://jobboardlist.com/tags/api-open/
 
 # Partner-only API
 
-Programmatic access requires an approved partner or commercial agreement. 30 entries in the directory.
+Programmatic access requires an approved partner or commercial agreement. 29 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
-- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
 - [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Partner-only API
@@ -7591,7 +7813,7 @@ Software employers use to manage hiring and publish their jobs. 21 entries in th
 
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
-- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
 - [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
 - [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
@@ -7697,7 +7919,7 @@ Canonical page: https://jobboardlist.com/tags/education/
 
 Aimed at large enterprises. 9 entries in the directory.
 
-- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
 - [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
@@ -8348,7 +8570,7 @@ Has a partner or integration program. 85 entries in the directory.
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
 - [HeadHunter (hh.ru)](https://jobboardlist.com/boards/hh-ru/): board, Self-serve API key
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
-- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
 - [Lever](https://jobboardlist.com/boards/lever/): ats, Open API (no key)
 - [Idealist](https://jobboardlist.com/boards/idealist/): niche-board
 - [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Open API (no key)
@@ -9822,7 +10044,7 @@ Canonical page: https://jobboardlist.com/countries/united-kingdom/
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Large tier, Self-serve API key
 - [CareerBuilder](https://jobboardlist.com/boards/careerbuilder/): board, Large tier
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Large tier, Partner-only API
-- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Large tier, Partner-only API
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Large tier, API key on request
 - [Lever](https://jobboardlist.com/boards/lever/): ats, Large tier, Open API (no key)
 - [Idealist](https://jobboardlist.com/boards/idealist/): niche-board, Large tier
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, Large tier, No known API

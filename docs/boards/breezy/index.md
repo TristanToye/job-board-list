@@ -14,6 +14,13 @@ Breezy HR is an applicant tracking system based in United States, focused on app
 - Review: Reviewed 2026-11-06. Could not verify: the site blocks automated access, so these facts remain as recorded. breezy.hr returned a CloudFront 403 challenge to the browser reader, so the entry is recorded as blocked. Lead only, not a sourced fact: ltgplc.com/trust-center (off-domain) lists Breezy HR among Learning Technologies Group entities, which 
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Personal API key created from the API Keys tab in the Breezy account (https://developer.breezy.hr/reference/authorization)
+- Authentication: Personal Access Token in the Authorization header; session tokens from the signin endpoint also supported (https://developer.breezy.hr/reference/authorization)
+- What it covers: Subset of the functionality used by the Breezy HR website, including positions, candidates and webhooks (https://developer.breezy.hr)
+- Rate limits: 100 requests per 60-second interval for each authentication token (https://developer.breezy.hr/reference/rate-limiting)
+
 ## Quick answers
 
 **Does Breezy HR have an API?** According to this directory, Breezy HR offers an API you can use with a self-serve key. Documentation: https://developer.breezy.hr.
@@ -21,6 +28,8 @@ Breezy HR is an applicant tracking system based in United States, focused on app
 **How large is Breezy HR?** Breezy HR ranks #11,990 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Breezy HR connect to?** According to this directory, Breezy HR sends jobs to Talent.com, Reed; integrates with Careerjet.
+
+**How do you get API access to Breezy HR?** According to Breezy HR's own documentation, access works like this: Personal API key created from the API Keys tab in the Breezy account; requests authenticate with Personal Access Token in the Authorization header; session tokens from the signin endpoint also supported.
 
 ## Sources
 

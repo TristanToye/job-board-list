@@ -7740,14 +7740,14 @@
   "niche": "applicant tracking system",
   "segment": "mid-market",
   "parent": "Employ Inc.",
-  "business_model": "",
+  "business_model": "custom quote",
   "api_status": "public-open",
   "api_docs_url": "https://github.com/lever/postings-api",
   "partner_program": "yes",
-  "partner_url": "",
+  "partner_url": "https://www.lever.co/partners",
   "ingest_methods": "Public job feed",
-  "notes": "Postings API api.lever.co/v0/postings/{site}. Write API: API key. Reading jobs needs auth: no (read).",
-  "confidence": "seed-unverified"
+  "notes": "Postings API api.lever.co/v0/postings/{site}. Write API: API key. Reading jobs needs auth: no (read). Parent Employ Inc. is named in the site footer. Pricing is by custom quote on request. Partner program page lists integration partnerships. No language options or own-domain API page found.",
+  "confidence": "partially-verified"
  },
  {
   "id": "ashby",
@@ -7966,7 +7966,7 @@
   "segment": "enterprise",
   "parent": "Vista Equity Partners",
   "business_model": "",
-  "api_status": "partner-only",
+  "api_status": "on-request",
   "api_docs_url": "https://developer.icims.com",
   "partner_program": "yes",
   "partner_url": "",
@@ -8019,9 +8019,9 @@
   "api_status": "public-key",
   "api_docs_url": "https://docs.oracle.com/en/cloud/saas/talent-management/",
   "partner_program": "yes",
-  "partner_url": "",
+  "partner_url": "https://www.oracle.com/partner/",
   "ingest_methods": "Public job feed",
-  "notes": "Public requisition REST resources on career sites. Write API: OAuth. Reading jobs needs auth: partial.",
+  "notes": "Public requisition REST resources on career sites. Write API: OAuth. Reading jobs needs auth: partial. Product page describes an Oracle partner network with more than 200 Taleo-certified offerings. Partner page describes the program as flexible. No pricing, API or language options found on the pages read.",
   "confidence": "partially-verified"
  },
  {
@@ -8140,14 +8140,14 @@
   "niche": "applicant tracking system",
   "segment": "mid-market",
   "parent": "",
-  "business_model": "",
+  "business_model": "quote on request",
   "api_status": "public-key",
-  "api_docs_url": "https://developers.pinpointhq.com",
+  "api_docs_url": "https://developers.pinpointhq.com/docs/authentication",
   "partner_program": "yes",
-  "partner_url": "",
+  "partner_url": "https://www.pinpointhq.com/partner-with-us",
   "ingest_methods": "Public job feed",
-  "notes": "Write API: key. Reading jobs needs auth: key.",
-  "confidence": "seed-unverified"
+  "notes": "Write API: key. Reading jobs needs auth: key. Developer docs say the API uses a key generated in account settings. Pricing is by request. Partner page describes referral and integration partnership programs.",
+  "confidence": "partially-verified"
  },
  {
   "id": "rippling",

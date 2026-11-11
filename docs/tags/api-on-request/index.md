@@ -1,8 +1,9 @@
 # API on request
 
-Issues API keys or feeds after a request form or review. 12 entries in the directory.
+Issues API keys or feeds after a request form or review. 13 entries in the directory.
 
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
+- [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
 - [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, API key on request
 - [VDAB](https://jobboardlist.com/boards/vdab/): government, API key on request
 - [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, API key on request

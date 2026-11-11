@@ -13,6 +13,14 @@ Adzuna is a job aggregator based in United Kingdom. It was founded in 2011.
 - Tags: Self-serve API, Crawl sourced, General, Job aggregator, Partner program, Pay per click, XML feed
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Register to receive an app_key and app_id (https://developer.adzuna.com/overview)
+- Authentication: app_id and app_key passed as query parameters (https://developer.adzuna.com/overview)
+- Data formats: RESTful API returning JSON, JSONP or XML (https://developer.adzuna.com/overview)
+- What it covers: Search job ads and employment data (https://developer.adzuna.com/overview)
+- Test environment: Interactive endpoint documentation with a playground for test calls (https://developer.adzuna.com/docs/search)
+
 ## Quick answers
 
 **Does Adzuna have an API?** According to this directory, Adzuna offers an API you can use with a self-serve key. Documentation: https://developer.adzuna.com.
@@ -22,6 +30,8 @@ Adzuna is a job aggregator based in United Kingdom. It was founded in 2011.
 **How large is Adzuna?** Adzuna ranks #66,808 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Adzuna connect to?** According to this directory, Adzuna receives jobs from Workable; integrates with Pinpoint, Teamtailor.
+
+**How do you get API access to Adzuna?** According to Adzuna's own documentation, access works like this: Register to receive an app_key and app_id; requests authenticate with app_id and app_key passed as query parameters.
 
 ## Sources
 

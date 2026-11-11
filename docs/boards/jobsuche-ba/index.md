@@ -13,6 +13,11 @@ Jobsuche (Bundesagentur fur Arbeit) is a government job site based in Germany.
 - Tags: Self-serve API, Free to post, General, Government operated, Public employment service, Job board, Public sector
 - Data status: partly verified against its own site
 
+## How API access works
+
+- Authentication: clientId sent in X-API-Key header on GET requests (https://jobsuche.api.bund.dev/)
+- What it covers: Search job listings, get job details and employer logos (https://jobsuche.api.bund.dev/)
+
 ## Quick answers
 
 **Who owns Jobsuche (Bundesagentur fur Arbeit)?** This directory records the parent of Jobsuche (Bundesagentur fur Arbeit) as Federal Employment Agency.
@@ -20,6 +25,8 @@ Jobsuche (Bundesagentur fur Arbeit) is a government job site based in Germany.
 **Does Jobsuche (Bundesagentur fur Arbeit) have an API?** According to this directory, Jobsuche (Bundesagentur fur Arbeit) offers an API you can use with a self-serve key. Documentation: https://jobsuche.api.bund.dev.
 
 **Which languages does Jobsuche (Bundesagentur fur Arbeit) support?** This directory records Jobsuche (Bundesagentur fur Arbeit) as supporting German, English.
+
+**How do you get API access to Jobsuche (Bundesagentur fur Arbeit)?** According to Jobsuche (Bundesagentur fur Arbeit)'s own documentation, requests authenticate with clientId sent in X-API-Key header on GET requests.
 
 ## Sources
 

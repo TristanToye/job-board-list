@@ -14,11 +14,21 @@ BambooHR is an applicant tracking system based in United States, focused on appl
 - Review: Reviewed 2026-11-06. The board's own pages were read, but they do not state: owner.
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Free developer portal account, where applications are registered for a client ID and secret (https://documentation.bamboohr.com/docs/getting-started)
+- Authentication: API key sent over HTTP Basic authentication; OAuth authorization flow for registered applications (https://documentation.bamboohr.com/docs/getting-started)
+- Data formats: RESTful HTTPS API (https://documentation.bamboohr.com/docs/getting-started)
+- What it covers: Employee data and reports; each request sees only what the API user's permissions allow (https://documentation.bamboohr.com/docs/getting-started)
+- Test environment: Test BambooHR account to develop against (https://documentation.bamboohr.com/docs/getting-started)
+
 ## Quick answers
 
 **Does BambooHR have an API?** According to this directory, BambooHR offers an API you can use with a self-serve key. Documentation: https://documentation.bamboohr.com.
 
 **How large is BambooHR?** BambooHR ranks #3,235 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**How do you get API access to BambooHR?** According to BambooHR's own documentation, access works like this: Free developer portal account, where applications are registered for a client ID and secret; requests authenticate with API key sent over HTTP Basic authentication; OAuth authorization flow for registered applications.
 
 ## Sources
 

@@ -14,18 +14,18 @@
  "niche": "applicant tracking system",
  "segment": "mid-market",
  "parent": "",
- "business_model": "",
+ "business_model": "quote on request",
  "api_status": "public-key",
- "api_docs_url": "https://developers.pinpointhq.com",
+ "api_docs_url": "https://developers.pinpointhq.com/docs/authentication",
  "partner_program": "yes",
- "partner_url": "",
+ "partner_url": "https://www.pinpointhq.com/partner-with-us",
  "ingest_methods": [
   "Public job feed"
  ],
- "notes": "Write API: key. Reading jobs needs auth: key.",
- "confidence": "seed-unverified",
+ "notes": "Write API: key. Reading jobs needs auth: key. Developer docs say the API uses a key generated in account settings. Pricing is by request. Partner page describes referral and integration partnership programs.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/pinpoint/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -279,13 +279,38 @@
  ],
  "review": {
   "board_id": "pinpoint",
-  "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "parent",
-  "note": "About us, news, and homepage read. No statement of an owning or parent company; copyright line names only Pinpoint.",
-  "method": "fetch"
+  "reviewed": "2026-11-11",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;ingest_methods",
+  "note": "Developer docs state API key access and the site states a partner program; no HQ, parent or language options found.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "api_status",
+   "url": "https://developers.pinpointhq.com/docs/authentication",
+   "title": "Authentication",
+   "accessed": "2026-11-11",
+   "quote": "The Pinpoint API uses an API key to authenticate requests.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.pinpointhq.com/request-pricing",
+   "title": "Request pricing",
+   "accessed": "2026-11-11",
+   "quote": "See the product and get pricing",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.pinpointhq.com/partner-with-us",
+   "title": "Partner with us",
+   "accessed": "2026-11-11",
+   "quote": "Join our referral or integration partner program and access benefits for you and your customers.",
+   "quote_check": "ok"
+  }
+ ]
 }

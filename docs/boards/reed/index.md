@@ -13,6 +13,15 @@ Reed is a job board based in United Kingdom. It was founded in 1960.
 - Tags: Self-serve API, General, Job board, Partner program, Subscription
 - Data status: partly verified against its own site
 
+## How API access works
+
+- How to get access: Sign up online for a reed.co.uk API key (https://www.reed.co.uk/developers/Jobseeker)
+- Authentication: API key sent as HTTP basic auth username, password empty (https://www.reed.co.uk/developers/Jobseeker)
+- Data formats: RESTful HTTP methods with JSON payloads (https://www.reed.co.uk/api/documentation/)
+- What it covers: Search jobs on reed.co.uk and get job details (https://www.reed.co.uk/developers/Jobseeker)
+- Rate limits: Default 2,000 requests per hour (https://www.reed.co.uk/api/documentation/)
+- Test environment: Staging and production environments (https://www.reed.co.uk/api/documentation/)
+
 ## Quick answers
 
 **Who owns Reed?** This directory records the parent of Reed as Reed family.
@@ -24,6 +33,8 @@ Reed is a job board based in United Kingdom. It was founded in 1960.
 **How large is Reed?** Reed ranks #13,306 among all websites by web link popularity (Majestic Million, 2026-11-09), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Reed connect to?** According to this directory, Reed receives jobs from Logic Melon, JobAdder, Fire Fish Software, Jobtrain, Teamtailor, Workable and others; integrates with Pinpoint.
+
+**How do you get API access to Reed?** According to Reed's own documentation, access works like this: Sign up online for a reed.co.uk API key; requests authenticate with API key sent as HTTP basic auth username, password empty.
 
 ## Sources
 

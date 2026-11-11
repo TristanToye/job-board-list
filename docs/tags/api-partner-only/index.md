@@ -1,11 +1,10 @@
 # Partner-only API
 
-Programmatic access requires an approved partner or commercial agreement. 30 entries in the directory.
+Programmatic access requires an approved partner or commercial agreement. 29 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [ZipRecruiter](https://jobboardlist.com/boards/ziprecruiter/): board+aggregator, Partner-only API
-- [iCIMS](https://jobboardlist.com/boards/icims/): ats, Partner-only API
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
 - [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Partner-only API

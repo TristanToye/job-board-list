@@ -14,18 +14,18 @@
  "niche": "applicant tracking system",
  "segment": "mid-market",
  "parent": "Employ Inc.",
- "business_model": "",
+ "business_model": "custom quote",
  "api_status": "public-open",
  "api_docs_url": "https://github.com/lever/postings-api",
  "partner_program": "yes",
- "partner_url": "",
+ "partner_url": "https://www.lever.co/partners",
  "ingest_methods": [
   "Public job feed"
  ],
- "notes": "Postings API api.lever.co/v0/postings/{site}. Write API: API key. Reading jobs needs auth: no (read).",
- "confidence": "seed-unverified",
+ "notes": "Postings API api.lever.co/v0/postings/{site}. Write API: API key. Reading jobs needs auth: no (read). Parent Employ Inc. is named in the site footer. Pricing is by custom quote on request. Partner program page lists integration partnerships. No language options or own-domain API page found.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/lever/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -162,13 +162,38 @@
  ],
  "review": {
   "board_id": "lever",
-  "reviewed": "2026-11-06",
-  "outcome": "not-stated",
-  "fields_not_found": "founded;business_model",
-  "note": "Pricing page says pricing is available upon request and scales with team size, with no plan type or prices, so business_model is not recorded. No founding year on lever.co. The employinc.com company page is a different domain and states Sin",
-  "method": "fetch"
+  "reviewed": "2026-11-11",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status",
+  "note": "Pages state Employ Inc. as parent, custom-quote pricing and a partner program; no language options or own-domain API page found.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "parent",
+   "url": "https://www.lever.co/about/",
+   "title": "About Employ (footer)",
+   "accessed": "2026-11-11",
+   "quote": "Employ, JazzHR, Lever, and Jobvite are registered trademarks of Employ, Inc.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.lever.co/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-11",
+   "quote": "To get Lever pricing, you’ll need to contact Lever directly for a custom quote.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.lever.co/partners",
+   "title": "Partner program",
+   "accessed": "2026-11-11",
+   "quote": "Build an integration, reach new customers, and become part of the hiring workflow teams rely on every day.",
+   "quote_check": "ok"
+  }
+ ]
 }
