@@ -1,0 +1,75 @@
+{
+ "country": "ZZ",
+ "boards": [
+  {
+   "id": "teamtailor",
+   "name": "Teamtailor",
+   "url": "https://www.teamtailor.com",
+   "api_docs_url": "https://docs.teamtailor.com",
+   "api_status": "public-key"
+  },
+  {
+   "id": "icims",
+   "name": "iCIMS",
+   "url": "https://www.icims.com",
+   "api_docs_url": "https://developer.icims.com",
+   "api_status": "partner-only"
+  },
+  {
+   "id": "jobvite",
+   "name": "Jobvite",
+   "url": "https://www.jobvite.com",
+   "api_docs_url": "",
+   "api_status": "public-key"
+  },
+  {
+   "id": "bamboohr",
+   "name": "BambooHR",
+   "url": "https://www.bamboohr.com",
+   "api_docs_url": "https://documentation.bamboohr.com",
+   "api_status": "public-key"
+  },
+  {
+   "id": "personio",
+   "name": "Personio",
+   "url": "https://www.personio.com",
+   "api_docs_url": "https://developer.personio.de",
+   "api_status": "public-open"
+  },
+  {
+   "id": "jazzhr",
+   "name": "JazzHR",
+   "url": "https://www.jazzhr.com",
+   "api_docs_url": "https://www.jazzhr.com/api",
+   "api_status": "public-key"
+  },
+  {
+   "id": "breezy",
+   "name": "Breezy HR",
+   "url": "https://breezy.hr",
+   "api_docs_url": "https://developer.breezy.hr",
+   "api_status": "public-key"
+  },
+  {
+   "id": "rippling",
+   "name": "Rippling Recruiting",
+   "url": "https://www.rippling.com",
+   "api_docs_url": "https://developer.rippling.com/",
+   "api_status": "public-key"
+  },
+  {
+   "id": "oracle-recruiting",
+   "name": "Oracle Recruiting Cloud",
+   "url": "https://www.oracle.com/human-capital-management/recruiting/",
+   "api_docs_url": "https://docs.oracle.com/en/cloud/saas/talent-management/",
+   "api_status": "public-key"
+  },
+  {
+   "id": "workday",
+   "name": "Workday Recruiting",
+   "url": "https://www.workday.com",
+   "api_docs_url": "",
+   "api_status": "none-known"
+  }
+ ]
+}

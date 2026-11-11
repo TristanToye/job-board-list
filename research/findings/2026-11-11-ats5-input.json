@@ -1,0 +1,40 @@
+{
+ "country": "ZZ",
+ "boards": [
+  {
+   "id": "lever",
+   "name": "Lever",
+   "url": "https://www.lever.co",
+   "api_docs_url": "https://github.com/lever/postings-api",
+   "api_status": "public-open"
+  },
+  {
+   "id": "personio",
+   "name": "Personio",
+   "url": "https://www.personio.com",
+   "api_docs_url": "https://developer.personio.de",
+   "api_status": "public-open"
+  },
+  {
+   "id": "taleo",
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "api_docs_url": "",
+   "api_status": "partner-only"
+  },
+  {
+   "id": "successfactors",
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "api_docs_url": "https://api.sap.com",
+   "api_status": "public-key"
+  },
+  {
+   "id": "pinpoint",
+   "name": "Pinpoint",
+   "url": "https://www.pinpointhq.com",
+   "api_docs_url": "https://developers.pinpointhq.com",
+   "api_status": "public-key"
+  }
+ ]
+}

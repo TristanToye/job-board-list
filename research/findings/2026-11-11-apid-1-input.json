@@ -1,0 +1,75 @@
+{
+ "country": "ZZ",
+ "boards": [
+  {
+   "id": "stepstone",
+   "name": "StepStone",
+   "url": "https://www.stepstone.de",
+   "api_docs_url": "",
+   "api_status": "partner-only"
+  },
+  {
+   "id": "jobbank-ca",
+   "name": "Job Bank",
+   "url": "https://www.jobbank.gc.ca",
+   "api_docs_url": "https://www.jobbank.gc.ca/network",
+   "api_status": "on-request"
+  },
+  {
+   "id": "cv-library",
+   "name": "CV-Library",
+   "url": "https://www.cv-library.co.uk",
+   "api_docs_url": "https://www.cv-library.co.uk/developers",
+   "api_status": "partner-only"
+  },
+  {
+   "id": "francetravail",
+   "name": "France Travail",
+   "url": "https://www.francetravail.fr",
+   "api_docs_url": "https://francetravail.io",
+   "api_status": "public-key"
+  },
+  {
+   "id": "handshake",
+   "name": "Handshake",
+   "url": "https://joinhandshake.com",
+   "api_docs_url": "",
+   "api_status": "partner-only"
+  },
+  {
+   "id": "reed",
+   "name": "Reed",
+   "url": "https://www.reed.co.uk",
+   "api_docs_url": "https://www.reed.co.uk/developers",
+   "api_status": "public-key"
+  },
+  {
+   "id": "indeed",
+   "name": "Indeed",
+   "url": "https://www.indeed.com",
+   "api_docs_url": "https://docs.indeed.com",
+   "api_status": "partner-only"
+  },
+  {
+   "id": "jobsuche-ba",
+   "name": "Jobsuche (Bundesagentur fur Arbeit)",
+   "url": "https://www.arbeitsagentur.de",
+   "api_docs_url": "https://jobsuche.api.bund.dev",
+   "api_status": "public-key"
+  },
+  {
+   "id": "freelance-de",
+   "name": "freelance.de",
+   "url": "https://www.freelance.de",
+   "api_docs_url": "",
+   "api_status": "unknown"
+  },
+  {
+   "id": "adzuna",
+   "name": "Adzuna",
+   "url": "https://www.adzuna.com",
+   "api_docs_url": "https://developer.adzuna.com",
+   "api_status": "public-key"
+  }
+ ]
+}

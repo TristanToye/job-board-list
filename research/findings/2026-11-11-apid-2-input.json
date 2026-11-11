@@ -1,0 +1,47 @@
+{
+ "country": "ZZ",
+ "boards": [
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "url": "https://www.greenhouse.com",
+   "api_docs_url": "https://developers.greenhouse.io/job-board.html",
+   "api_status": "public-open"
+  },
+  {
+   "id": "lever",
+   "name": "Lever",
+   "url": "https://www.lever.co",
+   "api_docs_url": "https://github.com/lever/postings-api",
+   "api_status": "public-open"
+  },
+  {
+   "id": "ashby",
+   "name": "Ashby",
+   "url": "https://www.ashbyhq.com",
+   "api_docs_url": "https://developers.ashbyhq.com",
+   "api_status": "public-open"
+  },
+  {
+   "id": "workable",
+   "name": "Workable",
+   "url": "https://www.workable.com",
+   "api_docs_url": "https://workable.readme.io",
+   "api_status": "public-key"
+  },
+  {
+   "id": "smartrecruiters",
+   "name": "SmartRecruiters",
+   "url": "https://www.smartrecruiters.com",
+   "api_docs_url": "https://developers.smartrecruiters.com",
+   "api_status": "public-open"
+  },
+  {
+   "id": "recruitee",
+   "name": "Recruitee",
+   "url": "https://recruitee.com",
+   "api_docs_url": "https://docs.recruitee.com",
+   "api_status": "public-open"
+  }
+ ]
+}
