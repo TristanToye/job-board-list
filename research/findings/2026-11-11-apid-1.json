@@ -1,0 +1,241 @@
+{
+  "mode": "api-details",
+  "country": "ZZ",
+  "round": 0,
+  "entries": [
+    {
+      "id": "stepstone",
+      "name": "StepStone",
+      "api_docs_url": "",
+      "facts": []
+    },
+    {
+      "id": "jobbank-ca",
+      "name": "Job Bank",
+      "api_docs_url": "https://www.jobbank.gc.ca/network",
+      "facts": [
+        {
+          "field": "access",
+          "value": "Request access to the XML feed of job postings",
+          "source": {
+            "url": "https://www.jobbank.gc.ca/network",
+            "title": "Our network - Job Bank",
+            "accessed": "2026-11-11",
+            "quote": "you can request access to our XML feed of job postings."
+          }
+        },
+        {
+          "field": "formats",
+          "value": "XML feed of job postings",
+          "source": {
+            "url": "https://www.jobbank.gc.ca/network",
+            "title": "Our network - Job Bank",
+            "accessed": "2026-11-11",
+            "quote": "Post your jobs directly on Job Bank, or send us an XML feed of job postings."
+          }
+        },
+        {
+          "field": "scope",
+          "value": "Shares Job Bank postings with other job boards via feed",
+          "source": {
+            "url": "https://www.jobbank.gc.ca/network",
+            "title": "Our network - Job Bank",
+            "accessed": "2026-11-11",
+            "quote": "We share jobs posted directly on Job Bank with other job boards to help employers optimize their reach and cut down on their recruitment time."
+          }
+        },
+        {
+          "field": "approval",
+          "value": "Feed requests must meet listed conditions",
+          "source": {
+            "url": "https://www.jobbank.gc.ca/network",
+            "title": "Our network - Job Bank",
+            "accessed": "2026-11-11",
+            "quote": "Make sure your job board: Has an active Canadian Business Number"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cv-library",
+      "name": "CV-Library",
+      "api_docs_url": "https://www.cv-library.co.uk/developers",
+      "facts": []
+    },
+    {
+      "id": "francetravail",
+      "name": "France Travail",
+      "api_docs_url": "https://francetravail.io",
+      "facts": []
+    },
+    {
+      "id": "handshake",
+      "name": "Handshake",
+      "api_docs_url": "",
+      "facts": []
+    },
+    {
+      "id": "reed",
+      "name": "Reed",
+      "api_docs_url": "https://www.reed.co.uk/developers",
+      "facts": [
+        {
+          "field": "access",
+          "value": "Sign up online for a reed.co.uk API key",
+          "source": {
+            "url": "https://www.reed.co.uk/developers/Jobseeker",
+            "title": "Reed.co.uk for Developers - Jobseeker APIs",
+            "accessed": "2026-11-11",
+            "quote": "Sign up for a reed.co.uk API key"
+          }
+        },
+        {
+          "field": "auth",
+          "value": "API key sent as HTTP basic auth username, password empty",
+          "source": {
+            "url": "https://www.reed.co.uk/developers/Jobseeker",
+            "title": "Reed.co.uk for Developers - Jobseeker APIs",
+            "accessed": "2026-11-11",
+            "quote": "You will need to include your api key for all requests in a basic authentication http header as the username, leaving the password empty."
+          }
+        },
+        {
+          "field": "formats",
+          "value": "RESTful HTTP methods with JSON payloads",
+          "source": {
+            "url": "https://www.reed.co.uk/api/documentation/",
+            "title": "API Reference",
+            "accessed": "2026-11-11",
+            "quote": "It's based around RESTful principles, using standard HTTP methods (GET, POST, PUT, DELETE) and JSON payloads for data exchange."
+          }
+        },
+        {
+          "field": "scope",
+          "value": "Search jobs on reed.co.uk and get job details",
+          "source": {
+            "url": "https://www.reed.co.uk/developers/Jobseeker",
+            "title": "Reed.co.uk for Developers - Jobseeker APIs",
+            "accessed": "2026-11-11",
+            "quote": "This API runs a search of all the jobs on the reed site and returns a list of jobs which match the parameters."
+          }
+        },
+        {
+          "field": "limits",
+          "value": "Default 2,000 requests per hour",
+          "source": {
+            "url": "https://www.reed.co.uk/api/documentation/",
+            "title": "API Reference",
+            "accessed": "2026-11-11",
+            "quote": "The default usage limit for the Reed.co.uk API is 2,000 requests per hour."
+          }
+        },
+        {
+          "field": "sandbox",
+          "value": "Staging and production environments",
+          "source": {
+            "url": "https://www.reed.co.uk/api/documentation/",
+            "title": "API Reference",
+            "accessed": "2026-11-11",
+            "quote": "Access to APIs on both STAGING and PRODUCTION environments."
+          }
+        }
+      ]
+    },
+    {
+      "id": "indeed",
+      "name": "Indeed",
+      "api_docs_url": "https://docs.indeed.com",
+      "facts": []
+    },
+    {
+      "id": "jobsuche-ba",
+      "name": "Jobsuche (Bundesagentur fur Arbeit)",
+      "api_docs_url": "https://jobsuche.api.bund.dev",
+      "facts": [
+        {
+          "field": "auth",
+          "value": "clientId sent in X-API-Key header on GET requests",
+          "source": {
+            "url": "https://jobsuche.api.bund.dev/",
+            "title": "Arbeitsagentur Jobsuche API - OpenAPI Documentation",
+            "accessed": "2026-11-11",
+            "quote": "Bei folgenden GET-requests ist die clientId als Header-Parameter 'X-API-Key' zu übergeben."
+          }
+        },
+        {
+          "field": "scope",
+          "value": "Search job listings, get job details and employer logos",
+          "source": {
+            "url": "https://jobsuche.api.bund.dev/",
+            "title": "Arbeitsagentur Jobsuche API - OpenAPI Documentation",
+            "accessed": "2026-11-11",
+            "quote": "Die größte Stellendatenbank Deutschlands durchsuchen, Details zu Stellenanzeigen und Informationen über Arbeitgeber abrufen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "freelance-de",
+      "name": "freelance.de",
+      "api_docs_url": "",
+      "facts": []
+    },
+    {
+      "id": "adzuna",
+      "name": "Adzuna",
+      "api_docs_url": "https://developer.adzuna.com",
+      "facts": [
+        {
+          "field": "access",
+          "value": "Register to receive an app_key and app_id",
+          "source": {
+            "url": "https://developer.adzuna.com/overview",
+            "title": "Overview",
+            "accessed": "2026-11-11",
+            "quote": "Register to receive an app_key and app_id"
+          }
+        },
+        {
+          "field": "auth",
+          "value": "app_id and app_key passed as query parameters",
+          "source": {
+            "url": "https://developer.adzuna.com/overview",
+            "title": "Overview",
+            "accessed": "2026-11-11",
+            "quote": "you will always need to pass two obligatory parameters. The app_id and app_key"
+          }
+        },
+        {
+          "field": "formats",
+          "value": "RESTful API returning JSON, JSONP or XML",
+          "source": {
+            "url": "https://developer.adzuna.com/overview",
+            "title": "Overview",
+            "accessed": "2026-11-11",
+            "quote": "Every time you make a query the response is returned as an object serialised using JSON, JSONP or XML encoding."
+          }
+        },
+        {
+          "field": "scope",
+          "value": "Search job ads and employment data",
+          "source": {
+            "url": "https://developer.adzuna.com/overview",
+            "title": "Overview",
+            "accessed": "2026-11-11",
+            "quote": "The search endpoints allow you to query our database of job ads."
+          }
+        },
+        {
+          "field": "sandbox",
+          "value": "Interactive endpoint documentation with a playground for test calls",
+          "source": {
+            "url": "https://developer.adzuna.com/docs/search",
+            "title": "Search ads",
+            "accessed": "2026-11-11",
+            "quote": "Visit the Interactive Endpoint Documentation for full technical details and a playground to make test calls."
+          }
+        }
+      ]
+    }
+  ]
+}
