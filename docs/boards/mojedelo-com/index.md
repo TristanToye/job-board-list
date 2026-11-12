@@ -18,7 +18,7 @@ MojeDelo.com is a job board based in Slovenia. It was founded in 2004.
 
 **Which languages does MojeDelo.com support?** This directory records MojeDelo.com as supporting Slovenian.
 
-**How large is MojeDelo.com?** MojeDelo.com ranks #533,362 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is MojeDelo.com?** MojeDelo.com ranks #533,362 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

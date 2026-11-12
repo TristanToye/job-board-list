@@ -48,7 +48,7 @@
   "global_rank": 8055,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-partner-only",
@@ -77,6 +77,15 @@
    "to_id": "seek",
    "source": "https://help.workable.com/hc/en-us/articles/115013336568-Integrating-with-Seek",
    "quote": "post jobs directly through Workable to Seek, as well as to JobsDB and JobStreet"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "BambooHR",
+   "from_id": "bamboohr",
+   "to": "SEEK",
+   "to_id": "seek",
+   "source": "https://www.bamboohr.com/integrations/preferred-apps",
+   "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes."
   }
  ],
  "review": null,

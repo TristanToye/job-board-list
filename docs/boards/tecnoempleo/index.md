@@ -18,7 +18,7 @@ Tecnoempleo is a niche job board, focused on tech.
 
 **Who owns Tecnoempleo?** This directory records the parent of Tecnoempleo as CYBEREMPLEO, S.L..
 
-**How large is Tecnoempleo?** Tecnoempleo ranks #262,052 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Tecnoempleo?** Tecnoempleo ranks #262,052 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

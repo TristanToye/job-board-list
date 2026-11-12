@@ -18,7 +18,7 @@ Freelancer.com is a freelance marketplace based in Australia, focused on general
 
 **Which languages does Freelancer.com support?** This directory records Freelancer.com as supporting English.
 
-**How large is Freelancer.com?** Freelancer.com ranks #3,578 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Freelancer.com?** Freelancer.com ranks #3,578 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

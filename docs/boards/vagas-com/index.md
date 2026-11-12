@@ -18,7 +18,7 @@ Vagas.com is a job board based in Brazil. It was founded in 1999.
 
 **Which languages does Vagas.com support?** This directory records Vagas.com as supporting Portuguese.
 
-**How large is Vagas.com?** Vagas.com ranks #33,266 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Vagas.com?** Vagas.com ranks #33,266 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

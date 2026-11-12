@@ -61,6 +61,11 @@ for b in load("job_boards.csv"):
     if "mid-market" in seg: add("board", b["id"], "mid-market", f"segment={b['segment']}")
     if "enterprise" in seg: add("board", b["id"], "enterprise", f"segment={b['segment']}")
     if "public job feed" in b["ingest_methods"].lower(): add("board", b["id"], "public-job-feed", f"ingest_methods={b['ingest_methods']}")
+# compliance posting: only when a checked quote on the entry's own sources names the rule
+_cq = {}
+for _s in load("sources.csv"):
+    if _s.get("quote_check") == "ok" and re.search(r"\b(OFCCP|VEVRAA)\b", _s.get("quote", "")): _cq.setdefault(_s["board_id"], _s["quote"][:80])
+for _bid, _q in _cq.items(): add("board", _bid, "ofccp-compliance", f"quote={_q}")
 out.sort(key=lambda r: (r["kind"], r["entry_id"], r["tag"]))
 with open(DATA / "tags.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=["kind", "entry_id", "tag", "basis", "evidence"], lineterminator="\n"); w.writeheader(); w.writerows(out)

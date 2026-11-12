@@ -10,7 +10,9 @@
  "countries_served": [],
  "primary_language": "en",
  "languages_supported": [
-  "en"
+  "en",
+  "fr",
+  "de"
  ],
  "region": "Global",
  "niche": "general",
@@ -20,25 +22,27 @@
  "api_status": "partner-only",
  "api_docs_url": "",
  "partner_program": "yes",
- "partner_url": "",
+ "partner_url": "https://www.broadbean.com/partner-with-broadbean/",
  "ingest_methods": [
   "API",
-  "job distribution"
+  "job distribution",
+  "ATS integration"
  ],
- "notes": "",
- "confidence": "seed-unverified",
+ "notes": "Job distribution aggregator. Homepage footer and about page carry a Veritone, Inc. copyright line; the parent relationship is not stated in words. No pricing, headquarters or API information found on the pages read.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/broadbean/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
   "global_rank": 423688,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-partner-only",
+  "ats-integration",
   "general",
   "job-distribution",
   "partner-program",
@@ -181,7 +185,14 @@
    "quote": "Absolventa + Trainee-Gefluester EMEA"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "broadbean",
+  "reviewed": "2026-11-12",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status",
+  "note": "Homepage, about and partner pages read in the browser reader (HTTP 200); copyright line names Veritone, Inc.; no pricing or API stated.",
+  "method": "mixed"
+ },
  "owners": [
   {
    "id": "veritone",
@@ -194,5 +205,46 @@
   }
  ],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.broadbean.com/company/about-us/",
+   "title": "About Us",
+   "accessed": "2026-11-12",
+   "quote": "We are the global leader in job distribution and recruitment advertising, connecting more than 7,000 job boards",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.broadbean.com/company/about-us/",
+   "title": "About Us footer",
+   "accessed": "2026-11-12",
+   "quote": "© 2026 VERITONE, INC. ALL RIGHTS RESERVED.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.broadbean.com/",
+   "title": "Homepage language links",
+   "accessed": "2026-11-12",
+   "quote": "fr",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.broadbean.com/partner-with-broadbean/",
+   "title": "Partner With Broadbean",
+   "accessed": "2026-11-12",
+   "quote": "Become part of the Broadbean family and integrate your recruitment technology with ours",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.broadbean.com/",
+   "title": "Homepage integrations",
+   "accessed": "2026-11-12",
+   "quote": "offers a wide range of integrations, including Vincere, Bullhorn and Itris 9",
+   "quote_check": "ok"
+  }
+ ]
 }

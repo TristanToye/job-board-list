@@ -18,7 +18,7 @@ CareerViet is a job board based in Vietnam. It was founded in 2004.
 
 **Which languages does CareerViet support?** This directory records CareerViet as supporting Vietnamese, English.
 
-**How large is CareerViet?** CareerViet ranks #144,684 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is CareerViet?** CareerViet ranks #144,684 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -32,12 +32,22 @@
   "global_rank": 495606,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "job-distribution"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Jobvite",
+   "from_id": "jobvite",
+   "to": "VONQ",
+   "to_id": "vonq",
+   "source": "https://www.jobvite.com/marketplace/",
+   "quote": "Job Distribution VONQ Learn More"
+  }
+ ],
  "review": null,
  "owners": [],
  "scale": [],

@@ -15,6 +15,7 @@ Platforms JazzHR connects to, each from a page on one party's own site.
 
 - MyJobHelper: integrates with (https://www.jazzhr.com/integrations)
 - RemotePOC: integrates with (https://www.jazzhr.com/integrations)
+- RemoteWoman: integrates with (https://www.jazzhr.com/marketplace)
 - VONQ: integrates with (https://www.jazzhr.com/integrations)
 
 Canonical page: https://jobboardlist.com/integrations/jazzhr/

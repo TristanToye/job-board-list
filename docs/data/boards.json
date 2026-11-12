@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-12",
- "count": 607,
+ "count": 611,
  "boards": [
   {
    "id": "indeed",
@@ -61,7 +61,7 @@
     "global_rank": 340,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -156,6 +156,24 @@
      "to_id": "indeed",
      "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
      "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+    },
+    {
+     "relation": "sends-jobs-to",
+     "from": "Recruitee",
+     "from_id": "recruitee",
+     "to": "Indeed",
+     "to_id": "indeed",
+     "source": "https://recruitee.com/career-page-multiposting",
+     "quote": "Easily post to 2,900+ job boards, including Indeed and Google for Jobs."
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "Indeed",
+     "to_id": "indeed",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Job Distribution Indeed Learn More"
     }
    ],
    "review": null,
@@ -312,7 +330,7 @@
     "global_rank": 6,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -406,6 +424,33 @@
      "to_id": "linkedin",
      "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
      "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Teamtailor",
+     "from_id": "teamtailor",
+     "to": "LinkedIn",
+     "to_id": "linkedin",
+     "source": "https://www.teamtailor.com/en-us/integrations/",
+     "quote": "Enable your candidates to apply for jobs faster using their Linkedin profile"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Recruitee",
+     "from_id": "recruitee",
+     "to": "LinkedIn",
+     "to_id": "linkedin",
+     "source": "https://recruitee.com/api-webhooks-integrations",
+     "quote": "How does Tellent Recruitee’s LinkedIn integration work for importing candidates?"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "LinkedIn",
+     "to_id": "linkedin",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Preferred Partners Job Distribution, Social Recruiting, Sourcing LinkedIn"
     }
    ],
    "review": null,
@@ -533,7 +578,7 @@
     "global_rank": 1,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -550,6 +595,15 @@
      "to_id": "google-jobs",
      "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
      "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+    },
+    {
+     "relation": "sends-jobs-to",
+     "from": "Recruitee",
+     "from_id": "recruitee",
+     "to": "Google for Jobs",
+     "to_id": "google-jobs",
+     "source": "https://recruitee.com/career-page-multiposting",
+     "quote": "Easily post to 2,900+ job boards, including Indeed and Google for Jobs."
     }
    ],
    "review": null,
@@ -609,7 +663,7 @@
     "global_rank": 3793,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -754,7 +808,7 @@
     "global_rank": 1250,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -782,6 +836,15 @@
      "to_id": "glassdoor",
      "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
      "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "Glassdoor",
+     "to_id": "glassdoor",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Job Distribution Glassdoor Learn More"
     }
    ],
    "review": null,
@@ -876,7 +939,7 @@
     "global_rank": 1845,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -913,6 +976,15 @@
      "to_id": "monster",
      "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
      "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Monster",
+     "to_id": "monster",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Monster"
     }
    ],
    "review": null,
@@ -1018,7 +1090,7 @@
     "global_rank": 3703,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -1043,6 +1115,15 @@
      "to_id": "careerbuilder",
      "source": "https://help.workable.com/hc/en-us/articles/115013182007-Integrating-with-CareerBuilder",
      "quote": "Connect your accounts and use your prepaid CareerBuilder job credits to post jobs directly via Workable."
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "CareerBuilder",
+     "to_id": "careerbuilder",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with CareerBuilder"
     }
    ],
    "review": null,
@@ -1137,7 +1218,7 @@
     "global_rank": 9831,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -1217,7 +1298,7 @@
     "global_rank": 7179,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -1228,7 +1309,17 @@
     "tech",
     "xml-feed"
    ],
-   "connections": [],
+   "connections": [
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Dice",
+     "to_id": "dice",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Dice (US)"
+    }
+   ],
    "review": null,
    "owners": [
     {
@@ -1347,7 +1438,7 @@
     "global_rank": 5522,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -1438,7 +1529,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -1702,7 +1793,7 @@
     "global_rank": 16777,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -2098,7 +2189,7 @@
     "global_rank": 66808,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -2230,7 +2321,7 @@
     "global_rank": 2772,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -2387,7 +2478,7 @@
     "global_rank": 59493,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -2641,6 +2732,15 @@
      "to_id": "careerjet",
      "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
      "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Teamtailor",
+     "from_id": "teamtailor",
+     "to": "Careerjet",
+     "to_id": "careerjet",
+     "source": "https://www.teamtailor.com/en-us/integrations/careerjet/",
+     "quote": "Careerjet is a job search engine designed to make the process of finding a job on the internet easier for the user"
     }
    ],
    "review": null,
@@ -2709,7 +2809,7 @@
     "global_rank": 30714,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "crawl-sourced",
@@ -2763,7 +2863,7 @@
     "global_rank": 13306,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -2889,6 +2989,15 @@
      "to_id": "reed",
      "source": "https://www.reed.co.uk/recruiter/ats-integration",
      "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Reed",
+     "to_id": "reed",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Reed"
     }
    ],
    "review": null,
@@ -2974,7 +3083,7 @@
     "global_rank": 16458,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -2993,6 +3102,15 @@
      "to_id": "totaljobs",
      "source": "https://www.pinpointhq.com/integrations",
      "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Totaljobs",
+     "to_id": "totaljobs",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Totaljobs"
     }
    ],
    "review": null,
@@ -3050,7 +3168,7 @@
     "global_rank": 37351,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -3069,6 +3187,24 @@
      "to_id": "cv-library",
      "source": "https://www.pinpointhq.com/integrations",
      "quote": "WISE Careers In Compliance CV Library Reed.co.uk Totaljobs ZipRecruiter CareerBuilder Monster"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "CV-Library",
+     "to_id": "cv-library",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with CV-Library"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "CV-Library",
+     "to_id": "cv-library",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Candidate/Job Matching CV-Library Learn More"
     }
    ],
    "review": null,
@@ -3151,7 +3287,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -3209,7 +3345,7 @@
     "global_rank": 11609,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -3310,7 +3446,7 @@
     "global_rank": 331,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -3399,7 +3535,7 @@
     "global_rank": 2222,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -3462,7 +3598,7 @@
     "global_rank": 242405,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -3524,7 +3660,7 @@
     "global_rank": 4228,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -3598,7 +3734,7 @@
     "global_rank": 8604,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -3715,7 +3851,7 @@
     "global_rank": 15838,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -3785,7 +3921,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -3839,7 +3975,7 @@
     "global_rank": 23620,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -3892,7 +4028,7 @@
     "global_rank": 11651,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -3954,7 +4090,7 @@
     "global_rank": 78809,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -4024,7 +4160,7 @@
     "global_rank": 23178,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -4034,7 +4170,14 @@
     "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "pracuj",
+    "reviewed": "2026-11-12",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "HTTP 403 with a Cloudflare 'Performing security verification' challenge in fetch and in the browser reader.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": []
@@ -4076,7 +4219,7 @@
     "global_rank": 47509,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -4129,7 +4272,7 @@
     "global_rank": 3253,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -4201,7 +4344,7 @@
     "global_rank": 8055,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -4230,6 +4373,15 @@
      "to_id": "seek",
      "source": "https://help.workable.com/hc/en-us/articles/115013336568-Integrating-with-Seek",
      "quote": "post jobs directly through Workable to Seek, as well as to JobsDB and JobStreet"
+    },
+    {
+     "relation": "sends-jobs-to",
+     "from": "BambooHR",
+     "from_id": "bamboohr",
+     "to": "SEEK",
+     "to_id": "seek",
+     "source": "https://www.bamboohr.com/integrations/preferred-apps",
+     "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes."
     }
    ],
    "review": null,
@@ -4297,7 +4449,7 @@
     "global_rank": 22582,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -4315,6 +4467,15 @@
      "to_id": "jobstreet",
      "source": "https://help.workable.com/hc/en-us/articles/115013336568-Integrating-with-Seek",
      "quote": "post jobs directly through Workable to Seek, as well as to JobsDB and JobStreet"
+    },
+    {
+     "relation": "sends-jobs-to",
+     "from": "BambooHR",
+     "from_id": "bamboohr",
+     "to": "JobStreet",
+     "to_id": "jobstreet",
+     "source": "https://www.bamboohr.com/integrations/preferred-apps",
+     "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes."
     }
    ],
    "review": null,
@@ -4395,7 +4556,7 @@
     "global_rank": 26849,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -4413,6 +4574,15 @@
      "to_id": "jobsdb",
      "source": "https://help.workable.com/hc/en-us/articles/115013336568-Integrating-with-Seek",
      "quote": "post jobs directly through Workable to Seek, as well as to JobsDB and JobStreet"
+    },
+    {
+     "relation": "sends-jobs-to",
+     "from": "BambooHR",
+     "from_id": "bamboohr",
+     "to": "Jobsdb",
+     "to_id": "jobsdb",
+     "source": "https://www.bamboohr.com/integrations/preferred-apps",
+     "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes."
     }
    ],
    "review": null,
@@ -4454,7 +4624,7 @@
     "global_rank": 14987,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -4471,6 +4641,15 @@
      "to_id": "naukri",
      "source": "https://www.pinpointhq.com/integrations",
      "quote": "Adzuna Jooble CareerJet StepStone Talent.com Seek Naukri TeamWork Online Education Week Jobs"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Naukri",
+     "to_id": "naukri",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Naukri"
     }
    ],
    "review": {
@@ -4546,7 +4725,7 @@
     "global_rank": 128765,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -4596,7 +4775,7 @@
     "global_rank": 218451,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "freemium",
@@ -4662,7 +4841,7 @@
     "global_rank": 3441,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -4725,7 +4904,7 @@
     "global_rank": 2999,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -4779,7 +4958,7 @@
     "global_rank": 6148,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -4852,7 +5031,7 @@
     "global_rank": 8315,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -4925,7 +5104,7 @@
     "global_rank": 1814,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -4974,7 +5153,7 @@
     "global_rank": 17768,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -5022,7 +5201,7 @@
     "global_rank": 25154,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -5088,7 +5267,7 @@
     "global_rank": 156486,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -5142,7 +5321,7 @@
     "global_rank": 221820,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5215,7 +5394,7 @@
     "global_rank": 23784,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5286,7 +5465,7 @@
     "global_rank": 69692,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5296,10 +5475,10 @@
    "connections": [],
    "review": {
     "board_id": "gulftalent",
-    "reviewed": "2026-11-09",
+    "reviewed": "2026-11-12",
     "outcome": "blocked",
     "fields_not_found": "",
-    "note": "HTTP 403 Cloudflare security verification in fetch and in the browser reader.",
+    "note": "HTTP 403 with a Cloudflare 'Performing security verification' challenge in fetch and in the browser reader.",
     "method": "mixed"
    },
    "owners": [],
@@ -5341,7 +5520,7 @@
     "global_rank": 77993,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5407,7 +5586,7 @@
     "global_rank": 161798,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5497,7 +5676,7 @@
     "global_rank": 370926,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5551,7 +5730,7 @@
     "global_rank": 262138,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5605,7 +5784,7 @@
     "global_rank": 139656,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5663,7 +5842,7 @@
     "global_rank": 48457,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "freemium",
@@ -5727,7 +5906,7 @@
     "global_rank": 85293,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5774,7 +5953,7 @@
     "global_rank": 601395,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5821,7 +6000,7 @@
     "global_rank": 55713,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5870,7 +6049,7 @@
     "global_rank": 33266,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -5943,7 +6122,7 @@
     "global_rank": 7078,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -6032,7 +6211,7 @@
     "global_rank": 23618,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -6081,7 +6260,7 @@
     "global_rank": 45260,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -6130,7 +6309,7 @@
     "global_rank": 15223,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -6179,7 +6358,7 @@
     "global_rank": 82511,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -6230,7 +6409,7 @@
     "global_rank": 4296,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -6299,7 +6478,7 @@
     "global_rank": 11832,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -6380,7 +6559,7 @@
     "global_rank": 4265,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -6485,7 +6664,7 @@
     "global_rank": 29736,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -6540,7 +6719,7 @@
     "global_rank": 629,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -6588,7 +6767,7 @@
     "global_rank": 230727,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -6638,7 +6817,7 @@
     "global_rank": 134489,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -6702,6 +6881,15 @@
      "to_id": "appcast",
      "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
      "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "Appcast",
+     "to_id": "appcast",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Sourcing Appcast Learn More"
     }
    ],
    "review": null,
@@ -6756,7 +6944,7 @@
     "global_rank": 397289,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -6893,7 +7081,9 @@
    "countries_served": [],
    "primary_language": "en",
    "languages_supported": [
-    "en"
+    "en",
+    "fr",
+    "de"
    ],
    "region": "Global",
    "niche": "general",
@@ -6903,25 +7093,27 @@
    "api_status": "partner-only",
    "api_docs_url": "",
    "partner_program": "yes",
-   "partner_url": "",
+   "partner_url": "https://www.broadbean.com/partner-with-broadbean/",
    "ingest_methods": [
     "API",
-    "job distribution"
+    "job distribution",
+    "ATS integration"
    ],
-   "notes": "",
-   "confidence": "seed-unverified",
+   "notes": "Job distribution aggregator. Homepage footer and about page carry a Veritone, Inc. copyright line; the parent relationship is not stated in words. No pricing, headquarters or API information found on the pages read.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/broadbean/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
     "global_rank": 423688,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
+    "ats-integration",
     "general",
     "job-distribution",
     "partner-program",
@@ -7064,7 +7256,14 @@
      "quote": "Absolventa + Trainee-Gefluester EMEA"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "broadbean",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status",
+    "note": "Homepage, about and partner pages read in the browser reader (HTTP 200); copyright line names Veritone, Inc.; no pricing or API stated.",
+    "method": "mixed"
+   },
    "owners": [
     {
      "id": "veritone",
@@ -7077,7 +7276,48 @@
     }
    ],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.broadbean.com/company/about-us/",
+     "title": "About Us",
+     "accessed": "2026-11-12",
+     "quote": "We are the global leader in job distribution and recruitment advertising, connecting more than 7,000 job boards",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.broadbean.com/company/about-us/",
+     "title": "About Us footer",
+     "accessed": "2026-11-12",
+     "quote": "© 2026 VERITONE, INC. ALL RIGHTS RESERVED.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.broadbean.com/",
+     "title": "Homepage language links",
+     "accessed": "2026-11-12",
+     "quote": "fr",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.broadbean.com/partner-with-broadbean/",
+     "title": "Partner With Broadbean",
+     "accessed": "2026-11-12",
+     "quote": "Become part of the Broadbean family and integrate your recruitment technology with ours",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.broadbean.com/",
+     "title": "Homepage integrations",
+     "accessed": "2026-11-12",
+     "quote": "offers a wide range of integrations, including Vincere, Bullhorn and Itris 9",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "recruitics",
@@ -7115,7 +7355,7 @@
     "global_rank": 154974,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -7170,7 +7410,7 @@
     "global_rank": 113475,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -7278,7 +7518,7 @@
     "global_rank": 595315,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -7385,7 +7625,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -7482,7 +7722,7 @@
     "global_rank": 71818,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -7576,7 +7816,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "indigenous",
@@ -7652,7 +7892,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -7723,7 +7963,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -7818,7 +8058,7 @@
     "global_rank": 676,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -7880,7 +8120,7 @@
     "global_rank": 2638,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -7941,7 +8181,7 @@
     "global_rank": 146396,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -8015,7 +8255,7 @@
     "global_rank": 180850,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -8098,7 +8338,7 @@
     "global_rank": 91144,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -8162,7 +8402,7 @@
     "global_rank": 24826,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -8245,7 +8485,7 @@
     "global_rank": 114699,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -8312,7 +8552,7 @@
     "global_rank": 224664,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "agriculture-food",
@@ -8412,7 +8652,7 @@
     "global_rank": 483966,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "agriculture-food",
@@ -8486,7 +8726,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -8555,7 +8795,7 @@
     "global_rank": 481821,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -8647,7 +8887,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -8713,7 +8953,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -8779,7 +9019,7 @@
     "global_rank": 2638,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -8838,7 +9078,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -8895,7 +9135,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "creative-media",
@@ -8952,7 +9192,7 @@
     "global_rank": 887318,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "creative-media",
@@ -9009,7 +9249,7 @@
     "global_rank": 785200,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -9090,7 +9330,7 @@
     "global_rank": 366327,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -9154,7 +9394,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "indigenous",
@@ -9211,7 +9451,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "directory"
@@ -9267,7 +9507,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -9324,7 +9564,7 @@
     "global_rank": 123742,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -9381,7 +9621,7 @@
     "global_rank": 688085,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -9443,7 +9683,7 @@
     "global_rank": 36059,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -9527,7 +9767,7 @@
     "global_rank": 572100,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "environment",
@@ -9622,7 +9862,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -9679,7 +9919,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -9734,7 +9974,7 @@
     "global_rank": 8572,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -9824,7 +10064,7 @@
     "global_rank": 3563,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -9886,7 +10126,7 @@
     "global_rank": 21607,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -9956,7 +10196,7 @@
     "global_rank": 11371,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -10051,7 +10291,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -10121,7 +10361,7 @@
     "global_rank": 77230,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -10192,7 +10432,7 @@
     "global_rank": 505,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -10265,7 +10505,7 @@
     "global_rank": 159702,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -10330,7 +10570,7 @@
     "global_rank": 285104,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -10394,7 +10634,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -10480,7 +10720,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -10552,7 +10792,7 @@
     "global_rank": 121943,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -10630,7 +10870,7 @@
     "global_rank": 76320,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -10746,7 +10986,7 @@
     "global_rank": 55819,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -10849,7 +11089,7 @@
     "global_rank": 515642,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -10913,7 +11153,7 @@
     "global_rank": 481409,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -11010,7 +11250,7 @@
     "global_rank": 750473,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -11072,7 +11312,7 @@
     "global_rank": 77998,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -11169,7 +11409,7 @@
     "global_rank": 232631,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "crawl-sourced",
@@ -11261,7 +11501,7 @@
     "global_rank": 490981,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -11350,7 +11590,7 @@
     "global_rank": 17388,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "freemium",
@@ -11474,7 +11714,7 @@
     "global_rank": 149209,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -11578,7 +11818,7 @@
     "global_rank": 639384,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -11640,7 +11880,7 @@
     "global_rank": 22137,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -11718,7 +11958,7 @@
     "global_rank": 467178,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -11813,7 +12053,7 @@
     "global_rank": 754944,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -11901,7 +12141,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "executive",
@@ -11997,7 +12237,7 @@
     "global_rank": 126934,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -12090,7 +12330,7 @@
     "global_rank": 227935,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -12183,7 +12423,7 @@
     "global_rank": 12802,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -12265,7 +12505,7 @@
     "global_rank": 271283,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -12378,7 +12618,7 @@
     "global_rank": 262052,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -12493,7 +12733,7 @@
     "global_rank": 950093,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -12589,7 +12829,7 @@
     "global_rank": 555765,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -12676,7 +12916,7 @@
     "global_rank": 5570,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -12772,7 +13012,7 @@
     "global_rank": 5620,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -12854,7 +13094,7 @@
     "global_rank": 20295,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -12924,7 +13164,7 @@
     "global_rank": 7526,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -12987,7 +13227,7 @@
     "global_rank": 137639,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -13054,7 +13294,7 @@
     "global_rank": 261888,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -13158,7 +13398,7 @@
     "global_rank": 27269,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -13227,7 +13467,7 @@
     "global_rank": 132995,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -13298,7 +13538,7 @@
     "global_rank": 363521,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -13393,7 +13633,7 @@
     "global_rank": 14825,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -13474,7 +13714,7 @@
     "global_rank": 389920,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -13538,7 +13778,7 @@
     "global_rank": 193830,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -13624,7 +13864,7 @@
     "global_rank": 50459,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -13703,7 +13943,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "diversity-inclusion",
@@ -13781,7 +14021,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -13843,7 +14083,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -13941,7 +14181,7 @@
     "global_rank": 107098,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -14020,7 +14260,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -14101,7 +14341,7 @@
     "global_rank": 10811,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -14193,7 +14433,7 @@
     "global_rank": 96070,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -14313,7 +14553,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -14383,7 +14623,7 @@
     "global_rank": 956852,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -14453,7 +14693,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -14518,7 +14758,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -14588,7 +14828,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "hospitality-tourism",
@@ -14648,7 +14888,7 @@
     "global_rank": 1334,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -14709,7 +14949,7 @@
     "global_rank": 130081,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -14763,7 +15003,7 @@
     "global_rank": 59186,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -14824,7 +15064,7 @@
     "global_rank": 651403,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -14889,7 +15129,7 @@
     "global_rank": 33001,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -15001,7 +15241,7 @@
     "global_rank": 7599,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -15088,7 +15328,7 @@
     "global_rank": 120801,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -15149,7 +15389,7 @@
     "global_rank": 533362,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -15234,7 +15474,7 @@
     "global_rank": 6581,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -15293,7 +15533,7 @@
     "global_rank": 331596,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -15354,7 +15594,7 @@
     "global_rank": 351946,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -15419,7 +15659,7 @@
     "global_rank": 167553,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -15510,7 +15750,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -15571,7 +15811,7 @@
     "global_rank": 6912,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -15658,7 +15898,7 @@
     "global_rank": 622044,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -15717,7 +15957,7 @@
     "global_rank": 43136,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -15778,7 +16018,7 @@
     "global_rank": 18026,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -15856,7 +16096,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -15945,7 +16185,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -16027,7 +16267,7 @@
     "global_rank": 82246,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -16104,7 +16344,7 @@
     "global_rank": 285778,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -16185,7 +16425,7 @@
     "global_rank": 860671,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -16274,7 +16514,7 @@
     "global_rank": 372572,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -16352,7 +16592,7 @@
     "global_rank": 3299,
     "scope": "mixed",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -16419,7 +16659,7 @@
     "global_rank": 32263,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -16473,7 +16713,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -16532,7 +16772,7 @@
     "global_rank": 422192,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -16593,7 +16833,7 @@
     "global_rank": 323644,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -16652,7 +16892,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -16717,7 +16957,7 @@
     "global_rank": 925343,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -16805,7 +17045,7 @@
     "global_rank": 662081,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -16874,7 +17114,7 @@
     "global_rank": 273018,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -16938,7 +17178,7 @@
     "global_rank": 122291,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -17019,7 +17259,7 @@
     "global_rank": 532069,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -17097,7 +17337,7 @@
     "global_rank": 525830,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -17175,7 +17415,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -17236,7 +17476,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -17308,7 +17548,7 @@
     "global_rank": 284156,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -17392,7 +17632,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -17479,7 +17719,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -17540,7 +17780,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -17617,7 +17857,7 @@
     "global_rank": 10237,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -17711,7 +17951,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -17774,7 +18014,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -17853,7 +18093,7 @@
     "global_rank": 677099,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -17920,7 +18160,7 @@
     "global_rank": 485724,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -17990,7 +18230,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -18051,7 +18291,7 @@
     "global_rank": 429942,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -18112,7 +18352,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -18186,7 +18426,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -18274,7 +18514,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -18354,7 +18594,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -18452,7 +18692,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -18542,7 +18782,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -18628,7 +18868,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -18696,7 +18936,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -18760,7 +19000,7 @@
     "global_rank": 144684,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -18869,7 +19109,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -18936,7 +19176,7 @@
     "global_rank": 969130,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -19013,7 +19253,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -19076,7 +19316,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "freemium",
@@ -19161,7 +19401,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -19228,7 +19468,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -19295,7 +19535,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -19364,7 +19604,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -19425,7 +19665,7 @@
     "global_rank": 269148,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -19535,7 +19775,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -19604,7 +19844,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "crawl-sourced",
@@ -19674,7 +19914,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -19745,7 +19985,7 @@
     "global_rank": 455,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -19868,7 +20108,7 @@
     "global_rank": 37,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "lmi",
@@ -19982,7 +20222,7 @@
     "global_rank": 1433,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "lmi",
@@ -20085,7 +20325,7 @@
     "global_rank": 8445,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -20163,7 +20403,7 @@
     "global_rank": 41852,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "lmi",
@@ -20225,7 +20465,7 @@
     "global_rank": 81358,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "lmi"
@@ -20311,7 +20551,7 @@
     "global_rank": 63671,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -20399,7 +20639,7 @@
     "global_rank": 3629,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "lmi"
@@ -20472,7 +20712,7 @@
     "global_rank": 14037,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "lmi"
@@ -20565,7 +20805,7 @@
     "global_rank": 21284,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -20657,7 +20897,7 @@
     "global_rank": 316521,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "lmi",
@@ -20744,7 +20984,7 @@
     "global_rank": 161331,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "lmi",
@@ -20808,7 +21048,7 @@
     "global_rank": 22715,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -20912,7 +21152,7 @@
     "global_rank": 4756,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing",
@@ -21008,7 +21248,7 @@
     "global_rank": 19373,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -21085,7 +21325,7 @@
     "global_rank": 6281,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -21146,7 +21386,7 @@
     "global_rank": 33475,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -21225,7 +21465,7 @@
     "global_rank": 56718,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -21294,7 +21534,7 @@
     "global_rank": 124035,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "finance",
@@ -21357,7 +21597,7 @@
     "global_rank": 128454,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "pay-per-click",
@@ -21435,7 +21675,7 @@
     "global_rank": 98275,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing",
@@ -21545,7 +21785,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -21608,7 +21848,7 @@
     "global_rank": 218541,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -21685,7 +21925,7 @@
     "global_rank": 7369,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "executive",
@@ -21750,7 +21990,7 @@
     "global_rank": 38266,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "executive",
@@ -21842,7 +22082,7 @@
     "global_rank": 33574,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "executive",
@@ -21924,7 +22164,7 @@
     "global_rank": 45213,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "executive",
@@ -22036,7 +22276,7 @@
     "global_rank": 96759,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "recruiting-services"
@@ -22123,7 +22363,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "recruiting-services"
@@ -22197,7 +22437,7 @@
     "global_rank": 50129,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "executive",
@@ -22295,7 +22535,7 @@
     "global_rank": 3578,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -22398,7 +22638,7 @@
     "global_rank": 1941,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "creative-media",
@@ -22470,7 +22710,7 @@
     "global_rank": 24875,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "freelance-platform",
@@ -22558,7 +22798,7 @@
     "global_rank": 15164,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "freelance-platform",
@@ -22654,7 +22894,7 @@
     "global_rank": 114606,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -22735,7 +22975,7 @@
     "global_rank": 5858,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "creative-media",
@@ -22858,7 +23098,7 @@
     "global_rank": 114998,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -22971,7 +23211,7 @@
     "global_rank": 72162,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "freelance-platform",
@@ -23061,7 +23301,7 @@
     "global_rank": 79103,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "freelance-platform",
@@ -23172,7 +23412,7 @@
     "global_rank": 202761,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "freelance-platform"
@@ -23262,7 +23502,7 @@
     "global_rank": 186223,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -23376,7 +23616,7 @@
     "global_rank": 25537,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -23465,7 +23705,7 @@
     "global_rank": 56361,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -23562,7 +23802,7 @@
     "global_rank": 172312,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "hr-tech",
@@ -23675,7 +23915,7 @@
     "global_rank": 56127,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -23764,7 +24004,7 @@
     "global_rank": 37606,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -23862,7 +24102,7 @@
     "global_rank": 106662,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -23948,7 +24188,7 @@
     "global_rank": 79835,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -24054,7 +24294,7 @@
     "global_rank": 93572,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -24166,7 +24406,7 @@
     "global_rank": 20269,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats",
@@ -24239,7 +24479,7 @@
     "global_rank": 58904,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -24326,7 +24566,7 @@
     "global_rank": 13394,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "outplacement"
@@ -24397,7 +24637,7 @@
     "global_rank": 326013,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "outplacement"
@@ -24498,7 +24738,7 @@
     "global_rank": 342263,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "outplacement"
@@ -24575,7 +24815,7 @@
     "global_rank": 81805,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "outplacement",
@@ -24647,7 +24887,7 @@
     "global_rank": 239469,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "outplacement"
@@ -24741,7 +24981,7 @@
     "global_rank": 24711,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "outplacement"
@@ -24818,7 +25058,7 @@
     "global_rank": 659214,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "outplacement"
@@ -24897,7 +25137,7 @@
     "global_rank": 50433,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -24983,7 +25223,7 @@
     "global_rank": 25753,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "career-services"
@@ -25044,7 +25284,7 @@
     "global_rank": 31702,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "career-services",
@@ -25122,7 +25362,7 @@
     "global_rank": 19443,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "career-services"
@@ -25183,7 +25423,7 @@
     "global_rank": 499115,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "career-services",
@@ -25260,7 +25500,7 @@
     "global_rank": 27964,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "career-services"
@@ -25359,7 +25599,7 @@
     "global_rank": 34089,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "career-services"
@@ -25436,7 +25676,7 @@
     "global_rank": 27879,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "career-services",
@@ -25514,7 +25754,7 @@
     "global_rank": 20616,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "career-services"
@@ -25647,7 +25887,7 @@
     "global_rank": 50588,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -25734,7 +25974,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "outplacement",
@@ -25805,7 +26045,7 @@
     "global_rank": 20456,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-open",
@@ -25986,7 +26226,7 @@
     "global_rank": 3942,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -26247,7 +26487,7 @@
     "global_rank": 10735,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -26339,7 +26579,7 @@
     "global_rank": 3142,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -26539,6 +26779,96 @@
      "to_id": "",
      "source": "https://help.workable.com/hc/en-us/articles/360012288193-Integrating-with-Jobsite",
      "quote": "Connect your accounts and use your prepaid Jobsite job credits to post jobs directly via Workable."
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "SEEK network",
+     "to_id": "",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with the Seek network"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Reed",
+     "to_id": "reed",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Reed"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Totaljobs",
+     "to_id": "totaljobs",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Totaljobs"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Monster",
+     "to_id": "monster",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Monster"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "CV-Library",
+     "to_id": "cv-library",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with CV-Library"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "CareerBuilder",
+     "to_id": "careerbuilder",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with CareerBuilder"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Naukri",
+     "to_id": "naukri",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Naukri"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Dice",
+     "to_id": "dice",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Dice (US)"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "IrishJobs",
+     "to_id": "irishjobs",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with IrishJobs"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Jobsite",
+     "to_id": "jobsite",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Jobsite"
     }
    ],
    "review": {
@@ -26600,7 +26930,7 @@
     "global_rank": 4305,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -26709,7 +27039,7 @@
     "global_rank": 5796,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -26720,7 +27050,35 @@
     "smb",
     "subscription"
    ],
-   "connections": [],
+   "connections": [
+    {
+     "relation": "sends-jobs-to",
+     "from": "Recruitee",
+     "from_id": "recruitee",
+     "to": "Indeed",
+     "to_id": "indeed",
+     "source": "https://recruitee.com/career-page-multiposting",
+     "quote": "Easily post to 2,900+ job boards, including Indeed and Google for Jobs."
+    },
+    {
+     "relation": "sends-jobs-to",
+     "from": "Recruitee",
+     "from_id": "recruitee",
+     "to": "Google for Jobs",
+     "to_id": "google-jobs",
+     "source": "https://recruitee.com/career-page-multiposting",
+     "quote": "Easily post to 2,900+ job boards, including Indeed and Google for Jobs."
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Recruitee",
+     "from_id": "recruitee",
+     "to": "LinkedIn",
+     "to_id": "linkedin",
+     "source": "https://recruitee.com/api-webhooks-integrations",
+     "quote": "How does Tellent Recruitee’s LinkedIn integration work for importing candidates?"
+    }
+   ],
    "review": {
     "board_id": "recruitee",
     "reviewed": "2026-11-06",
@@ -26786,7 +27144,7 @@
     "global_rank": 4573,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -26868,6 +27226,51 @@
      "to_id": "",
      "source": "https://www.teamtailor.com/en/integrations",
      "quote": "Arbetsförmedlingen Här kan du annonsera i Platsbanken, anställa med stöd och upptäcka nya sätt att rekrytera."
+    },
+    {
+     "relation": "sends-jobs-to",
+     "from": "Teamtailor",
+     "from_id": "teamtailor",
+     "to": "Platsbanken (Arbetsförmedlingen)",
+     "to_id": "",
+     "source": "https://www.teamtailor.com/en-us/integrations/",
+     "quote": "Här kan du annonsera i Platsbanken"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Teamtailor",
+     "from_id": "teamtailor",
+     "to": "Careerjet",
+     "to_id": "careerjet",
+     "source": "https://www.teamtailor.com/en-us/integrations/careerjet/",
+     "quote": "Careerjet is a job search engine designed to make the process of finding a job on the internet easier for the user"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Teamtailor",
+     "from_id": "teamtailor",
+     "to": "LinkedIn",
+     "to_id": "linkedin",
+     "source": "https://www.teamtailor.com/en-us/integrations/",
+     "quote": "Enable your candidates to apply for jobs faster using their Linkedin profile"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Teamtailor",
+     "from_id": "teamtailor",
+     "to": "Apec",
+     "to_id": "",
+     "source": "https://www.teamtailor.com/en-us/integrations/",
+     "quote": "Apec (Association for the Employment of Executives) is open to all private sector companies"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Teamtailor",
+     "from_id": "teamtailor",
+     "to": "ADEM",
+     "to_id": "",
+     "source": "https://www.teamtailor.com/en-us/integrations/",
+     "quote": "Empower your hiring in Luxembourg with ADEM"
     }
    ],
    "review": {
@@ -26933,7 +27336,7 @@
     "global_rank": 15455,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -26998,7 +27401,7 @@
     "global_rank": 3235,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -27008,7 +27411,44 @@
     "public-job-feed",
     "smb"
    ],
-   "connections": [],
+   "connections": [
+    {
+     "relation": "sends-jobs-to",
+     "from": "BambooHR",
+     "from_id": "bamboohr",
+     "to": "SEEK",
+     "to_id": "seek",
+     "source": "https://www.bamboohr.com/integrations/preferred-apps",
+     "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes."
+    },
+    {
+     "relation": "sends-jobs-to",
+     "from": "BambooHR",
+     "from_id": "bamboohr",
+     "to": "JobStreet",
+     "to_id": "jobstreet",
+     "source": "https://www.bamboohr.com/integrations/preferred-apps",
+     "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes."
+    },
+    {
+     "relation": "sends-jobs-to",
+     "from": "BambooHR",
+     "from_id": "bamboohr",
+     "to": "Jobsdb",
+     "to_id": "jobsdb",
+     "source": "https://www.bamboohr.com/integrations/preferred-apps",
+     "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes."
+    },
+    {
+     "relation": "integrates-with",
+     "from": "BambooHR",
+     "from_id": "bamboohr",
+     "to": "Greenhouse Software",
+     "to_id": "",
+     "source": "https://www.bamboohr.com/integrations/listings/greenhouse-software",
+     "quote": "Home Applicant Tracking Systems Greenhouse Software"
+    }
+   ],
    "review": {
     "board_id": "bamboohr",
     "reviewed": "2026-11-06",
@@ -27070,7 +27510,7 @@
     "global_rank": 4634,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats",
@@ -27153,7 +27593,7 @@
     "global_rank": 3808,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -27254,8 +27694,10 @@
    "founded": "",
    "markets": "Global",
    "countries_served": [],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "North America",
    "niche": "applicant tracking system",
    "segment": "enterprise",
@@ -27264,19 +27706,19 @@
    "api_status": "partner-only",
    "api_docs_url": "",
    "partner_program": "yes",
-   "partner_url": "",
+   "partner_url": "https://www.oracle.com/partner/",
    "ingest_methods": [],
-   "notes": "Legacy; migrating to Oracle Recruiting Cloud. Write API: partner.",
-   "confidence": "seed-unverified",
+   "notes": "Legacy; migrating to Oracle Recruiting Cloud. Write API: partner. Oracle talent acquisition suite (Taleo Enterprise Edition and Taleo Business Edition). Page footer carries an Oracle copyright line. Page states automated postings and LinkedIn integrations; no pricing, headquarters, language switcher or API information found on the page read.",
+   "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/taleo/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not comparable",
     "global_rank": 92,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-partner-only",
@@ -27288,7 +27730,40 @@
    "review": null,
    "owners": [],
    "scale": [],
-   "sources": []
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo",
+     "accessed": "2026-11-12",
+     "quote": "Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo footer",
+     "accessed": "2026-11-12",
+     "quote": "© 2026 Oracle",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo page text",
+     "accessed": "2026-11-12",
+     "quote": "Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Certified partner ecosystem",
+     "accessed": "2026-11-12",
+     "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings",
+     "quote_check": "ok"
+    }
+   ]
   },
   {
    "id": "oracle-recruiting",
@@ -27324,7 +27799,7 @@
     "global_rank": 92,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -27364,11 +27839,11 @@
    ],
    "review": {
     "board_id": "oracle-recruiting",
-    "reviewed": "2026-11-11",
+    "reviewed": "2026-11-12",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status",
-    "note": "Oracle product page states an Oracle partner network; no pricing, API, parent or language options found on the pages read.",
-    "method": "browser"
+    "fields_not_found": "hq_country;languages;business_model;api_status;ingest_methods",
+    "note": "Taleo page read in fetch and browser reader (HTTP 200); footer shows Oracle copyright, no language switcher, pricing or API stated; sales contact only.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -27379,22 +27854,6 @@
      "title": "Oracle Recruiting Cloud (footer)",
      "accessed": "2026-11-06",
      "quote": "© 2026 Oracle Privacy / Do Not Sell My Info",
-     "quote_check": "ok"
-    },
-    {
-     "field": "parent",
-     "url": "https://www.oracle.com/human-capital-management/taleo/",
-     "title": "Taleo",
-     "accessed": "2026-11-06",
-     "quote": "© 2026 Oracle",
-     "quote_check": "ok"
-    },
-    {
-     "field": "partner_program",
-     "url": "https://www.oracle.com/human-capital-management/taleo/",
-     "title": "Taleo product page, certified partner ecosystem",
-     "accessed": "2026-11-11",
-     "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings and innovative integrations with LinkedIn.",
      "quote_check": "ok"
     },
     {
@@ -27441,7 +27900,7 @@
     "global_rank": 18668,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -27453,11 +27912,11 @@
    "connections": [],
    "review": {
     "board_id": "successfactors",
-    "reviewed": "2026-11-11",
+    "reviewed": "2026-11-12",
     "outcome": "blocked",
     "fields_not_found": "",
-    "note": "Redirects to sap.com, where the browser reader returns HTTP 403 Access Denied with blocked true.",
-    "method": "browser"
+    "note": "successfactors.com returns a 301 to sap.com/products/hcm.html, which returned HTTP 403 Access Denied in the browser reader.",
+    "method": "mixed"
    },
    "owners": [],
    "scale": [],
@@ -27497,7 +27956,7 @@
     "global_rank": 64985,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -27588,6 +28047,15 @@
      "to_id": "careerjet",
      "source": "https://www.careerjet.com/recruiter/ats",
      "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+    },
+    {
+     "relation": "integrates-with",
+     "from": "JazzHR",
+     "from_id": "jazzhr",
+     "to": "RemoteWoman",
+     "to_id": "",
+     "source": "https://www.jazzhr.com/marketplace",
+     "quote": "RemoteWoman is the largest job board for women working remotely"
     }
    ],
    "review": {
@@ -27653,7 +28121,7 @@
     "global_rank": 11990,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -27747,7 +28215,7 @@
     "global_rank": 9463,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -27757,7 +28225,71 @@
     "partner-program",
     "public-job-feed"
    ],
-   "connections": [],
+   "connections": [
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "Indeed",
+     "to_id": "indeed",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Job Distribution Indeed Learn More"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "LinkedIn",
+     "to_id": "linkedin",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Preferred Partners Job Distribution, Social Recruiting, Sourcing LinkedIn"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "Glassdoor",
+     "to_id": "glassdoor",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Job Distribution Glassdoor Learn More"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "VONQ",
+     "to_id": "vonq",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Job Distribution VONQ Learn More"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "Leoforce",
+     "to_id": "",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Sourcing Leoforce Learn More"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "Appcast",
+     "to_id": "appcast",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Sourcing Appcast Learn More"
+    },
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "CV-Library",
+     "to_id": "cv-library",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Candidate/Job Matching CV-Library Learn More"
+    }
+   ],
    "review": {
     "board_id": "jobvite",
     "reviewed": "2026-11-06",
@@ -27821,7 +28353,7 @@
     "global_rank": 30125,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -28135,7 +28667,7 @@
     "global_rank": 12584,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-self-serve",
@@ -28222,7 +28754,7 @@
     "global_rank": 74163,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats",
@@ -28291,7 +28823,7 @@
     "global_rank": 41844,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "hr-tech",
@@ -28378,7 +28910,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -28447,7 +28979,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "hr-tech"
@@ -28516,7 +29048,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -28585,7 +29117,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -28654,7 +29186,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "hr-tech"
@@ -28733,7 +29265,7 @@
     "global_rank": 503858,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -28842,7 +29374,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -28911,7 +29443,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "recruiting-services"
@@ -28977,7 +29509,7 @@
     "global_rank": 803483,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -29070,7 +29602,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -29132,7 +29664,7 @@
     "global_rank": 74812,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -29201,7 +29733,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "recruiting-services"
@@ -29270,7 +29802,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -29339,7 +29871,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -29410,7 +29942,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -29496,7 +30028,7 @@
     "global_rank": 295555,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -29565,7 +30097,7 @@
     "global_rank": 370250,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -29637,7 +30169,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -29714,7 +30246,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -29783,7 +30315,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -29852,7 +30384,7 @@
     "global_rank": 655039,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -29929,7 +30461,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "staffing"
@@ -30006,7 +30538,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -30075,7 +30607,7 @@
     "global_rank": 38134,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -30152,7 +30684,7 @@
     "global_rank": 53326,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -30229,7 +30761,7 @@
     "global_rank": 109901,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -30298,7 +30830,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "recruiting-services"
@@ -30367,7 +30899,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -30436,12 +30968,22 @@
     "global_rank": 99665,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
    ],
-   "connections": [],
+   "connections": [
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "IrishJobs",
+     "to_id": "irishjobs",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with IrishJobs"
+    }
+   ],
    "review": {
     "board_id": "irishjobs",
     "reviewed": "2026-11-06",
@@ -30505,7 +31047,7 @@
     "global_rank": 545537,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -30574,7 +31116,7 @@
     "global_rank": 14459,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -30674,7 +31216,7 @@
     "global_rank": 228012,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -30793,7 +31335,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -30862,12 +31404,22 @@
     "global_rank": 58589,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
    ],
-   "connections": [],
+   "connections": [
+    {
+     "relation": "integrates-with",
+     "from": "Workable",
+     "from_id": "workable",
+     "to": "Jobsite",
+     "to_id": "jobsite",
+     "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+     "quote": "Integrating with Jobsite"
+    }
+   ],
    "review": {
     "board_id": "jobsite",
     "reviewed": "2026-11-06",
@@ -30943,7 +31495,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -31025,7 +31577,7 @@
     "global_rank": 264236,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -31143,7 +31695,7 @@
     "global_rank": null,
     "scope": "",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -31212,7 +31764,7 @@
     "global_rank": 343744,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -31292,7 +31844,7 @@
     "global_rank": 352443,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -31359,7 +31911,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -31439,7 +31991,7 @@
     "global_rank": 499596,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -31526,7 +32078,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -31599,7 +32151,7 @@
     "global_rank": 336145,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -31690,7 +32242,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -31797,7 +32349,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -31887,7 +32439,7 @@
     "global_rank": 553654,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -31976,7 +32528,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -32070,7 +32622,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -32155,7 +32707,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -32251,7 +32803,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -32321,7 +32873,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -32385,7 +32937,7 @@
     "global_rank": 117326,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -32465,7 +33017,7 @@
     "global_rank": 413520,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -32540,7 +33092,7 @@
     "global_rank": 86366,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -32622,7 +33174,7 @@
     "global_rank": 318621,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -32720,7 +33272,7 @@
     "global_rank": 106409,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -32802,7 +33354,7 @@
     "global_rank": 233743,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -32894,7 +33446,7 @@
     "global_rank": 523875,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -32991,7 +33543,7 @@
     "global_rank": 916915,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -33078,7 +33630,7 @@
     "global_rank": 811404,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -33162,7 +33714,7 @@
     "global_rank": 734886,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -33239,7 +33791,7 @@
     "global_rank": 30744,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -33314,7 +33866,7 @@
     "global_rank": 7532,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-aggregator"
@@ -33391,7 +33943,7 @@
     "global_rank": 12019,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -33455,7 +34007,7 @@
     "global_rank": 534,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -33560,7 +34112,7 @@
     "global_rank": 805202,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -33630,7 +34182,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -33708,7 +34260,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -33771,7 +34323,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -33860,7 +34412,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -33939,7 +34491,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -34027,7 +34579,7 @@
     "global_rank": 77860,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -34127,7 +34679,7 @@
     "global_rank": 172868,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -34224,7 +34776,7 @@
     "global_rank": 15342,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -34289,7 +34841,7 @@
     "global_rank": 409802,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -34380,7 +34932,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -34477,7 +35029,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -34557,7 +35109,7 @@
     "global_rank": 201426,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -34619,7 +35171,7 @@
     "global_rank": 357779,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -34687,7 +35239,7 @@
     "global_rank": 47385,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -34801,7 +35353,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -34883,7 +35435,7 @@
     "global_rank": 31658,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -34973,7 +35525,7 @@
     "global_rank": 492674,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -35069,7 +35621,7 @@
     "global_rank": 578604,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -35147,7 +35699,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -35211,7 +35763,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -35287,7 +35839,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "crawl-sourced",
@@ -35376,7 +35928,7 @@
     "global_rank": 348646,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -35464,7 +36016,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -35559,7 +36111,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -35638,7 +36190,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -35693,7 +36245,7 @@
     "global_rank": 93773,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -35776,7 +36328,7 @@
     "global_rank": 391271,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -35846,7 +36398,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -35901,7 +36453,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -35961,7 +36513,7 @@
     "global_rank": 683375,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -36050,7 +36602,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36105,7 +36657,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36160,7 +36712,7 @@
     "global_rank": 526746,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "creative-media",
@@ -36223,7 +36775,7 @@
     "global_rank": 83873,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36285,7 +36837,7 @@
     "global_rank": 56800,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36352,7 +36904,7 @@
     "global_rank": 13317,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36422,7 +36974,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -36478,7 +37030,7 @@
     "global_rank": 31354,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36548,7 +37100,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36605,7 +37157,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36665,7 +37217,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36723,7 +37275,7 @@
     "global_rank": 394714,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -36803,7 +37355,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36859,7 +37411,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36914,7 +37466,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -36969,7 +37521,7 @@
     "global_rank": 7307,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -37052,7 +37604,7 @@
     "global_rank": 90226,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -37139,7 +37691,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -37194,7 +37746,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -37254,7 +37806,7 @@
     "global_rank": 43052,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -37343,7 +37895,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -37403,7 +37955,7 @@
     "global_rank": 147233,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -37475,7 +38027,7 @@
     "global_rank": 46872,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -37560,7 +38112,7 @@
     "global_rank": 26475,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "crawl-sourced",
@@ -37658,7 +38210,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -37713,7 +38265,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -37772,7 +38324,7 @@
     "global_rank": 990140,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -37858,7 +38410,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -37913,7 +38465,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -37967,7 +38519,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -38034,7 +38586,7 @@
     "global_rank": 33639,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -38170,7 +38722,7 @@
     "global_rank": 70653,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -38298,7 +38850,7 @@
     "global_rank": 186309,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -38387,7 +38939,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -38452,7 +39004,7 @@
     "global_rank": 362889,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -38565,7 +39117,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -38620,7 +39172,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -38675,7 +39227,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "engineering",
@@ -38731,7 +39283,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -38787,7 +39339,7 @@
     "global_rank": 536451,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -38874,7 +39426,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -38934,7 +39486,7 @@
     "global_rank": 118891,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -39033,7 +39585,7 @@
     "global_rank": 185161,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -39119,7 +39671,7 @@
     "global_rank": 125372,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -39220,7 +39772,7 @@
     "global_rank": 826679,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -39306,7 +39858,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "executive",
@@ -39361,7 +39913,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -39416,7 +39968,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -39471,7 +40023,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "creative-media",
@@ -39528,7 +40080,7 @@
     "global_rank": 190397,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -39612,7 +40164,7 @@
     "global_rank": 146680,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -39718,7 +40270,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -39773,7 +40325,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -39828,7 +40380,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -39883,7 +40435,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "engineering",
@@ -39942,7 +40494,7 @@
     "global_rank": 43748,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -40030,7 +40582,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -40085,7 +40637,7 @@
     "global_rank": 292622,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -40155,7 +40707,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -40210,7 +40762,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -40264,7 +40816,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "creative-media",
@@ -40319,7 +40871,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -40373,7 +40925,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -40433,7 +40985,7 @@
     "global_rank": 99058,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "free-to-post",
@@ -40529,7 +41081,7 @@
     "global_rank": 329277,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -40595,7 +41147,7 @@
     "global_rank": 60196,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "api-on-request",
@@ -40714,7 +41266,7 @@
     "global_rank": 560482,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -40797,7 +41349,7 @@
     "global_rank": 337684,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -40867,7 +41419,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -40927,7 +41479,7 @@
     "global_rank": 58846,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -41023,7 +41575,7 @@
     "global_rank": 811886,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "crawl-sourced",
@@ -41094,7 +41646,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -41149,7 +41701,7 @@
     "global_rank": 552429,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -41212,7 +41764,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -41269,7 +41821,7 @@
     "global_rank": 146587,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "creative-media",
@@ -41348,7 +41900,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -41407,7 +41959,7 @@
     "global_rank": 2015,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "apply-integration",
@@ -41515,7 +42067,7 @@
     "global_rank": 652611,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -41606,7 +42158,7 @@
     "global_rank": 49468,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -41695,7 +42247,7 @@
     "global_rank": 74228,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -41762,7 +42314,7 @@
     "global_rank": 282159,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats-integration",
@@ -41858,7 +42410,7 @@
     "global_rank": 161849,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -41923,7 +42475,7 @@
     "global_rank": 321527,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -41978,7 +42530,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -42033,7 +42585,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -42088,7 +42640,7 @@
     "global_rank": 25918,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -42174,7 +42726,7 @@
     "global_rank": 28633,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -42232,7 +42784,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -42287,7 +42839,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -42342,7 +42894,7 @@
     "global_rank": 831788,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -42397,7 +42949,7 @@
     "global_rank": 802930,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -42430,19 +42982,24 @@
    "countries_served": [
     "CZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "cs",
+   "languages_supported": [
+    "cs",
+    "en",
+    "pl",
+    "sk"
+   ],
    "region": "Europe",
    "niche": "recruitment software (ATS)",
    "segment": "",
-   "parent": "",
+   "parent": "Alma Career Oy",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Footer names Alma Career Oy and its subsidiaries; homepage says Teamio is part of the Alma Career family. Languages listed are product languages for international companies, not a site language menu. Homepage offers a 30-day free trial. Vacancy import API documentation is hosted at integrations.almacareer.com, outside the board's own domain, so it is not recorded as a source. Headquarters country ",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/teamio/",
    "indexable": false,
@@ -42452,7 +43009,7 @@
     "global_rank": 513641,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-distribution",
@@ -42487,7 +43044,14 @@
      "quote": "Víte, že můžete inzerovat třeba i na slovenské Profesia.sk?"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "teamio",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage states the Alma Career parent and Czech and product languages; no headquarters, pricing model, API or partner statement on the board's own pages.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -42497,6 +43061,22 @@
      "title": "Teamio features page",
      "accessed": "2026-11-09",
      "quote": "External advertising places are within reach in Teamio,",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://cz.teamio.com/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-12",
+     "quote": "© Alma Career Oy and its subsidiaries",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://cz.teamio.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-12",
+     "quote": "Teamio je moderní ATS",
      "quote_check": "ok"
     }
    ]
@@ -42535,7 +43115,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -42589,7 +43169,7 @@
     "global_rank": 309267,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -42652,7 +43232,7 @@
     "global_rank": 400364,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -42715,7 +43295,7 @@
     "global_rank": 111881,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -42773,7 +43353,7 @@
     "global_rank": 69920,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -42836,7 +43416,7 @@
     "global_rank": 620832,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -42891,7 +43471,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -42946,7 +43526,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -43013,7 +43593,7 @@
     "global_rank": 131567,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -43092,7 +43672,7 @@
     "global_rank": 323826,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -43147,7 +43727,7 @@
     "global_rank": 317549,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -43207,7 +43787,7 @@
     "global_rank": 39078,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -43288,7 +43868,7 @@
     "global_rank": 614863,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -43343,7 +43923,7 @@
     "global_rank": 844005,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -43398,7 +43978,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -43453,7 +44033,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -43510,7 +44090,7 @@
     "global_rank": 56034,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -43572,7 +44152,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -43627,7 +44207,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -43682,7 +44262,7 @@
     "global_rank": 4412,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -43744,7 +44324,7 @@
     "global_rank": 181515,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -43802,7 +44382,7 @@
     "global_rank": 87297,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -43879,7 +44459,7 @@
     "global_rank": 88971,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -43933,7 +44513,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44007,7 +44587,7 @@
     "global_rank": 446790,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44062,7 +44642,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44117,7 +44697,7 @@
     "global_rank": 674839,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44172,7 +44752,7 @@
     "global_rank": 365649,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -44227,7 +44807,7 @@
     "global_rank": 148201,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -44281,7 +44861,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "diversity-inclusion",
@@ -44337,7 +44917,7 @@
     "global_rank": 531072,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44395,7 +44975,7 @@
     "global_rank": 723657,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44450,7 +45030,7 @@
     "global_rank": 849792,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44506,7 +45086,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -44569,7 +45149,7 @@
     "global_rank": 589838,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -44626,7 +45206,7 @@
     "global_rank": 99041,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -44704,7 +45284,7 @@
     "global_rank": 964088,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44759,7 +45339,7 @@
     "global_rank": 550740,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -44813,7 +45393,7 @@
     "global_rank": 550213,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44868,7 +45448,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44931,7 +45511,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -44994,7 +45574,7 @@
     "global_rank": 555261,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "education",
@@ -45049,7 +45629,7 @@
     "global_rank": 96777,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45111,7 +45691,7 @@
     "global_rank": 241495,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45166,7 +45746,7 @@
     "global_rank": 324030,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -45221,7 +45801,7 @@
     "global_rank": 327247,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45276,7 +45856,7 @@
     "global_rank": 528591,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45331,7 +45911,7 @@
     "global_rank": 579502,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45386,7 +45966,7 @@
     "global_rank": 319629,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45449,7 +46029,7 @@
     "global_rank": 397569,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45504,7 +46084,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45559,7 +46139,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45614,7 +46194,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45669,7 +46249,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -45724,7 +46304,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "government-operated",
@@ -45781,7 +46361,7 @@
     "global_rank": 257073,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "healthcare",
@@ -45837,7 +46417,7 @@
     "global_rank": 139999,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board"
@@ -45892,7 +46472,7 @@
     "global_rank": 340177,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-board",
@@ -45947,7 +46527,7 @@
     "global_rank": null,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46006,7 +46586,7 @@
     "global_rank": 143452,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46061,7 +46641,7 @@
     "global_rank": 48269,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46119,7 +46699,7 @@
     "global_rank": 384012,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46177,7 +46757,7 @@
     "global_rank": 352193,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46232,7 +46812,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46296,7 +46876,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46351,7 +46931,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46406,7 +46986,7 @@
     "global_rank": 151036,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46461,7 +47041,7 @@
     "global_rank": 560153,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46519,7 +47099,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46574,7 +47154,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "general",
@@ -46629,7 +47209,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-aggregator",
@@ -46684,7 +47264,7 @@
     "global_rank": 82616,
     "scope": "section",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "graduates-students",
@@ -46717,19 +47297,26 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl"
+   ],
    "region": "Global",
    "niche": "applicant tracking with job board multiposting",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Pricing page lists plans per job per month, billed annually. Pricing table lists API access on higher plans; the access method and documentation are not stated. Footer names JOIN Solutions AG. Headquarters country and parent not stated on the pages read. Structured data on the homepage was not in the rendered text, so no headquarters country is recorded. Site says: \"Access to over 250+ premium job platforms.\" Site says: \"Einmal veröffentlichen, live auf 10+ organischen und 250+ kostenpflichtigen Jobbörsen.\"",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/join/",
    "indexable": false,
@@ -46739,10 +47326,11 @@
     "global_rank": 23844,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
-    "job-distribution"
+    "job-distribution",
+    "subscription"
    ],
    "connections": [
     {
@@ -46755,7 +47343,14 @@
      "quote": "JOIN Job Boards & Aggregators"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "join",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods",
+    "note": "Pricing, language menu and multiposting pages read; headquarters and parent not stated in rendered text and API access method not stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -46765,6 +47360,38 @@
      "title": "Join: the ATS for SMB hiring",
      "accessed": "2026-11-11",
      "quote": "The all-in-one ATS for SMB hiring.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://join.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-12",
+     "quote": "The all-in-one ATS for SMB hiring.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://join.com/en/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-12",
+     "quote": "One price for multiposting and candidate management",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://join.com/en",
+     "title": "Join: the ATS for SMB hiring",
+     "accessed": "2026-11-12",
+     "quote": "Access to over 250+ premium job platforms.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://join.com/de/funktionen/multiposting",
+     "title": "Multiposting: eine Stelle auf 250+ Jobbörsen",
+     "accessed": "2026-11-12",
+     "quote": "Einmal veröffentlichen, live auf 10+ organischen und 250+ kostenpflichtigen Jobbörsen.",
      "quote_check": "ok"
     }
    ]
@@ -46787,29 +47414,41 @@
    "niche": "programmatic job advertising for frontline hiring",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per click",
    "api_status": "unknown",
-   "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "api_docs_url": "https://www.talroo.com/publisher/developers",
+   "partner_program": "yes",
+   "partner_url": "https://www.talroo.com/channel-partners",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Pricing page says employers pay per click against a monthly budget. Homepage says jobs sync from the applicant tracking system. Developers page describes a customizable job API and XML feeds; access process and keys are not stated. Headquarters country and parent not stated. Site says: \"promotes them to job seekers across Jobs2Careers, ReadySetHire, EssentialWorkerJobs, and other channels outside the big job boards.\"",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/talroo/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
     "global_rank": 686069,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
-    "job-distribution"
+    "ats-integration",
+    "job-distribution",
+    "partner-program",
+    "pay-per-click"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "talroo",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status",
+    "note": "Pricing, partner, developer and about pages read; headquarters, parent, languages and API key process not stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -46819,6 +47458,46 @@
      "title": "Talroo: Reinventing Job Advertising for Frontline Workers",
      "accessed": "2026-11-11",
      "quote": "Reinventing Job Advertising for Frontline Workers",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.talroo.com/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-12",
+     "quote": "You pay only for clicks, and we work to keep each application close to your target.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.talroo.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-12",
+     "quote": "Jobs sync from your applicant tracking system",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.talroo.com/channel-partners",
+     "title": "Channel partners",
+     "accessed": "2026-11-12",
+     "quote": "Why Partner with Talroo?",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.talroo.com/publisher/developers",
+     "title": "Developers",
+     "accessed": "2026-11-12",
+     "quote": "Leverage the power of our customizable job API",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.talroo.com",
+     "title": "Talroo: Reinventing Job Advertising for Frontline Workers",
+     "accessed": "2026-11-12",
+     "quote": "promotes them to job seekers across Jobs2Careers, ReadySetHire, EssentialWorkerJobs, and other channels outside the big job boards.",
      "quote_check": "ok"
     }
    ]
@@ -46844,26 +47523,38 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.jobtarget.com/job-board-partner",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Site says: \"with programmatic job advertising, OFCCP compliance, and Easy Apply\" Homepage and about page describe prebuilt ATS and HRIS integrations and a partner marketplace for job sites. About page says the company is independent with no outside investors. OFCCP appears as a blog link and in partner product text. Headquarters country, languages, employer pricing and API acces Site says: \"streamlining distribution to 25,000+ job boards from one central dashboard\"",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobtarget/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
     "global_rank": 350179,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
-    "job-distribution"
+    "ats-integration",
+    "job-distribution",
+    "ofccp-compliance",
+    "partner-program"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobtarget",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+    "note": "Homepage, about and partner pages read; no employer pricing, headquarters, language options or developer page found.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -46873,6 +47564,46 @@
      "title": "JobTarget Makes Hiring Happen",
      "accessed": "2026-11-11",
      "quote": "JobTarget helps you cut through the noise to reach and convert the best candidates.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobtarget.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-12",
+     "quote": "prebuilt integrations with 80+ ATS and HRIS systems",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.jobtarget.com/job-board-partner",
+     "title": "Job board partner page",
+     "accessed": "2026-11-12",
+     "quote": "Join Our Partner Marketplace",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.jobtarget.com/company/about-us",
+     "title": "About",
+     "accessed": "2026-11-12",
+     "quote": "As an independent company with no outside investors",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.jobtarget.com/ats-hris-partner-integration",
+     "title": "ATS and HRIS partner page",
+     "accessed": "2026-11-12",
+     "quote": "with programmatic job advertising, OFCCP compliance, and Easy Apply",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.jobtarget.com",
+     "title": "JobTarget Makes Hiring Happen",
+     "accessed": "2026-11-12",
+     "quote": "streamlining distribution to 25,000+ job boards from one central dashboard",
      "quote_check": "ok"
     }
    ]
@@ -46895,13 +47626,13 @@
    "niche": "job distribution for recruitment agencies",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Pricing page says idibu is priced on a per-user basis and lists $250 per month for all 5 users. Homepage and integrations page describe CRM integrations; no API or partner program stated. Headquarters country, languages and parent not stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/idibu/",
    "indexable": false,
@@ -46911,13 +47642,21 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
-    "job-distribution"
+    "job-distribution",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "idibu",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program;ingest_methods",
+    "note": "Pricing, integrations and about pages read; headquarters, parent, languages, API and partner statements not found.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -46927,6 +47666,14 @@
      "title": "idibu: Job Distribution that Works Seamlessly with your CRM",
      "accessed": "2026-11-11",
      "quote": "Job distribution and response management at the touch of a button",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://ww2.idibu.com/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-12",
+     "quote": "Idibu is priced on a per-user basis.",
      "quote_check": "ok"
     }
    ]
@@ -46955,7 +47702,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site says: \"one connection to every board that matters\"",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/vacancy-poster/",
    "indexable": false,
@@ -46965,14 +47712,21 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-distribution",
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "vacancy-poster",
+    "reviewed": "2026-11-12",
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Browser reader returned status 502 with blocked set to true, so the site was recorded as blocked.",
+    "method": "browser"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -46982,6 +47736,14 @@
      "title": "Multi-Posting Job Posting Software | Vacancy Poster",
      "accessed": "2026-11-11",
      "quote": "Multi-Posting Job Posting Software",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.vacancyposter.com",
+     "title": "Multi-Posting Job Posting Software | Vacancy Poster",
+     "accessed": "2026-11-12",
+     "quote": "one connection to every board that matters",
      "quote_check": "ok"
     }
    ]
@@ -47007,10 +47769,10 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.postings.com/partnerships",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Contact address on the homepage is in San Diego, CA, United States. About page says the company is owned by Mingle, LLC. Partnerships page lists job board, distribution and integration partnerships. Languages, employer pricing, API access and ingest methods not stated on the pages read. Site says: \"Create and Distribute Job Postings\"",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/postings-com/",
    "indexable": false,
@@ -47020,14 +47782,22 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-distribution",
+    "partner-program",
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "postings-com",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;api_status;ingest_methods",
+    "note": "Homepage, about and partnerships pages read; no pricing, language options, API or inbound posting method found.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -47037,6 +47807,38 @@
      "title": "Postings - Job Posting Software - Custom Career Pages",
      "accessed": "2026-11-11",
      "quote": "Job Posting Software - Custom Career Pages",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.postings.com/",
+     "title": "Homepage contact",
+     "accessed": "2026-11-12",
+     "quote": "San Diego, CA 92101",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.postings.com/about",
+     "title": "About",
+     "accessed": "2026-11-12",
+     "quote": "owned by Mingle, LLC, based in San Diego, California",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.postings.com/partnerships",
+     "title": "Partnerships",
+     "accessed": "2026-11-12",
+     "quote": "Become a Postings.com Partner:",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.postings.com",
+     "title": "Postings - Job Posting Software - Custom Career Pages",
+     "accessed": "2026-11-12",
+     "quote": "Create and Distribute Job Postings",
      "quote_check": "ok"
     }
    ]
@@ -47054,36 +47856,53 @@
     "CA",
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "North America",
    "niche": "inclusive recruitment and employment equity job distribution",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "per post",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "partner_program": "yes",
+   "partner_url": "https://hirediverse.ca/partners",
+   "ingest_methods": [
+    "manual posting",
+    "ATS integration",
+    "crawl"
+   ],
+   "notes": "About page says hireDiverse is a Canadian business. Pricing page lists single job ads from $280 per ad and an annual plan. Employer pages state that jobs can be pulled automatically from a careers site or ATS. Parent, language options and API access not stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/hirediverse/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not in top 1M",
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
+    "ats-integration",
+    "crawl-sourced",
     "diversity-inclusion",
-    "job-distribution"
+    "job-distribution",
+    "partner-program",
+    "pay-per-post"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "hirediverse",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;api_status",
+    "note": "Homepage, pricing, about and partners pages read; parent, language options and API access not stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -47093,6 +47912,46 @@
      "title": "Inclusive Recruitment & Employment Equity | hireDiverse",
      "accessed": "2026-11-11",
      "quote": "hireDiverse helps Canadian employers reach underrepresented talent, strengthen inclusive recruitment outreach, and document their efforts through automated job distribution and employment equity reporting.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://hirediverse.ca/about",
+     "title": "About",
+     "accessed": "2026-11-12",
+     "quote": "hireDiverse is a Canadian, minority-owned business",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://hirediverse.ca/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-12",
+     "quote": "Post a single ad in under 5 minutes.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://hirediverse.ca/about",
+     "title": "About",
+     "accessed": "2026-11-12",
+     "quote": "For organizations with ongoing hiring needs, hireDiverse can automatically pull jobs from an employer’s careers site or ATS",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://hirediverse.ca/partners",
+     "title": "Partners",
+     "accessed": "2026-11-12",
+     "quote": "Join the free hireDiverse Community Partner Network",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://hirediverse.ca/about",
+     "title": "About",
+     "accessed": "2026-11-12",
+     "quote": "Inclusive recruitment and employment equity outreach, built for Canadian employers.",
      "quote_check": "ok"
     }
    ]
@@ -47121,7 +47980,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site says: \"leverages the best of programmatic technology with conversational AI\"",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/pandologic/",
    "indexable": false,
@@ -47131,7 +47990,7 @@
     "global_rank": 428954,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-distribution"
@@ -47147,6 +48006,14 @@
      "title": "Programmatic Recruitment Software Powered by AI | Pandologic",
      "accessed": "2026-11-11",
      "quote": "Programmatic Recruitment Software Powered by AI",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://pandologic.com",
+     "title": "Programmatic Recruitment Software Powered by AI | Pandologic",
+     "accessed": "2026-11-12",
+     "quote": "leverages the best of programmatic technology with conversational AI",
      "quote_check": "ok"
     }
    ]
@@ -47176,7 +48043,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site says: \"custom job distribution for companies with up to five jobs\"",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/directemployers-association/",
    "indexable": false,
@@ -47186,7 +48053,7 @@
     "global_rank": 647646,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-distribution"
@@ -47202,6 +48069,14 @@
      "title": "Home • DirectEmployers Association One-stop Shop Solutions",
      "accessed": "2026-11-11",
      "quote": "DirectEmployers Association One-stop Shop Solutions",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://directemployers.org",
+     "title": "Home • DirectEmployers Association One-stop Shop Solutions",
+     "accessed": "2026-11-12",
+     "quote": "custom job distribution for companies with up to five jobs",
      "quote_check": "ok"
     }
    ]
@@ -47230,7 +48105,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site says: \"Optimize programmatic ad spend.\"",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/radancy/",
    "indexable": false,
@@ -47240,7 +48115,7 @@
     "global_rank": 74049,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-distribution"
@@ -47256,6 +48131,14 @@
      "title": "Radancy | The Talent Acquisition Platform powered by Agentic AI",
      "accessed": "2026-11-11",
      "quote": "The Talent Acquisition Platform powered by Agentic AI",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.radancy.com",
+     "title": "Radancy | The Talent Acquisition Platform powered by Agentic AI",
+     "accessed": "2026-11-12",
+     "quote": "Optimize programmatic ad spend.",
      "quote_check": "ok"
     }
    ]
@@ -47295,7 +48178,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-distribution"
@@ -47353,7 +48236,7 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "creative-media",
@@ -47409,12 +48292,22 @@
     "global_rank": 495606,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-distribution"
    ],
-   "connections": [],
+   "connections": [
+    {
+     "relation": "integrates-with",
+     "from": "Jobvite",
+     "from_id": "jobvite",
+     "to": "VONQ",
+     "to_id": "vonq",
+     "source": "https://www.jobvite.com/marketplace/",
+     "quote": "Job Distribution VONQ Learn More"
+    }
+   ],
    "review": null,
    "owners": [],
    "scale": [],
@@ -47463,7 +48356,7 @@
     "global_rank": 849646,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-distribution",
@@ -47519,11 +48412,12 @@
     "global_rank": 861266,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "diversity-inclusion",
     "job-distribution",
+    "ofccp-compliance",
     "tech"
    ],
    "connections": [],
@@ -47576,10 +48470,11 @@
     "global_rank": null,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "job-distribution",
+    "ofccp-compliance",
     "public-sector"
    ],
    "connections": [],
@@ -47622,7 +48517,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site says: \"Our reporting suite provides candidate engagement reports, ATS tracking, and job visibility data you can use directly in OFCCP compliance audits\"",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/careercircle/",
    "indexable": false,
@@ -47632,11 +48527,12 @@
     "global_rank": 891165,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "diversity-inclusion",
-    "job-board"
+    "job-board",
+    "ofccp-compliance"
    ],
    "connections": [],
    "review": null,
@@ -47649,6 +48545,14 @@
      "title": "Where Skills Go To Work",
      "accessed": "2026-11-11",
      "quote": "We bridge the gap between skilled individuals and leading organizations",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.careercircle.com/employer-solutions/disability-hiring",
+     "title": "CareerCircle",
+     "accessed": "2026-11-12",
+     "quote": "Our reporting suite provides candidate engagement reports, ATS tracking, and job visibility data you can use directly in OFCCP compliance audits",
      "quote_check": "ok"
     }
    ]
@@ -47687,7 +48591,7 @@
     "global_rank": 508990,
     "scope": "domain",
     "source": "Majestic Million (CC BY 3.0)",
-    "list_date": "2026-11-11"
+    "list_date": "2026-11-12"
    },
    "tags": [
     "ats"
@@ -47711,6 +48615,224 @@
      "title": "Job Postings & Syndication Made Easy with MokaHR",
      "accessed": "2026-11-11",
      "quote": "Moka Eva puts jobs on over 100 job boards.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "logicmelon",
+   "name": "LogicMelon",
+   "url": "https://www.logicmelon.com",
+   "domains": "",
+   "type": "multiposting",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "applicant tracking, CRM and job multiposting for recruiters",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/logicmelon/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 569009,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-12"
+   },
+   "tags": [
+    "job-distribution"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.logicmelon.com/",
+     "title": "LogicMelon | Applicant tracking software & vacancy posting for corporate recruiters",
+     "accessed": "2026-11-12",
+     "quote": "LogicMelon helps recruitment agencies and in-house teams reduce time-to-hire",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "bullhorn",
+   "name": "Bullhorn",
+   "url": "https://www.bullhorn.com",
+   "domains": "",
+   "type": "ats",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "applicant tracking and CRM for staffing agencies",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/bullhorn/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Established",
+    "label": "Established",
+    "global_rank": 32500,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-12"
+   },
+   "tags": [
+    "ats"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.bullhorn.com/products/ats/",
+     "title": "Top ATS & CRM for Staffing Agencies | Bullhorn",
+     "accessed": "2026-11-12",
+     "quote": "More than 10,000 companies rely on Bullhorn to power their staffing processes.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "jobtrain",
+   "name": "Jobtrain",
+   "url": "https://jobtrain.co.uk",
+   "domains": "",
+   "type": "ats",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "UK",
+    "IE",
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Europe",
+   "niche": "applicant tracking for in-house UK recruitment teams",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/jobtrain/",
+   "indexable": false,
+   "prominence": {
+    "tier": "Small",
+    "label": "Small",
+    "global_rank": 170031,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-12"
+   },
+   "tags": [
+    "ats"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobtrain.co.uk/",
+     "title": "Applicant Tracking System | Recruitment Software | Jobtrain",
+     "accessed": "2026-11-12",
+     "quote": "Jobtrain is a UK applicant tracking system built around your recruitment team.",
+     "quote_check": "ok"
+    }
+   ]
+  },
+  {
+   "id": "inploi",
+   "name": "inploi",
+   "url": "https://www.inploi.com",
+   "domains": "",
+   "type": "feed-aggregator",
+   "hq_country": "",
+   "founded": "",
+   "markets": "",
+   "countries_served": [
+    "ZZ"
+   ],
+   "primary_language": "",
+   "languages_supported": [],
+   "region": "Global",
+   "niche": "job distribution from ATS to search engines and job aggregators for frontline employers",
+   "segment": "",
+   "parent": "",
+   "business_model": "",
+   "api_status": "unknown",
+   "api_docs_url": "",
+   "partner_program": "unknown",
+   "partner_url": "",
+   "ingest_methods": [],
+   "notes": "",
+   "confidence": "partially-verified",
+   "page": "https://jobboardlist.com/boards/inploi/",
+   "indexable": false,
+   "prominence": {
+    "tier": "",
+    "label": "Not in top 1M",
+    "global_rank": null,
+    "scope": "domain",
+    "source": "Majestic Million (CC BY 3.0)",
+    "list_date": "2026-11-12"
+   },
+   "tags": [
+    "job-distribution"
+   ],
+   "connections": [],
+   "review": null,
+   "owners": [],
+   "scale": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.inploi.com/",
+     "title": "inploi · The hiring experience platform",
+     "accessed": "2026-11-12",
+     "quote": "inploi is the hiring experience platform for large frontline employers.",
      "quote_check": "ok"
     }
    ]

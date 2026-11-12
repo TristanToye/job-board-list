@@ -36,7 +36,7 @@
   "global_rank": 3703,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "general",
@@ -61,6 +61,15 @@
    "to_id": "careerbuilder",
    "source": "https://help.workable.com/hc/en-us/articles/115013182007-Integrating-with-CareerBuilder",
    "quote": "Connect your accounts and use your prepaid CareerBuilder job credits to post jobs directly via Workable."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+   "quote": "Integrating with CareerBuilder"
   }
  ],
  "review": null,

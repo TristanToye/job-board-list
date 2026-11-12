@@ -5,6 +5,7 @@ Platforms Appcast connects to, each from a page on one party's own site.
 ## Applicant tracking systems
 
 - Greenhouse: receives jobs from (https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts)
+- Jobvite: integrates with (https://www.jobvite.com/marketplace/)
 - Lever: integrates with (https://www.lever.co/integrations)
 
 ## Job boards and aggregators

@@ -35,7 +35,7 @@
   "global_rank": 134489,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-partner-only",
@@ -99,6 +99,15 @@
    "to_id": "appcast",
    "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Jobvite",
+   "from_id": "jobvite",
+   "to": "Appcast",
+   "to_id": "appcast",
+   "source": "https://www.jobvite.com/marketplace/",
+   "quote": "Sourcing Appcast Learn More"
   }
  ],
  "review": null,

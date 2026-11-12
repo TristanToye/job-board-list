@@ -18,7 +18,7 @@ Happy Monday is a job board.
 
 **Does Happy Monday have an API?** According to this directory, Happy Monday offers an API you can use with a self-serve key. Documentation: https://happymonday.ua/developers/api/v4.
 
-**How large is Happy Monday?** Happy Monday ranks #269,148 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Happy Monday?** Happy Monday ranks #269,148 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

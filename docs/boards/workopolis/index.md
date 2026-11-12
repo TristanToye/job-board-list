@@ -19,7 +19,7 @@ Workopolis is a job board based in Canada. It was founded in 1999.
 
 **Which languages does Workopolis support?** This directory records Workopolis as supporting English.
 
-**How large is Workopolis?** Workopolis ranks #24,826 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Workopolis?** Workopolis ranks #24,826 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

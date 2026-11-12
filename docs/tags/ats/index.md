@@ -1,6 +1,6 @@
 # Applicant tracking system
 
-Software employers use to manage hiring and publish their jobs. 22 entries in the directory.
+Software employers use to manage hiring and publish their jobs. 24 entries in the directory.
 
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
@@ -19,8 +19,10 @@ Software employers use to manage hiring and publish their jobs. 22 entries in th
 - [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
+- [Bullhorn](https://jobboardlist.com/boards/bullhorn/): ats
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [Phenom](https://jobboardlist.com/boards/phenom/): ats
+- [Jobtrain](https://jobboardlist.com/boards/jobtrain/): ats
 - [Moka ATS (MokaHR)](https://jobboardlist.com/boards/moka-ats-mokahr/): ats
 - [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
 - [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API

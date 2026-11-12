@@ -32,7 +32,7 @@
   "global_rank": 69692,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "general",
@@ -42,10 +42,10 @@
  "connections": [],
  "review": {
   "board_id": "gulftalent",
-  "reviewed": "2026-11-09",
+  "reviewed": "2026-11-12",
   "outcome": "blocked",
   "fields_not_found": "",
-  "note": "HTTP 403 Cloudflare security verification in fetch and in the browser reader.",
+  "note": "HTTP 403 with a Cloudflare 'Performing security verification' challenge in fetch and in the browser reader.",
   "method": "mixed"
  },
  "owners": [],

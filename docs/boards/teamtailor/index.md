@@ -28,9 +28,9 @@ Teamtailor is an applicant tracking system based in Sweden, focused on applicant
 
 **Which languages does Teamtailor support?** This directory records Teamtailor as supporting English.
 
-**How large is Teamtailor?** Teamtailor ranks #4,573 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Teamtailor?** Teamtailor ranks #4,573 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does Teamtailor connect to?** According to this directory, Teamtailor sends jobs to Reed, Asfored, B4work Global; integrates with 50Plus-Jobs, Adzuna, Agefiph, #jenesuisPASunCV, Arbetsförmedlingen.
+**Which platforms does Teamtailor connect to?** According to this directory, Teamtailor sends jobs to Reed, Asfored, B4work Global, Platsbanken (Arbetsförmedlingen); integrates with 50Plus-Jobs, Adzuna, Agefiph, #jenesuisPASunCV, Arbetsförmedlingen, Careerjet and others.
 
 **How do you get API access to Teamtailor?** According to Teamtailor's own documentation, access works like this: API keys created and managed in the Teamtailor account settings; requests authenticate with API key sent in the Authorization header as a token.
 

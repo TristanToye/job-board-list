@@ -21,9 +21,9 @@ JobStreet is a job board based in Malaysia. It was founded in 1997.
 
 **Which languages does JobStreet support?** This directory records JobStreet as supporting English, Indonesian, Malay.
 
-**How large is JobStreet?** JobStreet ranks #22,582 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is JobStreet?** JobStreet ranks #22,582 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does JobStreet connect to?** According to this directory, JobStreet receives jobs from Workable.
+**Which platforms does JobStreet connect to?** According to this directory, JobStreet receives jobs from Workable, BambooHR.
 
 ## Sources
 

@@ -10,6 +10,7 @@ Platforms Reed connects to, each from a page on one party's own site.
 - Pinpoint: receives jobs from (https://www.reed.co.uk/recruiter/ats-integration)
 - Teamtailor: receives jobs from (https://www.reed.co.uk/recruiter/ats-integration)
 - Workable: receives jobs from (https://www.reed.co.uk/recruiter/ats-integration)
+- Workable: integrates with (https://help.workable.com/hc/en-us/sections/115003175147-Job-boards)
 - Workday Recruiting: receives jobs from (https://www.reed.co.uk/recruiter/ats-integration)
 
 ## Other platforms

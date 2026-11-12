@@ -16,7 +16,7 @@ Harver is an HR technology vendor, focused on pre-employment assessment for high
 
 ## Quick answers
 
-**How large is Harver?** Harver ranks #58,904 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Harver?** Harver ranks #58,904 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

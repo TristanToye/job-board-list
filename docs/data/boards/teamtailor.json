@@ -34,7 +34,7 @@
   "global_rank": 4573,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-self-serve",
@@ -116,6 +116,51 @@
    "to_id": "",
    "source": "https://www.teamtailor.com/en/integrations",
    "quote": "Arbetsförmedlingen Här kan du annonsera i Platsbanken, anställa med stöd och upptäcka nya sätt att rekrytera."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "Platsbanken (Arbetsförmedlingen)",
+   "to_id": "",
+   "source": "https://www.teamtailor.com/en-us/integrations/",
+   "quote": "Här kan du annonsera i Platsbanken"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://www.teamtailor.com/en-us/integrations/careerjet/",
+   "quote": "Careerjet is a job search engine designed to make the process of finding a job on the internet easier for the user"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.teamtailor.com/en-us/integrations/",
+   "quote": "Enable your candidates to apply for jobs faster using their Linkedin profile"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "Apec",
+   "to_id": "",
+   "source": "https://www.teamtailor.com/en-us/integrations/",
+   "quote": "Apec (Association for the Employment of Executives) is open to all private sector companies"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Teamtailor",
+   "from_id": "teamtailor",
+   "to": "ADEM",
+   "to_id": "",
+   "source": "https://www.teamtailor.com/en-us/integrations/",
+   "quote": "Empower your hiring in Luxembourg with ADEM"
   }
  ],
  "review": {

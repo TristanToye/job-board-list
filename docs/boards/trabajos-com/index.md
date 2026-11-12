@@ -20,7 +20,7 @@ Trabajos.com is a job board based in Spain.
 
 **Which languages does Trabajos.com support?** This directory records Trabajos.com as supporting Spanish.
 
-**How large is Trabajos.com?** Trabajos.com ranks #271,283 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Trabajos.com?** Trabajos.com ranks #271,283 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

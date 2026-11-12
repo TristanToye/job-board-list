@@ -6,9 +6,11 @@ Platforms Indeed connects to, each from a page on one party's own site.
 
 - Greenhouse: receives jobs from (https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts)
 - JazzHR: integrates with (https://www.jazzhr.com/integrations)
+- Jobvite: integrates with (https://www.jobvite.com/marketplace/)
 - Lever: integrates with (https://www.lever.co/integrations)
 - Oracle Recruiting Cloud: integrates with (https://www.oracle.com/human-capital-management/recruiting/)
 - Pinpoint: integrates with (https://www.pinpointhq.com/integrations)
+- Recruitee: receives jobs from (https://recruitee.com/career-page-multiposting)
 - Workable: receives jobs from (https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable)
 
 ## Multiposting and job distribution

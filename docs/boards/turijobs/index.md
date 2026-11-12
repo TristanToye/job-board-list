@@ -20,7 +20,7 @@ Turijobs is a job board based in Spain.
 
 **Which languages does Turijobs support?** This directory records Turijobs as supporting Spanish, English.
 
-**How large is Turijobs?** Turijobs ranks #264,236 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Turijobs?** Turijobs ranks #264,236 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

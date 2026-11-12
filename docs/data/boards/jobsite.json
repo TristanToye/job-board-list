@@ -30,12 +30,22 @@
   "global_rank": 58589,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "job-board"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Jobsite",
+   "to_id": "jobsite",
+   "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+   "quote": "Integrating with Jobsite"
+  }
+ ],
  "review": {
   "board_id": "jobsite",
   "reviewed": "2026-11-06",

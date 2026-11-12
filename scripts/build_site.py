@@ -279,7 +279,7 @@ home_body = f"""
 <p id="empty" class="muted" hidden>No boards match those filters.</p></section>
 <section class="prose"><h2>What this directory covers</h2>
 <p>Job distribution has several layers: the employer, the applicant tracking system, programmatic and multiposting platforms, and the boards and aggregators candidates use. This directory maps all of them, with a focus on integration: which platforms publish open feeds or APIs, which require a partnership, and where the developer portals are.</p>
-<ul><li><a href="languages/">Job boards by language</a></li><li><a href="tags/">Browse by type, focus and openness</a></li><li><a href="countries/canada/">Job boards in Canada</a></li><li><a href="api/public-open/">Job boards with an open API</a></li><li><a href="api/public-key/">Job boards with a self-serve API key</a></li><li><a href="api/partner-only/">Partner-only job board APIs</a></li><li><a href="ats/">ATS systems with public job feeds</a></li></ul></section>
+<ul><li><a href="languages/">Job boards by language</a></li><li><a href="tags/">Browse by type, focus and openness</a></li><li><a href="countries/canada/">Job boards in Canada</a></li><li><a href="api/public-open/">Job boards with an open API</a></li><li><a href="api/public-key/">Job boards with a self-serve API key</a></li><li><a href="api/partner-only/">Partner-only job board APIs</a></li><li><a href="ats/">ATS systems with public job feeds</a></li><li><a href="integrations/">ATS and job board integrations</a></li><li><a href="distribution/">Multiposting and job distribution platforms</a></li><li><a href="timeline/">Deals and closures by year</a></li></ul></section>
 <script src="assets/app.js" defer></script>"""
 dataset = {"@context":"https://schema.org","@type":"Dataset","name":f"{NAME}: job boards, aggregators and ATS systems",
  "description":CFG["tagline"],"url":BASE+"/","creator":{"@type":"Person","name":CFG["author"]},"isAccessibleForFree":True,
@@ -702,6 +702,25 @@ write("closed/index.html", layout(1, f"Closed, acquired and merged job boards an
   f'<h1>Closed, acquired and merged</h1><p class="lede">Job boards, staffing firms and hiring tools that no longer operate on their own: shut down, bought, merged or renamed. {len(LIFE)} so far, each with a cited source. Where an entry is also in the directory, its page carries a notice.</p>'
   f'{life_groups}<p class="muted small">Missing one? A closure or deal only appears here with a source that states it. <a href="../about/">How this directory is built</a>.</p>',
   "/closed/", None, noindex=len(LIFE) < 3, md=len(LIFE) >= 3), indexed=len(LIFE) >= 3, md=md_life, kind="tag")
+# ---------- distribution and multiposting ----------
+_DT = {"multiposting": "Multiposting and job distribution", "programmatic-distribution": "Programmatic job advertising", "feed-aggregator": "Job feed management"}
+_dist = [b for b in boards if b["type"] in _DT]
+def _drow(b):
+    return (f'<tr><td><div class="namecell">{icon(b, "../")}<a href="../boards/{e(b["id"])}/"><strong>{e(b["name"])}</strong></a></div></td><td>{e(country(b["hq_country"])) or "<span class=\"muted small\">Not recorded</span>"}</td>'
+            f'<td>{e(b["business_model"]) or "<span class=\"muted small\">Not recorded</span>"}</td><td>{chips(split(b["ingest_methods"]))}</td><td>{e(b["partner_program"] or "unknown")}</td>'
+            f'<td>{("<a href=\"../integrations/" + e(b["id"]) + "/\">Integrations</a>") if b["id"] in INTEG_IDS else "<span class=\"muted small\">None documented</span>"}</td></tr>')
+_dhead = '<div class="tablewrap"><table><thead><tr><th>Platform</th><th>HQ</th><th>Pricing</th><th>How jobs come in</th><th>Partner program</th><th>Connections</th></tr></thead><tbody>'
+_dbody = '<h1>Job multiposting, distribution and feed management</h1><p class="lede">The platforms that take one job from an employer or applicant tracking system and publish it to many job boards, buy job ad traffic programmatically, or manage job feeds for boards and aggregators. ' + f'{len(_dist)} platforms so far, with cited facts on each entry page.</p>'
+for _ty, _lbl in _DT.items():
+    _v = sorted([b for b in _dist if b["type"] == _ty], key=lambda b: (skey(b), b["name"].lower()))
+    if _v: _dbody += f'<h2>{e(_lbl)} ({len(_v)})</h2>' + _dhead + "".join(_drow(b) for b in _v) + "</tbody></table></div>"
+_uk = [b for b in _dist if b["hq_country"] == "UK" or "UK" in split(b["countries_served"])]
+if _uk: _dbody += '<h2>Based in or serving the UK</h2><p>Job distribution and feed management services recorded as based in or serving the United Kingdom.</p><ul class="plain">' + "".join(f'<li><a href="../boards/{e(b["id"])}/">{e(b["name"])}</a> <span class="muted small">{e(type_label(b))}</span></li>' for b in sorted(_uk, key=lambda b: b["name"].lower())) + "</ul>"
+_of = [by_id[i] for i in members.get("ofccp-compliance", {}).get("board", []) if i in by_id] if "ofccp-compliance" in TAX else []
+if _of: _dbody += '<h2 id="ofccp">OFCCP and VEVRAA job posting</h2><p>US federal contractors covered by VEVRAA must list most job openings with the state employment service. These services and boards state on their own sites that they help with OFCCP or VEVRAA posting. See each entry\'s sources for the exact wording.</p><ul class="plain">' + "".join(f'<li><a href="../boards/{e(b["id"])}/">{e(b["name"])}</a> <span class="muted small">{e(type_label(b))}</span></li>' for b in sorted(_of, key=lambda b: b["name"].lower())) + "</ul>"
+_dbody += '<p class="muted small">See also <a href="../integrations/">integrations</a> for which applicant tracking systems connect to which platforms, and <a href="../ats/">applicant tracking systems</a>.</p>'
+_md_d = "# Job multiposting, distribution and feed management\n\n" + "\n".join(f'- [{b["name"]}]({BASE}/boards/{b["id"]}/): {_DT[b["type"]]}' + (f', HQ {country(b["hq_country"])}' if b["hq_country"] else "") + (f', {b["business_model"]}' if b["business_model"] else "") for b in sorted(_dist, key=lambda b: b["name"].lower())) + f"\n\nCanonical page: {BASE}/distribution/\n"
+write("distribution/index.html", layout(1, f"Job multiposting and distribution platforms compared | {NAME}", f"{len(_dist)} job multiposting, programmatic advertising and job feed management platforms, with pricing, how jobs come in, partner programs and documented ATS connections.", _dbody, "/distribution/", itemlist(_dist, 1), md=True), md=_md_d, kind="tag")
 # ---------- integration pages ----------
 _GROUP = [("ats", "Applicant tracking systems"), ("dist", "Multiposting and job distribution"), ("board", "Job boards and aggregators"), ("other", "Other platforms")]
 def _grp_of(i):
@@ -828,7 +847,7 @@ Notes for readers and models: facts are attributed to this directory and carry t
 - [Directory home]({BASE}/): searchable table with filters for type, focus, API access, language and prominence
 - [Types of job sites, explained]({BASE}/tags/): definitions and lists for job boards, aggregators, ATS, staffing, outplacement and labour market information
 - [The hiring ecosystem map]({BASE}/ecosystem/): documented connections between ATS systems, distribution platforms and boards\n- [Largest job boards by web link popularity]({BASE}/rankings/)
-- [Closed, acquired and merged]({BASE}/closed/): sites and companies that no longer operate independently\n- [Ownership and closures timeline]({BASE}/timeline/): dated deals and closures by year\n- [Who owns the job boards]({BASE}/owners/): parent companies with profiles and holdings
+- [Closed, acquired and merged]({BASE}/closed/): sites and companies that no longer operate independently\n- [Ownership and closures timeline]({BASE}/timeline/): dated deals and closures by year\n- [Integrations]({BASE}/integrations/): which job boards and multiposters each ATS connects to\n- [Multiposting and distribution platforms]({BASE}/distribution/): pricing, inputs and connections\n- [Who owns the job boards]({BASE}/owners/): parent companies with profiles and holdings
 - [Job boards by country]({BASE}/countries/)
 - [Methodology and how to cite]({BASE}/about/)
 

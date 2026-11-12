@@ -22,7 +22,7 @@ BOSS Zhipin is a board and chat based in China. It was founded in 2014.
 
 **Which languages does BOSS Zhipin support?** This directory records BOSS Zhipin as supporting Chinese.
 
-**How large is BOSS Zhipin?** BOSS Zhipin ranks #6,148 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is BOSS Zhipin?** BOSS Zhipin ranks #6,148 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

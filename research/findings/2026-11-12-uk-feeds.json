@@ -1,54 +1,109 @@
 {
-  "mode": "discover",
-  "country": "ZZ",
-  "boards": [
+ "mode": "discover",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "LogicMelon",
+   "url": "https://www.logicmelon.com",
+   "type": "multiposting",
+   "niche": "applicant tracking, CRM and job multiposting for recruiters",
+   "countries_served": [],
+   "sources": [
     {
-      "name": "LogicMelon",
-      "url": "https://www.logicmelon.com",
-      "type": "multiposting",
-      "niche": "applicant tracking, CRM and job multiposting for recruiters",
-      "countries_served": [],
-      "sources": [
-        {"field": "existence", "url": "https://www.logicmelon.com/", "title": "LogicMelon | Applicant tracking software & vacancy posting for corporate recruiters", "quote": "LogicMelon helps recruitment agencies and in-house teams reduce time-to-hire"},
-        {"field": "distribution", "url": "https://www.logicmelon.com/", "title": "LogicMelon | Applicant tracking software & vacancy posting for corporate recruiters", "quote": "Distribute jobs with one click to multiple online destinations (over 1000 integrations)."}
-      ]
+     "field": "existence",
+     "url": "https://www.logicmelon.com/",
+     "title": "LogicMelon | Applicant tracking software & vacancy posting for corporate recruiters",
+     "quote": "LogicMelon helps recruitment agencies and in-house teams reduce time-to-hire",
+     "check": "ok"
     },
     {
-      "name": "Bullhorn",
-      "url": "https://www.bullhorn.com",
-      "type": "ats",
-      "niche": "applicant tracking and CRM for staffing agencies",
-      "countries_served": [],
-      "sources": [
-        {"field": "existence", "url": "https://www.bullhorn.com/products/ats/", "title": "Top ATS & CRM for Staffing Agencies | Bullhorn", "quote": "More than 10,000 companies rely on Bullhorn to power their staffing processes."}
-      ]
-    },
-    {
-      "name": "Jobtrain",
-      "url": "https://jobtrain.co.uk",
-      "type": "ats",
-      "niche": "applicant tracking for in-house UK recruitment teams",
-      "countries_served": ["GB", "IE"],
-      "sources": [
-        {"field": "existence", "url": "https://jobtrain.co.uk/", "title": "Applicant Tracking System | Recruitment Software | Jobtrain", "quote": "Jobtrain is a UK applicant tracking system built around your recruitment team."},
-        {"field": "distribution", "url": "https://knowledge.jobtrain.co.uk/jtgo/job-board-multi-posting", "title": "Job board multi-posting", "quote": "How to use job board multi-posting"},
-        {"field": "customers", "url": "https://jobtrain.co.uk/", "title": "Applicant Tracking System | Recruitment Software | Jobtrain", "quote": "Trusted by 200+ organisations across the UK and Ireland"}
-      ]
-    },
-    {
-      "name": "inploi",
-      "url": "https://www.inploi.com",
-      "type": "feed-aggregator",
-      "niche": "job distribution from ATS to search engines and job aggregators for frontline employers",
-      "countries_served": [],
-      "sources": [
-        {"field": "existence", "url": "https://www.inploi.com/", "title": "inploi · The hiring experience platform", "quote": "inploi is the hiring experience platform for large frontline employers."},
-        {"field": "distribution", "url": "https://www.inploi.com/product/features/aggregator-advertising", "title": "Job distribution software for frontline hiring · inploi", "quote": "One connection to your ATS sends every live role to the channels candidates already use."}
-      ]
+     "field": "distribution",
+     "url": "https://www.logicmelon.com/",
+     "title": "LogicMelon | Applicant tracking software & vacancy posting for corporate recruiters",
+     "quote": "Distribute jobs with one click to multiple online destinations (over 1000 integrations).",
+     "check": "ok"
     }
-  ],
-  "blocked": [],
-  "queue": [
-    {"name": "365 Jobs", "url": "", "reason": "Named in a HireRoad article as a UK standalone multi-poster; homepage URL not found in search results and not read"}
-  ]
+   ]
+  },
+  {
+   "name": "Bullhorn",
+   "url": "https://www.bullhorn.com",
+   "type": "ats",
+   "niche": "applicant tracking and CRM for staffing agencies",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.bullhorn.com/products/ats/",
+     "title": "Top ATS & CRM for Staffing Agencies | Bullhorn",
+     "quote": "More than 10,000 companies rely on Bullhorn to power their staffing processes.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobtrain",
+   "url": "https://jobtrain.co.uk",
+   "type": "ats",
+   "niche": "applicant tracking for in-house UK recruitment teams",
+   "countries_served": [
+    "GB",
+    "IE"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://jobtrain.co.uk/",
+     "title": "Applicant Tracking System | Recruitment Software | Jobtrain",
+     "quote": "Jobtrain is a UK applicant tracking system built around your recruitment team.",
+     "check": "ok"
+    },
+    {
+     "field": "distribution",
+     "url": "https://knowledge.jobtrain.co.uk/jtgo/job-board-multi-posting",
+     "title": "Job board multi-posting",
+     "quote": "How to use job board multi-posting",
+     "check": "ok"
+    },
+    {
+     "field": "customers",
+     "url": "https://jobtrain.co.uk/",
+     "title": "Applicant Tracking System | Recruitment Software | Jobtrain",
+     "quote": "Trusted by 200+ organisations across the UK and Ireland",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "inploi",
+   "url": "https://www.inploi.com",
+   "type": "feed-aggregator",
+   "niche": "job distribution from ATS to search engines and job aggregators for frontline employers",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.inploi.com/",
+     "title": "inploi · The hiring experience platform",
+     "quote": "inploi is the hiring experience platform for large frontline employers.",
+     "check": "ok"
+    },
+    {
+     "field": "distribution",
+     "url": "https://www.inploi.com/product/features/aggregator-advertising",
+     "title": "Job distribution software for frontline hiring · inploi",
+     "quote": "One connection to your ATS sends every live role to the channels candidates already use.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [],
+ "queue": [
+  {
+   "name": "365 Jobs",
+   "url": "",
+   "reason": "Named in a HireRoad article as a UK standalone multi-poster; homepage URL not found in search results and not read"
+  }
+ ]
 }

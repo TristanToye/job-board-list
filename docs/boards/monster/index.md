@@ -21,9 +21,9 @@ Monster is a job board based in Puerto Rico. It was founded in 1999.
 
 **Which languages does Monster support?** This directory records Monster as supporting English, French, German, Dutch, Italian.
 
-**How large is Monster?** Monster ranks #1,845 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Monster?** Monster ranks #1,845 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does Monster connect to?** According to this directory, Monster receives jobs from Workable, Greenhouse; integrates with Pinpoint.
+**Which platforms does Monster connect to?** According to this directory, Monster receives jobs from Workable, Greenhouse; integrates with Pinpoint, Workable.
 
 ## Sources
 

@@ -32,7 +32,7 @@
   "global_rank": 3235,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-self-serve",
@@ -42,7 +42,44 @@
   "public-job-feed",
   "smb"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "BambooHR",
+   "from_id": "bamboohr",
+   "to": "SEEK",
+   "to_id": "seek",
+   "source": "https://www.bamboohr.com/integrations/preferred-apps",
+   "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "BambooHR",
+   "from_id": "bamboohr",
+   "to": "JobStreet",
+   "to_id": "jobstreet",
+   "source": "https://www.bamboohr.com/integrations/preferred-apps",
+   "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "BambooHR",
+   "from_id": "bamboohr",
+   "to": "Jobsdb",
+   "to_id": "jobsdb",
+   "source": "https://www.bamboohr.com/integrations/preferred-apps",
+   "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "BambooHR",
+   "from_id": "bamboohr",
+   "to": "Greenhouse Software",
+   "to_id": "",
+   "source": "https://www.bamboohr.com/integrations/listings/greenhouse-software",
+   "quote": "Home Applicant Tracking Systems Greenhouse Software"
+  }
+ ],
  "review": {
   "board_id": "bamboohr",
   "reviewed": "2026-11-06",

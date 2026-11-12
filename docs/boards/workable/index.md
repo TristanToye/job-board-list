@@ -26,9 +26,9 @@ Workable is an applicant tracking system based in Greece, focused on applicant t
 
 **Does Workable have an API?** According to this directory, Workable offers an API you can use with a self-serve key. Documentation: https://workable.readme.io.
 
-**How large is Workable?** Workable ranks #3,142 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Workable?** Workable ranks #3,142 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does Workable connect to?** According to this directory, Workable sends jobs to Reed, Indeed, Glassdoor, LinkedIn, X job board, Adzuna and others.
+**Which platforms does Workable connect to?** According to this directory, Workable sends jobs to Reed, Indeed, Glassdoor, LinkedIn, X job board, Adzuna and others; integrates with SEEK network, Reed, Totaljobs, Monster, CV-Library, CareerBuilder and others.
 
 **How do you get API access to Workable?** According to Workable's own documentation, access works like this: Account owners generate an API access token in their Workable account; requests authenticate with Bearer token in the Authorization header; Partner Token for official integrations.
 

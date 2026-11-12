@@ -18,7 +18,7 @@ Pinpoint is an applicant tracking system based in United Kingdom, focused on app
 
 **Does Pinpoint have an API?** According to this directory, Pinpoint offers an API you can use with a self-serve key. Documentation: https://developers.pinpointhq.com/docs/authentication.
 
-**How large is Pinpoint?** Pinpoint ranks #30,125 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Pinpoint?** Pinpoint ranks #30,125 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Pinpoint connect to?** According to this directory, Pinpoint sends jobs to Reed; integrates with LinkedIn, Leisurejobs, Indeed, Glassdoor, WISE, Careers In Compliance and others.
 

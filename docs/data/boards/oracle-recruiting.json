@@ -32,7 +32,7 @@
   "global_rank": 92,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-self-serve",
@@ -72,11 +72,11 @@
  ],
  "review": {
   "board_id": "oracle-recruiting",
-  "reviewed": "2026-11-11",
+  "reviewed": "2026-11-12",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;business_model;api_status",
-  "note": "Oracle product page states an Oracle partner network; no pricing, API, parent or language options found on the pages read.",
-  "method": "browser"
+  "fields_not_found": "hq_country;languages;business_model;api_status;ingest_methods",
+  "note": "Taleo page read in fetch and browser reader (HTTP 200); footer shows Oracle copyright, no language switcher, pricing or API stated; sales contact only.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],
@@ -87,22 +87,6 @@
    "title": "Oracle Recruiting Cloud (footer)",
    "accessed": "2026-11-06",
    "quote": "© 2026 Oracle Privacy / Do Not Sell My Info",
-   "quote_check": "ok"
-  },
-  {
-   "field": "parent",
-   "url": "https://www.oracle.com/human-capital-management/taleo/",
-   "title": "Taleo",
-   "accessed": "2026-11-06",
-   "quote": "© 2026 Oracle",
-   "quote_check": "ok"
-  },
-  {
-   "field": "partner_program",
-   "url": "https://www.oracle.com/human-capital-management/taleo/",
-   "title": "Taleo product page, certified partner ecosystem",
-   "accessed": "2026-11-11",
-   "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings and innovative integrations with LinkedIn.",
    "quote_check": "ok"
   },
   {

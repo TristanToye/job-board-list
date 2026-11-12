@@ -18,7 +18,7 @@ Le Forem is a government job site based in Belgium.
 
 **Which languages does Le Forem support?** This directory records Le Forem as supporting French.
 
-**How large is Le Forem?** Le Forem ranks #70,653 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Le Forem?** Le Forem ranks #70,653 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

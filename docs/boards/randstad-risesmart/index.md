@@ -20,7 +20,7 @@ Randstad RiseSmart is an outplacement firm based in Netherlands, focused on outp
 
 **Which languages does Randstad RiseSmart support?** This directory records Randstad RiseSmart as supporting English.
 
-**How large is Randstad RiseSmart?** Randstad RiseSmart ranks #326,013 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Randstad RiseSmart?** Randstad RiseSmart ranks #326,013 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

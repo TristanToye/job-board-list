@@ -1,53 +1,194 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Broadbean",
+   "url": "https://www.broadbean.com",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "fr",
+    "de"
+   ],
+   "partner_program": "yes",
+   "partner_url": "https://www.broadbean.com/partner-with-broadbean/",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Job distribution aggregator. Homepage footer and about page carry a Veritone, Inc. copyright line; the parent relationship is not stated in words. No pricing, headquarters or API information found on the pages read.",
+   "sources": [
     {
-      "name": "Broadbean",
-      "url": "https://www.broadbean.com",
-      "primary_language": "en",
-      "languages_supported": ["en", "fr", "de"],
-      "partner_program": "yes",
-      "partner_url": "https://www.broadbean.com/partner-with-broadbean/",
-      "ingest_methods": ["ATS integration"],
-      "notes": "Job distribution aggregator. Homepage footer and about page carry a Veritone, Inc. copyright line; the parent relationship is not stated in words. No pricing, headquarters or API information found on the pages read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.broadbean.com/company/about-us/", "title": "About Us", "quote": "We are the global leader in job distribution and recruitment advertising, connecting more than 7,000 job boards"},
-        {"field": "parent", "url": "https://www.broadbean.com/company/about-us/", "title": "About Us footer", "quote": "© 2026 VERITONE, INC. ALL RIGHTS RESERVED."},
-        {"field": "languages", "url": "https://www.broadbean.com/", "title": "Homepage language links", "quote": "fr"},
-        {"field": "languages", "url": "https://www.broadbean.com/", "title": "Homepage language links", "quote": "de"},
-        {"field": "languages", "url": "https://www.broadbean.com/", "title": "Homepage", "quote": "Supercharge your direct sourcing efforts with the World’s #1 talent attraction software"},
-        {"field": "partner_program", "url": "https://www.broadbean.com/partner-with-broadbean/", "title": "Partner With Broadbean", "quote": "Become part of the Broadbean family and integrate your recruitment technology with ours"},
-        {"field": "ingest_methods", "url": "https://www.broadbean.com/", "title": "Homepage integrations", "quote": "offers a wide range of integrations, including Vincere, Bullhorn and Itris 9"},
-        {"field": "ingest_methods", "url": "https://www.broadbean.com/", "title": "Homepage solution for direct", "quote": "Post your jobs to all platforms from within your ATS"}
-      ]
+     "field": "existence",
+     "url": "https://www.broadbean.com/company/about-us/",
+     "title": "About Us",
+     "quote": "We are the global leader in job distribution and recruitment advertising, connecting more than 7,000 job boards",
+     "check": "ok"
     },
     {
-      "name": "Oracle Taleo",
-      "url": "https://www.oracle.com/human-capital-management/taleo/",
-      "primary_language": "en",
-      "partner_program": "yes",
-      "partner_url": "https://www.oracle.com/partner/",
-      "notes": "Oracle talent acquisition suite (Taleo Enterprise Edition and Taleo Business Edition). Page footer carries an Oracle copyright line. Page states automated postings and LinkedIn integrations; no pricing, headquarters, language switcher or API information found on the page read.",
-      "sources": [
-        {"field": "existence", "url": "https://www.oracle.com/human-capital-management/taleo/", "title": "Taleo", "quote": "Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates."},
-        {"field": "parent", "url": "https://www.oracle.com/human-capital-management/taleo/", "title": "Taleo footer", "quote": "© 2026 Oracle"},
-        {"field": "languages", "url": "https://www.oracle.com/human-capital-management/taleo/", "title": "Taleo page text", "quote": "Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates."},
-        {"field": "partner_program", "url": "https://www.oracle.com/human-capital-management/taleo/", "title": "Certified partner ecosystem", "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings"},
-        {"field": "partner_program", "url": "https://www.oracle.com/human-capital-management/taleo/", "title": "Taleo page footer links", "quote": "Find a Partner"}
-      ]
+     "field": "parent",
+     "url": "https://www.broadbean.com/company/about-us/",
+     "title": "About Us footer",
+     "quote": "© 2026 VERITONE, INC. ALL RIGHTS RESERVED.",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.broadbean.com/",
+     "title": "Homepage language links",
+     "quote": "fr",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.broadbean.com/",
+     "title": "Homepage language links",
+     "quote": "de",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.broadbean.com/",
+     "title": "Homepage",
+     "quote": "Supercharge your direct sourcing efforts with the World’s #1 talent attraction software",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.broadbean.com/partner-with-broadbean/",
+     "title": "Partner With Broadbean",
+     "quote": "Become part of the Broadbean family and integrate your recruitment technology with ours",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.broadbean.com/",
+     "title": "Homepage integrations",
+     "quote": "offers a wide range of integrations, including Vincere, Bullhorn and Itris 9",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.broadbean.com/",
+     "title": "Homepage solution for direct",
+     "quote": "Post your jobs to all platforms from within your ATS",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Pracuj.pl", "url": "https://www.pracuj.pl", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 403 with a Cloudflare 'Performing security verification' challenge in fetch and in the browser reader."},
-    {"name": "GulfTalent", "url": "https://www.gulftalent.com", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "HTTP 403 with a Cloudflare 'Performing security verification' challenge in fetch and in the browser reader."},
-    {"name": "Broadbean", "url": "https://www.broadbean.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "api_status"], "method": "mixed", "note": "Homepage, about and partner pages read in the browser reader (HTTP 200); copyright line names Veritone, Inc.; no pricing or API stated."},
-    {"name": "Oracle Taleo", "url": "https://www.oracle.com/human-capital-management/taleo/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "ingest_methods"], "method": "mixed", "note": "Taleo page read in fetch and browser reader (HTTP 200); footer shows Oracle copyright, no language switcher, pricing or API stated; sales contact only."},
-    {"name": "SAP SuccessFactors Recruiting", "url": "https://www.successfactors.com", "outcome": "blocked", "fields_not_found": [], "method": "mixed", "note": "successfactors.com returns a 301 to sap.com/products/hcm.html, which returned HTTP 403 Access Denied in the browser reader."}
-  ],
-  "blocked": [
-    {"name": "Pracuj.pl", "url": "https://www.pracuj.pl", "reason": "HTTP 403 Cloudflare security verification in fetch and browser reader"},
-    {"name": "GulfTalent", "url": "https://www.gulftalent.com", "reason": "HTTP 403 Cloudflare security verification in fetch and browser reader"},
-    {"name": "SAP SuccessFactors Recruiting", "url": "https://www.successfactors.com", "reason": "HTTP 403 Access Denied on sap.com/products/hcm.html in browser reader"}
-  ]
+   ]
+  },
+  {
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "primary_language": "en",
+   "partner_program": "yes",
+   "partner_url": "https://www.oracle.com/partner/",
+   "notes": "Oracle talent acquisition suite (Taleo Enterprise Edition and Taleo Business Edition). Page footer carries an Oracle copyright line. Page states automated postings and LinkedIn integrations; no pricing, headquarters, language switcher or API information found on the page read.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo",
+     "quote": "Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates.",
+     "check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo footer",
+     "quote": "© 2026 Oracle",
+     "check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo page text",
+     "quote": "Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Certified partner ecosystem",
+     "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.oracle.com/human-capital-management/taleo/",
+     "title": "Taleo page footer links",
+     "quote": "Find a Partner",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Pracuj.pl",
+   "url": "https://www.pracuj.pl",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HTTP 403 with a Cloudflare 'Performing security verification' challenge in fetch and in the browser reader."
+  },
+  {
+   "name": "GulfTalent",
+   "url": "https://www.gulftalent.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "HTTP 403 with a Cloudflare 'Performing security verification' challenge in fetch and in the browser reader."
+  },
+  {
+   "name": "Broadbean",
+   "url": "https://www.broadbean.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "business_model",
+    "api_status"
+   ],
+   "method": "mixed",
+   "note": "Homepage, about and partner pages read in the browser reader (HTTP 200); copyright line names Veritone, Inc.; no pricing or API stated."
+  },
+  {
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Taleo page read in fetch and browser reader (HTTP 200); footer shows Oracle copyright, no language switcher, pricing or API stated; sales contact only."
+  },
+  {
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "mixed",
+   "note": "successfactors.com returns a 301 to sap.com/products/hcm.html, which returned HTTP 403 Access Denied in the browser reader."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Pracuj.pl",
+   "url": "https://www.pracuj.pl",
+   "reason": "HTTP 403 Cloudflare security verification in fetch and browser reader"
+  },
+  {
+   "name": "GulfTalent",
+   "url": "https://www.gulftalent.com",
+   "reason": "HTTP 403 Cloudflare security verification in fetch and browser reader"
+  },
+  {
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "reason": "HTTP 403 Access Denied on sap.com/products/hcm.html in browser reader"
+  }
+ ]
 }

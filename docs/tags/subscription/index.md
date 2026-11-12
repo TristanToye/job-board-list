@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 91 entries in the directory.
+Employers pay a recurring fee or plan. 93 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -31,6 +31,7 @@ Employers pay a recurring fee or plan. 91 entries in the directory.
 - [JobStreet](https://jobboardlist.com/boards/jobstreet/): board, Partner-only API
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Partner-only API
 - [Bayt](https://jobboardlist.com/boards/bayt/): board
+- [JOIN](https://jobboardlist.com/boards/join/): multiposting
 - [Kwork](https://jobboardlist.com/boards/kwork/): freelance-platform
 - [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, API key on request
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
@@ -81,6 +82,5 @@ Employers pay a recurring fee or plan. 91 entries in the directory.
 - [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
 - [Teach Away](https://jobboardlist.com/boards/teach-away/): niche-board
 - [Tes Jobs](https://jobboardlist.com/boards/tes-jobs/): niche-board
-- [Workeer](https://jobboardlist.com/boards/workeer/): board
 
 Canonical page: https://jobboardlist.com/tags/subscription/

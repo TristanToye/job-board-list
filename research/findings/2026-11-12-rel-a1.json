@@ -1,0 +1,540 @@
+{
+ "mode": "relationships",
+ "edges": [
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "ASFORED",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/asfored/",
+    "title": "ASFORED integration",
+    "quote": "Reach publishing, media and editorial talent in France by posting your jobs on ASFORED directly from Teamtailor.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "B4work Global",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/b4work-global/",
+    "title": "B4work Global integration",
+    "quote": "Publish your jobs on B4work Global!",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "Platsbanken (Arbetsförmedlingen)",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/",
+    "title": "Integrations",
+    "quote": "Här kan du annonsera i Platsbanken",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "Adzuna",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/adzuna/",
+    "title": "Adzuna integration",
+    "quote": "Adzuna is a search engine for job ads used by over 10 million visitors per month",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "Careerjet",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/careerjet/",
+    "title": "Careerjet integration",
+    "quote": "Careerjet is a job search engine designed to make the process of finding a job on the internet easier for the user",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/",
+    "title": "Integrations",
+    "quote": "Enable your candidates to apply for jobs faster using their Linkedin profile",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "#jenesuisPASunCV",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/",
+    "title": "Integrations",
+    "quote": "#jenesuisPASunCV : le premier jobboard inclusif en France",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "50Plus-Jobs",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/",
+    "title": "Integrations",
+    "quote": "50plus-Jobs is the Swiss job board for the generation 50plus",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "Apec",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/",
+    "title": "Integrations",
+    "quote": "Apec (Association for the Employment of Executives) is open to all private sector companies",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "ADEM",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/",
+    "title": "Integrations",
+    "quote": "Empower your hiring in Luxembourg with ADEM",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Teamtailor",
+   "from_url": "https://www.teamtailor.com",
+   "to": "Agefiph",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.teamtailor.com/en-us/integrations/",
+    "title": "Integrations",
+    "quote": "Le site emploi Agefiph est le 1er site emploi handicap en France",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/360006459833-Integrating-with-Indeed-for-sponsored-posts",
+    "title": "Integrating with Indeed for sponsored posts",
+    "quote": "To ensure your jobs are posted on Indeed",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/articles/1500011090281-Connecting-to-LinkedIn-what-options-are-available",
+    "title": "Connecting to LinkedIn: what options are available",
+    "quote": "Post Workable jobs to your LinkedIn Company Page",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "SEEK network",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+    "title": "Job boards",
+    "quote": "Integrating with the Seek network",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "Reed",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+    "title": "Job boards",
+    "quote": "Integrating with Reed",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "Totaljobs",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+    "title": "Job boards",
+    "quote": "Integrating with Totaljobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "Monster",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+    "title": "Job boards",
+    "quote": "Integrating with Monster",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "CV-Library",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+    "title": "Job boards",
+    "quote": "Integrating with CV-Library",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "CareerBuilder",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+    "title": "Job boards",
+    "quote": "Integrating with CareerBuilder",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "Naukri",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+    "title": "Job boards",
+    "quote": "Integrating with Naukri",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "Dice",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+    "title": "Job boards",
+    "quote": "Integrating with Dice (US)",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "IrishJobs",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+    "title": "Job boards",
+    "quote": "Integrating with IrishJobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Workable",
+   "from_url": "https://www.workable.com",
+   "to": "Jobsite",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+    "title": "Job boards",
+    "quote": "Integrating with Jobsite",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Recruitee",
+   "from_url": "https://recruitee.com",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://recruitee.com/career-page-multiposting",
+    "title": "Career site & job postings",
+    "quote": "Easily post to 2,900+ job boards, including Indeed and Google for Jobs.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Recruitee",
+   "from_url": "https://recruitee.com",
+   "to": "Google for Jobs",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://recruitee.com/career-page-multiposting",
+    "title": "Career site & job postings",
+    "quote": "Easily post to 2,900+ job boards, including Indeed and Google for Jobs.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Recruitee",
+   "from_url": "https://recruitee.com",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://recruitee.com/api-webhooks-integrations",
+    "title": "API, webhooks & integrations",
+    "quote": "How does Tellent Recruitee’s LinkedIn integration work for importing candidates?",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JazzHR",
+   "from_url": "https://www.jazzhr.com",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jazzhr.com/marketplace",
+    "title": "Partner Marketplace | JazzHR",
+    "quote": "Indeed helps millions of job seekers and employers find the right fit for them every day.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JazzHR",
+   "from_url": "https://www.jazzhr.com",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jazzhr.com/marketplace",
+    "title": "Partner Marketplace | JazzHR",
+    "quote": "LinkedIn The world’s largest professional network with more than 1 billion members worldwide.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JazzHR",
+   "from_url": "https://www.jazzhr.com",
+   "to": "ZipRecruiter",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jazzhr.com/marketplace",
+    "title": "Partner Marketplace | JazzHR",
+    "quote": "ZipRecruiter Distributing your job to more than 100 job boards and classified sites",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JazzHR",
+   "from_url": "https://www.jazzhr.com",
+   "to": "Idealist",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jazzhr.com/marketplace",
+    "title": "Partner Marketplace | JazzHR",
+    "quote": "With 1.3 million monthly visits, Idealist is the ultimate platform for reaching experienced and mission-driven professionals.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JazzHR",
+   "from_url": "https://www.jazzhr.com",
+   "to": "RemotePOC",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jazzhr.com/marketplace",
+    "title": "Partner Marketplace | JazzHR",
+    "quote": "RemotePOC is the largest job board for professionals of color working remotely.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JazzHR",
+   "from_url": "https://www.jazzhr.com",
+   "to": "RemoteWoman",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jazzhr.com/marketplace",
+    "title": "Partner Marketplace | JazzHR",
+    "quote": "RemoteWoman is the largest job board for women working remotely",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Jobvite",
+   "from_url": "https://www.jobvite.com",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobvite.com/marketplace/",
+    "title": "Jobvite Marketplace",
+    "quote": "Job Distribution Indeed Learn More",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Jobvite",
+   "from_url": "https://www.jobvite.com",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobvite.com/marketplace/",
+    "title": "Jobvite Marketplace",
+    "quote": "Preferred Partners Job Distribution, Social Recruiting, Sourcing LinkedIn",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Jobvite",
+   "from_url": "https://www.jobvite.com",
+   "to": "Glassdoor",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobvite.com/marketplace/",
+    "title": "Jobvite Marketplace",
+    "quote": "Job Distribution Glassdoor Learn More",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Jobvite",
+   "from_url": "https://www.jobvite.com",
+   "to": "VONQ",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobvite.com/marketplace/",
+    "title": "Jobvite Marketplace",
+    "quote": "Job Distribution VONQ Learn More",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Jobvite",
+   "from_url": "https://www.jobvite.com",
+   "to": "Leoforce",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobvite.com/marketplace/",
+    "title": "Jobvite Marketplace",
+    "quote": "Sourcing Leoforce Learn More",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Jobvite",
+   "from_url": "https://www.jobvite.com",
+   "to": "Appcast",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobvite.com/marketplace/",
+    "title": "Jobvite Marketplace",
+    "quote": "Sourcing Appcast Learn More",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Jobvite",
+   "from_url": "https://www.jobvite.com",
+   "to": "CV-Library",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobvite.com/marketplace/",
+    "title": "Jobvite Marketplace",
+    "quote": "Candidate/Job Matching CV-Library Learn More",
+    "check": "ok"
+   }
+  }
+ ],
+ "blocked": [],
+ "queue": [
+  {
+   "name": "Tellent Marketplace",
+   "url": "https://marketplace.tellent.com/",
+   "reason": "Linked from the Recruitee integrations page as its partner marketplace, on a different domain, not read"
+  },
+  {
+   "name": "Workable partner directory (further pages)",
+   "url": "https://partners.workable.com/",
+   "reason": "Only the first page of the Workable partner directory was read; further pages not read"
+  },
+  {
+   "name": "JazzHR partner marketplace (remainder)",
+   "url": "https://www.jazzhr.com/marketplace",
+   "reason": "Page text was cut at 40000 characters; later Job Distribution partners not read"
+  },
+  {
+   "name": "Teamtailor integrations (further listings)",
+   "url": "https://www.teamtailor.com/en-us/integrations/",
+   "reason": "Listing shows a partial set with a Show more control; remaining job board integrations not read"
+  },
+  {
+   "name": "Jobvite marketplace (further providers)",
+   "url": "https://www.jobvite.com/marketplace/",
+   "reason": "Only the first page of the provider list was read; remaining Job Distribution providers not read"
+  }
+ ]
+}

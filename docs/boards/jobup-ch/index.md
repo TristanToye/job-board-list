@@ -20,7 +20,7 @@ jobup.ch is a job board.
 
 **Which languages does jobup.ch support?** This directory records jobup.ch as supporting French, English.
 
-**How large is jobup.ch?** jobup.ch ranks #118,891 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is jobup.ch?** jobup.ch ranks #118,891 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

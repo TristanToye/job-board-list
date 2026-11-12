@@ -1,6 +1,6 @@
 # Pay per post
 
-Employers pay for each job posting. 45 entries in the directory.
+Employers pay for each job posting. 46 entries in the directory.
 
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government
@@ -42,6 +42,7 @@ Employers pay for each job posting. 45 entries in the directory.
 - [Gippslander](https://jobboardlist.com/boards/gippslander/): board
 - [Go Zambia Jobs](https://jobboardlist.com/boards/go-zambia-jobs/): board
 - [Healthcarejobs.ie](https://jobboardlist.com/boards/healthcarejobs-ie/): niche-board
+- [hireDiverse](https://jobboardlist.com/boards/hirediverse/): multiposting
 - [JobAlert](https://jobboardlist.com/boards/jobalert/): aggregator
 - [Kumara Vine](https://jobboardlist.com/boards/kumara-vine/): niche-board
 - [Szukam Pracy](https://jobboardlist.com/boards/szukam-pracy/): board

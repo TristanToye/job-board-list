@@ -18,7 +18,7 @@ Rezi is a career services provider, focused on AI resume builder.
 
 **Does Rezi have an API?** According to this directory, Rezi offers an API you can use with a self-serve key. Documentation: https://www.rezi.ai/employers/candidate-sourcing-api.
 
-**How large is Rezi?** Rezi ranks #50,588 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Rezi?** Rezi ranks #50,588 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

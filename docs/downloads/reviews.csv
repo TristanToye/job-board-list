@@ -215,7 +215,7 @@ subito,2026-11-06,partially-verified,ingest_methods,"Homepage read in browser. S
 berlin-startup-jobs,2026-11-06,partially-verified,hq_country,"About page states founding year. It states jobs must be based in Berlin, but no headquarters statement was found.",fetch
 tesl-canada,2026-11-06,partially-verified,founded,"Ingest by email and the Fredericton, NB mailing address verified on jobs.html. Founding year not stated on about-us.html or jobs.html; the only year is a 2015 copyright line, which is not a founding date.",mixed
 esl-cafe,2026-11-06,partially-verified,,Paid sponsorship prices verified from the advertisements page. Price for posting a job is not shown; the Post a Job link leads to a login or guest checkout page without prices.,browser
-oracle-recruiting,2026-11-11,partially-verified,hq_country;parent;languages;business_model;api_status,"Oracle product page states an Oracle partner network; no pricing, API, parent or language options found on the pages read.",browser
+oracle-recruiting,2026-11-12,partially-verified,hq_country;languages;business_model;api_status;ingest_methods,"Taleo page read in fetch and browser reader (HTTP 200); footer shows Oracle copyright, no language switcher, pricing or API stated; sales contact only.",mixed
 goodwork-canada,2026-11-06,partially-verified,hq_country;founded,"Parent, business model and posting method stated. About page gives only 'Since 2001' and no founding statement; no headquarters stated.",fetch
 computrabajo,2026-11-06,verified,,Legal notice on the entry's own domain names DGNET LTD. as the owner of the site.,fetch
 workeer,2026-11-06,partially-verified,parent,"Languages and business model verified from the about and pricing pages. No parent or owner named on the about, press, pricing or imprint pages; the imprint names only the operator workeer gGmbH and its managing directors.",mixed
@@ -223,7 +223,7 @@ jobtopgun,2026-11-06,partially-verified,hq_country,"Language menu lists only Tha
 vagas-com,2026-11-06,partially-verified,parent;ingest_methods,"Quem somos gives the 1999 start with founding partners named in the timeline. Footer names Vagas Tecnologia as operator but no parent or holding company. No feed, XML, API or integration text found on the pages read.",fetch
 higheredjobs,2026-11-06,unreachable,founded,"Home page and /about both return status 200 with an empty body from the fetch reader and the headless browser reader, so no text could be read or quoted.",mixed
 personio,2026-11-11,blocked,,HTTP 429 with blocked true in the browser reader on the homepage and pricing page.,browser
-successfactors,2026-11-11,blocked,,"Redirects to sap.com, where the browser reader returns HTTP 403 Access Denied with blocked true.",browser
+successfactors,2026-11-12,blocked,,"successfactors.com returns a 301 to sap.com/products/hcm.html, which returned HTTP 403 Access Denied in the browser reader.",mixed
 experteer,2026-11-06,partially-verified,parent,"Imprint names Experteer GmbH with seat in Munich, Germany. Company page gives founding year 2005. Site names no owner company. Languages: only French site text shown, supported languages not stated.",mixed
 pcd-com-br,2026-11-06,partially-verified,hq_country,Founding year 2006 on planos page. Plans use custom proposals and show no prices. No address on contact page.,mixed
 niche-jobs,2026-11-06,partially-verified,hq_country,Launch year 2008 stated on About page. No headquarters location stated. Only the About page was read.,mixed
@@ -239,7 +239,7 @@ yemplea,2026-11-09,partially-verified,hq_country;parent;api_status;partner_progr
 relomote,2026-11-09,blocked,,HTTP 403 in fetch and a Cloudflare verification challenge in the browser reader.,mixed
 buildjob,2026-11-09,partially-verified,parent;api_status;partner_program;ingest_methods,"Tokyo address, Japanese-only site and referral-fee model confirmed; parent and API not stated, and /partner returned 404.",mixed
 bayt,2026-11-09,blocked,,HTTP 403 in fetch and a Cloudflare security challenge in the browser reader.,mixed
-gulftalent,2026-11-09,blocked,,HTTP 403 Cloudflare security verification in fetch and in the browser reader.,mixed
+gulftalent,2026-11-12,blocked,,HTTP 403 with a Cloudflare 'Performing security verification' challenge in fetch and in the browser reader.,mixed
 wanted,2026-11-09,blocked,,HTTP 403 CloudFront request block in fetch and in the browser reader.,mixed
 iprogrammatori,2026-11-09,partially-verified,languages;business_model;api_status;partner_program;parent;ingest_methods,Homepage states the legal seat in Milan. /pricing and /api return HTTP 404. Only an RSS link is present.,fetch
 atypical-advantage,2026-11-09,not-stated,hq_country;parent;languages;business_model,"Homepage, pricing and about pages list three offices and the copyright holder Atypical Platform Pvt. Ltd, with no headquarters or parent stated. The Start Hiring page was not read.",fetch
@@ -382,3 +382,13 @@ incruit,2026-11-09,partially-verified,hq_country;languages;parent;api_status;par
 echinacities,2026-11-09,partially-verified,parent;business_model;api_status;partner_program;ingest_methods,"About page states an English-language site, English and 中文 options and a Beijing address; membership prices not shown.",mixed
 onlinejobs-ph,2026-11-09,partially-verified,hq_country;parent;languages;api_status;partner_program,"Homepage, pricing and about pages read; pricing confirmed; no company address, language switcher, API or partner page found.",browser
 vietnamworks,2026-11-09,blocked,,HTTP 403 with blocked true in the browser reader; not retried.,browser
+pracuj,2026-11-12,blocked,,HTTP 403 with a Cloudflare 'Performing security verification' challenge in fetch and in the browser reader.,mixed
+broadbean,2026-11-12,partially-verified,hq_country;business_model;api_status,"Homepage, about and partner pages read in the browser reader (HTTP 200); copyright line names Veritone, Inc.; no pricing or API stated.",mixed
+teamio,2026-11-12,partially-verified,hq_country;business_model;api_status;partner_program;ingest_methods,"Homepage states the Alma Career parent and Czech and product languages; no headquarters, pricing model, API or partner statement on the board's own pages.",mixed
+join,2026-11-12,partially-verified,hq_country;parent;api_status;partner_program;ingest_methods,"Pricing, language menu and multiposting pages read; headquarters and parent not stated in rendered text and API access method not stated.",mixed
+talroo,2026-11-12,partially-verified,hq_country;parent;languages;api_status,"Pricing, partner, developer and about pages read; headquarters, parent, languages and API key process not stated.",mixed
+jobtarget,2026-11-12,partially-verified,hq_country;parent;languages;business_model;api_status,"Homepage, about and partner pages read; no employer pricing, headquarters, language options or developer page found.",mixed
+idibu,2026-11-12,partially-verified,hq_country;parent;languages;api_status;partner_program;ingest_methods,"Pricing, integrations and about pages read; headquarters, parent, languages, API and partner statements not found.",mixed
+vacancy-poster,2026-11-12,blocked,,"Browser reader returned status 502 with blocked set to true, so the site was recorded as blocked.",browser
+postings-com,2026-11-12,partially-verified,languages;business_model;api_status;ingest_methods,"Homepage, about and partnerships pages read; no pricing, language options, API or inbound posting method found.",mixed
+hirediverse,2026-11-12,partially-verified,parent;languages;api_status,"Homepage, pricing, about and partners pages read; parent, language options and API access not stated.",mixed

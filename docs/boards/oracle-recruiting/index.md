@@ -11,7 +11,7 @@ Oracle Recruiting Cloud is an applicant tracking system based in United States, 
 - Partner program: yes
 - Prominence: Not comparable
 - Tags: Self-serve API, Applicant tracking system, Enterprise, Partner program, Public job feed
-- Review: Reviewed 2026-11-11. Some facts checked against the board's own site. Not stated there: headquarters, owner, languages, pricing and business model, API access.
+- Review: Reviewed 2026-11-12. Some facts checked against the board's own site. Not stated there: headquarters, languages, pricing and business model, API access, how jobs get in.
 - Data status: partly verified against its own site
 
 ## Quick answers
@@ -25,8 +25,6 @@ Oracle Recruiting Cloud is an applicant tracking system based in United States, 
 ## Sources
 
 - [Oracle Recruiting Cloud (footer)](https://www.oracle.com/human-capital-management/recruiting/) (Ownership, checked 2026-11-06): "© 2026 Oracle Privacy / Do Not Sell My Info"
-- [Taleo](https://www.oracle.com/human-capital-management/taleo/) (Ownership, checked 2026-11-06): "© 2026 Oracle"
-- [Taleo product page, certified partner ecosystem](https://www.oracle.com/human-capital-management/taleo/) (Partner program, checked 2026-11-11): "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings and innovative integrations with LinkedIn."
 - [Partner program](https://www.oracle.com/partner/) (Partner program, checked 2026-11-11): "Our partner program gives you choice and flexibility so you can tailor it to best meet your needs."
 
 Canonical page: https://jobboardlist.com/boards/oracle-recruiting/

@@ -30,7 +30,9 @@ Recruitee is an applicant tracking system based in Netherlands, focused on appli
 
 **Does Recruitee have an API?** According to this directory, Recruitee offers an API you can use with a self-serve key. Documentation: https://docs.recruitee.com.
 
-**How large is Recruitee?** Recruitee ranks #5,796 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Recruitee?** Recruitee ranks #5,796 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**Which platforms does Recruitee connect to?** According to this directory, Recruitee sends jobs to Indeed, Google for Jobs; integrates with LinkedIn.
 
 **How do you get API access to Recruitee?** According to Recruitee's own documentation, access works like this: Self-serve: each user generates an API token in Settings > Apps and plugins; requests authenticate with Bearer API token in the Authorization header for the ATS API.
 

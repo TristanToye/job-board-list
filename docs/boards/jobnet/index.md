@@ -20,7 +20,7 @@ Jobnet is a government job site based in Denmark.
 
 **Which languages does Jobnet support?** This directory records Jobnet as supporting Danish.
 
-**How large is Jobnet?** Jobnet ranks #190,397 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jobnet?** Jobnet ranks #190,397 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

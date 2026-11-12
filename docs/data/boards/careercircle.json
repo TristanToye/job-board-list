@@ -23,7 +23,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Site says: \"Our reporting suite provides candidate engagement reports, ATS tracking, and job visibility data you can use directly in OFCCP compliance audits\"",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/careercircle/",
  "indexable": false,
@@ -33,11 +33,12 @@
   "global_rank": 891165,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "diversity-inclusion",
-  "job-board"
+  "job-board",
+  "ofccp-compliance"
  ],
  "connections": [],
  "review": null,
@@ -50,6 +51,14 @@
    "title": "Where Skills Go To Work",
    "accessed": "2026-11-11",
    "quote": "We bridge the gap between skilled individuals and leading organizations",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.careercircle.com/employer-solutions/disability-hiring",
+   "title": "CareerCircle",
+   "accessed": "2026-11-12",
+   "quote": "Our reporting suite provides candidate engagement reports, ATS tracking, and job visibility data you can use directly in OFCCP compliance audits",
    "quote_check": "ok"
   }
  ]

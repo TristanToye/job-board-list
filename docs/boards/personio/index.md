@@ -24,7 +24,7 @@ Personio is an applicant tracking system based in Germany, focused on applicant 
 
 **Does Personio have an API?** According to this directory, Personio offers an API you can use with a self-serve key. Documentation: https://developer.personio.de.
 
-**How large is Personio?** Personio ranks #15,455 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Personio?** Personio ranks #15,455 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **How do you get API access to Personio?** According to Personio's own documentation, access works like this: API credentials created in Marketplace under Connected integrations; requests authenticate with client_id and client_secret credentials; recruiting access token is predefined per account.
 

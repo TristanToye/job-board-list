@@ -19,10 +19,10 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.postings.com/partnerships",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Contact address on the homepage is in San Diego, CA, United States. About page says the company is owned by Mingle, LLC. Partnerships page lists job board, distribution and integration partnerships. Languages, employer pricing, API access and ingest methods not stated on the pages read. Site says: \"Create and Distribute Job Postings\"",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/postings-com/",
  "indexable": false,
@@ -32,14 +32,22 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "job-distribution",
+  "partner-program",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "postings-com",
+  "reviewed": "2026-11-12",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;business_model;api_status;ingest_methods",
+  "note": "Homepage, about and partnerships pages read; no pricing, language options, API or inbound posting method found.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +57,38 @@
    "title": "Postings - Job Posting Software - Custom Career Pages",
    "accessed": "2026-11-11",
    "quote": "Job Posting Software - Custom Career Pages",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.postings.com/",
+   "title": "Homepage contact",
+   "accessed": "2026-11-12",
+   "quote": "San Diego, CA 92101",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.postings.com/about",
+   "title": "About",
+   "accessed": "2026-11-12",
+   "quote": "owned by Mingle, LLC, based in San Diego, California",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.postings.com/partnerships",
+   "title": "Partnerships",
+   "accessed": "2026-11-12",
+   "quote": "Become a Postings.com Partner:",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.postings.com",
+   "title": "Postings - Job Posting Software - Custom Career Pages",
+   "accessed": "2026-11-12",
+   "quote": "Create and Distribute Job Postings",
    "quote_check": "ok"
   }
  ]

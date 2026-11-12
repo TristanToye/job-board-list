@@ -36,7 +36,7 @@
   "global_rank": 13306,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-self-serve",
@@ -162,6 +162,15 @@
    "to_id": "reed",
    "source": "https://www.reed.co.uk/recruiter/ats-integration",
    "quote": "Easily publish your roles on Reed.co.uk via your ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Workable",
+   "from_id": "workable",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
+   "quote": "Integrating with Reed"
   }
  ],
  "review": null,

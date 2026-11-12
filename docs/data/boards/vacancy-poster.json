@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Site says: \"one connection to every board that matters\"",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/vacancy-poster/",
  "indexable": false,
@@ -32,14 +32,21 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "job-distribution",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "vacancy-poster",
+  "reviewed": "2026-11-12",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Browser reader returned status 502 with blocked set to true, so the site was recorded as blocked.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +56,14 @@
    "title": "Multi-Posting Job Posting Software | Vacancy Poster",
    "accessed": "2026-11-11",
    "quote": "Multi-Posting Job Posting Software",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.vacancyposter.com",
+   "title": "Multi-Posting Job Posting Software | Vacancy Poster",
+   "accessed": "2026-11-12",
+   "quote": "one connection to every board that matters",
    "quote_check": "ok"
   }
  ]

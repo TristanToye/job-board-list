@@ -1,6 +1,6 @@
 # Crawl sourced
 
-Collects jobs by crawling employer sites. 11 entries in the directory.
+Collects jobs by crawling employer sites. 12 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
@@ -11,6 +11,7 @@ Collects jobs by crawling employer sites. 11 entries in the directory.
 - [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
 - [alle jobs (AMS public job search)](https://jobboardlist.com/boards/alle-jobs-ams-public-job-search/): government
 - [KarieR.co](https://jobboardlist.com/boards/karier-co/): aggregator
+- [hireDiverse](https://jobboardlist.com/boards/hirediverse/): multiposting
 - [NextTechCareer](https://jobboardlist.com/boards/nexttechcareer/): board
 - [Workey](https://jobboardlist.com/boards/workey/): board
 

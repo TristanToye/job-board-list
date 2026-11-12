@@ -18,7 +18,7 @@ Japan Dev is a niche job board based in Japan, focused on tech. It was founded i
 
 **Which languages does Japan Dev support?** This directory records Japan Dev as supporting English, Japanese.
 
-**How large is Japan Dev?** Japan Dev ranks #261,888 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Japan Dev?** Japan Dev ranks #261,888 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -32,7 +32,7 @@
   "global_rank": 64985,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-self-serve",
@@ -123,6 +123,15 @@
    "to_id": "careerjet",
    "source": "https://www.careerjet.com/recruiter/ats",
    "quote": "Candidates can apply on Careerjet without leaving the site and applications are delivered directly to the ATS."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JazzHR",
+   "from_id": "jazzhr",
+   "to": "RemoteWoman",
+   "to_id": "",
+   "source": "https://www.jazzhr.com/marketplace",
+   "quote": "RemoteWoman is the largest job board for women working remotely"
   }
  ],
  "review": {

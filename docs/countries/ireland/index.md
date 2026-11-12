@@ -1,7 +1,8 @@
 # Job boards in Ireland
 
-8 job boards and related entries based in or serving Ireland.
+9 job boards and related entries based in or serving Ireland.
 
+- [Jobtrain](https://jobboardlist.com/boards/jobtrain/): ats, Small tier
 - [Gradireland](https://jobboardlist.com/boards/gradireland/): niche-board, Small tier
 - [publicjobs.ie](https://jobboardlist.com/boards/publicjobs-ie/): government, Small tier
 - [Recruit Ireland](https://jobboardlist.com/boards/recruit-ireland/): board, Small tier

@@ -18,7 +18,7 @@ Berlin Startup Jobs is a niche job board, focused on tech. It was founded in 201
 
 **Which languages does Berlin Startup Jobs support?** This directory records Berlin Startup Jobs as supporting English, German.
 
-**How large is Berlin Startup Jobs?** Berlin Startup Jobs ranks #490,981 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Berlin Startup Jobs?** Berlin Startup Jobs ranks #490,981 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

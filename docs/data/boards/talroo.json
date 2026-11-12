@@ -16,29 +16,41 @@
  "niche": "programmatic job advertising for frontline hiring",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "pay per click",
  "api_status": "unknown",
- "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "api_docs_url": "https://www.talroo.com/publisher/developers",
+ "partner_program": "yes",
+ "partner_url": "https://www.talroo.com/channel-partners",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Pricing page says employers pay per click against a monthly budget. Homepage says jobs sync from the applicant tracking system. Developers page describes a customizable job API and XML feeds; access process and keys are not stated. Headquarters country and parent not stated. Site says: \"promotes them to job seekers across Jobs2Careers, ReadySetHire, EssentialWorkerJobs, and other channels outside the big job boards.\"",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/talroo/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
   "global_rank": 686069,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
-  "job-distribution"
+  "ats-integration",
+  "job-distribution",
+  "partner-program",
+  "pay-per-click"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "talroo",
+  "reviewed": "2026-11-12",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status",
+  "note": "Pricing, partner, developer and about pages read; headquarters, parent, languages and API key process not stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +60,46 @@
    "title": "Talroo: Reinventing Job Advertising for Frontline Workers",
    "accessed": "2026-11-11",
    "quote": "Reinventing Job Advertising for Frontline Workers",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.talroo.com/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-12",
+   "quote": "You pay only for clicks, and we work to keep each application close to your target.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.talroo.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-12",
+   "quote": "Jobs sync from your applicant tracking system",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.talroo.com/channel-partners",
+   "title": "Channel partners",
+   "accessed": "2026-11-12",
+   "quote": "Why Partner with Talroo?",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.talroo.com/publisher/developers",
+   "title": "Developers",
+   "accessed": "2026-11-12",
+   "quote": "Leverage the power of our customizable job API",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.talroo.com",
+   "title": "Talroo: Reinventing Job Advertising for Frontline Workers",
+   "accessed": "2026-11-12",
+   "quote": "promotes them to job seekers across Jobs2Careers, ReadySetHire, EssentialWorkerJobs, and other channels outside the big job boards.",
    "quote_check": "ok"
   }
  ]

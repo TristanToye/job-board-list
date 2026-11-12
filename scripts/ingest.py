@@ -40,6 +40,7 @@ def slug(s): return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 def host(u):
     try: return urllib.parse.urlparse(u).netloc.lower().removeprefix("www.")
     except Exception: return ""
+def norm_url(u): return re.sub(r"^https?://(www\.)?", "", (u or "").lower()).rstrip("/")
 def regdom(h):
     p = h.split(".")
     if len(p) >= 3 and p[-1] and len(p[-1]) == 2 and p[-2] in {"co","com","gov","org","ne","ac","edu","gc","gouv","gob","go"}: return ".".join(p[-3:])
@@ -79,6 +80,7 @@ def main(argv):
     files = [a for a in args if a.endswith(".json")]
     boards = load("job_boards.csv"); cols = list(boards[0].keys()); by = {r["id"]: r for r in boards}
     byhost = {regdom(host(r["url"])): r for r in boards if r["url"]}
+    byurl = {norm_url(r["url"]): r for r in boards if r["url"]}; byname = {r["name"].lower(): r for r in boards}
     srcs = load("sources.csv"); scols = ["board_id","field","url","title","accessed","quote","quote_check"]
     for s in srcs: s.setdefault("quote", ""); s.setdefault("quote_check", "")
     seen_src = {(s["board_id"], s["field"], s["url"]) for s in srcs}
@@ -101,7 +103,9 @@ def main(argv):
             name = clean(b.get("name"), 80); url = clean(b.get("url"), 200)
             if not name or not re.match(r"https?://", url) or not host(url): reject("board", name or "?", "missing name or bad url"); stats["rejected"] += 1; continue
             if bad_text(json.dumps(b)): reject("board", name, "contains disallowed text"); stats["rejected"] += 1; continue
-            site = regdom(host(url)); row = byhost.get(site) or by.get(slug(name))  # same site, or same name (regional domains)
+            site = regdom(host(url))
+            # exact address or exact name first: several products can share one domain (for example two Oracle products on oracle.com)
+            row = byurl.get(norm_url(url)) or byname.get(name.lower()) or by.get(slug(name)) or byhost.get(site)
             if row is not None: site = regdom(host(row["url"])) or site
             if mode == "verify" and row is None: reject("board", name, "verify finding for unknown board"); stats["rejected"] += 1; continue
             new = row is None

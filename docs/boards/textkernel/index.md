@@ -20,7 +20,7 @@ Textkernel is a labour market information source, focused on real-time private a
 
 **Which languages does Textkernel support?** This directory records Textkernel as supporting English, Dutch, French, German.
 
-**How large is Textkernel?** Textkernel ranks #316,521 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Textkernel?** Textkernel ranks #316,521 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

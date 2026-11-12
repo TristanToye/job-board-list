@@ -32,7 +32,7 @@
   "global_rank": 18668,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-self-serve",
@@ -44,11 +44,11 @@
  "connections": [],
  "review": {
   "board_id": "successfactors",
-  "reviewed": "2026-11-11",
+  "reviewed": "2026-11-12",
   "outcome": "blocked",
   "fields_not_found": "",
-  "note": "Redirects to sap.com, where the browser reader returns HTTP 403 Access Denied with blocked true.",
-  "method": "browser"
+  "note": "successfactors.com returns a 301 to sap.com/products/hcm.html, which returned HTTP 403 Access Denied in the browser reader.",
+  "method": "mixed"
  },
  "owners": [],
  "scale": [],

@@ -18,7 +18,7 @@ The Wheel is a niche job board, focused on nonprofit.
 
 **Which languages does The Wheel support?** This directory records The Wheel as supporting English.
 
-**How large is The Wheel?** The Wheel ranks #553,654 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is The Wheel?** The Wheel ranks #553,654 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

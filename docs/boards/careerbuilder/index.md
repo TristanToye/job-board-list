@@ -19,9 +19,9 @@ CareerBuilder is a job board based in Puerto Rico. It was founded in 1995.
 
 **Which languages does CareerBuilder support?** This directory records CareerBuilder as supporting English.
 
-**How large is CareerBuilder?** CareerBuilder ranks #3,703 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is CareerBuilder?** CareerBuilder ranks #3,703 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does CareerBuilder connect to?** According to this directory, CareerBuilder receives jobs from Workable; integrates with Pinpoint.
+**Which platforms does CareerBuilder connect to?** According to this directory, CareerBuilder receives jobs from Workable; integrates with Pinpoint, Workable.
 
 ## Sources
 

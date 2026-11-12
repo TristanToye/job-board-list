@@ -1,6 +1,6 @@
 # Job boards in Worldwide
 
-91 job boards and related entries based in or serving Worldwide.
+95 job boards and related entries based in or serving Worldwide.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier, Open API (no key)
@@ -29,6 +29,7 @@
 - [Resume Genius](https://jobboardlist.com/boards/resume-genius/): career-services, Established tier
 - [Kickresume](https://jobboardlist.com/boards/kickresume/): career-services, Established tier
 - [TopResume](https://jobboardlist.com/boards/topresume/): career-services, Established tier
+- [Bullhorn](https://jobboardlist.com/boards/bullhorn/): ats, Established tier
 - [Kelly Services](https://jobboardlist.com/boards/kelly-services/): staffing, Established tier
 - [Spencer Stuart](https://jobboardlist.com/boards/spencer-stuart/): recruiting-services, Established tier
 - [Enhancv](https://jobboardlist.com/boards/enhancv/): career-services, Established tier
@@ -59,6 +60,7 @@
 - [Kforce](https://jobboardlist.com/boards/kforce/): staffing, Small tier
 - [Impactpool](https://jobboardlist.com/boards/impactpool/): niche-board, Small tier
 - [Burning Glass Institute](https://jobboardlist.com/boards/burning-glass-institute/): lmi, Small tier
+- [Jobtrain](https://jobboardlist.com/boards/jobtrain/): ats, Small tier
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech, Small tier
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, Small tier, API key on request
 - [freelance.de](https://jobboardlist.com/boards/freelance-de/): freelance-platform, Small tier
@@ -72,6 +74,7 @@
 - [VONQ](https://jobboardlist.com/boards/vonq/): programmatic-distribution, Small tier
 - [Resumeble](https://jobboardlist.com/boards/resumeble/): career-services, Small tier
 - [Moka ATS (MokaHR)](https://jobboardlist.com/boards/moka-ats-mokahr/): ats, Small tier
+- [LogicMelon](https://jobboardlist.com/boards/logicmelon/): multiposting, Small tier
 - [DirectEmployers Association](https://jobboardlist.com/boards/directemployers-association/): multiposting, Small tier
 - [IMPACT Group](https://jobboardlist.com/boards/impact-group/): outplacement, Small tier
 - [Talroo](https://jobboardlist.com/boards/talroo/): programmatic-distribution, Small tier
@@ -93,5 +96,6 @@
 - [Career Poster](https://jobboardlist.com/boards/career-poster/): multiposting
 - [Jobdigger](https://jobboardlist.com/boards/jobdigger/): feed-aggregator
 - [HR Unlimited](https://jobboardlist.com/boards/hr-unlimited/): multiposting
+- [inploi](https://jobboardlist.com/boards/inploi/): feed-aggregator
 
 Canonical page: https://jobboardlist.com/countries/worldwide/

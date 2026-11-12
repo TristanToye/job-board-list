@@ -18,7 +18,7 @@ apna is a job board based in India, focused on blue-collar/gig.
 
 **Which languages does apna support?** This directory records apna as supporting English, Hindi.
 
-**How large is apna?** apna ranks #218,451 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is apna?** apna ranks #218,451 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

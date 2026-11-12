@@ -8,8 +8,10 @@
  "founded": "",
  "markets": "Global",
  "countries_served": [],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "North America",
  "niche": "applicant tracking system",
  "segment": "enterprise",
@@ -18,19 +20,19 @@
  "api_status": "partner-only",
  "api_docs_url": "",
  "partner_program": "yes",
- "partner_url": "",
+ "partner_url": "https://www.oracle.com/partner/",
  "ingest_methods": [],
- "notes": "Legacy; migrating to Oracle Recruiting Cloud. Write API: partner.",
- "confidence": "seed-unverified",
+ "notes": "Legacy; migrating to Oracle Recruiting Cloud. Write API: partner. Oracle talent acquisition suite (Taleo Enterprise Edition and Taleo Business Edition). Page footer carries an Oracle copyright line. Page states automated postings and LinkedIn integrations; no pricing, headquarters, language switcher or API information found on the page read.",
+ "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/taleo/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
   "global_rank": 92,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-partner-only",
@@ -42,5 +44,38 @@
  "review": null,
  "owners": [],
  "scale": [],
- "sources": []
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "title": "Taleo",
+   "accessed": "2026-11-12",
+   "quote": "Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "title": "Taleo footer",
+   "accessed": "2026-11-12",
+   "quote": "© 2026 Oracle",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "title": "Taleo page text",
+   "accessed": "2026-11-12",
+   "quote": "Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "title": "Certified partner ecosystem",
+   "accessed": "2026-11-12",
+   "quote": "Gain access to Oracle’s extensive partner network, featuring more than 200 Taleo-certified offerings",
+   "quote_check": "ok"
+  }
+ ]
 }

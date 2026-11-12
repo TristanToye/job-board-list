@@ -10,19 +10,24 @@
  "countries_served": [
   "CZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "cs",
+ "languages_supported": [
+  "cs",
+  "en",
+  "pl",
+  "sk"
+ ],
  "region": "Europe",
  "niche": "recruitment software (ATS)",
  "segment": "",
- "parent": "",
+ "parent": "Alma Career Oy",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Footer names Alma Career Oy and its subsidiaries; homepage says Teamio is part of the Alma Career family. Languages listed are product languages for international companies, not a site language menu. Homepage offers a 30-day free trial. Vacancy import API documentation is hosted at integrations.almacareer.com, outside the board's own domain, so it is not recorded as a source. Headquarters country ",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/teamio/",
  "indexable": false,
@@ -32,7 +37,7 @@
   "global_rank": 513641,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "job-distribution",
@@ -67,7 +72,14 @@
    "quote": "Víte, že můžete inzerovat třeba i na slovenské Profesia.sk?"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "teamio",
+  "reviewed": "2026-11-12",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage states the Alma Career parent and Czech and product languages; no headquarters, pricing model, API or partner statement on the board's own pages.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -77,6 +89,22 @@
    "title": "Teamio features page",
    "accessed": "2026-11-09",
    "quote": "External advertising places are within reach in Teamio,",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://cz.teamio.com/",
+   "title": "Homepage footer",
+   "accessed": "2026-11-12",
+   "quote": "© Alma Career Oy and its subsidiaries",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://cz.teamio.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-12",
+   "quote": "Teamio je moderní ATS",
    "quote_check": "ok"
   }
  ]

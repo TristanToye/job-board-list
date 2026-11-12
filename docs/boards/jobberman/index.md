@@ -19,7 +19,7 @@ Jobberman is a job board based in Nigeria. It was founded in 2009.
 
 **Which languages does Jobberman support?** This directory records Jobberman as supporting English.
 
-**How large is Jobberman?** Jobberman ranks #161,798 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jobberman?** Jobberman ranks #161,798 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

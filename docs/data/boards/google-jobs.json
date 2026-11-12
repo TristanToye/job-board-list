@@ -35,7 +35,7 @@
   "global_rank": 1,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-11"
+  "list_date": "2026-11-12"
  },
  "tags": [
   "api-open",
@@ -52,6 +52,15 @@
    "to_id": "google-jobs",
    "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Recruitee",
+   "from_id": "recruitee",
+   "to": "Google for Jobs",
+   "to_id": "google-jobs",
+   "source": "https://recruitee.com/career-page-multiposting",
+   "quote": "Easily post to 2,900+ job boards, including Indeed and Google for Jobs."
   }
  ],
  "review": null,

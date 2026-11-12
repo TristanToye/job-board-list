@@ -18,7 +18,7 @@ Banco Nacional de Empregos is a job board.
 
 **Which languages does Banco Nacional de Empregos support?** This directory records Banco Nacional de Empregos as supporting Portuguese.
 
-**How large is Banco Nacional de Empregos?** Banco Nacional de Empregos ranks #284,156 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Banco Nacional de Empregos?** Banco Nacional de Empregos ranks #284,156 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

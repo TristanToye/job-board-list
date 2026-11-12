@@ -1,0 +1,143 @@
+{
+ "mode": "relationships",
+ "edges": [
+  {
+   "from": "BambooHR",
+   "from_url": "https://www.bamboohr.com",
+   "to": "SEEK",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.bamboohr.com/integrations/preferred-apps",
+    "title": "BambooHR preferred apps",
+    "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "BambooHR",
+   "from_url": "https://www.bamboohr.com",
+   "to": "Jobstreet",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.bamboohr.com/integrations/preferred-apps",
+    "title": "BambooHR preferred apps",
+    "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "BambooHR",
+   "from_url": "https://www.bamboohr.com",
+   "to": "jobsdb",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.bamboohr.com/integrations/preferred-apps",
+    "title": "BambooHR preferred apps",
+    "quote": "Post to SEEK, Jobstreet, and jobsdb in minutes.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "BambooHR",
+   "from_url": "https://www.bamboohr.com",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.bamboohr.com/integrations/preferred-apps",
+    "title": "BambooHR preferred apps",
+    "quote": "Promote your open roles to LinkedIn’s 1B+ professional network",
+    "check": "mismatch"
+   }
+  },
+  {
+   "from": "BambooHR",
+   "from_url": "https://www.bamboohr.com",
+   "to": "ZipRecruiter",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.bamboohr.com/integrations/preferred-apps",
+    "title": "BambooHR preferred apps",
+    "quote": "ZipRecruiter helps you find qualified candidates",
+    "check": "mismatch"
+   }
+  },
+  {
+   "from": "BambooHR",
+   "from_url": "https://www.bamboohr.com",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.bamboohr.com/integrations/preferred-apps",
+    "title": "BambooHR preferred apps",
+    "quote": "Indeed.com is the world's #1 job site",
+    "check": "mismatch"
+   }
+  },
+  {
+   "from": "BambooHR",
+   "from_url": "https://www.bamboohr.com",
+   "to": "Greenhouse Software",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.bamboohr.com/integrations/listings/greenhouse-software",
+    "title": "BambooHR marketplace: Greenhouse Software",
+    "quote": "Home Applicant Tracking Systems Greenhouse Software",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "iCIMS",
+   "from_url": "https://www.icims.com",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://marketplace.icims.com/en-US/listing?locale=en-US",
+    "title": "iCIMS Marketplace listing",
+    "quote": "Connect iCIMS Recruit with LinkedIn Recruiter for streamlined sourcing",
+    "check": "ok"
+   }
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Breezy HR",
+   "url": "https://breezy.hr",
+   "reason": "HTTP 403 (CloudFront); browser reader also blocked"
+  },
+  {
+   "name": "Personio",
+   "url": "https://www.personio.com",
+   "reason": "HTTP 429 (Vercel security checkpoint); browser reader also blocked"
+  },
+  {
+   "name": "SmartRecruiters job distribution page",
+   "url": "https://www.smartrecruiters.com/recruiting-software/job-posting/",
+   "reason": "HTTP 403; browser reader also blocked"
+  },
+  {
+   "name": "SmartRecruiters marketplace",
+   "url": "https://marketplace.smartrecruiters.com/",
+   "reason": "HTTP 403 (Cloudflare verification); browser reader also blocked"
+  }
+ ],
+ "queue": [
+  {
+   "name": "iCIMS Marketplace job advertising and job posting apps",
+   "url": "https://marketplace.icims.com/en-US/listing?locale=en-US",
+   "reason": "Job Advertising and Job Posting categories not reached; only first listing page read, no job boards named"
+  },
+  {
+   "name": "StepStone Connect certified ATS partners",
+   "url": "https://www.stepstone.de/e-recruiting/produkte/connect/",
+   "reason": "Page shows partner logos and says 50% of ATSs are integrated, but names no ATS in text"
+  }
+ ]
+}

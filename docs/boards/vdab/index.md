@@ -20,7 +20,7 @@ VDAB is a government job site.
 
 **Which languages does VDAB support?** This directory records VDAB as supporting Dutch.
 
-**How large is VDAB?** VDAB ranks #33,639 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is VDAB?** VDAB ranks #33,639 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

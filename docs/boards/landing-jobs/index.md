@@ -20,7 +20,7 @@ Landing.jobs is a niche job board, focused on tech.
 
 **Which languages does Landing.jobs support?** This directory records Landing.jobs as supporting English.
 
-**How large is Landing.jobs?** Landing.jobs ranks #282,159 among all websites by web link popularity (Majestic Million, 2026-11-11), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Landing.jobs?** Landing.jobs ranks #282,159 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 
