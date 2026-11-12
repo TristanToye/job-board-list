@@ -45,6 +45,9 @@ def plan(n):
     for (bid, f), lst in att.items():
         for a in lst: tried[f] += 1; found[f] += a["outcome"] == "found"
     prior = {f: (found[f] + 1) / (tried[f] + 3) for f in FIELDS}
+    # research priority (owner decision, 2026-11-12): integration and ownership facts answer what searchers ask, so they count double; founding year and headquarters count half
+    FOCUS = {"api_status": 2.0, "partner_program": 2.0, "ingest_methods": 2.0, "parent": 2.0, "founded": 0.5, "hq_country": 0.5}
+    prior = {f: prior[f] * FOCUS.get(f, 1.0) for f in FIELDS}
     last = set(state()["rounds"].get(str(n - 1), {}).get("entries", [])) | set(state()["rounds"].get(str(n - 2), {}).get("entries", []))  # scouted in either of the last two rounds
     def weight(i):
         r = rank.get(i)
