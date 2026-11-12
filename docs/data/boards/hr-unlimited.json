@@ -23,7 +23,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Site says: \"Automates the distribution of required job postings across state systems\" Site says: \"Our Applicant Tracking System (ATS) streamlines recruiting while supporting compliance and scalability.\" HR compliance consultancy offering an applicant tracking system and mandatory job listings compliance services. No pricing, API, partner program, language switcher or headquarters address found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/hr-unlimited/",
  "indexable": false,
@@ -41,7 +41,14 @@
   "public-sector"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "hr-unlimited",
+  "reviewed": "2026-11-12",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage describes compliance services, an ATS and mandatory job listings distribution; none of the missing facts are stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -51,6 +58,14 @@
    "title": "Talent Management and Compliance Tools",
    "accessed": "2026-11-11",
    "quote": "Meet VEVRAA job posting requirements with ease",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.hrunlimitedinc.com",
+   "title": "Homepage",
+   "accessed": "2026-11-12",
+   "quote": "Automates the distribution of required job postings across state systems",
    "quote_check": "ok"
   }
  ]

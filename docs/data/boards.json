@@ -47962,7 +47962,7 @@
    "url": "https://pandologic.com",
    "domains": "",
    "type": "programmatic-distribution",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -47977,13 +47977,13 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://pandologic.com/partners/",
    "ingest_methods": [],
-   "notes": "Site says: \"leverages the best of programmatic technology with conversational AI\"",
+   "notes": "Site says: \"leverages the best of programmatic technology with conversational AI\" Site says: \"PandoLogic is now Veritone Hire\" Site says: \"pandoIQ is PandoLogic’s programmatic job advertising platform that intelligently automates job advertising placement across PandoLogic’s network of thousands of job sites.\" Programmatic job advertising (pandoIQ) across a network of job sites. Homepage says PandoLogic is now Veritone Hire. No pricing, language switcher or API found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/pandologic/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -47993,10 +47993,18 @@
     "list_date": "2026-11-12"
    },
    "tags": [
-    "job-distribution"
+    "job-distribution",
+    "partner-program"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "pandologic",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;business_model;api_status;ingest_methods;parent",
+    "note": "Homepage and partners page state an Irvine, CA address and a partner program; no pricing, language switcher or API was stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -48014,6 +48022,22 @@
      "title": "Programmatic Recruitment Software Powered by AI | Pandologic",
      "accessed": "2026-11-12",
      "quote": "leverages the best of programmatic technology with conversational AI",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://pandologic.com/partners/",
+     "title": "Partners page footer",
+     "accessed": "2026-11-12",
+     "quote": "Irvine, CA 92617",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://pandologic.com/partners/",
+     "title": "Partners page",
+     "accessed": "2026-11-12",
+     "quote": "We have two partnership paths.",
      "quote_check": "ok"
     }
    ]
@@ -48037,16 +48061,16 @@
    "niche": "job distribution and recruitment solutions for employers",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "nonprofit membership association (no per-post price shown)",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://directemployers.org/partnerships/",
    "ingest_methods": [],
-   "notes": "Site says: \"custom job distribution for companies with up to five jobs\"",
+   "notes": "Site says: \"custom job distribution for companies with up to five jobs\" Site says: \"VEVRAA mandatory job listing compliance solution for businesses with 50 jobs or fewer on average each month\" Site says: \"Self-service VEVRAA mandatory job listing paired with custom job distribution for companies with up to five jobs\" Nonprofit member-owned association offering OFCCP and VEVRAA job listing compliance, recruitment marketing and partnerships. No API, language switcher or headquarters address found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/directemployers-association/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -48056,10 +48080,19 @@
     "list_date": "2026-11-12"
    },
    "tags": [
-    "job-distribution"
+    "job-distribution",
+    "ofccp-compliance",
+    "partner-program"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "directemployers-association",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status;ingest_methods",
+    "note": "Homepage and partnerships page state membership pricing stance, partner program and VEVRAA compliance offers; no headquarters address or API stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -48078,6 +48111,38 @@
      "accessed": "2026-11-12",
      "quote": "custom job distribution for companies with up to five jobs",
      "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://directemployers.org",
+     "title": "Home",
+     "accessed": "2026-11-12",
+     "quote": "We aren’t seeking to increase our prices based upon the market or capitalize on your needs.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://directemployers.org/partnerships/",
+     "title": "Partnerships",
+     "accessed": "2026-11-12",
+     "quote": "Partner with DirectEmployers and gain immediate access to 1,100+ top employers committed to equal employment opportunities.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://directemployers.org",
+     "title": "Home solutions",
+     "accessed": "2026-11-12",
+     "quote": "VEVRAA mandatory job listing compliance solution for businesses with 50 jobs or fewer on average each month",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://directemployers.org",
+     "title": "Home solutions",
+     "accessed": "2026-11-12",
+     "quote": "Self-service VEVRAA mandatory job listing paired with custom job distribution for companies with up to five jobs",
+     "quote_check": "ok"
     }
    ]
   },
@@ -48093,8 +48158,12 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "de",
+    "fr"
+   ],
    "region": "Global",
    "niche": "talent acquisition platform with programmatic ad optimisation",
    "segment": "",
@@ -48104,8 +48173,10 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "Site says: \"Optimize programmatic ad spend.\"",
+   "ingest_methods": [
+    "ATS integration"
+   ],
+   "notes": "Site says: \"Optimize programmatic ad spend.\" Site says: \"The Radancy Talent Acquisition Cloud connects with more than 60 leading ATS, HCM and application platforms\" Talent acquisition platform. Homepage offers Book a Demo and cost calculator only. Partnerships page lists ATS, HCM and job board integrations. No pricing, API or headquarters address found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/radancy/",
    "indexable": false,
@@ -48118,10 +48189,18 @@
     "list_date": "2026-11-12"
    },
    "tags": [
+    "ats-integration",
     "job-distribution"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "radancy",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;business_model;api_status;partner_program",
+    "note": "Homepage shows three language options and ATS integration; no pricing, API, partner program or headquarters stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -48140,6 +48219,30 @@
      "accessed": "2026-11-12",
      "quote": "Optimize programmatic ad spend.",
      "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.radancy.com",
+     "title": "Homepage language switcher",
+     "accessed": "2026-11-12",
+     "quote": "English Deutsch Français",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.radancy.com",
+     "title": "Homepage integrations",
+     "accessed": "2026-11-12",
+     "quote": "Integrate effortlessly with your existing ATS, HCM and workflow tools to drive day-one efficiency and faster ROI.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.radancy.com/partnerships/",
+     "title": "Partnerships",
+     "accessed": "2026-11-12",
+     "quote": "The Radancy Talent Acquisition Cloud connects with more than 60 leading ATS, HCM and application platforms",
+     "quote_check": "ok"
     }
    ]
   },
@@ -48149,7 +48252,7 @@
    "url": "https://careerposter.co.uk",
    "domains": "",
    "type": "multiposting",
-   "hq_country": "",
+   "hq_country": "UK",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -48162,16 +48265,18 @@
    "niche": "job advert multiposting for UK employers",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "per post (job board packages from £195 + VAT)",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "notes": "UK multiposting service with a free hiring portal and package pricing. Applications go to the portal, email or the employer website. No API, language switcher or partner program found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/career-poster/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not in top 1M",
@@ -48181,10 +48286,19 @@
     "list_date": "2026-11-12"
    },
    "tags": [
-    "job-distribution"
+    "job-distribution",
+    "pay-per-post",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "career-poster",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "languages;api_status;partner_program;parent",
+    "note": "Homepage states a Manchester address, per-advert package prices and manual submission; no API, language switcher or parent stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -48194,6 +48308,30 @@
      "title": "Career Poster - Advertise on Multiple Job Boards from £145",
      "accessed": "2026-11-11",
      "quote": "Post your job vacancies across 200+ job boards with free & optional applicant tracking, AI recruitment tools and UK support included.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://careerposter.co.uk",
+     "title": "Footer address",
+     "accessed": "2026-11-12",
+     "quote": "Suite 192 792 Wilmslow Road Didsbury Manchester M20 6UG",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://careerposter.co.uk",
+     "title": "Homepage",
+     "accessed": "2026-11-12",
+     "quote": "Post a job on multiple job boards today from £195.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://careerposter.co.uk",
+     "title": "Homepage post a job steps",
+     "accessed": "2026-11-12",
+     "quote": "Select a package that suits your needs and submit your job details.",
      "quote_check": "ok"
     }
    ]
@@ -48214,19 +48352,23 @@
     "DE",
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "nl",
+   "languages_supported": [
+    "nl",
+    "fr",
+    "de"
+   ],
    "region": "Europe",
    "niche": "vacancy data aggregation for intermediaries and labour market analysis",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "SaaS, price on request via online demo",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site says: \"© 2026 Jobdigger B.V.\" Site says: \"Jobdigger en BCS HR Software slaan de handen ineen en gaan de samenwerking aan als partners.\" Labour market data and SaaS for intermediaries, career professionals and municipalities, not employers. Legal entity Jobdigger B.V. Available inside most ATS systems per the homepage. Headquarters and parent not stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobdigger/",
    "indexable": false,
@@ -48244,7 +48386,14 @@
     "trades-labour"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobdigger",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;api_status;ingest_methods",
+    "note": "Homepage and partners page state language options, demo-only pricing and a partner program; the /partnern/ link returned 404 in the browser reader and /partners/ was readable.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -48254,6 +48403,38 @@
      "title": "Waardevol inzicht door slim gebruik van arbeidsmarktdata - Jobdigger",
      "accessed": "2026-11-11",
      "quote": "Jobdigger Insights biedt intermediairs vacaturedata voor leadgeneratie, betrouwbaar en actueel inzicht in wat er op de arbeidsmarkt speelt",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.jobdigger.nl",
+     "title": "Homepage language switcher",
+     "accessed": "2026-11-12",
+     "quote": "NL BE (NL) BE (FR) FR DE",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.jobdigger.nl",
+     "title": "Homepage",
+     "accessed": "2026-11-12",
+     "quote": "Vraag dan nu vrijblijvend een online demo aan.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.jobdigger.nl",
+     "title": "Homepage footer",
+     "accessed": "2026-11-12",
+     "quote": "© 2026 Jobdigger B.V.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.jobdigger.nl/nieuws/nieuwe-samenwerking-jobdigger-integreert-met-bcs-hr-software/",
+     "title": "BCS HR Software partnership news",
+     "accessed": "2026-11-12",
+     "quote": "Jobdigger en BCS HR Software slaan de handen ineen en gaan de samenwerking aan als partners.",
      "quote_check": "ok"
     }
    ]
@@ -48270,22 +48451,27 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "talent attraction and programmatic recruitment advertising",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "pay per applicant (CPA+ option) and software subscription for ATS users",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.vonq.com/vonq-hapi-partner-support/",
+   "ingest_methods": [
+    "ATS integration",
+    "API"
+   ],
+   "notes": "Site says: \"giving customers access to 5.000+ job boards and media channels.\" Recruitment marketing and multiposting group with the EQO platform and EQO HAPI for ATS, CRM and HCM partners. Access to the API is described through joining the partner ecosystem; no public developer docs found. Headquarters and parent not stated on pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/vonq/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -48295,7 +48481,10 @@
     "list_date": "2026-11-12"
    },
    "tags": [
-    "job-distribution"
+    "ats-integration",
+    "job-distribution",
+    "partner-program",
+    "subscription"
    ],
    "connections": [
     {
@@ -48308,7 +48497,14 @@
      "quote": "Job Distribution VONQ Learn More"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "vonq",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages",
+    "note": "EQO HAPI page states CPA+ pricing, a partner ecosystem and a 5,000+ board marketplace; headquarters, parent and a language list beyond EN were not stated on pages read.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -48319,6 +48515,54 @@
      "accessed": "2026-11-11",
      "quote": "EQO runs your entire top-of-funnel as one connected agentic workflow",
      "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.vonq.com",
+     "title": "Homepage language switcher",
+     "accessed": "2026-11-12",
+     "quote": "EN",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.vonq.com/eqo-hapi/",
+     "title": "EQO HAPI",
+     "accessed": "2026-11-12",
+     "quote": "Performance based job advertising where customers pay a fixed price per completed, AI-screened applicant delivered into your platform.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.vonq.com/eqo-hapi/",
+     "title": "EQO HAPI",
+     "accessed": "2026-11-12",
+     "quote": "Each stage of EQO can be integrated into your platform through the same API",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.vonq.com/eqo-hapi/",
+     "title": "EQO HAPI",
+     "accessed": "2026-11-12",
+     "quote": "Join EQO HAPI ecosystem",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.vonq.com",
+     "title": "Homepage",
+     "accessed": "2026-11-12",
+     "quote": "natively embedded in 100+ ATSs",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.vonq.com/eqo-hapi/",
+     "title": "EQO HAPI",
+     "accessed": "2026-11-12",
+     "quote": "giving customers access to 5.000+ job boards and media channels.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -48328,14 +48572,17 @@
    "url": "https://www.jobiqo.com",
    "domains": "",
    "type": "programmatic-distribution",
-   "hq_country": "",
+   "hq_country": "AT",
    "founded": "",
    "markets": "",
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "de"
+   ],
    "region": "Global",
    "niche": "job board software with programmatic job advertising",
    "segment": "",
@@ -48343,13 +48590,16 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.jobiqo.com/products/partners-integration/",
+   "ingest_methods": [
+    "crawl",
+    "feed"
+   ],
+   "notes": "White-label job board software vendor (Jobiqo GmbH) and programmatic advertising service Jobiqo AIR. Search and Match is described as API-based, but no developer docs or access terms were found. Parent not stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobiqo/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -48359,11 +48609,20 @@
     "list_date": "2026-11-12"
    },
    "tags": [
+    "crawl-sourced",
     "job-distribution",
+    "partner-program",
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobiqo",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;api_status",
+    "note": "Homepage, pricing and partners pages state a Vienna address, language options and partner integrations; no parent or developer API docs stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -48373,6 +48632,46 @@
      "title": "Leading Job Board Software and Recruitment Marketing Automation - Jobiqo",
      "accessed": "2026-11-11",
      "quote": "programmatic job advertising services (Jobiqo AIR)",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.jobiqo.com",
+     "title": "Footer address",
+     "accessed": "2026-11-12",
+     "quote": "Postgasse 8b 1010 Vienna, Austria",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.jobiqo.com",
+     "title": "Homepage language menu",
+     "accessed": "2026-11-12",
+     "quote": "LANGUAGES DEUTSCH ENGLISH",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.jobiqo.com",
+     "title": "Search and Match",
+     "accessed": "2026-11-12",
+     "quote": "The API-based and easy-to-tailor service allows job platforms to implement skill-based matching",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.jobiqo.com/products/partners-integration/",
+     "title": "Partners and integrations",
+     "accessed": "2026-11-12",
+     "quote": "Join our ecosystem as a customer and benefit from our integrated partner network",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobiqo.com/products/partners-integration/",
+     "title": "Partners and integrations",
+     "accessed": "2026-11-12",
+     "quote": "Specific Crawlers and Backfill Feeds",
      "quote_check": "ok"
     }
    ]
@@ -48399,10 +48698,10 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://circaworks.com/partner-with-circa/",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site says: \"Mitratech, your trusted partner in inclusive recruiting software and OFCCP-compliant outreach management.\" Site says: \"Mitratech Circa simplifies recordkeeping and applicant tracking\" Inclusive recruiting and OFCCP compliance software, branded Mitratech Circa on the site. Partner program covers lead referral and reseller partners. No pricing, API, language switcher or headquarters address found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/circa/",
    "indexable": false,
@@ -48418,10 +48717,18 @@
     "diversity-inclusion",
     "job-distribution",
     "ofccp-compliance",
+    "partner-program",
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "circa",
+    "reviewed": "2026-11-12",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+    "note": "Homepage and partner page state OFCCP compliance positioning and a partner program; no address, pricing, API or language list stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -48431,6 +48738,22 @@
      "title": "Diversity Recruiting Software & OFCCP Compliance Tools",
      "accessed": "2026-11-11",
      "quote": "Transform your talent acquisition with Mitratech, your trusted partner in inclusive recruiting software and OFCCP-compliant outreach management.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://circaworks.com/partner-with-circa/",
+     "title": "Partner with Circa",
+     "accessed": "2026-11-12",
+     "quote": "Circa’s Partner Program drives demand generation growth with competitive discount rates, premier leads and revenue levels.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://circaworks.com",
+     "title": "Homepage",
+     "accessed": "2026-11-12",
+     "quote": "Mitratech, your trusted partner in inclusive recruiting software and OFCCP-compliant outreach management.",
      "quote_check": "ok"
     }
    ]
@@ -48460,7 +48783,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Site says: \"Automates the distribution of required job postings across state systems\" Site says: \"Our Applicant Tracking System (ATS) streamlines recruiting while supporting compliance and scalability.\" HR compliance consultancy offering an applicant tracking system and mandatory job listings compliance services. No pricing, API, partner program, language switcher or headquarters address found on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/hr-unlimited/",
    "indexable": false,
@@ -48478,7 +48801,14 @@
     "public-sector"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "hr-unlimited",
+    "reviewed": "2026-11-12",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage describes compliance services, an ATS and mandatory job listings distribution; none of the missing facts are stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -48488,6 +48818,14 @@
      "title": "Talent Management and Compliance Tools",
      "accessed": "2026-11-11",
      "quote": "Meet VEVRAA job posting requirements with ease",
+     "quote_check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.hrunlimitedinc.com",
+     "title": "Homepage",
+     "accessed": "2026-11-12",
+     "quote": "Automates the distribution of required job postings across state systems",
      "quote_check": "ok"
     }
    ]

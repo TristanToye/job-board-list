@@ -10,8 +10,12 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "de",
+  "fr"
+ ],
  "region": "Global",
  "niche": "talent acquisition platform with programmatic ad optimisation",
  "segment": "",
@@ -21,8 +25,10 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "Site says: \"Optimize programmatic ad spend.\"",
+ "ingest_methods": [
+  "ATS integration"
+ ],
+ "notes": "Site says: \"Optimize programmatic ad spend.\" Site says: \"The Radancy Talent Acquisition Cloud connects with more than 60 leading ATS, HCM and application platforms\" Talent acquisition platform. Homepage offers Book a Demo and cost calculator only. Partnerships page lists ATS, HCM and job board integrations. No pricing, API or headquarters address found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/radancy/",
  "indexable": false,
@@ -35,10 +41,18 @@
   "list_date": "2026-11-12"
  },
  "tags": [
+  "ats-integration",
   "job-distribution"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "radancy",
+  "reviewed": "2026-11-12",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program",
+  "note": "Homepage shows three language options and ATS integration; no pricing, API, partner program or headquarters stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -56,6 +70,30 @@
    "title": "Radancy | The Talent Acquisition Platform powered by Agentic AI",
    "accessed": "2026-11-12",
    "quote": "Optimize programmatic ad spend.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.radancy.com",
+   "title": "Homepage language switcher",
+   "accessed": "2026-11-12",
+   "quote": "English Deutsch Français",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.radancy.com",
+   "title": "Homepage integrations",
+   "accessed": "2026-11-12",
+   "quote": "Integrate effortlessly with your existing ATS, HCM and workflow tools to drive day-one efficiency and faster ROI.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.radancy.com/partnerships/",
+   "title": "Partnerships",
+   "accessed": "2026-11-12",
+   "quote": "The Radancy Talent Acquisition Cloud connects with more than 60 leading ATS, HCM and application platforms",
    "quote_check": "ok"
   }
  ]

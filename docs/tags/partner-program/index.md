@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 89 entries in the directory.
+Has a partner or integration program. 94 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -74,13 +74,13 @@ Has a partner or integration program. 89 entries in the directory.
 - [JobTarget](https://jobboardlist.com/boards/jobtarget/): multiposting
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
+- [PandoLogic](https://jobboardlist.com/boards/pandologic/): programmatic-distribution
+- [VONQ](https://jobboardlist.com/boards/vonq/): programmatic-distribution
 - [Resumeble](https://jobboardlist.com/boards/resumeble/): career-services
 - [Zorgwerk](https://jobboardlist.com/boards/zorgwerk/): niche-board
+- [DirectEmployers Association](https://jobboardlist.com/boards/directemployers-association/): multiposting
 - [Talroo](https://jobboardlist.com/boards/talroo/): programmatic-distribution
-- [Glassdoor](https://jobboardlist.com/boards/glassdoor/): board+reviews, Partner-only API
-- [CIEE](https://jobboardlist.com/boards/ciee/): niche-board
-- [LinkedIn](https://jobboardlist.com/boards/linkedin/): social-network+board, Partner-only API
-- [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
-- [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API
+- [Jobiqo](https://jobboardlist.com/boards/jobiqo/): programmatic-distribution
+- [Circa](https://jobboardlist.com/boards/circa/): multiposting
 
 Canonical page: https://jobboardlist.com/tags/partner-program/

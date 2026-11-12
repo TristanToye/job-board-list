@@ -17,16 +17,16 @@
  "niche": "job distribution and recruitment solutions for employers",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "nonprofit membership association (no per-post price shown)",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://directemployers.org/partnerships/",
  "ingest_methods": [],
- "notes": "Site says: \"custom job distribution for companies with up to five jobs\"",
+ "notes": "Site says: \"custom job distribution for companies with up to five jobs\" Site says: \"VEVRAA mandatory job listing compliance solution for businesses with 50 jobs or fewer on average each month\" Site says: \"Self-service VEVRAA mandatory job listing paired with custom job distribution for companies with up to five jobs\" Nonprofit member-owned association offering OFCCP and VEVRAA job listing compliance, recruitment marketing and partnerships. No API, language switcher or headquarters address found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/directemployers-association/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -36,10 +36,19 @@
   "list_date": "2026-11-12"
  },
  "tags": [
-  "job-distribution"
+  "job-distribution",
+  "ofccp-compliance",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "directemployers-association",
+  "reviewed": "2026-11-12",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;ingest_methods",
+  "note": "Homepage and partnerships page state membership pricing stance, partner program and VEVRAA compliance offers; no headquarters address or API stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -57,6 +66,38 @@
    "title": "Home • DirectEmployers Association One-stop Shop Solutions",
    "accessed": "2026-11-12",
    "quote": "custom job distribution for companies with up to five jobs",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://directemployers.org",
+   "title": "Home",
+   "accessed": "2026-11-12",
+   "quote": "We aren’t seeking to increase our prices based upon the market or capitalize on your needs.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://directemployers.org/partnerships/",
+   "title": "Partnerships",
+   "accessed": "2026-11-12",
+   "quote": "Partner with DirectEmployers and gain immediate access to 1,100+ top employers committed to equal employment opportunities.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://directemployers.org",
+   "title": "Home solutions",
+   "accessed": "2026-11-12",
+   "quote": "VEVRAA mandatory job listing compliance solution for businesses with 50 jobs or fewer on average each month",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://directemployers.org",
+   "title": "Home solutions",
+   "accessed": "2026-11-12",
+   "quote": "Self-service VEVRAA mandatory job listing paired with custom job distribution for companies with up to five jobs",
    "quote_check": "ok"
   }
  ]

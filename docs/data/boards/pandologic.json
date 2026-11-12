@@ -4,7 +4,7 @@
  "url": "https://pandologic.com",
  "domains": "",
  "type": "programmatic-distribution",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -19,13 +19,13 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://pandologic.com/partners/",
  "ingest_methods": [],
- "notes": "Site says: \"leverages the best of programmatic technology with conversational AI\"",
+ "notes": "Site says: \"leverages the best of programmatic technology with conversational AI\" Site says: \"PandoLogic is now Veritone Hire\" Site says: \"pandoIQ is PandoLogic’s programmatic job advertising platform that intelligently automates job advertising placement across PandoLogic’s network of thousands of job sites.\" Programmatic job advertising (pandoIQ) across a network of job sites. Homepage says PandoLogic is now Veritone Hire. No pricing, language switcher or API found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/pandologic/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,10 +35,18 @@
   "list_date": "2026-11-12"
  },
  "tags": [
-  "job-distribution"
+  "job-distribution",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "pandologic",
+  "reviewed": "2026-11-12",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;business_model;api_status;ingest_methods;parent",
+  "note": "Homepage and partners page state an Irvine, CA address and a partner program; no pricing, language switcher or API was stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -56,6 +64,22 @@
    "title": "Programmatic Recruitment Software Powered by AI | Pandologic",
    "accessed": "2026-11-12",
    "quote": "leverages the best of programmatic technology with conversational AI",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://pandologic.com/partners/",
+   "title": "Partners page footer",
+   "accessed": "2026-11-12",
+   "quote": "Irvine, CA 92617",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://pandologic.com/partners/",
+   "title": "Partners page",
+   "accessed": "2026-11-12",
+   "quote": "We have two partnership paths.",
    "quote_check": "ok"
   }
  ]

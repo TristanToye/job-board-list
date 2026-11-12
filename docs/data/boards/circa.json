@@ -20,10 +20,10 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://circaworks.com/partner-with-circa/",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Site says: \"Mitratech, your trusted partner in inclusive recruiting software and OFCCP-compliant outreach management.\" Site says: \"Mitratech Circa simplifies recordkeeping and applicant tracking\" Inclusive recruiting and OFCCP compliance software, branded Mitratech Circa on the site. Partner program covers lead referral and reseller partners. No pricing, API, language switcher or headquarters address found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/circa/",
  "indexable": false,
@@ -39,10 +39,18 @@
   "diversity-inclusion",
   "job-distribution",
   "ofccp-compliance",
+  "partner-program",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "circa",
+  "reviewed": "2026-11-12",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+  "note": "Homepage and partner page state OFCCP compliance positioning and a partner program; no address, pricing, API or language list stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -52,6 +60,22 @@
    "title": "Diversity Recruiting Software & OFCCP Compliance Tools",
    "accessed": "2026-11-11",
    "quote": "Transform your talent acquisition with Mitratech, your trusted partner in inclusive recruiting software and OFCCP-compliant outreach management.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://circaworks.com/partner-with-circa/",
+   "title": "Partner with Circa",
+   "accessed": "2026-11-12",
+   "quote": "Circa’s Partner Program drives demand generation growth with competitive discount rates, premier leads and revenue levels.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://circaworks.com",
+   "title": "Homepage",
+   "accessed": "2026-11-12",
+   "quote": "Mitratech, your trusted partner in inclusive recruiting software and OFCCP-compliant outreach management.",
    "quote_check": "ok"
   }
  ]
