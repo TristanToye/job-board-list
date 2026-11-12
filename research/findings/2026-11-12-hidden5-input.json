@@ -1,0 +1,48 @@
+{
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Pracuj.pl",
+   "url": "https://www.pracuj.pl",
+   "missing": [
+    "confirm existing facts"
+   ]
+  },
+  {
+   "name": "GulfTalent",
+   "url": "https://www.gulftalent.com",
+   "missing": [
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ]
+  },
+  {
+   "name": "Broadbean",
+   "url": "https://www.broadbean.com",
+   "missing": [
+    "confirm existing facts"
+   ]
+  },
+  {
+   "name": "Oracle Taleo",
+   "url": "https://www.oracle.com/human-capital-management/taleo/",
+   "missing": [
+    "languages",
+    "business_model",
+    "parent",
+    "ingest_methods"
+   ]
+  },
+  {
+   "name": "SAP SuccessFactors Recruiting",
+   "url": "https://www.successfactors.com",
+   "missing": [
+    "languages",
+    "business_model",
+    "parent"
+   ]
+  }
+ ]
+}
