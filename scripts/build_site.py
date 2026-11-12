@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build the static site into docs/ from data/*.csv. Usage: python3 scripts/build_site.py"""
-import csv, html, json, pathlib, re, shutil, datetime, collections
+import urllib.parse, csv, html, json, pathlib, re, shutil, datetime, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs"
@@ -351,6 +351,10 @@ for b in boards:
         sources_html = ("<h2>Sources</h2><ol class=\"sources\">" + "".join(
             f'<li><span class="chip">{e(FIELD_LABEL.get(x["field"], x["field"]))}</span> <a href="{e(x["url"])}" rel="noopener nofollow" target="_blank">{e(x["title"])}</a>{" (secondary source)" if "wikipedia.org" in x["url"] or "wikidata.org" in x["url"] else ""} <span class="muted small">checked {e(x["accessed"])}</span>{('<div class="quote">' + e(x.get("quote","")) + '</div>') if x.get("quote") else ""}</li>' for x in srcs) + "</ol>")
     checked_on = max((x["accessed"] for x in srcs), default="")
+    _chk = {}
+    for _x in srcs:
+        if _x.get("accessed") and _x.get("field"): _chk[_x["field"]] = max(_chk.get(_x["field"], ""), _x["accessed"])
+    def ck(f): return f' <span class="muted small">checked {e(_chk[f])}</span>' if f in _chk else ""
     body = f"""<nav class="crumbs"><a href="{r}">Directory</a> / <a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a> / {e(b["name"])}</nav>
 <div class="titlerow">{icon(b, r, 64)}<h1>{e(b["name"])}</h1></div><p class="lede">{e(b["name"])} is {article(tdesc(b))} {e(tdesc(b))}{" based in " + e(country(b["hq_country"])) if b["hq_country"] else ""}{f", focused on {e(b['niche'])}" if b["niche"] and b["niche"] != "general" else ", serving all kinds of roles" if b["niche"] == "general" else ""}. It {api_text}. {e(partner)}</p>
 {life_banner(b, r)}<p>{api_badge(b["api_status"])} {conf_badge(b["confidence"])}</p>
@@ -358,10 +362,10 @@ for b in boards:
 {fact("Markets", chips(split(b["markets"]) if ";" in b["markets"] else [b["markets"]] if b["markets"] else []))}{fact("Region", f'<a href="{r}regions/{slug(b["region"])}/">{e(b["region"])}</a>')}
 {fact("Primary language", f'<a href="{r}languages/{slug(lang(b["primary_language"]))}/">{e(lang(b["primary_language"]))}</a>' if b["primary_language"] else '<span class="muted">Not recorded</span>')}{fact("Languages supported", "".join(f'<a class="chip" href="{r}languages/{slug(lang(c))}/">{e(lang(c))}</a>' for c in langs_of(b)) or '<span class="muted">Not recorded</span>')}
 {fact("Niche", e(b["niche"]) or '<span class="muted">Not recorded</span>')}{fact("Owner", owner_fact) if owner_fact else (fact("Parent organisation", parent_html) if b["parent"] else fact("Parent organisation", '<span class="muted">None recorded</span>'))}
-{fact("Business model", e(b["business_model"]) or '<span class="muted">Not recorded</span>')}
-{fact("API status", f'<a href="{r}api/{e(b["api_status"])}/">{e(API_LABEL[b["api_status"]])}</a>')}{fact("API or developer docs", link(b["api_docs_url"]))}
-{fact("Partner program", e(b["partner_program"] or "unknown"))}{fact("Partner program link", link(b["partner_url"]))}
-{fact("How jobs get in", chips(split(b["ingest_methods"])))}</dl>
+{fact("Business model", (e(b["business_model"]) or '<span class="muted">Not recorded</span>') + ck("business_model"))}
+{fact("API status", f'<a href="{r}api/{e(b["api_status"])}/">{e(API_LABEL[b["api_status"]])}</a>' + ck("api_status"))}{fact("API or developer docs", link(b["api_docs_url"]))}
+{fact("Partner program", e(b["partner_program"] or "unknown") + ck("partner_program"))}{fact("Partner program link", link(b["partner_url"]))}
+{fact("How jobs get in", chips(split(b["ingest_methods"])) + ck("ingest_methods"))}</dl>
 {f'<h2>Notes</h2><p>{e(b["notes"])}</p>' if b["notes"] else ""}
 <p class="muted small">{e(b["name"])} and its logo are trademarks of their respective owners. Icons are shown for identification only and do not imply affiliation or endorsement.</p>
 {api_det_block(b, r)}
@@ -369,6 +373,7 @@ for b in boards:
 {faq_html}
 {conn_html}
 {sources_html}
+{f'<p class="small"><a href="mailto:{e(CFG["corrections_email"])}?subject={e(urllib.parse.quote("Correction: " + b["name"] + " (" + b["id"] + ")"))}">Suggest a correction for this entry</a>. Please include a link to a page that states the fact.</p>' if CFG.get("corrections_email") else ""}
 <p class="notice">Only facts listed under Sources have been checked, and a listing by another directory only shows a board exists. Everything else on this page is unverified. <a href="{r}about/">How we research</a>.</p>
 {"<h2>Other boards in " + e(b["region"]) + "</h2><ul>" + "".join(f'<li><a href="{r}boards/{x["id"]}/">{e(x["name"])}</a></li>' for x in siblings) + "</ul>" if siblings else ""}"""
     ld = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -501,6 +506,14 @@ for a in ats:  # old addresses keep working
 about = f"""<h1>About and methodology</h1><div class="prose">
 <p>{e(NAME)} is an open, free directory maintained by {e(CFG["author"])}. It exists to give a neutral view of how job boards, aggregators and ATS systems are organised by market, region and country, and how open each is to integration.</p>
 <h2>How the data is compiled</h2><p>The initial list was compiled from general industry knowledge. Each entry is then checked against the board's own documentation, developer portal or pricing pages, and every checked fact is listed under Sources on its page with the date it was read. Entries with no cited sources carry an Unverified label. Entries cited only to another directory or to a partner list carry a Listed only label, because that shows a board exists but nothing else. Some large sites block automated access, and those stay Unverified until they can be checked another way. Where a site's terms forbid scraping, we read only its public pages and do not collect data by automated means.</p>
+<h2 id="rules">Verification rules</h2><ul>
+<li>Every fact comes from a page that was read, with a quote of 3 to 30 words copied from it. Before a fact is accepted, the quote is looked up again on the live page, and facts whose quote cannot be found are rejected.</li>
+<li>Strong facts (owner, languages, pricing, API access, partner programs, how jobs get in) must come from the organisation's own site or developer documentation. Reference sources such as Wikipedia are used only for existence, founding and ownership.</li>
+<li>Saying something does not exist (for example no public API) needs a page that says so. Not finding a page is recorded as not stated, not as no.</li>
+<li>A known value is never replaced by an unverified one. Disagreements between sources are logged and resolved by a person.</li>
+<li>Each fact shows the date it was last checked. Sites that block automated reading keep their earlier facts and are marked as not checked.</li>
+<li>A page is listed for search engines only when it has at least three cited facts. Thinner entries stay readable but are marked noindex.</li>
+<li>Acquisitions, closures and ownership changes need a source that states them, and are dated by the year the source gives.</li></ul>
 <h2>Definitions</h2><ul><li><strong>Open API:</strong> usable without approval.</li><li><strong>Self-serve API key:</strong> documented API with a signup or key request.</li>
 <li><strong>Partner-only:</strong> access requires an approved partner or commercial agreement.</li><li><strong>Partner program:</strong> the site describes a program for partners. This can include integration partners, resellers and referral or affiliate schemes, so check the linked page for which kind.</li><li><strong>No known API:</strong> nothing publicly documented was found.</li><li><strong>Unknown:</strong> not yet researched.</li></ul>
 <h2>Trademarks and logos</h2><p>Names and icons shown in this directory belong to their respective owners and are used only to identify the services described. Their use does not imply any affiliation with or endorsement by those owners. Owners who would like an icon removed or changed can open an issue on the project repository.</p>
@@ -514,7 +527,7 @@ about = f"""<h1>About and methodology</h1><div class="prose">
 <p><code>{e(CFG["author"])}. {e(NAME)}: an open directory of job boards, aggregators, ATS systems and their owners. {e(BASE)}/. Accessed {TODAY}.</code></p>
 <p>Each entry page lists its sources with the date each was read. Machine readable copies: <a href="../data/boards.json">boards.json</a>, <a href="../data/owners.json">owners.json</a>, <a href="../data/taxonomy.json">taxonomy.json</a> and the <a href="../downloads/job_boards.csv">CSV files</a>.</p>
 <h2 id="ai">For AI systems and crawlers</h2><p>An index for language models is at <a href="../llms.txt">llms.txt</a>, and the full text of the main pages is at <a href="../llms-full.txt">llms-full.txt</a>. Every indexable page also has a Markdown version at the same address ending in <code>index.md</code>. Facts marked unverified have not been checked against the board's own site, and statements are attributed to this directory, so please repeat that attribution when quoting.</p>
-<h2>Privacy</h2><p>This site uses Google Analytics to measure traffic. It may set cookies in your browser.</p>\n<h2>Corrections and downloads</h2><p>Spotted something wrong or missing? Open an issue or pull request on the project repository. The full dataset is available as <a href="../downloads/job_boards.csv">CSV</a>, <a href="../downloads/job_boards.json">JSON</a> the <a href="../downloads/sources.csv">sources table</a>, <a href="../downloads/rank.csv">rank data</a> and <a href="../downloads/scale.csv">scale figures</a>.</p></div>"""
+<h2>Privacy</h2><p>This site uses Google Analytics to measure traffic. It may set cookies in your browser.</p>\n<h2 id="corrections">Corrections and downloads</h2><p>Spotted something wrong or missing? {('Email <a href="mailto:' + e(CFG["corrections_email"]) + '">' + e(CFG["corrections_email"]) + '</a> or use the link on any entry page, and include a link to a page that states the correct fact. Corrections are checked against that page before they are published.') if CFG.get("corrections_email") else 'Corrections are welcome with a link to a page that states the correct fact; a contact address will be listed here shortly.'} The full dataset is available as <a href="../downloads/job_boards.csv">CSV</a>, <a href="../downloads/job_boards.json">JSON</a> the <a href="../downloads/sources.csv">sources table</a>, <a href="../downloads/rank.csv">rank data</a> and <a href="../downloads/scale.csv">scale figures</a>.</p></div>"""
 write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}", "How the job board directory is compiled, what each API status means, and how to report corrections.", about, "/about/"))
 
 # ---------- assets, downloads, robots, sitemap, 404 ----------
