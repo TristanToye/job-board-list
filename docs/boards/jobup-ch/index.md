@@ -5,7 +5,7 @@ jobup.ch is a job board.
 - Website: https://www.jobup.ch
 - Headquarters: not recorded
 - Founded: not recorded
-- Owner: JobCloud SA
+- Owner: JobCloud AG
 - Languages: French, English
 - API status: API status unknown
 - Partner program: unknown
@@ -16,7 +16,7 @@ jobup.ch is a job board.
 
 ## Quick answers
 
-**Who owns jobup.ch?** This directory records the parent of jobup.ch as JobCloud SA.
+**Who owns jobup.ch?** This directory records the parent of jobup.ch as JobCloud AG.
 
 **Which languages does jobup.ch support?** This directory records jobup.ch as supporting French, English.
 

@@ -5,7 +5,7 @@ SEEK is a job board based in Australia. It was founded in 1997.
 - Website: https://www.seek.com.au
 - Headquarters: Australia
 - Founded: 1997
-- Owner: SEEK
+- Owner: SEEK Limited
 - Languages: English
 - API status: Partner-only API (https://developer.seek.com)
 - Partner program: yes
@@ -15,7 +15,7 @@ SEEK is a job board based in Australia. It was founded in 1997.
 
 ## Quick answers
 
-**Who owns SEEK?** This directory records the parent of SEEK as SEEK.
+**Who owns SEEK?** This directory records the parent of SEEK as SEEK Limited.
 
 **Does SEEK have an API?** According to this directory, SEEK restricts programmatic access to approved partners. Documentation: https://developer.seek.com.
 

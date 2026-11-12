@@ -5,7 +5,7 @@ U.S. Bureau of Labor Statistics is a labour market information source based in U
 - Website: https://www.bls.gov
 - Headquarters: United States
 - Founded: not recorded
-- Owner: United States Department of Labor
+- Owner: U.S. Department of Labor
 - Languages: not recorded
 - API status: Open API (no key) (https://www.bls.gov/developers/home.htm)
 - Partner program: unknown
@@ -16,7 +16,7 @@ U.S. Bureau of Labor Statistics is a labour market information source based in U
 
 ## Quick answers
 
-**Who owns U.S. Bureau of Labor Statistics?** This directory records the parent of U.S. Bureau of Labor Statistics as United States Department of Labor.
+**Who owns U.S. Bureau of Labor Statistics?** This directory records the parent of U.S. Bureau of Labor Statistics as U.S. Department of Labor.
 
 **Does U.S. Bureau of Labor Statistics have an API?** According to this directory, U.S. Bureau of Labor Statistics has an open API or feed that does not require approval. Documentation: https://www.bls.gov/developers/home.htm.
 

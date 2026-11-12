@@ -161,7 +161,7 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="",
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     nav = (f'<a href="{r}">Directory</a><a href="{r}ecosystem/">Ecosystem</a><a href="{r}tags/">Types</a><a href="{r}rankings/">Rankings</a><a href="{r}owners/">Owners</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
-           f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}closed/">Closed</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
+           f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}closed/">Closed</a><a href="{r}timeline/">Timeline</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <!-- Google tag (gtag.js) -->
@@ -683,6 +683,34 @@ write("closed/index.html", layout(1, f"Closed, acquired and merged job boards an
   f'<h1>Closed, acquired and merged</h1><p class="lede">Job boards, staffing firms and hiring tools that no longer operate on their own: shut down, bought, merged or renamed. {len(LIFE)} so far, each with a cited source. Where an entry is also in the directory, its page carries a notice.</p>'
   f'{life_groups}<p class="muted small">Missing one? A closure or deal only appears here with a source that states it. <a href="../about/">How this directory is built</a>.</p>',
   "/closed/", None, noindex=len(LIFE) < 3, md=len(LIFE) >= 3), indexed=len(LIFE) >= 3, md=md_life, kind="tag")
+# ---------- ownership and closures timeline ----------
+_tl = []; _seen = set()
+for _x in LIFE:  # acquisitions, mergers, rebrands and closures, each with a source
+    _k = (re.sub(r"[^a-z0-9]", "", _x["name"].lower()), _x["year"])
+    if not _x["year"]: continue
+    _seen.add(_k)
+    _who = f'<a href="../boards/{e(_x["board_id"])}/">{e(_x["name"])}</a>' if _x["board_id"] in by_id else e(_x["name"])
+    _succ = (f'<a href="../boards/{e(_x["successor_id"])}/">{e(_x["successor_name"])}</a>' if _x["successor_id"] in by_id else e(_x["successor_name"])) if _x["successor_name"] else ""
+    _txt = {"closed": f"{_who} closed", "acquired": f"{_who} acquired by {_succ}", "merged": f"{_who} merged with {_succ}", "rebranded": f"{_who} rebranded as {_succ}"}[_x["status"]]
+    _tl.append((_x["year"], _txt, _x["source_url"], _x["status"], f'{_x["name"]}: {life_text(_x)}', _x["source_url"]))
+for _h in HOLD:  # dated holdings from owners' own pages and reference sources
+    if not _h["since"] or not re.fullmatch(r"\d{4}", _h["since"]) or _h["owner_id"] not in OWNERS: continue
+    _k = (re.sub(r"[^a-z0-9]", "", _h["holding_name"].lower()), _h["since"])
+    if _k in _seen: continue
+    _seen.add(_k); _on = OWNERS[_h["owner_id"]]["name"]
+    _who = f'<a href="../boards/{e(_h["board_id"])}/">{e(_h["holding_name"])}</a>' if _h["board_id"] in by_id else e(_h["holding_name"])
+    _verb = {"former": "sold or left by", "minority-stake": "minority stake taken by", "majority-stake": "majority stake taken by", "joint-venture": "joint venture with"}.get(_h["relation"], "part of")
+    _tl.append((_h["since"], f'{_who} {_verb} <a href="../owners/{e(_h["owner_id"])}/">{e(_on)}</a>', _h["source_url"], "ownership", f'{_h["holding_name"]}: {_verb} {_on} ({_h["since"]})', _h["source_url"]))
+_tl.sort(key=lambda x: x[0], reverse=True)
+_by_year = collections.defaultdict(list)
+for _y in _tl: _by_year[_y[0]].append(_y)
+_tl_html = "".join(f'<h2>{e(y)}</h2><ul class="plain lifelist">' + "".join(f'<li>{txt} <span class="badge">{e(kind.capitalize())}</span> <a class="muted small" href="{e(src)}" rel="noopener nofollow" target="_blank">source</a></li>' for _, txt, src, kind, _, _ in v) + "</ul>" for y, v in _by_year.items())
+md_tl = ("# Ownership and closures timeline\n\nDated acquisitions, mergers, closures and ownership changes among job boards, ATS, staffing and HR services, each with a source.\n\n"
+         + "\n".join(f"- {y}: {plain} ({src})" for y, _, _, _, plain, src in _tl) + f"\n\nCanonical page: {BASE}/timeline/\n")
+write("timeline/index.html", layout(1, f"Hiring industry deals and closures by year: job boards, ATS and staffing | {NAME}",
+  f"{len(_tl)} dated acquisitions, mergers, closures and ownership changes among job boards, ATS, staffing and HR services, each with a source.",
+  f'<h1>Ownership and closures timeline</h1><p class="lede">Who bought, merged or closed which job boards, applicant tracking systems and staffing firms, year by year. {len(_tl)} dated events so far, each with a source. See also <a href="../owners/">who owns the job boards</a> and <a href="../closed/">closed, acquired and merged entries</a>.</p>' + _tl_html
+  + '<p class="muted small">Only events with a stated year are shown. Holdings without a date appear on each owner\'s page.</p>', "/timeline/", None, noindex=len(_tl) < 3, md=len(_tl) >= 3), indexed=len(_tl) >= 3, md=md_tl, kind="tag")
 # ---------- rankings ----------
 comparable = sorted([b for b in boards if prom(b)["group"] == 0], key=skey)
 rk_rows = "".join(f'<tr><td>{i}</td><td><div class="namecell">{icon(b, "../")}<a href="../boards/{b["id"]}/"><strong>{e(b["name"])}</strong></a></div></td><td><span class="badge tier-{e(prom(b)["tier"])}">{e(prom(b)["tier"])}</span> <span class="muted small">#{prom(b)["g"]:,}</span></td><td>{e(b["type"])}</td><td>{e(b["region"])}</td></tr>' for i, b in enumerate(comparable[:60], 1))
@@ -734,7 +762,7 @@ Notes for readers and models: facts are attributed to this directory and carry t
 - [Directory home]({BASE}/): searchable table with filters for type, focus, API access, language and prominence
 - [Types of job sites, explained]({BASE}/tags/): definitions and lists for job boards, aggregators, ATS, staffing, outplacement and labour market information
 - [The hiring ecosystem map]({BASE}/ecosystem/): documented connections between ATS systems, distribution platforms and boards\n- [Largest job boards by web link popularity]({BASE}/rankings/)
-- [Closed, acquired and merged]({BASE}/closed/): sites and companies that no longer operate independently\n- [Who owns the job boards]({BASE}/owners/): parent companies with profiles and holdings
+- [Closed, acquired and merged]({BASE}/closed/): sites and companies that no longer operate independently\n- [Ownership and closures timeline]({BASE}/timeline/): dated deals and closures by year\n- [Who owns the job boards]({BASE}/owners/): parent companies with profiles and holdings
 - [Job boards by country]({BASE}/countries/)
 - [Methodology and how to cite]({BASE}/about/)
 

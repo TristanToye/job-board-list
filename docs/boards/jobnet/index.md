@@ -5,7 +5,7 @@ Jobnet is a government job site based in Denmark.
 - Website: https://jobnet.dk
 - Headquarters: Denmark
 - Founded: not recorded
-- Owner: Styrelsen for Arbejdsmarked og Rekruttering
+- Owner: Danish Agency for Labour Market and Recruitment
 - Languages: Danish
 - API status: API status unknown
 - Partner program: unknown
@@ -16,7 +16,7 @@ Jobnet is a government job site based in Denmark.
 
 ## Quick answers
 
-**Who owns Jobnet?** This directory records the parent of Jobnet as Styrelsen for Arbejdsmarked og Rekruttering.
+**Who owns Jobnet?** This directory records the parent of Jobnet as Danish Agency for Labour Market and Recruitment.
 
 **Which languages does Jobnet support?** This directory records Jobnet as supporting Danish.
 

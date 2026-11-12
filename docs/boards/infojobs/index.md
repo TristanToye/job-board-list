@@ -5,7 +5,7 @@ InfoJobs is a job board based in Spain. It was founded in 1998.
 - Website: https://www.infojobs.net
 - Headquarters: Spain
 - Founded: 1998
-- Owner: Adevinta Group
+- Owner: Adevinta
 - Languages: Spanish, Catalan, Italian
 - API status: Partner-only API (https://developer.infojobs.net)
 - Partner program: yes
@@ -15,7 +15,7 @@ InfoJobs is a job board based in Spain. It was founded in 1998.
 
 ## Quick answers
 
-**Who owns InfoJobs?** This directory records the parent of InfoJobs as Adevinta Group.
+**Who owns InfoJobs?** This directory records the parent of InfoJobs as Adevinta.
 
 **Does InfoJobs have an API?** According to this directory, InfoJobs restricts programmatic access to approved partners. Documentation: https://developer.infojobs.net.
 
