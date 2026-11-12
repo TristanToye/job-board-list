@@ -1,9 +1,9 @@
 # Monster
 
-Monster is a job board based in PR. It was founded in 1999.
+Monster is a job board based in Puerto Rico. It was founded in 1999.
 
 - Website: https://www.monster.com
-- Headquarters: PR
+- Headquarters: Puerto Rico
 - Founded: 1999
 - Owner: BOLD Holdings (Subsidiary, since 2025)
 - Languages: English, French, German, Dutch, Italian

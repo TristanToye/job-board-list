@@ -1,6 +1,6 @@
-# Job boards in ZZ
+# Job boards in Worldwide
 
-91 job boards and related entries based in or serving ZZ.
+91 job boards and related entries based in or serving Worldwide.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier, Open API (no key)
@@ -94,4 +94,4 @@
 - [Jobdigger](https://jobboardlist.com/boards/jobdigger/): feed-aggregator
 - [HR Unlimited](https://jobboardlist.com/boards/hr-unlimited/): multiposting
 
-Canonical page: https://jobboardlist.com/countries/zz/
+Canonical page: https://jobboardlist.com/countries/worldwide/

@@ -1,9 +1,9 @@
 # Enhancv
 
-Enhancv is a career services provider based in BG, focused on AI resume builder. It was founded in 2014.
+Enhancv is a career services provider based in Bulgaria, focused on AI resume builder. It was founded in 2014.
 
 - Website: https://enhancv.com
-- Headquarters: BG
+- Headquarters: Bulgaria
 - Founded: 2014
 - Owner: not recorded
 - Languages: English, Czech, Danish, Dutch, Finnish, French, German, Italian, Norwegian, Polish, Portuguese, Spanish, Swedish

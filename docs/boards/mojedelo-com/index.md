@@ -1,9 +1,9 @@
 # MojeDelo.com
 
-MojeDelo.com is a job board based in SI. It was founded in 2004.
+MojeDelo.com is a job board based in Slovenia. It was founded in 2004.
 
 - Website: https://www.mojedelo.com
-- Headquarters: SI
+- Headquarters: Slovenia
 - Founded: 2004
 - Owner: not recorded
 - Languages: Slovenian

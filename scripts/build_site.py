@@ -48,6 +48,10 @@ def country(c): return COUNTRIES.get(c, c)
 boards = load("job_boards.csv"); ats = [b for b in boards if b["type"] == "ats"]
 for _l in load("languages.csv"): LANGS[_l["code"]] = _l["name"]; NATIVE[_l["code"]] = _l["native"]
 for _c in load("countries.csv"): COUNTRIES.setdefault(_c["code"], _c["name"])
+for _k, _v in {"BG": "Bulgaria", "BH": "Bahrain", "BO": "Bolivia", "CR": "Costa Rica", "EC": "Ecuador", "EE": "Estonia", "JO": "Jordan", "KW": "Kuwait", "LB": "Lebanon", "OM": "Oman", "PK": "Pakistan", "PR": "Puerto Rico", "QA": "Qatar", "SI": "Slovenia", "SK": "Slovakia", "UY": "Uruguay", "ZZ": "Worldwide",
+               "BD": "Bangladesh", "BY": "Belarus", "GH": "Ghana", "KZ": "Kazakhstan", "LT": "Lithuania", "LV": "Latvia", "ME": "Montenegro", "MM": "Myanmar", "MO": "Macao", "TZ": "Tanzania", "UG": "Uganda", "UZ": "Uzbekistan", "ZM": "Zambia", "EU": "European Union"}.items():
+    COUNTRIES.setdefault(_k, _v)
+OLD_COUNTRY_CODES = ["bg", "bh", "bo", "cr", "ec", "ee", "jo", "kw", "lb", "om", "pk", "pr", "qa", "si", "sk", "uy", "zz"]  # earlier pages were named by bare code
 RANK = {r["board_id"]: r for r in load("rank.csv")} if (ROOT/"data"/"rank.csv").exists() else {}
 SCALE = collections.defaultdict(list)
 if (ROOT/"data"/"scale.csv").exists():
@@ -417,6 +421,11 @@ by_country = collections.defaultdict(list)
 for b in boards:
     for c in dict.fromkeys([b["hq_country"]] + split(b["countries_served"])):
         if c: by_country[country(c)].append(b)
+for _oc in OLD_COUNTRY_CODES:
+    _nm = COUNTRIES.get(_oc.upper())
+    if _nm and slug(_nm) != _oc and _nm in by_country:
+        _d = OUT / "countries" / _oc; _d.mkdir(parents=True, exist_ok=True)
+        (_d / "index.html").write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{e(_nm)}</title><meta name="robots" content="noindex"><link rel="canonical" href="{e(BASE)}/countries/{slug(_nm)}/"><meta http-equiv="refresh" content="0; url=../{slug(_nm)}/"></head><body><a href="../{slug(_nm)}/">{e(_nm)}</a></body></html>', encoding="utf-8")
 write("countries/index.html", layout(1, f"Job boards by country | {NAME}", "Browse job boards and aggregators by the country they are based in or serve.",
     '<h1>Job boards by country</h1><p class="lede">Boards are listed under the country where they are headquartered and any country they are known to serve.</p><ul class="biglist">'
     + "".join(f'<li><a href="{slug(k)}/">{e(k)}</a> <span class="muted">({len(v)})</span></li>' for k, v in sorted(by_country.items())) + "</ul>", "/countries/"))
@@ -710,6 +719,8 @@ write("changelog/index.html", layout(1, f"Research log and changelog | {NAME}", 
 entries = "".join(f'<entry><id>tag:{BASE.split("//")[-1].split("/")[0]},{x["date"]}:run{i}</id><title>Research run {e(x["date"])}: {e(x["added"])} boards added, {e(x["merged"])} merged</title><updated>{e(x["date"])}T00:00:00Z</updated><link href="{e(BASE)}/changelog/"/><summary>{e(x["rejected"])} items rejected, {e(x["conflicts"])} conflicts logged.</summary></entry>' for i, x in enumerate(reversed(log)))
 (OUT/"feed.xml").write_text(f'<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><id>{e(BASE)}/</id><title>{e(NAME)} research log</title><updated>{TODAY}T00:00:00Z</updated><link href="{e(BASE)}/feed.xml" rel="self"/><link href="{e(BASE)}/changelog/"/>{entries}</feed>', encoding="utf-8")
 if (ROOT/"site_src"/"og.png").exists(): shutil.copy(ROOT/"site_src"/"og.png", OUT/"assets"/"og.png")
+if (ROOT/"site_src"/"indexnow_key.txt").exists():  # IndexNow key file, served at the site root so search engines can confirm pings come from the owner
+    _k = (ROOT/"site_src"/"indexnow_key.txt").read_text().strip(); (OUT/f"{_k}.txt").write_text(_k, encoding="utf-8")
 # ---------- AI-facing files ----------
 order = {"board": 0, "owner": 1, "tag": 2, "country": 3}
 n_idx = {k: sum(1 for kk, _, _ in MD_PAGES if kk == k) for k in order}
