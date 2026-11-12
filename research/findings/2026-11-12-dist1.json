@@ -1,0 +1,383 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Teamio",
+      "url": "https://cz.teamio.com",
+      "primary_language": "cs",
+      "languages_supported": [
+        "cs",
+        "en",
+        "pl",
+        "sk"
+      ],
+      "api_status": "unknown",
+      "parent": "Alma Career Oy",
+      "notes": "Footer names Alma Career Oy and its subsidiaries; homepage says Teamio is part of the Alma Career family. Languages listed are product languages for international companies, not a site language menu. Homepage offers a 30-day free trial. Vacancy import API documentation is hosted at integrations.almacareer.com, outside the board's own domain, so it is not recorded as a source. Headquarters country not stated.",
+      "sources": [
+        {
+          "field": "parent",
+          "url": "https://cz.teamio.com/",
+          "title": "Homepage footer",
+          "quote": "© Alma Career Oy and its subsidiaries"
+        },
+        {
+          "field": "languages",
+          "url": "https://cz.teamio.com/",
+          "title": "Homepage",
+          "quote": "Teamio je moderní ATS"
+        },
+        {
+          "field": "languages",
+          "url": "https://cz.teamio.com/",
+          "title": "Homepage language count",
+          "quote": "EN, PL, CS a SK pro mezinárodní firmy"
+        }
+      ]
+    },
+    {
+      "name": "JOIN",
+      "url": "https://join.com",
+      "primary_language": "en",
+      "languages_supported": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "it",
+        "nl"
+      ],
+      "business_model": "subscription",
+      "api_status": "unknown",
+      "notes": "Pricing page lists plans per job per month, billed annually. Pricing table lists API access on higher plans; the access method and documentation are not stated. Footer names JOIN Solutions AG. Headquarters country and parent not stated on the pages read. Structured data on the homepage was not in the rendered text, so no headquarters country is recorded.",
+      "sources": [
+        {
+          "field": "languages",
+          "url": "https://join.com/",
+          "title": "Homepage",
+          "quote": "The all-in-one ATS for SMB hiring."
+        },
+        {
+          "field": "languages",
+          "url": "https://join.com/",
+          "title": "Homepage language menu",
+          "quote": "Nederlands"
+        },
+        {
+          "field": "business_model",
+          "url": "https://join.com/en/pricing",
+          "title": "Pricing",
+          "quote": "One price for multiposting and candidate management"
+        },
+        {
+          "field": "business_model",
+          "url": "https://join.com/en/pricing",
+          "title": "Pricing",
+          "quote": "€17 per job/month"
+        },
+        {
+          "field": "api_status",
+          "url": "https://join.com/en/pricing",
+          "title": "Pricing integrations table",
+          "quote": "API access"
+        }
+      ]
+    },
+    {
+      "name": "Talroo",
+      "url": "https://www.talroo.com",
+      "business_model": "pay per click",
+      "ingest_methods": [
+        "ATS integration"
+      ],
+      "api_status": "unknown",
+      "api_docs_url": "https://www.talroo.com/publisher/developers",
+      "partner_program": "yes",
+      "partner_url": "https://www.talroo.com/channel-partners",
+      "notes": "Pricing page says employers pay per click against a monthly budget. Homepage says jobs sync from the applicant tracking system. Developers page describes a customizable job API and XML feeds; access process and keys are not stated. Headquarters country and parent not stated.",
+      "sources": [
+        {
+          "field": "business_model",
+          "url": "https://www.talroo.com/pricing",
+          "title": "Pricing",
+          "quote": "You pay only for clicks, and we work to keep each application close to your target."
+        },
+        {
+          "field": "ingest_methods",
+          "url": "https://www.talroo.com/",
+          "title": "Homepage",
+          "quote": "Jobs sync from your applicant tracking system"
+        },
+        {
+          "field": "partner_program",
+          "url": "https://www.talroo.com/channel-partners",
+          "title": "Channel partners",
+          "quote": "Why Partner with Talroo?"
+        },
+        {
+          "field": "api_status",
+          "url": "https://www.talroo.com/publisher/developers",
+          "title": "Developers",
+          "quote": "Leverage the power of our customizable job API"
+        }
+      ]
+    },
+    {
+      "name": "JobTarget",
+      "url": "https://www.jobtarget.com",
+      "ingest_methods": [
+        "ATS integration"
+      ],
+      "api_status": "unknown",
+      "partner_program": "yes",
+      "partner_url": "https://www.jobtarget.com/job-board-partner",
+      "notes": "Homepage and about page describe prebuilt ATS and HRIS integrations and a partner marketplace for job sites. About page says the company is independent with no outside investors. OFCCP appears as a blog link and in partner product text. Headquarters country, languages, employer pricing and API access not stated on the pages read.",
+      "sources": [
+        {
+          "field": "ingest_methods",
+          "url": "https://www.jobtarget.com/",
+          "title": "Homepage",
+          "quote": "prebuilt integrations with 80+ ATS and HRIS systems"
+        },
+        {
+          "field": "partner_program",
+          "url": "https://www.jobtarget.com/job-board-partner",
+          "title": "Job board partner page",
+          "quote": "Join Our Partner Marketplace"
+        },
+        {
+          "field": "parent",
+          "url": "https://www.jobtarget.com/company/about-us",
+          "title": "About",
+          "quote": "As an independent company with no outside investors"
+        },
+        {
+          "field": "note",
+          "url": "https://www.jobtarget.com/",
+          "title": "Homepage footer",
+          "quote": "OFCCP Blog"
+        },
+        {
+          "field": "note",
+          "url": "https://www.jobtarget.com/ats-hris-partner-integration",
+          "title": "ATS and HRIS partner page",
+          "quote": "with programmatic job advertising, OFCCP compliance, and Easy Apply"
+        }
+      ]
+    },
+    {
+      "name": "Idibu",
+      "url": "https://www.idibu.com",
+      "business_model": "subscription",
+      "api_status": "unknown",
+      "notes": "Pricing page says idibu is priced on a per-user basis and lists $250 per month for all 5 users. Homepage and integrations page describe CRM integrations; no API or partner program stated. Headquarters country, languages and parent not stated.",
+      "sources": [
+        {
+          "field": "business_model",
+          "url": "https://ww2.idibu.com/pricing",
+          "title": "Pricing",
+          "quote": "Idibu is priced on a per-user basis."
+        },
+        {
+          "field": "business_model",
+          "url": "https://ww2.idibu.com/pricing",
+          "title": "Pricing",
+          "quote": "$250 per month"
+        }
+      ]
+    },
+    {
+      "name": "Postings.com",
+      "url": "https://www.postings.com",
+      "partner_program": "yes",
+      "partner_url": "https://www.postings.com/partnerships",
+      "notes": "Contact address on the homepage is in San Diego, CA, United States. About page says the company is owned by Mingle, LLC. Partnerships page lists job board, distribution and integration partnerships. Languages, employer pricing, API access and ingest methods not stated on the pages read.",
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.postings.com/",
+          "title": "Homepage contact",
+          "quote": "San Diego, CA 92101"
+        },
+        {
+          "field": "parent",
+          "url": "https://www.postings.com/about",
+          "title": "About",
+          "quote": "owned by Mingle, LLC, based in San Diego, California"
+        },
+        {
+          "field": "partner_program",
+          "url": "https://www.postings.com/partnerships",
+          "title": "Partnerships",
+          "quote": "Become a Postings.com Partner:"
+        }
+      ]
+    },
+    {
+      "name": "hireDiverse",
+      "url": "https://www.hirediverse.ca",
+      "primary_language": "en",
+      "business_model": "per post",
+      "ingest_methods": [
+        "manual posting",
+        "ATS integration",
+        "crawl"
+      ],
+      "api_status": "unknown",
+      "partner_program": "yes",
+      "partner_url": "https://hirediverse.ca/partners",
+      "notes": "About page says hireDiverse is a Canadian business. Pricing page lists single job ads from $280 per ad and an annual plan. Employer pages state that jobs can be pulled automatically from a careers site or ATS. Parent, language options and API access not stated.",
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://hirediverse.ca/about",
+          "title": "About",
+          "quote": "hireDiverse is a Canadian, minority-owned business"
+        },
+        {
+          "field": "business_model",
+          "url": "https://hirediverse.ca/pricing",
+          "title": "Pricing",
+          "quote": "Post a single ad in under 5 minutes."
+        },
+        {
+          "field": "business_model",
+          "url": "https://hirediverse.ca/pricing",
+          "title": "Pricing",
+          "quote": "From $280 per ad"
+        },
+        {
+          "field": "ingest_methods",
+          "url": "https://hirediverse.ca/about",
+          "title": "About",
+          "quote": "For organizations with ongoing hiring needs, hireDiverse can automatically pull jobs from an employer’s careers site or ATS"
+        },
+        {
+          "field": "partner_program",
+          "url": "https://hirediverse.ca/partners",
+          "title": "Partners",
+          "quote": "Join the free hireDiverse Community Partner Network"
+        },
+        {
+          "field": "languages",
+          "url": "https://hirediverse.ca/about",
+          "title": "About",
+          "quote": "Inclusive recruitment and employment equity outreach, built for Canadian employers."
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Teamio",
+      "url": "https://cz.teamio.com",
+      "outcome": "partially-verified",
+      "fields_not_found": [
+        "hq_country",
+        "business_model",
+        "api_status",
+        "partner_program",
+        "ingest_methods"
+      ],
+      "method": "mixed",
+      "note": "Homepage states the Alma Career parent and Czech and product languages; no headquarters, pricing model, API or partner statement on the board's own pages."
+    },
+    {
+      "name": "JOIN",
+      "url": "https://join.com",
+      "outcome": "partially-verified",
+      "fields_not_found": [
+        "hq_country",
+        "parent",
+        "api_status",
+        "partner_program",
+        "ingest_methods"
+      ],
+      "method": "mixed",
+      "note": "Pricing, language menu and multiposting pages read; headquarters and parent not stated in rendered text and API access method not stated."
+    },
+    {
+      "name": "Talroo",
+      "url": "https://www.talroo.com",
+      "outcome": "partially-verified",
+      "fields_not_found": [
+        "hq_country",
+        "parent",
+        "languages",
+        "api_status"
+      ],
+      "method": "mixed",
+      "note": "Pricing, partner, developer and about pages read; headquarters, parent, languages and API key process not stated."
+    },
+    {
+      "name": "JobTarget",
+      "url": "https://www.jobtarget.com",
+      "outcome": "partially-verified",
+      "fields_not_found": [
+        "hq_country",
+        "parent",
+        "languages",
+        "business_model",
+        "api_status"
+      ],
+      "method": "mixed",
+      "note": "Homepage, about and partner pages read; no employer pricing, headquarters, language options or developer page found."
+    },
+    {
+      "name": "Idibu",
+      "url": "https://www.idibu.com",
+      "outcome": "partially-verified",
+      "fields_not_found": [
+        "hq_country",
+        "parent",
+        "languages",
+        "api_status",
+        "partner_program",
+        "ingest_methods"
+      ],
+      "method": "mixed",
+      "note": "Pricing, integrations and about pages read; headquarters, parent, languages, API and partner statements not found."
+    },
+    {
+      "name": "Vacancy Poster",
+      "url": "https://www.vacancyposter.com",
+      "outcome": "blocked",
+      "fields_not_found": [],
+      "method": "browser",
+      "note": "Browser reader returned status 502 with blocked set to true, so the site was recorded as blocked."
+    },
+    {
+      "name": "Postings.com",
+      "url": "https://www.postings.com",
+      "outcome": "partially-verified",
+      "fields_not_found": [
+        "languages",
+        "business_model",
+        "api_status",
+        "ingest_methods"
+      ],
+      "method": "mixed",
+      "note": "Homepage, about and partnerships pages read; no pricing, language options, API or inbound posting method found."
+    },
+    {
+      "name": "hireDiverse",
+      "url": "https://www.hirediverse.ca",
+      "outcome": "partially-verified",
+      "fields_not_found": [
+        "parent",
+        "languages",
+        "api_status"
+      ],
+      "method": "mixed",
+      "note": "Homepage, pricing, about and partners pages read; parent, language options and API access not stated."
+    }
+  ],
+  "blocked": [
+    {
+      "name": "Vacancy Poster",
+      "url": "https://www.vacancyposter.com",
+      "reason": "Browser reader returned status 502 with blocked set to true"
+    }
+  ]
+}

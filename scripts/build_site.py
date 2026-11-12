@@ -99,6 +99,11 @@ def life_text(r):
     s = r["status"]; y = f' in {r["year"]}' if r["year"] else ""
     succ = f' {"by" if s == "acquired" else "with"} {r["successor_name"]}' if r["successor_name"] and s in ("acquired", "merged") else (f' as {r["successor_name"]}' if r["successor_name"] and s == "rebranded" else "")
     return {"closed": f'Closed{y}', "acquired": f'Acquired{succ}{y}', "merged": f'Merged{succ}{y}', "rebranded": f'Rebranded{succ}{y}'}[s]
+_ic = collections.Counter()
+for _r in REL:
+    for _x in (_r["from_id"], _r["to_id"]):
+        if _x: _ic[_x] += 1
+INTEG_IDS = {k for k, v in _ic.items() if v >= 5}
 API_DET = collections.defaultdict(dict)
 for _d in (load("api_details.csv") if (ROOT/"data"/"api_details.csv").exists() else []): API_DET[_d["board_id"]][_d["field"]] = _d
 API_DET_LABEL = {"feed": "Public job feed", "access": "How to get access", "auth": "Authentication", "formats": "Data formats", "scope": "What it covers", "limits": "Rate limits", "cost": "Cost", "approval": "Approval", "sandbox": "Test environment"}
@@ -160,7 +165,7 @@ pages = []  # (path, lastmod)
 def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False, md=False):
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
-    nav = (f'<a href="{r}">Directory</a><a href="{r}ecosystem/">Ecosystem</a><a href="{r}tags/">Types</a><a href="{r}rankings/">Rankings</a><a href="{r}owners/">Owners</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
+    nav = (f'<a href="{r}">Directory</a><a href="{r}ecosystem/">Ecosystem</a><a href="{r}integrations/">Integrations</a><a href="{r}tags/">Types</a><a href="{r}rankings/">Rankings</a><a href="{r}owners/">Owners</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
            f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}closed/">Closed</a><a href="{r}timeline/">Timeline</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -332,7 +337,8 @@ for b in boards:
             return f'<li>{lnk} <a class="muted small" href="{e(rr["source_url"])}" rel="noopener nofollow" target="_blank">source</a></li>'
         groups = (("Sends jobs to", [(rr, "to") for rr in cn["sends"].values() if rr["from_id"] == b["id"]]), ("Receives jobs from", [(rr, "from") for rr in cn["receives"].values() if rr["to_id"] == b["id"]]),
                   ("Integrates with", [(rr, "to" if rr["from_id"] == b["id"] else "from") for rr in cn["integrates"].values()]))
-        conn_html = "<h2>Connections</h2><p class=\"muted small\">How this entry connects to other platforms, each from a page on one party's own site. Names that are not links are not yet in the directory.</p>"
+        conn_html = (f'<p><a href="{r}integrations/{e(b["id"])}/">All {e(b["name"])} integrations in one list</a></p>' if b["id"] in INTEG_IDS else "")
+        conn_html += "<h2>Connections</h2><p class=\"muted small\">How this entry connects to other platforms, each from a page on one party's own site. Names that are not links are not yet in the directory.</p>"
         for lbl, items in groups:
             if not items: continue
             conn_html += f"<h3>{e(lbl)}</h3><ul class=\"conn\">" + "".join(li(rr, sd) for rr, sd in items[:30]) + "</ul>" + (f'<p class="muted small">and {len(items) - 30} more in the <a href="{r}data/boards/{e(b["id"])}.json">data file</a>.</p>' if len(items) > 30 else "")
@@ -696,6 +702,53 @@ write("closed/index.html", layout(1, f"Closed, acquired and merged job boards an
   f'<h1>Closed, acquired and merged</h1><p class="lede">Job boards, staffing firms and hiring tools that no longer operate on their own: shut down, bought, merged or renamed. {len(LIFE)} so far, each with a cited source. Where an entry is also in the directory, its page carries a notice.</p>'
   f'{life_groups}<p class="muted small">Missing one? A closure or deal only appears here with a source that states it. <a href="../about/">How this directory is built</a>.</p>',
   "/closed/", None, noindex=len(LIFE) < 3, md=len(LIFE) >= 3), indexed=len(LIFE) >= 3, md=md_life, kind="tag")
+# ---------- integration pages ----------
+_GROUP = [("ats", "Applicant tracking systems"), ("dist", "Multiposting and job distribution"), ("board", "Job boards and aggregators"), ("other", "Other platforms")]
+def _grp_of(i):
+    if not i or i not in by_id: return "other"
+    ty = by_id[i]["type"]
+    if ty == "ats": return "ats"
+    if ty in ("multiposting", "programmatic-distribution", "feed-aggregator"): return "dist"
+    if "board" in ty or "aggregator" in ty or ty in ("government",): return "board"
+    return "other"
+_ie = collections.defaultdict(list)
+for _r in REL:
+    if _r["from_id"] in by_id: _ie[_r["from_id"]].append(("out", _r))
+    if _r["to_id"] in by_id: _ie[_r["to_id"]].append(("in", _r))
+INTEG = {i: v for i, v in _ie.items() if len(v) >= 5}
+def _rel_phrase(d, rel): return {("out", "sends-jobs-to"): "sends jobs to", ("in", "sends-jobs-to"): "receives jobs from", ("out", "integrates-with"): "integrates with", ("in", "integrates-with"): "integrates with"}.get((d, rel), "connects with")
+for _i, _edges in INTEG.items():
+    b = by_id[_i]; qn = b["name"]
+    rows_by = collections.defaultdict(list); seen_ = set()
+    for d, rr in _edges:
+        oid, onm = (rr["to_id"], rr["to_name"]) if d == "out" else (rr["from_id"], rr["from_name"])
+        k = (oid or onm.lower(), d, rr["relation"])
+        if k in seen_: continue
+        seen_.add(k); rows_by[_grp_of(oid)].append((oid, onm, _rel_phrase(d, rr["relation"]), rr["source_url"]))
+    body = (f'<nav class="crumbs"><a href="../../">Directory</a> / <a href="../">Integrations</a> / {e(qn)}</nav><div class="titlerow">{icon(b, "../../", 48)}<h1>{e(qn)} integrations</h1></div>'
+            f'<p class="lede">The job boards, multiposting platforms and applicant tracking systems that {e(qn)} connects to, {sum(len(v) for v in rows_by.values())} in all, each taken from a page on one party\'s own site. See the <a href="../../boards/{e(_i)}/">{e(qn)} entry</a> for its API access, owner and sources.</p>')
+    _ad = API_DET.get(_i, {})
+    body += (f'<p>{api_badge(b["api_status"])} ' + (f'{e(_ad["access"]["value"])}. ' if "access" in _ad else "") + (f'Authentication: {e(_ad["auth"]["value"])}.' if "auth" in _ad else "") + "</p>")
+    faq_i = []
+    for g, lbl in _GROUP:
+        v = rows_by.get(g)
+        if not v: continue
+        body += f'<h2>{e(lbl)} ({len(v)})</h2><div class="tablewrap"><table><thead><tr><th>Platform</th><th>Connection</th><th>Source</th></tr></thead><tbody>'
+        body += "".join(f'<tr><td>{(f"<a href=\"../../boards/{e(o)}/\">{e(n)}</a>") if o in by_id else e(n)}</td><td>{e(ph)}</td><td><a class="muted small" href="{e(s)}" rel="noopener nofollow" target="_blank">source</a></td></tr>' for o, n, ph, s in sorted(v, key=lambda x: x[1].lower()))
+        body += "</tbody></table></div>"
+        names = [n for _, n, _, _ in sorted(v, key=lambda x: x[1].lower())]
+        faq_i.append((f'Which {lbl.lower()} does {qn} connect to?', f'According to pages on the platforms\' own sites, {qn} connects to {", ".join(names[:12])}' + (f" and {len(names) - 12} more" if len(names) > 12 else "") + "."))
+    body += '<section class="faq"><h2>Quick answers</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a_)}</p>" for q, a_ in faq_i) + "</section>"
+    body += '<p class="muted small">A connection is listed only when one of the two parties states it on its own site. Missing names may still connect. See the <a href="../../ecosystem/">ecosystem map</a> for all documented connections.</p>'
+    md_i = (f"# {qn} integrations\n\nPlatforms {qn} connects to, each from a page on one party's own site.\n\n" + "\n\n".join(f"## {lbl}\n\n" + "\n".join(f"- {n}: {ph} ({s})" for _, n, ph, s in sorted(rows_by[g], key=lambda x: x[1].lower())) for g, lbl in _GROUP if rows_by.get(g)) + f"\n\nCanonical page: {BASE}/integrations/{_i}/\n")
+    write(f"integrations/{_i}/index.html", layout(2, f"{qn} integrations: job boards, multiposters and ATS it connects to | {NAME}",
+        f"Which job boards, multiposting platforms and applicant tracking systems {qn} connects to, with a source for each connection.", body, f"/integrations/{_i}/", None, md=True), md=md_i, kind="tag")
+_ih = sorted(INTEG.items(), key=lambda kv: -len(kv[1]))
+write("integrations/index.html", layout(1, f"ATS, job board and multiposter integrations: who connects to whom | {NAME}",
+    f"Integration lists for {len(_ih)} applicant tracking systems, multiposting platforms and job boards, built from the platforms' own pages.",
+    '<h1>Integrations</h1><p class="lede">Which job boards each applicant tracking system and multiposting platform connects to, and which systems each job board accepts jobs from. Every connection comes from a page on one party\'s own site.</p><ul class="plain">'
+    + "".join(f'<li><a href="{e(i)}/"><strong>{e(by_id[i]["name"])}</strong></a> <span class="muted small">{e(type_label(by_id[i]))}, {len(v)} connections</span></li>' for i, v in _ih) + "</ul>", "/integrations/", None, md=True),
+    md="# Integrations\n\n" + "\n".join(f"- [{by_id[i]['name']}]({BASE}/integrations/{i}/): {len(v)} connections" for i, v in _ih) + f"\n\nCanonical page: {BASE}/integrations/\n", kind="tag")
 # ---------- ownership and closures timeline ----------
 _tl = []; _seen = set()
 for _x in LIFE:  # acquisitions, mergers, rebrands and closures, each with a source
