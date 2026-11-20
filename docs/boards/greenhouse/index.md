@@ -1,6 +1,6 @@
 # Greenhouse
 
-Greenhouse is an applicant tracking system based in United States, focused on applicant tracking system.
+Greenhouse is an applicant tracking system based in the United States.
 
 - Website: https://www.greenhouse.com
 - Headquarters: United States

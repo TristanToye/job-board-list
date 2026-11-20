@@ -1,6 +1,6 @@
 # JazzHR
 
-JazzHR is an applicant tracking system based in United States, focused on applicant tracking system.
+JazzHR is an applicant tracking system based in the United States.
 
 - Website: https://www.jazzhr.com
 - Headquarters: United States

@@ -1,6 +1,6 @@
 # JobServe
 
-JobServe is a job board based in United Kingdom.
+JobServe is a job board based in the United Kingdom.
 
 - Website: http://www.jobserve.com
 - Headquarters: United Kingdom

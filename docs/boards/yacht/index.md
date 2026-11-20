@@ -1,6 +1,6 @@
 # Yacht
 
-Yacht is a staffing agency based in Netherlands.
+Yacht is a staffing agency based in the Netherlands.
 
 - Website: https://www.randstadprofessional.nl/
 - Headquarters: Netherlands

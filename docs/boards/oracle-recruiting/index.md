@@ -1,6 +1,6 @@
 # Oracle Recruiting Cloud
 
-Oracle Recruiting Cloud is an applicant tracking system based in United States, focused on applicant tracking system.
+Oracle Recruiting Cloud is an applicant tracking system based in the United States.
 
 - Website: https://www.oracle.com/human-capital-management/recruiting/
 - Headquarters: United States

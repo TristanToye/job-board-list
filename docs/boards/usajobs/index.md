@@ -1,6 +1,6 @@
 # USAJOBS
 
-USAJOBS is a government job site based in United States, focused on public sector. It was founded in 1996.
+USAJOBS is a government job site based in the United States, focused on public sector. It was founded in 1996.
 
 - Website: https://www.usajobs.gov
 - Headquarters: United States

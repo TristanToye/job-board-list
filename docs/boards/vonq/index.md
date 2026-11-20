@@ -1,6 +1,6 @@
 # VONQ
 
-VONQ is a programmatic distribution, focused on talent attraction and programmatic recruitment advertising.
+VONQ is a programmatic job advertising platform, focused on talent attraction and programmatic recruitment advertising.
 
 - Website: https://www.vonq.com
 - Headquarters: not recorded

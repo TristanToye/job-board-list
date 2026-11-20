@@ -1,6 +1,6 @@
 # PandoLogic
 
-PandoLogic is a programmatic distribution based in United States, focused on programmatic recruitment advertising with AI.
+PandoLogic is a programmatic job advertising platform based in the United States, focused on programmatic recruitment advertising with AI.
 
 - Website: https://pandologic.com
 - Headquarters: United States

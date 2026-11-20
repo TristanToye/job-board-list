@@ -1,6 +1,6 @@
 # Randstad
 
-Randstad is a staffing agency based in Netherlands, focused on general and specialist staffing and talent services. It was founded in 1960.
+Randstad is a staffing agency based in the Netherlands, focused on general and specialist staffing and talent services. It was founded in 1960.
 
 - Website: https://www.randstad.com
 - Headquarters: Netherlands

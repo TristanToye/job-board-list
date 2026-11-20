@@ -1,6 +1,6 @@
 # Jobiqo
 
-Jobiqo is a programmatic distribution based in Austria, focused on job board software with programmatic job advertising.
+Jobiqo is a programmatic job advertising platform based in Austria, focused on job board software with programmatic job advertising.
 
 - Website: https://www.jobiqo.com
 - Headquarters: Austria

@@ -1,6 +1,6 @@
 # First Advantage
 
-First Advantage is an HR technology vendor based in United States, focused on background screening technology. It was founded in 2003.
+First Advantage is an HR technology vendor based in the United States, focused on background screening technology. It was founded in 2003.
 
 - Website: https://fadv.com
 - Headquarters: United States

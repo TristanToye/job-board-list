@@ -1,6 +1,6 @@
 # hireDiverse
 
-hireDiverse is a multiposting, focused on inclusive recruitment and employment equity job distribution.
+hireDiverse is a job multiposting and distribution service, focused on inclusive recruitment and employment equity job distribution.
 
 - Website: https://www.hirediverse.ca
 - Headquarters: not recorded

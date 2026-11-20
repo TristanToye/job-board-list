@@ -1,6 +1,6 @@
 # Gezondheidszorgbanen.nl
 
-Gezondheidszorgbanen.nl is a niche job board based in Netherlands, focused on healthcare.
+Gezondheidszorgbanen.nl is a niche job board based in the Netherlands, focused on healthcare.
 
 - Website: https://www.gezondheidszorgbanen.nl
 - Headquarters: Netherlands

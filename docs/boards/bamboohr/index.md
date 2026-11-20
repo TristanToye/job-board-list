@@ -1,6 +1,6 @@
 # BambooHR
 
-BambooHR is an applicant tracking system based in United States, focused on applicant tracking system. It was founded in 2008.
+BambooHR is an applicant tracking system based in the United States. It was founded in 2008.
 
 - Website: https://www.bamboohr.com
 - Headquarters: United States

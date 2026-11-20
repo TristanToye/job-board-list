@@ -1,6 +1,6 @@
 # SeekOut
 
-SeekOut is an HR technology vendor based in United States, focused on talent sourcing and recruiting intelligence.
+SeekOut is an HR technology vendor based in the United States, focused on talent sourcing and recruiting intelligence.
 
 - Website: https://www.seekout.com
 - Headquarters: United States

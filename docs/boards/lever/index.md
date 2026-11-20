@@ -1,6 +1,6 @@
 # Lever
 
-Lever is an applicant tracking system based in United States, focused on applicant tracking system.
+Lever is an applicant tracking system based in the United States.
 
 - Website: https://www.lever.co
 - Headquarters: United States

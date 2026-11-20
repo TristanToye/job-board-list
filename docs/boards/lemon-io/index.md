@@ -1,6 +1,6 @@
 # Lemon.io
 
-Lemon.io is a freelance marketplace based in United States, focused on freelance developer marketplace. It was founded in 2015.
+Lemon.io is a freelance marketplace based in the United States, focused on freelance developer marketplace. It was founded in 2015.
 
 - Website: https://lemon.io
 - Headquarters: United States

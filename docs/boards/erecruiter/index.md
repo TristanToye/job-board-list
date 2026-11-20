@@ -1,6 +1,6 @@
 # eRecruiter
 
-eRecruiter is a multiposting based in Poland.
+eRecruiter is a job multiposting and distribution service based in Poland.
 
 - Website: https://www.erecruiter.pl
 - Headquarters: Poland

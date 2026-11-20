@@ -1,6 +1,6 @@
 # Oracle Taleo
 
-Oracle Taleo is an applicant tracking system based in United States, focused on applicant tracking system.
+Oracle Taleo is an applicant tracking system based in the United States.
 
 - Website: https://www.oracle.com/human-capital-management/taleo/
 - Headquarters: United States

@@ -1,6 +1,6 @@
 # Workable
 
-Workable is an applicant tracking system based in Greece, focused on applicant tracking system.
+Workable is an applicant tracking system based in Greece.
 
 - Website: https://www.workable.com
 - Headquarters: Greece

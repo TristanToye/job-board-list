@@ -1,6 +1,6 @@
 # JobTarget
 
-JobTarget is a multiposting, focused on recruitment advertising and job distribution.
+JobTarget is a job multiposting and distribution service, focused on recruitment advertising and job distribution.
 
 - Website: https://www.jobtarget.com
 - Headquarters: not recorded

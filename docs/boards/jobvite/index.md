@@ -1,6 +1,6 @@
 # Jobvite
 
-Jobvite is an applicant tracking system based in United States, focused on applicant tracking system.
+Jobvite is an applicant tracking system based in the United States.
 
 - Website: https://www.jobvite.com
 - Headquarters: United States

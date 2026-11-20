@@ -1,6 +1,6 @@
 # LinkedIn
 
-LinkedIn is a social network and board based in United States, focused on general/professional. It was founded in 2002.
+LinkedIn is a social network and board based in the United States, focused on general/professional. It was founded in 2002.
 
 - Website: https://www.linkedin.com/jobs
 - Headquarters: United States

@@ -1,6 +1,6 @@
 # Glassdoor
 
-Glassdoor is a board and reviews based in United States. It was founded in 2007.
+Glassdoor is a board and reviews based in the United States. It was founded in 2007.
 
 - Website: https://www.glassdoor.com
 - Headquarters: United States

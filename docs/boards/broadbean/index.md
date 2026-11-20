@@ -1,6 +1,6 @@
 # Broadbean
 
-Broadbean is a multiposting based in United Kingdom.
+Broadbean is a job multiposting and distribution service based in the United Kingdom.
 
 - Website: https://www.broadbean.com
 - Headquarters: United Kingdom

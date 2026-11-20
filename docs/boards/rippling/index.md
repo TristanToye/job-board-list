@@ -1,6 +1,6 @@
 # Rippling Recruiting
 
-Rippling Recruiting is an applicant tracking system based in United States, focused on applicant tracking system.
+Rippling Recruiting is an applicant tracking system based in the United States.
 
 - Website: https://www.rippling.com
 - Headquarters: United States

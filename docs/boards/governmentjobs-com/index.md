@@ -1,6 +1,6 @@
 # GovernmentJobs.com
 
-GovernmentJobs.com is a government job site based in United States, focused on government.
+GovernmentJobs.com is a government job site based in the United States.
 
 - Website: https://www.governmentjobs.com/
 - Headquarters: United States

@@ -1,6 +1,6 @@
 # DirectEmployers Association
 
-DirectEmployers Association is a multiposting, focused on job distribution and recruitment solutions for employers.
+DirectEmployers Association is a job multiposting and distribution service, focused on job distribution and recruitment solutions for employers.
 
 - Website: https://directemployers.org
 - Headquarters: not recorded

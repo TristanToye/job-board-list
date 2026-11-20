@@ -1,6 +1,6 @@
 # Flexa
 
-Flexa is a job board based in United Kingdom. It was founded in 2019.
+Flexa is a job board based in the United Kingdom. It was founded in 2019.
 
 - Website: https://flexa.careers/
 - Headquarters: United Kingdom

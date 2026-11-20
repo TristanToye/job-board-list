@@ -1,6 +1,6 @@
 # Kalibrr
 
-Kalibrr is a job board based in Philippines.
+Kalibrr is a job board based in the Philippines.
 
 - Website: https://www.kalibrr.com
 - Headquarters: Philippines

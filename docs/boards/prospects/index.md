@@ -1,6 +1,6 @@
 # Prospects
 
-Prospects is a niche job board based in United Kingdom, focused on graduates.
+Prospects is a niche job board based in the United Kingdom, focused on graduates.
 
 - Website: https://www.prospects.ac.uk
 - Headquarters: United Kingdom

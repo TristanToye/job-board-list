@@ -1,6 +1,6 @@
 # SmartRecruiters
 
-SmartRecruiters is an applicant tracking system based in Poland, focused on applicant tracking system.
+SmartRecruiters is an applicant tracking system based in Poland.
 
 - Website: https://www.smartrecruiters.com
 - Headquarters: Poland

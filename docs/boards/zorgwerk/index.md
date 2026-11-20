@@ -1,6 +1,6 @@
 # Zorgwerk
 
-Zorgwerk is a niche job board based in Netherlands, focused on healthcare and welfare.
+Zorgwerk is a niche job board based in the Netherlands, focused on healthcare and welfare.
 
 - Website: https://www.zorgwerk.nl
 - Headquarters: Netherlands

@@ -1,6 +1,6 @@
 # Teamtailor
 
-Teamtailor is an applicant tracking system based in Sweden, focused on applicant tracking system.
+Teamtailor is an applicant tracking system based in Sweden.
 
 - Website: https://www.teamtailor.com
 - Headquarters: Sweden

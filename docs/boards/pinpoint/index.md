@@ -1,6 +1,6 @@
 # Pinpoint
 
-Pinpoint is an applicant tracking system based in United Kingdom, focused on applicant tracking system.
+Pinpoint is an applicant tracking system based in the United Kingdom.
 
 - Website: https://www.pinpointhq.com
 - Headquarters: United Kingdom

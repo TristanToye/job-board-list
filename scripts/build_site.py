@@ -32,7 +32,7 @@ API_BLURB = {
  "none-known":"Boards with no publicly documented API that we could identify. Access is typically by crawling or by employer feed.",
  "unknown":"Boards where API availability has not yet been researched."}
 
-TYPE_NOUN = {"job-data": "job data provider", "board": "job board", "niche-board": "niche job board", "aggregator": "job aggregator", "ats": "applicant tracking system", "lmi": "labour market information source", "hr-tech": "HR technology vendor",
+TYPE_NOUN = {"job-data": "job data provider", "multiposting": "job multiposting and distribution service", "programmatic-distribution": "programmatic job advertising platform", "feed-aggregator": "job feed management service", "board": "job board", "niche-board": "niche job board", "aggregator": "job aggregator", "ats": "applicant tracking system", "lmi": "labour market information source", "hr-tech": "HR technology vendor",
     "career-services": "career services provider", "freelance-platform": "freelance marketplace", "employer-reviews": "employer review site", "staffing": "staffing agency",
     "recruiting-services": "recruiting firm", "outplacement": "outplacement firm", "government": "government job site", "directory": "directory of job sites", "community": "job community"}
 def tdesc(b): return TYPE_NOUN.get(b["type"], b["type"].replace("+", " and ").replace("-", " "))
@@ -227,6 +227,24 @@ def api_badge(s): return f'<span class="badge api-{e(s)}">{e(API_LABEL.get(s,s))
 def chips(vals): return "".join(f'<span class="chip">{e(v)}</span>' for v in vals) or '<span class="muted">Not recorded</span>'
 def link(u, t=None): return f'<a href="{e(u)}" rel="noopener nofollow" target="_blank">{e(t or u)}</a>' if u else '<span class="muted">Not recorded</span>'
 
+def _trim(s, n):
+    return s if len(s) <= n else s[:n].rsplit(" ", 1)[0].rstrip(",;:") + "..."
+_API_PHRASE = {"public-open": "open API", "public-key": "self-serve API", "on-request": "API on request", "partner-only": "partner-only API"}
+def the_country(c):
+    n = country(c)
+    return "the " + n if n.startswith(("United ", "Netherlands", "Philippines", "Czech Republic", "Dominican", "Bahamas")) else n
+def board_title(b):
+    """Title built from the entry's own facts, so it says what the page answers: what it is, where, and how open it is."""
+    what = tdesc(b) + (f' in {the_country(b["hq_country"])}' if b["hq_country"] and b["hq_country"] not in ("ZZ", "Global") else "")
+    extra = _API_PHRASE.get(b["api_status"]) or ("partner program" if b["partner_program"] == "yes" else "") or ("pricing and owner" if b["business_model"] and b["parent"] else "")
+    return f'{b["name"]}: {what}' + (f", {extra}" if extra else "") + f" | {NAME}"
+def board_desc(b, what_is):
+    bits = [what_is]
+    if b["business_model"]: bits.append(f'Pricing: {b["business_model"]}.')
+    if b["api_status"] not in ("unknown", ""): bits.append(f'API: {API_LABEL.get(b["api_status"], b["api_status"])}.')
+    if b["ingest_methods"]: bits.append(f'Jobs get in by {", ".join(split(b["ingest_methods"])[:3])}.')
+    if b["parent"] and norm_owner(b["parent"]) not in EXCLUDED: bits.append(f'Owner: {b["parent"]}.')
+    return _trim(" ".join(bits) + " Each fact is cited.", 165)
 def board_url(b, r): return f'{r}boards/{b["id"]}/'
 def prom_cell(b):
     p = prom(b)
@@ -320,7 +338,7 @@ for b in boards:
                  f'{fact("Self-reported scale", "<ul class=\"plain\">" + scale_li + "</ul>") if scale_li else ""}</dl>'
                  f'<p class="muted small">Rank source: Majestic Million, list of {e(RANK_DATE)}, licensed CC BY 3.0. It measures how widely a site is linked to, not how many jobs or visitors it has. <a href="{r}about/#prominence">How prominence is measured</a>.</p>')
     qn = b["name"]; hedge = " This has not yet been verified against the board's own site." if b["confidence"] == "seed-unverified" else ""
-    faq = [(f"What is {qn}?", f'{qn} is {article(tdesc(b))} {tdesc(b)}' + (f' based in {country(b["hq_country"])}' if b["hq_country"] else "") + (f', focused on {b["niche"]}' if b["niche"] and b["niche"] != "general" else "") + "." + (f' It was founded in {b["founded"]}.' if b["founded"] else ""))]
+    faq = [(f"What is {qn}?", f'{qn} is {article(tdesc(b))} {tdesc(b)}' + (f' based in {the_country(b["hq_country"])}' if b["hq_country"] and b["hq_country"] not in ("ZZ", "Global") else "") + (f', focused on {b["niche"]}' if b["niche"] and b["niche"] != "general" and b["niche"].lower() not in tdesc(b).lower() and tdesc(b).lower() not in b["niche"].lower() else "") + "." + (f' It was founded in {b["founded"]}.' if b["founded"] else ""))]
     _own = [h for h in {x["owner_id"]: x for x in reversed(HOLD_BY_BOARD.get(b["id"], []))}.values() if h["owner_id"] in OWNERS]
     if _own: faq.append((f"Who owns {qn}?", f'According to this directory, {qn} is owned by {OWNERS[_own[0]["owner_id"]]["name"]} ({hold_phrase(_own[0]).lower()}).'))
     elif b["parent"]: faq.append((f"Who owns {qn}?", f'This directory records the parent of {qn} as {b["parent"]}.' + hedge))
@@ -408,8 +426,7 @@ for b in boards:
         + "\n\n## Quick answers\n\n" + "\n\n".join(f"**{q}** {a}" for q, a in faq[1:])
         + ("\n\n## Sources\n\n" + "\n".join(f'- [{x["title"] or x["url"]}]({x["url"]}) ({FIELD_LABEL.get(x["field"], x["field"])}, checked {x["accessed"]})' + (f': "{x["quote"]}"' if x.get("quote") else "") for x in srcs) if srcs else "")
         + f'\n\nCanonical page: {BASE}/boards/{b["id"]}/\nLast updated: {mod_date}\n')
-    write(f'boards/{b["id"]}/index.html', layout(2, f'{b["name"]}: API, partner program and integration details | {NAME}',
-      f'{b["name"]} ({b["type"]}{", " + country(b["hq_country"]) if b["hq_country"] else ""}{", " + lang(b["primary_language"]) if b["primary_language"] else ""}): API status, partner program, developer docs and how jobs are ingested.', body, f'/boards/{b["id"]}/', ld, noindex=not indexable(b), md=indexable(b)), indexed=indexable(b), mod=mod_date, md=md_b, kind="board")
+    write(f'boards/{b["id"]}/index.html', layout(2, board_title(b), board_desc(b, faq[0][1]), body, f'/boards/{b["id"]}/', ld, noindex=not indexable(b), md=indexable(b)), indexed=indexable(b), mod=mod_date, md=md_b, kind="board")
 
 # ---------- group pages (regions, countries, api status) ----------
 def group_pages(kind, label_plural, keyfn, labelfn, blurbfn, titlefn, h1fn):
@@ -627,7 +644,7 @@ for oid, o in OWNERS.items():
             + (f'\n\n## Holdings\n\n' + "\n".join(f'- {h["holding_name"]}: {hold_phrase(h)}; {CAT_LABEL[h["category"]]}. Source: {h["source_url"]} "{h["quote"]}"' for h in cur if h["category"] in CAT_LABEL) if cur else "")
             + (f'\n\n## Formerly owned\n\n' + "\n".join(f'- {h["holding_name"]}: {h["quote"]} ({h["source_url"]})' for h in former) if former else "")
             + f'\n\nCanonical page: {BASE}/owners/{oid}/\n')
-    write(f"owners/{oid}/index.html", layout(2, f"{o['name']}: job boards and other HR businesses owned | {NAME}",
+    write(f"owners/{oid}/index.html", layout(2, (f"{o['name']}: owner of {', '.join(h['holding_name'] for h in cur[:3])} and more | {NAME}" if len(cur) >= 3 else f"{o['name']}: job boards and other HR businesses owned | {NAME}"),
         f"What {o['name']} owns in the HR space: {nb} job boards in this directory plus staffing, HR technology and other holdings, with cited sources.", body, f"/owners/{oid}/", ld, noindex=not idx, md=idx), indexed=idx, md=md_o, kind="owner")
     owner_rows.append((oid, o, len(cur), nb))
 if owner_rows:
@@ -760,7 +777,7 @@ for _i, _edges in INTEG.items():
     body += '<section class="faq"><h2>Quick answers</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a_)}</p>" for q, a_ in faq_i) + "</section>"
     body += '<p class="muted small">A connection is listed only when one of the two parties states it on its own site. Missing names may still connect. See the <a href="../../ecosystem/">ecosystem map</a> for all documented connections.</p>'
     md_i = (f"# {qn} integrations\n\nPlatforms {qn} connects to, each from a page on one party's own site.\n\n" + "\n\n".join(f"## {lbl}\n\n" + "\n".join(f"- {n}: {ph} ({s})" for _, n, ph, s in sorted(rows_by[g], key=lambda x: x[1].lower())) for g, lbl in _GROUP if rows_by.get(g)) + f"\n\nCanonical page: {BASE}/integrations/{_i}/\n")
-    write(f"integrations/{_i}/index.html", layout(2, f"{qn} integrations: job boards, multiposters and ATS it connects to | {NAME}",
+    write(f"integrations/{_i}/index.html", layout(2, f"{qn} integrations: job multiposting, distribution and job boards | {NAME}",
         f"Which job boards, multiposting platforms and applicant tracking systems {qn} connects to, with a source for each connection.", body, f"/integrations/{_i}/", None, md=True), md=md_i, kind="tag")
 _ih = sorted(INTEG.items(), key=lambda kv: -len(kv[1]))
 write("integrations/index.html", layout(1, f"ATS, job board and multiposter integrations: who connects to whom | {NAME}",

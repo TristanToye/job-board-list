@@ -1,6 +1,6 @@
 # Randstad Digital
 
-Randstad Digital is a staffing agency based in Netherlands.
+Randstad Digital is a staffing agency based in the Netherlands.
 
 - Website: https://www.randstaddigital.com/
 - Headquarters: Netherlands

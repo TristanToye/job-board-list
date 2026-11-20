@@ -1,6 +1,6 @@
 # iCIMS
 
-iCIMS is an applicant tracking system based in United States, focused on applicant tracking system.
+iCIMS is an applicant tracking system based in the United States.
 
 - Website: https://www.icims.com
 - Headquarters: United States

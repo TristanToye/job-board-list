@@ -1,6 +1,6 @@
 # Workday Recruiting
 
-Workday Recruiting is an applicant tracking system based in United States, focused on applicant tracking system. It was founded in 2005.
+Workday Recruiting is an applicant tracking system based in the United States. It was founded in 2005.
 
 - Website: https://www.workday.com
 - Headquarters: United States

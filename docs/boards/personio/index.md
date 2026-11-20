@@ -1,6 +1,6 @@
 # Personio
 
-Personio is an applicant tracking system based in Germany, focused on applicant tracking system.
+Personio is an applicant tracking system based in Germany.
 
 - Website: https://www.personio.com
 - Headquarters: Germany

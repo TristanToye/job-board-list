@@ -1,6 +1,6 @@
 # Randstad RiseSmart
 
-Randstad RiseSmart is an outplacement firm based in Netherlands, focused on outplacement and career transition.
+Randstad RiseSmart is an outplacement firm based in the Netherlands, focused on outplacement and career transition.
 
 - Website: https://www.randstadenterprise.com
 - Headquarters: Netherlands

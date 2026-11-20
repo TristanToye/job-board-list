@@ -1,6 +1,6 @@
 # Ashby
 
-Ashby is an applicant tracking system based in United States, focused on applicant tracking system.
+Ashby is an applicant tracking system based in the United States.
 
 - Website: https://www.ashbyhq.com
 - Headquarters: United States

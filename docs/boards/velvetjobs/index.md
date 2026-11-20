@@ -1,6 +1,6 @@
 # VelvetJobs
 
-VelvetJobs is an outplacement firm based in United States, focused on outplacement and employer branding.
+VelvetJobs is an outplacement firm based in the United States, focused on outplacement and employer branding.
 
 - Website: https://www.velvetjobs.com
 - Headquarters: United States

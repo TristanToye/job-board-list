@@ -1,6 +1,6 @@
 # Indeed
 
-Indeed is an aggregator and board based in United States. It was founded in 2004.
+Indeed is an aggregator and board based in the United States. It was founded in 2004.
 
 - Website: https://www.indeed.com
 - Headquarters: United States

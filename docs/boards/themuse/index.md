@@ -1,6 +1,6 @@
 # The Muse
 
-The Muse is a board and employer brand based in United States, focused on early-career. It was founded in 2011.
+The Muse is a board and employer brand based in the United States, focused on early-career. It was founded in 2011.
 
 - Website: https://www.themuse.com
 - Headquarters: United States

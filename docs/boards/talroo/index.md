@@ -1,6 +1,6 @@
 # Talroo
 
-Talroo is a programmatic distribution, focused on programmatic job advertising for frontline hiring.
+Talroo is a programmatic job advertising platform, focused on programmatic job advertising for frontline hiring.
 
 - Website: https://www.talroo.com
 - Headquarters: not recorded

@@ -1,6 +1,6 @@
 # U.S. Bureau of Labor Statistics
 
-U.S. Bureau of Labor Statistics is a labour market information source based in United States, focused on national labour market statistics agency.
+U.S. Bureau of Labor Statistics is a labour market information source based in the United States, focused on national labour market statistics agency.
 
 - Website: https://www.bls.gov
 - Headquarters: United States

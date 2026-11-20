@@ -1,6 +1,6 @@
 # Phenom
 
-Phenom is an applicant tracking system based in United States, focused on applicant tracking system.
+Phenom is an applicant tracking system based in the United States.
 
 - Website: https://www.phenom.com
 - Headquarters: United States

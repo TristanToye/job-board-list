@@ -1,6 +1,6 @@
 # Career Poster
 
-Career Poster is a multiposting based in United Kingdom, focused on job advert multiposting for UK employers.
+Career Poster is a job multiposting and distribution service based in the United Kingdom, focused on job advert multiposting for UK employers.
 
 - Website: https://careerposter.co.uk
 - Headquarters: United Kingdom

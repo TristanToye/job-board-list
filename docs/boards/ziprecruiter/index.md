@@ -1,6 +1,6 @@
 # ZipRecruiter
 
-ZipRecruiter is a board and aggregator based in United States. It was founded in 2010.
+ZipRecruiter is a board and aggregator based in the United States. It was founded in 2010.
 
 - Website: https://www.ziprecruiter.com
 - Headquarters: United States

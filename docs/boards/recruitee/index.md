@@ -1,6 +1,6 @@
 # Recruitee
 
-Recruitee is an applicant tracking system based in Netherlands, focused on applicant tracking system.
+Recruitee is an applicant tracking system based in the Netherlands.
 
 - Website: https://recruitee.com
 - Headquarters: Netherlands
