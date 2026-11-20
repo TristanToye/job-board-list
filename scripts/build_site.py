@@ -32,7 +32,7 @@ API_BLURB = {
  "none-known":"Boards with no publicly documented API that we could identify. Access is typically by crawling or by employer feed.",
  "unknown":"Boards where API availability has not yet been researched."}
 
-TYPE_NOUN = {"board": "job board", "niche-board": "niche job board", "aggregator": "job aggregator", "ats": "applicant tracking system", "lmi": "labour market information source", "hr-tech": "HR technology vendor",
+TYPE_NOUN = {"job-data": "job data provider", "board": "job board", "niche-board": "niche job board", "aggregator": "job aggregator", "ats": "applicant tracking system", "lmi": "labour market information source", "hr-tech": "HR technology vendor",
     "career-services": "career services provider", "freelance-platform": "freelance marketplace", "employer-reviews": "employer review site", "staffing": "staffing agency",
     "recruiting-services": "recruiting firm", "outplacement": "outplacement firm", "government": "government job site", "directory": "directory of job sites", "community": "job community"}
 def tdesc(b): return TYPE_NOUN.get(b["type"], b["type"].replace("+", " and ").replace("-", " "))
