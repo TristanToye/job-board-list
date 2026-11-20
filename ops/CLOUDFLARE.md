@@ -1,40 +1,60 @@
 # Cloudflare settings for jobboardlist.com
 
-GitHub Pages cannot send real redirects or custom headers, so these few rules live in Cloudflare. Each one takes a few minutes in the dashboard. Regenerate the redirect list with `python3 scripts/make_redirects.py` after a build if more stub pages appear.
+GitHub Pages cannot send real redirects or custom headers, so these rules live in Cloudflare (zone jobboardlist.com). All of them work on the Free plan. Do not change DNS records or the SSL mode.
 
-## 1. Real 301 redirects for old addresses (Bulk Redirects)
+## 1. Old ATS addresses: one wildcard redirect
 
-Old addresses such as `/ats/lever/` still exist as small pages that point to the new address. Search engines treat a real 301 better, and `/ats/lever/` is already showing up in Google results.
+Old addresses such as `/ats/lever/` are small pages that point to `/boards/lever/`. Google is showing some of them in results, so they should return a real 301.
 
-1. Rules > Redirect Rules > Bulk Redirects > Create Bulk Redirect List.
-2. Name it `jobboardlist-moved`, then upload `ops/cloudflare-bulk-redirects.csv` (columns: source, target, status 301).
-3. Create a Bulk Redirect Rule that uses that list. Leave "Preserve query string" on.
+Rules > Redirect Rules > Create rule (or "Single Redirects"):
+- Name: `Old ATS addresses`
+- If incoming requests match: Wildcard pattern
+  - Request URL: `https://jobboardlist.com/ats/*/`
+- Then: Target URL `https://jobboardlist.com/boards/${1}/`, status 301, preserve query string on.
+
+`/ats/` itself (the ATS comparison page) does not match this pattern and must keep working.
 
 ## 2. One hop from www to the main address
 
-Today `https://www.jobboardlist.com` goes to `http://jobboardlist.com` and only then to `https://`. One hop is cleaner.
+Today `https://www.jobboardlist.com` goes to `http://jobboardlist.com` and only then to `https://`.
 
 Rules > Redirect Rules > Create rule:
-- When incoming requests match: Hostname equals `www.jobboardlist.com`
-- Then: Dynamic redirect to `concat("https://jobboardlist.com", http.request.uri.path)`, status 301, preserve query string.
+- Name: `www to root`
+- If incoming requests match: Wildcard pattern
+  - Request URL: `*://www.jobboardlist.com/*`
+- Then: Target URL `https://jobboardlist.com/${2}`, status 301, preserve query string on.
+
+(Cloudflare also offers this as the "Redirect from WWW to root" template.)
 
 ## 3. Keep data files out of search results
 
-The raw CSV download was showing in Google results. The Markdown copies and JSON files are for programs and AI tools, not for search results, so they should not be indexed. They stay fully readable.
+The raw CSV download shows in Google results. Markdown copies and JSON files are for programs and AI tools and should not be indexed. They stay readable.
 
 Rules > Transform Rules > Modify Response Header > Create rule:
-- When incoming requests match (custom filter expression):
-  `ends_with(http.request.uri.path, ".csv") or ends_with(http.request.uri.path, ".md") or ends_with(http.request.uri.path, ".json") or ends_with(http.request.uri.path, "llms-full.txt")`
-- Then: Set static header `X-Robots-Tag` to `noindex`
+- Name: `Noindex data files`
+- Custom filter expression:
+  `ends_with(http.request.uri.path, ".csv") or ends_with(http.request.uri.path, ".md") or ends_with(http.request.uri.path, ".json") or http.request.uri.path eq "/llms-full.txt"`
+- Then: Set static, header name `X-Robots-Tag`, value `noindex`.
 
 ## 4. Let search and AI-search crawlers in
 
-Security > Bots, and AI Crawl Control (or Bot Fight Mode settings):
-- Make sure Googlebot, Bingbot, OAI-SearchBot (ChatGPT search), PerplexityBot and Applebot are allowed. Blocking training crawlers is a separate choice; the site's robots.txt currently allows search and AI input and says nothing about training.
-- If "Block AI bots" is on, check its list does not include the search crawlers above.
+Security > Bots and AI Crawl Control:
+- Googlebot, Bingbot, Applebot, OAI-SearchBot (ChatGPT search) and PerplexityBot should be allowed.
+- If "Block AI bots" or "Manage robots.txt" is on, make sure it does not block those search crawlers and does not rewrite the site's robots.txt.
+- Blocking training-only crawlers (for example GPTBot, CCBot) is a separate choice.
 
-## 5. Bing Webmaster Tools and IndexNow
+## 5. Optional: old language and country code addresses
 
-1. Go to bing.com/webmasters, sign in, and choose "Import from Google Search Console". This verifies the site and imports the sitemap in one step.
-2. The site publishes an IndexNow key file (see `docs/` for a file named after the key). After each deploy, `python3 scripts/indexnow.py` tells Bing and other IndexNow engines which pages changed.
-3. Bing Webmaster Tools has an AI Performance report that shows citations in Copilot answers. Check it monthly.
+`ops/cloudflare-bulk-redirects.csv` also lists 72 old language and country code addresses (for example `/languages/fr/` to `/languages/french/`). They get almost no traffic and already point to the right page, so this is optional. To do it: Rules > Redirect Rules > Bulk Redirects, create a list, upload the CSV, then create a Bulk Redirect Rule using the list. Regenerate the file with `python3 scripts/make_redirects.py`.
+
+## 6. Bing Webmaster Tools
+
+bing.com/webmasters, sign in, "Import from Google Search Console". IndexNow pings run with `python3 scripts/indexnow.py` after a deploy (key file is published at the site root).
+
+## Check after setup
+
+- `curl -sI https://jobboardlist.com/ats/lever/` shows `301` and `location: https://jobboardlist.com/boards/lever/`
+- `curl -sI https://jobboardlist.com/ats/` shows `200`
+- `curl -sI https://www.jobboardlist.com/boards/indeed/` shows `301` and `location: https://jobboardlist.com/boards/indeed/`
+- `curl -sI https://jobboardlist.com/downloads/job_boards.csv` shows `x-robots-tag: noindex`
+- `curl -sI https://jobboardlist.com/boards/indeed/` shows `200` and no `x-robots-tag`
