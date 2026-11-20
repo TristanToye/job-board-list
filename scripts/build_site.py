@@ -104,6 +104,7 @@ for _r in REL:
     for _x in (_r["from_id"], _r["to_id"]):
         if _x: _ic[_x] += 1
 INTEG_IDS = {k for k, v in _ic.items() if v >= 5}
+GUIDE = load("guide_facts.csv") if (ROOT/"data"/"guide_facts.csv").exists() else []
 API_DET = collections.defaultdict(dict)
 for _d in (load("api_details.csv") if (ROOT/"data"/"api_details.csv").exists() else []): API_DET[_d["board_id"]][_d["field"]] = _d
 API_DET_LABEL = {"feed": "Public job feed", "access": "How to get access", "auth": "Authentication", "formats": "Data formats", "scope": "What it covers", "limits": "Rate limits", "cost": "Cost", "approval": "Approval", "sandbox": "Test environment"}
@@ -591,7 +592,22 @@ for t, r in TAX.items():
             body += '<h2>Documented connections by ATS and distribution platform</h2><p class="muted small">Each link is stated on the platform\'s own pages. The <a href="../../ecosystem/">ecosystem map</a> shows the same data as a matrix.</p>'
             for _f, _rs in sorted(_grp.items(), key=lambda kv: -len(kv[1])):
                 body += f'<h3><a href="../../boards/{e(_f)}/">{e(by_id[_f]["name"])}</a></h3><ul class="conn">' + "".join(f'<li>{_conn_target(x)} <a class="muted small" href="{e(x["source_url"])}" rel="noopener nofollow" target="_blank">source</a></li>' for x in _rs[:25]) + "</ul>"
-    _TTL = {"ats-integration": "ATS and job board integrations: which platforms connect and how"}
+    if t == "ofccp-compliance":
+        _gf = [g for g in GUIDE if g["guide"] == "ofccp"]
+        if _gf:
+            _bt = collections.OrderedDict()
+            for g in _gf: _bt.setdefault(g["topic"] or "Other", []).append(g)
+            body += '<h2>What the rules require</h2><p class="muted small">Each statement comes from an official source, quoted on the linked page. This is a summary for orientation, not legal advice.</p>' + "".join(f'<h3>{e(tp)}</h3><ul>' + "".join(f'<li>{e(g["claim"])} <a class="muted small" href="{e(g["source_url"])}" rel="noopener nofollow" target="_blank">source</a></li>' for g in v) + "</ul>" for tp, v in _bt.items())
+        _vend = sorted(mb, key=lambda b: b["name"].lower())
+        def _ilink(bid): return f'<a href="../../integrations/{e(bid)}/">Integrations</a>' if bid in INTEG_IDS else '<span class="muted small">None documented</span>'
+        def _vnotes(bid):
+            return [s for s in SOURCES.get(bid, []) if s.get("field") == "note" and re.search(r"OFCCP|VEVRAA|ESDS|state job|job bank|compliance", s.get("quote", ""), re.I)][:2]
+        body += ('<h2>Posting vendors compared</h2><div class="tablewrap"><table><thead><tr><th>Vendor</th><th>Type</th><th>Pricing</th><th>What it says about compliance posting</th><th>ATS connections</th></tr></thead><tbody>'
+                 + "".join(f'<tr><td><a href="../../boards/{e(b["id"])}/"><strong>{e(b["name"])}</strong></a></td><td>{e(type_label(b))}</td><td>{e(b["business_model"]) or "<span class=\"muted small\">Not stated</span>"}</td><td>'
+                           + ("<br>".join(f'"{e(s["quote"])}" <a class="muted small" href="{e(s["url"])}" rel="noopener nofollow" target="_blank">source</a>' for s in _vnotes(b["id"])) or '<span class="muted small">See entry</span>')
+                           + f'</td><td>{_ilink(b["id"])}</td></tr>' for b in _vend)
+                 + "</tbody></table></div>")
+    _TTL = {"ats-integration": "ATS and job board integrations: which platforms connect and how", "ofccp-compliance": "OFCCP and VEVRAA job posting: rules and vendors compared"}
     _ttl = _TTL.get(t) or {"integration": f"{r['label']}: job boards and platforms that offer it", "focus": f"{r['label']} job boards and platforms", "model": f"{r['label']}: job boards by business model", "segment": f"{r['label']} hiring platforms", "operator": f"{r['label']}: who runs these job sites"}.get(r["facet"])
     write(f"tags/{t}/index.html", layout(2, f"{_ttl} | {NAME}" if _ttl else f"{r['label']}: directory and examples | {NAME}", f"{r['definition']} {n} entries in the directory.", body, f"/tags/{t}/", itemlist(mb, 2) if mb else None, noindex=not idx, md=idx), indexed=idx, md=md_t, kind="tag")
 # ---------- owners ----------
