@@ -1,0 +1,428 @@
+{
+  "mode": "discover",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Coresignal",
+      "url": "https://coresignal.com",
+      "type": "job-data",
+      "niche": "B2B company, employee and job posting data",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://coresignal.com/",
+          "title": "Real-Time Public Web Data | Coresignal",
+          "quote": "Get fresh company, employee, and jobs records in real time"
+        },
+        {
+          "field": "note",
+          "url": "https://coresignal.com/solutions/jobs-data-api/",
+          "title": "Jobs API: Access a Large-Scale Jobs Database",
+          "quote": "1 million new jobs added daily, all active jobs rescraped every 24 hours"
+        },
+        {
+          "field": "note",
+          "url": "https://coresignal.com/alternative-data/job-postings-data/",
+          "title": "Job Posting Data for Real-Time Insights",
+          "quote": "Deduplicated, multi-source records from job boards, company websites, and ATS"
+        },
+        {
+          "field": "business_model",
+          "url": "https://coresignal.com/solutions/jobs-data-api/",
+          "title": "Jobs API: Access a Large-Scale Jobs Database",
+          "quote": "2,000 free credits · No credit card required · Plans from $49/month"
+        },
+        {
+          "field": "api_status",
+          "url": "https://coresignal.com/solutions/jobs-data-api/",
+          "title": "Jobs API: Access a Large-Scale Jobs Database",
+          "quote": "Get API key from self-service"
+        }
+      ]
+    },
+    {
+      "name": "TheirStack",
+      "url": "https://theirstack.com",
+      "type": "job-data",
+      "niche": "job postings for sales and hiring signals",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://theirstack.com/en",
+          "title": "TheirStack | Technology Lookup & Hiring Signals",
+          "quote": "Use job postings to uncover ready-to-buy companies through analysis of 273M jobs from over 195 countries."
+        },
+        {
+          "field": "note",
+          "url": "https://theirstack.com/en/job-postings-data",
+          "title": "Job Postings Data by Country and Region",
+          "quote": "TheirStack tracks 264,507,492 job postings in all countries, collected from 373,890 distinct sources (data as of November 2026)."
+        },
+        {
+          "field": "business_model",
+          "url": "https://theirstack.com/en/pricing",
+          "title": "Pricing | TheirStack.com",
+          "quote": "There are 2 types of credits: company credits and API credits."
+        },
+        {
+          "field": "business_model",
+          "url": "https://theirstack.com/en/pricing",
+          "title": "Pricing | TheirStack.com",
+          "quote": "Switch to a monthly subscription and get 10% off"
+        }
+      ]
+    },
+    {
+      "name": "Techmap",
+      "url": "https://techmap.io",
+      "type": "job-data",
+      "niche": "job posting datasets, datafeeds and APIs",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://techmap.io/",
+          "title": "Job Posting Datasets, Datafeeds, and APIs",
+          "quote": "Map technology companies globally with access to a continuous stream of job postings"
+        },
+        {
+          "field": "note",
+          "url": "https://jobdatafeeds.com/job-api",
+          "title": "Job Posting API",
+          "quote": "Real-time API access to 270+ job sources across 250 countries and territories."
+        },
+        {
+          "field": "business_model",
+          "url": "https://jobdatafeeds.com/pricing",
+          "title": "Job Posting Data Pricing",
+          "quote": "Start small, scale fast - use only what you need and pay by the job, or bundle coverage by country."
+        },
+        {
+          "field": "business_model",
+          "url": "https://jobdatafeeds.com/pricing",
+          "title": "Job Posting Data Pricing",
+          "quote": "pay per use at $0.010 per successful request"
+        },
+        {
+          "field": "api_status",
+          "url": "https://jobdatafeeds.com/pricing",
+          "title": "Job Posting Data Pricing",
+          "quote": "GET FREE API ACCESS"
+        }
+      ]
+    },
+    {
+      "name": "JobsPikr",
+      "url": "https://www.jobspikr.com",
+      "type": "job-data",
+      "niche": "real-time job posting data feeds and datasets",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.jobspikr.com/",
+          "title": "JobsPikr | Real-Time Labor Market Intelligence from Job Data",
+          "quote": "Real-time insights into skill trends, hiring demand, and workforce movements at global scale."
+        },
+        {
+          "field": "note",
+          "url": "https://www.jobspikr.com/job-data/",
+          "title": "Job Data API: Structured Job Postings from 70K+ Sources",
+          "quote": "from 70,000+ sources, updated daily with data going back to 2019."
+        },
+        {
+          "field": "note",
+          "url": "https://www.jobspikr.com/dataset/",
+          "title": "Download Ready-to-Use Job Datasets at Affordable Prices | JobsPikr",
+          "quote": "1M+ data records updated daily"
+        }
+      ]
+    },
+    {
+      "name": "Revelio Labs",
+      "url": "https://www.reveliolabs.com",
+      "type": "job-data",
+      "niche": "workforce and labor market data, APIs and terminal",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.reveliolabs.com/",
+          "title": "Workforce Intelligence Platform & Data | Revelio Labs",
+          "quote": "Built on the world's largest workforce ecosystem, the Revelio Terminal unifies professional profiles, job postings, employee sentiment, and layoff data"
+        },
+        {
+          "field": "note",
+          "url": "https://www.reveliolabs.com/data",
+          "title": "Workforce Data Platform: 2B+ Profiles, Global Coverage | Revelio Labs",
+          "quote": "COSMOS, our unified and deduplicated postings dataset, covers 5B+ postings sourced directly from employer websites, major job boards, and staffing firm boards."
+        }
+      ]
+    },
+    {
+      "name": "Lightcast",
+      "url": "https://lightcast.io",
+      "type": "job-data",
+      "niche": "labour market data and analytics",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://lightcast.io/",
+          "title": "Lightcast | Data That Works",
+          "quote": "into the world's most comprehensive and trusted labor market intelligence"
+        },
+        {
+          "field": "note",
+          "url": "https://lightcast.io/",
+          "title": "Lightcast | Data That Works",
+          "quote": "Lightcast data covers 165 countries, representing markets that make up 99% of the world's GDP."
+        },
+        {
+          "field": "note",
+          "url": "https://lightcast.io/our-data/api/menu",
+          "title": "Lightcast API Menu",
+          "quote": "The Lightcast Job Postings API provides data about the demand for US workers"
+        },
+        {
+          "field": "api_status",
+          "url": "https://lightcast.io/",
+          "title": "Lightcast | Data That Works",
+          "quote": "Speak with a Data Pro"
+        }
+      ]
+    },
+    {
+      "name": "Textkernel",
+      "url": "https://www.textkernel.com",
+      "type": "job-data",
+      "niche": "AI recruitment software and labour market data",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.textkernel.com/",
+          "title": "AI-Powered Recruitment and Talent Management | Textkernel",
+          "quote": "As a global leader in AI-powered talent management solutions for over 20 years"
+        },
+        {
+          "field": "note",
+          "url": "https://www.textkernel.com/products-solutions/labour-market-insights/",
+          "title": "Labor Market Insights | Textkernel",
+          "quote": "real-time and historical labor market data for 15 key markets in North America, Europe, and APAC"
+        },
+        {
+          "field": "note",
+          "url": "https://www.textkernel.com/products-solutions/labour-market-insights/market-iq/",
+          "title": "Market IQ | Labor Market Data Tool | Textkernel",
+          "quote": "With access to over 3 billion current and historical job postings from more than 33 million websites"
+        }
+      ]
+    },
+    {
+      "name": "Bright Data",
+      "url": "https://brightdata.com",
+      "type": "job-data",
+      "niche": "web data collection and job listing datasets",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://brightdata.com/",
+          "title": "Bright Data: Web Data Infrastructure for Humans & Agents",
+          "quote": "Get structured, reliable, real-time or historical data at petabyte-scale."
+        },
+        {
+          "field": "note",
+          "url": "https://brightdata.com/products/datasets",
+          "title": "Buy Datasets - Over 21B Records From Popular Domains",
+          "quote": "Pre-collected data from 900+ domains"
+        },
+        {
+          "field": "note",
+          "url": "https://brightdata.com/products/datasets",
+          "title": "Buy Datasets - Over 21B Records From Popular Domains",
+          "quote": "Indeed job listings information"
+        },
+        {
+          "field": "business_model",
+          "url": "https://brightdata.com/products/datasets",
+          "title": "Buy Datasets - Over 21B Records From Popular Domains",
+          "quote": "Up to $0.0025 per record"
+        }
+      ]
+    },
+    {
+      "name": "Apify",
+      "url": "https://apify.com",
+      "type": "job-data",
+      "niche": "web scraping marketplace with job scrapers",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://apify.com/",
+          "title": "Apify: Marketplace of ready-to-run tools for AI",
+          "quote": "Apify is a marketplace of ready-to-run tools for AI."
+        },
+        {
+          "field": "note",
+          "url": "https://apify.com/store",
+          "title": "Apify Store",
+          "quote": "Actors for any job on the web"
+        },
+        {
+          "field": "note",
+          "url": "https://apify.com/store",
+          "title": "Apify Store",
+          "quote": "Scrape Linkedin jobs from jobs search results using search URLs or filters."
+        },
+        {
+          "field": "business_model",
+          "url": "https://apify.com/pricing",
+          "title": "Apify pricing",
+          "quote": "Flexible plan + pay as you go"
+        }
+      ]
+    },
+    {
+      "name": "Adzuna",
+      "url": "https://www.adzuna.com",
+      "type": "aggregator",
+      "niche": "job advert search API and aggregator",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://developer.adzuna.com/overview",
+          "title": "Overview",
+          "quote": "Adzuna has created a RESTful API."
+        },
+        {
+          "field": "note",
+          "url": "https://developer.adzuna.com/overview",
+          "title": "Overview",
+          "quote": "The search endpoints allow you to query our database of job ads."
+        },
+        {
+          "field": "api_status",
+          "url": "https://developer.adzuna.com/overview",
+          "title": "Overview",
+          "quote": "Register to receive an app_key and app_id"
+        }
+      ]
+    },
+    {
+      "name": "Jooble",
+      "url": "https://jooble.org",
+      "type": "aggregator",
+      "niche": "job aggregator with API",
+      "countries_served": [],
+      "sources": []
+    },
+    {
+      "name": "Careerjet",
+      "url": "https://www.careerjet.com",
+      "type": "aggregator",
+      "niche": "job search engine with publisher API",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.careerjet.com/partners",
+          "title": "Careerjet",
+          "quote": "Earn revenue by displaying Careerjet's job listings on your site."
+        },
+        {
+          "field": "api_status",
+          "url": "https://www.careerjet.com/partners/api",
+          "title": "Careerjet",
+          "quote": "Each publisher website requires a unique API key, which you can obtain from your Publisher account."
+        }
+      ]
+    },
+    {
+      "name": "USAJOBS",
+      "url": "https://www.usajobs.gov",
+      "type": "government",
+      "niche": "US federal government job listings and API",
+      "countries_served": [
+        "US"
+      ],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://developer.usajobs.gov/",
+          "title": "USAJOBS - Developer Portal",
+          "quote": "USAJOBS is a United States Office of Personnel Management website."
+        },
+        {
+          "field": "note",
+          "url": "https://www.usajobs.gov/",
+          "title": "USAJOBS - The Federal Government's official employment site",
+          "quote": "Find your federal government job"
+        },
+        {
+          "field": "api_status",
+          "url": "https://developer.usajobs.gov/guides/authentication",
+          "title": "USAJOBS - Authentication",
+          "quote": "To request an API Key, please go the the API Request page and fill out an application."
+        }
+      ]
+    },
+    {
+      "name": "Jobsuche (Bundesagentur fur Arbeit)",
+      "url": "https://www.arbeitsagentur.de",
+      "type": "government",
+      "niche": "German public employment service job search API",
+      "countries_served": [
+        "DE"
+      ],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.arbeitsagentur.de/",
+          "title": "Startseite | Bundesagentur für Arbeit",
+          "quote": "Die Bundesagentur für Arbeit bietet Ihnen für verschiedene Themenbereiche Materialien zum Download an."
+        },
+        {
+          "field": "note",
+          "url": "https://jobsuche.api.bund.dev/",
+          "title": "Arbeitsagentur Jobsuche API - OpenAPI Documentation",
+          "quote": "Die größte Stellendatenbank Deutschlands durchsuchen, Details zu Stellenanzeigen und Informationen über Arbeitgeber abrufen."
+        },
+        {
+          "field": "api_status",
+          "url": "https://jobsuche.api.bund.dev/",
+          "title": "Arbeitsagentur Jobsuche API - OpenAPI Documentation",
+          "quote": "Die Authentifizierung funktioniert über die clientId:"
+        }
+      ]
+    }
+  ],
+  "blocked": [
+    {
+      "name": "LinkUp",
+      "url": "https://www.linkup.com",
+      "reason": "HTTP 403 (security check page) on two attempts"
+    },
+    {
+      "name": "Jooble",
+      "url": "https://jooble.org",
+      "reason": "HTTP 403 on homepage and /api/about"
+    },
+    {
+      "name": "Adzuna",
+      "url": "https://www.adzuna.com",
+      "reason": "HTTP 403 on homepage on two attempts; developer.adzuna.com was read instead"
+    },
+    {
+      "name": "Careerjet",
+      "url": "https://www.careerjet.com",
+      "reason": "Homepage returned HTTP 200 with an empty body; partners pages were read instead"
+    }
+  ],
+  "queue": []
+}

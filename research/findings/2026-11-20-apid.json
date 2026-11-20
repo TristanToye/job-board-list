@@ -1,0 +1,141 @@
+{
+ "mode": "api-details",
+ "country": "ZZ",
+ "round": 0,
+ "entries": [
+  {
+   "id": "indeed",
+   "name": "Indeed",
+   "api_docs_url": "https://docs.indeed.com",
+   "facts": []
+  },
+  {
+   "id": "usajobs",
+   "name": "USAJOBS",
+   "api_docs_url": "https://developer.usajobs.gov/",
+   "facts": [
+    {
+     "field": "access",
+     "value": "API key requested by filling out an application on the API Request page",
+     "source": {
+      "url": "https://developer.usajobs.gov/guides/authentication",
+      "title": "USAJOBS - Authentication",
+      "accessed": "2026-11-20",
+      "quote": "To request an API Key, please go the the API Request page and fill out an application.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "auth",
+     "value": "API key sent in an Authorization-Key request header, with the requester's email in the User-Agent header and Host set to data.usajobs.gov. Codelist endpoints need no authentication",
+     "source": {
+      "url": "https://developer.usajobs.gov/guides/authentication",
+      "title": "USAJOBS - Authentication",
+      "accessed": "2026-11-20",
+      "quote": "The authorization-key parameter will be used to determine what type of access you have.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "formats",
+     "value": "REST API using HTTP GET requests",
+     "source": {
+      "url": "https://developer.usajobs.gov/api-reference/job-apis",
+      "title": "USAJOBS - Job APIs",
+      "accessed": "2026-11-20",
+      "quote": "The job APIs below use the GET HTTP request method.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "scope",
+     "value": "Job search, historic job announcements and announcement text endpoints at data.usajobs.gov",
+     "source": {
+      "url": "https://developer.usajobs.gov/api-reference/job-apis",
+      "title": "USAJOBS - Job APIs",
+      "accessed": "2026-11-20",
+      "quote": "This reference covers the Search, Historic JOAs, and Announcement Text APIs.",
+      "check": "ok"
+     }
+    },
+    {
+     "field": "limits",
+     "value": "Search Jobs API: maximum of 10,000 rows per query and 500 rows per page. Code List API and Dynamic Search have no stated limits",
+     "source": {
+      "url": "https://developer.usajobs.gov/guides/rate-limiting",
+      "title": "USAJOBS - Rate Limiting",
+      "accessed": "2026-11-20",
+      "quote": "Maximum of 10,000 rows per query",
+      "check": "ok"
+     }
+    }
+   ]
+  },
+  {
+   "id": "talent-com",
+   "name": "Talent.com",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "finn-no",
+   "name": "FINN.no Jobs",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "jobindex",
+   "name": "Jobindex",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "naukri",
+   "name": "Naukri",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "naukrigulf",
+   "name": "NaukriGulf",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "jobserve",
+   "name": "JobServe",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "firstnaukri-com",
+   "name": "FirstNaukri.com",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "erecruiter",
+   "name": "eRecruiter",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "job-room-arbeit-swiss",
+   "name": "Job-Room (arbeit.swiss)",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "jobnet",
+   "name": "Jobnet",
+   "api_docs_url": "",
+   "facts": []
+  },
+  {
+   "id": "duunitori",
+   "name": "Duunitori",
+   "api_docs_url": "",
+   "facts": []
+  }
+ ]
+}
