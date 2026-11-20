@@ -18,7 +18,7 @@ Jobiqo is a programmatic job advertising platform based in Austria, focused on j
 
 **Which languages does Jobiqo support?** This directory records Jobiqo as supporting English, German.
 
-**How large is Jobiqo?** Jobiqo ranks #849,646 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jobiqo?** Jobiqo ranks #849,646 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

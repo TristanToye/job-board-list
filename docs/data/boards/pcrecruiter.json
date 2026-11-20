@@ -1,0 +1,170 @@
+{
+ "id": "pcrecruiter",
+ "name": "PCRecruiter",
+ "url": "https://www.pcrecruiter.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "recruitment and applicant tracking for staffing, search and in-house teams",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Site says: \"PCRM has also provided feeds in the required formats for others on request\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/pcrecruiter/",
+ "indexable": false,
+ "prominence": {
+  "tier": "",
+  "label": "Not in top 1M",
+  "global_rank": null,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "Snagajob",
+   "to_id": "snagajob",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Hourly and High-Volume Hiring Snagajob Talroo"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "Talroo",
+   "to_id": "talroo",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Hourly and High-Volume Hiring Snagajob Talroo"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "AJE (America's Job Exchange)",
+   "to_id": "",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Military and Diversity-Focused AJE (America's Job Exchange) MSEP"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "Adzuna",
+   "to_id": "adzuna",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "Jobrapido",
+   "to_id": "jobrapido",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "Jora",
+   "to_id": "",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "Juju",
+   "to_id": "",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "Gumtree",
+   "to_id": "",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "CanadaJobs.com",
+   "to_id": "",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Canada-Specific Job Boards CanadaJobs.com CareerBeacon Wow Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "CareerBeacon",
+   "to_id": "careerbeacon",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Canada-Specific Job Boards CanadaJobs.com CareerBeacon Wow Jobs"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "The Muse",
+   "to_id": "themuse",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Career Resources and Advice The Muse Job Board"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.pcrecruiter.com/about-us/",
+   "title": "About PCRecruiter",
+   "accessed": "2026-11-20",
+   "quote": "PCRecruiter is the backbone of the business day for thousands of recruitment professionals around the world.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.pcrecruiter.com/integrations/",
+   "title": "Integrations and Partners",
+   "accessed": "2026-11-20",
+   "quote": "Your sourcing tools, your job boards, your phone system, your payroll and your calendar.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.pcrecruiter.com/integrations/",
+   "title": "Integrations and Partners",
+   "accessed": "2026-11-20",
+   "quote": "PCRM has also provided feeds in the required formats for others on request",
+   "quote_check": "ok"
+  }
+ ]
+}

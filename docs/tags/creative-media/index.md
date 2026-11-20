@@ -1,6 +1,6 @@
 # Creative and media
 
-Media 9 entries in the directory.
+Media 10 entries in the directory.
 
 - [Toptal](https://jobboardlist.com/boards/toptal/): freelance-platform
 - [99designs](https://jobboardlist.com/boards/99designs/): freelance-platform
@@ -11,5 +11,6 @@ Media 9 entries in the directory.
 - [Jobdigger](https://jobboardlist.com/boards/jobdigger/): feed-aggregator
 - [Jobscenen](https://jobboardlist.com/boards/jobscenen/): niche-board
 - [medienjobs.ch](https://jobboardlist.com/boards/medienjobs-ch/): niche-board
+- [Ultra-Staff EDGE](https://jobboardlist.com/boards/ultra-staff-edge/): ats
 
 Canonical page: https://jobboardlist.com/tags/creative-media/

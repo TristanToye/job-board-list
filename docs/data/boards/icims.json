@@ -33,7 +33,7 @@
   "global_rank": 3808,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "api-on-request",
@@ -77,6 +77,24 @@
    "to_id": "icims",
    "source": "https://www.broadbean.com/partners/",
    "quote": "iCIMS A NEW WAY TO MANAGE THE END-TO-END HIRING LIFECYCLE"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "DirectEmployers Association",
+   "from_id": "directemployers-association",
+   "to": "iCIMS",
+   "to_id": "icims",
+   "source": "https://directemployers.org/programmatic-job-advertising/",
+   "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "iCIMS",
+   "to_id": "icims",
+   "source": "https://www.jobtarget.com/job-advertising-solutions",
+   "quote": "Prebuilt connections with major ATS, Payroll, and HRIS platforms including ADP, iCIMS, Rippling, and 80+ others."
   }
  ],
  "review": {

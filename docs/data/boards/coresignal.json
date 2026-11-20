@@ -1,0 +1,84 @@
+{
+ "id": "coresignal",
+ "name": "Coresignal",
+ "url": "https://coresignal.com",
+ "domains": "",
+ "type": "job-data",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "B2B company, employee and job posting data",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Site says: \"1 million new jobs added daily, all active jobs rescraped every 24 hours\" Site says: \"Deduplicated, multi-source records from job boards, company websites, and ATS\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/coresignal/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 153392,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [],
+ "connections": [],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://coresignal.com/",
+   "title": "Real-Time Public Web Data | Coresignal",
+   "accessed": "2026-11-20",
+   "quote": "Get fresh company, employee, and jobs records in real time",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://coresignal.com/solutions/jobs-data-api/",
+   "title": "Jobs API: Access a Large-Scale Jobs Database",
+   "accessed": "2026-11-20",
+   "quote": "1 million new jobs added daily, all active jobs rescraped every 24 hours",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://coresignal.com/alternative-data/job-postings-data/",
+   "title": "Job Posting Data for Real-Time Insights",
+   "accessed": "2026-11-20",
+   "quote": "Deduplicated, multi-source records from job boards, company websites, and ATS",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://coresignal.com/solutions/jobs-data-api/",
+   "title": "Jobs API: Access a Large-Scale Jobs Database",
+   "accessed": "2026-11-20",
+   "quote": "2,000 free credits · No credit card required · Plans from $49/month",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://coresignal.com/solutions/jobs-data-api/",
+   "title": "Jobs API: Access a Large-Scale Jobs Database",
+   "accessed": "2026-11-20",
+   "quote": "Get API key from self-service",
+   "quote_check": "ok"
+  }
+ ]
+}

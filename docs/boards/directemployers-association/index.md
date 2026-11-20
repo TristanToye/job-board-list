@@ -16,7 +16,9 @@ DirectEmployers Association is a job multiposting and distribution service, focu
 
 ## Quick answers
 
-**How large is DirectEmployers Association?** DirectEmployers Association ranks #647,646 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is DirectEmployers Association?** DirectEmployers Association ranks #647,646 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**Which platforms does DirectEmployers Association connect to?** According to this directory, DirectEmployers Association integrates with National Labor Exchange (NLx), Workday Recruiting, Greenhouse, iCIMS, Oracle Taleo, Oracle and others.
 
 ## Sources
 
@@ -26,6 +28,8 @@ DirectEmployers Association is a job multiposting and distribution service, focu
 - [Partnerships](https://directemployers.org/partnerships/) (Partner program, checked 2026-11-12): "Partner with DirectEmployers and gain immediate access to 1,100+ top employers committed to equal employment opportunities."
 - [Home solutions](https://directemployers.org) (Note, checked 2026-11-12): "VEVRAA mandatory job listing compliance solution for businesses with 50 jobs or fewer on average each month"
 - [Home solutions](https://directemployers.org) (Note, checked 2026-11-12): "Self-service VEVRAA mandatory job listing paired with custom job distribution for companies with up to five jobs"
+- [VEVRAA Mandatory Job Listing Compliance for Federal Contractors (Over 25 Years)](https://directemployers.org/feeds/service/employer-job-bank) (Note, checked 2026-11-20): "signed data-sharing agreements covering all 50 states and four U.S. territories"
+- [OFCCP Compliance Professional • DirectEmployers Association](https://directemployers.org/ofccp-compliance-professional/) (Note, checked 2026-11-20): "Recruitment partners & applicant tracking systems"
 
 Canonical page: https://jobboardlist.com/boards/directemployers-association/
-Last updated: 2026-11-12
+Last updated: 2026-11-20

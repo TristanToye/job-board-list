@@ -13,11 +13,13 @@ Platforms LinkedIn connects to, each from a page on one party's own site.
 - Pinpoint: integrates with (https://www.pinpointhq.com/integrations)
 - Recruitee: integrates with (https://recruitee.com/api-webhooks-integrations)
 - Teamtailor: integrates with (https://www.teamtailor.com/en-us/integrations/)
+- Tracker: integrates with (https://www.tracker-rms.com/recruitment-ats/)
 - Workable: receives jobs from (https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable)
 
 ## Multiposting and job distribution
 
 - Appcast: integrates with (https://www.appcast.io/products/appcast-one/)
+- JobTarget: integrates with (https://www.jobtarget.com/job-advertising-solutions)
 
 ## Job boards and aggregators
 

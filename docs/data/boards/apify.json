@@ -1,0 +1,68 @@
+{
+ "id": "apify",
+ "name": "Apify",
+ "url": "https://apify.com",
+ "domains": "",
+ "type": "job-data",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "web scraping marketplace with job scrapers",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Site says: \"Actors for any job on the web\" Site says: \"Scrape Linkedin jobs from jobs search results using search URLs or filters.\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/apify/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 15062,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [],
+ "connections": [],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://apify.com/",
+   "title": "Apify: Marketplace of ready-to-run tools for AI",
+   "accessed": "2026-11-20",
+   "quote": "Apify is a marketplace of ready-to-run tools for AI.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://apify.com/store",
+   "title": "Apify Store",
+   "accessed": "2026-11-20",
+   "quote": "Actors for any job on the web",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://apify.com/pricing",
+   "title": "Apify pricing",
+   "accessed": "2026-11-20",
+   "quote": "Flexible plan + pay as you go",
+   "quote_check": "ok"
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "id": "applicantpro",
+ "name": "ApplicantPro",
+ "url": "https://www.applicantpro.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "US",
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "North America",
+ "niche": "applicant tracking system for small and mid-sized employers (now isolved Talent Acquisition)",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Site says: \"isolved Talent Acquisition, formerly ApplicantPro has a new look.\" Site says: \"Powerful job board integrations to attract a larger pool of qualified job seekers\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/applicantpro/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 18807,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "ApplicantPro",
+   "from_id": "applicantpro",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.applicantpro.com/applicant-tracking-system-overview",
+   "quote": "Our Indeed Platinum Partnership Helps Employers!"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
+   "title": "More Than an Applicant Tracking System",
+   "accessed": "2026-11-20",
+   "quote": "We help you find, attract, screen, and hire the most qualified job seekers.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
+   "title": "More Than an Applicant Tracking System",
+   "accessed": "2026-11-20",
+   "quote": "isolved Talent Acquisition, formerly ApplicantPro has a new look.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
+   "title": "More Than an Applicant Tracking System",
+   "accessed": "2026-11-20",
+   "quote": "Access to over 6,000 job boards",
+   "quote_check": "ok"
+  }
+ ]
+}

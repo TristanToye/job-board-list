@@ -18,7 +18,7 @@ VONQ is a programmatic job advertising platform, focused on talent attraction an
 
 **Which languages does VONQ support?** This directory records VONQ as supporting English.
 
-**How large is VONQ?** VONQ ranks #495,606 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is VONQ?** VONQ ranks #495,606 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does VONQ connect to?** According to this directory, VONQ integrates with Jobvite.
 

@@ -22,7 +22,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Site says: \"Lightcast data covers 165 countries, representing markets that make up 99% of the world's GDP.\" Site says: \"The Lightcast Job Postings API provides data about the demand for US workers\"",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/lightcast/",
  "indexable": false,
@@ -32,7 +32,7 @@
   "global_rank": 41852,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "lmi",
@@ -56,6 +56,30 @@
    "title": "Lightcast home page",
    "accessed": "2026-11-06",
    "quote": "Lightcast delivers trusted intelligence so leaders can make smarter decisions.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://lightcast.io/",
+   "title": "Lightcast | Data That Works",
+   "accessed": "2026-11-20",
+   "quote": "Lightcast data covers 165 countries, representing markets that make up 99% of the world's GDP.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://lightcast.io/our-data/api/menu",
+   "title": "Lightcast API Menu",
+   "accessed": "2026-11-20",
+   "quote": "The Lightcast Job Postings API provides data about the demand for US workers",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://lightcast.io/",
+   "title": "Lightcast | Data That Works",
+   "accessed": "2026-11-20",
+   "quote": "Speak with a Data Pro",
    "quote_check": "ok"
   }
  ]

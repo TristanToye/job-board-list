@@ -1,6 +1,6 @@
 # Applicant tracking system
 
-Software employers use to manage hiring and publish their jobs. 24 entries in the directory.
+Software employers use to manage hiring and publish their jobs. 28 entries in the directory.
 
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
@@ -16,6 +16,7 @@ Software employers use to manage hiring and publish their jobs. 24 entries in th
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Self-serve API key
 - [Personio](https://jobboardlist.com/boards/personio/): ats, Self-serve API key
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
+- [ApplicantPro](https://jobboardlist.com/boards/applicantpro/): ats
 - [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
@@ -23,8 +24,11 @@ Software employers use to manage hiring and publish their jobs. 24 entries in th
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [Phenom](https://jobboardlist.com/boards/phenom/): ats
 - [Jobtrain](https://jobboardlist.com/boards/jobtrain/): ats
+- [Tracker](https://jobboardlist.com/boards/tracker/): ats
 - [Moka ATS (MokaHR)](https://jobboardlist.com/boards/moka-ats-mokahr/): ats
 - [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
 - [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API
+- [PCRecruiter](https://jobboardlist.com/boards/pcrecruiter/): ats
+- [Ultra-Staff EDGE](https://jobboardlist.com/boards/ultra-staff-edge/): ats
 
 Canonical page: https://jobboardlist.com/tags/ats/

@@ -23,7 +23,7 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Site says: \"Automates the distribution of required job postings across state systems\" Site says: \"Our Applicant Tracking System (ATS) streamlines recruiting while supporting compliance and scalability.\" HR compliance consultancy offering an applicant tracking system and mandatory job listings compliance services. No pricing, API, partner program, language switcher or headquarters address found on the pages read.",
+ "notes": "Site says: \"Automates the distribution of required job postings across state systems\" Site says: \"Our Applicant Tracking System (ATS) streamlines recruiting while supporting compliance and scalability.\" HR compliance consultancy offering an applicant tracking system and mandatory job listings compliance services. No pricing, API, partner program, language switcher or headquarters address found on the pages read. Site says: \"Automate multi-state job distribution across required channels\" Site says: \"Extend reach through established ESDS and workforce networks, supporting compliant outreach and broader access to talent.\"",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/hr-unlimited/",
  "indexable": false,
@@ -33,7 +33,7 @@
   "global_rank": null,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "job-distribution",
@@ -66,6 +66,30 @@
    "title": "Homepage",
    "accessed": "2026-11-12",
    "quote": "Automates the distribution of required job postings across state systems",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.hrunlimitedinc.com/",
+   "title": "Title VII & EO 14173 Compliance Services | HR Unlimited Inc.",
+   "accessed": "2026-11-20",
+   "quote": "Holistic HR expertise delivering trusted compliance, compensation, and workforce solutions",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.hrunlimitedinc.com/esds-compliance/",
+   "title": "ESDS Compliance",
+   "accessed": "2026-11-20",
+   "quote": "Automate multi-state job distribution across required channels",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.hrunlimitedinc.com/",
+   "title": "Title VII & EO 14173 Compliance Services | HR Unlimited Inc.",
+   "accessed": "2026-11-20",
+   "quote": "Our Applicant Tracking System (ATS) streamlines recruiting while supporting compliance and scalability.",
    "quote_check": "ok"
   }
  ]

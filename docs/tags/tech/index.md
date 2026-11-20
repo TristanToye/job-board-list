@@ -1,6 +1,6 @@
 # Technology
 
-Software 50 entries in the directory.
+Software 52 entries in the directory.
 
 - [Toptal](https://jobboardlist.com/boards/toptal/): freelance-platform
 - [The Adecco Group](https://jobboardlist.com/boards/the-adecco-group/): staffing
@@ -17,6 +17,7 @@ Software 50 entries in the directory.
 - [Wanted](https://jobboardlist.com/boards/wanted/): board
 - [Just Join IT](https://jobboardlist.com/boards/just-join-it/): niche-board
 - [Arbeitnow](https://jobboardlist.com/boards/arbeitnow/): niche-board, Open API (no key)
+- [Tracker](https://jobboardlist.com/boards/tracker/): ats
 - [Japan Dev](https://jobboardlist.com/boards/japan-dev/): niche-board
 - [Tecnoempleo](https://jobboardlist.com/boards/tecnoempleo/): niche-board
 - [Landing.jobs](https://jobboardlist.com/boards/landing-jobs/): niche-board
@@ -51,6 +52,7 @@ Software 50 entries in the directory.
 - [TechJob](https://jobboardlist.com/boards/techjob/): niche-board
 - [Techjobs.be](https://jobboardlist.com/boards/techjobs-be/): niche-board
 - [Tekjobb](https://jobboardlist.com/boards/tekjobb/): niche-board
+- [Ultra-Staff EDGE](https://jobboardlist.com/boards/ultra-staff-edge/): ats
 - [Vacancy Poster](https://jobboardlist.com/boards/vacancy-poster/): multiposting
 
 Canonical page: https://jobboardlist.com/tags/tech/

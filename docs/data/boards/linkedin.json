@@ -79,7 +79,7 @@
   "global_rank": 6,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "api-partner-only",
@@ -200,6 +200,24 @@
    "to_id": "linkedin",
    "source": "https://www.jobvite.com/marketplace/",
    "quote": "Preferred Partners Job Distribution, Social Recruiting, Sourcing LinkedIn"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Tracker",
+   "from_id": "tracker",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.tracker-rms.com/recruitment-ats/",
+   "quote": "The LinkedIn Chrome extension parses profiles from LinkedIn and any job board straight onto a shortlist."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.jobtarget.com/job-advertising-solutions",
+   "quote": "Direct integrations with Indeed, ZipRecruiter, LinkedIn, and thousands of niche job sites."
   }
  ],
  "review": null,

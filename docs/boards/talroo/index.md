@@ -16,7 +16,9 @@ Talroo is a programmatic job advertising platform, focused on programmatic job a
 
 ## Quick answers
 
-**How large is Talroo?** Talroo ranks #686,069 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Talroo?** Talroo ranks #686,069 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**Which platforms does Talroo connect to?** According to this directory, Talroo receives jobs from PCRecruiter.
 
 ## Sources
 

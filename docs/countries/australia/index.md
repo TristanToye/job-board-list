@@ -1,6 +1,6 @@
 # Job boards in Australia
 
-13 job boards and related entries based in or serving Australia.
+14 job boards and related entries based in or serving Australia.
 
 - [Freelancer.com](https://jobboardlist.com/boards/freelancer-com/): freelance-platform, Large tier
 - [Australian Bureau of Statistics](https://jobboardlist.com/boards/australian-bureau-of-statistics/): lmi, Large tier
@@ -15,5 +15,6 @@
 - [Yakka](https://jobboardlist.com/boards/yakka/): niche-board, No known API
 - [Gippslander](https://jobboardlist.com/boards/gippslander/): board
 - [Workinitiatives](https://jobboardlist.com/boards/workinitiatives/): board
+- [Job Ready (ReadyTech)](https://jobboardlist.com/boards/job-ready-readytech/): hr-tech
 
 Canonical page: https://jobboardlist.com/countries/australia/

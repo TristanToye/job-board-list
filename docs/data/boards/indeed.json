@@ -57,7 +57,7 @@
   "global_rank": 340,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "api-partner-only",
@@ -170,6 +170,24 @@
    "to_id": "indeed",
    "source": "https://www.jobvite.com/marketplace/",
    "quote": "Job Distribution Indeed Learn More"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "ApplicantPro",
+   "from_id": "applicantpro",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.applicantpro.com/applicant-tracking-system-overview",
+   "quote": "Our Indeed Platinum Partnership Helps Employers!"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/guide-to-posting-on-indeed-via-marketplace",
+   "quote": "JobTarget only distributes sponsored (paid) jobs on Indeed."
   }
  ],
  "review": null,

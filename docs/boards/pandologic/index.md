@@ -16,7 +16,7 @@ PandoLogic is a programmatic job advertising platform based in the United States
 
 ## Quick answers
 
-**How large is PandoLogic?** PandoLogic ranks #428,954 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is PandoLogic?** PandoLogic ranks #428,954 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -41,7 +41,7 @@
   "global_rank": 3793,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "api-partner-only",
@@ -108,6 +108,15 @@
    "to_id": "ziprecruiter",
    "source": "https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts",
    "quote": "Here's a list of our partners with built-in integrations: Appcast Arbeitnow Blind Indeed Levels.fyi LinkedIn Monster Nexxt integration OfferUp integration Ramped Secret Tel Aviv X ZipRecruiter"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.jobtarget.com/job-advertising-solutions",
+   "quote": "Direct integrations with Indeed, ZipRecruiter, LinkedIn, and thousands of niche job sites."
   }
  ],
  "review": null,

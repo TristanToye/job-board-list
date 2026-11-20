@@ -19,6 +19,8 @@ Oracle Taleo is an applicant tracking system based in the United States.
 
 **Which languages does Oracle Taleo support?** This directory records Oracle Taleo as supporting English.
 
+**Which platforms does Oracle Taleo connect to?** According to this directory, Oracle Taleo integrates with DirectEmployers Association.
+
 ## Sources
 
 - [Taleo](https://www.oracle.com/human-capital-management/taleo/) (Existence and description, checked 2026-11-12): "Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates."

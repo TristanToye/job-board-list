@@ -36,7 +36,7 @@
   "global_rank": 4296,
   "scope": "mixed",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "api-self-serve",
@@ -44,7 +44,17 @@
   "job-board",
   "subscription"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "The Muse",
+   "to_id": "themuse",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Career Resources and Advice The Muse Job Board"
+  }
+ ],
  "review": null,
  "owners": [],
  "scale": [],

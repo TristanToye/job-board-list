@@ -16,7 +16,9 @@ JobTarget is a job multiposting and distribution service, focused on recruitment
 
 ## Quick answers
 
-**How large is JobTarget?** JobTarget ranks #350,179 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is JobTarget?** JobTarget ranks #350,179 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**Which platforms does JobTarget connect to?** According to this directory, JobTarget sends jobs to Indeed, Hire Heroes USA, MilitaryHire, Military.com, Job Opportunities for Disabled American Veterans (JOFDAV), Disability Solutions at Work/Ability Beyond and others; integrates with iCIMS, ZipRecruiter, LinkedIn.
 
 ## Sources
 
@@ -26,6 +28,9 @@ JobTarget is a job multiposting and distribution service, focused on recruitment
 - [About](https://www.jobtarget.com/company/about-us) (Ownership, checked 2026-11-12): "As an independent company with no outside investors"
 - [ATS and HRIS partner page](https://www.jobtarget.com/ats-hris-partner-integration) (Note, checked 2026-11-12): "with programmatic job advertising, OFCCP compliance, and Easy Apply"
 - [JobTarget Makes Hiring Happen](https://www.jobtarget.com) (Note, checked 2026-11-12): "streamlining distribution to 25,000+ job boards from one central dashboard"
+- [JobTarget Makes Hiring Happen](https://www.jobtarget.com/) (Existence and description, checked 2026-11-20): "We help organizations of all sizes streamline their hiring process"
+- [Compliance Software Comparison: Integrated vs. Standalone | JobTarget](https://www.jobtarget.com/compliance-management-software-suite) (Note, checked 2026-11-20): "JobTarget automatically distributes your jobs to the appropriate state job banks and targeted sites serving veterans and people with disabilities."
+- [JobTarget Makes Hiring Happen](https://www.jobtarget.com/) (Note, checked 2026-11-20): "JobTarget's technology features prebuilt integrations with 80+ ATS and HRIS systems"
 
 Canonical page: https://jobboardlist.com/boards/jobtarget/
-Last updated: 2026-11-12
+Last updated: 2026-11-20

@@ -20,7 +20,7 @@ Textkernel is a labour market information source, focused on real-time private a
 
 **Which languages does Textkernel support?** This directory records Textkernel as supporting English, Dutch, French, German.
 
-**How large is Textkernel?** Textkernel ranks #316,521 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Textkernel?** Textkernel ranks #316,521 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 
@@ -28,6 +28,8 @@ Textkernel is a labour market information source, focused on real-time private a
 - [Homepage cookie notice](https://www.textkernel.com) (Ownership, checked 2026-11-06): "Textkernel by Bullhorn uses cookies and other tracking technologies"
 - [Homepage language switcher](https://www.textkernel.com) (Languages, checked 2026-11-06): "NL"
 - [Become a partner](https://www.textkernel.com/become-a-partner/) (Partner program, checked 2026-11-06): "ACQUIRE CUSTOMERS AND FOSTER LOYALTY WITH SEAMLESS INTEGRATION OF OUR PROVEN, AI-POWERED TECHNOLOGY."
+- [Labor Market Insights | Textkernel](https://www.textkernel.com/products-solutions/labour-market-insights/) (Note, checked 2026-11-20): "real-time and historical labor market data for 15 key markets in North America, Europe, and APAC"
+- [Market IQ | Labor Market Data Tool | Textkernel](https://www.textkernel.com/products-solutions/labour-market-insights/market-iq/) (Note, checked 2026-11-20): "With access to over 3 billion current and historical job postings from more than 33 million websites"
 
 Canonical page: https://jobboardlist.com/boards/textkernel/
-Last updated: 2026-11-06
+Last updated: 2026-11-20

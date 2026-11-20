@@ -27,7 +27,7 @@
  "partner_program": "yes",
  "partner_url": "https://www.textkernel.com/become-a-partner/",
  "ingest_methods": [],
- "notes": "Vendor of recruitment AI software, not a job board. Brand reads Textkernel by Bullhorn. Language links are EN, NL, FR and DE. No HQ, pricing, API or ingest method was stated on the pages read.",
+ "notes": "Vendor of recruitment AI software, not a job board. Brand reads Textkernel by Bullhorn. Language links are EN, NL, FR and DE. No HQ, pricing, API or ingest method was stated on the pages read. Site says: \"real-time and historical labor market data for 15 key markets in North America, Europe, and APAC\" Site says: \"With access to over 3 billion current and historical job postings from more than 33 million websites\"",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/textkernel/",
  "indexable": true,
@@ -37,7 +37,7 @@
   "global_rank": 316521,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "lmi",
@@ -86,6 +86,22 @@
    "title": "Become a partner",
    "accessed": "2026-11-06",
    "quote": "ACQUIRE CUSTOMERS AND FOSTER LOYALTY WITH SEAMLESS INTEGRATION OF OUR PROVEN, AI-POWERED TECHNOLOGY.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.textkernel.com/products-solutions/labour-market-insights/",
+   "title": "Labor Market Insights | Textkernel",
+   "accessed": "2026-11-20",
+   "quote": "real-time and historical labor market data for 15 key markets in North America, Europe, and APAC",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.textkernel.com/products-solutions/labour-market-insights/market-iq/",
+   "title": "Market IQ | Labor Market Data Tool | Textkernel",
+   "accessed": "2026-11-20",
+   "quote": "With access to over 3 billion current and historical job postings from more than 33 million websites",
    "quote_check": "ok"
   }
  ]

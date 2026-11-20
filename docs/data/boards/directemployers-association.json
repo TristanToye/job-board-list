@@ -23,7 +23,7 @@
  "partner_program": "yes",
  "partner_url": "https://directemployers.org/partnerships/",
  "ingest_methods": [],
- "notes": "Site says: \"custom job distribution for companies with up to five jobs\" Site says: \"VEVRAA mandatory job listing compliance solution for businesses with 50 jobs or fewer on average each month\" Site says: \"Self-service VEVRAA mandatory job listing paired with custom job distribution for companies with up to five jobs\" Nonprofit member-owned association offering OFCCP and VEVRAA job listing compliance, recruitment marketing and partnerships. No API, language switcher or headquarters address found on the pages read.",
+ "notes": "Site says: \"custom job distribution for companies with up to five jobs\" Site says: \"VEVRAA mandatory job listing compliance solution for businesses with 50 jobs or fewer on average each month\" Site says: \"Self-service VEVRAA mandatory job listing paired with custom job distribution for companies with up to five jobs\" Nonprofit member-owned association offering OFCCP and VEVRAA job listing compliance, recruitment marketing and partnerships. No API, language switcher or headquarters address found on the pages read. Site says: \"signed data-sharing agreements covering all 50 states and four U.S. territories\" Site says: \"Recruitment partners & applicant tracking systems\" Site says: \"With DE Client, we’re giving small to medium-sized businesses access to the core compliance solution that over 1,",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/directemployers-association/",
  "indexable": true,
@@ -33,14 +33,78 @@
   "global_rank": 647646,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "job-distribution",
   "ofccp-compliance",
   "partner-program"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "DirectEmployers Association",
+   "from_id": "directemployers-association",
+   "to": "National Labor Exchange (NLx)",
+   "to_id": "",
+   "source": "https://directemployers.org/partnerships/",
+   "quote": "The National Labor Exchange (NLx) is a nonprofit online labor exchange system established in 2007 through a partnership between DirectEmployers"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "DirectEmployers Association",
+   "from_id": "directemployers-association",
+   "to": "Workday Recruiting",
+   "to_id": "workday",
+   "source": "https://directemployers.org/programmatic-job-advertising/",
+   "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "DirectEmployers Association",
+   "from_id": "directemployers-association",
+   "to": "Greenhouse",
+   "to_id": "greenhouse",
+   "source": "https://directemployers.org/programmatic-job-advertising/",
+   "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "DirectEmployers Association",
+   "from_id": "directemployers-association",
+   "to": "iCIMS",
+   "to_id": "icims",
+   "source": "https://directemployers.org/programmatic-job-advertising/",
+   "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "DirectEmployers Association",
+   "from_id": "directemployers-association",
+   "to": "Oracle Taleo",
+   "to_id": "taleo",
+   "source": "https://directemployers.org/programmatic-job-advertising/",
+   "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "DirectEmployers Association",
+   "from_id": "directemployers-association",
+   "to": "Oracle",
+   "to_id": "",
+   "source": "https://directemployers.org/programmatic-job-advertising/",
+   "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "DirectEmployers Association",
+   "from_id": "directemployers-association",
+   "to": "SAP SuccessFactors",
+   "to_id": "",
+   "source": "https://directemployers.org/programmatic-job-advertising/",
+   "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed."
+  }
+ ],
  "review": {
   "board_id": "directemployers-association",
   "reviewed": "2026-11-12",
@@ -98,6 +162,22 @@
    "title": "Home solutions",
    "accessed": "2026-11-12",
    "quote": "Self-service VEVRAA mandatory job listing paired with custom job distribution for companies with up to five jobs",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://directemployers.org/feeds/service/employer-job-bank",
+   "title": "VEVRAA Mandatory Job Listing Compliance for Federal Contractors (Over 25 Years)",
+   "accessed": "2026-11-20",
+   "quote": "signed data-sharing agreements covering all 50 states and four U.S. territories",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://directemployers.org/ofccp-compliance-professional/",
+   "title": "OFCCP Compliance Professional • DirectEmployers Association",
+   "accessed": "2026-11-20",
+   "quote": "Recruitment partners & applicant tracking systems",
    "quote_check": "ok"
   }
  ]

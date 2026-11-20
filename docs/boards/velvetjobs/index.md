@@ -16,7 +16,7 @@ VelvetJobs is an outplacement firm based in the United States, focused on outpla
 
 ## Quick answers
 
-**How large is VelvetJobs?** VelvetJobs ranks #50,433 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is VelvetJobs?** VelvetJobs ranks #50,433 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

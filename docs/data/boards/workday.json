@@ -30,7 +30,7 @@
   "global_rank": 4634,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "ats",
@@ -55,6 +55,15 @@
    "to_id": "workday",
    "source": "https://www.joveo.com/partners/ats-integrations/",
    "quote": "iCIMS Bullhorn Greenhouse Workday Avionte SAP Success Factors Salesforce SmartRecruiters"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "DirectEmployers Association",
+   "from_id": "directemployers-association",
+   "to": "Workday Recruiting",
+   "to_id": "workday",
+   "source": "https://directemployers.org/programmatic-job-advertising/",
+   "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed."
   }
  ],
  "review": {

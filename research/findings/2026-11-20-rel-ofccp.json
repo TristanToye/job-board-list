@@ -1,0 +1,643 @@
+{
+ "mode": "relationships",
+ "edges": [
+  {
+   "from": "DirectEmployers Association",
+   "from_url": "https://directemployers.org",
+   "to": "National Labor Exchange (NLx)",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://directemployers.org/partnerships/",
+    "title": "Partnerships • DirectEmployers Association",
+    "quote": "The National Labor Exchange (NLx) is a nonprofit online labor exchange system established in 2007 through a partnership between DirectEmployers",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "DirectEmployers Association",
+   "from_url": "https://directemployers.org",
+   "to": "Workday",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://directemployers.org/programmatic-job-advertising/",
+    "title": "Programmatic Job Advertising Platform | DE Amplify by DirectEmployers",
+    "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "DirectEmployers Association",
+   "from_url": "https://directemployers.org",
+   "to": "Greenhouse",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://directemployers.org/programmatic-job-advertising/",
+    "title": "Programmatic Job Advertising Platform | DE Amplify by DirectEmployers",
+    "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "DirectEmployers Association",
+   "from_url": "https://directemployers.org",
+   "to": "iCIMS",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://directemployers.org/programmatic-job-advertising/",
+    "title": "Programmatic Job Advertising Platform | DE Amplify by DirectEmployers",
+    "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "DirectEmployers Association",
+   "from_url": "https://directemployers.org",
+   "to": "Taleo",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://directemployers.org/programmatic-job-advertising/",
+    "title": "Programmatic Job Advertising Platform | DE Amplify by DirectEmployers",
+    "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "DirectEmployers Association",
+   "from_url": "https://directemployers.org",
+   "to": "Oracle",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://directemployers.org/programmatic-job-advertising/",
+    "title": "Programmatic Job Advertising Platform | DE Amplify by DirectEmployers",
+    "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "DirectEmployers Association",
+   "from_url": "https://directemployers.org",
+   "to": "SAP SuccessFactors",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://directemployers.org/programmatic-job-advertising/",
+    "title": "Programmatic Job Advertising Platform | DE Amplify by DirectEmployers",
+    "quote": "DE Amplify integrates with major applicant tracking systems including Workday, Greenhouse, iCIMS, Taleo, Oracle, SAP SuccessFactors, and more via standard XML feed.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Circa",
+   "from_url": "https://circaworks.com",
+   "to": "Employment Service Delivery System (ESDS)",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://circaworks.com/deib-job-board-solutions/",
+    "title": "Mitratech Circa DEIB Job Board Solutions",
+    "quote": "Access to hundreds of diverse job boards, including specialized platforms like the Employment Service Delivery System (ESDS).",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "iCIMS",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobtarget.com/job-advertising-solutions",
+    "title": "Job Advertising Solutions - Post to 25,000+ Job Boards | JobTarget",
+    "quote": "Prebuilt connections with major ATS, Payroll, and HRIS platforms including ADP, iCIMS, Rippling, and 80+ others.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/guide-to-posting-on-indeed-via-marketplace",
+    "title": "Posting on Indeed via Marketplace",
+    "quote": "JobTarget only distributes sponsored (paid) jobs on Indeed.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "ZipRecruiter",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobtarget.com/job-advertising-solutions",
+    "title": "Job Advertising Solutions - Post to 25,000+ Job Boards | JobTarget",
+    "quote": "Direct integrations with Indeed, ZipRecruiter, LinkedIn, and thousands of niche job sites.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobtarget.com/job-advertising-solutions",
+    "title": "Job Advertising Solutions - Post to 25,000+ Job Boards | JobTarget",
+    "quote": "Direct integrations with Indeed, ZipRecruiter, LinkedIn, and thousands of niche job sites.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Hire Heroes USA",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "Hire Heroes USA www.hireheroesusa.org MilitaryHire www.militaryhire.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "MilitaryHire",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "MilitaryHire www.militaryhire.com Military.com www.military.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Military.com",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "Military.com www.military.com Job Opportunities for Disabled American Veterans (JOFDAV) www.jofdav.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Job Opportunities for Disabled American Veterans (JOFDAV)",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "Job Opportunities for Disabled American Veterans (JOFDAV) www.jofdav.com Disability Solutions at Work/Ability Beyond www.disabilitytalent.org",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Disability Solutions at Work/Ability Beyond",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "Disability Solutions at Work/Ability Beyond www.disabilitytalent.org disABLED Person www.disabledperson.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "disABLED Person",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "disABLED Person www.disabledperson.com tapABILITY www.tapability.org",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "tapABILITY",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "tapABILITY www.tapability.org Disabilityjobnetwork www.disabilityjobnetwork.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Disabilityjobnetwork",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "Disabilityjobnetwork www.disabilityjobnetwork.com Veteranjobnetwork www.veteranjobnetwork.net",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Veteranjobnetwork",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "Veteranjobnetwork www.veteranjobnetwork.net USVetJobs www.usvetjobs.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "USVetJobs",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "USVetJobs www.usvetjobs.com Abilities in Jobs www.abilitiesinjobs.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Abilities in Jobs",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "Abilities in Jobs www.abilitiesinjobs.com Disabled Jobseekers www.disabledjobseekers.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Disabled Jobseekers",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "Disabled Jobseekers www.disabledjobseekers.com Veteran Job Center www.veteranjobcenter.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Veteran Job Center",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+    "title": "What sites are included in the CompliancePost Media Package?",
+    "quote": "Disabled Jobseekers www.disabledjobseekers.com Veteran Job Center www.veteranjobcenter.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "EmployDIVERSITY",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "EmployDIVERSITY www.employdiversity.com National Diversity Network www.nationaldiversitynetwork.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "National Diversity Network",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "National Diversity Network www.nationaldiversitynetwork.com Africanamericanjobnetwork www.africanamericanjobnetwork.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Africanamericanjobnetwork",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "Africanamericanjobnetwork www.africanamericanjobnetwork.com Asianjobnetwork www.asianjobnetwork.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Asianjobnetwork",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "Asianjobnetwork www.asianjobnetwork.com Latinojobnetwork www.latinojobnetwork.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Latinojobnetwork",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "Latinojobnetwork www.latinojobnetwork.com Lgbtjobnetwork www.lgbtjobnetwork.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Lgbtjobnetwork",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "Lgbtjobnetwork www.lgbtjobnetwork.com Retirementjobnetwork www.retirementjobnetwork.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Retirementjobnetwork",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "Retirementjobnetwork www.retirementjobnetwork.com Womensjobnetwork www.womensjobnetwork",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Womensjobnetwork",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "Womensjobnetwork www.womensjobnetwork Women For Hire www.womenforhire.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "Women For Hire",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "Women For Hire www.womenforhire.com WorkplaceDiversity www.workplacediversity.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "WorkplaceDiversity",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "WorkplaceDiversity www.workplacediversity.com DiversityConnect www.diversityconnect.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "DiversityConnect",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "DiversityConnect www.diversityconnect.com LGBTConnect.com www.LGBTConnect.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "LGBTConnect.com",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "LGBTConnect.com www.LGBTConnect.com WomensJobLine.com www.womensjobline.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "WomensJobLine.com",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "WomensJobLine.com www.womensjobline.com HispanicDiversity www.hispanicdiversity.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "HispanicDiversity",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "HispanicDiversity www.hispanicdiversity.com BlackJobCenter www.blackjobcenter.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "BlackJobCenter",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "BlackJobCenter www.blackjobcenter.com DiversityJobLine www.diversityjobline.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "DiversityJobLine",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "DiversityJobLine www.diversityjobline.com WomensJobCenter www.womensjobcenter.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "WomensJobCenter",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "WomensJobCenter www.womensjobcenter.com LatinXJobLine www.latinxjobline.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "LatinXJobLine",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "LatinXJobLine www.latinxjobline.com DisabilityConnect www.disabilityconnect.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "DisabilityConnect",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "DisabilityConnect www.disabilityconnect.com LGBTQJobLine www.LGBTQJobLine.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "LGBTQJobLine",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "LGBTQJobLine www.LGBTQJobLine.com AllDiversity www.alldiversity.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "AllDiversity",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "AllDiversity www.alldiversity.com LatinxJobs www.latinxjobs.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "LatinxJobs",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "LatinxJobs www.latinxjobs.com OutandEqual www.outandequal.com",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobTarget",
+   "from_url": "https://www.jobtarget.com",
+   "to": "OutandEqual",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+    "title": "What sites are included in DiversityPost?",
+    "quote": "LatinxJobs www.latinxjobs.com OutandEqual www.outandequal.com",
+    "check": "ok"
+   }
+  }
+ ],
+ "blocked": [
+  {
+   "name": "DirectEmployers Job Syndication List",
+   "url": "https://connect.directemployers.org/communities/community-home/librarydocuments?attachments=&communitykey=e75b4f8e-cd0f-4678-9b93-79a4b26368bf&folder=ced75694-6993-492a-b10b-018d17f3b13b&pageindex=0&pagesize=12&search=&sort=most_recent&viewtype=row",
+   "reason": "Member library behind login; the page loaded with no document list"
+  }
+ ],
+ "queue": [
+  {
+   "name": "AbleTooWork",
+   "url": "",
+   "reason": "Named in a DirectEmployers VocRehab+ testimonial only; no connection stated and its site was not read"
+  }
+ ]
+}

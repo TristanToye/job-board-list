@@ -42,7 +42,7 @@
   "global_rank": 30714,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "crawl-sourced",
@@ -52,7 +52,17 @@
   "pay-per-click",
   "xml-feed"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "Jobrapido",
+   "to_id": "jobrapido",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
+  }
+ ],
  "review": null,
  "owners": [],
  "scale": [],

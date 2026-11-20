@@ -5,13 +5,19 @@
 - [Australian Bureau of Statistics](https://jobboardlist.com/boards/australian-bureau-of-statistics/): labour market information source, API status unknown
 - [O*NET](https://jobboardlist.com/boards/o-net/): labour market information source, Self-serve API key
 - [Statistics Austria](https://jobboardlist.com/boards/statistics-austria/): labour market information source, API status unknown
+- [Apify](https://jobboardlist.com/boards/apify/): job data provider, API status unknown
+- [Bright Data](https://jobboardlist.com/boards/bright-data/): job data provider, API status unknown
 - [Lightcast](https://jobboardlist.com/boards/lightcast/): labour market information source, API status unknown
 - [Nomis](https://jobboardlist.com/boards/nomis/): labour market information source, Open API (no key)
 - [Revelio Labs](https://jobboardlist.com/boards/revelio-labs/): labour market information source, API status unknown
+- [Coresignal](https://jobboardlist.com/boards/coresignal/): job data provider, API status unknown
 - [Burning Glass Institute](https://jobboardlist.com/boards/burning-glass-institute/): labour market information source, API status unknown
 - [Textkernel](https://jobboardlist.com/boards/textkernel/): labour market information source, API status unknown
+- [TheirStack](https://jobboardlist.com/boards/theirstack/): job data provider, API status unknown
+- [JobsPikr](https://jobboardlist.com/boards/jobspikr/): job data provider, API status unknown
 - [Eurostat](https://jobboardlist.com/boards/eurostat/): labour market information source, API status unknown
 - [Japan Institute for Labour Policy and Training](https://jobboardlist.com/boards/japan-institute-for-labour-policy-and-training/): labour market information source, API status unknown
+- [Techmap](https://jobboardlist.com/boards/techmap/): job data provider, API status unknown
 - [Google for Jobs](https://jobboardlist.com/boards/google-jobs/): search-aggregator, Open API (no key)
 - [Remotli](https://jobboardlist.com/boards/remotli/): job board, Open API (no key)
 - [USAJOBS](https://jobboardlist.com/boards/usajobs/): government job site, Self-serve API key

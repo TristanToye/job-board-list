@@ -34,7 +34,7 @@
   "global_rank": 686069,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "ats-integration",
@@ -42,7 +42,17 @@
   "partner-program",
   "pay-per-click"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "Talroo",
+   "to_id": "talroo",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Hourly and High-Volume Hiring Snagajob Talroo"
+  }
+ ],
  "review": {
   "board_id": "talroo",
   "reviewed": "2026-11-12",

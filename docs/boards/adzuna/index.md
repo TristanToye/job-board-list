@@ -27,9 +27,9 @@ Adzuna is a job aggregator based in the United Kingdom. It was founded in 2011.
 
 **Which languages does Adzuna support?** This directory records Adzuna as supporting English, German, French, Dutch, Polish, Portuguese, Spanish, Italian.
 
-**How large is Adzuna?** Adzuna ranks #66,808 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Adzuna?** Adzuna ranks #66,808 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does Adzuna connect to?** According to this directory, Adzuna receives jobs from Workable; integrates with Pinpoint, Teamtailor.
+**Which platforms does Adzuna connect to?** According to this directory, Adzuna receives jobs from Workable, PCRecruiter; integrates with Pinpoint, Teamtailor.
 
 **How do you get API access to Adzuna?** According to Adzuna's own documentation, access works like this: Register to receive an app_key and app_id; requests authenticate with app_id and app_key passed as query parameters.
 
@@ -39,6 +39,8 @@ Adzuna is a job aggregator based in the United Kingdom. It was founded in 2011.
 - [Adzuna API overview](https://developer.adzuna.com/overview) (API access, checked 2026-11-05)
 - [Adzuna](https://en.wikipedia.org/wiki/Adzuna) (Listed by a third-party directory, checked 2026-11-05)
 - [Wikipedia: Adzuna](https://en.wikipedia.org/wiki/Adzuna) (Existence and description, checked 2026-11-05): "Adzuna is a search engine for job advertisements."
+- [Overview](https://developer.adzuna.com/overview) (Existence and description, checked 2026-11-20): "Adzuna has created a RESTful API."
+- [Overview](https://developer.adzuna.com/overview) (Note, checked 2026-11-20): "The search endpoints allow you to query our database of job ads."
 
 Canonical page: https://jobboardlist.com/boards/adzuna/
-Last updated: 2026-11-05
+Last updated: 2026-11-20

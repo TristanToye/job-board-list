@@ -1,198 +1,213 @@
 {
-  "mode": "relationships",
-  "edges": [
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "Snagajob",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Hourly and High-Volume Hiring Snagajob Talroo"
-      }
-    },
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "Talroo",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Hourly and High-Volume Hiring Snagajob Talroo"
-      }
-    },
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "AJE (America's Job Exchange)",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Military and Diversity-Focused AJE (America's Job Exchange) MSEP"
-      }
-    },
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "Adzuna",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
-      }
-    },
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "Jobrapido",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
-      }
-    },
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "Jora",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
-      }
-    },
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "Juju",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
-      }
-    },
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "Gumtree",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free"
-      }
-    },
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "CanadaJobs.com",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Canada-Specific Job Boards CanadaJobs.com CareerBeacon Wow Jobs"
-      }
-    },
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "CareerBeacon",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Canada-Specific Job Boards CanadaJobs.com CareerBeacon Wow Jobs"
-      }
-    },
-    {
-      "from": "PCRecruiter",
-      "from_url": "https://www.pcrecruiter.com",
-      "to": "The Muse",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.pcrecruiter.com/integrations/",
-        "title": "Integrations and Partners",
-        "quote": "Career Resources and Advice The Muse Job Board"
-      }
-    },
-    {
-      "from": "Tracker",
-      "from_url": "https://www.tracker-rms.com",
-      "to": "Broadbean",
-      "to_url": "https://www.broadbean.com",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.tracker-rms.com/recruitment-ats/",
-        "title": "ATS Features for Staffing Agencies",
-        "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan."
-      }
-    },
-    {
-      "from": "Tracker",
-      "from_url": "https://www.tracker-rms.com",
-      "to": "LogicMelon",
-      "to_url": "",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.tracker-rms.com/recruitment-ats/",
-        "title": "ATS Features for Staffing Agencies",
-        "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan."
-      }
-    },
-    {
-      "from": "Tracker",
-      "from_url": "https://www.tracker-rms.com",
-      "to": "LinkedIn",
-      "to_url": "https://www.linkedin.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.tracker-rms.com/recruitment-ats/",
-        "title": "ATS Features for Staffing Agencies",
-        "quote": "The LinkedIn Chrome extension parses profiles from LinkedIn and any job board straight onto a shortlist."
-      }
-    },
-    {
-      "from": "ApplicantPro",
-      "from_url": "https://www.applicantpro.com",
-      "to": "Indeed",
-      "to_url": "",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
-        "title": "More Than an Applicant Tracking System",
-        "quote": "Our Indeed Platinum Partnership Helps Employers!"
-      }
-    }
-  ],
-  "blocked": [
-    {
-      "name": "Pereless Systems",
-      "url": "https://www.pereless.com",
-      "reason": "HTTP 502 (upstream request failed) from the browser reader"
-    },
-    {
-      "name": "Talent Rover",
-      "url": "https://www.talentrover.com",
-      "reason": "Browser reader: net::ERR_TUNNEL_CONNECTION_FAILED"
-    }
-  ],
-  "queue": []
+ "mode": "relationships",
+ "edges": [
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "Snagajob",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Hourly and High-Volume Hiring Snagajob Talroo",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "Talroo",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Hourly and High-Volume Hiring Snagajob Talroo",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "AJE (America's Job Exchange)",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Military and Diversity-Focused AJE (America's Job Exchange) MSEP",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "Adzuna",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "Jobrapido",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "Jora",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "Juju",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "Gumtree",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Global and Regional Sites and Aggregators Adzuna Jobrapido Jora Juju Gumtree Post Job Free",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "CanadaJobs.com",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Canada-Specific Job Boards CanadaJobs.com CareerBeacon Wow Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "CareerBeacon",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Canada-Specific Job Boards CanadaJobs.com CareerBeacon Wow Jobs",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "PCRecruiter",
+   "from_url": "https://www.pcrecruiter.com",
+   "to": "The Muse",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.pcrecruiter.com/integrations/",
+    "title": "Integrations and Partners",
+    "quote": "Career Resources and Advice The Muse Job Board",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Tracker",
+   "from_url": "https://www.tracker-rms.com",
+   "to": "Broadbean",
+   "to_url": "https://www.broadbean.com",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.tracker-rms.com/recruitment-ats/",
+    "title": "ATS Features for Staffing Agencies",
+    "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Tracker",
+   "from_url": "https://www.tracker-rms.com",
+   "to": "LogicMelon",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.tracker-rms.com/recruitment-ats/",
+    "title": "ATS Features for Staffing Agencies",
+    "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Tracker",
+   "from_url": "https://www.tracker-rms.com",
+   "to": "LinkedIn",
+   "to_url": "https://www.linkedin.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.tracker-rms.com/recruitment-ats/",
+    "title": "ATS Features for Staffing Agencies",
+    "quote": "The LinkedIn Chrome extension parses profiles from LinkedIn and any job board straight onto a shortlist.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "ApplicantPro",
+   "from_url": "https://www.applicantpro.com",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
+    "title": "More Than an Applicant Tracking System",
+    "quote": "Our Indeed Platinum Partnership Helps Employers!",
+    "check": "ok"
+   }
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Pereless Systems",
+   "url": "https://www.pereless.com",
+   "reason": "HTTP 502 (upstream request failed) from the browser reader"
+  },
+  {
+   "name": "Talent Rover",
+   "url": "https://www.talentrover.com",
+   "reason": "Browser reader: net::ERR_TUNNEL_CONNECTION_FAILED"
+  }
+ ],
+ "queue": []
 }

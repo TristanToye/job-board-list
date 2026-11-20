@@ -34,7 +34,7 @@
   "global_rank": 180850,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "general",
@@ -49,6 +49,15 @@
    "to_id": "jobbank-ca",
    "source": "https://www.jobbank.gc.ca/network",
    "quote": "Career Beacon Google Indeed Jobillico LinkedIn Magnet Talent.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "PCRecruiter",
+   "from_id": "pcrecruiter",
+   "to": "CareerBeacon",
+   "to_id": "careerbeacon",
+   "source": "https://www.pcrecruiter.com/integrations/",
+   "quote": "Canada-Specific Job Boards CanadaJobs.com CareerBeacon Wow Jobs"
   }
  ],
  "review": null,

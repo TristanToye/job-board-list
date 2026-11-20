@@ -18,7 +18,7 @@ SeekOut is an HR technology vendor based in the United States, focused on talent
 
 **Which languages does SeekOut support?** This directory records SeekOut as supporting English.
 
-**How large is SeekOut?** SeekOut ranks #172,312 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is SeekOut?** SeekOut ranks #172,312 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -19,6 +19,8 @@ The Muse is a board and employer brand based in the United States, focused on ea
 
 **Which languages does The Muse support?** This directory records The Muse as supporting English.
 
+**Which platforms does The Muse connect to?** According to this directory, The Muse receives jobs from PCRecruiter.
+
 ## Sources
 
 - [Wikipedia: The Muse (website)](https://en.wikipedia.org/wiki/The_Muse_(website)) (Existence and description, checked 2026-11-05): "The Muse (formerly known as The Daily Muse) is a New York City-based online career platform founded in 2011"

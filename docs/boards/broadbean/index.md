@@ -22,9 +22,9 @@ Broadbean is a job multiposting and distribution service based in the United Kin
 
 **Which languages does Broadbean support?** This directory records Broadbean as supporting English, French, German.
 
-**How large is Broadbean?** Broadbean ranks #423,688 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Broadbean?** Broadbean ranks #423,688 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does Broadbean connect to?** According to this directory, Broadbean sends jobs to Indeed; integrates with Avature, TalentSoft, Ciphr, iCIMS, TribePad, Bullhorn and others.
+**Which platforms does Broadbean connect to?** According to this directory, Broadbean sends jobs to Indeed; receives jobs from Tracker; integrates with Avature, TalentSoft, Ciphr, iCIMS, TribePad, Bullhorn and others.
 
 ## Sources
 

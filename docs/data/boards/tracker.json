@@ -1,0 +1,99 @@
+{
+ "id": "tracker",
+ "name": "Tracker",
+ "url": "https://www.tracker-rms.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "recruitment and applicant tracking software for staffing agencies",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Site says: \"Post and search across the boards you already use\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/tracker/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 260902,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats",
+  "tech"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Tracker",
+   "from_id": "tracker",
+   "to": "Broadbean",
+   "to_id": "broadbean",
+   "source": "https://www.tracker-rms.com/recruitment-ats/",
+   "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Tracker",
+   "from_id": "tracker",
+   "to": "LogicMelon",
+   "to_id": "logicmelon",
+   "source": "https://www.tracker-rms.com/recruitment-ats/",
+   "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Tracker",
+   "from_id": "tracker",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.tracker-rms.com/recruitment-ats/",
+   "quote": "The LinkedIn Chrome extension parses profiles from LinkedIn and any job board straight onto a shortlist."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.tracker-rms.com/recruitment-ats/",
+   "title": "ATS Features for Staffing Agencies",
+   "accessed": "2026-11-20",
+   "quote": "Tracker handles the admin work. Your team handles the people work.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.tracker-rms.com/recruitment-ats/",
+   "title": "ATS Features for Staffing Agencies",
+   "accessed": "2026-11-20",
+   "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.tracker-rms.com/recruitment-ats/",
+   "title": "ATS Features for Staffing Agencies",
+   "accessed": "2026-11-20",
+   "quote": "Post and search across the boards you already use",
+   "quote_check": "ok"
+  }
+ ]
+}

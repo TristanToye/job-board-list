@@ -32,12 +32,22 @@
   "global_rank": 569009,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "job-distribution"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Tracker",
+   "from_id": "tracker",
+   "to": "LogicMelon",
+   "to_id": "logicmelon",
+   "source": "https://www.tracker-rms.com/recruitment-ats/",
+   "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan."
+  }
+ ],
  "review": null,
  "owners": [],
  "scale": [],

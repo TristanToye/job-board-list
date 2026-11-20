@@ -4,6 +4,7 @@ Platforms Indeed connects to, each from a page on one party's own site.
 
 ## Applicant tracking systems
 
+- ApplicantPro: integrates with (https://www.applicantpro.com/applicant-tracking-system-overview)
 - Greenhouse: receives jobs from (https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts)
 - JazzHR: integrates with (https://www.jazzhr.com/integrations)
 - Jobvite: integrates with (https://www.jobvite.com/marketplace/)
@@ -17,6 +18,7 @@ Platforms Indeed connects to, each from a page on one party's own site.
 
 - Appcast: integrates with (https://www.appcast.io/products/appcast-one/)
 - Broadbean: receives jobs from (https://www.broadbean.com/product-suite/job-distribution-platform/)
+- JobTarget: receives jobs from (https://support.jobtarget.com/jobtarget-help-center/guide-to-posting-on-indeed-via-marketplace)
 
 ## Job boards and aggregators
 

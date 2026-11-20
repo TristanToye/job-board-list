@@ -1,162 +1,175 @@
 {
-  "mode": "discover",
-  "country": "ZZ",
-  "boards": [
+ "mode": "discover",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "PCRecruiter",
+   "url": "https://www.pcrecruiter.com",
+   "type": "ats",
+   "niche": "recruitment and applicant tracking for staffing, search and in-house teams",
+   "countries_served": [],
+   "sources": [
     {
-      "name": "PCRecruiter",
-      "url": "https://www.pcrecruiter.com",
-      "type": "ats",
-      "niche": "recruitment and applicant tracking for staffing, search and in-house teams",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.pcrecruiter.com/about-us/",
-          "title": "About PCRecruiter",
-          "quote": "PCRecruiter is the backbone of the business day for thousands of recruitment professionals around the world."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.pcrecruiter.com/integrations/",
-          "title": "Integrations and Partners",
-          "quote": "Your sourcing tools, your job boards, your phone system, your payroll and your calendar."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.pcrecruiter.com/integrations/",
-          "title": "Integrations and Partners",
-          "quote": "Hourly and High-Volume Hiring Snagajob Talroo"
-        },
-        {
-          "field": "note",
-          "url": "https://www.pcrecruiter.com/integrations/",
-          "title": "Integrations and Partners",
-          "quote": "PCRM has also provided feeds in the required formats for others on request"
-        }
-      ]
+     "field": "existence",
+     "url": "https://www.pcrecruiter.com/about-us/",
+     "title": "About PCRecruiter",
+     "quote": "PCRecruiter is the backbone of the business day for thousands of recruitment professionals around the world.",
+     "check": "ok"
     },
     {
-      "name": "Tracker",
-      "url": "https://www.tracker-rms.com",
-      "type": "ats",
-      "niche": "recruitment and applicant tracking software for staffing agencies",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.tracker-rms.com/recruitment-ats/",
-          "title": "ATS Features for Staffing Agencies",
-          "quote": "Tracker handles the admin work. Your team handles the people work."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.tracker-rms.com/recruitment-ats/",
-          "title": "ATS Features for Staffing Agencies",
-          "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan."
-        },
-        {
-          "field": "note",
-          "url": "https://www.tracker-rms.com/recruitment-ats/",
-          "title": "ATS Features for Staffing Agencies",
-          "quote": "Post and search across the boards you already use"
-        }
-      ]
+     "field": "ingest_methods",
+     "url": "https://www.pcrecruiter.com/integrations/",
+     "title": "Integrations and Partners",
+     "quote": "Your sourcing tools, your job boards, your phone system, your payroll and your calendar.",
+     "check": "ok"
     },
     {
-      "name": "ApplicantPro",
-      "url": "https://www.applicantpro.com",
-      "type": "ats",
-      "niche": "applicant tracking system for small and mid-sized employers (now isolved Talent Acquisition)",
-      "countries_served": [
-        "US"
-      ],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
-          "title": "More Than an Applicant Tracking System",
-          "quote": "We help you find, attract, screen, and hire the most qualified job seekers."
-        },
-        {
-          "field": "note",
-          "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
-          "title": "More Than an Applicant Tracking System",
-          "quote": "isolved Talent Acquisition, formerly ApplicantPro has a new look."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
-          "title": "More Than an Applicant Tracking System",
-          "quote": "Access to over 6,000 job boards"
-        },
-        {
-          "field": "note",
-          "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
-          "title": "More Than an Applicant Tracking System",
-          "quote": "Powerful job board integrations to attract a larger pool of qualified job seekers"
-        }
-      ]
+     "field": "ingest_methods",
+     "url": "https://www.pcrecruiter.com/integrations/",
+     "title": "Integrations and Partners",
+     "quote": "Hourly and High-Volume Hiring Snagajob Talroo",
+     "check": "ok"
     },
     {
-      "name": "Ultra-Staff EDGE",
-      "url": "https://www.abd.net",
-      "type": "ats",
-      "niche": "staffing and recruiting software (developed by Automated Business Designs)",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.abd.net/",
-          "title": "Ultra-Staff EDGE | Staffing and Recruiting Software",
-          "quote": "Ultra-Staff EDGE is a leading staffing and recruiting software solution with award-winning AI tools"
-        }
-      ]
-    },
-    {
-      "name": "Job Ready (ReadyTech)",
-      "url": "https://readytech.io/what-we-do/employment-services/products/job-ready/global",
-      "type": "ats",
-      "niche": "employment services case management and placement tracking (Australia)",
-      "countries_served": [
-        "AU"
-      ],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://readytech.io/what-we-do/employment-services/products/job-ready/global",
-          "title": "Job Ready | ReadyTech",
-          "quote": "Job Ready brings job seeker management, placement tracking, reporting and AI-powered matching into one platform"
-        }
-      ]
+     "field": "note",
+     "url": "https://www.pcrecruiter.com/integrations/",
+     "title": "Integrations and Partners",
+     "quote": "PCRM has also provided feeds in the required formats for others on request",
+     "check": "ok"
     }
-  ],
-  "blocked": [
+   ]
+  },
+  {
+   "name": "Tracker",
+   "url": "https://www.tracker-rms.com",
+   "type": "ats",
+   "niche": "recruitment and applicant tracking software for staffing agencies",
+   "countries_served": [],
+   "sources": [
     {
-      "name": "Pereless Systems",
-      "url": "https://www.pereless.com",
-      "reason": "HTTP 502 (upstream request failed) from the browser reader"
+     "field": "existence",
+     "url": "https://www.tracker-rms.com/recruitment-ats/",
+     "title": "ATS Features for Staffing Agencies",
+     "quote": "Tracker handles the admin work. Your team handles the people work.",
+     "check": "ok"
     },
     {
-      "name": "Talent Rover",
-      "url": "https://www.talentrover.com",
-      "reason": "Browser reader: net::ERR_TUNNEL_CONNECTION_FAILED"
+     "field": "ingest_methods",
+     "url": "https://www.tracker-rms.com/recruitment-ats/",
+     "title": "ATS Features for Staffing Agencies",
+     "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan.",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.tracker-rms.com/recruitment-ats/",
+     "title": "ATS Features for Staffing Agencies",
+     "quote": "Post and search across the boards you already use",
+     "check": "ok"
     }
-  ],
-  "queue": [
+   ]
+  },
+  {
+   "name": "ApplicantPro",
+   "url": "https://www.applicantpro.com",
+   "type": "ats",
+   "niche": "applicant tracking system for small and mid-sized employers (now isolved Talent Acquisition)",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
     {
-      "name": "Bond (Bond International Software)",
-      "url": "",
-      "reason": "Official site not confirmed. Bond merged into Erecruit in 2017 per third-party news; erecruit.com/adapt redirects to a Bullhorn page"
+     "field": "existence",
+     "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
+     "title": "More Than an Applicant Tracking System",
+     "quote": "We help you find, attract, screen, and hire the most qualified job seekers.",
+     "check": "ok"
     },
     {
-      "name": "Adapt (Bond Adapt)",
-      "url": "",
-      "reason": "Same product line as Bond (Adapt was previously Bond AdaptUX); official Adapt homepage not confirmed"
+     "field": "note",
+     "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
+     "title": "More Than an Applicant Tracking System",
+     "quote": "isolved Talent Acquisition, formerly ApplicantPro has a new look.",
+     "check": "ok"
     },
     {
-      "name": "Navigator (recruitment software)",
-      "url": "",
-      "reason": "No official staffing or recruitment ATS site found under this name; search returned unrelated Navigator products"
+     "field": "ingest_methods",
+     "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
+     "title": "More Than an Applicant Tracking System",
+     "quote": "Access to over 6,000 job boards",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.applicantpro.com/applicant-tracking-system-overview",
+     "title": "More Than an Applicant Tracking System",
+     "quote": "Powerful job board integrations to attract a larger pool of qualified job seekers",
+     "check": "ok"
     }
-  ]
+   ]
+  },
+  {
+   "name": "Ultra-Staff EDGE",
+   "url": "https://www.abd.net",
+   "type": "ats",
+   "niche": "staffing and recruiting software (developed by Automated Business Designs)",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.abd.net/",
+     "title": "Ultra-Staff EDGE | Staffing and Recruiting Software",
+     "quote": "Ultra-Staff EDGE is a leading staffing and recruiting software solution with award-winning AI tools",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Job Ready (ReadyTech)",
+   "url": "https://readytech.io/what-we-do/employment-services/products/job-ready/global",
+   "type": "ats",
+   "niche": "employment services case management and placement tracking (Australia)",
+   "countries_served": [
+    "AU"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://readytech.io/what-we-do/employment-services/products/job-ready/global",
+     "title": "Job Ready | ReadyTech",
+     "quote": "Job Ready brings job seeker management, placement tracking, reporting and AI-powered matching into one platform",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Pereless Systems",
+   "url": "https://www.pereless.com",
+   "reason": "HTTP 502 (upstream request failed) from the browser reader"
+  },
+  {
+   "name": "Talent Rover",
+   "url": "https://www.talentrover.com",
+   "reason": "Browser reader: net::ERR_TUNNEL_CONNECTION_FAILED"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Bond (Bond International Software)",
+   "url": "",
+   "reason": "Official site not confirmed. Bond merged into Erecruit in 2017 per third-party news; erecruit.com/adapt redirects to a Bullhorn page"
+  },
+  {
+   "name": "Adapt (Bond Adapt)",
+   "url": "",
+   "reason": "Same product line as Bond (Adapt was previously Bond AdaptUX); official Adapt homepage not confirmed"
+  },
+  {
+   "name": "Navigator (recruitment software)",
+   "url": "",
+   "reason": "No official staffing or recruitment ATS site found under this name; search returned unrelated Navigator products"
+  }
+ ]
 }

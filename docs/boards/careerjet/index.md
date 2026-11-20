@@ -19,7 +19,7 @@ Careerjet is a job aggregator based in France.
 
 **Which languages does Careerjet support?** This directory records Careerjet as supporting English, French, German, Spanish, Italian, Portuguese, Dutch, Polish.
 
-**How large is Careerjet?** Careerjet ranks #59,493 among all websites by web link popularity (Majestic Million, 2026-11-12), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Careerjet?** Careerjet ranks #59,493 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Careerjet connect to?** According to this directory, Careerjet receives jobs from Workable; integrates with Pinpoint, Acquire4Hire, ApplicantPro, ApplicantStack, Arca24, Arcoro and others.
 
@@ -27,6 +27,7 @@ Careerjet is a job aggregator based in France.
 
 - [Careerjet partner API](https://www.careerjet.com/partners/api) (API access, checked 2026-11-05)
 - [Job Junction: national job boards (third-party directory)](https://jobjunction.ca/national-job-boards/) (Listed by a third-party directory, checked 2026-11-05)
+- [Careerjet](https://www.careerjet.com/partners) (Existence and description, checked 2026-11-20): "Earn revenue by displaying Careerjet's job listings on your site."
 
 Canonical page: https://jobboardlist.com/boards/careerjet/
-Last updated: 2026-11-05
+Last updated: 2026-11-20

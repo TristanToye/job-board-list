@@ -5,6 +5,7 @@ Platforms Greenhouse connects to, each from a page on one party's own site.
 ## Multiposting and job distribution
 
 - Appcast: sends jobs to (https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts)
+- DirectEmployers Association: integrates with (https://directemployers.org/programmatic-job-advertising/)
 - Joveo: integrates with (https://www.joveo.com/partners/ats-integrations/)
 
 ## Job boards and aggregators

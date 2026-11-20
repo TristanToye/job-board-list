@@ -1,250 +1,274 @@
 {
-  "mode": "discover",
-  "country": "ZZ",
-  "boards": [
+ "mode": "discover",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "DirectEmployers Association",
+   "url": "https://directemployers.org",
+   "type": "multiposting",
+   "niche": "VEVRAA mandatory job listing and job distribution for federal contractors",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
     {
-      "name": "DirectEmployers Association",
-      "url": "https://directemployers.org",
-      "type": "multiposting",
-      "niche": "VEVRAA mandatory job listing and job distribution for federal contractors",
-      "countries_served": [
-        "US"
-      ],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://directemployers.org",
-          "title": "Home • DirectEmployers Association",
-          "quote": "We are a nonprofit Member-owned and -managed association built to provide your organization with the tools and education to complete daily tasks with ease."
-        },
-        {
-          "field": "note",
-          "url": "https://directemployers.org/feeds/service/employer-job-bank",
-          "title": "VEVRAA Mandatory Job Listing Compliance for Federal Contractors (Over 25 Years)",
-          "quote": "signed data-sharing agreements covering all 50 states and four U.S. territories"
-        },
-        {
-          "field": "note",
-          "url": "https://directemployers.org/ofccp-compliance-professional/",
-          "title": "OFCCP Compliance Professional • DirectEmployers Association",
-          "quote": "Recruitment partners & applicant tracking systems"
-        },
-        {
-          "field": "note",
-          "url": "https://directemployers.org/ofccp-compliance-professional/",
-          "title": "OFCCP Compliance Professional • DirectEmployers Association",
-          "quote": "With DE Client, we’re giving small to medium-sized businesses access to the core compliance solution that over 1,100 Members rely upon"
-        }
-      ]
+     "field": "existence",
+     "url": "https://directemployers.org",
+     "title": "Home • DirectEmployers Association",
+     "quote": "We are a nonprofit Member-owned and -managed association built to provide your organization with the tools and education to complete daily tasks with ease.",
+     "check": "ok"
     },
     {
-      "name": "Circa",
-      "url": "https://circaworks.com",
-      "type": "multiposting",
-      "niche": "OFCCP-compliant outreach management and ESDS job posting software (Mitratech)",
-      "countries_served": [
-        "US"
-      ],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://circaworks.com",
-          "title": "Diversity Recruiting Software & OFCCP Compliance Tools",
-          "quote": "Transform your talent acquisition with Mitratech, your trusted partner in inclusive recruiting software and OFCCP-compliant outreach management."
-        },
-        {
-          "field": "note",
-          "url": "https://circaworks.com/ofccp-compliance-solutions/",
-          "title": "Mitratech Circa’s OFCCP Compliance Solutions",
-          "quote": "Our Employment Service Delivery System (ESDS) provides easy access to state job banks, enabling employers to post job openings"
-        },
-        {
-          "field": "note",
-          "url": "https://circaworks.com",
-          "title": "Diversity Recruiting Software & OFCCP Compliance Tools",
-          "quote": "With comprehensive tracking and reporting capabilities, Mitratech Circa simplifies recordkeeping and applicant tracking"
-        }
-      ]
+     "field": "note",
+     "url": "https://directemployers.org/feeds/service/employer-job-bank",
+     "title": "VEVRAA Mandatory Job Listing Compliance for Federal Contractors (Over 25 Years)",
+     "quote": "signed data-sharing agreements covering all 50 states and four U.S. territories",
+     "check": "ok"
     },
     {
-      "name": "HR Unlimited",
-      "url": "https://www.hrunlimitedinc.com",
-      "type": "multiposting",
-      "niche": "VEVRAA and ESDS mandatory job listing distribution and compliance services",
-      "countries_served": [
-        "US"
-      ],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.hrunlimitedinc.com/",
-          "title": "Title VII & EO 14173 Compliance Services | HR Unlimited Inc.",
-          "quote": "Holistic HR expertise delivering trusted compliance, compensation, and workforce solutions"
-        },
-        {
-          "field": "note",
-          "url": "https://www.hrunlimitedinc.com/esds-compliance/",
-          "title": "ESDS Compliance",
-          "quote": "Automate multi-state job distribution across required channels"
-        },
-        {
-          "field": "note",
-          "url": "https://www.hrunlimitedinc.com/esds-compliance/",
-          "title": "ESDS Compliance",
-          "quote": "Extend reach through established ESDS and workforce networks, supporting compliant outreach and broader access to talent."
-        },
-        {
-          "field": "note",
-          "url": "https://www.hrunlimitedinc.com/",
-          "title": "Title VII & EO 14173 Compliance Services | HR Unlimited Inc.",
-          "quote": "Our Applicant Tracking System (ATS) streamlines recruiting while supporting compliance and scalability."
-        }
-      ]
+     "field": "note",
+     "url": "https://directemployers.org/ofccp-compliance-professional/",
+     "title": "OFCCP Compliance Professional • DirectEmployers Association",
+     "quote": "Recruitment partners & applicant tracking systems",
+     "check": "ok"
     },
     {
-      "name": "JobTarget",
-      "url": "https://www.jobtarget.com",
-      "type": "multiposting",
-      "niche": "recruitment advertising with a federal contractor compliance suite (state job banks, outreach, records)",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.jobtarget.com/",
-          "title": "JobTarget Makes Hiring Happen",
-          "quote": "We help organizations of all sizes streamline their hiring process"
-        },
-        {
-          "field": "note",
-          "url": "https://www.jobtarget.com/compliance-management-software-suite",
-          "title": "Compliance Software Comparison: Integrated vs. Standalone | JobTarget",
-          "quote": "JobTarget automatically distributes your jobs to the appropriate state job banks and targeted sites serving veterans and people with disabilities."
-        },
-        {
-          "field": "note",
-          "url": "https://www.jobtarget.com/",
-          "title": "JobTarget Makes Hiring Happen",
-          "quote": "JobTarget's technology features prebuilt integrations with 80+ ATS and HRIS systems"
-        }
-      ]
-    },
-    {
-      "name": "CareerCircle",
-      "url": "https://www.careercircle.com",
-      "type": "multiposting",
-      "niche": "talent community and outreach for veteran, military spouse and disability candidates",
-      "countries_served": [
-        "US"
-      ],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.careercircle.com/",
-          "title": "Where Skills Go To Work",
-          "quote": "we prioritize inclusivity and actively support all communities including veterans, military spouses, and individuals with disabilities"
-        },
-        {
-          "field": "note",
-          "url": "https://www.careercircle.com/employer-solutions/talent-acquisition",
-          "title": "Talent Acquisition Solutions | Skills-Based Talent",
-          "quote": "CareerCircle can help you fulfill obligations under Section 503 of the Rehabilitation Act and VEVRAA"
-        }
-      ]
-    },
-    {
-      "name": "OutSolve",
-      "url": "https://www.outsolve.com",
-      "type": "hr-tech",
-      "niche": "HR compliance as a service, including VEVRAA and Section 503 plans and documentation",
-      "countries_served": [
-        "US"
-      ],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.outsolve.com/",
-          "title": "HR Compliance Advisory Experts | OutSolve",
-          "quote": "OutSolve offers HR Compliance as a Service solutions to help with federal and state employment-related requirements."
-        },
-        {
-          "field": "note",
-          "url": "https://www.outsolve.com/solutions/section-503-and-vevraa",
-          "title": "Section 503 and VEVRAA | OutSolve",
-          "quote": "OutSolve helps you maintain your written program, manage ongoing obligations, document outreach and compliance efforts"
-        },
-        {
-          "field": "note",
-          "url": "https://www.outsolve.com/hr-compliance-as-a-service",
-          "title": "HR Compliance as a Service | OutSolve",
-          "quote": "A subscription cadence begins with your expert consultant including continuous monitoring"
-        }
-      ]
-    },
-    {
-      "name": "DCI Consulting",
-      "url": "https://www.dciconsult.com",
-      "type": "hr-tech",
-      "niche": "HR compliance consultancy with VEVRAA mandatory job listing and ESDS account management",
-      "countries_served": [
-        "US"
-      ],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.dciconsult.com",
-          "title": "DCI Consulting",
-          "quote": "DCI Consulting Group has been the leader in HR compliance, pay equity, compensation, workforce analytics, and personnel selection for 25 years."
-        },
-        {
-          "field": "note",
-          "url": "https://www.dciconsult.com",
-          "title": "DCI Consulting",
-          "quote": "Direct management of employer owned ESDS accounts to help comply with VEVRAA job posting requirements."
-        },
-        {
-          "field": "note",
-          "url": "https://www.dciconsult.com/compliance/mandatory-job-listings",
-          "title": "Mandatory Job Listings",
-          "quote": "Access an interactive map of the various Employment Service Delivery System (ESDS) offices throughout the United States."
-        }
-      ]
-    },
-    {
-      "name": "Redstone GCI",
-      "url": "https://redstonegci.com",
-      "type": "hr-tech",
-      "niche": "EEOC and OFCCP compliance consulting for government contractors",
-      "countries_served": [
-        "US"
-      ],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://redstonegci.com/consulting/government-compliance/office-of-federal-contract-compliance-programs-ofccp-compliance",
-          "title": "EEOC & OFCCP Compliance Consulting for Government Contractors",
-          "quote": "Redstone GCI experts routinely support contractors with Equal Employment Opportunity Commission (EEOC) and Office of Federal Contract Compliance Programs (OFCCP) requirements."
-        },
-        {
-          "field": "note",
-          "url": "https://redstonegci.com/consulting/government-compliance/office-of-federal-contract-compliance-programs-ofccp-compliance",
-          "title": "EEOC & OFCCP Compliance Consulting for Government Contractors",
-          "quote": "Maintaining accurate and complete documentation is essential to successful OFCCP compliance."
-        }
-      ]
+     "field": "note",
+     "url": "https://directemployers.org/ofccp-compliance-professional/",
+     "title": "OFCCP Compliance Professional • DirectEmployers Association",
+     "quote": "With DE Client, we’re giving small to medium-sized businesses access to the core compliance solution that over 1,100 Members rely upon",
+     "check": "ok"
     }
-  ],
-  "blocked": [
+   ]
+  },
+  {
+   "name": "Circa",
+   "url": "https://circaworks.com",
+   "type": "multiposting",
+   "niche": "OFCCP-compliant outreach management and ESDS job posting software (Mitratech)",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
     {
-      "name": "HR Works",
-      "url": "https://www.hrworks.com",
-      "reason": "HTTP 502 on fetch (one attempt). Found in SHRM vendor directory listings for Section 503 and VEVRAA plans; domain not confirmed as the company's own site"
-    }
-  ],
-  "queue": [
+     "field": "existence",
+     "url": "https://circaworks.com",
+     "title": "Diversity Recruiting Software & OFCCP Compliance Tools",
+     "quote": "Transform your talent acquisition with Mitratech, your trusted partner in inclusive recruiting software and OFCCP-compliant outreach management.",
+     "check": "ok"
+    },
     {
-      "name": "Veteran Recruitment",
-      "url": "",
-      "reason": "Named in SHRM vendor directory listing for mandatory job listings for federal contractors; own site not found"
+     "field": "note",
+     "url": "https://circaworks.com/ofccp-compliance-solutions/",
+     "title": "Mitratech Circa’s OFCCP Compliance Solutions",
+     "quote": "Our Employment Service Delivery System (ESDS) provides easy access to state job banks, enabling employers to post job openings",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://circaworks.com",
+     "title": "Diversity Recruiting Software & OFCCP Compliance Tools",
+     "quote": "With comprehensive tracking and reporting capabilities, Mitratech Circa simplifies recordkeeping and applicant tracking",
+     "check": "ok"
     }
-  ]
+   ]
+  },
+  {
+   "name": "HR Unlimited",
+   "url": "https://www.hrunlimitedinc.com",
+   "type": "multiposting",
+   "niche": "VEVRAA and ESDS mandatory job listing distribution and compliance services",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hrunlimitedinc.com/",
+     "title": "Title VII & EO 14173 Compliance Services | HR Unlimited Inc.",
+     "quote": "Holistic HR expertise delivering trusted compliance, compensation, and workforce solutions",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.hrunlimitedinc.com/esds-compliance/",
+     "title": "ESDS Compliance",
+     "quote": "Automate multi-state job distribution across required channels",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.hrunlimitedinc.com/esds-compliance/",
+     "title": "ESDS Compliance",
+     "quote": "Extend reach through established ESDS and workforce networks, supporting compliant outreach and broader access to talent.",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.hrunlimitedinc.com/",
+     "title": "Title VII & EO 14173 Compliance Services | HR Unlimited Inc.",
+     "quote": "Our Applicant Tracking System (ATS) streamlines recruiting while supporting compliance and scalability.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "JobTarget",
+   "url": "https://www.jobtarget.com",
+   "type": "multiposting",
+   "niche": "recruitment advertising with a federal contractor compliance suite (state job banks, outreach, records)",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobtarget.com/",
+     "title": "JobTarget Makes Hiring Happen",
+     "quote": "We help organizations of all sizes streamline their hiring process",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.jobtarget.com/compliance-management-software-suite",
+     "title": "Compliance Software Comparison: Integrated vs. Standalone | JobTarget",
+     "quote": "JobTarget automatically distributes your jobs to the appropriate state job banks and targeted sites serving veterans and people with disabilities.",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.jobtarget.com/",
+     "title": "JobTarget Makes Hiring Happen",
+     "quote": "JobTarget's technology features prebuilt integrations with 80+ ATS and HRIS systems",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "CareerCircle",
+   "url": "https://www.careercircle.com",
+   "type": "multiposting",
+   "niche": "talent community and outreach for veteran, military spouse and disability candidates",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.careercircle.com/",
+     "title": "Where Skills Go To Work",
+     "quote": "we prioritize inclusivity and actively support all communities including veterans, military spouses, and individuals with disabilities",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.careercircle.com/employer-solutions/talent-acquisition",
+     "title": "Talent Acquisition Solutions | Skills-Based Talent",
+     "quote": "CareerCircle can help you fulfill obligations under Section 503 of the Rehabilitation Act and VEVRAA",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "OutSolve",
+   "url": "https://www.outsolve.com",
+   "type": "hr-tech",
+   "niche": "HR compliance as a service, including VEVRAA and Section 503 plans and documentation",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.outsolve.com/",
+     "title": "HR Compliance Advisory Experts | OutSolve",
+     "quote": "OutSolve offers HR Compliance as a Service solutions to help with federal and state employment-related requirements.",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.outsolve.com/solutions/section-503-and-vevraa",
+     "title": "Section 503 and VEVRAA | OutSolve",
+     "quote": "OutSolve helps you maintain your written program, manage ongoing obligations, document outreach and compliance efforts",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.outsolve.com/hr-compliance-as-a-service",
+     "title": "HR Compliance as a Service | OutSolve",
+     "quote": "A subscription cadence begins with your expert consultant including continuous monitoring",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "DCI Consulting",
+   "url": "https://www.dciconsult.com",
+   "type": "hr-tech",
+   "niche": "HR compliance consultancy with VEVRAA mandatory job listing and ESDS account management",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.dciconsult.com",
+     "title": "DCI Consulting",
+     "quote": "DCI Consulting Group has been the leader in HR compliance, pay equity, compensation, workforce analytics, and personnel selection for 25 years.",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.dciconsult.com",
+     "title": "DCI Consulting",
+     "quote": "Direct management of employer owned ESDS accounts to help comply with VEVRAA job posting requirements.",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://www.dciconsult.com/compliance/mandatory-job-listings",
+     "title": "Mandatory Job Listings",
+     "quote": "Access an interactive map of the various Employment Service Delivery System (ESDS) offices throughout the United States.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Redstone GCI",
+   "url": "https://redstonegci.com",
+   "type": "hr-tech",
+   "niche": "EEOC and OFCCP compliance consulting for government contractors",
+   "countries_served": [
+    "US"
+   ],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://redstonegci.com/consulting/government-compliance/office-of-federal-contract-compliance-programs-ofccp-compliance",
+     "title": "EEOC & OFCCP Compliance Consulting for Government Contractors",
+     "quote": "Redstone GCI experts routinely support contractors with Equal Employment Opportunity Commission (EEOC) and Office of Federal Contract Compliance Programs (OFCCP) requirements.",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://redstonegci.com/consulting/government-compliance/office-of-federal-contract-compliance-programs-ofccp-compliance",
+     "title": "EEOC & OFCCP Compliance Consulting for Government Contractors",
+     "quote": "Maintaining accurate and complete documentation is essential to successful OFCCP compliance.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "HR Works",
+   "url": "https://www.hrworks.com",
+   "reason": "HTTP 502 on fetch (one attempt). Found in SHRM vendor directory listings for Section 503 and VEVRAA plans; domain not confirmed as the company's own site"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Veteran Recruitment",
+   "url": "",
+   "reason": "Named in SHRM vendor directory listing for mandatory job listings for federal contractors; own site not found"
+  }
+ ]
 }

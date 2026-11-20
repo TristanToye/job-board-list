@@ -5,6 +5,7 @@ Platforms Broadbean connects to, each from a page on one party's own site.
 ## Applicant tracking systems
 
 - iCIMS: integrates with (https://www.broadbean.com/partners/)
+- Tracker: receives jobs from (https://www.tracker-rms.com/recruitment-ats/)
 
 ## Job boards and aggregators
 

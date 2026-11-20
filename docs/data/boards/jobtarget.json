@@ -24,7 +24,7 @@
  "ingest_methods": [
   "ATS integration"
  ],
- "notes": "Site says: \"with programmatic job advertising, OFCCP compliance, and Easy Apply\" Homepage and about page describe prebuilt ATS and HRIS integrations and a partner marketplace for job sites. About page says the company is independent with no outside investors. OFCCP appears as a blog link and in partner product text. Headquarters country, languages, employer pricing and API acces Site says: \"streamlining distribution to 25,000+ job boards from one central dashboard\"",
+ "notes": "Site says: \"with programmatic job advertising, OFCCP compliance, and Easy Apply\" Homepage and about page describe prebuilt ATS and HRIS integrations and a partner marketplace for job sites. About page says the company is independent with no outside investors. OFCCP appears as a blog link and in partner product text. Headquarters country, languages, employer pricing and API acces Site says: \"streamlining distribution to 25,000+ job boards from one central dashboard\" Site says: \"JobTarget automatically distributes your jobs to the appropriate state job banks and targeted sites serving veterans and people with disabilities.\" Site says: \"JobTarget's technology features prebuilt integrations with 80+ ATS and HRIS systems\"",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobtarget/",
  "indexable": true,
@@ -34,7 +34,7 @@
   "global_rank": 350179,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-12"
+  "list_date": "2026-11-20"
  },
  "tags": [
   "ats-integration",
@@ -42,7 +42,368 @@
   "ofccp-compliance",
   "partner-program"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "iCIMS",
+   "to_id": "icims",
+   "source": "https://www.jobtarget.com/job-advertising-solutions",
+   "quote": "Prebuilt connections with major ATS, Payroll, and HRIS platforms including ADP, iCIMS, Rippling, and 80+ others."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/guide-to-posting-on-indeed-via-marketplace",
+   "quote": "JobTarget only distributes sponsored (paid) jobs on Indeed."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.jobtarget.com/job-advertising-solutions",
+   "quote": "Direct integrations with Indeed, ZipRecruiter, LinkedIn, and thousands of niche job sites."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.jobtarget.com/job-advertising-solutions",
+   "quote": "Direct integrations with Indeed, ZipRecruiter, LinkedIn, and thousands of niche job sites."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Hire Heroes USA",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "Hire Heroes USA www.hireheroesusa.org MilitaryHire www.militaryhire.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "MilitaryHire",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "MilitaryHire www.militaryhire.com Military.com www.military.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Military.com",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "Military.com www.military.com Job Opportunities for Disabled American Veterans (JOFDAV) www.jofdav.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Job Opportunities for Disabled American Veterans (JOFDAV)",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "Job Opportunities for Disabled American Veterans (JOFDAV) www.jofdav.com Disability Solutions at Work/Ability Beyond www.disabilitytalent.org"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Disability Solutions at Work/Ability Beyond",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "Disability Solutions at Work/Ability Beyond www.disabilitytalent.org disABLED Person www.disabledperson.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "disABLED Person",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "disABLED Person www.disabledperson.com tapABILITY www.tapability.org"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "tapABILITY",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "tapABILITY www.tapability.org Disabilityjobnetwork www.disabilityjobnetwork.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Disabilityjobnetwork",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "Disabilityjobnetwork www.disabilityjobnetwork.com Veteranjobnetwork www.veteranjobnetwork.net"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Veteranjobnetwork",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "Veteranjobnetwork www.veteranjobnetwork.net USVetJobs www.usvetjobs.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "USVetJobs",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "USVetJobs www.usvetjobs.com Abilities in Jobs www.abilitiesinjobs.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Abilities in Jobs",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "Abilities in Jobs www.abilitiesinjobs.com Disabled Jobseekers www.disabledjobseekers.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Disabled Jobseekers",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "Disabled Jobseekers www.disabledjobseekers.com Veteran Job Center www.veteranjobcenter.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Veteran Job Center",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-the-compliancepost-media-package",
+   "quote": "Disabled Jobseekers www.disabledjobseekers.com Veteran Job Center www.veteranjobcenter.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "EmployDIVERSITY",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "EmployDIVERSITY www.employdiversity.com National Diversity Network www.nationaldiversitynetwork.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "National Diversity Network",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "National Diversity Network www.nationaldiversitynetwork.com Africanamericanjobnetwork www.africanamericanjobnetwork.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Africanamericanjobnetwork",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "Africanamericanjobnetwork www.africanamericanjobnetwork.com Asianjobnetwork www.asianjobnetwork.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Asianjobnetwork",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "Asianjobnetwork www.asianjobnetwork.com Latinojobnetwork www.latinojobnetwork.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Latinojobnetwork",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "Latinojobnetwork www.latinojobnetwork.com Lgbtjobnetwork www.lgbtjobnetwork.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Lgbtjobnetwork",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "Lgbtjobnetwork www.lgbtjobnetwork.com Retirementjobnetwork www.retirementjobnetwork.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Retirementjobnetwork",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "Retirementjobnetwork www.retirementjobnetwork.com Womensjobnetwork www.womensjobnetwork"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Womensjobnetwork",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "Womensjobnetwork www.womensjobnetwork Women For Hire www.womenforhire.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "Women For Hire",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "Women For Hire www.womenforhire.com WorkplaceDiversity www.workplacediversity.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "WorkplaceDiversity",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "WorkplaceDiversity www.workplacediversity.com DiversityConnect www.diversityconnect.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "DiversityConnect",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "DiversityConnect www.diversityconnect.com LGBTConnect.com www.LGBTConnect.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "LGBTConnect.com",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "LGBTConnect.com www.LGBTConnect.com WomensJobLine.com www.womensjobline.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "WomensJobLine.com",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "WomensJobLine.com www.womensjobline.com HispanicDiversity www.hispanicdiversity.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "HispanicDiversity",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "HispanicDiversity www.hispanicdiversity.com BlackJobCenter www.blackjobcenter.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "BlackJobCenter",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "BlackJobCenter www.blackjobcenter.com DiversityJobLine www.diversityjobline.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "DiversityJobLine",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "DiversityJobLine www.diversityjobline.com WomensJobCenter www.womensjobcenter.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "WomensJobCenter",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "WomensJobCenter www.womensjobcenter.com LatinXJobLine www.latinxjobline.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "LatinXJobLine",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "LatinXJobLine www.latinxjobline.com DisabilityConnect www.disabilityconnect.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "DisabilityConnect",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "DisabilityConnect www.disabilityconnect.com LGBTQJobLine www.LGBTQJobLine.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "LGBTQJobLine",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "LGBTQJobLine www.LGBTQJobLine.com AllDiversity www.alldiversity.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "AllDiversity",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "AllDiversity www.alldiversity.com LatinxJobs www.latinxjobs.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "LatinxJobs",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "LatinxJobs www.latinxjobs.com OutandEqual www.outandequal.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobTarget",
+   "from_id": "jobtarget",
+   "to": "OutandEqual",
+   "to_id": "",
+   "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
+   "quote": "LatinxJobs www.latinxjobs.com OutandEqual www.outandequal.com"
+  }
+ ],
  "review": {
   "board_id": "jobtarget",
   "reviewed": "2026-11-12",
@@ -100,6 +461,30 @@
    "title": "JobTarget Makes Hiring Happen",
    "accessed": "2026-11-12",
    "quote": "streamlining distribution to 25,000+ job boards from one central dashboard",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.jobtarget.com/",
+   "title": "JobTarget Makes Hiring Happen",
+   "accessed": "2026-11-20",
+   "quote": "We help organizations of all sizes streamline their hiring process",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.jobtarget.com/compliance-management-software-suite",
+   "title": "Compliance Software Comparison: Integrated vs. Standalone | JobTarget",
+   "accessed": "2026-11-20",
+   "quote": "JobTarget automatically distributes your jobs to the appropriate state job banks and targeted sites serving veterans and people with disabilities.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.jobtarget.com/",
+   "title": "JobTarget Makes Hiring Happen",
+   "accessed": "2026-11-20",
+   "quote": "JobTarget's technology features prebuilt integrations with 80+ ATS and HRIS systems",
    "quote_check": "ok"
   }
  ]

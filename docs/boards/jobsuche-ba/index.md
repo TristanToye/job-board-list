@@ -31,6 +31,9 @@ Jobsuche (Bundesagentur fur Arbeit) is a government job site based in Germany.
 ## Sources
 
 - [Jobsuche der BA - Startseite](https://www.arbeitsagentur.de/jobsuche/) (Existence and description, checked 2026-11-05): "Berufsfeld auswählen und passende Angebote entdecken"
+- [Startseite | Bundesagentur für Arbeit](https://www.arbeitsagentur.de/) (Existence and description, checked 2026-11-20): "Die Bundesagentur für Arbeit bietet Ihnen für verschiedene Themenbereiche Materialien zum Download an."
+- [Arbeitsagentur Jobsuche API - OpenAPI Documentation](https://jobsuche.api.bund.dev/) (Note, checked 2026-11-20): "Die größte Stellendatenbank Deutschlands durchsuchen, Details zu Stellenanzeigen und Informationen über Arbeitgeber abrufen."
+- [Arbeitsagentur Jobsuche API - OpenAPI Documentation](https://jobsuche.api.bund.dev/) (API access, checked 2026-11-20): "Die Authentifizierung funktioniert über die clientId:"
 
 Canonical page: https://jobboardlist.com/boards/jobsuche-ba/
-Last updated: 2026-11-05
+Last updated: 2026-11-20

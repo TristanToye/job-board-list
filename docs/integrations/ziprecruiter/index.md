@@ -12,6 +12,7 @@ Platforms ZipRecruiter connects to, each from a page on one party's own site.
 ## Multiposting and job distribution
 
 - Appcast: integrates with (https://www.appcast.io/products/appcast-one/)
+- JobTarget: integrates with (https://www.jobtarget.com/job-advertising-solutions)
 
 ## Job boards and aggregators
 
