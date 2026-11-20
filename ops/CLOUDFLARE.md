@@ -20,11 +20,10 @@ Today `https://www.jobboardlist.com` goes to `http://jobboardlist.com` and only 
 
 Rules > Redirect Rules > Create rule:
 - Name: `www to root`
-- If incoming requests match: Wildcard pattern
-  - Request URL: `*://www.jobboardlist.com/*`
-- Then: Target URL `https://jobboardlist.com/${2}`, status 301, preserve query string on.
+- Uses Cloudflare's "Redirect from WWW to root" template: Request URL `https://www.*`, target `https://${1}`, status 301, preserve query string on.
+- Plain `http://www.` first goes to `https://www.` through Always Use HTTPS, then this rule, so it takes two hops. That is fine.
 
-(Cloudflare also offers this as the "Redirect from WWW to root" template.)
+Status: applied 2026-11-20, together with rules 1 and 3. Bot and AI crawler settings were reviewed the same day and nothing blocks search or AI-search crawlers.
 
 ## 3. Keep data files out of search results
 
