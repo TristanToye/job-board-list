@@ -1,0 +1,73 @@
+{
+ "id": "tempworks-software",
+ "name": "TempWorks Software",
+ "url": "https://www.tempworks.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "ATS, CRM and pay/bill software for staffing agencies",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/tempworks-software/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 625296,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats",
+  "tech"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "TempWorks Software",
+   "from_id": "tempworks-software",
+   "to": "Google for Jobs",
+   "to_id": "google-jobs",
+   "source": "https://www.tempworks.com/job-boards/",
+   "quote": "with TempWorks partnership with Google for Jobs, every job you submit will effortlessly display on job boards in Google searches."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.tempworks.com/",
+   "title": "Recruiting & Staffing Agency Software from TempWorks",
+   "accessed": "2026-11-20",
+   "quote": "TempWorks provides end-to-end, all-in-one software solutions for recruiting and staffing agencies.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.tempworks.com/job-boards/",
+   "title": "Online Job Board Software for Recruiting Companies - TempWorks",
+   "accessed": "2026-11-20",
+   "quote": "Instantly post a job after creating an order in the system",
+   "quote_check": "ok"
+  }
+ ]
+}

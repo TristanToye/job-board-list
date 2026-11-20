@@ -1,0 +1,144 @@
+{
+ "id": "jobadder",
+ "name": "JobAdder",
+ "url": "https://jobadder.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "ATS and recruitment CRM for agencies",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/jobadder/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 79404,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "SEEK",
+   "to_id": "seek",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "Enjoy enhanced job posting with JobAdder's seamless integration with SEEK"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "Post job ads to your company's LinkedIn page, without leaving JobAdder"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "Adzuna",
+   "to_id": "adzuna",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "Adzuna is a job search engine that helps you reduce the cost of hiring by finding unique job seekers in 19 countries."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "CV-Library is the UK's largest independent job board"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "Indeed strives to put job seekers first, giving them access to search for jobs, post resumes and research companies."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "Reed.co.uk was the first of its kind when it started in 1995 and it's now the UK's number one job website."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "Broadbean",
+   "to_id": "broadbean",
+   "source": "https://jobadder.com/platform/operations/integrations",
+   "quote": "Broadbean & JobAdder integration: Optimise recruitment with data insights"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "IrishJobs",
+   "to_id": "irishjobs",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "IrishJobs.ie is the leading and trusted e-recruitment partner in Ireland."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "Trade Jobs NZ",
+   "to_id": "",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "Trade Jobs NZ is an industry-specific job site made for the trades industry of Aotearoa."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://jobadder.com/",
+   "title": "JobAdder | Recruitment Software You'll Love to Use",
+   "accessed": "2026-11-20",
+   "quote": "The intelligent recruitment platform that puts people first.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://jobadder.com/platform/operations/job-boards",
+   "title": "Job Board Integrations for Recruiters | JobAdder",
+   "accessed": "2026-11-20",
+   "quote": "Multi-post job ads to job boards, careers pages and websites",
+   "quote_check": "ok"
+  }
+ ]
+}

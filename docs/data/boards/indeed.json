@@ -188,6 +188,42 @@
    "to_id": "indeed",
    "source": "https://support.jobtarget.com/jobtarget-help-center/guide-to-posting-on-indeed-via-marketplace",
    "quote": "JobTarget only distributes sponsored (paid) jobs on Indeed."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Connect your Indeed account to RecruitBPM to post your jobs and access Indeed’s resume search directly from your RecruitBPM portal."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "Indeed strives to put job seekers first, giving them access to search for jobs, post resumes and research companies."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Ceipal",
+   "from_id": "ceipal",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+   "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Loxo",
+   "from_id": "loxo",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.loxo.co/products/ats",
+   "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
   }
  ],
  "review": null,

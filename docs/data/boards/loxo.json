@@ -1,0 +1,126 @@
+{
+ "id": "loxo",
+ "name": "Loxo",
+ "url": "https://www.loxo.co",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "AI talent intelligence platform with ATS and recruitment CRM",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/loxo/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 122590,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Loxo",
+   "from_id": "loxo",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.loxo.co/products/ats",
+   "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Loxo",
+   "from_id": "loxo",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.loxo.co/products/ats",
+   "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Loxo",
+   "from_id": "loxo",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://www.loxo.co/products/ats",
+   "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Loxo",
+   "from_id": "loxo",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://www.loxo.co/products/ats",
+   "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Loxo",
+   "from_id": "loxo",
+   "to": "Talroo",
+   "to_id": "talroo",
+   "source": "https://www.loxo.co/products/ats",
+   "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Loxo",
+   "from_id": "loxo",
+   "to": "Jobcase",
+   "to_id": "",
+   "source": "https://www.loxo.co/products/ats",
+   "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Loxo",
+   "from_id": "loxo",
+   "to": "Snagajob",
+   "to_id": "snagajob",
+   "source": "https://www.loxo.co/products/ats",
+   "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.loxo.co/",
+   "title": "Loxo: The AI Recruiting Platform For Scaling Firms",
+   "accessed": "2026-11-20",
+   "quote": "ATS, recruiting CRM, sourcing, outreach, sales CRM and AI agents in one platform",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.loxo.co/products/ats",
+   "title": "ATS Software For Modern Recruiters | Loxo",
+   "accessed": "2026-11-20",
+   "quote": "Loxo offers programmatic job board posting via Loxo Boost.",
+   "quote_check": "ok"
+  }
+ ]
+}

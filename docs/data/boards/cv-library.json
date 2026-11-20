@@ -75,6 +75,24 @@
    "to_id": "cv-library",
    "source": "https://www.jobvite.com/marketplace/",
    "quote": "Candidate/Job Matching CV-Library Learn More"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Eploy",
+   "from_id": "eploy",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://www.eploy.com/product/recruitment-marketing/multi-posting/",
+   "quote": "Just select any combination of relevant external job boards and/or social media channels to post the job to (e.g. Total Jobs, Reed, CV Library)."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "CV-Library is the UK's largest independent job board"
   }
  ],
  "review": null,

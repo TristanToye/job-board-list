@@ -218,6 +218,24 @@
    "to_id": "linkedin",
    "source": "https://www.jobtarget.com/job-advertising-solutions",
    "quote": "Direct integrations with Indeed, ZipRecruiter, LinkedIn, and thousands of niche job sites."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "JobAdder",
+   "from_id": "jobadder",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://jobadder.com/platform/operations/job-boards",
+   "quote": "Post job ads to your company's LinkedIn page, without leaving JobAdder"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Ceipal",
+   "from_id": "ceipal",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+   "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
   }
  ],
  "review": null,

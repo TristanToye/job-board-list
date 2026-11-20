@@ -1,0 +1,565 @@
+{
+ "mode": "relationships",
+ "edges": [
+  {
+   "from": "Atlas",
+   "from_url": "https://recruitwithatlas.com",
+   "to": "idibu",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://recruitwithatlas.com/integrations/",
+    "title": "Integrations - ATLAS",
+    "quote": "idibu Post your jobs to multiple job boards and process applicants directly in your portal.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Atlas",
+   "from_url": "https://recruitwithatlas.com",
+   "to": "Broadbean",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://recruitwithatlas.com/integrations/",
+    "title": "Integrations - ATLAS",
+    "quote": "Supercharge your sourcing efforts and capture applicants from broadbean's job boards.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "Dice",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "Connect your Dice account to RecruitBPM to post your jobs and get immediate access to millions of resumes worldwide.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "Connect your Indeed account to RecruitBPM to post your jobs and access Indeed’s resume search directly from your RecruitBPM portal.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "ZipRecruiter",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "Post to 100+ Job Boards with One Submission directly from your RecruitBPM account using ZipRecruiter.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "Careerjet",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "Connect your Careerjet account to RecruitBPM to post your jobs directly from your RecruitBPM account.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "WorkHound",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "RecruitBPM and WorkHound integration gives you the ability to post your jobs directly to WorkHound your RecruitBPM portal.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "Glassdoor",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "Glassdoor delivers 2x better applicant quality at an average 30% lower cost per hire.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "CareerBuilder",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "Connect with CareerBuilder to browse an extensive candidate database to search, target, and attract global talent.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "Monster",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "Connect your Monster account to find your next great hire.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "Trovit",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "With Trovit’s job search engine functionality, gain access to thousands of classified ads all over the globe.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "Job Inventory",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "Connect your Job Inventory account to get access to a wide range of job seekers with their diverse talent pool.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "RecruitBPM",
+   "from_url": "https://recruitbpm.com",
+   "to": "nJobs",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://recruitbpm.com/integration",
+    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+    "quote": "Find talented professionals in the UK with nJobs integration for RecruitBPM Applicant Tracking System and CRM.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Eploy",
+   "from_url": "https://www.eploy.com",
+   "to": "Total Jobs",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.eploy.com/product/recruitment-marketing/multi-posting/",
+    "title": "Eploy Multi-Posting - Eploy ATS",
+    "quote": "Just select any combination of relevant external job boards and/or social media channels to post the job to (e.g. Total Jobs, Reed, CV Library).",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Eploy",
+   "from_url": "https://www.eploy.com",
+   "to": "Reed",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.eploy.com/product/recruitment-marketing/multi-posting/",
+    "title": "Eploy Multi-Posting - Eploy ATS",
+    "quote": "Just select any combination of relevant external job boards and/or social media channels to post the job to (e.g. Total Jobs, Reed, CV Library).",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Eploy",
+   "from_url": "https://www.eploy.com",
+   "to": "CV Library",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.eploy.com/product/recruitment-marketing/multi-posting/",
+    "title": "Eploy Multi-Posting - Eploy ATS",
+    "quote": "Just select any combination of relevant external job boards and/or social media channels to post the job to (e.g. Total Jobs, Reed, CV Library).",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Eploy",
+   "from_url": "https://www.eploy.com",
+   "to": "NHS Jobs",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.eploy.com/product/recruitment-marketing/multi-posting/",
+    "title": "Eploy Multi-Posting - Eploy ATS",
+    "quote": "Eploy integrates directly with the NHS Jobs platform, enabling NHS and adjacent health and social care providers to post their vacancies to the NHS Jobs board.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "TempWorks Software",
+   "from_url": "https://www.tempworks.com",
+   "to": "Google for Jobs",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.tempworks.com/job-boards/",
+    "title": "Online Job Board Software for Recruiting Companies - TempWorks",
+    "quote": "with TempWorks partnership with Google for Jobs, every job you submit will effortlessly display on job boards in Google searches.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobAdder",
+   "from_url": "https://jobadder.com",
+   "to": "SEEK",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://jobadder.com/platform/operations/job-boards",
+    "title": "Job Board Integrations for Recruiters | JobAdder",
+    "quote": "Enjoy enhanced job posting with JobAdder's seamless integration with SEEK",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobAdder",
+   "from_url": "https://jobadder.com",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://jobadder.com/platform/operations/job-boards",
+    "title": "Job Board Integrations for Recruiters | JobAdder",
+    "quote": "Post job ads to your company's LinkedIn page, without leaving JobAdder",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobAdder",
+   "from_url": "https://jobadder.com",
+   "to": "Adzuna",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://jobadder.com/platform/operations/job-boards",
+    "title": "Job Board Integrations for Recruiters | JobAdder",
+    "quote": "Adzuna is a job search engine that helps you reduce the cost of hiring by finding unique job seekers in 19 countries.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobAdder",
+   "from_url": "https://jobadder.com",
+   "to": "CV-Library",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://jobadder.com/platform/operations/job-boards",
+    "title": "Job Board Integrations for Recruiters | JobAdder",
+    "quote": "CV-Library is the UK's largest independent job board",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobAdder",
+   "from_url": "https://jobadder.com",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://jobadder.com/platform/operations/job-boards",
+    "title": "Job Board Integrations for Recruiters | JobAdder",
+    "quote": "Indeed strives to put job seekers first, giving them access to search for jobs, post resumes and research companies.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobAdder",
+   "from_url": "https://jobadder.com",
+   "to": "Reed.co.uk",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://jobadder.com/platform/operations/job-boards",
+    "title": "Job Board Integrations for Recruiters | JobAdder",
+    "quote": "Reed.co.uk was the first of its kind when it started in 1995 and it's now the UK's number one job website.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobAdder",
+   "from_url": "https://jobadder.com",
+   "to": "Broadbean",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://jobadder.com/platform/operations/integrations",
+    "title": "Recruitment Software Integrations | JobAdder",
+    "quote": "Broadbean & JobAdder integration: Optimise recruitment with data insights",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobAdder",
+   "from_url": "https://jobadder.com",
+   "to": "IrishJobs.ie",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://jobadder.com/platform/operations/job-boards",
+    "title": "Job Board Integrations for Recruiters | JobAdder",
+    "quote": "IrishJobs.ie is the leading and trusted e-recruitment partner in Ireland.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobAdder",
+   "from_url": "https://jobadder.com",
+   "to": "Trade Jobs NZ",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://jobadder.com/platform/operations/job-boards",
+    "title": "Job Board Integrations for Recruiters | JobAdder",
+    "quote": "Trade Jobs NZ is an industry-specific job site made for the trades industry of Aotearoa.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Ceipal",
+   "from_url": "https://www.ceipal.com",
+   "to": "LinkedIn",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+    "title": "Best ATS for Staffing Agencies | Applicant Tracking System | Ceipal",
+    "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Ceipal",
+   "from_url": "https://www.ceipal.com",
+   "to": "Dice",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+    "title": "Best ATS for Staffing Agencies | Applicant Tracking System | Ceipal",
+    "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Ceipal",
+   "from_url": "https://www.ceipal.com",
+   "to": "Monster",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+    "title": "Best ATS for Staffing Agencies | Applicant Tracking System | Ceipal",
+    "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Ceipal",
+   "from_url": "https://www.ceipal.com",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+    "title": "Best ATS for Staffing Agencies | Applicant Tracking System | Ceipal",
+    "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Ceipal",
+   "from_url": "https://www.ceipal.com",
+   "to": "ZipRecruiter",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+    "title": "Best ATS for Staffing Agencies | Applicant Tracking System | Ceipal",
+    "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Ceipal",
+   "from_url": "https://www.ceipal.com",
+   "to": "CareerBuilder",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+    "title": "Best ATS for Staffing Agencies | Applicant Tracking System | Ceipal",
+    "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Clockwork Recruiting",
+   "from_url": "https://www.clockworkrecruiting.com",
+   "to": "Rolebot",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.clockworkrecruiting.com/partners-integrations",
+    "title": "Clockwork Recruiting - Partners and Integrations | Clockwork",
+    "quote": "Rolebot is the World’s 1st AI-powered Job Board for Passive Talent.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Loxo",
+   "from_url": "https://www.loxo.co",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.loxo.co/products/ats",
+    "title": "ATS Software For Modern Recruiters | Loxo",
+    "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Loxo",
+   "from_url": "https://www.loxo.co",
+   "to": "ZipRecruiter",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.loxo.co/products/ats",
+    "title": "ATS Software For Modern Recruiters | Loxo",
+    "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Loxo",
+   "from_url": "https://www.loxo.co",
+   "to": "Monster",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.loxo.co/products/ats",
+    "title": "ATS Software For Modern Recruiters | Loxo",
+    "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Loxo",
+   "from_url": "https://www.loxo.co",
+   "to": "CareerBuilder",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.loxo.co/products/ats",
+    "title": "ATS Software For Modern Recruiters | Loxo",
+    "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Loxo",
+   "from_url": "https://www.loxo.co",
+   "to": "Talroo",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.loxo.co/products/ats",
+    "title": "ATS Software For Modern Recruiters | Loxo",
+    "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Loxo",
+   "from_url": "https://www.loxo.co",
+   "to": "Jobcase",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.loxo.co/products/ats",
+    "title": "ATS Software For Modern Recruiters | Loxo",
+    "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Loxo",
+   "from_url": "https://www.loxo.co",
+   "to": "Snagajob",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.loxo.co/products/ats",
+    "title": "ATS Software For Modern Recruiters | Loxo",
+    "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Recruiterflow",
+   "from_url": "https://recruiterflow.com",
+   "to": "Caterer.com",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://recruiterflow.com/integrations",
+    "title": "Recruiterflow Integrations - Connect Your Recruiting Stack",
+    "quote": "Caterer.com is UK's job portal dedicated to connecting job seekers with exciting opportunities in the hospitality and catering industry.",
+    "check": "ok"
+   }
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Loxo integrations page",
+   "url": "https://www.loxo.co/integrations",
+   "reason": "Browser reader: net::ERR_TOO_MANY_REDIRECTS (redirect loop); not read"
+  }
+ ],
+ "queue": [
+  {
+   "name": "AkkenCloud",
+   "url": "https://www.akkencloud.com",
+   "reason": "Official homepage returned no readable text, so no integration page was read"
+  }
+ ]
+}

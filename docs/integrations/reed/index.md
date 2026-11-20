@@ -5,6 +5,7 @@ Platforms Reed connects to, each from a page on one party's own site.
 ## Applicant tracking systems
 
 - Breezy HR: receives jobs from (https://www.reed.co.uk/recruiter/ats-integration)
+- JobAdder: integrates with (https://jobadder.com/platform/operations/job-boards)
 - Lever: receives jobs from (https://www.reed.co.uk/recruiter/ats-integration)
 - Pinpoint: integrates with (https://www.pinpointhq.com/integrations)
 - Pinpoint: receives jobs from (https://www.reed.co.uk/recruiter/ats-integration)

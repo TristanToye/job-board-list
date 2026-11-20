@@ -1,0 +1,81 @@
+{
+ "id": "atlas",
+ "name": "Atlas",
+ "url": "https://recruitwithatlas.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "recruitment CRM and ATS for enterprise agencies",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/atlas/",
+ "indexable": false,
+ "prominence": {
+  "tier": "",
+  "label": "Not in top 1M",
+  "global_rank": null,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Atlas",
+   "from_id": "atlas",
+   "to": "Idibu",
+   "to_id": "idibu",
+   "source": "https://recruitwithatlas.com/integrations/",
+   "quote": "idibu Post your jobs to multiple job boards and process applicants directly in your portal."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Atlas",
+   "from_id": "atlas",
+   "to": "Broadbean",
+   "to_id": "broadbean",
+   "source": "https://recruitwithatlas.com/integrations/",
+   "quote": "Supercharge your sourcing efforts and capture applicants from broadbean's job boards."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://recruitwithatlas.com/",
+   "title": "Atlas | AI Recruitment Platform & CRMx for Agencies",
+   "accessed": "2026-11-20",
+   "quote": "The all-in-one AI recruitment platform for enterprise agencies.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://recruitwithatlas.com/integrations/",
+   "title": "Integrations - ATLAS",
+   "accessed": "2026-11-20",
+   "quote": "Supercharge your sourcing efforts and capture applicants from broadbean's job boards.",
+   "quote_check": "ok"
+  }
+ ]
+}

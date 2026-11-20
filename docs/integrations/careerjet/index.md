@@ -7,6 +7,7 @@ Platforms Careerjet connects to, each from a page on one party's own site.
 - Breezy HR: integrates with (https://www.careerjet.com/recruiter/ats)
 - JazzHR: integrates with (https://www.careerjet.com/recruiter/ats)
 - Pinpoint: integrates with (https://www.pinpointhq.com/integrations)
+- RecruitBPM: receives jobs from (https://recruitbpm.com/integration)
 - SmartRecruiters: integrates with (https://www.careerjet.com/recruiter/ats)
 - Teamtailor: integrates with (https://www.teamtailor.com/en-us/integrations/careerjet/)
 - Workable: receives jobs from (https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable)

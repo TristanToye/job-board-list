@@ -58,6 +58,24 @@
    "to_id": "dice",
    "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
    "quote": "Integrating with Dice (US)"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "Dice",
+   "to_id": "dice",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Connect your Dice account to RecruitBPM to post your jobs and get immediate access to millions of resumes worldwide."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Ceipal",
+   "from_id": "ceipal",
+   "to": "Dice",
+   "to_id": "dice",
+   "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+   "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
   }
  ],
  "review": null,

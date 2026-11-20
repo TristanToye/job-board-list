@@ -1,0 +1,117 @@
+{
+ "id": "ceipal",
+ "name": "Ceipal",
+ "url": "https://www.ceipal.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "AI ATS, VMS and workforce management for staffing firms",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/ceipal/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 295666,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Ceipal",
+   "from_id": "ceipal",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+   "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Ceipal",
+   "from_id": "ceipal",
+   "to": "Dice",
+   "to_id": "dice",
+   "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+   "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Ceipal",
+   "from_id": "ceipal",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+   "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Ceipal",
+   "from_id": "ceipal",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+   "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Ceipal",
+   "from_id": "ceipal",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+   "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Ceipal",
+   "from_id": "ceipal",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+   "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.ceipal.com/",
+   "title": "Unified Talent Platform for Hiring, Vendors & Workforce | Ceipal",
+   "accessed": "2026-11-20",
+   "quote": "Ceipal simplifies every step of the hiring process.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+   "title": "Best ATS for Staffing Agencies | Applicant Tracking System | Ceipal",
+   "accessed": "2026-11-20",
+   "quote": "Advertise your job across job boards, social media, and more in one click.",
+   "quote_check": "ok"
+  }
+ ]
+}

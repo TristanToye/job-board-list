@@ -21,7 +21,7 @@ ZipRecruiter is a board and aggregator based in the United States. It was founde
 
 **How large is ZipRecruiter?** ZipRecruiter ranks #3,793 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does ZipRecruiter connect to?** According to this directory, ZipRecruiter receives jobs from Workable, Greenhouse; integrates with JazzHR, Pinpoint, Job Bank, Appcast, JobTarget.
+**Which platforms does ZipRecruiter connect to?** According to this directory, ZipRecruiter receives jobs from Workable, Greenhouse, RecruitBPM, Ceipal, Loxo; integrates with JazzHR, Pinpoint, Job Bank, Appcast, JobTarget.
 
 ## Sources
 

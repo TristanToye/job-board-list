@@ -1,0 +1,72 @@
+{
+ "id": "recruiterflow",
+ "name": "Recruiterflow",
+ "url": "https://recruiterflow.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "AI-native ATS and CRM for search and staffing firms",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/recruiterflow/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 59519,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Recruiterflow",
+   "from_id": "recruiterflow",
+   "to": "Caterer.com",
+   "to_id": "caterer-com",
+   "source": "https://recruiterflow.com/integrations",
+   "quote": "Caterer.com is UK's job portal dedicated to connecting job seekers with exciting opportunities in the hospitality and catering industry."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://recruiterflow.com/",
+   "title": "Recruiterflow - Best AI-Native ATS & CRM for Executive Search, Recruiting & Staffing Agencies",
+   "accessed": "2026-11-20",
+   "quote": "The only recruiting CRM built to future-proof your search business.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://recruiterflow.com/applicant-tracking-software",
+   "title": "Applicant Tracking Software (ATS) for Recruiting & Staffing Agencies | Recruiterflow",
+   "accessed": "2026-11-20",
+   "quote": "Promote your job across major job boards effortlessly",
+   "quote_check": "ok"
+  }
+ ]
+}

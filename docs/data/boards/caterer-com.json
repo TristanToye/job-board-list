@@ -35,7 +35,17 @@
  "tags": [
   "job-board"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Recruiterflow",
+   "from_id": "recruiterflow",
+   "to": "Caterer.com",
+   "to_id": "caterer-com",
+   "source": "https://recruiterflow.com/integrations",
+   "quote": "Caterer.com is UK's job portal dedicated to connecting job seekers with exciting opportunities in the hospitality and catering industry."
+  }
+ ],
  "review": {
   "board_id": "caterer-com",
   "reviewed": "2026-11-06",

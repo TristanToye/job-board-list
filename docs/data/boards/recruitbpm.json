@@ -1,0 +1,162 @@
+{
+ "id": "recruitbpm",
+ "name": "RecruitBPM",
+ "url": "https://recruitbpm.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "staffing and recruitment ATS and CRM",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/recruitbpm/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 486904,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "Dice",
+   "to_id": "dice",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Connect your Dice account to RecruitBPM to post your jobs and get immediate access to millions of resumes worldwide."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Connect your Indeed account to RecruitBPM to post your jobs and access Indeed’s resume search directly from your RecruitBPM portal."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Post to 100+ Job Boards with One Submission directly from your RecruitBPM account using ZipRecruiter."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Connect your Careerjet account to RecruitBPM to post your jobs directly from your RecruitBPM account."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "WorkHound",
+   "to_id": "",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "RecruitBPM and WorkHound integration gives you the ability to post your jobs directly to WorkHound your RecruitBPM portal."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "Glassdoor",
+   "to_id": "glassdoor",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Glassdoor delivers 2x better applicant quality at an average 30% lower cost per hire."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Connect with CareerBuilder to browse an extensive candidate database to search, target, and attract global talent."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Connect your Monster account to find your next great hire."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "Trovit",
+   "to_id": "",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "With Trovit’s job search engine functionality, gain access to thousands of classified ads all over the globe."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "Job Inventory",
+   "to_id": "",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Connect your Job Inventory account to get access to a wide range of job seekers with their diverse talent pool."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "nJobs",
+   "to_id": "",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Find talented professionals in the UK with nJobs integration for RecruitBPM Applicant Tracking System and CRM."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://recruitbpm.com/",
+   "title": "Recruitment Software | Hiring Software | RecruitBPM",
+   "accessed": "2026-11-20",
+   "quote": "Tailored for staffing and recruitment firms, RecruitBPM is an AI-powered ATS, CRM, Back Office and Automation solution rolled into one",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://recruitbpm.com/integration",
+   "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
+   "accessed": "2026-11-20",
+   "quote": "Post to 100+ Job Boards with One Submission directly from your RecruitBPM account using ZipRecruiter.",
+   "quote_check": "ok"
+  }
+ ]
+}

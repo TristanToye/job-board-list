@@ -38,7 +38,17 @@
   "job-distribution",
   "subscription"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Atlas",
+   "from_id": "atlas",
+   "to": "Idibu",
+   "to_id": "idibu",
+   "source": "https://recruitwithatlas.com/integrations/",
+   "quote": "idibu Post your jobs to multiple job boards and process applicants directly in your portal."
+  }
+ ],
  "review": {
   "board_id": "idibu",
   "reviewed": "2026-11-12",

@@ -4,7 +4,9 @@ Platforms Broadbean connects to, each from a page on one party's own site.
 
 ## Applicant tracking systems
 
+- Atlas: integrates with (https://recruitwithatlas.com/integrations/)
 - iCIMS: integrates with (https://www.broadbean.com/partners/)
+- JobAdder: integrates with (https://jobadder.com/platform/operations/integrations)
 - Tracker: receives jobs from (https://www.tracker-rms.com/recruitment-ats/)
 
 ## Job boards and aggregators

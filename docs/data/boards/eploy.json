@@ -1,0 +1,90 @@
+{
+ "id": "eploy",
+ "name": "Eploy",
+ "url": "https://www.eploy.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "talent acquisition ATS and recruitment CRM, UK focus",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/eploy/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 356836,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-20"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Eploy",
+   "from_id": "eploy",
+   "to": "Totaljobs",
+   "to_id": "totaljobs",
+   "source": "https://www.eploy.com/product/recruitment-marketing/multi-posting/",
+   "quote": "Just select any combination of relevant external job boards and/or social media channels to post the job to (e.g. Total Jobs, Reed, CV Library)."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Eploy",
+   "from_id": "eploy",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://www.eploy.com/product/recruitment-marketing/multi-posting/",
+   "quote": "Just select any combination of relevant external job boards and/or social media channels to post the job to (e.g. Total Jobs, Reed, CV Library)."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Eploy",
+   "from_id": "eploy",
+   "to": "NHS Jobs",
+   "to_id": "",
+   "source": "https://www.eploy.com/product/recruitment-marketing/multi-posting/",
+   "quote": "Eploy integrates directly with the NHS Jobs platform, enabling NHS and adjacent health and social care providers to post their vacancies to the NHS Jobs board."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.eploy.com/",
+   "title": "Applicant Tracking System - Eploy Talent Acquisition Platform - Eploy ATS",
+   "accessed": "2026-11-20",
+   "quote": "Eploy's all-in-one talent acquisition platform brings everything together in one place.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.eploy.com/product/recruitment-marketing/multi-posting/",
+   "title": "Eploy Multi-Posting - Eploy ATS",
+   "accessed": "2026-11-20",
+   "quote": "Designed to work with your contracted Job Board partners, Eploy’s Multi-Posting module can post to over 1000 job boards and social platforms.",
+   "quote_check": "ok"
+  }
+ ]
+}

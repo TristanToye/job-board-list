@@ -23,7 +23,7 @@ Dice is a niche job board based in the United States, focused on tech. It was fo
 
 **How large is Dice?** Dice ranks #7,179 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does Dice connect to?** According to this directory, Dice integrates with Workable.
+**Which platforms does Dice connect to?** According to this directory, Dice receives jobs from RecruitBPM, Ceipal; integrates with Workable.
 
 ## Sources
 

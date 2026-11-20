@@ -309,6 +309,15 @@
    "to_id": "careerjet",
    "source": "https://www.teamtailor.com/en-us/integrations/careerjet/",
    "quote": "Careerjet is a job search engine designed to make the process of finding a job on the internet easier for the user"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "RecruitBPM",
+   "from_id": "recruitbpm",
+   "to": "Careerjet",
+   "to_id": "careerjet",
+   "source": "https://recruitbpm.com/integration",
+   "quote": "Connect your Careerjet account to RecruitBPM to post your jobs directly from your RecruitBPM account."
   }
  ],
  "review": null,
