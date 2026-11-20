@@ -103,7 +103,7 @@ _ic = collections.Counter()
 for _r in REL:
     for _x in (_r["from_id"], _r["to_id"]):
         if _x: _ic[_x] += 1
-INTEG_IDS = {k for k, v in _ic.items() if v >= 5}
+INTEG_IDS = {k for k, v in _ic.items() if v >= 5 or (v >= 3 and k in {b["id"] for b in boards if b["type"] == "ats"})}
 GUIDE = load("guide_facts.csv") if (ROOT/"data"/"guide_facts.csv").exists() else []
 API_DET = collections.defaultdict(dict)
 for _d in (load("api_details.csv") if (ROOT/"data"/"api_details.csv").exists() else []): API_DET[_d["board_id"]][_d["field"]] = _d
@@ -298,7 +298,7 @@ home_body = f"""
 <p id="empty" class="muted" hidden>No boards match those filters.</p></section>
 <section class="prose"><h2>What this directory covers</h2>
 <p>Job distribution has several layers: the employer, the applicant tracking system, programmatic and multiposting platforms, and the boards and aggregators candidates use. This directory maps all of them, with a focus on integration: which platforms publish open feeds or APIs, which require a partnership, and where the developer portals are.</p>
-<ul><li><a href="languages/">Job boards by language</a></li><li><a href="tags/">Browse by type, focus and openness</a></li><li><a href="countries/canada/">Job boards in Canada</a></li><li><a href="api/public-open/">Job boards with an open API</a></li><li><a href="api/public-key/">Job boards with a self-serve API key</a></li><li><a href="api/partner-only/">Partner-only job board APIs</a></li><li><a href="ats/">ATS systems with public job feeds</a></li><li><a href="integrations/">ATS and job board integrations</a></li><li><a href="distribution/">Multiposting and job distribution platforms</a></li><li><a href="timeline/">Deals and closures by year</a></li></ul></section>
+<ul><li><a href="languages/">Job boards by language</a></li><li><a href="tags/">Browse by type, focus and openness</a></li><li><a href="countries/canada/">Job boards in Canada</a></li><li><a href="api/public-open/">Job boards with an open API</a></li><li><a href="api/public-key/">Job boards with a self-serve API key</a></li><li><a href="api/partner-only/">Partner-only job board APIs</a></li><li><a href="ats/">ATS systems with public job feeds</a></li><li><a href="integrations/">ATS and job board integrations</a></li><li><a href="distribution/">Multiposting and job distribution platforms</a></li><li><a href="job-data-apis/">Job listing data APIs</a></li><li><a href="timeline/">Deals and closures by year</a></li></ul></section>
 <script src="assets/app.js" defer></script>"""
 dataset = {"@context":"https://schema.org","@type":"Dataset","name":f"{NAME}: job boards, aggregators and ATS systems",
  "description":CFG["tagline"],"url":BASE+"/","creator":{"@type":"Person","name":CFG["author"]},"isAccessibleForFree":True,
@@ -735,6 +735,26 @@ write("closed/index.html", layout(1, f"Closed, acquired and merged job boards an
   f'<h1>Closed, acquired and merged</h1><p class="lede">Job boards, staffing firms and hiring tools that no longer operate on their own: shut down, bought, merged or renamed. {len(LIFE)} so far, each with a cited source. Where an entry is also in the directory, its page carries a notice.</p>'
   f'{life_groups}<p class="muted small">Missing one? A closure or deal only appears here with a source that states it. <a href="../about/">How this directory is built</a>.</p>',
   "/closed/", None, noindex=len(LIFE) < 3, md=len(LIFE) >= 3), indexed=len(LIFE) >= 3, md=md_life, kind="tag")
+# ---------- job data APIs ----------
+def _apicell(b, k):
+    d = API_DET.get(b["id"], {}).get(k)
+    return e(d["value"]) if d else '<span class="muted small">Not yet documented</span>'
+def _covnote(b):
+    s = next((s for s in SOURCES.get(b["id"], []) if s.get("field") == "note" and re.search(r"\d|countr|source|posting|job", s.get("quote", ""), re.I)), None)
+    return f'"{e(s["quote"])}" <a class="muted small" href="{e(s["url"])}" rel="noopener nofollow" target="_blank">source</a>' if s else '<span class="muted small">Not yet documented</span>'
+_jd = sorted([b for b in boards if b["type"] in ("job-data", "lmi")], key=lambda b: (skey(b), b["name"].lower()))
+_ja = sorted([b for b in boards if b["api_status"] in ("public-open", "public-key", "on-request") and b["type"] not in ("ats", "job-data", "lmi", "hr-tech", "staffing", "outplacement", "career-services") and b["confidence"] != "seed-unverified"], key=lambda b: ({"public-open": 0, "public-key": 1, "on-request": 2}[b["api_status"]], skey(b), b["name"].lower()))
+_jbody = ('<h1>Job listing data APIs compared</h1><p class="lede">Where to get job postings by API or as data: commercial job data providers that collect postings from many sources, and the job boards, aggregators and public employment services that publish their own APIs or feeds. '
+          f'{len(_jd)} data providers and {len(_ja)} job sites with documented API access so far, each with cited facts.</p>')
+if _jd: _jbody += f'<h2>Job data providers ({len(_jd)})</h2><div class="tablewrap"><table><thead><tr><th>Provider</th><th>Coverage</th><th>Pricing</th><th>API access</th></tr></thead><tbody>' + "".join(f'<tr><td><a href="../boards/{e(b["id"])}/"><strong>{e(b["name"])}</strong></a></td><td>{_covnote(b)}</td><td>{e(b["business_model"]) or "<span class=\"muted small\">Not stated</span>"}</td><td>{api_badge(b["api_status"])}</td></tr>' for b in _jd) + "</tbody></table></div>"
+if _ja: _jbody += f'<h2>Job sites with their own API ({len(_ja)})</h2><div class="tablewrap"><table><thead><tr><th>Site</th><th>Access</th><th>How to get access</th><th>Authentication</th><th>Docs</th></tr></thead><tbody>' + "".join(f'<tr><td><a href="../boards/{e(b["id"])}/"><strong>{e(b["name"])}</strong></a> <span class="muted small">{e(country(b["hq_country"]))}</span></td><td>{api_badge(b["api_status"])}</td><td>{_apicell(b, "access")}</td><td>{_apicell(b, "auth")}</td><td>{link(b["api_docs_url"], "Docs") if b["api_docs_url"] else "<span class=\"muted small\">Not recorded</span>"}</td></tr>' for b in _ja) + "</tbody></table></div>"
+_open_j = [b["name"] for b in _ja if b["api_status"] == "public-open"]; _key_j = [b["name"] for b in _ja if b["api_status"] == "public-key"]
+_jfaq = [("Which job boards have a free public API?", (f'Among the sites checked so far, {", ".join(_open_j[:10])} publish job data openly without a key' if _open_j else "None of the sites checked so far publishes job data openly without a key") + (f', and {", ".join(_key_j[:10])} offer an API with a self-serve key.' if _key_j else ".")),
+         ("Where can I get job postings from many countries in one API?", ("Commercial job data providers collect postings from many sources; see the providers table above for the coverage each one states, " + ", ".join(b["name"] for b in _jd[:8]) + ".") if _jd else "See the providers table above.")]
+_jbody += '<section class="faq"><h2>Quick answers</h2>' + "".join(f"<h3>{e(q)}</h3><p>{e(a_)}</p>" for q, a_ in _jfaq) + "</section>"
+_jbody += '<p class="muted small">See also <a href="../ats/">applicant tracking system APIs</a> and <a href="../api/">all API access levels</a>.</p>'
+write("job-data-apis/index.html", layout(1, f"Job listing data APIs and job posting data providers compared | {NAME}", f"Job posting data providers and job board APIs compared: coverage, access, authentication and pricing, with a source for each fact.", _jbody, "/job-data-apis/", itemlist(_jd + _ja, 1), md=True),
+      md="# Job listing data APIs compared\n\n" + "\n".join(f'- [{b["name"]}]({BASE}/boards/{b["id"]}/): {TYPE_NOUN.get(b["type"], b["type"])}, {API_LABEL.get(b["api_status"], b["api_status"])}' for b in _jd + _ja) + f"\n\nCanonical page: {BASE}/job-data-apis/\n", kind="tag")
 # ---------- distribution and multiposting ----------
 _DT = {"multiposting": "Multiposting and job distribution", "programmatic-distribution": "Programmatic job advertising", "feed-aggregator": "Job feed management"}
 _dist = [b for b in boards if b["type"] in _DT]
@@ -767,7 +787,7 @@ _ie = collections.defaultdict(list)
 for _r in REL:
     if _r["from_id"] in by_id: _ie[_r["from_id"]].append(("out", _r))
     if _r["to_id"] in by_id: _ie[_r["to_id"]].append(("in", _r))
-INTEG = {i: v for i, v in _ie.items() if len(v) >= 5}
+INTEG = {i: v for i, v in _ie.items() if i in INTEG_IDS}
 def _rel_phrase(d, rel): return {("out", "sends-jobs-to"): "sends jobs to", ("in", "sends-jobs-to"): "receives jobs from", ("out", "integrates-with"): "integrates with", ("in", "integrates-with"): "integrates with"}.get((d, rel), "connects with")
 for _i, _edges in INTEG.items():
     b = by_id[_i]; qn = b["name"]

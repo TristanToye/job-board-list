@@ -33,7 +33,7 @@ Notes for readers and models: facts are attributed to this directory and carry t
 
 ---
 
-The following is the Markdown of the main pages (203 entries, 19 owners, 69 types and 46 countries).
+The following is the Markdown of the main pages (203 entries, 19 owners, 76 types and 46 countries).
 
 ---
 
@@ -8144,6 +8144,12 @@ Canonical page: https://jobboardlist.com/ecosystem/
 - [Appcast](https://jobboardlist.com/integrations/appcast/): 7 connections
 - [Jobvite](https://jobboardlist.com/integrations/jobvite/): 7 connections
 - [ZipRecruiter](https://jobboardlist.com/integrations/ziprecruiter/): 6 connections
+- [iCIMS](https://jobboardlist.com/integrations/icims/): 4 connections
+- [BambooHR](https://jobboardlist.com/integrations/bamboohr/): 4 connections
+- [Oracle Recruiting Cloud](https://jobboardlist.com/integrations/oracle-recruiting/): 3 connections
+- [Breezy HR](https://jobboardlist.com/integrations/breezy/): 3 connections
+- [SmartRecruiters](https://jobboardlist.com/integrations/smartrecruiters/): 3 connections
+- [Recruitee](https://jobboardlist.com/integrations/recruitee/): 3 connections
 
 Canonical page: https://jobboardlist.com/integrations/
 
@@ -8167,6 +8173,38 @@ Platforms Appcast connects to, each from a page on one party's own site.
 - ZipRecruiter: integrates with (https://www.appcast.io/products/appcast-one/)
 
 Canonical page: https://jobboardlist.com/integrations/appcast/
+
+---
+
+# BambooHR integrations
+
+Platforms BambooHR connects to, each from a page on one party's own site.
+
+## Job boards and aggregators
+
+- Jobsdb: sends jobs to (https://www.bamboohr.com/integrations/preferred-apps)
+- JobStreet: sends jobs to (https://www.bamboohr.com/integrations/preferred-apps)
+- SEEK: sends jobs to (https://www.bamboohr.com/integrations/preferred-apps)
+
+## Other platforms
+
+- Greenhouse Software: integrates with (https://www.bamboohr.com/integrations/listings/greenhouse-software)
+
+Canonical page: https://jobboardlist.com/integrations/bamboohr/
+
+---
+
+# Breezy HR integrations
+
+Platforms Breezy HR connects to, each from a page on one party's own site.
+
+## Job boards and aggregators
+
+- Careerjet: integrates with (https://www.careerjet.com/recruiter/ats)
+- Reed: sends jobs to (https://www.reed.co.uk/recruiter/ats-integration)
+- Talent.com: sends jobs to (https://www.talent.com/ats)
+
+Canonical page: https://jobboardlist.com/integrations/breezy/
 
 ---
 
@@ -8268,6 +8306,24 @@ Platforms Greenhouse connects to, each from a page on one party's own site.
 - OfferUp: sends jobs to (https://support.greenhouse.io/hc/en-us/articles/4405801275931-Free-job-posts)
 
 Canonical page: https://jobboardlist.com/integrations/greenhouse/
+
+---
+
+# iCIMS integrations
+
+Platforms iCIMS connects to, each from a page on one party's own site.
+
+## Multiposting and job distribution
+
+- Broadbean: integrates with (https://www.broadbean.com/partners/)
+- Joveo: integrates with (https://www.joveo.com/partners/ats-integrations/)
+
+## Job boards and aggregators
+
+- LinkedIn: integrates with (https://marketplace.icims.com/en-US/listing?locale=en-US)
+- Talent.com: sends jobs to (https://www.talent.com/ats)
+
+Canonical page: https://jobboardlist.com/integrations/icims/
 
 ---
 
@@ -8467,6 +8523,23 @@ Canonical page: https://jobboardlist.com/integrations/linkedin/
 
 ---
 
+# Oracle Recruiting Cloud integrations
+
+Platforms Oracle Recruiting Cloud connects to, each from a page on one party's own site.
+
+## Multiposting and job distribution
+
+- Joveo: integrates with (https://www.joveo.com/partners/ats-integrations/)
+
+## Job boards and aggregators
+
+- Indeed: integrates with (https://www.oracle.com/human-capital-management/recruiting/)
+- LinkedIn: integrates with (https://www.oracle.com/human-capital-management/recruiting/)
+
+Canonical page: https://jobboardlist.com/integrations/oracle-recruiting/
+
+---
+
 # Pinpoint integrations
 
 Platforms Pinpoint connects to, each from a page on one party's own site.
@@ -8507,6 +8580,20 @@ Canonical page: https://jobboardlist.com/integrations/pinpoint/
 
 ---
 
+# Recruitee integrations
+
+Platforms Recruitee connects to, each from a page on one party's own site.
+
+## Job boards and aggregators
+
+- Google for Jobs: sends jobs to (https://recruitee.com/career-page-multiposting)
+- Indeed: sends jobs to (https://recruitee.com/career-page-multiposting)
+- LinkedIn: integrates with (https://recruitee.com/api-webhooks-integrations)
+
+Canonical page: https://jobboardlist.com/integrations/recruitee/
+
+---
+
 # Reed integrations
 
 Platforms Reed connects to, each from a page on one party's own site.
@@ -8532,6 +8619,26 @@ Platforms Reed connects to, each from a page on one party's own site.
 - Logic Melon: receives jobs from (https://www.reed.co.uk/recruiter/ats-integration)
 
 Canonical page: https://jobboardlist.com/integrations/reed/
+
+---
+
+# SmartRecruiters integrations
+
+Platforms SmartRecruiters connects to, each from a page on one party's own site.
+
+## Multiposting and job distribution
+
+- Joveo: integrates with (https://www.joveo.com/partners/ats-integrations/)
+
+## Job boards and aggregators
+
+- Careerjet: integrates with (https://www.careerjet.com/recruiter/ats)
+
+## Other platforms
+
+- VONQ: integrates with (https://www.smartrecruiters.com/news/smartrecruiters-and-vonq-setting-new-standards-in-job-advertising-and-global-talent-acquisition/)
+
+Canonical page: https://jobboardlist.com/integrations/smartrecruiters/
 
 ---
 
@@ -8675,6 +8782,44 @@ Platforms ZipRecruiter connects to, each from a page on one party's own site.
 - Job Bank: integrates with (https://www.jobbank.gc.ca/network)
 
 Canonical page: https://jobboardlist.com/integrations/ziprecruiter/
+
+---
+
+# Job listing data APIs compared
+
+- [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): labour market information source, Open API (no key)
+- [Office for National Statistics](https://jobboardlist.com/boards/office-for-national-statistics/): labour market information source, API status unknown
+- [Australian Bureau of Statistics](https://jobboardlist.com/boards/australian-bureau-of-statistics/): labour market information source, API status unknown
+- [O*NET](https://jobboardlist.com/boards/o-net/): labour market information source, Self-serve API key
+- [Statistics Austria](https://jobboardlist.com/boards/statistics-austria/): labour market information source, API status unknown
+- [Lightcast](https://jobboardlist.com/boards/lightcast/): labour market information source, API status unknown
+- [Nomis](https://jobboardlist.com/boards/nomis/): labour market information source, Open API (no key)
+- [Revelio Labs](https://jobboardlist.com/boards/revelio-labs/): labour market information source, API status unknown
+- [Burning Glass Institute](https://jobboardlist.com/boards/burning-glass-institute/): labour market information source, API status unknown
+- [Textkernel](https://jobboardlist.com/boards/textkernel/): labour market information source, API status unknown
+- [Eurostat](https://jobboardlist.com/boards/eurostat/): labour market information source, API status unknown
+- [Japan Institute for Labour Policy and Training](https://jobboardlist.com/boards/japan-institute-for-labour-policy-and-training/): labour market information source, API status unknown
+- [Google for Jobs](https://jobboardlist.com/boards/google-jobs/): search-aggregator, Open API (no key)
+- [Remotli](https://jobboardlist.com/boards/remotli/): job board, Open API (no key)
+- [USAJOBS](https://jobboardlist.com/boards/usajobs/): government job site, Self-serve API key
+- [Reed](https://jobboardlist.com/boards/reed/): job board, Self-serve API key
+- [Careerjet](https://jobboardlist.com/boards/careerjet/): job aggregator, Self-serve API key
+- [Adzuna](https://jobboardlist.com/boards/adzuna/): job aggregator, Self-serve API key
+- [Happy Monday](https://jobboardlist.com/boards/happy-monday/): job board, Self-serve API key
+- [Jobsuche (Bundesagentur fur Arbeit)](https://jobboardlist.com/boards/jobsuche-ba/): government job site, Self-serve API key
+- [France Travail](https://jobboardlist.com/boards/francetravail/): government job site, Self-serve API key
+- [The Muse](https://jobboardlist.com/boards/themuse/): board+employer-brand, Self-serve API key
+- [Jooble](https://jobboardlist.com/boards/jooble/): job aggregator, API key on request
+- [JobKorea](https://jobboardlist.com/boards/jobkorea/): job board, API key on request
+- [VDAB](https://jobboardlist.com/boards/vdab/): government job site, API key on request
+- [Työmarkkinatori](https://jobboardlist.com/boards/ty-markkinatori/): government job site, API key on request
+- [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance marketplace, API key on request
+- [Jobijoba](https://jobboardlist.com/boards/jobijoba/): job aggregator, API key on request
+- [Cutshort](https://jobboardlist.com/boards/cutshort/): niche job board, API key on request
+- [Jobilize](https://jobboardlist.com/boards/jobilize/): job board, API key on request
+- [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government job site, API key on request
+
+Canonical page: https://jobboardlist.com/job-data-apis/
 
 ---
 

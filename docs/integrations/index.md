@@ -17,5 +17,11 @@
 - [Appcast](https://jobboardlist.com/integrations/appcast/): 7 connections
 - [Jobvite](https://jobboardlist.com/integrations/jobvite/): 7 connections
 - [ZipRecruiter](https://jobboardlist.com/integrations/ziprecruiter/): 6 connections
+- [iCIMS](https://jobboardlist.com/integrations/icims/): 4 connections
+- [BambooHR](https://jobboardlist.com/integrations/bamboohr/): 4 connections
+- [Oracle Recruiting Cloud](https://jobboardlist.com/integrations/oracle-recruiting/): 3 connections
+- [Breezy HR](https://jobboardlist.com/integrations/breezy/): 3 connections
+- [SmartRecruiters](https://jobboardlist.com/integrations/smartrecruiters/): 3 connections
+- [Recruitee](https://jobboardlist.com/integrations/recruitee/): 3 connections
 
 Canonical page: https://jobboardlist.com/integrations/
