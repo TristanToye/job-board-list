@@ -16,16 +16,16 @@
  "niche": "recruitment CRM and ATS for enterprise agencies",
  "segment": "",
  "parent": "",
- "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
+ "business_model": "subscription",
+ "api_status": "public-key",
+ "api_docs_url": "https://api.recruitwithatlas.com/api/v1/docs",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Pricing page lists £105 and £135 per user / month on a 12-month commitment, with a 14-day free start. API keys are created by the agency in the dashboard, per the API reference. Job posting to multiple boards is offered from the Atlas portal. No headquarters, parent company, language options or partner program were stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/atlas/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
@@ -35,7 +35,9 @@
   "list_date": "2026-11-20"
  },
  "tags": [
-  "ats"
+  "api-self-serve",
+  "ats",
+  "subscription"
  ],
  "connections": [
   {
@@ -57,7 +59,14 @@
    "quote": "Supercharge your sourcing efforts and capture applicants from broadbean's job boards."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "atlas",
+  "reviewed": "2026-11-23",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;partner_program",
+  "note": "Pricing, API key process and job posting pages read; no headquarters or language options stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -75,6 +84,22 @@
    "title": "Integrations - ATLAS",
    "accessed": "2026-11-20",
    "quote": "Supercharge your sourcing efforts and capture applicants from broadbean's job boards.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://recruitwithatlas.com/pricing/",
+   "title": "Pricing",
+   "accessed": "2026-11-23",
+   "quote": "Every Atlas plan runs on a 12-month commitment.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://api.recruitwithatlas.com/api/v1/docs",
+   "title": "Atlas API Reference",
+   "accessed": "2026-11-23",
+   "quote": "API keys are generated from the Atlas dashboard.",
    "quote_check": "ok"
   }
  ]

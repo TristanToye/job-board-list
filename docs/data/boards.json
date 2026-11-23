@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20",
+ "generated": "2026-11-23",
  "count": 634,
  "boards": [
   {
@@ -50009,16 +50009,16 @@
    "niche": "AI-native ATS with job syndication for Southeast Asia",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "free job posting tool; software plan prices not stated",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.mokahr.io/partner/",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Pages show Singapore and Hong Kong offices and a copyright line naming ALPHASTAR TECHNOLOGY (SINGAPORE) PTE. LTD.; no headquarters, parent, API or language switcher stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/moka-ats-mokahr/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -50028,10 +50028,20 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "ats",
+    "free-to-post",
+    "partner-program",
+    "subscription"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "moka-ats-mokahr",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;api_status",
+    "note": "Homepage, partner, about and free job posting pages read; no headquarters, parent, language switcher or API page stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -50049,6 +50059,38 @@
      "title": "Job Postings & Syndication Made Easy with MokaHR",
      "accessed": "2026-11-11",
      "quote": "Moka Eva puts jobs on over 100 job boards.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.mokahr.io/partner/",
+     "title": "Moka Partner Network",
+     "accessed": "2026-11-23",
+     "quote": "Build an integration, reach new customers, and grow with a scaling partner network",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.mokahr.io/post-jobs-for-free/",
+     "title": "Post a job for free",
+     "accessed": "2026-11-23",
+     "quote": "Post your job for free",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.mokahr.io/",
+     "title": "Homepage",
+     "accessed": "2026-11-23",
+     "quote": "50 free AI screening credits included",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.mokahr.io/",
+     "title": "Homepage",
+     "accessed": "2026-11-23",
+     "quote": "Seamless integrations with local job boards, eHR systems, instant messaging, calendars, and more",
      "quote_check": "ok"
     }
    ]
@@ -50136,15 +50178,15 @@
    "segment": "",
    "parent": "",
    "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "api_status": "partner-only",
+   "api_docs_url": "https://bullhorn.github.io/",
+   "partner_program": "yes",
+   "partner_url": "https://www.bullhorn.com/partner-engagement-hub/",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "About page says Bullhorn is founder-led and headquartered in Boston; no country or parent company is named. Pricing page lists $99/user/month and $165/user/month. The API docs link on bullhorn.com points to a bullhorn.github.io address. Ingest is via a marketplace of pre-integrated partners. Language menu lists regions, not languages.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/bullhorn/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -50154,10 +50196,19 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "api-partner-only",
+    "ats",
+    "partner-program"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "bullhorn",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages",
+    "note": "About page says headquartered in Boston with no country named; pages state pricing, partner-only API terms and a partner hub.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -50167,6 +50218,46 @@
      "title": "Top ATS & CRM for Staffing Agencies | Bullhorn",
      "accessed": "2026-11-12",
      "quote": "More than 10,000 companies rely on Bullhorn to power their staffing processes.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.bullhorn.com/about/",
+     "title": "About Bullhorn",
+     "accessed": "2026-11-23",
+     "quote": "Founder-led and headquartered in Boston",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.bullhorn.com/integrate-with-bullhorn/",
+     "title": "Integrate with Bullhorn",
+     "accessed": "2026-11-23",
+     "quote": "third-party providers must contract directly with Bullhorn for API and platform access",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.bullhorn.com/",
+     "title": "Homepage footer and menus",
+     "accessed": "2026-11-23",
+     "quote": "Developer & API documentation",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.bullhorn.com/",
+     "title": "Homepage marketplace menu",
+     "accessed": "2026-11-23",
+     "quote": "Bullhorn Marketplace Partner Engagement Hub",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.bullhorn.com/",
+     "title": "Homepage marketplace section",
+     "accessed": "2026-11-23",
+     "quote": "Bullhorn’s marketplace of 300+ pre-integrated technology partners gives staffing agencies the tools",
      "quote_check": "ok"
     }
    ]
@@ -50194,13 +50285,15 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "partner_program": "yes",
+   "partner_url": "https://jobtrain.co.uk/home/our-partners/",
+   "ingest_methods": [
+    "ATS integration with NHS Jobs"
+   ],
+   "notes": "Homepage footer lists offices in Altrincham and Glasgow, UK. Headquarters, parent, languages, API and employer pricing were not stated on the pages read. The FAQ answers are collapsed in the page text and were not readable.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobtrain/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -50210,10 +50303,19 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "ats",
+    "ats-integration",
+    "partner-program"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "jobtrain",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+    "note": "Homepage and partner pages read; FAQ answers collapsed and no pricing or API statement found.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -50223,6 +50325,22 @@
      "title": "Applicant Tracking System | Recruitment Software | Jobtrain",
      "accessed": "2026-11-12",
      "quote": "Jobtrain is a UK applicant tracking system built around your recruitment team.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://jobtrain.co.uk/home/our-partners/",
+     "title": "Our partners",
+     "accessed": "2026-11-23",
+     "quote": "Interested in offering your services to our customers? Get in touch and a member of our partner team will be in touch.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://jobtrain.co.uk/home/applicant-tracking-software-by-jobtrain/job-board-marketplace/",
+     "title": "Job Board Marketplace",
+     "accessed": "2026-11-23",
+     "quote": "Our ATS platform also directly links and integrates with NHS Jobs.",
      "quote_check": "ok"
     }
    ]
@@ -50916,16 +51034,19 @@
    "niche": "recruitment and applicant tracking for staffing, search and in-house teams",
    "segment": "",
    "parent": "",
-   "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
+   "business_model": "subscription, per user, from $125 per user per month",
+   "api_status": "on-request",
+   "api_docs_url": "https://www.pcrecruiter.com/developer-api/",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "Site says: \"PCRM has also provided feeds in the required formats for others on request\"",
+   "ingest_methods": [
+    "job board integrations",
+    "API-driven job listings"
+   ],
+   "notes": "Site says: \"PCRM has also provided feeds in the required formats for others on request\" Pricing and developer pages state per-user pricing and API access that needs an applicable user agreement; the copyright line names Main Sequence Technology, Inc., which is not stated as a parent. No language switcher found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/pcrecruiter/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not in top 1M",
@@ -50935,7 +51056,9 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "api-on-request",
+    "ats",
+    "subscription"
    ],
    "connections": [
     {
@@ -51038,7 +51161,14 @@
      "quote": "Career Resources and Advice The Muse Job Board"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "pcrecruiter",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;partner_program",
+    "note": "Pricing, developer API and integrations pages read; no headquarters country, parent, language options or partner program stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -51065,6 +51195,30 @@
      "accessed": "2026-11-20",
      "quote": "PCRM has also provided feeds in the required formats for others on request",
      "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.pcrecruiter.com/pricing/",
+     "title": "Pricing",
+     "accessed": "2026-11-23",
+     "quote": "From $125 per User per Month",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.pcrecruiter.com/developer-api/",
+     "title": "API and MCP",
+     "accessed": "2026-11-23",
+     "quote": "The basic API is available at no added cost to PCRM accounts with an applicable user agreement",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.pcrecruiter.com/developer-api/",
+     "title": "API and MCP",
+     "accessed": "2026-11-23",
+     "quote": "Pull live openings directly from your PCRM database into custom-built job boards",
+     "quote_check": "ok"
     }
    ]
   },
@@ -51086,13 +51240,13 @@
    "niche": "recruitment and applicant tracking software for staffing agencies",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Site says: \"Post and search across the boards you already use\"",
+   "notes": "Site says: \"Post and search across the boards you already use\" Plans page lists a $99 /user/month Core plan billed monthly, with a 6-month minimum term. REST API access is listed as a plan feature, but no developer page or key process was found. Job posting to job boards is offered from within Tracker. No headquarters, parent company or language options were st",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/tracker/",
    "indexable": false,
@@ -51106,6 +51260,7 @@
    },
    "tags": [
     "ats",
+    "subscription",
     "tech"
    ],
    "connections": [
@@ -51137,7 +51292,14 @@
      "quote": "The LinkedIn Chrome extension parses profiles from LinkedIn and any job board straight onto a shortlist."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "tracker",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;partner_program",
+    "note": "Plans page states billing and term; open REST API mentioned without a documented key process.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -51164,6 +51326,30 @@
      "accessed": "2026-11-20",
      "quote": "Post and search across the boards you already use",
      "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.tracker-rms.com/plans/",
+     "title": "Plans and pricing",
+     "accessed": "2026-11-23",
+     "quote": "6-month minimum term",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.tracker-rms.com/plans/",
+     "title": "Plans and pricing",
+     "accessed": "2026-11-23",
+     "quote": "REST API access",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.tracker-rms.com/integrations/",
+     "title": "ATS integrations",
+     "accessed": "2026-11-23",
+     "quote": "Post jobs to 7,000+ job boards in 100 countries from Tracker",
+     "quote_check": "ok"
     }
    ]
   },
@@ -51185,17 +51371,19 @@
    "region": "North America",
    "niche": "applicant tracking system for small and mid-sized employers (now isolved Talent Acquisition)",
    "segment": "",
-   "parent": "",
+   "parent": "isolved",
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "Site says: \"isolved Talent Acquisition, formerly ApplicantPro has a new look.\" Site says: \"Powerful job board integrations to attract a larger pool of qualified job seekers\"",
+   "partner_program": "yes",
+   "partner_url": "https://www.applicantpro.com/partner-with-applicantpro",
+   "ingest_methods": [
+    "push to job boards: 4,000+ job boards"
+   ],
+   "notes": "Site says: \"isolved Talent Acquisition, formerly ApplicantPro has a new look.\" Site says: \"Powerful job board integrations to attract a larger pool of qualified job seekers\" Site now presents the product as isolved Talent Acquisition. Pricing page shows plans and a price quote form, with no published amounts. Languages and API were not stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/applicantpro/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -51205,7 +51393,8 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "ats",
+    "partner-program"
    ],
    "connections": [
     {
@@ -51218,7 +51407,14 @@
      "quote": "Our Indeed Platinum Partnership Helps Employers!"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "applicantpro",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status",
+    "note": "Homepage, about, pricing and partner pages read; pricing shows quote-only plans and no API page was linked.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -51244,6 +51440,38 @@
      "title": "More Than an Applicant Tracking System",
      "accessed": "2026-11-20",
      "quote": "Access to over 6,000 job boards",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.applicantpro.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-23",
+     "quote": "ApplicantPro is now fully integrated with isolved as isolved Talent Acquisition.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.applicantpro.com/about-us",
+     "title": "About us",
+     "accessed": "2026-11-23",
+     "quote": "ApplicantPro was founded in 2007 to provide affordable and effective hiring solutions",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.applicantpro.com/partner-with-applicantpro",
+     "title": "Partner with isolved Talent Acquisition",
+     "accessed": "2026-11-23",
+     "quote": "Join Our Referral Program",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.applicantpro.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-23",
+     "quote": "Post your jobs and push to 4,000+ job boards.",
      "quote_check": "ok"
     }
    ]
@@ -51290,7 +51518,14 @@
     "tech"
    ],
    "connections": [],
-   "review": null,
+   "review": {
+    "board_id": "ultra-staff-edge",
+    "reviewed": "2026-11-23",
+    "outcome": "not-stated",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+    "note": "Homepage, about and partners pages read; none state the missing facts and the partners page has no listed content.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -51377,16 +51612,16 @@
    "niche": "recruitment CRM and ATS for enterprise agencies",
    "segment": "",
    "parent": "",
-   "business_model": "",
-   "api_status": "unknown",
-   "api_docs_url": "",
+   "business_model": "subscription",
+   "api_status": "public-key",
+   "api_docs_url": "https://api.recruitwithatlas.com/api/v1/docs",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Pricing page lists £105 and £135 per user / month on a 12-month commitment, with a 14-day free start. API keys are created by the agency in the dashboard, per the API reference. Job posting to multiple boards is offered from the Atlas portal. No headquarters, parent company, language options or partner program were stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/atlas/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not in top 1M",
@@ -51396,7 +51631,9 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "api-self-serve",
+    "ats",
+    "subscription"
    ],
    "connections": [
     {
@@ -51418,7 +51655,14 @@
      "quote": "Supercharge your sourcing efforts and capture applicants from broadbean's job boards."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "atlas",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;partner_program",
+    "note": "Pricing, API key process and job posting pages read; no headquarters or language options stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -51436,6 +51680,22 @@
      "title": "Integrations - ATLAS",
      "accessed": "2026-11-20",
      "quote": "Supercharge your sourcing efforts and capture applicants from broadbean's job boards.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://recruitwithatlas.com/pricing/",
+     "title": "Pricing",
+     "accessed": "2026-11-23",
+     "quote": "Every Atlas plan runs on a 12-month commitment.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://api.recruitwithatlas.com/api/v1/docs",
+     "title": "Atlas API Reference",
+     "accessed": "2026-11-23",
+     "quote": "API keys are generated from the Atlas dashboard.",
      "quote_check": "ok"
     }
    ]
@@ -51463,8 +51723,11 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "premium job board integrations to post job ads",
+    "Indeed job posting connector"
+   ],
+   "notes": "Pricing page lists a Premium Annual plan at $59 USD per user per month, billed annually. Contact block shows an address in Eden Prairie, MN 55346, country not stated. Integrations page lists connectors but no partner program was stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/recruitbpm/",
    "indexable": false,
@@ -51580,7 +51843,14 @@
      "quote": "Find talented professionals in the UK with nJobs integration for RecruitBPM Applicant Tracking System and CRM."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "recruitbpm",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+    "note": "Homepage, pricing and integrations pages read; no API or partner program page was linked.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -51598,6 +51868,14 @@
      "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
      "accessed": "2026-11-20",
      "quote": "Post to 100+ Job Boards with One Submission directly from your RecruitBPM account using ZipRecruiter.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://recruitbpm.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-23",
+     "quote": "offering premium job board integrations, also enabling you to run job ads.",
      "quote_check": "ok"
     }
    ]
@@ -51619,17 +51897,20 @@
    "region": "Global",
    "niche": "talent acquisition ATS and recruitment CRM, UK focus",
    "segment": "",
-   "parent": "",
+   "parent": "The Access Group",
    "business_model": "",
    "api_status": "unknown",
-   "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "api_docs_url": "https://www.eploy.com/resources/developers/",
+   "partner_program": "yes",
+   "partner_url": "https://www.eploy.com/partner/",
+   "ingest_methods": [
+    "career site integration",
+    "integrations marketplace"
+   ],
+   "notes": "Homepage, pricing, developers and partner pages read; the API is described as RESTful with documentation, but how access is obtained is not stated. The copyright line names The Access Group; no headquarters or language switcher stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/eploy/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -51639,7 +51920,8 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "ats",
+    "partner-program"
    ],
    "connections": [
     {
@@ -51670,7 +51952,14 @@
      "quote": "Eploy integrates directly with the NHS Jobs platform, enabling NHS and adjacent health and social care providers to post their vacancies to the NHS Jobs board."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "eploy",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;api_status",
+    "note": "Homepage, pricing, developers, about and partner pages read; pricing shows no clear plan prices and API access terms are not stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -51688,6 +51977,38 @@
      "title": "Eploy Multi-Posting - Eploy ATS",
      "accessed": "2026-11-20",
      "quote": "Designed to work with your contracted Job Board partners, Eploy’s Multi-Posting module can post to over 1000 job boards and social platforms.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://www.eploy.com/",
+     "title": "Homepage footer",
+     "accessed": "2026-11-23",
+     "quote": "© 2026 The Access Group",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.eploy.com/resources/developers/",
+     "title": "Developers",
+     "accessed": "2026-11-23",
+     "quote": "View Eploy's API endpoint documentation",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.eploy.com/resources/developers/",
+     "title": "Developers",
+     "accessed": "2026-11-23",
+     "quote": "Join the Eploy Partner programme and get listed in the Eploy Marketplace",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.eploy.com/",
+     "title": "Homepage",
+     "accessed": "2026-11-23",
+     "quote": "Seamless career site integration",
      "quote_check": "ok"
     }
    ]
@@ -51716,7 +52037,7 @@
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Footer address is Bloomington, MN 55437, with no country named. No pricing or subscription terms were found; the site offers request-a-demo. The integration partners page lists a Job Boards & Distribution category. No developer or API page was linked from the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/tempworks-software/",
    "indexable": false,
@@ -51743,7 +52064,14 @@
      "quote": "with TempWorks partnership with Google for Jobs, every job you submit will effortlessly display on job boards in Google searches."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "tempworks-software",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program",
+    "note": "HTTP 200 on home, about and integration partner pages; footer gives a Minnesota address only and no pricing or API page was found.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -51761,6 +52089,30 @@
      "title": "Online Job Board Software for Recruiting Companies - TempWorks",
      "accessed": "2026-11-20",
      "quote": "Instantly post a job after creating an order in the system",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.tempworks.com/about/",
+     "title": "Why TempWorks Software",
+     "accessed": "2026-11-23",
+     "quote": "Bloomington, MN 55437",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.tempworks.com/",
+     "title": "Recruitment experience ATS",
+     "accessed": "2026-11-23",
+     "quote": "Create customized job boards that connect to your ATS for simplified hiring and onboarding",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.tempworks.com/integration-partners/",
+     "title": "Integration partners",
+     "accessed": "2026-11-23",
+     "quote": "Job Boards & Distribution",
      "quote_check": "ok"
     }
    ]
@@ -51782,17 +52134,19 @@
    "region": "Global",
    "niche": "ATS and recruitment CRM for agencies",
    "segment": "",
-   "parent": "",
+   "parent": "SEEK Group",
    "business_model": "",
    "api_status": "unknown",
-   "api_docs_url": "",
+   "api_docs_url": "https://jobadder.com/resources/developer-tools",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "multi-posting to job boards"
+   ],
+   "notes": "Developer tools page describes open API access and a sandbox, and says OAuth 2.0 is used, but does not state how API credentials are issued. Headquarters, languages and employer pricing model were not stated; pricing tiers show Request pricing.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/jobadder/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -51887,7 +52241,14 @@
      "quote": "Trade Jobs NZ is an industry-specific job site made for the trades industry of Aotearoa."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "jobadder",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;languages;business_model;partner_program",
+    "note": "Homepage, about, pricing, developer and job board pages read; headquarters answer and pricing model not stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -51906,6 +52267,30 @@
      "accessed": "2026-11-20",
      "quote": "Multi-post job ads to job boards, careers pages and websites",
      "quote_check": "ok"
+    },
+    {
+     "field": "parent",
+     "url": "https://jobadder.com/company/about-us",
+     "title": "About us",
+     "accessed": "2026-11-23",
+     "quote": "Joining the SEEK Group gave JobAdder the resources to keep building for the long term",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://jobadder.com/company/about-us",
+     "title": "About us",
+     "accessed": "2026-11-23",
+     "quote": "Founded in Sydney in 2007, JobAdder began by solving a single problem",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://jobadder.com/resources/developer-tools",
+     "title": "Developer tools",
+     "accessed": "2026-11-23",
+     "quote": "Build and test JobAdder integrations with open API access, a dedicated sandbox and expert support.",
+     "quote_check": "ok"
     }
    ]
   },
@@ -51915,7 +52300,7 @@
    "url": "https://www.ceipal.com",
    "domains": "",
    "type": "ats",
-   "hq_country": "",
+   "hq_country": "US",
    "founded": "",
    "markets": "",
    "countries_served": [
@@ -51932,8 +52317,11 @@
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
-   "ingest_methods": [],
-   "notes": "",
+   "ingest_methods": [
+    "job board integrations",
+    "free job boards"
+   ],
+   "notes": "Homepage, company and integrations pages read; headquarters is given as Rochester, NY. No pricing, API, partner program or parent company stated and no language switcher found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ceipal/",
    "indexable": false,
@@ -52004,7 +52392,14 @@
      "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "ceipal",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "parent;languages;business_model;api_status;partner_program",
+    "note": "Homepage, company and integrations pages read; no pricing, API, partner program or parent company stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -52022,6 +52417,30 @@
      "title": "Best ATS for Staffing Agencies | Applicant Tracking System | Ceipal",
      "accessed": "2026-11-20",
      "quote": "Advertise your job across job boards, social media, and more in one click.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "existence",
+     "url": "https://www.ceipal.com/company",
+     "title": "Company",
+     "accessed": "2026-11-23",
+     "quote": "with headquarters in Rochester, NY",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.ceipal.com/",
+     "title": "Homepage FAQ",
+     "accessed": "2026-11-23",
+     "quote": "Ceipal integrates with 200+ platforms including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, SAP Fieldglass, and major VMS portals.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.ceipal.com/integrations",
+     "title": "Integrations",
+     "accessed": "2026-11-23",
+     "quote": "Free Job Boards",
      "quote_check": "ok"
     }
    ]
@@ -52047,10 +52466,10 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.clockworkrecruiting.com/partners-integrations",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Partners page invites integration builders to contact the company to learn about its partnerships program, API documentation and integration process. Platform pricing page states only 'One plan. All the features.' with no prices. No headquarters, parent company or language options were stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/clockwork-recruiting/",
    "indexable": false,
@@ -52065,6 +52484,7 @@
    "tags": [
     "ats",
     "executive",
+    "partner-program",
     "tech"
    ],
    "connections": [
@@ -52078,7 +52498,14 @@
      "quote": "Rolebot is the World’s 1st AI-powered Job Board for Passive Talent."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "clockwork-recruiting",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;business_model;ingest_methods;api_status",
+    "note": "HTTP 200 on home, partners, pricing and about pages; partner program stated, prices and API access terms not stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -52088,6 +52515,30 @@
      "title": "Clockwork Recruiting - Executive Search Software & Solutions | Clockwork",
      "accessed": "2026-11-20",
      "quote": "Software for Retained Executive Search, done right",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.clockworkrecruiting.com/partners-integrations",
+     "title": "Partners and integrations",
+     "accessed": "2026-11-23",
+     "quote": "If you are interested in becoming a Clockwork Partner or building an integration with Clockwork",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.clockworkrecruiting.com/partners-integrations",
+     "title": "Partners and integrations",
+     "accessed": "2026-11-23",
+     "quote": "learn more about our partnerships program, API documentation and integration process",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.clockworkrecruiting.com/platform-pricing",
+     "title": "Platform Pricing",
+     "accessed": "2026-11-23",
+     "quote": "One plan. All the features.",
      "quote_check": "ok"
     }
    ]
@@ -52110,13 +52561,13 @@
    "niche": "AI talent intelligence platform with ATS and recruitment CRM",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Pricing page lists plans from $149 per user per month billed annually and a Professional plan that includes API access; how API access is obtained is not stated. The integrations page returned blocked in the browser reader and was not retried. Headquarters, parent, languages and job board posting were not stated.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/loxo/",
    "indexable": false,
@@ -52129,7 +52580,8 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "ats",
+    "subscription"
    ],
    "connections": [
     {
@@ -52196,7 +52648,14 @@
      "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "loxo",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;founded;parent;languages;partner_program;ingest_methods",
+    "note": "Homepage, pricing and about pages read; integrations page returned blocked in the browser reader.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -52214,6 +52673,14 @@
      "title": "ATS Software For Modern Recruiters | Loxo",
      "accessed": "2026-11-20",
      "quote": "Loxo offers programmatic job board posting via Loxo Boost.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.loxo.co/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-23",
+     "quote": "Starts at $149 per user / month, billed annually",
      "quote_check": "ok"
     }
    ]
@@ -52236,16 +52703,16 @@
    "niche": "AI-native ATS and CRM for search and staffing firms",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription, per user; Platform plan USD $119 per user per month",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://recruiterflow.com/referral-program",
    "ingest_methods": [],
-   "notes": "",
+   "notes": "Pricing, API and referral pages read; the API reference page lists API access as a plan feature but its access terms are not stated in readable text. The referral page is an affiliate program, not an integrations marketplace.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/recruiterflow/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Established",
     "label": "Established",
@@ -52255,7 +52722,9 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "ats",
+    "partner-program",
+    "subscription"
    ],
    "connections": [
     {
@@ -52268,7 +52737,14 @@
      "quote": "Caterer.com is UK's job portal dedicated to connecting job seekers with exciting opportunities in the hospitality and catering industry."
     }
    ],
-   "review": null,
+   "review": {
+    "board_id": "recruiterflow",
+    "reviewed": "2026-11-23",
+    "outcome": "partially-verified",
+    "fields_not_found": "hq_country;parent;languages;ingest_methods",
+    "note": "Homepage, pricing, API, about, referral and integrations pages read; no headquarters, parent or language options stated.",
+    "method": "mixed"
+   },
    "owners": [],
    "scale": [],
    "sources": [
@@ -52286,6 +52762,22 @@
      "title": "Applicant Tracking Software (ATS) for Recruiting & Staffing Agencies | Recruiterflow",
      "accessed": "2026-11-20",
      "quote": "Promote your job across major job boards effortlessly",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://recruiterflow.com/pricing",
+     "title": "Pricing",
+     "accessed": "2026-11-23",
+     "quote": "USD $119 per user / month",
+     "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://recruiterflow.com/referral-program",
+     "title": "Referral program",
+     "accessed": "2026-11-23",
+     "quote": "Become a Recruiterflow referral partner",
      "quote_check": "ok"
     }
    ]

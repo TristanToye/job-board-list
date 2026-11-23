@@ -16,16 +16,16 @@
  "niche": "AI-native ATS with job syndication for Southeast Asia",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "free job posting tool; software plan prices not stated",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.mokahr.io/partner/",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Pages show Singapore and Hong Kong offices and a copyright line naming ALPHASTAR TECHNOLOGY (SINGAPORE) PTE. LTD.; no headquarters, parent, API or language switcher stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/moka-ats-mokahr/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,10 +35,20 @@
   "list_date": "2026-11-20"
  },
  "tags": [
-  "ats"
+  "ats",
+  "free-to-post",
+  "partner-program",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "moka-ats-mokahr",
+  "reviewed": "2026-11-23",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status",
+  "note": "Homepage, partner, about and free job posting pages read; no headquarters, parent, language switcher or API page stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -56,6 +66,38 @@
    "title": "Job Postings & Syndication Made Easy with MokaHR",
    "accessed": "2026-11-11",
    "quote": "Moka Eva puts jobs on over 100 job boards.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.mokahr.io/partner/",
+   "title": "Moka Partner Network",
+   "accessed": "2026-11-23",
+   "quote": "Build an integration, reach new customers, and grow with a scaling partner network",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.mokahr.io/post-jobs-for-free/",
+   "title": "Post a job for free",
+   "accessed": "2026-11-23",
+   "quote": "Post your job for free",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.mokahr.io/",
+   "title": "Homepage",
+   "accessed": "2026-11-23",
+   "quote": "50 free AI screening credits included",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.mokahr.io/",
+   "title": "Homepage",
+   "accessed": "2026-11-23",
+   "quote": "Seamless integrations with local job boards, eHR systems, instant messaging, calendars, and more",
    "quote_check": "ok"
   }
  ]

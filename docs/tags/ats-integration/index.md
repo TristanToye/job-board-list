@@ -1,6 +1,6 @@
 # ATS integration
 
-Receives jobs from applicant tracking systems. 34 entries in the directory.
+Receives jobs from applicant tracking systems. 35 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
@@ -18,6 +18,7 @@ Receives jobs from applicant tracking systems. 34 entries in the directory.
 - [Criteria](https://jobboardlist.com/boards/criteria/): hr-tech
 - [Braintrust](https://jobboardlist.com/boards/braintrust/): freelance-platform
 - [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform, API key on request
+- [Jobtrain](https://jobboardlist.com/boards/jobtrain/): ats
 - [Aplikuj.pl](https://jobboardlist.com/boards/aplikuj-pl/): board
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 - [MeesterBaan](https://jobboardlist.com/boards/meesterbaan/): niche-board

@@ -33,7 +33,7 @@
 - [Resume Genius](https://jobboardlist.com/boards/resume-genius/): career-services, Established tier
 - [Kickresume](https://jobboardlist.com/boards/kickresume/): career-services, Established tier
 - [TopResume](https://jobboardlist.com/boards/topresume/): career-services, Established tier
-- [Bullhorn](https://jobboardlist.com/boards/bullhorn/): ats, Established tier
+- [Bullhorn](https://jobboardlist.com/boards/bullhorn/): ats, Established tier, Partner-only API
 - [Kelly Services](https://jobboardlist.com/boards/kelly-services/): staffing, Established tier
 - [Spencer Stuart](https://jobboardlist.com/boards/spencer-stuart/): recruiting-services, Established tier
 - [Enhancv](https://jobboardlist.com/boards/enhancv/): career-services, Established tier
@@ -119,7 +119,7 @@
 - [DCI Consulting](https://jobboardlist.com/boards/dci-consulting/): hr-tech
 - [Redstone GCI](https://jobboardlist.com/boards/redstone-gci/): hr-tech
 - [Techmap](https://jobboardlist.com/boards/techmap/): job-data
-- [PCRecruiter](https://jobboardlist.com/boards/pcrecruiter/): ats
+- [PCRecruiter](https://jobboardlist.com/boards/pcrecruiter/): ats, API key on request
 - [Ultra-Staff EDGE](https://jobboardlist.com/boards/ultra-staff-edge/): ats
 - [Job Ready (ReadyTech)](https://jobboardlist.com/boards/job-ready-readytech/): hr-tech
 

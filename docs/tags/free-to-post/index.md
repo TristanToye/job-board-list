@@ -1,6 +1,6 @@
 # Free to post
 
-Employers can post jobs without paying. 54 entries in the directory.
+Employers can post jobs without paying. 55 entries in the directory.
 
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
@@ -27,6 +27,7 @@ Employers can post jobs without paying. 54 entries in the directory.
 - [Torre.ai](https://jobboardlist.com/boards/torre-ai/): board
 - [StudentJob FR](https://jobboardlist.com/boards/studentjob-fr/): niche-board
 - [Freelancer.nl](https://jobboardlist.com/boards/freelancer-nl/): board
+- [Moka ATS (MokaHR)](https://jobboardlist.com/boards/moka-ats-mokahr/): ats
 - [The Wheel](https://jobboardlist.com/boards/the-wheel/): niche-board
 - [StudentJob ES](https://jobboardlist.com/boards/studentjob-es/): niche-board
 - [JobMail](https://jobboardlist.com/boards/jobmail/): board

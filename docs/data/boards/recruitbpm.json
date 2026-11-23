@@ -21,8 +21,11 @@
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "premium job board integrations to post job ads",
+  "Indeed job posting connector"
+ ],
+ "notes": "Pricing page lists a Premium Annual plan at $59 USD per user per month, billed annually. Contact block shows an address in Eden Prairie, MN 55346, country not stated. Integrations page lists connectors but no partner program was stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/recruitbpm/",
  "indexable": false,
@@ -138,7 +141,14 @@
    "quote": "Find talented professionals in the UK with nJobs integration for RecruitBPM Applicant Tracking System and CRM."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "recruitbpm",
+  "reviewed": "2026-11-23",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+  "note": "Homepage, pricing and integrations pages read; no API or partner program page was linked.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -156,6 +166,14 @@
    "title": "RecruitBPM partners with the technology you trust. - RecruitBPM",
    "accessed": "2026-11-20",
    "quote": "Post to 100+ Job Boards with One Submission directly from your RecruitBPM account using ZipRecruiter.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://recruitbpm.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-23",
+   "quote": "offering premium job board integrations, also enabling you to run job ads.",
    "quote_check": "ok"
   }
  ]

@@ -40,7 +40,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "ultra-staff-edge",
+  "reviewed": "2026-11-23",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage, about and partners pages read; none state the missing facts and the partners page has no listed content.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

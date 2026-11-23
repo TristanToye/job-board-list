@@ -15,17 +15,20 @@
  "region": "Global",
  "niche": "talent acquisition ATS and recruitment CRM, UK focus",
  "segment": "",
- "parent": "",
+ "parent": "The Access Group",
  "business_model": "",
  "api_status": "unknown",
- "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "api_docs_url": "https://www.eploy.com/resources/developers/",
+ "partner_program": "yes",
+ "partner_url": "https://www.eploy.com/partner/",
+ "ingest_methods": [
+  "career site integration",
+  "integrations marketplace"
+ ],
+ "notes": "Homepage, pricing, developers and partner pages read; the API is described as RESTful with documentation, but how access is obtained is not stated. The copyright line names The Access Group; no headquarters or language switcher stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/eploy/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,7 +38,8 @@
   "list_date": "2026-11-20"
  },
  "tags": [
-  "ats"
+  "ats",
+  "partner-program"
  ],
  "connections": [
   {
@@ -66,7 +70,14 @@
    "quote": "Eploy integrates directly with the NHS Jobs platform, enabling NHS and adjacent health and social care providers to post their vacancies to the NHS Jobs board."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "eploy",
+  "reviewed": "2026-11-23",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status",
+  "note": "Homepage, pricing, developers, about and partner pages read; pricing shows no clear plan prices and API access terms are not stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -84,6 +95,38 @@
    "title": "Eploy Multi-Posting - Eploy ATS",
    "accessed": "2026-11-20",
    "quote": "Designed to work with your contracted Job Board partners, Eploy’s Multi-Posting module can post to over 1000 job boards and social platforms.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.eploy.com/",
+   "title": "Homepage footer",
+   "accessed": "2026-11-23",
+   "quote": "© 2026 The Access Group",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.eploy.com/resources/developers/",
+   "title": "Developers",
+   "accessed": "2026-11-23",
+   "quote": "View Eploy's API endpoint documentation",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.eploy.com/resources/developers/",
+   "title": "Developers",
+   "accessed": "2026-11-23",
+   "quote": "Join the Eploy Partner programme and get listed in the Eploy Marketplace",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.eploy.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-23",
+   "quote": "Seamless career site integration",
    "quote_check": "ok"
   }
  ]

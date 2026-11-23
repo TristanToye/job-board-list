@@ -1,6 +1,6 @@
 # Self-serve API
 
-Provides a documented API with a self-serve key. 28 entries in the directory.
+Provides a documented API with a self-serve key. 29 entries in the directory.
 
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
 - [BambooHR](https://jobboardlist.com/boards/bamboohr/): ats, Self-serve API key
@@ -30,5 +30,6 @@ Provides a documented API with a self-serve key. 28 entries in the directory.
 - [The Muse](https://jobboardlist.com/boards/themuse/): board+employer-brand, Self-serve API key
 - [Arbeidsplassen (NAV)](https://jobboardlist.com/boards/nav-arbeidsplassen/): government, Self-serve API key
 - [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
+- [Atlas](https://jobboardlist.com/boards/atlas/): ats, Self-serve API key
 
 Canonical page: https://jobboardlist.com/tags/api-self-serve/

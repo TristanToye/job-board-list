@@ -1,6 +1,6 @@
 # Partner-only API
 
-Programmatic access requires an approved partner or commercial agreement. 29 entries in the directory.
+Programmatic access requires an approved partner or commercial agreement. 30 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -17,6 +17,7 @@ Programmatic access requires an approved partner or commercial agreement. 29 ent
 - [JobStreet](https://jobboardlist.com/boards/jobstreet/): board, Partner-only API
 - [Pracuj.pl](https://jobboardlist.com/boards/pracuj/): board, Partner-only API
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
+- [Bullhorn](https://jobboardlist.com/boards/bullhorn/): ats, Partner-only API
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API

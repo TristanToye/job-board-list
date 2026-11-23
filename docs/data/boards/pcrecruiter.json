@@ -16,16 +16,19 @@
  "niche": "recruitment and applicant tracking for staffing, search and in-house teams",
  "segment": "",
  "parent": "",
- "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
+ "business_model": "subscription, per user, from $125 per user per month",
+ "api_status": "on-request",
+ "api_docs_url": "https://www.pcrecruiter.com/developer-api/",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "Site says: \"PCRM has also provided feeds in the required formats for others on request\"",
+ "ingest_methods": [
+  "job board integrations",
+  "API-driven job listings"
+ ],
+ "notes": "Site says: \"PCRM has also provided feeds in the required formats for others on request\" Pricing and developer pages state per-user pricing and API access that needs an applicable user agreement; the copyright line names Main Sequence Technology, Inc., which is not stated as a parent. No language switcher found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/pcrecruiter/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
@@ -35,7 +38,9 @@
   "list_date": "2026-11-20"
  },
  "tags": [
-  "ats"
+  "api-on-request",
+  "ats",
+  "subscription"
  ],
  "connections": [
   {
@@ -138,7 +143,14 @@
    "quote": "Career Resources and Advice The Muse Job Board"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "pcrecruiter",
+  "reviewed": "2026-11-23",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;partner_program",
+  "note": "Pricing, developer API and integrations pages read; no headquarters country, parent, language options or partner program stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -164,6 +176,30 @@
    "title": "Integrations and Partners",
    "accessed": "2026-11-20",
    "quote": "PCRM has also provided feeds in the required formats for others on request",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.pcrecruiter.com/pricing/",
+   "title": "Pricing",
+   "accessed": "2026-11-23",
+   "quote": "From $125 per User per Month",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.pcrecruiter.com/developer-api/",
+   "title": "API and MCP",
+   "accessed": "2026-11-23",
+   "quote": "The basic API is available at no added cost to PCRM accounts with an applicable user agreement",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.pcrecruiter.com/developer-api/",
+   "title": "API and MCP",
+   "accessed": "2026-11-23",
+   "quote": "Pull live openings directly from your PCRM database into custom-built job boards",
    "quote_check": "ok"
   }
  ]

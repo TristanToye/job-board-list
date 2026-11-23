@@ -13,6 +13,7 @@ A market leader in online employment marketplaces (own description, https://au.s
 - [JobStreet](https://jobboardlist.com/boards/jobstreet/) (board)
 - [SEEK](https://jobboardlist.com/boards/seek/) (board)
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/) (board)
+- [JobAdder](https://jobboardlist.com/boards/jobadder/) (ats)
 
 ## Holdings
 

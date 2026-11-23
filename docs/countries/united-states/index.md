@@ -1,6 +1,6 @@
 # Job boards in United States
 
-66 job boards and related entries based in or serving United States.
+67 job boards and related entries based in or serving United States.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Major tier, Partner-only API
 - [U.S. Bureau of Labor Statistics](https://jobboardlist.com/boards/u-s-bureau-of-labor-statistics/): lmi, Major tier, Open API (no key)
@@ -46,6 +46,7 @@
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Small tier, Partner-only API
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech, Small tier
 - [Work at a Startup](https://jobboardlist.com/boards/yc-waas/): niche-board, Small tier, No known API
+- [Ceipal](https://jobboardlist.com/boards/ceipal/): ats, Small tier
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Small tier, Partner-only API
 - [PandoLogic](https://jobboardlist.com/boards/pandologic/): programmatic-distribution, Small tier
 - [DirectEmployers Association](https://jobboardlist.com/boards/directemployers-association/): multiposting, Small tier

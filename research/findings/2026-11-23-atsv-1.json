@@ -1,260 +1,278 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Moka ATS (MokaHR)",
+   "url": "https://www.mokahr.io",
+   "business_model": "free job posting tool; software plan prices not stated",
+   "partner_program": "yes",
+   "partner_url": "https://www.mokahr.io/partner/",
+   "notes": "Pages show Singapore and Hong Kong offices and a copyright line naming ALPHASTAR TECHNOLOGY (SINGAPORE) PTE. LTD.; no headquarters, parent, API or language switcher stated.",
+   "sources": [
     {
-      "name": "Moka ATS (MokaHR)",
-      "url": "https://www.mokahr.io",
-      "business_model": "free job posting tool; software plan prices not stated",
-      "partner_program": "yes",
-      "partner_url": "https://www.mokahr.io/partner/",
-      "notes": "Pages show Singapore and Hong Kong offices and a copyright line naming ALPHASTAR TECHNOLOGY (SINGAPORE) PTE. LTD.; no headquarters, parent, API or language switcher stated.",
-      "sources": [
-        {
-          "field": "partner_program",
-          "url": "https://www.mokahr.io/partner/",
-          "title": "Moka Partner Network",
-          "quote": "Build an integration, reach new customers, and grow with a scaling partner network"
-        },
-        {
-          "field": "business_model",
-          "url": "https://www.mokahr.io/post-jobs-for-free/",
-          "title": "Post a job for free",
-          "quote": "Post your job for free"
-        },
-        {
-          "field": "business_model",
-          "url": "https://www.mokahr.io/",
-          "title": "Homepage",
-          "quote": "50 free AI screening credits included"
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.mokahr.io/",
-          "title": "Homepage",
-          "quote": "Seamless integrations with local job boards, eHR systems, instant messaging, calendars, and more"
-        }
-      ]
+     "field": "partner_program",
+     "url": "https://www.mokahr.io/partner/",
+     "title": "Moka Partner Network",
+     "quote": "Build an integration, reach new customers, and grow with a scaling partner network",
+     "check": "ok"
     },
     {
-      "name": "PCRecruiter",
-      "url": "https://www.pcrecruiter.com",
-      "business_model": "subscription, per user, from $125 per user per month",
-      "api_status": "on-request",
-      "api_docs_url": "https://www.pcrecruiter.com/developer-api/",
-      "ingest_methods": "job board integrations; API-driven job listings",
-      "notes": "Pricing and developer pages state per-user pricing and API access that needs an applicable user agreement; the copyright line names Main Sequence Technology, Inc., which is not stated as a parent. No language switcher found.",
-      "sources": [
-        {
-          "field": "business_model",
-          "url": "https://www.pcrecruiter.com/pricing/",
-          "title": "Pricing",
-          "quote": "From $125 per User per Month"
-        },
-        {
-          "field": "api_status",
-          "url": "https://www.pcrecruiter.com/developer-api/",
-          "title": "API and MCP",
-          "quote": "The basic API is available at no added cost to PCRM accounts with an applicable user agreement"
-        },
-        {
-          "field": "api_status",
-          "url": "https://www.pcrecruiter.com/developer-api/",
-          "title": "API and MCP",
-          "quote": "API Access Request"
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.pcrecruiter.com/developer-api/",
-          "title": "API and MCP",
-          "quote": "Pull live openings directly from your PCRM database into custom-built job boards"
-        }
-      ]
+     "field": "business_model",
+     "url": "https://www.mokahr.io/post-jobs-for-free/",
+     "title": "Post a job for free",
+     "quote": "Post your job for free",
+     "check": "ok"
     },
     {
-      "name": "Ultra-Staff EDGE",
-      "url": "https://www.abd.net",
-      "notes": "Product and about pages read; the about page gives a 1982 founding date but no headquarters country, parent, pricing, API or partner program. The partners page showed only its heading.",
-      "sources": []
+     "field": "business_model",
+     "url": "https://www.mokahr.io/",
+     "title": "Homepage",
+     "quote": "50 free AI screening credits included",
+     "check": "ok"
     },
     {
-      "name": "Eploy",
-      "url": "https://www.eploy.com",
-      "parent": "The Access Group (copyright line only)",
-      "api_status": "unknown",
-      "api_docs_url": "https://www.eploy.com/resources/developers/",
-      "partner_program": "yes",
-      "partner_url": "https://www.eploy.com/partner/",
-      "ingest_methods": "career site integration; integrations marketplace",
-      "notes": "Homepage, pricing, developers and partner pages read; the API is described as RESTful with documentation, but how access is obtained is not stated. The copyright line names The Access Group; no headquarters or language switcher stated.",
-      "sources": [
-        {
-          "field": "parent",
-          "url": "https://www.eploy.com/",
-          "title": "Homepage footer",
-          "quote": "© 2026 The Access Group"
-        },
-        {
-          "field": "api_status",
-          "url": "https://www.eploy.com/resources/developers/",
-          "title": "Developers",
-          "quote": "View Eploy's API endpoint documentation"
-        },
-        {
-          "field": "partner_program",
-          "url": "https://www.eploy.com/resources/developers/",
-          "title": "Developers",
-          "quote": "Join the Eploy Partner programme and get listed in the Eploy Marketplace"
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.eploy.com/",
-          "title": "Homepage",
-          "quote": "Seamless career site integration"
-        }
-      ]
-    },
-    {
-      "name": "Ceipal",
-      "url": "https://www.ceipal.com",
-      "hq_country": "US",
-      "ingest_methods": "job board integrations; free job boards",
-      "notes": "Homepage, company and integrations pages read; headquarters is given as Rochester, NY. No pricing, API, partner program or parent company stated and no language switcher found.",
-      "sources": [
-        {
-          "field": "hq_country",
-          "url": "https://www.ceipal.com/company",
-          "title": "Company",
-          "quote": "with headquarters in Rochester, NY"
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.ceipal.com/",
-          "title": "Homepage FAQ",
-          "quote": "Ceipal integrates with 200+ platforms including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, SAP Fieldglass, and major VMS portals."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.ceipal.com/integrations",
-          "title": "Integrations",
-          "quote": "Free Job Boards"
-        }
-      ]
-    },
-    {
-      "name": "Recruiterflow",
-      "url": "https://recruiterflow.com",
-      "business_model": "subscription, per user; Platform plan USD $119 per user per month",
-      "api_status": "unknown",
-      "api_docs_url": "https://recruiterflow.com/api",
-      "partner_program": "yes",
-      "partner_url": "https://recruiterflow.com/referral-program",
-      "notes": "Pricing, API and referral pages read; the API reference page lists API access as a plan feature but its access terms are not stated in readable text. The referral page is an affiliate program, not an integrations marketplace.",
-      "sources": [
-        {
-          "field": "business_model",
-          "url": "https://recruiterflow.com/pricing",
-          "title": "Pricing",
-          "quote": "USD $119 per user / month"
-        },
-        {
-          "field": "api_status",
-          "url": "https://recruiterflow.com/pricing",
-          "title": "Pricing",
-          "quote": "API Access"
-        },
-        {
-          "field": "partner_program",
-          "url": "https://recruiterflow.com/referral-program",
-          "title": "Referral program",
-          "quote": "Become a Recruiterflow referral partner"
-        }
-      ]
+     "field": "ingest_methods",
+     "url": "https://www.mokahr.io/",
+     "title": "Homepage",
+     "quote": "Seamless integrations with local job boards, eHR systems, instant messaging, calendars, and more",
+     "check": "ok"
     }
-  ],
-  "reviews": [
+   ]
+  },
+  {
+   "name": "PCRecruiter",
+   "url": "https://www.pcrecruiter.com",
+   "business_model": "subscription, per user, from $125 per user per month",
+   "api_status": "on-request",
+   "api_docs_url": "https://www.pcrecruiter.com/developer-api/",
+   "ingest_methods": "job board integrations; API-driven job listings",
+   "notes": "Pricing and developer pages state per-user pricing and API access that needs an applicable user agreement; the copyright line names Main Sequence Technology, Inc., which is not stated as a parent. No language switcher found.",
+   "sources": [
     {
-      "name": "Moka ATS (MokaHR)",
-      "url": "https://www.mokahr.io",
-      "outcome": "partially-verified",
-      "fields_not_found": [
-        "hq_country",
-        "parent",
-        "languages",
-        "api_status"
-      ],
-      "method": "mixed",
-      "note": "Homepage, partner, about and free job posting pages read; no headquarters, parent, language switcher or API page stated."
+     "field": "business_model",
+     "url": "https://www.pcrecruiter.com/pricing/",
+     "title": "Pricing",
+     "quote": "From $125 per User per Month",
+     "check": "ok"
     },
     {
-      "name": "PCRecruiter",
-      "url": "https://www.pcrecruiter.com",
-      "outcome": "partially-verified",
-      "fields_not_found": [
-        "hq_country",
-        "parent",
-        "languages",
-        "partner_program"
-      ],
-      "method": "mixed",
-      "note": "Pricing, developer API and integrations pages read; no headquarters country, parent, language options or partner program stated."
+     "field": "api_status",
+     "url": "https://www.pcrecruiter.com/developer-api/",
+     "title": "API and MCP",
+     "quote": "The basic API is available at no added cost to PCRM accounts with an applicable user agreement",
+     "check": "ok"
     },
     {
-      "name": "Ultra-Staff EDGE",
-      "url": "https://www.abd.net",
-      "outcome": "not-stated",
-      "fields_not_found": [
-        "hq_country",
-        "parent",
-        "languages",
-        "business_model",
-        "api_status",
-        "partner_program",
-        "ingest_methods"
-      ],
-      "method": "mixed",
-      "note": "Homepage, about and partners pages read; none state the missing facts and the partners page has no listed content."
+     "field": "api_status",
+     "url": "https://www.pcrecruiter.com/developer-api/",
+     "title": "API and MCP",
+     "quote": "API Access Request",
+     "check": "ok"
     },
     {
-      "name": "Eploy",
-      "url": "https://www.eploy.com",
-      "outcome": "partially-verified",
-      "fields_not_found": [
-        "hq_country",
-        "languages",
-        "business_model",
-        "api_status"
-      ],
-      "method": "mixed",
-      "note": "Homepage, pricing, developers, about and partner pages read; pricing shows no clear plan prices and API access terms are not stated."
-    },
-    {
-      "name": "Ceipal",
-      "url": "https://www.ceipal.com",
-      "outcome": "partially-verified",
-      "fields_not_found": [
-        "parent",
-        "languages",
-        "business_model",
-        "api_status",
-        "partner_program"
-      ],
-      "method": "mixed",
-      "note": "Homepage, company and integrations pages read; no pricing, API, partner program or parent company stated."
-    },
-    {
-      "name": "Recruiterflow",
-      "url": "https://recruiterflow.com",
-      "outcome": "partially-verified",
-      "fields_not_found": [
-        "hq_country",
-        "parent",
-        "languages",
-        "ingest_methods"
-      ],
-      "method": "mixed",
-      "note": "Homepage, pricing, API, about, referral and integrations pages read; no headquarters, parent or language options stated."
+     "field": "ingest_methods",
+     "url": "https://www.pcrecruiter.com/developer-api/",
+     "title": "API and MCP",
+     "quote": "Pull live openings directly from your PCRM database into custom-built job boards",
+     "check": "ok"
     }
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Ultra-Staff EDGE",
+   "url": "https://www.abd.net",
+   "notes": "Product and about pages read; the about page gives a 1982 founding date but no headquarters country, parent, pricing, API or partner program. The partners page showed only its heading.",
+   "sources": []
+  },
+  {
+   "name": "Eploy",
+   "url": "https://www.eploy.com",
+   "parent": "The Access Group (copyright line only)",
+   "api_status": "unknown",
+   "api_docs_url": "https://www.eploy.com/resources/developers/",
+   "partner_program": "yes",
+   "partner_url": "https://www.eploy.com/partner/",
+   "ingest_methods": "career site integration; integrations marketplace",
+   "notes": "Homepage, pricing, developers and partner pages read; the API is described as RESTful with documentation, but how access is obtained is not stated. The copyright line names The Access Group; no headquarters or language switcher stated.",
+   "sources": [
+    {
+     "field": "parent",
+     "url": "https://www.eploy.com/",
+     "title": "Homepage footer",
+     "quote": "© 2026 The Access Group",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.eploy.com/resources/developers/",
+     "title": "Developers",
+     "quote": "View Eploy's API endpoint documentation",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.eploy.com/resources/developers/",
+     "title": "Developers",
+     "quote": "Join the Eploy Partner programme and get listed in the Eploy Marketplace",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.eploy.com/",
+     "title": "Homepage",
+     "quote": "Seamless career site integration",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ceipal",
+   "url": "https://www.ceipal.com",
+   "hq_country": "US",
+   "ingest_methods": "job board integrations; free job boards",
+   "notes": "Homepage, company and integrations pages read; headquarters is given as Rochester, NY. No pricing, API, partner program or parent company stated and no language switcher found.",
+   "sources": [
+    {
+     "field": "hq_country",
+     "url": "https://www.ceipal.com/company",
+     "title": "Company",
+     "quote": "with headquarters in Rochester, NY",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.ceipal.com/",
+     "title": "Homepage FAQ",
+     "quote": "Ceipal integrates with 200+ platforms including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, SAP Fieldglass, and major VMS portals.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.ceipal.com/integrations",
+     "title": "Integrations",
+     "quote": "Free Job Boards",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Recruiterflow",
+   "url": "https://recruiterflow.com",
+   "business_model": "subscription, per user; Platform plan USD $119 per user per month",
+   "api_status": "unknown",
+   "api_docs_url": "https://recruiterflow.com/api",
+   "partner_program": "yes",
+   "partner_url": "https://recruiterflow.com/referral-program",
+   "notes": "Pricing, API and referral pages read; the API reference page lists API access as a plan feature but its access terms are not stated in readable text. The referral page is an affiliate program, not an integrations marketplace.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://recruiterflow.com/pricing",
+     "title": "Pricing",
+     "quote": "USD $119 per user / month",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://recruiterflow.com/pricing",
+     "title": "Pricing",
+     "quote": "API Access",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://recruiterflow.com/referral-program",
+     "title": "Referral program",
+     "quote": "Become a Recruiterflow referral partner",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Moka ATS (MokaHR)",
+   "url": "https://www.mokahr.io",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status"
+   ],
+   "method": "mixed",
+   "note": "Homepage, partner, about and free job posting pages read; no headquarters, parent, language switcher or API page stated."
+  },
+  {
+   "name": "PCRecruiter",
+   "url": "https://www.pcrecruiter.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Pricing, developer API and integrations pages read; no headquarters country, parent, language options or partner program stated."
+  },
+  {
+   "name": "Ultra-Staff EDGE",
+   "url": "https://www.abd.net",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage, about and partners pages read; none state the missing facts and the partners page has no listed content."
+  },
+  {
+   "name": "Eploy",
+   "url": "https://www.eploy.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "method": "mixed",
+   "note": "Homepage, pricing, developers, about and partner pages read; pricing shows no clear plan prices and API access terms are not stated."
+  },
+  {
+   "name": "Ceipal",
+   "url": "https://www.ceipal.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage, company and integrations pages read; no pricing, API, partner program or parent company stated."
+  },
+  {
+   "name": "Recruiterflow",
+   "url": "https://recruiterflow.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage, pricing, API, about, referral and integrations pages read; no headquarters, parent or language options stated."
+  }
+ ],
+ "blocked": []
 }

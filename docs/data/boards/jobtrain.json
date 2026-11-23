@@ -21,13 +21,15 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "partner_program": "yes",
+ "partner_url": "https://jobtrain.co.uk/home/our-partners/",
+ "ingest_methods": [
+  "ATS integration with NHS Jobs"
+ ],
+ "notes": "Homepage footer lists offices in Altrincham and Glasgow, UK. Headquarters, parent, languages, API and employer pricing were not stated on the pages read. The FAQ answers are collapsed in the page text and were not readable.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobtrain/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -37,10 +39,19 @@
   "list_date": "2026-11-20"
  },
  "tags": [
-  "ats"
+  "ats",
+  "ats-integration",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobtrain",
+  "reviewed": "2026-11-23",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+  "note": "Homepage and partner pages read; FAQ answers collapsed and no pricing or API statement found.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -50,6 +61,22 @@
    "title": "Applicant Tracking System | Recruitment Software | Jobtrain",
    "accessed": "2026-11-12",
    "quote": "Jobtrain is a UK applicant tracking system built around your recruitment team.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://jobtrain.co.uk/home/our-partners/",
+   "title": "Our partners",
+   "accessed": "2026-11-23",
+   "quote": "Interested in offering your services to our customers? Get in touch and a member of our partner team will be in touch.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://jobtrain.co.uk/home/applicant-tracking-software-by-jobtrain/job-board-marketplace/",
+   "title": "Job Board Marketplace",
+   "accessed": "2026-11-23",
+   "quote": "Our ATS platform also directly links and integrates with NHS Jobs.",
    "quote_check": "ok"
   }
  ]

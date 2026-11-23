@@ -1,6 +1,6 @@
 # API on request
 
-Issues API keys or feeds after a request form or review. 13 entries in the directory.
+Issues API keys or feeds after a request form or review. 14 entries in the directory.
 
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
 - [iCIMS](https://jobboardlist.com/boards/icims/): ats, API key on request
@@ -15,5 +15,6 @@ Issues API keys or feeds after a request form or review. 13 entries in the direc
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
 - [Jobilize](https://jobboardlist.com/boards/jobilize/): board, API key on request
 - [Job Bank](https://jobboardlist.com/boards/jobbank-ca/): government, API key on request
+- [PCRecruiter](https://jobboardlist.com/boards/pcrecruiter/): ats, API key on request
 
 Canonical page: https://jobboardlist.com/tags/api-on-request/

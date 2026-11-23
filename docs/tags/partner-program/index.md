@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 94 entries in the directory.
+Has a partner or integration program. 101 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -32,6 +32,7 @@ Has a partner or integration program. 94 entries in the directory.
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
+- [ApplicantPro](https://jobboardlist.com/boards/applicantpro/): ats
 - [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [JobStreet](https://jobboardlist.com/boards/jobstreet/): board, Partner-only API
@@ -41,6 +42,7 @@ Has a partner or integration program. 94 entries in the directory.
 - [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
 - [TopResume](https://jobboardlist.com/boards/topresume/): career-services
+- [Bullhorn](https://jobboardlist.com/boards/bullhorn/): ats, Partner-only API
 - [VDAB](https://jobboardlist.com/boards/vdab/): government, API key on request
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, API key on request
@@ -50,6 +52,7 @@ Has a partner or integration program. 94 entries in the directory.
 - [Beamery](https://jobboardlist.com/boards/beamery/): hr-tech
 - [Harver](https://jobboardlist.com/boards/harver/): hr-tech
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
+- [Recruiterflow](https://jobboardlist.com/boards/recruiterflow/): ats
 - [Työmarkkinatori](https://jobboardlist.com/boards/ty-markkinatori/): government, API key on request
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
@@ -64,6 +67,7 @@ Has a partner or integration program. 94 entries in the directory.
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Partner-only API
 - [Jobijoba](https://jobboardlist.com/boards/jobijoba/): aggregator, API key on request
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Partner-only API
+- [Jobtrain](https://jobboardlist.com/boards/jobtrain/): ats
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 - [AgCareers](https://jobboardlist.com/boards/agcareers/): board
@@ -72,15 +76,11 @@ Has a partner or integration program. 94 entries in the directory.
 - [Textkernel](https://jobboardlist.com/boards/textkernel/): lmi
 - [CareerJunction](https://jobboardlist.com/boards/careerjunction/): board
 - [JobTarget](https://jobboardlist.com/boards/jobtarget/): multiposting
+- [Eploy](https://jobboardlist.com/boards/eploy/): ats
 - [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [PandoLogic](https://jobboardlist.com/boards/pandologic/): programmatic-distribution
 - [VONQ](https://jobboardlist.com/boards/vonq/): programmatic-distribution
 - [Resumeble](https://jobboardlist.com/boards/resumeble/): career-services
-- [Zorgwerk](https://jobboardlist.com/boards/zorgwerk/): niche-board
-- [DirectEmployers Association](https://jobboardlist.com/boards/directemployers-association/): multiposting
-- [Talroo](https://jobboardlist.com/boards/talroo/): programmatic-distribution
-- [Jobiqo](https://jobboardlist.com/boards/jobiqo/): programmatic-distribution
-- [Circa](https://jobboardlist.com/boards/circa/): multiposting
 
 Canonical page: https://jobboardlist.com/tags/partner-program/

@@ -16,13 +16,13 @@
  "niche": "recruitment and applicant tracking software for staffing agencies",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Site says: \"Post and search across the boards you already use\"",
+ "notes": "Site says: \"Post and search across the boards you already use\" Plans page lists a $99 /user/month Core plan billed monthly, with a 6-month minimum term. REST API access is listed as a plan feature, but no developer page or key process was found. Job posting to job boards is offered from within Tracker. No headquarters, parent company or language options were st",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/tracker/",
  "indexable": false,
@@ -36,6 +36,7 @@
  },
  "tags": [
   "ats",
+  "subscription",
   "tech"
  ],
  "connections": [
@@ -67,7 +68,14 @@
    "quote": "The LinkedIn Chrome extension parses profiles from LinkedIn and any job board straight onto a shortlist."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "tracker",
+  "reviewed": "2026-11-23",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;partner_program",
+  "note": "Plans page states billing and term; open REST API mentioned without a documented key process.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -93,6 +101,30 @@
    "title": "ATS Features for Staffing Agencies",
    "accessed": "2026-11-20",
    "quote": "Post and search across the boards you already use",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.tracker-rms.com/plans/",
+   "title": "Plans and pricing",
+   "accessed": "2026-11-23",
+   "quote": "6-month minimum term",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.tracker-rms.com/plans/",
+   "title": "Plans and pricing",
+   "accessed": "2026-11-23",
+   "quote": "REST API access",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.tracker-rms.com/integrations/",
+   "title": "ATS integrations",
+   "accessed": "2026-11-23",
+   "quote": "Post jobs to 7,000+ job boards in 100 countries from Tracker",
    "quote_check": "ok"
   }
  ]

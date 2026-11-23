@@ -16,13 +16,13 @@
  "niche": "AI talent intelligence platform with ATS and recruitment CRM",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Pricing page lists plans from $149 per user per month billed annually and a Professional plan that includes API access; how API access is obtained is not stated. The integrations page returned blocked in the browser reader and was not retried. Headquarters, parent, languages and job board posting were not stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/loxo/",
  "indexable": false,
@@ -35,7 +35,8 @@
   "list_date": "2026-11-20"
  },
  "tags": [
-  "ats"
+  "ats",
+  "subscription"
  ],
  "connections": [
   {
@@ -102,7 +103,14 @@
    "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "loxo",
+  "reviewed": "2026-11-23",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;founded;parent;languages;partner_program;ingest_methods",
+  "note": "Homepage, pricing and about pages read; integrations page returned blocked in the browser reader.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -120,6 +128,14 @@
    "title": "ATS Software For Modern Recruiters | Loxo",
    "accessed": "2026-11-20",
    "quote": "Loxo offers programmatic job board posting via Loxo Boost.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.loxo.co/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-23",
+   "quote": "Starts at $149 per user / month, billed annually",
    "quote_check": "ok"
   }
  ]

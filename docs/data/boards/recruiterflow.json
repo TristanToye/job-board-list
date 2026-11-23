@@ -16,16 +16,16 @@
  "niche": "AI-native ATS and CRM for search and staffing firms",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription, per user; Platform plan USD $119 per user per month",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://recruiterflow.com/referral-program",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Pricing, API and referral pages read; the API reference page lists API access as a plan feature but its access terms are not stated in readable text. The referral page is an affiliate program, not an integrations marketplace.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/recruiterflow/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -35,7 +35,9 @@
   "list_date": "2026-11-20"
  },
  "tags": [
-  "ats"
+  "ats",
+  "partner-program",
+  "subscription"
  ],
  "connections": [
   {
@@ -48,7 +50,14 @@
    "quote": "Caterer.com is UK's job portal dedicated to connecting job seekers with exciting opportunities in the hospitality and catering industry."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "recruiterflow",
+  "reviewed": "2026-11-23",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;ingest_methods",
+  "note": "Homepage, pricing, API, about, referral and integrations pages read; no headquarters, parent or language options stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -66,6 +75,22 @@
    "title": "Applicant Tracking Software (ATS) for Recruiting & Staffing Agencies | Recruiterflow",
    "accessed": "2026-11-20",
    "quote": "Promote your job across major job boards effortlessly",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://recruiterflow.com/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-23",
+   "quote": "USD $119 per user / month",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://recruiterflow.com/referral-program",
+   "title": "Referral program",
+   "accessed": "2026-11-23",
+   "quote": "Become a Recruiterflow referral partner",
    "quote_check": "ok"
   }
  ]

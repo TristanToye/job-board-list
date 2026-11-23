@@ -20,7 +20,7 @@ Software employers use to manage hiring and publish their jobs. 37 entries in th
 - [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
 - [Greenhouse](https://jobboardlist.com/boards/greenhouse/): ats, Open API (no key)
 - [Pinpoint](https://jobboardlist.com/boards/pinpoint/): ats, Self-serve API key
-- [Bullhorn](https://jobboardlist.com/boards/bullhorn/): ats
+- [Bullhorn](https://jobboardlist.com/boards/bullhorn/): ats, Partner-only API
 - [Recruiterflow](https://jobboardlist.com/boards/recruiterflow/): ats
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [Phenom](https://jobboardlist.com/boards/phenom/): ats
@@ -35,9 +35,9 @@ Software employers use to manage hiring and publish their jobs. 37 entries in th
 - [TempWorks Software](https://jobboardlist.com/boards/tempworks-software/): ats
 - [Oracle Recruiting Cloud](https://jobboardlist.com/boards/oracle-recruiting/): ats, Self-serve API key
 - [Oracle Taleo](https://jobboardlist.com/boards/taleo/): ats, Partner-only API
-- [Atlas](https://jobboardlist.com/boards/atlas/): ats
+- [Atlas](https://jobboardlist.com/boards/atlas/): ats, Self-serve API key
 - [Clockwork Recruiting](https://jobboardlist.com/boards/clockwork-recruiting/): ats
-- [PCRecruiter](https://jobboardlist.com/boards/pcrecruiter/): ats
+- [PCRecruiter](https://jobboardlist.com/boards/pcrecruiter/): ats, API key on request
 - [Ultra-Staff EDGE](https://jobboardlist.com/boards/ultra-staff-edge/): ats
 
 Canonical page: https://jobboardlist.com/tags/ats/
