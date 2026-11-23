@@ -1,0 +1,228 @@
+{
+  "mode": "discover",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Taleez",
+      "url": "https://www.taleez.com/",
+      "type": "ats",
+      "niche": "applicant tracking for SMEs and mid-size companies (France)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.taleez.com/", "title": "Taleez homepage", "quote": "Taleez est le logiciel de recrutement"},
+        {"field": "business_model", "url": "https://taleez.com/tarifs", "title": "Taleez offers and prices", "quote": "Parce qu’un tarif Taleez dépend de la taille de votre organisation, de vos volumes de recrutement et des modules dont vous avez besoin."},
+        {"field": "ingest_methods", "url": "https://www.taleez.com/", "title": "Taleez homepage", "quote": "On a internalisé 100% de la diffusion pour vous garantir la meilleure qualité du marché sur 90+ sites."},
+        {"field": "api_status", "url": "https://taleez.com/integrations", "title": "Taleez integrations and API", "quote": "Taleez met à disposition une API REST documentée (spécification OpenAPI) et des webhooks"},
+        {"field": "partner_program", "url": "https://taleez.com/jobboards", "title": "Taleez jobboards", "quote": "Taleez s'intègre à plus de 90 jobboards et sites emploi."}
+      ]
+    },
+    {
+      "name": "Flatchr",
+      "url": "https://www.flatchr.io/",
+      "type": "ats",
+      "niche": "field recruitment and applicant tracking (France)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.flatchr.io/", "title": "Flatchr homepage", "quote": "Bienvenue dans l’ère du recrutement distribué où le RH pilote, le manager recrute, l’IA accélère."},
+        {"field": "ingest_methods", "url": "https://www.flatchr.io/multidiffusion", "title": "Flatchr multidiffusion", "quote": "Diffusez sur 160+ sites emploi et partagez vos offres sur votre site carrière, intranet et réseaux sociaux"},
+        {"field": "api_status", "url": "https://www.flatchr.io/marketplace", "title": "Flatchr integrations", "quote": "Développez votre propre intégration grâce à notre API publique"},
+        {"field": "partner_program", "url": "https://www.flatchr.io/marketplace", "title": "Flatchr integrations", "quote": "Intégrez facilement les meilleurs outils RH à Flatchr pour simplifier la gestion"}
+      ]
+    },
+    {
+      "name": "Rexx Systems",
+      "url": "https://www.rexx-systems.com/",
+      "type": "ats",
+      "niche": "HR software suite with applicant management (Germany, Austria, Switzerland)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.rexx-systems.com/", "title": "Rexx Systems homepage", "quote": "Wir sind führender Anbieter von Software für Unternehmen"},
+        {"field": "hq_country", "url": "https://www.rexx-systems.com/kontakt/", "title": "Rexx Systems contact", "quote": "Rexx Systems Headquarters Süderstrasse 75-79 D-20097 Hamburg"},
+        {"field": "ingest_methods", "url": "https://www.rexx-systems.com/preise/", "title": "Rexx Systems prices", "quote": "Bewerbungsmanagement, inkl. gratis Multiposting und kostenlose Jobbörsen finest-jobs.com, Bundesagentur, usw."}
+      ]
+    },
+    {
+      "name": "Concludis",
+      "url": "https://www.concludis.de/",
+      "type": "ats",
+      "niche": "enterprise applicant management for high-volume recruiting (Germany)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.concludis.de/", "title": "Concludis homepage", "quote": "Concludis ist die Enterprise-Lösung für Bewerbermanagement bei hohem Bewerbervolumen"},
+        {"field": "api_status", "url": "https://www.concludis.de/", "title": "Concludis homepage", "quote": "Anbindung an HCM, Payroll, Onboarding-Tools und mehr, vollautomatisiert via einer einzigen API."}
+      ]
+    },
+    {
+      "name": "Jobylon",
+      "url": "https://www.jobylon.com/",
+      "type": "ats",
+      "niche": "enterprise applicant tracking for multi-brand employers (Sweden)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.jobylon.com/", "title": "Jobylon homepage", "quote": "An ATS that works the way your organization does, across brands, markets, and teams."},
+        {"field": "partner_program", "url": "https://www.jobylon.com/integrations", "title": "Jobylon integrations", "quote": "Jobylon integrates seamlessly with most major third-party apps and partners"}
+      ]
+    },
+    {
+      "name": "Homerun",
+      "url": "https://www.homerun.co/",
+      "type": "ats",
+      "niche": "applicant tracking for small and mid-size teams (Netherlands)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.homerun.co/about", "title": "Homerun about", "quote": "Homerun is a Netherlands-based applicant tracking system (ATS) that helps companies streamline and manage their hiring process in one place."},
+        {"field": "business_model", "url": "https://www.homerun.co/", "title": "Homerun homepage", "quote": "Hire and manage your team starting from € 109 per month."},
+        {"field": "partner_program", "url": "https://www.homerun.co/partner-program", "title": "Homerun partnership program", "quote": "The Homerun Partnership Program is designed to create mutually beneficial relationships with Partners"}
+      ]
+    },
+    {
+      "name": "Talentech",
+      "url": "https://talentech.com/",
+      "type": "ats",
+      "niche": "recruitment and HR platform with ATS (Nordics and Europe)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://talentech.com/", "title": "Talentech homepage", "quote": "Our recruitment and HR solutions are build on new, modern, and future proof technologies"},
+        {"field": "business_model", "url": "https://talentech.com/pricing/", "title": "Talentech pricing", "quote": "Our prices are adjusted to the size of your company and the complexity of the solution you need."},
+        {"field": "api_status", "url": "https://talentech.com/", "title": "Talentech homepage", "quote": "The developer portal holds comprehensive knowledge on how to use our APIs to extend the functionality"},
+        {"field": "partner_program", "url": "https://marketplace.talentech.com/", "title": "Talentech marketplace", "quote": "Integrations that will scale your solution"}
+      ]
+    },
+    {
+      "name": "softgarden",
+      "url": "https://www.softgarden.com/",
+      "type": "ats",
+      "niche": "recruiting software with multiposting (Germany)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.softgarden.com/", "title": "softgarden homepage", "quote": "Unsere Recruiting Software unterstützt dich von der Stellenausschreibung über das Bewerbermanagement bis zum Onboarding."},
+        {"field": "business_model", "url": "https://softgarden.com/de/preise/", "title": "softgarden prices", "quote": "Alle Pakete, Funktionen und Preise kompakt"},
+        {"field": "ingest_methods", "url": "https://www.softgarden.com/", "title": "softgarden homepage", "quote": "Veröffentliche deine Stellenanzeigen mit wenigen Klicks auf über 1.200 Jobboards, Social Media und Google Ads."}
+      ]
+    },
+    {
+      "name": "Hireserve",
+      "url": "https://hireserve.com/",
+      "type": "ats",
+      "niche": "in-house recruitment ATS with job board integration (UK)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://hireserve.com/multiple-job-board-integrations/", "title": "Hireserve job board integration", "quote": "Maximise your visibility and streamline your hiring process with Hireserve’s leading ATS"},
+        {"field": "ingest_methods", "url": "https://hireserve.com/multiple-job-board-integrations/", "title": "Hireserve job board integration", "quote": "Post job adverts to multiple job boards with a single click using Hireserve’s integrated ATS job board functionality."}
+      ]
+    },
+    {
+      "name": "Tribepad",
+      "url": "https://tribepad.com/",
+      "type": "ats",
+      "niche": "recruitment software and ATS (UK)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://tribepad.com/", "title": "Tribepad homepage", "quote": "built to provide everything you need to hire, in one place."},
+        {"field": "partner_program", "url": "https://tribepad.com/", "title": "Tribepad homepage", "quote": "Build a tech stack that’s more than the sum of its parts with Tribepad’s thriving integrations ecosystem."}
+      ]
+    },
+    {
+      "name": "Oleeo",
+      "url": "https://www.oleeo.com/",
+      "type": "ats",
+      "niche": "talent acquisition and applicant tracking platform (UK)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.oleeo.com/", "title": "Oleeo homepage", "quote": "#1 Rated ATS Software & AI Modules for Recruitment"},
+        {"field": "partner_program", "url": "https://www.oleeo.com/partner-ecosystem/", "title": "Oleeo partner ecosystem", "quote": "Oleeo partners with incredible platforms across the globe to help you recruit faster and smarter!"}
+      ]
+    },
+    {
+      "name": "Occy",
+      "url": "https://occy.com/",
+      "type": "ats",
+      "niche": "ATS for internal hiring teams (UK)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://occy.com/", "title": "Occy homepage", "quote": "Write compelling, structured job adverts and distribute across multiple leading UK job boards within minutes"},
+        {"field": "ingest_methods", "url": "https://occy.com/", "title": "Occy homepage", "quote": "Post to multiple job boards simultaneously"}
+      ]
+    },
+    {
+      "name": "HR-ON",
+      "url": "https://hr-on.com/en/",
+      "type": "ats",
+      "niche": "recruitment and HR system (Recruit module)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://hr-on.com/en/", "title": "HR-ON homepage", "quote": "Recruit talent, automate processes, streamline onboarding, and improve wellbeing"},
+        {"field": "business_model", "url": "https://hr-on.com/en/", "title": "HR-ON homepage", "quote": "Put together your solution and get a tailored price"},
+        {"field": "partner_program", "url": "https://hr-on.com/en/", "title": "HR-ON homepage", "quote": "We are official LinkedIn partners"}
+      ]
+    },
+    {
+      "name": "Hireful",
+      "url": "https://www.hireful.com/",
+      "type": "ats",
+      "niche": "applicant tracking for UK SMEs and in-house recruiters",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.hireful.com/", "title": "hireful homepage", "quote": "Helping HR teams and in-house recruiters in the UK find their inner zen"},
+        {"field": "ingest_methods", "url": "https://www.hireful.com/", "title": "hireful homepage", "quote": "Publish to job boards"},
+        {"field": "api_status", "url": "https://www.hireful.com/partners/software-partners", "title": "hireful software partners", "quote": "Our smarty pants techies have built an API solution into our product, so integrating is easy as pie."},
+        {"field": "partner_program", "url": "https://www.hireful.com/marketplace", "title": "hireful marketplace", "quote": "Your hireful ATS integrates with just about anything, leaving you free to connect to your favourite HR tech."}
+      ]
+    },
+    {
+      "name": "Bizneo",
+      "url": "https://www.bizneo.com/",
+      "type": "ats",
+      "niche": "HR and talent management software (Spain)",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.bizneo.com/", "title": "Bizneo homepage", "quote": "Software de Recursos Humanos sencillo, para empresas exigentes"},
+        {"field": "partner_program", "url": "https://www.bizneo.com/partners/", "title": "Bizneo partner programme", "quote": "Programa de Partners de Bizneo HR"}
+      ]
+    },
+    {
+      "name": "Factorial ATS",
+      "url": "https://factorial.com/talent",
+      "type": "ats",
+      "niche": "recruiting module of the Factorial HR platform",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://factorial.com/talent", "title": "Factorial talent", "quote": "Software to recruit talent faster and better"},
+        {"field": "api_status", "url": "https://factorial.com/integrations-partner-program", "title": "Factorial integrations partner program", "quote": "Develop custom solutions using our public API or join our certification program to get featured directly on our global marketplace."},
+        {"field": "partner_program", "url": "https://factorial.com/integrations-partner-program", "title": "Factorial integrations partner program", "quote": "Expand your product's reach. Develop custom solutions using our public API"}
+      ]
+    },
+    {
+      "name": "Kenjo",
+      "url": "https://www.kenjo.io/",
+      "type": "ats",
+      "niche": "HR software with applicant tracking for SMEs",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.kenjo.io/", "title": "Kenjo homepage", "quote": "Hire candidates faster thanks to automated email templates and collaborative applicant tracking"}
+      ]
+    },
+    {
+      "name": "EasyCruit",
+      "url": "https://www.easycruit.com/",
+      "type": "ats",
+      "niche": "online recruitment solution for hiring managers and recruiters",
+      "countries_served": [],
+      "sources": [
+        {"field": "existence", "url": "https://www.easycruit.com/", "title": "EasyCruit homepage", "quote": "EasyCruit is an online recruitment solution catered to hiring managers and recruiters"}
+      ]
+    }
+  ],
+  "blocked": [
+    {"name": "d.vinci", "url": "https://www.d-vinci.com/", "reason": "Page load failed: net::ERR_TUNNEL_CONNECTION_FAILED"},
+    {"name": "Cezanne HR", "url": "https://www.cezanne.software/", "reason": "Page load failed: net::ERR_TUNNEL_CONNECTION_FAILED"},
+    {"name": "Networx", "url": "https://www.networx.de/", "reason": "Page load failed: net::ERR_TUNNEL_CONNECTION_FAILED"},
+    {"name": "Prescreen", "url": "https://www.prescreen.io/", "reason": "HTTP 502 upstream request failed"},
+    {"name": "Varbi", "url": "https://www.varbi.com/", "reason": "HTTP 502"}
+  ],
+  "queue": [
+    {"name": "Webcruiter", "url": "", "reason": "Domain redirects to talentech.com/sv/; no Webcruiter page of its own read"},
+    {"name": "ReachMee", "url": "", "reason": "Domain redirects to talentech.com/sv/; no ReachMee page of its own read"},
+    {"name": "Talos360", "url": "https://ats.talos360.com/", "reason": "Homepage redirects to a login page; no product description read, login not used"}
+  ]
+}

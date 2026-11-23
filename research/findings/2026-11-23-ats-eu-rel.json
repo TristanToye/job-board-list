@@ -1,0 +1,65 @@
+{
+  "mode": "relationships",
+  "edges": [
+    {
+      "from": "Rexx Systems", "from_url": "https://www.rexx-systems.com/",
+      "to": "finest-jobs.com", "to_url": "",
+      "relation": "sends-jobs-to",
+      "source": {"url": "https://www.rexx-systems.com/preise/", "title": "Rexx Systems prices", "quote": "Bewerbungsmanagement, inkl. gratis Multiposting und kostenlose Jobbörsen finest-jobs.com, Bundesagentur, usw."}
+    },
+    {
+      "from": "Rexx Systems", "from_url": "https://www.rexx-systems.com/",
+      "to": "Bundesagentur", "to_url": "",
+      "relation": "sends-jobs-to",
+      "source": {"url": "https://www.rexx-systems.com/preise/", "title": "Rexx Systems prices", "quote": "Bewerbungsmanagement, inkl. gratis Multiposting und kostenlose Jobbörsen finest-jobs.com, Bundesagentur, usw."}
+    },
+    {
+      "from": "Taleez", "from_url": "https://www.taleez.com/",
+      "to": "France Travail", "to_url": "",
+      "relation": "sends-jobs-to",
+      "source": {"url": "https://taleez.com/jobboards", "title": "Taleez jobboards", "quote": "Des généralistes comme France Travail, Indeed ou HelloWork aux plateformes spécialisées par secteur"}
+    },
+    {
+      "from": "Taleez", "from_url": "https://www.taleez.com/",
+      "to": "Indeed", "to_url": "",
+      "relation": "sends-jobs-to",
+      "source": {"url": "https://taleez.com/jobboards", "title": "Taleez jobboards", "quote": "Des généralistes comme France Travail, Indeed ou HelloWork aux plateformes spécialisées par secteur"}
+    },
+    {
+      "from": "Taleez", "from_url": "https://www.taleez.com/",
+      "to": "HelloWork", "to_url": "",
+      "relation": "sends-jobs-to",
+      "source": {"url": "https://taleez.com/jobboards", "title": "Taleez jobboards", "quote": "Des généralistes comme France Travail, Indeed ou HelloWork aux plateformes spécialisées par secteur"}
+    },
+    {
+      "from": "Hireserve", "from_url": "https://hireserve.com/",
+      "to": "Indeed", "to_url": "",
+      "relation": "sends-jobs-to",
+      "source": {"url": "https://hireserve.com/multiple-job-board-integrations/", "title": "Hireserve job board integration", "quote": "automatically distribute it to leading platforms like Indeed, Monster, Reed and more"}
+    },
+    {
+      "from": "Hireserve", "from_url": "https://hireserve.com/",
+      "to": "Monster", "to_url": "",
+      "relation": "sends-jobs-to",
+      "source": {"url": "https://hireserve.com/multiple-job-board-integrations/", "title": "Hireserve job board integration", "quote": "automatically distribute it to leading platforms like Indeed, Monster, Reed and more"}
+    },
+    {
+      "from": "Hireserve", "from_url": "https://hireserve.com/",
+      "to": "Reed", "to_url": "",
+      "relation": "sends-jobs-to",
+      "source": {"url": "https://hireserve.com/multiple-job-board-integrations/", "title": "Hireserve job board integration", "quote": "automatically distribute it to leading platforms like Indeed, Monster, Reed and more"}
+    }
+  ],
+  "blocked": [
+    {"name": "d.vinci", "url": "https://www.d-vinci.com/", "reason": "Page load failed: net::ERR_TUNNEL_CONNECTION_FAILED"},
+    {"name": "Cezanne HR", "url": "https://www.cezanne.software/", "reason": "Page load failed: net::ERR_TUNNEL_CONNECTION_FAILED"},
+    {"name": "Networx", "url": "https://www.networx.de/", "reason": "Page load failed: net::ERR_TUNNEL_CONNECTION_FAILED"},
+    {"name": "Prescreen", "url": "https://www.prescreen.io/", "reason": "HTTP 502 upstream request failed"},
+    {"name": "Varbi", "url": "https://www.varbi.com/", "reason": "HTTP 502"}
+  ],
+  "queue": [
+    {"name": "Webcruiter", "url": "", "reason": "Domain redirects to talentech.com/sv/; its own pages not read"},
+    {"name": "ReachMee", "url": "", "reason": "Domain redirects to talentech.com/sv/; its own pages not read"},
+    {"name": "Talos360", "url": "", "reason": "Homepage redirects to a login page; no partner page read"}
+  ]
+}
