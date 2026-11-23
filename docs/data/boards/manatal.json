@@ -1,0 +1,253 @@
+{
+ "id": "manatal",
+ "name": "Manatal",
+ "url": "https://www.manatal.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "AI ATS and recruitment CRM for agencies and in-house teams",
+ "segment": "",
+ "parent": "",
+ "business_model": "subscription, prices published",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Site says: \"Share your job openings on 2,500+ organic and premium channels, including local, global, and specialized job platforms such as Indeed, LinkedIn, Monster, ZipRecruiter\" Site says: \"Transparent and flexible pricing without lock-in contract\" Site says: \"The Manatal API allows for building custom workflows better suited to your needs.\" Site says: \"Manatal ATS Integrations Directory\" Site says: \"Integrate Manatal to your existing HR tech stack via Manatal OpenAPI.\" Site says: \"Connect Manatal to 3,000+ apps via Zapier and n8n integrations.\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/manatal/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 82245,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats",
+  "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "SEEK",
+   "to_id": "seek",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "Jobsdb",
+   "to_id": "jobsdb",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "JobStreet",
+   "to_id": "jobstreet",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "Naukri",
+   "to_id": "naukri",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.manatal.com/features/applicant-tracking-system",
+   "quote": "helps companies achieve digitalization and seamless integration to LinkedIn and other job boards"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri, CV-Library, PNet"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "PNet",
+   "to_id": "pnet",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri, CV-Library, PNet"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.manatal.com",
+   "title": "Manatal homepage",
+   "accessed": "2026-11-23",
+   "quote": "Manatal is an AI Recruitment Software enabling human resources departments and recruitment agencies to source and hire in the most effective way.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.manatal.com",
+   "title": "Manatal homepage",
+   "accessed": "2026-11-23",
+   "quote": "2,500+ job boards: Global, local and specialized organic and premium platforms integrated natively.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.manatal.com/",
+   "title": "Leading AI Recruitment Software | Manatal.com",
+   "accessed": "2026-11-23",
+   "quote": "Manatal is a sophisticated, easy-to-use, mobile-friendly, and cloud-based applicant tracking system that helps companies achieve digitalization and seamless integration to LinkedIn and other job boards.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.manatal.com/",
+   "title": "Leading AI Recruitment Software | Manatal.com",
+   "accessed": "2026-11-23",
+   "quote": "2,500+ job boards: Global, local and specialized organic and premium platforms integrated natively.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.manatal.com/features/applicant-tracking-system",
+   "title": "Applicant tracking system | Manatal",
+   "accessed": "2026-11-23",
+   "quote": "Manatal is a comprehensive cloud-based ATS - Applicant Tracking System to make your recruitment process easier.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.manatal.com/features/applicant-tracking-system",
+   "title": "Applicant tracking system | Manatal",
+   "accessed": "2026-11-23",
+   "quote": "helps companies achieve digitalization and seamless integration to LinkedIn and other job boards",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.manatal.com",
+   "title": "Manatal homepage",
+   "accessed": "2026-11-23",
+   "quote": "Professional Plan For individuals & small teams $15/per user per month",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.manatal.com",
+   "title": "Manatal homepage",
+   "accessed": "2026-11-23",
+   "quote": "Share your job openings on 2,500+ organic and premium channels, including local, global, and specialized job platforms such as Indeed, LinkedIn, Monster, ZipRecruiter",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.manatal.com/",
+   "title": "Leading AI Recruitment Software | Manatal.com",
+   "accessed": "2026-11-23",
+   "quote": "Transparent and flexible pricing without lock-in contract",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://developers.manatal.com/reference/getting-started",
+   "title": "Welcome to Manatal's API documentation",
+   "accessed": "2026-11-23",
+   "quote": "The Manatal API allows for building custom workflows better suited to your needs.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.manatal.com/integrations",
+   "title": "Manatal ATS Integrations Directory",
+   "accessed": "2026-11-23",
+   "quote": "Manatal ATS Integrations Directory",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.manatal.com/features/applicant-tracking-system",
+   "title": "Applicant tracking system | Manatal",
+   "accessed": "2026-11-23",
+   "quote": "Integrate Manatal to your existing HR tech stack via Manatal OpenAPI.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.manatal.com/",
+   "title": "Manatal home",
+   "accessed": "2026-11-23",
+   "quote": "Our 14-day free trial allows anyone to explore the platform without commitment",
+   "quote_check": "ok"
+  }
+ ]
+}

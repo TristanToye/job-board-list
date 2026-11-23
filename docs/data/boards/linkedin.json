@@ -79,7 +79,7 @@
   "global_rank": 6,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-partner-only",
@@ -236,6 +236,51 @@
    "to_id": "linkedin",
    "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
    "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Itris",
+   "from_id": "itris",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.itris.co.uk/",
+   "quote": "Fully integrated with LinkedIn Recruiter"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.zoho.com/recruit/integrations.html",
+   "quote": "Post jobs to LinkedIn directly from Zoho Recruit."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.manatal.com/features/applicant-tracking-system",
+   "quote": "helps companies achieve digitalization and seamless integration to LinkedIn and other job boards"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Homerun",
+   "from_id": "homerun",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.homerun.co/integrations",
+   "quote": "Apply with LinkedIn"
   }
  ],
  "review": null,

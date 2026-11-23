@@ -1,19 +1,143 @@
 {
-  "mode": "relationships",
-  "edges": [
-    {"from": "Zoho Recruit", "from_url": "https://www.zoho.com/recruit/", "to": "ZipRecruiter", "to_url": "", "relation": "sends-jobs-to", "source": {"url": "https://www.zoho.com/recruit/supported-job-boards.html", "title": "Zoho Recruit | Job Boards | Post jobs", "quote": "ZipRecruiter posts your job opening to 100+ job boards with this click!"}},
-    {"from": "Zoho Recruit", "from_url": "https://www.zoho.com/recruit/", "to": "WhatJobs", "to_url": "", "relation": "sends-jobs-to", "source": {"url": "https://www.zoho.com/recruit/supported-job-boards.html", "title": "Zoho Recruit | Job Boards | Post jobs", "quote": "Publish Zoho Recruit vacancies directly to WhatJobs and reach candidates worldwide."}},
-    {"from": "Zoho Recruit", "from_url": "https://www.zoho.com/recruit/", "to": "Monster APAC", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.zoho.com/recruit/supported-job-boards.html", "title": "Zoho Recruit | Job Boards | Post jobs", "quote": "Enjoy better exposure to the right people with Monster APAC's vast network of properties, partners and targeting capabilities."}},
-    {"from": "Zoho Recruit", "from_url": "https://www.zoho.com/recruit/", "to": "TimesJobs", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.zoho.com/recruit/supported-job-boards.html", "title": "Zoho Recruit | Job Boards | Post jobs", "quote": "TimesJobs is one of the largest job boards in India and the middle east."}},
-    {"from": "Zoho Recruit", "from_url": "https://www.zoho.com/recruit/", "to": "Dice", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.zoho.com/recruit/supported-job-boards.html", "title": "Zoho Recruit | Job Boards | Post jobs", "quote": "Unlock employment insights by powering Dice technology (formerly The IT Job Board)."}},
-    {"from": "Zoho Recruit", "from_url": "https://www.zoho.com/recruit/", "to": "Gigajob", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.zoho.com/recruit/supported-job-boards.html", "title": "Zoho Recruit | Job Boards | Post jobs", "quote": "Gigajob is a global job board with local sites in 147 countries and available in 38 languages."}},
-    {"from": "Manatal", "from_url": "https://www.manatal.com/", "to": "Indeed", "to_url": "", "relation": "sends-jobs-to", "source": {"url": "https://www.manatal.com/integrations/indeed-organic", "title": "Integrate Indeed with Manatal ATS", "quote": "Upon subscribing to Manatal, the Indeed organic job posting integration is automatically enabled"}},
-    {"from": "Manatal", "from_url": "https://www.manatal.com/", "to": "Monster", "to_url": "", "relation": "sends-jobs-to", "source": {"url": "https://www.manatal.com/integrations/monster-organic", "title": "Integrate Monster with Manatal ATS", "quote": "Manatal integrates with Monster by allowing users to directly publish their job openings to the platform without cost."}},
-    {"from": "Manatal", "from_url": "https://www.manatal.com/", "to": "ZipRecruiter", "to_url": "", "relation": "sends-jobs-to", "source": {"url": "https://www.manatal.com/integrations/ziprecruiter", "title": "Integrate Ziprecruiter with Manatal ATS", "quote": "Publish job openings directly to ZipRecruiter's extensive network from Manatal"}},
-    {"from": "Talentera", "from_url": "https://www.talentera.com/en/", "to": "Bayt", "to_url": "", "relation": "integrates-with", "source": {"url": "https://www.talentera.com/en/pricing/", "title": "Pricing – Talentera", "quote": "CV Import from Bayt"}}
-  ],
-  "blocked": [
-    {"name": "Bayt", "url": "https://www.bayt.com", "reason": "HTTP 403 when read as a partner target; edge recorded from Talentera's page only"}
-  ],
-  "queue": []
+ "mode": "relationships",
+ "edges": [
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "ZipRecruiter",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "ZipRecruiter posts your job opening to 100+ job boards with this click!",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "WhatJobs",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "Publish Zoho Recruit vacancies directly to WhatJobs and reach candidates worldwide.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "Monster APAC",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "Enjoy better exposure to the right people with Monster APAC's vast network of properties, partners and targeting capabilities.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "TimesJobs",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "TimesJobs is one of the largest job boards in India and the middle east.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "Dice",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "Unlock employment insights by powering Dice technology (formerly The IT Job Board).",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "Gigajob",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "Gigajob is a global job board with local sites in 147 countries and available in 38 languages.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Manatal",
+   "from_url": "https://www.manatal.com/",
+   "to": "Indeed",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.manatal.com/integrations/indeed-organic",
+    "title": "Integrate Indeed with Manatal ATS",
+    "quote": "Upon subscribing to Manatal, the Indeed organic job posting integration is automatically enabled",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Manatal",
+   "from_url": "https://www.manatal.com/",
+   "to": "Monster",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.manatal.com/integrations/monster-organic",
+    "title": "Integrate Monster with Manatal ATS",
+    "quote": "Manatal integrates with Monster by allowing users to directly publish their job openings to the platform without cost.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Manatal",
+   "from_url": "https://www.manatal.com/",
+   "to": "ZipRecruiter",
+   "to_url": "",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.manatal.com/integrations/ziprecruiter",
+    "title": "Integrate Ziprecruiter with Manatal ATS",
+    "quote": "Publish job openings directly to ZipRecruiter's extensive network from Manatal",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Talentera",
+   "from_url": "https://www.talentera.com/en/",
+   "to": "Bayt",
+   "to_url": "",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.talentera.com/en/pricing/",
+    "title": "Pricing – Talentera",
+    "quote": "CV Import from Bayt",
+    "check": "ok"
+   }
+  }
+ ],
+ "blocked": [
+  {
+   "name": "Bayt",
+   "url": "https://www.bayt.com",
+   "reason": "HTTP 403 when read as a partner target; edge recorded from Talentera's page only"
+  }
+ ],
+ "queue": []
 }

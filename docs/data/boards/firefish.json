@@ -1,0 +1,91 @@
+{
+ "id": "firefish",
+ "name": "Firefish",
+ "url": "https://www.firefishsoftware.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "UK",
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Europe",
+ "niche": "UK recruitment agency CRM",
+ "segment": "",
+ "parent": "",
+ "business_model": "subscription, prices published",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.firefishsoftware.com/product/integrations",
+ "ingest_methods": [],
+ "notes": "Site says: \"If you can’t find the integration you’re looking for, we also offer an open API.\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/firefish/",
+ "indexable": true,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 313281,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats",
+  "partner-program",
+  "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Firefish",
+   "from_id": "firefish",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.firefishsoftware.com/product/integrations",
+   "quote": "WhatsApp for Business Indeed Liquid Friday"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.firefishsoftware.com",
+   "title": "Firefish homepage",
+   "accessed": "2026-11-23",
+   "quote": "Firefish gives recruitment agencies dedicated workflows for permanent, temporary and contract recruitment, all powered by one CRM.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.firefishsoftware.com/pricing",
+   "title": "Firefish pricing",
+   "accessed": "2026-11-23",
+   "quote": "Add-On Modules (from £150 per module)",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.firefishsoftware.com/product/integrations",
+   "title": "Firefish integrations",
+   "accessed": "2026-11-23",
+   "quote": "The Firefish recruitment CRM integrates with Certified Partners to help you streamline your recruitment activities.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.firefishsoftware.com/product/integrations",
+   "title": "Firefish integrations",
+   "accessed": "2026-11-23",
+   "quote": "If you can’t find the integration you’re looking for, we also offer an open API.",
+   "quote_check": "ok"
+  }
+ ]
+}

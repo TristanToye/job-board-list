@@ -19,7 +19,7 @@ Handshake is a niche job board based in the United States, focused on students/e
 
 **Which languages does Handshake support?** This directory records Handshake as supporting English.
 
-**How large is Handshake?** Handshake ranks #11,832 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Handshake?** Handshake ranks #11,832 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Handshake connect to?** According to this directory, Handshake integrates with Lever.
 

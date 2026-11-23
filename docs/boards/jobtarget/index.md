@@ -16,9 +16,9 @@ JobTarget is a job multiposting and distribution service, focused on recruitment
 
 ## Quick answers
 
-**How large is JobTarget?** JobTarget ranks #350,179 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is JobTarget?** JobTarget ranks #350,179 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does JobTarget connect to?** According to this directory, JobTarget sends jobs to Indeed, Hire Heroes USA, MilitaryHire, Military.com, Job Opportunities for Disabled American Veterans (JOFDAV), Disability Solutions at Work/Ability Beyond and others; integrates with iCIMS, ZipRecruiter, LinkedIn.
+**Which platforms does JobTarget connect to?** According to this directory, JobTarget sends jobs to Indeed, Hire Heroes USA, MilitaryHire, Military.com, Job Opportunities for Disabled American Veterans (JOFDAV), Disability Solutions at Work/Ability Beyond and others; receives jobs from ApplicantStack; integrates with iCIMS, ZipRecruiter, LinkedIn.
 
 ## Sources
 

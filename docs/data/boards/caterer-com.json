@@ -30,7 +30,7 @@
   "global_rank": 109901,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "job-board"
@@ -44,6 +44,15 @@
    "to_id": "caterer-com",
    "source": "https://recruiterflow.com/integrations",
    "quote": "Caterer.com is UK's job portal dedicated to connecting job seekers with exciting opportunities in the hospitality and catering industry."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobDiva",
+   "from_id": "jobdiva",
+   "to": "Caterer.com",
+   "to_id": "caterer-com",
+   "source": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+   "quote": "Caterer.com is the largest UK hospitality job board"
   }
  ],
  "review": {

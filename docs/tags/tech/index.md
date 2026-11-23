@@ -1,18 +1,23 @@
 # Technology
 
-Software 54 entries in the directory.
+Software 62 entries in the directory.
 
 - [Toptal](https://jobboardlist.com/boards/toptal/): freelance-platform
 - [The Adecco Group](https://jobboardlist.com/boards/the-adecco-group/): staffing
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [Welcome to the Jungle](https://jobboardlist.com/boards/welcome-to-the-jungle/): board+employer-brand, Partner-only API
+- [Gupy](https://jobboardlist.com/boards/gupy/): ats
 - [Resume Genius](https://jobboardlist.com/boards/resume-genius/): career-services
+- [Rexx Systems](https://jobboardlist.com/boards/rexx-systems/): ats
 - [The Hub](https://jobboardlist.com/boards/the-hub/): niche-board
+- [softgarden](https://jobboardlist.com/boards/softgarden/): ats
 - [Codeable](https://jobboardlist.com/boards/codeable/): freelance-platform
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
 - [Codility](https://jobboardlist.com/boards/codility/): hr-tech, API key on request
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
+- [Bizneo HR](https://jobboardlist.com/boards/bizneo-hr/): ats
 - [Kforce](https://jobboardlist.com/boards/kforce/): staffing
+- [Kenjo](https://jobboardlist.com/boards/kenjo/): ats
 - [Green](https://jobboardlist.com/boards/green/): niche-board
 - [Wanted](https://jobboardlist.com/boards/wanted/): board
 - [Just Join IT](https://jobboardlist.com/boards/just-join-it/): niche-board
@@ -23,6 +28,7 @@ Software 54 entries in the directory.
 - [Landing.jobs](https://jobboardlist.com/boards/landing-jobs/): niche-board
 - [ITviec](https://jobboardlist.com/boards/itviec/): niche-board
 - [Get on Board](https://jobboardlist.com/boards/get-on-board/): niche-board
+- [Tribepad](https://jobboardlist.com/boards/tribepad/): ats
 - [OfferZen](https://jobboardlist.com/boards/offerzen/): niche-board
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
 - [Berlin Startup Jobs](https://jobboardlist.com/boards/berlin-startup-jobs/): niche-board
@@ -36,9 +42,11 @@ Software 54 entries in the directory.
 - [Hacker News Who is hiring](https://jobboardlist.com/boards/hn-whoishiring/): community, Open API (no key)
 - [Salt Recruitment Jobs](https://jobboardlist.com/boards/salt-recruitment-jobs/): board
 - [STARTUPLAB Jobs](https://jobboardlist.com/boards/startuplab-jobs/): niche-board
+- [Talentera](https://jobboardlist.com/boards/talentera/): ats
 - [Teamio](https://jobboardlist.com/boards/teamio/): multiposting
 - [Clockwork Recruiting](https://jobboardlist.com/boards/clockwork-recruiting/): ats
 - [Engineering.jobs (Belgium)](https://jobboardlist.com/boards/engineering-jobs-belgium/): niche-board
+- [Expr3ss!](https://jobboardlist.com/boards/expr3ss/): ats
 - [Hireline](https://jobboardlist.com/boards/hireline/): board
 - [ICTcareer.ch](https://jobboardlist.com/boards/ictcareer-ch/): niche-board
 - [ictjobs.ch](https://jobboardlist.com/boards/ictjobs-ch/): niche-board

@@ -18,7 +18,7 @@ Bullhorn is an applicant tracking system, focused on applicant tracking and CRM 
 
 **Does Bullhorn have an API?** According to this directory, Bullhorn restricts programmatic access to approved partners. Documentation: https://bullhorn.github.io/.
 
-**How large is Bullhorn?** Bullhorn ranks #32,500 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Bullhorn?** Bullhorn ranks #32,500 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

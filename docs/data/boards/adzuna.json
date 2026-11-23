@@ -64,7 +64,7 @@
   "global_rank": 66808,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-self-serve",
@@ -120,6 +120,15 @@
    "to_id": "adzuna",
    "source": "https://jobadder.com/platform/operations/job-boards",
    "quote": "Adzuna is a job search engine that helps you reduce the cost of hiring by finding unique job seekers in 19 countries."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "Adzuna",
+   "to_id": "adzuna",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Adzuna is a search engine for job ads that lists every job, everywhere."
   }
  ],
  "review": null,

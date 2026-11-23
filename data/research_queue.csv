@@ -968,3 +968,43 @@ WorkHound,,,board,Named as a partner on an integrations page but not yet in the 
 nJobs,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-20
 Loxo,https://www.loxo.co/integrations,ZZ,verification,Integrations page blocked in browser reader (blocked: true); not retried,2026-11-23
 TempWorks Software,https://www.tempworks.com,ZZ,verification,Browser reader returned blocked true for https://www.tempworks.com/contact-us/,2026-11-23
+Vincere,https://vincere.io,ZZ,verification,HTTP 403 (browser reader: web app blocked access),2026-11-23
+Mercury xRM,https://www.mercuryxrm.co.uk,ZZ,verification,HTTP 403; page reads 'This website has been deactivated',2026-11-23
+Bond Adapt,https://www.adapt-recruitment-software.com,ZZ,verification,Connection failed (ERR_TUNNEL_CONNECTION_FAILED); candidate URL unverified from directory listing,2026-11-23
+Invenias,,ZZ,verification,invenias.com redirects to a Bullhorn product page (owned by Bullhorn); no independent vendor page read,2026-11-23
+Erecruit,,ZZ,verification,Named in brief; directory results link it to the Bullhorn-owned Adapt product; homepage not read,2026-11-23
+Akken (AkkenCloud),,ZZ,verification,Named in roundups; official site not located in search results,2026-11-23
+Thrive TRM,,ZZ,verification,Named in brief; official site not confirmed in search results (a trueplatform.com page is unverified),2026-11-23
+Sourceflow,https://www.sourceflow.co.uk,ZZ,verification,"Read, but it is a recruitment website and marketing platform rather than an ATS or CRM; excluded from this class",2026-11-23
+LiveHire,https://www.livehire.com,ZZ,verification,"HTTP 403, Cloudflare challenge page (Just a moment...)",2026-11-23
+Freshteam,https://www.freshteam.com,ZZ,verification,HTTP 502,2026-11-23
+Vincere,https://www.vincere.io,ZZ,verification,"HTTP 403, Cloudflare challenge page (Just a moment...)",2026-11-23
+ELMO Software,https://www.elmosoftware.com,ZZ,verification,HTTP 502,2026-11-23
+Recright,https://www.recright.com,ZZ,verification,HTTP 404 on get.recright.com; main site not otherwise read,2026-11-23
+Elmo Recruitment,,ZZ,verification,Named in brief; no working domain found (elmosoftware.com returned 502),2026-11-23
+UKG Pro Recruiting,https://www.ukg.com,ZZ,verification,HTTP 403 with browser challenge page on two attempts,2026-11-23
+Lumesse TalentLink,,ZZ,verification,lumesse.com redirects to cornerstoneondemand.com; TalentLink product page not read,2026-11-23
+Workstream,https://www.workstream.io,ZZ,verification,Connection failed (ERR_TUNNEL_CONNECTION_FAILED) on read,2026-11-23
+Freshteam,https://www.freshteam.com,ZZ,verification,HTTP 502 on two reads,2026-11-23
+isolved,https://www.isolved.com,ZZ,verification,HTTP 502 on two reads,2026-11-23
+Gusto Hiring,https://www.gusto.com/product/hiring,ZZ,verification,HTTP 403,2026-11-23
+Comeet (now Spark Hire Recruit),https://www.comeet.com,ZZ,verification,"Homepage read once and states the product is now Spark Hire Recruit; a later read returned HTTP 504, so no further pages were read",2026-11-23
+d.vinci,https://www.d-vinci.com/,ZZ,verification,Page load failed: net::ERR_TUNNEL_CONNECTION_FAILED,2026-11-23
+Cezanne HR,https://www.cezanne.software/,ZZ,verification,Page load failed: net::ERR_TUNNEL_CONNECTION_FAILED,2026-11-23
+Networx,https://www.networx.de/,ZZ,verification,Page load failed: net::ERR_TUNNEL_CONNECTION_FAILED,2026-11-23
+Prescreen,https://www.prescreen.io/,ZZ,verification,HTTP 502 upstream request failed,2026-11-23
+Varbi,https://www.varbi.com/,ZZ,verification,HTTP 502,2026-11-23
+Webcruiter,,ZZ,verification,Domain redirects to talentech.com/sv/; no Webcruiter page of its own read,2026-11-23
+ReachMee,,ZZ,verification,Domain redirects to talentech.com/sv/; no ReachMee page of its own read,2026-11-23
+Talos360,https://ats.talos360.com/,ZZ,verification,"Homepage redirects to a login page; no product description read, login not used",2026-11-23
+Invenias,,,board,"Named on an integrations page: Owned by Bullhorn; invenias.com redirects to a Bullhorn page, not read as a vendor site",2026-11-23
+Lumesse TalentLink,,,board,Named on an integrations page: Named as a product but lumesse.com redirects to cornerstoneondemand.com; no TalentLink page read,2026-11-23
+Webcruiter,,,board,Named on an integrations page: Domain redirects to talentech.com/sv/; its own pages not read,2026-11-23
+ReachMee,,,board,Named on an integrations page: Domain redirects to talentech.com/sv/; its own pages not read,2026-11-23
+Talos360,,,board,Named on an integrations page: Homepage redirects to a login page; no partner page read,2026-11-23
+Bundesagentur,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-23
+Call Center Jobs,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-23
+Caterer,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-23
+Gigajob,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-23
+Monster APAC,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-23
+finest-jobs.com,,,board,Named as a partner on an integrations page but not yet in the directory.,2026-11-23

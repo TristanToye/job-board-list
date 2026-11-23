@@ -34,7 +34,7 @@
   "global_rank": 154974,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-partner-only",
@@ -43,7 +43,17 @@
   "partner-program",
   "pay-per-click"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Fountain",
+   "from_id": "fountain",
+   "to": "Recruitics",
+   "to_id": "recruitics",
+   "source": "https://www.fountain.com/integrations",
+   "quote": "Recruitics is a data-driven recruitment marketing agency with an innovative AI powered recruitment technology platform"
+  }
+ ],
  "review": null,
  "owners": [],
  "scale": [],

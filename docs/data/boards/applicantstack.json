@@ -1,0 +1,108 @@
+{
+ "id": "applicantstack",
+ "name": "ApplicantStack",
+ "url": "https://www.applicantstack.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "applicant tracking and onboarding for small and mid-sized employers",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Site says: \"Our Growth plan allows up to 3 active job postings.\" Site says: \"ApplicantStack works with the following partners to deliver top-rated ATS\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/applicantstack/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 51377,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "ApplicantStack",
+   "from_id": "applicantstack",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.applicantstack.com/job-boards/",
+   "quote": "Effortlessly upload job posts and updates from ApplicantStack to Indeed, JobTarget and more"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "ApplicantStack",
+   "from_id": "applicantstack",
+   "to": "JobTarget",
+   "to_id": "jobtarget",
+   "source": "https://www.applicantstack.com/job-boards/",
+   "quote": "Effortlessly upload job posts and updates from ApplicantStack to Indeed, JobTarget and more"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "ApplicantStack",
+   "from_id": "applicantstack",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.applicantstack.com/partners/",
+   "quote": "ZipRecruiter posts your jobs to 200+ of the most visited job boards, websites and social networks on the Internet."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.applicantstack.com/",
+   "title": "ApplicantStack home",
+   "accessed": "2026-11-23",
+   "quote": "ApplicantStack is a fresh approach to hiring that’s simple, fast and powerful.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.applicantstack.com/job-boards/",
+   "title": "ApplicantStack job boards",
+   "accessed": "2026-11-23",
+   "quote": "Effortlessly upload job posts and updates from ApplicantStack to Indeed, JobTarget and more",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.applicantstack.com/pricing/",
+   "title": "ApplicantStack pricing",
+   "accessed": "2026-11-23",
+   "quote": "Our Growth plan allows up to 3 active job postings.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.applicantstack.com/partners/",
+   "title": "ApplicantStack partners",
+   "accessed": "2026-11-23",
+   "quote": "ApplicantStack works with the following partners to deliver top-rated ATS",
+   "quote_check": "ok"
+  }
+ ]
+}

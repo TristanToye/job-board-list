@@ -1,0 +1,142 @@
+{
+ "id": "recruit-crm",
+ "name": "Recruit CRM",
+ "url": "https://recruitcrm.io",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "AI ATS and CRM for recruitment agencies",
+ "segment": "",
+ "parent": "",
+ "business_model": "subscription, prices published",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "job board posting",
+  "career site"
+ ],
+ "notes": "Site says: \"Zapier, Make and a full open API\" Site says: \"Expand your reach by integrating with Recruit CRM and tapping into a global network of recruitment professionals.\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/recruit-crm/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 31734,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats",
+  "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Recruit CRM",
+   "from_id": "recruit-crm",
+   "to": "LogicMelon",
+   "to_id": "logicmelon",
+   "source": "https://recruitcrm.io/pricing/",
+   "quote": "LogicMelon, Broadbean and CV-Library"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Recruit CRM",
+   "from_id": "recruit-crm",
+   "to": "Broadbean",
+   "to_id": "broadbean",
+   "source": "https://recruitcrm.io/pricing/",
+   "quote": "LogicMelon, Broadbean and CV-Library"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Recruit CRM",
+   "from_id": "recruit-crm",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://recruitcrm.io/pricing/",
+   "quote": "LogicMelon, Broadbean and CV-Library"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://recruitcrm.io",
+   "title": "Recruit CRM homepage",
+   "accessed": "2026-11-23",
+   "quote": "Recruit CRM is an AI-powered Applicant Tracking System and CRM built for recruitment agencies and executive search firms in over 100 countries.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://recruitcrm.io",
+   "title": "Recruit CRM homepage",
+   "accessed": "2026-11-23",
+   "quote": "Publish a role to 3,000+ job boards and your branded careers page from one screen.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://recruitcrm.io/integration-partners/",
+   "title": "Recruit CRM integration partners",
+   "accessed": "2026-11-23",
+   "quote": "The platform unifies candidate sourcing, resume parsing, email automation, job board integrations, and Advanced Analytics to simplify hiring and drive growth.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://recruitcrm.io/",
+   "title": "Recruit CRM home",
+   "accessed": "2026-11-23",
+   "quote": "Publish a role to 3,000+ job boards and your branded careers page from one screen.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://recruitcrm.io/pricing/",
+   "title": "Recruit CRM pricing",
+   "accessed": "2026-11-23",
+   "quote": "$95 per user / month 100 free credits per user / month",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://recruitcrm.io",
+   "title": "Recruit CRM homepage",
+   "accessed": "2026-11-23",
+   "quote": "Zapier, Make and a full open API",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://recruitcrm.io/integration-partners/",
+   "title": "Recruit CRM integration partners",
+   "accessed": "2026-11-23",
+   "quote": "Expand your reach by integrating with Recruit CRM and tapping into a global network of recruitment professionals.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://recruitcrm.io/",
+   "title": "Recruit CRM home",
+   "accessed": "2026-11-23",
+   "quote": "Zapier, Make and a full open API",
+   "quote_check": "ok"
+  }
+ ]
+}

@@ -20,7 +20,9 @@ Hellowork is a job board. It was founded in 2022.
 
 **Which languages does Hellowork support?** This directory records Hellowork as supporting French.
 
-**How large is Hellowork?** Hellowork ranks #17,388 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Hellowork?** Hellowork ranks #17,388 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+
+**Which platforms does Hellowork connect to?** According to this directory, Hellowork receives jobs from Taleez.
 
 ## Sources
 

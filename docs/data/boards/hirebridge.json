@@ -1,0 +1,72 @@
+{
+ "id": "hirebridge",
+ "name": "Hirebridge",
+ "url": "https://www.hirebridge.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "applicant tracking for high-volume hiring",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Site says: \"We work together with our customers, system integrators and ultimately third party systems to help design and deploy the best integrations possible.\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/hirebridge/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 235544,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.hirebridge.com/corp/index.aspx",
+   "title": "Hirebridge home",
+   "accessed": "2026-11-23",
+   "quote": "Hirebridge is a powerful applicant tracking system which helps you reach more candidates, identify the best ones, and facilitates collaboration for a better, more productive hiring process.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.hirebridge.com/corp/index.aspx",
+   "title": "Hirebridge home",
+   "accessed": "2026-11-23",
+   "quote": "Automated marketing of your published jobs to the top job search sites, social media networks & paid job boards.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.hirebridge.com/corp/integrations.aspx",
+   "title": "Hirebridge integrations",
+   "accessed": "2026-11-23",
+   "quote": "We work together with our customers, system integrators and ultimately third party systems to help design and deploy the best integrations possible.",
+   "quote_check": "ok"
+  }
+ ]
+}

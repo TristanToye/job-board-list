@@ -1,0 +1,101 @@
+{
+ "id": "voyager-infinity",
+ "name": "Voyager Infinity",
+ "url": "https://www.voyagersoftware.com/voyager-infinity/",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "UK",
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Europe",
+ "niche": "UK recruitment agency CRM and ATS (Ikiru People)",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Site says: \"Voyager Infinity integrates the multi-job posting solution LogicMelon.\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/voyager-infinity/",
+ "indexable": false,
+ "prominence": {
+  "tier": "",
+  "label": "Not in top 1M",
+  "global_rank": null,
+  "scope": "section",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Voyager Infinity",
+   "from_id": "voyager-infinity",
+   "to": "Broadbean",
+   "to_id": "broadbean",
+   "source": "https://www.voyagersoftware.com/partners/",
+   "quote": "Jobs from the Infinity database are automatically sent to Broadbean for dispatch to the largest network of job boards in the world."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Voyager Infinity",
+   "from_id": "voyager-infinity",
+   "to": "LogicMelon",
+   "to_id": "logicmelon",
+   "source": "https://www.voyagersoftware.com/partners/",
+   "quote": "Jobs from the Infinity database are automatically sent to LogicMelon for dispatch to your selection of their extensive job board network."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Voyager Infinity",
+   "from_id": "voyager-infinity",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://www.voyagersoftware.com/partners/",
+   "quote": "The partnership enables organisations to source and access millions of CVs from CV-Library"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.voyagersoftware.com/voyager-infinity/",
+   "title": "Voyager Infinity product page",
+   "accessed": "2026-11-23",
+   "quote": "Voyager Infinity is recruitment software built specifically for UK recruitment agencies, supporting permanent, contract and temporary recruitment from a single cloud-based platform.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.voyagersoftware.com/partners/",
+   "title": "Voyager partners",
+   "accessed": "2026-11-23",
+   "quote": "Voyager Infinity integrates the multi-job posting solution Broadbean.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.voyagersoftware.com/partners/",
+   "title": "Voyager partners",
+   "accessed": "2026-11-23",
+   "quote": "Voyager Infinity integrates the multi-job posting solution LogicMelon.",
+   "quote_check": "ok"
+  }
+ ]
+}

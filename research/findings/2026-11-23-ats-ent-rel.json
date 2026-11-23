@@ -1,235 +1,253 @@
 {
-  "mode": "relationships",
-  "edges": [
-    {
-      "from": "Zoho Recruit",
-      "from_url": "https://www.zoho.com/recruit/",
-      "to": "Indeed",
-      "to_url": "https://www.indeed.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.zoho.com/recruit/supported-job-boards.html",
-        "title": "Zoho Recruit | Job Boards | Post jobs",
-        "quote": "Indeed is a search engine for jobs. The fastest yet."
-      }
-    },
-    {
-      "from": "Zoho Recruit",
-      "from_url": "https://www.zoho.com/recruit/",
-      "to": "LinkedIn",
-      "to_url": "https://www.linkedin.com/jobs",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.zoho.com/recruit/integrations.html",
-        "title": "Zoho Recruit - Integrations and Add-ons",
-        "quote": "Post jobs to LinkedIn directly from Zoho Recruit."
-      }
-    },
-    {
-      "from": "Zoho Recruit",
-      "from_url": "https://www.zoho.com/recruit/",
-      "to": "ZipRecruiter",
-      "to_url": "https://www.ziprecruiter.com",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.zoho.com/recruit/supported-job-boards.html",
-        "title": "Zoho Recruit | Job Boards | Post jobs",
-        "quote": "ZipRecruiter posts your job opening to 100+ job boards with this click!"
-      }
-    },
-    {
-      "from": "Zoho Recruit",
-      "from_url": "https://www.zoho.com/recruit/",
-      "to": "CareerBuilder",
-      "to_url": "https://www.careerbuilder.com",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.zoho.com/recruit/integrations.html",
-        "title": "Zoho Recruit - Integrations and Add-ons",
-        "quote": "Post jobs on CareerBuilder and get your postings in front of the highest-quality and most relevant job-seekers in no time."
-      }
-    },
-    {
-      "from": "Zoho Recruit",
-      "from_url": "https://www.zoho.com/recruit/",
-      "to": "WhatJobs",
-      "to_url": "https://en-za.whatjobs.com",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.zoho.com/recruit/supported-job-boards.html",
-        "title": "Zoho Recruit | Job Boards | Post jobs",
-        "quote": "Publish Zoho Recruit vacancies directly to WhatJobs and reach candidates worldwide."
-      }
-    },
-    {
-      "from": "Zoho Recruit",
-      "from_url": "https://www.zoho.com/recruit/",
-      "to": "Adzuna",
-      "to_url": "https://www.adzuna.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.zoho.com/recruit/supported-job-boards.html",
-        "title": "Zoho Recruit | Job Boards | Post jobs",
-        "quote": "Adzuna is a search engine for job ads that lists every job, everywhere."
-      }
-    },
-    {
-      "from": "Zoho Recruit",
-      "from_url": "https://www.zoho.com/recruit/",
-      "to": "Jooble",
-      "to_url": "https://jooble.org",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.zoho.com/recruit/supported-job-boards.html",
-        "title": "Zoho Recruit | Job Boards | Post jobs",
-        "quote": "Jooble is a job search engine created to find the right candidate. Always."
-      }
-    },
-    {
-      "from": "Zoho Recruit",
-      "from_url": "https://www.zoho.com/recruit/",
-      "to": "Dice",
-      "to_url": "https://www.dice.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.zoho.com/recruit/supported-job-boards.html",
-        "title": "Zoho Recruit | Job Boards | Post jobs",
-        "quote": "Unlock employment insights by powering Dice technology (formerly The IT Job Board)."
-      }
-    },
-    {
-      "from": "Paradox",
-      "from_url": "https://www.paradox.ai/",
-      "to": "Indeed",
-      "to_url": "https://www.indeed.com",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.paradox.ai/partners/indeed",
-        "title": "Indeed — Paradox",
-        "quote": "Automatically distribute jobs on Indeed at the swipe of a toggle, enhancing overall visibility and broadening reach"
-      }
-    },
-    {
-      "from": "Hireology",
-      "from_url": "https://www.hireology.com/integrations",
-      "to": "Indeed",
-      "to_url": "https://www.indeed.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.hireology.com/integrations",
-        "title": "Integrations | Hireology",
-        "quote": "Indeed and Hireology sync jobs and applicants for faster, centralized recruiting."
-      }
-    },
-    {
-      "from": "Manatal",
-      "from_url": "https://www.manatal.com/features/applicant-tracking-system",
-      "to": "LinkedIn",
-      "to_url": "https://www.linkedin.com/jobs",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.manatal.com/features/applicant-tracking-system",
-        "title": "An Applicant Tracking System Built by Recruiters",
-        "quote": "helps companies achieve digitalization and seamless integration to LinkedIn and other job boards"
-      }
-    },
-    {
-      "from": "Fountain",
-      "from_url": "https://www.fountain.com/integrations",
-      "to": "Indeed",
-      "to_url": "https://www.indeed.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.fountain.com/integrations",
-        "title": "Partners & Integrations - Fountain",
-        "quote": "Indeed helps millions of job seekers and employers find the right fit for them every day."
-      }
-    },
-    {
-      "from": "Fountain",
-      "from_url": "https://www.fountain.com/integrations",
-      "to": "Recruitics",
-      "to_url": "https://www.recruitics.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.fountain.com/integrations",
-        "title": "Partners & Integrations - Fountain",
-        "quote": "Recruitics is a data-driven recruitment marketing agency with an innovative AI powered recruitment technology platform"
-      }
-    },
-    {
-      "from": "Fountain",
-      "from_url": "https://www.fountain.com/integrations",
-      "to": "VONQ",
-      "to_url": "https://www.vonq.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.fountain.com/integrations",
-        "title": "Partners & Integrations - Fountain",
-        "quote": "VONQ is an intelligent, data-driven platform designed to streamline the distribution of job listings, ensuring they reach the most suitable candidates."
-      }
-    },
-    {
-      "from": "JobDiva",
-      "from_url": "https://www.jobdiva.com/",
-      "to": "Broadbean",
-      "to_url": "https://www.broadbean.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
-        "title": "Recruiting Software Third Party Integrations | JobDiva",
-        "quote": "Broadbean offers data analytics software, job distribution and multi-posting technology, CV search software and HR and recruitment technology."
-      }
-    },
-    {
-      "from": "JobDiva",
-      "from_url": "https://www.jobdiva.com/",
-      "to": "CareerBuilder",
-      "to_url": "https://www.careerbuilder.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
-        "title": "Recruiting Software Third Party Integrations | JobDiva",
-        "quote": "Popular job board CareerBuilder provies access to millions of candidates"
-      }
-    },
-    {
-      "from": "JobDiva",
-      "from_url": "https://www.jobdiva.com/",
-      "to": "Caterer.com",
-      "to_url": "https://www.caterer.com",
-      "relation": "integrates-with",
-      "source": {
-        "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
-        "title": "Recruiting Software Third Party Integrations | JobDiva",
-        "quote": "Caterer.com is the largest UK hospitality job board, with targeted technology to make job searches quick, easy and successful."
-      }
-    },
-    {
-      "from": "Cegid HR Talent Acquisition",
-      "from_url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
-      "to": "Indeed",
-      "to_url": "https://www.indeed.com",
-      "relation": "sends-jobs-to",
-      "source": {
-        "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
-        "title": "Talent Acquisition is helping decentralised companies",
-        "quote": "distribution and sharing to Indeed, Pôle Emploi and more than 3500 job sites"
-      }
-    }
-  ],
-  "blocked": [
-    {
-      "name": "UKG",
-      "url": "https://www.ukg.com",
-      "reason": "HTTP 403 with browser challenge page on two attempts"
-    }
-  ],
-  "queue": [
-    {
-      "name": "Lumesse TalentLink",
-      "url": "",
-      "reason": "Named as a product but lumesse.com redirects to cornerstoneondemand.com; no TalentLink page read"
-    }
-  ]
+ "mode": "relationships",
+ "edges": [
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "Indeed",
+   "to_url": "https://www.indeed.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "Indeed is a search engine for jobs. The fastest yet.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "LinkedIn",
+   "to_url": "https://www.linkedin.com/jobs",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.zoho.com/recruit/integrations.html",
+    "title": "Zoho Recruit - Integrations and Add-ons",
+    "quote": "Post jobs to LinkedIn directly from Zoho Recruit.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "ZipRecruiter",
+   "to_url": "https://www.ziprecruiter.com",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "ZipRecruiter posts your job opening to 100+ job boards with this click!",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "CareerBuilder",
+   "to_url": "https://www.careerbuilder.com",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.zoho.com/recruit/integrations.html",
+    "title": "Zoho Recruit - Integrations and Add-ons",
+    "quote": "Post jobs on CareerBuilder and get your postings in front of the highest-quality and most relevant job-seekers in no time.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "WhatJobs",
+   "to_url": "https://en-za.whatjobs.com",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "Publish Zoho Recruit vacancies directly to WhatJobs and reach candidates worldwide.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "Adzuna",
+   "to_url": "https://www.adzuna.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "Adzuna is a search engine for job ads that lists every job, everywhere.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "Jooble",
+   "to_url": "https://jooble.org",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "Jooble is a job search engine created to find the right candidate. Always.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Zoho Recruit",
+   "from_url": "https://www.zoho.com/recruit/",
+   "to": "Dice",
+   "to_url": "https://www.dice.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+    "title": "Zoho Recruit | Job Boards | Post jobs",
+    "quote": "Unlock employment insights by powering Dice technology (formerly The IT Job Board).",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Paradox",
+   "from_url": "https://www.paradox.ai/",
+   "to": "Indeed",
+   "to_url": "https://www.indeed.com",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.paradox.ai/partners/indeed",
+    "title": "Indeed — Paradox",
+    "quote": "Automatically distribute jobs on Indeed at the swipe of a toggle, enhancing overall visibility and broadening reach",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Hireology",
+   "from_url": "https://www.hireology.com/integrations",
+   "to": "Indeed",
+   "to_url": "https://www.indeed.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.hireology.com/integrations",
+    "title": "Integrations | Hireology",
+    "quote": "Indeed and Hireology sync jobs and applicants for faster, centralized recruiting.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Manatal",
+   "from_url": "https://www.manatal.com/features/applicant-tracking-system",
+   "to": "LinkedIn",
+   "to_url": "https://www.linkedin.com/jobs",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.manatal.com/features/applicant-tracking-system",
+    "title": "An Applicant Tracking System Built by Recruiters",
+    "quote": "helps companies achieve digitalization and seamless integration to LinkedIn and other job boards",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Fountain",
+   "from_url": "https://www.fountain.com/integrations",
+   "to": "Indeed",
+   "to_url": "https://www.indeed.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.fountain.com/integrations",
+    "title": "Partners & Integrations - Fountain",
+    "quote": "Indeed helps millions of job seekers and employers find the right fit for them every day.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Fountain",
+   "from_url": "https://www.fountain.com/integrations",
+   "to": "Recruitics",
+   "to_url": "https://www.recruitics.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.fountain.com/integrations",
+    "title": "Partners & Integrations - Fountain",
+    "quote": "Recruitics is a data-driven recruitment marketing agency with an innovative AI powered recruitment technology platform",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Fountain",
+   "from_url": "https://www.fountain.com/integrations",
+   "to": "VONQ",
+   "to_url": "https://www.vonq.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.fountain.com/integrations",
+    "title": "Partners & Integrations - Fountain",
+    "quote": "VONQ is an intelligent, data-driven platform designed to streamline the distribution of job listings, ensuring they reach the most suitable candidates.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobDiva",
+   "from_url": "https://www.jobdiva.com/",
+   "to": "Broadbean",
+   "to_url": "https://www.broadbean.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+    "title": "Recruiting Software Third Party Integrations | JobDiva",
+    "quote": "Broadbean offers data analytics software, job distribution and multi-posting technology, CV search software and HR and recruitment technology.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobDiva",
+   "from_url": "https://www.jobdiva.com/",
+   "to": "CareerBuilder",
+   "to_url": "https://www.careerbuilder.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+    "title": "Recruiting Software Third Party Integrations | JobDiva",
+    "quote": "Popular job board CareerBuilder provies access to millions of candidates",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "JobDiva",
+   "from_url": "https://www.jobdiva.com/",
+   "to": "Caterer.com",
+   "to_url": "https://www.caterer.com",
+   "relation": "integrates-with",
+   "source": {
+    "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+    "title": "Recruiting Software Third Party Integrations | JobDiva",
+    "quote": "Caterer.com is the largest UK hospitality job board, with targeted technology to make job searches quick, easy and successful.",
+    "check": "ok"
+   }
+  },
+  {
+   "from": "Cegid HR Talent Acquisition",
+   "from_url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
+   "to": "Indeed",
+   "to_url": "https://www.indeed.com",
+   "relation": "sends-jobs-to",
+   "source": {
+    "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
+    "title": "Talent Acquisition is helping decentralised companies",
+    "quote": "distribution and sharing to Indeed, Pôle Emploi and more than 3500 job sites",
+    "check": "ok"
+   }
+  }
+ ],
+ "blocked": [
+  {
+   "name": "UKG",
+   "url": "https://www.ukg.com",
+   "reason": "HTTP 403 with browser challenge page on two attempts"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Lumesse TalentLink",
+   "url": "",
+   "reason": "Named as a product but lumesse.com redirects to cornerstoneondemand.com; no TalentLink page read"
+  }
+ ]
 }

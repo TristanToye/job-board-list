@@ -18,7 +18,7 @@ Eploy is an applicant tracking system, focused on talent acquisition ATS and rec
 
 **Who owns Eploy?** This directory records the parent of Eploy as The Access Group.
 
-**How large is Eploy?** Eploy ranks #356,836 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Eploy?** Eploy ranks #356,836 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Eploy connect to?** According to this directory, Eploy sends jobs to Totaljobs, CV-Library, NHS Jobs.
 

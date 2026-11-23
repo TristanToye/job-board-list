@@ -20,7 +20,7 @@ eRecruiter is a job multiposting and distribution service based in Poland.
 
 **Which languages does eRecruiter support?** This directory records eRecruiter as supporting Polish, English.
 
-**How large is eRecruiter?** eRecruiter ranks #47,385 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is eRecruiter?** eRecruiter ranks #47,385 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does eRecruiter connect to?** According to this directory, eRecruiter integrates with Inhire.io.
 

@@ -42,14 +42,24 @@
   "global_rank": 23784,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "general",
   "job-board",
   "subscription"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Talentera",
+   "from_id": "talentera",
+   "to": "Bayt",
+   "to_id": "bayt",
+   "source": "https://www.talentera.com/en/pricing/",
+   "quote": "CV Import from Bayt"
+  }
+ ],
  "review": {
   "board_id": "bayt",
   "reviewed": "2026-11-09",

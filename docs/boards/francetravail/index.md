@@ -21,6 +21,8 @@ France Travail is a government job site based in France.
 
 **Which languages does France Travail support?** This directory records France Travail as supporting French.
 
+**Which platforms does France Travail connect to?** According to this directory, France Travail receives jobs from Taleez.
+
 ## Sources
 
 - [JOIN: Best job sites in France](https://join.com/en/blog/best-job-sites-in-france) (Listed by a third-party directory, checked 2026-11-05): "The public employment service (formerly Pôle Emploi)."

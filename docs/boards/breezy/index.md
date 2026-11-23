@@ -25,7 +25,7 @@ Breezy HR is an applicant tracking system based in the United States.
 
 **Does Breezy HR have an API?** According to this directory, Breezy HR offers an API you can use with a self-serve key. Documentation: https://developer.breezy.hr.
 
-**How large is Breezy HR?** Breezy HR ranks #11,990 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Breezy HR?** Breezy HR ranks #11,990 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Breezy HR connect to?** According to this directory, Breezy HR sends jobs to Talent.com, Reed; integrates with Careerjet.
 

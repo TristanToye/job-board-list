@@ -16,7 +16,7 @@ Moka ATS (MokaHR) is an applicant tracking system, focused on AI-native ATS with
 
 ## Quick answers
 
-**How large is Moka ATS (MokaHR)?** Moka ATS (MokaHR) ranks #508,990 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Moka ATS (MokaHR)?** Moka ATS (MokaHR) ranks #508,990 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -32,13 +32,23 @@
   "global_rank": 83873,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "general",
   "job-aggregator"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "WhatJobs",
+   "to_id": "whatjobs",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Publish Zoho Recruit vacancies directly to WhatJobs and reach candidates worldwide."
+  }
+ ],
  "review": {
   "board_id": "whatjobs",
   "reviewed": "2026-11-09",

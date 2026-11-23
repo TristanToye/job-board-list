@@ -1,0 +1,83 @@
+{
+ "id": "cegid-hr-talent-acquisition",
+ "name": "Cegid HR Talent Acquisition",
+ "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "recruitment platform for decentralised organisations",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.cegid.com/global/integration-partners/",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/cegid-hr-talent-acquisition/",
+ "indexable": true,
+ "prominence": {
+  "tier": "",
+  "label": "Not comparable",
+  "global_rank": 14461,
+  "scope": "section",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats",
+  "partner-program"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Cegid HR Talent Acquisition",
+   "from_id": "cegid-hr-talent-acquisition",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
+   "quote": "distribution and sharing to Indeed, Pôle Emploi and more than 3500 job sites"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
+   "title": "Talent Acquisition | Cegid",
+   "accessed": "2026-11-23",
+   "quote": "The recruitment platform bringing success to decentralised organisations",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
+   "title": "Talent Acquisition | Cegid",
+   "accessed": "2026-11-23",
+   "quote": "distribution and sharing to Indeed, Pôle Emploi and more than 3500 job sites",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.cegid.com/global/integration-partners/",
+   "title": "Integration partners | Cegid",
+   "accessed": "2026-11-23",
+   "quote": "our integration partners, certified and recognised for their expertise",
+   "quote_check": "ok"
+  }
+ ]
+}

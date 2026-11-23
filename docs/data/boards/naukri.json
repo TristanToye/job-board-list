@@ -32,7 +32,7 @@
   "global_rank": 14987,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-partner-only",
@@ -58,6 +58,15 @@
    "to_id": "naukri",
    "source": "https://help.workable.com/hc/en-us/sections/115003175147-Job-boards",
    "quote": "Integrating with Naukri"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "Naukri",
+   "to_id": "naukri",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
   }
  ],
  "review": {

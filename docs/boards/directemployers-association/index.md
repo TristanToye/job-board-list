@@ -16,7 +16,7 @@ DirectEmployers Association is a job multiposting and distribution service, focu
 
 ## Quick answers
 
-**How large is DirectEmployers Association?** DirectEmployers Association ranks #647,646 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is DirectEmployers Association?** DirectEmployers Association ranks #647,646 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does DirectEmployers Association connect to?** According to this directory, DirectEmployers Association integrates with National Labor Exchange (NLx), Workday Recruiting, Greenhouse, iCIMS, Oracle Taleo, Oracle and others.
 

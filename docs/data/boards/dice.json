@@ -38,7 +38,7 @@
   "global_rank": 7179,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-partner-only",
@@ -76,6 +76,24 @@
    "to_id": "dice",
    "source": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
    "quote": "Ceipal integrates with 50+ job boards including LinkedIn, Dice, Monster, Indeed, ZipRecruiter, and CareerBuilder, with one-click job posting across all of them."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Crelate",
+   "from_id": "crelate",
+   "to": "Dice",
+   "to_id": "dice",
+   "source": "https://www.crelate.com/pricing",
+   "quote": "Indeed, Dice, and CareerBuilder integration"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "Dice",
+   "to_id": "dice",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Unlock employment insights by powering Dice technology (formerly The IT Job Board)."
   }
  ],
  "review": null,

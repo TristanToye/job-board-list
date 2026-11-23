@@ -18,7 +18,7 @@ JobAdder is an applicant tracking system, focused on ATS and recruitment CRM for
 
 **Who owns JobAdder?** This directory records the parent of JobAdder as SEEK Group.
 
-**How large is JobAdder?** JobAdder ranks #79,404 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is JobAdder?** JobAdder ranks #79,404 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does JobAdder connect to?** According to this directory, JobAdder sends jobs to LinkedIn; integrates with SEEK, Adzuna, CV-Library, Indeed, Reed, Broadbean and others.
 

@@ -18,7 +18,7 @@ ApplicantPro is an applicant tracking system.
 
 **Who owns ApplicantPro?** This directory records the parent of ApplicantPro as isolved.
 
-**How large is ApplicantPro?** ApplicantPro ranks #18,807 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is ApplicantPro?** ApplicantPro ranks #18,807 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does ApplicantPro connect to?** According to this directory, ApplicantPro integrates with Indeed.
 

@@ -1,0 +1,92 @@
+{
+ "id": "hireserve",
+ "name": "Hireserve",
+ "url": "https://hireserve.com/",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "in-house recruitment ATS with job board integration (UK)",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/hireserve/",
+ "indexable": false,
+ "prominence": {
+  "tier": "",
+  "label": "Not in top 1M",
+  "global_rank": null,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Hireserve",
+   "from_id": "hireserve",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://hireserve.com/multiple-job-board-integrations/",
+   "quote": "automatically distribute it to leading platforms like Indeed, Monster, Reed and more"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Hireserve",
+   "from_id": "hireserve",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://hireserve.com/multiple-job-board-integrations/",
+   "quote": "automatically distribute it to leading platforms like Indeed, Monster, Reed and more"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Hireserve",
+   "from_id": "hireserve",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://hireserve.com/multiple-job-board-integrations/",
+   "quote": "automatically distribute it to leading platforms like Indeed, Monster, Reed and more"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://hireserve.com/multiple-job-board-integrations/",
+   "title": "Hireserve job board integration",
+   "accessed": "2026-11-23",
+   "quote": "Maximise your visibility and streamline your hiring process with Hireserve’s leading ATS",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://hireserve.com/multiple-job-board-integrations/",
+   "title": "Hireserve job board integration",
+   "accessed": "2026-11-23",
+   "quote": "Post job adverts to multiple job boards with a single click using Hireserve’s integrated ATS job board functionality.",
+   "quote_check": "ok"
+  }
+ ]
+}

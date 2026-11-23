@@ -1,0 +1,143 @@
+{
+ "id": "jobdiva",
+ "name": "JobDiva",
+ "url": "https://www.jobdiva.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "staffing agency ATS and back-office platform",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+ "ingest_methods": [
+  "job board posting",
+  "multiposting"
+ ],
+ "notes": "Site says: \"Development teams looking to extend functionality even further can use our comprehensive open API suite to explore endless possibilities.\" Site says: \"Approved partners are granted access to a sandbox environment to experiment, develop, and test integrations directly within our system.\" Site says: \"JobDiva’s recruiting software integrates seamlessly with your critical tools and services.\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/jobdiva/",
+ "indexable": true,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 129136,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats",
+  "partner-program"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "JobDiva",
+   "from_id": "jobdiva",
+   "to": "Broadbean",
+   "to_id": "broadbean",
+   "source": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+   "quote": "Broadbean offers data analytics software, job distribution and multi-posting technology, CV search software and HR and recruitment technology."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobDiva",
+   "from_id": "jobdiva",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+   "quote": "Popular job board CareerBuilder provies access to millions of candidates"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobDiva",
+   "from_id": "jobdiva",
+   "to": "Caterer.com",
+   "to_id": "caterer-com",
+   "source": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+   "quote": "Caterer.com is the largest UK hospitality job board"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobDiva",
+   "from_id": "jobdiva",
+   "to": "Call Center Jobs",
+   "to_id": "",
+   "source": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+   "quote": "Serving the call center community since 1998, Call Center Jobs links employers with job seekers throughout the US."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.jobdiva.com",
+   "title": "JobDiva homepage",
+   "accessed": "2026-11-23",
+   "quote": "JobDiva's industry-leading technology helps thousands of recruiters maximize their business potential.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobdiva.com",
+   "title": "JobDiva homepage",
+   "accessed": "2026-11-23",
+   "quote": "partnerships with major job boards and specialty products",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.jobdiva.com/",
+   "title": "JobDiva home",
+   "accessed": "2026-11-23",
+   "quote": "Partner with us for a comprehensive and unmatched suite of staffing tools.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+   "title": "Recruiting Software Third Party Integrations",
+   "accessed": "2026-11-23",
+   "quote": "Broadbean offers data analytics software, job distribution and multi-posting technology, CV search software and HR and recruitment technology.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.jobdiva.com",
+   "title": "JobDiva homepage",
+   "accessed": "2026-11-23",
+   "quote": "Development teams looking to extend functionality even further can use our comprehensive open API suite to explore endless possibilities.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+   "title": "JobDiva integrations",
+   "accessed": "2026-11-23",
+   "quote": "Approved partners are granted access to a sandbox environment to experiment, develop, and test integrations directly within our system.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+   "title": "Recruiting Software Third Party Integrations",
+   "accessed": "2026-11-23",
+   "quote": "Approved partners are granted access to a sandbox environment to experiment, develop, and test integrations directly within our system.",
+   "quote_check": "ok"
+  }
+ ]
+}

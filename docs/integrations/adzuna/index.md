@@ -9,5 +9,6 @@ Platforms Adzuna connects to, each from a page on one party's own site.
 - Pinpoint: integrates with (https://www.pinpointhq.com/integrations)
 - Teamtailor: integrates with (https://www.teamtailor.com/en/integrations)
 - Workable: receives jobs from (https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable)
+- Zoho Recruit: integrates with (https://www.zoho.com/recruit/supported-job-boards.html)
 
 Canonical page: https://jobboardlist.com/integrations/adzuna/

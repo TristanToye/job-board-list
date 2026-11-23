@@ -34,7 +34,7 @@
   "global_rank": 350179,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "ats-integration",
@@ -402,6 +402,15 @@
    "to_id": "",
    "source": "https://support.jobtarget.com/jobtarget-help-center/what-sites-are-included-in-diversitypost",
    "quote": "LatinxJobs www.latinxjobs.com OutandEqual www.outandequal.com"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "ApplicantStack",
+   "from_id": "applicantstack",
+   "to": "JobTarget",
+   "to_id": "jobtarget",
+   "source": "https://www.applicantstack.com/job-boards/",
+   "quote": "Effortlessly upload job posts and updates from ApplicantStack to Indeed, JobTarget and more"
   }
  ],
  "review": {

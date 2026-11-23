@@ -18,7 +18,7 @@ RecruitBPM is an applicant tracking system, focused on staffing and recruitment 
 
 **Which languages does RecruitBPM support?** This directory records RecruitBPM as supporting English.
 
-**How large is RecruitBPM?** RecruitBPM ranks #486,904 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is RecruitBPM?** RecruitBPM ranks #486,904 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does RecruitBPM connect to?** According to this directory, RecruitBPM sends jobs to Dice, Indeed, ZipRecruiter, Careerjet, WorkHound; integrates with Glassdoor, CareerBuilder, Monster, Trovit, Job Inventory, nJobs.
 

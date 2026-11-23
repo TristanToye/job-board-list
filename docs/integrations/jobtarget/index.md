@@ -4,6 +4,7 @@ Platforms JobTarget connects to, each from a page on one party's own site.
 
 ## Applicant tracking systems
 
+- ApplicantStack: receives jobs from (https://www.applicantstack.com/job-boards/)
 - iCIMS: integrates with (https://www.jobtarget.com/job-advertising-solutions)
 
 ## Job boards and aggregators

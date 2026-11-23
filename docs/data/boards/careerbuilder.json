@@ -36,7 +36,7 @@
   "global_rank": 3703,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "general",
@@ -97,6 +97,33 @@
    "to_id": "careerbuilder",
    "source": "https://www.loxo.co/products/ats",
    "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Crelate",
+   "from_id": "crelate",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://www.crelate.com/pricing",
+   "quote": "Indeed, Dice, and CareerBuilder integration"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobDiva",
+   "from_id": "jobdiva",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+   "quote": "Popular job board CareerBuilder provies access to millions of candidates"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://www.zoho.com/recruit/integrations.html",
+   "quote": "Post jobs on CareerBuilder and get your postings in front of the highest-quality and most relevant job-seekers in no time."
   }
  ],
  "review": null,

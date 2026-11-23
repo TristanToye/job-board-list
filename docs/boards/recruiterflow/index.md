@@ -16,7 +16,7 @@ Recruiterflow is an applicant tracking system, focused on AI-native ATS and CRM 
 
 ## Quick answers
 
-**How large is Recruiterflow?** Recruiterflow ranks #59,519 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Recruiterflow?** Recruiterflow ranks #59,519 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Recruiterflow connect to?** According to this directory, Recruiterflow integrates with Caterer.com.
 

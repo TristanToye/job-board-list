@@ -1,0 +1,230 @@
+{
+ "id": "zoho-recruit",
+ "name": "Zoho Recruit",
+ "url": "https://www.zoho.com/recruit/staffing-agency-software.html",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "staffing agency ATS (Zoho)",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.zoho.com/recruit/staffing-agency-software.html",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Site says: \"Local taxes (VAT, GST, etc.) will be charged in addition to the prices mentioned.\" Site says: \"Our growing list of integrations gives recruiting professionals the freedom to work with the best tools and solutions for strengthening their recruitment platform.\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/zoho-recruit/",
+ "indexable": true,
+ "prominence": {
+  "tier": "",
+  "label": "Not comparable",
+  "global_rank": 657,
+  "scope": "section",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats",
+  "partner-program"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "ZipRecruiter",
+   "to_id": "ziprecruiter",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "ZipRecruiter posts your job opening to 100+ job boards with this click!"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "WhatJobs",
+   "to_id": "whatjobs",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Publish Zoho Recruit vacancies directly to WhatJobs and reach candidates worldwide."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "Monster APAC",
+   "to_id": "",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Enjoy better exposure to the right people with Monster APAC's vast network of properties, partners and targeting capabilities."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "TimesJobs",
+   "to_id": "",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "TimesJobs is one of the largest job boards in India and the middle east."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "Dice",
+   "to_id": "dice",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Unlock employment insights by powering Dice technology (formerly The IT Job Board)."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "Gigajob",
+   "to_id": "",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Gigajob is a global job board with local sites in 147 countries and available in 38 languages."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Indeed is a search engine for jobs. The fastest yet."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.zoho.com/recruit/integrations.html",
+   "quote": "Post jobs to LinkedIn directly from Zoho Recruit."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://www.zoho.com/recruit/integrations.html",
+   "quote": "Post jobs on CareerBuilder and get your postings in front of the highest-quality and most relevant job-seekers in no time."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "Adzuna",
+   "to_id": "adzuna",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Adzuna is a search engine for job ads that lists every job, everywhere."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "Jooble",
+   "to_id": "jooble",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Jooble is a job search engine created to find the right candidate. Always."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "Caterer",
+   "to_id": "",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Caterer, being UK's one of the leading job boards."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.zoho.com/recruit/staffing-agency-software.html",
+   "title": "Zoho Recruit staffing agency software page",
+   "accessed": "2026-11-23",
+   "quote": "Zoho Recruit staffing software streamlines workflows and empowers agencies with AI so they can scale operations and reduce manual work.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.zoho.com/recruit/staffing-agency-software.html",
+   "title": "Zoho Recruit staffing agency software page",
+   "accessed": "2026-11-23",
+   "quote": "Post open jobs to 75+ jobs boards in just a few clicks.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.zoho.com/recruit/",
+   "title": "Zoho Recruit | All-in-one recruitment software for HR teams and staffing agencies",
+   "accessed": "2026-11-23",
+   "quote": "Zoho Recruit | All-in-one recruitment software for HR teams and staffing agencies",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "title": "Zoho Recruit | Job Boards | Post jobs",
+   "accessed": "2026-11-23",
+   "quote": "Zoho Recruit offers numerous job board integrations to ensure you reach the right candidates.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.zoho.com/recruit/post-job-opening.html",
+   "title": "Publish job openings | Zoho Recruit",
+   "accessed": "2026-11-23",
+   "quote": "Publish openings to 70+ free and paid job boards integrated with Zoho Recruit.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.zoho.com/recruit/staffing-agency-software.html",
+   "title": "Zoho Recruit staffing agency software page",
+   "accessed": "2026-11-23",
+   "quote": "Explore our marketplace to find over 200 applications that can help you collaborate",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.zoho.com/recruit/pricing.html",
+   "title": "Zoho Recruit Corporate Pricing | ATS Pricing",
+   "accessed": "2026-11-23",
+   "quote": "Local taxes (VAT, GST, etc.) will be charged in addition to the prices mentioned.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.zoho.com/recruit/integrations.html",
+   "title": "Zoho Recruit - Integrations and Add-ons",
+   "accessed": "2026-11-23",
+   "quote": "Our growing list of integrations gives recruiting professionals the freedom to work with the best tools and solutions for strengthening their recruitment platform.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.zoho.com/recruit/integrations.html",
+   "title": "Zoho Recruit integrations",
+   "accessed": "2026-11-23",
+   "quote": "Build your extension for free, and add it to our Marketplace.",
+   "quote_check": "ok"
+  }
+ ]
+}

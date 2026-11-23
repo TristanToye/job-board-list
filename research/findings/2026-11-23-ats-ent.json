@@ -1,437 +1,484 @@
 {
-  "mode": "discover",
-  "country": "ZZ",
-  "boards": [
+ "mode": "discover",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Avature",
+   "url": "https://www.avature.net",
+   "type": "ats",
+   "niche": "enterprise recruiting and talent management platform",
+   "countries_served": [],
+   "sources": [
     {
-      "name": "Avature",
-      "url": "https://www.avature.net",
-      "type": "ats",
-      "niche": "enterprise recruiting and talent management platform",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.avature.net/",
-          "title": "Avature home",
-          "quote": "We provide multiple highly configurable solutions on a single, continuously improving platform."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://avature.ai/integrations/",
-          "title": "Avature Integration Framework",
-          "quote": "Customers can select from a broad spectrum of third-party systems, including HRIS, electronic government forms, chatbots, assessment and background checks, job boards"
-        },
-        {
-          "field": "api",
-          "url": "https://avature.ai/integrations/",
-          "title": "Avature Integration Framework",
-          "quote": "System APIs offer ready-to-use REST endpoints for fast, standardized integrations with external systems."
-        },
-        {
-          "field": "partner",
-          "url": "https://avature.ai/integrations/",
-          "title": "Avature Integration Framework",
-          "quote": "Avature’s out-of-the-box integrations cover a wide range of best-in-class providers."
-        }
-      ]
+     "field": "existence",
+     "url": "https://www.avature.net/",
+     "title": "Avature home",
+     "quote": "We provide multiple highly configurable solutions on a single, continuously improving platform.",
+     "check": "ok"
     },
     {
-      "name": "Cornerstone OnDemand",
-      "url": "https://www.cornerstoneondemand.com",
-      "type": "ats",
-      "niche": "enterprise talent, learning and recruiting suite",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.cornerstoneondemand.com/",
-          "title": "Cornerstone home",
-          "quote": "The intelligence platform for workforce readiness."
-        },
-        {
-          "field": "api",
-          "url": "https://www.cornerstoneondemand.com/platform/extend-integrations/",
-          "title": "Seamless Integrations & APIs for Your HR Ecosystem",
-          "quote": "Utilize prebuilt integrations, connectors, and APIs to unify systems and streamline workflows."
-        },
-        {
-          "field": "partner",
-          "url": "https://www.cornerstoneondemand.com/platform/extend-integrations/",
-          "title": "Seamless Integrations & APIs for Your HR Ecosystem",
-          "quote": "Explore the Cornerstone Workforce AI™ Extend Marketplace."
-        }
-      ]
+     "field": "ingest_methods",
+     "url": "https://avature.ai/integrations/",
+     "title": "Avature Integration Framework",
+     "quote": "Customers can select from a broad spectrum of third-party systems, including HRIS, electronic government forms, chatbots, assessment and background checks, job boards",
+     "check": "ok"
     },
     {
-      "name": "Dayforce Recruiting",
-      "url": "https://www.dayforce.com",
-      "type": "ats",
-      "niche": "HCM suite with talent acquisition module",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.dayforce.com/",
-          "title": "Dayforce home",
-          "quote": "Say hello to the new Dayforce Agentic HCM Platform."
-        },
-        {
-          "field": "partner",
-          "url": "https://www.dayforce.com/how-we-help/services-and-support/partners",
-          "title": "Dayforce Partner Network",
-          "quote": "The Dayforce Partner Network connects you to the expertise, solutions, and support you need to get even more value from the Dayforce platform."
-        }
-      ]
+     "field": "api",
+     "url": "https://avature.ai/integrations/",
+     "title": "Avature Integration Framework",
+     "quote": "System APIs offer ready-to-use REST endpoints for fast, standardized integrations with external systems.",
+     "check": "ok"
     },
     {
-      "name": "Paradox",
-      "url": "https://www.paradox.ai",
-      "type": "ats",
-      "niche": "conversational recruiting and conversational ATS",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.paradox.ai/",
-          "title": "Paradox home",
-          "quote": "Software that does the work for you, so your managers can focus on customers."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.paradox.ai/partners/indeed",
-          "title": "Indeed: Paradox",
-          "quote": "Automatically distribute jobs on Indeed at the swipe of a toggle, enhancing overall visibility and broadening reach"
-        },
-        {
-          "field": "api",
-          "url": "https://www.paradox.ai/partners/integrations",
-          "title": "ATS, CRM, and HCM integrations: Paradox",
-          "quote": "Through direct integrations and our open API, Paradox works with the leading systems, apps, and devices you already use today."
-        },
-        {
-          "field": "partner",
-          "url": "https://www.paradox.ai/partners/integrations",
-          "title": "ATS, CRM, and HCM integrations: Paradox",
-          "quote": "Through direct integrations and our open API, Paradox works with the leading systems, apps, and devices you already use today."
-        }
-      ]
-    },
-    {
-      "name": "ADP Recruiting Management",
-      "url": "https://www.adp.com",
-      "type": "ats",
-      "niche": "HCM suite with recruiting and onboarding",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.adp.com/what-we-offer/talent",
-          "title": "Talent | ADP",
-          "quote": "No matter your business’s size or industry, we can help you excel at recruitment and onboarding, learning and development, performance management and more."
-        },
-        {
-          "field": "api",
-          "url": "https://www.adp.com/what-we-offer/marketplace",
-          "title": "ADP Marketplace",
-          "quote": "Instantly access secure APIs, tools and resources that can help you build custom integrations for your company."
-        },
-        {
-          "field": "partner",
-          "url": "https://www.adp.com/what-we-offer/marketplace",
-          "title": "ADP Marketplace",
-          "quote": "ADP Marketplace can help you automatically integrate and securely share data between your HR systems."
-        }
-      ]
-    },
-    {
-      "name": "Paycom Applicant Tracking",
-      "url": "https://www.paycom.com",
-      "type": "ats",
-      "niche": "HCM suite with applicant tracking module",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.paycom.com/software/applicant-tracking/",
-          "title": "Applicant Tracking System (ATS) Software | Paycom",
-          "quote": "Paycom's applicant tracking software makes building your team quick and easy."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.paycom.com/software/applicant-tracking/",
-          "title": "Applicant Tracking System (ATS) Software | Paycom",
-          "quote": "When you’re ready to hire, our software automatically posts jobs to your website, career sites and online job boards."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.paycom.com/software/talent-acquisition/",
-          "title": "Paycom talent acquisition",
-          "quote": "From automatically posting new job openings on career sites and job boards to automating rejection messages"
-        }
-      ]
-    },
-    {
-      "name": "Paylocity Recruiting",
-      "url": "https://www.paylocity.com",
-      "type": "ats",
-      "niche": "HR and payroll suite with recruiting module",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.paylocity.com/products/hr/talent-management-system/recruiting/",
-          "title": "HR Recruitment Software | Attract Top Talent | Paylocity",
-          "quote": "Hire faster with one connected, AI-powered recruiting platform"
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.paylocity.com/products/hr/talent-management-system/recruiting/",
-          "title": "HR Recruitment Software | Attract Top Talent | Paylocity",
-          "quote": "Create compelling job descriptions with AI, publish to 20,000+ job boards in one click, and make applying easy with text-to-apply and QR code campaigns."
-        },
-        {
-          "field": "partner",
-          "url": "https://www.paylocity.com/products/capabilities/integrations/marketplace/",
-          "title": "HCM, Finance, and IT Integration Marketplace | Paylocity",
-          "quote": "Learn more about becoming a Marketplace Partner today."
-        }
-      ]
-    },
-    {
-      "name": "Infor Talent Science",
-      "url": "https://www.infor.com",
-      "type": "ats",
-      "niche": "talent management suite with talent science and recruitment modules",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.infor.com/solutions/human-capital-management/talent-management",
-          "title": "Talent management software | Infor",
-          "quote": "Our unified, cloud-based solutions use the latest technologies to help you hire, develop, promote, and retain top talent across your organization."
-        },
-        {
-          "field": "partner",
-          "url": "https://www.infor.com/partners",
-          "title": "Infor Partner Network (IPN) | Partners | Infor",
-          "quote": "The Infor Partner Network (IPN) is a global ecosystem of Partners who innovate, sell, and deliver Infor solutions to our customers."
-        }
-      ]
-    },
-    {
-      "name": "Cegid HR Talent Acquisition",
-      "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
-      "type": "ats",
-      "niche": "recruitment platform for decentralised organisations",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
-          "title": "Talent Acquisition | Cegid",
-          "quote": "The recruitment platform bringing success to decentralised organisations"
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
-          "title": "Talent Acquisition | Cegid",
-          "quote": "distribution and sharing to Indeed, Pôle Emploi and more than 3500 job sites"
-        },
-        {
-          "field": "partner",
-          "url": "https://www.cegid.com/global/integration-partners/",
-          "title": "Integration partners | Cegid",
-          "quote": "our integration partners, certified and recognised for their expertise"
-        }
-      ]
-    },
-    {
-      "name": "Oleeo",
-      "url": "https://www.oleeo.com",
-      "type": "ats",
-      "niche": "enterprise and high-volume applicant tracking",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.oleeo.com/products/ats-software/",
-          "title": "Oleeo ATS",
-          "quote": "Purpose built ATS software designed for high-volume recruitment."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.oleeo.com/products/ats-software/",
-          "title": "Oleeo ATS",
-          "quote": "creating a more accurate job description and posting to multiple job boards"
-        },
-        {
-          "field": "partner",
-          "url": "https://www.oleeo.com/partner-ecosystem/",
-          "title": "Oleeo partner ecosystem",
-          "quote": "Oleeo partners with incredible platforms across the globe to help you recruit faster and smarter!"
-        }
-      ]
-    },
-    {
-      "name": "Zoho Recruit",
-      "url": "https://www.zoho.com/recruit/",
-      "type": "ats",
-      "niche": "cloud recruiting software for HR teams and agencies",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.zoho.com/recruit/",
-          "title": "Zoho Recruit",
-          "quote": "Zoho Recruit is a cloud-based hiring platform that gives HR teams and recruitment agencies the digital tools needed to fill roles quickly and efficiently."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.zoho.com/recruit/post-job-opening.html",
-          "title": "Publish job openings | Zoho Recruit",
-          "quote": "Publish openings to 70+ free and paid job boards integrated with Zoho Recruit."
-        },
-        {
-          "field": "partner",
-          "url": "https://www.zoho.com/recruit/integrations.html",
-          "title": "Zoho Recruit integrations",
-          "quote": "Build your extension for free, and add it to our Marketplace."
-        }
-      ]
-    },
-    {
-      "name": "Manatal",
-      "url": "https://www.manatal.com",
-      "type": "ats",
-      "niche": "cloud applicant tracking and recruitment CRM",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.manatal.com/features/applicant-tracking-system",
-          "title": "Applicant tracking system | Manatal",
-          "quote": "Manatal is a comprehensive cloud-based ATS - Applicant Tracking System to make your recruitment process easier."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.manatal.com/features/applicant-tracking-system",
-          "title": "Applicant tracking system | Manatal",
-          "quote": "helps companies achieve digitalization and seamless integration to LinkedIn and other job boards"
-        },
-        {
-          "field": "api",
-          "url": "https://www.manatal.com/features/applicant-tracking-system",
-          "title": "Applicant tracking system | Manatal",
-          "quote": "Integrate Manatal to your existing HR tech stack via Manatal OpenAPI."
-        },
-        {
-          "field": "partner",
-          "url": "https://www.manatal.com/features/applicant-tracking-system",
-          "title": "Applicant tracking system | Manatal",
-          "quote": "Connect Manatal to 3,000+ apps via Zapier and n8n integrations."
-        }
-      ]
-    },
-    {
-      "name": "Hireology",
-      "url": "https://www.hireology.com",
-      "type": "ats",
-      "niche": "hiring platform with job board and HRIS integrations",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.hireology.com/integrations",
-          "title": "Integrations | Hireology",
-          "quote": "See the difference that a hiring platform purpose-built for your industry can make."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.hireology.com/integrations",
-          "title": "Integrations | Hireology",
-          "quote": "Indeed and Hireology sync jobs and applicants for faster, centralized recruiting."
-        },
-        {
-          "field": "partner",
-          "url": "https://www.hireology.com/integrations",
-          "title": "Integrations | Hireology",
-          "quote": "Hireology and BambooHR sync new hires for seamless recruiting and HR management."
-        }
-      ]
-    },
-    {
-      "name": "Fountain",
-      "url": "https://www.fountain.com",
-      "type": "ats",
-      "niche": "frontline hiring platform",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.fountain.com/integrations",
-          "title": "Partners & Integrations | Fountain",
-          "quote": "making it easier and faster for customers to source and hire quality frontline talent"
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.fountain.com/integrations",
-          "title": "Partners & Integrations | Fountain",
-          "quote": "VONQ is an intelligent, data-driven platform designed to streamline the distribution of job listings"
-        },
-        {
-          "field": "partner",
-          "url": "https://www.fountain.com/integrations",
-          "title": "Partners & Integrations | Fountain",
-          "quote": "We partner with the most efficient tools in recruiting and HR to help you streamline your hiring process."
-        }
-      ]
-    },
-    {
-      "name": "JobDiva",
-      "url": "https://www.jobdiva.com",
-      "type": "ats",
-      "niche": "recruiting software for staffing agencies",
-      "countries_served": [],
-      "sources": [
-        {
-          "field": "existence",
-          "url": "https://www.jobdiva.com/",
-          "title": "JobDiva home",
-          "quote": "Partner with us for a comprehensive and unmatched suite of staffing tools."
-        },
-        {
-          "field": "ingest_methods",
-          "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
-          "title": "Recruiting Software Third Party Integrations",
-          "quote": "Broadbean offers data analytics software, job distribution and multi-posting technology, CV search software and HR and recruitment technology."
-        },
-        {
-          "field": "api",
-          "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
-          "title": "Recruiting Software Third Party Integrations",
-          "quote": "Approved partners are granted access to a sandbox environment to experiment, develop, and test integrations directly within our system."
-        },
-        {
-          "field": "partner",
-          "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
-          "title": "Recruiting Software Third Party Integrations",
-          "quote": "JobDiva’s recruiting software integrates seamlessly with your critical tools and services."
-        }
-      ]
+     "field": "partner",
+     "url": "https://avature.ai/integrations/",
+     "title": "Avature Integration Framework",
+     "quote": "Avature’s out-of-the-box integrations cover a wide range of best-in-class providers.",
+     "check": "ok"
     }
-  ],
-  "blocked": [
+   ]
+  },
+  {
+   "name": "Cornerstone OnDemand",
+   "url": "https://www.cornerstoneondemand.com",
+   "type": "ats",
+   "niche": "enterprise talent, learning and recruiting suite",
+   "countries_served": [],
+   "sources": [
     {
-      "name": "UKG Pro Recruiting",
-      "url": "https://www.ukg.com",
-      "reason": "HTTP 403 with browser challenge page on two attempts"
-    }
-  ],
-  "queue": [
+     "field": "existence",
+     "url": "https://www.cornerstoneondemand.com/",
+     "title": "Cornerstone home",
+     "quote": "The intelligence platform for workforce readiness.",
+     "check": "ok"
+    },
     {
-      "name": "Lumesse TalentLink",
-      "url": "",
-      "reason": "lumesse.com redirects to cornerstoneondemand.com; TalentLink product page not read"
+     "field": "api",
+     "url": "https://www.cornerstoneondemand.com/platform/extend-integrations/",
+     "title": "Seamless Integrations & APIs for Your HR Ecosystem",
+     "quote": "Utilize prebuilt integrations, connectors, and APIs to unify systems and streamline workflows.",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.cornerstoneondemand.com/platform/extend-integrations/",
+     "title": "Seamless Integrations & APIs for Your HR Ecosystem",
+     "quote": "Explore the Cornerstone Workforce AI™ Extend Marketplace.",
+     "check": "ok"
     }
-  ]
+   ]
+  },
+  {
+   "name": "Dayforce Recruiting",
+   "url": "https://www.dayforce.com",
+   "type": "ats",
+   "niche": "HCM suite with talent acquisition module",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.dayforce.com/",
+     "title": "Dayforce home",
+     "quote": "Say hello to the new Dayforce Agentic HCM Platform.",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.dayforce.com/how-we-help/services-and-support/partners",
+     "title": "Dayforce Partner Network",
+     "quote": "The Dayforce Partner Network connects you to the expertise, solutions, and support you need to get even more value from the Dayforce platform.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Paradox",
+   "url": "https://www.paradox.ai",
+   "type": "ats",
+   "niche": "conversational recruiting and conversational ATS",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.paradox.ai/",
+     "title": "Paradox home",
+     "quote": "Software that does the work for you, so your managers can focus on customers.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.paradox.ai/partners/indeed",
+     "title": "Indeed: Paradox",
+     "quote": "Automatically distribute jobs on Indeed at the swipe of a toggle, enhancing overall visibility and broadening reach",
+     "check": "ok"
+    },
+    {
+     "field": "api",
+     "url": "https://www.paradox.ai/partners/integrations",
+     "title": "ATS, CRM, and HCM integrations: Paradox",
+     "quote": "Through direct integrations and our open API, Paradox works with the leading systems, apps, and devices you already use today.",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.paradox.ai/partners/integrations",
+     "title": "ATS, CRM, and HCM integrations: Paradox",
+     "quote": "Through direct integrations and our open API, Paradox works with the leading systems, apps, and devices you already use today.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "ADP Recruiting Management",
+   "url": "https://www.adp.com",
+   "type": "ats",
+   "niche": "HCM suite with recruiting and onboarding",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.adp.com/what-we-offer/talent",
+     "title": "Talent | ADP",
+     "quote": "No matter your business’s size or industry, we can help you excel at recruitment and onboarding, learning and development, performance management and more.",
+     "check": "ok"
+    },
+    {
+     "field": "api",
+     "url": "https://www.adp.com/what-we-offer/marketplace",
+     "title": "ADP Marketplace",
+     "quote": "Instantly access secure APIs, tools and resources that can help you build custom integrations for your company.",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.adp.com/what-we-offer/marketplace",
+     "title": "ADP Marketplace",
+     "quote": "ADP Marketplace can help you automatically integrate and securely share data between your HR systems.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Paycom Applicant Tracking",
+   "url": "https://www.paycom.com",
+   "type": "ats",
+   "niche": "HCM suite with applicant tracking module",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.paycom.com/software/applicant-tracking/",
+     "title": "Applicant Tracking System (ATS) Software | Paycom",
+     "quote": "Paycom's applicant tracking software makes building your team quick and easy.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.paycom.com/software/applicant-tracking/",
+     "title": "Applicant Tracking System (ATS) Software | Paycom",
+     "quote": "When you’re ready to hire, our software automatically posts jobs to your website, career sites and online job boards.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.paycom.com/software/talent-acquisition/",
+     "title": "Paycom talent acquisition",
+     "quote": "From automatically posting new job openings on career sites and job boards to automating rejection messages",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Paylocity Recruiting",
+   "url": "https://www.paylocity.com",
+   "type": "ats",
+   "niche": "HR and payroll suite with recruiting module",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.paylocity.com/products/hr/talent-management-system/recruiting/",
+     "title": "HR Recruitment Software | Attract Top Talent | Paylocity",
+     "quote": "Hire faster with one connected, AI-powered recruiting platform",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.paylocity.com/products/hr/talent-management-system/recruiting/",
+     "title": "HR Recruitment Software | Attract Top Talent | Paylocity",
+     "quote": "Create compelling job descriptions with AI, publish to 20,000+ job boards in one click, and make applying easy with text-to-apply and QR code campaigns.",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.paylocity.com/products/capabilities/integrations/marketplace/",
+     "title": "HCM, Finance, and IT Integration Marketplace | Paylocity",
+     "quote": "Learn more about becoming a Marketplace Partner today.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Infor Talent Science",
+   "url": "https://www.infor.com",
+   "type": "ats",
+   "niche": "talent management suite with talent science and recruitment modules",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.infor.com/solutions/human-capital-management/talent-management",
+     "title": "Talent management software | Infor",
+     "quote": "Our unified, cloud-based solutions use the latest technologies to help you hire, develop, promote, and retain top talent across your organization.",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.infor.com/partners",
+     "title": "Infor Partner Network (IPN) | Partners | Infor",
+     "quote": "The Infor Partner Network (IPN) is a global ecosystem of Partners who innovate, sell, and deliver Infor solutions to our customers.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Cegid HR Talent Acquisition",
+   "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
+   "type": "ats",
+   "niche": "recruitment platform for decentralised organisations",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
+     "title": "Talent Acquisition | Cegid",
+     "quote": "The recruitment platform bringing success to decentralised organisations",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.cegid.com/global/products/cegid-hr/talent-acquisition/",
+     "title": "Talent Acquisition | Cegid",
+     "quote": "distribution and sharing to Indeed, Pôle Emploi and more than 3500 job sites",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.cegid.com/global/integration-partners/",
+     "title": "Integration partners | Cegid",
+     "quote": "our integration partners, certified and recognised for their expertise",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Oleeo",
+   "url": "https://www.oleeo.com",
+   "type": "ats",
+   "niche": "enterprise and high-volume applicant tracking",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.oleeo.com/products/ats-software/",
+     "title": "Oleeo ATS",
+     "quote": "Purpose built ATS software designed for high-volume recruitment.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.oleeo.com/products/ats-software/",
+     "title": "Oleeo ATS",
+     "quote": "creating a more accurate job description and posting to multiple job boards",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.oleeo.com/partner-ecosystem/",
+     "title": "Oleeo partner ecosystem",
+     "quote": "Oleeo partners with incredible platforms across the globe to help you recruit faster and smarter!",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Zoho Recruit",
+   "url": "https://www.zoho.com/recruit/",
+   "type": "ats",
+   "niche": "cloud recruiting software for HR teams and agencies",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.zoho.com/recruit/",
+     "title": "Zoho Recruit",
+     "quote": "Zoho Recruit is a cloud-based hiring platform that gives HR teams and recruitment agencies the digital tools needed to fill roles quickly and efficiently.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.zoho.com/recruit/post-job-opening.html",
+     "title": "Publish job openings | Zoho Recruit",
+     "quote": "Publish openings to 70+ free and paid job boards integrated with Zoho Recruit.",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.zoho.com/recruit/integrations.html",
+     "title": "Zoho Recruit integrations",
+     "quote": "Build your extension for free, and add it to our Marketplace.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Manatal",
+   "url": "https://www.manatal.com",
+   "type": "ats",
+   "niche": "cloud applicant tracking and recruitment CRM",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.manatal.com/features/applicant-tracking-system",
+     "title": "Applicant tracking system | Manatal",
+     "quote": "Manatal is a comprehensive cloud-based ATS - Applicant Tracking System to make your recruitment process easier.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.manatal.com/features/applicant-tracking-system",
+     "title": "Applicant tracking system | Manatal",
+     "quote": "helps companies achieve digitalization and seamless integration to LinkedIn and other job boards",
+     "check": "ok"
+    },
+    {
+     "field": "api",
+     "url": "https://www.manatal.com/features/applicant-tracking-system",
+     "title": "Applicant tracking system | Manatal",
+     "quote": "Integrate Manatal to your existing HR tech stack via Manatal OpenAPI.",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.manatal.com/features/applicant-tracking-system",
+     "title": "Applicant tracking system | Manatal",
+     "quote": "Connect Manatal to 3,000+ apps via Zapier and n8n integrations.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Hireology",
+   "url": "https://www.hireology.com",
+   "type": "ats",
+   "niche": "hiring platform with job board and HRIS integrations",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.hireology.com/integrations",
+     "title": "Integrations | Hireology",
+     "quote": "See the difference that a hiring platform purpose-built for your industry can make.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.hireology.com/integrations",
+     "title": "Integrations | Hireology",
+     "quote": "Indeed and Hireology sync jobs and applicants for faster, centralized recruiting.",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.hireology.com/integrations",
+     "title": "Integrations | Hireology",
+     "quote": "Hireology and BambooHR sync new hires for seamless recruiting and HR management.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Fountain",
+   "url": "https://www.fountain.com",
+   "type": "ats",
+   "niche": "frontline hiring platform",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.fountain.com/integrations",
+     "title": "Partners & Integrations | Fountain",
+     "quote": "making it easier and faster for customers to source and hire quality frontline talent",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.fountain.com/integrations",
+     "title": "Partners & Integrations | Fountain",
+     "quote": "VONQ is an intelligent, data-driven platform designed to streamline the distribution of job listings",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.fountain.com/integrations",
+     "title": "Partners & Integrations | Fountain",
+     "quote": "We partner with the most efficient tools in recruiting and HR to help you streamline your hiring process.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "JobDiva",
+   "url": "https://www.jobdiva.com",
+   "type": "ats",
+   "niche": "recruiting software for staffing agencies",
+   "countries_served": [],
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.jobdiva.com/",
+     "title": "JobDiva home",
+     "quote": "Partner with us for a comprehensive and unmatched suite of staffing tools.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+     "title": "Recruiting Software Third Party Integrations",
+     "quote": "Broadbean offers data analytics software, job distribution and multi-posting technology, CV search software and HR and recruitment technology.",
+     "check": "ok"
+    },
+    {
+     "field": "api",
+     "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+     "title": "Recruiting Software Third Party Integrations",
+     "quote": "Approved partners are granted access to a sandbox environment to experiment, develop, and test integrations directly within our system.",
+     "check": "ok"
+    },
+    {
+     "field": "partner",
+     "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+     "title": "Recruiting Software Third Party Integrations",
+     "quote": "JobDiva’s recruiting software integrates seamlessly with your critical tools and services.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "name": "UKG Pro Recruiting",
+   "url": "https://www.ukg.com",
+   "reason": "HTTP 403 with browser challenge page on two attempts"
+  }
+ ],
+ "queue": [
+  {
+   "name": "Lumesse TalentLink",
+   "url": "",
+   "reason": "lumesse.com redirects to cornerstoneondemand.com; TalentLink product page not read"
+  }
+ ]
 }

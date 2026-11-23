@@ -29,7 +29,7 @@ USAJOBS is a government job site based in the United States, focused on public s
 
 **Which languages does USAJOBS support?** This directory records USAJOBS as supporting English.
 
-**How large is USAJOBS?** USAJOBS ranks #5,522 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is USAJOBS?** USAJOBS ranks #5,522 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Large tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **How do you get API access to USAJOBS?** According to USAJOBS's own documentation, access works like this: API key requested by filling out an application on the API Request page; requests authenticate with API key sent in an Authorization-Key request header, with the requester's email in the User-Agent header and Host set to data.usajobs.gov. Codelist endpoints need no authentication.
 

@@ -38,7 +38,7 @@
   "global_rank": 37351,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-partner-only",
@@ -93,6 +93,33 @@
    "to_id": "cv-library",
    "source": "https://jobadder.com/platform/operations/job-boards",
    "quote": "CV-Library is the UK's largest independent job board"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Voyager Infinity",
+   "from_id": "voyager-infinity",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://www.voyagersoftware.com/partners/",
+   "quote": "The partnership enables organisations to source and access millions of CVs from CV-Library"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Recruit CRM",
+   "from_id": "recruit-crm",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://recruitcrm.io/pricing/",
+   "quote": "LogicMelon, Broadbean and CV-Library"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "CV-Library",
+   "to_id": "cv-library",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri, CV-Library, PNet"
   }
  ],
  "review": null,

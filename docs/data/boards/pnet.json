@@ -32,14 +32,24 @@
   "global_rank": 139656,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "general",
   "job-board",
   "subscription"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "PNet",
+   "to_id": "pnet",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri, CV-Library, PNet"
+  }
+ ],
  "review": null,
  "owners": [
   {

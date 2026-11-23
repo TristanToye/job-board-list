@@ -1,0 +1,91 @@
+{
+ "id": "paradox",
+ "name": "Paradox",
+ "url": "https://www.paradox.ai",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "conversational recruiting and conversational ATS",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Site says: \"Through direct integrations and our open API, Paradox works with the leading systems, apps, and devices you already use today.\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/paradox/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 48855,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Paradox",
+   "from_id": "paradox",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.paradox.ai/partners/indeed",
+   "quote": "Automatically distribute jobs on Indeed at the swipe of a toggle, enhancing overall visibility and broadening reach"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Paradox",
+   "from_id": "paradox",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.paradox.ai/",
+   "quote": "Supercharge every Indeed application."
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.paradox.ai/",
+   "title": "Paradox home",
+   "accessed": "2026-11-23",
+   "quote": "Software that does the work for you, so your managers can focus on customers.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.paradox.ai/partners/indeed",
+   "title": "Indeed: Paradox",
+   "accessed": "2026-11-23",
+   "quote": "Automatically distribute jobs on Indeed at the swipe of a toggle, enhancing overall visibility and broadening reach",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.paradox.ai/partners/integrations",
+   "title": "ATS, CRM, and HCM integrations: Paradox",
+   "accessed": "2026-11-23",
+   "quote": "Through direct integrations and our open API, Paradox works with the leading systems, apps, and devices you already use today.",
+   "quote_check": "ok"
+  }
+ ]
+}

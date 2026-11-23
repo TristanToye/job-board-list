@@ -27,9 +27,9 @@ Adzuna is a job aggregator based in the United Kingdom. It was founded in 2011.
 
 **Which languages does Adzuna support?** This directory records Adzuna as supporting English, German, French, Dutch, Polish, Portuguese, Spanish, Italian.
 
-**How large is Adzuna?** Adzuna ranks #66,808 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Adzuna?** Adzuna ranks #66,808 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
-**Which platforms does Adzuna connect to?** According to this directory, Adzuna receives jobs from Workable, PCRecruiter; integrates with Pinpoint, Teamtailor, JobAdder.
+**Which platforms does Adzuna connect to?** According to this directory, Adzuna receives jobs from Workable, PCRecruiter; integrates with Pinpoint, Teamtailor, JobAdder, Zoho Recruit.
 
 **How do you get API access to Adzuna?** According to Adzuna's own documentation, access works like this: Register to receive an app_key and app_id; requests authenticate with app_id and app_key passed as query parameters.
 

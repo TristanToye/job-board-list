@@ -42,7 +42,7 @@
   "global_rank": 1845,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-partner-only",
@@ -115,6 +115,33 @@
    "to_id": "monster",
    "source": "https://www.loxo.co/products/ats",
    "quote": "Boost is connected to all of the leading job boards, including Indeed, ZipRecruiter, Monster, CareerBuilder, Talroo, Jobcase, and Snagajob"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Crelate",
+   "from_id": "crelate",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://www.crelate.com/marketplace",
+   "quote": "Use Crelate to post your jobs directly to Monster.com with a click."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Manatal",
+   "from_id": "manatal",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://www.manatal.com/",
+   "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Hireserve",
+   "from_id": "hireserve",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://hireserve.com/multiple-job-board-integrations/",
+   "quote": "automatically distribute it to leading platforms like Indeed, Monster, Reed and more"
   }
  ],
  "review": null,

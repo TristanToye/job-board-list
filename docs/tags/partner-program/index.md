@@ -1,8 +1,9 @@
 # Partner program
 
-Has a partner or integration program. 102 entries in the directory.
+Has a partner or integration program. 115 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
+- [ADP Recruiting Management](https://jobboardlist.com/boards/adp-recruiting-management/): ats
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [Jooble](https://jobboardlist.com/boards/jooble/): aggregator, API key on request
 - [Workable](https://jobboardlist.com/boards/workable/): ats, Self-serve API key
@@ -15,10 +16,12 @@ Has a partner or integration program. 102 entries in the directory.
 - [SmartRecruiters](https://jobboardlist.com/boards/smartrecruiters/): ats, Self-serve API key
 - [Teamtailor](https://jobboardlist.com/boards/teamtailor/): ats, Self-serve API key
 - [Workday Recruiting](https://jobboardlist.com/boards/workday/): ats, No known API
+- [Paylocity Recruiting](https://jobboardlist.com/boards/paylocity-recruiting/): ats
 - [Recruitee](https://jobboardlist.com/boards/recruitee/): ats, Self-serve API key
 - [99designs](https://jobboardlist.com/boards/99designs/): freelance-platform
 - [Dice](https://jobboardlist.com/boards/dice/): niche-board, Partner-only API
 - [SEEK](https://jobboardlist.com/boards/seek/): board, Partner-only API
+- [Infor Talent Science](https://jobboardlist.com/boards/infor-talent-science/): ats
 - [Jobvite](https://jobboardlist.com/boards/jobvite/): ats, Self-serve API key
 - [Ashby](https://jobboardlist.com/boards/ashby/): ats, Self-serve API key
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
@@ -31,6 +34,7 @@ Has a partner or integration program. 102 entries in the directory.
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
+- [Cornerstone OnDemand](https://jobboardlist.com/boards/cornerstone-ondemand/): ats
 - [SAP SuccessFactors Recruiting](https://jobboardlist.com/boards/successfactors/): ats, Self-serve API key
 - [ApplicantPro](https://jobboardlist.com/boards/applicantpro/): ats
 - [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
@@ -54,6 +58,7 @@ Has a partner or integration program. 102 entries in the directory.
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
 - [Recruiterflow](https://jobboardlist.com/boards/recruiterflow/): ats
 - [Työmarkkinatori](https://jobboardlist.com/boards/ty-markkinatori/): government, API key on request
+- [Dayforce Recruiting](https://jobboardlist.com/boards/dayforce-recruiting/): ats
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key
 - [Codeable](https://jobboardlist.com/boards/codeable/): freelance-platform
@@ -64,7 +69,10 @@ Has a partner or integration program. 102 entries in the directory.
 - [Codility](https://jobboardlist.com/boards/codility/): hr-tech, API key on request
 - [Careerminds](https://jobboardlist.com/boards/careerminds/): outplacement
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech
+- [Bizneo HR](https://jobboardlist.com/boards/bizneo-hr/): ats
+- [JobDiva](https://jobboardlist.com/boards/jobdiva/): ats
 - [Appcast](https://jobboardlist.com/boards/appcast/): programmatic-distribution, Partner-only API
+- [Crelate](https://jobboardlist.com/boards/crelate/): ats
 - [Jobijoba](https://jobboardlist.com/boards/jobijoba/): aggregator, API key on request
 - [Recruitics](https://jobboardlist.com/boards/recruitics/): programmatic-distribution, Partner-only API
 - [Jobtrain](https://jobboardlist.com/boards/jobtrain/): ats
@@ -74,13 +82,5 @@ Has a partner or integration program. 102 entries in the directory.
 - [Hotelcareer](https://jobboardlist.com/boards/hotelcareer/): board
 - [Banco Nacional de Empregos](https://jobboardlist.com/boards/banco-nacional-de-empregos/): board
 - [Ceipal](https://jobboardlist.com/boards/ceipal/): ats
-- [Textkernel](https://jobboardlist.com/boards/textkernel/): lmi
-- [CareerJunction](https://jobboardlist.com/boards/careerjunction/): board
-- [JobTarget](https://jobboardlist.com/boards/jobtarget/): multiposting
-- [Eploy](https://jobboardlist.com/boards/eploy/): ats
-- [Joveo](https://jobboardlist.com/boards/joveo/): programmatic-distribution, Partner-only API
-- [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
-- [PandoLogic](https://jobboardlist.com/boards/pandologic/): programmatic-distribution
-- [VONQ](https://jobboardlist.com/boards/vonq/): programmatic-distribution
 
 Canonical page: https://jobboardlist.com/tags/partner-program/

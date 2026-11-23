@@ -1,0 +1,140 @@
+{
+ "id": "taleez",
+ "name": "Taleez",
+ "url": "https://www.taleez.com/",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "applicant tracking for SMEs and mid-size companies (France)",
+ "segment": "",
+ "parent": "",
+ "business_model": "",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Site says: \"Parce qu’un tarif Taleez dépend de la taille de votre organisation, de vos volumes de recrutement et des modules dont vous avez besoin.\" Site says: \"Taleez met à disposition une API REST documentée (spécification OpenAPI) et des webhooks\" Site says: \"Taleez s'intègre à plus de 90 jobboards et sites emploi.\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/taleez/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 95605,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Taleez",
+   "from_id": "taleez",
+   "to": "France Travail",
+   "to_id": "francetravail",
+   "source": "https://taleez.com/jobboards",
+   "quote": "Des généralistes comme France Travail, Indeed ou HelloWork aux plateformes spécialisées par secteur"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Taleez",
+   "from_id": "taleez",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://taleez.com/jobboards",
+   "quote": "Des généralistes comme France Travail, Indeed ou HelloWork aux plateformes spécialisées par secteur"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Taleez",
+   "from_id": "taleez",
+   "to": "Hellowork",
+   "to_id": "hellowork",
+   "source": "https://taleez.com/jobboards",
+   "quote": "Des généralistes comme France Travail, Indeed ou HelloWork aux plateformes spécialisées par secteur"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.taleez.com/",
+   "title": "Taleez homepage",
+   "accessed": "2026-11-23",
+   "quote": "Taleez est le logiciel de recrutement",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://taleez.com/tarifs",
+   "title": "Taleez offers and prices",
+   "accessed": "2026-11-23",
+   "quote": "Parce qu’un tarif Taleez dépend de la taille de votre organisation, de vos volumes de recrutement et des modules dont vous avez besoin.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.taleez.com/",
+   "title": "Taleez homepage",
+   "accessed": "2026-11-23",
+   "quote": "On a internalisé 100% de la diffusion pour vous garantir la meilleure qualité du marché sur 90+ sites.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://taleez.com/integrations",
+   "title": "Taleez integrations and API",
+   "accessed": "2026-11-23",
+   "quote": "Taleez met à disposition une API REST documentée (spécification OpenAPI) et des webhooks",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://taleez.com/jobboards",
+   "title": "Taleez jobboards",
+   "accessed": "2026-11-23",
+   "quote": "Taleez s'intègre à plus de 90 jobboards et sites emploi.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://taleez.com/tarifs",
+   "title": "Taleez offers and prices",
+   "accessed": "2026-11-23",
+   "quote": "Parce qu’un tarif Taleez dépend de la taille de votre organisation, de vos volumes de recrutement et des modules dont vous avez besoin.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://taleez.com/integrations",
+   "title": "Taleez integrations and API",
+   "accessed": "2026-11-23",
+   "quote": "Taleez met à disposition une API REST documentée (spécification OpenAPI) et des webhooks",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://taleez.com/jobboards",
+   "title": "Taleez jobboards",
+   "accessed": "2026-11-23",
+   "quote": "Taleez s'intègre à plus de 90 jobboards et sites emploi.",
+   "quote_check": "ok"
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "id": "homerun",
+ "name": "Homerun",
+ "url": "https://www.homerun.co",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "applicant tracking for small and growing teams",
+ "segment": "",
+ "parent": "",
+ "business_model": "subscription, prices published",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "unknown",
+ "partner_url": "",
+ "ingest_methods": [],
+ "notes": "Site says: \"Enhance your Homerun experience with a wide variety of add-ons and integrations.\" Site says: \"The Homerun Partnership Program is designed to create mutually beneficial relationships with Partners\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/homerun/",
+ "indexable": false,
+ "prominence": {
+  "tier": "Established",
+  "label": "Established",
+  "global_rank": 58115,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats",
+  "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "integrates-with",
+   "from": "Homerun",
+   "from_id": "homerun",
+   "to": "LinkedIn",
+   "to_id": "linkedin",
+   "source": "https://www.homerun.co/integrations",
+   "quote": "Apply with LinkedIn"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Homerun",
+   "from_id": "homerun",
+   "to": "Google for Jobs",
+   "to_id": "google-jobs",
+   "source": "https://www.homerun.co/integrations",
+   "quote": "Google for Jobs"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.homerun.co/",
+   "title": "Homerun home",
+   "accessed": "2026-11-23",
+   "quote": "Transform your hiring process, create a standout candidate experience and manage your team with our simple and easy-to-use products.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.homerun.co/about",
+   "title": "Homerun about",
+   "accessed": "2026-11-23",
+   "quote": "Homerun is a Netherlands-based applicant tracking system (ATS) that helps companies streamline and manage their hiring process in one place.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.homerun.co/",
+   "title": "Homerun homepage",
+   "accessed": "2026-11-23",
+   "quote": "Hire and manage your team starting from € 109 per month.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.homerun.co/partner-program",
+   "title": "Homerun partnership program",
+   "accessed": "2026-11-23",
+   "quote": "The Homerun Partnership Program is designed to create mutually beneficial relationships with Partners",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.homerun.co/integrations",
+   "title": "Homerun integrations",
+   "accessed": "2026-11-23",
+   "quote": "Enhance your Homerun experience with a wide variety of add-ons and integrations.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.homerun.co/partner-program",
+   "title": "Homerun partnership program",
+   "accessed": "2026-11-23",
+   "quote": "The Homerun Partnership Program is designed to create mutually beneficial relationships with Partners",
+   "quote_check": "ok"
+  }
+ ]
+}

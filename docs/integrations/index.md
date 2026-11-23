@@ -1,35 +1,41 @@
 # Integrations
 
-- [JobTarget](https://jobboardlist.com/integrations/jobtarget/): 40 connections
+- [JobTarget](https://jobboardlist.com/integrations/jobtarget/): 41 connections
 - [Workable](https://jobboardlist.com/integrations/workable/): 31 connections
+- [Indeed](https://jobboardlist.com/integrations/indeed/): 29 connections
 - [Careerjet](https://jobboardlist.com/integrations/careerjet/): 29 connections
 - [Talent.com](https://jobboardlist.com/integrations/talent-com/): 28 connections
 - [Pinpoint](https://jobboardlist.com/integrations/pinpoint/): 26 connections
+- [LinkedIn](https://jobboardlist.com/integrations/linkedin/): 21 connections
+- [Broadbean](https://jobboardlist.com/integrations/broadbean/): 21 connections
 - [Lever](https://jobboardlist.com/integrations/lever/): 19 connections
-- [Broadbean](https://jobboardlist.com/integrations/broadbean/): 18 connections
-- [Indeed](https://jobboardlist.com/integrations/indeed/): 17 connections
-- [LinkedIn](https://jobboardlist.com/integrations/linkedin/): 16 connections
-- [Reed](https://jobboardlist.com/integrations/reed/): 15 connections
+- [Reed](https://jobboardlist.com/integrations/reed/): 16 connections
 - [Job Bank](https://jobboardlist.com/integrations/jobbank-ca/): 15 connections
+- [ZipRecruiter](https://jobboardlist.com/integrations/ziprecruiter/): 13 connections
 - [Teamtailor](https://jobboardlist.com/integrations/teamtailor/): 13 connections
 - [Joveo](https://jobboardlist.com/integrations/joveo/): 12 connections
+- [Zoho Recruit](https://jobboardlist.com/integrations/zoho-recruit/): 12 connections
 - [Greenhouse](https://jobboardlist.com/integrations/greenhouse/): 11 connections
 - [PCRecruiter](https://jobboardlist.com/integrations/pcrecruiter/): 11 connections
 - [RecruitBPM](https://jobboardlist.com/integrations/recruitbpm/): 11 connections
+- [Manatal](https://jobboardlist.com/integrations/manatal/): 11 connections
 - [JazzHR](https://jobboardlist.com/integrations/jazzhr/): 10 connections
-- [ZipRecruiter](https://jobboardlist.com/integrations/ziprecruiter/): 10 connections
+- [Monster](https://jobboardlist.com/integrations/monster/): 10 connections
+- [CareerBuilder](https://jobboardlist.com/integrations/careerbuilder/): 9 connections
 - [JobAdder](https://jobboardlist.com/integrations/jobadder/): 9 connections
-- [Monster](https://jobboardlist.com/integrations/monster/): 7 connections
+- [CV-Library](https://jobboardlist.com/integrations/cv-library/): 8 connections
 - [Appcast](https://jobboardlist.com/integrations/appcast/): 7 connections
 - [Jobvite](https://jobboardlist.com/integrations/jobvite/): 7 connections
 - [DirectEmployers Association](https://jobboardlist.com/integrations/directemployers-association/): 7 connections
 - [Loxo](https://jobboardlist.com/integrations/loxo/): 7 connections
-- [CareerBuilder](https://jobboardlist.com/integrations/careerbuilder/): 6 connections
+- [Adzuna](https://jobboardlist.com/integrations/adzuna/): 6 connections
 - [iCIMS](https://jobboardlist.com/integrations/icims/): 6 connections
 - [Ceipal](https://jobboardlist.com/integrations/ceipal/): 6 connections
-- [CV-Library](https://jobboardlist.com/integrations/cv-library/): 5 connections
-- [Adzuna](https://jobboardlist.com/integrations/adzuna/): 5 connections
+- [SEEK](https://jobboardlist.com/integrations/seek/): 5 connections
+- [Dice](https://jobboardlist.com/integrations/dice/): 5 connections
+- [Crelate](https://jobboardlist.com/integrations/crelate/): 5 connections
 - [BambooHR](https://jobboardlist.com/integrations/bamboohr/): 4 connections
+- [JobDiva](https://jobboardlist.com/integrations/jobdiva/): 4 connections
 - [Oracle Recruiting Cloud](https://jobboardlist.com/integrations/oracle-recruiting/): 3 connections
 - [Breezy HR](https://jobboardlist.com/integrations/breezy/): 3 connections
 - [SmartRecruiters](https://jobboardlist.com/integrations/smartrecruiters/): 3 connections
@@ -37,5 +43,11 @@
 - [Recruitee](https://jobboardlist.com/integrations/recruitee/): 3 connections
 - [Tracker](https://jobboardlist.com/integrations/tracker/): 3 connections
 - [Eploy](https://jobboardlist.com/integrations/eploy/): 3 connections
+- [Voyager Infinity](https://jobboardlist.com/integrations/voyager-infinity/): 3 connections
+- [Recruit CRM](https://jobboardlist.com/integrations/recruit-crm/): 3 connections
+- [Fountain](https://jobboardlist.com/integrations/fountain/): 3 connections
+- [ApplicantStack](https://jobboardlist.com/integrations/applicantstack/): 3 connections
+- [Taleez](https://jobboardlist.com/integrations/taleez/): 3 connections
+- [Hireserve](https://jobboardlist.com/integrations/hireserve/): 3 connections
 
 Canonical page: https://jobboardlist.com/integrations/

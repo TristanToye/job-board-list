@@ -16,7 +16,7 @@ Ceipal is an applicant tracking system based in the United States, focused on AI
 
 ## Quick answers
 
-**How large is Ceipal?** Ceipal ranks #295,666 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Ceipal?** Ceipal ranks #295,666 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 **Which platforms does Ceipal connect to?** According to this directory, Ceipal sends jobs to LinkedIn, Dice, Monster, Indeed, ZipRecruiter, CareerBuilder.
 

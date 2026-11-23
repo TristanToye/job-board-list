@@ -36,7 +36,7 @@
   "global_rank": 13306,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-self-serve",
@@ -180,6 +180,15 @@
    "to_id": "reed",
    "source": "https://jobadder.com/platform/operations/job-boards",
    "quote": "Reed.co.uk was the first of its kind when it started in 1995 and it's now the UK's number one job website."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Hireserve",
+   "from_id": "hireserve",
+   "to": "Reed",
+   "to_id": "reed",
+   "source": "https://hireserve.com/multiple-job-board-integrations/",
+   "quote": "automatically distribute it to leading platforms like Indeed, Monster, Reed and more"
   }
  ],
  "review": null,

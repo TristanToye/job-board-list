@@ -38,7 +38,7 @@
   "global_rank": 423688,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-partner-only",
@@ -210,6 +210,33 @@
    "to_id": "broadbean",
    "source": "https://jobadder.com/platform/operations/integrations",
    "quote": "Broadbean & JobAdder integration: Optimise recruitment with data insights"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "JobDiva",
+   "from_id": "jobdiva",
+   "to": "Broadbean",
+   "to_id": "broadbean",
+   "source": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+   "quote": "Broadbean offers data analytics software, job distribution and multi-posting technology, CV search software and HR and recruitment technology."
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Voyager Infinity",
+   "from_id": "voyager-infinity",
+   "to": "Broadbean",
+   "to_id": "broadbean",
+   "source": "https://www.voyagersoftware.com/partners/",
+   "quote": "Jobs from the Infinity database are automatically sent to Broadbean for dispatch to the largest network of job boards in the world."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Recruit CRM",
+   "from_id": "recruit-crm",
+   "to": "Broadbean",
+   "to_id": "broadbean",
+   "source": "https://recruitcrm.io/pricing/",
+   "quote": "LogicMelon, Broadbean and CV-Library"
   }
  ],
  "review": {

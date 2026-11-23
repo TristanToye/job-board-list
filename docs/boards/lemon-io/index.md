@@ -18,7 +18,7 @@ Lemon.io is a freelance marketplace based in the United States, focused on freel
 
 **Which languages does Lemon.io support?** This directory records Lemon.io as supporting English, German.
 
-**How large is Lemon.io?** Lemon.io ranks #79,103 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Lemon.io?** Lemon.io ranks #79,103 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Established tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

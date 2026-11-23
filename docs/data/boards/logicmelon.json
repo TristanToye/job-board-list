@@ -32,7 +32,7 @@
   "global_rank": 569009,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "job-distribution"
@@ -46,6 +46,33 @@
    "to_id": "logicmelon",
    "source": "https://www.tracker-rms.com/recruitment-ats/",
    "quote": "Broadbean or LogicMelon posting and Daxtra search included in the Job Board plan."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Crelate",
+   "from_id": "crelate",
+   "to": "LogicMelon",
+   "to_id": "logicmelon",
+   "source": "https://www.crelate.com/marketplace",
+   "quote": "LogicMelon Multi-posting job distribution"
+  },
+  {
+   "relation": "sends-jobs-to",
+   "from": "Voyager Infinity",
+   "from_id": "voyager-infinity",
+   "to": "LogicMelon",
+   "to_id": "logicmelon",
+   "source": "https://www.voyagersoftware.com/partners/",
+   "quote": "Jobs from the Infinity database are automatically sent to LogicMelon for dispatch to your selection of their extensive job board network."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Recruit CRM",
+   "from_id": "recruit-crm",
+   "to": "LogicMelon",
+   "to_id": "logicmelon",
+   "source": "https://recruitcrm.io/pricing/",
+   "quote": "LogicMelon, Broadbean and CV-Library"
   }
  ],
  "review": null,

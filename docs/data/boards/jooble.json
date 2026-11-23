@@ -52,7 +52,7 @@
   "global_rank": 2772,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-on-request",
@@ -82,6 +82,15 @@
    "to_id": "jooble",
    "source": "https://help.workable.com/hc/en-us/articles/115012441868-Which-job-boards-can-I-post-to-through-Workable",
    "quote": "Indeed Organic Listings (1) Glassdoor (via Indeed) LinkedIn Limited Listings (1) X job board Adzuna CareerJet ZipRecruiter Google for Jobs CV-Library Group(2) Talent.com Jobcase Jooble Monster Recruit.net US.Jobs"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Zoho Recruit",
+   "from_id": "zoho-recruit",
+   "to": "Jooble",
+   "to_id": "jooble",
+   "source": "https://www.zoho.com/recruit/supported-job-boards.html",
+   "quote": "Jooble is a job search engine created to find the right candidate. Always."
   }
  ],
  "review": null,

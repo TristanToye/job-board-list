@@ -34,7 +34,7 @@
   "global_rank": 17388,
   "scope": "domain",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "freemium",
@@ -42,7 +42,17 @@
   "job-board",
   "subscription"
  ],
- "connections": [],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Taleez",
+   "from_id": "taleez",
+   "to": "Hellowork",
+   "to_id": "hellowork",
+   "source": "https://taleez.com/jobboards",
+   "quote": "Des généralistes comme France Travail, Indeed ou HelloWork aux plateformes spécialisées par secteur"
+  }
+ ],
  "review": {
   "board_id": "hellowork",
   "reviewed": "2026-11-09",

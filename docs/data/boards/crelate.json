@@ -1,0 +1,136 @@
+{
+ "id": "crelate",
+ "name": "Crelate",
+ "url": "https://www.crelate.com",
+ "domains": "",
+ "type": "ats",
+ "hq_country": "",
+ "founded": "",
+ "markets": "",
+ "countries_served": [
+  "ZZ"
+ ],
+ "primary_language": "",
+ "languages_supported": [],
+ "region": "Global",
+ "niche": "recruiting CRM and ATS for agencies",
+ "segment": "",
+ "parent": "",
+ "business_model": "subscription, prices published",
+ "api_status": "unknown",
+ "api_docs_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.crelate.com/marketplace",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Site says: \"Open API and integrations come with Business Plus\"",
+ "confidence": "partially-verified",
+ "page": "https://jobboardlist.com/boards/crelate/",
+ "indexable": true,
+ "prominence": {
+  "tier": "Small",
+  "label": "Small",
+  "global_rank": 143947,
+  "scope": "domain",
+  "source": "Majestic Million (CC BY 3.0)",
+  "list_date": "2026-11-23"
+ },
+ "tags": [
+  "ats",
+  "partner-program",
+  "subscription"
+ ],
+ "connections": [
+  {
+   "relation": "sends-jobs-to",
+   "from": "Crelate",
+   "from_id": "crelate",
+   "to": "Monster",
+   "to_id": "monster",
+   "source": "https://www.crelate.com/marketplace",
+   "quote": "Use Crelate to post your jobs directly to Monster.com with a click."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Crelate",
+   "from_id": "crelate",
+   "to": "Indeed",
+   "to_id": "indeed",
+   "source": "https://www.crelate.com/pricing",
+   "quote": "Indeed, Dice, and CareerBuilder integration"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Crelate",
+   "from_id": "crelate",
+   "to": "Dice",
+   "to_id": "dice",
+   "source": "https://www.crelate.com/pricing",
+   "quote": "Indeed, Dice, and CareerBuilder integration"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Crelate",
+   "from_id": "crelate",
+   "to": "CareerBuilder",
+   "to_id": "careerbuilder",
+   "source": "https://www.crelate.com/pricing",
+   "quote": "Indeed, Dice, and CareerBuilder integration"
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Crelate",
+   "from_id": "crelate",
+   "to": "LogicMelon",
+   "to_id": "logicmelon",
+   "source": "https://www.crelate.com/marketplace",
+   "quote": "LogicMelon Multi-posting job distribution"
+  }
+ ],
+ "review": null,
+ "owners": [],
+ "scale": [],
+ "sources": [
+  {
+   "field": "existence",
+   "url": "https://www.crelate.com",
+   "title": "Crelate homepage",
+   "accessed": "2026-11-23",
+   "quote": "Crelate unifies sourcing, Recruiting CRM, and applicant tracking with agentic AI that discovers talent, enriches your data, and surfaces the next best move.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.crelate.com/marketplace",
+   "title": "Crelate marketplace",
+   "accessed": "2026-11-23",
+   "quote": "Use Crelate to post your jobs directly to Monster.com with a click.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.crelate.com/pricing",
+   "title": "Crelate pricing",
+   "accessed": "2026-11-23",
+   "quote": "Essentials starts at $85 per user per month paid annually, and Business is $119 per user per month, billed annually or monthly.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "note",
+   "url": "https://www.crelate.com/marketplace",
+   "title": "Crelate marketplace",
+   "accessed": "2026-11-23",
+   "quote": "Open API and integrations come with Business Plus",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.crelate.com/marketplace",
+   "title": "Crelate marketplace",
+   "accessed": "2026-11-23",
+   "quote": "Choose from over 80 Crelate integration partners and assemble a recruitment tech stack that works for your business.",
+   "quote_check": "ok"
+  }
+ ]
+}

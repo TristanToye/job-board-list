@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 103 entries in the directory.
+Employers pay a recurring fee or plan. 108 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -35,6 +35,7 @@ Employers pay a recurring fee or plan. 103 entries in the directory.
 - [Kwork](https://jobboardlist.com/boards/kwork/): freelance-platform
 - [JobKorea](https://jobboardlist.com/boards/jobkorea/): board, API key on request
 - [Jobsdb](https://jobboardlist.com/boards/jobsdb/): board, Partner-only API
+- [Recruit CRM](https://jobboardlist.com/boards/recruit-crm/): ats
 - [Vagas.com](https://jobboardlist.com/boards/vagas-com/): board
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [Employment Hero](https://jobboardlist.com/boards/employment-hero/): hr-tech
@@ -43,6 +44,7 @@ Employers pay a recurring fee or plan. 103 entries in the directory.
 - [Computrabajo](https://jobboardlist.com/boards/computrabajo/): board
 - [Catho](https://jobboardlist.com/boards/catho/): board
 - [Gem](https://jobboardlist.com/boards/gem/): hr-tech
+- [Homerun](https://jobboardlist.com/boards/homerun/): ats
 - [Recruiterflow](https://jobboardlist.com/boards/recruiterflow/): ats
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [GulfTalent](https://jobboardlist.com/boards/gulftalent/): board
@@ -51,11 +53,13 @@ Employers pay a recurring fee or plan. 103 entries in the directory.
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
 - [Codility](https://jobboardlist.com/boards/codility/): hr-tech, API key on request
+- [Manatal](https://jobboardlist.com/boards/manatal/): ats
 - [OCC Mundial](https://jobboardlist.com/boards/occ-mundial/): board
 - [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
 - [Loxo](https://jobboardlist.com/boards/loxo/): ats
 - [foundit](https://jobboardlist.com/boards/foundit/): board
 - [PNet](https://jobboardlist.com/boards/pnet/): board
+- [Crelate](https://jobboardlist.com/boards/crelate/): ats
 - [Wanted](https://jobboardlist.com/boards/wanted/): board
 - [Jobberman](https://jobboardlist.com/boards/jobberman/): board
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech
@@ -65,6 +69,7 @@ Employers pay a recurring fee or plan. 103 entries in the directory.
 - [Tracker](https://jobboardlist.com/boards/tracker/): ats
 - [Careers24](https://jobboardlist.com/boards/careers24/): board
 - [Landing.jobs](https://jobboardlist.com/boards/landing-jobs/): niche-board
+- [Firefish](https://jobboardlist.com/boards/firefish/): ats
 - [Gradireland](https://jobboardlist.com/boards/gradireland/): niche-board
 - [Student.be](https://jobboardlist.com/boards/student-be/): niche-board
 - [BrighterMonday](https://jobboardlist.com/boards/brightermonday/): board
@@ -77,10 +82,5 @@ Employers pay a recurring fee or plan. 103 entries in the directory.
 - [Jobs.ca](https://jobboardlist.com/boards/jobs-ca/): board, No known API
 - [Bumeran](https://jobboardlist.com/boards/bumeran/): board
 - [JobMail](https://jobboardlist.com/boards/jobmail/): board
-- [WeLoveDevs](https://jobboardlist.com/boards/welovedevs/): niche-board
-- [Medische Banenbank](https://jobboardlist.com/boards/medische-banenbank/): niche-board
-- [Mynavi](https://jobboardlist.com/boards/mynavi/): board, No known API
-- [The Muse](https://jobboardlist.com/boards/themuse/): board+employer-brand, Self-serve API key
-- [Kleinanzeigen](https://jobboardlist.com/boards/kleinanzeigen/): board
 
 Canonical page: https://jobboardlist.com/tags/subscription/

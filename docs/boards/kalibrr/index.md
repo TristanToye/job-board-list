@@ -18,7 +18,7 @@ Kalibrr is a job board based in the Philippines.
 
 **Which languages does Kalibrr support?** This directory records Kalibrr as supporting English.
 
-**How large is Kalibrr?** Kalibrr ranks #221,820 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Kalibrr?** Kalibrr ranks #221,820 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

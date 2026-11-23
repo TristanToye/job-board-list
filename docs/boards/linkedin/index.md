@@ -21,7 +21,7 @@ LinkedIn is a social network and board based in the United States, focused on ge
 
 **Which languages does LinkedIn support?** This directory records LinkedIn as supporting English, Spanish, French, German, Italian, Portuguese, Dutch, Polish, Swedish, Danish, Norwegian, Finnish, Japanese, Korean, Chinese, Arabic, Turkish, Russian, Indonesian, Malay, Thai, Romanian, Czech, Bengali, Greek, Persian, Hindi, Hungarian, Hebrew, Marathi, Punjabi, Telugu, Tagalog, Ukrainian, Vietnamese.
 
-**Which platforms does LinkedIn connect to?** According to this directory, LinkedIn receives jobs from Workable, Greenhouse, JobAdder, Ceipal; integrates with Oracle Recruiting Cloud, JazzHR, Pinpoint, iCIMS, Job Bank, Appcast and others.
+**Which platforms does LinkedIn connect to?** According to this directory, LinkedIn receives jobs from Workable, Greenhouse, JobAdder, Ceipal, Manatal, Zoho Recruit; integrates with Oracle Recruiting Cloud, JazzHR, Pinpoint, iCIMS, Job Bank, Appcast and others.
 
 ## Sources
 

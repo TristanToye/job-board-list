@@ -16,7 +16,7 @@ Jobtrain is an applicant tracking system, focused on applicant tracking for in-h
 
 ## Quick answers
 
-**How large is Jobtrain?** Jobtrain ranks #170,031 among all websites by web link popularity (Majestic Million, 2026-11-20), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
+**How large is Jobtrain?** Jobtrain ranks #170,031 among all websites by web link popularity (Majestic Million, 2026-11-23), in the Small tier. This measures how widely the site is linked to, not traffic or job volume.
 
 ## Sources
 

@@ -35,7 +35,7 @@
   "global_rank": 1,
   "scope": "section",
   "source": "Majestic Million (CC BY 3.0)",
-  "list_date": "2026-11-20"
+  "list_date": "2026-11-23"
  },
  "tags": [
   "api-open",
@@ -70,6 +70,15 @@
    "to_id": "google-jobs",
    "source": "https://www.tempworks.com/job-boards/",
    "quote": "with TempWorks partnership with Google for Jobs, every job you submit will effortlessly display on job boards in Google searches."
+  },
+  {
+   "relation": "integrates-with",
+   "from": "Homerun",
+   "from_id": "homerun",
+   "to": "Google for Jobs",
+   "to_id": "google-jobs",
+   "source": "https://www.homerun.co/integrations",
+   "quote": "Google for Jobs"
   }
  ],
  "review": null,
