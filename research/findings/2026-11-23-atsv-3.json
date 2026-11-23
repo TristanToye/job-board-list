@@ -1,0 +1,82 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Jobtrain",
+      "url": "https://jobtrain.co.uk",
+      "ingest_methods": ["ATS integration with NHS Jobs"],
+      "partner_url": "https://jobtrain.co.uk/home/our-partners/",
+      "partner_program": "yes",
+      "notes": "Homepage footer lists offices in Altrincham and Glasgow, UK. Headquarters, parent, languages, API and employer pricing were not stated on the pages read. The FAQ answers are collapsed in the page text and were not readable.",
+      "sources": [
+        {"field": "partner_program", "url": "https://jobtrain.co.uk/home/our-partners/", "title": "Our partners", "quote": "Interested in offering your services to our customers? Get in touch and a member of our partner team will be in touch."},
+        {"field": "ingest_methods", "url": "https://jobtrain.co.uk/home/applicant-tracking-software-by-jobtrain/job-board-marketplace/", "title": "Job Board Marketplace", "quote": "Our ATS platform also directly links and integrates with NHS Jobs."}
+      ]
+    },
+    {
+      "name": "ApplicantPro",
+      "url": "https://www.applicantpro.com",
+      "parent": "isolved",
+      "ingest_methods": ["push to job boards: 4,000+ job boards"],
+      "partner_url": "https://www.applicantpro.com/partner-with-applicantpro",
+      "partner_program": "yes",
+      "notes": "Site now presents the product as isolved Talent Acquisition. Pricing page shows plans and a price quote form, with no published amounts. Languages and API were not stated on the pages read.",
+      "sources": [
+        {"field": "parent", "url": "https://www.applicantpro.com/", "title": "Homepage", "quote": "ApplicantPro is now fully integrated with isolved as isolved Talent Acquisition."},
+        {"field": "existence", "url": "https://www.applicantpro.com/about-us", "title": "About us", "quote": "ApplicantPro was founded in 2007 to provide affordable and effective hiring solutions"},
+        {"field": "partner_program", "url": "https://www.applicantpro.com/partner-with-applicantpro", "title": "Partner with isolved Talent Acquisition", "quote": "Join Our Referral Program"},
+        {"field": "ingest_methods", "url": "https://www.applicantpro.com/", "title": "Homepage", "quote": "Post your jobs and push to 4,000+ job boards."}
+      ]
+    },
+    {
+      "name": "RecruitBPM",
+      "url": "https://recruitbpm.com",
+      "business_model": "subscription",
+      "ingest_methods": ["premium job board integrations to post job ads", "Indeed job posting connector"],
+      "partner_url": "https://recruitbpm.com/integration",
+      "notes": "Pricing page lists a Premium Annual plan at $59 USD per user per month, billed annually. Contact block shows an address in Eden Prairie, MN 55346, country not stated. Integrations page lists connectors but no partner program was stated.",
+      "sources": [
+        {"field": "business_model", "url": "https://recruitbpm.com/pricing", "title": "Pricing", "quote": "$59 USD"},
+        {"field": "ingest_methods", "url": "https://recruitbpm.com/integration", "title": "Integrations", "quote": "Connect your Indeed account to RecruitBPM to post your jobs and access Indeed’s resume search directly from your RecruitBPM portal."},
+        {"field": "ingest_methods", "url": "https://recruitbpm.com/", "title": "Homepage", "quote": "offering premium job board integrations, also enabling you to run job ads."}
+      ]
+    },
+    {
+      "name": "JobAdder",
+      "url": "https://jobadder.com",
+      "parent": "SEEK Group",
+      "api_docs_url": "https://jobadder.com/resources/developer-tools",
+      "ingest_methods": ["multi-posting to job boards"],
+      "notes": "Developer tools page describes open API access and a sandbox, and says OAuth 2.0 is used, but does not state how API credentials are issued. Headquarters, languages and employer pricing model were not stated; pricing tiers show Request pricing.",
+      "sources": [
+        {"field": "parent", "url": "https://jobadder.com/company/about-us", "title": "About us", "quote": "Joining the SEEK Group gave JobAdder the resources to keep building for the long term"},
+        {"field": "existence", "url": "https://jobadder.com/company/about-us", "title": "About us", "quote": "Founded in Sydney in 2007, JobAdder began by solving a single problem"},
+        {"field": "api_status", "url": "https://jobadder.com/resources/developer-tools", "title": "Developer tools", "quote": "Build and test JobAdder integrations with open API access, a dedicated sandbox and expert support."},
+        {"field": "api_status", "url": "https://jobadder.com/resources/developer-tools", "title": "Developer tools", "quote": "Read through API documentation"},
+        {"field": "ingest_methods", "url": "https://jobadder.com/platform/operations/job-boards", "title": "Job boards", "quote": "Multi-post job ads to general and industry job boards to source candidates faster with fewer clicks."}
+      ]
+    },
+    {
+      "name": "Loxo",
+      "url": "https://www.loxo.co",
+      "business_model": "subscription",
+      "api_status": "unknown",
+      "notes": "Pricing page lists plans from $149 per user per month billed annually and a Professional plan that includes API access; how API access is obtained is not stated. The integrations page returned blocked in the browser reader and was not retried. Headquarters, parent, languages and job board posting were not stated.",
+      "sources": [
+        {"field": "business_model", "url": "https://www.loxo.co/pricing", "title": "Pricing", "quote": "Starts at $149 per user / month, billed annually"},
+        {"field": "api_status", "url": "https://www.loxo.co/pricing", "title": "Pricing", "quote": "API access"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Jobtrain", "url": "https://jobtrain.co.uk", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "business_model", "api_status"], "method": "mixed", "note": "Homepage and partner pages read; FAQ answers collapsed and no pricing or API statement found."},
+    {"name": "ApplicantPro", "url": "https://www.applicantpro.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status"], "method": "mixed", "note": "Homepage, about, pricing and partner pages read; pricing shows quote-only plans and no API page was linked."},
+    {"name": "RecruitBPM", "url": "https://recruitbpm.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Homepage, pricing and integrations pages read; no API or partner program page was linked."},
+    {"name": "JobAdder", "url": "https://jobadder.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "partner_program"], "method": "mixed", "note": "Homepage, about, pricing, developer and job board pages read; headquarters answer and pricing model not stated."},
+    {"name": "Loxo", "url": "https://www.loxo.co", "outcome": "partially-verified", "fields_not_found": ["hq_country", "founded", "parent", "languages", "partner_program", "ingest_methods"], "method": "mixed", "note": "Homepage, pricing and about pages read; integrations page returned blocked in the browser reader."}
+  ],
+  "blocked": [
+    {"name": "Loxo", "url": "https://www.loxo.co/integrations", "reason": "Integrations page blocked in browser reader (blocked: true); not retried"}
+  ]
+}
