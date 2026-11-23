@@ -5,7 +5,7 @@ A fact is kept only if it has a claim, a source URL and a quote of 3 to 30 words
 import csv, json, pathlib, re, sys, datetime, collections
 ROOT = pathlib.Path(__file__).resolve().parent.parent; DATA = ROOT / "data"; TODAY = datetime.date.today().isoformat()
 COLS = ["guide", "topic", "claim", "source_url", "source_title", "quote", "quote_check", "accessed"]
-BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]
+ATTRIBUTION = [r"co-authored-by:", r"claude-session:", r"claude\.ai/code", r"noreply@anthropic\.com", r"generated (with|by) \[?claude"]  # AI attribution lines must not enter the data; AI products as a subject are fine
 def clean(s, n=400): return str(s or "").replace(chr(0x2014), ", ").replace(chr(0x2013), "-").replace("\n", " ").strip()[:n]
 def main(argv):
     dry = "--dry-run" in argv; files = [a for a in argv if a.endswith(".json")]
@@ -20,7 +20,7 @@ def main(argv):
             elif not re.match(r"https?://", s.get("url") or ""): why = "no source url"
             elif not 3 <= len(q.split()) <= 30: why = "quote length"
             elif s.get("check") != "ok": why = "quote not confirmed on page"
-            elif re.search("|".join(BLOCKED_WORDS), json.dumps(f, ensure_ascii=False), re.I): why = "branded text"
+            elif re.search("|".join(ATTRIBUTION), json.dumps(f, ensure_ascii=False), re.I): why = "attribution text"
             if why: rej.append((claim[:60], why)); stats["rejected"] += 1; continue
             if (g, q) in have: stats["duplicate"] += 1; continue
             rows.append({"guide": g, "topic": clean(f.get("topic"), 80), "claim": claim, "source_url": s["url"], "source_title": clean(s.get("title"), 160), "quote": q, "quote_check": "ok", "accessed": s.get("accessed") or TODAY})

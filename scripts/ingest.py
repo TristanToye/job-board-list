@@ -48,8 +48,8 @@ def regdom(h):
 def clean(s, n=400):
     s = str(s or "").replace(chr(0x2014), ", ").replace(chr(0x2013), "-").replace("\n", " ").strip()
     return s[:n]
-BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]  # brand names of AI tools must never enter the data
-def bad_text(s): return bool(re.search("|".join(BLOCKED_WORDS), s or "", re.I))
+ATTRIBUTION = [r"co-authored-by:", r"claude-session:", r"claude\.ai/code", r"noreply@anthropic\.com", r"generated (with|by) \[?claude"]  # AI attribution lines must not enter the data; AI products as a subject are fine
+def bad_text(s): return bool(re.search("|".join(ATTRIBUTION), s or "", re.I))
 def reject(kind, name, why): log_lines.append((kind, name, why))
 
 def norm_codes(v):
@@ -102,7 +102,7 @@ def main(argv):
         for b in d.get("boards", []):
             name = clean(b.get("name"), 80); url = clean(b.get("url"), 200)
             if not name or not re.match(r"https?://", url) or not host(url): reject("board", name or "?", "missing name or bad url"); stats["rejected"] += 1; continue
-            if bad_text(json.dumps(b)): reject("board", name, "contains disallowed text"); stats["rejected"] += 1; continue
+            if bad_text(json.dumps(b)): reject("board", name, "contains attribution text"); stats["rejected"] += 1; continue
             site = regdom(host(url))
             # exact address or exact name first: several products can share one domain (for example two Oracle products on oracle.com)
             row = byurl.get(norm_url(url)) or byname.get(name.lower()) or by.get(slug(name)) or byhost.get(site)

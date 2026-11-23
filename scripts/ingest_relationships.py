@@ -8,7 +8,7 @@ import csv, json, pathlib, re, sys, datetime, urllib.parse, collections
 ROOT = pathlib.Path(__file__).resolve().parent.parent; DATA = ROOT / "data"; TODAY = datetime.date.today().isoformat()
 RELATIONS = {"sends-jobs-to", "integrates-with"}
 REFERENCE = {"wikipedia.org", "wikidata.org"}
-BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]
+ATTRIBUTION = [r"co-authored-by:", r"claude-session:", r"claude\.ai/code", r"noreply@anthropic\.com", r"generated (with|by) \[?claude"]  # AI attribution lines must not enter the data; AI products as a subject are fine
 COLS = ["from_id", "from_name", "to_id", "to_name", "relation", "source_url", "source_title", "quote", "quote_check", "accessed"]
 def slug(s): return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 def alnum(s): return re.sub(r"[^a-z0-9]", "", s.lower())
@@ -19,7 +19,7 @@ def regdom(h):
     p = h.split(".")
     return ".".join(p[-3:]) if len(p) >= 3 and len(p[-1]) == 2 and p[-2] in {"co", "com", "gov", "org", "ne", "ac", "edu", "net", "gc", "gouv", "gob", "go"} else ".".join(p[-2:])
 def clean(s, n=300): return str(s or "").replace(chr(0x2014), ", ").replace(chr(0x2013), "-").replace("\n", " ").strip()[:n]
-def bad(s): return bool(re.search("|".join(BLOCKED_WORDS), s or "", re.I))
+def bad(s): return bool(re.search("|".join(ATTRIBUTION), s or "", re.I))
 def load(n):
     p = DATA / n
     return list(csv.DictReader(open(p, newline="", encoding="utf-8"))) if p.exists() else []

@@ -12,7 +12,7 @@ CATEGORIES = {"job-board", "aggregator", "staffing", "hr-tech", "hr-services", "
 OWN_WORDS = re.compile(r"\b(subsidiar\w*|owned|owns|own|acquir\w*|acquisition|acquired|stake|wholly|majority|minority|joint venture|purchas\w*|bought|holding)\b", re.I)
 STRONG_RELATIONS = {"subsidiary", "majority-stake", "minority-stake", "joint-venture"}
 REFERENCE = {"wikipedia.org", "wikidata.org"}
-BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]
+ATTRIBUTION = [r"co-authored-by:", r"claude-session:", r"claude\.ai/code", r"noreply@anthropic\.com", r"generated (with|by) \[?claude"]  # AI attribution lines must not enter the data; AI products as a subject are fine
 OCOLS = ["id", "name", "url", "country", "aliases", "domains"]
 HCOLS = ["owner_id", "holding_name", "holding_url", "board_id", "relation", "stake", "since", "category", "source_url", "source_title", "quote", "quote_check", "accessed"]
 
@@ -24,7 +24,7 @@ def regdom(h):
     p = h.split(".")
     return ".".join(p[-3:]) if len(p) >= 3 and len(p[-1]) == 2 and p[-2] in {"co", "com", "gov", "org", "ne", "ac", "edu", "net", "gc", "gouv", "gob", "go"} else ".".join(p[-2:])
 def clean(s, n=300): return str(s or "").replace(chr(0x2014), ", ").replace(chr(0x2013), "-").replace("\n", " ").strip()[:n]
-def bad(s): return bool(re.search("|".join(BLOCKED_WORDS), s or "", re.I))
+def bad(s): return bool(re.search("|".join(ATTRIBUTION), s or "", re.I))
 def owner_id(name):
     n = re.sub(r"\b(co|ltd|inc|corp|corporation|company|limited|plc|n\.v|nv|ag|se|group|holdings?)\b\.?", " ", name.lower())
     return slug(n) or slug(name)

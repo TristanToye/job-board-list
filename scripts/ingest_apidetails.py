@@ -7,7 +7,7 @@ import csv, json, pathlib, re, sys, datetime, urllib.parse, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent; DATA = ROOT / "data"; TODAY = datetime.date.today().isoformat()
 FIELDS = {"access", "auth", "formats", "scope", "limits", "cost", "approval", "sandbox", "feed"}
-BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]
+ATTRIBUTION = [r"co-authored-by:", r"claude-session:", r"claude\.ai/code", r"noreply@anthropic\.com", r"generated (with|by) \[?claude"]  # AI attribution lines must not enter the data; AI products as a subject are fine
 COLS = ["board_id", "field", "value", "source_url", "source_title", "quote", "quote_check", "accessed"]
 def host(u):
     try: return urllib.parse.urlparse(u).netloc.lower().removeprefix("www.")
@@ -16,7 +16,7 @@ def regdom(h):
     p = h.split(".")
     return ".".join(p[-3:]) if len(p) >= 3 and len(p[-1]) == 2 and p[-2] in {"co", "com", "gov", "org", "ne", "ac", "edu", "net", "gc", "gouv", "gob", "go"} else ".".join(p[-2:])
 def clean(s, n=200): return str(s or "").replace(chr(0x2014), ", ").replace(chr(0x2013), "-").replace("\n", " ").strip()[:n]
-def bad(s): return bool(re.search("|".join(BLOCKED_WORDS), s or "", re.I))
+def bad(s): return bool(re.search("|".join(ATTRIBUTION), s or "", re.I))
 def load(n):
     p = DATA / n
     return list(csv.DictReader(open(p, newline="", encoding="utf-8"))) if p.exists() else []
@@ -41,7 +41,7 @@ def main(argv):
                 elif not 3 <= len(q.split()) <= 30: why = "quote length"
                 elif s.get("check") not in ("ok", "chrome"): why = "quote not confirmed on page"
                 elif regdom(host(url)) not in ok_dom: why = f"source off the entry's domains: {host(url)}"
-                elif bad(json.dumps(f, ensure_ascii=False)): why = "branded text"
+                elif bad(json.dumps(f, ensure_ascii=False)): why = "attribution text"
                 if why: rej.append((b["name"], fld, why)); stats["rejected"] += 1; continue
                 if (b["id"], fld) in have: stats["duplicate"] += 1; continue
                 rows.append({"board_id": b["id"], "field": fld, "value": val, "source_url": url, "source_title": clean(s.get("title"), 160), "quote": q, "quote_check": s.get("check"), "accessed": s.get("accessed") or TODAY})

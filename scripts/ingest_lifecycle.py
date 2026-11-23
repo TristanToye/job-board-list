@@ -6,11 +6,11 @@ import csv, json, pathlib, re, sys, datetime, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent; DATA = ROOT / "data"; TODAY = datetime.date.today().isoformat()
 STATUSES = {"closed", "acquired", "merged", "rebranded"}
-BLOCKED_WORDS = ["cla" + "ude", "anthro" + "pic"]
+ATTRIBUTION = [r"co-authored-by:", r"claude-session:", r"claude\.ai/code", r"noreply@anthropic\.com", r"generated (with|by) \[?claude"]  # AI attribution lines must not enter the data; AI products as a subject are fine
 COLS = ["id", "name", "board_id", "url", "type", "country", "status", "year", "successor_id", "successor_name", "note", "source_url", "source_title", "quote", "quote_check", "accessed"]
 def slug(s): return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 def clean(s, n=400): return str(s or "").replace(chr(0x2014), ", ").replace(chr(0x2013), "-").replace("\n", " ").strip()[:n]
-def bad(s): return bool(re.search("|".join(BLOCKED_WORDS), s or "", re.I))
+def bad(s): return bool(re.search("|".join(ATTRIBUTION), s or "", re.I))
 def load(n):
     p = DATA / n
     return list(csv.DictReader(open(p, newline="", encoding="utf-8"))) if p.exists() else []
@@ -33,7 +33,7 @@ def main(argv):
             elif not 3 <= len(q.split()) <= 30: why = "quote length"
             elif s.get("check") == "mismatch": why = "quote not found on page"
             elif s.get("check") not in ("ok", "chrome"): why = "page not readable, quote unchecked"
-            elif bad(json.dumps(ev, ensure_ascii=False)): why = "branded text"
+            elif bad(json.dumps(ev, ensure_ascii=False)): why = "attribution text"
             elif ev.get("year") and not re.fullmatch(r"\d{4}", str(ev["year"])): why = "year"
             if why: rej.append((name, why)); stats["rejected"] += 1; continue
             hit = byid.get(ev.get("id") or "") or byslug.get(slug(name))

@@ -24,6 +24,7 @@ Clockwork Recruiting is an applicant tracking system, focused on executive searc
 - [Partners and integrations](https://www.clockworkrecruiting.com/partners-integrations) (Partner program, checked 2026-11-23): "If you are interested in becoming a Clockwork Partner or building an integration with Clockwork"
 - [Partners and integrations](https://www.clockworkrecruiting.com/partners-integrations) (API access, checked 2026-11-23): "learn more about our partnerships program, API documentation and integration process"
 - [Platform Pricing](https://www.clockworkrecruiting.com/platform-pricing) (Business model and pricing, checked 2026-11-23): "One plan. All the features."
+- [MCP connector FAQ](https://www.clockworkrecruiting.com/clockwork-mcp-server-claude-chatgpt-integration) (Business model and pricing, checked 2026-11-23): "Clockwork's MCP Connector is included in your Clockwork subscription."
 
 Canonical page: https://jobboardlist.com/boards/clockwork-recruiting/
 Last updated: 2026-11-23
