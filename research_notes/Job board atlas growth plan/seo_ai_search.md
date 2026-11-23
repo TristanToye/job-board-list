@@ -69,7 +69,7 @@ IndexNow
 - Official: participating engines with endpoints listed are Amazon, Bing, Naver, Seznam.cz, Yandex and Yep; Google is not listed. Up to 10,000 URLs per POST; submission does not guarantee indexing; per-site daily caps apply (HTTP 429). [IndexNow FAQ](https://www.indexnow.org/faq)
 
 llms.txt
-- Industry (Ahrefs, June 2026, 137,210 domains, May 2026 logs): 28% publish llms.txt (upper bound), 97% of those files got zero requests; AI retrieval bots (OAI-SearchBot, PerplexityBot, Claude search) made only a couple hundred fetches combined; most reads come from agents and coding tools; no AI bot requested a missing /llms.txt. Ahrefs calls it "largely decoration" for AI search and flags prompt-injection risk. [Ahrefs llms.txt study](https://ahrefs.com/blog/llmstxt-study/)
+- Industry (Ahrefs, June 2026, 137,210 domains, May 2026 logs): 28% publish llms.txt (upper bound), 97% of those files got zero requests; AI retrieval bots (OAI-SearchBot, PerplexityBot and others) made only a couple hundred fetches combined; most reads come from agents and coding tools; no AI bot requested a missing /llms.txt. Ahrefs calls it "largely decoration" for AI search and flags prompt-injection risk. [Ahrefs llms.txt study](https://ahrefs.com/blog/llmstxt-study/)
 - Industry: Originality.ai counted llms.txt growing 8.8x (4,088 to 36,120 instances, June 2025 to May 2026) with near-zero evidence of AI reads; SE Ranking (300K domains) found about 10% adoption and no clear citation effect. [PPC Land summary](https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/); [Search Engine Land](https://searchengineland.com/does-llms-txt-matter-467740)
 
 Content Signals
