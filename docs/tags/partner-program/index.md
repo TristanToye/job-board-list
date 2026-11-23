@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 101 entries in the directory.
+Has a partner or integration program. 102 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -73,6 +73,7 @@ Has a partner or integration program. 101 entries in the directory.
 - [AgCareers](https://jobboardlist.com/boards/agcareers/): board
 - [Hotelcareer](https://jobboardlist.com/boards/hotelcareer/): board
 - [Banco Nacional de Empregos](https://jobboardlist.com/boards/banco-nacional-de-empregos/): board
+- [Ceipal](https://jobboardlist.com/boards/ceipal/): ats
 - [Textkernel](https://jobboardlist.com/boards/textkernel/): lmi
 - [CareerJunction](https://jobboardlist.com/boards/careerjunction/): board
 - [JobTarget](https://jobboardlist.com/boards/jobtarget/): multiposting
@@ -81,6 +82,5 @@ Has a partner or integration program. 101 entries in the directory.
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [PandoLogic](https://jobboardlist.com/boards/pandologic/): programmatic-distribution
 - [VONQ](https://jobboardlist.com/boards/vonq/): programmatic-distribution
-- [Resumeble](https://jobboardlist.com/boards/resumeble/): career-services
 
 Canonical page: https://jobboardlist.com/tags/partner-program/

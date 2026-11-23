@@ -16,16 +16,16 @@
  "niche": "executive search software for retained search firms",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "yes",
  "partner_url": "https://www.clockworkrecruiting.com/partners-integrations",
  "ingest_methods": [],
- "notes": "Partners page invites integration builders to contact the company to learn about its partnerships program, API documentation and integration process. Platform pricing page states only 'One plan. All the features.' with no prices. No headquarters, parent company or language options were stated.",
+ "notes": "Partners page invites integration builders to contact the company to learn about its partnerships program, API documentation and integration process. Platform pricing page states only 'One plan. All the features.' with no prices. No headquarters, parent company or language options were stated. Executive search software sold as one plan; prices are not shown. API documentation is available by contacting the company about its partnership program. No headquarters, parent or language options stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/clockwork-recruiting/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
@@ -38,6 +38,7 @@
   "ats",
   "executive",
   "partner-program",
+  "subscription",
   "tech"
  ],
  "connections": [
@@ -55,9 +56,9 @@
   "board_id": "clockwork-recruiting",
   "reviewed": "2026-11-23",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;business_model;ingest_methods;api_status",
-  "note": "HTTP 200 on home, partners, pricing and about pages; partner program stated, prices and API access terms not stated.",
-  "method": "mixed"
+  "fields_not_found": "hq_country;parent;languages;ingest_methods",
+  "note": "Homepage, pricing, partners, about and MCP pages loaded with HTTP 200; no address, parent or language options stated.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],

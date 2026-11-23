@@ -19,16 +19,17 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.ceipal.com/integrations",
  "ingest_methods": [
   "job board integrations",
-  "free job boards"
+  "free job boards",
+  "manual posting"
  ],
- "notes": "Homepage, company and integrations pages read; headquarters is given as Rochester, NY. No pricing, API, partner program or parent company stated and no language switcher found.",
+ "notes": "Homepage, company and integrations pages read; headquarters is given as Rochester, NY. No pricing, API, partner program or parent company stated and no language switcher found. Marketplace at /integrations lists free and paid job board integrations. Company page names Rochester, NY as headquarters but gives no ZIP code, so no hq_country recorded. No pricing, developer or language switcher page found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/ceipal/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -38,7 +39,8 @@
   "list_date": "2026-11-20"
  },
  "tags": [
-  "ats"
+  "ats",
+  "partner-program"
  ],
  "connections": [
   {
@@ -100,9 +102,9 @@
   "board_id": "ceipal",
   "reviewed": "2026-11-23",
   "outcome": "partially-verified",
-  "fields_not_found": "parent;languages;business_model;api_status;partner_program",
-  "note": "Homepage, company and integrations pages read; no pricing, API, partner program or parent company stated.",
-  "method": "mixed"
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+  "note": "Homepage, integrations, company, contact and product pages loaded; no pricing, developer or language switcher page was linked.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
@@ -145,6 +147,14 @@
    "title": "Integrations",
    "accessed": "2026-11-23",
    "quote": "Free Job Boards",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.ceipal.com/integrations",
+   "title": "Marketplace integrations",
+   "accessed": "2026-11-23",
+   "quote": "Fill Out The Form Below To Recommend New Partners For Our Marketplace",
    "quote_check": "ok"
   }
  ]

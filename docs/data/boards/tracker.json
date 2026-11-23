@@ -10,19 +10,21 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "recruitment and applicant tracking software for staffing agencies",
  "segment": "",
  "parent": "",
- "business_model": "subscription",
+ "business_model": "subscription per user per month",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Site says: \"Post and search across the boards you already use\" Plans page lists a $99 /user/month Core plan billed monthly, with a 6-month minimum term. REST API access is listed as a plan feature, but no developer page or key process was found. Job posting to job boards is offered from within Tracker. No headquarters, parent company or language options were st",
+ "notes": "Site says: \"Post and search across the boards you already use\" Plans page lists a $99 /user/month Core plan billed monthly, with a 6-month minimum term. REST API access is listed as a plan feature, but no developer page or key process was found. Job posting to job boards is offered from within Tracker. No headquarters, parent company or language options were st Core plan is listed at $99 per user per month, billed monthly. The integrations page mentions an open API but links no docs. No language switcher, headquarters or parent company found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/tracker/",
  "indexable": false,
@@ -73,7 +75,7 @@
   "reviewed": "2026-11-23",
   "outcome": "partially-verified",
   "fields_not_found": "hq_country;parent;languages;partner_program",
-  "note": "Plans page states billing and term; open REST API mentioned without a documented key process.",
+  "note": "Plans, integrations and about pages read; no headquarters, parent or language options found.",
   "method": "mixed"
  },
  "owners": [],
@@ -125,6 +127,22 @@
    "title": "ATS integrations",
    "accessed": "2026-11-23",
    "quote": "Post jobs to 7,000+ job boards in 100 countries from Tracker",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.tracker-rms.com/plans/",
+   "title": "Enterprise plan description",
+   "accessed": "2026-11-23",
+   "quote": "For large organizations with complex requirements",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.tracker-rms.com/integrations/",
+   "title": "Integrations page, open API",
+   "accessed": "2026-11-23",
+   "quote": "Tracker’s open API follows the OpenAPI standard, so developers can connect almost any tool to your data.",
    "quote_check": "ok"
   }
  ]

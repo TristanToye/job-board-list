@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 101 entries in the directory.
+Employers pay a recurring fee or plan. 103 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -71,6 +71,7 @@ Employers pay a recurring fee or plan. 101 entries in the directory.
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
 - [ApplyToEducation](https://jobboardlist.com/boards/applytoeducation/): board
+- [RecruitBPM](https://jobboardlist.com/boards/recruitbpm/): ats
 - [VONQ](https://jobboardlist.com/boards/vonq/): programmatic-distribution
 - [Moka ATS (MokaHR)](https://jobboardlist.com/boards/moka-ats-mokahr/): ats
 - [Jobs.ca](https://jobboardlist.com/boards/jobs-ca/): board, No known API
@@ -81,6 +82,5 @@ Employers pay a recurring fee or plan. 101 entries in the directory.
 - [Mynavi](https://jobboardlist.com/boards/mynavi/): board, No known API
 - [The Muse](https://jobboardlist.com/boards/themuse/): board+employer-brand, Self-serve API key
 - [Kleinanzeigen](https://jobboardlist.com/boards/kleinanzeigen/): board
-- [FINN.no Jobs](https://jobboardlist.com/boards/finn-no/): classifieds+board, Partner-only API
 
 Canonical page: https://jobboardlist.com/tags/subscription/

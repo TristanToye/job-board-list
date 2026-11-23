@@ -10,19 +10,21 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en"
+ ],
  "region": "Global",
  "niche": "AI talent intelligence platform with ATS and recruitment CRM",
  "segment": "",
  "parent": "",
- "business_model": "subscription",
+ "business_model": "subscription per user per month, billed annually",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Pricing page lists plans from $149 per user per month billed annually and a Professional plan that includes API access; how API access is obtained is not stated. The integrations page returned blocked in the browser reader and was not retried. Headquarters, parent, languages and job board posting were not stated.",
+ "notes": "Pricing page lists plans from $149 per user per month billed annually and a Professional plan that includes API access; how API access is obtained is not stated. The integrations page returned blocked in the browser reader and was not retried. Headquarters, parent, languages and job board posting were not stated. Core plan starts at $149 per user per month, billed annually. Professional plan lists API access. Integrations page refused the browser reader, so it was not read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/loxo/",
  "indexable": false,
@@ -107,8 +109,8 @@
   "board_id": "loxo",
   "reviewed": "2026-11-23",
   "outcome": "partially-verified",
-  "fields_not_found": "hq_country;founded;parent;languages;partner_program;ingest_methods",
-  "note": "Homepage, pricing and about pages read; integrations page returned blocked in the browser reader.",
+  "fields_not_found": "hq_country;parent;languages;ingest_methods;partner_program",
+  "note": "Home and pricing pages read; integrations page refused by the browser reader (blocked), no headquarters or parent stated.",
   "method": "mixed"
  },
  "owners": [],
@@ -136,6 +138,22 @@
    "title": "Pricing",
    "accessed": "2026-11-23",
    "quote": "Starts at $149 per user / month, billed annually",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.loxo.co/pricing",
+   "title": "Pricing page",
+   "accessed": "2026-11-23",
+   "quote": "Replace your separate ATS, CRM, sourcing, outreach, and data tools with one AI-native platform",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.loxo.co/pricing",
+   "title": "Professional plan, API access",
+   "accessed": "2026-11-23",
+   "quote": "Contact information, when available, with every shortlist API access",
    "quote_check": "ok"
   }
  ]

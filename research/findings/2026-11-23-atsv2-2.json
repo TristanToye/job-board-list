@@ -1,0 +1,108 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Ceipal",
+   "url": "https://www.ceipal.com",
+   "ingest_methods": [
+    "manual posting"
+   ],
+   "partner_program": "yes",
+   "partner_url": "https://www.ceipal.com/integrations",
+   "notes": "Marketplace at /integrations lists free and paid job board integrations. Company page names Rochester, NY as headquarters but gives no ZIP code, so no hq_country recorded. No pricing, developer or language switcher page found.",
+   "sources": [
+    {
+     "field": "ingest_methods",
+     "url": "https://www.ceipal.com/staffing-agency-software/applicant-tracking-system",
+     "title": "Applicant tracking system product page",
+     "quote": "Advertise your job across job boards, social media, and more in one click.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.ceipal.com/integrations",
+     "title": "Marketplace integrations",
+     "quote": "Fill Out The Form Below To Recommend New Partners For Our Marketplace",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Clockwork Recruiting",
+   "url": "https://www.clockworkrecruiting.com",
+   "business_model": "subscription",
+   "api_status": "on-request",
+   "partner_program": "yes",
+   "partner_url": "https://www.clockworkrecruiting.com/partners-integrations",
+   "notes": "Executive search software sold as one plan; prices are not shown. API documentation is available by contacting the company about its partnership program. No headquarters, parent or language options stated on the pages read.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.clockworkrecruiting.com/platform-pricing",
+     "title": "Platform pricing",
+     "quote": "Get all the tools to power a successful executive search process in one plan.",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.clockworkrecruiting.com/partners-integrations",
+     "title": "Partners and integrations",
+     "quote": "Click below to get in touch and learn more about our partnerships program, API documentation and integration process.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.clockworkrecruiting.com/partners-integrations",
+     "title": "Partners and integrations",
+     "quote": "If you are interested in becoming a Clockwork Partner or building an integration with Clockwork, get in touch with us.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Ceipal",
+   "url": "https://www.ceipal.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "method": "browser",
+   "note": "Homepage, integrations, company, contact and product pages loaded; no pricing, developer or language switcher page was linked."
+  },
+  {
+   "name": "Clockwork Recruiting",
+   "url": "https://www.clockworkrecruiting.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage, pricing, partners, about and MCP pages loaded with HTTP 200; no address, parent or language options stated."
+  },
+  {
+   "name": "TempWorks Software",
+   "url": "https://www.tempworks.com",
+   "outcome": "blocked",
+   "fields_not_found": [],
+   "method": "browser",
+   "note": "Homepage, job boards and integration partner pages loaded, but the browser reader returned blocked true for the contact-us page, so the board is recorded as blocked and no facts were kept."
+  }
+ ],
+ "blocked": [
+  {
+   "name": "TempWorks Software",
+   "url": "https://www.tempworks.com",
+   "reason": "Browser reader returned blocked true for https://www.tempworks.com/contact-us/"
+  }
+ ]
+}

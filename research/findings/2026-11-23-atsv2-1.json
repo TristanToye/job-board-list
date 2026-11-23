@@ -1,0 +1,150 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Tracker",
+   "url": "https://www.tracker-rms.com",
+   "primary_language": "en",
+   "business_model": "subscription per user per month",
+   "api_status": "unknown",
+   "notes": "Core plan is listed at $99 per user per month, billed monthly. The integrations page mentions an open API but links no docs. No language switcher, headquarters or parent company found.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.tracker-rms.com/plans/",
+     "title": "Enterprise plan description",
+     "quote": "For large organizations with complex requirements",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.tracker-rms.com/plans/",
+     "title": "Core plan price",
+     "quote": "For growing teams ready to scale their recruitment operations $99 /user/month Billed monthly",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.tracker-rms.com/integrations/",
+     "title": "Integrations page, open API",
+     "quote": "Tracker’s open API follows the OpenAPI standard, so developers can connect almost any tool to your data.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.tracker-rms.com/integrations/",
+     "title": "Job board posting",
+     "quote": "Post jobs to 7,000+ job boards in 100 countries from Tracker, and see which channels bring your best candidates.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "RecruitBPM",
+   "url": "https://recruitbpm.com",
+   "primary_language": "en",
+   "business_model": "subscription per user per month",
+   "api_status": "unknown",
+   "notes": "Premium Annual plan is listed at $59 USD per user per month, billed annually. Integrations page lists job board posting. The contact page address has no headquarters label.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://recruitbpm.com/pricing",
+     "title": "Pricing page",
+     "quote": "Every day, thousands of candidates flow through our system, shaping hiring dynamics worldwide.",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://recruitbpm.com/pricing",
+     "title": "Premium Annual plan price",
+     "quote": "Premium Annual It’s like an all-in-one ATS, CRM, AI and automation, all within one intuitive interface! $89 $59 USD /user/month – billed annually",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://recruitbpm.com/integration",
+     "title": "ZipRecruiter job posting",
+     "quote": "Post to 100+ Job Boards with One Submission directly from your RecruitBPM account using ZipRecruiter.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Loxo",
+   "url": "https://www.loxo.co",
+   "primary_language": "en",
+   "business_model": "subscription per user per month, billed annually",
+   "api_status": "unknown",
+   "notes": "Core plan starts at $149 per user per month, billed annually. Professional plan lists API access. Integrations page refused the browser reader, so it was not read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.loxo.co/pricing",
+     "title": "Pricing page",
+     "quote": "Replace your separate ATS, CRM, sourcing, outreach, and data tools with one AI-native platform",
+     "check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://www.loxo.co/pricing",
+     "title": "Core plan price",
+     "quote": "Starts at $149 per user / month, billed annually",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.loxo.co/pricing",
+     "title": "Professional plan, API access",
+     "quote": "Contact information, when available, with every shortlist API access",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Tracker",
+   "url": "https://www.tracker-rms.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Plans, integrations and about pages read; no headquarters, parent or language options found."
+  },
+  {
+   "name": "RecruitBPM",
+   "url": "https://recruitbpm.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Pricing, integration and contact pages read; no labelled headquarters, parent or API found."
+  },
+  {
+   "name": "Loxo",
+   "url": "https://www.loxo.co",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "ingest_methods",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Home and pricing pages read; integrations page refused by the browser reader (blocked), no headquarters or parent stated."
+  }
+ ],
+ "blocked": []
+}

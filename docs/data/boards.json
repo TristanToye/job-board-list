@@ -51234,19 +51234,21 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "recruitment and applicant tracking software for staffing agencies",
    "segment": "",
    "parent": "",
-   "business_model": "subscription",
+   "business_model": "subscription per user per month",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Site says: \"Post and search across the boards you already use\" Plans page lists a $99 /user/month Core plan billed monthly, with a 6-month minimum term. REST API access is listed as a plan feature, but no developer page or key process was found. Job posting to job boards is offered from within Tracker. No headquarters, parent company or language options were st",
+   "notes": "Site says: \"Post and search across the boards you already use\" Plans page lists a $99 /user/month Core plan billed monthly, with a 6-month minimum term. REST API access is listed as a plan feature, but no developer page or key process was found. Job posting to job boards is offered from within Tracker. No headquarters, parent company or language options were st Core plan is listed at $99 per user per month, billed monthly. The integrations page mentions an open API but links no docs. No language switcher, headquarters or parent company found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/tracker/",
    "indexable": false,
@@ -51297,7 +51299,7 @@
     "reviewed": "2026-11-23",
     "outcome": "partially-verified",
     "fields_not_found": "hq_country;parent;languages;partner_program",
-    "note": "Plans page states billing and term; open REST API mentioned without a documented key process.",
+    "note": "Plans, integrations and about pages read; no headquarters, parent or language options found.",
     "method": "mixed"
    },
    "owners": [],
@@ -51349,6 +51351,22 @@
      "title": "ATS integrations",
      "accessed": "2026-11-23",
      "quote": "Post jobs to 7,000+ job boards in 100 countries from Tracker",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.tracker-rms.com/plans/",
+     "title": "Enterprise plan description",
+     "accessed": "2026-11-23",
+     "quote": "For large organizations with complex requirements",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.tracker-rms.com/integrations/",
+     "title": "Integrations page, open API",
+     "accessed": "2026-11-23",
+     "quote": "Tracker’s open API follows the OpenAPI standard, so developers can connect almost any tool to your data.",
      "quote_check": "ok"
     }
    ]
@@ -51712,13 +51730,15 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "staffing and recruitment ATS and CRM",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription per user per month",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
@@ -51727,10 +51747,10 @@
     "premium job board integrations to post job ads",
     "Indeed job posting connector"
    ],
-   "notes": "Pricing page lists a Premium Annual plan at $59 USD per user per month, billed annually. Contact block shows an address in Eden Prairie, MN 55346, country not stated. Integrations page lists connectors but no partner program was stated.",
+   "notes": "Pricing page lists a Premium Annual plan at $59 USD per user per month, billed annually. Contact block shows an address in Eden Prairie, MN 55346, country not stated. Integrations page lists connectors but no partner program was stated. Premium Annual plan is listed at $59 USD per user per month, billed annually. Integrations page lists job board posting. The contact page address has no headquarters label.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/recruitbpm/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -51740,7 +51760,8 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "ats",
+    "subscription"
    ],
    "connections": [
     {
@@ -51847,8 +51868,8 @@
     "board_id": "recruitbpm",
     "reviewed": "2026-11-23",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
-    "note": "Homepage, pricing and integrations pages read; no API or partner program page was linked.",
+    "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+    "note": "Pricing, integration and contact pages read; no labelled headquarters, parent or API found.",
     "method": "mixed"
    },
    "owners": [],
@@ -51876,6 +51897,22 @@
      "title": "Homepage",
      "accessed": "2026-11-23",
      "quote": "offering premium job board integrations, also enabling you to run job ads.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://recruitbpm.com/pricing",
+     "title": "Pricing page",
+     "accessed": "2026-11-23",
+     "quote": "Every day, thousands of candidates flow through our system, shaping hiring dynamics worldwide.",
+     "quote_check": "ok"
+    },
+    {
+     "field": "business_model",
+     "url": "https://recruitbpm.com/pricing",
+     "title": "Premium Annual plan price",
+     "accessed": "2026-11-23",
+     "quote": "Premium Annual It’s like an all-in-one ATS, CRM, AI and automation, all within one intuitive interface! $89 $59 USD /user/month - billed annually",
      "quote_check": "ok"
     }
    ]
@@ -52067,10 +52104,10 @@
    "review": {
     "board_id": "tempworks-software",
     "reviewed": "2026-11-23",
-    "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program",
-    "note": "HTTP 200 on home, about and integration partner pages; footer gives a Minnesota address only and no pricing or API page was found.",
-    "method": "mixed"
+    "outcome": "blocked",
+    "fields_not_found": "",
+    "note": "Homepage, job boards and integration partner pages loaded, but the browser reader returned blocked true for the contact-us page, so the board is recorded as blocked and no facts were kept.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -52315,16 +52352,17 @@
    "business_model": "",
    "api_status": "unknown",
    "api_docs_url": "",
-   "partner_program": "unknown",
-   "partner_url": "",
+   "partner_program": "yes",
+   "partner_url": "https://www.ceipal.com/integrations",
    "ingest_methods": [
     "job board integrations",
-    "free job boards"
+    "free job boards",
+    "manual posting"
    ],
-   "notes": "Homepage, company and integrations pages read; headquarters is given as Rochester, NY. No pricing, API, partner program or parent company stated and no language switcher found.",
+   "notes": "Homepage, company and integrations pages read; headquarters is given as Rochester, NY. No pricing, API, partner program or parent company stated and no language switcher found. Marketplace at /integrations lists free and paid job board integrations. Company page names Rochester, NY as headquarters but gives no ZIP code, so no hq_country recorded. No pricing, developer or language switcher page found.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/ceipal/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "Small",
     "label": "Small",
@@ -52334,7 +52372,8 @@
     "list_date": "2026-11-20"
    },
    "tags": [
-    "ats"
+    "ats",
+    "partner-program"
    ],
    "connections": [
     {
@@ -52396,9 +52435,9 @@
     "board_id": "ceipal",
     "reviewed": "2026-11-23",
     "outcome": "partially-verified",
-    "fields_not_found": "parent;languages;business_model;api_status;partner_program",
-    "note": "Homepage, company and integrations pages read; no pricing, API, partner program or parent company stated.",
-    "method": "mixed"
+    "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+    "note": "Homepage, integrations, company, contact and product pages loaded; no pricing, developer or language switcher page was linked.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -52442,6 +52481,14 @@
      "accessed": "2026-11-23",
      "quote": "Free Job Boards",
      "quote_check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.ceipal.com/integrations",
+     "title": "Marketplace integrations",
+     "accessed": "2026-11-23",
+     "quote": "Fill Out The Form Below To Recommend New Partners For Our Marketplace",
+     "quote_check": "ok"
     }
    ]
   },
@@ -52463,16 +52510,16 @@
    "niche": "executive search software for retained search firms",
    "segment": "",
    "parent": "",
-   "business_model": "",
+   "business_model": "subscription",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "yes",
    "partner_url": "https://www.clockworkrecruiting.com/partners-integrations",
    "ingest_methods": [],
-   "notes": "Partners page invites integration builders to contact the company to learn about its partnerships program, API documentation and integration process. Platform pricing page states only 'One plan. All the features.' with no prices. No headquarters, parent company or language options were stated.",
+   "notes": "Partners page invites integration builders to contact the company to learn about its partnerships program, API documentation and integration process. Platform pricing page states only 'One plan. All the features.' with no prices. No headquarters, parent company or language options were stated. Executive search software sold as one plan; prices are not shown. API documentation is available by contacting the company about its partnership program. No headquarters, parent or language options stated on the pages read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/clockwork-recruiting/",
-   "indexable": false,
+   "indexable": true,
    "prominence": {
     "tier": "",
     "label": "Not in top 1M",
@@ -52485,6 +52532,7 @@
     "ats",
     "executive",
     "partner-program",
+    "subscription",
     "tech"
    ],
    "connections": [
@@ -52502,9 +52550,9 @@
     "board_id": "clockwork-recruiting",
     "reviewed": "2026-11-23",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;parent;languages;business_model;ingest_methods;api_status",
-    "note": "HTTP 200 on home, partners, pricing and about pages; partner program stated, prices and API access terms not stated.",
-    "method": "mixed"
+    "fields_not_found": "hq_country;parent;languages;ingest_methods",
+    "note": "Homepage, pricing, partners, about and MCP pages loaded with HTTP 200; no address, parent or language options stated.",
+    "method": "browser"
    },
    "owners": [],
    "scale": [],
@@ -52555,19 +52603,21 @@
    "countries_served": [
     "ZZ"
    ],
-   "primary_language": "",
-   "languages_supported": [],
+   "primary_language": "en",
+   "languages_supported": [
+    "en"
+   ],
    "region": "Global",
    "niche": "AI talent intelligence platform with ATS and recruitment CRM",
    "segment": "",
    "parent": "",
-   "business_model": "subscription",
+   "business_model": "subscription per user per month, billed annually",
    "api_status": "unknown",
    "api_docs_url": "",
    "partner_program": "unknown",
    "partner_url": "",
    "ingest_methods": [],
-   "notes": "Pricing page lists plans from $149 per user per month billed annually and a Professional plan that includes API access; how API access is obtained is not stated. The integrations page returned blocked in the browser reader and was not retried. Headquarters, parent, languages and job board posting were not stated.",
+   "notes": "Pricing page lists plans from $149 per user per month billed annually and a Professional plan that includes API access; how API access is obtained is not stated. The integrations page returned blocked in the browser reader and was not retried. Headquarters, parent, languages and job board posting were not stated. Core plan starts at $149 per user per month, billed annually. Professional plan lists API access. Integrations page refused the browser reader, so it was not read.",
    "confidence": "partially-verified",
    "page": "https://jobboardlist.com/boards/loxo/",
    "indexable": false,
@@ -52652,8 +52702,8 @@
     "board_id": "loxo",
     "reviewed": "2026-11-23",
     "outcome": "partially-verified",
-    "fields_not_found": "hq_country;founded;parent;languages;partner_program;ingest_methods",
-    "note": "Homepage, pricing and about pages read; integrations page returned blocked in the browser reader.",
+    "fields_not_found": "hq_country;parent;languages;ingest_methods;partner_program",
+    "note": "Home and pricing pages read; integrations page refused by the browser reader (blocked), no headquarters or parent stated.",
     "method": "mixed"
    },
    "owners": [],
@@ -52681,6 +52731,22 @@
      "title": "Pricing",
      "accessed": "2026-11-23",
      "quote": "Starts at $149 per user / month, billed annually",
+     "quote_check": "ok"
+    },
+    {
+     "field": "languages",
+     "url": "https://www.loxo.co/pricing",
+     "title": "Pricing page",
+     "accessed": "2026-11-23",
+     "quote": "Replace your separate ATS, CRM, sourcing, outreach, and data tools with one AI-native platform",
+     "quote_check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://www.loxo.co/pricing",
+     "title": "Professional plan, API access",
+     "accessed": "2026-11-23",
+     "quote": "Contact information, when available, with every shortlist API access",
      "quote_check": "ok"
     }
    ]

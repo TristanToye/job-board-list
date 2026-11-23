@@ -52,10 +52,10 @@
  "review": {
   "board_id": "tempworks-software",
   "reviewed": "2026-11-23",
-  "outcome": "partially-verified",
-  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program",
-  "note": "HTTP 200 on home, about and integration partner pages; footer gives a Minnesota address only and no pricing or API page was found.",
-  "method": "mixed"
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Homepage, job boards and integration partner pages loaded, but the browser reader returned blocked true for the contact-us page, so the board is recorded as blocked and no facts were kept.",
+  "method": "browser"
  },
  "owners": [],
  "scale": [],
