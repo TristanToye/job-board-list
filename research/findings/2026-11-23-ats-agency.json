@@ -1,0 +1,384 @@
+{
+  "mode": "discover",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Avionte",
+      "url": "https://www.avionte.com",
+      "type": "ats",
+      "niche": "staffing agency ATS, CRM and payroll",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.avionte.com",
+          "title": "Avionte homepage",
+          "quote": "Run the entire recruiting lifecycle and manage client relationships in one staffing platform."
+        },
+        {
+          "field": "api",
+          "url": "https://www.avionte.com/integrations/",
+          "title": "Avionte integrations",
+          "quote": "Avionté’s Open API offers a proven means of customizing and expanding your ATS and CRM."
+        },
+        {
+          "field": "partner",
+          "url": "https://www.avionte.com/integrations/",
+          "title": "Avionte integrations",
+          "quote": "Avionté+ is the program that allows best-of-breed technologies for staffing and recruiting to integrate with your core staffing platform."
+        }
+      ]
+    },
+    {
+      "name": "JobDiva",
+      "url": "https://www.jobdiva.com",
+      "type": "ats",
+      "niche": "staffing agency ATS and back-office platform",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.jobdiva.com",
+          "title": "JobDiva homepage",
+          "quote": "JobDiva's industry-leading technology helps thousands of recruiters maximize their business potential."
+        },
+        {
+          "field": "ingest_methods",
+          "url": "https://www.jobdiva.com",
+          "title": "JobDiva homepage",
+          "quote": "partnerships with major job boards and specialty products"
+        },
+        {
+          "field": "api",
+          "url": "https://www.jobdiva.com",
+          "title": "JobDiva homepage",
+          "quote": "Development teams looking to extend functionality even further can use our comprehensive open API suite to explore endless possibilities."
+        },
+        {
+          "field": "partner",
+          "url": "https://www.jobdiva.com/recruiting-software-third-party-integrations",
+          "title": "JobDiva integrations",
+          "quote": "Approved partners are granted access to a sandbox environment to experiment, develop, and test integrations directly within our system."
+        }
+      ]
+    },
+    {
+      "name": "Crelate",
+      "url": "https://www.crelate.com",
+      "type": "ats",
+      "niche": "recruiting CRM and ATS for agencies",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.crelate.com",
+          "title": "Crelate homepage",
+          "quote": "Crelate unifies sourcing, Recruiting CRM, and applicant tracking with agentic AI that discovers talent, enriches your data, and surfaces the next best move."
+        },
+        {
+          "field": "pricing",
+          "url": "https://www.crelate.com/pricing",
+          "title": "Crelate pricing",
+          "quote": "Essentials starts at $85 per user per month paid annually, and Business is $119 per user per month, billed annually or monthly."
+        },
+        {
+          "field": "ingest_methods",
+          "url": "https://www.crelate.com/marketplace",
+          "title": "Crelate marketplace",
+          "quote": "Use Crelate to post your jobs directly to Monster.com with a click."
+        },
+        {
+          "field": "api",
+          "url": "https://www.crelate.com/marketplace",
+          "title": "Crelate marketplace",
+          "quote": "Open API and integrations come with Business Plus"
+        },
+        {
+          "field": "partner",
+          "url": "https://www.crelate.com/marketplace",
+          "title": "Crelate marketplace",
+          "quote": "Choose from over 80 Crelate integration partners and assemble a recruitment tech stack that works for your business."
+        }
+      ]
+    },
+    {
+      "name": "Firefish",
+      "url": "https://www.firefishsoftware.com",
+      "type": "ats",
+      "niche": "UK recruitment agency CRM",
+      "countries_served": [
+        "GB"
+      ],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.firefishsoftware.com",
+          "title": "Firefish homepage",
+          "quote": "Firefish gives recruitment agencies dedicated workflows for permanent, temporary and contract recruitment, all powered by one CRM."
+        },
+        {
+          "field": "pricing",
+          "url": "https://www.firefishsoftware.com/pricing",
+          "title": "Firefish pricing",
+          "quote": "Add-On Modules (from £150 per module)"
+        },
+        {
+          "field": "partner",
+          "url": "https://www.firefishsoftware.com/product/integrations",
+          "title": "Firefish integrations",
+          "quote": "The Firefish recruitment CRM integrates with Certified Partners to help you streamline your recruitment activities."
+        },
+        {
+          "field": "api",
+          "url": "https://www.firefishsoftware.com/product/integrations",
+          "title": "Firefish integrations",
+          "quote": "If you can’t find the integration you’re looking for, we also offer an open API."
+        }
+      ]
+    },
+    {
+      "name": "Voyager Infinity",
+      "url": "https://www.voyagersoftware.com/voyager-infinity/",
+      "type": "ats",
+      "niche": "UK recruitment agency CRM and ATS (Ikiru People)",
+      "countries_served": [
+        "GB"
+      ],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.voyagersoftware.com/voyager-infinity/",
+          "title": "Voyager Infinity product page",
+          "quote": "Voyager Infinity is recruitment software built specifically for UK recruitment agencies, supporting permanent, contract and temporary recruitment from a single cloud-based platform."
+        },
+        {
+          "field": "ingest_methods",
+          "url": "https://www.voyagersoftware.com/partners/",
+          "title": "Voyager partners",
+          "quote": "Voyager Infinity integrates the multi-job posting solution Broadbean."
+        },
+        {
+          "field": "partner",
+          "url": "https://www.voyagersoftware.com/partners/",
+          "title": "Voyager partners",
+          "quote": "Voyager Infinity integrates the multi-job posting solution LogicMelon."
+        }
+      ]
+    },
+    {
+      "name": "Recruit CRM",
+      "url": "https://recruitcrm.io",
+      "type": "ats",
+      "niche": "AI ATS and CRM for recruitment agencies",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://recruitcrm.io",
+          "title": "Recruit CRM homepage",
+          "quote": "Recruit CRM is an AI-powered Applicant Tracking System and CRM built for recruitment agencies and executive search firms in over 100 countries."
+        },
+        {
+          "field": "pricing",
+          "url": "https://recruitcrm.io/pricing/",
+          "title": "Recruit CRM pricing",
+          "quote": "$95 per user / month 100 free credits per user / month"
+        },
+        {
+          "field": "ingest_methods",
+          "url": "https://recruitcrm.io",
+          "title": "Recruit CRM homepage",
+          "quote": "Publish a role to 3,000+ job boards and your branded careers page from one screen."
+        },
+        {
+          "field": "api",
+          "url": "https://recruitcrm.io",
+          "title": "Recruit CRM homepage",
+          "quote": "Zapier, Make and a full open API"
+        },
+        {
+          "field": "partner",
+          "url": "https://recruitcrm.io/integration-partners/",
+          "title": "Recruit CRM integration partners",
+          "quote": "Expand your reach by integrating with Recruit CRM and tapping into a global network of recruitment professionals."
+        }
+      ]
+    },
+    {
+      "name": "Manatal",
+      "url": "https://www.manatal.com",
+      "type": "ats",
+      "niche": "AI ATS and recruitment CRM for agencies and in-house teams",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.manatal.com",
+          "title": "Manatal homepage",
+          "quote": "Manatal is an AI Recruitment Software enabling human resources departments and recruitment agencies to source and hire in the most effective way."
+        },
+        {
+          "field": "pricing",
+          "url": "https://www.manatal.com",
+          "title": "Manatal homepage",
+          "quote": "Professional Plan For individuals & small teams $15/per user per month"
+        },
+        {
+          "field": "ingest_methods",
+          "url": "https://www.manatal.com",
+          "title": "Manatal homepage",
+          "quote": "2,500+ job boards: Global, local and specialized organic and premium platforms integrated natively."
+        },
+        {
+          "field": "partner",
+          "url": "https://www.manatal.com",
+          "title": "Manatal homepage",
+          "quote": "Share your job openings on 2,500+ organic and premium channels, including local, global, and specialized job platforms such as Indeed, LinkedIn, Monster, ZipRecruiter"
+        }
+      ]
+    },
+    {
+      "name": "Zoho Recruit",
+      "url": "https://www.zoho.com/recruit/staffing-agency-software.html",
+      "type": "ats",
+      "niche": "staffing agency ATS (Zoho)",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.zoho.com/recruit/staffing-agency-software.html",
+          "title": "Zoho Recruit staffing agency software page",
+          "quote": "Zoho Recruit staffing software streamlines workflows and empowers agencies with AI so they can scale operations and reduce manual work."
+        },
+        {
+          "field": "ingest_methods",
+          "url": "https://www.zoho.com/recruit/staffing-agency-software.html",
+          "title": "Zoho Recruit staffing agency software page",
+          "quote": "Post open jobs to 75+ jobs boards in just a few clicks."
+        },
+        {
+          "field": "partner",
+          "url": "https://www.zoho.com/recruit/staffing-agency-software.html",
+          "title": "Zoho Recruit staffing agency software page",
+          "quote": "Explore our marketplace to find over 200 applications that can help you collaborate"
+        }
+      ]
+    },
+    {
+      "name": "Itris",
+      "url": "https://www.itris.co.uk",
+      "type": "ats",
+      "niche": "recruitment agency CRM and ATS (UK)",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.itris.co.uk",
+          "title": "Itris homepage",
+          "quote": "Comprehensive AI-powered recruitment CRM & ATS platform built specifically for recruiters"
+        },
+        {
+          "field": "ingest_methods",
+          "url": "https://www.itris.co.uk",
+          "title": "Itris homepage",
+          "quote": "Post jobs to multiple job boards and platforms with a single click, no copy-paste, no switching systems."
+        }
+      ]
+    },
+    {
+      "name": "Ezekia",
+      "url": "https://www.ezekia.io",
+      "type": "ats",
+      "niche": "executive search CRM and ATS",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.ezekia.io",
+          "title": "Ezekia homepage",
+          "quote": "Built for executive search firms, in-house teams and talent partners"
+        },
+        {
+          "field": "partner",
+          "url": "https://www.ezekia.io",
+          "title": "Ezekia homepage",
+          "quote": "Integrate Ezekia with the tools, AI platforms and automations your team already uses."
+        }
+      ]
+    },
+    {
+      "name": "TE Recruit (Top Echelon)",
+      "url": "https://topechelon.com/about/",
+      "type": "ats",
+      "niche": "staffing and recruiting ATS/CRM (formerly Big Biller)",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://topechelon.com/about/",
+          "title": "Top Echelon about page",
+          "quote": "Its flagship product, TE Recruit™ (formerly known as Big Biller), is a modern ATS/CRM designed to streamline recruitment processes."
+        }
+      ]
+    },
+    {
+      "name": "Encore (Cluen)",
+      "url": "https://www.cluen.com",
+      "type": "ats",
+      "niche": "executive search and legal recruiting CRM",
+      "countries_served": [],
+      "sources": [
+        {
+          "field": "existence",
+          "url": "https://www.cluen.com",
+          "title": "Cluen homepage",
+          "quote": "Encore connects with the tools and organizations shaping the future of executive search"
+        }
+      ]
+    }
+  ],
+  "blocked": [
+    {
+      "name": "Vincere",
+      "url": "https://vincere.io",
+      "reason": "HTTP 403 (browser reader: web app blocked access)"
+    },
+    {
+      "name": "Mercury xRM",
+      "url": "https://www.mercuryxrm.co.uk",
+      "reason": "HTTP 403; page reads 'This website has been deactivated'"
+    },
+    {
+      "name": "Bond Adapt",
+      "url": "https://www.adapt-recruitment-software.com",
+      "reason": "Connection failed (ERR_TUNNEL_CONNECTION_FAILED); candidate URL unverified from directory listing"
+    }
+  ],
+  "queue": [
+    {
+      "name": "Invenias",
+      "url": "",
+      "reason": "invenias.com redirects to a Bullhorn product page (owned by Bullhorn); no independent vendor page read"
+    },
+    {
+      "name": "Erecruit",
+      "url": "",
+      "reason": "Named in brief; directory results link it to the Bullhorn-owned Adapt product; homepage not read"
+    },
+    {
+      "name": "Akken (AkkenCloud)",
+      "url": "",
+      "reason": "Named in roundups; official site not located in search results"
+    },
+    {
+      "name": "Thrive TRM",
+      "url": "",
+      "reason": "Named in brief; official site not confirmed in search results (a trueplatform.com page is unverified)"
+    },
+    {
+      "name": "Sourceflow",
+      "url": "https://www.sourceflow.co.uk",
+      "reason": "Read, but it is a recruitment website and marketing platform rather than an ATS or CRM; excluded from this class"
+    }
+  ]
+}
