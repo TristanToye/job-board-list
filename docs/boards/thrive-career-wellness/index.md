@@ -26,6 +26,9 @@ Thrive Career Wellness is an outplacement firm based in Canada, focused on outpl
 - [Homepage platform description](https://thrivemycareer.com/) (Note, checked 2026-11-26): "Our cloud-based, AI-enabled platform of career products and services address your changing workforce needs"
 - [Outplacement services](https://thrivemycareer.com/outplacement) (Note, checked 2026-11-26): "Departing employees will get access to five different categories of tools and services through the Thrive marketplace"
 - [ADP Marketplace Canada listing](https://thrivemycareer.com/news/thrive-launches-on-adp-marketplace-canada) (Note, checked 2026-11-26): "Thrive Outplacement for ADP Workforce Now® is available within ADP Marketplace Canada."
+- [Thrive Career Wellness & Partners Win Digital Funding for $2.5M Investment (company news)](https://thrivemycareer.com/news/thrive-career-wellness-partners-win-digital-funding-for-a-2-5m-investment-to-create-ai-powered-career-advisor-for-canadian-workforce) (Business model and pricing, checked 2026-11-26): "Built on Thrive’s proven career wellness SaaS platform, which has an established presence in 14 countries"
+- [Outplacement](https://thrivemycareer.com/outplacement) (Business model and pricing, checked 2026-11-26): "Thrive offers flexible outplacement solutions deployed at scale to support all of your enterprise needs from hourly employees to executives, and everyone in between"
+- [Thrive Career Wellness & Partners Win Digital Funding for $2.5M Investment (company news)](https://thrivemycareer.com/news/thrive-career-wellness-partners-win-digital-funding-for-a-2-5m-investment-to-create-ai-powered-career-advisor-for-canadian-workforce) (Note, checked 2026-11-26): "Thrive powers public employment support systems, enhancing access and efficiency for Canadians navigating the job market"
 
 Canonical page: https://jobboardlist.com/boards/thrive-career-wellness/
 Last updated: 2026-11-26
