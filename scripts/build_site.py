@@ -172,11 +172,14 @@ NAV_GROUPS = [
 FOOT_GROUPS = NAV_GROUPS + [("About", [("About and method", "about/", ""), ("Research log", "changelog/", ""), ("Job data APIs", "job-data-apis/", ""), ("Downloads (CSV)", "downloads/job_boards.csv", ""), ("For AI systems", "llms.txt", "")])]
 def _cur(path, canonical):
     return ' aria-current="page"' if (("/" + path) == canonical if path == "" else canonical.startswith("/" + path)) else ""
+THEME_HEAD = "<script>try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}document.documentElement.dataset.eff=document.documentElement.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')</script>"
+THEME_BTN = '<button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark theme"><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.9 1.9M16.8 16.8l1.9 1.9M5.3 18.7l1.9-1.9M16.8 7.2l1.9-1.9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>'
+SCRIPT_THEME = "<script>(function(){var b=document.getElementById('theme-toggle'),h=document.documentElement;function sync(){var d=h.dataset.eff==='dark';b.setAttribute('aria-label',d?'Switch to light theme':'Switch to dark theme')}sync();b.addEventListener('click',function(){var n=h.dataset.eff==='dark'?'light':'dark';h.dataset.theme=n;h.dataset.eff=n;try{localStorage.setItem('theme',n)}catch(e){}sync()})})()</script>"
 SCRIPT_MENU = "<script>document.addEventListener('click',function(x){document.querySelectorAll('.top nav details[open]').forEach(function(d){if(!d.contains(x.target))d.open=false})});document.addEventListener('keydown',function(x){if(x.key==='Escape')document.querySelectorAll('.top nav details[open]').forEach(function(d){d.open=false})})</script>"
 def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False, md=False, wide=False):
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
-    nav = "".join(f'<details><summary>{g}</summary><div class="menu">' + "".join(f'<a href="{r}{pth}"{_cur(pth, canonical)}>{l}<small>{h}</small></a>' for l, pth, h in items) + "</div></details>" for g, items in NAV_GROUPS) + f'<a href="{r}about/"{_cur("about/", canonical)}>About</a>'
+    nav = "".join(f'<details><summary>{g}</summary><div class="menu">' + "".join(f'<a href="{r}{pth}"{_cur(pth, canonical)}>{l}<small>{h}</small></a>' for l, pth, h in items) + "</div></details>" for g, items in NAV_GROUPS) + f'<a href="{r}about/"{_cur("about/", canonical)}>About</a>' + THEME_BTN
     sitemap = "".join(f'<div><h2>{g}</h2><ul>' + "".join(f'<li><a href="{r}{pth}">{l}</a></li>' for l, pth, h in items) + "</ul></div>" for g, items in FOOT_GROUPS)
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -190,6 +193,7 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="",
   gtag('config', 'G-E0GLWE1JFP');
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{THEME_HEAD}
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{e(BASE + canonical)}">
@@ -206,7 +210,7 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="",
 <footer class="site"><div class="wrap"><div class="sitemap">{sitemap}</div></div><div class="wrap foot"><p>{e(NAME)} is an open dataset. Download: <a href="{r}downloads/job_boards.csv">boards CSV</a>,
 <a href="{r}downloads/job_boards.json">boards JSON</a>, <a href="{r}data/boards.json">JSON data API</a>, <a href="{r}changelog/">changelog</a> and <a href="{r}feed.xml">feed</a>.
 Data is a work in progress and may be wrong: see <a href="{r}about/">methodology</a>. Web rank data: <a href="https://majestic.com/reports/majestic-million" rel="noopener nofollow">Majestic Million</a>, CC BY 3.0. Last built {TODAY}.</p></div></footer>
-{SCRIPT_MENU}</body></html>"""
+{SCRIPT_MENU}{SCRIPT_THEME}</body></html>"""
 
 MD_PAGES = []  # (kind, path, markdown) for pages that have a Markdown twin, used for llms-full.txt
 def write(rel, content, lastmod=True, indexed=True, mod=None, md=None, kind=""):
