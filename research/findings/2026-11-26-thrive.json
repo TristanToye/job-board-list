@@ -1,0 +1,90 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Thrive Career Wellness",
+   "url": "https://thrivemycareer.com/",
+   "notes": "Outplacement and career transition platform headquartered in Toronto, Canada (legal entity Thrive Career Wellness Inc.). Pages read state services, delivery mode and a partner ecosystem; no pricing, language options, founding year, parent company or API were stated.",
+   "partner_program": "yes",
+   "partner_url": "https://thrivemycareer.com/outplacement#w-tabs-2-data-w-pane-3",
+   "api_status": "unknown",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://thrivemycareer.com/",
+     "title": "Homepage footer office address",
+     "quote": "Canada HQ Toronto, Ontario M5V 1P9 Canada",
+     "check": "mismatch"
+    },
+    {
+     "field": "existence",
+     "url": "https://thrivemycareer.com/",
+     "title": "Homepage footer copyright",
+     "quote": "© 2025 Thrive Career Wellness Inc.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://thrivemycareer.com/",
+     "title": "Homepage partnerships block",
+     "quote": "Explore opportunities to join our partner ecosystem.",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://thrivemycareer.com/",
+     "title": "Homepage platform description",
+     "quote": "Our cloud-based, AI-enabled platform of career products and services address your changing workforce needs",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://thrivemycareer.com/",
+     "title": "Homepage customer count",
+     "quote": "Thrive is trusted by 500+ customers globally",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://thrivemycareer.com/outplacement",
+     "title": "Outplacement services",
+     "quote": "Departing employees will get access to five different categories of tools and services through the Thrive marketplace",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://thrivemycareer.com/outplacement",
+     "title": "Outplacement support delivery",
+     "quote": "Access support with our self-serve help-desk, video walkthroughs or chat directly with our team.",
+     "check": "ok"
+    },
+    {
+     "field": "note",
+     "url": "https://thrivemycareer.com/news/thrive-launches-on-adp-marketplace-canada",
+     "title": "ADP Marketplace Canada listing",
+     "quote": "Thrive Outplacement for ADP Workforce Now® is available within ADP Marketplace Canada.",
+     "check": "ok"
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Thrive Career Wellness",
+   "url": "https://thrivemycareer.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "founded",
+    "languages",
+    "business_model",
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage, About, Outplacement, ADP news and terms read (HTTP 200 in fetch and browser reader); HQ and partner ecosystem confirmed, no pricing, language options or API stated. Terms of use prohibit scraping, so no further pages were read."
+  }
+ ],
+ "blocked": []
+}
