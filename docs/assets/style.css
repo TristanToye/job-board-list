@@ -144,7 +144,7 @@ tbody tr:hover td{background:var(--sunk)}
 .tile.ico{background:hsl(var(--h) 75% 84%);color:#2a2230;border-color:transparent}
 .titlerow .tile{border-radius:var(--radius-md)}
 .matrix thead th,.matrix th.corner{background:var(--sunk)}.matrix tbody th{background:var(--card)}
-.foot{border-top:0;margin-top:var(--space-8);max-width:none;padding:0}
+.foot{border-top:0;margin-top:0;padding:0 var(--space-4) var(--space-7)}
 
 /* sections and layout */
 .band{background:var(--sunk)}
@@ -179,7 +179,7 @@ tbody tr:hover td{background:var(--sunk)}
 .news{list-style:none;margin:0;padding:0}.news li{display:flex;gap:var(--space-3);padding:var(--space-3) 0;border-bottom:1px solid var(--hairline)}.news .chip{flex:none;margin:0}
 .sitemap{display:grid;gap:var(--space-5);grid-template-columns:repeat(auto-fit,minmax(180px,1fr));padding:var(--space-7) 0 var(--space-4)}
 .sitemap h2{font:600 14px/20px var(--font-sans);color:var(--ink);margin:0 0 var(--space-2);letter-spacing:.2px}.sitemap ul{list-style:none;margin:0;padding:0;font-size:16px;line-height:30px}
-.foot{padding-bottom:var(--space-7)}.foot p{margin:var(--space-4) 0 0;color:var(--ink-soft);font-size:15px;line-height:24px}
+.foot p{margin:var(--space-4) 0 0;color:var(--ink-soft);font-size:15px;line-height:24px}
 footer.site{background:var(--sunk);margin-top:var(--space-8)}footer.site .foot{margin-top:0}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;transform:none!important;scroll-behavior:auto!important}}
 
