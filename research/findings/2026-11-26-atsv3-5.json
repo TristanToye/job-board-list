@@ -1,0 +1,88 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Itris",
+      "url": "https://www.itris.co.uk",
+      "partner_program": "yes",
+      "partner_url": "https://www.itris.co.uk/partners/",
+      "ingest_methods": ["one-click posting to multiple job boards"],
+      "notes": "Partners and Integrations page offers a Become a Partner form. Homepage describes posting jobs to multiple job boards from the CRM. Registered address is given without a country name.",
+      "sources": [
+        {"field": "partner_program", "url": "https://www.itris.co.uk/partners/", "title": "Partners and Integrations", "quote": "Please list any mutual recruitment agency customers and version of software."},
+        {"field": "ingest_methods", "url": "https://www.itris.co.uk", "title": "Homepage", "quote": "Post jobs to multiple job boards and platforms with a single click, no copy-paste, no switching systems."}
+      ]
+    },
+    {
+      "name": "Bizneo HR",
+      "url": "https://www.bizneo.com/",
+      "business_model": "subscription",
+      "partner_program": "yes",
+      "partner_url": "https://www.bizneo.com/partners/",
+      "notes": "Pricing page lists plans from 6 euro. Partners page mentions documented APIs but does not say how to get access. Homepage shows Spanish site with a language selector showing ES.",
+      "sources": [
+        {"field": "business_model", "url": "https://www.bizneo.com/pricing/", "title": "Planes y precios", "quote": "Planes desde 6 € a la medida de tu equipo"},
+        {"field": "partner_program", "url": "https://www.bizneo.com/partners/", "title": "Programa de partners", "quote": "Déjanos tus datos y nuestro equipo de Partners te contactará"}
+      ]
+    },
+    {
+      "name": "ADP Recruiting Management",
+      "url": "https://www.adp.com",
+      "parent": "ADP, Inc.",
+      "notes": "Site footer and About ADP page name ADP, Inc. as the trademark owner. Get Pricing links appear without prices shown. Language switcher lists Canada (English).",
+      "sources": [
+        {"field": "parent", "url": "https://www.adp.com/about-adp", "title": "About ADP", "quote": "ADP and the ADP logo are registered trademarks of ADP, Inc."}
+      ]
+    },
+    {
+      "name": "Homerun",
+      "url": "https://www.homerun.co",
+      "business_model": "subscription",
+      "partner_program": "yes",
+      "partner_url": "https://www.homerun.co/partner-program",
+      "notes": "Homepage states a starting price per month. Partner program offers reseller and referral partnerships. Integrations page lists job board integrations such as Indeed and LinkedIn.",
+      "sources": [
+        {"field": "business_model", "url": "https://www.homerun.co", "title": "Homepage", "quote": "Hire and manage your team starting from € 109 per month."},
+        {"field": "partner_program", "url": "https://www.homerun.co/partner-program", "title": "Homerun Partner Program", "quote": "The Homerun Partnership Program is designed to create mutually beneficial relationships with Partners"}
+      ]
+    },
+    {
+      "name": "Paycor Recruiting",
+      "url": "https://www.paycor.com",
+      "partner_program": "yes",
+      "partner_url": "https://www.paycor.com/partners/",
+      "ingest_methods": ["job board posting from the recruiting feature"],
+      "notes": "Homepage describes posting generated job descriptions to job boards and a tech partners integration section. Plans and pricing page was not read.",
+      "sources": [
+        {"field": "partner_program", "url": "https://www.paycor.com", "title": "Homepage", "quote": "Seamlessly integrate and sync data between Paycor and your favorite apps."},
+        {"field": "ingest_methods", "url": "https://www.paycor.com", "title": "Homepage", "quote": "Generate job descriptions and instantly post to job boards."}
+      ]
+    },
+    {
+      "name": "Jobylon",
+      "url": "https://www.jobylon.com/",
+      "api_docs_url": "https://developer.jobylon.com/",
+      "partner_program": "yes",
+      "partner_url": "https://www.jobylon.com/integrations",
+      "ingest_methods": ["job board posting", "partner integrations with job boards"],
+      "notes": "Developer portal lists Feed API, Partner API and Push API. Integrations page lists partner job board integrations. Language switcher lists English, Svenska, Nederlands and Deutsch. Pricing page was not read.",
+      "sources": [
+        {"field": "api_status", "url": "https://developer.jobylon.com/", "title": "Developer portal", "quote": "Our feed api, allowing you to list details about your available jobs."},
+        {"field": "partner_program", "url": "https://www.jobylon.com/integrations", "title": "ATS Integrations", "quote": "Extend the value of Jobylon by connecting with trusted partners."},
+        {"field": "ingest_methods", "url": "https://www.jobylon.com/", "title": "Homepage", "quote": "Post roles across job boards, build branded career sites, and reach candidates where they are."},
+        {"field": "ingest_methods", "url": "https://www.jobylon.com/integrations", "title": "ATS Integrations", "quote": "Our partnership allows you to post jobs to their job board directly from Jobylon"}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Itris", "url": "https://www.itris.co.uk", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "parent"], "method": "browser", "note": "Homepage, About and Partners pages read; partner program and job board posting confirmed, no pricing or API access stated."},
+    {"name": "Bizneo HR", "url": "https://www.bizneo.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "parent", "ingest_methods"], "method": "browser", "note": "Homepage, pricing and partners pages read; plans and partner program confirmed, API mentioned without access route."},
+    {"name": "ADP Recruiting Management", "url": "https://www.adp.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "ingest_methods"], "method": "browser", "note": "Homepage and About ADP read; parent company confirmed, pricing shown only as Get Pricing links."},
+    {"name": "Homerun", "url": "https://www.homerun.co", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "parent", "ingest_methods"], "method": "browser", "note": "Homepage, partner program and integrations pages read; pricing and partner program confirmed."},
+    {"name": "Paycor Recruiting", "url": "https://www.paycor.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "parent"], "method": "browser", "note": "Homepage and partners pages read; partner program and job board posting confirmed."},
+    {"name": "Jobylon", "url": "https://www.jobylon.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "business_model", "api_status", "parent"], "method": "browser", "note": "Homepage, integrations and developer portal read; partner program, job board posting and developer docs confirmed, API access route not stated."},
+    {"name": "HR-ON", "url": "https://hr-on.com/en/", "outcome": "blocked", "fields_not_found": [], "method": "browser", "note": "Homepage read; integrations page returned 404 with the browser reader flagged blocked and was not retried."}
+  ],
+  "blocked": [{"name": "HR-ON", "url": "https://hr-on.com/en/", "reason": "Browser reader flagged blocked on https://hr-on.com/en/integrations/ (HTTP 404)"}]
+}
