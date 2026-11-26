@@ -1,0 +1,99 @@
+{
+  "mode": "verify",
+  "country": "ZZ",
+  "boards": [
+    {
+      "name": "Ezekia",
+      "url": "https://www.ezekia.io",
+      "business_model": "subscription",
+      "api_docs_url": "https://ezekia.com/api/documentation",
+      "ingest_methods": ["API", "ATS integration"],
+      "notes": "Plans are priced per user and billed monthly, quoted individually. Integrations page links API documentation on ezekia.com and does not state how to get access. Zapier and MCP connectors are listed. About page says there is no parent company. Homepage footer gives a London address without a headquarters label.",
+      "sources": [
+        {"field": "business_model", "url": "https://www.ezekia.io/pricing", "title": "Pricing", "quote": "Priced per user, billed monthly. Tailored to your team and workflow, with no lock-in contracts."},
+        {"field": "api_status", "url": "https://www.ezekia.io/integrations", "title": "Integrations", "quote": "Build custom integrations with the Ezekia API."},
+        {"field": "ingest_methods", "url": "https://www.ezekia.io/", "title": "Homepage", "quote": "Integrate Ezekia with the tools, AI platforms and automations your team already uses."}
+      ]
+    },
+    {
+      "name": "Hiring Room",
+      "url": "https://hiringroom.com/",
+      "ingest_methods": ["manual posting"],
+      "notes": "Homepage content is in Spanish with no language switcher text found. Terms list a separate operating company per country (for example Bumeran.com Argentina S.A. for Argentina) with a domicile, not labelled as headquarters. Privacy policy lists companies of the JOBINT group. Vacancies are distributed to job portals through integrations, including Bumeran. No pricing, API or partner program found on the pages read.",
+      "sources": [
+        {"field": "ingest_methods", "url": "https://hiringroom.com/", "title": "Homepage", "quote": "Proceso sencillo y fácil para la creación de vacantes con ayuda de IA."}
+      ]
+    },
+    {
+      "name": "Paycom Applicant Tracking",
+      "url": "https://www.paycom.com",
+      "hq_country": "US",
+      "notes": "Contact page labels Oklahoma City, Oklahoma 73142 as corporate headquarters. ATS page says jobs are posted automatically to websites and online job boards. No pricing, API, partner program or language options found on the pages read.",
+      "sources": [
+        {"field": "existence", "url": "https://www.paycom.com/contact-us/", "title": "Contact us", "quote": "Corporate headquarters Address Oklahoma City, Oklahoma 73142"}
+      ]
+    },
+    {
+      "name": "Hirebridge",
+      "url": "https://www.hirebridge.com",
+      "partner_program": "yes",
+      "partner_url": "https://www.hirebridge.com/corp/integrations.aspx",
+      "notes": "Integrations page describes a partner ecosystem of providers, including job board posting automation. Homepage says published jobs are marketed to job search sites and paid job boards. No address is labelled as headquarters, and no pricing, API or language options were found on the pages read.",
+      "sources": [
+        {"field": "partner_program", "url": "https://www.hirebridge.com/corp/integrations.aspx", "title": "Integrations", "quote": "The Hirebridge partner ecosystem currently contains the following providers"}
+      ]
+    },
+    {
+      "name": "ClearCompany",
+      "url": "https://www.clearcompany.com",
+      "business_model": "quote-based",
+      "partner_program": "yes",
+      "partner_url": "https://clearcompany.com/partnerships",
+      "notes": "Pricing is by request only. Partnerships page offers technology, referral and reseller partner tracks. Integrations page lists LinkedIn job posting integrations, which are outbound. No headquarters label, parent company, API or language options were found on the pages read.",
+      "sources": [
+        {"field": "business_model", "url": "https://clearcompany.com/pricing", "title": "Pricing", "quote": "Pricing built around how you hire, succeed, and grow"},
+        {"field": "partner_program", "url": "https://clearcompany.com/partnerships", "title": "Partner With ClearCo", "quote": "Join a partner ecosystem that helps clients see their talent clearly and act with confidence."}
+      ]
+    },
+    {
+      "name": "Talentech",
+      "url": "https://talentech.com/",
+      "business_model": "quote-based",
+      "api_docs_url": "https://developer.talentech.io/",
+      "partner_program": "yes",
+      "partner_url": "https://content.talentech.com/join-our-partner-network",
+      "ingest_methods": ["API"],
+      "notes": "Pricing depends on company size and solution, with an offer on request. Developer portal is linked from the homepage on talentech.io and says access is obtained from the account manager or support team. Partner network page and marketplace are linked. About page says offices are in several European hubs, with no headquarters label. No language options found on the pages read.",
+      "sources": [
+        {"field": "business_model", "url": "https://talentech.com/pricing/", "title": "Pricing", "quote": "Our prices are adjusted to the size of your company and the complexity of the solution you need."},
+        {"field": "api_status", "url": "https://developer.talentech.io/", "title": "Talentech Developer Portal", "quote": "Contact your account manager or our support team to get access to APIs."},
+        {"field": "partner_program", "url": "https://content.talentech.com/join-our-partner-network", "title": "Join our partner network", "quote": "Our open API and extensive experience with integrations and partners have already benefited many of our partners."},
+        {"field": "ingest_methods", "url": "https://developer.talentech.io/", "title": "Talentech Developer Portal", "quote": "The developer portal is the starting point for integration with the Talentech eco system."}
+      ]
+    },
+    {
+      "name": "Hireful",
+      "url": "https://www.hireful.com/",
+      "hq_country": "GB",
+      "business_model": "subscription",
+      "partner_program": "yes",
+      "partner_url": "https://www.hireful.com/partners/software-partners",
+      "notes": "Terms state the registered address in England, and the company is registered in England and Wales. Pricing is an annual fee per recruiter licence, with the ATS starting at GBP 2,450 per year for the Go plan. Software partners page says an API solution is built into the product, without stating how to get access. Job board publishing is sold as a separate advertising service.",
+      "sources": [
+        {"field": "existence", "url": "https://www.hireful.com/legal/terms-all-services", "title": "Terms and conditions", "quote": "a company registered in England and Wales (company number 03825406) whose registered address is 15-17 Strixton Manor Business Centre, Strixton, Wellingborough, England, NN29 7PA"},
+        {"field": "business_model", "url": "https://www.hireful.com/pricing", "title": "ATS pricing", "quote": "hireful ATS starts at £2,450 pa for a 1 user system (Go Plan)."},
+        {"field": "partner_program", "url": "https://www.hireful.com/partners/software-partners", "title": "Recruitment Software Partners", "quote": "Integrating is a great way to introduce your product to a new audience, with the approval of a brand that they already trust."}
+      ]
+    }
+  ],
+  "reviews": [
+    {"name": "Ezekia", "url": "https://www.ezekia.io", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "partner_program"], "method": "mixed", "note": "Homepage, pricing, about and integrations pages were read; pricing and Zapier or API integrations are stated, but no headquarters, language options or partner program."},
+    {"name": "Hiring Room", "url": "https://hiringroom.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent"], "method": "browser", "note": "Homepage, portals page, terms and privacy pages were read; no pricing, API, partner or headquarters label found."},
+    {"name": "Paycom Applicant Tracking", "url": "https://www.paycom.com", "outcome": "partially-verified", "fields_not_found": ["languages", "business_model", "api_status", "partner_program", "parent"], "method": "browser", "note": "Homepage, about, contact, applicant tracking and marketplace pages were read; headquarters is stated but no pricing, API, partner or language options."},
+    {"name": "Hirebridge", "url": "https://www.hirebridge.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "parent"], "method": "browser", "note": "Homepage, about, contact and integrations pages were read; partner ecosystem is stated but no headquarters label, pricing or API."},
+    {"name": "ClearCompany", "url": "https://www.clearcompany.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent", "api_status", "ingest_methods"], "method": "browser", "note": "Homepage, pricing, partnerships, integrations and about pages were read; pricing by request and partner program are stated."},
+    {"name": "Talentech", "url": "https://talentech.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "parent"], "method": "browser", "note": "Homepage, about, pricing, legal, partner network and developer portal were read; API access, pricing and partner program are stated."},
+    {"name": "Hireful", "url": "https://www.hireful.com/", "outcome": "partially-verified", "fields_not_found": ["languages", "parent", "api_status", "ingest_methods"], "method": "browser", "note": "Homepage, pricing, software partners, about and terms pages were read; registered address, pricing and partner program are stated."}
+  ],
+  "blocked": []
+}
