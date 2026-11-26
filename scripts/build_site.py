@@ -163,11 +163,21 @@ if OUT.exists(): shutil.rmtree(OUT)  # start clean so renamed or removed pages a
 OUT.mkdir(parents=True, exist_ok=True)
 pages = []  # (path, lastmod)
 
-def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False, md=False):
+MARK = '<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#c9431f"/><path d="M9 21.5c3-6.5 7-9.5 14-10" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><circle cx="23.5" cy="11.2" r="3" fill="#ffd978"/><path d="M9 21.5l4.5-.5" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>'
+NAV_GROUPS = [
+    ("Explore", [("Directory", "", "Every entry"), ("Regions", "regions/", "Where boards are based"), ("Countries", "countries/", "By country"), ("Languages", "languages/", "By language"), ("Types", "tags/", "Boards, ATS, staffing and more")]),
+    ("Connect", [("APIs", "api/", "Who has one"), ("Integrations", "integrations/", "What plugs into what"), ("ATS systems", "ats/", "Hiring platforms and their feeds"), ("Job distribution", "distribution/", "Multiposting platforms")]),
+    ("Understand", [("Ecosystem", "ecosystem/", "How jobs flow to candidates"), ("Owners", "owners/", "Who owns what"), ("Rankings", "rankings/", "By web reach"), ("Timeline", "timeline/", "Deals and launches"), ("Closed", "closed/", "Closed, acquired and merged")]),
+]
+FOOT_GROUPS = NAV_GROUPS + [("About", [("About and method", "about/", ""), ("Research log", "changelog/", ""), ("Job data APIs", "job-data-apis/", ""), ("Downloads (CSV)", "downloads/job_boards.csv", ""), ("For AI systems", "llms.txt", "")])]
+def _cur(path, canonical):
+    return ' aria-current="page"' if (("/" + path) == canonical if path == "" else canonical.startswith("/" + path)) else ""
+SCRIPT_MENU = "<script>document.addEventListener('click',function(x){document.querySelectorAll('.top nav details[open]').forEach(function(d){if(!d.contains(x.target))d.open=false})});document.addEventListener('keydown',function(x){if(x.key==='Escape')document.querySelectorAll('.top nav details[open]').forEach(function(d){d.open=false})})</script>"
+def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="", noindex=False, md=False, wide=False):
     r = "../" * path_depth
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
-    nav = (f'<a href="{r}">Directory</a><a href="{r}ecosystem/">Ecosystem</a><a href="{r}integrations/">Integrations</a><a href="{r}tags/">Types</a><a href="{r}rankings/">Rankings</a><a href="{r}owners/">Owners</a><a href="{r}regions/">Regions</a><a href="{r}countries/">Countries</a>'
-           f'<a href="{r}languages/">Languages</a><a href="{r}api/">APIs</a><a href="{r}closed/">Closed</a><a href="{r}timeline/">Timeline</a><a href="{r}ats/">ATS systems</a><a href="{r}about/">About</a>')
+    nav = "".join(f'<details><summary>{g}</summary><div class="menu">' + "".join(f'<a href="{r}{pth}"{_cur(pth, canonical)}>{l}<small>{h}</small></a>' for l, pth, h in items) + "</div></details>" for g, items in NAV_GROUPS) + f'<a href="{r}about/"{_cur("about/", canonical)}>About</a>'
+    sitemap = "".join(f'<div><h2>{g}</h2><ul>' + "".join(f'<li><a href="{r}{pth}">{l}</a></li>' for l, pth, h in items) + "</ul></div>" for g, items in FOOT_GROUPS)
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <!-- Google tag (gtag.js) -->
@@ -189,14 +199,14 @@ def layout(path_depth, title, desc, body, canonical, jsonld=None, extra_head="",
 <meta name="twitter:card" content="summary_large_image">
 <meta property="og:image" content="{e(BASE)}/assets/og.png">
 <link rel="alternate" type="application/atom+xml" title="{e(NAME)} research log" href="{r}feed.xml">{'<meta name="robots" content="noindex,follow">' if noindex else ""}{'<link rel="alternate" type="text/markdown" href="index.md">' if md else ""}
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Cpath d='M8 22V10h4a4 4 0 0 1 0 8H8' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="{r}assets/style.css">{extra_head}{ld}</head>
-<body><header class="top"><div class="wrap bar"><a class="brand" href="{r}">{e(NAME)}</a><nav>{nav}</nav></div></header>
-<main class="wrap">{body}</main>
-<footer class="wrap foot"><p>{e(NAME)} is an open dataset. Download: <a href="{r}downloads/job_boards.csv">boards CSV</a>,
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23c9431f'/%3E%3Cpath d='M9 21.5c3-6.5 7-9.5 14-10' fill='none' stroke='white' stroke-width='2.6' stroke-linecap='round'/%3E%3Ccircle cx='23.5' cy='11.2' r='3' fill='%23ffd978'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#fbf6ee"><link rel="preload" href="{r}assets/fonts/Fraunces-600.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="{r}assets/style.css">{extra_head}{ld}</head>
+<body><header class="top"><div class="wrap bar"><a class="brand" href="{r}">{MARK}{e(NAME)}</a><nav aria-label="Main">{nav}</nav></div></header>
+<main{'' if wide else ' class="wrap"'}>{body}</main>
+<footer class="site"><div class="wrap"><div class="sitemap">{sitemap}</div></div><div class="wrap foot"><p>{e(NAME)} is an open dataset. Download: <a href="{r}downloads/job_boards.csv">boards CSV</a>,
 <a href="{r}downloads/job_boards.json">boards JSON</a>, <a href="{r}data/boards.json">JSON data API</a>, <a href="{r}changelog/">changelog</a> and <a href="{r}feed.xml">feed</a>.
-Data is a work in progress and may be wrong: see <a href="{r}about/">methodology</a>. Web rank data: <a href="https://majestic.com/reports/majestic-million" rel="noopener nofollow">Majestic Million</a>, CC BY 3.0. Last built {TODAY}.</p></footer>
-</body></html>"""
+Data is a work in progress and may be wrong: see <a href="{r}about/">methodology</a>. Web rank data: <a href="https://majestic.com/reports/majestic-million" rel="noopener nofollow">Majestic Million</a>, CC BY 3.0. Last built {TODAY}.</p></div></footer>
+{SCRIPT_MENU}</body></html>"""
 
 MD_PAGES = []  # (kind, path, markdown) for pages that have a Markdown twin, used for llms-full.txt
 def write(rel, content, lastmod=True, indexed=True, mod=None, md=None, kind=""):
@@ -276,29 +286,60 @@ tag_counts = collections.Counter(t for (k, i), ts in TAGS_BY.items() if k == "bo
 fn_opts = "".join(f'<option value="{e(t)}">{e(r["label"])} ({tag_counts[t]})</option>' for t, r in TAX.items() if r["facet"] == "function" and tag_counts[t])
 fc_opts = "".join(f'<option value="{e(t)}">{e(r["label"])} ({tag_counts[t]})</option>' for t, r in TAX.items() if r["facet"] == "focus" and tag_counts[t])
 apicount = collections.Counter(b["api_status"] for b in boards)
+GLYPH = {
+ "door": '<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M10 36V8a2 2 0 012-2h16a2 2 0 012 2v28M6 36h28" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="25" cy="22" r="1.9" fill="currentColor"/></svg>',
+ "plug": '<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M14 5v9M26 5v9M9 14h22v5a11 11 0 01-22 0zM20 30v6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+ "map": '<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 10l10-4 10 4 10-4v24l-10 4-10-4-10 4zM15 6v24M25 10v24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+ "book": '<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 10c-4-3-9-4-14-4v24c5 0 10 1 14 4 4-3 9-4 14-4V6c-5 0-10 1-14 4zM20 10v24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'}
+SEARCH_SVG = '<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>'
+region_counts = collections.Counter(b["region"] for b in boards)
+region_names = {"SEA": "Southeast Asia", "APAC": "Asia-Pacific", "Eastern Europe/CIS": "Eastern Europe and CIS"}
+region_chips = "".join(f'<a class="chip plain" style="min-height:44px;padding:0 var(--space-4);font-size:16px" href="regions/{slug(k)}/">{e(region_names.get(k, k))}<span class="n">{n}</span></a>' for k, n in region_counts.most_common())
+kind_li = "".join(f'<li><a href="tags/{e(t)}/">{e(r["label"])}</a> <span class="n">{tag_counts[t]}</span></li>' for t, r in sorted(((t, r) for t, r in TAX.items() if r["facet"] == "function" and tag_counts[t]), key=lambda x: -tag_counts[x[0]])[:9])
+focus_chips = "".join(f'<a class="chip focus" href="tags/{e(t)}/">{e(r["label"])}<span class="n">{tag_counts[t]}</span></a>' for t, r in sorted(((t, r) for t, r in TAX.items() if r["facet"] == "focus" and tag_counts[t] and t != "general"), key=lambda x: -tag_counts[x[0]])[:12])
+def home_card(b):
+    where = f' in {the_country(b["hq_country"])}' if b["hq_country"] and b["hq_country"] not in ("ZZ", "Global") else ""
+    return (f'<article class="card"><div class="card-head">{icon(b, "", 40)}<h3><a href="boards/{e(b["id"])}/">{e(b["name"])}</a></h3></div>'
+            f'<p>{e(type_label(b))}{e(where)}. {e(b["niche"].capitalize()) + "." if b["niche"] and not (set(re.findall("[a-z]+", b["niche"].lower())) & set(re.findall("[a-z]+", type_label(b).lower()))) else ""}</p><div class="meta">{api_badge(b["api_status"])}{conf_badge(b["confidence"])}</div></article>')
+spot = [b for b in sorted(boards, key=lambda b: (skey(b), b["name"].lower())) if b["api_status"] in ("public-open", "public-key") and b["confidence"] == "partially-verified" and indexable(b)][:4]
+_log = load("ingest_log.csv") if (ROOT/"data"/"ingest_log.csv").exists() else []
+news_li = "".join(f'<li><span class="chip plain">{e(x["date"])}</span><span>{e(x["added"])} added, {e(x["merged"])} merged into existing entries, {e(x["rejected"])} rejected for lack of a source</span></li>' for x in reversed(_log[-3:]))
 home_body = f"""
-<section class="hero"><h1>Every job board, aggregator and ATS, and how to integrate with them</h1>
-<p class="lede">{e(CFG["tagline"])}. Search {len(boards)} entries across job boards, aggregators, applicant tracking systems ({len(ats)}), staffing firms and other HR services, by region and country. Filter by type, focus and openness. Find who has an API, a partner program or a developer portal.</p>
-<div class="stats"><div><b>{len(boards)}</b><span>directory entries</span></div><div><b>{checked}</b><span>checked against sources</span></div><div><b>{len(ats)}</b><span>ATS systems</span></div>
-<div><b>{apicount["public-open"] + apicount["public-key"]}</b><span>with a public API</span></div><div><b>{apicount["partner-only"]}</b><span>partner-only</span></div></div>
-<p class="notice"><strong>Early data.</strong> {checked} of {len(boards)} entries have facts checked against cited sources, starting with Canada. Others are only confirmed as listed by another directory, and the rest were compiled from general knowledge. Treat anything not marked Partly verified as a lead.</p></section>
-<section aria-label="Search the directory"><div class="filters">
+<section class="hero"><div class="wrap"><p class="eyebrow">An open directory of job boards, aggregators and ATS systems</p>
+<h1>Every place that <span class="squiggle">posts a job</span>, mapped.</h1>
+<p class="lede">{len(boards)} job boards, aggregators, applicant tracking systems ({len(ats)}), staffing firms and HR services across {len(region_counts)} regions, with who owns them and how to connect. Look something up, or wander.</p>
+<form class="search" role="search" action="#directory" onsubmit="var q=document.getElementById('q');if(q){{q.value=this.elements.hq.value;q.dispatchEvent(new Event('input'))}};location.hash='directory';return false">{SEARCH_SVG}<input name="hq" type="search" aria-label="Search the directory" placeholder="Try &ldquo;Canada&rdquo;, &ldquo;nursing&rdquo; or &ldquo;has an API&rdquo;" autocomplete="off"><button class="btn primary" type="submit">Search</button></form>
+<p class="popular"><span class="small muted">Popular:</span><a class="chip api" href="api/public-open/">Has an open API</a><a class="chip region" href="countries/canada/">Canada</a><a class="chip" href="ats/">Applicant tracking</a><a class="chip focus" href="tags/healthcare/">Healthcare</a></p></div></section>
+<section class="sec" style="padding-top:var(--space-4)"><div class="wrap"><div class="stats"><div><b>{len(boards)}</b><span>places that post or route jobs</span></div><div><b>{checked}</b><span>checked against their own pages</span></div><div><b>{len(ats)}</b><span>hiring platforms (ATS)</span></div>
+<div><b>{apicount["public-open"] + apicount["public-key"]}</b><span>with an open or self-serve API</span></div><div><b>{apicount["partner-only"]}</b><span>partner-only APIs</span></div></div></div></section>
+<section class="sec band"><div class="wrap"><div class="sec-head"><div><h2>What brings you here?</h2><p>Four ways in. Pick the one that sounds like you.</p></div></div>
+<div class="grid"><a class="tile-link t-sun" href="#directory">{GLYPH["door"]}<strong>Find a board to post on</strong><span>Browse by region, country, language or industry.</span><span class="count">{len(boards)} entries</span></a>
+<a class="tile-link t-mint" href="api/">{GLYPH["plug"]}<strong>Connect to one</strong><span>Who has an API, a feed or a partner program.</span><span class="count">{apicount["public-open"] + apicount["public-key"]} open or self-serve, {apicount["partner-only"]} partner-only</span></a>
+<a class="tile-link t-lilac" href="ecosystem/">{GLYPH["map"]}<strong>See how it all fits</strong><span>Who owns whom and how jobs flow to candidates.</span><span class="count">Ecosystem map and owners</span></a>
+<a class="tile-link t-peach" href="about/">{GLYPH["book"]}<strong>Check our sources</strong><span>Every checked fact links to the page we read it on.</span><span class="count">{checked} entries checked</span></a></div></div></section>
+<section class="sec"><div class="wrap"><div class="sec-head"><div><h2>Browse by place</h2><p>Where a board is based and where it works.</p></div><div><a class="btn quiet" href="regions/">All regions</a><a class="btn quiet" href="countries/">All countries</a></div></div><div>{region_chips}</div></div></section>
+<section class="sec" style="padding-top:0"><div class="wrap two"><div><div class="sec-head"><h2>Browse by kind</h2></div><ul class="facet-list">{kind_li}</ul><a class="btn quiet" href="tags/" style="margin-left:-12px">All kinds and focus areas</a></div>
+<div><div class="sec-head"><h2>Browse by focus</h2></div><div>{focus_chips}</div><a class="btn quiet" href="languages/" style="margin-left:-12px;margin-top:var(--space-3)">Browse by language</a></div></div></section>
+<section class="sec band"><div class="wrap"><div class="sec-head"><div><h2>Good places to start with an API</h2><p>Open or self-serve, with the facts checked.</p></div><a class="btn quiet" href="api/">All APIs</a></div><div class="grid">{"".join(home_card(b) for b in spot)}</div></div></section>
+<section class="sec"><div class="wrap two"><div><div class="sec-head"><h2>Fresh from the research log</h2><a class="btn quiet" href="changelog/">Everything new</a></div><ul class="news">{news_li}</ul></div>
+<div><div class="sec-head"><h2>How much can you trust this?</h2></div><p class="notice"><strong>Early data.</strong> {checked} of {len(boards)} entries have facts checked against cited sources, starting with Canada. Others are only confirmed as listed by another directory, and the rest were compiled from general knowledge. Treat anything not marked Partly verified as a lead. <a href="about/">How we check</a></p></div></div></section>
+<section class="sec band" id="directory" aria-label="Search the directory"><div class="wrap"><div class="sec-head"><div><h2>The full directory</h2><p>Every entry, with search and filters. Each name opens its own page.</p></div></div><div class="filters">
 <label class="grow">Search<input id="q" type="search" placeholder="Name, country, language, niche, parent company..." autocomplete="off"></label>
 <label>Region<select id="f-region"><option value="">All</option>{opts("region")}</select></label>
 <label>Type<select id="f-type"><option value="">All</option>{opts("type")}</select></label>
 <label>Language<select id="f-lang"><option value="">All</option>{lang_opts}</select></label>
 <label>API<select id="f-api"><option value="">All</option>{opts("api_status")}</select></label>
-<label>Type<select id="f-function"><option value="">All</option>{fn_opts}</select></label>
+<label>Kind<select id="f-function"><option value="">All</option>{fn_opts}</select></label>
 <label>Focus<select id="f-focus"><option value="">All</option>{fc_opts}</select></label>
 <label>Prominence<select id="f-tier"><option value="">All</option><option value="Major">Major</option><option value="Large">Large</option><option value="Established">Established</option><option value="Small">Small</option></select></label>
 <label>Sort<select id="sort"><option value="prom">Prominence</option><option value="name">A to Z</option></select></label>
 <label>Partner program<select id="f-partner"><option value="">All</option><option value="yes">Yes</option><option value="n/a">Not applicable</option><option value="unknown">Unknown</option></select></label>
 </div><p id="count" class="muted" aria-live="polite"></p>
 {table(sorted(boards, key=lambda b: b["name"].lower()), "")}
-<p id="empty" class="muted" hidden>No boards match those filters.</p></section>
-<section class="prose"><h2>What this directory covers</h2>
+<p id="empty" class="muted" hidden>No boards match those filters.</p></div></section>
+<section class="sec"><div class="wrap prose"><h2>What this directory covers</h2>
 <p>Job distribution has several layers: the employer, the applicant tracking system, programmatic and multiposting platforms, and the boards and aggregators candidates use. This directory maps all of them, with a focus on integration: which platforms publish open feeds or APIs, which require a partnership, and where the developer portals are.</p>
-<ul><li><a href="languages/">Job boards by language</a></li><li><a href="tags/">Browse by type, focus and openness</a></li><li><a href="countries/canada/">Job boards in Canada</a></li><li><a href="api/public-open/">Job boards with an open API</a></li><li><a href="api/public-key/">Job boards with a self-serve API key</a></li><li><a href="api/partner-only/">Partner-only job board APIs</a></li><li><a href="ats/">ATS systems with public job feeds</a></li><li><a href="integrations/">ATS and job board integrations</a></li><li><a href="distribution/">Multiposting and job distribution platforms</a></li><li><a href="job-data-apis/">Job listing data APIs</a></li><li><a href="timeline/">Deals and closures by year</a></li></ul></section>
+<ul><li><a href="languages/">Job boards by language</a></li><li><a href="tags/">Browse by type, focus and openness</a></li><li><a href="countries/canada/">Job boards in Canada</a></li><li><a href="api/public-open/">Job boards with an open API</a></li><li><a href="api/public-key/">Job boards with a self-serve API key</a></li><li><a href="api/partner-only/">Partner-only job board APIs</a></li><li><a href="ats/">ATS systems with public job feeds</a></li><li><a href="integrations/">ATS and job board integrations</a></li><li><a href="distribution/">Multiposting and job distribution platforms</a></li><li><a href="job-data-apis/">Job listing data APIs</a></li><li><a href="timeline/">Deals and closures by year</a></li></ul></div></section>
 <script src="assets/app.js" defer></script>"""
 dataset = {"@context":"https://schema.org","@type":"Dataset","name":f"{NAME}: job boards, aggregators and ATS systems",
  "description":CFG["tagline"],"url":BASE+"/","creator":{"@type":"Person","name":CFG["author"]},"isAccessibleForFree":True,
@@ -308,7 +349,7 @@ dataset = {"@context":"https://schema.org","@type":"Dataset","name":f"{NAME}: jo
 site_ld = {"@context":"https://schema.org","@type":"WebSite","name":NAME,"url":BASE+"/"}
 write("index.html", layout(0, f"{NAME}: job boards, aggregators and ATS systems with APIs and partner programs",
   f"Open directory of {len(boards)} job boards, aggregators, ATS systems, staffing firms and HR services, by region and country, with API access, partner programs and owners.",
-  home_body, "/", [dataset, site_ld]))
+  home_body, "/", [dataset, site_ld], wide=True))
 
 # ---------- board pages ----------
 def life_banner(b, r):
@@ -558,6 +599,7 @@ write("about/index.html", layout(1, f"Methodology and data definitions | {NAME}"
 (OUT / "assets").mkdir(parents=True, exist_ok=True)
 shutil.copy(ROOT/"site_src"/"style.css", OUT/"assets"/"style.css"); shutil.copy(ROOT/"site_src"/"app.js", OUT/"assets"/"app.js"); shutil.copy(ROOT/"site_src"/"eco.js", OUT/"assets"/"eco.js")
 if (ROOT/"site_src"/"logos").exists(): shutil.copytree(ROOT/"site_src"/"logos", OUT/"assets"/"logos", dirs_exist_ok=True)
+if (ROOT/"site_src"/"fonts").exists(): shutil.copytree(ROOT/"site_src"/"fonts", OUT/"assets"/"fonts", dirs_exist_ok=True)
 (OUT/"downloads").mkdir(exist_ok=True)
 for n in ("job_boards.csv","sources.csv","rank.csv","scale.csv","owners.csv","ownership.csv","owner_facts.csv","taxonomy.csv","tags.csv","reviews.csv","relationships.csv","languages.csv","lifecycle.csv"): shutil.copy(ROOT/"data"/n, OUT/"downloads"/n)
 (OUT/"downloads"/"job_boards.json").write_text(json.dumps(boards, indent=1, ensure_ascii=False), encoding="utf-8")
