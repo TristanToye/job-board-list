@@ -16,16 +16,17 @@
  "region": "Europe",
  "niche": "UK recruitment agency CRM and ATS (Ikiru People)",
  "segment": "",
- "parent": "",
+ "parent": "Dillistone Group Plc",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [
-  "job board posting"
+  "job board posting",
+  "multiposting"
  ],
- "notes": "Site says: \"Voyager Infinity integrates the multi-job posting solution LogicMelon.\"",
+ "notes": "Site says: \"Voyager Infinity integrates the multi-job posting solution LogicMelon.\" Brand of Ikiru People Ltd, a subsidiary of Dillistone Group Plc. Multi-job posting to job boards via Broadbean and LogicMelon integrations. Contact page returned HTTP 502 and was not readable.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/voyager-infinity/",
  "indexable": false,
@@ -69,7 +70,14 @@
    "quote": "The partnership enables organisations to source and access millions of CVs from CV-Library"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "voyager-infinity",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status",
+  "note": "Home, about and partners pages read; contact page returned HTTP 502 in the browser reader after one retry.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -95,6 +103,14 @@
    "title": "Voyager partners",
    "accessed": "2026-11-23",
    "quote": "Voyager Infinity integrates the multi-job posting solution LogicMelon.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.voyagersoftware.com/about-us/",
+   "title": "About us",
+   "accessed": "2026-11-26",
+   "quote": "Voyager Software is a brand of Ikiru People Ltd, a subsidiary of Dillistone Group Plc.",
    "quote_check": "ok"
   }
  ]

@@ -23,9 +23,10 @@
  "partner_url": "",
  "ingest_methods": [
   "job board posting",
-  "career site"
+  "career site",
+  "XML feed"
  ],
- "notes": "Site says: \"Zapier, Make and a full open API\" Site says: \"Expand your reach by integrating with Recruit CRM and tapping into a global network of recruitment professionals.\"",
+ "notes": "Site says: \"Zapier, Make and a full open API\" Site says: \"Expand your reach by integrating with Recruit CRM and tapping into a global network of recruitment professionals.\" Pricing page lists per-user monthly plans ($95, $135, $215) with account-level credits. Homepage says a full open API exists but the pages read do not say how to obtain access, so api_status is omitted. No headquarters or parent company stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/recruit-crm/",
  "indexable": false,
@@ -39,7 +40,8 @@
  },
  "tags": [
   "ats",
-  "subscription"
+  "subscription",
+  "xml-feed"
  ],
  "connections": [
   {
@@ -70,7 +72,14 @@
    "quote": "LogicMelon, Broadbean and CV-Library"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "recruit-crm",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;partner_program",
+  "note": "Homepage, pricing and integration pages read with HTTP 200; no headquarters, parent or API access method stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -136,6 +145,14 @@
    "title": "Recruit CRM home",
    "accessed": "2026-11-23",
    "quote": "Zapier, Make and a full open API",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://recruitcrm.io/pricing/",
+   "title": "Pricing page, job publishing",
+   "accessed": "2026-11-26",
+   "quote": "XML feeds sync jobs to boards automatically",
    "quote_check": "ok"
   }
  ]

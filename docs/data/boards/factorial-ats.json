@@ -16,16 +16,16 @@
  "niche": "recruiting module of the Factorial HR platform",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://factorial.com/integrations-partner-program",
  "ingest_methods": [],
- "notes": "Site says: \"Develop custom solutions using our public API or join our certification program to get featured directly on our global marketplace.\" Site says: \"Expand your product's reach. Develop custom solutions using our public API\"",
+ "notes": "Site says: \"Develop custom solutions using our public API or join our certification program to get featured directly on our global marketplace.\" Site says: \"Expand your product's reach. Develop custom solutions using our public API\" Pricing page starts at $8 per user per month. API keys are generated from company settings, and OAuth 2.0 is also offered. Certification program lists integrations on the marketplace.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/factorial-ats/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -35,10 +35,19 @@
   "list_date": "2026-11-23"
  },
  "tags": [
-  "ats"
+  "ats",
+  "partner-program",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "factorial-ats",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;ingest_methods",
+  "note": "Pricing, API and partner program pages were read; subscription pricing, API key access and partner program confirmed.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -72,6 +81,14 @@
    "title": "Factorial integrations partner program",
    "accessed": "2026-11-23",
    "quote": "Develop custom solutions using our public API or join our certification program to get featured directly on our global marketplace.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://factorial.com/pricing-plans",
+   "title": "Pricing",
+   "accessed": "2026-11-26",
+   "quote": "Factorial starts at $8 per month, per user",
    "quote_check": "ok"
   }
  ]

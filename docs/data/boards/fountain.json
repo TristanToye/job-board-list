@@ -17,17 +17,17 @@
  "segment": "",
  "parent": "",
  "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
+ "api_status": "public-key",
+ "api_docs_url": "https://developer.fountain.com",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [
   "job board posting"
  ],
- "notes": "Site says: \"We partner with the most efficient tools in recruiting and HR to help you streamline your hiring process.\"",
+ "notes": "Site says: \"We partner with the most efficient tools in recruiting and HR to help you streamline your hiring process.\" Partner page lists HR tech vendors and integrations. Developer docs say keys are created in the user profile or in integration settings. Pricing, headquarters, parent company and languages are not stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/fountain/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -37,6 +37,7 @@
   "list_date": "2026-11-23"
  },
  "tags": [
+  "api-self-serve",
   "ats"
  ],
  "connections": [
@@ -68,7 +69,14 @@
    "quote": "VONQ is an intelligent, data-driven platform designed to streamline the distribution of job listings, ensuring they reach the most suitable candidates."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "fountain",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model",
+  "note": "Homepage, integrations, footer, about and developer hub read; developer hub states key creation; no pricing, headquarters or language options stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -102,6 +110,14 @@
    "title": "Partners & Integrations | Fountain",
    "accessed": "2026-11-23",
    "quote": "We partner with the most efficient tools in recruiting and HR to help you streamline your hiring process.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://developer.fountain.com",
+   "title": "Fountain API documentation, get started",
+   "accessed": "2026-11-26",
+   "quote": "Personal key: Open your Profile > Manage API Keys.",
    "quote_check": "ok"
   }
  ]

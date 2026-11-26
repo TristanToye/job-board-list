@@ -16,13 +16,13 @@
  "niche": "executive search CRM and ATS",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
- "api_docs_url": "",
+ "api_docs_url": "https://ezekia.com/api/documentation",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Site says: \"Integrate Ezekia with the tools, AI platforms and automations your team already uses.\"",
+ "notes": "Site says: \"Integrate Ezekia with the tools, AI platforms and automations your team already uses.\" Plans are priced per user and billed monthly, quoted individually. Integrations page links API documentation on ezekia.com and does not state how to get access. Zapier and MCP connectors are listed. About page says there is no parent company. Homepage footer gives a London address without a headquar",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/ezekia/",
  "indexable": false,
@@ -36,10 +36,18 @@
  },
  "tags": [
   "ats",
-  "executive"
+  "executive",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "ezekia",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent;api_status;partner_program",
+  "note": "Homepage, pricing, about and integrations pages were read; pricing and Zapier or API integrations are stated, but no headquarters, language options or partner program.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -57,6 +65,22 @@
    "title": "Ezekia homepage",
    "accessed": "2026-11-23",
    "quote": "Integrate Ezekia with the tools, AI platforms and automations your team already uses.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.ezekia.io/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-26",
+   "quote": "Priced per user, billed monthly. Tailored to your team and workflow, with no lock-in contracts.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://www.ezekia.io/integrations",
+   "title": "Integrations",
+   "accessed": "2026-11-26",
+   "quote": "Build custom integrations with the Ezekia API.",
    "quote_check": "ok"
   }
  ]

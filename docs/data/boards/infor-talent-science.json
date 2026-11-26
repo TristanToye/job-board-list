@@ -15,17 +15,17 @@
  "region": "Global",
  "niche": "talent management suite with talent science and recruitment modules",
  "segment": "",
- "parent": "",
+ "parent": "Koch Industries",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "yes",
  "partner_url": "https://www.infor.com/partners",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Infor is a wholly-owned subsidiary of Koch Industries. The Infor Partner Network page describes the partner program.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/infor-talent-science/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -39,7 +39,14 @@
   "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "infor-talent-science",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;ingest_methods",
+  "note": "Home, about and partners pages were read; Koch parent and partner network confirmed.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -57,6 +64,14 @@
    "title": "Infor Partner Network (IPN) | Partners | Infor",
    "accessed": "2026-11-23",
    "quote": "The Infor Partner Network (IPN) is a global ecosystem of Partners who innovate, sell, and deliver Infor solutions to our customers.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.infor.com/about",
+   "title": "About Infor timeline",
+   "accessed": "2026-11-26",
+   "quote": "Infor becomes a wholly-owned, standalone subsidiary of Koch Industries",
    "quote_check": "ok"
   }
  ]

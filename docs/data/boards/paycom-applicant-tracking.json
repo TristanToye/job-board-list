@@ -4,7 +4,7 @@
  "url": "https://www.paycom.com",
  "domains": "",
  "type": "ats",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -25,7 +25,7 @@
   "job board posting",
   "career site"
  ],
- "notes": "",
+ "notes": "Contact page labels Oklahoma City, Oklahoma 73142 as corporate headquarters. ATS page says jobs are posted automatically to websites and online job boards. No pricing, API, partner program or language options found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/paycom-applicant-tracking/",
  "indexable": false,
@@ -41,7 +41,14 @@
   "ats"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "paycom-applicant-tracking",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;business_model;api_status;partner_program;parent",
+  "note": "Homepage, about, contact, applicant tracking and marketplace pages were read; headquarters is stated but no pricing, API, partner or language options.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -67,6 +74,14 @@
    "title": "Paycom talent acquisition",
    "accessed": "2026-11-23",
    "quote": "From automatically posting new job openings on career sites and job boards to automating rejection messages",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.paycom.com/contact-us/",
+   "title": "Contact us",
+   "accessed": "2026-11-26",
+   "quote": "Address 7501 W. Memorial Road Oklahoma City, Oklahoma 73142",
    "quote_check": "ok"
   }
  ]

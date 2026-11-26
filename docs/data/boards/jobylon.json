@@ -18,11 +18,13 @@
  "parent": "",
  "business_model": "",
  "api_status": "unknown",
- "api_docs_url": "",
+ "api_docs_url": "https://developer.jobylon.com/",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "Site says: \"Jobylon integrates seamlessly with most major third-party apps and partners\"",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Site says: \"Jobylon integrates seamlessly with most major third-party apps and partners\" Developer portal lists Feed API, Partner API and Push API. Integrations page lists partner job board integrations. Language switcher lists English, Svenska, Nederlands and Deutsch. Pricing page was not read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobylon/",
  "indexable": false,
@@ -38,7 +40,14 @@
   "ats"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobylon",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;business_model;api_status;parent",
+  "note": "Homepage, integrations and developer portal read; partner program, job board posting and developer docs confirmed, API access route not stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -64,6 +73,30 @@
    "title": "Jobylon integrations",
    "accessed": "2026-11-23",
    "quote": "Jobylon integrates seamlessly with most major third-party apps and partners",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://developer.jobylon.com/",
+   "title": "Developer portal",
+   "accessed": "2026-11-26",
+   "quote": "Our feed api, allowing you to list details about your available jobs.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobylon.com/",
+   "title": "Homepage",
+   "accessed": "2026-11-26",
+   "quote": "Post roles across job boards, build branded career sites, and reach candidates where they are.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.jobylon.com/integrations",
+   "title": "ATS Integrations",
+   "accessed": "2026-11-26",
+   "quote": "Our partnership allows you to post jobs to their job board directly from Jobylon",
    "quote_check": "ok"
   }
  ]

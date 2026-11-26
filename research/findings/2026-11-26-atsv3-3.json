@@ -1,110 +1,271 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Recruit CRM",
+   "url": "https://recruitcrm.io",
+   "primary_language": null,
+   "business_model": null,
+   "ingest_methods": [
+    "XML feed"
+   ],
+   "notes": "Pricing page lists per-user monthly plans ($95, $135, $215) with account-level credits. Homepage says a full open API exists but the pages read do not say how to obtain access, so api_status is omitted. No headquarters or parent company stated.",
+   "sources": [
     {
-      "name": "Recruit CRM",
-      "url": "https://recruitcrm.io",
-      "primary_language": "en",
-      "business_model": "subscription",
-      "ingest_methods": ["XML feed"],
-      "notes": "Pricing page lists per-user monthly plans ($95, $135, $215) with account-level credits. Homepage says a full open API exists but the pages read do not say how to obtain access, so api_status is omitted. No headquarters or parent company stated.",
-      "sources": [
-        {"field": "languages", "url": "https://recruitcrm.io/integration-partners/", "title": "Integration partners page, company description", "quote": "Recruit CRM is an AI-powered Applicant Tracking System and CRM built for recruitment agencies and executive search firms in over 100 countries."},
-        {"field": "business_model", "url": "https://recruitcrm.io/pricing/", "title": "Pricing page, credits", "quote": "You can purchase additional credits if you need more than the amount included within your plan."},
-        {"field": "ingest_methods", "url": "https://recruitcrm.io/pricing/", "title": "Pricing page, job publishing", "quote": "XML feeds sync jobs to boards automatically"}
-      ]
-    },
-    {
-      "name": "Talentera",
-      "url": "https://www.talentera.com/en/",
-      "primary_language": "en",
-      "languages_supported": ["en", "ar"],
-      "ingest_methods": ["ATS integration"],
-      "notes": "Homepage offers English and Arabic (switcher shows the Arabic option). Pricing page lists plans but shows no prices. No API or partner program found on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.talentera.com/en/", "title": "Homepage language support", "quote": "Talentera supports English and Arabic with local teams in your time zone, addressing cultural needs and real-time challenges."},
-        {"field": "ingest_methods", "url": "https://www.talentera.com/en/job-board/", "title": "Job board product page", "quote": "Talentera JobSite comes with integrations to job sites built-in"}
-      ]
-    },
-    {
-      "name": "Dayforce Recruiting",
-      "url": "https://www.dayforce.com",
-      "primary_language": "en",
-      "partner_program": "yes",
-      "partner_url": "https://www.dayforce.com/how-we-help/services-and-support/partners",
-      "notes": "Dayforce Partner Network page describes partner tiers and a Become a partner link. No pricing, API or job board ingest method stated on the pages read. Headquarters and parent company are not stated on the pages read; the About page says the company was first named Ceridian and founded in 1992.",
-      "sources": [
-        {"field": "languages", "url": "https://www.dayforce.com", "title": "Homepage, English site", "quote": "Tap into any labor market with help from our global HR ecosystem."},
-        {"field": "partner_program", "url": "https://www.dayforce.com/how-we-help/services-and-support/partners", "title": "Dayforce Partner Network", "quote": "The Dayforce Partner Network connects you to the expertise, solutions, and support you need to get even more value from the Dayforce platform"}
-      ]
-    },
-    {
-      "name": "Hireology",
-      "url": "https://www.hireology.com",
-      "primary_language": "en",
-      "ingest_methods": ["ATS integration"],
-      "notes": "Integrations page lists job board syncs such as Indeed. Packages page says pricing is by contacting sales. No API, partner program or headquarters stated on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.hireology.com", "title": "Homepage headline", "quote": "Purpose-built hiring software that meets the complexity of your world"},
-        {"field": "ingest_methods", "url": "https://www.hireology.com/integrations", "title": "Integrations page", "quote": "Indeed and Hireology sync jobs and applicants for faster, centralized recruiting."}
-      ]
-    },
-    {
-      "name": "Kula",
-      "url": "https://www.kula.ai",
-      "primary_language": "en",
-      "business_model": "subscription",
-      "api_status": "public-key",
-      "api_docs_url": "https://developers.kula.ai/docs/jobboards-api/kula-job-board-api",
-      "ingest_methods": ["API"],
-      "notes": "Pricing page shows a flat annual price of $4,800/year. Public Job Boards API uses bearer keys, managed under Settings, API Management; key creation steps are not on the pages read. No partner program found.",
-      "sources": [
-        {"field": "languages", "url": "https://www.kula.ai", "title": "Homepage", "quote": "It connects sourcing, screening, interviews, analytics, and scheduling into a single AI-native workflow, so hiring moves without friction."},
-        {"field": "business_model", "url": "https://www.kula.ai/pricing", "title": "Pricing page", "quote": "Pricing shown reflects annual billing (flexible terms available)."},
-        {"field": "api_status", "url": "https://developers.kula.ai/docs/jobboards-api/kula-job-board-api", "title": "Job Boards API documentation", "quote": "Grant it under Settings → API Management and retry - no new key is needed."},
-        {"field": "ingest_methods", "url": "https://developers.kula.ai/", "title": "Kula API documentation home", "quote": "Public API for job board integrations and career page widgets."}
-      ]
-    },
-    {
-      "name": "Rexx Systems",
-      "url": "https://www.rexx-systems.com/",
-      "primary_language": "de",
-      "notes": "Homepage is German. Contact page labels an address as Rexx Systems Headquarters in Hamburg but names no country, so hq_country is omitted. No pricing, API, partner or job board ingest stated on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://www.rexx-systems.com/", "title": "Homepage headline", "quote": "HR Software mit KI für smarte, transparente und effiziente Personalarbeit"}
-      ]
-    },
-    {
-      "name": "Tribepad",
-      "url": "https://tribepad.com/",
-      "primary_language": "en",
-      "business_model": "subscription",
-      "notes": "Pricing page gives from-prices per month (from £579/month for the SME product) plus a set-up fee. Integrations page URL returned 404, and the integrations and partners link on the homepage has no readable URL, so no API or partner program is recorded. Headquarters and parent are not stated on the pages read.",
-      "sources": [
-        {"field": "languages", "url": "https://tribepad.com/", "title": "Homepage headline", "quote": "Deliver fast, friction-free candidate experiences that do you justice."},
-        {"field": "business_model", "url": "https://tribepad.com/pricing", "title": "Pricing page", "quote": "Tribepad Gro, our ATS for SMEs, starts from £579 per month when paid annually"}
-      ]
-    },
-    {
-      "name": "EasyCruit",
-      "url": "https://www.easycruit.com/",
-      "primary_language": "en",
-      "notes": "Homepage only; it has no pricing, API, partner or integrations links. The footer links to ehratalentsolutions.com, but the page does not state that this company is its parent, so no parent is recorded.",
-      "sources": [
-        {"field": "languages", "url": "https://www.easycruit.com/", "title": "Homepage about section", "quote": "EasyCruit is an online recruitment solution catered to hiring managers and recruiters, facilitating a versatile and efficient hiring process."}
-      ]
+     "field": "ingest_methods",
+     "url": "https://recruitcrm.io/pricing/",
+     "title": "Pricing page, job publishing",
+     "quote": "XML feeds sync jobs to boards automatically",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Recruit CRM", "url": "https://recruitcrm.io", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "languages", "api_status", "partner_program"], "method": "browser", "note": "Homepage, pricing and integration pages read with HTTP 200; no headquarters, parent or API access method stated."},
-    {"name": "Talentera", "url": "https://www.talentera.com/en/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program"], "method": "browser", "note": "Homepage, pricing and job board pages read with HTTP 200; plans listed without prices."},
-    {"name": "Dayforce Recruiting", "url": "https://www.dayforce.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "ingest_methods", "languages"], "method": "browser", "note": "Homepage, partner network and our-story pages read with HTTP 200; no headquarters or pricing stated."},
-    {"name": "Hireology", "url": "https://www.hireology.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "languages"], "method": "browser", "note": "Homepage, integrations, packages and about pages read with HTTP 200; pricing is by sales contact only."},
-    {"name": "Kula", "url": "https://www.kula.ai", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "partner_program"], "method": "browser", "note": "Homepage, pricing, integrations and developer pages read with HTTP 200; no headquarters or partner program stated."},
-    {"name": "Rexx Systems", "url": "https://www.rexx-systems.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods"], "method": "browser", "note": "Homepage, company and contact pages read with HTTP 200; headquarters address lacks a stated country."},
-    {"name": "Tribepad", "url": "https://tribepad.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "api_status", "partner_program", "ingest_methods", "languages"], "method": "browser", "note": "Homepage and pricing pages read with HTTP 200; integrations page URL returned 404."},
-    {"name": "EasyCruit", "url": "https://www.easycruit.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "api_status", "partner_program", "ingest_methods", "languages"], "method": "browser", "note": "Homepage read with HTTP 200; it links no pricing, API or partner pages."}
-  ],
-  "blocked": []
+   ],
+   "languages_supported": []
+  },
+  {
+   "name": "Talentera",
+   "url": "https://www.talentera.com/en/",
+   "primary_language": "en",
+   "languages_supported": [
+    "en",
+    "ar"
+   ],
+   "ingest_methods": [
+    "job board posting"
+   ],
+   "notes": "Homepage offers English and Arabic (switcher shows the Arabic option). Pricing page lists plans but shows no prices. No API or partner program found on the pages read.",
+   "sources": [
+    {
+     "field": "languages",
+     "url": "https://www.talentera.com/en/",
+     "title": "Homepage language support",
+     "quote": "Talentera supports English and Arabic with local teams in your time zone, addressing cultural needs and real-time challenges.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.talentera.com/en/job-board/",
+     "title": "Job board product page",
+     "quote": "Talentera JobSite comes with integrations to job sites built-in",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Dayforce Recruiting",
+   "url": "https://www.dayforce.com",
+   "primary_language": null,
+   "partner_program": "yes",
+   "partner_url": "https://www.dayforce.com/how-we-help/services-and-support/partners",
+   "notes": "Dayforce Partner Network page describes partner tiers and a Become a partner link. No pricing, API or job board ingest method stated on the pages read. Headquarters and parent company are not stated on the pages read; the About page says the company was first named Ceridian and founded in 1992.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://www.dayforce.com/how-we-help/services-and-support/partners",
+     "title": "Dayforce Partner Network",
+     "quote": "The Dayforce Partner Network connects you to the expertise, solutions, and support you need to get even more value from the Dayforce platform",
+     "check": "ok"
+    }
+   ],
+   "languages_supported": []
+  },
+  {
+   "name": "Hireology",
+   "url": "https://www.hireology.com",
+   "primary_language": null,
+   "ingest_methods": [
+    "job board posting"
+   ],
+   "notes": "Integrations page lists job board syncs such as Indeed. Packages page says pricing is by contacting sales. No API, partner program or headquarters stated on the pages read.",
+   "sources": [
+    {
+     "field": "ingest_methods",
+     "url": "https://www.hireology.com/integrations",
+     "title": "Integrations page",
+     "quote": "Indeed and Hireology sync jobs and applicants for faster, centralized recruiting.",
+     "check": "ok"
+    }
+   ],
+   "languages_supported": []
+  },
+  {
+   "name": "Kula",
+   "url": "https://www.kula.ai",
+   "primary_language": null,
+   "business_model": "subscription",
+   "api_status": "public-key",
+   "api_docs_url": "https://developers.kula.ai/docs/jobboards-api/kula-job-board-api",
+   "ingest_methods": [],
+   "notes": "Pricing page shows a flat annual price of $4,800/year. Public Job Boards API uses bearer keys, managed under Settings, API Management; key creation steps are not on the pages read. No partner program found.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.kula.ai/pricing",
+     "title": "Pricing page",
+     "quote": "Pricing shown reflects annual billing (flexible terms available).",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://developers.kula.ai/docs/jobboards-api/kula-job-board-api",
+     "title": "Job Boards API documentation",
+     "quote": "Grant it under Settings → API Management and retry - no new key is needed.",
+     "check": "ok"
+    }
+   ],
+   "languages_supported": []
+  },
+  {
+   "name": "Rexx Systems",
+   "url": "https://www.rexx-systems.com/",
+   "primary_language": null,
+   "notes": "Homepage is German. Contact page labels an address as Rexx Systems Headquarters in Hamburg but names no country, so hq_country is omitted. No pricing, API, partner or job board ingest stated on the pages read.",
+   "sources": [],
+   "languages_supported": []
+  },
+  {
+   "name": "Tribepad",
+   "url": "https://tribepad.com/",
+   "primary_language": null,
+   "business_model": "subscription",
+   "notes": "Pricing page gives from-prices per month (from £579/month for the SME product) plus a set-up fee. Integrations page URL returned 404, and the integrations and partners link on the homepage has no readable URL, so no API or partner program is recorded. Headquarters and parent are not stated on the pages read.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://tribepad.com/pricing",
+     "title": "Pricing page",
+     "quote": "Tribepad Gro, our ATS for SMEs, starts from £579 per month when paid annually",
+     "check": "ok"
+    }
+   ],
+   "languages_supported": []
+  },
+  {
+   "name": "EasyCruit",
+   "url": "https://www.easycruit.com/",
+   "primary_language": null,
+   "notes": "Homepage only; it has no pricing, API, partner or integrations links. The footer links to ehratalentsolutions.com, but the page does not state that this company is its parent, so no parent is recorded.",
+   "sources": [],
+   "languages_supported": []
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Recruit CRM",
+   "url": "https://recruitcrm.io",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, pricing and integration pages read with HTTP 200; no headquarters, parent or API access method stated."
+  },
+  {
+   "name": "Talentera",
+   "url": "https://www.talentera.com/en/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, pricing and job board pages read with HTTP 200; plans listed without prices."
+  },
+  {
+   "name": "Dayforce Recruiting",
+   "url": "https://www.dayforce.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "ingest_methods",
+    "languages"
+   ],
+   "method": "browser",
+   "note": "Homepage, partner network and our-story pages read with HTTP 200; no headquarters or pricing stated."
+  },
+  {
+   "name": "Hireology",
+   "url": "https://www.hireology.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "languages"
+   ],
+   "method": "browser",
+   "note": "Homepage, integrations, packages and about pages read with HTTP 200; pricing is by sales contact only."
+  },
+  {
+   "name": "Kula",
+   "url": "https://www.kula.ai",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, pricing, integrations and developer pages read with HTTP 200; no headquarters or partner program stated."
+  },
+  {
+   "name": "Rexx Systems",
+   "url": "https://www.rexx-systems.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Homepage, company and contact pages read with HTTP 200; headquarters address lacks a stated country."
+  },
+  {
+   "name": "Tribepad",
+   "url": "https://tribepad.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "api_status",
+    "partner_program",
+    "ingest_methods",
+    "languages"
+   ],
+   "method": "browser",
+   "note": "Homepage and pricing pages read with HTTP 200; integrations page URL returned 404."
+  },
+  {
+   "name": "EasyCruit",
+   "url": "https://www.easycruit.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "ingest_methods",
+    "languages"
+   ],
+   "method": "browser",
+   "note": "Homepage read with HTTP 200; it links no pricing, API or partner pages."
+  }
+ ],
+ "blocked": []
 }

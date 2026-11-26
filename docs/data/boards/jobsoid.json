@@ -16,7 +16,7 @@
  "niche": "applicant tracking for small teams",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
@@ -24,7 +24,7 @@
  "ingest_methods": [
   "job board posting"
  ],
- "notes": "Site says: \"You can upgrade, downgrade or cancel your subscription anytime.\"",
+ "notes": "Site says: \"You can upgrade, downgrade or cancel your subscription anytime.\" Subscription plans with a free plan, listed at $59, $119 and $299 per month when paid monthly. Homepage says one-click posting to job boards.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/jobsoid/",
  "indexable": false,
@@ -37,10 +37,18 @@
   "list_date": "2026-11-23"
  },
  "tags": [
-  "ats"
+  "ats",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "jobsoid",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;parent;partner_program",
+  "note": "Home and pricing pages read; no contact, developer or partner page was linked from them.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -66,6 +74,14 @@
    "title": "Jobsoid pricing",
    "accessed": "2026-11-23",
    "quote": "You can upgrade, downgrade or cancel your subscription anytime.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.jobsoid.com/pricing/",
+   "title": "Pricing",
+   "accessed": "2026-11-26",
+   "quote": "Choose the plan that suites your hiring requirements the best. You can upgrade, downgrade or cancel your subscription anytime.",
    "quote_check": "ok"
   }
  ]

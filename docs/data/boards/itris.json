@@ -22,9 +22,10 @@
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [
-  "job board posting"
+  "job board posting",
+  "multiposting"
  ],
- "notes": "",
+ "notes": "Partners and Integrations page offers a Become a Partner form. Homepage describes posting jobs to multiple job boards from the CRM. Registered address is given without a country name.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/itris/",
  "indexable": false,
@@ -50,7 +51,14 @@
    "quote": "Fully integrated with LinkedIn Recruiter"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "itris",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;parent",
+  "note": "Homepage, About and Partners pages read; partner program and job board posting confirmed, no pricing or API access stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

@@ -15,17 +15,17 @@
  "region": "Global",
  "niche": "HCM suite with recruiting and onboarding",
  "segment": "",
- "parent": "",
+ "parent": "ADP, Inc.",
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "yes",
  "partner_url": "https://www.adp.com/what-we-offer/marketplace",
  "ingest_methods": [],
- "notes": "Site says: \"Instantly access secure APIs, tools and resources that can help you build custom integrations for your company.\"",
+ "notes": "Site says: \"Instantly access secure APIs, tools and resources that can help you build custom integrations for your company.\" Site footer and About ADP page name ADP, Inc. as the trademark owner. Get Pricing links appear without prices shown. Language switcher lists Canada (English).",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/adp-recruiting-management/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Large",
   "label": "Large",
@@ -39,7 +39,14 @@
   "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "adp-recruiting-management",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;ingest_methods",
+  "note": "Homepage and About ADP read; parent company confirmed, pricing shown only as Get Pricing links.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -65,6 +72,14 @@
    "title": "ADP Marketplace",
    "accessed": "2026-11-23",
    "quote": "ADP Marketplace can help you automatically integrate and securely share data between your HR systems.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "parent",
+   "url": "https://www.adp.com/about-adp",
+   "title": "About ADP",
+   "accessed": "2026-11-26",
+   "quote": "ADP and the ADP logo are registered trademarks of ADP, Inc.",
    "quote_check": "ok"
   }
  ]

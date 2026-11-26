@@ -24,7 +24,7 @@
  "ingest_methods": [
   "job board posting"
  ],
- "notes": "Site says: \"Our Growth plan allows up to 3 active job postings.\" Site says: \"ApplicantStack works with the following partners to deliver top-rated ATS\"",
+ "notes": "Site says: \"Our Growth plan allows up to 3 active job postings.\" Site says: \"ApplicantStack works with the following partners to deliver top-rated ATS\" Pricing page lists four monthly plans from $29.99 to $159.99 per month. Job boards page says job posts are uploaded to Indeed and JobTarget. Footer copyright reads Swipeclock, but no parent is stated.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/applicantstack/",
  "indexable": false,
@@ -68,7 +68,14 @@
    "quote": "ZipRecruiter posts your jobs to 200+ of the most visited job boards, websites and social networks on the Internet."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "applicantstack",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status",
+  "note": "Home, pricing, partners and job boards pages were read; subscription pricing, partner program and job board upload confirmed.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

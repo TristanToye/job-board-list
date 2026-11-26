@@ -4,7 +4,7 @@
  "url": "https://www.cornerstoneondemand.com",
  "domains": "",
  "type": "ats",
- "hq_country": "",
+ "hq_country": "US",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -22,10 +22,10 @@
  "partner_program": "yes",
  "partner_url": "https://www.cornerstoneondemand.com/platform/extend-integrations/",
  "ingest_methods": [],
- "notes": "Site says: \"Utilize prebuilt integrations, connectors, and APIs to unify systems and streamline workflows.\"",
+ "notes": "Site says: \"Utilize prebuilt integrations, connectors, and APIs to unify systems and streamline workflows.\" Contact page lists Santa Monica, CA 90404 as worldwide corporate headquarters. Language menu codes br, de, es, fr, it, jp, kr and mx are mapped to pt, de, es, fr, it, ja, ko and es. Extend page mentions APIs but states no access route.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/cornerstone-ondemand/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -39,7 +39,14 @@
   "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "cornerstone-ondemand",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "business_model;api_status;parent;ingest_methods",
+  "note": "Home, about, partners, contact and extend pages read; contact page gives headquarters and the language menu lists the other languages.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -65,6 +72,22 @@
    "title": "Seamless Integrations & APIs for Your HR Ecosystem",
    "accessed": "2026-11-23",
    "quote": "Explore the Cornerstone Workforce AI™ Extend Marketplace.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.cornerstoneondemand.com/contact-us/",
+   "title": "Contact us",
+   "accessed": "2026-11-26",
+   "quote": "Worldwide corporate headquarters 1601 Cloverfield Blvd, Suite 600 South, Santa Monica, CA 90404",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.cornerstoneondemand.com/partners/",
+   "title": "Partner ecosystem",
+   "accessed": "2026-11-26",
+   "quote": "Cornerstone Services Partners is a curated community of global systems integrators and regional experts that help you deploy and optimize your capabilities.",
    "quote_check": "ok"
   }
  ]

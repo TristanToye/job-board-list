@@ -10,17 +10,6 @@
    "countries_served": [
     "US"
    ],
-   "board": {
-    "hq_country": "US",
-    "founded": 1996,
-    "parent": null,
-    "primary_language": null,
-    "languages_supported": [],
-    "business_model": null,
-    "partner_program": null,
-    "partner_url": null,
-    "api_status": null
-   },
    "sources": [
     {
      "field": "existence",
@@ -85,7 +74,9 @@
      "quote": "Career Edge is hosted on Amazon Web Services (AWS), offering robust scalability, high availability, and enterprise-grade protection.",
      "check": "ok"
     }
-   ]
+   ],
+   "hq_country": "US",
+   "founded": 1996
   }
  ],
  "blocked": [],

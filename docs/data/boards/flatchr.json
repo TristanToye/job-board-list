@@ -17,17 +17,18 @@
  "segment": "",
  "parent": "",
  "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
+ "api_status": "public-key",
+ "api_docs_url": "https://developers.flatchr.io/",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [
-  "job board posting"
+  "job board posting",
+  "multiposting"
  ],
- "notes": "Site says: \"Développez votre propre intégration grâce à notre API publique\" Site says: \"Intégrez facilement les meilleurs outils RH à Flatchr pour simplifier la gestion\"",
+ "notes": "Site says: \"Développez votre propre intégration grâce à notre API publique\" Site says: \"Intégrez facilement les meilleurs outils RH à Flatchr pour simplifier la gestion\" French ATS. Docs say the API key is generated in account settings under Advanced, API. Homepage says jobs are multiposted to more than 160 job boards. Pricing page text shows no visible prices.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/flatchr/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -37,10 +38,18 @@
   "list_date": "2026-11-23"
  },
  "tags": [
+  "api-self-serve",
   "ats"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "flatchr",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;partner_program",
+  "note": "Home, pricing and developer docs read; pricing page text shows no visible prices and no partner page is linked.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -82,6 +91,22 @@
    "title": "Flatchr integrations",
    "accessed": "2026-11-23",
    "quote": "Développez votre propre intégration grâce à notre API publique",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://developers.flatchr.io/docs/getting_started/",
+   "title": "Getting started",
+   "accessed": "2026-11-26",
+   "quote": "Votre API_KEY doit être générée dans votre espace Flatchr Paramètres avancés > Avancé > API.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.flatchr.io/",
+   "title": "Homepage",
+   "accessed": "2026-11-26",
+   "quote": "Multidiffusez sur +160 jobboards, sourcez vos candidats sur Linkedin et CVthèques, et utilisez le réseau de vos collaborateurs grâce à la cooptation.",
    "quote_check": "ok"
   }
  ]

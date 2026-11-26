@@ -38,7 +38,14 @@
   "ats"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "easycruit",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods;languages",
+  "note": "Homepage read with HTTP 200; it links no pricing, API or partner pages.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

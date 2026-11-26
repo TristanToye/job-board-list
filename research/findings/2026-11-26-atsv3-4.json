@@ -1,0 +1,231 @@
+{
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Manatal",
+   "url": "https://www.manatal.com",
+   "primary_language": null,
+   "languages_supported": [],
+   "business_model": "subscription",
+   "api_status": "on-request",
+   "api_docs_url": "https://developers.manatal.com/",
+   "partner_program": null,
+   "partner_url": null,
+   "ingest_methods": [
+    "job board posting"
+   ],
+   "notes": "Per-user monthly plans with a 14-day free trial. API endpoints need a token from support. Integrations directory lists job boards and tools. Affiliate program is a referral scheme and is not counted as a partner program. Office listed as Manatal Singapore without a headquarters label.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.manatal.com/pricing",
+     "title": "Pricing and plans",
+     "quote": "Professional Plan For individuals & small teams $15/per user per month",
+     "check": "ok"
+    },
+    {
+     "field": "api_status",
+     "url": "https://developers.manatal.com/",
+     "title": "Manatal API documentation",
+     "quote": "To target those endpoints you need to obtain a token from our support team.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.manatal.com/",
+     "title": "Homepage job board section",
+     "quote": "2,500+ job boards: Global, local and specialized organic and premium platforms integrated natively.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Gupy",
+   "url": "https://www.gupy.io/",
+   "primary_language": "pt",
+   "business_model": "subscription",
+   "partner_program": "yes",
+   "partner_url": "https://info.gupy.io/programa-de-parcerias",
+   "notes": "Brazilian recruiting and HR platform. Pricing page lists plans without prices. Partnership page invites partners and the integrations hub lists certified partner tools. No developer or API page was linked from the header or footer, so no api_status is recorded. Headquarters and parent company are not stated.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.gupy.io/precos",
+     "title": "Planos e precos",
+     "quote": "Não, nossas soluções estão agrupadas em planos que variam de acordo com as necessidades e o contexto de cada empresa.",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://info.gupy.io/programa-de-parcerias",
+     "title": "Programa de parcerias",
+     "quote": "Amplie seu Impacto e aumente seus resultados! Seja um parceiro Gupy.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Paradox",
+   "url": "https://www.paradox.ai",
+   "api_docs_url": "https://paradox.readme.io/",
+   "partner_program": null,
+   "partner_url": null,
+   "ingest_methods": [],
+   "notes": "Partners and integrations page links to the developer hub. Developer hub documents an OAuth 2.0 token flow but no page states how to obtain access. No pricing, language options or headquarters found on the site.",
+   "sources": []
+  },
+  {
+   "name": "Fountain",
+   "url": "https://www.fountain.com",
+   "api_status": "public-key",
+   "api_docs_url": "https://developer.fountain.com",
+   "partner_program": null,
+   "partner_url": null,
+   "ingest_methods": [],
+   "notes": "Partner page lists HR tech vendors and integrations. Developer docs say keys are created in the user profile or in integration settings. Pricing, headquarters, parent company and languages are not stated on the pages read.",
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "https://developer.fountain.com",
+     "title": "Fountain API documentation, get started",
+     "quote": "Personal key: Open your Profile > Manage API Keys.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Trakstar Hire",
+   "url": "https://www.trakstar.com",
+   "ingest_methods": [
+    "job board posting"
+   ],
+   "notes": "Hiring product posts job descriptions to job boards. Pricing page asks for a quote and shows no prices. Header, footer and integrations pages mention no API, developer docs or partner program. Address on the about page is under a Contact Us label, not a headquarters label.",
+   "sources": [
+    {
+     "field": "ingest_methods",
+     "url": "https://www.trakstar.com/solutions/hr-hiring-software/",
+     "title": "Trakstar Hire job posting",
+     "quote": "Create job descriptions and automatically post them to the top job boards.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Concludis",
+   "url": "https://www.concludis.de/",
+   "primary_language": null,
+   "ingest_methods": [],
+   "notes": "Concludis is a product of Perbility GmbH according to the copyright line on its page. Perbility states Bamberg as headquarters without a country beside the address; its site says Made and Hosted in Germany in a separate line, so hq_country is not recorded. No pricing, API access method or partner program stated.",
+   "sources": [],
+   "languages_supported": []
+  },
+  {
+   "name": "Occy",
+   "url": "https://occy.com/",
+   "hq_country": null,
+   "ingest_methods": [],
+   "notes": "UK based applicant tracking system for internal hiring teams. Headquarters block on the contact page gives a Milton Keynes address and the page calls the company UK based. Integrations page says hundreds more are available on request. No pricing, API, language options or partner program found.",
+   "sources": []
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Manatal",
+   "url": "https://www.manatal.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent"
+   ],
+   "method": "browser",
+   "note": "Homepage, pricing, integrations, about, affiliate and developer pages read; /api returned 404; the about page lists an office without a headquarters label."
+  },
+  {
+   "name": "Gupy",
+   "url": "https://www.gupy.io/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "api_status",
+    "ingest_methods"
+   ],
+   "method": "mixed",
+   "note": "Homepage, pricing, about, partnership and integrations hub read; no developer or API page linked and no headquarters stated."
+  },
+  {
+   "name": "Paradox",
+   "url": "https://www.paradox.ai",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "method": "mixed",
+   "note": "Homepage, partners page, footer and developer hub read; no page states how to obtain API access, and no pricing or headquarters stated."
+  },
+  {
+   "name": "Fountain",
+   "url": "https://www.fountain.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model"
+   ],
+   "method": "mixed",
+   "note": "Homepage, integrations, footer, about and developer hub read; developer hub states key creation; no pricing, headquarters or language options stated."
+  },
+  {
+   "name": "Trakstar Hire",
+   "url": "https://www.trakstar.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "mixed",
+   "note": "Homepage, pricing, about, integrations, hire product page and footer read; pricing is quote-only and no API or partner program is mentioned."
+  },
+  {
+   "name": "Concludis",
+   "url": "https://www.concludis.de/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Product homepage read; owner Perbility pages read for headquarters and interfaces, with no country named beside the headquarters label."
+  },
+  {
+   "name": "Occy",
+   "url": "https://occy.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "parent",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Homepage, integrations, FAQ and contact pages read; headquarters found on the contact page; no pricing, API or partner program stated."
+  }
+ ],
+ "blocked": []
+}

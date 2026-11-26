@@ -22,7 +22,7 @@
  "partner_program": "yes",
  "partner_url": "https://www.avionte.com/integrations/",
  "ingest_methods": [],
- "notes": "Site says: \"Avionté’s Open API offers a proven means of customizing and expanding your ATS and CRM.\"",
+ "notes": "Site says: \"Avionté’s Open API offers a proven means of customizing and expanding your ATS and CRM.\" Integrations page describes the Avionte+ program for third-party integrations. Home, about and integrations pages state no pricing, parent or language options.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/avionte/",
  "indexable": false,
@@ -39,7 +39,14 @@
   "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "avionte",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;ingest_methods",
+  "note": "Home, about and integrations pages were read; partner program confirmed and no pricing, parent or language options stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

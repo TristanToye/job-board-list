@@ -73,22 +73,22 @@
 - [softgarden](https://jobboardlist.com/boards/softgarden/): ats, Established tier
 - [Codeable](https://jobboardlist.com/boards/codeable/): freelance-platform, Established tier
 - [Radancy](https://jobboardlist.com/boards/radancy/): programmatic-distribution, Established tier
-- [Fountain](https://jobboardlist.com/boards/fountain/): ats, Established tier
+- [Fountain](https://jobboardlist.com/boards/fountain/): ats, Established tier, Self-serve API key
 - [Jobylon](https://jobboardlist.com/boards/jobylon/): ats, Established tier
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform, Established tier
 - [JobAdder](https://jobboardlist.com/boards/jobadder/): ats, Established tier
 - [Codility](https://jobboardlist.com/boards/codility/): hr-tech, Established tier, API key on request
 - [Revelio Labs](https://jobboardlist.com/boards/revelio-labs/): lmi, Established tier
 - [Careerminds](https://jobboardlist.com/boards/careerminds/): outplacement, Established tier
-- [Manatal](https://jobboardlist.com/boards/manatal/): ats, Established tier
+- [Manatal](https://jobboardlist.com/boards/manatal/): ats, Established tier, API key on request
 - [First Advantage](https://jobboardlist.com/boards/first-advantage/): hr-tech, Established tier
-- [Taleez](https://jobboardlist.com/boards/taleez/): ats, Established tier
+- [Taleez](https://jobboardlist.com/boards/taleez/): ats, Established tier, Self-serve API key
 - [Michael Page](https://jobboardlist.com/boards/michael-page/): recruiting-services, Established tier
 - [Hiring Room](https://jobboardlist.com/boards/hiring-room/): ats, Established tier
 - [Gi Group Holding](https://jobboardlist.com/boards/gi-group-holding/): staffing, Established tier
 - [Bizneo HR](https://jobboardlist.com/boards/bizneo-hr/): ats, Small tier
 - [Criteria](https://jobboardlist.com/boards/criteria/): hr-tech, Small tier
-- [Flatchr](https://jobboardlist.com/boards/flatchr/): ats, Small tier
+- [Flatchr](https://jobboardlist.com/boards/flatchr/): ats, Small tier, Self-serve API key
 - [Braintrust](https://jobboardlist.com/boards/braintrust/): freelance-platform, Small tier
 - [freelancermap](https://jobboardlist.com/boards/freelancermap/): freelance-platform, Small tier, API key on request
 - [Loxo](https://jobboardlist.com/boards/loxo/): ats, Small tier
@@ -103,7 +103,7 @@
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech, Small tier
 - [Jobsoid](https://jobboardlist.com/boards/jobsoid/): ats, Small tier
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, Small tier, API key on request
-- [Kula](https://jobboardlist.com/boards/kula/): ats, Small tier
+- [Kula](https://jobboardlist.com/boards/kula/): ats, Small tier, Self-serve API key
 - [freelance.de](https://jobboardlist.com/boards/freelance-de/): freelance-platform, Small tier
 - [Allegis Group](https://jobboardlist.com/boards/allegis-group/): staffing, Small tier
 - [Hirebridge](https://jobboardlist.com/boards/hirebridge/): ats, Small tier

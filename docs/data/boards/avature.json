@@ -38,7 +38,14 @@
   "ats"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "avature",
+  "reviewed": "2026-11-26",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;parent;partner_program;ingest_methods",
+  "note": "Homepage read in both fetch and browser reader; no pricing, headquarters or access route stated, and language options are not in the page text.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

@@ -16,16 +16,18 @@
  "niche": "staffing and recruiting ATS/CRM (formerly Big Biller)",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "partner_program": "yes",
+ "partner_url": "https://topechelon.com/marketplace/",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Pricing page lists Standard and Professional subscription plans with month-to-month and annual billing. Professional plan includes API access per the pricing page. Integrations marketplace lists job board integrations.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/te-recruit-top-echelon/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not comparable",
@@ -35,10 +37,19 @@
   "list_date": "2026-11-23"
  },
  "tags": [
-  "ats"
+  "ats",
+  "partner-program",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "te-recruit-top-echelon",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status",
+  "note": "Pricing, marketplace and about pages were read; subscription pricing and job board integrations are stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -48,6 +59,30 @@
    "title": "Top Echelon about page",
    "accessed": "2026-11-23",
    "quote": "Its flagship product, TE Recruit™ (formerly known as Big Biller), is a modern ATS/CRM designed to streamline recruitment processes.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://topechelon.com/pricing/",
+   "title": "Pricing",
+   "accessed": "2026-11-26",
+   "quote": "TE Recruit offers two different subscription plans to its users: the Standard plan and the Professional plan.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://topechelon.com/marketplace/",
+   "title": "Integrations marketplace",
+   "accessed": "2026-11-26",
+   "quote": "See how TE Recruit ATS + CRM and our Integrations work together to grow your business.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://topechelon.com/marketplace/",
+   "title": "Integrations marketplace",
+   "accessed": "2026-11-26",
+   "quote": "TE Recruit™ integrates with Careerjet, allowing recruiters to post jobs on one of the world's most expansive job platforms",
    "quote_check": "ok"
   }
  ]

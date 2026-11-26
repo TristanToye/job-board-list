@@ -1,6 +1,6 @@
 # HR and recruiting technology
 
-Software for sourcing 18 entries in the directory.
+Software for sourcing 19 entries in the directory.
 
 - [Eightfold AI](https://jobboardlist.com/boards/eightfold-ai/): hr-tech
 - [HireVue](https://jobboardlist.com/boards/hirevue/): hr-tech
@@ -15,6 +15,7 @@ Software for sourcing 18 entries in the directory.
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 - [OutSolve](https://jobboardlist.com/boards/outsolve/): hr-tech
+- [Career Team](https://jobboardlist.com/boards/career-team/): hr-tech
 - [DCI Consulting](https://jobboardlist.com/boards/dci-consulting/): hr-tech
 - [DoSelect](https://jobboardlist.com/boards/doselect/): hr-tech
 - [Job Ready (ReadyTech)](https://jobboardlist.com/boards/job-ready-readytech/): hr-tech

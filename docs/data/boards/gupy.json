@@ -16,18 +16,18 @@
  "niche": "AI recruitment and selection software (Portuguese-language)",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://info.gupy.io/programa-de-parcerias",
  "ingest_methods": [
   "job board posting"
  ],
- "notes": "Site says: \"dados de diversidade e acesso a API pública\"",
+ "notes": "Site says: \"dados de diversidade e acesso a API pública\" Brazilian recruiting and HR platform. Pricing page lists plans without prices. Partnership page invites partners and the integrations hub lists certified partner tools. No developer or API page was linked from the header or footer, so no api_status is recorded. Headquarters and parent company are no",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/gupy/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -38,10 +38,19 @@
  },
  "tags": [
   "ats",
+  "partner-program",
+  "subscription",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "gupy",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;api_status;ingest_methods",
+  "note": "Homepage, pricing, about, partnership and integrations hub read; no developer or API page linked and no headquarters stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -67,6 +76,22 @@
    "title": "Software de Recrutamento e Seleção com IA | Gupy ATS",
    "accessed": "2026-11-23",
    "quote": "dados de diversidade e acesso a API pública",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.gupy.io/precos",
+   "title": "Planos e precos",
+   "accessed": "2026-11-26",
+   "quote": "Não, nossas soluções estão agrupadas em planos que variam de acordo com as necessidades e o contexto de cada empresa.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://info.gupy.io/programa-de-parcerias",
+   "title": "Programa de parcerias",
+   "accessed": "2026-11-26",
+   "quote": "Amplie seu Impacto e aumente seus resultados! Seja um parceiro Gupy.",
    "quote_check": "ok"
   }
  ]

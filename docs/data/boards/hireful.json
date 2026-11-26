@@ -4,7 +4,7 @@
  "url": "https://www.hireful.com/",
  "domains": "",
  "type": "ats",
- "hq_country": "",
+ "hq_country": "UK",
  "founded": "",
  "markets": "",
  "countries_served": [
@@ -16,18 +16,18 @@
  "niche": "applicant tracking for UK SMEs and in-house recruiters",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.hireful.com/partners/software-partners",
  "ingest_methods": [
   "job board posting"
  ],
- "notes": "Site says: \"Our smarty pants techies have built an API solution into our product, so integrating is easy as pie.\" Site says: \"Your hireful ATS integrates with just about anything, leaving you free to connect to your favourite HR tech.\"",
+ "notes": "Site says: \"Our smarty pants techies have built an API solution into our product, so integrating is easy as pie.\" Site says: \"Your hireful ATS integrates with just about anything, leaving you free to connect to your favourite HR tech.\" Terms state the registered address in England, and the company is registered in England and Wales. Pricing is an annual fee per recruiter licence, with the ATS starting at GBP 2,450 per year for the Go plan. Software partners page says an API solution is built into the product, without stating how t",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/hireful/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -37,10 +37,19 @@
   "list_date": "2026-11-23"
  },
  "tags": [
-  "ats"
+  "ats",
+  "partner-program",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "hireful",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "languages;parent;api_status;ingest_methods",
+  "note": "Homepage, pricing, software partners, about and terms pages were read; registered address, pricing and partner program are stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -90,6 +99,30 @@
    "title": "hireful marketplace",
    "accessed": "2026-11-23",
    "quote": "Your hireful ATS integrates with just about anything, leaving you free to connect to your favourite HR tech.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "existence",
+   "url": "https://www.hireful.com/legal/terms-all-services",
+   "title": "Terms and conditions",
+   "accessed": "2026-11-26",
+   "quote": "a company registered in England and Wales (company number 03825406) whose registered address is 15-17 Strixton Manor Business Centre, Strixton, Wellingborough, England, NN29 7PA",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.hireful.com/pricing",
+   "title": "ATS pricing",
+   "accessed": "2026-11-26",
+   "quote": "hireful ATS starts at £2,450 pa for a 1 user system (Go Plan).",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://www.hireful.com/partners/software-partners",
+   "title": "Recruitment Software Partners",
+   "accessed": "2026-11-26",
+   "quote": "Integrating is a great way to introduce your product to a new audience, with the approval of a brand that they already trust.",
    "quote_check": "ok"
   }
  ]

@@ -17,17 +17,18 @@
  "segment": "",
  "parent": "",
  "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
+ "api_status": "public-key",
+ "api_docs_url": "https://api.taleez.com/",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [
-  "job board posting"
+  "job board posting",
+  "multiposting"
  ],
- "notes": "Site says: \"Parce qu’un tarif Taleez dépend de la taille de votre organisation, de vos volumes de recrutement et des modules dont vous avez besoin.\" Site says: \"Taleez met à disposition une API REST documentée (spécification OpenAPI) et des webhooks\" Site says: \"Taleez s'intègre à plus de 90 jobboards et sites emploi.\"",
+ "notes": "Site says: \"Parce qu’un tarif Taleez dépend de la taille de votre organisation, de vos volumes de recrutement et des modules dont vous avez besoin.\" Site says: \"Taleez met à disposition une API REST documentée (spécification OpenAPI) et des webhooks\" Site says: \"Taleez s'intègre à plus de 90 jobboards et sites emploi.\" Integrations page states the REST API and webhooks are available on all plans, with keys created in account settings. Taleez says it is connected to more than 90 job boards.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/taleez/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -37,6 +38,7 @@
   "list_date": "2026-11-23"
  },
  "tags": [
+  "api-self-serve",
   "ats"
  ],
  "connections": [
@@ -68,7 +70,14 @@
    "quote": "Des généralistes comme France Travail, Indeed ou HelloWork aux plateformes spécialisées par secteur"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "taleez",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;partner_program",
+  "note": "Home, integrations and jobboards pages were read; API key access and French-language site confirmed.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -134,6 +143,14 @@
    "title": "Taleez jobboards",
    "accessed": "2026-11-23",
    "quote": "Taleez s'intègre à plus de 90 jobboards et sites emploi.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://taleez.com/integrations",
+   "title": "Integrations and API",
+   "accessed": "2026-11-26",
+   "quote": "Pour la diffusion de vos offres, Taleez est aussi relié à plus de 90 jobboards.",
    "quote_check": "ok"
   }
  ]

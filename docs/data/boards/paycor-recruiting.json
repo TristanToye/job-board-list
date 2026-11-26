@@ -24,7 +24,7 @@
  "ingest_methods": [
   "job board posting"
  ],
- "notes": "",
+ "notes": "Homepage describes posting generated job descriptions to job boards and a tech partners integration section. Plans and pricing page was not read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/paycor-recruiting/",
  "indexable": false,
@@ -40,7 +40,14 @@
   "ats"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "paycor-recruiting",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;parent",
+  "note": "Homepage and partners pages read; partner program and job board posting confirmed.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -57,6 +64,14 @@
    "url": "https://www.paycor.com/",
    "title": "Paycor home",
    "accessed": "2026-11-23",
+   "quote": "Generate job descriptions and instantly post to job boards.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.paycor.com",
+   "title": "Homepage",
+   "accessed": "2026-11-26",
    "quote": "Generate job descriptions and instantly post to job boards.",
    "quote_check": "ok"
   }

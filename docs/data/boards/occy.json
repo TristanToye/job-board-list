@@ -40,7 +40,14 @@
   "ats"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "occy",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "parent;languages;business_model;api_status;partner_program",
+  "note": "Homepage, integrations, FAQ and contact pages read; headquarters found on the contact page; no pricing, API or partner program stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

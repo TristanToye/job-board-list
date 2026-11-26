@@ -16,16 +16,16 @@
  "niche": "HR software with AI, including recruitment (Spanish-language)",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "yes",
  "partner_url": "https://www.bizneo.com/partners/",
  "ingest_methods": [],
- "notes": "Site says: \"Planes y Precios de herramientas para RR. HH. de Bizneo HR\"",
+ "notes": "Site says: \"Planes y Precios de herramientas para RR. HH. de Bizneo HR\" Pricing page lists plans from 6 euro. Partners page mentions documented APIs but does not say how to get access. Homepage shows Spanish site with a language selector showing ES.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/bizneo-hr/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -37,10 +37,18 @@
  "tags": [
   "ats",
   "partner-program",
+  "subscription",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "bizneo-hr",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;parent;ingest_methods",
+  "note": "Homepage, pricing and partners pages read; plans and partner program confirmed, API mentioned without access route.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -66,6 +74,14 @@
    "title": "Planes y Precios de herramientas para RR. HH. de Bizneo HR",
    "accessed": "2026-11-23",
    "quote": "Planes y Precios de herramientas para RR. HH. de Bizneo HR",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.bizneo.com/pricing/",
+   "title": "Planes y precios",
+   "accessed": "2026-11-26",
+   "quote": "Planes desde 6 € a la medida de tu equipo",
    "quote_check": "ok"
   }
  ]

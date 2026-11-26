@@ -60,7 +60,14 @@
    "quote": "Bewerbungsmanagement, inkl. gratis Multiposting und kostenlose Jobbörsen finest-jobs.com, Bundesagentur, usw."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "rexx-systems",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage, company and contact pages read with HTTP 200; headquarters address lacks a stated country.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

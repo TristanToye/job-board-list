@@ -10,8 +10,11 @@
  "countries_served": [
   "ZZ"
  ],
- "primary_language": "",
- "languages_supported": [],
+ "primary_language": "en",
+ "languages_supported": [
+  "en",
+  "ar"
+ ],
  "region": "Global",
  "niche": "recruitment software and branded job boards for the Middle East",
  "segment": "",
@@ -24,7 +27,7 @@
  "ingest_methods": [
   "job board posting"
  ],
- "notes": "",
+ "notes": "Homepage offers English and Arabic (switcher shows the Arabic option). Pricing page lists plans but shows no prices. No API or partner program found on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/talentera/",
  "indexable": false,
@@ -51,7 +54,14 @@
    "quote": "CV Import from Bayt"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "talentera",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program",
+  "note": "Homepage, pricing and job board pages read with HTTP 200; plans listed without prices.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -69,6 +79,22 @@
    "title": "Pricing - Talentera",
    "accessed": "2026-11-23",
    "quote": "Advertise on Paid / Free Job Boards",
+   "quote_check": "ok"
+  },
+  {
+   "field": "languages",
+   "url": "https://www.talentera.com/en/",
+   "title": "Homepage language support",
+   "accessed": "2026-11-26",
+   "quote": "Talentera supports English and Arabic with local teams in your time zone, addressing cultural needs and real-time challenges.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.talentera.com/en/job-board/",
+   "title": "Job board product page",
+   "accessed": "2026-11-26",
+   "quote": "Talentera JobSite comes with integrations to job sites built-in",
    "quote_check": "ok"
   }
  ]

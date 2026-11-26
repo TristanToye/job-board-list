@@ -1,6 +1,6 @@
 # Public sector
 
-Government 63 entries in the directory.
+Government 64 entries in the directory.
 
 - [USAJOBS](https://jobboardlist.com/boards/usajobs/): government, Self-serve API key
 - [GovernmentJobs.com](https://jobboardlist.com/boards/governmentjobs-com/): government
@@ -47,6 +47,7 @@ Government 63 entries in the directory.
 - [Sistema de Información del Servicio de Empleo (SPE)](https://jobboardlist.com/boards/sistema-de-informaci-n-del-servicio-de-empleo-spe/): government
 - [Sistema Nacional de Emprego (SINE)](https://jobboardlist.com/boards/sistema-nacional-de-emprego-sine/): government
 - [JobTech (Arbetsformedlingen)](https://jobboardlist.com/boards/arbetsformedlingen/): government, Open API (no key)
+- [Career Team](https://jobboardlist.com/boards/career-team/): hr-tech
 - [CivicJobs.ca](https://jobboardlist.com/boards/civicjobs/): board
 - [ConvocatoriasDeTrabajo](https://jobboardlist.com/boards/convocatoriasdetrabajo/): aggregator
 - [DOI Jobs](https://jobboardlist.com/boards/doi-jobs/): board

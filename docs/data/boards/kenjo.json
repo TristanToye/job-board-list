@@ -16,13 +16,15 @@
  "niche": "HR software with applicant tracking for SMEs",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
- "ingest_methods": [],
- "notes": "",
+ "ingest_methods": [
+  "job board posting"
+ ],
+ "notes": "Workforce management software with per-employee monthly pricing (6.0 and 10.0 euros shown). Recruiting module includes a native integration to post jobs to 100+ job boards. Open API is offered to software partners.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/kenjo/",
  "indexable": false,
@@ -36,10 +38,18 @@
  },
  "tags": [
   "ats",
+  "subscription",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "kenjo",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent",
+  "note": "Home, pricing, partner, and contact pages read; office addresses are not labelled as headquarters.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -49,6 +59,22 @@
    "title": "Kenjo homepage",
    "accessed": "2026-11-23",
    "quote": "Hire candidates faster thanks to automated email templates and collaborative applicant tracking",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.kenjo.io/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-26",
+   "quote": "All prices are per employee per month.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "ingest_methods",
+   "url": "https://www.kenjo.io/pricing",
+   "title": "Pricing",
+   "accessed": "2026-11-26",
+   "quote": "All features of Kenjo's recruiting module + a native integration that can help you post jobs and hire from 100+ job boards.",
    "quote_check": "ok"
   }
  ]

@@ -19,15 +19,15 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.oleeo.com/partner/",
  "ingest_methods": [
   "job board posting"
  ],
- "notes": "Site says: \"Oleeo partners with incredible platforms across the globe to help you recruit faster and smarter!\"",
+ "notes": "Site says: \"Oleeo partners with incredible platforms across the globe to help you recruit faster and smarter!\" Contact page shows separate UK Headquarters and US Headquarters labels, so no single headquarters country is recorded. Partner Ecosystem page invites platforms to partner.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/oleeo/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -37,10 +37,18 @@
   "list_date": "2026-11-23"
  },
  "tags": [
-  "ats"
+  "ats",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "oleeo",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;parent;ingest_methods",
+  "note": "Home, about, partner ecosystem and contact pages read; contact page lists UK and US headquarters labels with no single country.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

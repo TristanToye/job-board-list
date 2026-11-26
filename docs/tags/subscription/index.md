@@ -1,6 +1,6 @@
 # Subscription
 
-Employers pay a recurring fee or plan. 108 entries in the directory.
+Employers pay a recurring fee or plan. 118 entries in the directory.
 
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
 - [51job](https://jobboardlist.com/boards/51job/): board, No known API
@@ -22,6 +22,7 @@ Employers pay a recurring fee or plan. 108 entries in the directory.
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
+- [Gupy](https://jobboardlist.com/boards/gupy/): ats
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
 - [Naukri](https://jobboardlist.com/boards/naukri/): board, Partner-only API
 - [InfoJobs](https://jobboardlist.com/boards/infojobs/): board, Partner-only API
@@ -53,17 +54,21 @@ Employers pay a recurring fee or plan. 108 entries in the directory.
 - [Jobindex](https://jobboardlist.com/boards/jobindex/): board, Partner-only API
 - [Lemon.io](https://jobboardlist.com/boards/lemon-io/): freelance-platform
 - [Codility](https://jobboardlist.com/boards/codility/): hr-tech, API key on request
-- [Manatal](https://jobboardlist.com/boards/manatal/): ats
+- [Manatal](https://jobboardlist.com/boards/manatal/): ats, API key on request
 - [OCC Mundial](https://jobboardlist.com/boards/occ-mundial/): board
+- [Bizneo HR](https://jobboardlist.com/boards/bizneo-hr/): ats
 - [Jobillico](https://jobboardlist.com/boards/jobillico/): board, Partner-only API
 - [Loxo](https://jobboardlist.com/boards/loxo/): ats
 - [foundit](https://jobboardlist.com/boards/foundit/): board
+- [Kenjo](https://jobboardlist.com/boards/kenjo/): ats
 - [PNet](https://jobboardlist.com/boards/pnet/): board
 - [Crelate](https://jobboardlist.com/boards/crelate/): ats
 - [Wanted](https://jobboardlist.com/boards/wanted/): board
 - [Jobberman](https://jobboardlist.com/boards/jobberman/): board
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech
 - [Aplikuj.pl](https://jobboardlist.com/boards/aplikuj-pl/): board
+- [Jobsoid](https://jobboardlist.com/boards/jobsoid/): ats
+- [Kula](https://jobboardlist.com/boards/kula/): ats, Self-serve API key
 - [Kalibrr](https://jobboardlist.com/boards/kalibrr/): board
 - [kimeta](https://jobboardlist.com/boards/kimeta/): aggregator
 - [Tracker](https://jobboardlist.com/boards/tracker/): ats
@@ -71,16 +76,11 @@ Employers pay a recurring fee or plan. 108 entries in the directory.
 - [Landing.jobs](https://jobboardlist.com/boards/landing-jobs/): niche-board
 - [Firefish](https://jobboardlist.com/boards/firefish/): ats
 - [Gradireland](https://jobboardlist.com/boards/gradireland/): niche-board
+- [Tribepad](https://jobboardlist.com/boards/tribepad/): ats
 - [Student.be](https://jobboardlist.com/boards/student-be/): niche-board
 - [BrighterMonday](https://jobboardlist.com/boards/brightermonday/): board
 - [Broadbean](https://jobboardlist.com/boards/broadbean/): multiposting, Partner-only API
 - [Cutshort](https://jobboardlist.com/boards/cutshort/): niche-board, API key on request
 - [ApplyToEducation](https://jobboardlist.com/boards/applytoeducation/): board
-- [RecruitBPM](https://jobboardlist.com/boards/recruitbpm/): ats
-- [VONQ](https://jobboardlist.com/boards/vonq/): programmatic-distribution
-- [Moka ATS (MokaHR)](https://jobboardlist.com/boards/moka-ats-mokahr/): ats
-- [Jobs.ca](https://jobboardlist.com/boards/jobs-ca/): board, No known API
-- [Bumeran](https://jobboardlist.com/boards/bumeran/): board
-- [JobMail](https://jobboardlist.com/boards/jobmail/): board
 
 Canonical page: https://jobboardlist.com/tags/subscription/

@@ -19,13 +19,13 @@
  "business_model": "subscription, prices published",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://www.homerun.co/partner-program",
  "ingest_methods": [],
- "notes": "Site says: \"Enhance your Homerun experience with a wide variety of add-ons and integrations.\" Site says: \"The Homerun Partnership Program is designed to create mutually beneficial relationships with Partners\"",
+ "notes": "Site says: \"Enhance your Homerun experience with a wide variety of add-ons and integrations.\" Site says: \"The Homerun Partnership Program is designed to create mutually beneficial relationships with Partners\" Homepage states a starting price per month. Partner program offers reseller and referral partnerships. Integrations page lists job board integrations such as Indeed and LinkedIn.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/homerun/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -36,6 +36,7 @@
  },
  "tags": [
   "ats",
+  "partner-program",
   "subscription"
  ],
  "connections": [
@@ -58,7 +59,14 @@
    "quote": "Google for Jobs"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "homerun",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;api_status;parent;ingest_methods",
+  "note": "Homepage, partner program and integrations pages read; pricing and partner program confirmed.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -108,6 +116,14 @@
    "title": "Homerun partnership program",
    "accessed": "2026-11-23",
    "quote": "The Homerun Partnership Program is designed to create mutually beneficial relationships with Partners",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.homerun.co",
+   "title": "Homepage",
+   "accessed": "2026-11-26",
+   "quote": "Hire and manage your team starting from € 109 per month.",
    "quote_check": "ok"
   }
  ]

@@ -59,7 +59,14 @@
    "quote": "Supercharge every Indeed application."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "paradox",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status",
+  "note": "Homepage, partners page, footer and developer hub read; no page states how to obtain API access, and no pricing or headquarters stated.",
+  "method": "mixed"
+ },
  "owners": [],
  "scale": [],
  "sources": [

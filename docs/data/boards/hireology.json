@@ -24,7 +24,7 @@
  "ingest_methods": [
   "job board posting"
  ],
- "notes": "Site says: \"Hireology and BambooHR sync new hires for seamless recruiting and HR management.\" Site says: \"Indeed and Hireology sync jobs and applicants for faster, centralized recruiting.\"",
+ "notes": "Site says: \"Hireology and BambooHR sync new hires for seamless recruiting and HR management.\" Site says: \"Indeed and Hireology sync jobs and applicants for faster, centralized recruiting.\" Integrations page lists job board syncs such as Indeed. Packages page says pricing is by contacting sales. No API, partner program or headquarters stated on the pages read.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/hireology/",
  "indexable": false,
@@ -50,7 +50,14 @@
    "quote": "Indeed and Hireology sync jobs and applicants for faster, centralized recruiting."
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "hireology",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;languages",
+  "note": "Homepage, integrations, packages and about pages read with HTTP 200; pricing is by sales contact only.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

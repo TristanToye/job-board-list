@@ -17,17 +17,17 @@
  "segment": "",
  "parent": "",
  "business_model": "subscription, prices published",
- "api_status": "unknown",
- "api_docs_url": "",
+ "api_status": "on-request",
+ "api_docs_url": "https://developers.manatal.com/",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [
   "job board posting"
  ],
- "notes": "Site says: \"Share your job openings on 2,500+ organic and premium channels, including local, global, and specialized job platforms such as Indeed, LinkedIn, Monster, ZipRecruiter\" Site says: \"Transparent and flexible pricing without lock-in contract\" Site says: \"The Manatal API allows for building custom workflows better suited to your needs.\" Site says: \"Manatal ATS Integrations Directory\" Site says: \"Integrate Manatal to your existing HR tech stack via Manatal OpenAPI.\" Site says: \"Connect Manatal to 3,000+ apps via Zapier and n8n integrations.\"",
+ "notes": "Site says: \"Share your job openings on 2,500+ organic and premium channels, including local, global, and specialized job platforms such as Indeed, LinkedIn, Monster, ZipRecruiter\" Site says: \"Transparent and flexible pricing without lock-in contract\" Site says: \"The Manatal API allows for building custom workflows better suited to your needs.\" Site says: \"Manatal ATS Integrations Directory\" Site says: \"Integrate Manatal to your existing HR tech stack via Manatal OpenAPI.\" Site says: \"Connect Manatal to 3,000+ apps via Zapier and n8n integrations.\" Per-user monthly plans with a 14-day free trial. API endpoints need a token from support. Integrations directory lists job boards and tools. Affiliate program is a referral scheme and is not counted as a partner program. Office listed as Manatal ",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/manatal/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Established",
   "label": "Established",
@@ -37,6 +37,7 @@
   "list_date": "2026-11-23"
  },
  "tags": [
+  "api-on-request",
   "ats",
   "subscription"
  ],
@@ -141,7 +142,14 @@
    "quote": "such as Indeed, LinkedIn, Monster, ZipRecruiter, SEEK, JobsDB, Jobstreet, Naukri, CV-Library, PNet"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "manatal",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent",
+  "note": "Homepage, pricing, integrations, about, affiliate and developer pages read; /api returned 404; the about page lists an office without a headquarters label.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -247,6 +255,22 @@
    "title": "Manatal home",
    "accessed": "2026-11-23",
    "quote": "Our 14-day free trial allows anyone to explore the platform without commitment",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.manatal.com/pricing",
+   "title": "Pricing and plans",
+   "accessed": "2026-11-26",
+   "quote": "Professional Plan For individuals & small teams $15/per user per month",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://developers.manatal.com/",
+   "title": "Manatal API documentation",
+   "accessed": "2026-11-26",
+   "quote": "To target those endpoints you need to obtain a token from our support team.",
    "quote_check": "ok"
   }
  ]

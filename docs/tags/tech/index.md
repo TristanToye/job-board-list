@@ -1,6 +1,6 @@
 # Technology
 
-Software 62 entries in the directory.
+Software 63 entries in the directory.
 
 - [Toptal](https://jobboardlist.com/boards/toptal/): freelance-platform
 - [The Adecco Group](https://jobboardlist.com/boards/the-adecco-group/): staffing
@@ -44,6 +44,7 @@ Software 62 entries in the directory.
 - [STARTUPLAB Jobs](https://jobboardlist.com/boards/startuplab-jobs/): niche-board
 - [Talentera](https://jobboardlist.com/boards/talentera/): ats
 - [Teamio](https://jobboardlist.com/boards/teamio/): multiposting
+- [Career Team](https://jobboardlist.com/boards/career-team/): hr-tech
 - [Clockwork Recruiting](https://jobboardlist.com/boards/clockwork-recruiting/): ats
 - [Engineering.jobs (Belgium)](https://jobboardlist.com/boards/engineering-jobs-belgium/): niche-board
 - [Expr3ss!](https://jobboardlist.com/boards/expr3ss/): ats

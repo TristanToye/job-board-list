@@ -38,7 +38,14 @@
   "ats"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "hr-on",
+  "reviewed": "2026-11-26",
+  "outcome": "blocked",
+  "fields_not_found": "",
+  "note": "Homepage read; integrations page returned 404 with the browser reader flagged blocked and was not retried.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

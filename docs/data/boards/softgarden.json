@@ -41,7 +41,14 @@
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "softgarden",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;partner_program;ingest_methods",
+  "note": "Homepage was read; German-language site confirmed and no pricing, parent or headquarters stated on it.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

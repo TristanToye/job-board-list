@@ -16,16 +16,16 @@
  "niche": "recruitment and HR platform with ATS (Nordics and Europe)",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "quote-based",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://content.talentech.com/join-our-partner-network",
  "ingest_methods": [],
- "notes": "Site says: \"Our prices are adjusted to the size of your company and the complexity of the solution you need.\" Site says: \"The developer portal holds comprehensive knowledge on how to use our APIs to extend the functionality\" Site says: \"Integrations that will scale your solution\"",
+ "notes": "Site says: \"Our prices are adjusted to the size of your company and the complexity of the solution you need.\" Site says: \"The developer portal holds comprehensive knowledge on how to use our APIs to extend the functionality\" Site says: \"Integrations that will scale your solution\" Pricing depends on company size and solution, with an offer on request. Developer portal is linked from the homepage on talentech.io and says access is obtained from the account manager or support team. Partner network page and marketplace are linked. About page says offices are in several European ",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/talentech/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,10 +35,18 @@
   "list_date": "2026-11-23"
  },
  "tags": [
-  "ats"
+  "ats",
+  "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "talentech",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;parent",
+  "note": "Homepage, about, pricing, legal, partner network and developer portal were read; API access, pricing and partner program are stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -96,6 +104,14 @@
    "title": "Talentech marketplace",
    "accessed": "2026-11-23",
    "quote": "Integrations that will scale your solution",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://content.talentech.com/join-our-partner-network",
+   "title": "Join our partner network",
+   "accessed": "2026-11-26",
+   "quote": "Our open API and extensive experience with integrations and partners have already benefited many of our partners.",
    "quote_check": "ok"
   }
  ]

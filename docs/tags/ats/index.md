@@ -43,21 +43,21 @@ Software employers use to manage hiring and publish their jobs. 89 entries in th
 - [JazzHR](https://jobboardlist.com/boards/jazzhr/): ats, Self-serve API key
 - [softgarden](https://jobboardlist.com/boards/softgarden/): ats
 - [Phenom](https://jobboardlist.com/boards/phenom/): ats
-- [Fountain](https://jobboardlist.com/boards/fountain/): ats
+- [Fountain](https://jobboardlist.com/boards/fountain/): ats, Self-serve API key
 - [Jobylon](https://jobboardlist.com/boards/jobylon/): ats
 - [JobAdder](https://jobboardlist.com/boards/jobadder/): ats
-- [Manatal](https://jobboardlist.com/boards/manatal/): ats
-- [Taleez](https://jobboardlist.com/boards/taleez/): ats
+- [Manatal](https://jobboardlist.com/boards/manatal/): ats, API key on request
+- [Taleez](https://jobboardlist.com/boards/taleez/): ats, Self-serve API key
 - [Hiring Room](https://jobboardlist.com/boards/hiring-room/): ats
 - [Bizneo HR](https://jobboardlist.com/boards/bizneo-hr/): ats
-- [Flatchr](https://jobboardlist.com/boards/flatchr/): ats
+- [Flatchr](https://jobboardlist.com/boards/flatchr/): ats, Self-serve API key
 - [Loxo](https://jobboardlist.com/boards/loxo/): ats
 - [JobDiva](https://jobboardlist.com/boards/jobdiva/): ats
 - [Kenjo](https://jobboardlist.com/boards/kenjo/): ats
 - [Crelate](https://jobboardlist.com/boards/crelate/): ats
 - [Jobtrain](https://jobboardlist.com/boards/jobtrain/): ats
 - [Jobsoid](https://jobboardlist.com/boards/jobsoid/): ats
-- [Kula](https://jobboardlist.com/boards/kula/): ats
+- [Kula](https://jobboardlist.com/boards/kula/): ats, Self-serve API key
 - [Hirebridge](https://jobboardlist.com/boards/hirebridge/): ats
 - [Tracker](https://jobboardlist.com/boards/tracker/): ats
 - [Concludis](https://jobboardlist.com/boards/concludis/): ats

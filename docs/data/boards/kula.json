@@ -16,16 +16,16 @@
  "niche": "AI-native applicant tracking",
  "segment": "",
  "parent": "",
- "business_model": "",
- "api_status": "unknown",
- "api_docs_url": "",
+ "business_model": "subscription",
+ "api_status": "public-key",
+ "api_docs_url": "https://developers.kula.ai/docs/jobboards-api/kula-job-board-api",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Site says: \"Over 100 integrations to power your hiring workflows\"",
+ "notes": "Site says: \"Over 100 integrations to power your hiring workflows\" Pricing page shows a flat annual price of $4,800/year. Public Job Boards API uses bearer keys, managed under Settings, API Management; key creation steps are not on the pages read. No partner program found.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/kula/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "Small",
   "label": "Small",
@@ -35,10 +35,19 @@
   "list_date": "2026-11-23"
  },
  "tags": [
-  "ats"
+  "api-self-serve",
+  "ats",
+  "subscription"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "kula",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;partner_program",
+  "note": "Homepage, pricing, integrations and developer pages read with HTTP 200; no headquarters or partner program stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -56,6 +65,22 @@
    "title": "Kula integrations",
    "accessed": "2026-11-23",
    "quote": "Over 100 integrations to power your hiring workflows",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://www.kula.ai/pricing",
+   "title": "Pricing page",
+   "accessed": "2026-11-26",
+   "quote": "Pricing shown reflects annual billing (flexible terms available).",
+   "quote_check": "ok"
+  },
+  {
+   "field": "api_status",
+   "url": "https://developers.kula.ai/docs/jobboards-api/kula-job-board-api",
+   "title": "Job Boards API documentation",
+   "accessed": "2026-11-26",
+   "quote": "Grant it under Settings → API Management and retry - no new key is needed.",
    "quote_check": "ok"
   }
  ]

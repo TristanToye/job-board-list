@@ -15871,7 +15871,7 @@
   "partner_program": "yes",
   "partner_url": "https://www.avionte.com/integrations/",
   "ingest_methods": "",
-  "notes": "Site says: \"Avionté’s Open API offers a proven means of customizing and expanding your ATS and CRM.\"",
+  "notes": "Site says: \"Avionté’s Open API offers a proven means of customizing and expanding your ATS and CRM.\" Integrations page describes the Avionte+ program for third-party integrations. Home, about and integrations pages state no pricing, parent or language options.",
   "confidence": "partially-verified"
  },
  {
@@ -15964,14 +15964,14 @@
   "region": "Europe",
   "niche": "UK recruitment agency CRM and ATS (Ikiru People)",
   "segment": "",
-  "parent": "",
+  "parent": "Dillistone Group Plc",
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "job board posting",
-  "notes": "Site says: \"Voyager Infinity integrates the multi-job posting solution LogicMelon.\"",
+  "ingest_methods": "job board posting;multiposting",
+  "notes": "Site says: \"Voyager Infinity integrates the multi-job posting solution LogicMelon.\" Brand of Ikiru People Ltd, a subsidiary of Dillistone Group Plc. Multi-job posting to job boards via Broadbean and LogicMelon integrations. Contact page returned HTTP 502 and was not readable.",
   "confidence": "partially-verified"
  },
  {
@@ -15995,8 +15995,8 @@
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "job board posting;career site",
-  "notes": "Site says: \"Zapier, Make and a full open API\" Site says: \"Expand your reach by integrating with Recruit CRM and tapping into a global network of recruitment professionals.\"",
+  "ingest_methods": "job board posting;career site;XML feed",
+  "notes": "Site says: \"Zapier, Make and a full open API\" Site says: \"Expand your reach by integrating with Recruit CRM and tapping into a global network of recruitment professionals.\" Pricing page lists per-user monthly plans ($95, $135, $215) with account-level credits. Homepage says a full open API exists but the pages read do not say how to obtain access, so api_status is omitted. No headquarters or parent company stated.",
   "confidence": "partially-verified"
  },
  {
@@ -16016,12 +16016,12 @@
   "segment": "",
   "parent": "",
   "business_model": "subscription, prices published",
-  "api_status": "unknown",
-  "api_docs_url": "",
+  "api_status": "on-request",
+  "api_docs_url": "https://developers.manatal.com/",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "job board posting",
-  "notes": "Site says: \"Share your job openings on 2,500+ organic and premium channels, including local, global, and specialized job platforms such as Indeed, LinkedIn, Monster, ZipRecruiter\" Site says: \"Transparent and flexible pricing without lock-in contract\" Site says: \"The Manatal API allows for building custom workflows better suited to your needs.\" Site says: \"Manatal ATS Integrations Directory\" Site says: \"Integrate Manatal to your existing HR tech stack via Manatal OpenAPI.\" Site says: \"Connect Manatal to 3,000+ apps via Zapier and n8n integrations.\"",
+  "notes": "Site says: \"Share your job openings on 2,500+ organic and premium channels, including local, global, and specialized job platforms such as Indeed, LinkedIn, Monster, ZipRecruiter\" Site says: \"Transparent and flexible pricing without lock-in contract\" Site says: \"The Manatal API allows for building custom workflows better suited to your needs.\" Site says: \"Manatal ATS Integrations Directory\" Site says: \"Integrate Manatal to your existing HR tech stack via Manatal OpenAPI.\" Site says: \"Connect Manatal to 3,000+ apps via Zapier and n8n integrations.\" Per-user monthly plans with a 14-day free trial. API endpoints need a token from support. Integrations directory lists job boards and tools. Affiliate program is a referral scheme and is not counted as a partner program. Office listed as Manatal ",
   "confidence": "partially-verified"
  },
  {
@@ -16070,8 +16070,8 @@
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "job board posting",
-  "notes": "",
+  "ingest_methods": "job board posting;multiposting",
+  "notes": "Partners and Integrations page offers a Become a Partner form. Homepage describes posting jobs to multiple job boards from the CRM. Registered address is given without a country name.",
   "confidence": "partially-verified"
  },
  {
@@ -16090,13 +16090,13 @@
   "niche": "executive search CRM and ATS",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription",
   "api_status": "unknown",
-  "api_docs_url": "",
+  "api_docs_url": "https://ezekia.com/api/documentation",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "Site says: \"Integrate Ezekia with the tools, AI platforms and automations your team already uses.\"",
+  "notes": "Site says: \"Integrate Ezekia with the tools, AI platforms and automations your team already uses.\" Plans are priced per user and billed monthly, quoted individually. Integrations page links API documentation on ezekia.com and does not state how to get access. Zapier and MCP connectors are listed. About page says there is no parent company. Homepage footer gives a London address without a headquar",
   "confidence": "partially-verified"
  },
  {
@@ -16115,13 +16115,13 @@
   "niche": "staffing and recruiting ATS/CRM (formerly Big Biller)",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
-  "ingest_methods": "",
-  "notes": "",
+  "partner_program": "yes",
+  "partner_url": "https://topechelon.com/marketplace/",
+  "ingest_methods": "job board posting",
+  "notes": "Pricing page lists Standard and Professional subscription plans with month-to-month and annual billing. Professional plan includes API access per the pricing page. Integrations marketplace lists job board integrations.",
   "confidence": "partially-verified"
  },
  {
@@ -16159,8 +16159,8 @@
   "founded": "",
   "markets": "",
   "countries_served": "ZZ",
-  "primary_language": "",
-  "languages_supported": "",
+  "primary_language": "en",
+  "languages_supported": "en;ar",
   "region": "Global",
   "niche": "recruitment software and branded job boards for the Middle East",
   "segment": "",
@@ -16171,7 +16171,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "job board posting",
-  "notes": "",
+  "notes": "Homepage offers English and Arabic (switcher shows the Arabic option). Pricing page lists plans but shows no prices. No API or partner program found on the pages read.",
   "confidence": "partially-verified"
  },
  {
@@ -16190,13 +16190,13 @@
   "niche": "AI recruitment and selection software (Portuguese-language)",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
+  "partner_program": "yes",
+  "partner_url": "https://info.gupy.io/programa-de-parcerias",
   "ingest_methods": "job board posting",
-  "notes": "Site says: \"dados de diversidade e acesso a API pública\"",
+  "notes": "Site says: \"dados de diversidade e acesso a API pública\" Brazilian recruiting and HR platform. Pricing page lists plans without prices. Partnership page invites partners and the integrations hub lists certified partner tools. No developer or API page was linked from the header or footer, so no api_status is recorded. Headquarters and parent company are no",
   "confidence": "partially-verified"
  },
  {
@@ -16240,13 +16240,13 @@
   "niche": "HR software with AI, including recruitment (Spanish-language)",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "yes",
   "partner_url": "https://www.bizneo.com/partners/",
   "ingest_methods": "",
-  "notes": "Site says: \"Planes y Precios de herramientas para RR. HH. de Bizneo HR\"",
+  "notes": "Site says: \"Planes y Precios de herramientas para RR. HH. de Bizneo HR\" Pricing page lists plans from 6 euro. Partners page mentions documented APIs but does not say how to get access. Homepage shows Spanish site with a language selector showing ES.",
   "confidence": "partially-verified"
  },
  {
@@ -16305,7 +16305,7 @@
   "url": "https://www.cornerstoneondemand.com",
   "domains": "",
   "type": "ats",
-  "hq_country": "",
+  "hq_country": "US",
   "founded": "",
   "markets": "",
   "countries_served": "ZZ",
@@ -16321,7 +16321,7 @@
   "partner_program": "yes",
   "partner_url": "https://www.cornerstoneondemand.com/platform/extend-integrations/",
   "ingest_methods": "",
-  "notes": "Site says: \"Utilize prebuilt integrations, connectors, and APIs to unify systems and streamline workflows.\"",
+  "notes": "Site says: \"Utilize prebuilt integrations, connectors, and APIs to unify systems and streamline workflows.\" Contact page lists Santa Monica, CA 90404 as worldwide corporate headquarters. Language menu codes br, de, es, fr, it, jp, kr and mx are mapped to pt, de, es, fr, it, ja, ko and es. Extend page mentions APIs but states no access route.",
   "confidence": "partially-verified"
  },
  {
@@ -16346,7 +16346,7 @@
   "partner_program": "yes",
   "partner_url": "https://www.dayforce.com/how-we-help/services-and-support/partners",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Dayforce Partner Network page describes partner tiers and a Become a partner link. No pricing, API or job board ingest method stated on the pages read. Headquarters and parent company are not stated on the pages read; the About page says the company was first named Ceridian and founded in 1992.",
   "confidence": "partially-verified"
  },
  {
@@ -16389,14 +16389,14 @@
   "region": "Global",
   "niche": "HCM suite with recruiting and onboarding",
   "segment": "",
-  "parent": "",
+  "parent": "ADP, Inc.",
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "yes",
   "partner_url": "https://www.adp.com/what-we-offer/marketplace",
   "ingest_methods": "",
-  "notes": "Site says: \"Instantly access secure APIs, tools and resources that can help you build custom integrations for your company.\"",
+  "notes": "Site says: \"Instantly access secure APIs, tools and resources that can help you build custom integrations for your company.\" Site footer and About ADP page name ADP, Inc. as the trademark owner. Get Pricing links appear without prices shown. Language switcher lists Canada (English).",
   "confidence": "partially-verified"
  },
  {
@@ -16405,7 +16405,7 @@
   "url": "https://www.paycom.com",
   "domains": "",
   "type": "ats",
-  "hq_country": "",
+  "hq_country": "US",
   "founded": "",
   "markets": "",
   "countries_served": "ZZ",
@@ -16421,7 +16421,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "job board posting;career site",
-  "notes": "",
+  "notes": "Contact page labels Oklahoma City, Oklahoma 73142 as corporate headquarters. ATS page says jobs are posted automatically to websites and online job boards. No pricing, API, partner program or language options found on the pages read.",
   "confidence": "partially-verified"
  },
  {
@@ -16464,14 +16464,14 @@
   "region": "Global",
   "niche": "talent management suite with talent science and recruitment modules",
   "segment": "",
-  "parent": "",
+  "parent": "Koch Industries",
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "yes",
   "partner_url": "https://www.infor.com/partners",
   "ingest_methods": "",
-  "notes": "",
+  "notes": "Infor is a wholly-owned subsidiary of Koch Industries. The Infor Partner Network page describes the partner program.",
   "confidence": "partially-verified"
  },
  {
@@ -16518,10 +16518,10 @@
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
+  "partner_program": "yes",
+  "partner_url": "https://www.oleeo.com/partner/",
   "ingest_methods": "job board posting",
-  "notes": "Site says: \"Oleeo partners with incredible platforms across the globe to help you recruit faster and smarter!\"",
+  "notes": "Site says: \"Oleeo partners with incredible platforms across the globe to help you recruit faster and smarter!\" Contact page shows separate UK Headquarters and US Headquarters labels, so no single headquarters country is recorded. Partner Ecosystem page invites platforms to partner.",
   "confidence": "partially-verified"
  },
  {
@@ -16546,7 +16546,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "job board posting",
-  "notes": "Site says: \"Hireology and BambooHR sync new hires for seamless recruiting and HR management.\" Site says: \"Indeed and Hireology sync jobs and applicants for faster, centralized recruiting.\"",
+  "notes": "Site says: \"Hireology and BambooHR sync new hires for seamless recruiting and HR management.\" Site says: \"Indeed and Hireology sync jobs and applicants for faster, centralized recruiting.\" Integrations page lists job board syncs such as Indeed. Packages page says pricing is by contacting sales. No API, partner program or headquarters stated on the pages read.",
   "confidence": "partially-verified"
  },
  {
@@ -16566,12 +16566,12 @@
   "segment": "",
   "parent": "",
   "business_model": "",
-  "api_status": "unknown",
-  "api_docs_url": "",
+  "api_status": "public-key",
+  "api_docs_url": "https://developer.fountain.com",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "job board posting",
-  "notes": "Site says: \"We partner with the most efficient tools in recruiting and HR to help you streamline your hiring process.\"",
+  "notes": "Site says: \"We partner with the most efficient tools in recruiting and HR to help you streamline your hiring process.\" Partner page lists HR tech vendors and integrations. Developer docs say keys are created in the user profile or in integration settings. Pricing, headquarters, parent company and languages are not stated on the pages read.",
   "confidence": "partially-verified"
  },
  {
@@ -16593,10 +16593,10 @@
   "business_model": "subscription, prices published",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
+  "partner_program": "yes",
+  "partner_url": "https://www.homerun.co/partner-program",
   "ingest_methods": "",
-  "notes": "Site says: \"Enhance your Homerun experience with a wide variety of add-ons and integrations.\" Site says: \"The Homerun Partnership Program is designed to create mutually beneficial relationships with Partners\"",
+  "notes": "Site says: \"Enhance your Homerun experience with a wide variety of add-ons and integrations.\" Site says: \"The Homerun Partnership Program is designed to create mutually beneficial relationships with Partners\" Homepage states a starting price per month. Partner program offers reseller and referral partnerships. Integrations page lists job board integrations such as Indeed and LinkedIn.",
   "confidence": "partially-verified"
  },
  {
@@ -16618,10 +16618,10 @@
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
+  "partner_program": "yes",
+  "partner_url": "https://www.hirebridge.com/corp/integrations.aspx",
   "ingest_methods": "job board posting",
-  "notes": "Site says: \"We work together with our customers, system integrators and ultimately third party systems to help design and deploy the best integrations possible.\"",
+  "notes": "Site says: \"We work together with our customers, system integrators and ultimately third party systems to help design and deploy the best integrations possible.\" Integrations page describes a partner ecosystem of providers, including job board posting automation. Homepage says published jobs are marketed to job search sites and paid job boards. No address is labelled as headquarters, and no pricing, API or language options were found on the pages read.",
   "confidence": "partially-verified"
  },
  {
@@ -16646,7 +16646,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "job board posting",
-  "notes": "Site says: \"Our Growth plan allows up to 3 active job postings.\" Site says: \"ApplicantStack works with the following partners to deliver top-rated ATS\"",
+  "notes": "Site says: \"Our Growth plan allows up to 3 active job postings.\" Site says: \"ApplicantStack works with the following partners to deliver top-rated ATS\" Pricing page lists four monthly plans from $29.99 to $159.99 per month. Job boards page says job posts are uploaded to Indeed and JobTarget. Footer copyright reads Swipeclock, but no parent is stated.",
   "confidence": "partially-verified"
  },
  {
@@ -16665,13 +16665,13 @@
   "niche": "applicant tracking for small teams",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "job board posting",
-  "notes": "Site says: \"You can upgrade, downgrade or cancel your subscription anytime.\"",
+  "notes": "Site says: \"You can upgrade, downgrade or cancel your subscription anytime.\" Subscription plans with a free plan, listed at $59, $119 and $299 per month when paid monthly. Homepage says one-click posting to job boards.",
   "confidence": "partially-verified"
  },
  {
@@ -16690,13 +16690,13 @@
   "niche": "AI-native applicant tracking",
   "segment": "",
   "parent": "",
-  "business_model": "",
-  "api_status": "unknown",
-  "api_docs_url": "",
+  "business_model": "subscription",
+  "api_status": "public-key",
+  "api_docs_url": "https://developers.kula.ai/docs/jobboards-api/kula-job-board-api",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "Site says: \"Over 100 integrations to power your hiring workflows\"",
+  "notes": "Site says: \"Over 100 integrations to power your hiring workflows\" Pricing page shows a flat annual price of $4,800/year. Public Job Boards API uses bearer keys, managed under Settings, API Management; key creation steps are not on the pages read. No partner program found.",
   "confidence": "partially-verified"
  },
  {
@@ -16720,8 +16720,8 @@
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "",
-  "notes": "Site says: \"We are constantly working to integrate Trakstar products with the latest and greatest HR tools\"",
+  "ingest_methods": "job board posting",
+  "notes": "Site says: \"We are constantly working to integrate Trakstar products with the latest and greatest HR tools\" Hiring product posts job descriptions to job boards. Pricing page asks for a quote and shows no prices. Header, footer and integrations pages mention no API, developer docs or partner program. Address on the about page is under a Contact Us label, not a headquarters label.",
   "confidence": "partially-verified"
  },
  {
@@ -16746,7 +16746,7 @@
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "job board posting",
-  "notes": "",
+  "notes": "Homepage describes posting generated job descriptions to job boards and a tech partners integration section. Plans and pricing page was not read.",
   "confidence": "partially-verified"
  },
  {
@@ -16768,10 +16768,10 @@
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
+  "partner_program": "yes",
+  "partner_url": "https://clearcompany.com/partnerships",
   "ingest_methods": "",
-  "notes": "Site says: \"Flexible connections that sync ClearCo with your existing systems, eliminating silos and keeping information always up to date\"",
+  "notes": "Site says: \"Flexible connections that sync ClearCo with your existing systems, eliminating silos and keeping information always up to date\" Pricing is by request only. Partnerships page offers technology, referral and reseller partner tracks. Integrations page lists LinkedIn job posting integrations, which are outbound. No headquarters label, parent company, API or language options were found on the pages read.",
   "confidence": "partially-verified"
  },
  {
@@ -16791,12 +16791,12 @@
   "segment": "",
   "parent": "",
   "business_model": "",
-  "api_status": "unknown",
-  "api_docs_url": "",
+  "api_status": "public-key",
+  "api_docs_url": "https://api.taleez.com/",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "job board posting",
-  "notes": "Site says: \"Parce qu’un tarif Taleez dépend de la taille de votre organisation, de vos volumes de recrutement et des modules dont vous avez besoin.\" Site says: \"Taleez met à disposition une API REST documentée (spécification OpenAPI) et des webhooks\" Site says: \"Taleez s'intègre à plus de 90 jobboards et sites emploi.\"",
+  "ingest_methods": "job board posting;multiposting",
+  "notes": "Site says: \"Parce qu’un tarif Taleez dépend de la taille de votre organisation, de vos volumes de recrutement et des modules dont vous avez besoin.\" Site says: \"Taleez met à disposition une API REST documentée (spécification OpenAPI) et des webhooks\" Site says: \"Taleez s'intègre à plus de 90 jobboards et sites emploi.\" Integrations page states the REST API and webhooks are available on all plans, with keys created in account settings. Taleez says it is connected to more than 90 job boards.",
   "confidence": "partially-verified"
  },
  {
@@ -16816,12 +16816,12 @@
   "segment": "",
   "parent": "",
   "business_model": "",
-  "api_status": "unknown",
-  "api_docs_url": "",
+  "api_status": "public-key",
+  "api_docs_url": "https://developers.flatchr.io/",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "job board posting",
-  "notes": "Site says: \"Développez votre propre intégration grâce à notre API publique\" Site says: \"Intégrez facilement les meilleurs outils RH à Flatchr pour simplifier la gestion\"",
+  "ingest_methods": "job board posting;multiposting",
+  "notes": "Site says: \"Développez votre propre intégration grâce à notre API publique\" Site says: \"Intégrez facilement les meilleurs outils RH à Flatchr pour simplifier la gestion\" French ATS. Docs say the API key is generated in account settings under Advanced, API. Homepage says jobs are multiposted to more than 160 job boards. Pricing page text shows no visible prices.",
   "confidence": "partially-verified"
  },
  {
@@ -16892,11 +16892,11 @@
   "parent": "",
   "business_model": "",
   "api_status": "unknown",
-  "api_docs_url": "",
+  "api_docs_url": "https://developer.jobylon.com/",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "",
-  "notes": "Site says: \"Jobylon integrates seamlessly with most major third-party apps and partners\"",
+  "ingest_methods": "job board posting",
+  "notes": "Site says: \"Jobylon integrates seamlessly with most major third-party apps and partners\" Developer portal lists Feed API, Partner API and Push API. Integrations page lists partner job board integrations. Language switcher lists English, Svenska, Nederlands and Deutsch. Pricing page was not read.",
   "confidence": "partially-verified"
  },
  {
@@ -16915,13 +16915,13 @@
   "niche": "recruitment and HR platform with ATS (Nordics and Europe)",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "quote-based",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
+  "partner_program": "yes",
+  "partner_url": "https://content.talentech.com/join-our-partner-network",
   "ingest_methods": "",
-  "notes": "Site says: \"Our prices are adjusted to the size of your company and the complexity of the solution you need.\" Site says: \"The developer portal holds comprehensive knowledge on how to use our APIs to extend the functionality\" Site says: \"Integrations that will scale your solution\"",
+  "notes": "Site says: \"Our prices are adjusted to the size of your company and the complexity of the solution you need.\" Site says: \"The developer portal holds comprehensive knowledge on how to use our APIs to extend the functionality\" Site says: \"Integrations that will scale your solution\" Pricing depends on company size and solution, with an offer on request. Developer portal is linked from the homepage on talentech.io and says access is obtained from the account manager or support team. Partner network page and marketplace are linked. About page says offices are in several European ",
   "confidence": "partially-verified"
  },
  {
@@ -16968,10 +16968,10 @@
   "business_model": "",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
-  "ingest_methods": "job board posting",
-  "notes": "",
+  "partner_program": "yes",
+  "partner_url": "https://hireserve.com/integrations/",
+  "ingest_methods": "job board posting;multiposting",
+  "notes": "UK-based ATS for in-house recruitment. Address on the contact page has no headquarters label. Job board integration page describes one-click posting to job boards.",
   "confidence": "partially-verified"
  },
  {
@@ -16990,13 +16990,13 @@
   "niche": "recruitment software and ATS (UK)",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
   "ingest_methods": "",
-  "notes": "Site says: \"Build a tech stack that’s more than the sum of its parts with Tribepad’s thriving integrations ecosystem.\"",
+  "notes": "Site says: \"Build a tech stack that’s more than the sum of its parts with Tribepad’s thriving integrations ecosystem.\" Pricing page gives from-prices per month (from £579/month for the SME product) plus a set-up fee. Integrations page URL returned 404, and the integrations and partners link on the homepage has no readable URL, so no API or partner program is recorded. Headquarters and parent are not stated on the pa",
   "confidence": "partially-verified"
  },
  {
@@ -17055,7 +17055,7 @@
   "url": "https://www.hireful.com/",
   "domains": "",
   "type": "ats",
-  "hq_country": "",
+  "hq_country": "UK",
   "founded": "",
   "markets": "",
   "countries_served": "ZZ",
@@ -17065,13 +17065,13 @@
   "niche": "applicant tracking for UK SMEs and in-house recruiters",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
+  "partner_program": "yes",
+  "partner_url": "https://www.hireful.com/partners/software-partners",
   "ingest_methods": "job board posting",
-  "notes": "Site says: \"Our smarty pants techies have built an API solution into our product, so integrating is easy as pie.\" Site says: \"Your hireful ATS integrates with just about anything, leaving you free to connect to your favourite HR tech.\"",
+  "notes": "Site says: \"Our smarty pants techies have built an API solution into our product, so integrating is easy as pie.\" Site says: \"Your hireful ATS integrates with just about anything, leaving you free to connect to your favourite HR tech.\" Terms state the registered address in England, and the company is registered in England and Wales. Pricing is an annual fee per recruiter licence, with the ATS starting at GBP 2,450 per year for the Go plan. Software partners page says an API solution is built into the product, without stating how t",
   "confidence": "partially-verified"
  },
  {
@@ -17090,13 +17090,13 @@
   "niche": "recruiting module of the Factorial HR platform",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription",
   "api_status": "unknown",
   "api_docs_url": "",
-  "partner_program": "unknown",
-  "partner_url": "",
+  "partner_program": "yes",
+  "partner_url": "https://factorial.com/integrations-partner-program",
   "ingest_methods": "",
-  "notes": "Site says: \"Develop custom solutions using our public API or join our certification program to get featured directly on our global marketplace.\" Site says: \"Expand your product's reach. Develop custom solutions using our public API\"",
+  "notes": "Site says: \"Develop custom solutions using our public API or join our certification program to get featured directly on our global marketplace.\" Site says: \"Expand your product's reach. Develop custom solutions using our public API\" Pricing page starts at $8 per user per month. API keys are generated from company settings, and OAuth 2.0 is also offered. Certification program lists integrations on the marketplace.",
   "confidence": "partially-verified"
  },
  {
@@ -17115,13 +17115,13 @@
   "niche": "HR software with applicant tracking for SMEs",
   "segment": "",
   "parent": "",
-  "business_model": "",
+  "business_model": "subscription",
   "api_status": "unknown",
   "api_docs_url": "",
   "partner_program": "unknown",
   "partner_url": "",
-  "ingest_methods": "",
-  "notes": "",
+  "ingest_methods": "job board posting",
+  "notes": "Workforce management software with per-employee monthly pricing (6.0 and 10.0 euros shown). Recruiting module includes a native integration to post jobs to 100+ job boards. Open API is offered to software partners.",
   "confidence": "partially-verified"
  },
  {
@@ -17147,6 +17147,31 @@
   "partner_url": "",
   "ingest_methods": "",
   "notes": "",
+  "confidence": "partially-verified"
+ },
+ {
+  "id": "career-team",
+  "name": "Career Team",
+  "url": "https://careerteam.com/",
+  "domains": "",
+  "type": "hr-tech",
+  "hq_country": "US",
+  "founded": "1996",
+  "markets": "",
+  "countries_served": "US",
+  "primary_language": "",
+  "languages_supported": "",
+  "region": "North America",
+  "niche": "government workforce development software (case management, labor exchange, federal reporting)",
+  "segment": "",
+  "parent": "",
+  "business_model": "",
+  "api_status": "unknown",
+  "api_docs_url": "",
+  "partner_program": "unknown",
+  "partner_url": "",
+  "ingest_methods": "",
+  "notes": "Site says: \"Trusted by states, workforce boards, education, corrections agencies nationwide\" Site says: \"Software solutions utilized in over 30 states, serving millions of job seekers every year\" Site says: \"Over 500 dedicated professionals deliver WIOA, SNAP, and TANF programs nationwide, partnering directly with job seekers, employers, and communities.\" Site says: \"Career Edge delivers end-to-end case management that supports the full lifecycle from intake and eligibility through services, outcomes, exits, and follow-up.\" Site says: \"A cloud-native, purpose-built solution designed by workforce development professionals for workforce development professionals\" Site says: \"Career Edge is hosted on Amazon Web Services (AWS), offering robust scalability, high availability, and enterprise-gra",
   "confidence": "partially-verified"
  }
 ]

@@ -22,7 +22,7 @@
  "partner_program": "yes",
  "partner_url": "https://www.dayforce.com/how-we-help/services-and-support/partners",
  "ingest_methods": [],
- "notes": "",
+ "notes": "Dayforce Partner Network page describes partner tiers and a Become a partner link. No pricing, API or job board ingest method stated on the pages read. Headquarters and parent company are not stated on the pages read; the About page says the company was first named Ceridian and founded in 1992.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/dayforce-recruiting/",
  "indexable": false,
@@ -39,7 +39,14 @@
   "partner-program"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "dayforce-recruiting",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;business_model;api_status;ingest_methods;languages",
+  "note": "Homepage, partner network and our-story pages read with HTTP 200; no headquarters or pricing stated.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

@@ -19,15 +19,16 @@
  "business_model": "",
  "api_status": "unknown",
  "api_docs_url": "",
- "partner_program": "unknown",
- "partner_url": "",
+ "partner_program": "yes",
+ "partner_url": "https://hireserve.com/integrations/",
  "ingest_methods": [
-  "job board posting"
+  "job board posting",
+  "multiposting"
  ],
- "notes": "",
+ "notes": "UK-based ATS for in-house recruitment. Address on the contact page has no headquarters label. Job board integration page describes one-click posting to job boards.",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/hireserve/",
- "indexable": false,
+ "indexable": true,
  "prominence": {
   "tier": "",
   "label": "Not in top 1M",
@@ -37,7 +38,8 @@
   "list_date": "2026-11-23"
  },
  "tags": [
-  "ats"
+  "ats",
+  "partner-program"
  ],
  "connections": [
   {
@@ -68,7 +70,14 @@
    "quote": "automatically distribute it to leading platforms like Indeed, Monster, Reed and more"
   }
  ],
- "review": null,
+ "review": {
+  "board_id": "hireserve",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;parent",
+  "note": "Home, about, integrations, job board and contact pages read; the address has no headquarters label.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -86,6 +95,14 @@
    "title": "Hireserve job board integration",
    "accessed": "2026-11-23",
    "quote": "Post job adverts to multiple job boards with a single click using Hireserve’s integrated ATS job board functionality.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "partner_program",
+   "url": "https://hireserve.com/integrations/",
+   "title": "Integrations and partnerships",
+   "accessed": "2026-11-26",
+   "quote": "We have developed a strong ecosystem of partners and integrations to ensure you can attract, engage and assess talent as efficiently and effectively as possible.",
    "quote_check": "ok"
   }
  ]

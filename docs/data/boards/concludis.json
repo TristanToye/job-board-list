@@ -38,7 +38,14 @@
   "ats"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "concludis",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;languages;business_model;api_status;partner_program",
+  "note": "Product homepage read; owner Perbility pages read for headquarters and interfaces, with no country named beside the headquarters label.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

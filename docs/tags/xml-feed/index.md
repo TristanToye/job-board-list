@@ -1,6 +1,6 @@
 # XML feed
 
-Accepts or publishes jobs through XML feeds. 24 entries in the directory.
+Accepts or publishes jobs through XML feeds. 25 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [Monster](https://jobboardlist.com/boards/monster/): board, Partner-only API
@@ -11,6 +11,7 @@ Accepts or publishes jobs through XML feeds. 24 entries in the directory.
 - [Totaljobs](https://jobboardlist.com/boards/totaljobs/): board, Partner-only API
 - [Talent.com](https://jobboardlist.com/boards/talent-com/): aggregator, Partner-only API
 - [Jobrapido](https://jobboardlist.com/boards/jobrapido/): aggregator
+- [Recruit CRM](https://jobboardlist.com/boards/recruit-crm/): ats
 - [CV-Library](https://jobboardlist.com/boards/cv-library/): board, Partner-only API
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
 - [Adzuna](https://jobboardlist.com/boards/adzuna/): aggregator, Self-serve API key

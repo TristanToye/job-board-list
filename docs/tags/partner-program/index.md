@@ -1,6 +1,6 @@
 # Partner program
 
-Has a partner or integration program. 115 entries in the directory.
+Has a partner or integration program. 125 entries in the directory.
 
 - [Indeed](https://jobboardlist.com/boards/indeed/): aggregator+board, Partner-only API
 - [ADP Recruiting Management](https://jobboardlist.com/boards/adp-recruiting-management/): ats
@@ -27,6 +27,7 @@ Has a partner or integration program. 115 entries in the directory.
 - [StepStone](https://jobboardlist.com/boards/stepstone/): board, Partner-only API
 - [Handshake](https://jobboardlist.com/boards/handshake/): niche-board, Partner-only API
 - [Breezy HR](https://jobboardlist.com/boards/breezy/): ats, Self-serve API key
+- [Gupy](https://jobboardlist.com/boards/gupy/): ats
 - [Rippling Recruiting](https://jobboardlist.com/boards/rippling/): ats, Self-serve API key
 - [Reed](https://jobboardlist.com/boards/reed/): board, Self-serve API key
 - [TaskRabbit](https://jobboardlist.com/boards/taskrabbit/): freelance-platform
@@ -52,8 +53,10 @@ Has a partner or integration program. 115 entries in the directory.
 - [Checkr](https://jobboardlist.com/boards/checkr/): hr-tech, API key on request
 - [Employment Hero](https://jobboardlist.com/boards/employment-hero/): hr-tech
 - [jobs.ch](https://jobboardlist.com/boards/jobs-ch/): board, Partner-only API
+- [ClearCompany](https://jobboardlist.com/boards/clearcompany/): ats
 - [Rezi](https://jobboardlist.com/boards/rezi/): career-services, Self-serve API key
 - [Beamery](https://jobboardlist.com/boards/beamery/): hr-tech
+- [Homerun](https://jobboardlist.com/boards/homerun/): ats
 - [Harver](https://jobboardlist.com/boards/harver/): hr-tech
 - [Careerjet](https://jobboardlist.com/boards/careerjet/): aggregator, Self-serve API key
 - [Recruiterflow](https://jobboardlist.com/boards/recruiterflow/): ats
@@ -79,8 +82,5 @@ Has a partner or integration program. 115 entries in the directory.
 - [SeekOut](https://jobboardlist.com/boards/seekout/): hr-tech
 - [Sterling](https://jobboardlist.com/boards/sterling/): hr-tech, API key on request
 - [AgCareers](https://jobboardlist.com/boards/agcareers/): board
-- [Hotelcareer](https://jobboardlist.com/boards/hotelcareer/): board
-- [Banco Nacional de Empregos](https://jobboardlist.com/boards/banco-nacional-de-empregos/): board
-- [Ceipal](https://jobboardlist.com/boards/ceipal/): ats
 
 Canonical page: https://jobboardlist.com/tags/partner-program/

@@ -16,13 +16,13 @@
  "niche": "recruitment software and ATS (UK)",
  "segment": "",
  "parent": "",
- "business_model": "",
+ "business_model": "subscription",
  "api_status": "unknown",
  "api_docs_url": "",
  "partner_program": "unknown",
  "partner_url": "",
  "ingest_methods": [],
- "notes": "Site says: \"Build a tech stack that’s more than the sum of its parts with Tribepad’s thriving integrations ecosystem.\"",
+ "notes": "Site says: \"Build a tech stack that’s more than the sum of its parts with Tribepad’s thriving integrations ecosystem.\" Pricing page gives from-prices per month (from £579/month for the SME product) plus a set-up fee. Integrations page URL returned 404, and the integrations and partners link on the homepage has no readable URL, so no API or partner program is recorded. Headquarters and parent are not stated on the pa",
  "confidence": "partially-verified",
  "page": "https://jobboardlist.com/boards/tribepad/",
  "indexable": false,
@@ -36,10 +36,18 @@
  },
  "tags": [
   "ats",
+  "subscription",
   "tech"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "tribepad",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;parent;api_status;partner_program;ingest_methods;languages",
+  "note": "Homepage and pricing pages read with HTTP 200; integrations page URL returned 404.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
@@ -65,6 +73,14 @@
    "title": "Tribepad homepage",
    "accessed": "2026-11-23",
    "quote": "Build a tech stack that’s more than the sum of its parts with Tribepad’s thriving integrations ecosystem.",
+   "quote_check": "ok"
+  },
+  {
+   "field": "business_model",
+   "url": "https://tribepad.com/pricing",
+   "title": "Pricing page",
+   "accessed": "2026-11-26",
+   "quote": "Tribepad Gro, our ATS for SMEs, starts from £579 per month when paid annually",
    "quote_check": "ok"
   }
  ]

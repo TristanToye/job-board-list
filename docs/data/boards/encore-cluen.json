@@ -40,7 +40,14 @@
   "legal"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "encore-cluen",
+  "reviewed": "2026-11-26",
+  "outcome": "not-stated",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent;ingest_methods",
+  "note": "Home and about pages read; they state no headquarters, pricing, API, partner or parent details.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [

@@ -1,119 +1,303 @@
 {
-  "mode": "verify",
-  "country": "ZZ",
-  "boards": [
+ "mode": "verify",
+ "country": "ZZ",
+ "boards": [
+  {
+   "name": "Voyager Infinity",
+   "url": "https://www.voyagersoftware.com/voyager-infinity/",
+   "parent": "Dillistone Group Plc",
+   "ingest_methods": [
+    "multiposting"
+   ],
+   "partner_program": null,
+   "partner_url": null,
+   "notes": "Brand of Ikiru People Ltd, a subsidiary of Dillistone Group Plc. Multi-job posting to job boards via Broadbean and LogicMelon integrations. Contact page returned HTTP 502 and was not readable.",
+   "sources": [
     {
-      "name": "Voyager Infinity",
-      "url": "https://www.voyagersoftware.com/voyager-infinity/",
-      "parent": "Dillistone Group Plc",
-      "ingest_methods": ["ATS integration"],
-      "partner_program": "yes",
-      "partner_url": "https://www.voyagersoftware.com/partners/",
-      "notes": "Brand of Ikiru People Ltd, a subsidiary of Dillistone Group Plc. Multi-job posting to job boards via Broadbean and LogicMelon integrations. Contact page returned HTTP 502 and was not readable.",
-      "sources": [
-        {"field": "parent", "url": "https://www.voyagersoftware.com/about-us/", "title": "About us", "quote": "Voyager Software is a brand of Ikiru People Ltd, a subsidiary of Dillistone Group Plc."},
-        {"field": "ingest_methods", "url": "https://www.voyagersoftware.com/partners/", "title": "Partners", "quote": "Jobs from the Infinity database are automatically sent to Broadbean for dispatch to the largest network of job boards in the world."},
-        {"field": "partner_program", "url": "https://www.voyagersoftware.com/partners/", "title": "Partners", "quote": "Voyager Infinity integrates with Odro’s video recruitment software, perfect for agencies who are looking to streamline and improve the hiring process."}
-      ]
+     "field": "parent",
+     "url": "https://www.voyagersoftware.com/about-us/",
+     "title": "About us",
+     "quote": "Voyager Software is a brand of Ikiru People Ltd, a subsidiary of Dillistone Group Plc.",
+     "check": "ok"
     },
     {
-      "name": "Encore (Cluen)",
-      "url": "https://www.cluen.com",
-      "notes": "Encore executive search software by Cluen. Home and about pages state no headquarters, pricing, API, partner program or parent company.",
-      "sources": []
-    },
-    {
-      "name": "Cornerstone OnDemand",
-      "url": "https://www.cornerstoneondemand.com",
-      "hq_country": "US",
-      "primary_language": "en",
-      "languages_supported": ["en", "pt", "de", "es", "fr", "it", "ja", "ko"],
-      "partner_program": "yes",
-      "partner_url": "https://www.cornerstoneondemand.com/partners/",
-      "notes": "Contact page lists Santa Monica, CA 90404 as worldwide corporate headquarters. Language menu codes br, de, es, fr, it, jp, kr and mx are mapped to pt, de, es, fr, it, ja, ko and es. Extend page mentions APIs but states no access route.",
-      "sources": [
-        {"field": "existence", "url": "https://www.cornerstoneondemand.com/contact-us/", "title": "Contact us", "quote": "Worldwide corporate headquarters 1601 Cloverfield Blvd, Suite 600 South, Santa Monica, CA 90404"},
-        {"field": "languages", "url": "https://www.cornerstoneondemand.com/", "title": "Homepage language menu", "quote": "br de es fr it jp kr mx"},
-        {"field": "partner_program", "url": "https://www.cornerstoneondemand.com/partners/", "title": "Partner ecosystem", "quote": "Cornerstone Services Partners is a curated community of global systems integrators and regional experts that help you deploy and optimize your capabilities."}
-      ]
-    },
-    {
-      "name": "Oleeo",
-      "url": "https://www.oleeo.com",
-      "partner_program": "yes",
-      "partner_url": "https://www.oleeo.com/partner/",
-      "notes": "Contact page shows separate UK Headquarters and US Headquarters labels, so no single headquarters country is recorded. Partner Ecosystem page invites platforms to partner.",
-      "sources": [
-        {"field": "partner_program", "url": "https://www.oleeo.com/partner-ecosystem/", "title": "Partner ecosystem", "quote": "Oleeo partners with incredible platforms across the globe to help you recruit faster and smarter!"}
-      ]
-    },
-    {
-      "name": "Jobsoid",
-      "url": "https://www.jobsoid.com",
-      "business_model": "subscription",
-      "ingest_methods": ["ATS integration"],
-      "notes": "Subscription plans with a free plan, listed at $59, $119 and $299 per month when paid monthly. Homepage says one-click posting to job boards.",
-      "sources": [
-        {"field": "business_model", "url": "https://www.jobsoid.com/pricing/", "title": "Pricing", "quote": "Choose the plan that suites your hiring requirements the best. You can upgrade, downgrade or cancel your subscription anytime."},
-        {"field": "ingest_methods", "url": "https://www.jobsoid.com/", "title": "Homepage", "quote": "Publish jobs on leading job boards and social networks in just one click."}
-      ]
-    },
-    {
-      "name": "Flatchr",
-      "url": "https://www.flatchr.io/",
-      "primary_language": "fr",
-      "languages_supported": ["fr", "en"],
-      "api_status": "public-key",
-      "api_docs_url": "https://developers.flatchr.io/",
-      "ingest_methods": ["ATS integration"],
-      "notes": "French ATS. Docs say the API key is generated in account settings under Advanced, API. Homepage says jobs are multiposted to more than 160 job boards. Pricing page text shows no visible prices.",
-      "sources": [
-        {"field": "languages", "url": "https://www.flatchr.io/", "title": "Homepage language switch", "quote": "FR | EN"},
-        {"field": "api_status", "url": "https://developers.flatchr.io/docs/getting_started/", "title": "Getting started", "quote": "Votre API_KEY doit être générée dans votre espace Flatchr Paramètres avancés > Avancé > API."},
-        {"field": "ingest_methods", "url": "https://www.flatchr.io/", "title": "Homepage", "quote": "Multidiffusez sur +160 jobboards, sourcez vos candidats sur Linkedin et CVthèques, et utilisez le réseau de vos collaborateurs grâce à la cooptation."}
-      ]
-    },
-    {
-      "name": "Hireserve",
-      "url": "https://hireserve.com/",
-      "partner_program": "yes",
-      "partner_url": "https://hireserve.com/integrations/",
-      "ingest_methods": ["ATS integration"],
-      "notes": "UK-based ATS for in-house recruitment. Address on the contact page has no headquarters label. Job board integration page describes one-click posting to job boards.",
-      "sources": [
-        {"field": "partner_program", "url": "https://hireserve.com/integrations/", "title": "Integrations and partnerships", "quote": "We have developed a strong ecosystem of partners and integrations to ensure you can attract, engage and assess talent as efficiently and effectively as possible."},
-        {"field": "ingest_methods", "url": "https://hireserve.com/multiple-job-board-integrations/", "title": "Job board integration", "quote": "Post job adverts to multiple job boards with a single click using Hireserve’s integrated ATS job board functionality."}
-      ]
-    },
-    {
-      "name": "Kenjo",
-      "url": "https://www.kenjo.io/",
-      "business_model": "subscription",
-      "primary_language": "en",
-      "languages_supported": ["en", "es"],
-      "api_status": "partner-only",
-      "partner_program": "yes",
-      "partner_url": "https://www.kenjo.io/partner-program-kenjo",
-      "ingest_methods": ["ATS integration"],
-      "notes": "Workforce management software with per-employee monthly pricing (6.0 and 10.0 euros shown). Recruiting module includes a native integration to post jobs to 100+ job boards. Open API is offered to software partners.",
-      "sources": [
-        {"field": "business_model", "url": "https://www.kenjo.io/pricing", "title": "Pricing", "quote": "All prices are per employee per month."},
-        {"field": "languages", "url": "https://www.kenjo.io/contact", "title": "Contact (language menu)", "quote": "Español"},
-        {"field": "api_status", "url": "https://www.kenjo.io/partner-program-kenjo", "title": "Partner program", "quote": "Connect your software to Kenjo via our Open API."},
-        {"field": "partner_program", "url": "https://www.kenjo.io/partner-program-kenjo", "title": "Partner program", "quote": "Connect your software to Kenjo via our Open API."},
-        {"field": "ingest_methods", "url": "https://www.kenjo.io/pricing", "title": "Pricing", "quote": "All features of Kenjo's recruiting module + a native integration that can help you post jobs and hire from 100+ job boards."}
-      ]
+     "field": "ingest_methods",
+     "url": "https://www.voyagersoftware.com/partners/",
+     "title": "Partners",
+     "quote": "Jobs from the Infinity database are automatically sent to Broadbean for dispatch to the largest network of job boards in the world.",
+     "check": "ok"
     }
-  ],
-  "reviews": [
-    {"name": "Voyager Infinity", "url": "https://www.voyagersoftware.com/voyager-infinity/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status"], "method": "browser", "note": "Home, about and partners pages read; contact page returned HTTP 502 in the browser reader after one retry."},
-    {"name": "Encore (Cluen)", "url": "https://www.cluen.com", "outcome": "not-stated", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "partner_program", "parent", "ingest_methods"], "method": "browser", "note": "Home and about pages read; they state no headquarters, pricing, API, partner or parent details."},
-    {"name": "Cornerstone OnDemand", "url": "https://www.cornerstoneondemand.com", "outcome": "partially-verified", "fields_not_found": ["business_model", "api_status", "parent", "ingest_methods"], "method": "browser", "note": "Home, about, partners, contact and extend pages read; contact page gives headquarters and the language menu lists the other languages."},
-    {"name": "Oleeo", "url": "https://www.oleeo.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "parent", "ingest_methods"], "method": "browser", "note": "Home, about, partner ecosystem and contact pages read; contact page lists UK and US headquarters labels with no single country."},
-    {"name": "Jobsoid", "url": "https://www.jobsoid.com", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "api_status", "parent", "partner_program"], "method": "browser", "note": "Home and pricing pages read; no contact, developer or partner page was linked from them."},
-    {"name": "Flatchr", "url": "https://www.flatchr.io/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent", "business_model", "partner_program"], "method": "browser", "note": "Home, pricing and developer docs read; pricing page text shows no visible prices and no partner page is linked."},
-    {"name": "Hireserve", "url": "https://hireserve.com/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "languages", "business_model", "api_status", "parent"], "method": "browser", "note": "Home, about, integrations, job board and contact pages read; the address has no headquarters label."},
-    {"name": "Kenjo", "url": "https://www.kenjo.io/", "outcome": "partially-verified", "fields_not_found": ["hq_country", "parent"], "method": "browser", "note": "Home, pricing, partner, and contact pages read; office addresses are not labelled as headquarters."}
-  ],
-  "blocked": []
+   ]
+  },
+  {
+   "name": "Encore (Cluen)",
+   "url": "https://www.cluen.com",
+   "notes": "Encore executive search software by Cluen. Home and about pages state no headquarters, pricing, API, partner program or parent company.",
+   "sources": []
+  },
+  {
+   "name": "Cornerstone OnDemand",
+   "url": "https://www.cornerstoneondemand.com",
+   "hq_country": "US",
+   "primary_language": null,
+   "languages_supported": [],
+   "partner_program": "yes",
+   "partner_url": "https://www.cornerstoneondemand.com/partners/",
+   "notes": "Contact page lists Santa Monica, CA 90404 as worldwide corporate headquarters. Language menu codes br, de, es, fr, it, jp, kr and mx are mapped to pt, de, es, fr, it, ja, ko and es. Extend page mentions APIs but states no access route.",
+   "sources": [
+    {
+     "field": "existence",
+     "url": "https://www.cornerstoneondemand.com/contact-us/",
+     "title": "Contact us",
+     "quote": "Worldwide corporate headquarters 1601 Cloverfield Blvd, Suite 600 South, Santa Monica, CA 90404",
+     "check": "ok"
+    },
+    {
+     "field": "partner_program",
+     "url": "https://www.cornerstoneondemand.com/partners/",
+     "title": "Partner ecosystem",
+     "quote": "Cornerstone Services Partners is a curated community of global systems integrators and regional experts that help you deploy and optimize your capabilities.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Oleeo",
+   "url": "https://www.oleeo.com",
+   "partner_program": "yes",
+   "partner_url": "https://www.oleeo.com/partner/",
+   "notes": "Contact page shows separate UK Headquarters and US Headquarters labels, so no single headquarters country is recorded. Partner Ecosystem page invites platforms to partner.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://www.oleeo.com/partner-ecosystem/",
+     "title": "Partner ecosystem",
+     "quote": "Oleeo partners with incredible platforms across the globe to help you recruit faster and smarter!",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Jobsoid",
+   "url": "https://www.jobsoid.com",
+   "business_model": "subscription",
+   "ingest_methods": [
+    "job board posting"
+   ],
+   "notes": "Subscription plans with a free plan, listed at $59, $119 and $299 per month when paid monthly. Homepage says one-click posting to job boards.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.jobsoid.com/pricing/",
+     "title": "Pricing",
+     "quote": "Choose the plan that suites your hiring requirements the best. You can upgrade, downgrade or cancel your subscription anytime.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.jobsoid.com/",
+     "title": "Homepage",
+     "quote": "Publish jobs on leading job boards and social networks in just one click.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Flatchr",
+   "url": "https://www.flatchr.io/",
+   "primary_language": null,
+   "languages_supported": [],
+   "api_status": "public-key",
+   "api_docs_url": "https://developers.flatchr.io/",
+   "ingest_methods": [
+    "multiposting"
+   ],
+   "notes": "French ATS. Docs say the API key is generated in account settings under Advanced, API. Homepage says jobs are multiposted to more than 160 job boards. Pricing page text shows no visible prices.",
+   "sources": [
+    {
+     "field": "api_status",
+     "url": "https://developers.flatchr.io/docs/getting_started/",
+     "title": "Getting started",
+     "quote": "Votre API_KEY doit être générée dans votre espace Flatchr Paramètres avancés > Avancé > API.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.flatchr.io/",
+     "title": "Homepage",
+     "quote": "Multidiffusez sur +160 jobboards, sourcez vos candidats sur Linkedin et CVthèques, et utilisez le réseau de vos collaborateurs grâce à la cooptation.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Hireserve",
+   "url": "https://hireserve.com/",
+   "partner_program": "yes",
+   "partner_url": "https://hireserve.com/integrations/",
+   "ingest_methods": [
+    "multiposting"
+   ],
+   "notes": "UK-based ATS for in-house recruitment. Address on the contact page has no headquarters label. Job board integration page describes one-click posting to job boards.",
+   "sources": [
+    {
+     "field": "partner_program",
+     "url": "https://hireserve.com/integrations/",
+     "title": "Integrations and partnerships",
+     "quote": "We have developed a strong ecosystem of partners and integrations to ensure you can attract, engage and assess talent as efficiently and effectively as possible.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://hireserve.com/multiple-job-board-integrations/",
+     "title": "Job board integration",
+     "quote": "Post job adverts to multiple job boards with a single click using Hireserve’s integrated ATS job board functionality.",
+     "check": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Kenjo",
+   "url": "https://www.kenjo.io/",
+   "business_model": "subscription",
+   "primary_language": null,
+   "languages_supported": [],
+   "api_status": null,
+   "partner_program": null,
+   "partner_url": null,
+   "ingest_methods": [
+    "job board posting"
+   ],
+   "notes": "Workforce management software with per-employee monthly pricing (6.0 and 10.0 euros shown). Recruiting module includes a native integration to post jobs to 100+ job boards. Open API is offered to software partners.",
+   "sources": [
+    {
+     "field": "business_model",
+     "url": "https://www.kenjo.io/pricing",
+     "title": "Pricing",
+     "quote": "All prices are per employee per month.",
+     "check": "ok"
+    },
+    {
+     "field": "ingest_methods",
+     "url": "https://www.kenjo.io/pricing",
+     "title": "Pricing",
+     "quote": "All features of Kenjo's recruiting module + a native integration that can help you post jobs and hire from 100+ job boards.",
+     "check": "ok"
+    }
+   ],
+   "api_docs_url": null
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Voyager Infinity",
+   "url": "https://www.voyagersoftware.com/voyager-infinity/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status"
+   ],
+   "method": "browser",
+   "note": "Home, about and partners pages read; contact page returned HTTP 502 in the browser reader after one retry."
+  },
+  {
+   "name": "Encore (Cluen)",
+   "url": "https://www.cluen.com",
+   "outcome": "not-stated",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "partner_program",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Home and about pages read; they state no headquarters, pricing, API, partner or parent details."
+  },
+  {
+   "name": "Cornerstone OnDemand",
+   "url": "https://www.cornerstoneondemand.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "business_model",
+    "api_status",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Home, about, partners, contact and extend pages read; contact page gives headquarters and the language menu lists the other languages."
+  },
+  {
+   "name": "Oleeo",
+   "url": "https://www.oleeo.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "parent",
+    "ingest_methods"
+   ],
+   "method": "browser",
+   "note": "Home, about, partner ecosystem and contact pages read; contact page lists UK and US headquarters labels with no single country."
+  },
+  {
+   "name": "Jobsoid",
+   "url": "https://www.jobsoid.com",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "api_status",
+    "parent",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Home and pricing pages read; no contact, developer or partner page was linked from them."
+  },
+  {
+   "name": "Flatchr",
+   "url": "https://www.flatchr.io/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent",
+    "business_model",
+    "partner_program"
+   ],
+   "method": "browser",
+   "note": "Home, pricing and developer docs read; pricing page text shows no visible prices and no partner page is linked."
+  },
+  {
+   "name": "Hireserve",
+   "url": "https://hireserve.com/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "languages",
+    "business_model",
+    "api_status",
+    "parent"
+   ],
+   "method": "browser",
+   "note": "Home, about, integrations, job board and contact pages read; the address has no headquarters label."
+  },
+  {
+   "name": "Kenjo",
+   "url": "https://www.kenjo.io/",
+   "outcome": "partially-verified",
+   "fields_not_found": [
+    "hq_country",
+    "parent"
+   ],
+   "method": "browser",
+   "note": "Home, pricing, partner, and contact pages read; office addresses are not labelled as headquarters."
+  }
+ ],
+ "blocked": []
 }

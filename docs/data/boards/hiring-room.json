@@ -38,7 +38,14 @@
   "ats"
  ],
  "connections": [],
- "review": null,
+ "review": {
+  "board_id": "hiring-room",
+  "reviewed": "2026-11-26",
+  "outcome": "partially-verified",
+  "fields_not_found": "hq_country;languages;business_model;api_status;partner_program;parent",
+  "note": "Homepage, portals page, terms and privacy pages were read; no pricing, API, partner or headquarters label found.",
+  "method": "browser"
+ },
  "owners": [],
  "scale": [],
  "sources": [
